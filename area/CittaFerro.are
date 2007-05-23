@@ -1,0 +1,3372 @@
+#AREA
+Name         La cittadella del ferro~
+Author       Miciko~
+Color        AT_RED rosso~
+LevelRange   5 40
+ResetMsg1    Da lontano giunge il clangore della fornace..~
+Vnums        32800 32899
+End
+
+#MOBILES
+#32800
+capitano~
+il capitano del vascello~
+Un uomo siede pacifico davanti a uno scrittoio, è il capitano.
+~
+Quest'uomo sembra un campionario di protesi: ha un occhio di vetro, una
+gamba di legno, un uncino al posto della mano sinistra e dulcis in fundo,
+una fantastica placca di metallo gli ricopre l'avambraccio destro.
+Spostando lievemente lo sguardo noti la causa delle sue alterazioni organiche..
+Una gigantesca bocca di squalo è appesa come trofeo alla parete della cabina.
+Il capitano, tuttavia, sorride benevolo ai turisti e consiglia un bel giro in
+crociera per rilassare le stanche membra.
+~
+3 0 0 C
+40 0 -140 15d10+1850 4d8+13
+150 0
+5 5 1
+16 17 18 12 16 14 14
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1028 0 0 0 160 0
+> death_prog 100~
+say ..arr...arrrem..bbb...aggio...
+emote crolla per terra, esanime.
+~
+> fight_prog 58~
+mpechoat $n $I mi colpisce con la sua pesante gamba di legno!
+mpechoaround $n $I si sfila la gamba di legno e la dà in testa a $n!
+~
+> greet_prog 100~
+mpechoat $n Il capitano indica con l'occhio buono una targhetta appesa alla parete.
+~
+> bribe_prog 500~
+mpechoat $n Il capitano apre una porticina laterale.
+mpechoat $n Il capitano ti fa segno di entrare, ma prima ti consegna un salvagente..
+mpoload 32847 1
+give salvagente $n
+mptrans $n 32835
+mppurge monete
+~
+|
+#32803
+bimbo~
+un bimbo~
+Un bimbo gioca allegramente con i suoi amichetti.
+~
+Avrà più o meno cinque anni e corre all'impazzata per tutta la piazzetta.
+Corti capelli riccissimi gli adornano il viso, ogni tanto si ferma a guardarti
+fissandoti con i grandi occhi neri.. forse ti sta prendendo in giro o forse
+cerca solo di riconoscere il tuo viso.
+~
+131 0 0 C
+5 0 60 2d6+60 1d6+1
+3 0
+6 6 1
+10 11 11 14 10 12 11
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote inciampa e muore sotto la ferocia degli ultimi colpi.
+~
+> rand_prog 4~
+emote ti spruzza con un po' d'acqua dei suoi giochi..
+~
+|
+#32807
+bimba~
+una bimba~
+Una bimba gioca allegramente con i suoi amichetti.
+~
+Sembra un piccolo folletto dai capelli bruni e gli occhi azzurrissimi come il
+mare, ha un corto abitino di stoffa rossa e scarpette comode per giocare. Pare
+si stia divertendo a far ruotare per tutta la piazza una trottola di metallo..
+~
+131 0 0 C
+5 0 60 2d6+60 1d6+1
+3 0
+6 6 2
+10 11 11 14 10 12 11
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote muore garbatamente.
+~
+> greet_prog 100~
+if name($n) == Onirik
+  emote si mette a ridere con fare birbone
+  mpechoat $n La bimba ti tira la coda!
+endif
+~
+|
+#32809
+uomo soldato~
+un soldato arrabbiato~
+Il soldato brontola di quando in quando.
+~
+Ha lo sguardo fisso sul mare, la mano stringe l'elsa della spada. Ha i nervi
+tesi come se da un momento all'altro debbano sbucare nemici da ogni parte,
+eppure qualcosa suggerisce che il suo cipiglio è causato più dalla noia e
+dall'inattività che non da un pericolo reale.
+~
+3 0 0 C
+40 0 -140 15d10+1850 4d8+13
+50 0
+6 6 1
+16 14 15 17 18 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+> fight_prog 87~
+mpechoat $n $I mi colpisce con furia inaudita!
+mpechoaround $n $I colpisce $n con furia inaudita!
+~
+> death_prog 100~
+say ..arr..rrr...maled....ett....
+emote impreca contro la sua meschina sorte.. e muore.
+~
+|
+#32810
+soldato~
+un soldato innamorato~
+La sentinella è qui e sospira in continuazione.
+~
+Si appoggia stancamente al bordo della feritoia del bastione e fissa il mare
+con sguardo perso.. Ogni tanto sospira balbettando qualche parola
+incomprensibile e talvolta fischietta pure una melodia. Ha proprio l'aria del
+soldato fiero del compito che gli è stato assegnato..
+~
+3 0 0 C
+35 0 -115 10d10+1300 4d7+11
+50 0
+6 6 1
+16 13 14 14 16 13 14
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+> fight_prog 65~
+mpechoat $n $I mi colpisce con molto poco convincimento.. dove avrà la testa?
+mpechoaround $n $I colpisce $n come se impugnasse una piuma.. ma che starà pensando?!
+~
+> death_prog 100~
+emote invoca il nome dell'amata prima di crollare al suolo..
+~
+> rand_prog 10~
+emote sospira mormorando.. "Criselda.. Criselda dove sei!"
+~
+|
+#32811
+donna alta~
+una donna alta~
+Una donna slanciata è qui a lavorare con le altre.
+~
+A forza di sollevare ed abbassare il soffietto della fornace, il suo
+fisico si è modellato alla perfezione. I capelli sono raccolti sotto
+un turbante di cotone ma una ciocca sbarazzina sbuca da sotto le fasce
+rivelando una chioma color del fuoco.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+15 0
+8 8 2
+14 15 13 13 13 15 14
+0 0 0 0 0
+0 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+say ..padrooona....
+emote chiama a gran voce qualcuno che l'aiuti.. speranza vana..?
+~
+> fight_prog 100~
+mpechoat $n $I mi colpisce con un pesante cordone di juta!
+mpechoaround $n $I colpisce $n con un pesante cordone di juta!
+~
+> speech_prog p ..l'amore dorato delle donne del mantice..~
+say ..fonde e scorre, e si trasforma in una lama..
+~
+> rand_prog 7~
+say ...uno, due, anche i bambini sanno spingere..
+~
+|
+#32812
+donna bassa~
+una donna bassa~
+Una donna bassa sbuffa e stringe i denti faticando come un mulo.
+~
+Piccola e cicciotta, questa donna si sta dando da fare molto più delle altre
+perché le sue gambine corte non tengono il passo delle compagne.
+Nonostante tutto però, tiene alto il morale delle altre, canticchiando delle
+canzoncine a tratti moralmente irripetibili.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+15 0
+8 8 2
+14 15 13 13 13 15 14
+0 0 0 0 0
+0 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote cerca di difendersi ma l'ultimo colpo è letale..
+~
+> fight_prog 93~
+mpechoat $n $I si scaglia contro di me con gran veemenza!
+mpechoaround $n $I si scaglia contro $n con gran veemenza!
+~
+|
+#32813
+donna magra scheletrino~
+una donna magra~
+Uno scheletrino con sembianze femminili lavora con le altre.
+~
+A prima vista sembra davvero uno scheletro.. In realtà è una donna di mezz'età
+provata dalle fatiche di questo lavoro. Indossa una semplice tunichetta leggera
+e si aggrappa con tutte le forze alla sbarra di sostegno, mentre preme con i
+piedi la superficie del gigantesco soffietto.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+15 0
+8 8 2
+14 15 13 13 13 15 14
+0 0 0 0 0
+0 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote cade al suolo e sembra già essere scheletro.. tant'è magra.
+~
+> fight_prog 100~
+mpechoat $n $I mi percuote il capo con le sue braccia ossute..
+mpechoaround $n $I percuote $n con le sue braccia ossute!
+~
+|
+#32814
+donna risoluta~
+una donna risoluta~
+Una donna dà il tempo alle compagne con voce tonante.
+~
+Energica e risoluta, questa donna dev'essere la coordinatrice del gruppo
+femminile. Riesce a lavorare, anche per le compagne più deboli, in più
+trova anche il fiato per urlare continuamente "Su! Giù", ritmando e
+coordinando i movimenti di tutte.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+15 0
+8 8 2
+14 15 13 13 13 15 14
+0 0 0 0 0
+0 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote guarda per l'ultima volta questo mondo.. poi chiude gli occhi per sempre.
+~
+> fight_prog 52~
+mpechoat $n $I mi sferra un pugno proprio sul naso!
+mpechoaround $n $I sferra un potente pugno sul naso di $n!
+~
+> speech_prog p ...uno, due, anche i bambini sanno spingere..~
+say ..tre, quattro, anche un orco urlerebbe..
+~
+|
+#32815
+donna chiacchierona~
+una donna chiacchierona~
+Un continuo ciarlare di una donna piccina ti riempie le orecchie.
+~
+Piccina piccina ma forzuta quanto basta per lavorare alla fornace, questa donna
+non fa altro che parlare e parlare e parlare.. Alcune delle sue compagne sono
+visibilmente allucinate dal suo continuo blablabla ma altre sorridono benevole,
+distraendosi un po' dalla faticosa occupazione.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+20 0
+8 8 2
+14 15 13 13 13 15 14
+0 0 0 0 0
+0 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> greet_prog 100~
+if name($n)== Onirik
+  smile $n
+  whisper a $n Ma sai che l'Avellino è proprio una grande squadra....
+endif
+~
+> death_prog 100~
+say ..e.. non ...ave..vo...ancor...dett..che....
+emote grazie ad un intervento divino muore e libera il mondo dalle sue chiacchiere.
+~
+> fight_prog 45~
+mpechoat $n $I mi parla addosso in continuazione stordendomi con la sua voce!
+mpechoaround $n $I rintrona $n a suon di pettegolezzi!
+~
+> speech_prog p ..tre, quattro, anche un orco urlerebbe..~
+say ..l'amore dorato delle donne del mantice..
+~
+|
+#32816
+guardiana~
+la guardiana~
+Una donna dall'aria impassibile è qui a far la guardia.
+~
+E' una delle ancelle di dama Yshen, la responsabile della cittadella.
+Ha un'aria falsamente distratta, per non attirare su di sé l'attenzione,
+in realtà il suo sguardo è vigile per controllare ogni movimento sospetto.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+30 0
+8 8 2
+14 15 13 13 13 15 14
+0 0 0 0 0
+0 10 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote con un ultimo gesto eroico cerca di difendere il palazzo..
+~
+> fight_prog 65~
+mpechoat $n $I si lancia contro di me urlando come un'ossessa!
+mpechoaround $n $I si lancia contro $n urlando come un'ossessa!
+~
+|
+#32817
+Yshen capo donna~
+Yshen~
+Una donna dall'aria risoluta è seduta qui.
+~
+Yshen è la responsabile della cittadella, in molti l'hanno ormai soprannominata
+"la Padrona", non tanto per modi baldanzosi, quanto piuttosto per il suo
+notevole impegno e per l'amore verso i cittadini.
+Una complessa acconciatura le adorna il capo, un intreccio di ciocche è fermato
+da nastri in pelle e fermagli in metallo lucente.
+Al momento Yshen è occupata a firmare dei fogli, sbirciando da dietro riesci
+a carpire alcuni particolari delle carte: sono contratti di commercio inerenti
+traffico di nuovi prototipi d'armi..
+~
+3 0 0 C
+43 0 -155 25d10+2500 3d12+15
+100 0
+5 5 2
+16 18 19 17 16 19 18
+0 0 0 0 0
+0 0 0 0 1 1 1
+0 0 0 0 0 0 0 0
+> death_prog 100~
+say ..grande Dio della foresta..perdonami...
+emote muore adagiandosi al suolo come un fuscello
+~
+> fight_prog 100~
+mpechoat $n $I mi assalta ferendomi con il suo stiletto!
+mpechoaround $n $I assalta $n ferendol$x con il suo stiletto!
+~
+|
+#32818
+vecchio omino~
+un omino vecchio e stanco~
+Seduto su un panchetto vedi un vecchio dall'aria stanca e brontolona.
+~
+Vecchierel canuto e stanco, s'appoggia alla stampella biascicando in
+continuazione e lanciando via via degli improperi a tutti i giovani oziosi del
+mondo.
+~
+3 0 0 C
+25 0 -65 5d10+550 2d10+7
+12 0
+6 6 1
+13 15 16 14 13 17 16
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+say ..sempre colpa dei giovani...
+emote muore nelle proprie convinzioni..
+~
+> fight_prog 90~
+mpechoat $n $I mi accusa di essere sovversiv$x e mi bastona!
+mpechoaround $n $I accusa $n e l$x bastona con la stampella!
+~
+> rand_prog 5~
+emote borbotta qualcosa a voce bassa, lamentandosi di qualcosa.
+say Eh.. non ci sono più i giovani di una volta.
+~
+> speech_prog p ..i giovani di una volta sono i vecchi di adesso...~
+emote s'accorge della malefatta e impugna la sua fida stampella!
+say Ora ti faccio vedere io!
+say Sarò poco giovane ma mi so ancora difendere!
+emote con gran stridor di ossa prende a stampellate l'omone.
+~
+|
+#32819
+uomo~
+un uomo grosso~
+Un uomo di forte corporatura è qui a sostituire una sentinella.
+~
+Alto ed imponente dalle braccia grosse come tronchi, gambe solide e muscolose
+ma l'espressione perennemente affranta ed annoiata, come se qualcuno lo stesse
+importunando dall'inizio della sua vita..
+~
+3 0 0 C
+38 0 -130 10d10+1600 5d6+12
+10 0
+6 6 1
+17 16 15 17 18 12 11
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+say ...proprio ora che avevo iniziato gli affari...
+emote schiocca le dita in segno di dissenso e muore.
+~
+> fight_prog 54~
+mpechoat $n $I unisce le mani e mi tira un pugno sonoro!
+mpechoaround $n $I colpisce $n a mani giunte! 
+~
+> speech_prog p Eh.. non ci sono più i giovani di una volta.~
+emote sbuffa e pensando di non essere visto fa un gestaccio al vecchietto.
+say ..i giovani di una volta sono i vecchi di adesso...
+~
+|
+#32820
+addetto ometto uomo~
+l'addetto alla fornace~
+Un ometto baffuto controlla di continuo la fornace.
+~
+Quest'uomo vigila sul fuoco della fornace, impedendo che si spenga e
+bloccando la produzione di metallo fuso e quindi la creazione dei
+manufatti e delle armi. Ogni tanto dà qualche direttiva alle donne
+che muovono il gigantesco soffietto, aumentando o diminuendo la
+portata delle fiamme a seconda della necessità.
+~
+3 0 0 C
+35 0 -115 10d10+1300 4d7+11
+50 0
+8 8 1
+16 13 14 14 16 13 14
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote cade dritto steso come un fuso sotto la furia dei colpi.
+~
+> fight_prog 68~
+mpechoat $n $I cerca di colpirmi con le tenaglie per il fuoco!
+mpechoaround $n $I cerca di colpire $n con le tenaglie per il fuoco!
+~
+|
+#32821
+ometto uomo individuo~
+un ometto piccino~
+Un ometto ti guarda cercando di richiamare la tua attenzione.
+~
+Osservi quest'omino dall'aspetto insignificante, seduto in un angolo proprio
+davanti alla porta del magazzino di riserve della città. Che sia un caso?
+A sua volta ti squadra e ti fissa con insistenza, il viso contratto da un tic
+incessante, ma forse non è un tic.. forse ti sta ammiccando per avere dei
+soldi.
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+23 0
+6 6 1
+12 13 15 14 13 16 14
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote cade al suolo come un sacchettino di stoffa.. e muore.
+~
+> rand_prog 10~
+say Ehi...ppssstt.. ti interesserebbe visitare il magazzino..mh?
+emote allunga una mano verso di te
+say Non temere la generosità..
+~
+> bribe_prog 500~
+mpechoat $n L'uomo sembra visibilmente più contento.
+emote si fruga nelle tasche del vestito cercando qualcosa.
+mpoload 32841 1
+unlock porta
+open porta
+emote si siede borbottando qualcosa e contando le monete.
+mppurge monete
+mppurge chiave
+~
+> bribe_prog 100~
+say a $n La generosità non è il tuo forte vedo..
+grin $n
+mpechoat $n L'uomo intasca i soldi senza aggiungere parola.
+mpechoat $n Qualcosa ti suggerisce che donargli un po' di più non sarebbe una cattiva idea
+mppurge monete
+~
+|
+#32822
+guardiano uomo~
+un guardiano~
+Un uomo è qui preposto alla guardia del palazzo.
+~
+Abbigliato come un soldato, quest'uomo ha il compito di tenere
+d'occhio tutti quelli che s'avvicinano alla grande casa centrale.
+I visitatori non ben accetti vengono rimandati sui propri passi
+senza tanti convenevoli..
+~
+3 0 0 C
+42 0 -150 25d10+2250 3d12+14
+15 0
+8 8 1
+19 15 15 17 18 14 14
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote crolla al suolo in una pozza di sangue.
+~
+> fight_prog 51~
+mpechoat $n $I muove la sua arma contro di me con gran perizia..
+mpechoaround $n $I agita l'arma contro $n molto sapientemente!
+~
+> greet_prog 100~
+if name($n) == Amlugil
+  mpoload 32852
+  mpechoat $n Il guardiano scatta sull'attenti e dice "Generale ho una consegna per Voi!"
+  give ritratto Amlugil
+  grin
+endif
+~
+|
+#32823
+guardiano uomo~
+un guardiano~
+Il guardiano del palazzo veglia sull'incolumità della Padrona.
+~
+E' alto e fisicamente ben piazzato, silenzioso con gli estranei, parla
+solo per dare il benvenuto ai visitatori attesi e per cacciare in malo
+modo quelli inopportuni.
+~
+3 0 0 C
+42 0 -150 25d10+2250 3d12+14
+15 0
+8 8 1
+19 15 15 17 18 14 14
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote cerca di resistere fino all'ultimo, poi soccombe..
+~
+> fight_prog 50~
+mpechoat $n $I muove la sua arma contro di me con gran perizia..
+mpechoaround $n $I agita l'arma contro $n molto sapientemente!
+~
+|
+#32824
+addetto uomo~
+addetto al magazzino~
+Un uomo di bassa statura è qui a controllar le merci.
+~
+Corre avanti e indietro per il magazzino come un'ape in cerca di nettare.
+Ha una cartellina in mano su cui segna minuziosamente il contenuto delle nuove
+casse giunte in magazzino. A giudicare dalla grandezza del locale e dalla
+rapidità degli scambi commerciali, quest'uomo trascorre una vita tutt'altro
+che rilassante..
+~
+2097155 0 0 C
+20 0 -40 3d9+333 2d8+5
+124 0
+8 8 1
+12 13 15 14 13 16 14
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote lancia un'ultima occhiata intorno, controllando che sia tutto in ordine.. poi muore.
+~
+> greet_prog 100~
+mpoload 32841
+close porta
+lock porta
+~
+|
+#32825
+ambulante~
+un mercante ambulante~
+Il mercante ambulante vestito di sgargianti colori chiama a sé i passanti
+~
+Indossa un abito multicolore, forse per pubblicizzare al meglio le proprie
+merci. Ha un giocondo pancione che agita ridacchiando ogni volta che
+un bimbo passa davanti alla bancarella. Probabilmente si diverte di più a
+far ridere i bambini che a vendere stoffe..
+~
+193 0 0 C
+25 0 -65 5d10+550 2d10+7
+231 0
+8 8 1
+15 17 17 16 15 19 18
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote prima di morire controlla i soldi in tasca..
+~
+> fight_prog 80~
+mpechoat $n $I mi lancia addosso tutti i suoi ammennicoli!
+mpechoaround $n $I è spaventato e lancia addosso a $n tutti i suoi ammennicoli!
+~
+> greet_prog 100~
+if name($n)== Lipseth
+  smile $n
+  mpechoat $n Il mercante ti fa segno di seguirlo..
+  whisper a $n Se sei davvero la Rosa Blu ripeti .. "Eylantur Arinder Fernemin"
+endif
+~
+> speech_prog p Eylantur Arinder Fernemin~
+if name($n)== Lipseth
+  mpechoat $n Il mercante ti conduce lontano dalla bancarella e ti mostra un fazzoletto di velluto rosso cupo..
+  mpechoat $n Il mercante ne trae fuori un oggetto dalla forma inconsueta e te lo porge..
+  mpoload 32853
+  give fermacapelli $n
+else
+  mpechoat $n L'ambulante ti guarda incuriosito.. "Cosa avete detto?"
+endif
+~
+|
+#32826
+mercante armaiolo omone~
+un armaiolo~
+Un omone dallo sguardo serio è intento a lucidare spade e lance.
+~
+Basso tarchiato e con due braccia simili a prosciutti, l'armaiolo sta davanti
+a te in attesa che tu gli chieda informazioni sulle armi che vende.. O perché
+no, magari comprarne anche qualcuna.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+176 0
+8 8 1
+17 14 15 14 14 16 16
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote crolla con gran fracasso di armature.
+~
+> fight_prog 73~
+mpechoat $n $I infila la mano in un elmo e lo usa per colpirmi!
+mpechoaround $n $I infila la mano in un elmo e lo usa per colpire $n!
+~
+|
+#32827
+uomo~
+un alto uomo baffuto~
+Un uomo è qui in piedi guardando chissà cosa.
+~
+Il particolare che spicca all'occhio è il gran paio di baffoni da tricheco che
+gli copre metà del viso. Ogni tanto, agita le labbra bofonchiando qualche
+parola e i mustacci si muovono come se si trattasse di un animaletto
+domestico..
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+12 0
+8 8 1
+17 14 15 14 14 16 16
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote borbotta alcune parole incomprensibili, poi muore sotto la furia dei colpi..
+~
+> fight_prog 67~
+mpechoat $n $I mi dà una possente manata in pieno viso!
+mpechoaround $n $I dà una portentosa manata a $n in pieno viso!
+~
+|
+#32828
+ragazza giovane fanciulla~
+una giovane fanciulla~
+Vedi una giovane fanciulla al seguito di Yshen.
+~
+Una ragazzina dai lunghi capelli dorati attende pazientemente d'accudire la
+Signora della città. La carnagione del viso è rosa pallido mentre le labbra
+sono di un inconsueto rosso vivace, sommessamente accenna un sorriso appena ti
+vede, forse è contenta di incontrare qualcuno oltre alle solite guardie di
+palazzo.
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+18 0
+6 6 2
+12 13 15 14 13 16 14
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote come un piccolo fiore reciso, s'accascia al suolo nelle sue lievi vesti.
+~
+> fight_prog 78~
+mpechoat $n $I lotta contro di me per non soccombere..
+mpechoaround $n $I lotta con tutte le sue forze contro $n!
+~
+|
+#32830
+soldato pigro~
+un soldato pigro~
+Il soldato s'appoggia stancamente alla sua lancia.
+~
+Il soldato si esibisce in una generosa quantità di sbadigli.. non ha proprio
+alcuna intenzione di stare qui a far da sentinella al mare.
+~
+3 0 0 C
+35 0 -115 10d10+1300 4d7+11
+50 0
+6 6 1
+16 13 14 14 16 13 14
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote si distende a terra, quasi contento di poter finalmente riposare ininterrottamente..
+~
+> fight_prog 77~
+mpechoat $n $I mi sbadiglia addosso asfissiandomi con il suo alito mefitico!
+mpechoaround $n $I sbadiglia addosso $n asfissiandol$x con il suo alito mefitico!
+~
+|
+#32831
+venditore ~
+un venditore di stoffe~
+Un allegro mercante mette in mostra le belle stoffe colorate.
+~
+Alto e magro, con dei piccoli occhialini che gli cadono in continuazione sul
+naso, questo venditore fa di tutto per accaparrarsi l'attenzione dei passanti
+e per mostrare le proprie stoffe che, a suo onore, non sono affatto malvage,
+anzi.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+243 0
+8 8 1
+17 14 15 14 14 16 16
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote soffoca sotto il peso dei suoi vestiti e dei colpi inferti..
+~
+> fight_prog 85~
+mpechoat $n $I cerca di strozzarmi con una sciarpa di seta!
+mpechoaround $n $I cerca di strozzare $n con una sciarpa di seta!
+~
+|
+#32832
+lebbroso~
+un lebbroso~
+Un lebbroso è rintanato in un angolo..
+~
+E' nascosto in un angolo della stanza, si ripara dalla luce quasi temendo che
+la sua natura si riveli al mondo ed il mondo lo distrugga.. Fra una benda e
+l'altra s'intravedono gli occhi che mantengono un'inattesa vivacità
+nell'azzurro carico dell'iride.
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+7 0
+6 6 1
+12 13 15 14 13 16 14
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+say ..finalmente..dolce liberatrice..
+emote sembra quasi sorridere mentre la sua anima abbandona quel che rimane del corpo.
+~
+> fight_prog 78~
+mpechoat $n $I mi lancia addosso un pezzo della sua carne lebbrosa!
+mpechoaround $n $I lancia addosso a $n un pezzo della sua carne lebbrosa!
+~
+|
+#32833
+bendato lebbroso uomo~
+un uomo bendato~
+Un mucchio di bende è ammassato in un angolo.. Ah no, è un uomo.
+~
+Non sembra più nemmeno un uomo quest'essere coperto da una miriade di bende..
+Sporge verso di te un arto che ricorda lontanamente un braccio ma è coperto di
+bolle e croste e termina in un moncherino privo di dita che dovrebbe essere la
+mano..
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+7 0
+6 6 1
+12 13 15 14 13 16 14
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote attraverso le sudicie bende emana l'ultimo afflato di vita.
+~
+> fight_prog 87~
+mpechoat $n $I mi lancia addosso una benda infetta!
+mpechoaround $n $I lancia bende infette addosso a $n!
+~
+|
+#32834
+locandiere~
+un locandiere~
+Il locandiere è qui pronto ad accogliere i nuovi venuti.
+~
+Ha l'aria gaudente e simpatica, il viso rubizzo, le guance tonde ed un
+generoso trippone lo rendono molto morbido sia di fisico che d'indole.
+Chiacchiera in continuazione con diversi avventori seduti al bancone, ripieni
+di viscere ed alcool..
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+187 0
+8 8 1
+17 14 15 14 14 16 16
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote si porta le mani al petto e cade pesantemente al suolo.~
+> fight_prog 67~
+mpechoat $n $I mi lancia addosso brocche e bicchieri!
+mpechoaround $n $I è impazzito e lancia addosso a $n brocche e bicchieri!
+~
+> greet_prog 100~
+mpechoat $n Il locandiere ti dice "Salve! Se avete bisogno di riposare andate pure al piano superiore"
+~
+|
+#32835
+inserviente~
+un inserviente~
+Un inserviente è qui, in attesa di mostrarti la stanza.
+~
+Atteggiamento impettito, non ha un capello fuori posto, impeccabile nel pur
+semplice abbigliamento. E' un inserviente che sa il suo mestiere e
+probabilmente attende che tu gli dica quale stanza hai prenotato..
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+15 0
+8 8 1
+12 13 15 14 13 16 14
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> death_prog 100~
+emote prima di crollare esanime pulisce un po' il pavimento.
+~
+|
+#0
+
+#OBJECTS
+#32800
+carne~
+una fetta di carne essiccata~
+Una lunga fetta di carne essiccata è qui.. hai fame?~
+~
+19 0 1 0
+5 0 0 0
+1 4 0
+E
+carne~
+Se la vista non ti ha ancora convinto, prova ad assaggiarla.. Non sembra
+affatto male.
+~
+#32801
+tunica~
+una tunica da lavoro~
+Una corta tunichetta di stoffa è qui per terra.~
+~
+9 0 9 0
+0 0 0 0
+1 19 1
+E
+tunica~
+Si tratta di una semplice tunichetta di cotone, corta al ginocchio, indossata
+dalle donne della cittadella del ferro.
+~
+#32802
+sandali sandaletti~
+comodi sandaletti~
+Vedi un paio di sandaletti per terra.~
+~
+9 0 65 0
+0 0 0 0
+1 27 2
+E
+sandali sandaletti~
+Sono di linea semplice ma dall'aspetto robusto e sembrano anche molto comodi.
+~
+#32803
+stivali ~
+stivali pesanti~
+Un paio di grossi stivali è poggiato qui.~
+~
+9 0 65 0
+0 0 0 0
+1 34 3
+E
+stivali~
+Sono grossi e realizzati con materiale estremamente resistente, assomiglia
+vagamente a lava solidificata..
+~
+#32804
+turbante~
+un turbante di cotone~
+Uno strano groviglio di cotone è qui per terra, si tratta di un turbante~
+~
+9 0 17 0
+0 0 0 0
+1 23 2
+E
+turbante groviglio~
+Un comodo copricapo di cotone, all'occorrenza può essere sciolto ed utilizzato
+come telo per asciugarsi.
+~
+#32805
+giacca ~
+una pesante giacca blu~
+Una giacca con bottoni dorati è stata posata qui.~
+~
+9 256 1025 0
+0 0 0 0
+1 590 59
+E
+giacca~
+E' tutta blu con bei bottoni dorati a dar tono ed allegria al tutto. Sembra un
+po' datata eppure s'è mantenuta bene nel tempo.
+~
+#32806
+pantaloni~
+pantaloni alla zuava~
+Un inconsueto paio di pantaloni è riposto qui.~
+~
+9 0 33 0
+0 0 0 0
+1 300 30
+E
+pantaloni zuava~
+Di velluto a coste, color blu scuro, accompagnati da un lungo paio di
+calzettoni bianchi, questi pantaloni alla zuava sembrano proprio comodi.
+~
+#32807
+calzature scarpa scarpe ~
+calzature da capitano~
+Un bel paio di scarpe bianche tirate a lucido è qui per terra.~
+~
+9 0 65 0
+0 0 0 0
+1 200 20
+E
+scarpa calzatura scarpe~
+Sono delle tradizionali scarpe da uomo con un leggero tacco, tirate a lucido e
+pitturate di vernicetta bianca, sulla linguetta riportano una fibbia dorata.
+~
+#32808
+cappello capitano~
+cappello del capitano~
+Un bel cappello di panno pesante è poggiato qui.~
+~
+9 0 17 0
+0 0 0 0
+1 150 15
+E
+cappello~
+E' realizzato con cura, il panno lavorato sembra molto resistente. Le falde
+del cappello sono bordate con una passamanierina argentata.
+~
+#32809
+maglietta maglia~
+una maglietta da bambino~
+Una piccola maglia con disegni infantili è poggiata qui.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+maglia maglietta~
+Una semplice maglia di lino, cucita in modo da resistere alle scorribande
+infantili. E' decorata con disegni di animali.. Fra essi ti pare di scorgere
+l'immagine di un cervo con uno strano volto umano..
+~
+#32810
+calzoncini pantaloncini~
+calzoncini da bambino~
+Qualche bimbo s'è dimenticato qui i pantaloncini..~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+calzoncini pantaloncini~
+Sono un po' piccini e stretti, realizzati con cotone resistente, per ovviare
+alle necessità di gioco dei più piccini.
+~
+#32811
+vestitino abitino ~
+un vestitino fiori bimba~
+Un graziosissimo abitino è poggiato qui con cura.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+vestito abitino abito~
+E' un grazioso abitino per bimbe, una scamiciata lunga e svasata per non
+impedire i movimenti durante il gioco. Allegri motivi floreali adornano
+l'abitino.
+~
+#32812
+copricapo berretto~
+il copricapo della guardiana~
+Uno strano berretto si trova qui.
+~
+~
+9 0 17 0
+0 0 0 0
+1 0 0
+E
+copricapo berretto~
+Si tratta di una coppoletta di cotone interamente ricamato, ai bordi del
+berrettino sono appese alcune piccole perle di fiume.
+~
+#32813
+bancarella~
+una bancarella~
+Una delle bancarelle del mercato è piena di oggettini curiosi.~
+~
+15 0 0 0
+1000 1 0 0
+5 0 0
+E
+bancarella~
+E' un largo bancone di legno, coperto da un simpatico batik raffigurante scene
+di vita quotidiana della cittadella.
+~
+#32814
+giroscopio trottola~
+una trottola di metallo~
+Per terra vedi un gioco per bambini, è una trottola.~
+~
+8 0 16385 0
+0 0 0 0
+1 0 0
+E
+trottola gioco~
+Una strana trottola di metallo: è formata da un asticella di metallo con
+un'estremità appuntita ed un disco posizionato a metà dell'asse. I bimbi si
+divertono a farla camminare su un filo, dopo averla messa in rotazione.
+~
+#32815
+pantagonna gonna~
+una pantagonna di lino~
+Un'inconsueta gonna è piegata e riposta qui.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+gonna pantagonna~
+Ottenuta dalla felice unione di due rettangoli di tessuto leggero, questa
+pantagonna è ornata con motivi floreali sui bordi. E' un indumento poco usuale
+da queste parti, ma sembra essere molto comodo.
+~
+#32816
+grembiule~
+un pesante grembiule di cuoio~
+Un grosso grembiule di cuoio è poggiato qui.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+grembiule~
+Sarà spesso almeno un centimetro questo grosso grembiulone; è fatto di cuoio e
+ha qualche bruciatura sui bordi.
+~
+#32817
+fonte fontana fontanella~
+una fontanella~
+In mezzo alla piazza vedi zampillare una fontanella.~
+~
+25 0 0 0
+0 0 0 0
+1 0 0
+E
+barchetta~
+Leggera e semplice di linea, questa barchetta è una piccola costruzione usata
+dai bimbi della cittadella per divertirsi ad inaugurare le nuove fontane..
+~
+#32818
+blusa~
+una blusa di lino~
+Una blusa rossa è piegata e posata qui per terra.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+blusa~
+Dei leggeri alamari di cuoio chiudono questa blusa che pare tinta nei colori
+del sole nascente.
+~
+#32819
+sandaletti sandali~
+sandaletti leggeri~
+Un bel paio di sandaletti è riposto qui con cura.~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+sandaletti~
+Graziosa e morbida la linea che avvolge il piede in sottili strisce di cuoio
+nero lavorato e impresso dal fuoco dei migliori artigiani. Alcuni simboli
+simili a piccole onde, sono pirografati sui laccetti che compongono questi
+sandali.
+~
+#32820
+copricapo~
+il copricapo di Yshen~
+Un copricapo è posato qui.
+~
+~
+9 0 17 0
+0 0 0 0
+1 0 0
+E
+copricapo~
+Sembra un tronco di cono rovesciato. Realizzato in lana cotta, tinta di nero
+con sgargianti linee rosse che si intrecciano lungo tutta la superficie
+laterale.
+~
+#32821
+mantello~
+il mantello rosso di Yshen~
+Un bel mantello è poggiato qui.
+~
+~
+9 0 1025 0
+0 0 0 0
+1 0 0
+E
+mantello~
+Ampio e caldo, rosso con lunghe linee nere che si rincorrono e s'intrecciano
+dalla base del mantello fino al colletto.
+~
+#32822
+pantaloni~
+larghi pantaloni di Yshen~
+Un paio di pantaloni di lana è posato qui.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni~
+Sono stretti in vita da una bella fascia nera e dorata, vanno via via
+svasandosi verso il ginocchio e la parte finale delle caviglie.
+~
+#32823
+sandali~
+sandali comodi~
+Un paio di sandali è riposto qui con cura.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+sandali~
+Come molti altri sandali, anche questi sono realizzati in cuoio e decorati con
+marchi a fuoco rappresentanti delle piccole Y.
+~
+#32824
+braccialetto~
+braccialetto di Yshen~
+Un braccialetto a forma di serpente è qui per terra.
+~
+~
+9 0 4097 0
+0 0 0 0
+1 0 0
+E
+braccialetto~
+E' un bellissimo serpente d'argento, con occhi di rubino e piccole scaglie di
+smeraldo. Sul capo della bestia è incastonata una Y di minuscoli diamanti.
+~
+#32825
+arma stiletto~
+lo stiletto di Yshen~
+Una piccola arma affilata è qui per terra.
+~
+~
+5 0 8193 0
+12 8 8 2
+15 20 0
+E
+arma stiletto~
+E' un corto stiletto dalla lama sottile ma molto affilata e puntuta. Sembra
+un'arma che in buone mani sa fare bene il proprio lavoro..
+~
+#32826
+tunica~
+una logora tunica~
+Una vecchia tunica è qui per terra.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+tunica~
+Un unico pezzo di juta per questa vecchia tunica logora.
+~
+#32827
+specchio specchietto~
+uno specchietto~
+Vedi un piccolo specchietto incastrato in una cornice d'ebano.~
+~
+8 0 16385 0
+0 0 0 0
+1 0 0
+E
+specchio specchietto~
+Si tratta di un grazioso specchietto, abilmente adagiato in una cornice di
+legno scuro.
+~
+#32828
+mantellone mantello~
+un enorme mantello~
+Un gigantesco mantello è posato qui.~
+~
+9 0 1025 0
+0 0 0 0
+1 0 0
+E
+mantello mantellone~
+Più che un mantello sembra una coperta a due piazze. E' ampio e
+incredibilmente caldo.
+~
+#32829
+martello~
+un grosso martello~
+Un martellone da guerra attende d'esser usato..
+~
+~
+5 0 8193 0
+12 5 9 7
+46 10 0
+E
+martello martellone~
+E' grosso e molto pesante, realizzato con una fortunata lega di metalli che
+conferisce all'arma una particolare resistenza agli urti.
+~
+#32830
+pantaloni~
+pantaloni di lana~
+Vedi poggiati in un angolo dei pantaloni di lana.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni~
+Sono cuciti bene e realizzati con calda lana decorata con motivi geometrici,
+soprattutto rombi.
+~
+#32831
+casacca~
+casacca di tela~
+Qualcuno ha lasciato qui la propria casacca.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+casacca~
+Una semplice casacca di tela con il colletto lievemente rialzato e chiuso da
+tre bottoni, per riparare la gola dal freddo.
+~
+#32832
+brache mutandoni~
+corte brache di lana~
+Ehi.. Sembrano proprio i mutandoni del nonno!
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+brache~
+Quasi assale l'impressione di un salto generazionale, queste brache sembrano
+proprio i mutandoni degli antenati..
+~
+#32833
+ciondolo~
+un ciondolo d'oro bianco~
+Un grazioso ciondolino d'oro bianco è qui per sbaglio.~
+~
+8 0 5 0
+0 0 0 0
+1 0 0
+E
+ciondolo~
+Mani abili e sapienti hanno plasmato questo frammento d'oro bianco fino a
+donargli la forma di una figura che abbraccia una scheggia pulsante di vita
+propria..
+~
+#32834
+baule cassone~
+un grosso baule di legno~
+Nel baule trovi l'indispensabile per le sentinelle di turno.~
+~
+15 0 0 0
+140 0 0 0
+10 0 0
+E
+baule~
+E' un vecchio baule in legno massiccio, non bello ma sicuramente utile.
+~
+#32835
+spada ~
+una spada affilata~
+Una spada affilata è qui per terra.
+~
+~
+5 0 8193 0
+12 2 3 3
+1 0 0
+E
+spada~
+Lunga lama e ben bilanciata, questa spada può offrirti un valido supporto
+contro i nemici.
+~
+#32836
+otre~
+un otre di pelle~
+Un otre per l'acqua è posato qui.~
+~
+17 0 1 0
+3 3 0 0
+1 0 0
+E
+otre~
+E' un comodo otre da riempire e portarsi dietro per rimediare alla sete.
+~
+#32837
+balestra~
+una balestra corta~
+Qualcuno s'è dimenticato qui la propria balestra.~
+~
+56 0 8193 0
+0 0 0 0
+1 0 0
+E
+balestra~
+Piccola e leggera, magari è anche micidiale..
+~
+#32838
+pesce~
+del pesce affumicato~
+Un odorino di pesce proviene da questo mucchio di roba.~
+~
+19 0 1 0
+0 0 0 0
+1 0 0
+E
+pesce~
+Ha un bell'aspetto, conservato bene e forse anche commestibile. Non resta che
+provarlo.
+~
+#32839
+armatura~
+una pesante armatura~
+Una grossa armatura di ferro è qui per terra.~
+~
+9 0 9 0
+0 0 0 0
+5 10 1
+E
+armatura~
+A giudicare dalla stazza dell'armatura, bisogna aver buoni muscoli per potersi
+muovere agilmente con questa addosso. Nonostante la pesantezza, probabilmente
+fa bene il suo dovere d'armatura.
+~
+#32840
+fionda~
+una fionda~
+Una piccola fionda è poggiata per terra~
+~
+5 0 8193 0
+0 5 4 0
+1 0 0
+E
+fionda~
+Un bel gioco per bambini.. Sì, sì, un bel gioco, finché non t'arriva un sasso
+in un occhio.
+~
+#32841
+chiave magazzino~
+la chiave del magazzino~
+Vedi per terra la chiave del magazzino.~
+~
+18 0 16385 0
+0 0 0 0
+1 0 0
+E
+chiave~
+E' la chiave del magazzino della cittadella, fanne buon uso.
+~
+#32842
+lancia~
+una lunga lancia~
+Vedi per terra un lungo bastone, anzi no è una lancia.~
+~
+5 0 8193 0
+12 2 3 11
+1 20 2
+E
+lancia~
+E' una lunga lancia dalla punta in ferro incastrata in un solido corpo di
+legno, di solito viene utilizzata dalle guardie della cittadella
+~
+#32843
+cotta maglia~
+una cotta di maglia~
+Una pesante cotta di maglia è poggiata in un angolo.~
+~
+9 0 9 0
+0 0 0 0
+5 10 1
+E
+cotta maglio~
+Portarla addosso non dev'essere uno scherzo, è ben pesante ma sembra anche una
+buona protezione dai colpi del nemico.
+~
+#32844
+scudo~
+uno scudo quadrato~
+Un largo scudo è posato a terra.~
+~
+9 0 513 0
+0 0 0 0
+1 0 0
+E
+scudo~
+Si tratta di un largo scudo di legno con uno spuntone di ferro proprio nel
+centro. Lo spuntone è molto appuntito e lungo più o meno venti centimetri; in
+uno scontro corpo a corpo, può essere utile per trapassare l'avversario.
+~
+#32845
+stivali~
+pesanti stivali di cuoio~
+Qualcuno ha lasciato qui un paio di stivali di cuoio con punta rinforzata.~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+stivali~
+Ingoffano la gamba e rallentano i movimenti, però la punta di ferro dà una
+certa sicurezza..
+~
+#32846
+stampella~
+una stampella di legno~
+Una simpatica stampella intarsiata è poggiata qui.~
+~
+4 0 16385 0
+0 0 0 -1
+1 0 0
+E
+stampella~
+E' una solida stampella di legno, adatta a sorreggere chi fatica a deambulare.
+~
+#32847
+salvagente~
+un salvagente~
+Un comodo salvagente è qui, utile in caso di bisogno.
+~
+~
+22 0 2049 0
+0 0 0 0
+1 60 6
+E
+salvagente~
+Si sistema in vita ed è comodo in casi di necessità!
+~
+A
+2 -5
+A
+14 -25
+#32848
+pantaloni~
+pantaloni rossi da guardiano~
+Un paio di pantaloni rossi è qui per terra.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni~
+Hanno dei fregi laterali, forse sono dei segni di riconoscimento di una
+qualche uniforme.
+~
+#32849
+alabarda~
+un'alabarda~
+Una pesante alabarda è qui in attesa di falciare qualche vita.
+~
+~
+5 0 8193 0
+12 5 10 7
+1 0 0
+E
+alabarda~
+Una potente lega d'acciaio dà vita a quest'alabarda, affilata e pesante..
+Meglio tenerla dalla parte del manico.
+~
+#32850
+benda~
+la benda del guardiano~
+Una strana benda è posata a terra.
+~
+~
+9 0 17 0
+0 0 0 0
+1 0 0
+E
+benda~
+E' un fazzoletto di lino arabescato che si lega in testa a mo' di bandana. Fra
+i vari fregi ricamati scorgi una Y..
+~
+#32851
+stivali~
+stivali rinforzati ~
+Dei solidi stivali sono messi qui, in penombra.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+stivali~
+Sembrano molto resistenti e hanno una punta di ferro che non si concilia con
+l'idea di amorevole accoglienza..
+~
+#32852
+ritratto~
+un ritratto di Emilio Fede~
+Il ritratto di una persona magnifica è qui in bella mostra.
+~
+~
+13 3 16385 0
+0 0 0 0
+1 0 0
+E
+ritratto~
+Fantastico, fantastico!! Ora finalmente anche su T2 potrai vedere Emilio Fede
+ovunque vorrai!
+Porta sempre con te questo suo ritratto e mostralo agli amici.. Sul retro del
+ritratto trovi anche un inno contro i bastardi comunisti mangia-bambini
+portatori di morte, carestia e ginocchio della lavandaia.
+~
+#32853
+fermacapelli~
+un fermacapelli d'argento ~
+Un sofisticato fermacapelli è adagiato al suolo.
+~
+~
+8 0 17 0
+0 0 0 0
+1 0 0
+E
+fermacapelli~
+Antichi maestri artigiani dimostrarono grande perizia nel crearlo. Un'armonia
+di sbalzi e volute incise nell'argento mai s'era vista prima d'ora. I fregi
+che accompagnano questo fermacapelli raffigurano rami e spine che
+s'intrecciano.. Al culmine, il tutto è sorvastato da una magnifica rosa appena
+sbocciata.
+~
+#32854
+camicione camicia~
+un camicione multitasche~
+Una camicia di taglia larga è qui per terra.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+camicia camicione~
+Non se ne vedono molti in giro eppure sembra molto comodo ed utile. E' pieno
+di tasche e taschine per portare sempre con sé tutto il necessario e forse
+anche qualcosa in più.
+~
+#32855
+pantaloni~
+pantaloni multitasche~
+Uno strano paio di pantaloni è adagiato al suolo.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni~
+Sono molto comodi per chi ha necessità di portarsi dietro una marea di
+chincaglierie senza subire il peso dello zaino.
+~
+#32856
+mocassini~
+un paio mocassini~
+Vedi un paio di mocassini soli soletti in un angolino.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+mocassini~
+Sono ben fatti, la suola è molto morbida e segue bene il piede senza forzarlo
+a pose innaturali nella camminata.
+~
+#32857
+mantello mantellone~
+un largo mantellone trapuntato~
+Un mantello molto appariscente è lasciato qui..
+~
+~
+9 0 1025 0
+0 0 0 0
+1 0 0
+E
+mantello mantellone~
+E' un mantello davvero bizzarro, trapuntato da migliaia di perline che
+sembrano disposte come il firmamento.. Forse è una mappa stellare?
+~
+#32858
+pantaloni~
+soffici pantaloni alla turca~
+Un buffo paio di pantaloni è qui per terra.~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni turca~
+La forma di questi pantaloni è divertente e bizzarra: un elastico stringe la
+vita, poi s'allargano a dismisura dalle cosce fin giù e terminano in un altro
+elastico alle caviglie. Sembra di camminare con delle mongolfiere sulle gambe.
+~
+#32859
+scarpe~
+scarpe con la punta curva~
+Vedi un bizzarro paio di scarpe per terra.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+scarpe~
+Di certo non si bagnerà facilmente la punta di queste scarpe così curvata
+verso l'alto!
+~
+#32860
+cappello~
+un cappello tripunte~
+Un bel cappello tripunte è stato posato qui, distrattamente.
+~
+~
+9 0 17 0
+0 0 0 0
+1 0 0
+E
+cappello~
+Non se ne trovano molti in giro; cappelli di siffatta fattura provengono da
+terre lontane e raccontano di arti e mestieri diversi da quelli locali. E'
+realizzato con lana pressata e su ogni punta c'è ricamata una costellazione..
+~
+#32861
+grembiule grembiulone~
+un grembiulone di cuoio~
+Un pesante grembiule è poggiato qui.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+grembiule grembiulone~
+E' pesante e serve per riparare il corpo da eventuali scintilline o frammenti
+di metallo incandescente.
+~
+#32862
+calzoni pantaloni~
+pesanti calzoni di tela~
+Dei calzoni di tela ruvida sono lasciati qui, alla mercé dei passanti.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+calzoni pantaloni~
+Ruvidi ma resistenti e soprattutto fan bene il loro mestiere.. Riparare il
+corpo da eventuali frammenti di metallo troppo caldo
+~
+#32863
+calzari~
+dei robusti calzari~
+Un paio di solidi calzari è stato lasciato qui
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+calzari~
+Larghe strisce di cuoio intrecciate costituiscono questi calzari, utilizzati
+per proteggere il piede da eventuali frammenti di metallo troppo caldo.
+~
+#32864
+maglione~
+un pesante maglione di lana~
+Qualcuno ha lasciato qui un maglione di lana
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+maglione~
+E' un caldissimo maglione di lana un po' rozza ma molto efficace nella
+protezione dal freddo.
+~
+#32865
+gonnellone gonnella~
+un gonnellone a righe~
+Una grossa gonnella a righe è qui per terra.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+gonnella gonnellone~
+E' una grossa gonna da uomo, con righe verdi su fondo blu.. Il signore che la
+indossa è certamente un poco eccentrico ma sicuro di sé.
+~
+#32866
+scarponi scarponcini~
+scarponcini colorati~
+Un incredibile paio di scarponcini è stato dimenticato qui.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+scarponi scarponcini~
+Stride un po' l'idea dei colori sgargianti con la grossolanità della scarpa,
+ma forse il proprietario cercava proprio questo forte contrasto.
+~
+#32867
+collana collanina corallo~
+una delicata collanina di corallo~
+Una collanina di leggera fattura è stata dimenticata qui.
+~
+~
+8 0 5 0
+0 0 0 0
+1 0 0
+E
+collanina corallo~
+Un sottile filo unisce dei piccoli frammenti di corallo lavorati e levigati;
+non è un gioiello sfarzoso ma è sicuramente di delicata fattura.
+~
+#32868
+abitino~
+un abitino di corda~
+Un grazioso abitino di corda è poggiato qui.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+abitino~
+Numerosi legaccini intrecciati formano questo abitino lievemente avvitato,
+corto al ginocchio e graziosamente decorato da piccole coccinelle di metallo
+infilate fra i nodini del vestito.
+~
+#32869
+pettine pettinino~
+un pettinino di legno~
+Un piccolo pettine di legno è stato posato qui.
+~
+~
+8 0 17 0
+0 0 0 0
+1 0 0
+E
+incisione~
+La figura di una ragazza con una maschera da demone è stata incisa nel legno.
+~
+E
+pettine pettinino~
+E' un semplice pettinino di legno, con un'incisione su un lato.
+~
+#32870
+sandali sandaletti~
+morbidi sandaletti di cuoio~
+Un paio di sandaletti di cuoio è qui in un angolo.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+sandaletti~
+Sono comode calzature estive, dalla linea morbida e confortevole per camminare
+quando fa caldo.
+~
+#32871
+mantello~
+largo mantello~
+Un largo mantello è stato dimenticato qui.
+~
+~
+9 0 1025 0
+0 0 0 0
+1 0 0
+E
+mantello~
+E' un largo mantello di velluto blu con bordature argentate. Alcuni ricami
+donano allegria alla distesa scura del tessuto.
+~
+#32872
+abito~
+un lungo abito multicolore~
+Una fantasia di colori è qui per terra.. Si tratta di uno strano abito.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+abito~
+Di certo chi ha cucito un abito simile ha molta fantasia. I colori non sono
+mai netti, ma sfumati l'uno nell'altro in modo armonioso, regalando, a chi lo
+indossa, una bella panoramica sui colori dell'arcobaleno.
+~
+#32873
+scarpe~
+buffe scarpe di tela resistente~
+Un paio di strane scarpe colorate è qui per terra.
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+scarpe~
+Più che scarpe, queste calzature assomigliano ad un campionario di stoffe.
+Scampoli di tutti i tipi sono cuciti insieme a forma di scarpa, non alla
+rinfusa, ma secondo un progetto preciso a noi sconosciuto..
+~
+#32874
+bende~
+numerose bende~
+Delle bende sporche sono state abbandonate qui per terra.
+~
+~
+9 67108864 9 0
+0 0 0 0
+1 0 0
+E
+bende~
+Sono lunghe, macchiate di sangue e pus.. Forse non è proprio il caso di
+indossarle.
+~
+#32875
+vestito~
+un vestito macchiato~
+Un lacero vestito è stato abbandonato qui per terra.~
+~
+9 67108864 9 0
+0 0 0 0
+1 0 0
+E
+vestito~
+E' sporco, logoro e macchiato di sangue.. Alcune striature di pus ti
+consigliano di stare alla larga da quest'indumento..
+~
+#32876
+camicia~
+una comoda camicia di cotone~
+Una comoda camicia di cotone è qui piegata in un angolo.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+camicia~
+E' ben cucita e ricamata con ornamenti rossi che ricordano vagamente le fiamme
+di una fornace.
+~
+#32877
+gilet~
+un caldo gilet di lana~
+Un gilet è stato posato qui.
+~
+~
+9 0 1025 0
+0 0 0 0
+1 0 0
+E
+gilet~
+Realizzato con pura lana pecoreccia, è un po' grosso ma mlto molto caldo.
+~
+#32878
+pantaloni~
+pantaloni di pelle verde~
+Degli strani pantaloni verdi son qui per terra.
+~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni~
+Una pelle verde e squamosa forma il tessuto di questi pantaloni..
+~
+#32879
+blusa~
+una blusa decorata~
+Una blusa è qui per terra.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+blusa~
+E' decorata con delle vistose strasse colorate e luccicanti ed è chiusa da
+bottoni decisamente pacchiani a forma di mammola.
+~
+#32880
+pantafole~
+pantofole di seta~
+Un meraviglioso paio di pantofoline di seta è qui tutto solo..
+~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+pantofole~
+Sono deliziose e comode, la suola è molto morbida e il resto della pantofola è
+una fantasia di seta e perline.
+~
+#32881
+grembiule~
+un grembiule da inserviente~
+Un grembiule di tessuto leggero è poggiato qui.
+~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+grembiule~
+Non è un comune grembiule da inserviente, di sicuro non appartiene a qualcuno
+che traffica in cucina. Non è logo né macchiato, anzi il tessuto è impalpabile
+fra le dita e leggerissimo.
+~
+#32882
+borsina~
+un borsina di lana~
+Qualcuno s'è dimenticato qui una bella borsina.
+~
+~
+15 0 2049 0
+30 0 0 0
+1 140 14
+E
+borsina~
+Sapienti manine hanno lavorato chissà quanto a lungo per realizzare questa
+bella borsa di lana, morbida e piccola quando è vuota ma elastica e
+all'occorrenza incredibilmente capiente.
+~
+#32883
+nastro~
+un nastro di seta~
+Arrotolato in un angolo vedi un bel nastrino di seta.
+~
+~
+9 0 17 0
+0 0 0 0
+1 200 20
+E
+nastro nastrino~
+Un delicato color indaco si stende lungo tutto il nastrino di soffice seta,
+perché non provi a vedere come ti sta?
+~
+#32884
+gonna gonnellino~
+un gonnellino in pelle di daino~
+Un morbido gonnellino in pelle è qui poggiato.
+~
+~
+9 0 33 0
+0 0 0 0
+1 490 49
+E
+gonna gonnellino~
+Un grazioso gonnellino, ricavato dalla morbida pelle di un daino generoso. Due
+piccoli bottoni d'osso, sistemati poco sotto la vita, lo chiudono
+lateralmente, lasciando scoperta la gamba solo un po'.
+~
+#32885
+camicina camicia~
+una camicina con campanellini~
+Un'allegra camicina è stata lasciata qui.
+~
+~
+9 2 9 0
+0 0 0 0
+1 500 50
+E
+camicina camicia~
+Realizzata con cotone leggero è lievemente corta, poco sopra la vita e il
+bordo inferiore è adornato con divertenti campanellini argentati.
+~
+#32886
+fili orecchini~
+due fili d'argento~
+Due piccoli serpentini d'argento son qui per terra.. Forse sono orecchini.
+~
+~
+8 1 65537 0
+0 0 0 0
+1 1200 120
+E
+fili orecchini~
+Molto graziosi nella loro semplicità, scendono dritti dal per tutto il loro
+corpo fino a concludersi in un punto interrogativo appena accennato.
+~
+#32887
+treccine~
+treccine colorate~
+Delle treccine ornamentali sono posate qui per terra.
+~
+~
+9 0 17 0
+0 0 0 0
+1 57 5
+E
+treccine~
+Chissà che effetto possono fare queste piccole treccine colorate fra i tuoi
+capelli.. Basta solo indossarle per scoprirlo!
+~
+#32888
+cavigliera~
+una cavigliera di ninnoli~
+Una cavigliera è stata posata qui.
+~
+~
+9 0 65 0
+0 0 0 0
+1 120 12
+E
+cavigliera~
+E' fatta d'argento chiaro ad anelli un po' larghi; in ogni anellino è fissato
+un ninnolo di diversa fattura e forma. Coccinelle, fiori, piccole figure.. chi
+più ne ha più ne metta.
+~
+#32889
+mantello~
+il mantello del vento~
+Un mantello leggerissimo è posato qui per terra.
+~
+~
+9 0 1025 0
+0 0 0 0
+1 2300 230
+E
+mantello vento~
+E' realizzato con un materiale davvero inconsueto, sembra molto pesante a
+vedersi eppure indossandolo si ha la sensazione d'esser più leggeri del
+solito.
+~
+#32890
+mantello luna~
+il mantello della luna~
+Un mantello blu trapuntato è qui per terra.~
+~
+9 0 1025 0
+0 0 0 0
+1 2340 234
+E
+mantello luna~
+Il velluto blu di questo mantello ricorda un po' il cielo notturno e per dar
+maggior risalto all'effetto, è stato trapuntato con sottili trame argentate
+che ricordano vagamente l'alone lunare.
+~
+#32891
+mantello~
+il mantello del sole~
+Un largo mantello è qui per terra.
+~
+~
+9 0 1025 0
+0 0 0 0
+1 2350 235
+E
+mantello sole~
+I bellissimi toni caldi del sole nascente danno vita a questo mantello,
+assicurando a chi lo indosserà che non passerà certo inosservato.
+~
+#32892
+sandaletti~
+sandaletti di corda~
+Vedi per terra dei sandaletti di corda.
+~
+~
+9 0 65 0
+0 0 0 0
+1 140 14
+E
+sandaletti~
+E' occorso diverso tempo per intrecciare questi sottili laccetti di cordame ma
+ne è valsa la pena. Il risultato è un magnifico paio di sandaletti, graziosi a
+vedersi, comodi da indossare.
+~
+#32893
+gonna organza~
+una soffice gonna d'organza~
+Una gonna è stata posata qui.
+~
+~
+9 0 33 0
+0 0 0 0
+1 370 37
+E
+gonna organza~
+Ha più strati sovrapposti, donando all'indumento un bell'effetto di volume e
+sofficità.
+~
+#32894
+bustino raso~
+un bustino di raso~
+Un bustino di raso è posato qui a terra.
+~
+~
+9 0 9 0
+0 0 0 0
+1 540 54
+E
+bustino raso~
+Un delicato colore verde-acqua appena sfumato, adorna il raso di questo
+bustino che nella sua semplicità è anche molto elegante.
+~
+#32895
+tubino abitino~
+un tubino di velluto blu~
+Qualcuno ha posato qui un corto abitino.
+~
+~
+9 0 9 0
+0 0 0 0
+1 970 97
+E
+tubino abitino~
+Non è da tutti saper confezionare vestiti come questo. Apparentemente la linea
+è molto semplice, ma ad un occhio esperto non sfugge la sapienza delle
+cuciture create in modo tale da adattarsi perfettamente alle curve del corpo.
+~
+#32896
+corpetto~
+il corpetto del sospetto~
+Un corpetto con uno strano marchio è posato qui.
+~
+~
+9 0 9 0
+0 0 0 0
+1 1030 103
+E
+marchio~
+A ben guardare assomiglia molto a due occhi che ti scrutano con fare birbone..
+~
+E
+corpetto~
+E' interamente di cuoio con un piccolo marchio impresso a fuoco su un fianco.
+~
+A
+36 5
+A
+37 4
+#32897
+armatura fuoco~
+l'armatura del fuoco~
+Una bella armatura rosso cangiante è posata qui.
+~
+~
+9 256 9 0
+0 0 0 0
+1 1500 150
+E
+armatura fuoco~
+Acciaio temprato e resistente per questa armatura rosso fuoco, sembra quasi
+invogliare a gettarsi nella mischia e falciare più nemici del solito..
+~
+#32898
+armatura gelo~
+l'armatura del gelo~
+Un'armatura color indaco è qui per terra.
+~
+~
+9 256 9 0
+0 0 0 0
+1 1500 150
+E
+armatura gelo~
+A vederla, interamente indaco, incute un poco di rispetto, come se fosse stata
+appena ricavata da un gigantesco blocco di ghiaccio e glaciale è il suo
+aspetto..
+~
+#32899
+scudo ninfa~
+lo scudo della Ninfa~
+Uno scudo dall'insolita forma è poggiato in un angolo.
+~
+~
+9 8389696 513 0
+0 0 0 0
+1 2500 250
+E
+segno incisione~
+Rappresenta una Ninfa danzante sulla riva di un fiume, accanto alla fonte
+materna..
+~
+E
+scudo~
+Legno massiccio per questo scudo che sembra essere molto resistente. Al centro
+dello scudo di forma ovale vedi inciso uno strano segno..
+~
+#0
+
+#ROOMS
+#32800
+Una distesa di campi~
+I terreni sono lottizzati e coltivati in modo da fornire messi in maggior
+quantità possibile. Oltre alla pesca ed al commercio marittimo, l'agricoltura
+rappresenta un'altra fonte di sostentamento per gli abitanti della cittadella.
+Scorgi un paio di persone mentre, lievemente curve sotto il peso delle gerle
+che portano sulla schiena, camminano in uno dei campi e paiono discutere
+con una certa animosità del futuro delle loro piante.
+~
+0 0 2 0 0 0
+D1
+Ad est si torna verso la base della collina.
+~
+~
+0 0 32777 0
+D3
+Verso ovest intravedi un fortilizio.
+~
+~
+0 0 32801 0
+S
+#32801
+Alle porte della cittadella~
+Proseguendo lungo la stradina raggiungi due grandi porte che sbarrano
+l'ingresso alla cittadella. I portali non sono dei blocchi unici, ma
+dieci formelle, cinque per lato, saldate insieme, rinforzate da pali in legno.
+Ogni formella rappresenta una scena di vita quotidiana della città: ci sono
+le bancarelle del mercato, una fucina, dei magazzini, una piazza.. Una in
+particolare raffigura una scena di caccia insolita, dato che la preda è
+un cinghiale di proporzioni inenarrabili.
+~
+0 0 1 0 0 0
+D1
+Ad est scorgi ampie distese di campi coltivati.
+~
+~
+0 0 32800 0
+D3
+Da ovest giunge un vago odor salmastro.
+~
+~
+0 0 32802 0
+D2
+Verso sud s'accede al primo bastione della città.
+~
+~
+0 0 32806 0
+S
+#32802
+La strada per il porto~
+La strada prosegue in direzione del porto verso ovest, fino ad incontrarsi con
+quel che sembra essere un lungo pontile di legno. A sud intravedi una
+cittadella, mentre lontana verso nord scorgi un'imponente scogliera.
+~
+0 0 2 0 0 0
+D1
+Verso la cittadella.
+~
+~
+0 0 32801 0
+D3
+Intravedi il pontile.
+~
+~
+0 0 32803 0
+S
+#32803
+Sul pontile~
+Stai camminando su un lungo pontile di legno, costantemente sottoposto al lento
+infrangersi delle onde. Le travature scricchiolano ad ogni passo.. sarà sicuro
+proseguire..? Lo spettacolo che hai dinnanzi, però, vanifica ogni timore di
+eventuali bagni indesiderati. L'ampio respiro marino che raccoglie i sogni dei
+cuori avventurosi spingendoli verso l'orizzonte..
+~
+0 0 1 0 0 0
+D1
+Verso la cittadella.
+~
+~
+0 0 32802 0
+D3
+Una scaletta in legno conduce a bordo.
+~
+~
+0 0 32804 0
+S
+#32804
+A bordo del vascello~
+Il vascello, non  è grande, ma molto ben tenuto ed al momento utilizzato solo
+come attrazione turistica.
+Alle pareti sono appesi diversi quadri che ritraggono un giovane uomo dietro
+il timone di una nave, intento a condurla verso chissà quali orizzonti.
+Verso est si torna sul pontile, scendendo la scaletta invece si va nelle
+stanze del capitano.
+~
+0 0 0 0 0 0
+D1
+Ad est torni sul pontile
+~
+~
+0 0 32803 0
+D5
+Da qui si scende verso la cabina del capitano.
+~
+~
+0 0 32834 0
+> rand_prog 3~
+mpecho Un vago scricchiolio accompagna il dolce ondeggiare del vascello.
+~
+|
+S
+#32805
+Il torrione nord-occidentale~
+Sei nel torrione nord-occidentale, uno dei quattro luoghi di monitoraggio dei
+dintorni della cittadella. Dinnanzi a te, poco più sotto, vedi la stradina
+d'accesso alla città ed oltre, verso nord, si staglia un'alta scogliera. Il
+bastione è largo a sufficienza da ospitare comodamente tre sentinelle ed in un
+angolo noti un cassone contenente armi e vivande.
+~
+0 0 0 0 0 0
+D4
+Si sale verso la cittadella.
+~
+~
+0 0 32809 0
+S
+#32806
+Il torrione nord-orientale~
+La parte bassa dei muri è ricoperta da un sottile strato di vegetazione, una
+sorta di muschi o piccole alghe. Guardando attraverso le feritoie, ti pare di
+scorgere un'enorme foresta al di là dell'azzurra distesa marina.
+~
+0 0 0 0 0 0
+D4
+Da qui si sale verso la cittadella
+~
+~
+0 0 32812 0
+D0
+Verso nord si esce dalla città.
+~
+~
+0 0 32801 0
+S
+#32807
+Il torrione sud-occidentale~
+Acqua..acqua..acqua.. E non è un gioco! Comunque ti giri avverti il vasto
+abbraccio del mare che circonda l'esigua lingua di terra su cui si trova la
+cittadella. Il bastione è largo abbastanza da ospitare comodamente tre
+sentinelle di guardia ed in un angolo vedi un baule con alcuni viveri.
+Verso l'esterno è stata aggiunta una piccola pedana in legno che sostiene il
+cestello di una mongolfiera, si tratta forse dell'unico collegamento con i
+lontani continenti.
+~
+0 0 0 0 0 0
+D6
+Verso nordest si torna in Via del Mare.
+~
+~
+0 0 32822 0
+D4
+Sollevi lo sguardo verso i due gradini che ti separano dall'immensità del
+cielo..
+~
+~
+16777344 0 32819 0
+> rand_prog 3~
+mpecho Da sotto giunge il fragore delle onde che s'infrangono contro gli scogli.
+~
+|
+S
+#32808
+Il torrione sud-orientale~
+Il bastione a sud-est è quello più barricato, forse è anche quello più
+esposto ad eventuali attacchi dei nemici via mare.
+Per terra, in un baule aperto scorgi armi e viveri per le sentinelle di
+guardia. D'un tratto un vago riflesso ti acceca per un istante, volgi il tuo
+capo verso est e noti una torretta diroccata. Un'ombra improvvisa sembra
+uscire dalla costruzione per nascondersi poi svelta svelta fra i cespugli..
+che ci sia qualcuno laggiù?
+~
+0 0 0 0 0 0
+D7
+In questa direzione si torna al vicoletto.
+~
+~
+0 0 32823 0
+S
+#32809
+Una stretta viuzza~
+Una stretta viuzza risale la china dello sperone di roccia su cui è costruita
+la cittadella; qua e là noti alcune macchie rossastre, quasi si trattasse di
+colate ferrose od una sorta di ruggine.
+~
+0 0 4 0 0 0
+D5
+Da qui puoi scendere verso il bastione nord-occidentale.
+~
+~
+0 0 32805 0
+D8
+Verso sud-est c'è il mercato delle sete.
+~
+~
+0 0 32810 0
+S
+#32810
+Il mercato delle sete~
+Un arcobaleno di colori invade questa parte del mercato adibita alla vendita
+dei tessuti. Sete intrecciate con fili d'oro s'accompagnano a stoffe dai ben
+più umili natali, ed ecco che accanto alla juta dei sacchi, alla canapa delle
+grandi corde, si possono trovare arazzi pregiati, tappeti di straordinaria
+bellezza, tessuti di nobile qualità.
+I venditori distendono ampi quadrati di tela da mostrare ai curiosi,
+raccontando dei lunghi viaggi intrapresi per portare i loro preziosi carichi
+fin qui.
+~
+0 0 1 0 0 0
+D7
+Vedi la viuzza che conduce al bastione.
+~
+~
+0 0 32809 0
+D1
+Avverti il rumore metallico delle armi spostate sulle bancarelle.
+~
+~
+0 0 32811 0
+D2
+Da sud provengono gioiose grida di bambini.
+~
+~
+0 0 32813 0
+> rand_prog 3~
+mpecho Il vocio dei passanti si confonde con lontani rumori metallici.
+~
+|
+S
+#32811
+Il mercato delle armi~
+Diverse bancarelle ospitano armi di ogni fattura: spade, spadoni, archi,
+mazze, fionde, sciabole; alcune hanno linee semplici, altre più elaborate.
+Lame damascate, else decorate con gemme preziose e foderi di cuoio borchiato
+ornano fan bella mostra di sé sui banconi. C'è un discreto passo di persone,
+molti sono i volti sconosciuti, ricchi mercanti, mercenari in cerca di armi e
+lavoro, semplici contadini; perlopiù sono gli stranieri ad affollare il luogo.
+Il mercato prosegue verso ovest.
+
+~
+0 0 1 0 0 0
+D3
+Verso ovest s'intravedono i meravigliosi colori del mercato delle sete.
+~
+~
+0 0 32810 0
+D6
+Da qui puoi scendere verso una stretta viuzza.
+~
+~
+0 0 32812 0
+S
+#32812
+Una stretta viuzza~
+Una stretta viuzza risale la china dello sperone di roccia su cui è costruita
+la cittadella; qua e là noti alcune macchie rossastre, quasi si trattasse di
+colate ferrose o una sorta di ruggine.
+~
+0 0 4 0 0 0
+D5
+Da qui si scende verso il bastione nord-orientale.
+~
+~
+0 0 32806 0
+D9
+In questa direzione s'arriva al mercato delle armi.
+~
+~
+0 0 32811 0
+S
+#32813
+La piazzetta della meridiana~
+Giungi in una piazzetta animata dal gioco dei bimbi, alcuni si rincorrono,
+altri sono intenti ad osservare uno strano marchingegno in metallo, altri
+ancora disegnano per terra con dei gessetti.
+Al centro della piazza un circolo di pietre bianche fa da contorno a quella
+che pare una meridiana, puoi avvicinarti e controllare l'ora.. sempre che non
+sia notte.
+Dalla piazza si dipartono alcune stradine, a nord verso la zona del mercato, a
+sud verso i magazzini mentre ad est vedi un grosso portone.
+~
+0 0 1 0 0 0
+D0
+A nord vedi i variopinti tessuti del mercato.
+~
+~
+0 0 32810 0
+D2
+A sud s'estende Via del Mare.
+~
+~
+0 0 32818 0
+D1
+Verso est scorgi un grosso portone.
+~
+~
+0 0 32815 0
+> rand_prog 3~
+mpecho Le risate dei bimbi allietano la piazzetta..
+~
+|
+S
+#32814
+La fornace~
+Un caldo d'inferno t'assale appena metti piede qua dentro. Solo l'addetto alla
+fornace viene qui ogni tanto per ripulirla, ma solo quando è ben spenta..
+Quindi che cosa ci fai qui? E' meglio uscire prima che ti si fondano i vestiti
+addosso..
+~
+0 4194304 0 40 32832 0
+D2
+A sud c'è la fucina.
+~
+~
+0 0 32817 0
+> entry_prog 100~
+mpechoat $n E' davvero il caso di uscire finché sei in tempo..
+mpdamage 6
+mpechoat $n Il calore delle fiamme diventa sempre più insopportabile
+mpdamage 10
+~
+|
+S
+#32815
+L'ingresso al palazzo~
+Dalla piazzetta si giunge fino a questa casa passando per un viottolo
+secondario. Gli abitanti della cittadella la chiamano "Il palazzo", in realtà
+si tratta dell'unica casa adornata con fioriere davanti all'ingresso e più
+grande delle altre costruzioni. A ben pensarci non ci sono altre case in
+città..
+Davanti al portone non ci sono guardie quindi con una spintina si può provare
+ad aprire uno spiraglio ed entrare nel palazzo..
+~
+0 0 1 0 0 0
+D3
+Da ovest giungono le allegre risate dei bimbi.
+~
+~
+0 0 32813 0
+D1
+Ad est si entra nel palazzo.
+~
+~
+0 0 32816 0
+S
+#32816
+Le stanze generali~
+Una quarantina di stuoie per terra, ben arrotolate, lascia intendere che qui
+ci dormano diverse persone. Per il corridoio un gruppetto di ragazze fa avanti
+e indietro con teli bianchi, forse oggi è giornata di bucato.
+Verso sud una porta conduce in un'altra stanza. Sulla porta è incisa una Y.
+~
+0 0 0 0 0 0
+D3
+Ad ovest c'è l'uscita.
+~
+~
+0 0 32815 0
+D2
+A sud ci sono le stanze private della Signora.
+~
+~
+0 0 32820 0
+S
+#32817
+La fucina~
+La sala è piuttosto spaziosa ed ospita al centro una grossa tavola di legno
+spinta in su e in giù a mo' di soffietto da una decina di donne accaldate.
+Si stanno prodigando per tenere allegro il fuoco della fornace da cui
+dipende la buona riuscita dei lavori in fucina.
+A lato ci sono tre uomini che picchiano sulle incudini con pesanti martelli
+e stemperano le nuove creazioni in grosse tinozze colme d'acqua.
+Ecco che prendono vita spade, lance, punte di freccia, utensili per i campi,
+ferri per i cavalli e quant'altro ancora.
+~
+0 0 0 0 0 0
+D1
+Verso est si torna a Via del Mare.
+~
+~
+0 0 32818 0
+D0
+Un caldo d'inferno proviene da nord.. qualcosa ti dice di non andare..
+~
+~
+16777216 0 32814 0
+S
+#32818
+Via del mare~
+Percorrendo la via, passo dopo passo giungono mescolati gli odori del mare, è
+una strada stretta e lunga che collega il mercato con la parte sud della
+città, dove si trovano i magazzini.
+Da ovest proviene un insistente rumore metallico, sembra si tratti della
+fucina artigiana, ad est invece vedi l'insegna di una locanda.
+~
+0 0 1 0 0 0
+D0
+Da nord giungono gli allegri rumori dei giochi dei bimbi.
+~
+~
+0 0 32813 0
+D2
+Via del Mare prosegue verso sud.
+~
+~
+0 0 32822 0
+D3
+Ad ovest il calore avverte che si trova la fucina.
+~
+~
+0 0 32817 0
+D1
+Vedi l'ingresso alla locanda.
+~
+~
+0 0 32825 0
+E
+insegna~
+
+'                                            '
+                     /|
+            *   *   / |
+        *           *
+     *   )              *
+   *      )                 *             *°
+  *        )    Al             *        * °
+ * O        )     pesce           *  *   °
+*           )       d'argento       *   °
+ *         )                     *   *  °
+  *       )                    *        *°
+   *     )                 *              *°
+     *  )               *
+        *           *
+           *   * * \ |
+                    \|
+'                                            '
+~
+> rand_prog 3~
+mpecho Alcune donne stanno cantando con voce un poco affaticata.
+~
+|
+S
+#32819
+Nel cestello della mongolfiera~
+Sali a bordo della mongolfiera diretta verso lontane terre, forse addirittura
+conosciute ma questo lo scoprirai solo che avrai rimesso piede a terra. Il
+conduttore della mongolfiera concede pochi istanti ancora poi molla la zavorra
+e parte.. Via, verso nuove ed emozionanti avventure..
+~
+0 12582912 0 20 32821 0
+D5
+Puoi uscire dal cestello e tornartene nel bastione
+~
+~
+0 0 32807 0
+S
+#32820
+Le stanze private~
+Sei nella stanza di Yshen, signora della città.
+Ti trovi in una bella camera dai colori tenui del faggio alternati a
+quelli più decisi di alcune pitture sulla parete.
+Un comodo letto è posto a lato della porta, affiancato da una libreria
+piuttosto ben fornita. Provi a prendere uno dei libri per dare un'occhiata
+al contenuto quando d'un tratto senti un metallico *CLANG* *CLANG*.. che ci
+sia una porta nascosta da qualche parte?
+~
+0 0 0 0 0 0
+D0
+A nord ci sono le stanze grandi.
+~
+~
+0 0 32816 0
+D5
+~
+libreria~
+0 0 32831 0
+E
+pitture disegni dipinti~
+Piccoli quadri ornano la parete raccontando la vita della città: la fucina, il
+mercato, una visuale della cittadella vista dai campi e.. ed ecco nuovamente
+quela strana creatura con il volto di demone. Stavolta accanto a lei vedi
+anche un giovane dall'aria imperturbabile che le rivolge un sorriso
+enigmatico.
+~
+S
+#32821
+Sorvolando il mare~
+Oscilla un po' la mongolfiera trasportata dalle correnti d'aria, ma vale la
+pena patire un po' di mal di stomaco per il panorama sottostante.. Alti
+spruzzi d'acqua salmastra si sollevano contro gli scogli, frangendosi una, due
+mille volte, tornando e ritornando, insistendo sulla roccia fino a consumarla.
+Proseguendo oltre, il blu profondo del mare conquista l'orizzonte e
+tutt'intorno i profili delle colline si sfocano sempre di più fino a sparire
+sotto le nubi..
+~
+0 12582912 9 26 32824 0
+> rand_prog 3~
+mpecho Un gabbiano passa vicino alla mongolfiera, quasi a volerla salutare.
+~
+|
+S
+#32822
+Via del Mare~
+Da quassù si gode un'ottima vista della grande distesa azzurra che lambisce la
+zona di scogli poco sotto la cittadella. In lontananza si scorgono alcune
+barche e delle microscopiche figure, forse sono i pescatori che stanno
+tornando..
+~
+0 0 1 0 0 0
+D0
+Verso nord continua Via del Mare.
+~
+~
+0 0 32818 0
+D1
+Ad est la strada si stringe in un vicolo.
+~
+~
+0 0 32823 0
+D9
+Da qui vedi il bastione sud-occidentale.
+~
+~
+0 0 32807 0
+S
+#32823
+Un vicoletto~
+Via del Mare si stringe fino a diventare poco più che un vicolo, verso sud
+vedi un grosso capannone a cui si può accedere tramite una porta, forse hai
+trovato il magazzino della città.. magari c'è qualcosa di utile là dentro.
+Sarebbe il caso di darci un'occhiata.
+Scendendo lungo una viuzza si giunge al bastione sud-orientale.
+~
+0 0 1 0 0 0
+D3
+Verso ovest torni in Via del Mare.
+~
+~
+0 0 32822 0
+D8
+Per di qui si va al bastione sud-orientale.
+~
+~
+0 0 32808 0
+D2
+Vedi la porta del magazzino della città.
+~
+porta~
+8389671 32841 32833 0
+S
+#32824
+Nascosti fra le nubi~
+Una soffice coltre di nubi vela lo sguardo, la mongolfiera sta attraversando
+in ascensione uno strato di nuvole.. Poi d'improvviso si dipanano i cirri e ti
+ritrovi a due centimetri dal soffitto del cielo, come recitano le fiabe
+antiche. Sporgendoti dal cestello, intravedi sotto di voi, alcune creature di
+nuvola che si muovono indaffarate da un nembo all'altro.. Hai le visioni
+forse?
+~
+0 12582912 9 26 32843 0
+S
+#32825
+La locanda~
+Entri in un ambiente molto illuminato, numerosi avventori s'alternano al
+bancone contendendosi un posticino. Altri gruppi sono sistemati intorno ai
+tavoli e stando alla gaiezza dei loro visi ed al rossore dei loro nasi si
+intuisce facilmente la bontà del vino di queste parti. Una chiocciola di scale
+di legno conduce al piano superiore, dove si trovano le camere per gli ospiti
+che pernottano in città. Due uomini parlottano seduti in penombra, forse
+vogliono restare inosservati ma riesci a cogliere fra loro un inconsueto
+traffico di pergamene rosse e strani sacchettini polverosi.
+~
+0 0 0 0 0 0
+D3
+Ad ovest si esce su Via del Mare.
+~
+~
+0 0 32818 0
+D4
+Le scale conducono al secondo piano, dove si trovano le camere da letto.
+~
+~
+0 0 32826 0
+S
+#32826
+Il pianerottolo~
+Sei sul pianerottolo comune alle camere da letto, l'atmosfera rilassante per
+godersi sonni tranquilli è favorita dalla fioca luce delle candele appese alle
+pareti.
+~
+0 0 0 0 0 0
+D5
+Le scale riportano in basso alla taverna.
+~
+~
+0 0 32825 0
+D0
+A nord c'è la stanza singola.
+~
+~
+0 0 32827 0
+D1
+Ad est c'è la stanza doppia.
+~
+~
+0 0 32828 0
+D2
+A sud c'è la stanza grande.
+~
+~
+0 0 32829 0
+D4
+Verso l'alto c'è la suite matrimoniale.
+~
+~
+0 0 32830 0
+> rand_prog 3~
+mpecho Un risolino furbetto proviene da una delle stanze vicine..
+~
+|
+S
+#32827
+La stanza singola~
+Un buon profumo permea la stanza, le pareti sono rivestite di pannelli di
+legno scuro e l'arredamento, per quanto essenziale, è comunque piacevole.
+Addossato ad una parete, un grosso armadio dalle ante a specchio attende i
+tuoi indumenti, ma se vuoi riposare subito puoi accomodarti sul letto che è
+già pronto in un angolo.
+Nella parete nord s'apre una graziosa finestrella, sotto di essa è posto un
+tavolino con tanto di seggiola..magari per ispirarsi al panorama scrivendo le
+proprie memorie.
+~
+0 2097152 0 0 0 1
+D2
+A sud si torna sul pianerottolo.
+~
+~
+0 0 32826 0
+E
+ante specchio~
+Lo specchio riflette la verità della tua natura, è vetro e argento ma le sue
+proprietà ottiche non son fallaci.
+~
+S
+#32828
+La stanza doppia~
+Due letti affiancati occupano metà della stanza in cui ti trovi, un caldo
+tappeto ricopre un pavimento forse un po' logoro per l'uso e l'aria umida
+della città. Un grosso armadio è posizionato contro la parete nord mentre
+nella parete orientale si apre una finestra velata da tende bianco panna.
+Il luogo è ideale per trascorrere un po' di tempo tranquillamente.
+~
+0 2097152 0 0 0 2
+D3
+Ad ovest si torna sul pianerottolo.
+~
+~
+0 0 32826 0
+S
+#32829
+La stanza grande~
+Questa stanza è pensata per ospitare una persona ma è un po' più spartana
+nell'arredamento, rispetto all'altra singola. Un letto a castello in
+legno di betulla occupa gran parte dello spazio, anche se la parte superiore
+del letto è sprovvista di materasso.
+Di fianco ad esso vedi un paio di armadi di medie dimensioni. Dalla finestra
+posta a sud si vedono i tetti degli edifici circostanti, i bastioni
+meridionali ed infine la vasta distesa azzurra del mare, sino all'orizzonte.
+~
+0 2097152 0 0 0 2
+D0
+A nord si torna sul pianerottolo.
+~
+~
+0 0 32826 0
+S
+#32830
+La stanza panoramica~
+E' insolito trovare una camera simile in una cittadina tutto sommato molto
+piccola. Il pavimento è ricoperto da tappeti di pregiata fattura, le pareti
+sono rivestite da pannelli di legno scuro, decorati con intarsi raffiguranti
+scene di vita quotidiana. Contro la parete ovest vedi la testiera del letto
+matrimoniale, grande e comodo, munito di due comodini in legno di noce. Un
+grande finestrone occupa quasi tutta la parete orientale dando l'impressione
+d'essere un tutt'uno con il cielo fuori della stanza. A lato della finestra
+sono accostate delle pesanti tende di velluto bordeaux che, all'occorrenza,
+possono esser chiuse per celare al mondo i segreti della camera.
+~
+0 2097152 0 0 0 2
+D5
+Verso il basso la scaletta conduce al pianerottolo.
+~
+~
+0 0 32826 0
+E
+pannello pannelli intarsi~
+Lo sguardo cade sun un pannello che ritrae una strana creatura con il corpo di
+una fanciulla e il volto di un demone. Il viso, però, ha qualcosa di
+artefatto, quasi si trattasse di una maschera rituale. Per un istante hai la
+netta sensazione d'aver già visto quest'immagine da un'altra parte.
+~
+S
+#32831
+Lebbrosario~
+Avresti fatto meglio a non scendere quaggiù, un irrespirabile fetore di
+malattia e bende sporche ti annebbia i sensi per un attimo.
+Riapri gli occhi, il tuo sguardo si posa su uno spettacolo raccapricciante:
+quindici, forse venti lebbrosi sono qui, in una stanzetta piccola, impegnati
+a lavorare su un nuovo prototipo d'arma, si direbbe una sorta d'archibugio.
+Un orrore mai provato filtra nelle tue vene, questi esseri deformi senza più
+volte, né arti, né identità, sono schiavi della padrona della cittadella..
+Poi d'un tratto vedi in un angolo un armadietto pieno di medicinali, cibo,
+bevande e tutto diventa più chiaro: i lebbrosi non sono prigionieri dell'odio
+della Signora, piuttosto sono ospiti della sua compassione, rara in un mondo
+che sicuramente li avrebbe cacciati via, considerandoli poco meno della
+spazzatura.
+~
+0 0 0 0 0 0
+D4
+La scaletta segreta sale fino alla camera di Yshen.
+~
+~
+0 0 32820 0
+S
+#32832
+La fornace~
+Un caldo d'inferno t'assale appena metti piede qua dentro. Solo l'addetto alla
+fornace viene qui ogni tanto per ripulirla, ma solo quando è ben spenta..
+Quindi che cosa ci fai qui? E' meglio uscire prima che ti si fondano i vestiti
+addosso..
+
+~
+0 2 0 0 0 0
+S
+#32833
+Il magazzino della città~
+E' un gigantesco magazzino , zeppo di derrate alimentari, armi, stoffe, bende.
+Qui regna sovrano l'imbarazzo della scelta e ha come servitore un povero
+magazziniere che trascorre la sua esistenza a catalogare le merci.
+~
+0 0 0 0 0 0
+D0
+A nord torni nel vicoletto.
+~
+porta~
+8389665 32841 32823 0
+S
+#32834
+La cabina del capitano~
+Sei in una comoda cabina pannellata in legno di mogano, l'arredamento è parco
+ma ben conservato, nonostante i numerosi viaggi in mare e gli spruzzi d'acqua.
+Un comodo letto è ancorato alla parete e anche tutto il resto del mobilio è
+ben fissato al pavimento, scrittoio, cassettiera e comodino. Una comoda sedia
+è posta ai piedi del letto, verrebbe proprio voglia di sedersi, se non fosse
+che è già occupata dal capitano.
+Appesa ad una parete noti una curiosa targhetta con incisi sopra dei numeri.
+~
+0 0 0 0 0 0
+D4
+Salendo la scaletta si torna verso il ponte della nave.
+~
+~
+0 0 32804 0
+E
+targhetta placca~
+Per sole 500 monete d'oro potrete accomodarvi in barca e godervi una bella
+mini-crociera alla scoperta dei remoti luoghi marini nei dintorni della
+cittadella.
+E' sufficiente dare le monete al capitano del vascello.
+~
+S
+#32835
+Preparativi per la crociera~
+Uno dei marinai dell'equipaggio si alza con fare sonnolento, apre una
+porticina e fa segno di seguirlo. Passando per stretti corridoi a fianco delle
+cabine, finalmente il marinaio torna sul ponte e sale a bordo di una delle
+scialuppe, ordinando ai mozzi di calare in mare la barca con voi dentro.
+Appena hai aggiustato il tuo equipaggiamento entra in barca e goditi la
+crociera!
+~
+0 11534336 0 30 32836 0
+D10
+Verso la barca.. e il mare.
+~
+barca~
+131072 0 32836 0
+S
+#32836
+Fuori dal grottino~
+Fra gli spruzzi del mare e i leggeri dondolii della scialuppa, il marinaio
+raggiunge una parte remota della costa; alcune liane ormai seccate dalla
+salsedine spiovono giù, lungo la parete di roccia, quasi a formare un fitto
+tendaggio. E l'impressione non è del tutto sbagliata perché dietro di esse
+intravedi l'ingresso ad un grottino. Se l'idea di visitare l'anfratto ti
+attira, non temere, il marinaio ti aspetterà.
+~
+0 14680064 4 50 32839 0
+D5
+Qui si scende verso il grottino
+~
+~
+0 0 32837 0
+S
+#32837
+All'ingresso del grottino~
+Le pareti di questo grottino sono ampie ed ariose, seppur coperte da piccole
+alghe, segno che l'umidità la fa da padrona. Più a nord, invece, l'ambiente si
+restringe, creando una sorta di nicchia naturale stranamente illuminata.
+~
+0 2097152 0 0 0 0
+D4
+Si risale in barca!
+~
+~
+0 0 32836 0
+D0
+Da qui ci si inoltra nella nicchia..
+~
+~
+0 0 32838 0
+> rand_prog 3~
+mpecho Delle strane luci colorate provengono dalla nicchia poco più avanti.
+~
+|
+S
+#32838
+Nella nicchia~
+Sulla volta della nicchia sono incastrate tantissime pietruzze di tutti i
+colori ed un'incredibile luminescenza arcobaleno permea il piccolo anfratto.
+Nel soffitto di nuda roccia qualcuno, forse la Natura, o forse manine abili,
+ha praticato un forellino da cui proviene un sottilissimo fascio luminoso. Il
+raggio viene riflesso su un quarzo posto in basso e da lì ancora su tutte le
+pietre rendendole splendenti.
+~
+0 2097664 0 0 0 0
+D2
+Qui si esce verso il grottino.
+~
+~
+0 0 32837 0
+S
+#32839
+Fra gli scogli argentati~
+La piccola imbarcazione procede sicura, nonostante il mare un po' agitato. Il
+marinaio d'un tratto indica un gruppetto di scogli non molto distanti da voi:
+si narra che nei piccoli solchi scavati dall'acqua sui fianchi degli scogli,
+viva una colonia di paguri che secondo la tradizione occupano delle conchiglie
+di madreperla. Quando escono dalle loro tane, i raggi del sole o della luna
+incidono sulle loro casette facendole brillare lo scoglio intero di una luce
+innaturale quasi fatata.
+~
+0 14680064 6 30 32840 0
+S
+#32840
+Sulla spiaggia dell'isolotto~
+Il secondo attracco è sulla spiaggia di un isolotto, la sabbia cede presto il
+passo ad una frizzante boscaglia, animata da qualche animaletto. Alzando lo
+sguardo noti il cono di un cratere e poco sotto un piccolo villaggetto..
+probabilmente il vulcano sta dormendo un lungo sonno. Puoi decidere di
+scendere oppure attendere che il marinaio conduca la barca di nuovo verso il
+largo.
+~
+0 14680064 10 50 32841 0
+S
+#32841
+Sotto i bastioni della cittadella~
+La scialuppa costeggia ora la parte occidentale della cittadella, di modo che
+guardando in su, si scorgono i bastioni di protezione della città e di quando
+in quando le sentinelle si affacciano per mandare un saluto ai gitanti..
+questo la dice lunga sulla preoccupazione che nutrono le sentinelle per
+eventuali attacchi esterni. La guida comunica che il viaggio sta per finire e
+che la prossima tappa è il vascello.
+~
+0 14680064 6 30 32842 0
+S
+#32842
+Sul ponte~
+La mini crociera termina qui, sul ponte del vascello. Il marinaio ringrazia i
+partecipanti e se ne torna sotto coperta ad attendere i prossimi turisti.
+Scendendo le scalette si torna sul ponte principale oppure si può rimanere un
+po' qui a godersi il dolce dondolio del mare ed i profumi di terre lontane..
+~
+0 0 1 0 0 0
+D5
+Puoi scendere e tornare verso le stanze dell'equipaggio.
+~
+~
+0 0 32804 0
+S
+#32843
+Verso i boschi lontani~
+La mongolfiera solca fieramente le correnti, lasciandosi cullare, evitando
+abilmente le folgori e i becchi d'aquila troppo curiosi. L'addetto al volo
+abbassa la fiamma e inizia la discesa verso il punto d'approdo; sotto di voi,
+a miglia e miglia di distanza, si vede un'unica coperta verde di boschi..
+Quest'uomo non avrà mica intenzione d'atterrare sulle punte degli alberi..?
+~
+0 14680064 9 26 32844 0
+S
+#32844
+La radura d'approdo~
+La discesa procede lenta ma costante, il suolo si fa via via più vicino e
+finalmente s'intravede lo spiazzo che accoglierà la mongolfiera in toto: è una
+bella radura in mezzo ad un bosco dall'aspetto vagamente familiare.
+~
+0 2097152 0 0 0 0
+D5
+~
+~
+128 0 8903 0
+S
+#0
+
+#RESETS
+O 0 32834 1 32805  ; Object: #32834 un grosso baule di legno => #32805 Il torrione nord-occidentale
+P 0 32836 3 32834  ; Put: #32836 un otre di pelle => #32834 un grosso baule di legno
+P 0 32800 8 32834  ; Put: #32800 una fetta di carne essiccata => #32834 un grosso baule di legno
+P 0 32835 2 32834  ; Put: #32835 una spada affilata => #32834 un grosso baule di legno
+M 0 32830 1 32805  ; Mob: #32830 un soldato pigro => #32805 Il torrione nord-occidentale
+E 1 32844 1 11  ; -- Equip: #32844 uno scudo quadrato (scudo                - indossato come scudo)
+E 1 32845 1 8  ; -- Equip: #32845 pesanti stivali di cuoio (piedi                - indossato ai piedi)
+E 1 32842 1 16  ; -- Equip: #32842 una lunga lancia (impugnato            - impugnato)
+M 0 32809 1 32806  ; Mob: #32809 un soldato arrabbiato => #32806 Il torrione nord-orientale
+E 1 32843 1 5  ; -- Equip: #32843 una cotta di maglia (corpo                - indossato sul corpo)
+E 1 32835 1 16  ; -- Equip: #32835 una spada affilata (impugnato            - impugnato)
+E 1 32845 1 8  ; -- Equip: #32845 pesanti stivali di cuoio (piedi                - indossato ai piedi)
+O 0 32834 1 32806  ; Object: #32834 un grosso baule di legno => #32806 Il torrione nord-orientale
+P 0 32836 5 32834  ; Put: #32836 un otre di pelle => #32834 un grosso baule di legno
+P 0 32837 3 32834  ; Put: #32837 una balestra corta => #32834 un grosso baule di legno
+P 0 32838 9 32834  ; Put: #32838 del pesce affumicato => #32834 un grosso baule di legno
+P 0 32839 2 32834  ; Put: #32839 una pesante armatura => #32834 un grosso baule di legno
+M 0 32810 1 32807  ; Mob: #32810 un soldato innamorato => #32807 Il torrione sud-occidentale
+E 1 32837 1 16  ; -- Equip: #32837 una balestra corta (impugnato            - impugnato)
+E 1 32845 1 8  ; -- Equip: #32845 pesanti stivali di cuoio (piedi                - indossato ai piedi)
+E 1 32839 1 5  ; -- Equip: #32839 una pesante armatura (corpo                - indossato sul corpo)
+O 0 32834 1 32807  ; Object: #32834 un grosso baule di legno => #32807 Il torrione sud-occidentale
+P 0 32844 4 32834  ; Put: #32844 uno scudo quadrato => #32834 un grosso baule di legno
+P 0 32842 4 32834  ; Put: #32842 una lunga lancia => #32834 un grosso baule di legno
+P 0 32838 8 32834  ; Put: #32838 del pesce affumicato => #32834 un grosso baule di legno
+P 0 32839 2 32834  ; Put: #32839 una pesante armatura => #32834 un grosso baule di legno
+M 0 32819 1 32808  ; Mob: #32819 un uomo grosso => #32808 Il torrione sud-orientale
+E 0 32828 1 12  ; -- Equip: #32828 un enorme mantello (intorno al corpo     - indossato intorno al corpo)
+E 0 32829 1 16  ; -- Equip: #32829 un grosso martello (impugnato            - impugnato)
+E 0 32830 1 7  ; -- Equip: #32830 pantaloni di lana (gambe                - indossato alle gambe)
+M 0 32818 1 32808  ; Mob: #32818 un omino vecchio e stanco => #32808 Il torrione sud-orientale
+E 0 32826 1 5  ; -- Equip: #32826 una logora tunica (corpo                - indossato sul corpo)
+E 0 32846 1 17  ; -- Equip: #32846 una stampella di legno (tenuto               - tenuto)
+O 0 32834 1 32808  ; Object: #32834 un grosso baule di legno => #32808 Il torrione sud-orientale
+P 0 32845 2 32834  ; Put: #32845 pesanti stivali di cuoio => #32834 un grosso baule di legno
+P 0 32838 8 32834  ; Put: #32838 del pesce affumicato => #32834 un grosso baule di legno
+P 0 32836 4 32834  ; Put: #32836 un otre di pelle => #32834 un grosso baule di legno
+P 0 32837 2 32834  ; Put: #32837 una balestra corta => #32834 un grosso baule di legno
+M 0 32825 1 32810  ; Mob: #32825 un mercante ambulante => #32810 Il mercato delle sete
+E 0 32857 1 12  ; -- Equip: #32857 un largo mantellone trapuntato (intorno al corpo     - indossato intorno al corpo)
+E 0 32858 1 7  ; -- Equip: #32858 soffici pantaloni alla turca (gambe                - indossato alle gambe)
+E 0 32859 1 8  ; -- Equip: #32859 scarpe con la punta curva (piedi                - indossato ai piedi)
+E 0 32860 1 6  ; -- Equip: #32860 un cappello tripunte (testa                - indossato sulla testa)
+G 1 32882 1 ; -- Give:  #32882 un borsina di lana
+G 1 32883 1 ; -- Give:  #32883 un nastro di seta
+G 1 32886 1 ; -- Give:  #32886 due fili d'argento
+G 1 32887 1 ; -- Give:  #32887 treccine colorate
+G 1 32888 1 ; -- Give:  #32888 una cavigliera di ninnoli
+G 1 32891 1 ; -- Give:  #32891 il mantello del sole
+M 0 32831 1 32810  ; Mob: #32831 un venditore di stoffe => #32810 Il mercato delle sete
+E 0 32871 1 12  ; -- Equip: #32871 largo mantello (intorno al corpo     - indossato intorno al corpo)
+E 0 32873 1 8  ; -- Equip: #32873 buffe scarpe di tela resistente (piedi                - indossato ai piedi)
+E 0 32872 1 5  ; -- Equip: #32872 un lungo abito multicolore (corpo                - indossato sul corpo)
+G 1 32884 1 ; -- Give:  #32884 un gonnellino in pelle di daino
+G 1 32885 1 ; -- Give:  #32885 una camicina con campanellini
+G 1 32889 1 ; -- Give:  #32889 il mantello del vento
+G 1 32895 1 ; -- Give:  #32895 un tubino di velluto blu
+G 1 32892 1 ; -- Give:  #32892 sandaletti di corda
+G 1 32893 1 ; -- Give:  #32893 una soffice gonna d'organza
+G 1 32894 1 ; -- Give:  #32894 un bustino di raso
+O 0 32813 1 32810  ; Object: #32813 una bancarella => #32810 Il mercato delle sete
+P 0 32833 1 32813  ; Put: #32833 un ciondolo d'oro bianco => #32813 una bancarella
+P 0 32827 1 32813  ; Put: #32827 uno specchietto => #32813 una bancarella
+M 0 32826 1 32811  ; Mob: #32826 un armaiolo => #32811 Il mercato delle armi
+E 0 32861 1 5  ; -- Equip: #32861 un grembiulone di cuoio (corpo                - indossato sul corpo)
+E 0 32862 1 7  ; -- Equip: #32862 pesanti calzoni di tela (gambe                - indossato alle gambe)
+E 0 32863 1 8  ; -- Equip: #32863 dei robusti calzari (piedi                - indossato ai piedi)
+G 1 32890 1 ; -- Give:  #32890 il mantello della luna
+G 1 32897 1 ; -- Give:  #32897 l'armatura del fuoco
+G 1 32898 1 ; -- Give:  #32898 l'armatura del gelo
+G 1 32899 1 ; -- Give:  #32899 lo scudo della Ninfa
+M 0 32803 1 32813  ; Mob: #32803 un bimbo => #32813 La piazzetta della meridiana
+E 0 32809 1 5  ; -- Equip: #32809 una maglietta da bambino (corpo                - indossato sul corpo)
+E 0 32810 1 7  ; -- Equip: #32810 calzoncini da bambino (gambe                - indossato alle gambe)
+M 0 32807 1 32813  ; Mob: #32807 una bimba => #32813 La piazzetta della meridiana
+E 0 32811 1 5  ; -- Equip: #32811 un vestitino fiori bimba (corpo                - indossato sul corpo)
+E 0 32840 1 16  ; -- Equip: #32840 una fionda (impugnato            - impugnato)
+O 0 32814 1 32813  ; Object: #32814 una trottola di metallo => #32813 La piazzetta della meridiana
+O 0 32817 1 32813  ; Object: #32817 una fontanella => #32813 La piazzetta della meridiana
+M 0 32822 1 32815  ; Mob: #32822 un guardiano => #32815 L'ingresso al palazzo
+E 0 32848 1 7  ; -- Equip: #32848 pantaloni rossi da guardiano (gambe                - indossato alle gambe)
+E 0 32849 1 16  ; -- Equip: #32849 un'alabarda (impugnato            - impugnato)
+E 0 32850 1 6  ; -- Equip: #32850 la benda del guardiano (testa                - indossato sulla testa)
+E 0 32851 1 8  ; -- Equip: #32851 stivali rinforzati  (piedi                - indossato ai piedi)
+M 0 32823 1 32815  ; Mob: #32823 un guardiano => #32815 L'ingresso al palazzo
+E 0 32848 1 7  ; -- Equip: #32848 pantaloni rossi da guardiano (gambe                - indossato alle gambe)
+E 0 32849 1 16  ; -- Equip: #32849 un'alabarda (impugnato            - impugnato)
+E 0 32850 1 6  ; -- Equip: #32850 la benda del guardiano (testa                - indossato sulla testa)
+E 0 32851 1 8  ; -- Equip: #32851 stivali rinforzati  (piedi                - indossato ai piedi)
+M 0 32812 1 32816  ; Mob: #32812 una donna bassa => #32816 Le stanze generali
+E 0 32801 1 5  ; -- Equip: #32801 una tunica da lavoro (corpo                - indossato sul corpo)
+E 0 32802 1 8  ; -- Equip: #32802 comodi sandaletti (piedi                - indossato ai piedi)
+E 0 32804 1 6  ; -- Equip: #32804 un turbante di cotone (testa                - indossato sulla testa)
+M 0 32813 1 32816  ; Mob: #32813 una donna magra => #32816 Le stanze generali
+E 0 32802 1 8  ; -- Equip: #32802 comodi sandaletti (piedi                - indossato ai piedi)
+E 0 32801 1 5  ; -- Equip: #32801 una tunica da lavoro (corpo                - indossato sul corpo)
+E 0 32804 1 6  ; -- Equip: #32804 un turbante di cotone (testa                - indossato sulla testa)
+M 0 32820 1 32817  ; Mob: #32820 l'addetto alla fornace => #32817 La fucina
+E 0 32816 1 5  ; -- Equip: #32816 un pesante grembiule di cuoio (corpo                - indossato sul corpo)
+E 0 32823 1 8  ; -- Equip: #32823 sandali comodi (piedi                - indossato ai piedi)
+M 0 32811 1 32817  ; Mob: #32811 una donna alta => #32817 La fucina
+E 0 32801 1 5  ; -- Equip: #32801 una tunica da lavoro (corpo                - indossato sul corpo)
+E 0 32804 1 6  ; -- Equip: #32804 un turbante di cotone (testa                - indossato sulla testa)
+E 0 32802 1 8  ; -- Equip: #32802 comodi sandaletti (piedi                - indossato ai piedi)
+M 0 32814 1 32817  ; Mob: #32814 una donna risoluta => #32817 La fucina
+E 0 32804 1 6  ; -- Equip: #32804 un turbante di cotone (testa                - indossato sulla testa)
+E 0 32801 1 5  ; -- Equip: #32801 una tunica da lavoro (corpo                - indossato sul corpo)
+E 0 32802 1 8  ; -- Equip: #32802 comodi sandaletti (piedi                - indossato ai piedi)
+M 0 32815 1 32817  ; Mob: #32815 una donna chiacchierona => #32817 La fucina
+E 0 32804 1 6  ; -- Equip: #32804 un turbante di cotone (testa                - indossato sulla testa)
+E 0 32802 1 8  ; -- Equip: #32802 comodi sandaletti (piedi                - indossato ai piedi)
+E 0 32801 1 5  ; -- Equip: #32801 una tunica da lavoro (corpo                - indossato sul corpo)
+M 0 32827 1 32818  ; Mob: #32827 un alto uomo baffuto => #32818 Via del mare
+E 0 32866 1 8  ; -- Equip: #32866 scarponcini colorati (piedi                - indossato ai piedi)
+E 0 32865 1 7  ; -- Equip: #32865 un gonnellone a righe (gambe                - indossato alle gambe)
+E 0 32864 1 5  ; -- Equip: #32864 un pesante maglione di lana (corpo                - indossato sul corpo)
+M 0 32817 1 32820  ; Mob: #32817 Yshen => #32820 Le stanze private
+E 0 32824 1 14  ; -- Equip: #32824 braccialetto di Yshen (polso-sx             - indossato al polso sinistro)
+E 0 32823 1 8  ; -- Equip: #32823 sandali comodi (piedi                - indossato ai piedi)
+E 0 32822 1 0  ; -- Equip: #32822 larghi pantaloni di Yshen (luce                 - indossato come luce)
+E 0 32821 1 12  ; -- Equip: #32821 il mantello rosso di Yshen (intorno al corpo     - indossato intorno al corpo)
+E 0 32820 1 6  ; -- Equip: #32820 il copricapo di Yshen (testa                - indossato sulla testa)
+E 0 32825 1 16  ; -- Equip: #32825 lo stiletto di Yshen (impugnato            - impugnato)
+M 0 32828 1 32820  ; Mob: #32828 una giovane fanciulla => #32820 Le stanze private
+E 0 32870 1 1  ; -- Equip: #32870 morbidi sandaletti di cuoio (dito-sx              - indossato al dito sinistro)
+E 0 32869 1 6  ; -- Equip: #32869 un pettinino di legno (testa                - indossato sulla testa)
+E 0 32868 1 5  ; -- Equip: #32868 un abitino di corda (corpo                - indossato sul corpo)
+E 0 32867 1 3  ; -- Equip: #32867 una delicata collanina di corallo (collo-1              - indossato al collo n° 1)
+M 0 32816 1 32820  ; Mob: #32816 la guardiana => #32820 Le stanze private
+E 0 32815 1 7  ; -- Equip: #32815 una pantagonna di lino (gambe                - indossato alle gambe)
+E 0 32812 1 6  ; -- Equip: #32812 il copricapo della guardiana (testa                - indossato sulla testa)
+E 0 32818 1 5  ; -- Equip: #32818 una blusa di lino (corpo                - indossato sul corpo)
+E 0 32819 1 8  ; -- Equip: #32819 sandaletti leggeri (piedi                - indossato ai piedi)
+M 0 32821 1 32823  ; Mob: #32821 un ometto piccino => #32823 Un vicoletto
+E 0 32832 1 9956  ; -- Equip: #32832 corte brache di lana (Unknown=9956)
+E 0 32831 1 5  ; -- Equip: #32831 casacca di tela (corpo                - indossato sul corpo)
+E 0 32832 1 7  ; -- Equip: #32832 corte brache di lana (gambe                - indossato alle gambe)
+M 0 32834 1 32825  ; Mob: #32834 un locandiere => #32825 La locanda
+E 0 32878 1 7  ; -- Equip: #32878 pantaloni di pelle verde (gambe                - indossato alle gambe)
+E 0 32877 1 5  ; -- Equip: #32877 un caldo gilet di lana (corpo                - indossato sul corpo)
+E 0 32876 1 12  ; -- Equip: #32876 una comoda camicia di cotone (intorno al corpo     - indossato intorno al corpo)
+M 0 32835 1 32826  ; Mob: #32835 un inserviente => #32826 Il pianerottolo
+E 0 32881 1 7  ; -- Equip: #32881 un grembiule da inserviente (gambe                - indossato alle gambe)
+E 0 32880 1 8  ; -- Equip: #32880 pantofole di seta (piedi                - indossato ai piedi)
+E 0 32879 1 5  ; -- Equip: #32879 una blusa decorata (corpo                - indossato sul corpo)
+M 0 32832 1 32831  ; Mob: #32832 un lebbroso => #32831 Lebbrosario
+E 0 32874 1 5  ; -- Equip: #32874 numerose bende (corpo                - indossato sul corpo)
+M 0 32833 1 32831  ; Mob: #32833 un uomo bendato => #32831 Lebbrosario
+E 0 32875 1 5  ; -- Equip: #32875 un vestito macchiato (corpo                - indossato sul corpo)
+M 0 32824 1 32833  ; Mob: #32824 addetto al magazzino => #32833 Il magazzino della città
+E 0 32855 1 7  ; -- Equip: #32855 pantaloni multitasche (gambe                - indossato alle gambe)
+E 0 32854 1 5  ; -- Equip: #32854 un camicione multitasche (corpo                - indossato sul corpo)
+E 0 32856 1 8  ; -- Equip: #32856 un paio mocassini (piedi                - indossato ai piedi)
+M 0 32800 1 32834  ; Mob: #32800 il capitano del vascello => #32834 La cabina del capitano
+E 0 32807 1 8  ; -- Equip: #32807 calzature da capitano (piedi                - indossato ai piedi)
+E 0 32808 1 6  ; -- Equip: #32808 cappello del capitano (testa                - indossato sulla testa)
+E 0 32805 1 5  ; -- Equip: #32805 una pesante giacca blu (corpo                - indossato sul corpo)
+E 0 32806 1 7  ; -- Equip: #32806 pantaloni alla zuava (gambe                - indossato alle gambe)
+S
+
+#SHOPS
+32825 15 19 10 41 3 120 90 0 23 ; un mercante ambulante
+32826 9 3 5 4 44 120 90 0 23 ; un armaiolo
+32831 12 47 29 8 2 120 90 0 23 ; un venditore di stoffe
+0
+
+#REPAIRS
+32826 9 5 55 100 1 0 23 ; un armaiolo
+0
+
+#SPECIALS
+S
+
+
+#END

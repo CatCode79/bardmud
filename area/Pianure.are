@@ -1,0 +1,1470 @@
+#AREA
+Name         Le Pianure Settentrionali~
+Author       Copper (Jamirithiana)~
+Color        AT_GREEN verde~
+LevelRange   1 20
+ResetMsg1    Un leggero venticello accarezza le foglie e la mia pelle..~
+Vnums        300 350
+End
+
+
+#MOBILES
+
+#300
+druido aruncus~
+Aruncus il druido~
+Aruncus il druido passeggia tutt'intorno alla ricerca di erbe.~
+Aruncus è un druido alto e magro, il suo volto scarno reca le
+tracce di una vita condotta all'aperto.. Sembra essere in pace
+con se stesso ed in perfetta armonia con l'ambiente circostante.
+~
+193 8 -500 C
+13 8 2 13d13+130 3d5+2
+500 15000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1711 0 0 0 16 524291
+
+#301
+ermita sorbus~
+Sorbus l'eremita~
+Sorbus l'eremita è seduto qui, sta cucinando un coniglio arrosto.~
+Ha il viso segnato dalle difficoltà di una vita passata in solitudine.
+E' abbigliato in modo semplice e pratico. Ti guarda in viso con la precisa
+espressione di chi non ha molto da dire.
+~
+3 0 0 C
+8 16 6 4d4+40 1d9+2
+0 400
+6 6 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+
+#303
+cittadino~
+un cittadino~
+C'è un abitante di Ofcol qui, ti lancia un'occhiata.. Straniero?!~
+Sembra una brava persona e non è interessato a scazzottarsi nè
+a sollevare le armi. Veste di abiti distinti ma semplici e ha
+una faccia assolutamente comune.
+~
+69 0 0 C
+6 15 6 6d6+60 2d4+2
+200 800
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 0 2
+
+#304
+cittadina~
+una cittadina~
+C'è un'abitante di Ofcol qui, ti lancia un'occhiata ..Straniero?!~
+Sembra una persona simpatica e disposta ad una pacifica tolleranza..
+E' vestita con abiti leggeri che conferiscono grazia alla sua figura.
+~
+69 0 0 C
+6 16 5 5d5+50 2d4+1
+100 600
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 64 0
+
+#305
+verme Shudde-M'ell~
+Shudde-M'ell~
+Shudde-M'ell, il gigantesco verme evocato da G'harne, fa la guardia al suo tesoro.~
+Shudde-M'ell misura circa quindici piedi e ha il corpo avvolto da una
+patina maleodorante. E' a guardia del tesoro di G'harne da tempo immemorabile.
+~
+35 552 -1000 C
+22 -2 0 10d10+500 8d2+6
+50666 75000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 3 0 0 65536 65536 3
+0 0 1310767 0 0 0 5 3
+
+#306
+luxan negoziante~
+Luxan~
+Luxan il negoziante è qui, impaziente di mostrarti la sua merce.~
+Luxan è vestito con una giacca strana. Ha il tipico aspetto di ogni
+comune commerciante e ha passato tutta la vita a contrattare.
+E' fisicamente prestante e, soprattutto, difenderebbe la sua mercanzia
+con le unghie e con i denti.
+~
+7 0 400 C
+23 0 0 0d0+0 2d10+0
+27000 80000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 1775 0 0 0 400 524291
+
+#308
+locandiere~
+il locandiere~
+Il locandiere è qui, in attesa dei tuoi ordini.~
+Ha una faccia gioviale, una corporatura robusta e mani svelte.
+Egli è particolarmente esperto nell'arte di mescolare le varie
+bevande tra loro, che siano esse note o sconosciute. Si dice
+inoltre che sappia mescere i vini in modo insuperabile e versare
+la birra senza farne traboccare la schiuma.
+~
+3 0 -100 C
+23 0 0 0d0+0 2d10+1
+100 80000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 3
+0 0 1775 0 0 0 400 524291
+
+#309
+coniglio~
+un grazioso coniglio~
+Un grazioso coniglio saltella tutt'intorno.~
+E' una graziosa creatura dal pelo soffice, due lunghe orecchie,
+occhioni rossi vispi e grossi piedi!
+~
+65 0 0 C
+1 20 6 1d4+1 1d4+0
+0 50
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+101 3 0 0 512 512 1
+0 0 1709 0 0 0 32 2
+
+#350
+cucciolo drago domestico~
+un cucciolo di drago~
+Un piccolo cucciolo di drago saltella tutt'intorno sbattendo le sue graziose ali.~
+Questo piccolo cucciolo di drago è alto appena tre piedi.
+Sbatte incessantemente le sue ali digrignando i dentini aguzzi,
+tenta di sollevarsi dal suolo.. senza successo, è ancora piccolo!
+~
+131 524424 1000 C
+10 0 0 10d10+100 10d10+0
+0 30000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 1
+0 0 296621 0 0 0 7 524291
+
+#0
+
+
+#OBJECTS
+
+#300
+mazzetto erbe erba bocciolo~
+un mazzetto di erbe profumate~
+Adagiato su un ciottolo c'è un mazzetto di erbe verdi e qualche bocciolo rosato.~
+~
+26 0 1
+12 3 -1 -1
+1 5 0
+E
+mazzetto erbe erba bocciolo~
+L'erba sprigiona aromi frizzanti, somiglia vagamente al
+timo selvatico..  Vuoi provarla?
+~
+
+#301
+erba erbe ciuffetto gyvel~
+un ciuffetto di erbe brune~
+Adagiato in terra c'è un ciuffetto di erbe brune, con
+venature color sangue tra gli steli.~
+~
+26 0 1
+45 33 -1 -1
+1 50 5
+E
+erba erbe ciuffetto gyvel~
+Incantevole la lucentezza e il colore di quest'erbetta..
+Sarà velenosa?
+~
+
+#302
+edera venefica~
+un ciuffetto di edera venefica~
+Un ciuffetto di edera venefica è per terra.~
+~
+19 0 1
+1 0 0 1
+1 5 0
+E
+edera venefica~
+Questa pianta presenta foglie carnose di un bel verde scuro.
+Noti piccole spine bianche a proteggerne il gambo
+~
+
+#303
+vasetto sangue~
+un vasetto scarlatto~
+Un vasetto scarlatto è stato dimenticato qui.~
+~
+17 0 1
+2 2 13 0
+2 50 5
+E
+sangue vasetto~
+E' piccolo e levigato, ed è ottenuto dalla cottura accurata dell'argilla.
+Incisi sul bordo, strani simboli sconosciuti rivelano la sua origine occulta.
+~
+
+#304
+fiori selvatici mazzetto~
+un mazzetto di fiori selvatici~
+Nel mezzo di un cespuglio sbuca un mazzetto di fiori selvatici.~
+~
+13 1024 16401
+0 0 0 0
+1 10 1
+E
+fiori selvatici mazzetto~
+Graziosissimi fiori selvatici dai più diversi e brillanti colori.
+Forniranno un simpatico ornamento se infilati tra i capelli..
+~
+
+#307
+amuleto~
+uno strano amuleto~
+Uno strano amuleto è stato lasciato qui, coperto di polvere..~
+~
+9 192 5
+2 0 0 0
+1 500 50
+A
+21 -5
+A
+31 1
+E
+amuleto~
+Comprendi subito che quest'oggetto è appartenuto ad un Druido, poichè arcane
+scritture ne ricoprono la superficie.. Sicuramente serviva a stabilire l'antico
+legame con le forze dominatrici della natura..
+~
+
+#308
+staffa bastone~
+un bastone druidico~
+Appoggiato su un grosso sasso vedi un Bastone druidico.~
+~
+9 0 24577
+0 0 0 0
+4 15 1
+E
+bastone staffa~
+La staffa druidica misura circa quindici piedi e, a parte gli strani simboli che
+lo ricoprono, non sembra aver altro che può in qualche modo interessarti..
+~
+A
+12 15
+A
+31 1
+A
+25 1
+
+#309
+coniglio arrosto~
+un coniglio arrosto~
+Adagiato su un intreccio di foglie di alloro vedi un invitante arrosto di coniglio.~
+~
+19 0 1
+24 0 0 0
+5 40 4
+E
+coniglio arrosto~
+E' cucinato con cura e profuma tantissimo. La crosticina dorata che lo ricopre è
+spruzzata di erbette aromatiche..
+~
+
+#310
+pergamena rotolo carta~
+Una pergamena arrotolata~
+Uno strano rotolo di carta pergamena, dal colore verde scuro, è stato
+dimenticato in un angolo~
+~
+2 64 16385
+20 216 4 26
+1 15000 1500
+E
+pergamena rotolo carta~
+E' fatta di carta pergamena verde ed è vecchia di secoli..
+L'inscrizione superiore recita: 'Ep ep fi'hur G'harne G'harne fhtagn
+Shudde-M'ell hyas Negg'h'. Termina a piè pagina con un disegno raffigurante
+raccapriccianti scene di morte.
+~
+
+#311
+fiala vetro pozione chiaro liquido~
+Una pozione di colore chiaro~
+Una fiala di vetro con liquido chiaro, avvolta da un panno di pelle è posata qui.~
+~
+10 64 1
+20 18 19 20
+2 2500 250
+E
+panno pelle~
+Il panno che avvolge la fiala in vetro è fatto di pelle, vecchia e incartapecorita,
+ormai. Scostandolo con cura, il vetro mostra il liquido chiaro contenuto nella fiala..
+Non riconosci la sostanza all'interno ma sicuramente ha poteri magici..
+~
+E
+cuoio~
+Il cuoio che avvolge la fiala e' vecchio e logoro.. non riesci nemmeno
+a capire da cosa sia stato ricavato..~
+
+#312
+involto carta jhyfrdow~
+Un involto di carta intitolato 'jhyfrdow'~
+Un vecchio involto di carta è appoggiato al suolo.~
+~
+2 0 1
+12 27 -1 -1
+1 500 50
+E
+disegni rituali~
+Il disegno tratteggiato mostra popoli intenti all'evocazione di un gigantesco
+verme e un altare sacrificale, posto in un cerchio di pietre scure, dove altre
+persone sono intente al sacrificio di loro simili.. Impressionanti immagini..
+~
+E
+involto carta jhyfrdow~
+Srotolando attentamente l'involo di carta, leggi l'intestazione: 'jhyfrdow'
+Esaminandolo minuziosamente noti dei disegni raffiguranti rituali arcani..
+~
+
+#313
+crimson flask blood~
+a flask of crimson liquid~
+A flask of crimson liquid draws your attention.~
+~
+27 0 1
+1 1 13 0
+3 35000 3500
+E
+giara sangue vaso~
+E' un vaso realizzato in argilla, sulla sua superficie puoi notare
+numerose incisioni e simboli appartenenti a qualche misterioso culto..
+~
+
+#0
+
+
+#ROOMS
+
+#300
+Un Sentiero tra le Pianure~
+Prosegui serenamente attraverso il sentiero posto tra le distese pianeggianti.
+Ti soffermi ancora ad osservare il bel paesaggio mentre il vento sfiora con
+delicatezza i tuoi capelli. Il sentiero prosegue snodandosi in tutte le
+direzioni, a est ad ovest e in quella meridionale, mentre da sud s'intravede
+il cancello settentrionale di Darkhaven.
+~
+0 0 2
+D0
+Vedi le distese pianeggianti.
+~
+~
+0 -1 315
+D1
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 301
+D2
+Attraverso sud scorgi il cancello settentrionale di Darkhaven.
+~
+~
+0 -1 21099
+D3
+Le sconfinate distese pianeggianti.
+~
+~
+0 -1 316
+S
+
+#301
+Il Sentiero tra le Pianure~
+Prosegui serenamente attraverso il sentiero posto tra le distese pianeggianti.
+Ancora ti fermi ogni tanto, rapito dalla magnifica scena del luogo..
+Il sentiero prosegue snodandosi a nord e ad ovest.
+~
+0 0 2
+D1
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 302
+D3
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 300
+S
+
+#302
+Il Sentiero tra le Pianure~
+Prosegui serenamente attraverso il sentiero posto tra le distese pianeggianti.
+Il paesaggio è sempre incantevole, il venticello gioca ancora coi tuoi capelli..
+Il sentiero prosegue snodandosi a nord e ad ovest.
+~
+0 0 2
+D0
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 303
+D3
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 301
+S
+
+#303
+Il Sentiero tra le Pianure~
+Prosegui serenamente attraverso il sentiero posto tra le distese
+pianeggianti. Avanzi il passo e respiri a pieni polmoni dell'aria
+salubre della pianura. Il sentiero prosegue snodandosi a nord,
+mentre nelle direzioni laterali, est ed ovest, scorgi ancora la
+distesa pianeggiante.
+~
+0 0 2
+D0
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 304
+D1
+Ad est puoi notare la distesa verdeggiante.
+~
+~
+0 -1 317
+D2
+Non noti nulla di speciale a parte il fatto che le distese pianeggianti
+continuano.
+~
+~
+0 -1 302
+D3
+Ad ovest ancora si stagliano le meravigliose piane verdeggianti.
+~
+~
+0 -1 315
+S
+
+#304
+Il Sentiero tra le Pianure~
+Prosegui serenamente attraverso il sentiero posto tra le distese
+pianeggianti. Tutto l'ambiente è pervaso dal tranquillo respiro
+della natura.. Ancora il sentiero prosegue a nord..
+~
+0 0 2
+D0
+Il corso del sentiero prosegue verso nord e piccole colline s'affacciano
+alla vista.
+~
+~
+0 -1 305
+D2
+Il sentiero a sud conduce verso la città.
+~
+~
+0 -1 303
+S
+
+#305
+Il Sentiero tra le Pianure~
+Prosegui serenamente attraverso il sentiero posto tra le distese
+pianeggianti. Sei decisamente rilassato, questa passeggiata ti fa
+proprio bene al fisico.. A est e ad ovest puoi vedere la verdeggiante
+pianura estendersi ancora. Il percorso continua a nord attraverso
+piccole colline.
+~
+0 0 2
+D0
+Il sentiero prosegue attraverso le collinette.
+~
+~
+0 -1 306
+D1
+Puoi vedere l'estesa pianura verdeggiante.
+~
+~
+0 -1 321
+D2
+Il sentiero prosegue attraversando Darkhaven.
+~
+~
+0 -1 304
+D3
+Puoi vedere l'estesa pianura verdeggiante.
+~
+~
+0 -1 320
+S
+
+#306
+Un Sentiero tra le Colline~
+Sei arrivato dove il sentiero prosegue attraverso le piccole colline che
+vedevi prima. Alzi il viso per ammirare l'immensità estesa del cielo terso.
+Il sentiero continua a nord ed è dal versante settentrionale che arriva,
+improvvisa e frizzante, la freschezza di una ventata.
+~
+0 0 2
+D0
+Si mostra ancora la pianura verdeggiante e riesci ad intravedere qualche
+riverbero di luce su una superficie d'acqua cristallina.
+~
+~
+0 -1 326
+D1
+Qui il percorso prosegue verso oriente.
+~
+~
+0 -1 307
+D2
+Le pianure si snodano fino a terminare ai piedi di dolci pendii.
+~
+~
+0 -1 305
+S
+
+#307
+Il Sentiero tra le Colline~
+Prosegui per il sentiero attraversando le piccole colline che vedevi prima.
+Il vento è decisamente più fresco e pungente ma il cielo è terso e sereno.
+Un delizioso cinguettio allegro accompagna ogni tuo passo..
+Puoi proseguire per il versante orientale oppure prendere quello occidentale.
+~
+0 0 2
+D1
+Il sentiero prosegue attraverso le collinette.
+~
+~
+0 -1 308
+D3
+Da ovest il sentiero piega curvandosi in direzione sud.
+~
+~
+0 -1 306
+S
+
+#308
+Il Sentiero tra le Colline~
+Prosegui per il sentiero attraversando le piccole colline che vedevi prima.
+Il vento è decisamente più fresco e pungente ma il cielo è terso e sereno.
+Una farfalla bianca si posa per un istante sulla tua spalla e vola via subito..
+Puoi proseguire per il versante settentrionale oppure prendere quello occidentale.
+~
+0 0 2
+D0
+Lo stretto percorso attraversa i poggi e gira a sinistra, qui.
+~
+~
+0 -1 309
+D3
+A ovest puoi vedere il prosieguo del sentiero.
+~
+~
+0 -1 307
+S
+
+#309
+Il Sentiero tra le Colline~
+Prosegui per il sentiero attraversando le piccole colline che vedevi prima.
+Il vento è decisamente più fresco e pungente ma il cielo è terso e sereno.
+Dall'ovest arriva una dolce brezza fresca, proprio mentre stai guardando le
+direzioni del percorso: sud ed est.
+~
+0 0 2
+D1
+Vedi il sentiero proseguire attraverso le colline.
+~
+~
+0 -1 310
+D2
+Vedi il sentiero proseguire attraverso le colline.
+~
+~
+0 -1 308
+D3
+Si mostra ancora la pianura verdeggiante e riesci ad intravedere qualche
+riverbero di luce su una superficie d'acqua cristallina.
+~
+~
+0 -1 326
+S
+
+#310
+Il Sentiero tra le Colline~
+Stai passeggiando in un lungo sentiero laterale, che congiunge i versanti da
+est ad ovest. Tutto lo scenario è composto dalla lussureggiante vegetazione
+della collina. Puoi proseguire il tuo cammino attraverso la densa vegetazione
+delle pianure, avanzando verso nord.
+~
+0 0 2
+D0
+Non riesci a distinguere bene alcunchè, data la folta vegetazione che appare in questo tratto della collina.
+~
+~
+0 -1 327
+D1
+Ti accorgi, guardando verso est, che il sentiero si prolunga attraverso un incrocio a T.
+~
+~
+0 -1 311
+D3
+Riesci soltanto a vedere che il sentiero prosegue attraverso le collinette.
+~
+~
+0 -1 309
+S
+
+#311
+Il Sentiero tra le Colline~
+Stai passeggiando lungo l'intricato sentiero che attraversa le colline.
+Immediatamente ad est scorgi un incrocio a T mentre il sentiero prosegue
+verso ovest per lunghi tratti.
+~
+0 0 2
+D1
+Da qui puoi raggiungere l'incrocio a T.
+~
+~
+0 -1 312
+D3
+Il lungo sentiero continua attraverso la vegetazione.
+~
+~
+0 -1 310
+S
+
+#312
+Un'Intersezione nel Sentiero~
+Ti sei appena fermato davanti a quest'incrocio a tre vie.
+Ad ovest si mostra un lungo ed intricato sentiero attraverso i pendii,
+a nord la strada continua mentre un'antica viuzza discende a sud.
+~
+0 0 2
+D0
+Una strada verso nord.
+~
+~
+0 -1 313
+D2
+Sebbene sia parzialmente nascosta, riesci ad intravedere un'antica viuzza.
+~
+~
+0 -1 332
+D3
+Vedi il lungo sentiero snodarsi attraverso le colline.
+~
+~
+0 -1 311
+S
+
+#313
+Una strada verso nord~
+Stai proseguendo per una strada, a sud il percorso si scinde in tre diramazioni
+mostrando un incrocio a T e, scrutando verso occidente, vedi ancora i dolci
+colli.
+Il versante orientale si presenta, ahimé, impraticabile..
+~
+0 0 2
+D2
+Il versante meridionale mostra un incrocio a T.
+~
+~
+0 -1 312
+D3
+Guardi attentamente i pendii.. stai vagliando la possibilità di arrampicarti
+fin lì..
+~
+~
+0 -1 327
+S
+
+#315
+La Collina degli Impiccati~
+Avanzi tra la pianura erbosa fino a raggiungere la vetta della collina, dove vedi
+erigersi sinistramente due grosse forche di legno pesante..
+Brandelli di cadaveri penzolano orribilmente dalle luride corde agitate dal vento..
+Un cartello di legno, legato ad entrambi i pali da una grossa catena rugginosa, scricchiola sospinto dal vento..
+~
+0 0 4
+D0
+A nord continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 320
+D1
+Puoi scorgere un viottolo correre attraverso la pianura, ad oriente.
+~
+~
+0 -1 303
+D2
+Puoi scorgere un viottolo correre attraverso la pianura, a sud.
+~
+~
+0 -1 300
+D3
+Ad ovest continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 318
+E
+cartello ~
+Sul cartello è scritto questo:
+
+Fedeli cittadini di Darkheaven.. a memoria dell'ira degli Dei che un dì colse due giovani e intrepidi avventurieri i quali presto volsero le loro anime alla superbia, dopo poche e facili vittorie, facendosi chiamare immortali..
+Possano i loro spiriti trovar pace.. un giorno..
+
+~
+S
+
+#316
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+~
+0 0 4
+D0
+A nord continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 318
+D1
+Appena volgi lo sguardo verso oriente noti un piccolo viottolo.
+~
+~
+0 -1 300
+S
+
+#317
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+Volgendo lo sguardo verso sud riconosci in lontananza Darkhaven.. ma
+sei su di un pendio ripido e scosceso, ricordalo..
+~
+0 0 4
+D1
+Ad est continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 338
+D2
+Ti sporgi a guardare.. ti rendi subito conto della enorme pendenza di questa
+scarpata.. fai attenzione, potresti scivolare..
+~
+~
+0 -1 345
+D3
+Un piccolo viottolo corre attraverso la rigogliosa pianura.
+~
+~
+0 -1 303
+S
+
+#318
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+~
+0 0 4
+D0
+A nord continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 319
+D1
+Ad est continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 315
+D2
+A sud continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 316
+S
+
+#319
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+~
+0 0 4
+D0
+A nord la pianura si estende fino ad un piccolo poggio dal cui retro s'innalza
+una collinetta..
+~
+~
+0 -1 330
+D1
+A est continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 320
+D2
+A sud continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 318
+S
+
+#320
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+~
+0 0 4
+D0
+La pianura si estende in un piccolo poggio a nord.
+~
+~
+0 -1 322
+D1
+Ad oriente vedi un tortuoso viottolo serpeggiare nella pianura.
+~
+~
+0 -1 305
+D2
+A sud continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 315
+D3
+Ad ovest continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 319
+S
+
+#321
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+~
+0 0 4
+D2
+A sud continua ad estendersi la pianura, per un lungo tratto ancora..
+~
+~
+0 -1 338
+D3
+Un piccolo viottolo corre attraverso la pianura.
+~
+~
+0 -1 305
+S
+
+#322
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto.
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+~
+0 0 4
+D0
+A nord il percorso continua ad estendersi, tra le colline, per un bel pezzo..
+~
+~
+0 -1 324
+D2
+A sud il percorso continua ad estendersi, tra le pianure, per un bel pezzo..
+~
+~
+0 -1 320
+D3
+Ad ovest il percorso continua ad estendersi, tra le colline, per un bel pezzo..
+~
+~
+0 -1 330
+S
+
+#323
+Un Ripido Pendio~
+Avanzi lentamente attraverso questo ripido pendio, stringendo la falcata per
+restare aderente al terreno.. è davvero azzardato quello che stai facendo..
+A nord si apre alla vista una florida vallata i cui prati brulicano di fiori
+selvatici profumati e coloratissimi..
+~
+0 0 4
+D0
+Un percorso attraverso la valle.
+~
+~
+0 0 7800
+D1
+Ad est il percorso continua ad estendersi, tra le colline, per un bel pezzo..
+~
+~
+0 -1 324
+D2
+Eccola.. all'orizzonte fa mostra di sè l'imponente sagoma di Darkhaven.
+~
+~
+0 -1 330
+S
+
+#324
+Un Ripido Pendio~
+Avanzi lentamente attraverso questo ripido pendio, stringendo la falcata per
+restare aderente al terreno.. è davvero azzardato quello che stai facendo..
+Sollevando lo sguardo a nord vedi le montagne torreggiare severe dall'alto,
+mentre tutt'intorno maestosi alberi di pino riempiono il meraviglioso scenario..
+~
+0 0 4
+D0
+Sollevando lo sguardo a nord vedi le montagne torreggiare severe dall'alto,
+mentre tutt'intorno maestosi alberi di pino riempiono il meraviglioso scenario..
+~
+~
+0 -1 19904
+D1
+Ad est il percorso continua ad estendersi, tra le colline, per un bel pezzo..
+~
+~
+0 -1 325
+D2
+A sud il percorso continua ad estendersi..
+All'orizzonte appare l'imponente sagoma della città di Città di Darkhaven.
+~
+~
+0 -1 322
+D3
+Ad ovest il percorso continua ad estendersi per un bel tratto..
+~
+~
+0 -1 323
+E
+alberi pino pini~
+Maestosi e profumati, conferiscono allo scenario un'atmosfera suggestiva ma..
+sembra che qualcosa di vivo percorra il loro legno..
+~
+E
+montagne~
+Sembra viva la montagna bruna. Si staglia imponente verso il cielo mostrandone i decisi
+contrasti di colore..
+~
+S
+
+#325
+Un Ripido Pendio~
+Avanzi lentamente attraverso questo ripido pendio, stringendo la falcata per
+restare aderente al terreno.. è davvero azzardato quello che stai facendo..
+Sollevando lo sguardo a nord vedi le montagne torreggiare severe dall'alto,
+mentre tutt'intorno maestosi alberi di pino riempiono il meraviglioso scenario..
+~
+0 0 4
+D1
+Ad est il percorso continua ad estendersi, attraverso il piccolo poggio, per un bel tratto..
+~
+~
+0 -1 326
+D3
+Ad ovest il percorso continua ad estendersi per un bel tratto..
+~
+~
+0 -1 324
+S
+
+#326
+Un Laghetto tra le Colline~
+Sei arrivato nei pressi di un piccolo laghetto ai piedi della
+collina. L'acqua è chiara e fresca. Il sentiero si snoda ancora a nord
+attraverso la collina, diventando via via più irto.. Ancora qualche passo
+e sarai di fronte alle montagne.
+~
+0 0 4
+D1
+Un piccolo viottolo porta ad est.
+~
+~
+0 -1 309
+D2
+A sud un sentiero svolta verso il versante meridionale delle pianure.
+~
+~
+0 -1 306
+D3
+Ad ovest il percorso continua ad estendersi per un bel tratto..
+~
+~
+0 -1 325
+E
+laghetto~
+Il laghetto mostra acque terse e cristalline ma scrutandolo con più
+attenzione ti accorgi di non riuscire a distinguerne il fondale.. Forse non
+è consigliabile bere da qua..
+~
+S
+
+#327
+Un Ripido Pendio~
+Avanzi lentamente attraverso questo ripido pendio, stringendo la falcata per
+restare aderente al terreno.. è davvero azzardato quello che stai facendo..
+Sollevando lo sguardo a nord vedi le montagne torreggiare severe dall'alto,
+mentre tutt'intorno maestosi alberi di pino riempiono il meraviglioso scenario..
+~
+0 0 4
+D1
+Ad est il percorso continua ad estendersi per un bel tratto..
+~
+~
+0 -1 313
+D2
+Una ripida scarpata scivola giù a sud, fino ad un viottolo..
+~
+~
+0 -1 310
+S
+
+#330
+Di fronte ad una Capanna~
+Alla tua sinistra, seminascosta dalle fronde dei pini silenziosi, vedi una
+piccola capanna. Verso nord, proseguendo per il pendio, incontrerai la foresta
+di pini che già intravedi da questo punto.. Tutto è circondato dalle alte
+vette delle montagne, qui..
+~
+0 0 4
+D0
+Il ripido pendio che ti si affaccia alla vista è sicuramente arduo da scalare..
+~
+~
+0 -1 323
+D1
+Il pendio si estende ancora ad est, per un bel pezzo..
+~
+~
+0 -1 322
+D2
+Il pendio si estende ancora a sud, attraverso i poggi, per un bel pezzo..
+~
+~
+0 -1 319
+D3
+La piccola capanna che vedi ti suggerisce la presenza di un eremita che vive
+sicuramente da queste parti..
+~
+door~
+1 -1 331
+S
+
+#331
+La Capanna dell'Eremita~
+Sei entrato nella capanna di un eremita.
+Tutto appare vecchio e consunto ma di indubbia utilità per un sicuro ricovero,
+fornendo riparo dalle tempeste e dalle bestie feroci che popolano le pianure e
+le circostanti colline..
+Un rudimentale caminetto è posto accanto all'uscio della capanna.
+~
+0 8 0
+D1
+Attraverso la porta scorgi il dolce pendio..
+~
+porta~
+1 -1 330
+E
+caminetto~
+E' il focolare dell'Eremita. C'è una pentola bombata appesa ad un gancio.
+~
+S
+
+#332
+Un'Antica Viuzza~
+Stai muovendo i tuoi passi attraverso una viuzza molto antica, il cui percorso è
+levigato dall'usura e dal tempo e perciò stesso è alquanto sdrucciolevole..
+Guardando verso nord puoi vedere un crocevia a T mentre a sud un sentiero prosegue
+sul fronte meridionale.
+~
+0 0 3
+D0
+Volgendo lo sguardo a nord intravedi l'inizio di un'intersezione a T.
+~
+~
+0 -1 312
+D2
+L'antica viuzza prosegue verso sud.
+~
+~
+0 -1 333
+S
+
+#333
+L'Antica Viuzza~
+Continui a muoverti sull'antica viuzza che collega i versanti tra nord e sud.
+Il sentiero è parzialmente visibile, da questo punto..
+~
+0 0 3
+D0
+Vedi l'antica viuzza.
+~
+~
+0 -1 332
+D2
+Avanzi con cautela per il sentiero, anche se non avverti pericoli imminenti..
+~
+~
+0 -1 334
+S
+
+#334
+L'Antica Viuzza~
+Continui a passo svelto verso l'antica viuzza che collega i versanti tra nord e sud.
+Il sentiero è parzialmente visibile, da questo punto..
+~
+0 0 3
+D0
+Vedi l'antica viuzza.
+~
+~
+0 -1 333
+D2
+Avanzi con cautela per il sentiero, anche se non avverti pericoli imminenti..
+~
+~
+0 -1 335
+S
+
+#335
+L'Antica Viuzza~
+Continui a passo svelto verso l'antica viuzza che collega i versanti tra nord e sud.
+Alla fine del sentiero ti sembra di vedere qualcosa adagiato in terra, quasi a
+formare un Segnale..
+~
+0 0 3
+D0
+Vedi l'antico sentiero serpeggiare sinuosamente verso nord.. Procedi con cautela..
+~
+~
+0 -1 334
+D1
+Più avanti, dinanzi alla tua vista s'affaccia un ponte. Senti come scricchiola?
+~
+~
+0 -1 336
+E
+segnale~
+Sembrano comunissime pietre, ma il fatto che siano state adagiate in terra in modo
+affatto casuale ti lascia pensare che abbiano qualcosa di speciale.. solo che non
+sai ancora cosa..
+~
+S
+
+#336
+Il Ponte di Legno~
+Stai camminando su di un ponte di legno.
+E' certamente molto vecchio ma appare abbastanza stabile, per questo ti sei deciso ad
+attraversarlo nonostante ad ogni passo sinistri scricchiolii rompano il silenzio.
+Non riesci a riconoscere la qualità del legno con il quale è stato costruito.
+Forse non l'hai mai vista prima..
+~
+0 0 2
+D1
+Il sentiero scorre.. più avanti noti alcune formazioni rocciose.
+~
+~
+0 -1 337
+D3
+L'antica viuzza parte da ovest e curva più avanti verso nord.
+~
+~
+0 -1 335
+E
+rocciose formazioni roccia rocciosa formazione~
+La formazione rocciosa, composta dal sedimento di sette strati, tra monoliti e
+pietre, è sistemata in un cerchio simbolico.
+Rifletti seriamente sulla possibilità di entrare nel cerchio.
+~
+S
+
+#337
+L'Antica Viuzza~
+Sei esattamente tra il ponte di legno e la formazione rocciosa..
+Avvicinandoti a quest'ultima ti si chiarisce la sua vera mole: circa quindici piedi
+d'altezza e quasi un perfetto triangolo nella foggia.. Sei davvero impressionato da
+quest'imponente visione..
+~
+0 0 3
+D1
+Entri nel cerchio di pietre.. Ti stai domandando se sia proprio una buona idea..
+~
+~
+0 -1 339
+D3
+L'antica viuzza passa attraverso il ponte di legno.
+~
+~
+0 -1 336
+E
+rocciose formazioni roccia rocciosa formazione~
+La formazione rocciosa, composta dal sedimento di sette strati, tra monoliti e
+pietre, è sistemata in un cerchio simbolico. Rifletti sulla possibilità di
+entrare nel cerchio.
+~
+S
+
+#338
+Le Pianure Erbose~
+Avanzi incedendo tra la rigogliosa vegetazione della pianura, particolarmente
+ricca e florida in questo punto,
+Il vento si solleva in tempesta e mugghia quasi minaccioso.
+Dal versante settentrionale puoi vedere il pendio della collina e la vetta di
+una montagna.
+~
+0 0 4
+D0
+Le pianure si estendono ancora per un bel pezzo verso nord..
+~
+~
+0 -1 321
+D3
+Le pianure si estendono ancora per un bel pezzo verso est..
+~
+~
+0 -1 317
+S
+
+#339
+Le Pietre di G'harne~
+Sei nel mezzo del cerchio di pietre nere e monoliti alti quindici piedi,
+all'interno del quale è posto un grosso altare sacrificale.
+Il pavimento è ricoperto da sudiciume anche se l'altare appare lindo e pulito.
+Ad ovest l'antica viuzza prosegue..
+~
+0 0 2
+D3
+Vedi l'antica viuzza e il ponte di legno, da qui.
+~
+~
+2048 -1 337
+D5
+Un tunnel scende in basso..
+~
+altare~
+1035 -1 340
+E
+morte rituali vermi immagini~
+Le immagini rappresentano rituali perversi.
+Vedi dipinti diversi Druidi mentre versano sangue su una mistura d'erba su di
+un altare simile a questo.
+Si tratta di un oscuro incantesimo atto all'evocazione di orribili vermi giganti.
+~
+E
+altare sacrificale~
+Esamini l'altare sacrificale di G'harne in tutta la sua composizione e osservi che
+misura tre piedi in altezza, dieci in lunghezza e almeno quattro in larghezza. Reca
+sul basamento delle immagini di rituali di morte e dipinti di vermi giganti.
+~
+E
+pietre monolite g'harne ~
+Le pietre giganti sono fatte di un materiale che non hai visto prima.
+Somiglia a marmo nero, ma non ne presenta proprio tutte le caratteristiche..
+si tratta indubbiamente di qualcosa d'altro..
+~
+S
+
+#340
+La Galleria Buia~
+Ti sei fermato in questa galleria buia, umida e maleodorante, posta esattamente
+sotto l'Altare di G'harne e che prosegue più avanti a sud e ad ovest.
+Le pareti sono schizzate di melma putrescente, ovunque in terra vedi pezzi di carne marciti e l'odore è insopportabile..
+Se devi prendere una boccata d'aria, risali immediatamente..
+~
+0 265 0
+D2
+~
+~
+0 -1 341
+D3
+~
+~
+0 -1 342
+D4
+Uno spiraglio d'aria fresca..
+~
+slime~
+1035 -1 339
+E
+carne melma pezzi~
+Cerchi di esaminare la fanghiglia che ricopre l'ambiente, utilizzando un bastoncino
+di legno, ma t'arresti subito.. l'unica cosa che realmente vuoi fare è dare di
+stomaco..
+~
+S
+
+#341
+La Fine della Galleria~
+Scende rapido da nord il percorso della galleria, per poi interrompersi bruscamente qui.
+Semplicemente, gli scavi qui non sono stati completati. L'unica è tornare a nord e
+prendere la svolta che prosegue.
+~
+0 265 0
+D0
+~
+~
+0 -1 340
+S
+
+#342
+La Galleria Buia~
+Ti sei fermato in questa galleria buia, umida e maleodorante, posta giusto sotto
+l'Altare di G'harne e che prosegue più avanti a sud e ad ovest.
+Le pareti sono schizzate di melma putrescente, ovunque in terra vedi pezzi di carne marciti e l'odore è insopportabile..
+~
+0 265 0
+D1
+La galleria prosegue in questa direzione.
+~
+~
+0 -1 340
+D3
+La galleria prosegue in questa direzione.
+~
+~
+0 -1 343
+E
+carne melma pezzi~
+Cerchi di esaminare la fanghiglia che ricopre l'ambiente, utilizzando un bastoncino
+di legno, ma t'arresti subito.. l'unica cosa che realmente vuoi fare è dare di
+stomaco..
+~
+S
+
+#343
+La Galleria Buia~
+Ti stai addentrando in questa torbida galleria, posta sotto le sconfinate pianure.
+L'odore nauseabondo diventa più forte man mano che avanzi, così come la densità
+della melma e delle altre sostanze inqualificabili che macchiano pavimento e pareti.
+~
+0 256 0
+D1
+Il tanfo insopportabile è meno intenso in questa direzione.
+~
+~
+0 -1 342
+D3
+Sembra che la galleria si estenda in una specie di caverna.
+~
+~
+0 -1 344
+E
+melma sostanze~
+Che schifo immondo!
+~
+S
+
+#344
+La Sala di G'harne~
+Rimanete nella sala di G'harne.
+I muri sono dipinti con strane rappresentazioni: simboleggiano il sacrificio
+delle vite e la popolazione riunita per pratiche d'evicazione di vermi giganteschi.
+La melma e il sangue coagulato imbrattano completamente il resto di questa stanza.
+~
+0 265 0
+D1
+Prendere questa direzione forse è davvero un'ottima idea..
+~
+~
+0 -1 343
+E
+sangue coagulato melma~
+Dai di stomaco..
+~
+S
+
+#345
+Un Ripido Pendio~
+Provi a scalare il pendio.. MA SCIVOLI! Perdi l'equilibrio e ruzzoli per la rapida
+battendo la testa contro qualcosa di duro.. Stai sanguinando.. Hai fallito e non
+puoi più nemmeno tentare la risalita..
+~
+0 14 2
+S
+
+#0
+
+
+#RESETS
+O 0 300 10 327
+O 0 301 10 319
+O 0 304 3 316
+O 0 304 3 323
+O 0 304 3 338
+M 0 305 1 344
+G 1 310 5
+G 1 311 5
+M 0 309 10 324
+M 0 309 10 318
+M 0 309 10 334
+M 0 300 1 323
+E 1 308 2 17
+E 1 307 2 3
+G 1 312 1
+G 1 302 10
+M 0 301 1 331
+G 1 303 2
+O 0 309 30 331
+D 0 340 4 1
+D 0 339 5 1
+S
+
+
+#SHOPS
+306  1 10 11 19  0   120  60    0 23    ; Luxan
+308  0  0  0  0  0   110 100    0 23    ; the Innkeeper
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  350 spec_cast_mage
+S
+
+
+#END

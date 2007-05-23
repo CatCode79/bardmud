@@ -1,0 +1,34 @@
+#RACE
+RaceNumber     RACE_DWARF
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Nano~
+NameFema       Nana~
+Color          AT_ORANGE burnt umber~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        10  15 10    -5  -5  20  -5   0   -5  -5  -5  -10  -5  -10  -5
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        5     -5    10     -5   -10   0
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_INFRARED~
+Resist         ~
+Suscept        ~
+* Lingue che conosce di base, il comune e il nanico
+LangNatural    LANGUAGE_COMMON LANGUAGE_DWARVEN~
+* Riescono a pelo a poter pronunciare la fluidità dell'elfico, la loro praticità crea un blocco mentale per le lingue animali rodent, insectoid, marine e treeleaf stranamente sono bravi nell'antico
+LangLearnable  LANGUAGE_ELVEN LANGUAGE_PIXIE LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_TROLLISH LANGUAGE_MAMMAL LANGUAGE_REPTILE LANGUAGE_DRAGON LANGUAGE_GOBLIN LANGUAGE_ANCIENT LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_AVIS LANGUAGE_CANINE LANGUAGE_FELINE~
+AlignStart     0
+MinAlign       -750
+MaxAlign       750
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        96
+Height         138
+Weight         60,000
+TonalitySound  voce rude~
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,1949 @@
+#AREA
+Name         Le Catacombe dei Nani~
+Author       Raff (Korsath)~
+Color        AT_GREY grigio~
+LevelRange   10 20
+ResetMsg1    Strani rumori metallici echeggiano attirando la tua attenzione.~
+Vnums        32900 32999
+Version      1
+End
+
+
+#MOBILES
+#32900
+vecchio pipistrello~
+un pipistrello~
+Un pipistrello sbatte velocemente le ali volando verso di te.
+~
+Un pipistrello ormai molto vecchio dalle ali decisamente malconce.
+~
+35 32 0 C
+5 18 5 5d5+50 2d3+3
+0 500
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32901
+un vecchio templare~
+un templare~
+Un templare vaga con aria confusa.
+~
+Un anziano dalla lunga e folta barba bianca si guarda intorno con aria
+decisamente spaesata.
+~
+129 0 200 C
+7 14 4 7d7+70 1d9+4
+600 1500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32902
+vecchio esploratore~
+un esploratore~
+Un esploratore osserva attentamente il terreno riflettendo sulla strada da
+intraprendere.
+~
+Un uomo ormai al tramonto della sua vita. Probabilmente ha dedicato tutta
+la sua vita all'esplorazione visto che il suo equipaggio è decisamente usurato.
+Sembra che non porti con sé armi, difficilmente sopravvivrebbe se lungo
+il suo cammino si imbattesse in qualche aggressore.
+~
+133 32 100 C
+8 13 4 8d8+80 2d5+1
+800 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32903
+profanatore~
+un profanatore~
+Un profanatore di tombe sta scavando in cerca di qualcosa.
+~
+E' un uomo di grossa stazza e dal linguaggio decisamente colorito.
+Mentre con un grande badile scava una buca cercando qualcosa, lo senti
+lamentarsi su un necromante e sul lavoro affidatogli.
+~
+37 0 -500 C
+9 12 3 9d9+90 2d6+1
+100 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32904
+nube coltre~
+una nube~
+Una coltre di fumo vaga in giro.. Sembra viva.
+~
+A prima vista sembrerebbe un semplice ed impenetrabile muro di fumo.
+Guardando meglio scorgi al suo interno una figura, probabilmente un uomo.
+E' sicuramente un'altra di quelle diavolerie magiche.
+~
+1 1081472 0 C
+10 10 6 10d10+100 2d6+4
+200 2500
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32905
+vecchio~
+un vecchio~
+Un vechietto dall'aria innocua cammina lentamente con aria assente.
+~
+Un semplice anziano vestito di stracci e con un odore non troppo gradevole va in
+giro raccontando la storia della sua vita a chiunque gli si avvicini.
+~
+33 0 0 C
+10 10 2 10d10+100 3d3+6
+1000 3000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32906
+soldato scheletro~
+uno scheletro~
+Uno scheletro armato vaga in giro brandendo la sua grossa spada.
+~
+Sebbene ormai non sia altro che un semplice mucchio di ossa sembra che per lui
+la battaglia non sia ancora finita.
+~
+37 0 -290 C
+11 10 4 11d11+110 2d8+1
+1100 4000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32907
+templare~
+un templare~
+Un uomo vaneggia urlando in continuazione "A MORTE GLI INFEDELI!".
+~
+Un esile uomo, dai vestiti e dal portamento sembrerebbe un templare.
+Continua ad urlare "A MORTE GLI INFEDELI!!" e appena ti vede comincia a
+raccontarti interminabili storie probabilmente inventate sul momento.
+Decisamente non è sano di mente.
+~
+37 0 600 C
+12 9 3 12d12+120 1d4+8
+500 5000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32908
+spettro fantasma~
+un misterioso spettro~
+Un misterioso fantasma si rivela dinanzi a te.
+~
+Un essere incorporeo dall'odore nauseabondo.
+~
+37 1048608 0 C
+12 9 2 12d12+120 2d7+1
+600 5000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32909
+saggio templare~
+un saggio templare~
+Un anziano templare si guarda lentamente intorno.
+~
+Questo anziano non è come tutti gli altri templari.
+Il suo portamento e i lunghi consigli che elargisce a chiunque ne abbia bisogno
+ti fanno capire che si tratta, senza ombra di dubbio, di uno dei più saggi
+templari esistenti.
+~
+33 8 700 C
+13 8 2 13d13+130 1d6+8
+600 7000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32910
+zombie mago~
+uno zombie mago~
+Un essere immondo vaga senza meta pronunciando qualche strana formula magica.
+~
+Il fetore che emana quest'essere è davvero insopportabile.
+Si tratta sicuramente di un mago fatto resuscitare per chissà quale scopo.
+~
+37 0 -100 C
+13 8 5 13d13+130 1d4+8
+550 9000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32911
+ombra qualcuno~
+l'ombra~
+Qualcuno ti osserva silenziosamente.
+~
+Non riesci a distinguere quasi nulla..
+Vedi solo una losca figura fissarti avvolta nelle ombre..
+~
+1 1081376 0 C
+14 6 1 14d14+140 2d9+1
+800 10900
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32912
+pipistrello vampiro~
+un vampiro~
+Un pipistrello vola velocemente verso di te come se bramasse qualcosa.
+~
+Non è un semplice pipistrello.
+Decisamente più grosso e minaccioso, emana un incredibile fetore di sangue.
+~
+35 32 -100 C
+15 6 5 15d15+150 1d10+7
+1000 17000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32913
+necromante uomo~
+il necromante~
+Un uomo con sguardo rivolto verso terra pronuncia alcune arcane frasi.
+~
+Attorno a lui è presente un'incredibile aura maligna.
+Mentre guarda il terreno mormorando qualche arcana frase, sogghigna
+maleficamente.
+~
+35 0 -888 C
+15 8 -5 15d15+150 1d8+8
+1100 15000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32914
+capo templari~
+il capo spirituale dei templari~
+Il gran templare, con aria di superiorità, ti fissa osservandoti attentamente.
+~
+Portamento esemplare ed aspetto distinto sono le due cose che risaltano
+maggiormente di questo anziano. Sul suo volto c'è sempre un sorriso caritatevole
+mentre nei suoi occhi arde la fiamma della fede.
+Sicuramente è un personaggio di spicco nella vita dei templari.
+~
+3 168 1000 C
+16 5 -5 16d16+160 1d8+12
+1500 20000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32915
+drago~
+il drago dai mille colori~
+Un drago dai mille colori si guarda intorno affamato.
+~
+Guardando questo drago non riesci a definire di che colorazione siano le sue
+squame: essendo perlate, in base alla maggior o minor esposizione ai raggi
+solari, si creano delle bellissime sfumature dai mille colori.
+~
+35 40 -303 C
+20 0 -5 20d20+200 6d3+14
+30000 30000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#32916
+bestia oscura~
+la bestia oscura~
+Un bestia famelica.
+~
+L'unica cosa che si riesce a definire di questa bestia informe è che emana
+un odore decisamente sgradevole.
+~
+35 0 -1000 C
+24 -2 -12 24d24+240 3d7+7
+20000 80000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#32900
+chiave rossa~
+una chiave rossa~
+Una normale chiave rossa è stata dimenticata in terra.~
+~
+18 67 1 0
+39 0 0 0
+1 10000 1000000
+E
+chiave rossa~
+Il colore di questa chiave riporta alla mente il sole a tal punto da far pensare
+che quest'oggetto sia ardente.
+~
+#32901
+piatto granito corazza~
+un'armatura di granito~
+Una pesante corazza di granito e' stata lasciata in terra.~
+~
+9 512 0 0
+9 0 0 0
+55 42300 1000
+A
+2 -1
+#32902
+anello onice~
+un anello d'onice~
+Un particolare anello d'onice è in terra.~
+~
+9 512 3 0
+5 0 0 0
+1 11010 200
+E
+anello onice~
+Un anello di discreta fattura con una pietra d'onice incastonata.
+~
+A
+4 1
+#32903
+spada neutralizzatrice~
+la Neutralizzatrice~
+Una lunga spada dalla grossa lama argentata è conficcata in terra.~
+~
+5 2 8193 0
+0 4 5 3
+9 3304 99
+A
+18 1
+A
+19 1
+#32904
+ascia Knutar~
+una poderosa ascia da guerra~
+Vedi luccicare un'ascia di incredibile spessore.~
+~
+5 1 8193 0
+0 5 4 3
+15 12157 50
+E
+ascia knutar~
+E' senza dubbio un'arma molto particolare, l'eccelsa fattura risalta nelle
+cromature che adornano la sua superficie, dense di stilemi e simboli che
+inneggiano alla battaglia.
+~
+A
+18 3
+A
+1 1
+#32905
+corona~
+una corona regale~
+La corona del re è stata posata in terra.~
+~
+18 256 17 0
+15 0 0 0
+10 15900 720
+A
+17 -8
+#32906
+masso~
+un masso~
+L'ingombrante pietra circondata da un'aura magica è in terra.~
+~
+15 1 0 0
+15 15 32905 0
+2000 0 0
+#32907
+fiasco acqua~
+un fiasco d'acqua santa~
+Un fiaschetto con un sacro simbolo inciso sopra è stato lasciato in terra.~
+~
+10 1 16385 0
+25 -1 -1 -1
+2 5000 10
+'bless' 'sanctuary' 'NONE'
+#32908
+pezzo armatura~
+un pezzo d'armatura~
+Un pezzo d'armatura con qualche incisione è stato dimenticato qui.~
+~
+9 256 9 0
+5 0 0 0
+20 1111 25
+#32909
+ciondolo bianco~
+un ciondolo bianco~
+Un ciondolo bianco decisamente pregiato è stato posato con cura in terra.~
+~
+9 1 5 0
+5 0 0 0
+3 5000 10
+E
+ciondolo bianco~
+Un ciondolo di strana fattura, rivestito in parte d'oro bianco.
+~
+A
+18 1
+#32910
+scudo crociato~
+lo scudo crociato~
+Un grande scudo crociato si trova in mezzo alla polvere.~
+~
+9 64 513 0
+15 0 0 0
+15 33000 212
+A
+12 10
+A
+13 10
+A
+18 -2
+A
+19 -1
+#32911
+scudo drago~
+uno scudo in scaglie di drago~
+Un grande scudo rivestito di scaglie di drago è qui.~
+~
+9 0 513 0
+8 0 0 0
+18 8000 100
+A
+23 3
+#32912
+bacchetta prisma~
+una bacchetta con un prisma~
+Una bacchetta con un prisma triangolare scintilla a mezz'aria.~
+~
+3 65 16385 0
+11 4 4 -1
+4 7070 20
+'colour spray'
+#32913
+mantello oscuro~
+un mantello oscuro~
+Il mantello piegato in terra si confonde perfettamente.~
+~
+9 64 1025 0
+10 0 0 0
+1 4000 1
+A
+14 -30
+#32914
+mistica pozione~
+una mistica pozione~
+Una fiala contenente chissà quale intruglio magico è stata posata in terra.~
+~
+10 0 16385 0
+10 -1 -1 -1
+1 1000 10
+'pass door' 'NONE' 'NONE'
+#32915
+spada templare~
+la spada dei templari~
+Una spada di legno è stata lasciata qui.~
+~
+5 256 8193 0
+0 2 6 3
+6 2900 50
+A
+18 1
+#0
+
+#ROOMS
+#32900
+L'entrata nord~
+L'oscurità attanaglia questo luogo e non si riesce ad intravvedere molto.
+L'unico raggio di luce che entra basta a malapena per riuscir a notare una
+scritta incisa sul muro ed una galleria che si dirige verso sud.
+~
+0 4 1 0 0 0
+D2
+~
+~
+0 -1 32901 0
+D4
+~
+tavole asse~
+1 -1 6524 0
+E
+scritta muro incisione~
+La scritta pare molto antica ed è molto rovinata.
+"Avventurarsi qui in cerca del tesor.. è una mossa davvero..
+..
+La morte vi attende"
+~
+S
+#32901
+Il tunnel che va da nord a sud~
+Un lunghissimo tunnel dalla scarsa visibilità.
+Lungo tutto il pavimento vi sono dei disegni che a prima vista sembrano croci.
+~
+0 264 0 0 0 0
+D0
+~
+~
+0 -1 32900 0
+D2
+~
+~
+0 -1 32906 0
+E
+croci pavimento terra croce~
+Sono semplici croci disegnate probabilmente dai templari.
+Dal colore fresco sembra che recentemente siano state ridipinte.
+~
+S
+#32902
+La stanza delle armi~
+Un'immensa stanza rettangolare si sviluppa dinanzi a te.
+Ai quattro angoli vi sono delle armature mentre su tutto il pavimento vi sono
+numerosi affreschi.
+Al centro della sala, noti un saggio illustrare e spiegare minuziosamente
+alcune tecniche basilari di combattimento.
+~
+0 264 0 0 0 0
+D1
+~
+~
+0 -1 32903 0
+D2
+~
+~
+0 -1 32907 0
+E
+armature armatura~
+Si tratta di armature che, nonostante siano vecchie e consumate, sembrano
+decisamente resistenti.
+~
+E
+affreschi~
+Variopinti affreschi raffiguranti epici scontri tra possenti
+e valorosi guerrieri.
+I vincitori in queste raffigurazioni vengono talmente osannati da
+sembrare divinità.
+~
+S
+#32903
+La stanza spirituale~
+Ti trovi in una stanza circolare tutta ornata con affreschi dorati e con simboli
+religiosi avente al centro un grande altare.
+La fede dei templari qui è quasi palpabile ed il silenzio solenne è infranto
+solo dagli anziani intenti ad insegnare l'antica arte della preghiera.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32902 0
+D1
+~
+~
+0 -1 32904 0
+E
+affreschi~
+Tutti gli affreschi presenti in questa stanza sono dedicati alle divinità.
+I disegni sono fatti in maniera ineccepibile e decorati con rifiniture in
+oro bianco.
+~
+S
+#32904
+Una congiunzione~
+Ti trovi in una congiunzione.
+Da ovest giungono canti religiosi e rumori del clangore di armi, probabilmente
+lì vi sono le strutture d'addestramento.
+Vedendo passare alcuni templari intenti in qualche preghiera, noti ad est
+l'entrata delle catacombe.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32903 0
+D1
+~
+~
+0 -1 32905 0
+D2
+~
+~
+0 -1 32909 0
+S
+#32905
+Ingresso~
+Ti trovi in un punto in cui non si riesce a distinguere nulla né ad est né
+ad ovest.
+~
+0 268 0 0 0 0
+D3
+~
+~
+0 -1 32904 0
+D1
+~
+~
+0 -1 32906 0
+S
+#32906
+L'intersezione~
+Il tunnel continua sia a nord che a sud mentre ad ovest c'è un passaggio che
+conduce chissà dove.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32905 0
+D2
+~
+~
+0 -1 32911 0
+D0
+~
+~
+0 -1 32901 0
+S
+#32907
+Il dormitorio~
+In questa stanza quadrata ci sono numerose fila di letti mentre sulle scrivanie
+di fronte all'entrata ci sono alte pile di libri.
+~
+0 264 0 0 0 0
+D1
+~
+~
+0 -1 32908 0
+D0
+~
+~
+0 -1 32902 0
+E
+letto letti~
+Una semplice cuccetta spartana.. Non sembra per niente comoda e non è
+per nulla invitante.
+~
+S
+#32908
+Il dormitorio dei cavalieri~
+Una enorme stanza riempita unicamente di letti, decisamente non è il luogo in
+cui dormono persone di alto livello sociale.
+In terra ci sono alcune armi..Probabilmente questo è il dormitorio
+dei cavalieri. Sulla porta meridionale vi è una scritta.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32907 0
+D2
+~
+~
+0 -1 32912 0
+E
+scritta incisione etichetta porta meridionale~
+"Solo anziani"
+~
+S
+#32909
+La galleria nord-sud~
+Questa galleria va da nord a sud e ad est c'è una porta: le incisioni sopra essa
+fanno capire che conduce ad una stanza dei templari.
+~
+0 264 0 0 0 0
+D1
+~
+~
+0 -1 32910 0
+D2
+~
+~
+0 0 32913 0
+D0
+~
+~
+0 -1 32904 0
+S
+#32910
+La stanza di un templare~
+Questa stanza è decisamente povera: un letto ed una scrivania sono le uniche
+cose presenti al suo interno.
+Decisamente non è il massimo delle comodità però è decisamente meglio dei
+comuni dormitori dei templari.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32909 0
+S
+#32911
+Una umida galleria~
+Man mano che la galleria va verso sud diventa sempre più umida.
+Muschio e felci sono presenti pressoché ovunque mentre a nord le condizioni
+sembrano decisamente migliori.
+~
+0 265 2 0 0 0
+D2
+~
+~
+0 -1 32918 0
+D0
+~
+~
+0 -1 32906 0
+S
+#32912
+La stanza amministrativa~
+In questa stanza ci sono numerosi anziani che contano soldi ed esaminano con
+cura importanti documenti segreti.
+Tutti hanno fretta e li vedi discutere animatamente tra loro.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32968 0
+D2
+~
+~
+0 -1 32915 0
+D0
+~
+~
+0 -1 32908 0
+E
+importanti documenti segreti documento segreto~
+Leggendo questi documenti capisci che tutti questi soldi derivano da saccheggi
+in vilaggi e che addirittura numerosi saggi ed apprendisti sono stati rapiti.
+~
+S
+#32913
+L'intersezione~
+Il tunnel continua sia a nord che a sud mentre ad est c'è un passaggio che
+conduce chissà dove.
+~
+0 264 0 0 0 0
+D1
+~
+~
+0 -1 32914 0
+D2
+~
+~
+0 -1 32916 0
+D0
+~
+~
+0 -1 32909 0
+S
+#32914
+La stanza di un saggio~
+Le condizioni e l'arredamento di questa stanza sono nettamente migliori rispetto
+alle altre stanze private.
+Sul soffitto ci sono pure degli affreschi segno che questa è la stanza di una
+persona d'alto rango.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32913 0
+S
+#32915
+La stanza della messa~
+Una piccola nicchia in cui aleggia una sottile nebbiolina probabilmente dovuta
+agli incensi.
+Soavi canti religiosi rieccheggiano in aria creando un'atmosfera mistica.
+~
+0 264 0 0 0 0
+D2
+~
+~
+0 -1 32922 0
+D0
+~
+~
+0 -1 32912 0
+S
+#32916
+Il tunnel nord-sud~
+Il tunnel continua sia a nord che a sud mentre ad est c'è un passaggio che
+conduce chissà dove.
+~
+0 264 0 0 0 0
+D1
+~
+~
+0 -1 32917 0
+D2
+~
+~
+0 -1 32923 0
+D0
+~
+~
+0 -1 32913 0
+S
+#32917
+La stanza dell'alto ufficiale~
+La prima cosa che si nota in questa stanza è il piacevole profumo di cedro.
+Anche i rivestimenti della stanza sono fatti di cedro.
+Un dipinto di un possente cavaliere è affisso sul muro.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32916 0
+E
+quadro cavaliere possente dipinto immagine~
+Questo cavaliere ha un'aria stranamente familiare.
+Indossa un'armatura nera ed impugna una lunga spada argentata dall'elsa
+particolare.
+~
+S
+#32918
+Un passaggio coperto dal muschio~
+Il passaggio principale conduce a nord ed a sud.
+Nonostante tutto sia attanagliato dalle tenebre sembra che verso sud la
+visibilità sia ancora inferiore. Da oriente senti uno strano rumore..
+Uccelli forse?
+Un piccolo rigagnolo d'acqua gocciola nel passaggio ad est.
+~
+0 265 2 0 0 0
+D1
+~
+~
+0 -1 32919 0
+D2
+~
+~
+0 -1 32925 0
+D0
+~
+~
+0 -1 32911 0
+S
+#32919
+Il fitto boschetto~
+Ti ritrovi in un piccolo boschetto con vegetazione talmente fitta da non
+permetterti di riuscir ad orientarti.
+Verghe e maestosi alberi secolari si ergono davanti a te, muovendo dolcemente i
+rami al soffiar del vento.
+La luce filtra tra gli alberi e ti permette di vederci abbastanza bene.
+Guardandoti bene intorno scorgi molti sentieri ma noti anche che soltanto pochi
+sono realmente praticabili.
+~
+0 520 3 0 0 0
+D3
+~
+~
+0 -1 32918 0
+D1
+~
+~
+0 -1 32920 0
+S
+#32920
+Il fitto boschetto~
+Degli alberi secolari si stagliano tutto intorno a te.
+Qui il bosco è molto scuro e tenebroso tanto che sembra quasi notte.
+Tutti gli alberi, grandi e piccoli che siano, sono molto ravvicinati ed il
+sottobosco è tutto spine e rovi.
+Col soffiare del vento, il turbinio delle foglie cadute e il lento spostarsi
+delle rigogliose chiome degli alberi creano una specie di danza davvero
+suggestiva.
+~
+0 520 3 0 0 0
+D3
+~
+~
+0 -1 32919 0
+D1
+~
+~
+0 -1 32921 0
+D2
+~
+~
+0 -1 32926 0
+D0
+~
+~
+0 -1 32967 0
+S
+#32921
+Il fitto boschetto~
+Lunghi rami nodosi si intrecciano, creando ampi archi naturali che permettono
+un facile proseguimento del cammino. Tutto intorno regna un irrealistico
+silenzio rotto soltanto dal rumore delle foglie mosse dal vento.
+La luce filtra tra gli alberi e riesci a vedere abbastanza bene.
+~
+0 520 3 0 0 0
+D3
+~
+~
+0 -1 32920 0
+D2
+~
+~
+0 -1 32927 0
+S
+#32922
+Una grande sala~
+Una grandissima sala con una tavola imbastita e con una tovaglia linda.
+Bellissimi dipinti dai colori sfavillanti sono appesi alla parete, sembrano
+disegnati da un grande artista.
+~
+0 264 0 0 0 0
+D1
+~
+~
+0 -1 32923 0
+D0
+~
+~
+0 -1 32915 0
+S
+#32923
+La fine del tunnel~
+Lugubre voci provengono dalla stanza ad ovest mentre l'oscurità non permette di
+riuscire a vedere oltre un palmo dal proprio naso.
+Questa tetra ambientazione trasmette un po' di ansia.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32922 0
+D1
+~
+~
+0 -1 32924 0
+D0
+~
+~
+0 -1 32916 0
+S
+#32924
+La stanza del gran saggio~
+In questa stanza vi sono libri ovunque: arti magiche, culti religiosi e arti
+belliche, racconti mitologici.. Non manca nulla.
+Nonostante il disordine regni sovrano, noti un letto con coperte di pregiata
+seta e una scrivania di legno altrettanto pregiato.
+Lo sfarzo di questa stanza ti fa capire che il proprietario è una delle persone
+più in vista di questo luogo.
+~
+0 264 0 0 0 0
+D3
+~
+~
+0 -1 32923 0
+S
+#32925
+Un passaggio per nulla illuminato~
+Questo posto è così scuro che la più potente magia luminosa probabilmente non
+sembrerebbe che un semplice raggio di luce in un mondo attanagliato
+dall'oscurità.
+A sud sembra addirittura ancor più scuro mentre verso nord la visibilità è
+decisamente migliore.
+~
+0 265 2 0 0 0
+D2
+~
+~
+0 -1 32929 0
+D0
+~
+~
+0 -1 32918 0
+S
+#32926
+Un fitto boschetto~
+Ti trovi in mezzo alla natura incontaminata.
+La flora e la fauna sono i padroni incontrastati di questo luogo meraviglioso.
+Stando in silenzio riesci a sentir la soave melodia creata dal cinguettio degli
+uccelli, misto il fruscio del movimento delle fronde all'alzarsi del vento.
+~
+0 520 3 0 0 0
+D1
+~
+~
+0 -1 32927 0
+D0
+~
+~
+0 -1 32920 0
+S
+#32927
+Un fitto boschetto~
+All'improvviso tutti i suoni che ti circondano cessano.
+Regna il silenzio.
+Prestando maggior attenzione, riesci a sentire solamente uno strano ronzio
+proveniente da una porta magica poco più a nord.
+~
+0 520 3 0 0 0
+D3
+~
+~
+0 -1 32926 0
+D2
+Una porta magica con un foro al suo interno.
+~
+magico porta forza foro~
+33 32900 32931 0
+D0
+~
+~
+0 -1 32921 0
+S
+#32928
+Una stanza scurissima~
+Questa stanza è talmente scura da non riuscir a distinguere nulla.
+L'unica cosa che riesci a percepire è una forte aura maligna proveniente
+da est.. Forse è meglio dirigersi ad ovest!
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32932 0
+D1
+~
+~
+0 -1 32929 0
+S
+#32929
+Nel profondo delle catacombe~
+Un odore nauseabondo di corpo in decomposizione aleggia in questo luogo.
+In terra vi sono sparse numerose ossa, alcune delle quali ormai in polvere.
+Non è affatto un bel posto ed un alone di sventura è presente pressoché
+ovunque.
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32928 0
+D1
+~
+~
+0 -1 32930 0
+D0
+~
+~
+0 -1 32925 0
+S
+#32930
+Una caverna oscura~
+In questa caverna non vi è nessuna fonte di luce e quindi la visibilità è
+ridotta a zero.
+Una forte maledizione rivela altra oscurità sondando il terreno con una fonte
+luminosa.
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32929 0
+D2
+~
+~
+0 -1 32933 0
+S
+#32931
+Il posto santo~
+Una stanza sfarzosa piena di affreschi raffiguranti guerrieri durante 
+un combattimento.
+Al centro di essa vi è una grande pietra ardente.
+Capisci subito che c'è qualcosa di molto speciale all'interno della pietra
+..ma l'intensissima luce che emana non ti permette di distinguere bene cosa
+Meglio esaminare con cura..
+~
+0 520 3 0 0 0
+D0
+Una porta magica con un foro al suo interno.
+~
+magico porta forza foro~
+33 32900 32927 0
+S
+#32932
+Un passaggio nebbioso~
+Grandi vortici di nebbia calano su di te, avvolgendoti come una protezione ma
+celandoti il mondo circostante come la minaccia di un imminente pericolo.
+La spessa coltre di nebbia rende molto difficile stabilire quale direzione
+intraprendere.
+Riesci solo a capire che la foschia diventa più densa a sud mentre a nord
+sembra diradarsi.
+~
+0 265 2 0 0 0
+D2
+~
+~
+0 -1 32941 0
+D0
+~
+~
+0 -1 32928 0
+S
+#32933
+Una intersezione~
+Ti trovi al centro di una intersezione: le caverne dirigono a nord, sud ed est.
+Noti che qui le pareti delle caverne sono tutte composte di strani minerali che
+in presenza di una fonte luminosa brillano intensamente.~
+0 9 5 0 0 0
+D1
+~
+~
+0 -1 32934 0
+D2
+~
+~
+0 -1 32943 0
+D0
+~
+~
+0 -1 32930 0
+S
+#32934
+L'entrata nei sepolcri~
+Hai appena messo piede in una zona piena di tombe.
+L'innaturale silenzio che regna sembra incombere su di te e non ti senti per
+nulla al sicuro.
+La visibilità è davvero scarsa anche perché l'unica fonte luminosa è data
+da un unico, debole, spiraglio di luce proveniente dall'esterno.
+All'improvviso senti un agghiacciante urlo rompere il silenzio.
+Non vedi l'ora di andartene!
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32933 0
+D1
+~
+~
+0 -1 32935 0
+S
+#32935
+Nei sepolcri~
+Davanti a te si prospetta una lunga distesa di tombe.
+Con immane disgusto noti che alcune di esse sono state aperte e svuotate.
+Ti chiedi dove possano esser finiti i corpi dei defunti ma l'olezzo di carne in
+decomposizione presente ti reprime tale domanda facendoti spostare velocemente
+verso un altro luogo.
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32934 0
+D1
+~
+~
+0 -1 32936 0
+D2
+~
+~
+0 -1 32944 0
+S
+#32936
+Nei sepolcri~
+Alla tua vista si prospetta sempre lo stesso monotono paesaggio: sentieri di
+terriccio rosso quasi fosse impregnato del sangue dei morti tra le
+pietre tombali.
+Tali sepolture, fatta eccezione per alcuni monumenti funebri, sono tutte uguali:
+semplici pietre con su soltanto pochi dati in ricordo del defunto.
+Decisamente questo posto non offre una bella visione.
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32935 0
+D1
+~
+~
+0 -1 32937 0
+S
+#32937
+Nei sepolcri~
+Finalmente capisci dove erano spariti tutti quei cadaveri: una specie di legione
+di scheletri ti sbarra la strada brandendo grandi e pesanti spade.
+La situazione decisamente non è delle migliori ma si può sempre tentare la fuga.
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32936 0
+D1
+~
+~
+0 -1 32938 0
+S
+#32938
+Delle nuove tombe~
+Guardandoti intorno non riesci a scorgere che tombe.
+Le prime due fila però sembrano decisamente più recenti delle altre, sia per
+la minor presenza di residui sulle lapidi sia per la diversa colorazione del
+terreno.
+All'improvviso strani rumori provengono da quelle tombe, come se i corpi al loro
+interno si risvegliassero.
+A sud riesci ad udire anche uno strano suono metallico.. Come se qualcuno stesse
+per qualche motivo scavando.
+~
+0 9 5 0 0 0
+D3
+~
+~
+0 -1 32937 0
+D2
+~
+~
+0 -1 32946 0
+S
+#32939
+Una caverna nebbiosa~
+Un grandi vortice di foschia gelata arriva raffreddando tutto e spazzando via
+pure l'umidità.
+Le pareti di questa caverna sono spesse coltri di ghiaccio e da sud spira un
+gelido vento che ti raffredda pure l'anima.
+Il repentino cambio di clima ti provoca una momentaria sensazione di malessere.
+~
+0 265 2 0 0 0
+D1
+~
+~
+0 -1 32940 0
+D2
+~
+~
+0 -1 32947 0
+S
+#32940
+Una caverna nebbiosa~
+Un inaspettato vento caldo da est porta la temperatura ad essere mite.
+La spessa foschia viene lentamente spazzata via e la visibilità torna pian
+piano ad essere ottimale.
+Adesso la situazione è davvero piacevole tanto da poter pensare di rimaner qui
+ancora un po'.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32939 0
+D1
+~
+~
+0 -1 32941 0
+S
+#32941
+Una caverna nebbiosa~
+Intorno a te non c'è altro che nebbia.. La visibilità è ridottissima.
+Questo sarebbe un posto perfetto per tendere agguati.. Meglio far attenzione.
+Il clima non è dei migliori ma non c'è da lamentarsi: nonostante faccia
+alquanto freddo, un venticello d'aria calda proveniente da est porta un po'
+di sollievo.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32940 0
+D1
+~
+~
+0 -1 32942 0
+D0
+~
+~
+0 -1 32932 0
+S
+#32942
+La cascata~
+La nebbia presente pian piano si dirada permettendoti di ammirare uno spettacolo
+mozzafiato: da una piccola conformità rocciosa, una cascata dall'acqua limpida
+e trasparente come uno specchio si getta in una voragine presente nella caverna.
+Tutte le pareti di questa caverna sono rivestite da un soffice velo di muschio
+mentre avvicinandoti alla cascata riesci a sentire la piacevole freschezza che
+emana.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32941 0
+E
+voragine buco~
+Una immensa voragine inghiottita nell'oscurità.
+Non riesci a capire se sia senza fondo o se molto più in basso abbia una fine.
+~
+S
+#32943
+Un enorme tunnel~
+Ti trovi in un tunnel dal diametro immenso.
+Le pareti sono tutte composte da tantissimi minerali diversi, alcuni dei quali
+decisamente rari e preziosi. Alla minima fonte di luce essi creano meravigliosi
+riverberi che allietano la vista. In terra qua e là ci sono alcuni ciuffetti
+di erbetta verde smeraldo, intervallati da alcune pozze d'acqua limpida.
+~
+0 265 2 0 0 0
+D2
+~
+~
+0 -1 32949 0
+D0
+~
+~
+0 -1 32933 0
+S
+#32944
+Le rovine~
+Pare che questo posto sia stato saccheggiato senza ritegno: alla vista si
+offrono solo rovine, macerie, tombe profanate e cadaveri lasciati in terra.
+E' incredibile come certa gente non abbia alcuna considerazione per i defunti.
+Come per cercar riparo da quella vista ti guardi intorno e noti che a nord-ovest
+ci sono delle tombe ancora intatte.
+Ti metti a guardarle bene e riesci a capire, dalla moltitudine di armi lasciate
+dinanzi a quelle tombe, che i defunti in vita dovevano esser stati dei
+valorosi soldati.
+~
+0 9 5 0 0 0
+D2
+~
+~
+0 -1 32950 0
+S
+#32945
+La stanza del curatore~
+L'unica fonte di illuminazione presente in questa stanza è un foro presente nel
+soffitto e non riesci a cogliere che pochi particolari.
+La stanza è circolare e nel muro vi sono numerosi bassorilievi raffiguranti
+numerosi saggi intenti a discutere col curatore.
+Sembra che una volta questo posto fosse molto frequentato.
+Ti metti a cercare il curatore quando ad un tratto lo trovi esanime in un lago
+di sangue vicino ad una strana scala presente sul basamento di un piccolo
+altare di freddo mithril.
+~
+0 9 4 0 0 0
+D5
+~
+~
+0 -1 32951 0
+D1
+~
+~
+0 -1 32946 0
+E
+altare~
+Un altare di freddo marmo ben lucidato con rifiniture e decorazioni in oro
+ed argento.
+~
+S
+#32946
+Le tombe~
+Un grande spiazzo di terriccio marrone con tante lapidi stranamente accatastate
+e con profonde e numerose buche.
+Il fetore di morto, misto all'odore inebriante di sangue, aleggia ovunque
+e sembra che anche i tuoi vestiti ed i tuoi capelli stiano prendendo tale odore.
+Da sud senti giungere strani rumori metallici per nulla incoraggianti.
+~
+0 9 4 0 0 0
+D3
+~
+~
+0 -1 32945 0
+D2
+~
+~
+0 -1 32952 0
+D0
+~
+~
+0 -1 32938 0
+S
+#32947
+Una caverna nebbiosa~
+Sei dentro una enorme caverna di cui non riesci a vedere il soffitto, oscurato
+dalla fitta nebbia che avvolge tutto.
+Grazie alla debole illuminazione presente, riesci a vedere che il pavimento è
+di ghiaccio.. Meglio fare attenzione nello spostarsi.
+Gelide ventate di vento creano strani movimenti a mulinello di nebbia e rendono
+la visibilità ancora peggiore. Riesci tuttavia a notare un passaggio laterale
+che conduce ad est.
+~
+0 265 2 0 0 0
+D1
+~
+~
+0 -1 32948 0
+D2
+~
+~
+0 -1 32955 0
+D0
+~
+~
+0 -1 32939 0
+S
+#32948
+Una galleria~
+I muri di questa galleria sono pieni di gemme preziose incastonate che
+illuminate creano magici riverberi.
+Una strano luccichio proveniente da est attira la tua attenzione..
+Chissà da cosa è prodotto.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32947 0
+D1
+~
+~
+0 -1 32949 0
+S
+#32949
+La caverna di prisma~
+Ti trovi in una caverna immensa: il soffitto è talmente alto che anche un
+gigante avrebbe notevoli difficoltà a toccarlo.
+Decisamente è una delle più grandi caverne delle catacombe.
+La tua luce, riflettendosi sui cristalli incastonati in ogni angolo, causa
+bagliori di una lucentezza accecante che va ad aggiungersi al baluginio riflesso
+dal corpo del possente drago presente al centro della caverna.
+~
+0 8 5 0 0 0
+D3
+~
+~
+0 -1 32948 0
+D1
+~
+~
+0 -1 32957 0
+D2
+~
+~
+0 -1 32956 0
+D0
+~
+~
+0 -1 32943 0
+S
+#32950
+Un monumento rovinato~
+Ti trovi di fronte ad un vecchio monumento dedicato ad un vecchio re decaduto.
+Questo monumento è decisamente rovinato ed in tutta la stanza non vi è
+nient'altro in ricordo di tale re.
+Da uno spiraglio nel basamento ad est riesci a scorgere una struttura di qualche
+tipo mentre a sud c'è una porta che conduce verso chissà quali terre.
+~
+0 9 4 0 0 0
+D1
+~
+~
+0 -1 32951 0
+D2
+~
+~
+0 -1 32953 0
+D0
+~
+~
+0 -1 32944 0
+S
+#32951
+Il Basamento~
+Tra tutti i posti che hai visitato, questo probabilmente è quello con l'odore
+peggiore.
+Intorno a te non c'è nient'altro che l'oscurità più totale e qualche
+pipistrello.
+Davvero un posto desolato.
+Una rampa di scale permette di entrare nell'edificio ad ovest.
+~
+0 9 4 0 0 0
+D4
+~
+~
+0 -1 32945 0
+D3
+~
+~
+0 -1 32950 0
+S
+#32952
+Vicino alle tombe~
+Le tombe qui sembrano molto recenti.
+Noti molti segni di scavature e di contaminazione mentre pile di corpi freschi
+che "aspettano" una degna sepoltura stanno pian piano marcendo.
+Avverti una strana presenza magica da sud.. Chissà chi è.
+~
+0 9 4 0 0 0
+D2
+~
+~
+0 -1 32954 0
+D0
+~
+~
+0 -1 32946 0
+S
+#32953
+La porta meridionale~
+Ti trovi di fronte ad una semplice porta arrugginita che ormai non riesce più a
+bloccare nessuno.
+Da una crepa nel muro ed est arrivano forti raffiche di vento mentre a sud c'è
+un angusto passaggio.
+~
+0 9 2 0 0 0
+D1
+~
+~
+0 -1 32965 0
+D2
+~
+~
+0 -1 32958 0
+D0
+~
+~
+0 -1 32950 0
+S
+#32954
+Il luogo dell'adunata~
+Scorgi una moltitudine di non-morti, allineati pazientemente come se fossero un
+esercito.
+In testa a tale schieramento c'è uno strano uomo, probabilmente un
+necromante, che continua imperterrito ad urlare frasi su strani progetti per la
+conquista del mondo.
+Lentamente vedi che si gira e sogghignando maleficamente ti punta un dito contro
+iniziando ad urlare ingiurie varie.
+~
+0 9 5 0 0 0
+D2
+~
+~
+0 -1 32961 0
+D0
+~
+~
+0 -1 32952 0
+S
+#32955
+Un passaggio tortuoso~
+E' un passaggio decisamente tortuoso davvero di difficile transito e si dirama
+verso est e verso nord.
+Da nord senti spirare gelidi venti mentre ad est non riesci a scorgere nulla.
+~
+0 265 2 0 0 0
+D1
+~
+~
+0 -1 32956 0
+D0
+~
+~
+0 -1 32947 0
+S
+#32956
+La croce delle caverne~
+Ti trovi in una specie di incrocio di caverne.
+Una piccola caverna è a sud, ad ovest uno stretto cunicolo conduce chissà dove
+mentre da nord proviene un intenso quanto strano luccichio.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32955 0
+D2
+~
+~
+0 -1 32965 0
+D0
+~
+~
+0 -1 32949 0
+S
+#32957
+Un sinistro tunnel~
+Un tunnel come tanti altri se non fosse per una strana sensazione che provi
+qui.. Una grande tristezza ti opprime insinuandosi fino all'interno del tuo
+cuore.
+Tenti a lungo di capire da cosa sia provocata tale sensazione ma finisci per
+convincerti del fatto che sia qualcosa di sovrannaturale e di inspiegabile.
+~
+0 265 2 0 0 0
+D1
+~
+~
+0 -1 32958 0
+D3
+~
+~
+0 -1 32949 0
+S
+#32958
+Un sinistro tunnel~
+Qualcosa di indescrivibile ti fa sentire stranamente triste in questo tunnel.
+A nord riesci a vedere una porta con una incisione che indica che in quella
+direzione si arriva alle sepolture.
+Questo tunnel si allunga in direzione est-ovest.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32957 0
+D1
+~
+~
+0 -1 32959 0
+D0
+~
+~
+0 -1 32953 0
+S
+#32959
+Una curva nella sinistra galleria~
+Non riesci a liberarti di questo fastidioso senso di solitudine e di tristezza.
+Affretti il passo come per fuggire da questo posto e noti che la galleria curva
+da ovest verso sud.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32958 0
+D2
+~
+~
+0 -1 32960 0
+S
+#32960
+Un sinistro tunnel~
+E' da un bel po' di tempo che questo malessere non ti dà tregua.. Non vedi l'ora
+di uscire da qui nella speranza di sentirti meglio.
+A nord la galleria compie una piccola curva mentre ad est c'è un'intersezione.
+~
+0 265 2 0 0 0
+D1
+~
+~
+0 -1 32961 0
+D0
+~
+~
+0 -1 32959 0
+S
+#32961
+L'intersezione~
+Una traccia di sangue si dirige verso nord.. Probabilmente in quella direzione
+ci sono le terre di sepoltura.
+Percepisci anche una forte aura magica, forse è meglio evitare di dirigersi lì.
+Ad ovest, ventate di aria passanti nella galleria sembrano sospiri e gemiti
+mentre da sud senti forti raffiche di vento arrivare.
+~
+0 265 2 0 0 0
+D3
+~
+~
+0 -1 32960 0
+D2
+~
+~
+0 -1 32962 0
+D0
+~
+~
+0 -1 32954 0
+S
+#32962
+Il tunnel~
+Il tunnel si dirige da nord a sud.
+A nord scorgi una intersezione mentre un po' più lontano a sud vedi una luce e
+senti arrivare della leggera brezza.
+~
+0 265 2 0 0 0
+D2
+~
+~
+0 -1 32963 0
+D0
+~
+~
+0 -1 32961 0
+S
+#32963
+Il tunnel~
+La galleria si inclina notevolmente verso nord e capisci che la superficie si
+potrebbe trovare verso sud.
+~
+0 265 2 0 0 0
+D2
+~
+~
+0 -1 32964 0
+D0
+~
+~
+0 -1 32962 0
+S
+#32964
+L'entrata meridionale delle catacombe~
+L'oscurità attanaglia questo luogo e non si riesce ad intravvedere molto.
+L'unico raggio di luce che entra basta a malapena per riuscir a notare una
+scritta incisa sul muro ed un'angusta galleria che parte da qui.
+~
+0 4 2 0 0 0
+D4
+~
+Delle tavole d'asse~
+1 -1 6527 0
+D0
+~
+~
+0 -1 32963 0
+E
+scritta muro incisione~
+La scritta pare molto antica ed è molto rovinata.
+"Avventurarsi qui in cerca del tesor.. è una mossa davvero..
+..
+La morte vi attende"
+~
+S
+#32965
+Un passaggio sconosciuto~
+Improvvisamente non riesci più ad orientarti.. Ti volti per cercare la via già
+percorsa ma non c'è più nessuna strada.
+In compenso puoi prendere altre direzioni che prima non avevi notato.
+Hai una tremenda sensazione d'aver perso la bussola..
+~
+0 271 2 0 0 0
+D1
+~
+~
+0 -1 32966 0
+D2
+~
+~
+0 -1 32967 0
+S
+#32966
+Un passaggio sconosciuto~
+Improvvisamente non riesci più ad orientarti.. Ti volti per cercare la via già
+percorsa ma non c'è più nessuna strada.
+In compenso puoi prendere altre direzioni che prima non avevi notato.
+Hai una tremenda sensazione d'aver perso la bussola..
+~
+0 271 2 0 0 0
+D3
+~
+~
+0 -1 32965 0
+D2
+~
+~
+0 -1 32968 0
+S
+#32967
+Un passaggio sconosciuto~
+Improvvisamente non riesci più ad orientarti.. Ti volti per cercare la via già
+percorsa ma non c'è più nessuna strada.
+In compenso puoi prendere altre direzioni che prima non avevi notato.
+Hai una tremenda sensazione d'aver perso la bussola..
+~
+0 271 2 0 0 0
+D1
+~
+~
+0 -1 32968 0
+D0
+~
+~
+0 -1 32965 0
+S
+#32968
+Un passaggio sconosciuto~
+Improvvisamente non riesci più ad orientarti.. Ti volti per cercare la via già
+percorsa ma non c'è più nessuna strada.
+In compenso puoi prendere altre direzioni che prima non avevi notato.
+Hai una tremenda sensazione d'aver perso la bussola..
+~
+0 271 2 0 0 0
+D3
+~
+~
+0 -1 32967 0
+D0
+~
+~
+0 -1 32966 0
+S
+#0
+
+#RESETS
+M 0 32905 7 32948  ; Mob: #2006 un vecchio => #2049 Una galleria
+M 0 32915 1 32949  ; Mob: #2016 il drago dai mille colori => #2050 La caverna di prisma
+E 1 32911 9 5  ; -- Equip: #2012 uno scudo in scaglie di drago (Body)
+E 1 32912 9 17  ; -- Equip: #2013 una bacchetta con un prisma (Hold)
+M 0 32900 6 32951  ; Mob: #2001 un pipistrello => #2052 Il Basamento
+M 0 32900 6 32951  ; Mob: #2001 un pipistrello => #2052 Il Basamento
+M 0 32900 6 32951  ; Mob: #2001 un pipistrello => #2052 Il Basamento
+M 0 32912 1 32951  ; Mob: #2013 un vampiro => #2052 Il Basamento
+E 1 32903 9 16  ; -- Equip: #2004 la neutralizzatrice (Wield)
+M 0 32900 6 32951  ; Mob: #2001 un pipistrello => #2052 Il Basamento
+M 0 32900 6 32951  ; Mob: #2001 un pipistrello => #2052 Il Basamento
+M 0 32900 6 32951  ; Mob: #2001 un pipistrello => #2052 Il Basamento
+M 0 32903 4 32952  ; Mob: #2004 un profanatore => #2053 Vicino alle tombe
+M 0 32903 4 32952  ; Mob: #2004 un profanatore => #2053 Vicino alle tombe
+M 0 32910 4 32952  ; Mob: #2011 uno zombie mago => #2053 Vicino alle tombe
+M 0 32903 4 32954  ; Mob: #2004 un profanatore => #2055 Il luogo dell'adunata
+M 0 32903 4 32954  ; Mob: #2004 un profanatore => #2055 Il luogo dell'adunata
+M 0 32913 1 32954  ; Mob: #2014 il necromante => #2055 Il luogo dell'adunata
+E 1 32910 9 11  ; -- Equip: #2011 lo scudo crociato (Shield)
+M 0 32902 2 32963  ; Mob: #2003 un esploratore => #2064 Il tunnel
+D 0 32964 4 1  ; Door: #2065 L'entrata meridionale delle catacombe/Up => closed
+D 0 32900 4 1  ; Door: #2001 L'entrata nord/Up => closed
+M 0 32902 2 32901  ; Mob: #2003 un esploratore => #2002 Il tunnel che va da nord a sud
+M 0 32907 12 32902  ; Mob: #2008 un templare => #2003 La stanza delle armi
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+M 0 32907 12 32903  ; Mob: #2008 un templare => #2004 La stanza spirituale
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+M 0 32907 12 32904  ; Mob: #2008 un templare => #2005 Una congiunzione
+M 0 32907 12 32905  ; Mob: #2008 un templare => #2006 Ingresso
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32901 8 32907  ; Mob: #2002 un templare => #2008 Il dormitorio
+M 0 32901 8 32907  ; Mob: #2002 un templare => #2008 Il dormitorio
+M 0 32901 8 32907  ; Mob: #2002 un templare => #2008 Il dormitorio
+M 0 32901 8 32907  ; Mob: #2002 un templare => #2008 Il dormitorio
+M 0 32901 8 32907  ; Mob: #2002 un templare => #2008 Il dormitorio
+M 0 32901 8 32908  ; Mob: #2002 un templare => #2009 Il dormitorio dei cavalieri
+M 0 32901 8 32908  ; Mob: #2002 un templare => #2009 Il dormitorio dei cavalieri
+M 0 32907 12 32908  ; Mob: #2008 un templare => #2009 Il dormitorio dei cavalieri
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32907 12 32908  ; Mob: #2008 un templare => #2009 Il dormitorio dei cavalieri
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+M 0 32907 12 32908  ; Mob: #2008 un templare => #2009 Il dormitorio dei cavalieri
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32901 8 32909  ; Mob: #2002 un templare => #2010 La galleria nord-sud
+M 0 32909 6 32914  ; Mob: #2010 un saggio templare => #2015 La stanza di un saggio
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32907 12 32915  ; Mob: #2008 un templare => #2016 La stanza della messa
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+M 0 32907 12 32915  ; Mob: #2008 un templare => #2016 La stanza della messa
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32907 12 32915  ; Mob: #2008 un templare => #2016 La stanza della messa
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32909 6 32915  ; Mob: #2010 un saggio templare => #2016 La stanza della messa
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32909 6 32915  ; Mob: #2010 un saggio templare => #2016 La stanza della messa
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32909 6 32915  ; Mob: #2010 un saggio templare => #2016 La stanza della messa
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32909 6 32917  ; Mob: #2010 un saggio templare => #2018 La stanza dell'alto ufficiale
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32905 7 32918  ; Mob: #2006 un vecchio => #2019 Un passaggio coperto dal muschio
+M 0 32907 12 32922  ; Mob: #2008 un templare => #2023 Una grande sala
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+M 0 32907 12 32922  ; Mob: #2008 un templare => #2023 Una grande sala
+M 0 32909 6 32922  ; Mob: #2010 un saggio templare => #2023 Una grande sala
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+E 1 32915 99 16  ; -- Equip: #2016 la spada dei templari (Wield)
+M 0 32914 1 32924  ; Mob: #2015 il capo spirituale dei templari => #2025 La stanza del gran saggio
+E 1 32909 9 3  ; -- Equip: #2010 un ciondolo bianco (Neck-1)
+E 1 32900 9 0  ; -- Equip: #2001 una chiave rossa (Light)
+E 1 32907 9 17  ; -- Equip: #2008 un fiasco d'acqua santa (Hold)
+M 0 32911 2 32925  ; Mob: #2012 l'ombra => #2026 Un passaggio per nulla illuminato
+E 1 32913 25 12  ; -- Equip: #2014 un mantello oscuro (About)
+M 0 32905 7 32927  ; Mob: #2006 un vecchio => #2028 Un fitto boschetto
+D 0 32927 2 2  ; Door: #2028 Un fitto boschetto/South => closed and locked
+M 0 32916 1 32929  ; Mob: #2017 la bestia oscura => #2030 Nel profondo delle catacombe
+E 1 32902 9 2  ; -- Equip: #2003 un anello d'onice (Finger-R)
+E 1 32901 9 5  ; -- Equip: #2002 un'armatura di granito (Body)
+E 1 32905 9 17  ; -- Equip: #2006 una corona regale (Hold)
+O 0 32906 1 32931  ; Object: #2007 un masso => #2032 Il posto santo
+P 1 32904 9 32906  ; Put: #2005 la spada Excalibur => #2007 un masso
+D 0 32931 0 2  ; Door: #2032 Il posto santo/North => closed and locked
+M 0 32905 7 32932  ; Mob: #2006 un vecchio => #2033 Un passaggio nebbioso
+M 0 32904 9 32932  ; Mob: #2005 una nube => #2033 Un passaggio nebbioso
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32906 4 32934  ; Mob: #2007 uno scheletro => #2035 L'entrata nei sepolcri
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32905 7 32935  ; Mob: #2006 un vecchio => #2036 Nei sepolcri
+M 0 32906 4 32935  ; Mob: #2007 uno scheletro => #2036 Nei sepolcri
+M 0 32910 4 32935  ; Mob: #2011 uno zombie mago => #2036 Nei sepolcri
+M 0 32906 4 32936  ; Mob: #2007 uno scheletro => #2037 Nei sepolcri
+E 1 32908 99 5  ; -- Equip: #2009 un pezzo d'armatura (Body)
+M 0 32910 4 32936  ; Mob: #2011 uno zombie mago => #2037 Nei sepolcri
+M 0 32906 4 32937  ; Mob: #2007 uno scheletro => #2038 Nei sepolcri
+M 0 32905 7 32938  ; Mob: #2006 un vecchio => #2039 Delle nuove tombe
+M 0 32908 2 32938  ; Mob: #2009 un misterioso spettro => #2039 Delle nuove tombe
+M 0 32905 7 32939  ; Mob: #2006 un vecchio => #2040 Una caverna nebbiosa
+M 0 32904 9 32939  ; Mob: #2005 una nube => #2040 Una caverna nebbiosa
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32939  ; Mob: #2005 una nube => #2040 Una caverna nebbiosa
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32940  ; Mob: #2005 una nube => #2041 Una caverna nebbiosa
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32940  ; Mob: #2005 una nube => #2041 Una caverna nebbiosa
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32941  ; Mob: #2005 una nube => #2042 Una caverna nebbiosa
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32942  ; Mob: #2005 una nube => #2043 La cascata
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32942  ; Mob: #2005 una nube => #2043 La cascata
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32904 9 32942  ; Mob: #2005 una nube => #2043 La cascata
+E 1 32914 35 17  ; -- Equip: #2015 una mistica pozione (Hold)
+M 0 32908 2 32946  ; Mob: #2009 un misterioso spettro => #2047 Le tombe
+M 0 32910 4 32946  ; Mob: #2011 uno zombie mago => #2047 Le tombe
+S
+
+#SPECIALS
+M 32906 spec_cast_undead   ; uno scheletro
+M 32908 spec_cast_undead   ; un misterioso spettro
+M 32910 spec_cast_mage   ; uno zombie mago
+M 32912 spec_cast_undead   ; un vampiro
+M 32913 spec_cast_undead   ; il necromante
+M 32915 spec_breath_any   ; il drago dai mille colori
+M 32916 spec_poison   ; la bestia oscura
+S
+
+#END

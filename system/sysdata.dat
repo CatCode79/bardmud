@@ -1,0 +1,39 @@
+#SYSDATA
+Copyover          False
+CopyoverReboot    True
+CheckAdmHost      True
+DenyNewPlayers    True
+FreeStealing      True
+MascotteRestring  True
+MascotteSave      True
+NameResolving     False
+OrderCommands     False
+PkLoot            True
+QuestionCreation  False
+TrackTroughDoor   True
+WizLock           False
+BashNonTank       0
+BashPlrVsPlr      0
+DamMobVsMob       200
+DamMobVsPlr       180
+DamPlrVsMob       80
+DamPlrVsPlr       150
+DeathHoleMult     20
+GougeNonTank      0
+GougePlrVsPlr     0
+LvLGroupDiff      8
+MaxSocketCon      40
+ModDodge          2
+ModParry          2
+ModTumble         4
+MudPort           5002
+PurgeAfterMonth   3
+PurgeMinHour      5
+PurgeMinLevel     5
+SaveFreq          5
+SaveLevel         0
+StunPlrVsPlr      65
+StunRegular       15
+End
+
+#END

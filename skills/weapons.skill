@@ -1,0 +1,65 @@
+#WEAPON
+Name         bludgeons~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Bludgeons!~
+End
+
+#WEAPON
+Name         flexible arms~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+End
+
+#WEAPON
+Name         long blades~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+End
+
+#WEAPON
+Name         missile weapons~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+End
+
+#WEAPON
+Name         pugilism~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+End
+
+#WEAPON
+Name         short blades~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+End
+
+#WEAPON
+Name         talonous arms~
+Type         Weapon
+Info         0
+Flags        0
+FunName      spell_null
+Dammsg       ~
+End
+
+#END

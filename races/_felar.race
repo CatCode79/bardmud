@@ -1,0 +1,59 @@
+#RACE
+RaceNumber     RACE_FELAR
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Felar~
+NameFema       Felar~
+Color          AT_RED burly wood 1~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        0   0   0   -5  -10  0   15   15  10  -5   -10  -5  0   0   -5
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        5     10     10   5     -5    10
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_INFRARED~
+Resist         RIS_COLD~
+Suscept        RIS_POISON~
+* Il mammal non lo imparano anche se potrebbero facilmente per staccarsi un po' di più dall'esser considerati animali
+LangNatural    LANGUAGE_COMMON LANGUAGE_FELINE~
+*
+LangLearnable  LANGUAGE_ELVEN LANGUAGE_DWARVEN LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_RODENT LANGUAGE_MAMMAL LANGUAGE_REPTILE LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_DROW LANGUAGE_CANINE LANGUAGE_AVIS LANGUAGE_TREELEAF~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        102
+Height         168
+Weight         65,000
+TonalitySound  voce~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+
+*OrganIntN     10
+*OrganCorN     15
+*OrganInt      0 1 2 3 4 5 6 7 8 9
+*OrganCor      0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+*Wear_Name
+*   Testa
+*   Occhi
+*   Orecchia destra
+*   Orecchia sinistra
+*   Collo
+*   Schiena
+*   Corpo
+*   Braccio destro
+*   Braccio sinistro
+*   Mano destra
+*   Mano sinistra
+*   Anello destro
+*   Anello sinistro
+*   Gamba destra
+*   Gamba sinistra
+*   Piede destro
+*   Piede sinistro
+*End_Wear_Name
+End
+
+#END

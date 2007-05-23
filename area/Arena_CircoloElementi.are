@@ -1,0 +1,1009 @@
+#AREA
+Name         Arena del Circolo degli Elementi~
+Author       Amlugil~
+Color        AT_DGREEN verde scuro~
+LevelRange   30 90
+Economy      0 3643376
+ResetMsg1    L'aria si fa insopportabilmente calda per qualche istante.. Poi gradatamente torna il gelo fin dentro le ossa.~
+Flags        AREAFLAG_FREEKILL AREAFLAG_ARENA~  
+Vnums        21600 21700
+End
+
+
+#MOBILES
+#21600
+drago verde~
+Un enorme drago verde~
+Un enorme drago verde e' qui che vigila
+~
+Un enorme dragone verde si guarda intorno con occhi gialli e stretti,
+ardenti d'ira..
+E' un serpente alato, enorme.. Il colossale corpo completamente ricoperto
+di scaglie verde scuro ricorda le colline brulle..  Numerosi fori punteggiano
+le sue ali pesanti raccontando delle battaglie sostenute, così come le
+tacche che segnano le possenti corna sul suo capo..
+~
+32801 1077936128 0 C
+50 0 -300 8d8+9000 10d7+3
+0 0
+6 6 0
+13 13 13 13 13 13 1
+2 2 2 2 2
+31 0 3000 3000 0 0 3
+10 10 0 0 0 0 133 0
+#21601
+fenice~
+&RUna meravigliosa fenice&w~
+&rUna splendida fenice spiega fieramente le sue ali&w
+~
+Una creatura avvolta nel fuoco, le sue ali dorate risplendono
+di bagliori che sfumano in infinite cromature dal rosso cremisi
+al biondo platino con sottili venature bronzee.
+I suoi occhi sono fiamme severe e implacabili, vive di un orgoglio
+che abbaglia e ferisce.
+Silente e feroce nella sua immobilta'.. arde di un fuoco che non ha
+mai fine.
+~
+262145 557720 0 C
+100 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 0 0 0
+0 0 0 0 0 0 8192 0
+#0
+
+#OBJECTS
+#21600
+sigillo elementi~
+Un sigillo privo di decorazioni~
+Noti un singolare sigillo privo di elementi decorativi
+~
+~
+18 0 1 0
+0 0 0 0
+1 0 0
+#21601
+mantello fenice~
+Un mantello con l'emblema dell'Armata della Fenice~
+Un enorme mantello rosso fuoco è qui~
+~
+9 1 1025 0
+3 3 3 3 3 3
+5 0 0
+E
+mantello~
+                            &r .. ..                                    
+ &Y*                         .&r*(¦77=¦¦!,,'.             &R*                
+                          &r*=$%AA%5A%5$33C¦!*'.                        
+                        &r.($A%5A55*A*A3$*A$J7((¦*''.........  .....''. 
+                        &r!$*A55A5*55%J3*A%%A5A$J3C777=(((¦(¦¦!!¦¦!!!'  
+     &r.''''.            &r.C5AA5A@*A5$$5A5A%3C7C%%$3333JJJC77=(!,'...    
+    &r,C&R.&rJJC=¦,.         &r(3*A5555A%$AA5$CCJ$A%$JJJJC7(!,,,'.            
+   &r'CC3C==C$3J¦'      &r!355A5**%%5A*%3CJC3%A$J7===(¦¦¦¦¦¦!**,'         
+  &r'737C7==73$7C7¦.   &r!3%%A@55$%A@%JC$JC$$777==(¦!,,,''''...           
+  &r''....  .!(J=(77*,73$$$*$%$A$@333JC%JC377==(¦¦¦¦¦¦!!*'.             
+          &r ,',J¦!¦=J%$$%3%3AA575*$J37CJC7=(¦*''''''''''.              
+              &r!C!!!¦7J3%%%$5755J$JJC(=77¦!*!!¦!'                      
+              &r'3C¦!!¦7C3$33C3JJC=!!!!'*!((,   ..                      
+             &r.7$%J((¦¦7CJJJC7=,*,*.                                   
+           &r.!C$$$$3=(((=773C!''                                       
+         &r*¦=%$$$$$$37=(77C7J7,                                        
+     &r.!=JJJAA%$$$%%$3CCCCCC=77*                                       
+    &r,J%%A***A%5A$$%33%$3JCCC=7C=.                                     
+   &r'C%*55%%AAÐ*AJA$A=$%333JCC77CC!.        &Y*                           
+   &r73A%A5A5%**A3AAAJ=!$$3C3J77C773C*'                                 
+  &r*CA%*5AA5@55A35%C$C!'=A%3$$C7CC=J7!'.                               
+  &r'JA*AAA@5AA5CAJ**3$('.(J$$A%CC77CJJ¦.               &Y*                
+   &r35$5*5*%55J**57AJ7,' .!(J3$%77C7JC3=,.                             
+   &r=%5*5*%@JA5@3*A$7(,  .''(3J3JCJ=$37J=¦.                            
+   &r'%A%55535A5J$7AJ(!*     '¦$C37C(3%J=C7(.                           
+    &r3$5@$57@A5=3J33('.      'JC33==3$7C==7(.                          
+    &r(53A33553J3JJC=¦*       '*3$C¦7C37J=7=7*.                         
+    &r*$$$*A5C37C$3C=¦.    ...'=A3(C=(3JJJ=C=¦!..                       
+    &r.¦55@$*7JJJ%=J=7.      .!%AJ7=7(3J337=7¦**'                       
+     &r.J3*335C3$37=¦7*     .(%5333(C7$7%$C=(C*.'                       
+      &r!J$5(%%5C7=(¦,!    .!3A$$JJ=CJ33$$C7=(=,'.                      
+       &r=(*JC%3C(=!=.    .!=J%3$CC3=$J%$J$JC=(!.                       
+       &r'($A3JC(=7.('    *(C%$3$7J3C3A%$J%3C7=¦*.                      
+         &r!J%$J=¦(7.*,   ,¦7%33J$C=333AA%%JJ7C==*,'.                    
+        &r.=3$J(=*='..  .*=$%J3JC(($3$$AA$CJ7(77(,...                &b*   
+         &r¦C$(=(.=,.   .!JJ3C3J==7%%$33%$JCCC(((!'  .                  
+         &r!=$!¦( ¦,    ,¦=3C73J7(C$A3JJ333JCCC77(!,'.                  
+  &Y*       &r.=3¦,( !,   .*(¦3=7JJC(CC%$3JC7JCCCC77=!,''.                 
+          &r=C(.( '.   ,((7JC=7C7(C=%J%3=C=77=77==(!,'                  
+          &r(7¦ ¦     '*=7JJC(7=7(77$3JC3(7¦=CC7CJ7¦'                   
+          &r*(* *     '=C3$JC=(==(77C3CC==(=777JC777(*'.                
+          &r,(' .     *7J33J7==(=¦(7CJJCJ(!¦CCCCJJJC7=(¦*,.             
+          &r,¦       '¦773$C77(=((!77(JCCC=¦CCCCJJCCJJJC=¦!,. .         
+          &r,!      .*=(CJ3J===¦(¦!=7(7JC7CCC(JCJJJJCCC77=¦*,'.         
+          &r'.      ,¦((=J$J7==(¦!*=7=7CC==7C=J7CCCC7C7====(¦!*'.       
+           &r.     .,(¦=7J$3C7(=¦¦!(=7C7JC==C7=JJ7=C3JJJ7=(¦!*'..       
+                  &r**=(CJ33C===(¦!((CJ==7=77C==7C7(J$$33J(!!!*,'.      
+                 &r',*((7333C====¦!**CC=77777CCCCC77¦C3333='......      
+                 &r''¦¦=7J3J37(=((¦,*77(777CC7CCCJC7=¦73JJ¦'            
+                  &r'¦!==C3$77=¦=(¦!,=7(C7=7C77C77C7(=¦(7=(*.           
+                  &r.*!(=7$3J!=(¦((,,=C(77(73J777=7==((¦¦=¦*,.          
+                  &r..!!==C==',=¦!!¦,!=¦7(77333C=====(¦¦¦!¦,''.         
+                    &r,!==('. .,=¦!,',¦!==7¦3J$JC7¦¦(==¦**''. .         
+                   &r.**=((.    .¦!,. '**==(=3$333=7=(¦*'.              
+                   &r.**(!('     .*,. .'.¦¦=¦733JJ,,!==!,.              
+                   &r.''!*¦*.      '     '!((¦=7(,   .,!*,'             
+         &Y*             &r,'*!.             ',(¦((('      ...             
+                      &r...,.              .,*!(!¦.                     
+                         &r.                 ,.*¦*¦'                    
+                                           &r.. ,,,!.                   
+                                            &r.  '..'.           
+~
+#0
+
+#ROOMS
+#21600
+L'arena!~
+Siete nella sala d'attesa dela
+~
+0 0 0 0 0 0
+S
+#21601
+L'angolo della fiamma eterna~
+L'aria è stantia e pesante.
+Una luce intermittente viene dalle pareti, disegnate
+da nervature color lava che risplendono a tratti di un rosso
+acceso.
+Crepitii e improvvisi schianti si odono attorno.. non hai tanta
+voglia di rimanere qui..
+~
+0 0 0 0 0 0
+D1
+
+~
+~
+0 0 21602 0
+D2
+
+~
+~
+0 0 21620 0
+S
+#21602
+Nel corridoio del fuoco~
+Un'afa insopportabile ti assale appena metti piede in questo corridoio.
+Lingue di fuoco si sollevano dal terreno come mani tese pronte a
+ghermirti. Echi lontani e urla si perdono in un vuoto che sembra
+disegnarsi man mano che arranchi intorno con lo sguardo..
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 21601 0
+D2
+~
+~
+0 0 21621 0
+D1
+
+~
+~
+0 0 21603 0
+S
+#21603
+Nel corridoio del fuoco~
+Un'afa insopportabile ti assale appena metti piede in questo corridoio.
+Lingue di fuoco si sollevano dal terreno come mani tese pronte a
+ghermirti. Echi lontani e urla si perdono in un vuoto che sembra
+disegnarsi man mano che arranchi intorno con lo sguardo..
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 21604 0
+D2
+~
+~
+0 0 21622 0
+D3
+
+~
+~
+0 0 21602 0
+S
+#21604
+Il corridoio del fuoco~
+Un'afa insopportabile ti assale appena metti piede in questo corridoio.
+Lingue di fuoco si sollevano dal terreno come mani tese pronte a
+ghermirti. Echi lontani e urla si perdono in un vuoto che sembra
+disegnarsi man mano che arranchi intorno con lo sguardo.
+~
+0 0 0 0 0 0
+D3
+
+~
+~
+0 0 21603 0
+D2
+
+~
+~
+0 0 21623 0
+D1
+
+~
+~
+0 0 21605 0
+S
+#21605
+Il corridoio del fuoco~
+Riesci a vedere solo un'enorme fiamma stagliarsi davanti a te
+prima di avvolgerti in un mortale abbraccio!
+~
+0 2 0 0 0 0
+S
+#21606
+Il trono sulle Terre Brune~
+Odi dei lontani sussurri, la terra sotto di te sembra respirare..
+Lentamente scivolano al suolo appassite foglie che riempiono
+dei loro colori l'ambiente, una sottile luce le accarezza, facendone
+risaltare le bronzee venature.
+L'odore della terra e dei boschi ti riempie di serenita'.. tuttavia dura
+poco..
+~
+0 0 0 0 0 0
+D3
+
+~
+~
+0 0 21605 0
+D2
+
+~
+~
+0 0 21607 0
+S
+#21607
+Il sentiero tra i boschi~
+Odi dei lontani sussurri, la terra sotto di te sembra respirare..
+Lentamente scivolano al suolo appassite foglie che riempiono
+dei loro colori l'ambiente, una sottile luce le accarezza, facendone
+risaltare le bronzee venature.
+L'odore della terra e dei boschi ti riempie di serenita'.. tuttavia dura
+poco..
+~
+0 0 0 0 0 0
+D0
+
+~
+~
+0 0 21606 0
+D2
+
+~
+~
+0 0 21608 0
+D3
+
+~
+~
+0 0 21624 0
+S
+#21608
+Il sentiero tra i boschi~
+Odi dei lontani sussurri, la terra sotto di te sembra respirare..
+Lentamente scivolano al suolo appassite foglie che riempiono
+dei loro colori l'ambiente, una sottile luce le accarezza, facendone
+risaltare le bronzee venature.
+L'odore della terra e dei boschi ti riempie di serenita'.. tuttavia dura
+poco..
+
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 21607 0
+D3
+~
+~
+0 0 21628 0
+D2
+~
+~
+0 0 21609 0
+S
+#21609
+Il sentiero tra i boschi~
+Odi dei lontani sussurri, la terra sotto di te sembra respirare..
+Lentamente scivolano al suolo appassite foglie che riempiono
+dei loro colori l'ambiente, una sottile luce le accarezza, facendone
+risaltare le bronzee venature.
+L'odore della terra e dei boschi ti riempie di serenita'.. tuttavia dura
+poco..
+~
+0 0 0 0 0 0
+D0
+
+~
+~
+0 0 21608 0
+D3
+~
+~
+0 0 21632 0
+D2
+~
+~
+0 0 21610 0
+S
+#21610
+Il sentiero tra i boschi~
+Uno spettacolo di alberi e foglie ti avvolge meravigliosamente..
+Ma non fai in tempo a sorridere.. che t'accorgi di essere in trappola!
+~
+0 2 0 0 0 0
+S
+#21611
+Il limbo delle Acque~
+Eterei veli d'acqua ondeggiano intorno danzando davanti al tuo sguardo.
+Mille riflessi d'ogni colore illuminano le pareti.. che sembrano svanire
+e riformarsi ad ogni istante..
+~
+0 0 0 0 0 0
+D0
+
+~
+~
+0 0 21610 0
+D3
+
+~
+~
+0 0 21612 0
+S
+#21612
+Il limbo delle Acque~
+Eterei veli d'acqua ondeggiano intorno danzando davanti al tuo sguardo..
+Ma come lacci ti avvolgono.. e troppo tardi t'accorgi d'esser senza respiro!
+~
+0 2 0 0 0 0
+S
+#21613
+Il limbo delle Acque~
+Eterei veli d'acqua ondeggiano intorno danzando davanti al tuo sguardo.
+Mille riflessi d'ogni colore illuminano le pareti.. che sembrano svanire
+e riformarsi ad ogni istante..
+~
+0 0 0 0 0 0
+D1
+
+~
+~
+0 0 21612 0
+D0
+~
+~
+0 0 21635 0
+D3
+~
+~
+0 0 21614 0
+S
+#21614
+Il limbo delle Acque~
+Eterei veli d'acqua ondeggiano intorno danzando davanti al tuo sguardo.
+Mille riflessi d'ogni colore illuminano le pareti.. che sembrano svanire
+e riformarsi ad ogni istante..
+~
+0 0 0 0 0 0
+D1
+
+~
+~
+0 0 21613 0
+D0
+~
+~
+0 0 21634 0
+D3
+~
+~
+0 0 21615 0
+S
+#21615
+Il limbo delle Acque~
+Eterei veli d'acqua ondeggiano intorno danzando davanti al tuo sguardo.
+Mille riflessi d'ogni colore illuminano le pareti.. che sembrano svanire
+e riformarsi ad ogni istante..
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 21614 0
+D3
+~
+~
+0 0 21616 0
+D0
+~
+~
+0 0 21633 0
+S
+#21616
+Sulla Rosa dei Venti~
+Ti sembra di fluttuare in questo corridoio.. strali d'aria ti sfiorano
+accarezzandoti o spostandoti con delicatezza, sei in balia dei
+loro giochi.. se non fossi in una situazione disperata forse ti
+divertiresti..
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 21615 0
+D0
+~
+~
+0 0 21617 0
+S
+#21617
+Lungo il corridoio dei Venti~
+Ti sembra di fluttuare in questo corridoio.. strali d'aria ti sfiorano
+accarezzandoti o spostandoti con delicatezza, sei in balia dei
+loro giochi.. se non fossi in una situazione disperata forse ti
+divertiresti..
+~
+0 0 0 0 0 0
+D2
+
+~
+~
+0 0 21616 0
+D1
+~
+~
+0 0 21633 0
+D0
+~
+~
+0 0 21618 0
+S
+#21618
+Lungo il corridoio dei Venti~
+Ti sembra di fluttuare in questo corridoio.. strali d'aria ti sfiorano
+accarezzandoti o spostandoti con delicatezza.. finche' all'improvviso
+uno di questi non ti avvolge nelle sue spire intrappolandoti!
+~
+0 2 0 0 0 0
+S
+#21619
+Lungo il corridoio dei Venti~
+Ti sembra di fluttuare in questo corridoio.. strali d'aria ti sfiorano
+accarezzandoti o spostandoti con delicatezza, sei in balia dei
+loro giochi.. se non fossi in una situazione disperata forse ti
+divertiresti..
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 21618 0
+D1
+~
+~
+0 0 21625 0
+D0
+~
+~
+0 0 21620 0
+S
+#21620
+Lungo il corridoio dei Venti~
+Ti sembra di fluttuare in questo corridoio.. strali d'aria ti sfiorano
+accarezzandoti o spostandoti con delicatezza, sei in balia dei
+loro giochi.. se non fossi in una situazione disperata forse ti
+divertiresti..
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 21601 0
+D2
+~
+~
+0 0 21619 0
+D1
+~
+~
+0 0 21621 0
+S
+#21621
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 2 0 0 0 0
+S
+#21622
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 21603 0
+D3
+~
+~
+0 0 21621 0
+D2
+~
+~
+0 0 21626 0
+D1
+~
+~
+0 0 21623 0
+S
+#21623
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D0
+
+~
+~
+0 0 21604 0
+D3
+
+~
+~
+0 0 21622 0
+D1
+
+~
+~
+0 0 21624 0
+D2
+
+~
+~
+0 0 21627 0
+S
+#21624
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 2 0 0 0 0
+S
+#21625
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 21619 0
+D0
+~
+~
+0 0 21621 0
+D2
+~
+~
+0 0 21629 0
+D1
+~
+~
+0 0 21626 0
+S
+#21626
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 21622 0
+D3
+~
+~
+0 0 21625 0
+D2
+~
+~
+0 0 21630 0
+D1
+~
+~
+0 0 21627 0
+S
+#21627
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 1024 0 0 0 0
+D0
+~
+~
+0 0 21623 0
+D3
+~
+~
+0 0 21626 0
+D2
+~
+~
+0 0 21631 0
+D1
+~
+~
+0 0 21628 0
+S
+#21628
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 21608 0
+D0
+~
+~
+0 0 21624 0
+D3
+~
+~
+0 0 21627 0
+D2
+~
+~
+0 0 21632 0
+S
+#21629
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 0 21618 0
+D0
+~
+~
+0 0 21625 0
+D2
+~
+~
+0 0 21633 0
+D1
+
+~
+~
+0 0 21630 0
+S
+#21630
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 0 21626 0
+D3
+~
+~
+0 0 21629 0
+D2
+
+~
+~
+0 0 21634 0
+D1
+
+~
+~
+0 0 21631 0
+S
+#21631
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 2 0 0 0 0
+S
+#21632
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 21609 0
+D0
+~
+~
+0 0 21628 0
+D3
+~
+~
+0 0 21631 0
+D2
+
+~
+~
+0 0 21636 0
+S
+#21633
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 21615 0
+D3
+~
+~
+0 0 21617 0
+D0
+~
+~
+0 0 21629 0
+D1
+
+~
+~
+0 0 21634 0
+S
+#21634
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 2 0 0 0 0
+S
+#21635
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 21613 0
+D0
+~
+~
+0 0 21631 0
+D3
+~
+~
+0 0 21634 0
+D1
+
+~
+~
+0 0 21636 0
+S
+#21636
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 21610 0
+D2
+~
+~
+0 0 21612 0
+D0
+~
+~
+0 0 21632 0
+D3
+~
+~
+0 0 21635 0
+S
+#21637
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+S
+#21638
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+S
+#21639
+Nel circolo dell'arena~
+L'atmosfera in questa zona dell'arena e' terrificante.
+I Quattro Elementi hanno lasciato spazio ad un ambiente
+completamente differente..
+Odi lamenti e sussurri.. soffocati gemiti e stridule risate echeggiare
+intorno.. Il terreno sembra cedere da un momento all'altro sotto
+il tuo peso, ti senti in pericolo.
+C'è odore di morte..
+~
+0 0 0 0 0 0
+S
+#21640
+Una spinta nel buio~
+Sei qui come in nessun luogo, non sembra vero ciò che vedi, non 
+sembra aria quella che respiri, dubiti persino che abbia un senso qui
+la parola "esistere".
+Non vedi uscite nè pareti, forse ti sei perso.. oppure hai trovato qualcosa
+che non andava cercato, poco importa ora, ora che sei qui.
+Sbuffi dorati di essenze o spiriti inquieti aleggiano intorno.. sussurrano
+o bisbigliano mestamente.. a te? E in che lingua poi.. tutte e nessuna..
+Tremebonde mani si affacciano alla vista per un attimo implorando..
+chiedendo, supplicando... ma è solo illusione.
+Lievi fiamme viola si levano verso l'alto accarezzando l'aria intorno, sedute
+su di un altare fatto di mille e mille intrecci.. rune scolpite.. scritte 
+arcane..
+Nulla di lontanamente comprensibile ad una mente mortale.
+Tra risa e sospiri, spiriti e sussurri.. credi di essere l'unica cosa viva 
+qui dentro,
+O almeno lo speri.
+~
+0 0 0 0 0 0
+S
+#21641
+Un angolo nel deserto~
+Una tenue e soffusa luce avvolge questo piccolo ambiente. 
+Come una piccola isola a parte dal resto del mondo. Cammini sulla sabbia, 
+finissima e impercettibile al tatto, densa di ricordi e memorie di un passato
+che sinuosamente si affaccia elucubrando ciò che non sarà mai più ma non vuol 
+morire nel nulla.
+Distingui sulle alte pareti immensi arazzi sul cui volto è impresso il tratto 
+stigmatizzato di uno scorpione, anch'egli ha forse molto da dire, è un simbolo 
+del passato, qualcosa che non è più.. ma che non è morto.
+Ti arrivano all'orecchio lente note di una calda melodia arpeggiata, 
+forse è accompagnata da un sorriso.. ma sembra più malinconia e nostalgia, 
+un attimo ed è già finita.
+~
+0 0 0 0 0 0
+
+> rand_prog 15~
+mpecho Una calda brezza ti sfiora il viso..
+~
+|
+S
+#0
+
+#RESETS
+M 0 21600 1 21619  ; Mob: #21600 Un enorme drago verde => #21619 Lungo il corridoio dei Venti
+M 0 21600 1 21623  ; Mob: #21600 Un enorme drago verde => #21623 Nel circolo dell'arena
+M 0 21600 1 21630  ; Mob: #21600 Un enorme drago verde => #21630 Nel circolo dell'arena
+M 0 21600 1 21636  ; Mob: #21600 Un enorme drago verde => #21636 Nel circolo dell'arena
+O 0 21600 1 21630  ; Object: #21600 Un sigillo privo di decorazioni => #21630 Nel circolo dell'arena
+O 0 21600 1 21636  ; Object: #21600 Un sigillo privo di decorazioni => #21636 Nel circolo dell'arena
+S
+
+#SPECIALS
+M 21600 spec_breath_fire   ; Un enorme drago verde
+S
+
+#END

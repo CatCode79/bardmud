@@ -1,0 +1,33 @@
+#RACE
+RaceNumber     RACE_SLIME
+NameMale       Slime~
+NameFema       Slime~
+Flags          RACEFLAG_NOMONEY~
+Color          AT_GREEN spring green 3~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus       0     0     0     0     0     0
+PointLimit     0 0 0 0
+Affected       ~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_MONSTER~
+*
+LangLearnable  ~
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+Height         75
+Weight         40,000
+TonalitySound  ~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_HALFELF
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Mezzelfo~
+NameFema       Mezzelfa~
+Color          AT_LCYAN sky blue 1~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -5   0  -5    5   0   0    5   5   0    0   0   0    5   5   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus         5     5     0     5     0     5
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_INFRARED~
+Resist         RIS_COLD~
+Suscept        ~
+* Conosce le lingue comune e elfica
+LangNatural    LANGUAGE_COMMON LANGUAGE_ELVEN~
+* Può conoscere tutte le altre valide tranne il trollese, troppo stupido come linguaggio
+LangLearnable  LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_RODENT LANGUAGE_INSECTOID LANGUAGE_MAMMAL LANGUAGE_REPTILE LANGUAGE_DRAGON LANGUAGE_GOBLIN LANGUAGE_ANCIENT LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_AVIS LANGUAGE_MARINE LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_TREELEAF~
+AlignStart     0
+MinAlign      -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        104
+Height         170
+Weight         65,000
+TonalitySound  voce limpida~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,12 @@
+#CLASS
+ClassNumber    CLASS_ALCHEMIST
+Flags          CLASSFLAG_CASTER~
+NameMale       Alchimista~
+NameFemale     Alchimista~
+Color          AT_BLACK nero piombo~
+PointsName     Vita Movimento Mana Anima~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AvarageAttr     0   30   0  100  90   0   40   0   0    0   0   0    0   0   0
+End
+
+#END

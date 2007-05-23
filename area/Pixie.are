@@ -1,0 +1,878 @@
+#AREA
+Name         Foresta dei Pixie~
+Author       Caine (Jamirithiana)~
+Color        AT_BLUE blu~
+LevelRange   1 5
+ResetFreq    5
+ResetMsg1    Un pixie sbuca dal nulla davanti a me e nello stesso attimo sgattaiola via ridacchiando..~
+Economy      0 14805000
+Vnums        2070 2099
+End
+
+
+#MOBILES
+#2070
+orso bruno~
+un orso bruno~
+Un orso bruno cammina lentamente. Il brontolio sommesso non è rassicurante..~
+E' enorme.. Un ammasso di folta pelliccia bruna.. Il passo molle non ti trae in
+inganno, è capace di balzarti addosso in un attimo.. Ha gli occhi scuri come il
+manto.. D'improvviso spalanca le fauci ruggendo.. Ed è in quell'attimo che puoi
+notare le sue pericolosissime zanne..
+~
+65 0 0 C
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+24 3 0 0 512 513 0
+0 0 263725 0 0 0 2 0
+> death_prog 100~
+mpecho &YL'orso rantola di un ultimo lungo muggito e casca al suolo con un tonfo.
+mpecho $n &YTi accorgi che uno dei suoi lunghi artigli si è spezzato e ora è a terra.
+mpoload 2071
+~
+> fight_prog 15~
+mpecho &YL'orso allarga le fauci ruggendo in modo spaventoso!
+~
+|
+#2071
+pixie aria~
+un pixie d'aria~
+Un minuscolo pixie scivola rapido sulle correnti d'aria..~
+E' difficile catturare l'immagine precisa di questa minuta creatura, anche
+perchè si muove nell'aria ad una velocità incredibile.. come se sciasse su
+intricate piste atmosferiche..
+~
+65 524296 0 C
+3 0 0 0d0+0 0d0+1
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 3 0 0 9 9 0
+0 0 34543 0 0 0 0 2
+> fight_prog 20~
+mpecho &c$I grida selvaggiamente attraverso onde d'aria tentando di evitare il colpo.
+~
+> death_prog 100~
+mpecho &cL'aria vibra mentre la piccola creatura cade al suolo con un tonfo ovattato.
+mpoload 2072
+~
+|
+#2072
+demonietto quasit~
+un demonietto~
+Un demonietto è appostato tra le ombre..~
+La creatura demoniaca ha scelto questa cava dell foresta dei pixie come
+tana.. Riesci ad osservarla bene nonostante sia appostata tra le ombre: ha la
+pelle grigia e coriacea, le corna lucide e una lunga coda sormontata da punte
+ossee. Sicuramente è un demone minore..
+~
+3 0 -1000 C
+5 0 0 0d0+0 0d0+0
+1500 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+94 3 0 0 9 9 0
+0 0 1115887 0 2048 0 0 2
+> fight_prog 15~
+mpecho $I lancia un grido straziante. L'intera cava ne riporta l'eco.
+~
+> death_prog 100~
+mpecho &RIl piccolo demone stramazza al suolo. Qualcosa gli sfugge dalle mani.
+mpoload 2070
+~
+|
+#2073
+spirito acqua~
+uno spirito d'acqua~
+Uno spirito scivola allegramente sul pelo dell'acqua..~
+La creatura scivola sulla superficie acquatica producendosi in morbide danze..
+Ridacchia allegramente quasi dimentica del pericolo che rappresenti per lei..
+~
+3 524288 0 C
+4 0 0 0d0+0 0d0+0
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 9 9 0
+0 0 34543 0 2048 0 0 2
+> fight_prog 10~
+mpecho &c$I allarga le dita e una frusta d'acqua ghiacciata gli scivola di mano.
+mpdamage $n 4
+~
+> death_prog 100~
+mpecho &c$I collassa in acqua e sparisce nel fondo lasciando un circolo liquido in superficie.
+mpoload 2073
+~
+|
+#0
+
+#OBJECTS
+#2070
+perla nera~
+una perla nera~
+Una strana perla nera è qui. Nel bacio della luce sulla sua superficie sembra ti stia.. fissando!~
+~
+9 262208 16385 0
+5 5 0 0
+1 400 40
+A
+14 25
+A
+4 1
+A
+12 10
+> use_prog 100~
+mpechoat $n Stringi la strana perla nera nel palmo della mano.
+mpechoaround $n $n stringe la strana perla nera nel palmo della mano.
+~
+|
+#2071
+artiglio orso bruno~
+l'artiglio di un orso bruno~
+Un grosso artiglio d'orso attira la tua attenzione.~
+~
+5 0 8193 0
+12 5 10 2
+15 20 0
+A
+5 2
+A
+1 1
+#2072
+ala cristallo cristallina~
+una piccola ala di cristallo~
+Nell'aria galleggia una piccola ala di cristallo..~
+~
+9 262208 65537 0
+1 2 0 0
+1 1 0
+A
+3 2
+> use_prog 100~
+mpechoat $n Agganci $p.
+mpechoaround $n $n aggancia $p.
+~
+|
+#2073
+anello acqua cerchietto~
+un cerchietto d'acqua~
+Giace in terra un cerchietto d'acqua fluente..~
+~
+22 64 3 0
+0 0 0 0
+2 100 10
+A
+12 12
+#2074
+fialetta pozione miscela mistica~
+una pozione mistica~
+Scorgi una fialetta ricolma di liquido.. Sembra una miscela mistica..~
+~
+10 64 1 0
+10 15 1 81
+2 1500 150
+#2075
+blocco fogli~
+un blocco di fogli~
+Su un tavolo vedi poggiato un blocco di fogli~
+~
+12 0 0 0
+0 0 0 0
+10000 0 0
+#2076
+nastro acqua~
+un nastro d'acqua ~
+Al tuo passaggio un nastro d'acqua cristallina sorge dal terreno e si ripiega
+immediato e sinuoso su sè stesso..~
+~
+25 1073741824 0 0
+30000 30000 0 0
+1 0 0
+> rand_prog 3~
+mpecho Sprazzi di gocciole provengono dal nastro d'acqua
+~
+|
+#0
+
+#ROOMS
+#2070
+Una piccola radura~
+Volgendo lo sguardo è solo un manto erboso.. Stai costeggiando il bordo
+sud-occidentale di una piccola distesa erbosa ed una gentile brezza odorosa
+soffia da nord, invitando le lunghe foglie a delicate movenze.. La radura stende
+le sue mareggiate verdi ancora ad oriente, ed a nord..
+~
+0 0 2 0 0 0
+D0
+Seguita la distesa erbosa.
+~
+~
+0 -1 2072 0
+D1
+La piccola radura continua.
+~
+~
+0 -1 2071 0
+D4
+Una simpatica scala di rami sale verso un'immobile nuvola colorata.
+~
+~
+0 -1 34125 0
+S
+#2071
+Una piccola radura~
+Ti sei avvicendato fino all'angolo sud-orientale di una distesa erbosa, in parte
+oscurata dall'ombra di una grossa ed antica quercia.
+Voltando il capo verso l'oriente e al nord: è ancora manto erboso.
+~
+0 0 2 0 0 0
+D0
+La piccola radura continua.
+~
+~
+0 -1 2073 0
+D3
+Seguita la distesa erbosa.
+~
+~
+0 -1 2070 0
+E
+albero quercia~
+L'antico ed immenso albero getta la sua ombra e copre buona parte della sezione
+sud-orientale della radura.. Avvicinandoti per scrutare la sua corteccia da
+vicino noti che essa presenta numerosi buchi stretti.. Rifletti..
+Forse è lì dentro che alcuni pixie d'aria costruiscono le loro case?
+~
+S
+#2072
+Una piccola radura~
+Stai percorrendo l'angolo nord-occidentale della distesa erbosa.
+Sollevi il viso alla folata di aria fresca che proviene da nord, scivola in
+vortici frizzanti scuotendoti allegramente gli indumenti.
+~
+0 0 2 0 0 0
+D1
+Seguita la distesa erbosa.
+~
+~
+0 -1 2073 0
+D2
+La piccola radura continua.
+~
+~
+0 -1 2070 0
+S
+#2073
+Una piccola radura~
+Questa è la parte nord-orientale dell'esteso manto erboso, ti guardi intorno: la
+radura prosegue a sud e ad ovest mentre sul versante settentrionale e ad est i
+sentieri si snodano nelle profonde macchie boscose della foresta.
+~
+0 0 2 0 0 0
+D0
+Scivola un sentiero da qui. E va a perdersi nella foresta..
+~
+~
+0 -1 2075 0
+D1
+Un sentiero si snoda infilandosi nel folto della foresta.
+~
+~
+0 -1 2074 0
+D2
+La piccola radura continua.
+~
+~
+0 -1 2071 0
+D3
+Seguita la distesa erbosa.
+~
+~
+0 -1 2072 0
+S
+#2074
+Una giunzione nel sentiero boschivo~
+Davanti a te i percorsi s'incrociano mostrandoti quattro direzioni: fermando lo
+sguardo all'occidente puoi cogliere il prosieguo lento di una radura; a
+nord-est, sud-est e a nord invece, si diramano vie che tutte tendono all'imbocco
+alberato della foresta.
+~
+0 0 3 0 0 0
+D0
+Un sentiero di stira da qui.
+~
+~
+0 -1 2076 0
+D3
+Una piccola radura.
+~
+~
+0 -1 2073 0
+D6
+Un'ulteriore curva nel sentiero.
+~
+~
+0 -1 2099 0
+D8
+Il sentiero boschivo curva dolcemente.
+~
+~
+0 -1 21404 0
+S
+#2075
+Un sentiero attraverso la foresta~
+L'impervio sentiero che stai percorrendo attraverso questo tratto rado di
+foresta continua ad est ed a sud. La via è selvaggia come le chiome robuste
+dei rovi di questo tratto di foresta, tuttavia ancora rada e praticabile
+agevolmente.
+~
+0 0 3 0 0 0
+D1
+Un sentiero si snoda da questa parte.
+~
+~
+0 -1 2076 0
+D2
+Una piccola radura.
+~
+~
+0 -1 2073 0
+S
+#2076
+Un sentiero attraverso la foresta~
+L'impervio sentiero che stai seguendo, attraverso la foresta, seguita a nord,
+sud ed ovest. I boschi, a nord di qui, appaiono lievemente più scuri e fitti
+rispetto alla dolce vegetazione circostante.
+~
+0 0 3 0 0 0
+D0
+Una piccola radura..
+~
+~
+0 -1 2084 0
+D2
+Un sentiero si snoda da questa parte.
+~
+~
+0 -1 2074 0
+D3
+Un sentiero si stira da qui.
+~
+~
+0 -1 2075 0
+S
+#2077
+Un sentiero attraverso la foresta~
+L'impervio sentiero che stai seguendo continua sia ad est che a sud.
+Ti chini sulle gambe ad esaminare il terreno.. E l'impronta di un grosso e
+animale si delinea piano alla tua vista man mano che ti pieghi ad osservare.
+~
+0 0 3 0 0 0
+D1
+Un'intersezione nel sentiero.
+~
+~
+0 -1 2078 0
+D2
+Un sentiero si snoda da questa direzione.
+~
+~
+0 -1 2099 0
+E
+traccia impronta~
+Stai pensando alla zampa di un grosso orso bruno?
+~
+S
+#2078
+Un'intersezione nel sentiero~
+Il percorso boschivo si divide a nord di qui. La strada originale è quella che
+impegna i versanti laterali di ovest ed est.
+~
+0 0 3 0 0 0
+D0
+Un sentiero apre la sua strada in questa direzione.
+~
+~
+0 -1 2086 0
+D1
+Un percorso si snoda da qui.
+~
+~
+0 -1 2079 0
+D3
+Un sentiero si stira da questa parte.
+~
+~
+0 -1 2077 0
+S
+#2079
+Un sentiero attraverso il fogliame più fitto~
+In questa parte della foresta il sentiero è attorniato da una vegetazione più
+fitta e intricata, come se gli alberi avessero subito un'incremento poderoso
+nella crescita e nella densità..
+Il percorso prosegue a nord e ad est e una piccola apertura in una rupe
+s'affaccia invece dal versante orientale.
+~
+0 0 3 0 0 0
+D0
+Un sentiero si snoda in questa direzione.
+~
+~
+0 -1 2087 0
+D1
+Troppo scuro, mah..
+~
+~
+0 -1 2080 0
+D3
+Un'intersezione nel sentiero.
+~
+~
+0 -1 2078 0
+S
+#2080
+All'interno di una caverna umida~
+Ti sei introdotto qui, in questa caverna.. Quello che riesci a percepire verso
+oriente è solo la presenza del buio che da là si espande.. mentre verso
+occidente una larga fessura riporta alla foresta.. L'aria riecheggia di sentori
+atavici e lontani.. E forte t'avvolge ora la sensazione che nei dintorni ci sia
+un predatore in agguato..
+~
+0 0 3 0 0 0
+D1
+Niente da fare: è troppo buio..
+~
+~
+0 -1 2081 0
+D3
+Un sentiero prosegue da qui.
+~
+~
+0 -1 2079 0
+S
+#2081
+All'interno di una caverna umida~
+La caverna prosegue nel suo anfratto buio a nord e ad ovest e le pareti di
+pietra si estendono, ricoperte di graffi e segni profondi..
+~
+0 9 0 0 0 0
+D0
+Non riesci a distinguere quasi nulla: è troppo buio..
+~
+~
+0 -1 2089 0
+D3
+La tua vista è ingoiata dall'oscurità del luogo e questo non ti aiuta..
+~
+~
+0 -1 2080 0
+S
+
+#2082
+All'interno di una caverna umida~
+E' umida questa cava. Sgocciola dalla sua profonda cavità un rigo d'acqua
+intermittente, lo senti. E' certamente una tana, il terreno è ricoperto da una
+spessa lettiera di ossa vecchie, con molta probabilità di piccoli animali,
+roditori forse. Dalla gola della caverna un'ombra scura si è appena mossa..
+~
+0 1049097 13 0 0 0
+D1
+Niente da fare: è troppo buio..
+~
+~
+0 -1 2083 0
+S
+#2083
+L'interno della caverna~
+L'umida grotta sembra non avere muri, poichè l'oscurità ne inghiotte il disegno
+e non osi distendere le braccia per toccare e sincerarti..
+Ogni barlume è succhiato via da questo buio e dal freddo che riempie questo
+posto, prosegue il nero ignoto ad occidente, mentre un debole pallore sembra
+provenire da est..
+~
+0 9 13 0 0 0
+D1
+Il buio si dipana appena abituando lo sguardo, è una radura quella?
+~
+~
+0 -1 2084 0
+D3
+Non riesci a distinguere quasi nulla: è troppo buio..
+~
+~
+0 -1 2082 0
+S
+#2084
+Un'oscura radura al di fuori della caverna~
+E luce pare abbracciarti adesso, seppure luce scura, poca e flebile.
+L'erba di questa radura coperta d'ombra appare calpestata in quasi tutti i
+punti, forse da zampe pesanti.. Ad ovest la caverna apre la sua entrata come
+fauci si spalancano ad emettere gelido fiato, a nord e a sud sentieri si snodano
+raggiungendo l'interno della foresta.
+~
+0 0 4 0 0 0
+D0
+Un piccolo stagno.
+~
+~
+0 -1 2090 0
+D2
+Un sentiero.
+~
+~
+0 -1 2076 0
+D3
+Niente da fare: è troppo buio..
+~
+~
+0 -1 2083 0
+S
+#2085
+Una spiaggetta erbosa~
+Una spiaggetta ricoperta di erba molle e asciutta si spinge fino a nord, a
+lambire un piccolo stagno di acqua stranamente pulita. La fine sabbia sotto
+l'erba emette un calore naturale, abbastanza forte, le cui onde ti accarezzano
+riscaldandoti. Ad est un sentiero s'introduce nella foresta.
+~
+0 0 2 0 0 0
+D0
+Un piccolo stagno.
+~
+~
+0 -1 2091 0
+D1
+Un sentiero.
+~
+~
+0 -1 2086 0
+S
+#2086
+Un sentiero attraverso la foresta~
+L'impervio sentiero che stai seguendo prosegue a nord e a sud.
+Verso occidente invece una spiaggetta borda un piccolo stagno.
+
+~
+0 0 3 0 0 0
+D0
+Un sentiero boschivo.
+~
+~
+0 -1 2092 0
+D2
+Un'intersezione nel sentiero.
+~
+~
+0 -1 2078 0
+D3
+Una spiaggetta ricoperta d'erba.
+~
+~
+0 -1 2085 0
+S
+#2087
+Un sentiero attraverso la foresta~
+Gli alberi in questo punto del sentiero sembrano aver arrestato la loro
+crescita, sono infatti meno numerosi e molto più spogli.. Ad est distingui
+nettamente l'entrata di una caverna.
+~
+0 0 3 0 0 0
+D0
+Un sentiero.
+~
+~
+0 -1 2093 0
+D1
+L'entrata di una caverna.
+~
+~
+0 -1 2088 0
+D2
+Un sentiero.
+~
+~
+0 -1 2079 0
+S
+#2088
+L'entrata di una caverna~
+Ti rendi conto ora di essere in piedi su una lastra di pietra grigia..
+Un sentiero scivola inoltrandosi ad occidente e corre fino al cuore della
+foresta dei pixie mentre le altre buie sezioni della cava si dirigono ad
+oriente..
+~
+0 0 3 0 0 0
+D1
+Non riesci a distinguere quasi nulla: è troppo buio..
+~
+~
+0 -1 2089 0
+D3
+Un sentiero.
+~
+~
+0 -1 2087 0
+S
+#2089
+All'interno della caverna asciutta~
+Se potesse definirsi confortevole una grotta, si direbbe ciò di questa.
+Non umida anzi piacevolmente asciutta mostra, nella giusta luminosità che la
+pervade, il prosieguo a nord e a sud, mentre ad ovest c'è l'entrata.
+In terra un tappeto di scheletri di pesce essiccati scricchiola ad ogni
+movimento  ma ahimè, sono troppo fragili per essere raccolti..
+~
+0 9 0 0 0 0
+D0
+Non si vede niente! E' buio pesto!
+~
+~
+0 -1 2095 0
+D2
+L'oscurità eccessiva ti impedisce ogni visuale..
+~
+~
+0 -1 2081 0
+D3
+~
+~
+0 -1 2088 0
+S
+#2090
+Dentro lo stagno~
+Ti muovi nella porzione sud-occidentale di un piccolo stagno le cui fredde acque
+rispondono di ogni movenza sollevandosi e lievemente riabbassandosi in
+un'increspatura appena pronunciata. Acque terse, non usuale per uno stagno..
+Le acque proseguono a nord e ad est mentre un sentiero a meridione porta, oltre
+la riva, alla vegetazione.
+~
+0 0 2 0 0 0
+D0
+Ancora sotto lo sguardo rifulge il lieve ondeggiare dell'acqua..
+~
+~
+0 -1 2096 0
+D1
+Prosegue sospinto dal vento il lieve moto dell'acqua..
+~
+~
+0 -1 2091 0
+D2
+Una radura coperta dall'ombra.
+~
+~
+0 -1 2084 0
+S
+#2091
+Dentro lo stagno~
+Hai raggiunto a guado la porzione sud-orientale di questo grazioso stagno dalle
+acque fredde ma stranamente limpide.. A sud la spiaggia erbosa subisce
+innalzamenti e discese disordinate e intervallate, le puoi vedere già da qui..
+Lo stagno prosegue curvando dolcemente a nord e ad ovest..
+~
+0 0 2 0 0 0
+D0
+Prosegue sospinto dal vento il lieve moto dell'acqua..
+~
+~
+0 -1 2097 0
+D2
+Una spiaggetta erbosa.
+~
+~
+0 -1 2085 0
+D3
+Ancora sotto lo sguardo rifulge il lieve ondeggiare dell'acqua..
+~
+~
+0 -1 2090 0
+S
+#2092
+Un sentiero attraverso il fogliame più fitto~
+Il sentiero continua a nord, est e sud. Mentre muovi il passo verso la direzione
+che hai scelto, l'udito ti è rapito dal suono netto e deciso di campane..
+Ti fermi e ascolti. Si, provengono da nord.
+~
+0 0 3 0 0 0
+D0
+E' difficile vedere qualcosa, il fogliame è troppo fitto e denso..
+~
+~
+0 -1 2098 0
+D1
+Un sentiero.
+~
+~
+0 -1 2093 0
+D2
+Un sentiero.
+~
+~
+0 -1 2086 0
+S
+#2093
+Una curva nel sentiero~
+Il sentiero attraverso la foresta stira il suo corso ancora, spingendosi a sud e
+ad ovest. Alcuni alberi fiancheggiano la tua strada ma uno in particolare mostra
+sul tronco scheggiature nella corteccia, come artigliate..
+~
+0 0 3 0 0 0
+D2
+Un sentiero.
+~
+~
+0 -1 2087 0
+D3
+Solo foglie, la siepe è troppo fitta..
+~
+~
+0 -1 2092 0
+E
+albero tronco scheggiature corteccia artigliate~
+Lunghi, spessi e discontinui graffi, solchi nella corteccia..
+Come ferite al corpo dell'albero, alcune così profonde da mostrare il tenero
+legno verde all'interno..
+~
+S
+#2094
+Il covo degli orsi~
+Ops.. sei appena entrato in un covo di orsi bruni, probabilmente una famigliola.
+Qui vengono a riposare, infatti l'ambiente è asciutto e pulito e non vi sono
+resti di carcasse in terra.
+~
+0 9 0 0 0 0
+D1
+Non riesci a distinguere quasi nulla: è troppo buio..
+~
+~
+0 -1 2095 0
+S
+#2095
+Una curva nella caverna~
+La caverna prosegue a sud e ad ovest. Una profonda crepa nella parete a nord
+sgocciola di un corposo rigagnolo d'acqua fresca e pulita..
+~
+0 9 0 0 0 0
+D2
+Niente da fare: troppo buio.
+~
+~
+0 -1 2089 0
+D3
+L'oscurità eccessiva ti impedisce ogni visuale..
+~
+~
+0 -1 2094 0
+S
+#2096
+Dentro lo stagno~
+Guadando adagio ancora, ti sei spinto fino alla parte nord-occidentale dello
+stagno. Le fredde acque blu riflettono il tuo viso ridandotelo più giovane..
+Lo stagno e le sue strane acque proseguono ad est e a sud mentre uno stretto
+sentiero a nord-est s'inerpica fino alla cima di una poco distante collina.
+~
+0 0 2 0 0 0
+D1
+Continua, accarezzato dal vento, il lieve moto del piccolo stagno..
+~
+~
+0 -1 2097 0
+D2
+Segui ancora con lo sguardo l'incresparsi sottile dell'acqua..
+~
+~
+0 -1 2090 0
+D6
+~
+~
+0 -1 2492 0
+E
+riflesso acque viso~
+Incredibilmente giovane appare il tuo volto, raccontato ora da questo specchio
+d'acqua magica..
+~
+S
+#2097
+Dentro lo stagno~
+Sposti adagio le acque aprendoti varchi con le ginocchia, prosegui..
+Questo è il punto nord-orientale dello stagno ed è notevolmente più duro da
+attraversare, con le acque più torbide, miscelate da vortici subacquei con il
+fondale sabbioso.. Proseguono le acque fredde, a sud e ad ovest.
+~
+0 0 2 0 0 0
+D2
+Ancora la distesa lucente delle acque piccolo stagno..
+~
+~
+0 -1 2091 0
+D3
+Il dondolio sommesso dell'acqua, ancora..
+~
+~
+0 -1 2096 0
+S
+#2098
+Il bosco di cristallo~
+Spezza il fiato e lo ridona a stento.. Quest'angolo di foresta porta in sè la
+quintessenza della meraviglia: ogni albero, ogni foglia, ogni filo d'erba è
+formato da sottile e lucidissimo cristallo prismatico e ripete in ogni
+sfaccettatura dei mille colori della natura, potenziati dalla lucentezza del
+vetro.. Svettano le cime delicate dei rami degli alberi, ad abbracciarsi in
+alto, fino al cielo, per poi separarsi in macchie oblique, per permettere alla
+luce di filtrare, a tratti occhieggiando, a tratti invadendo violenta..
+Quasi non vuoi proseguire, temendo di distruggere con il solo respiro questo
+splendido angolo di incantata meraviglia..
+~
+0 3145740 3 0 0 0
+D2
+Una gabbia di foglie ti ostacola la vista: è troppo spessa qui la vegetazione..
+~
+~
+0 -1 2092 0
+S
+#2099
+Una svolta nel sentiero~
+Il sentiero boschivo curva qui, congiungendo il nord all'occidente.
+La sua consistenza è solida, c'è qualcosa che mostra alla tua mente che questo
+tratto di strada è molto frequentato.. Ma non sai cosa.
+~
+0 0 3 0 0 0
+D0
+Un sentiero.
+~
+~
+0 -1 2077 0
+D9
+Una giunzione nella foresta.
+~
+~
+0 -1 2074 0
+S
+#0
+
+
+#RESETS
+M 0 2070 1 2094  ; Mob: #2070 un orso bruno => #2094 Il covo degli orsi
+M 0 2071 4 2071  ; Mob: #2071 un pixie d'aria => #2071 Una piccola radura
+M 0 2072 1 2082  ; Mob: #2072 un demonietto => #2082 All'interno di una caverna umida
+M 0 2073 2 2097  ; Mob: #2073 uno spirito d'acqua => #2097 Dentro lo stagno
+G 1 2074 1       ; -- Give:  #2074 una pozione mistica
+E 1 2073 1 2     ; -- Equip: #2073 un cerchietto d'acqua (Finger-R)
+M 0 2073 2 2090  ; Mob: #2073 uno spirito d'acqua => #2090 Dentro lo stagno
+G 1 2074 1       ; -- Give:  #2074 una pozione mistica
+O 0 2076 1 2090  ; Object: #2076 un nastro d'acqua  => #2090 Dentro lo stagno
+O 0 2076 1 2096  ; Object: #2076 un nastro d'acqua  => #2096 Dentro lo stagno
+O 0 2076 1 2097  ; Object: #2076 un nastro d'acqua  => #2097 Dentro lo stagno
+O 0 2076 1 2091  ; Object: #2076 un nastro d'acqua  => #2091 Dentro lo stagno
+S
+
+
+#SPECIALS
+M 2070 spec_fido   ; un orso bruno
+S
+
+
+#END

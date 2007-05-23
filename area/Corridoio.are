@@ -1,0 +1,3126 @@
+#AREA
+Name         Il Corridoio V2.2~
+Author       Raul~
+Color        AT_RED rosso~
+LevelRange   15 90
+ResetFreq    15
+ResetMsg1    Venature rosso sangue scorrono veloci attraversano le pareti umide... ~
+Vnums        2900 2950
+End
+#MOBILES
+#2901
+soldato scheletro~
+uno scheletro~
+Uno scheletro armato vaga in giro brandendo la sua grossa spada.
+~
+Sebbene ormai non sia altro che un semplice mucchio di ossa sembra che per lui
+la battaglia non sia ancora finita.
+~
+101 0 -290 C
+11 10 4 11d11+110 2d8+1
+0 4000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2902
+spettro fantasma~
+un misterioso spettro~
+Un misterioso fantasma si rivela dinanzi a te.
+~
+Un essere incorporeo dall'odore nauseabondo.
+~
+101 1048608 0 C
+12 9 2 12d12+120 2d7+1
+0 5000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2903
+zombie carne~
+uno zombie~
+Un ammasso di carne sta qui, davanti a te, in posa meditativa..
+~
+Dev'essere uno zombi di primo pelo, le sue carni non sono ancora così
+corrotte e sulla sua pelle non si vede traccia di vermi. Considerata la stazza
+di questa creatura, si può pensare che un tempo fosse un cacciatore di
+Draghi. Molta della forza che aveva in vita l'ha accompagnato nel viaggio
+oltre la morte.
+~
+97 136 -1000 C
+15 17 6 10d10+150 1d7+7
+0 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+3 0 1767 0 0 0 0 0
+#2904
+bestia oscura~
+la bestia oscura~
+Un bestia famelica.
+~
+L'unica cosa che si riesce a definire di questa bestia informe è che emana
+un odore decisamente sgradevole.
+~
+97 0 -1000 C
+24 -2 -12 24d24+240 3d7+7
+0 80000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 3
+10 10 0 0 0 0 0 0
+#2905
+demone minore~
+Un Demone Minore~
+Un Demone Minore sogghigna circondato dalle fiamme.
+~
+Un demone dall'aspetto aggressivo  si lamenta tra le fiamme.
+L'evocazione che lo ha attirato deve averlo fatto infuriare.
+I lunghi artigli affilati ti fan venire voglia di fuggire quanto più
+velocemente puoi.
+~
+97 524288 -1000 C
+50 0 0 15d10+4250 5d8+19
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 3
+30 20 2047 100352 128 8448 1196 0
+#2906
+demone maggiore~
+Un Demone Maggiore~
+Un Demone Maggiore fluttua tra le fiamme.
+~
+Un enorme e malvagio demone fluttua tra le fiamme.
+Fornito di ali, zanne, coda, è come hai sempre immaginato che fosse un demone.
+La sua nera pelle squamosa riflette la luce del fuoco mentre i suoi occhi
+ardenti corrompono la tua anima.
+Trema mortale e preparati a morire.
+~
+97 524416 -1000 C
+65 0 0 50d10+8250 11d5+35
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+12 0 0 0 0 0 2
+50 50 11636025 1930 67712 8484 5156 0
+#2907
+discepolo~
+Un discepolo oscuro~
+Uno strano figuro recita arcane litanie
+~
+Un elfo vestito di una semplice toga nera, cammina tracciando simboli
+nell'aria e recitando oscuri versi.
+Mani nervose si muovono continuamente tracciando simboli, occhi crudeli
+scrutano i dintorni.
+Una strana aurea lo circonda
+~
+97 524296 0 C
+68 0 0 45d10+8500 8d7+38
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 0 0 0 0 96 0
+#2908
+stregone~
+Un potente stregone~
+Una figura ammantata di scuri drappi fluttua verso di te
+~
+Un'alta figura vestita di scuro si avvicina lentamente.
+Due rossi occhi ti scrutano con aria maligna, sottili mani scheletriche
+si muovono nell'aria tracciando simboli incomprensibili.
+~
+97 524416 0 C
+95 0 0 100d12+20000 12d12+65
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 0 4 128 256 96 0
+#2909
+drago polvere Dracolithos~
+Dracolithos~
+Una vorticante nube di polvere crea  la sagoma di un drago terrificante
+~
+Il Dracolithos ha dimorato per millenni tra le polveri delle gallerie,
+cibandosi degli incauti avventurieri che osano disturbare il suo sonno.
+~
+97 273230376 0 C
+50 0 -250 1d1+11000 8d8+6
+0 0
+8 8 0
+18 13 13 16 13 18 0
+0 0 0 -15 -6
+31 0 0 0 131073 131073 5
+0 0 198688 0 2100231 520 7 67
+> act_prog p flees head over heels!~
+mpat 3 cast heal
+mpat 3 cast heal
+mpat 3 cast heal
+mpat 3 cast heal
+mpat 3 cast heal
+~
+> rand_prog 5~
+mpat 3 c heal
+~
+|
+#2910
+tarrasque~
+un tarrasque~
+Un tarrasque si avventa contro di me
+~
+Alto all'incirca quindici metri e lungo venti, questa macchina da guerra ti
+si fa incontro con la sua devastante mole.
+Dotato di artigli, di una micidiale coda e di un possente carapace irto
+di aculei che riveste la schiena e buona parte della coda.
+Si sposta velocemente e qualunque cosa vivente sul suo cammino diventa cibo.
+~
+97 1073741864 0 C
+99 17 -1000 3000d2+60000 10d100+600
+0 5000
+8 8 0
+18 2 18 10 18 18 16
+0 0 0 0 0
+31 3 1500 130000 0 0 5
+15 600 1115193 1051712 2101125 0 391 532480
+#2911
+zombie~
+uno zombie~
+Uno zombie avanza minaccioso verso di te
+~
+Dev'essere uno zombi di primo pelo, le sue carni non sono ancora così
+corrotte e sulla sua pelle non si vede traccia di vermi. Considerata la stazza
+di questa creatura, si può pensare che un tempo fosse un cacciatore di
+Draghi. Molta della forza che aveva in vita l'ha accompagnato nel viaggio
+oltre la morte.
+~
+101 136 -1000 C
+20 17 -50 3d9+333 2d8+5
+0 400
+8 8 0
+12 2 9 8 11 5 10
+0 0 0 0 0
+71 3 0 0 1 1 2
+4 2 1767 3584 0 1 34344992 1
+#0
+
+#OBJECTS
+#2900
+sangue~
+una pozza di sangue rappreso~
+Una pozza di sangue~
+~
+13 -2147221504 0 0
+0 0 0 0
+1 0 0
+#2901
+crani~
+pezzi di crani~
+Crani maciullati scricchiolano sotto i tuoi piedi~
+~
+13 -2147221504 16385 0
+0 0 0 0
+1000 0 0
+#2902
+brandelli carne~
+brandelli di carne~
+Brandelli di carne e ossa dilaniate giaciono qui
+~
+~
+19 0 1 0
+12 0 0 1
+5 20 2
+#2903
+torcia~
+una torcia~
+Una torcia illumina l'ambiente
+~
+~
+1 -2147221504 16385 0
+0 0 3 0
+1000 0 0
+#2904
+tavolo tavolaccio~
+un tavolaccio~
+Un grezzo tavolaccio
+~
+~
+13 -2147221504 16385 0
+0 0 0 0
+18000 0 0
+#2905
+panca~
+una panca~
+Una panca di legno malridotta
+~
+~
+13 -2147221504 16385 0
+0 0 0 0
+8000 0 0
+#2906
+ragnatele ragnatela~
+alcune ragnatele~
+Mucchi di ragnatele pendono dal soffitto
+~
+~
+13 -2147221504 0 0
+0 0 0 0
+1 0 0
+#2907
+cespuglio cespugli~
+un cespuglio verdeggiante~
+Verdi cespugli pieni di bacche crescono alle radici degli alberi~
+~
+13 -2147221504 0 0
+0 0 0 0
+1 0 0
+#2908
+albero~
+Un albero divelto~
+Un albero divelto
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#2920
+fungo ombrello~
+un fungo ad ombrello~
+Accanto ad una macchia d'erba marcita cresce un fungo ad ombrello.~
+~
+19 0 1 0
+12 0 0 1
+5 20 2
+E
+fungo ombrello~
+E' grosso, peser` circa cinque libbre. La cima h ricoperta da un sottile
+strato di limo trasparente ed emana un debole odore di muffa. Non h certo
+appetitoso..
+~
+#0
+
+#ROOMS
+#2900
+Una piccola radura~
+Una piccola brulla radura si apre attorno a te. Svettanti alberi secolari
+ti circondano su tre lati formando una impenetrabile muraglia tale da
+rendere  impossibile alla luce del sole di illuminare il luogo, sul lato
+rimanente un alto muro di pietra grigia  chiude il cerchio. Ti guardi
+intorno alla tremolante luce di alcune torce infisse in sostegni
+arrugginiti e scorgi una porta ad arco, sembra che quella sia l'unica
+uscita esistente. Una cupa e inquietante atmosfera avvolge tutto.
+~
+0 3284992 2 0 0 0
+D0
+una porta ad arco
+~
+~
+0 0 2901 0
+D1
+verso il sentiero
+~
+~
+0 0 2946 0
+S
+#2901
+Il corridoio~
+Hai varcato la porta ad arco e ti trovi in un lungo corridoio in pietra,
+cerchi di scrutarne il fondo ma non riesci a vederlo. Un lieve odore di
+umidità e muffa arriva alle tue narici, muschi grigiastri macchiano qua e là
+le pareti e il pavimento rendendo in alcuni punti difficile restare in piedi.
+Anche qui l'illuminazione, data da alcune torce infisse alle pareti, è molto
+scarsa, ma sufficente a farti notare, sparse ovunque, ampie macchie scure.
+Nel totale silenzio del luogo, rotto solo dal  tuo respiro, senti suoni
+simili a quelli di belve tenute in gabbia.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2902 0
+D2
+una porta ad arco
+~
+~
+0 0 2900 0
+S
+#2902
+Il corridoio~
+Prosegui lungo il corridoio di pietra e ancora non riesci a vederne il fondo.
+L'odore di umidità e muffa si fa più intenso mentre avanzi lentamente,
+prestando attenzione a dove metti i piedi, muschi grigiastri macchiano qua
+e là le pareti e il pavimento. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te, continui a notare ampie macchie scure sparse un po'
+ovunque. Odi un leggero scricchiolio, come di una porta che si apre.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2904 0
+D2
+un buio corridoio
+~
+~
+0 0 2901 0
+D3
+una porta
+~
+porta~
+3 -1 2903 0
+S
+#2903
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2902 0
+S
+#2904
+Il corridoio~
+Prosegui lungo il corridoio. L'odore di muffa e umidità si fa più penetrante
+a mano a mano che ti allontani dalla porta, muschi grigiastri macchiano qua
+e là le pareti e il pavimento rendendo, in alcuni punti, difficile restare
+in piedi. La luce delle tremolanti torce crea giochi illusori con le ombre
+facendoti girare continuamente per vedere se qualcosa si muove intorno a te
+e non puoi fare a meno di notare le macchie scure sparse un po' ovunque sulle
+grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi
+cosa ci sia là davanti che ti aspetta.
+~
+0 3153929 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2905 0
+D2
+un buio corridoio
+~
+~
+0 0 2902 0
+S
+#2905
+Il corridoio~
+Prosegui lungo il corridoio. L'odore di muffa e umidità si fa più penetrante a
+mano a mano che ti allontani dalla porta, muschi grigiastri macchiano qua
+e là le pareti e il pavimento rendendo, in alcuni punti, difficile restare in
+piedi. La luce delle tremolanti torce crea giochi illusori con le ombre
+facendoti girare continuamente per vedere se qualcosa si muove intorno
+a te e non puoi fare a meno di notare le macchie scure sparse un po' ovunque
+sulle grigie pietre. I rumori si acquietano improvvisamente, come un predatore
+che trattenga il fiato all'approssimarsi della preda. Un lieve scricchiolio,
+come di una porta che si apre rompe il silenzio.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2907 0
+D2
+un buio corridoio
+~
+~
+0 0 2904 0
+D3
+una porta
+~
+porta~
+3 -1 2906 0
+S
+#2906
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2905 0
+S
+#2907
+Il corridoio~
+Prosegui lungo il corridoio. L'odore di muffa e umidità si fa più penetrante a
+mano a mano che ti allontani dalla porta, muschi grigiastri macchiano qua
+e là le pareti e il pavimento rendendo, in alcuni punti, difficile restare in
+piedi. La luce delle tremolanti torce crea giochi illusori con le ombre
+facendoti girare continuamente per vedere se qualcosa si muove intorno
+a te e non puoi fare a meno di notare le macchie scure sparse un po' ovunque
+sulle grigie pietre. I rumori si acquietano improvvisamente, come un predatore
+che trattenga il fiato all'approssimarsi della preda. Un lieve scricchiolio,
+come di una porta che si apre rompe il silenzio.
+~
+0 3153929 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2909 0
+D2
+un buio corridoio
+~
+~
+0 0 2905 0
+D1
+una porta
+~
+porta~
+3 -1 2908 0
+S
+#2908
+Una stanza~
+Entri in una stanza fiocamente illuminata, un tremendo fetore ti assale
+nauseandoti. Girando lo sguardo attorno noti un grande caos: mucchietti
+di ossa sono sparsi a giro misti a mucchi di paglia marcia e maleodorante.
+Alcuni pezzi di mobilia sono gettati alla rinfusa, come se qualcuno o qualcosa
+si fosse divertito a spaccare tutto, noti inoltre alcune armi arrugginite e
+qualche grosso bastone. La stanza sembra vuota.
+~
+0 3153929 0 0 0 0
+D3
+una porta
+~
+porta~
+3 -1 2907 0
+S
+#2909
+Il corridoio~
+Prosegui lungo il corridoio, e aguzzando la vista riesci a scorgerne il
+fondo davanti a te. Ormai non fai più caso all'odore di muffa e umidità
+che permea l'aria, i soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La luce
+delle tremolanti torce crea giochi illusori con le ombre facendoti girare
+continuamente per vedere se qualcosa si muove intorno a te e non puoi
+fare a meno di notare le macchie scure sparse un po' ovunque sulle
+grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi
+cosa ci sia là davanti che ti aspetta.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2910 0
+D2
+un buio corridoio
+~
+~
+0 0 2907 0
+S
+#2910
+Il corridoio~
+Prosegui lungo il corridoio, distingui sempre più chiaramente il fondo.
+Ormai non fai più caso all'odore di muffa e umidità, i soliti muschi
+grigiastri macchiano qua e là le pareti e il pavimento rendendo, in
+alcuni punti, difficile restare in piedi. La luce delle tremolanti torce
+crea giochi illusori con le ombre facendoti girare continuamente per
+vedere se qualcosa si muove intorno a te e non puoi fare a meno di
+notare le macchie scure sparse un po' ovunque sulle grigie pietre.
+I rumori si acquietano improvvisamente, come un predatore che
+trattenga il fiato all'approssimarsi della preda. Un lieve scricchiolio,
+come di una porta che si apre rompe il silenzio.
+~
+0 3153929 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2912 0
+D2
+un buio corridoio
+~
+~
+0 0 2909 0
+D3
+una porta
+~
+porta~
+3 -1 2911 0
+S
+#2911
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2910 0
+S
+#2912
+Il corridoio~
+Prosegui lungo il corridoio, guardando verso il fondo vedi solo altre
+pietre quasi che non vi sia uscita. Ormai non fai più caso all'odore
+di muffa e umidità, i soliti muschi grigiastri macchiano qua e là le
+pareti e il pavimento rendendo, in alcuni punti, difficile restare in piedi.
+La luce delle tremolanti torce crea giochi illusori con le ombre facendoti
+girare continuamente per vedere se qualcosa si muove intorno a te e
+non puoi fare a meno di notare le macchie scure sparse un po' ovunque
+sulle grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti
+chiedi cosa ci sia là  davanti che ti aspetta.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2913 0
+D2
+un buio corridoio
+~
+~
+0 0 2910 0
+S
+#2913
+Il corridoio~
+Prosegui lungo il corridoio, ti sembra che la strada innanzi si divida. Ormai
+non fai più caso all'odore di muffa e umidità, i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie
+scure sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a
+tratti al tuo orecchio, e ti chiedi cosa ci sia là  davanti che ti aspetta.
+~
+0 3153929 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2916 0
+D1
+una porta
+~
+porta~
+3 -1 2914 0
+D2
+un buio corridoio
+~
+~
+0 0 2912 0
+D3
+una porta
+~
+porta~
+3 -1 2915 0
+S
+#2914
+Una stanza~
+Entri in una stanza fiocamente illuminata, un tremendo fetore ti assale
+nauseandoti. Girando lo sguardo attorno noti un grande caos: mucchietti
+di ossa sono sparsi a giro misti a mucchi di paglia marcia e maleodorante.
+Alcuni pezzi di mobilia sono gettati alla rinfusa, come se qualcuno o qualcosa
+si fosse divertito a spaccare tutto, noti inoltre alcune armi arrugginite e
+qualche grosso bastone. La stanza sembra vuota.
+~
+0 3153929 0 0 0 0
+D3
+una porta
+~
+porta~
+3 -1 2913 0
+S
+#2915
+Una stanza~
+Entri in una stanza fiocamente illuminata, un tremendo fetore ti assale
+nauseandoti. Girando lo sguardo attorno noti un grande caos: mucchietti
+di ossa sono sparsi a giro misti a mucchi di paglia marcia e maleodorante.
+Alcuni pezzi di mobilia sono gettati alla rinfusa, come se qualcuno o qualcosa
+si fosse divertito a spaccare tutto, noti inoltre alcune armi arrugginite e
+qualche grosso bastone. La stanza sembra vuota.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2913 0
+S
+#2916
+Il corridoio~
+Prosegui lungo il corridoio, vedi davanti che il corridoio si divide e
+prosegue verso est e ovest. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa. I soliti muschi grigiastri macchiano qua
+e là le pareti e il pavimento rendendo, in alcuni punti, difficile restare
+in piedi. La luce delle tremolanti torce crea giochi illusori con le ombre
+facendoti girare continuamente per vedere se qualcosa si muove intorno a
+te e non puoi fare a meno di notare le macchie scure sparse un po' ovunque
+sulle grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e
+ti chiedi cosa ci sia là  davanti che ti aspetta.
+~
+0 3156233 0 0 0 1
+D0
+un buio corridoio
+~
+~
+0 0 2917 0
+D2
+un buio corridoio
+~
+~
+0 0 2913 0
+S
+#2917
+Il corridoio~
+Davanti a te una parete, anche se scorgi qualcosa di strano, una porta forse,
+mentre il corridoio prosege a est ed ovest. I tuoi abiti sono completamente
+intrisi dell'odore di umidità e muffa. I soliti muschi grigiastri macchiano
+qua e là le pareti e il pavimento rendendo, in alcuni punti, difficile restare
+in piedi. La luce delle tremolanti torce crea giochi illusori con le ombre
+facendoti girare continuamente per vedere se qualcosa si muove intorno a
+te e non puoi fare a meno di notare le macchie scure sparse un po' ovunque
+sulle grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e
+ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+una porta
+~
+porta~
+3 -1 2918 0
+D1
+un buio corridoio
+~
+~
+0 0 2919 0
+D2
+un buio corridoio
+~
+~
+0 0 2916 0
+D3
+un buio corridoio
+~
+~
+0 0 2920 0
+S
+#2918
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D2
+una porta
+~
+porta~
+3 -1 2917 0
+S
+#2919
+Il corridoio~
+Prosegui lungo il corridoio, e noti che più avanti c'è una svolta a nord. I
+tuoi abiti sono completamente intrisi dell'odore di umidità e muffa. I soliti
+muschi grigiastri macchiano qua e là le pareti e il pavimento rendendo, in
+alcuni punti, difficile restare in piedi. La luce delle tremolanti torce crea
+giochi illusori con le ombre facendoti girare continuamente per vedere se
+qualcosa si muove intorno a te e non puoi fare a meno di notare le macchie
+scure sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a
+tratti al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D1
+un buio corridoio
+~
+~
+0 0 2921 0
+D3
+un buio corridoio
+~
+~
+0 0 2917 0
+S
+#2920
+Il corridoio~
+Prosegui lungo il corridoio, e noti che più avanti c'è una svolta a nord. I
+tuoi abiti sono completamente intrisi dell'odore di umidità e muffa. I soliti
+muschi grigiastri macchiano qua e là le pareti e il pavimento rendendo, in
+alcuni punti, difficile restare in piedi. La luce delle tremolanti torce crea
+giochi illusori con le ombre facendoti girare continuamente per vedere se
+qualcosa si muove intorno a te e non puoi fare a meno di notare le macchie
+scure sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a
+tratti al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D1
+un buio corridoio
+~
+~
+0 0 2917 0
+D3
+un buio corridoio
+~
+~
+0 0 2922 0
+S
+#2921
+Il corridoio~
+Sei arrivato alla svolta nel corridoio e vedi che questo prosegue verso
+nord, cerchi di spingere lo sguardo fino fondo, ma non riesci a vedere più
+in là di pochi metri. I tuoi abiti sono completamente intrisi dell'odore
+di umidità e muffa. I soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La
+luce delle tremolanti torce crea giochi illusori con le ombre facendoti
+girare continuamente per vedere se qualcosa si muove intorno a te e non
+puoi fare a meno di notare le macchie scure sparse un po' ovunque sulle
+grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti
+chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2923 0
+D3
+un buio corridoio
+~
+~
+0 0 2919 0
+S
+#2922
+Il corridoio~
+Sei arrivato alla svolta nel corridoio e vedi che questo prosegue verso
+nord, cerchi di spingere lo sguardo fino fondo, ma non riesci a vedere più
+in là di pochi metri. I tuoi abiti sono completamente intrisi dell'odore
+di umidità e muffa. I soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La
+luce delle tremolanti torce crea giochi illusori con le ombre facendoti
+girare continuamente per vedere se qualcosa si muove intorno a te e non
+puoi fare a meno di notare le macchie scure sparse un po' ovunque sulle
+grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti
+chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2924 0
+D1
+un buio corridoio
+~
+~
+0 0 2920 0
+S
+#2923
+Il corridoio~
+Avanzi lentamente nel corridoio. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa, intorno a te i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie scure
+sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a tratti
+al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2926 0
+D2
+un buio corridoio
+~
+~
+0 0 2921 0
+S
+#2924
+Il corridoio~
+Avanzi lentamente nel corridoio. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa, intorno a te i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie scure
+sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a tratti
+al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2928 0
+D2
+un buio corridoio
+~
+~
+0 0 2922 0
+D3
+una porta
+~
+porta~
+3 -1 2925 0
+S
+#2925
+Una stanza~
+Entri in una stanza fiocamente illuminata, un tremendo fetore ti assale
+nauseandoti. Girando lo sguardo attorno noti un grande caos: mucchietti
+di ossa sono sparsi a giro misti a mucchi di paglia marcia e maleodorante.
+Alcuni pezzi di mobilia sono gettati alla rinfusa, come se qualcuno o qualcosa
+si fosse divertito a spaccare tutto, noti inoltre alcune armi arrugginite e
+qualche grosso bastone. La stanza sembra vuota.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2924 0
+S
+#2926
+Il corridoio~
+Avanzi lentamente nel corridoio. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa, intorno a te i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie scure
+sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a tratti
+al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2930 0
+D1
+una porta
+~
+porta~
+3 -1 2927 0
+D2
+un buio corridoio
+~
+~
+0 0 2923 0
+S
+#2927
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D3
+una porta
+~
+porta~
+3 -1 2926 0
+S
+#2928
+Il corridoio~
+Avanzi lentamente nel corridoio. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa, intorno a te i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie scure
+sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a tratti
+al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2932 0
+D1
+una porta
+~
+porta~
+3 -1 2929 0
+D2
+un buio corridoio
+~
+~
+0 0 2924 0
+S
+#2929
+Una stanza~
+Entri in una stanza fiocamente illuminata, un tremendo fetore ti assale
+nauseandoti. Girando lo sguardo attorno noti un grande caos: mucchietti
+di ossa sono sparsi a giro misti a mucchi di paglia marcia e maleodorante.
+Alcuni pezzi di mobilia sono gettati alla rinfusa, come se qualcuno o qualcosa
+si fosse divertito a spaccare tutto, noti inoltre alcune armi arrugginite e
+qualche grosso bastone. La stanza sembra vuota.
+~
+0 3153929 0 0 0 0
+D3
+una porta
+~
+porta~
+3 -1 2928 0
+S
+#2930
+Il corridoio~
+Avanzi lentamente nel corridoio. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa, intorno a te i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie scure
+sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a tratti
+al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2934 0
+D2
+un buio corridoio
+~
+~
+0 0 2926 0
+D3
+una porta
+~
+porta~
+3 -1 2931 0
+S
+#2931
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2930 0
+S
+#2932
+Il corridoio~
+Avanzi lentamente nel corridoio. I tuoi abiti sono completamente intrisi
+dell'odore di umidità e muffa, intorno a te i soliti muschi grigiastri
+macchiano qua e là le pareti e il pavimento rendendo, in alcuni punti,
+difficile restare in piedi. La luce delle tremolanti torce crea giochi
+illusori con le ombre facendoti girare continuamente per vedere se qualcosa
+si muove intorno a te e non puoi fare a meno di notare le macchie scure
+sparse un po' ovunque sulle grigie pietre. Suoni indistinti giungono a tratti
+al tuo orecchio, e ti chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2935 0
+D2
+un buio corridoio
+~
+~
+0 0 2928 0
+D3
+una porta
+~
+porta~
+3 -1 2933 0
+S
+#2933
+Una stanza~
+Entri in una stanza fiocamente illuminata, un tremendo fetore ti assale
+nauseandoti. Girando lo sguardo attorno noti un grande caos: mucchietti
+di ossa sono sparsi a giro misti a mucchi di paglia marcia e maleodorante.
+Alcuni pezzi di mobilia sono gettati alla rinfusa, come se qualcuno o qualcosa
+si fosse divertito a spaccare tutto, noti inoltre alcune armi arrugginite e
+qualche grosso bastone. La stanza sembra vuota.
+~
+0 3153929 0 0 0 0
+D1
+una porta
+~
+porta~
+3 -1 2932 0
+S
+#2934
+Il corridoio~
+Avanzi lentamente nel corridoio,  più avanti scorgi una svolta verso ovest .
+I tuoi abiti sono completamente intrisi dell'odore di umidità e muffa, intorno
+a te i  soliti muschi grigiastri macchiano qua e là le pareti e il pavimento
+rendendo, in alcuni punti, difficile restare in piedi. La luce delle
+tremolanti torce crea giochi illusori con le ombre facendoti girare
+continuamente per vedere se qualcosa si muove intorno a te e non puoi
+fare a meno di notare le macchie scure sparse un po' ovunque sulle grigie
+pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi cosa
+ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2936 0
+D2
+un buio corridoio
+~
+~
+0 0 2930 0
+S
+#2935
+Il corridoio~
+Avanzi lentamente nel corridoio,  più avanti scorgi una svolta verso est .
+I tuoi abiti sono completamente intrisi dell'odore di umidità e muffa, intorno
+a te i  soliti muschi grigiastri macchiano qua e là le pareti e il pavimento
+rendendo, in alcuni punti, difficile restare in piedi. La luce delle
+tremolanti torce crea giochi illusori con le ombre facendoti girare
+continuamente per vedere se qualcosa si muove intorno a te e non puoi
+fare a meno di notare le macchie scure sparse un po' ovunque sulle grigie
+pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi cosa
+ci sia che ti aspetta più avanti.
+~
+0 3153928 0 0 0 0
+D0
+un buio corridoio
+~
+~
+0 0 2937 0
+D2
+un buio corridoio
+~
+~
+0 0 2932 0
+S
+#2936
+Il corridoio~
+Sei arrivato alla svolta nel corridoio e vedi che questo prosegue verso
+ovest, cerchi di spingere lo sguardo fino fondo, ma non riesci a vedere più
+in là di pochi metri. I tuoi abiti sono completamente intrisi dell'odore
+di umidità e muffa. I soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La
+luce delle tremolanti torce crea giochi illusori con le ombre facendoti
+girare continuamente per vedere se qualcosa si muove intorno a te e non
+puoi fare a meno di notare le macchie scure sparse un po' ovunque sulle
+grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti
+chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D2
+un buio corridoio
+~
+~
+0 0 2934 0
+D3
+un buio corridoio
+~
+~
+0 0 2938 0
+S
+#2937
+Il corridoio~
+Sei arrivato alla svolta nel corridoio e vedi che questo prosegue verso
+est, cerchi di spingere lo sguardo fino fondo, ma non riesci a vedere più
+in là di pochi metri. I tuoi abiti sono completamente intrisi dell'odore
+di umidità e muffa. I soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La
+luce delle tremolanti torce crea giochi illusori con le ombre facendoti
+girare continuamente per vedere se qualcosa si muove intorno a te e non
+puoi fare a meno di notare le macchie scure sparse un po' ovunque sulle
+grigie pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti
+chiedi cosa ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D1
+un buio corridoio
+~
+~
+0 0 2939 0
+D2
+un buio corridoio
+~
+~
+0 0 2935 0
+S
+#2938
+Il corridoio~
+Avanzi lentamente nel corridoio e poco più avanti noti che si  divide di
+nuovo. I tuoi abiti sono completamente intrisi dell'odore di umidità
+e muffa, intorno a te i soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La luce
+delle tremolanti torce crea giochi illusori con le ombre facendoti girare
+continuamente per vedere se qualcosa si muove intorno a te e non puoi
+fare a meno di notare le macchie scure sparse un po' ovunque sulle grigie
+pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi cosa
+ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D1
+un buio corridoio
+~
+~
+0 0 2936 0
+D3
+un buio corridoio
+~
+~
+0 0 2940 0
+S
+#2939
+Il corridoio~
+Avanzi lentamente nel corridoio e poco più avanti noti che si  divide di
+nuovo. I tuoi abiti sono completamente intrisi dell'odore di umidità
+e muffa, intorno a te i soliti muschi grigiastri macchiano qua e là le pareti
+e il pavimento rendendo, in alcuni punti, difficile restare in piedi. La luce
+delle tremolanti torce crea giochi illusori con le ombre facendoti girare
+continuamente per vedere se qualcosa si muove intorno a te e non puoi
+fare a meno di notare le macchie scure sparse un po' ovunque sulle grigie
+pietre. Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi cosa
+ci sia che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D1
+un buio corridoio
+~
+~
+0 0 2940 0
+D3
+un buio corridoio
+~
+~
+0 0 2937 0
+S
+#2940
+Il corridoio~
+Sei arrivato alla nuova svolta, il corridoio prosegue verso nord, verso est e
+verso ovest. I tuoi abiti sono completamente intrisi dell'odore di umidità e
+muffa, intorno a te i soliti muschi grigiastri macchiano qua e là le pareti e
+il pavimento rendendo, in alcuni punti, difficile restare in piedi. La luce
+delle tremolanti torce crea giochi illusori con le ombre facendoti girare
+continuamente per vedere se qualcosa si muove intorno a te e non puoi fare a
+meno di notare le macchie scure sparse un po' ovunque sulle grigie pietre.
+Suoni indistinti giungono a tratti al tuo orecchio, e ti chiedi cosa ci sia
+che ti aspetta più avanti.
+~
+0 3153929 0 0 0 0
+D0
+un corridoio
+~
+~
+0 0 2942 0
+D1
+un buio corridoio
+~
+~
+0 0 2938 0
+D2
+una porta
+~
+porta~
+3 -1 2941 0
+D3
+un buio corridoio
+~
+~
+0 0 2939 0
+S
+#2941
+Una stanza~
+Una stanza realizzata con le stesse pietre del corridoio, anche questa
+impregnata di odore di muffa e umidità. Lungo una parete ci sono alcuni
+ordinati giacigli, mentre sulla parete di fronte si trova un tavolo con due
+lunghe panche ai lati, qualche piatto con dei resti di cibo è stato
+abbandonato sopra. Lungo l'ultima parete si trova una lunga rastrelliera per
+armi, alcune sono ancora lì in attesa del loro propietario.
+La stanza sembra essere deserta.
+~
+0 3153929 0 0 0 0
+D0
+una porta
+~
+porta~
+3 -1 2940 0
+S
+#2942
+Il corridoio~
+Avanzi lungo il corridoio, questo è leggermente diverso da quello che hai
+percorso fino ad adesso, qui i muschi non ci sono, il pavimento e le pareti
+sono completamente asciutti e puliti, e anche se non ne sei certo, a causa
+dell'odore che impregna i tuoi abiti, ti sembra che l'aria sia pulita e
+respirabile. Anche in questa stanza la luce è scarsa data da alcune torce
+infisse alle pareti, ma noti verso nord una luce calda e accogliente provenire
+da una grande stanza a nord. Suoni indistinti giungono alle tue orecchie, ma
+non ti sembrano suoni ostili.
+~
+0 3153928 0 0 0 0
+D0
+un grande portone in bronzo
+~
+portone~
+8389679 -1 2943 0
+D2
+un buio corridoio
+~
+~
+0 0 2940 0
+S
+#2943
+Una grande stanza~
+Entri in una grande stanza ben illuminata, grandi affresci raffiguranti epiche
+battaglie ricoprono completamente le pareti, mentre alcuni alti scranni
+finemente intagliati sono sparsi qua e là. Un po' avunque vi sono tesori di
+ogni tipo: forzieri straripanti di gioielli, pietre preziose, monete d'oro e
+d'argento, armature di fattura
+~
+0 3153928 0 0 0 0
+D1
+una grande stanza
+~
+~
+0 0 2944 0
+D2
+un grande portone in bronzo
+~
+portone~
+8389671 -1 2942 0
+D3
+una grande stanza
+~
+~
+0 0 2945 0
+S
+#2944
+Una grande stanza~
+You stumble into a newly created room.
+~
+0 3153932 0 0 0 0
+D3
+una grande stanza
+~
+~
+0 0 2943 0
+S
+#2945
+Una grande stanza~
+You stumble into a newly created room.
+~
+0 3153928 0 0 0 0
+D1
+una grande stanza
+~
+~
+0 0 2943 0
+S
+#2946
+Un sentiero~
+Un piccolo sentiero tortuoso si snoda tra gli alberi.
+Grosse radici ritorte fuoriescono dal terreno rendendo difficile
+il cammino, davanti a te scorgi animali selvatici in cerca di cibo.
+Più avanti gli alberi iniziano a diradarsi.
+~
+0 3153920 4 0 0 0
+D3
+una radura
+~
+~
+0 0 2900 0
+D1
+un sentiero
+~
+~
+0 0 2947 0
+> rand_prog 50~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#2947
+Un sentiero~
+Ti trovi su una piccola collina. Vicino a te c'è il letto di un fiume,
+cerchi nei dintorni un punto dove attraversarlo, verso nord-est noti
+un picco montuoso ricoperto da vegetazione. A sud continua la collina.
+~
+0 3153920 4 0 0 0
+D3
+un sentiero
+~
+~
+0 0 2946 0
+D1
+un ponte
+~
+~
+0 0 2948 0
+D0
+un sentiero
+~
+~
+0 0 2951 0
+S
+#2948
+Un ponte~
+Un piccolo ponte ricoperto di erbacce, collega le due sponde del fiume.
+Verso nord-est noti un picco montuoso ricoperto da vegetazione.
+A sud continua la pianura.
+~
+0 3145730 4 0 0 3
+D5
+il fiume
+~
+~
+0 0 2952 0
+S
+#2949
+Un sentiero~
+Ti trovi su una piccola collina. Vicino a te c'è il letto di un fiume,
+cerchi nei dintorni un punto dove attraversarlo, verso nord-est noti
+un picco montuoso ricoperto da vegetazione. A sud continua la collina.
+~
+0 3153920 4 0 0 0
+D3
+un ponte
+~
+~
+0 0 2948 0
+D1
+un sentiero
+~
+~
+0 0 2950 0
+D0
+un sentiero
+~
+~
+0 0 2953 0
+S
+#2950
+Un sentiero~
+Cominci a scendere dalla collina, il sentiero a nord verso una
+piccola valle che sembra scomparire nella nebbia. Verso nord-est vedi
+svettare tra la nebbia il picco montuoso. La discesa è resa difficile
+dal terreno scivoloso.
+~
+0 3153924 4 0 0 0
+D3
+un sentiero
+~
+~
+0 0 2949 0
+D0
+una densa nebbia
+~
+~
+0 0 2954 0
+S
+#2951
+Un sentiero~
+Ti trovi su una piccola collina. Vicino a te c'è il letto di un fiume,
+cerchi nei dintorni un punto dove attraversarlo, verso nord-est noti
+un picco montuoso ricoperto da vegetazione. A sud continua la collina.
+~
+0 3153920 4 0 0 0
+D1
+il fiume
+~
+~
+0 0 2952 0
+D2
+un sentiero
+~
+~
+0 0 2949 0
+> rand_prog 50~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#2952
+Il letto del fiume~
+Il letto del fiume non sembra molto profondo, ma abbastanza largo
+da rendere difficile il guado. L'acqua scorre veloce trascinando
+grossi rami e detriti.
+~
+0 3145730 4 0 0 0
+D4
+un ponte
+~
+~
+0 0 2948 0
+S
+#2953
+Un sentiero~
+Ti trovi su una piccola collina. Vicino a te c'è il letto di un fiume,
+cerchi nei dintorni un punto dove attraversarlo, verso nord-est noti
+un picco montuoso ricoperto da vegetazione. A sud continua la collina.
+~
+0 3153920 4 0 0 0
+D2
+un sentiero
+~
+~
+0 0 2947 0
+D3
+il fiume
+~
+~
+0 0 2952 0
+S
+#2954
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D2
+un sentiero
+~
+~
+0 0 2950 0
+D0
+una densa nebbia
+~
+~
+0 0 2955 0
+D1
+una densa nebbia
+~
+~
+0 0 2957 0
+D3
+una densa nebbia
+~
+~
+0 0 2956 0
+S
+#2955
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D0
+una densa nebbia
+~
+~
+0 0 2958 0
+D1
+una densa nebbia
+~
+~
+0 0 2956 0
+D2
+una densa nebbia
+~
+~
+0 0 2958 0
+D3
+una densa nebbia
+~
+~
+0 0 2954 0
+S
+#2956
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D0
+una densa nebbia
+~
+~
+0 0 2958 0
+D1
+una densa nebbia
+~
+~
+0 0 2954 0
+D2
+una densa nebbia
+~
+~
+0 0 2954 0
+D3
+una densa nebbia
+~
+~
+0 0 2955 0
+S
+#2957
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D0
+una densa nebbia
+~
+~
+0 0 2954 0
+D1
+una densa nebbia
+~
+~
+0 0 2958 0
+D2
+una densa nebbia
+~
+~
+0 0 2959 0
+D3
+una densa nebbia
+~
+~
+0 0 2955 0
+S
+#2958
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D0
+una densa nebbia
+~
+~
+0 0 2955 0
+D1
+una densa nebbia
+~
+~
+0 0 2956 0
+D2
+una densa nebbia
+~
+~
+0 0 2954 0
+D3
+una densa nebbia
+~
+~
+0 0 2955 0
+S
+#2959
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D0
+una densa nebbia
+~
+~
+0 0 2956 0
+D1
+una densa nebbia
+~
+~
+0 0 2954 0
+D2
+una densa nebbia
+~
+~
+0 0 2960 0
+D3
+una densa nebbia
+~
+~
+0 0 2958 0
+S
+#2960
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D2
+una densa nebbia
+~
+~
+0 0 2959 0
+D0
+una densa nebbia
+~
+~
+0 0 2955 0
+D3
+una densa nebbia
+~
+~
+0 0 2956 0
+D1
+una densa nebbia
+~
+~
+0 0 2961 0
+S
+#2961
+Nella nebbia~
+Ti trovi in una piccola pianura completamente immersa nella nebbia.
+Quest'ultima è cosi fitta che fai fatica scorgere le tue stesse mani, i suoni
+sembrano provenire da ogni direzione, ombre fugagi si muovono al limite
+del tuo campo visivo. Procedi cauto alla ricerca di una via d'uscita.
+~
+0 3448832 2 0 0 0
+D3
+una densa nebbia
+~
+~
+0 0 2960 0
+D0
+una ripida parete rocciosa
+~
+~
+0 0 2962 0
+S
+#2962
+Una parete rocciosa~
+Sbuchi dalla nebbia ai piedi di una parete rocciosa.
+Alzi lo sguardo e vedi una fitta vegetazione sulla cima.
+Alla tua destra piantato in terra e coperto da strane piante rampicanti
+noti un cartello malandato.
+~
+0 3153924 5 0 0 0
+D2
+una densa nebbia
+~
+~
+0 0 2961 0
+D4
+una ripida parete rocciosa
+~
+~
+128 0 2963 0
+E
+cartello~
+M.nte R.en..rn
+
+                      .oXXXXXXXXXXXXXXXXXXo.
+                    .oXXXXX/XXXXXXXX\XXXXXXXo.
+                   /XXXXXX-\XXXXXXXX/-XXXXXXXx\
+                  dXXXXXX/XX\XXXXXX/XX\XXXXXXXXb
+                 XXXXXXXXXXXX\XXXX/XXXXXXXXXXXXX
+                 XXX'-   -.OO8bXXXd8OO'-  -.XXXXX
+                 9XX'        .98v8P'         .XXP'
+                  9X.        .ra|ul.         .XP
+                   )b. .dbo.dP'.v'.9b.odb. .dX(
+                 ,dXXXXXXXXXXb     dXXXXXXXXXXb.
+                dXXXXXXXXXXP'   .   .9XXXXXXXXXXb
+               dXXXXXXXXXXXb   d|b   dXXXXXXXXXXXb
+               9XXb'  .XXXXXb.dX|Xb.dXXXXX'  .dXXP
+                .'     9XXXXXX(   )XXXXXXP     .'
+                        XXXX X..N'.X XXXX
+                        XP^X'.O   0'.X^XX
+                        X. R  .   '  9 )X
+                        .K  .       '  7'
+                         .             '
+~
+S
+#2963
+Una parete rocciosa~
+Cerchi gli appigli migliori nelle rocce della parete per raggiungere
+la tua meta, piccoli sassi si sgretolano cadendo nel vuoto.
+Intorno a te solo roccia.
+~
+0 3153920 5 0 0 0
+D4
+una ripida parete rocciosa
+~
+~
+0 0 2964 0
+D5
+una ripida parete rocciosa
+~
+~
+0 0 2962 0
+> rand_prog 100~
+mpecho un corvo ti guarda da una roccia, attendendo che tu cada !
+~
+|
+S
+#2964
+Un punto di osservazione~
+Nella parete c'e una piattaforma di legno abbastanza ampia da accoglierti.
+In un angolo è stato costruito un punto di osservazione riparato.
+Il camminamento prosegue verso est.
+~
+0 3153920 5 0 0 0
+D5
+una ripida parete rocciosa
+~
+~
+0 0 2963 0
+D1
+una ripida parete rocciosa
+~
+~
+0 0 2965 0
+> rand_prog 50~
+mpecho un corvo ti guarda da una roccia, attendendo che tu cada !
+~
+|
+S
+#2965
+Sul ciglio del burrone~
+La piattaforma si estende da ovest fino al ciglio di un burrone,
+sporgendoti dal bordo puoi vedere la nebbia che ricopre la valle.
+Verso l'alto ci sono nuovi appigli per proseguire il cammino.
+~
+0 3153920 5 0 0 0
+D1
+l'orizzonte
+~
+~
+0 0 2968 0
+D2
+l'orizzonte
+~
+~
+0 0 2969 0
+D3
+una ripida parete rocciosa
+~
+~
+0 0 2964 0
+D4
+una ripida parete rocciosa
+~
+~
+0 0 2966 0
+> rand_prog 75~
+mpecho noti un'aquila volare in cielo
+~
+|
+S
+#2966
+Una parete rocciosa~
+Cerchi gli appigli migliori nelle rocce della parete per raggiungere
+la tua meta, piccoli sassi si sgretolano cadendo nel vuoto.
+Intorno a te solo roccia.
+~
+0 3153920 5 0 0 0
+D4
+una ripida parete rocciosa
+~
+~
+0 0 2967 0
+D5
+una ripida parete rocciosa
+~
+~
+0 0 2965 0
+S
+#2967
+Una parete rocciosa~
+Cerchi gli appigli migliori nelle rocce della parete per raggiungere
+la tua meta, piccoli sassi si sgretolano cadendo nel vuoto.
+Intorno a te solo roccia.
+~
+0 3153924 5 0 0 0
+D5
+una ripida parete rocciosa
+~
+~
+0 0 2966 0
+D4
+un bosco
+~
+~
+0 0 2970 0
+S
+#2968
+Nel vuoto~
+Nel vuoto
+~
+0 3145730 5 0 0 0
+S
+#2969
+Nel vuoto~
+Nel vuoto
+~
+0 3145730 5 0 0 0
+S
+#2970
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2972 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2971 0
+D5
+uno strapiombo
+~
+~
+0 0 2967 0
+S
+#2971
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2974 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2970 0
+S
+#2972
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2973 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2972 0
+> rand_prog 80~
+mpecho noti un'aquila volare in cielo
+~
+|
+S
+#2973
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2975 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2972 0
+S
+#2974
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2980 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2971 0
+S
+#2975
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2983 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2973 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2976 0
+S
+#2976
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2977 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2975 0
+S
+#2977
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2978 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2976 0
+> rand_prog 50~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#2978
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2979 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2977 0
+S
+#2979
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2987 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2978 0
+S
+#2980
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2989 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2974 0
+S
+#2981
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2990 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2982 0
+S
+#2982
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2981 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2991 0
+S
+#2983
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2984 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2975 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3012 0
+S
+#2984
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2983 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2985 0
+S
+#2985
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2984 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2994 0
+S
+#2986
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2995 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2987 0
+> rand_prog 70~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#2987
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2979 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2986 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3013 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2988 0
+S
+#2988
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2987 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2996 0
+S
+#2989
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2980 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2990 0
+S
+#2990
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2981 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2989 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2997 0
+S
+#2991
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2982 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2998 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2992 0
+S
+#2992
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2991 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2993 0
+S
+#2993
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2992 0
+S
+#2994
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2985 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3001 0
+S
+#2995
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2986 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3002 0
+S
+#2996
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2988 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3003 0
+S
+#2997
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2990 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 2998 0
+S
+#2998
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2991 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2997 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3004 0
+> randiw_prog 70~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#2999
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3005 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3000 0
+S
+#3000
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2999 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3006 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2974 0
+S
+#3001
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2994 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3007 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3002 0
+S
+#3002
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2995 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3001 0
+S
+#3003
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2996 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3010 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 2999 0
+S
+#3004
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2998 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3005 0
+S
+#3005
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 2999 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3004 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3011 0
+S
+#3006
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3000 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3012 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3007 0
+S
+#3007
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3001 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3006 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3008 0
+S
+#3008
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3007 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 2995 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3009 0
+> rand_prog 80~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#3009
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3008 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3010 0
+S
+#3010
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3003 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3009 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3014 0
+S
+#3011
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3005 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3012 0
+S
+#3012
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3006 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3011 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3015 0
+S
+#3013
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D0
+un sentiero nel bosco
+~
+~
+0 0 3018 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3014 0
+S
+#3014
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3010 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3013 0
+S
+#3015
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3012 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3016 0
+S
+#3016
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3015 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3017 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3009 0
+> rand_prog 70~
+mpecho uno stormo di rondini, disturbato dalla tua presenza, si alza in volo
+~
+|
+S
+#3017
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3016 0
+D1
+un sentiero nel bosco
+~
+~
+0 0 3018 0
+S
+#3018
+Un bosco~
+Ti trovi in un bosco di lecci e una folta e densa chioma lascia filtrare a
+fatica una lieve luminescenza rendendo l'ambiente ombroso. I rari raggi di
+sole fanno risaltare una leggera nebbiolina che si alza dal terreno umido,
+ti assale il tipico odore di erba bagnata. Intorno a te stretti sentieri
+di foglie cadute si snodano sul massiccio del Monte Roengarn attraverso
+gli alti fusti.
+~
+0 3153920 3 0 0 0
+D2
+un sentiero nel bosco
+~
+~
+0 0 3013 0
+D3
+un sentiero nel bosco
+~
+~
+0 0 3017 0
+S
+#0
+
+#RESETS
+M 0 2909 1 2943  ; Mob: #2909 Dracolithos => #2943 Una grande stanza
+M 0 2908 1 2943  ; Mob: #2908 The Flame => #2943 Una grande stanza
+M 0 2907 1 2943  ; Mob: #2907 a drakyri mage protector => #2943 Una grande stanza
+M 0 2906 1 2943  ; Mob: #2906 Un Demone Maggiore => #2943 Una grande stanza
+M 0 2905 1 2943  ; Mob: #2905 Un Demone Minore => #2943 Una grande stanza
+M 0 2904 1 2943  ; Mob: #2904 la bestia oscura => #2943 Una grande stanza
+M 0 2903 1 2943  ; Mob: #2903 uno zombie => #2943 Una grande stanza
+M 0 2901 1 2943  ; Mob: #2901 uno scheletro => #2943 Una grande stanza
+M 0 2902 1 2943  ; Mob: #2902 un misterioso spettro => #2943 Una grande stanza
+M 0 2910 1 3008  ; Mob: #2910 Una bestia gigantesca => #2943 Una grande stanza
+O 0 2900 1 2902  ; Object: #2900 una pozza di sangue rappreso => #2902 Il corridoio
+O 0 2900 1 2903  ; Object: #2900 una pozza di sangue rappreso => #2903 Una stanza
+O 0 2900 1 2909  ; Object: #2900 una pozza di sangue rappreso => #2909 Il corridoio
+O 0 2900 1 2919  ; Object: #2900 una pozza di sangue rappreso => #2919 Il corridoio
+O 0 2900 1 2939  ; Object: #2900 una pozza di sangue rappreso => #2939 Il corridoio
+O 0 2901 1 2917  ; Object: #2901 pezzi di crani => #2917 Il corridoio
+O 0 2901 1 2942  ; Object: #2901 pezzi di crani => #2942 Il corridoio
+O 0 2902 1 2904  ; Object: #2902 brandelli di carne => #2904 Il corridoio
+O 0 2902 1 2906  ; Object: #2902 brandelli di carne => #2906 Una stanza
+O 0 2902 1 2909  ; Object: #2902 brandelli di carne => #2909 Il corridoio
+O 0 2902 1 2923  ; Object: #2902 brandelli di carne => #2923 Il corridoio
+O 0 2902 1 2942  ; Object: #2902 brandelli di carne => #2942 Il corridoio
+O 0 2903 1 2903  ; Object: #2903 una torcia => #2903 Una stanza
+O 0 2903 1 2906  ; Object: #2903 una torcia => #2906 Una stanza
+O 0 2903 1 2911  ; Object: #2903 una torcia => #2911 Una stanza
+O 0 2903 1 2918  ; Object: #2903 una torcia => #2918 Una stanza
+O 0 2903 1 2927  ; Object: #2903 una torcia => #2927 Una stanza
+O 0 2903 1 2931  ; Object: #2903 una torcia => #2931 Una stanza
+O 0 2903 1 2941  ; Object: #2903 una torcia => #2941 Una stanza
+O 0 2905 1 2903  ; Object: #2905 una panca => #2903 Una stanza
+O 0 2904 1 2903  ; Object: #2904 un tavolaccio => #2903 Una stanza
+O 0 2904 1 2906  ; Object: #2904 un tavolaccio => #2906 Una stanza
+O 0 2905 1 2906  ; Object: #2905 una panca => #2906 Una stanza
+O 0 2905 1 2911  ; Object: #2905 una panca => #2911 Una stanza
+O 0 2904 1 2914  ; Object: #2904 un tavolaccio => #2914 Una stanza
+O 0 2905 1 2914  ; Object: #2905 una panca => #2914 Una stanza
+O 0 2905 1 2915  ; Object: #2905 una panca => #2915 Una stanza
+O 0 2905 1 2918  ; Object: #2905 una panca => #2918 Una stanza
+O 0 2904 1 2925  ; Object: #2904 un tavolaccio => #2925 Una stanza
+O 0 2905 1 2927  ; Object: #2905 una panca => #2927 Una stanza
+O 0 2904 1 2927  ; Object: #2904 un tavolaccio => #2927 Una stanza
+O 0 2904 1 2941  ; Object: #2904 un tavolaccio => #2941 Una stanza
+O 0 2906 1 2904  ; Object: #2906 alcune ragnatele => #2904 Il corridoio
+O 0 2906 1 2905  ; Object: #2906 alcune ragnatele => #2905 Il corridoio
+O 0 2906 1 2907  ; Object: #2906 alcune ragnatele => #2907 Il corridoio
+O 0 2906 1 2906  ; Object: #2906 alcune ragnatele => #2906 Una stanza
+O 0 2906 1 2912  ; Object: #2906 alcune ragnatele => #2912 Il corridoio
+O 0 2906 1 2917  ; Object: #2906 alcune ragnatele => #2917 Il corridoio
+O 0 2906 1 2922  ; Object: #2906 alcune ragnatele => #2922 Il corridoio
+O 0 2906 1 2932  ; Object: #2906 alcune ragnatele => #2932 Il corridoio
+O 0 2906 1 2936  ; Object: #2906 alcune ragnatele => #2936 Il corridoio
+O 0 2906 1 2940  ; Object: #2906 alcune ragnatele => #2940 Il corridoio
+O 0 2906 1 2941  ; Object: #2906 alcune ragnatele => #2941 Una stanza
+O 0 2906 1 2925  ; Object: #2906 alcune ragnatele => #2925 Una stanza
+O 0 2907 1 2900  ; Object: #2907 un cespuglio verdeggiante => #2900 Una piccola radura
+M 0 2903 6 2954  ; Mob: #2903 uno zombie => #2954 Nella nebbia
+M 0 2911 15 2954  ; Mob: #2911 uno zombie => #2954 Nella nebbia
+M 0 2911 1 2954  ; Mob: #2911 uno zombie => #2954 Nella nebbia
+M 0 2911 1 2955  ; Mob: #2911 uno zombie => #2955 Nella nebbia
+M 0 2911 1 2955  ; Mob: #2911 uno zombie => #2955 Nella nebbia
+M 0 2911 1 2956  ; Mob: #2911 uno zombie => #2956 Nella nebbia
+M 0 2911 1 2956  ; Mob: #2911 uno zombie => #2956 Nella nebbia
+M 0 2911 1 2957  ; Mob: #2911 uno zombie => #2957 Nella nebbia
+M 0 2911 1 2957  ; Mob: #2911 uno zombie => #2957 Nella nebbia
+M 0 2911 1 2958  ; Mob: #2911 uno zombie => #2958 Nella nebbia
+M 0 2911 1 2958  ; Mob: #2911 uno zombie => #2958 Nella nebbia
+M 0 2911 1 2959  ; Mob: #2911 uno zombie => #2959 Nella nebbia
+M 0 2911 2 2959  ; Mob: #2911 uno zombie => #2959 Nella nebbia
+M 0 2911 1 2960  ; Mob: #2911 uno zombie => #2960 Nella nebbia
+M 0 2911 1 2960  ; Mob: #2911 uno zombie => #2960 Nella nebbia
+M 0 2911 1 2961  ; Mob: #2911 uno zombie => #2961 Nella nebbia
+M 0 2911 1 2961  ; Mob: #2911 uno zombie => #2961 Nella nebbia
+O 0 2908 1 2992  ; Object: #2908 Un albero divelto => #2992 Un bosco
+O 0 2908 1 3000  ; Object: #2908 Un albero divelto => #3000 Un bosco
+O 0 2908 1 3006  ; Object: #2908 Un albero divelto => #3006 Un bosco
+O 0 2908 1 3014  ; Object: #2908 Un albero divelto => #3014 Un bosco
+O 0 2908 1 2978  ; Object: #2908 Un albero divelto => #2978 Un bosco
+S
+
+#SPECIALS
+S
+
+#END

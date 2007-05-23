@@ -1,0 +1,11 @@
+#CLASS
+ClassNumber    CLASS_BARD
+NameMale       Bardo~
+NameFemale     Barda~
+Color          AT_LCYAN azzuro sogno~
+PointsName     Vita Movimento Mana Anima~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AvarageAttr    40   0   0    0  90   0    0   0   0   30   0   0   100   0   0
+End
+
+#END

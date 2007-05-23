@@ -1,0 +1,5176 @@
+#AREA
+Name         Il Regno di Mahn-Tor~
+Author       Chris (Mydonell)~
+Color        AT_RED rosso~
+LevelRange   15 35
+ResetMsg1    Ti senti per un attimo leggermente spossato..~
+Version      1
+Vnums        2300 2399
+End
+
+#MOBILES
+#2300
+cavaliere etereo~
+un Cavaliere Etereo~
+Un cavaliere emerge dalle ombre brandendo la sua grossa spada!
+~
+E' uno dei più tetri cavalieri che tu abbia mai visto. Il suo corpo è ricoperto
+interamente da un'armatura nera, ed il mantello che porta sulle spalle è di
+color grigio. La sua anima vaga in questo luogo da tempo immemore, attendendo
+che qualcuno riporti la reliquia che gli consentirà d'abbandonare questo luogo
+di lacrime. La cosa più straordinaria è che puoi vedere attraverso il suo
+corpo etereo!
+~
+3 136 -1000 C
+25 0 -5 550d1+75 1d8+15
+25000 70000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2301
+albero incantato~
+un Albero Incantato~
+Un grosso albero si trova qui, anche se prima sembrava da un'altra parte..
+~
+E' un albero molto vecchio, la sua corteccia è rugosa, scura e consumata, su di
+esso, licheni ed altre piante rampicanti hanno trovato dimora. Stranamente
+nessun animale sembra però averlo preso come casa. Il fatto curioso è che prima
+non sembrava trovarsi in questo luogo, è come se si fosse spostato..
+Ma gli alberi non si muovono.. o forse sì?
+~
+3 0 250 C
+20 0 -3 250d1+50 3d6+5
+5000 35000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2302
+mostro creatura cava~
+il Mostro della Cava~
+Una magra ma robusta creatura sta divorando i resti d'una carcassa.
+~
+Assomiglia all'incrocio di vari disgustosi animali. Ha il becco di un uccello e
+tre grossi occhi bianchi e vitrei. Il corpo è ricoperto da pelliccia e delle
+secche ma agili gambe lo mantengono in piedi, ha anche due zampe anteriori che
+utilizza per strappare la carne dal corpo delle vittime e portarle alla bocca.
+~
+35 32788 0 C
+15 5 2 150d1+75 3d6+3
+2500 21000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2303
+creatura fungo~
+un Fungo Malefico~
+Un enorme fungo sembra si stia muovendo verso di te!
+~
+Si tratta di un grosso fungo grigio, ha più o meno la stazza di un cucciolo di
+cane. Man mano che ti si avvicina, puoi vedere, sotto il suo grosso cappello,
+due occhietti indemoniati e dei piccoli denti aguzzi.
+Piccole corna ricoprono il resto del corpo.
+~
+3 0 -250 C
+14 6 4 150d1+35 2d8+3
+2550 17500
+108 108 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2304
+salice piangente~
+un Salice Piangente~
+Un salice piangente si trova sulla tua strada.
+~
+Questo salice sembra abbandonato a se stesso.. I rami pendono tristemente verso
+il terreno ed ancora più tristemente, le foglie sembrano aver perso il colore
+smeraldino di cui un tempo rilucevano. Osservandolo, un senso di malinconia e
+tristezza pervade il tuo animo..
+~
+3 136 1000 C
+25 0 -5 550d1+50 4d6+5
+20000 150000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2305
+essere nebbia~
+un Essere di Nebbia~
+Della strana nebbia sembra circondarti lentamente..
+~
+C'è qualcosa di strano in questo manto di nebbia che lentamente ti si avvicina.
+Sembra essere viva, come dotata d'una propria volontà, dalla quale avvedersi.
+A volte ciò che si crede essere, in verità, non è..
+~
+35 65536 0 C
+15 1 5 200d1+20 2d9+3
+1000 22000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2306
+mostro palude~
+un Mostro Paludoso~
+Un mostro emerge dal terreno fangoso!
+~
+Questo mostro spaventoso è fatto di fango e putridume. Lentamente, mentre
+sorge, sembra assumere la forma di un guerriero anche se dai contorni distorti
+e delineati affatto correttamente.
+Ogni suo movimento è seguito da un gorgoglio e da un certo olezzo.
+~
+39 0 -1000 C
+20 0 -10 250d1+25 6d4+5
+25000 50000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2307
+orco piccolo palude~
+un piccolo orco di palude~
+Questo piccolo orco non fa altro che gironzolare borbottando.
+~
+Si tratta d'un povero ed affaticato orco.
+E' vestito  con pochi  cenci stracciati e logori, tiene la testa bassa e non
+appena vede la tua figura, inizia a gridare e sbraitare pieno di terrore. Si può
+riconoscere che appartiene agli orchi delle paludi, per via della  conformazione
+della sua scatola cranica, molto grossa e rotonda.
+~
+193 0 -200 C
+10 11 3 100d1+20 2d6+2
+200 10000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2308
+orco guerriero palude~
+un orco guerriero di palude~
+Questo orco si comporta come se fosse un valoroso guerriero.
+~
+Questo orco  guerriero è  rivestito d'una  spessissima corazza,  è ben  piantato
+sulle  gambe  robuste  e  brandisce  la  sua  arma.  Deve  trattarsi  d'un  orco
+fisicamente allenato ed addestrato. Si può riconoscere che appartiene agli orchi
+delle paludi per via della conformazione della sua scatola
+cranica, molto grossa e rotonda.
+~
+229 0 -350 C
+15 6 1 175d1+25 3d6+3
+5000 22000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2309
+orco guardia palude~
+un orco guardiano di palude~
+Questo orco sta facendo la guardia, sbuffando e bestemmiando.
+~
+Questo orco si trova in questo luogo e monta la guardia anche se ad osservarlo
+bene, non sembra molto felice di questo compito. Eppure, è certo che in caso  di
+bisogno, egli lotterà sino alla morte pur di non lasciare il proprio posto di
+guardia. Si può riconoscere che appartiene agli orchi delle paludi, per via
+della conformazione della sua scatola cranica, molto grossa e rotonda.
+~
+103 0 -500 C
+19 0 2 200d1+50 3d6+5
+10000 35000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2310
+orco sciamano palude~
+un orco sciamano di palude~
+Questo orco sta cercando d'incantare alcuni orrendi oggetti.
+~
+Questo sciamano porta delle vesti di lana rozzamente dipinte, indossa inoltre
+una serie innumerevole di monili dallo scarso gusto artistico, tra i quali va
+elencato un amuleto a forma di topo. Si può riconoscere che appartiene agli
+orchi delle paludi, per via della conformazione della sua scatola cranica, molto
+grossa e rotonda.
+~
+231 136 -750 C
+20 0 1 250d1+50 4d6+5
+50000 45000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2311
+orco capo palude~
+il Capo degli Orchi di Palude~
+Questo grosso orco sta osservando il bottino degli ultimi furti.
+~
+E' forse l'orco di palude più grosso che tu abbia mai visto.
+E' dotato di una corazza di scaglie ed impugna armi pesanti. Egli torreggia
+innazi a tutti gli altri orchi che si trovano nei dintorni ed è sicuramente
+anche più feroce di loro. Si può riconoscere che appartiene agli orchi delle
+paludi, per via della conformazione della sua scatola cranica, molto grossa e
+rotonda.
+E' meglio esser prudenti, per evitare problemi..
+~
+231 136 -1000 C
+25 -4 0 550d1+50 5d5+5
+50000 145000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2312
+umano barbaro pianure~
+un Barbaro delle Pianure~
+Un barbaro quasi nudo ma con una spada, ti osserva meditando.
+~
+Si tratta d'un essere umano completamente nudo, eccezion fatta per il minuscolo
+tanga in pelliccia d'orso bruno che indossa ed una tunica ricoperta di peli che
+di tanto in tanto ti mostra. Sulla schiena porta un fodero nel quale noti uno
+spadone a due mani.
+Non ha l'aria d'una persona intelligente, ma i suoi occhi glaciali sanno
+incutere il giusto timore anche alle belve più pericolose.
+~
+231 0 0 C
+20 0 1 250d1+50 3d6+4
+5000 50000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2313
+yeti bianco~
+uno Yeti bianco~
+Un terribile yeti dal manto bianco ringhia verso di te!
+~
+Si tratta di un ominide incredibilmente alto e massicciamente muscoloso.
+Assomiglia in modo preoccupante ad una bianchissima palla di neve, con l'unica
+differenza che questa palla di neve è grande e dotata di braccia.
+Inoltre, il modo feroce con cui ti guarda ed i denti aguzzi che spuntano dalla
+bocca mostruosa, ti fan presagire che potresti essere il suo spuntino.
+~
+231 0 -350 C
+16 1 5 200d1+25 3d7+3
+1000 28000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2314
+verme ghiaccio~
+un Verme del Ghiaccio~
+Questo verme, sbucato dal ghiaccio e dalla neve, sta cercando di assalirti!
+~
+Si tratta di uno schifosissimo verme dal color bianco pallido, largo un metro e
+lungo almeno tre. Si muove convulsamente, non è dotato di occhi ma ha una bocca
+ricolma di varie file di denti aguzzi ed appuntiti.
+E' decisamente brutto da vedersi e non sembra esser affatto docile..
+~
+103 0 0 C
+20 0 -5 250d1+75 3d6+5
+3500 45000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2315
+minotauro cittadino~
+un Minotauro cittadino~
+Questo cittadino cerca di ripararsi dal freddo.
+~
+Si tratta di un minotauro dalle corna non molto robuste ed appuntite; come puoi
+notare dall'abbigliamento, si tratta di un cittadino.
+Il modo in cui ti guarda, ti fa capire che gli stranieri non sono molto
+apprezzati in queste fredde regioni del regno.
+~
+199 0 100 C
+15 5 3 100d1+90 2d5+5
+10000 15000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2316
+minotauro guardia~
+una guardia~
+Questa guardia monta la guardia anche se non sembra soddisfatta..
+~
+Si tratta di un minotauro rivestito d'una corazza robusta, si sfrofina di tanto
+in tanto le mani borbottando qualche cosa.
+Il suo aspetto, benché fiero, ti fa comprendere come non sia per nulla felice
+delle mansioni che gli sono state affidate.
+~
+103 0 -330 C
+22 -2 0 400d1+40 4d6+5
+25000 90000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2317
+minotauro guerriero~
+un Minotauro guerriero~
+Questo guerriero scruta i dintorni molto attentamente..
+~
+Questo minotauro sembra essere decisamente pericoloso, si tratta di un guerriero
+rivestito d'una corazza completa. I suoi occhi sono rossi ed il manto nero.
+Stringe freneticamente la sua arma per esser sempre pronto in caso si renda
+necessario utilizzarla per proteggere la città ed i suoi abitanti da stranieri
+indesiderati.
+~
+101 0 -330 C
+21 -1 0 300d1+50 3d7+5
+25000 65000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2318
+minotauro guardiano cancello~
+un guardiano del Cancello~
+Questo guardiano sorveglia l'accesso al palazzo di Mahn-Tor.
+~
+Questo minotauro, dall'aria anziana e spossata, si trova qui per sorvegliare
+il cancello del palazzo di Mahn-Tor.
+Il suo manto è grigio, l'armatura che indossa lo contraddistingue dalle altre
+guardie comuni e non solamente per il fatto che è ricoperta di ghiaccio.
+~
+71 8 -330 C
+25 -4 -5 550d1+50 5d5+5
+25000 100000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2319
+minotauro guardiano~
+un Minotauro guardiano~
+Un minotauro è qui di guardia.
+~
+Questo minotauro rivestito d'una leggera corazza blu scura, ti osserva di sbieco
+mentre svolge il suo lavoro di sorveglianza. Di tanto in tanto lo vedi che si
+aggiusta l'armatura e si guarda attorno.
+Sembra molto preparato ed ottimamente addestrato per uccidere.
+~
+103 8 -330 C
+25 -4 -5 600d1+20 4d7+4
+45000 130000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2320
+minotauro guardia palazzo~
+una guardia del Palazzo~
+Questa guardia del palazzo, sembra stia cercando degli intrusi..
+~
+Questo minotauro è decisamente massiccio!
+Si tratta di una delle guardie del palazzo il cui compito è di scovare eventuali
+intrusi e trucidarli seduta stante.
+Dev'essere molto difficile sconfiggere un armadio come questo senza tener conto
+che è fortemente corazzato e motivato.
+~
+103 8 -330 C
+26 -6 -7 650d1+50 5d5+4
+50000 160000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2321
+minotauro guardia mahn-tor~
+una guardia di Mahn-Tor~
+Una guardia di Mahn-Tor ti osserva e sembra pronta ad assalirti!
+~
+Questa guardia fa parte del corpo speciale adibito alla protezione personale
+del grande Mahn-Tor, è possibile capirlo grazie al copricorno che indossano.
+E' un segno distintivo per questa tipologia di guardie. E' un minotauro molto
+prestante fisicamente, ha lo sguardo determinato ed i suoi muscoli pronti a
+scattare al minimo problema.
+~
+103 8 -250 C
+28 -8 -8 800d1+50 6d5+5
+75000 300000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2322
+donna schiava~
+una donna schiava~
+Questa schiava, ti osserva con occhi colmi di paura.
+~
+Questa donna, non affascinante ma bella, ti osserva rassegnata.
+Si tratta di un'umana resa schiava e sfruttata da Mahn-Tor ed i suoi uomini.
+Indossa un misero straccio che copre leggermente i seni, altre invece, sono
+lasciate completamente nude; a differenza di questa, va detto che alcune sono
+felici d'esser state scelte per far parte dell'harem di Mahn-Tor..
+~
+199 0 1000 C
+2 20 10 50d1+10 3d1+5
+10 100
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2323
+minotauro maggiordomo~
+un Minotauro maggiordomo~
+Questo maggiordomo sta aspettando di prendere ordini dal suo signore.
+~
+Si tratta di un maggiordomo dall'aspetto elegante e reale, è pronto a soddisfare
+qualsiasi desidero del suo padrone. Veste un abito da cerimonia adatto ai lavori
+per il quale viene solitamente impiegato dal sovrano del palazzo.
+~
+199 0 250 C
+20 1 0 1d12+247 3d6+4
+5000 40000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2324
+minotauro guardiano Kiloahn~
+Kiloahn~
+Kiloahn il guardiano sbuffa appena ti vede.
+~
+Questo pesante e tarchiato minotauro è addetto alla custodia delle chiavi
+del palazzo nonché all'amministrazione di tutte le guardie di sorveglianza.
+Alla sua cintura è appeso un mazzo di chiavi dai vari colori.
+Le sue corna sono incredibilmente grosse ed appuntite!
+~
+71 136 -300 C
+29 -9 -9 100d3+700 5d7+5
+50000 400000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2325
+minotauro guerriero gorak~
+Gorak~
+Gorak, il primo guerriero di Mahn-Tor, sta affilando una spada.
+~
+La parola adatta a descrivere Gorak è: GROSSO.
+Ha una muscolatura eccezionalmente sviluppata anche per un minotauro.
+Egli è il capo della gilda dei guerrieri della città, nonché primo guerriero
+della armata personale di Mahn-Tor stesso.
+~
+35 136 -300 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2326
+minotauro antipaladino darkoth~
+Darkoth~
+L'antipaladino Darkoth ti osserva con sguardo cupo.
+~
+C'è chi pensa che i minotauri siano la reincarnazione del male, probabilmente
+queste persone non avevano mai visto Darkoth.
+Dire che si tratta del male è infatti riduttivo!
+E' il capo della gilda degli antipaladini di Mahn-Tor e la sua crudeltà, nonché
+la sua arte sadica di torturare i nemici, è talmente radicata nelle leggende, da
+esser nota anche oltremare.
+~
+35 136 -1000 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2327
+minotauro paladino tyrgoth~
+Tyrgoth~
+Tyrgoth, il paladino, si sta allenando in silenzio.
+~
+Se le leggende dipingono Darktoh come una reincarnazione maligna, altrettante
+leggende pongono la sua antitesi, Tyrgoth, come la reincarnazione delle forze
+buone che governano la terra.
+Egli è il capo dei paladini agli ordini di Mahn-Tor e la sua cavalleria è nota
+anche tra le altre razze che popolano questo variegatissimo mondo.
+~
+3 136 1000 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2328
+minotauro arcimago amyrok~
+Amyrok~
+Amyrok, l'arcimago, sta provando un suo incantesimo.
+~
+Si tratta di un minotauro decisamente minuto, se paragonato alla maggior parte
+di quelli che vivono in queste regioni fredde ed inospitali.
+Egli indossa inoltre delle vesti eccentriche e stravaganti, eppure, dalla sua
+figura, traspare un'aura magica di forza e potere incredibile.
+Egli è il capo di tutti i maghi che sono al servizio di Mahn-Tor.
+~
+35 136 300 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2329
+minotauro chierico sumaron~
+Sumaron~
+Sumaron, il chierico di Mahn-Tor, si trova qui.
+~
+Vestito con abiti bianchi, Sumaron ti osserva con il suo viso radioso.
+Egli crede nelle forze del bene ed ha deciso di votare la sua vita al loro
+servizio, tanto da esser divenuto, nel tempo, il capo dei chierici che si
+trovano al servizio di Mahn-Tor.
+~
+35 136 1000 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2330
+minotauro druido nasturn~
+Nasturn~
+Il druido Nasturn è qui e sta studiando una piantina.
+~
+Questo minotauro ha l'aspetto dell'eremita ed in effetti si tratta di Nasturn
+il miglior druido al servizio di Mahn-Tor.
+Egli non indossa nulla che non provenga direttamente dalla natura.
+Quando lo guardi, si limita a sorriderti con estrema gentilezza.
+~
+3 136 500 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2331
+minotauro ranger belrak~
+Belrak~
+Belrak, il ranger, non sembra felice di vederti..
+~
+Questo atletico minotauro è molto giovane e le sue vesti verdi e marroni lo
+identificano come il capo dei ranger al servizio di Mahn-Tor.
+E' uno dei più agili e addestrati minotauri che si posssano trovare, non è un
+individuo molto socievole e preferisce starsene da solo quando può.
+~
+35 136 500 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2332
+minotauro ladro dorgar~
+Dorgar~
+Nelle ombre si sta nascondendo Dorgar.
+~
+Dorgar indossa abiti completamente neri, è alto e magro, diversamente da molti
+altri minotauri che puoi aver visto sino ad ora. Sembra essere un individuo
+molto silenzioso, ciò è decisamente inquietante, specialmente per via del
+suo occhio sinistro, che pare sia sostituito da una piccola sfera di vetro..
+~
+39 65536 -500 C
+30 -9 -10 2500d1+500 6d6+5
+100000 800000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#2333
+minotauro signore mahn-tor~
+Mahn-Tor~
+Il signore dei minotauri, Mahn-Tor si trova qui e ti sta osservando!
+~
+Il signore di Mahn-Tor, Mahn-Tor stesso, ti sovrasta con la sua stazza.
+Egli discende da una nobile dinastia di minotauri, il suo nome è un tutt'uno
+con quello della città sulla quale esercita il proprio potere.
+Il suo corpo è avvolto da una splendida cotta di maglia lavorata, impugna una
+delle più grandi asce da guerra che tu abbia mai visto in tutta la tua vita.
+~
+7 1573002 -500 C
+33 -10 -10 3000d1+500 6d7+5
+100000 900000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#2300
+guanti combattimento~
+un paio di guanti da combattimento~
+Un paio di guanti di ferro si trova a terra.~
+~
+9 0 129 0
+8 0 0 0
+6 10000 2500
+E
+guanti~
+Questo guanto  è stato  forgiato abilmente  ed ancor  più abilmente decorato dai
+minotauri di Mahn-Tor.
+~
+A
+18 1
+A
+19 1
+#2301
+armatura punte spuntoni~
+Un'armatura ricoperta di punte~
+Un'armatura rivestita di spuntoni si trova a terra.~
+~
+9 0 9 0
+7 0 0 0
+8 25000 5000
+E
+armatura~
+Quest'armatura è ricoperta da spuntoni affilati e pericolosi!
+~
+A
+19 2
+#2302
+gambali neri~
+un paio di gambali per Minotauri~
+Degli strani gambali si trovano a terra.~
+~
+9 0 33 0
+9 0 0 0
+9 25000 5000
+E
+gambali~
+Questi gambali sono utilizzabili solamente da dei minotauri..
+~
+#2303
+parabraccia neri~
+un paio di parabraccia neri~
+Un paio di parabraccia neri si trovano a terra.~
+~
+9 0 257 0
+9 0 0 0
+9 25000 5000
+E
+parabraccia~
+Sono leggeri e facili da portare.
+~
+#2304
+bastone armato~
+un bastone armato~
+Un bastone d'acciaio si trova a terra.~
+~
+5 321 8193 0
+0 5 5 6
+24 50000 10000
+E
+bastone~
+Questo bastone è ricoperto da lame d'acciaio alle estremità.
+~
+A
+18 3
+A
+19 3
+#2305
+mantello nerastro~
+un mantello nerastro~
+Un mantello nerastro si trova a terra.~
+~
+15 64 1025 0
+150 0 0 0
+3 25000 2500
+E
+mantello~
+Questo mantello sembra avere molte tasche interne.
+~
+A
+23 -3
+#2306
+collare ferro~
+un collare ferroso~
+Un particolare collare di ferro si trova a terra.~
+~
+9 2624 5 0
+9 0 0 0
+10 10000 1500
+E
+collare~
+La lavorazione è piuttosto grezza e poco curata, ha però il suo fascino!
+~
+A
+4 1
+#2307
+guanti punte spuntoni~
+un paio di guanti ricoperti da punte~
+Dei guanti coperti da spuntoni si trova a terra.~
+~
+9 0 129 0
+3 0 0 0
+10 15000 2500
+E
+guanti~
+Questi guanti sembrano molto pericolosi e le punte aguzze!
+~
+A
+19 3
+#2308
+scudo ombroso~
+uno scudo di quercia~
+Uno scudo opaco si trova a terra.~
+~
+9 2625 513 0
+15 0 0 0
+15 50000 7500
+E
+scudo~
+Questo scudo fatto di quercia è molto solido.
+~
+A
+23 -3
+#2309
+spada portatrice ombra~
+La Portatrice d'Ombra~
+Una spada infusa di malvagità si trova a terra.~
+~
+5 4 8193 0
+0 5 4 11
+9 75000 10000
+E
+spada portatrice~
+Questa maligna spada recante rune oscure è la famosa "Portatrice d'Ombra".
+Ma attenzione che non sia un falso!
+~
+A
+18 3
+A
+19 3
+#2310
+elmo dorato~
+un elmo dorato con visiera~
+Un elmo dotato di visiera si trova a terra.~
+~
+9 3137 17 0
+7 0 0 0
+15 25000 5000
+E
+elmo~
+E' un elmo con due fori sul cranio, probabilmente è per minotauri..
+~
+A
+4 1
+A
+3 1
+#2311
+corazza dorata~
+una corazza dorata~
+Una grossa corazza dorata si trova a terra.~
+~
+9 3137 9 0
+15 0 0 0
+18 35000 6500
+E
+corazza~
+L'oro che la ricopre è molto lucente e la lavorazione è raffinata.
+~
+A
+13 25
+#2312
+berretto seta~
+un berretto di seta~
+Un berretto si trova a terra.~
+~
+9 1 0 0
+5 0 0 0
+5 15000 3500
+E
+berretto~
+Non è molto elegante ma abbastanza funzionale.
+~
+A
+9 20
+#2313
+scudo torre~
+uno scudo a torre~
+Un pesantissimo scudo a torre si trova a terra.~
+~
+9 65 513 0
+10 0 0 0
+14 10000 1500
+E
+scudo torre~
+Per utilizzarlo al meglio, bisogna essere molto forti.
+Bellissimo è il disegno dorato nel centro dello scudo!
+~
+E
+disegno~
+Rappresenta un drago a tre teste intrappolato in un diamante.
+~
+#2314
+mazza portatrice luce~
+La Portatrice di Luce~
+Una mazza a due mani emana la sua luce mentre è lasciata a terra.~
+~
+5 1 8193 0
+0 5 5 6
+24 50000 10000
+E
+mazza portatrice~
+Questa stupenda mazza recante rune lucenti è la famosa "Portatrice di Luce".
+Ma attenzione che non sia un falso!
+~
+A
+18 3
+A
+19 3
+#2315
+occhiali lenti vetro~
+un paio d'occhiali~
+Due lenti splendono a terra nella polvere.~
+~
+9 64 17 0
+1 0 0 0
+2 25000 2500
+E
+occhiali~
+Sono semplici e servono ad aiutare chi vede male.
+~
+A
+3 4
+#2316
+anello decorato~
+un anello decorato~
+Un anellino decorato riluccica a terra.~
+~
+9 65 3 0
+1 0 0 0
+2 25000 2500
+E
+anello~
+E' decorato con striature argentee.
+~
+A
+12 30
+A
+9 10
+#2317
+globo minore invulnerabilita~
+il Globo Minore dell'Invulnerabilità~
+Un piccolo globo è stato lasciato a terra.~
+~
+9 65 16385 0
+10 0 0 0
+1 50000 7500
+E
+globo minore~
+Una moltitudine di colori si possono osservare dentro questo globo.
+~
+A
+25 -5
+A
+23 -5
+#2318
+staffa nodosa magica~
+una nodosa staffa magica~
+Una staffa è stata lasciata a terra.~
+~
+5 64 8193 0
+0 4 4 6
+10 35000 5000
+E
+staffa~
+Questa staffa nodosa emana un'aura di potere..
+~
+A
+18 3
+A
+19 3
+#2319
+cintura tasche~
+una cintura con varie tasche~
+Una particolare cintura è stata lasciata qui.~
+~
+15 0 2049 0
+250 0 0 9
+5 15000 1500
+E
+cintura~
+E' piena di piccole tasche che possono essere utilizzate.
+~
+#2320
+abito lana~
+un pesante abito lanoso~
+Un abito di lana si trova a terra.~
+~
+9 64 1025 0
+15 0 0 0
+10 15000 1000
+E
+abito lana~
+La lana con cui è fatto, garantisce l'isolamento dal gelo.
+~
+#2321
+fermaglio eburneo~
+un fermaglio eburneo~
+Un piccolo fermaglio è stato lasciato qui.~
+~
+9 321 5 0
+2 0 0 0
+5 50000 10000
+E
+fermaglio~
+E' molto carino anche se non molto utile.
+~
+A
+13 50
+#2322
+manuale arti curative~
+un manuale delle Arti Curative~
+Un piccolo libro dalla copertina gialla si trova a terra.~
+~
+2 0 16385 0
+30 -1 -1 -1
+5 15000 2500
+'cure light' 'cure light' 'cure light'
+E
+manuale~
+Sembra essere un libro di medicina.
+~
+#2323
+mazza mithril~
+una pesante mazza in mithril~
+Una mazza in mithril è stata lasciata a terra.~
+~
+5 1 8193 0
+0 4 4 6
+13 25000 5000
+E
+mazza~
+Il mithril con il quale è composta, vale una fortuna!
+~
+A
+18 2
+A
+19 2
+#2324
+simbolo dorato~
+un sacro Simbolo dorato~
+Un simbolo sacro è stato lasciato a terra.~
+~
+9 64 5 0
+2 0 0 0
+3 10000 1000
+E
+simbolo~
+Il simbolo che rappresenta è indice di forza e valore.
+~
+A
+12 10
+#2325
+anello marmoreo~
+un solido anello marmoreo~
+Un solido anello è stato lasciato a terra.~
+~
+9 64 3 0
+4 0 0 0
+5 10000 1000
+E
+anello~
+E' molto spesso, grezzo e poco lavorato.
+~
+#2326
+bracciale marmoreo~
+un solido bracciale marmoreo~
+Un solido bracciale è stato lasciato a terra.~
+~
+9 64 4097 0
+4 0 0 0
+8 30000 3000
+E
+bracciale~
+E' molto spesso, grezzo e poco lavorato.
+~
+A
+5 1
+#2327
+stivali passeggio~
+degli stivali da passeggio~
+Un paio di comodi stivali si trovano qui.~
+~
+9 64 65 0
+5 0 0 0
+5 45000 4500
+E
+stivali passeggio~
+Sono tra i più comodi stivali che tu potessi mai trovare.
+~
+A
+14 30
+#2328
+mantello ghiacciato~
+un mantello ghiacciato~
+Un mantello coperto da un leggero strato di ghiaccio sta a terra..~
+~
+9 65 1025 0
+8 0 0 0
+5 25000 2500
+E
+mantello ghiacciato~
+Uno strato di ghiaccio leggero ricopre il mantello, dal quale si sprigionano
+dei vapori gelidi.
+~
+#2329
+staffa ghiaccio friigid~
+Friigid, la Staffa di Ghiaccio~
+Una fredda staffa lavorata nel ghiaccio è a terra..~
+~
+5 64 8193 0
+0 6 3 6
+13 45000 7500
+E
+staffa ghiaccio~
+Nel ghiaccio che compone la staffa una runa riporta il nome: "Frigiid".
+~
+A
+18 2
+A
+12 20
+#2330
+anello lavorato legno~
+un anello di legno lavorato~
+Un anello di legno ben lavorato si trova a terra..~
+~
+9 64 3 0
+1 0 0 0
+3 25000 2500
+E
+anello~
+Questo anello di legno lavorato è un ottimo prodotto dell'artigianato.
+~
+A
+18 1
+A
+19 1
+#2331
+corno vita~
+il Corno della Vita~
+Il corno di un minotauro si trova a terra.~
+~
+3 64 16385 0
+30 8 8 -1
+5 25000 2500
+'cure light'
+E
+corno vita~
+Il corno è lavorato con oro e numerosissime rune ne ricoprono la superficie.
+Si dice che chi lo possegga, possa vivere in eterno.. Sarà vero?
+Bisogna stare attenti però ai falsi!
+~
+#2332
+cintura della vita~
+la Cintura della Vita~
+Una strana cintura argentea si trova a terra.~
+~
+9 64 2049 0
+3 0 0 0
+9 50000 5500
+E
+cintura vita~
+E' cosparsa d'argento e non è affatto leggera, è preziosa e rinomata.
+Bisogna stare attenti però ai falsi!
+~
+A
+5 3
+#2333
+pietra insanguinata~
+una pietra insanguinata~
+Una pietra si trova a terra ed è coperta da sangue!~
+~
+9 66 16384 0
+3 0 0 0
+2 45000 4500
+E
+pietra insanguinata~
+La pietra sembra battere al ritmo del tuo stesso cuore, appena la prendi
+in mano!
+~
+A
+13 20
+#2334
+arma ricurva~
+un'arma ricurva~
+Un'arma ricurva giace al suolo.~
+~
+5 64 8193 0
+0 3 7 7
+15 35000 3500
+E
+arma ricurva~
+E' poco maneggevole poiché è abbastanza pesante.
+~
+A
+18 1
+A
+19 1
+#2335
+sacca pelle~
+una sacca di pelle~
+Una piccola sacca giace a terra.~
+~
+15 64 1025 0
+200 0 0 0
+9 1000 250
+E
+sacca~
+Sembra molto più grande internamente che esternamente.
+~
+#2336
+cappuccio nero pelle~
+un nero cappuccio di pelle~
+Un cappuccio fatto di pelle si trova a terra.~
+~
+9 64 17 0
+5 0 0 0
+5 25000 2500
+E
+cappuccio~
+E' ottimo per riparare il capo dalla pioggia.
+~
+#2337
+maniche nere pelle~
+un paio di maniche nere di pelle~
+Delle maniche fatte di pelle si trovano a terra.~
+~
+9 0 257 0
+7 0 0 0
+5 3500 1000
+E
+maniche~
+Sono un po' strette ma utili.
+~
+#2338
+calzoncini neri pelle~
+un paio di calzoncini neri di pelle~
+Dei calzoncini sono stati lasciati a terra.~
+~
+9 64 33 0
+7 0 0 0
+5 15000 1500
+E
+calzoncini~
+Sembrano confortevoli e pratici all'utilizzo.
+~
+#2339
+spada maligna corta~
+una maligna spada corta~
+Una maligna spada corta si trova a terra.~
+~
+5 64 8193 0
+0 3 5 11
+11 50000 5000
+E
+maligna spada corta~
+Sembra ottima per le pugnalate alla schiena..
+~
+A
+18 1
+A
+19 1
+#2340
+globo invulnerabilita~
+un Globo dell'Invulnerabilità~
+Un largo globo trasparente riflette la luce standosene a terra.~
+~
+9 1 16385 0
+15 0 0 0
+1 100000 25000
+E
+globo invulnerabilita~
+Le leggende su questo oggetto ovviamente si sprecano.
+Si dice che renda chi lo possiede, immune a qualsiasi colpo mortale.
+Bisogna stare attenti però ai falsi!
+~
+A
+24 -5
+#2341
+minotauro corazza taurina~
+una nera corazza taurina~
+Una corazza fatta dai minotauri si trova a terra.~
+~
+9 64 9 0
+15 0 0 0
+12 100000 10000
+E
+corazza taurina~
+E' molto pesante e solida.
+~
+A
+1 1
+A
+5 1
+#2342
+scudo circolare~
+uno scudo circolare~
+Un piccolo scudo circolare si trova a terra.~
+~
+9 0 513 0
+10 0 0 0
+5 22500 5000
+E
+scudo circolare~
+E' molto utile e maneggevole da usare.
+~
+A
+19 2
+#2343
+anello borchiato~
+un anello borchiato~
+Un anello pieno di borchie è a terra.~
+~
+9 64 3 0
+5 0 0 0
+1 5000 1000
+E
+anello borchiato~
+Le borchie lo ricoprono interamente.
+~
+A
+19 1
+#2344
+elmo cornuto~
+un elmo cornuto~
+Un elmo dotato di corna si trova qui a terra.~
+~
+9 0 17 0
+10 0 0 0
+8 20000 2000
+E
+elmo~
+Le corna che stanno su questo elmo, sono decisamente grandi.
+~
+#2345
+grande ascia mahn-tor~
+la Grande Ascia di Mahn-Tor~
+Un'ascia estremamente pesante è conficcata nel terreno.~
+~
+5 2 8193 0
+0 5 5 3
+26 100000 25000
+E
+ascia~
+E' grande e possente, rune ne ricoprono l'impugnatura, tra queste spicca
+quella della "MORTE"!
+~
+A
+18 2
+A
+19 2
+#2346
+armatura eterea~
+un'armatura eterea~
+Un'armatura trasparente si trova a terra!~
+~
+9 513 9 0
+10 0 0 0
+2 50000 10000
+E
+armatura eterea~
+Puoi vedervi attraverso!
+~
+A
+24 -3
+#2347
+etereo elmo~
+un elmo etereo~
+Un elmo trasparente si trova a terra!~
+~
+9 513 17 0
+8 0 0 0
+5 15000 3500
+E
+elmo~
+Puoi vedervi attraverso!
+~
+#2348
+eterea spada~
+una spada eterea~
+Una spada trasparente si trova a terra!~
+~
+5 513 8193 0
+0 4 3 3
+3 10000 1000
+E
+spada~
+Puoi vedervi attraverso!
+~
+A
+18 1
+A
+19 1
+#2349
+ramo salice piangente~
+il ramo d'un Salice Piangente~
+Il ramo d'un salice piangente si trova qui a terra.~
+~
+3 64 16385 0
+20 0 0 -1
+3 10000 1000
+'NONE'
+E
+ramo~
+La sua forma è arcuata, tipica dei salici, poce foglie però sono presente
+sul ramo.
+~
+#2350
+chiave palazzo~
+la chiave del Palazzo di Mahn-Tor~
+Una piccola chiave si trova a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+E' abbastanza pesante..
+~
+#2351
+chiave arenaria~
+una chiave d'arenaria~
+Una piccola chiave d'arenaria è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra d'arenaria ma in realtà è coperta da scaglie.
+~
+#2352
+chiave ossidiana~
+una chiave d'ossidiana~
+Una piccola chiave d'ossidiana è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra d'ossidiana ma in realtà è coperta da scaglie.
+~
+#2353
+chiave argentea~
+una chiave argentea~
+Una piccola chiave argentea è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra d'argento ma in realtà è coperta da scaglie.
+~
+#2354
+chiave legno~
+una chiave di legno~
+Una piccola chiave di legno è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+E' fatta di legno, e sta anche per rompersi!
+~
+#2355
+chiave dorata~
+una chiave dorata~
+Una piccola chiave dorata è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra dorata ma in realtà è coperta da scaglie.
+~
+#2356
+chiave bronzo~
+una chiave di bronzo~
+Una piccola chiave di bronzo è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra di bronzo ma in realtà è coperta da scaglie.
+~
+#2357
+chiave smeraldo~
+una chiave di smeraldo~
+Una piccola chiave di smeraldo è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra di smeraldo ma in realtà è coperta da scaglie.
+~
+#2358
+chiave perla~
+una chiave di madreperla~
+Una piccola chiave di madreperla è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Sembra di madreperla ma in realtà è coperta da scaglie.
+~
+#2359
+chiave rune~
+una chiave coperta di rune~
+Una chiave piena di rune è a terra.~
+~
+18 0 1 0
+2 0 0 0
+1 0 0
+E
+chiave~
+Ssembra molto pregiata, è ricoperta di rune ed una dice: "Mahn-Tor".
+~
+#2360
+stivali pelo pelosi~
+degli stivali pelosi~
+Degli stivali coperti di pelo stanno a terra.~
+~
+9 64 65 0
+3 0 0 0
+5 10000 1500
+E
+stivali pelosi~
+Il pelo garantisce un certo isolamente termico.
+~
+A
+14 10
+#2361
+pelliccia yeti bianco~
+una pelliccia di Yeti bianco~
+Una pelliccia bianca e calda si trova a terra.~
+~
+9 0 1025 0
+8 0 0 0
+9 5000 750
+E
+pelliccia~
+E' molto pesante e tiene veramente molto caldo!
+~
+#2362
+spada lama ricurva~
+una lama ricurva~
+Una spada con la lama ricurva si trova a terra.~
+~
+5 0 8193 0
+0 5 3 3
+13 10000 1000
+E
+lama ricurva~
+La curvatura è dovuta ad una particolare tecnica di lavorazione.
+~
+#2363
+copribraccia acciaio~
+copribraccia d'acciaio~
+Dei copribraccia luccicano a terra.~
+~
+9 0 256 0
+6 0 0 0
+7 5000 450
+E
+copribraccia~
+Sembrano quasi nuovi.
+~
+#2364
+gambali acciaio~
+gambali d'acciaio~
+Dei gambali luccicano a terra.~
+~
+9 0 33 0
+6 0 0 0
+7 5000 450
+E
+gambali~
+Sembrano quasi nuovi.
+~
+#2365
+ascia battaglia~
+una pericolosa ascia da battaglia~
+Un'ascia pericolosa si trova a terra..~
+~
+5 0 8193 0
+0 4 4 3
+18 7500 1250
+E
+ascia~
+La lama di quest'ascia sembra decisamente affilata!
+~
+#2366
+corazza acciaio massiccio~
+una massiccia corazza d'acciaio~
+Una massiccia corazza luccica a terra.~
+~
+9 0 9 0
+6 0 0 0
+10 8000 1000
+E
+corazza~
+Sembra quasi nuova.
+~
+#2367
+elmo acciaio~
+un elmo d'acciaio~
+Un elmo luccica a terra.~
+~
+9 0 17 0
+6 0 0 0
+6 3000 450
+E
+elmo~
+Sembra quasi nuovo.
+~
+#2368
+alabarda pesante~
+una pesante alabarda~
+Un'alabarda è conficcata nel terreno.~
+~
+5 64 8193 0
+0 9 2 3
+18 20000 5000
+E
+alabarda~
+Per utilizzarla forse ti serviranno due mani.
+~
+A
+18 1
+A
+19 1
+#2369
+elmo blu visiera~
+un elmo blu con visiera~
+Un elmo del color del mare si trova a terra.~
+~
+9 0 17 0
+8 0 0 0
+8 10000 2500
+E
+elmo blu~
+Il suo colore ti ricorda il mare, mentre la robustezza, gli scogli.
+~
+#2370
+gambali blu~
+dei gambali blu~
+Dei gambali color del mare si trovano a terra.~
+~
+9 0 33 0
+8 0 0 0
+8 10000 2500
+E
+gambali blu~
+Il loro colore ti ricorda il mare, mentre la robustezza, gli scogli.
+~
+#2371
+copribraccia blu~
+dei copribraccia blu~
+Dei copribraccia color del mare si trovano a terra.~
+~
+9 0 257 0
+8 0 0 0
+8 10000 2500
+E
+copribraccia blu~
+Il loro colore ti ricorda il mare, mentre la robustezza, gli scogli.
+~
+#2372
+spada due mani~
+una spada a due mani~
+Una larga spada d'acciaio luccica a terra.~
+~
+5 64 8193 0
+0 6 3 3
+18 20000 2000
+E
+spada due mani~
+Per utilizzarla al meglio, dovrai usare due mani.
+~
+A
+18 2
+A
+19 2
+#2373
+elmo rosso visiera~
+un elmo rosso con visiera~
+Un elmo color della lava si trova a terra.~
+~
+9 0 17 0
+9 0 0 0
+8 20000 5000
+E
+elmo rosso~
+Il suo colore ti ricorda la lava vulcanica, mentre la robustezza, le rocce.
+~
+#2374
+gambali rossi~
+dei gambali rossi~
+Dei gambali color della lava si trovano a terra.~
+~
+9 0 33 0
+9 0 0 0
+8 20000 5000
+E
+gambali rossi~
+Il loro colore ti ricorda la lava vulcanica, mentre la robustezza, le rocce.
+~
+#2375
+copribraccia rossi~
+dei copribraccia rossi~
+Dei copribraccia color della lava si trovano a terra.~
+~
+9 0 257 0
+9 0 0 0
+8 20000 5000
+E
+copribraccia rossi~
+Il loro colore ti ricorda la lava vulcanica, mentre la robustezza, le rocce.
+~
+#2376
+glavo bronzo~
+un glavo di bronzo~
+Un grosso glavo di bronzo si trova a terra.~
+~
+5 64 8193 0
+0 5 4 3
+19 45000 5000
+E
+glavo~
+Un'arma potente e pericolosa!
+~
+A
+18 1
+A
+19 1
+#2377
+elmo cremisi~
+un elmo cremisi con visiera~
+Un elmo color cremisi si trova a terra.~
+~
+9 0 17 0
+10 0 0 0
+8 40000 7500
+E
+elmo cremisi~
+Il suo colore ti ricorda il legno d'ebano, mentre la robustezza, l'acciaio.
+~
+#2378
+gambali cremisi~
+dei gambali cremisi~
+Dei gambali color cremisi si trovano a terra.~
+~
+9 0 33 0
+10 0 0 0
+8 40000 7500
+E
+gambali cremisi~
+Il loro colore ti ricorda il legno d'ebano, mentre la robustezza, l'acciaio.
+~
+#2379
+copribraccia cremisi~
+dei copribraccia cremisi~
+Dei copribraccia color cremisi si trovano a terra.~
+~
+9 0 257 0
+10 0 0 0
+8 40000 7500
+E
+copribraccia cremisi~
+Il loro colore ti ricorda il legno d'ebano, mentre la robustezza, l'acciaio.
+~
+#2380
+mazza ferrata~
+una mazza ferrata~
+Una mazza ferrata si trova a terra.~
+~
+5 64 8193 0
+0 7 3 6
+20 65000 8500
+E
+mazza ferrata~
+Sembra decisamente lesiva.
+~
+A
+18 2
+A
+19 2
+#2381
+arma ottone~
+una sorta d'arma~
+Una sorta d'arma d'ottone si trova a terra.~
+~
+5 0 8193 0
+0 4 3 1
+9 15000 1500
+E
+arma~
+E' molto difficile catalogarla..
+~
+#2382
+mazzo chiavi multicolore~
+un mazzo di chiavi multicolore~
+Un mazzo di chiavi dai vari colori si trova a terra.~
+~
+15 0 5 0
+10 0 0 0
+3 500 250
+E
+mazzo chiavi multicolore~
+Vi sono varie chiavi ed un piccolo contenitore.
+~
+#2383
+maglio legnoso~
+un pesante maglio legnoso~
+Un maglio si trova qui a terra.~
+~
+5 0 8193 0
+0 5 5 6
+22 100000 20000
+E
+maglio~
+Anche se di legno, è altamente distruttivo!
+~
+#2384
+pozione caliginosa~
+una pozione caliginosa~
+Una piccola pozione si trova a terra.~
+~
+10 8257 1 0
+20 -1 -1 -1
+3 5000 650
+'heal' 'NONE' 'NONE'
+E
+pozione caliginosa~
+Il colore di questa pozione non sembra invitante..
+~
+#2385
+cintura sacchetti~
+una cintura con sacchetti appesi~
+Una cintura con dei sacchetti si trova a terra.~
+~
+15 0 2049 0
+75 0 0 0
+5 3500 850
+E
+cintura sacchetti~
+I sacchetti appesi alla cintura possono essere riempiti.
+~
+#2386
+lancia orchesca~
+una lancia orchesca~
+Una rozza lancia è stata lasciata a terra.~
+~
+5 0 8193 0
+0 2 5 11
+8 1000 500
+E
+lancia~
+E' rozza ma fa il suo sporco lavoro.
+~
+#2387
+clava orchesca~
+una clava orchesca~
+Una rozza clava è stata lasciata a terra.~
+~
+5 0 8193 0
+0 2 6 6
+10 2500 750
+E
+clava~
+E' rozza ma fa il suo sporco lavoro.
+~
+#2388
+pelliccia orso~
+una pelliccia d'orso~
+Una pelliccia è stata lasciata a terra.~
+~
+9 0 1025 0
+8 0 0 0
+12 3500 900
+E
+pelliccia orso~
+E' la pelliccia d'un orso bruno.
+~
+#2389
+oggettino orecchino~
+un orecchino~
+Un oggettino si trova a terra.~
+~
+9 65 65537 0
+1 0 0 0
+2 15000 5000
+E
+orecchino~
+E' semplice e per nulla pesante da portare.
+~
+#2390
+guanti capo orco~
+i guanti del Capo Orco~
+Un paio di pesanti guanti verdognoli stanno a terra..~
+~
+9 2 129 0
+7 0 0 0
+13 75000 25000
+E
+guanti~
+Sembrano molto pesanti e poco maneggevoli per braccia esili..
+~
+A
+1 4
+A
+19 3
+A
+17 10
+#2391
+clava~
+una massiccia clava~
+Una clava è stata abbandonata qui.~
+~
+5 0 8193 0
+0 5 3 6
+19 15000 3500
+E
+clava~
+Quando colpisce fa molto male.
+~
+#2392
+mantellino peloso~
+un mantellino rivestito di pelo~
+Un mantellino peloso si trova a terra.~
+~
+9 0 5 0
+6 0 0 0
+5 2500 550
+E
+mantellino pelo~
+Questo mantellino tiene ben caldo il corpo.
+~
+#2393
+tunica pelosa~
+una tunica rivestita di pelo~
+Una tunica pelosa si trova a terra.~
+~
+9 0 9 0
+6 0 0 0
+6 1500 450
+E
+tunica pelo~
+Questa tunica tiene ben caldo il corpo.
+~
+#0
+
+#ROOMS
+#2300
+Il denso Bosco Tenebroso~
+Stai viaggiando all'interno di un tenebroso bosco nel quale la luce viene
+bloccata dal fitto intrecciarsi degli arbusti, il vento non filtra ed a volte
+il respiro diviene pesante, anche per il fatto che l'aria diviene lentamente
+stagnante e malsana.
+Il rumore provocato da altre forme di vita oltre a te, ti fa a volte accapponare
+la pelle e risveglia il tuo desidero di tornare indietro per cercare un luogo
+migliore e più sicuro per la tua incolumità. Il sentiero che stai seguendo
+s'inoltra sempre più nella boscaglia sino a quando, i tuoi passi, non ti
+conducono innanzi ad un cartello.
+~
+0 4 3 0 0 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2301 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 3587 0
+E
+cartello~
+      []================================[]
+       |                   |            |
+       |    ATTENZIONE!    |  Spero ti  |
+       | Gli Avventurieri  | Divertirai |
+       | sono avvisati di  | <--------> |
+       | restare in gruppo |   Skurge   |
+       |    ATTENZIONE!    |  Ragnarok  |
+       |                   |            |
+      []================================[]
+~
+S
+#2301
+Il denso Bosco Tenebroso~
+Stai viaggiando con una certa difficoltà all'interno del bosco frondoso.
+Degli alberi scheletrici sbucano di tanto in tanto sul sentiero che stai
+percorrendo e delle pozze fangose sembrano aprirsi sotto i tuoi piedi.
+Alcuni raggi di luce filtrano dal tetto naturale che gli alberi creano,
+attraendo verso di sé alcuni piccoli insetti volanti tra cui zanzare.
+Non riesci a scorgere molte forme di vita, benché il bosco ne sia colmo.
+~
+0 5 3 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2300 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2302 0
+E
+zanzare~
+Sono stranamente attratte della luce.. Ma anor più dal tuo sangue! ZACK!!
+~
+S
+#2302
+Un'intersezione nel denso Bosco Tenebroso~
+Giungi in un punto del bosco ove il sentiero subisce una biforcazione.
+Uno stretto sentiero punta verso oriente, e non sembra essere stato utilizzato
+da molto tempo stando alla folta vegetazione che lo ricopre.
+Un albero nodoso si trova esattamente in mezzo alla biforcazione come una sorta
+di segnalatore, esso indica con i suoi rami entrambe le direzioni.
+Mentre rifletti su quale sentiero sia il più indicato, ti rendi conto che la
+luce in questo punto crea una sorta di circolo splendente, dando al luogo una
+parvenza di santo e mistico contemporaneamente.
+Ti rendi però anche conto che del sangue si trova a terra ed anche sull'albero
+nodoso!
+~
+0 0 3 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2301 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2304 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2303 0
+E
+sangue~
+Atten..zione...PALUDE...Orc...
+~
+S
+#2303
+Al limite del denso Bosco Tenebroso~
+Giungi al limite di questo denso bosco tenebroso.
+Un sentiero si dirige a nord, nel bosco silenzioso, mentre un altro prosegue
+verso occidente, quest'ultimo assume però la conformazione di un sentiero
+pietroso ed accidentato, ben difficile da seguire e da percorrere agevolemente.
+Un'incalzante solitudine e senso d'abbandono s'affacciano alla tua mente..
+Il vento soffia leggermente tanto da rinfrescarti il viso.
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2302 0
+D3
+In questa direzione si trova un sentiero pietroso..
+~
+~
+0 -1 2309 0
+S
+#2304
+Il denso Bosco Tenebroso~
+Stai percorrendo uno stretto sentiero nel fitto della foresta, questo non sembra
+essere stato utilizzato da un bel po' di tempo.
+Nessun rumore si leva dal sottobosco e nemmeno un filo d'aria si muove.
+Anzi, l'aria in questo punto, diviene ancora più ristagnante di prima e il
+terreno diviene lentamente più molliccio sotto i tuoi stanchi piedi.
+Altri piccoli e tetri sentieri si intrecciano man mano che prosegui, non vi è
+nulla di bello in questo bosco..
+~
+0 1 3 0 0 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2305 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2302 0
+S
+#2305
+Il denso Bosco Tenebroso~
+Stai proseguendo attraverso la foresta alla quale si è aggiunto un leggero
+strato di nebbia che rende il tutto più sinistro.
+Il sentiero è ora divenuto un vero e proprio pantano, tanto che i tuoi passi
+sprofondano a volte in alcune pozze acquitrinose piene di fango o acqua scura.
+Man mano che il tempo passa, diviene sempre più arduo camminare ed avanzare,
+molto probabilmente non sei molto distante da qualche sorta di palude.
+~
+0 1 3 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2304 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2327 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2306 0
+S
+#2306
+Il denso Bosco Tenebroso~
+Stai proseguendo attraverso la foresta alla quale si è aggiunto un leggero
+strato di nebbia che rende il tutto più sinistro..
+Il sentiero è ora divenuto un vero e proprio pantano, tanto che i tuoi passi
+sprofondano a volte in alcune pozze acquitrinose piene di fango o acqua scura.
+Man mano che il tempo passa, diviene sempre più arduo camminare ed avanzare,
+molto probabilmente non sei molto distante da qualche sorta di palude, riesci
+infatti ormai a sentire i versi di alcune tipiche creature..
+~
+0 1 3 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2305 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2307 0
+S
+#2307
+Il denso Bosco Tenebroso~
+Eccoti ad un altro incrocio, uno come tanti a prima vista, se non fosse per
+il fatto che il terreno, mollicio e coperto da foglie secche e marce, sia per
+la maggior parte, imbrattato d'un liquido scuro..
+Questo stesso liquido, ti rendi conto, è sangue!
+Il timore si impossessa per un attimo di tutti i tuoi sensi, non è certo una
+cosa da tutti i giorni camminare su un sentiero ematico..
+Il sangue è ovunque, pezzi di arti con tanto di armatura si trovano sparpagliati
+in ogni dove, in alcune pozze di sangue puoi vedere toraci squartati, teste
+mozzate ed altre cose non ancora identificate dai volumi di anatomia.
+Esaminando le tracce che rinvieni sul terreno, ti rendi conto che la cosa che
+ha portato la morte in questo luogo, si è diretta sia verso sud che ad oriente.
+~
+0 1 4 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2306 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2310 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2308 0
+E
+arti armatura~
+Sono arti mozzati brutalmente..
+~
+E
+toraci~
+E' uno spettacolo raccapricciante, le viscere sono sparse ovunque.
+~
+E
+teste~
+Sembrerebbe trattarsi d'esseri umani..
+~
+S
+#2308
+Una strada pietrosa~
+Stai percorrendo con una certa fatica, una strada completamente pietrosa,
+nemmeno un ciuffetto d'erba sembra crescer su di essa o ai margini, anzi,
+proprio lungo i margini puoi notare un considerevole ammasso di grossi
+massi e pietre spaccate, come se dei giganti si fossero divertiti a giocarci.
+Verso oriente scorgi delle colline, anch'esse di pietra.
+Il vento soffia di tanto in tanto, sollevando anche della polvere.
+A volte ti sembra di scorgere tra i vari sassi, dei ratti..
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2309 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2307 0
+E
+ratti~
+Sembrano ratti, ma in realtà, chissa che animali sono!~
+S
+#2309
+Una strada pietrosa~
+La strada pietrosa che stai percorrendo, di tanto in tanto aumenta di pendenza,
+questo ti fa arrancare specialmente dove il terreno è pieno di polvere e
+sassolini. Talvolta si scivola ed il passo viene molto rallentato.
+Nemmeno un ciuffetto d'erba sembra crescere sulla strada o ai margini, anzi,
+proprio lungo i margini puoi notare un considerevole ammasso di grossi massi e
+pietre spaccate, come se dei giganti si fossero divertiti a giocarci.
+Osservando ad oriente riesci a scorgere delle colline, anch'esse di pietra,
+le quali, più avanti, vengono nuovamente inghiottite da un bosco oscuro.
+Il vento soffia di tanto in tanto, sollevando anche della polvere.
+A volte ti sembra di scorgere tra i vari sassi, dei ratti..
+~
+0 0 4 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2303 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2308 0
+S
+#2310
+Un altipiano pietroso~
+Ti stai arrampicando su di un altipiano pietroso, e man mano che lo fai, pietre
+ed altro ancora, scivolano sotto di te, cadendo verso il basso.
+L'altipiano sembra abbastanza irregolare e sulla sua superficie, oltre alle
+solite rocce, puoi anche vedere dei curiosi cumuli simili a statue, forse il
+segno di qualche avventuriero che prima di te è passato di qui, oppure, il segno
+di qualche rituale oscuro che si tiene nelle terre selvagge.
+~
+0 4 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2307 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2312 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2314 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2311 0
+S
+#2311
+Le Pianure Pietrose~
+Ti trovi ora nelle pianure che fanno parte di questa regione, esse sono pietrose
+e ricoperte da polvere e sassi, puoi anche vedere alcuni alberi sradicati, come
+se la furia impetuosa di qualche dio si sia riversata in questo angolo di terra
+sperduta ed ormai desolatamente vuota.
+Nonostante la penuria di vita, la presenza di alberi ti rallegra leggermente,
+anche perché osservando ad oriente, riesci a scorgere un sentiero che ti
+permette di lasciare queste maledette colline che proseguono verso sud.
+~
+0 0 4 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2310 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2313 0
+S
+#2312
+Le Pianure Pietrose~
+Ti trovi sempre nelle vaste pianure pietrose che compongono buona parte di
+questo appezzamento di terra, osservando poco più in basso rispetto a te, riesci
+a scorgere una fitta macchia oscura molto simile ad una folta foresta.
+Un senso di desolazione e di decandenza mista a sconforto ti pervade lentamente.
+Dal punto in cui ti trovi, puoi dirigerti all'interno delle colline oppure puoi
+sempre decidere di prendere il sentiero che ti condurrà nella foresta.
+Mentre ti fermi a riflettere, il vento ne approfitta per soffiare..
+~
+0 0 4 0 0 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2315 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2310 0
+S
+#2313
+Le Pianure Pietrose~
+Ti trovi ora nelle pianure che fanno parte di questa regione, esse sono pietrose
+e ricoperte da polvere e sassi, puoi anche vedere alcuni alberi sradicati, come
+se la furia impetuosa di qualche dio si sia riversata in questo angolo di terra
+sperduta ed ormai desolatamente vuota.
+Nonostante la penuria di vita, la presenza di alberi ti rallegra leggermente.
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2311 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2314 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2317 0
+S
+#2314
+Innanzi a grandi alberi pietrosi~
+Raggiungi l'interno d'un anello di massi attorno al quale, varie piante
+sono cresciute, arrampicandosi e fendendo le varie rocce, grandi e piccole.
+Nel centro puoi notare dei grossi alberi dalla corteccia ruvida e grigiastra,
+tanto che sembrano esser fatti essi stessi di pura pietra lavorata a mano.
+Vicino a questi si trova un albero dal tronco contorto dalle forze naturali.
+Il tuo sguardo spazia in ogni direzione, incontrando colline ed alberi sparsi
+qui e là. Alcuni alberi sono stati divelti, altri invece ancora robusti.
+Un forte e fastidioso vento spira, invogliandoti a cantar salmi agli dei..
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2310 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2315 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2318 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2313 0
+E
+alberi~
+Sembrano essere fatti di roccia da quanto sono vecchi.
+~
+E
+albero~
+E' contorto e nel suo tronco sembrano avervi trovato casa alcuni insetti.
+~
+E
+colline~
+Si estendono tutt'atorno a te.
+~
+S
+#2315
+Innanzi ad una oscura caverna~
+A forza di camminare, arrivi dinnanzi all'entrata di una caverna.
+Le pietre che si trovano al suo esterno, sono imbrattate di sangue ed alcune
+ossa rotte e rimasugli di carne sono sparsi a terra.
+Un odore maleodorante si sprigiona dall'oscura cava che stai fissando: aguzzando
+la vista, riesci a capire che il sentiero s'inoltra molto a fondo nella caverna
+e che forse non è il caso di esplorarla ora..
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2312 0
+D1
+La caverna non sembra il miglior posto dove entrare..
+~
+~
+0 0 2316 0
+D2
+~
+~
+0 0 2319 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2314 0
+E
+pietre~
+Sono coperte di sangue!
+~
+E
+sangue~
+Buona parte del sangue che si trova qui è datato e secco.
+~
+E
+ossa~
+Sono vecchie, ma ciò non toglie che siano ossa!~
+S
+#2316
+All'interno dell'orrenda caverna~
+Hai deciso di metter piede in questa spaventosa caverna oscura..
+Man mano che prosegui, puoi sentire il rumore del tuo respiro e quello di
+un'altra creatura che pare si trovi in questo stesso posto orrendo!
+Guardandoti attorno realizzi che una sorta di bizzarro ed orribile animale usa
+questo luogo come dimora e dispensa per le sue cibarie.
+Resti di scheletri si trovano sparsi sul terreno, assieme a molti altri corpi
+mezzi dilaniati e carcasse sbudellate o sfregiate da morsi.
+Non vi è quasi più illuminazione e l'ultima cosa che vedi sono vestiti e stracci.
+La sagoma di qualcosa si muove lentamente a pochi passi di distanza da te!
+~
+0 9 0 0 0 0
+D3
+Da qui è possibile uscire dalla caverna!
+~
+~
+0 0 2315 0
+E
+scheletri~
+Sono completamente spolpati.
+~
+E
+carcasse~
+Sono corpi mezzi mangiucchiati.
+~
+E
+vestiti stracci~
+Sono accatastati alla rinfusa e sembrano logori e marci.
+~
+E
+sagoma~
+Inizi a pentirti d'aver varcato la soglia della caverna?
+~
+S
+#2317
+Le colline sovrastanti la riva lagunare~
+Ti trovi a camminare in una zona poco distante dal grande lago.
+Sembra che non vi sia anima viva nei dintorni, eccezion fatta per alcuni uccelli
+che volano lentamente e con una certa fatica, per via del vento, all'orizzonte.
+Dal punto in cui ti trovi, è possibile scendere per avvicinarsi alla riva del
+lago e, benché il sentiero sia leggermente accidentato, non è impossibile da
+praticare. Mentre cammini, il vento cambia continuamente direzione.
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2313 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2318 0
+D5
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2320 0
+S
+#2318
+Le colline sovrastanti la riva lagunare~
+Ti trovi a camminare in una zona poco distante dal grande lago.
+Sembra che non vi sia anima viva nei dintorni, eccezion fatta per alcuni uccelli
+che volano lentamente e con una certa fatica, per via del vento, all'orizzonte.
+Dal punto in cui ti trovi, è possibile scendere per avvicinarsi alla riva del
+lago e, benché il sentiero sia leggermente accidentato, non è impossibile da
+praticare. Mentre cammini, il vento cambia continuamente direzione.
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2314 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2319 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2317 0
+D5
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2321 0
+S
+#2319
+Le colline sovrastanti la riva lagunare~
+Ti trovi a camminare in una zona poco distante dal grande lago.
+Sembra che non vi sia anima viva nei dintorni, eccezion fatta per alcuni uccelli
+che volano lentamente e con una certa fatica, per via del vento, all'orizzonte.
+Dal punto in cui ti trovi, è possibile scendere per avvicinarsi alla riva del
+lago e, benché il sentiero sia leggermente accidentato, non è impossibile da
+praticare. Mentre cammini, il vento cambia continuamente direzione.
+~
+0 0 4 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2315 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2318 0
+D5
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2322 0
+S
+#2320
+La riva pietrosa~
+Stai passeggiando in riva al lago, su di una spiaggia di sassolini aguzzi
+Attorno a te non vi è nulla di molto interessante, il vento soffia ed un
+brivido di gelo percorre di tanto in tanto il tuo corpo, raggelandoti.
+Facendo vagare il tuo sguardo, riesci a scorgere, abbastanza distante,
+una sorta di tempio dal quale si irradia una pallidissima luce azzurra.
+E' troppo distante però per poterlo osservare attentamente.
+~
+0 0 2 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2321 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2323 0
+D4
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2317 0
+E
+tempio~
+E' un po' troppo distante.. Ma non irraggiungibile!
+~
+S
+#2321
+La riva pietrosa~
+Stai passeggiando in riva al lago, su di una spiaggia di sassolini aguzzi
+Attorno a te non vi è nulla di molto interessante, il vento soffia ed un
+brivido di gelo percorre di tanto in tanto il tuo corpo, raggelandoti.
+Facendo vagare il tuo sguardo, riesci a scorgere, abbastanza distante,
+una sorta di tempio dal quale si irradia una pallidissima luce azzurra.
+E' troppo distante però per poterlo osservare attentamente.
+~
+0 0 2 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2322 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2324 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2320 0
+D4
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2318 0
+E
+tempio~
+E' un po' troppo distante.. Ma non irraggiungibile!
+~
+S
+#2322
+La riva pietrosa~
+Stai passeggiando in riva al lago, su di una spiaggia di sassolini aguzzi
+Attorno a te non vi è nulla di molto interessante, il vento soffia ed un
+brivido di gelo percorre di tanto in tanto il tuo corpo, raggelandoti.
+Facendo vagare il tuo sguardo, riesci a scorgere, abbastanza distante,
+una sorta di tempio dal quale si irradia una pallidissima luce azzurra.
+E' troppo distante però per poterlo osservare attentamente.
+~
+0 0 2 0 0 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2325 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2321 0
+D4
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2319 0
+E
+tempio~
+E' un po' troppo distante.. Ma non irraggiungibile!
+~
+S
+#2323
+Il margine del lago~
+Stai passeggiando in riva al lago, su di una spiaggia di sassolini aguzzi
+Attorno a te non vi è nulla di molto interessante, il vento soffia ed un
+brivido di gelo percorre di tanto in tanto il tuo corpo, raggelandoti.
+Facendo vagare il tuo sguardo, riesci a scorgere, abbastanza distante,
+una sorta di tempio dal quale si irradia una pallidissima luce azzurra.
+E' troppo distante però per poterlo osservare attentamente.
+~
+0 0 2 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2320 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2324 0
+E
+tempio~
+E' un po' troppo distante.. Ma non irraggiungibile!
+~
+S
+#2324
+Il Tempio Insanguinato~
+Ti trovi su di un piedistallo nel centro di un tempio fatto di marmo scuro.
+Poco distante da te, senti un leggero ronzio sommesso, ed osservando, vedi
+un portale dal quale si sprigiona un'intensa e pulsante luce azzurra.
+Alla base del piedistallo si trova anche un'insegna recante una scritta.
+Attorno a te, vedi delle disgustose pozze di sangue ad imbrattare tutto.
+Il tuo sguardo vaga in seguito oltre la soglia del tempietto, qui puoi
+vedere la riva di un grande calmo lago e dei sentieri che lo circondano.
+~
+0 0 2 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2321 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2325 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2326 0
+D3
+Da qui puoi entrare nel portale.
+~
+~
+0 0 2323 0
+E
+pozze sangue~
+Probabilmente qualcuno ha fatto dei sacrifici qui.. Ma chi?
+~
+E
+portale blu~
+Si tratta di un portale dalle sfumature azzurre, per un attimo ti domandi
+se vi sia qualcosa dall'altra parte..
+~
+E
+iscrizione~
+L'iscrizione riporta la frase:
+"Entrate a vostro rischio e pericolo, a meno che non siate amici!".
+~
+S
+#2325
+Lungo l'argine d'un lago~
+Stai camminando lentamente sulla riva di questo grande lago.
+Il terreno è pietroso ed alcuni tronchi d'albero sono sparpagliati sulla riva
+e sul sentiero polveroso che stai percorrendo.
+La temperatura è molto nassa, tanto che il lago presenta sulla superficie un
+leggero strato di ghiaccio, ma non abbastanza spesso per potervi camminare sopra
+senza che si rompa sotto i propri passi.
+Verso occidente puoi vedere un piccolo tempietto in marmo dal quale sembra
+provenire una tenue luce azzurra.
+~
+0 0 2 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2322 0
+D3
+Vedi in distanza un tempietto..
+~
+~
+0 0 2324 0
+S
+#2326
+Fluttuando nella Luce Azzurra~
+Senti il tuo corpo leggerissimo e la fatica abbandonarti lentamente,
+una lieve brezza mista tra calore e vento fresco ti accarezza il viso.
+Guardandoti attorno, non vedi assolutamente nulla, il mondo è azzurro, come se
+qualche pittore avesse versato la sua vernice su ogni cosa.
+Stai fluttuando in un luogo a te ignoto dal quale non sembra esservi nessuna via
+d'uscita, almeno sino a quando non intravedi qualcosa di molto simile a due
+finestre l'unica poco distante dall'altra.
+Guardando in esse, forse troverai una strada che ti porti fuori da questo
+misterioso e magico luogo..
+~
+0 4 0 0 0 0
+D0
+Vedi una finestra.. Una via d'uscita!
+~
+~
+0 0 2324 0
+D2
+Vedi una finestra.. Una via d'uscita!
+~
+~
+0 -1 2353 0
+E
+finestra~
+In questa finestra puoi vedere un tempio fatto di ghiaccio.
+~
+E
+finestra~
+In questa finestra puoi vedere un antico tempio in riva ad un lago.
+~
+S
+#2327
+Un sentiero paludoso~
+Il sentiero che stai percorrendo, sembra condurti esattamente in una palude,
+gli alberi sono privi di foglie ma i folti rami bloccano la luce ed il vento.
+Puoi iniziare a sentire i tipici odori di palude inebriarti le narici sino
+a nausearti, tanto che a volte devi trattenere il respiro per evitarli.
+Attorno a te non vedi altro che palude e piccole porzioni di foresta.
+~
+0 13 3 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2328 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2305 0
+S
+#2328
+Un sentiero paludoso~
+Il sentiero che stai percorrendo, sembra condurti esattamente in una palude,
+gli alberi sono privi di foglie ma i folti rami bloccano la luce ed il vento.
+I tipici odori di palude t'inebriano senza sosta le narici, sino a nausearti,
+tanto che a volte devi trattenere il respiro per evitarli.
+Attorno a te non vedi altro che palude..
+~
+0 9 3 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2329 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2327 0
+S
+#2329
+Un sentiero paludoso~
+Il sentiero che stai percorrendo, sembra condurti esattamente in una palude,
+gli alberi sono privi di foglie ma i folti rami bloccano la luce ed il vento.
+I tipici odori di palude t'inebriano senza sosta le narici, sino a nausearti,
+tanto che a volte devi trattenere il respiro per evitarli.
+Attorno a te non vedi altro che palude..
+~
+0 9 3 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2330 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2328 0
+S
+#2330
+Una curva nel sentiero paludoso~
+Il sentiero che stai percorrendo svolta improvvisamente, qui gli
+alberi hanno qualche foglia ed i folti rami bloccano la luce ed il vento.
+Gli odori nauseabondi si fanno leggermente più deboli, ma non molto.
+Mentre prosegui, i tuoi piedi incappano in alcune pozze ristagnanti, sino a
+quando della foschia non inizia a circondarti lentamente..
+~
+0 9 3 0 0 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2331 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2329 0
+S
+#2331
+Un sentiero paludoso~
+Il sentiero che stai percorrendo, sembra condurti esattamente in una palude,
+gli alberi sono privi di foglie ma i folti rami bloccano la luce ed il vento.
+i tipici odori di palude t'inebriano senza sosta le narici, sino a nausearti,
+tanto che a volte devi trattenere il respiro per evitarli.
+Attorno a te non vedi altro che palude..
+~
+0 9 3 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2330 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2335 0
+S
+#2332
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2337 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2334 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2335 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2334 0
+S
+#2333
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2333 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2336 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2333 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2335 0
+S
+#2334
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2338 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2332 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2336 0
+D3
+Vedi solamente foschia.
+~
+~
+0 0 2332 0
+S
+#2335
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2332 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2333 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2337 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2331 0
+S
+#2336
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2334 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2339 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2338 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2333 0
+S
+#2337
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2335 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2338 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2332 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2338 0
+S
+#2338
+Sperduti nella foschia~
+Stai vagando da svariato tempo senza una senso logico, in questo luogo.
+La speranza di giungere in un posto sicuro e meno inquietante, si fa sempre più
+debole in te, così come le forze che si affievoliscono.
+La foschia che sembra levarsi direttamente dal terreno, rende il tuo viaggio più
+difficoltoso di quanto inizialmente potessi immaginare. La vista ti si fa
+pensante, anche a causa dei giochi della nebbia, facendoti perdere completamente
+il tuo senso d'orientamento.
+L'aria è gelida ed immobile, il silenzio è interrotto solamente di tanto in
+tanto dal fruscio dei tuoi passi e da strani rumori.
+Ti rendi conto, che qui potresti vagare per anni ed anni..
+~
+0 9 0 0 0 0
+D0
+Vedi solamente foschia..
+~
+~
+0 0 2336 0
+D1
+Vedi solamente foschia..
+~
+~
+0 0 2337 0
+D2
+Vedi solamente foschia..
+~
+~
+0 0 2334 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2337 0
+S
+#2339
+Un sentiero paludoso~
+I tuoi piedi poggiano su di un terreno fermo ma altamente paludoso, senti la
+fanghiglia avvolgerti e molti insetti t'infastidiscono.
+Questa zona presenta degli alberi secchi e senza foglie che non siano ormai
+secche oppure cadute a terra, l'aria è ristagnante e nemmeno un filo di vento
+è presente, tanto che senti la calura aumentare.
+Non è certamente un bel luogo dove scegliere d'abitare..
+~
+0 0 4 0 0 0
+D0
+La palude prosegue in questa direzione..
+~
+~
+0 0 2340 0
+D3
+Vedi solamente foschia..
+~
+~
+0 0 2336 0
+S
+#2340
+Un sentiero paludoso~
+Il sentiero che hai trovato, anche se dissestato, ti permette di proseguire
+all'interno di questa zona completamente paludosa e dimenticata dagli dei.
+Mentre procedi e le zanzare banchettano con il tuo corpo, scorgi nel cielo,
+molto in lontananza ancora, una strisciolina di fumo innalzarsi verso l'alto,
+è sicuramente segno che qui nelle vicinanze si trova un villaggio abitato.
+Forse c'è ancora una speranza di trovare delle persone..
+~
+0 4 3 0 0 0
+D0
+La palude prosegue in questa direzione..
+~
+~
+0 0 2341 0
+D2
+La palude prosegue in questa direzione..
+~
+~
+0 0 2339 0
+S
+#2341
+L'Entrata del Villaggio~
+Hai affrettato il passo per raggiungere il piccolo villaggio che ora vedi
+estendersi davanti ai tuoi occhi, gli scarni cancelli di legno posti qui
+per impedire l'accesso al villaggio, ti separano ancora per poco da esso.
+Mentre felicemente ti avvicni, ti rendi conto, osservando, che tutta la
+popolazione è composta praticamente da.. ORCHI!
+~
+0 0 3 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2343 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2340 0
+E
+orchi~
+Anche i più sciocchi sanno che gli orchi sono gentili con gli stranieri
+che giungono nei loro villaggi, infatti li invitano sempre ai loro banchetti,
+riservando agli stranieri il privilegio d'esser il piatto di portata..
+~
+S
+#2342
+Gironzolando per il Villaggio~
+Stai camminando attraverso le scarne capanne di legno che compongono il
+piccolo villaggio di orchi di palude che si trovano attorno a te.
+Per tua grande fortuna, la maggior parte sembra disinteressarti di te,
+anche se alcuni ti guardano con occhi furenti, mentre altri già ti immaginano
+all'interno di un calderone con carote e verdure.
+Nell'aria senti un tanfo orribile  giungere dalla fossa dei rifuti che si trova
+poco distante da qui.
+~
+0 0 1 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2345 0
+D1
+Il sentiero continua in questa direzione.
+~
+~
+0 0 2343 0
+E
+capanne~
+Sono fatte di legno marcio e corda lurida.
+~
+S
+#2343
+Gironzolando per il Villaggio~
+Stai camminando attraverso le scarne capanne di legno che compongono il
+piccolo villaggio di orchi di palude che si trovano attorno a te.
+Alcuni fuochi sono accesi e su di essi gli orchi stanno cuocendo della carne;
+di che carne si tratti è forse meglio non scoprirlo.
+In lontananza noti anche un ponte che sembra condurre ad una grande capanna,
+in quel punto sembra che vi siano anche degli orchi ben armati..
+~
+0 0 1 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2346 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2344 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2341 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2342 0
+E
+capanne~
+Sono fatte di legno marcio e corda lurida.
+~
+S
+#2344
+Gironzolando per il Villaggio~
+Stai camminando attraverso le scarne capanne di legno che compongono il
+piccolo villaggio di orchi di palude che si trovano attorno a te.
+Ogni volta che passi vicino ad una costruzione, senti dei grugniti di disappunto
+fuoriuscire da esse, per non parlare del disgustoso odore putrescente che
+avverti ogni volta che ti accosti ad un orco!
+Più il tempo passa, più ti domandi come possano delle creature vivere in un
+posto tanto malsano e decadente.. Solo orchi ovviamente.
+~
+0 0 1 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2347 0
+D3
+Il sentiero continua in questa direzione.
+~
+~
+0 0 2343 0
+E
+capanne~
+Sono fatte di legno marcio e corda lurida.
+~
+S
+#2345
+La Grande Capanna~
+Questa grande capanna sembra essere il luogo di riunione degli orchi.
+Un grosso tavolo pieno di graffi e con una gamba mezza rotta si trova al centro
+dello spiazzo polveroso mentre degli orchi si trovano un po' ovunque.
+E' presente anche una sorta di trono fatto di legno ed ossa, probabilmente
+appartenente al capo di questi orchi di palude.
+La conformazione circolare dello stabile ti dà l'impressione che esso funzioni
+come auditorio.
+E' meglio cercare di non disturbare, per evitare possibili guai..
+~
+0 0 1 0 0 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2346 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2342 0
+E
+orchi~
+Alcuni orchi parlano tra loro.. Ma non riesco a capire cosa dicano!
+~
+E
+trono~
+E' fatto di legno mezzo marcio e di ossa di qualche strano animale..
+~
+E
+ossa~
+E' difficile dire che tipo di ossa siano..
+~
+S
+#2346
+Un ponte di corda~
+Arrivi in un punto ove un piccolo ponte di corda viene utilizzato per passare
+aldilà di un crepaccio fangoso.
+Il ponte non sembra molto solido e sicuramente non è opera di orchi, poiché
+sembra esser stato costruito da mani esperte; ovviamente il tempo ed il clima
+orrendo lo hanno molto rovinato.
+Attorno a te, vedi degli orchi armati e per nulla felici della tua scomoda
+ed invadente presenza..
+~
+0 0 1 0 0 0
+D0
+Una porta si trova qui.
+~
+porta~
+1 -1 2348 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2347 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2343 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2345 0
+E
+ponte~
+E' fatto in corda, non sembra solido e solo una persona alla volta può passare.
+~
+E
+corda~
+Si direbbe di fattura umana..
+~
+E
+orchi~
+Ogni volta che li guardi, questi impugnano le loro armi e ringhiano..
+~
+S
+#2347
+La fossa dei rifiuti~
+Un tanfo maleodorante ti accoglie e t'intontisce per qualche minuto.
+Vedi i resti di corpi mezzi morsi: piedi, braccia ed altro ancora..
+Tutto è ammonticchiato in questa grossa buca fatta nel terreno. L'aria è
+veramente opprimente ed il terreno trasuda marciume.
+Se pensavi che le fogne delle città fossero puzzolenti, è perché ancora non
+avevi fatto un giretto da queste parti..
+Considerando che solitamente gli orchi non utilizzano fognature, si può dire che
+tu abbia avuto una gran fortuna..
+~
+0 0 1 0 0 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2344 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2346 0
+E
+corpi~
+Spera di non fare la loro stessa fine..
+~
+E
+piedi~
+Chissà a chi appartenevano..
+~
+E
+braccia~
+Sembrano le braccia di uno gnomo..
+~
+S
+#2348
+L'entrata della capanna del Capo Orco~
+Ti trovi nell'ingresso di una capanna rettangolare molto ampia e spaziosa.
+Vi sono pelli di animali ed altri orrendi trofei posti su alcuni tavoli.
+Dei forzieri si trovano accatastati contro una parete ma sembrano essere
+chiusi con lucchetti molto difficili da rimuovere o scassinare.
+La porta d'uscita si trova a meridione, mentre dalla parte opposta, vedi
+un'altra porta che conduce ad una sala leggermente più piccola.
+~
+0 8 0 0 0 0
+D0
+Vedi un'altra stanza.
+~
+~
+0 -1 2349 0
+D2
+Qui si trova la porta d'uscita.
+~
+porta~
+1 -1 2346 0
+E
+trofei~
+Per lo più si tratta di teste di avventurieri..
+~
+E
+tavoli~
+Su di essi, puoi vedere dei trofei..
+~
+E
+forzieri~
+T'impegni per aprirli, ma sono sigillati in modo incredibile!
+~
+S
+#2349
+La grande capanna del Capo Orco~
+Eccoti in una stanza orrendamente decorata da simboli orcheschi.
+Innanzi a te vedi uno scranno ottenuto da ossa e legno marcio
+dannatamente maleodorante.
+Delle fiaccole illuminano la stanza con una pallida luce, riempiendo inoltre
+l'intero ambiente di fumi sgradevoli sia all'olfatto che alla vista.
+Mentre ti guardi attorno, noti dei letti posti lungo la parete orientale.
+Gli orchi che si trovano qui ti fissano con malcelati desideri sanguinari.
+~
+0 8 0 0 0 0
+D0
+Qui si trova l'accesso ad un'altra stanza.
+~
+~
+0 0 2350 0
+D2
+Qui si trova l'accesso ad un'altra stanza.
+~
+~
+0 0 2348 0
+S
+#2350
+La stanza privata del Capo Orco~
+Questa sembra essere la stanza personale del capo degli orchi di palude.
+Sporcizia non meno che altrove si trova qui dentro, a farle compagnia
+vi sono ammassi di stracci e rimasugli di cibarie ammonticchiati qua e là.
+Delle grandi ceste sono poste nella parte settentrionale della stanza,
+esattamente sotto alle piccole finestre dalle quali filtra pallida la luce.
+Attorno a te puoi anche notare dei trofei ricavati con molta probabilità
+dai corpi dei nemici vinti ed in seguito massacrati dal grande capo.
+L'unica uscita sembra trovarsi alle tue spalle.
+~
+0 8 0 0 0 0
+D2
+Qui si trova l'accesso ad un'altra stanza.
+~
+~
+0 0 2349 0
+S
+#2351
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2353 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2352 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2355 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2354 0
+S
+#2352
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2357 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2354 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 -1 2358 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2351 0
+S
+#2353
+Il Tempio Ghiacciato~
+Raggiungi, quasi senza rendertene conto, un piccolo tempietto fatto interamente
+di ghiaccio e decorato con estrema grazie e maestria.
+Le pareti che compongono questo edificio sono per la maggior parte opache
+ma le arcate sono trasparenti e fantastici giochi di luce danzano sugli
+architravi, sulle rifiniture ed i capitelli delle colonne dell'entrata.
+In questo luogo riesci a trovare un po' di riparo dal vento e dalla neve, benché
+la temperatura continui a rimanere decisamente molto bassa.
+Al centro del tempio sembra trovarsi un portale che emana una tenue luce azzurra
+pulsante, accompagnata da un sommesso ronzio..
+~
+0 8 0 0 0 0
+D0
+Da qui puoi entrare nel portale.
+~
+~
+0 0 2326 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2351 0
+E
+portale~
+E' difficile dire in quale luogo conduca..
+~
+S
+#2354
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2359 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2351 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2356 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2352 0
+S
+#2355
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2351 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2356 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2357 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2356 0
+S
+#2356
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2354 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2355 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2359 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2355 0
+S
+#2357
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2355 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2358 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2352 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2359 0
+S
+#2358
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2352 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2359 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2360 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2357 0
+S
+#2359
+Le gelide Terre Desolate~
+Stai viaggiando attraverso le gelide terre selvagge, il tuo respiro diviene
+sempre più freddo man mano che prosegui.
+Vento e nevischio sembrano essersi coalizzati per renderti ancora più
+difficoltoso il tragitto in queste terre desolate e spoglie.
+Non vedi nulla attorno a te, semplicemente l'orizzonte increspato
+da lontane montagne con la punta incappucciata di bianca neve.
+Ogni tuo passo affonda nella neve ed il tuo senso d'orientamento viene messo
+a dura prova in questa faticosa traversata.
+~
+0 0 5 0 0 0
+D0
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2356 0
+D1
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2357 0
+D2
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2354 0
+D3
+Il sentiero continua in questa direzione..
+~
+~
+0 0 2358 0
+S
+#2360
+Il confine delle gelide Terre Desolate~
+Ti trovi alla base di una grande rupe che ti sovrasta con tutta la sua mole.
+Attorno a te, lo sguardo può spaziare su di una vasta distesa ghiacciata.
+Un sentiero molto impervido si arrampica in modo discontinuo sulla rupe.
+La neve di tanto in tanto scende accompagnata da tremende raffiche ventose.
+Non vi è traccia d'anima viva e pare che da molto nessuno sia passato
+da queste parti anche se a terra trovi dei resti che sembrano umani..
+~
+0 4 5 0 0 0
+D0
+In questa direzione puoi tornare a vagare per le terre desolate.
+~
+~
+0 0 2358 0
+D4
+In questa direzione si trova una grande rupe.
+~
+~
+0 0 2361 0
+E
+resti~
+Sono molto vecchie ma sicuramente sono ossa d'uomini.
+~
+S
+#2361
+Scalando la rupe ghiacciata~
+Ti stai arrampicando molto lentamente su una parete rivestita dal ghiaccio.
+Osservando in basso, ti stupisci della distanza che hai percorso, ma anche
+dalla vertiginosa distanza che ti separa dal terreno.. Cadere sarebbe la fine.
+Scrutando verso l'alto, non riesci a scorgere null'altro che il cielo nuvoloso.
+Dalle nubi, lentamente ma con ritmo regolare, iniziano a scendere grossi fiocchi
+di neve; se vuoi evitare la tormenta che sicuramente sta per iniziare, è meglio
+che tu finisca la tua scalata nel minor tempo possibile.
+~
+0 4 5 0 0 0
+D4
+Scalando in questa direzione puoi raggiungere la sommità della rupe.
+~
+~
+0 0 2362 0
+D5
+Il sentiero ridiscende in questa direzione.
+~
+~
+0 0 2360 0
+S
+#2362
+Innanzi al cancello di Mahn-Tor~
+Ti trovi sulla sommità d'una rupe, al di sotto della quale, puoi vedere il
+difficoltoso sentiero ghiacciato che conduce qui.
+Direttamente a sud dal posto in cui ora ti trovi, è situato il grande
+cancello della famosa città dei minotauri: Mahn-Tor.
+Una grossa città si estende aldilà del gigantesco cancello di ghiaccio
+ed ossa, eretto in tempi remoti ormai obliati.
+Man mano che ti avvicini, la neve ricomincia a scendere copiosa ed il vento
+torna a soffiare con rinnovato vigore e potenza.
+Infine raggiungi il mastodontico cancello..
+~
+0 0 5 0 0 0
+D2
+Il grande cancello si trova qui.
+~
+cancello~
+1 -1 2364 0
+D5
+Da qui è possibile ridiscendere la rupe.
+~
+~
+0 0 2361 0
+E
+cancello~
+Questo cancello è fatto di grandi ossa bianche.
+Esse sono incastonate in ghiaccio lavorato a mano.
+Oltre alla struttura portante, osservando bene, ti sembra di
+vedere delle creature intrappolate all'interno dello spesso
+strato di ghiaccio!
+~
+E
+creature~
+Vi sono bufali, montoni, esseri umani ed altro ancora..
+~
+E
+ossa bianche~
+Alcune leggende dicono che siano di drago, altre, di maestosi giganti.
+~
+S
+#2363
+Per le strade di Mahn-Tor~
+Stai gironzolando per le vie che compongono la cittadina innevata, le strade
+stesse, come buona parte della città, sono state lavorate nella nuda pietra.
+Non vi è molta gente in giro, le porte sono chiuse e i comignoli sbuffanti fumo
+sono un chiaro segnale che c'è qualcuno in casa al riparo dal freddo.
+La neve continua a scendere, tanto che i tuoi passi vi sprofondano.
+~
+0 0 1 0 0 0
+D1
+In questa direzione si trova il cancello d'entrata.
+~
+~
+0 0 2364 0
+D2
+La strada della città continua in questa direzione..
+~
+~
+0 0 2366 0
+S
+#2364
+All'interno del cancello di Mahn-Tor~
+Hai appena oltrepassato l'arcata principale del mastodontico cancello, La città
+si estende completamente innanzi ai tuoi occhi annebbiati dalla fitta neve che
+continua a scendere senza sosta alcuna.
+Le costruzioni sono grezze e di varie forme, tutte quante però, sono state
+ricavate dalla viva roccia che abbonda in questa regione.
+Il ghiaccio e la neve ricoprono le vie che vengon utilizzate raramente, rendendo
+a volte difficoltoso il passaggio.
+~
+0 0 1 0 0 0
+D0
+Da qui è possibile uscire dalla città.
+~
+cancello~
+1 -1 2362 0
+D1
+La strada della città continua in questa direzione..
+~
+~
+0 -1 2365 0
+D2
+La strada della città continua in questa direzione..
+~
+~
+0 0 2367 0
+D3
+La strada della città continua in questa direzione..
+~
+~
+0 -1 2363 0
+S
+#2365
+Per le strade di Mahn-Tor~
+Stai gironzolando per le vie che compongono la cittadina innevata, le strade
+stesse, come buona parte della città, sono state lavorate nella nuda pietra.
+Non vi è molta gente in giro, le porte sono chiuse e i comignoli sbuffanti fumo
+sono un chiaro segnale che c'è qualcuno in casa al riparo dal freddo.
+La neve continua a scendere, tanto che i tuoi passi vi sprofondano.
+~
+0 0 1 0 0 0
+D2
+La strada della città continua in questa direzione..
+~
+~
+0 0 2368 0
+D3
+La strada della città continua in questa direzione..
+~
+~
+0 0 2364 0
+S
+#2366
+Per le strade di Mahn-Tor~
+In questa strada puoi notare delle statue raffiguranti vari individui, alcune
+sono però sommerse dal nevischio.
+Se non fosse per le luci che scorgi nelle case e per qualche minotauro che di
+tanto in tanto compare, per sparire subito dopo, ti verrebbe da pensare che
+questa città sia completamente disabitata.
+Mentre cammini, l'insegna di una vecchia locanda attira per la tua attenzione.
+~
+0 0 1 0 0 0
+D0
+La strada della città continua in questa direzione..
+~
+~
+0 0 2363 0
+D1
+La strada della città continua in questa direzione..
+~
+~
+0 -1 2367 0
+D2
+In questa direzione si trova una locanda.
+~
+~
+0 -1 2369 0
+E
+insegna~
+
+    []====================[]
+     |                    |
+     |      Locanda       |
+     |   Il Corno Rotto   |
+     |                    |
+    []====================[]
+
+~
+E
+statue~
+Alcune sono irriconoscibili, mentre altre rappresentano chiaramente i minotauri.
+~
+E
+minotauri~
+Tra queste riconosci quella che dovrebbe essere di Mahn-Tor.
+~
+E
+mahn-tor~
+Si tratta di una grossa statua raffigurante un minotauro con un'ascia
+enorme in mano.
+~
+S
+#2367
+La piazza centrale di Mahn-Tor~
+Questa sembra essere la piazza principale della citta di Mahn-Tor.
+Un grossa fontana decorata e priva d'acqua si trova al suo centro, il gelo l'ha
+trasformata con il tempo in una scultura glaciale.
+L'acqua che un tempo sgorgava dalla fontana è stata ghiacciata in forme d'archi
+che si librano nell'aria fredda e nevosa.
+Qui sembra esservi molta più gente, anche se tutti sembrano aver molta fretta di
+rientrare nelle loro abitazioni.
+Mentre la neve scende, riesci a scorgere l'insegna d'un negozietto.
+~
+0 0 1 0 0 0
+D0
+La strada della città continua in questa direzione..
+~
+~
+0 0 2364 0
+D1
+La strada della città continua in questa direzione..
+~
+~
+0 0 2368 0
+D2
+La strada della città continua in questa direzione..
+~
+~
+0 0 2370 0
+D3
+In questa direzione si trova un negozio d'oggettistica.
+~
+~
+0 0 2366 0
+E
+insegna~
+
+    []===================[]
+     |                   |
+     |   Oggettistica    |
+     |  Lo Zoccolo Duro  |
+     |                   |
+    []===================[]
+
+~
+S
+#2368
+Per le strade di Mahn-Tor~
+Il paesaggio cittadino che ti si presenta, non varia molto da quanto hai visto
+sino ad ora, infatti, oltre alle case ed alla neve bianca non vi è null'altro
+che possa catturare l'attenzione.
+Il terreno sul quale stai camminando è coperto da ghiaccio che viene coperto
+a sua volta dalla neve che scende.
+Alcune piccole vie si snodano in varie direzioni.
+L'insegna di un negozio d'alimenti si trova poco distante da dove ti trovi ora.
+~
+0 0 1 0 0 0
+D0
+La strada della città continua in questa direzione..
+~
+~
+0 0 2365 0
+D1
+La strada della città continua in questa direzione..
+~
+~
+0 0 2375 0
+D2
+La strada della città continua in questa direzione..
+~
+~
+0 0 2371 0
+D3
+In questa direzione si trova un negozio d'alimenti.
+~
+~
+0 0 2367 0
+E
+insegna~
+
+    []===================[]
+     |                   |
+     | Alimenti e Affini |
+     |     Il Cesto      |
+     |                   |
+    []===================[]
+
+~
+S
+#2369
+La Locanda del Corno Rotto~
+Eccoti nell'ingresso di una calda taverna locale.
+La stanza principale è illuminata e riscaldata da due grandi fuochi posizionati
+in grandi bracieri, posti al centro della sala.
+Un lungo bancone è appoggiato lungo la parete occidentale, mentre tutto il resto
+dello spazio è occupato da tavolini e tavolate di legno.
+Appena gli astanti si avvedono del tuo ingresso, senti una miriade di sguardi
+maligni sulla tua persona.. Pare che in questa città gli stranieri non siano mai
+ben visti, specialmente quando fa freddo.
+Tutti gli individui che si trovano qui sono minotauri, tranne due nani.
+In pochi ti si avvicinano, persino il gestore del locale sembra talmente poco
+cordiale che ti si rivolge quasi ringhiando!
+Una scaletta conduce alle stanze del piano superiore, mentre a nord, si trova
+la porta d'entrata, nonché d'uscita, della locanda.
+~
+0 8 0 0 0 0
+D0
+Da qui è possibile uscire dall'edificio.
+~
+~
+0 0 2366 0
+E
+nani~
+Sono due nani dalla barba lunga e dallo sguardo duro e severo.
+~
+E
+minotauri~
+Sembrano molto infastiditi dalla tua presenza!
+~
+S
+#2370
+Il negozio d'oggettistica "Lo Zoccolo Duro"~
+Ti trovi in un modesto negozio d'oggettistica.
+Qui un avventuriero può trovare più o meno quanto va cercando.
+Grandi fiaccole illuminano l'interno, poiché non sono presenti finestre.
+Un fuoco arde nel camino di pietra posto ad uno degli angoli dello stabile, in
+parte ad esso puoi notare molta legna accatastata.
+In fondo vedi il bancone dietro al quale il commerciante svolge il suo lavoro.
+Altri scaffali si trovano attorno a te.
+L'uscita si trova a nord.
+~
+0 8 0 0 0 0
+D0
+Da qui è possibile uscire dall'edificio.
+~
+~
+0 0 2367 0
+E
+bancone~
+E' in legno scuro, largo e ricoperto di vari accessori ed oggetti.
+~
+E
+accessori~
+Sono veramente molti, alcuni adatti però solamente a dei minotauri.
+~
+E
+oggetti~
+Dovresti chiedere al commerciante di mostrarti la sua merce..
+~
+E
+camino~
+E' piccolo ma funzionale, serve a riscaldare l'ambiente.
+~
+E
+fuoco~
+Scoppietta e crepita con intensità, divorando il legno.
+~
+E
+legna~
+E' asciutta e di buona qualità, pronta per esser data in pasto al fuoco del camino!
+~
+S
+#2371
+Il negozio d'alimenti "Il Cesto"~
+Entri in un piccolo edificio dalla forma circolare, pieno di scaffali messi in
+modo da sfruttare il ridotto spazio disponibile. Il fuoco che arde dietro al
+banco è piccolo ma arzillo.
+L'ambiente risulta però freddo, a causa degli spifferi provenienti dalle
+finestre. Non vi sono molti alimenti o bevande da comprare, sembra che sia un
+periodo un po' difficile..
+~
+0 8 0 0 0 0
+D0
+Da qui è possibile uscire dall'edificio.
+~
+~
+0 0 2368 0
+E
+finestre~
+Sono rotonde e da esse spirano gelidi spifferi!
+~
+E
+scaffali~
+Sono fatti in legno.
+~
+S
+#2372
+La Stanza degli Allenamenti di Gorak~
+Questa stanza è piena della più variegata sorta di armi ed armatura che ci si
+possa aspettare di trovare in una fornitissima armeria.
+Vi sono anche dei fantocci per allenamenti personali, dei bersagli pieni di fori
+da freccia e balestra, senza tener conto di sacchi per l'allenamento a mani
+nude, senza utilizzo d'arma.
+Questa stanza deve sicuramente appartenere ad un uomo d'arme.
+~
+0 8 0 0 0 0
+D1
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2351 2388 0
+E
+fantocci~
+Alcuni sono mutilati..
+~
+E
+bersagli~
+Ogni tipo d'arma da lancio è stata utilizzata contro essi.
+~
+E
+sacchi~
+Sembrano esser pieni di terra e sabbia.
+~
+E
+armi~
+Sono innumerevoli e tenute in modo egregio.
+~
+E
+armatura~
+Sono lucide e nient'affatto danneggiate.
+~
+S
+#2373
+Lo Studio di Darkoth~
+La stanza è completamente buia ed i tuoi occhi inizialmente non riescono a
+scorgere null'altro che tenebra ed oscurità.
+Man mano che il tempo passa, riesci però a percepire i contorni di quanto ti
+circonda, benché esso resti avvolto dalle tenebre.
+Un altare è posizionato in fondo alla stanza, da esso, del sangue sgorga e cola
+lentamente sino al suolo, in una orribile pozza.
+Nel silenzio insostenibile, ti sembra che qualcuno t'osservi.. Questo luogo è
+sicuramente riservato a qualche culto arcano e proibito.
+Forse è il caso di non indagare ulteriormente.
+~
+0 9 0 0 0 0
+D1
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2352 2389 0
+S
+#2374
+Il Santuario di Tyrgoth~
+Appena entri, trovi davanti a te un numero incredibile di statue, ritratti ed
+altre raffigurazioni degli dei della bontà.
+La stanza è molto illuminata, le pareti sono bianche, così come il piccolo
+altare che puoi vedere e le tuniche poste su una sedia.
+Un gradevole odore proveniente da piattini colmi d'incenso inebria la tua
+mente, facendoti supporre che il proprietario di questa stanza, abbia donato
+anima e corpo alla via della bontà.
+~
+0 8 0 0 0 0
+D1
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2353 2392 0
+S
+#2375
+La strada per il Palazzo di Mahn-Tor~
+La neve scende copiosa mentre procedi su di un sentiero pietroso che conduce al
+palazzo di Mahn-Tor che dà anche il nome all'intera cittadina.
+Man mano che avanzi, il vento incalza sempre più, rendendo difficoltoso tenere
+gli occhi aperti e fissi sulla strada.
+Il gelo a volte sembra trapassare il tuo corpo e ti chiedi quanto sia distante
+questo fantomatico palazzo. Non fai però in tempo a domandartelo, che tra la
+neve intravedi la sagoma di un enorme castello e del suo cancello.
+~
+0 4 5 0 0 0
+D1
+In questa direzione è possibile raggiungere il palazzo.
+~
+~
+0 0 2377 0
+D3
+La città si trova in questa direzione.
+~
+~
+0 0 2368 0
+S
+#2376
+Un piccolo posto di guardia~
+Hai messo piede in un luogo dove le guardie si trovano per ripararsi dal freddo.
+Un grosso fuoco arde al centro della stanza, su di esso si trova un calderone
+ed attorno ad esso alcune guardie si scaldano e riposano discutendo tra loro.
+Benché siano minotauri robusti e sicuramente abituati a climi freddi, la bufera
+di neve che sempre cade in questa regione, mette a dura prova anche la loro
+proverbiale resistenza fisica.
+Alcune brande sono poste in fondo alla stanza vicino all'armeria, su di esse due
+minotauri giocano a carte e ridono di qualche fatto locale.
+~
+0 8 0 0 0 0
+D2
+Da qui è possibile uscire dall'edificio.
+~
+~
+0 0 2377 0
+E
+calderone~
+Al suo interno sta bollendo un brodo molto speziato.
+~
+E
+guardie~
+Le guardie sembrano esser insoddisfatte del freddo di questi ultimi giorni.
+~
+E
+minotauri~
+Questi due minotauri sembrano molto presi dal loro gioco..
+~
+E
+brande~
+Non sembrano molto comode.
+~
+S
+#2377
+Innanzi al Palazzo di Mahn-Tor~
+Ti trovi esattamente davanti al palazzo di Mahn-Tor, per esser precisi
+dinnanzi al grosso cancello ricoperto di spuntoni che conduce al palazzo.
+Alle tue spalle, ad ovest, si trovano le luci della città, mentre ai due lati
+del cancello, sono situati un posto di guardia ed una torretta.
+Il vento soffia talmente forte da costringerti a ripararti con una mano, la neve
+scende copiosa e copre lentamente, ma inesorabilmente, qualsiasi cosa attorno a
+te, tanto che alcune guardie fanno a turno per ripararsi nei fortini.
+~
+0 0 1 0 0 0
+D0
+Una torretta di guardia si trova in questa direzione.
+~
+~
+0 0 2376 0
+D1
+Il cancello del Palazzo si trova in questa direzione.
+~
+cancello~
+33 2350 2379 0
+D2
+Un edificio per le guardie si trova in questa direzione.
+~
+~
+0 0 2378 0
+D3
+La città si trova in questa direzione.
+~
+~
+0 0 2375 0
+E
+spuntoni~
+Sono fatti di duro e pesante ferro battuto!
+~
+E
+cancello~
+E' molto grande, alcuni sostengono che siano stati dei giganti a costruirlo..
+~
+S
+#2378
+Una piccola torretta di guardia~
+Hai messo piede in una piccola fortificazione a forma di torre.
+Delle fiaccole pallide ardono illuminando tutto l'ambiente, dalle feritoie spira
+continuamente una fastidiosa aria gelida.
+E' possibile anche sentire il ruggito violento del vento esterno.
+Alcune armi sono appese alle pareti, mentre delle casse ed anfore si trovano
+accatastate in un angolo, vicino ad una branda ed un tavolo.
+Una scaletta porta al piano superiore completamente vuoto e spoglio.
+~
+0 8 0 0 0 0
+D0
+Da qui è possibile uscire dall'edificio.
+~
+~
+0 0 2377 0
+E
+feritoie~
+Sono strette ma l'aria gelida filtra senza sosta.
+~
+E
+fiaccole~
+Ardono pallidamente..
+~
+E
+casse~
+Sono piccole e di legno, sembrano essere vuote.
+~
+E
+argilla~
+Sono d'argilla e contengono solamente polvere.
+~
+E
+branda~
+Uno scomodo giaciglio per le guardie..
+~
+E
+tavolo~
+E' asciutta e di buona qualità, pronta per esser data in pasto al fuoco del camino!
+~
+E
+scaletta~
+E' fatta di legno e tenuta assieme da corda resistente.
+~
+S
+#2379
+L'arco d'accesso al Palazzo di Mahn-Tor~
+Ti trovi all'interno del palazzo del signore dei minotauri di questa regione.
+La struttura, che a prima vista sembra essere opera nanesca, è fatta interamente
+in dura pietra scura, rinforzata, dove necessario, da assi di legno.
+Delle colonne massicce sorreggono un grande arco sul quale sono appesi degli
+scudi ed altre effigi e stendardi della casata reale di Mahn-Tor.
+Un numero spropositato di torce arde per illuminare l'interno e per garantire
+una buona temperatura in grado di controbattere il gelo e la neve esterna.
+Non vedi nessuno venirti incontro, solamente guardie gironzolano qua e là
+svolgendo il proprio lavoro e borbottando qualcosa di tanto in tanto.
+~
+0 8 0 0 0 0
+D1
+Da qui è possibile uscire dal palazzo.
+~
+~
+0 0 2380 0
+D3
+Un massiccio portone si trova qui.
+~
+portone~
+33 2350 2377 0
+E
+effigi~
+Ritraggono le varie casate che hanno abitato questo grande palazzo.
+~
+E
+stendardi~
+Sono di vari colori e forme, alcuni riportano le iniziali dei loro fondatori.
+~
+E
+torce~
+Sono grandi e la luce che sprigionano è molto forte e calda.
+~
+E
+guardie~
+Non sembrano molto felici del loro lavoro..
+~
+S
+#2380
+Il salone d'entrata del Palazzo~
+Man mano che t'inoltri nel castello, incontri membri della servitù e qualche
+nobile del posto, vestito con abiti sfarzosi e gioielli per minotauri.
+Degli arazzi ricoprono le alte pareti che si trovano in questo luogo,
+delle statue di varie fattezze sono collocate in ogni angolo; vicino ad esse
+si trovano degli alti candelabri adibiti all'illuminazione della stanza.
+Il rumore dei tuoi passi rimbomba nei recessi cavernosi di questo palazzo.
+~
+0 8 0 0 0 0
+D1
+La sala reale si trova in questa direzione, vedi delle guardie..
+~
+~
+0 0 2381 0
+D3
+L'uscita del palazzo si trova in questa direzione.
+~
+~
+0 0 2379 0
+E
+membri servitù~
+Sono minotaruri, anche se tra loro ti capita di vedere di tanto in tanto qualche
+umano o gnomo.
+~
+E
+umano~
+Deve trattarsi sicuramente di uno schiavo, il suo viso è abbastanza depresso.
+~
+E
+gnomo~
+E' uno schiavo decisamente triste e spossato.
+~
+E
+arazzi~
+Raffigurano paesaggi naturali, tutti coperti di neve.
+Alcuni raffigurano invece dei nobili ed antichi minotauri.
+~
+E
+candelabri~
+Sono fatti di ferro nero e sembrano molto pesanti.
+~
+S
+#2381
+Il Grande Salone Reale~
+Sei giunto nel grande salone reale del palazzo di Mahn-Tor, qui ogni cosa sembra
+grande e pesante, come la pietra.
+Il pavimento del castello è lavorato e lastricato, esso risplende alla luce
+delle torce adibite all'illuminazione, tanto da lasciarti per un attimo a bocca
+aperta per la meraviglia.
+Verso oriente, puoi vedere un'altra parte della sala reale nella quale è posto
+il seggio dorato di Mahn-Tor stesso! Attorno a te, vedi molti nobili minotauri
+e guardie rivestite con massicce cotte di maglia splendenti.
+~
+0 8 0 0 0 0
+D1
+La stanza del trono si trova in questa direzione, vedi molte guardie..
+~
+~
+0 0 2383 0
+D2
+La sala reale si estende anche in questa direzione.
+~
+~
+0 0 2382 0
+D3
+L'uscita del palazzo si trova in questa direzione.
+~
+~
+0 0 2380 0
+S
+#2382
+Il grande Salone Reale~
+Ti trovi nel grande salone reale del palazzo di Mahn-Tor.
+Le alte colonne che sorreggono gli archi a volta e gli arazzi catturano più di
+una volta la tua attenzione. Un certo stupore accompagna l'osservazione di tali
+opere e la magnificenza della lavorazione.
+I minotauri che ti vedono arrivare, ti guardano con sdegno, alcuni adirittura ti
+guardano con occhi pieni di rabbia.
+A sud noti un'arcata che conduce alle stanze della guarnigione, mentre il salone
+reale continua sia ad est che a nord.
+~
+0 8 0 0 0 0
+D0
+La sala reale si estende anche in questa direzione
+~
+~
+0 -1 2381 0
+D1
+La sala reale si estende anche in questa direzione.
+~
+~
+0 0 2384 0
+D2
+Le stanze della guarnigione si trovano in questa direzione.
+~
+~
+0 -1 2387 0
+S
+#2383
+La Stanza del Trono di Mahn-Tor~
+Eccoti dinnanzi al trono dorato del grande sovrano dei minotauri.
+Questo scranno reale è talmente grande, che occupa buona parte della parete
+orientale, posizionato così ormai da molto tempo.
+Questa stanza del trono, fa parte del grande salone reale che si estende tutto
+intorno a te ed è ricolmo di minotauri di ogni tipo.
+Le decorazioni del trono catturano, però, la tua attenzione: le rifiniture sono
+degne del miglior artista ed i disegni ritraggono scene di caccia, di lotta e
+divinità di ogni genere.
+Davanti al trono, una fila di guardie è posta a difesa del sovrano che però, in
+questo momento, sembra essere assente..
+~
+0 8 0 0 0 0
+D1
+Il trono sembra poter esser spostato..!
+~
+trono dorato~
+1 0 2385 0
+D2
+La sala reale si estende anche in questa direzione.
+~
+~
+0 0 2384 0
+D3
+La sala reale si estende anche in questa direzione.
+~
+~
+0 0 2381 0
+E
+Trono dorato~
+E' fatto completamente d'oro, proprio come narrano le leggende ed i bardi.
+Una parte di esso sembra poter esser spostata.. Che nasconda qualche segreto?
+~
+S
+#2384
+Il grande Salone Reale~
+Giungi nel grande salone reale del palazzo di Mahn-Tor, ogni cosa sembra grande
+e pesante, come la pietra.
+Il pavimento del castello è lavorato e lastricato, esso risplende alla luce
+delle torce adibite all'illuminazione, tanto da lasciarti per un attimo a bocca
+aperta per la meraviglia.
+Verso nord, puoi vedere un'altra parte della sala reale, nella quale è presente
+il seggio dorato di Mahn-Tor stesso! Attorno a te, vedi molti nobili minotauri
+e guardie rivestite con massicce cotte di maglia splendenti.
+~
+0 8 0 0 0 0
+D0
+La stanza del trono si trova in questa direzione, vedi molte guardie..
+~
+~
+0 0 2383 0
+D3
+La sala reale si estende anche in questa direzione.
+~
+~
+0 0 2382 0
+S
+#2385
+Il passaggio segreto~
+Stai percorrendo un corridoio scarsamente illuminato e poco decorato.
+Non vi sono altro che delle panche di tanto in tanto e dei grossi vasi.
+Più prosegui, più la tua curiosità di scoprire dove questo corridoio ti stia
+conducendo e cosa troverai al suo termine, aumenta dentro di te.
+Lentamente scorgi una luce più forte provenire da oriente.
+~
+0 8 0 0 0 0
+D1
+Una porta di pietra si trova qui.
+~
+pietra~
+33 2359 2386 0
+D3
+Una porta segreta si trova qui e fa parte del trono dorato!
+~
+trono dorato~
+1 0 2383 0
+E
+Pietra~
+E' una lastra di marmo nero sicuramente molto pesante.
+~
+E
+Trono Dorato~
+Il trono nasconde un passaggio!
+~
+S
+#2386
+Le Stanze Reali personali~
+Giungi in un luogo solitamente proibito. Per l'esattezza, sei nelle stanze
+personali del sovrano.
+Un elegante e comodo rivestimento felpato, ricopre la pavimentazione, larghi
+candelabri sono posti vicino alle pareti così da illuminare la stanza, poiché
+almeno qui, non sembrano esservi finestre.
+Un braciere arde nel centro della stanza, inebriando l'ambiente con dolci aromi
+delicati che invitano al riposo ed alla calma.
+Ad occidente si trova un portone di pietra, mentre altre porte conducono
+in altrettante stanze.
+~
+0 8 0 0 0 0
+D1
+Un'altra stanza si trova in questa direzione.
+~
+~
+0 0 2395 0
+D2
+Una stanza piena di persone si trova in questa direzione.
+~
+~
+0 0 2393 0
+D3
+Una porta di pietra si trova qui.
+~
+pietra~
+33 2359 2385 0
+E
+pietra~
+E' una lastra di marmo nero sicuramente molto pesante.
+~
+S
+#2387
+Le Stanze della Guarnigione~
+Da qui in poi, inizia il lungo corridoio: generalmente non vi è molto movimento,
+poiché la guarnigione del sovrano viene impiegata nei momenti d'emergenza o in
+altri casi particolari.
+Molte voci lodano i capi rappresentativi di questa guarnigione, se hai fortuna
+potrai incontrarne qualcuno, ma ricorda che sono pur sempre dei minotauri ed
+alcuni di loro, hanno un pessimo carattere..
+~
+0 8 0 0 0 0
+D0
+Da qui si giunge nelle sale reali.
+~
+~
+0 0 2382 0
+D2
+Il corridoio con le stanze prosegue in questa direzione.
+~
+~
+0 0 2388 0
+S
+#2388
+Le Stanze della Guarnigione~
+Giungi nel corridoio che conduce alle stanze private di alcuni dei maggiori
+esponenti della guarnigione personale del signore del palazzo.
+C'e silenzio nel corridoio ed è forse il caso di rispettarlo, si dice infatti
+che i minotauri siano facilmente irascibili. Attorno a te non sembra esservi
+molto movimento, solamente qualche guardia ogni tanto, passa a controllare che
+tutto sia tranquillo e che nessuno arrechi disturbo.
+Una porta gialla coperta da placche di ferro si trova ad oriente, mentre davanti
+ad essa vedi una porta dai finimenti rossastri con piccoli spuntoni di ferro.
+~
+0 8 0 0 0 0
+D0
+Il corridoio con le stanze prosegue in questa direzione.
+~
+~
+0 0 2387 0
+D1
+La porta reca l'iscrizione: "Sumaron".
+~
+gialla~
+33 2355 2390 0
+D2
+Le stanze proseguono in questa direzione.
+~
+~
+0 0 2389 0
+D3
+La porta reca l'iscrizione: "Gorak".
+~
+rossa~
+33 2351 2372 0
+E
+gialla~
+La porta reca l'iscrizione: "Sumaron".
+~
+E
+rossa~
+La porta reca l'iscrizione: "Gorak".
+~
+S
+#2389
+Le Stanze della Guarnigione~
+Ti trovi ancora nella parte del palazzo adibita ad uso personale della fidata
+guarnigione di Mahn-Tor, famosa anche all'estero. Le pareti sono di pietra come
+anche nel resto del palazzo. Vi sono alcune panche poste ai lati, intervallate
+da candelabri.
+Ad est puoi vedere una porta d'ebano, tendente al rossastro, ad ovest invece
+si trova una piccola porta completamente nera, senza alcuna decorazione o altro
+segno particolare.
+~
+0 8 0 0 0 0
+D0
+Il corridoio con le stanze prosegue in questa direzione.
+~
+~
+0 0 2388 0
+D1
+La porta reca l'iscrizione: "Amyrok".
+~
+viola~
+33 2356 2391 0
+D2
+Le stanze proseguono in questa direzione.
+~
+~
+0 0 2392 0
+D3
+La porta reca l'iscrizione: "Darkoth".
+~
+nero nera ebano~
+33 2352 2373 0
+E
+viola~
+La porta reca l'iscrizione: "Amyrok".
+~
+E
+ebano~
+La porta reca l'iscrizione: "Darkoth".
+~
+E
+panche~
+Servono solamente come mobilio.
+~
+S
+#2390
+Il Santuario di Sumaron~
+Hai appena varcato la soglia d'una sorta di santuario, un altare è situato al
+centro della stanza e delle reliquie sono poste su di esso, come se fossero
+pronte per un sacrificio divino.
+Alle pareti puoi notare degli stendardi recanti figure sante mentre sugli
+scaffali e sul tavolo situato in fondo alla stanza sono posti degli oggetti
+utilizzati solitamente per celebrazioni religiose.
+Sicuramente questa stanza appartiene ad un chierico.
+~
+0 8 0 0 0 0
+D3
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2355 2388 0
+S
+#2391
+Lo Studio Arcano di Amyrok~
+La luce in questa stanza è fioca ed è garantita da dei candelabri, le cui fiamme
+rossastre, spargono la medesima luce attorno a te.
+Al centro, puoi vedere un grande pentagramma anch'esso rossastro. L'intero luogo
+è ricolmo di fumi e d'incensi di vari sapori; molti tomi voluminosi si trovano
+sparpagliati su tavoli e scaffali.
+Il proprietario di questa stanza, deve essere sicuramente un mago, o quantomeno
+un essere molto interessato alle pratiche magiche.
+~
+0 8 0 0 0 0
+D3
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2356 2389 0
+S
+#2392
+Le stanze della Guarnigione~
+Ti trovi ancora nella parte del palazzo adibita ad uso personale della fidata
+guarnigione di Mahn-Tor, famosa anche all'estero. Le pareti sono di pietra come
+anche nel resto del palazzo. Vi sono alcune panche poste ai lati, intervallate
+da candelabri. Ad est puoi vedere una porta intarsiata di color verde smeraldo,
+ad ovest è situata un'altra porta color bianco latte decorata con venature
+dorate ed argentee.
+~
+0 8 0 0 0 0
+D0
+Il corridoio con le stanze prosegue in questa direzione.
+~
+~
+0 0 2389 0
+D1
+La porta reca l'iscrizione: "Nasturn".
+~
+verde~
+33 2357 2394 0
+D2
+Le stanze proseguono in questa direzione.
+~
+~
+0 0 2397 0
+D3
+La porta reca l'iscrizione: "Tyrgoth".
+~
+bianca~
+33 2353 2374 0
+E
+verde~
+La porta reca l'iscrizione: "Nasturn".
+~
+E
+bianca~
+La porta reca l'iscrizione: "Tyrgoth".
+~
+E
+panche~
+Servono solamente come mobilio.
+~
+S
+#2393
+L'Harem di Mahn-Tor~
+Questa stanza è piena di femmine, per lo più di razza umana.
+Alcune di loro, probabilmente le più ribelli, portano dei bracciali o collari
+di ferro, sicuramente usati per indurle alla mansuetudine.
+Molti cuscini, coperte ed altro ancora, si trovano sparpagliati per tutta la
+stanza, delle piccole fontanelle sono poste invece ai lati.
+Alcuni musicisti intonano continuamente una leggera melodia ed una donna dai
+capelli rossi e ricci, lucida una placca.
+~
+0 8 0 0 0 0
+D0
+Da qui è possibile uscire dalla stanza.
+~
+~
+0 0 2386 0
+D1
+Una stanza molto illuminata si trova in questa direzione.
+~
+~
+0 0 2396 0
+E
+placca~
+Mahn-Tor è una tra le più famose città dei minotauri, essa prende il nome dal
+suo sovrano reggente: Mahn-Tor.
+E' situata in una delle più fredde regioni della terra, in questi luoghi, le
+tormente di neve si susseguono ogni giorno ed è molto facile smarrirsi nelle
+fredde terre desolate, oppure imbattersi in pericolosissimi animali selvaggi, o
+peggio ancora, morire assiderati..
+~
+S
+#2394
+La modesta stanza di Nasturn~
+Questa stanza è decisamente scarna e poco confortevole, una stuoia è adibita a
+giaciglio, vedi inoltre una ciotola ed pezzo di pane.
+Non vi è altro, a parte uno scaffale pieno di podotto naturali.
+Alcune piante rampicanti hanno preso possesso di parte della stanza, rendendola
+simile ad un giardino interno, a discapito della parte abitabile.
+Il proprietario non sembra però esserne dispiaciuto poiché le piante sembrano
+esser state curate da una mano esperta e saggia.
+~
+0 8 0 0 0 0
+D3
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2357 2392 0
+S
+#2395
+Le Stanze Reali personali~
+Giungi in un luogo solitamente proibito. Per l'esattezza, sei nelle stanze
+personali del sovrano.
+Un elegante e comodo rivestimento felpato, ricopre la pavimentazione, larghi
+candelabri sono posti vicino alle pareti così da illuminare la stanza, poiché
+almeno qui, non sembrano esservi finestre.
+Un braciere arde nel centro della stanza, inebriando l'ambiente con dolci aromi
+delicati che invitano al riposo ed alla calma.
+~
+0 8 0 0 0 0
+D2
+Le stanze proseguono in questa direzione.
+~
+~
+0 0 2396 0
+D3
+Una stanza molto illuminata si trova in questa direzione.
+~
+~
+0 0 2386 0
+S
+#2396
+La stanza da letto del Sovrano~
+Questa è senza dubbio la stanza da letto del sovrano di Mahn-Tor.
+Un grande letto ricoperto di cuscini e lenzuola ricamate è situato al centro
+del locale, in parte ad esso vi sono degli armadi sfarzosi. Candelabri ed altre
+candele più piccole, sono poste un po' ovunque per illuminare interamente questa
+sfarzosissima stanza.
+Come se non bastasse, un camino posizionato nella parete meridionale scoppietta
+allegramente riscaldando nel contempo l'ambiente. Solamente a qualche ancella
+umana personale del sovrano è permesso entrare in questo luogo, fai attenzione..
+~
+0 136 0 0 0 0
+D0
+Da qui è possibile uscire dalla stanza.
+~
+~
+0 0 2395 0
+D3
+Da qui è possibile uscire dalla stanza.
+~
+~
+0 0 2393 0
+S
+#2397
+Le Stanze della Guarnigione~
+Ti trovi ancora nella parte del palazzo adibita ad uso personale della fidata
+guarnigione di Mahn-Tor, famosa anche all'estero. Le pareti sono di pietra, qui,
+come nel resto del palazzo. Vi sono alcune panche poste ai lati, intervallate
+da candelabri.
+Ad ovest puoi vedere una porta legnosa decorata con rifinimenti verdastri,
+tanto da ricordare vagamente gli arbusti d'un bosco.
+Ad est invece si trova una porta in ferro, grigia e spoglia.
+~
+0 8 0 0 0 0
+D0
+Il corridoio con le stanze prosegue in questa direzione.
+~
+~
+0 0 2392 0
+D1
+La porta reca l'iscrizione: "Belrak".
+~
+grigia~
+33 2358 2398 0
+D3
+La porta reca l'iscrizione: "Dorgar".
+~
+marrone~
+33 2354 2399 0
+E
+grigia~
+La porta reca l'iscrizione: "Dorgar".
+~
+E
+marrone~
+La porta reca l'iscrizione: "Belrak".
+~
+E
+panche~
+Servono solamente come mobilio.
+~
+S
+#2398
+La Stanza Sudicia di Dorgar~
+La stanza è scarsamente illuminata ed un odore di chiuso e di muffa giunge
+alle tue narici, il tutto accentuato dalla vista di numerose cianfrusaglie
+sparse per tutta la stanza; senza tener conto della quantità di sporcizia
+ammucchiata nei vari angoli oppure nascosta sotto tavoli e mobili.
+Sicuramente il proprietario di questa stanza, non deve essere una persona pulita,
+ed ancor più probabilmente, nessuno ha ripulito questo posto da svariati anni.
+~
+0 8 0 0 0 0
+D3
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2358 2397 0
+S
+#2399
+La Stanza Verde di Belrak~
+La prima cosa che ti chiedi appena entri è se sia un sogno o meno.
+Ti trovi in un luogo completamente immerso nel verde, una specie di paradiso
+lussureggiante, un bosco nel pieno della stagione primaverile.
+Tutto ciò contrasta nettamente con il clima invernale di questa regione, ma
+dopo qualche istante, ti rendi conto di essere in una stanza.
+Il paesaggio che ti ha ingannato è in realtà dipinto sulle pareti e gli odori
+di bosco provenivano invece da un braciere e da alcune fiale poste su di un
+tavolo ricavato dal tronco d'una quercia secolare.
+Gli strumenti e gli abiti che puoi vedere, indicano che una sorta di ranger
+o guardiano dei boschi, risiede in questo luogo.
+~
+0 8 0 0 0 0
+D1
+Da qui è possibile uscire dalla stanza.
+~
+porta~
+33 2354 2397 0
+S
+#0
+
+#RESETS
+M 0 2300 1 2307  ; Mob: #2300 Un Cavaliere Etereo => #2307 Il Denso Bosco Tenebroso
+E 1 2346 5 5  ; -- Equip: #2346 Un'Armatura Eterea (Body)
+E 1 2347 5 6  ; -- Equip: #2347 Un Elmo Etereo (Head)
+E 1 2348 10 16  ; -- Equip: #2348 Una Spada Eterea (Wield)
+M 0 2303 4 2311  ; Mob: #2303 Un Fungo Malefico => #2311 Le Pianure Pietrose
+M 0 2303 4 2312  ; Mob: #2303 Un Fungo Malefico => #2312 Le Pianure Pietrose
+M 0 2303 4 2313  ; Mob: #2303 Un Fungo Malefico => #2313 Le Pianure Pietrose
+M 0 2301 1 2314  ; Mob: #2301 Un Albero Incantato => #2314 Innanzi a Grandi Alberi Pietrosi
+M 0 2302 1 2316  ; Mob: #2302 Il Mostro della Cava => #2316 All'Interno dell'Orrenda Caverna
+M 0 2303 4 2319  ; Mob: #2303 Un Fungo Malefico => #2319 Le Colline Sovrastanti la Riva Lagunare
+M 0 2304 1 2330  ; Mob: #2304 Un Salice Piangente => #2330 Una Curva nel Sentiero Paludoso
+G 1 2349 15 ; -- Give:  #2349 Il Ramo d'un Salice Piangente
+M 0 2305 3 2332  ; Mob: #2305 Un Essere di Nebbia => #2332 Sperduti nella Foschia
+R 0 2332 4 ; Rand: #2332 Sperduti nella Foschia (4 exits)
+M 0 2305 3 2333  ; Mob: #2305 Un Essere di Nebbia => #2333 Sperduti nella Foschia
+R 0 2333 4 ; Rand: #2333 Sperduti nella Foschia (4 exits)
+R 0 2334 4 ; Rand: #2334 Sperduti nella Foschia (4 exits)
+R 0 2335 4 ; Rand: #2335 Sperduti nella Foschia (4 exits)
+M 0 2306 1 2336  ; Mob: #2306 Un Mostro Paludoso => #2336 Sperduti nella Foschia
+G 1 2384 20 ; -- Give:  #2384 Una Pozione Caliginosa
+R 0 2336 4 ; Rand: #2336 Sperduti nella Foschia (4 exits)
+M 0 2305 3 2337  ; Mob: #2305 Un Essere di Nebbia => #2337 Sperduti nella Foschia
+R 0 2337 4 ; Rand: #2337 Sperduti nella Foschia (4 exits)
+R 0 2338 4 ; Rand: #2338 Sperduti nella Foschia (4 exits)
+M 0 2309 4 2341  ; Mob: #2309 Un orco guardiano di palude => #2341 L'Entrata del Villaggio
+E 1 2387 25 16  ; -- Equip: #2387 Una Clava Orchesca (Wield)
+M 0 2309 4 2341  ; Mob: #2309 Un orco guardiano di palude => #2341 L'Entrata del Villaggio
+E 1 2387 25 16  ; -- Equip: #2387 Una Clava Orchesca (Wield)
+M 0 2308 4 2342  ; Mob: #2308 Un orco guerriero di palude => #2342 Gironzolando per il Villaggio
+E 1 2386 25 16  ; -- Equip: #2386 Una Lancia Orchesca (Wield)
+M 0 2309 4 2342  ; Mob: #2309 Un orco guardiano di palude => #2342 Gironzolando per il Villaggio
+E 1 2387 25 16  ; -- Equip: #2387 Una Clava Orchesca (Wield)
+M 0 2307 5 2343  ; Mob: #2307 Un piccolo orco di palude => #2343 Gironzolando per il Villaggio
+E 1 2385 25 13  ; -- Equip: #2385 Una Cintura con Sacchetti Appesi (Waist)
+M 0 2307 5 2344  ; Mob: #2307 Un piccolo orco di palude => #2344 Gironzolando per il Villaggio
+M 0 2307 5 2345  ; Mob: #2307 Un piccolo orco di palude => #2345 La Grande Capanna
+M 0 2307 5 2346  ; Mob: #2307 Un piccolo orco di palude => #2346 Un Ponte di Corda
+E 1 2385 25 13  ; -- Equip: #2385 Una Cintura con Sacchetti Appesi (Waist)
+M 0 2308 4 2346  ; Mob: #2308 Un orco guerriero di palude => #2346 Un Ponte di Corda
+E 1 2386 25 16  ; -- Equip: #2386 Una Lancia Orchesca (Wield)
+M 0 2308 4 2347  ; Mob: #2308 Un orco guerriero di palude => #2347 La Fossa dei Rifiuti
+E 1 2386 25 16  ; -- Equip: #2386 Una Lancia Orchesca (Wield)
+M 0 2307 5 2348  ; Mob: #2307 Un piccolo orco di palude => #2348 L'Entrata della Capanna del Capo Orco
+M 0 2308 4 2348  ; Mob: #2308 Un orco guerriero di palude => #2348 L'Entrata della Capanna del Capo Orco
+E 1 2386 25 16  ; -- Equip: #2386 Una Lancia Orchesca (Wield)
+M 0 2309 4 2348  ; Mob: #2309 Un orco guardiano di palude => #2348 L'Entrata della Capanna del Capo Orco
+E 1 2387 25 16  ; -- Equip: #2387 Una Clava Orchesca (Wield)
+M 0 2310 1 2349  ; Mob: #2310 Un orco sciamano di palude => #2349 La Grande Capanna del Capo Orco
+E 1 2388 20 12  ; -- Equip: #2388 Una Pelliccia d'Orso (About)
+E 1 2389 10 6  ; -- Equip: #2389 Un Orecchino (Head)
+M 0 2311 1 2350  ; Mob: #2311 Il Capo degli Orchi di Palude => #2350 La Stanza Privata del Capo Orco
+E 1 2390 5 9  ; -- Equip: #2390 I Guanti del Capo Orco (Hands)
+E 1 2391 10 16  ; -- Equip: #2391 Una Massiccia Clava (Wield)
+M 0 2312 3 2351  ; Mob: #2312 Un Barbaro delle Pianure => #2351 Le Gelide Terre Desolate
+E 1 2392 20 4  ; -- Equip: #2392 Un Mantellino Rivestito di Pelo (Neck-2)
+E 1 2393 20 5  ; -- Equip: #2393 Una Tunica Rivestita di Pelo (Body)
+E 1 2360 20 8  ; -- Equip: #2360 Degli Stivali Pelosi (Feet)
+R 0 2351 4 ; Rand: #2351 Le Gelide Terre Desolate (4 exits)
+M 0 2314 3 2352  ; Mob: #2314 Un Verme del Ghiaccio => #2352 Le Gelide Terre Desolate
+R 0 2352 4 ; Rand: #2352 Le Gelide Terre Desolate (4 exits)
+M 0 2312 3 2354  ; Mob: #2312 Un Barbaro delle Pianure => #2354 Le Gelide Terre Desolate
+E 1 2392 20 4  ; -- Equip: #2392 Un Mantellino Rivestito di Pelo (Neck-2)
+E 1 2393 20 5  ; -- Equip: #2393 Una Tunica Rivestita di Pelo (Body)
+E 1 2360 20 8  ; -- Equip: #2360 Degli Stivali Pelosi (Feet)
+M 0 2314 3 2354  ; Mob: #2314 Un Verme del Ghiaccio => #2354 Le Gelide Terre Desolate
+R 0 2354 4 ; Rand: #2354 Le Gelide Terre Desolate (4 exits)
+M 0 2313 3 2355  ; Mob: #2313 Uno Yeti bianco => #2355 Le Gelide Terre Desolate
+E 1 2361 20 12  ; -- Equip: #2361 Una Pelliccia di Yeti bianco (About)
+R 0 2355 4 ; Rand: #2355 Le Gelide Terre Desolate (4 exits)
+M 0 2314 3 2356  ; Mob: #2314 Un Verme del Ghiaccio => #2356 Le Gelide Terre Desolate
+R 0 2356 4 ; Rand: #2356 Le Gelide Terre Desolate (4 exits)
+M 0 2313 3 2357  ; Mob: #2313 Uno Yeti bianco => #2357 Le Gelide Terre Desolate
+E 1 2361 20 12  ; -- Equip: #2361 Una Pelliccia di Yeti bianco (About)
+R 0 2357 4 ; Rand: #2357 Le Gelide Terre Desolate (4 exits)
+R 0 2358 4 ; Rand: #2358 Le Gelide Terre Desolate (4 exits)
+M 0 2312 3 2359  ; Mob: #2312 Un Barbaro delle Pianure => #2359 Le Gelide Terre Desolate
+E 1 2392 20 4  ; -- Equip: #2392 Un Mantellino Rivestito di Pelo (Neck-2)
+E 1 2393 20 5  ; -- Equip: #2393 Una Tunica Rivestita di Pelo (Body)
+E 1 2360 20 8  ; -- Equip: #2360 Degli Stivali Pelosi (Feet)
+M 0 2313 3 2359  ; Mob: #2313 Uno Yeti bianco => #2359 Le Gelide Terre Desolate
+E 1 2361 20 12  ; -- Equip: #2361 Una Pelliccia di Yeti bianco (About)
+R 0 2359 4 ; Rand: #2359 Le Gelide Terre Desolate (4 exits)
+M 0 2316 3 2362  ; Mob: #2316 Una Guardia => #2362 Innanzi al Cancello di Mahn-Tor
+E 1 2363 15 10  ; -- Equip: #2363 Copribraccia d'Acciaio (Arms)
+E 1 2364 15 7  ; -- Equip: #2364 Gambali d'Acciaio (Legs)
+E 1 2365 10 16  ; -- Equip: #2365 Una Pericolosa Ascia da Battaglia (Wield)
+D 0 2362 2 1  ; Door: #2362 Innanzi al Cancello di Mahn-Tor/South => closed
+M 0 2315 5 2363  ; Mob: #2315 Un Minotauro Cittadino => #2363 Per le Strade di Mahn-Tor
+E 1 2362 35 16  ; -- Equip: #2362 Una Lama Ricurva (Wield)
+M 0 2315 5 2364  ; Mob: #2315 Un Minotauro Cittadino => #2364 All'interno del Cancello di Mahn-Tor
+E 1 2362 35 16  ; -- Equip: #2362 Una Lama Ricurva (Wield)
+M 0 2315 5 2365  ; Mob: #2315 Un Minotauro Cittadino => #2365 Per le Strade di Mahn-Tor
+E 1 2362 35 16  ; -- Equip: #2362 Una Lama Ricurva (Wield)
+M 0 2316 3 2366  ; Mob: #2316 Una Guardia => #2366 Per le Strade di Mahn-Tor
+E 1 2363 15 10  ; -- Equip: #2363 Copribraccia d'Acciaio (Arms)
+E 1 2364 15 7  ; -- Equip: #2364 Gambali d'Acciaio (Legs)
+E 1 2365 10 16  ; -- Equip: #2365 Una Pericolosa Ascia da Battaglia (Wield)
+M 0 2315 5 2367  ; Mob: #2315 Un Minotauro Cittadino => #2367 La Piazza Centrale di Mahn-Tor
+E 1 2362 35 16  ; -- Equip: #2362 Una Lama Ricurva (Wield)
+M 0 2317 3 2367  ; Mob: #2317 Un Minotauro Guerriero => #2367 La Piazza Centrale di Mahn-Tor
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2367 15 6  ; -- Equip: #2367 Un Elmo d'Acciaio (Head)
+E 1 2368 10 16  ; -- Equip: #2368 Una Pesante Alabarda (Wield)
+M 0 2316 3 2368  ; Mob: #2316 Una Guardia => #2368 Per le Strade di Mahn-Tor
+E 1 2363 15 10  ; -- Equip: #2363 Copribraccia d'Acciaio (Arms)
+E 1 2364 15 7  ; -- Equip: #2364 Gambali d'Acciaio (Legs)
+E 1 2365 10 16  ; -- Equip: #2365 Una Pericolosa Ascia da Battaglia (Wield)
+M 0 2315 5 2370  ; Mob: #2315 Un Minotauro Cittadino => #2370 Il Negozio d'Oggettistica "Lo Zoccolo Duro"
+E 1 2362 35 16  ; -- Equip: #2362 Una Lama Ricurva (Wield)
+M 0 2325 1 2372  ; Mob: #2325 Gorak => #2372 La Stanza degli Allenamenti di Gorak
+E 1 2300 10 9  ; -- Equip: #2300 Un Paio di Guanti da Combattimento (Hands)
+E 1 2301 5 5  ; -- Equip: #2301 Un'Armatura Ricoperta di Punte (Body)
+E 1 2302 5 7  ; -- Equip: #2302 Un Paio di Gambali per Minotauri (Legs)
+E 1 2303 5 10  ; -- Equip: #2303 Un Paio di Parabraccia Neri (Arms)
+E 1 2304 3 16  ; -- Equip: #2304 Un Bastone Armato (Wield)
+M 0 2326 1 2373  ; Mob: #2326 Darkoth => #2373 Lo Studio di Darkoth
+E 1 2305 20 12  ; -- Equip: #2305 Un Mantello Nerastro (About)
+E 1 2306 15 4  ; -- Equip: #2306 Un Collare Ferroso (Neck-2)
+E 1 2307 5 9  ; -- Equip: #2307 Un Paio di Guanti Ricoperti da Punte (Hands)
+E 1 2308 10 11  ; -- Equip: #2308 Uno Scudo di Quercia (Shield)
+E 1 2309 3 16  ; -- Equip: #2309 La Spada detta: "La Portatrice d'Ombra" (Wield)
+M 0 2327 1 2374  ; Mob: #2327 Tyrgoth => #2374 Il Santuario di Tyrgoth
+E 1 2310 10 6  ; -- Equip: #2310 Un Elmo Dorato con Visiera (Head)
+E 1 2311 5 5  ; -- Equip: #2311 Una Corazza Dorata (Body)
+E 1 2312 15 4  ; -- Equip: #2312 Un Berretto di Seta (Neck-2)
+E 1 2313 20 11  ; -- Equip: #2313 Uno Scudo a Torre (Shield)
+E 1 2314 3 16  ; -- Equip: #2314 Una Pesante Mazza detta: "La Portatrice di Luce" (Wield)
+M 0 2317 3 2376  ; Mob: #2317 Un Minotauro Guerriero => #2376 Un Piccolo Posto di Guardia
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2367 15 6  ; -- Equip: #2367 Un Elmo d'Acciaio (Head)
+E 1 2368 10 16  ; -- Equip: #2368 Una Pesante Alabarda (Wield)
+M 0 2318 1 2377  ; Mob: #2318 Un Guardiano del Cancello => #2377 Innanzi al Palazzo di Mahn-Tor
+G 1 2350 1 ; -- Give:  #2350 La Chiave del Palazzo di Mahn-Tor
+D 0 2377 1 2  ; Door: #2377 Innanzi al Palazzo di Mahn-Tor/East => closed and locked
+M 0 2317 3 2378  ; Mob: #2317 Un Minotauro Guerriero => #2378 Una Piccola Torretta di Guardia
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2367 15 6  ; -- Equip: #2367 Un Elmo d'Acciaio (Head)
+E 1 2368 10 16  ; -- Equip: #2368 Una Pesante Alabarda (Wield)
+M 0 2319 2 2379  ; Mob: #2319 Una Minotauro Guardiano => #2379 L'Arco d'Accesso al Palazzo di Mahn-Tor
+E 1 2369 15 6  ; -- Equip: #2369 Un Elmo Blu con Visiera (Head)
+E 1 2370 15 7  ; -- Equip: #2370 Dei Gambali Blu (Legs)
+E 1 2371 15 10  ; -- Equip: #2371 Dei Copribraccia Blu (Arms)
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2372 10 16  ; -- Equip: #2372 Una Spada a DueMani (Wield)
+D 0 2379 3 2  ; Door: #2379 L'Arco d'Accesso al Palazzo di Mahn-Tor/West => closed and locked
+M 0 2319 2 2380  ; Mob: #2319 Una Minotauro Guardiano => #2380 Il Salone d'Entrata del Palazzo
+E 1 2369 15 6  ; -- Equip: #2369 Un Elmo Blu con Visiera (Head)
+E 1 2370 15 7  ; -- Equip: #2370 Dei Gambali Blu (Legs)
+E 1 2371 15 10  ; -- Equip: #2371 Dei Copribraccia Blu (Arms)
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2372 10 16  ; -- Equip: #2372 Una Spada a DueMani (Wield)
+M 0 2320 2 2382  ; Mob: #2320 Una Guardia del Palazzo => #2382 Il Grande Salone Reale
+E 1 2373 10 6  ; -- Equip: #2373 Un Elmo Rosso con Visiera (Head)
+E 1 2374 10 7  ; -- Equip: #2374 Dei Gambali Rossi (Legs)
+E 1 2375 10 10  ; -- Equip: #2375 Dei Copribraccia Rossi (Arms)
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2376 10 16  ; -- Equip: #2376 Un Glavo di Bronzo (Wield)
+M 0 2320 2 2383  ; Mob: #2320 Una Guardia del Palazzo => #2383 La Stanza del Trono di Mahn-Tor
+E 1 2373 10 6  ; -- Equip: #2373 Un Elmo Rosso con Visiera (Head)
+E 1 2374 10 7  ; -- Equip: #2374 Dei Gambali Rossi (Legs)
+E 1 2375 10 10  ; -- Equip: #2375 Dei Copribraccia Rossi (Arms)
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2376 10 16  ; -- Equip: #2376 Un Glavo di Bronzo (Wield)
+D 0 2383 1 1  ; Door: #2383 La Stanza del Trono di Mahn-Tor/East => closed
+M 0 2321 2 2385  ; Mob: #2321 Una Guardia di Mahn-Tor => #2385 Il Passaggio Segreto
+E 1 2377 5 6  ; -- Equip: #2377 Un Elmo Cremisi con Visiera (Head)
+E 1 2378 5 7  ; -- Equip: #2378 Dei Gambali Cremisi (Legs)
+E 1 2379 5 10  ; -- Equip: #2379 Dei Copribraccia Cremisi (Arms)
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2380 5 16  ; -- Equip: #2380 Una Mazza Ferrata (Wield)
+M 0 2321 2 2385  ; Mob: #2321 Una Guardia di Mahn-Tor => #2385 Il Passaggio Segreto
+E 1 2377 5 6  ; -- Equip: #2377 Un Elmo Cremisi con Visiera (Head)
+E 1 2378 5 7  ; -- Equip: #2378 Dei Gambali Cremisi (Legs)
+E 1 2379 5 10  ; -- Equip: #2379 Dei Copribraccia Cremisi (Arms)
+E 1 2366 15 5  ; -- Equip: #2366 Una Massiccia Corazza d'Acciaio (Body)
+E 1 2380 5 16  ; -- Equip: #2380 Una Mazza Ferrata (Wield)
+G 1 2359 1 ; -- Give:  #2359 Una Chiave Coperta di Rune
+D 0 2385 1 2  ; Door: #2385 Il Passaggio Segreto/East => closed and locked
+D 0 2386 3 2  ; Door: #2386 Le Stanze Reali Personali/West => closed and locked
+M 0 2324 1 2387  ; Mob: #2324 Kiloahn => #2387 Le Stanze della Guarnigione
+E 1 2381 20 17  ; -- Equip: #2381 Una Sorta d'Arma (Hold)
+E 1 2382 1 13  ; -- Equip: #2382 Un Mazzo di Chiavi Multicolore (Waist)
+E 1 2383 5 16  ; -- Equip: #2383 Un Pesante Maglio Legnoso (Wield)
+D 0 2388 1 2  ; Door: #2388 Le Stanze della Guarnigione/East => closed and locked
+D 0 2388 3 2  ; Door: #2388 Le Stanze della Guarnigione/West => closed and locked
+D 0 2389 1 2  ; Door: #2389 Le Stanze della Guarnigione/East => closed and locked
+D 0 2389 3 2  ; Door: #2389 Le Stanze della Guarnigione/West => closed and locked
+M 0 2329 1 2390  ; Mob: #2329 Sumaron => #2390 Il Santuario di Sumaron
+E 1 2320 15 12  ; -- Equip: #2320 Un Pesante Abito Lanoso (About)
+E 1 2321 5 3  ; -- Equip: #2321 Un Fermaglio Eburneo (Neck-1)
+E 1 2322 20 17  ; -- Equip: #2322 Un Manuale delle Arti Curative (Hold)
+E 1 2323 3 16  ; -- Equip: #2323 Una Pesante Mazza in Mithril (Wield)
+E 1 2324 15 4  ; -- Equip: #2324 Un Sacro Simbolo Dorato (Neck-2)
+M 0 2328 1 2391  ; Mob: #2328 Amyrok => #2391 Lo Studio Arcano di Amyrok
+E 1 2315 10 1  ; -- Equip: #2315 Un Paio d'Occhiali (Finger-L)
+E 1 2316 5 2  ; -- Equip: #2316 Un Anello Decorato (Finger-R)
+E 1 2317 5 12  ; -- Equip: #2317 Il Globo Minore dell'Invulnerabilità (About)
+E 1 2318 3 16  ; -- Equip: #2318 Una Nodosa Staffa Magica (Wield)
+E 1 2319 10 13  ; -- Equip: #2319 Una Cintura con Varie Tasche (Waist)
+D 0 2392 1 2  ; Door: #2392 Le Stanze della Guarnigione/East => closed and locked
+D 0 2392 3 2  ; Door: #2392 Le Stanze della Guarnigione/West => closed and locked
+M 0 2322 5 2393  ; Mob: #2322 Una Donna Schiava => #2393 L'Harem di Mahn-Tor
+M 0 2322 5 2393  ; Mob: #2322 Una Donna Schiava => #2393 L'Harem di Mahn-Tor
+M 0 2322 5 2393  ; Mob: #2322 Una Donna Schiava => #2393 L'Harem di Mahn-Tor
+M 0 2322 5 2393  ; Mob: #2322 Una Donna Schiava => #2393 L'Harem di Mahn-Tor
+M 0 2322 5 2393  ; Mob: #2322 Una Donna Schiava => #2393 L'Harem di Mahn-Tor
+M 0 2330 1 2394  ; Mob: #2330 Nasturn => #2394 La Modesta Stanza di Nasturn
+E 1 2325 10 1  ; -- Equip: #2325 Un Solido Anello Marmoreo (Finger-L)
+E 1 2326 10 15  ; -- Equip: #2326 Un Solido Bracciale Marmoreo (Wrist-R)
+E 1 2327 10 8  ; -- Equip: #2327 Degli Stivali da Passeggio (Feet)
+E 1 2328 10 12  ; -- Equip: #2328 Un Mantello Ghiacciato (About)
+E 1 2329 3 16  ; -- Equip: #2329 "Friigid", La Staffa di Ghiaccio (Wield)
+M 0 2323 1 2395  ; Mob: #2323 Un Minotauro Maggiordomo => #2395 Le Stanze Reali Personali
+M 0 2333 1 2396  ; Mob: #2333 Mahn-Tor => #2396 La Stanza da Letto del Sovrano
+E 1 2340 5 12  ; -- Equip: #2340 Un Globo dell'Invulnerabilità (About)
+E 1 2341 5 5  ; -- Equip: #2341 Una Nera Corazza Taurina (Body)
+E 1 2342 15 14  ; -- Equip: #2342 Uno Scudo Circolare (Wrist-L)
+E 1 2343 10 2  ; -- Equip: #2343 Un Anello Borchiato (Finger-R)
+E 1 2344 10 6  ; -- Equip: #2344 Un Elmo Cornuto (Head)
+E 1 2345 1 16  ; -- Equip: #2345 La Grande Ascia di Mahn-Tor (Wield)
+D 0 2397 1 2  ; Door: #2397 Le Stanze della Guarnigione/East => closed and locked
+M 0 2332 1 2398  ; Mob: #2332 Dorgar => #2398 La Stanza Sudicia di Dorgar
+E 1 2335 15 12  ; -- Equip: #2335 Una Sacca di Pelle (About)
+E 1 2336 10 6  ; -- Equip: #2336 Un Nero Cappuccio di Pelle (Head)
+E 1 2337 20 10  ; -- Equip: #2337 Un Paio di Maniche Nere di Pelle (Arms)
+E 1 2338 10 7  ; -- Equip: #2338 Un Paio di Calzoncini Neri di Pelle (Legs)
+E 1 2339 10 16  ; -- Equip: #2339 Una Maligna Spada Corta (Wield)
+D 0 2398 3 2  ; Door: #2398 La Stanza Sudicia di Dorgar/West => closed and locked
+M 0 2331 1 2399  ; Mob: #2331 Belrak => #2399 La Stanza Verde di Belrak
+E 1 2330 10 2  ; -- Equip: #2330 Un Anello di Legno Lavorato (Finger-R)
+E 1 2331 20 17  ; -- Equip: #2331 Il Corno della Vita (Hold)
+E 1 2332 10 13  ; -- Equip: #2332 La Cintura della Vita (Waist)
+G 1 2333 5 ; -- Give:  #2333 Una Pietra Insanguinata
+E 1 2334 3 16  ; -- Equip: #2334 Un'Arma Ricurva (Wield)
+S
+
+#SPECIALS
+M 2300 spec_cast_undead   ; Un Cavaliere Etereo
+M 2302 spec_breath_acid   ; Il Mostro della Cava
+M 2306 spec_poison   ; Un Mostro Paludoso
+M 2310 spec_cast_cleric   ; Un orco sciamano di palude
+M 2313 spec_breath_frost   ; Uno Yeti bianco
+M 2314 spec_breath_acid   ; Un Verme del Ghiaccio
+M 2324 spec_cast_mage   ; Kiloahn
+M 2326 spec_cast_undead   ; Darkoth
+M 2328 spec_cast_mage   ; Amyrok
+M 2329 spec_cast_cleric   ; Sumaron
+M 2330 spec_cast_cleric   ; Nasturn
+M 2333 spec_cast_mage   ; Mahn-Tor
+S
+
+
+#END

@@ -1,0 +1,632 @@
+#AREA
+Name         Arena di Darkhaven~
+Author       Rennard (Jamirithiana)~
+Color        AT_DRED rosso secco~
+Economy      0 0
+LevelRange   1 100
+ResetMsg1    Sento un clangore di spade contro spade causate dagli allenamenti.~
+Flags        AREAFLAG_ARENA AREAFLAG_SECRET AREAFLAG_NOTELEPORT~
+Vnums        34100 34125
+End
+
+
+#OBJECTS
+#34100
+arena stendardo~
+un imponente stendardo~
+Attira la tua attenzione un imponente stendardo.~
+~
+12 1 0
+0 0 0 0
+1 0 0
+
+#0
+
+
+#ROOMS
+
+#34100
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34101 0
+D1
+~
+~
+0 -1 34108 0
+D2
+~
+~
+0 -1 34107 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34101
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D1
+~
+~
+0 -1 34102 0
+D2
+~
+~
+0 -1 34100 0
+D5
+~
+~
+128 -1 34105 0
+D8
+~
+~
+0 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34102
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D1
+~
+~
+0 -1 34103 0
+D2
+~
+~
+0 -1 34108 0
+D3
+~
+~
+0 -1 34101 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34103
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D2
+~
+~
+0 -1 34104 0
+D3
+~
+~
+0 -1 34102 0
+D5
+~
+~
+128 -1 34107 0
+D9
+~
+~
+0 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34104
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34103 0
+D2
+~
+~
+0 -1 34105 0
+D3
+~
+~
+0 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34105
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34104 0
+D3
+~
+~
+0 -1 34106 0
+D4
+~
+~
+128 -1 34101 0
+D7
+~
+~
+0 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34106
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34108 0
+D1
+~
+~
+0 -1 34105 0
+D3
+~
+~
+0 -1 34107 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34107
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34100 0
+D1
+~
+~
+0 -1 34106 0
+D4
+~
+~
+128 -1 34103 0
+D6
+~
+~
+0 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n Applaude e rumoreggia la folla scalmanata degli spettatori..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34108
+L'Arena~
+Sei in piedi, al Centro dell'Arena.
+Il sangue sparso pulsa ai tuoi piedi e.. per poco non scivoli su questa massa
+melmosa.. Il forte odore di morte sovrasta ogni cosa, e proprio ora avverti la
+precisa consapevolezza di essere vulnerabile, attaccabile da ogni direzione..
+Rotei lo sguardo nell'ambiente, cercando la migliore tattica da intraprendere..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34102 0
+D1
+~
+~
+0 -1 34104 0
+D2
+~
+~
+0 -1 34106 0
+D3
+~
+~
+0 -1 34100 0
+D4
+~
+~
+128 -1 34110 0
+D5
+~
+~
+128 -1 34109 0
+D6
+~
+~
+0 -1 34103 0
+D7
+~
+~
+0 -1 34101 0
+D8
+~
+~
+0 -1 34105 0
+D9
+~
+~
+0 -1 34107 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n Applaude e rumoreggia la folla scalmanata degli spettatori..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+> speech_prog p return~
+if isfight($n)
+else
+  mptransfer $n 21001
+endif
+~
+|
+S
+
+#34109
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34111 0
+D4
+~
+~
+128 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34110
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D2
+~
+~
+0 -1 34111 0
+D5
+~
+~
+128 -1 34108 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34111
+L'Arena~
+Eccoti giunto nell'Arena, hai appena calpestato il suo pavimento..
+La folla ruggisce ed acclama dalle tribune superiori, ogni sguardo è
+puntato su te e sul tuo avversario..
+Tutti aspettano solo che la battaglia abbia inizio..
+~
+0 1076895756 1 0 0 0
+D0
+~
+~
+0 -1 34110 0
+D2
+~
+~
+0 -1 34109 0
+> death_prog 100~
+mpecho Il clamore di grida di incitamento ti attornia!
+mpechoaround $n Brandelli di carne e filamenti sanguinolenti ti ricoprono il corpo..
+mpechoaround $n La folla scalmanata degli spettatori applaude e rumoreggia..
+~
+> rand_prog 15~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+
+#34112
+L'Arena del Combattimento~
+Eccoti giunto ad un massiccio atrio in pietra, di fronte alla grande Arena.
+Le grida e i rumori assordanti della folla assemblata sulle tribune echeggiano
+attraverso i vari corridoi. Come te anche altri individui sono qua, riposano e
+attendono il loro turno in cerca di onori e bottini in Arena, oltre le grandi
+porte.. L'Arena è pericolosa e spesso le battaglie conducono alla morte, lo
+senti mormorare a bassa voce da tutti.. Pensaci bene allora, una volta
+oltrepassato l'atrio, non potrai più tirarti indietro..
+Se non hai mai combattuto in Arena prima, digita look "regole" e, non appena
+sarai pronto, attendi l'arrivo di un Immortale che ti assegnerà una Sala.
+~
+0 1076896776 1 0 0 0
+D4
+~
+~
+0 -1 34113 0
+D5
+~
+~
+0 -1 34114 0
+E
+regole~
+Le Regole del Combattimento in Arena
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1)  Tutti i duelli tra animi pacifici devono essere svolti da un Immortale
+    Creatore o superiore.
+
+2)  Tutti i duelli tra animi aggressivi devono essere svolti da un Immortale
+    Creatore o superiore.
+
+2)  Ogni combattimento dev'essere il frutto di accordo di entrambe le parti.
+
+3)  La possibilità di saccheggio reciproco dev'essere concordata prima del
+    duello ed è necessario il consenso di entrambe le parti.
+    (E' prevista la sorveglianza di un Immortale a tale scopo)
+
+4)  Una volta entrati nella Sala di Combattimento assegnata non c'è possibilità
+    di ritorno.
+
+5)  E' ovvio che alcune regole specificamente inerenti alle modalità di duello
+    dovranno essere affermate precedentemente da entrambi i partecipanti.
+
+6)  All'Immortale Sorvegliante spetta, in ogni caso, la decisione finale sul
+    combattimento.
+
+Determinate doglianze dovranno dirigersi al Conclave di Pkill e riporteranno:
+I partecipanti al duello, l'Immortale addetto alla Sorveglianza e i Motivi del
+reclamo. L'esposizione dei Logs sarà di aiuto per una rapida composizione della
+questione.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+~
+> rand_prog 20~
+mpecho Un lento recitativo annuncia dal basso:  "Due entrano.. uno ne uscirà.."
+~
+|
+S
+#34113
+L'Anticamera del Combattente~
+Ti trovi nell'anticamera dell'Arena, un atrio lungo e raccolto.
+Ovunque sono accatastate armature ed ogni sorta di armamento, a disposizione
+dei duellanti. Scegli bene il tuo equipaggiamento, dato che esso ti servirà
+nella lotta per la sopravvivenza..
+~
+0 3154952 1 0 0 0
+D0
+~
+~
+0 -1 34101 0
+D1
+~
+~
+0 -1 34103 0
+D2
+~
+~
+0 -1 34105 0
+D3
+~
+~
+0 -1 34107 0
+> entry_prog 100~
+if isadmin($n)
+or ismob($n)
+else
+  mpforce $n config -autoloot
+  mpforce $n channel +yell
+  mpechoat $n Non cambiare la configurazione dell'autoloot fino alla fine del duello.
+endif
+~
+> leave_prog 100~
+if isadmin($n)
+or ismob($n)
+else
+  mpecho Un coro eccitato di grida e rumori esplode nelle tue orecchie!
+  mpechoat $n Ti inchini profondamente verso la folla accalorata.
+  mpechoaround $n $n si inchina profondamente verso la folla accalorata.
+  if isclass($n) == CLASS_FIGHTER
+    mpforce $n yell Che il suo sangue fluisca sulla fredda pietra!
+  endif
+  if isclass($n) == CLASS_THIEF
+    mpforce $n yell Presto! Marchia la sua pelle con la tua lama!
+  endif
+  if isclass($n) == CLASS_MAGE
+    mpforce $n yell Di fulmini e saette magiche saremo spettatori! Coraggio!
+  endif
+  if isclass($n) == CLASS_DRUID
+    mpforce $n yell Che la mischia inizi!
+  endif
+  if isclass($n) == CLASS_WANDERING
+    mpforce $n yell Che il duello cominci!
+  endif
+  if isclass($n) == CLASS_NECROMANCER
+    mpforce $n yell Che inizi la caccia dei dannati! Onori a chi sopravviverà!
+  endif
+  if isclass($n) == CLASS_PRIEST
+    mpforce $n yell Che la tenzone abbia inizio!
+  endif
+endif
+~
+|
+S
+
+#34114
+Sala del Combattente~
+Ti trovi in una delle sale adibite alla vestizione dei combattenti, prima
+dell'Arena c'è da attraversare ancora un lungo atrio. Anche qui vedi ovunque
+accatastate armature ed ogni sorta di armamento, a disposizione
+dei duellanti. Scegli bene il tuo equipaggiamento, dato che esso ti servirà
+nella lotta per la sopravvivenza..
+~
+0 3154952 1 0 0 0
+D0
+~
+~
+0 -1 34102 0
+D1
+~
+~
+0 -1 34104 0
+D2
+~
+~
+0 -1 34106 0
+D3
+~
+~
+0 -1 34100 0
+> entry_prog 100~
+if isadmin($n)
+or ismob($n)
+else
+  mpforce $n config -autoloot
+  mpforce $n channel +yell
+  mpechoat $n Non cambiare la configurazione dell'autoloot fino alla fine del duello.
+endif
+~
+> leave_prog 100~
+if isadmin($n)
+or ismob($n)
+else
+  mpecho Un coro eccitato di grida e rumori esplode nelle tue orecchie!
+  mpechoat $n Ti inchini profondamente verso la folla accalorata.
+  mpechoaround $n $n si inchina profondamente verso la folla accalorata.
+  if isclass($n) == CLASS_FIGHTER
+    mpforce $n yell Che il suo sangue fluisca sulla fredda pietra!
+  endif
+  if isclass($n) == CLASS_THIEF
+    mpforce $n yell Presto! Marchia la sua pelle con la tua lama!
+  endif
+  if isclass($n) == CLASS_MAGE
+    mpforce $n yell Di fulmini e saette magiche saremo spettatori! Coraggio!
+  endif
+  if isclass($n) == CLASS_DRUID
+    mpforce $n yell Che la mischia inizi!
+  endif
+  if isclass($n) == CLASS_WANDERING
+    mpforce $n yell Che il duello cominci!
+  endif
+  if isclass($n) == CLASS_NECROMANCER
+    mpforce $n yell Che inizi la caccia dei dannati! Onori a chi sopravviverà!
+  endif
+  if isclass($n) == CLASS_PRIEST
+    mpforce $n yell Che la tenzone abbia inizio!
+  endif
+endif
+~
+|
+S
+
+#0
+
+
+#END

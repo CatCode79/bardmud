@@ -1,0 +1,32 @@
+#NOTE
+Sender      Sindaco~
+Date        Fri Dec 13 00:00:00 2002~
+To          All~
+Subject     SMAUG1.4a R4~
+Type        NOTE_BOARD
+Voting      VOTE_NONE
+VotesYes    ~
+VotesNo     ~
+Abstentions ~
+Text
+Spero vivamente che la vostra permanenza nella città di Darkhaven sia lunga e
+lieta!
+~
+End
+
+#NOTE
+Sender      Gatto~
+Date        Fri Dec 13 00:00:00 2002~
+To          Reveril~
+Subject     SMAUG1.4a R4~
+Type        NOTE_BOARD
+Voting      VOTE_NONE
+VotesYes    ~
+VotesNo     ~
+Abstentions ~
+Text
+Mra'! Mra'!
+~
+End
+
+#END

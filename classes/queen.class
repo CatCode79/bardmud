@@ -1,0 +1,11 @@
+#CLASS
+ClassNumber    CLASS_QUEEN
+NameMale       Regina~
+NameFemale     Regina~
+Color          AT_YELLOW giallo corona~
+PointsName     Vita Movimento Mana Anima~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AvarageAttr     0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+End
+
+#END

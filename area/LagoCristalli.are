@@ -1,0 +1,2634 @@
+#AREA
+Name         Il lago dei cristalli~
+Author       Strahd (Jamirithiana)~
+Color        AT_LCYAN azzurro~
+Economy      0 0
+LevelRange   5 45
+ResetMsg1    Avverto, lieve e perenne, il vento che increspa le acque vicine e lontane..
+ResetMsg2    Odo un suono, che pare il tintinnio dolcissimo di cristalli in movimento..~
+Vnums        10001 10082
+End
+
+
+#MOBILES
+#10001
+ragazza Lunyirlh elfica elfa~
+Lunyirlh~
+Una ragazza elfica canta una dolcissima canzone emulando il suono dei cristalli in movimento..~
+I suoi occhi blu brillano e ti fissano seguendo ogni tuo movimento. L'incarnato
+è delicato e diafano ma quanto più colpisce è l'oro bianco della sua chioma e i
+suoi riverberi sotto la luce naturale. Porta una veste intarsiata da bianca e
+folta pelliccia e merletti argentati orlano le maniche ed il colletto.
+~
+3 128 900 C
+45 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10002
+uomo figura cuwin~
+Cuwin~
+Un uomo è qui, gira il capo e ti fissa.~
+Capelli bianchi e radi ad incorniciare un viso arcigno e brutto, deturpato da
+gonfiori e rughe. Ha la pelle grigia e macchiata e il mento s'ingrossa sotto,
+producendosi in una molle pappagorgia.. Non ha nell'insieme un bell'aspetto..
+~
+97 128 -900 S
+12 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#10003
+individuo adwelek ranger sagoma figura~
+Adwelek~
+Un individuo dalla corporatura robusta è qui..~
+E' un mezz'elfo e probabilmente è un ranger. I possenti muscoli abbronzati
+guizzano ad ogni suo movimento, anche quello più naturale ed impercettibile.
+Ha l'aria di uno che ha viaggiato molto e che molte cose conosce..
+~
+65 128 900 C
+30 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10004
+qeamias figura ammantata uomo~
+Qeamias~
+Una figura ammantata è qui..~
+E' difficile scorgere i tratti somatici di quest'individuo: è completamente
+avvolto in un pesante manto scuro e porta un cappuccio sul capo..
+~
+67 512 -750 S
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#10005
+coltivatore uomo~
+un coltivatore~
+Un coltivatore agita rapidamente la falce tra le spighe..~
+Senza dubbio è un coltivatore: lo rivela l'abbigliamento e il viso abbronzato.
+~
+1 0 150 S
+10 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#10006
+uomo bracciante~
+un bracciante~
+Un bracciante è chino a raccogliere il grano.~
+Quest'uomo è molto occupato.. Non disturbarlo.
+~
+65 0 125 S
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+#10007
+barracuda pesce~
+un barracuda~
+C'è un grosso pesce che nuota attorno a te.. sembra affamato!~
+E' un barracuda, ha denti enormi ed.. è affamato!
+~
+35 0 20 C
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10008
+dragone coriaceo~
+un enorme dragone coriaceo~
+Sorpresa! C'è un enorme dragone coriaceo che ti fissa..~
+E' immenso! Possiede un enorme guscio come quello delle tartarughe.. Si muove
+con studiata lentezza e ad ogni movimento la sua corazza di scaglie lucide
+brilla mentre l'acqua scivola accarezzandone i colori sfumati tra il blu e il
+verde.. Sbuffa vapore dalle narici e gira i suoi grossi occhi tondi.. Ma che
+ci fai ancora qua?
+~
+99 8 -700 C
+27 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10009
+contadino uomo~
+un contadino~
+Un uomo è qui, di guardia..~
+Dall'abbigliamento capisci che è un contadino, ma è guardingo e sospettoso..
+~
+35 8 100 S
+7 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+#10010
+pesce strano colorato~
+uno strano pesce colorato~
+Uno strano pesce colorato nuota fendendo rapidamente l'acqua.~
+Appartiene ad una specie sconosciuta, probabilmente viene da molto lontano ed ha
+nuotato a lungo.. E ancora ne avrà di strada, a giudicare da come rapidamente si
+muove tra le acque..
+~
+65 0 200 C
+5 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10011
+hobgoblin piccolo~
+un piccolo hobgoblin~
+Un piccolo hobgoblin scruta in terra.. Sembra cercare qualcosa..~
+Ti vede e ti urla contro: "Dammi immediatamente la bacchetta di cristallo, stupido
+impiccione!"
+~
+69 0 -300 C
+6 12 6 6d6+60 2d4+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10012
+cervo bianco maschio splendido~
+uno splendido cervo bianco~
+Uno splendido cervo bianco ti guarda ondeggiando lievemente le orecchie..~
+E' proprio lui: lo splendido cervo bianco di cui parlano tante antiche leggende..
+~
+69 65536 -300 C
+17 12 6 6d6+60 2d4+0
+100 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10013
+gattino~
+un gattino bianco ~
+Acciambellato su se stesso un gattino bianco se la dorme pacificamente.~
+E' piccolino ancora.. Proprio un batuffolo di pelo!
+~
+65 0 300 C
+5 18 9 2d5+19 1d5+1
+250 0
+5 5 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10014
+grosso topo~
+un grosso topo~
+Un grosso topo è seminascosto tra le spighe, intento a rosicchiare il grano..~
+Magari se uccidi questo roditore il coltivatore apprezzerà..
+~
+5 0 -200 C
+5 17 6 3d4+48 1d8+0
+10 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+#10015
+topo campagna~
+un topo di campagna~
+Svirgola rapidamente tra i tuoi piedi un piccolo topo di campagna..~
+Piccino e grazioso, due occhi vispi e baffi sempre in movimento. E che coda
+lunga!
+~
+7 0 100 C
+4 19 9 2d4+10 1d4+0
+1 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+
+#0
+
+
+#OBJECTS
+#10001
+enorme guscio~
+un enorme guscio~
+Riverso in terra c'è un enorme guscio di dragone coriaceo.~
+~
+9 1 17 0
+14 0 0 0
+20 0 0
+E
+enorme guscio~
+Quello che ha d'incredibile questo guscio è il bel colore sfumato tra verde e
+blu.. Oltre alla sua grandezza!~
+#10002
+falce agricoltore affilata~
+una falce affilata~
+Un'affilata falce da agricoltore è stata lasciata qui.~
+~
+5 0 8193 0
+0 5 15 3
+10 0 0
+E
+falce affilata~
+Gli agricoltori con questa falciano le spighe mature.. ~
+#10003
+bacchetta cristallo blu~
+una bacchetta di cristallo blu~
+Noti in terra una bacchetta di cristallo blu.~
+~
+4 64 16385 0
+10 20 20 15
+5 0 0
+E
+bacchetta cristallo blu~
+Il suo corpo cilindrico reca la trasparenza del cristallo più puro e il colore
+del mare aperto: un blu intenso.. Ad una delle estremità una gemma sovrasta il
+bell'oggetto..
+~
+#10004
+bracciale argentato brillante argento~
+un bracciale d'argento brillante~
+Brilla in terra un bel bracciale argentato.~
+~
+9 512 4097 0
+7 0 0 0
+7 0 0
+E
+bracciale argentato brillante argento~
+Lucidissimo e in perfetto stato.
+~
+A
+1 1
+A
+14 15
+A
+13 1
+#10005
+largo braciere~
+un largo braciere~
+Sale ancora del fumo da un largo braciere lasciato qui, in terra..~
+~
+15 0 0 0
+10000 0 0 0
+1 0 0
+E
+largo braciere~
+C'è ancora della brace sotto.. E arde.
+~
+#10006
+chiave casa~
+una chiave ~
+Brilla in terra una chiave. Aprirà sicuramente l'uscio di una casa..~
+~
+18 0 1 0
+0 0 0 0
+2 0 0
+E
+chiave casa~
+Non c'è dubbio: è la chiave di una casa~
+#10007
+sbloccacardini attrezzo strano~
+uno strano attrezzo~
+C'è uno strano attrezzo in terra..~
+~
+18 0 1 0
+0 0 0 0
+2 0 0
+E
+sbloccacardini attrezzo strano~
+sembra qualcosa di simile ad uno sblocca-cardini..
+~
+#10008
+spada lunga argentata~
+una lunga spada argentata~
+In terra, tra la polvere, vedi brillare la lama di una lunga spada argentata.~
+~
+5 1024 8193 0
+0 5 20 1
+7 0 0
+E
+spada lunga argentata~
+E' molto bella e ben tenuta nonostante le impercettibili tacche sulla lama
+raccontino come essa abbia partecipato a numerose battaglie..~
+A
+13 3
+A
+24 5
+#10009
+tuta contadino~
+una tuta~
+Una larga tuta è stata lasciata qui.~
+~
+9 0 9 0
+5 0 0 0
+2 20 2
+E
+larga tuta contadino ~
+E' il tipico abbigliamento del contadino: pratico e resistente.
+~
+#10010
+mucchietto monete oro antiche~
+un mucchietto di antiche monete ~
+Sparpagliato sul pavimento c'è un mucchietto di antiche monete d'oro.~
+~
+20 0 1 0
+1000 0 0 0
+1 0 0
+E
+mucchietto antiche monete oro~
+Queste sono monete antiche ma che siano d'oro puro non c'è dubbio alcuno.
+~
+#10011
+mucchietto antiche monete oro~
+un mucchietto di antiche monete~
+Sparpagliato sul pavimento c'è un mucchietto di antiche monete d'oro.~
+~
+20 0 1 0
+1000 0 0 0
+1 0 0
+E
+mucchietto antiche monete oro~
+Queste sono monete antiche ma che siano d'oro puro non c'è dubbio alcuno.
+~
+#10012
+mucchio grano mucchi~
+un mucchio di grano~
+Tutt'intorno, in terra, mucchi di grano falciato di recente.~
+~
+19 0 1 0
+15 0 0 0
+8 22 2
+E
+mucchi mucchio grano~
+Ha il colore dell'oro del primo mattino e ogni spiga ne riporta delicatissime
+e differenti sfumature.. E che profumo!~
+#10013
+armatura cuoio duro~
+un'armatura di cuoio duro~
+Qualcuno ha lasciato qui un'armatura in cuoio duro.~
+~
+9 0 9 0
+2 0 0 0
+5 100 10
+#10014
+pugnale osso~
+un bel pugnale d'osso~
+Scorgi in terra un bel pugnale dall'impugnatura in osso.~
+~
+5 0 8193 0
+0 5 12 2
+5 0 0
+E
+pugnale osso~
+Il manico è decorato da intagli incisi con sapienza nell'osso che lo compone,
+mentre la lama è affilata e lievemente ricurva..
+~
+#10015
+lancia~
+una lancia~
+Una lancia lievemente scheggiata è stata lasciata qui.~
+~
+5 0 8193 0
+0 7 15 0
+20 0 0
+E
+lancia~
+La lama che sormonta il lungo braccio di legno è formata da vari ganci e punte..
+~
+#10016
+catasta pelli pezzi strana pelle veste~
+pezzi di strana pelle cuciti insieme~
+Una catasta di pelli giace in terra, abbandonata.~
+~
+9 0 9 0
+7 0 0 0
+10 0 0
+E
+catasta pelli pezzi strana pelle veste~
+Ma è una veste! Ed è fatta di pelli umane cucite assieme!~
+#10017
+elmo cuoio duro ferro~
+un elmo di ferro e cuoio~
+Un elmo in ferro e cuoio giace in terra, tra la polvere.~
+~
+9 0 17 0
+4 0 0 0
+4 0 0
+E
+elmo ferro cuoio~
+E' costruito da vari pezzi di cuoio duro tenuti insieme da spesse bande di ferro.
+~
+#0
+
+
+#ROOMS
+#10001
+L'alta roccia~
+Sei su un'alta roccia sotto la quale si estende una pacifica vallata..
+I fianchi delle montagne che incontrano il tuo sguardo sono dolcemente
+disegnati da fitte macchie boscose e la foresta dilaga tutt'intorno..
+L'azzurro terso del cielo sembra scivolare in ogni intersezione come
+fosse densa vernice.. C'è un cartello inchiodato su un vicino albero.
+~
+0 0 5
+D0
+Una parte del confine del Bosco Sacro.
+~
+~
+0 -1 8908
+D5
+Si apre alla tua vista un piccolo boschetto.
+~
+~
+0 -1 10002
+E
+cartello cart~
+***                               ***
+** Benvenuti al Lago dei Cristalli **
+***                               ***
+
+~
+S
+#10002
+Un boschetto~
+E' un incanto questo boschetto.. Musica di cristalli per ogni foglia che il
+vento muove con la sua carezza leggera.. Ed un canto s'unisce creando una
+melodia irresistibile..
+~
+0 0 3
+D2
+La foresta..
+~
+~
+0 -1 10029
+D3
+Ti sembra di scorgere i confini indefiniti di una cittadina..
+~
+~
+0 -1 10003
+D4
+Un'alta roccia scalabile.
+~
+~
+0 -1 10001
+S
+#10003
+Un sentiero nel bosco~
+Cammini tra due file di alberi che coi lunghi rami su cui si posano gli uccelli
+formano una tettoia di foglie. Il suono di cristalli tintinnanti che accompagnato
+da un canto dolcissimo misto alla fresca brezza che proviene dal lago lo rendono
+particolarmete gradevole.
+~
+0 0 1
+D1
+L'odoroso richiamo di un piccolo bosco..
+~
+~
+0 -1 10002
+D2
+Una strada all'interno della foresta.
+~
+~
+0 -1 10022
+D3
+Una spiaggetta circostante il lago.
+~
+~
+0 -1 10004
+S
+#10004
+La spiaggetta orientale del lago dei cristalli~
+Il blu profondo del cielo si specchia sulle calme acque del lago dei cristalli
+scurendosi nel riflesso leggero che ne affiora.. Fermo sulla parte orientale
+della spiaggetta circostante il lago scorri con lo sguardo alla foresta che ne
+segue il perimetro.. La spiaggia si estende ancora ad occidente ed a sud mentre
+a nord un sentiero si stira fra i campi fino a raggiungere un monte..
+
+~
+0 0 2
+D0
+Un sentiero costeggia il lago..
+~
+~
+0 -1 10007
+D1
+Poco distante c'è sicuramente una cittadina..
+~
+~
+0 -1 10003
+D2
+La spiaggetta continua..
+~
+~
+0 -1 10011
+D3
+Le acque calme e gelide del lago dei cristalli..
+~
+~
+0 -1 10005
+S
+#10005
+In mezzo al lago~
+Sei entrato in acqua.. Ed essa si è appena smossa per facilitare il tuo ingresso..
+Lievemente increspata in superficie torna subito a placarsi attorno a te.. Proprio
+come una sottilissima lastra di vetro azzurrato..
+~
+0 0 7
+D0
+La spiaggetta settentrionale.
+~
+~
+0 -1 10006
+D1
+La spiaggetta orientale.
+
+~
+~
+0 -1 10004
+D2
+La spiaggetta meridionale.
+~
+~
+0 -1 10010
+D3
+La spiaggetta occidentale.
+~
+~
+0 -1 10008
+D5
+Per quanto cristalline siano queste acque non è che te riesca a scorgere così
+bene il fondo del lago.. Eh!
+~
+~
+0 -1 10048
+S
+#10006
+La spiaggetta settentrionale del lago dei cristalli~
+Il blu profondo del cielo si specchia sulle calme acque del lago dei cristalli
+scurendosi nel riflesso leggero che ne affiora.. Fermo sulla parte orientale
+della spiaggetta circostante il lago scorri con lo sguardo alla foresta che ne
+segue il perimetro.. La spiaggia si estende ancora ad occidente ed a sud mentre
+a nord un sentiero si stira fra i campi fino a raggiungere un monte..
+
+~
+0 0 2
+D0
+La bionda distesa di un campo di grano maturo..
+~
+~
+0 -1 10014
+D1
+Un sentiero costeggia il lago..
+~
+~
+0 -1 10007
+D2
+Acqua.. Nient'altro che acqua..
+~
+~
+0 -1 10005
+D3
+Una viuzza costeggia la spiaggetta.
+~
+~
+0 -1 10009
+S
+#10007
+Il sentiero attorno al lago~
+Stai percorrendo il suolo umido ed erboso del sentiero che costeggia il lago.
+~
+0 0 2
+D0
+Un dorato campo di grano maturo.
+~
+~
+0 -1 10013
+D2
+La porzione orientale della spiaggetta che contorna il lago dei cristalli.
+~
+~
+0 -1 10004
+D3
+La porzione settentrionale della spiaggetta che circonda il lago dei cristalli.
+~
+~
+0 -1 10006
+S
+#10008
+La spiaggetta occidentale del lago dei cristalli~
+Il blu profondo del cielo si specchia sulle calme acque del lago dei cristalli
+scurendosi nel riflesso leggero che ne affiora.. Fermo sulla parte orientale
+della spiaggetta circostante il lago scorri con lo sguardo alla foresta che ne
+segue il perimetro.. La spiaggia si estende ancora ad occidente ed a sud mentre
+a nord un sentiero si stira fra i campi fino a raggiungere un monte..
+
+~
+0 0 2
+D0
+Una stradina costeggia la spiaggetta..
+~
+~
+0 -1 10009
+D1
+Le calme e ghiacciate acque del lago..~
+~
+0 -1 10005
+D2
+Un viottolo fiancheggia la spiaggetta..
+~
+~
+0 -1 10012
+D3
+Una stradina grezza s'inerpica su per la montagna..
+~
+~
+0 -1 10021
+S
+#10009
+Il sentiero attorno al lago~
+Stai percorrendo il suolo umido ed erboso del sentiero che costeggia il lago.
+~
+0 0 2
+D0
+Un'estesa vallata..
+~
+~
+0 -1 10015
+D1
+La sezione settentrionale della spiaggetta che costeggia il lago dei cristalli.
+~
+~
+0 -1 10006
+D2
+La sezione occidentale della spiaggetta che costeggia il lago dei cristalli.
+~
+~
+0 -1 10008
+D3
+Vedi il fondale del canyon.
+~
+~
+0 -1 10019
+S
+#10010
+La spiaggetta meridionale del lago dei cristalli~
+Il blu profondo del cielo si specchia sulle calme acque del lago dei cristalli
+scurendosi nel riflesso leggero che ne affiora.. Fermo sulla parte orientale
+della spiaggetta circostante il lago scorri con lo sguardo alla foresta che ne
+segue il perimetro.. La spiaggia si estende ancora ad occidente ed a sud mentre
+a nord un sentiero si stira fra i campi fino a raggiungere un monte..
+~
+0 0 2
+D0
+Eh.. Vedi acqua.. Solo acqua.
+~
+~
+0 -1 10005
+D1
+C'è un sentiero che costeggia la spiaggetta..
+~
+~
+0 -1 10011
+D2
+Un sentiero roccioso sparisce tra le pieghe della montagna..
+~
+~
+0 -1 10025
+D3
+C'è un viottolo che segue la spiaggetta..
+~
+~
+0 -1 10012
+S
+#10011
+Il sentiero lungo la spiaggetta~
+Calpesti speditamente la stradina ventilata che affianca la spiaggetta del lago.
+~
+0 0 2
+D0
+La sezione orientale della spiaggetta.
+~
+~
+0 -1 10004
+D1
+Una stradina s'inserisce nel folto della foresta..
+~
+~
+0 -1 10022
+D3
+La sezione meridionale della spiaggetta.
+~
+~
+0 -1 10010
+S
+#10012
+Il sentiero lungo la spiaggetta~
+Calpesti speditamente la stradina ventilata che affianca la spiaggetta del lago.
+~
+0 0 2
+D0
+La sezione occidentale della spiaggetta.
+~
+~
+0 -1 10008
+D1
+La sezione meridionale della spiaggetta.
+
+~
+~
+0 -1 10010
+S
+#10013
+Un campo di grano~
+La massa bionda del grano si muove al vento leggero e in mezzo ad essa alcuni
+individui falciano le spighe, altri le raccolgono e altri ancora setacciano i
+chicchi cascati tra le messi..
+
+~
+0 0 2
+D0
+Campi di grano..
+~
+~
+0 -1 10036
+D2
+Un sentiero fiancheggia la spiaggetta circostante il lago dei cristalli.
+~
+~
+0 -1 10007
+D3
+Campi di grano maturo..
+~
+~
+0 -1 10014
+S
+#10014
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 0 2
+D0
+Ancora campi di grano..
+~
+~
+0 -1 10031
+D1
+Ancora campi di grano..
+~
+~
+0 -1 10013
+D2
+Scorgi la spiaggetta circostante il lago dei cristalli.
+~
+~
+0 -1 10006
+D3
+Un'estesa vallata..
+~
+~
+0 -1 10015
+S
+#10015
+Aspromonte~
+Sebbene ancora immersa nella chiara vallata la montuosa escrescenza che domina
+questo luogo si staglia in modo brusco.. Contrastando la dolcezza dei pendii..
+A nord-ovest ed a sud-ovest i boschi assumono i colori caratteristici e caldi
+dell'autunno inoltrato: ogni cima d'albero è spruzzata di rosso e giallo..
+Il versante orientale invece conosce dei bagliori argentati delle fredde
+acque del lago dei cristalli, confondendosi spesso con un pezzo di cielo..
+A nord-est la valle prosegue nella sua docile pendenza mentre ad occidente
+entra in un canale circondato da siepi irte e rupi. Poco distante da qui, un
+gruppo di individui traina un carro giù per la via.. Non riesci a distinguere
+nettamente le loro fisionomie perchè vestono di lunghe e larghe tuniche e sul
+capo portano un cappuccio..
+~
+0 0 2
+D1
+Un immenso campo di grano.~
+~
+0 -1 10014
+D2
+C'è un sentiero che costeggia il lago.
+~
+~
+0 -1 10009
+D3
+Questa strada penetra all'interno della foresta.
+~
+~
+0 -1 10016
+S
+#10016
+Una strada nella foresta~
+La strada che percorri s'inserisce nel profondo della foresta.. C'è qualcosa di
+strano nell'aria qui ma non riesci ad individuare cosa. Il bosco e i suoi alberi
+sono gli stessi ma c'è una pesantezza nell'aria che avvolge e stringe anche la
+vegetazione che ti circonda.. E anche gli insetti tacciono..
+
+~
+0 0 3
+D0
+Un viottolo nella foresta.
+~
+~
+0 -1 10017
+D1
+La parte della vallata chiamata Aspromonte.
+~
+~
+0 -1 10015
+D2
+La vallata entra in un canale.
+~
+~
+0 -1 10019
+S
+#10017
+Un viottolo nella foresta~
+Il terreno su questo sentiero mostra tracce strane: forse orme di piedi, pesanti
+però, e non indicano un'andatura svelta quanto piuttosto un lento trascinarsi..
+E si tratta di orme recenti. Ma non senti poi che l'aria è carica di fumo denso?
+
+~
+0 0 3
+D2
+E' una strada. Percorre la foresta a ritroso.
+~
+~
+0 -1 10016
+D3
+Il viottolo continua da questa direzione.
+~
+~
+0 -1 10018
+S
+#10018
+Un accampamento~
+Questo luogo odora di bruciato.. Forse capelli, forse ossa.. Infatti l'aria è
+satura di fumo anche se non troppo denso.. Ed è per questo che vedi nettamente
+una pila di ossa sporgere da una pira ancora fumante..
+
+~
+0 0 3
+D1
+Un viottolo nella foresta.
+~
+~
+0 -1 10017
+S
+#10019
+Il canale~
+Alti e spessi muri di granito svettano da entrambi i lati del pavimento dello
+stretto canale.Una brezza frizzante fischia smuovendo le siepi irte.
+
+~
+0 0 0
+D0
+Una stradina nella foresta.
+~
+~
+0 -1 10016
+D1
+Un sentiero circonda il lago.
+~
+~
+0 -1 10009
+D2
+Una strada rocciosa s'inerpica su per la montagna.
+~
+~
+0 -1 10021
+D3
+Un canale..
+~
+~
+0 -1 10020
+S
+#10020
+Le cime gemelle~
+Maestose si mostrano a te le vette gemelle: Yiliwa e Xiliwa, erette a gettare la
+loro ombra protettiva sul Canal d'ombra mentre la valle montuosa, di fronte ad esse,
+ripete della flebile eco dei soavi canti della foresta..
+
+~
+0 0 0
+D1
+Il canale.
+~
+~
+0 -1 10019
+S
+#10021
+La cima sacra~
+Ne è valsa la pena scalare questa irta montagna.. Almeno per lo spettacolo, no?
+I fiammeggianti colori d'autunno dello scenario t'immergono e la fresca brezza
+ti solleva dolcemente i capelli. A sud-ovestsi staglia la cima imbiancata della
+cima sacra forando quasi il cielo sovrastante.. Di pieghe perfette i suoi apici
+come plasmata da due abili mani giganti intente a pigiarne i lati..
+~
+0 0 5
+D0
+La pavimentazione del canale.
+~
+~
+0 -1 10019
+D1
+La spiaggetta del lago.~
+~
+0 -1 10008
+D2
+La strada rocciosa da questa parte è in discesa.
+~
+~
+0 -1 10028
+S
+#10022
+Una strada nella foresta~
+Prosegue nell'interno della foresta questa strada sterrata e non proprio agevole..
+Il vento tiepido ti tiene compagnia durante la passeggiata, scuotendoti il viso
+di tanto in tanto..
+~
+0 0 0
+D0
+~
+~
+0 -1 10003
+D1
+La foresta..
+~
+~
+0 -1 10029
+D2
+Un robusto ponte di pietra.
+~
+~
+0 -1 10023
+D3
+Un sentiero costeggia una piccola spiaggia.
+~
+~
+0 -1 10011
+S
+#10023
+Il ponte di pietra~
+Ti fermi a guardare il limpido ruscello che scorre rapido al di sotto del
+ponte che ti sostiene.
+Questo è un ponte antico, fatto di pietra dura e resistente, legato da
+spesse corde.
+Ad ovest del ponte la strada si biforca ramificandosi a sud e ad ovest.
+~
+0 0 4
+D0
+Una strada all'interno della foresta.
+~
+~
+0 -1 10022
+D1
+La foresta.~
+~
+0 -1 10030
+D3
+Una strada s'inserisce nella foresta.
+~
+~
+0 -1 10024
+S
+#10024
+Una strada attraverso il bosco~
+Questa stradina polverosa scivola agilmente all'interno del bosco sfiorando le
+lunghe file di alberi che la costeggiano.. Le foglie smosse dalla delicata brezza
+scandiscono il tuo passo tenendoti compagnia in questo modo. La strada prosegue ad
+ovest verso la montagna.
+~
+0 0 3
+D1
+Un antico ponte di pietra.
+~
+~
+0 -1 10023
+D3
+Un sentiero roccioso s'inerpica sulla montagna.
+~
+~
+0 -1 10025
+S
+#10025
+Una strada di montagna~
+Proseguendo per questa strada rocciosa si comincia la scalata della montagna, infatti
+la lieve pendenza della stessa spinge il tuo respiro e l'aria si rinfresca man mano..
+Da nord odi il leggero sciabordio delle pacate acque del lago dei cristalli.
+~
+0 0 5
+D0
+Una piccola spiaggia circostante il lago dei cristalli.
+~
+~
+0 -1 10010
+D1
+Una strada attraversa il bosco.
+~
+~
+0 -1 10024
+D3
+La strada di montagna prosegue aumentando la sua pendenza..
+~
+~
+0 -1 10026
+S
+#10026
+Su per la montagna~
+Non sei proprio affaticato ma avverti la pendenza della strada che percorri, infatti
+ti stai arrampicando su per una montagna. Guardando in basso la vallata si estende
+immensa sotto di te, così come lo specchio d'acqua del lago dei cristalli..
+
+~
+0 0 5
+D1
+La strada rocciossa discende fino alla foresta.
+~
+~
+0 -1 10025
+D3
+La strada di montagna prosegue.
+~
+~
+0 -1 10027
+S
+#10027
+Su per la montagna~
+La pendenza della strada si fa sentire di più ora ma prosegui ancora speditamente.
+Guardando di sotto vedi le cime degli alberi della vallata ondeggiare flessuose al
+soffio del vento ed il lago dei cristalli splende e.. Da quest'altezza puoi quasi
+scrutarne il fondo attraverso le limpide acque..
+~
+0 0 5
+D0
+La strada di montagna prosegue ancora..
+~
+~
+0 -1 10028
+D1
+La strada di montagna è in discesa..
+~
+~
+0 -1 10026
+S
+#10028
+Su per la montagna~
+Hai quasi il fiatone ma non puoi fermarti adesso! L'aria è fresca a quest'altezza e
+ossigena il tuo organismo. Il vento frusta quasi ma non è fastidioso, anche se non è
+tiepido. Guardando di sotto la vallata si mostra nella sua bellezza estesa e il lago
+brilla increspando dolcemente le acque.
+
+~
+0 0 5
+D0
+La rocciosa strada di montagna prosegue per di qua..
+~
+~
+0 -1 10021
+D2
+La strada di montagna è in discesa, da questa parte.
+~
+~
+0 -1 10027
+S
+#10029
+Fra i boschi~
+Stai passeggiando fra quieti boschi, accompagnato dalla carezza tiepida del vento
+e dai bisbigli giocosi delle foglie..
+~
+0 0 3
+D0
+Un piccolo bosco.
+~
+~
+0 -1 10002
+D2
+La foresta.~
+~
+0 -1 10030
+D3
+Una strada nella foresta
+~
+~
+0 -1 10022
+S
+#10030
+Il bosco~
+Gli enormi alberi di queto bosco dominano la vegetazione del sentiero che attraversa
+la foresta confinante.. Scoiattoli sfrecciano velocissimi passandoti tra i piedi e
+tuffandosi poi nei folti cespugli delle basse siepi.. I rami degli alberi dondolano
+al comando del vento e gli uccelli innalzano canti al cielo intonando melodie sempre
+crescenti e fiori selvatici punteggiano alcune siepi spontanee dei loro tenui colori.
+~
+0 0 3
+D0
+La foresta.
+~
+~
+0 -1 10029
+D3
+Un antico ponte di pietra
+~
+~
+0 -1 10023
+S
+#10031
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D0
+E cosa vedi? Ancora estesi campi di grano..
+~
+~
+0 -1 10034
+D1
+Ancora campi di grano..
+~
+~
+0 -1 10036
+D2
+E cosa vedi? Ancora estesi campi di grano..
+~
+~
+0 -1 10014
+D3
+Ancora campi di grano..~
+~
+0 -1 10032
+S
+#10032
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D0
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10033
+D1
+Grano.. Ancora e ancora grano..~
+~
+0 -1 10031
+D2
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10038
+D3
+Ancora campi di grano..~
+~
+0 -1 10038
+S
+#10033
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D1
+E cosa vedi? Ancora estesi campi di grano..
+~
+~
+0 -1 10034
+D2
+Grano.. Ancora e ancora grano..
+~
+~
+0 -1 10032
+D3
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10037
+S
+#10034
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D1
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10035
+D2
+Grano.. Ancora e ancora campi di grano..
+~
+~
+0 -1 10031
+D3
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10033
+S
+#10035
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D1
+E cosa vedi? Ancora estesi campi di grano..
+~
+~
+0 -1 10038
+D2
+Ancora immense distese di grano..
+~
+~
+0 -1 10036
+D3
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10034
+S
+#10036
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D0
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10035
+D1
+Ancora immense distese di grano..
+
+~
+~
+0 -1 10037
+D2
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10013
+D3
+Ancora campi di grano..
+
+~
+~
+0 -1 10031
+S
+#10037
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D0
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10038
+D1
+Ancora immense distese di grano..
+
+~
+~
+0 -1 10033
+D2
+Una casa!
+
+~
+~
+0 -1 10039
+D3
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10036
+S
+#10038
+Un campo di grano~
+Un'immensa distesa di grano tagliato e sparpagliato disordinatamente lungo
+tutto il campo.. Emana un buon odore e solletica la vista con le sue dorate
+spighe. Rifletti.. Non è possibile che nessun contadino si curerà di tornare
+a raccoglierlo e stiparlo nei fienili: evidentemente la falciatura non è ancora
+terminata..
+
+~
+0 8192 2
+D0
+E cosa vedi? Ancora estesi campi di grano..
+~
+~
+0 -1 10032
+D1
+Ancora immense distese di grano..
+~
+~
+0 -1 10032
+D2
+E cosa vedi? Ancora estesi campi di grano..
+
+~
+~
+0 -1 10037
+D3
+Ancora immense distese di grano..
+
+~
+~
+0 -1 10035
+S
+#10039
+Una casa di contadini~
+Un'accogliente casa di contadini, senza dubbio. D'altra parte non è completamente
+immersa tra sconfinate distese di campi di grano? Dai un'occhiata in giro visto
+che sei qui, no?
+~
+0 0 0
+D0
+Campi di grano..
+~
+~
+0 -1 10037
+D1
+Il soggiorno della casa.
+~
+door~
+7 10006 10040
+S
+#10040
+Il soggiorno~
+Molto carino e confortevole quest'ambiente. Divanetto, camino, tavolino e una
+robusta credenza. Ma tu non vivi qui.. nè conosci la famiglia che vi abita..
+E allora cos'è che ci fai qui?
+~
+0 4 0
+D3
+La porta d'ingresso della casa.
+~
+~
+1 10006 10039
+D4
+Una bella scalinata di pietra.~
+~
+0 -1 10041
+S
+#10041
+In cima alle scale~
+Eccoti in cima alla gradinata di pietra. C'è un dipinto ad ornare la piccola parete
+del disimpegno.
+~
+0 8 0
+D0
+Quella dev'essere la camera da letto dei padroni di casa.
+~
+~
+0 -1 10042
+D1
+Un'altra camera da letto.
+~
+~
+0 -1 10043
+D5
+La gradinata di scale in discesa.
+~
+~
+0 -1 10040
+E
+dipinto~
+Raffigura un paesaggio invernale: i colori sono brillanti e caldi.
+~
+S
+#10042
+La camera da letto~
+Questa è la camera da letto dei padroni di casa. Semplice ma confortevole richiama
+nell'arredamento il tipico gusto rustico di chi vive in campagna. Qualche quadro alle
+pareti, una tinozza di porcellana su un treppiedi di ferro battuto, un mobiletto in
+legno smaltato e un antico letto d'ottone. C'è una porta chiusa ad est.
+~
+0 8 0
+D1
+Vedi la stanza da letto.
+~
+~
+3 -1 10044
+D2
+Vedi la cima delle scale.
+~
+~
+0 -1 10041
+E
+dipinti~
+Motivi floreali dai tenui colori pastello..~
+S
+#10043
+La seconda camera da letto~
+Questa camera da letto sicuramente è utilizzata per gli ospiti. Il mobilio ricorda
+il gusto tipico dell'ospitalità della gente di campagna: un letto in legno, qualche
+quadretto alle pareti, un tappeto circolare al centro ed un piccolo armadio in un
+angolo. C'è una porta chiusa a sud.
+~
+0 8 0
+D2
+Una porta chiusa.
+~
+door~
+3 -1 10082
+D3
+La cima della gradinata di pietra.
+~
+~
+0 -1 10041
+E
+quadretti~
+Allegre riproduzioni della campagna durante le quattro stagioni.
+
+~
+S
+#10044
+Nel ripostiglio~
+Ma bene! Sei in piedi dentro il ripostiglio e a stento riesci a muoverti perchè
+le pareti della piccola stanza sono ricoperte di mensole piene di roba: dalla
+biancheria alle vettovaglie. Un lucernaio rischiara appena l'ambiente.. OPSSSS!
+La porta si è appena chiusa alle tue spalle. E ora?
+
+
+~
+0 8 0
+D3
+Ma guarda.. è una porta chiusa!
+~
+~
+7 10007 10042
+E
+mensole~
+Piene zeppe di roba ben stipata: biancheria, piatti impilati, pentole, attrezzi
+da lavoro..
+~
+E
+lucernaio~
+E' attraverso di esso che passa quel filo di luce che ti consente di vedere che..
+Sei chiuso in un ripostiglio!~
+S
+#10048
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera..
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10055
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10049
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10051
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10053
+D4
+La superficie del lago.. Risali su.
+~
+~
+0 -1 10005
+S
+#10049
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10056
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10058
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10050
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10048
+S
+#10050
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10049
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10059
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10061
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10051
+S
+#10051
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10048
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10050
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10062
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10052
+S
+#10052
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10053
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10051
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10063
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10065
+S
+#10053
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10054
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10048
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10052
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10066
+S
+#10054
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10069
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10055
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10053
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10067
+S
+#10055
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10070
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10056
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10048
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10054
+S
+#10056
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10071
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10057
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10049
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10055
+S
+#10057
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10072
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10067
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10058
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10056
+S
+#10058
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10057
+D1
+Trattieni ancora il fiato! Quello è un passaggio!
+~
+~
+0 -1 10073
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10059
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10049
+S
+#10059
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10058
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10060
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10050
+S
+#10060
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10059
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10064
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10072
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10061
+S
+#10061
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10050
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10060
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10071
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10062
+S
+#10062
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10051
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10061
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10070
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10063
+S
+#10063
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10052
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10062
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10069
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10064
+S
+#10064
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!!
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10065
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10063
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10068
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10060
+S
+#10065
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10066
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10052
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10064
+D3
+Cosa? Non riesci a crederci.. E' un passaggio!
+~
+~
+0 -1 10074
+S
+#10066
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10067
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10053
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10065
+S
+#10067
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10068
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10054
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10066
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10057
+S
+#10068
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi.. Ma guarda ad
+est c'è qualcosa! Una spaccatura nella roccia?
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10064
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10069
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10067
+D3
+Coraggio.. quella è una spaccatura nella roccia! Non mollare ora, nuota!
+~
+~
+0 -1 10077
+S
+#10069
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10063
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10070
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10054
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10068
+S
+#10070
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10062
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10071
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10055
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10069
+S
+#10071
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10061
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10072
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10056
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10070
+S
+#10072
+Sott'acqua~
+Sei sott'acqua ed è piuttosto buio.. Trattieni il respiro e dosalo con parismonia,
+espirando lentamente e ad intervalli regolari, che ne avrai bisogno.. Riesci a vedere
+la superficie del lago alzando il capo: è liscia e compatta come una lastra di vetro,
+mentre il fondo è morbido di erbe e sabbia leggera.. Attento che l'aria nei tuoi
+polmoni sta cominciando a scarseggiare.. Forse è il caso di risalire in superficie!
+Oddio hai bisogno urgente di respirare ORA!! Stai per perdere i sensi..
+~
+0 1 0
+D0
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10060
+D2
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+
+~
+~
+0 -1 10057
+D3
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10071
+S
+#10073
+Una grotta sott'acqua~
+E' una caverna sott'acqua e pare che là dentro si respiri agevolmente perchè l'acqua
+è bassa e c'è aria in superficie. Solo che l'ingresso è ostruito da una pietra..
+~
+0 1 0
+D3
+E che vedi? Acqua e fondale oscuro..
+
+~
+~
+0 -1 10058
+E
+pietra roccia~
+Non c'è modo di spostare la pietra.. Cambia programma.
+~
+S
+#10074
+Un passaggio sott'acqua~
+Questo stretto passaggio è immerso nell'acqua ma non ha soffocato del tutto alcune
+sacche d'aria che ondeggiano tra il soffitto e il pelo dell'acqua sottostante..
+Forse non è una buona idea proseguire ma magari hai bisogno di riprendere aria..
+~
+0 1 0
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10065
+D3
+Buio..
+~
+~
+0 -1 10075
+S
+#10075
+Un passaggio sott'acqua~
+Questo tratto del passaggio è completamente privo d'acqua e si respira perfettamente
+e questo è molto strano.. Le sacche d'aria hanno ingoiato l'acqua riducendola ad una
+scarsa pozza sul fondo del budello.. C'è qualcosa di strano davvero, non è logico!
+
+~
+0 1 0
+D1
+Il primo tratto del passaggio sott'acqua.
+~
+~
+0 -1 10074
+D2
+La grossa bocca di una caverna..
+~
+~
+0 -1 10076
+S
+#10076
+La tana di un dragone coriaceo~
+Questa caverna è immensa! Per metà è allagata dall'acqua ma ci si muove agevolmente
+e non manca il respiro.. Un'alta pila di ossa è stipata disordinatamente in un angolo
+e le pareti rocciose presentano numerosi graffi e lacerazioni profonde all'interno..
+
+~
+0 1 0
+D0
+Un tratto di passaggio sott'acqua.
+~
+~
+0 -1 10075
+E
+ossa~
+Molte di queste ossa sono scheletri di pesci.
+Ma molte altre appartengono a scheletri di persone..~
+S
+#10077
+Una spaccatura nella roccia~
+E' proprio uno squarcio largo e profondo.. Sarà stato causato da un terremoto o
+da qualche altro evento naturale. E' abbastanza largo da passarci attraverso ma
+sembra che nella prosecuzione si restringa.. Che fai ci entri?
+~
+0 1 0
+D1
+E che vedi.. Il fondale è scuro e l'acqua non aiuta..
+~
+~
+0 -1 10068
+D3
+Una stretta galleria.
+~
+~
+0 -1 10078
+S
+#10078
+Una stretta galleria~
+Un piccolo tunnel subacqueo prosegue nelle profondità della montagna,
+nonostante l'oscurità del luogo una flebile luce filtra dal fondale
+fangoso, verso est.~
+0 1 0
+D0
+Quello sembra un nido di pesce..
+~
+~
+0 -1 10080
+D1
+Una larga spaccatura nella roccia.
+~
+~
+0 -1 10077
+D2
+La stretta galleria prosegue.
+~
+~
+0 -1 10079
+S
+#10079
+La fine della stretta galleria~
+La stretta galleria subacquea qui termina. Non c'è nulla a parte fanghiglia e
+piccole sacche d'aria a galleggiare sull'acqua che qui è lievemente più alta..
+~
+0 1 0
+D0
+Una stretta galleria.
+~
+~
+0 -1 10078
+S
+#10080
+L'ingresso di un nido~
+Sembra l'ingresso di un nido di qualche specie marina. Noti che l'acqua qui è
+particolarmente scura e densa..
+~
+0 1 0
+D0
+Ahi ahi.. Questo è il nido di un barracuda!
+~
+~
+0 -1 10081
+D2
+Una stretta galleria.~
+~
+0 0 10078
+S
+#10081
+Un grosso nido d'alga~
+Sei finito nella tana di un barracuda. Non sembra felice della tua presenza e
+ora si prepara per la sua prossima mossa.
+~
+0 1 0
+D2
+L'ingresso del nido.~
+~
+0 -1 10080
+S
+#10082
+Uno sgabuzzino~
+Una piccola stanza adibita a sgabuzzino per gli attrezzi e le conserve della casa.
+La luce arriva da un lucernaio sul soffitto.
+~
+0 0 0
+D0
+Una porta chiusa.
+~
+door~
+3 -1 10043
+S
+#0
+
+
+#RESETS
+M 1 10001 1 10002
+E 1 10013 14 5
+E 1 10003 14 17
+M 1 10003 1 10002
+E 1 10013 15 5
+E 1 10008 15 16
+M 1 10007 16 10005
+M 1 10010 40 10006
+M 1 10010 40 10010
+M 1 10005 1 10013
+E 1 10009 10 5
+E 1 10002 10 16
+M 1 10006 10 10013
+E 1 10009 5 5
+M 1 10004 10 10015
+E 1 10017 7 6
+E 1 10016 7 5
+E 1 10015 7 16
+M 1 10012 1 10016
+O 1 10005 1 10018
+P 1 10004 1 10005
+M 1 10011 17 10022
+M 1 10011 17 10023
+M 1 10010 40 10026
+M 1 10011 17 10027
+M 1 10011 17 10029
+M 1 10002 1 10030
+E 1 10013 12 5
+E 1 10014 12 16
+M 1 10014 7 10031
+R 1 10031 4
+R 1 10032 4
+R 1 10033 4
+M 1 10015 3 10034
+R 1 10034 4
+O 1 10012 1 10034
+M 1 10014 7 10035
+R 1 10035 4
+R 1 10036 4
+O 1 10012 1 10036
+M 1 10015 3 10037
+R 1 10037 4
+M 1 10014 7 10038
+R 1 10038 4
+O 1 10012 1 10038
+M 1 10009 2 10039
+G 1 10006 0
+D 1 10039 1 2
+O 1 10007 1 10042
+D 1 10042 1 1
+M 1 10013 2 10043
+D 1 10043 2 1
+D 1 10044 3 2
+M 1 10010 40 10049
+R 1 10050 4
+M 1 10010 40 10051
+M 1 10010 40 10053
+R 1 10053 4
+M 1 10010 40 10055
+R 1 10056 4
+M 1 10007 16 10057
+R 1 10060 4
+M 1 10010 40 10061
+M 1 10010 40 10064
+M 1 10007 16 10066
+M 1 10010 40 10067
+M 1 10007 16 10069
+M 1 10010 40 10073
+M 1 10008 1 10076
+G 1 10010 0
+E 1 10001 20 12
+M 1 10010 40 10078
+M 1 10007 16 10079
+M 1 10007 16 10081
+D 1 10082 0 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  10001 spec_cast_adept
+M  10008 spec_breath_gas
+S
+
+
+#END

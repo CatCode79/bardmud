@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_DROW
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Drow~
+NameFema       Drow~
+Color          AT_BLACK black~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -5   -5  -5   10  10  0    10  5  5    0    5   5   -5   5  -5
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus       -10   10     5     10    5     0
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_INFRARED AFFECT_SCRYING~
+Resist         RIS_POISON~
+Suscept        ~
+* Conosce il drow e il comune
+LangNatural    LANGUAGE_COMMON LANGUAGE_DROW~
+* Può imparare di tutto, tranne le lingue degli animali come roditori e insettivori, inutili bestie, il trollese è troppo stupido per loro come per i loro cugini, avis è fuori dalla loro abitudini mentali, l'aria, vivendo sottoterra
+LangLearnable  LANGUAGE_ELVEN LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_MAMMAL LANGUAGE_REPTILE LANGUAGE_DRAGON LANGUAGE_GOBLIN LANGUAGE_ANCIENT LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_MARINE LANGUAGE_TREELEAF~
+AlignStart    -500
+MinAlign      -1000
+MaxAlign       250
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        108
+Height         170
+Weight         60,000
+TonalitySound  voce sottile~
+Tonality       75
+HungerMod      0
+ThirstMod      -1
+SavingThrow    0 0 0 0 0
+End
+
+#END

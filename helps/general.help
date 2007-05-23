@@ -1,0 +1,2764 @@
+#HELP
+KeywordItalian abilità incantesimi~
+KeywordEnglish skills spells slist~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tskills
+&YSintassi&w:  °Tslist
+
+Ogni giocatore ha diverse &gabilità&w ed &gincantesimi&w che può apprendere,
+usando il comando °Tskills ti sarà mostrato un elenco delle abilità che puoi 
+apprendere, ed un elenco delle Abilità e Incantesimi che potrai apprendere
+prossimamente.
+~
+ToSee          practice~
+End
+
+#HELP
+KeywordItalian accendi~
+KeywordEnglish light~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tlight <&gpipa&w>
+
+Questo comando ti permette di accendere la tua pipa, una volta accesa l'erba
+continuerà a bruciare fino a che non si esaurisce o finchè non svuoti la pipa.
+~
+ToSee          fill tamp smoke empty~
+End
+
+#HELP
+KeywordItalian affetto 'affetto da'~
+KeywordEnglish affected 'affected by'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Taffected
+&YSintassi&w:  °Taffected &gda&w
+
+Il comando °Taffected ti mostra tutti gli incantesimi (e gli effetti delle
+abilità) a cui è sottoposto il tuo personaggio.
+Di ogni incantesimo ti verrà mostrato solo il nome, se vuoi sapere cosa fa
+un incantesimo digita °Thelp '&gnome incantesimo&w'.
+
+Quando il tuo personaggio raggiungerà un certo livello di esperienza avrai
+modo di vedere anche il tempo di durata dell'incantesimo e a cosa è
+suscettibile, resistente o immune.
+
+Il comando °Taffected &gda&w mostra gli incantesimi dati dall'equipaggiamento
+sul proprio personaggio separandoli dalla normale lista, questo è utile per
+assicurarsi che questi incantesimi stiano funzionando in quel momento.
+Per esempio, se stai indossando un visore che riesce a scovare l'invisibile
+ma °Taffected &gda&w non lo mostra, il tuo personaggio non sta vedendo
+l'invisibile.
+~
+End
+
+#HELP
+KeywordItalian aiuto nuovo novizio~
+KeywordEnglish help new newbie~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Se sei nuovo di &RT&Yerra &RS&Yecunda&w, qui ci sono alcuni aiuti che ti 
+assisteranno per prendere confidenza con il nostro &WMondo&w.
+
+&GParola&w:         &GDescrizione&w:
+&WGUIDA         &w- Mostra come usare la &BGuida&w degli Avventurieri.
+&WREGOLE        &w- Mostra le &RRegole&w del Mud.
+&WCONFIGURA     &w- Mostra come usare il menu di &Gconfigurazione&w.
+&WSTATO         &w- Mostra come interpretare le caratteristiche della tua &Yscheda&w.
+&WMOVIMENTO     &w- Mostra vari comandi per &Omuoverti&w nel Mud.
+&WOGGETTI       &w- Mostra vari comandi per usare il tuo &gequipaggiamento&w.
+&WCONTENITORI   &w- Mostra come usare i &ccontenitori&w.
+&WCANALI        &w- Mostra come &Pcomunicare&w con altri giocatori.
+&WGRUPPO        &w- Mostra come &Cgruppare&w con altri giocatori.
+&WCOMBATTIMENTO &w- Mostra come ingaggiare e finire un &Rcombattimento&w.
+&WMORTE         &w- Mostra cosa succede quando &zmuori&w nel Mud.
+&WPRATICA       &w- Mostra &BIncantesimi&w, &RAbilità&w e &CArmi&w.
+&WINFORMAZIONI  &w- Mostra come avere certe &Winformazioni&w.
+
+Scrivi °Thelp <&gparola&w> per saperne di più su ognuna di queste cose.
+~
+End
+
+#HELP
+KeywordItalian alias unalias~
+KeywordEnglish alias unalias~
+Type           HELPTYPE_OPTION
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Talias <&gabbreviazione&w> <&gcomando&w>
+&YSintassi&w:  °Talias <&gabbreviazione&w>
+
+Il comando °Talias permette di creare delle abbreviazioni di una o più
+lettere per comandi o lunghe stringhe di testo usati frequentemente.
+Esempio: °Talias bless °Tcast &gbless&w
+In questo modo quando tu scriverai "bless" sarà inviato al mud il comando
+completo che lancia questo incantesimo.
+Ad ogni alias può essere assegnato un solo comando.
+
+Per cancellare un alias basta scrivere °Talias seguito dall'abbreviazione
+di quello che si desidera rimuovere.
+
+Scrivendo °Talias senza argomenti, ti sarà mostrata una lista degli alias
+da te creati.
+Gli alias vengono salvati quando esci dal gioco.
+~
+End
+
+#HELP
+KeywordItalian apri chiudi blocca sblocca spranga spalanca~
+KeywordEnglish open close lock unlock bolt unbolt~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Topen   <&goggetto&w|&gdirezione&w>
+&YSintassi&w:  °Tclose  <&goggetto&w|&gdirezione&w>
+&YSintassi&w:  °Tlock   <&goggetto&w|&gdirezione&w>
+&YSintassi&w:  °Tunlock <&goggetto&w|&gdirezione&w>
+&YSintassi&w:  °Tbolt   <&gdirezione&w>
+&YSintassi&w:  °Tunbolt <&gdirezione&w>
+
+Durante la tua vita in queste terre ti troverai molte porte davanti, potranno
+essere aperte o chiuse od anche sbarrate.
+
+Per poter aprire una porta il comando che dovrai usare è °Topen, mentre se
+la porta vuoi chiuderla alle tue spalle per lasciare fuori gli altri dovrai
+scrivere °Tclose.
+Ma non sempre potrai semplicemente aprire e chiudere una porta, a volte
+ti potrai trovare davanti a porte sbarrate e per poterle aprire avrai bisogno
+dela chiave giusta.
+Una volta che avrai trovato la chiave non dovrai fare altro che scrivere
+°Tunlock (avendo cura di tenere la chiave nell'inventario) e la serratura si
+sbloccherà permettendoti di aprire la porta, se invece vuoi chiudere a chiave
+la porta della tua cassaforte il comando da usare è °Tlock.
+Ovviamente ci sono anche altre abilità che ti possono permettere di forzare una
+porta senza bisogno della chiave, vedi ad esempio °Thelp '&gpick lock&w,
+°Thelp °Tbash, ma non tutti hanno tali capacità e quindi dovranno cercare la
+chiave.
+
+Un'altra cosa che puoi fare è bloccare una porta con l'ausilio di un chiodo o
+di un oggetto simile, per poter fare questo (avendo un chiodo od un oggetto
+simile nell'inventario) puoi usare il comando °Tbolt per bloccare la porta,
+se poi volessi successivamente  rimuovere il chiodo per sbloccarla il
+comando è °Tunbolt.
+~
+ToSee          'pick lock' bash knock~
+End
+
+#HELP
+KeywordItalian aree~
+KeywordEnglish areas~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tareas
+
+Il comando °Tareas mostra in ordine alfabetico una lista di tutte le aree
+del gioco, insieme all'autore e al grado di difficoltà per te di ogni area.
+~
+End
+
+#HELP
+KeywordItalian attacker attackerflag attackerflags~
+KeywordEnglish attacker attackerflag attackerflags~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&PAttacker &Wflags are automatically given by the mud code to players
+who engage in illegal attacks upon other players. These attacks can
+initiated by using °Tmurder, casting an attack spell, or ordering
+followers to attack a player. Deadlies attacking Deadlies do not
+receive Attacker Flags. These flags are only given out in situations
+that involve Peaceful players, i.e. Deadlies attacking Peacefuls,
+(or vice versa), or Peacefuls attacking Peacefuls. You will be
+tagged with an &PAttacker &Wflag if:
+
+  1. You attempt to MURDER another player, or they attempt to
+  MURDER you. (See &C°Thelp Murder &Wand &GLaws Pkill &Wfor more info
+  on attacking other players).
+
+  2. You order charmed mobiles or pets to attack a player, or you
+  are attacked by another players mobiles. (See &C°Thelp Charm &Wor
+  &CHelp Pets &Wfor more info)>
+
+  3. You are a &RDeadly &Wplayer and attacked a fellow Clanmember.
+
+&WDarkhaven Guards, shopkeepers and special function mobs now respond
+differently to illegal flags. You may find yourself barred from making
+purchases, placed before Judge Kendra for a hearing, or sentenced to
+jail. Should you acquire an &PAttacker &Wor any other illegal activity
+flag, see Judge Kendra in Townhall. Her Honour is located one west of
+the Main Lobby (See &CHelp Townhall &Wfor info).
+~
+End
+
+#HELP
+KeywordItalian autofuga~
+KeywordEnglish wimpy~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Twimpy
+&YSintassi&w:  °Twimpy <&gvalore&w>
+
+Questo comando serve ad impostare la modalità °Twimpy, cioè il limite
+di punti ferita  sotto i quali puoi scendere prima di tentare di scappare
+automaticamente da  uno scontro.
+
+Scrivendo °Twimpy il valore verrà settato a circa il 20% dei tuoi massimi
+punti ferita, mentre scrivendo °Twimpy <&gvalore&w> potrai impostare 
+l'autofuga a quanto desideri (non puoi superare l'85% dei tuoi punti
+ferita), mentre se setterai l'autofuga a 0 (zero) in pratica la disattiverai.
+
+Alcuni mostri possono avere l'autofuga impostata.
+~
+ToSee          flee~
+End
+
+#HELP
+KeywordItalian bacheca bacheche~
+KeywordEnglish board boards~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Le bacheche si potranno trovare un po' ovunque sul mud, dove potrete postare
+o leggere delle note riguardanti vari argomenti.
+
+Usare °Tnote &glist&w per vedere quali note sono state postata sulla bacheca.
+Scrivere °Thelp °Tnote per avere maggiori informazioni riguardo l'uso delle
+note.
+
+L'ufficio postale è situato presso Piazza del Mercato a Darkhaven.
+Scrivere °Thelp °Tmail per avere dettagliate informazioni sul funzionamento
+dell'uficio postale.
+~
+End
+
+#HELP
+KeywordItalian banca bilancio deposita preleva trasferisci azioni~
+KeywordEnglish bank~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbank &gbilancio&w
+           °Tbank &gdeposita #&w
+           °Tbank &gpreleva #&w
+           °Tbank &gtrasferisci #&w &Rnome&w
+           °Tbank &gcompra #&w
+           °Tbank &gvendi #&w
+           °Tbank &gazioni&w
+
+# = quantità di monete o quantità di azioni
+
+Al proprio arrivo in queste terre viene generosamente concesso a tutti un
+conto bancario aperto in tutte le banche esistenti (ovviamente non ci sono
+monete sul conto, generosi si ma fino ad un certo punto :P), dove potrete
+depositare i vostri capitali.
+
+Con il comando °Tbank &gbilancio&w vi verrà mostrata l'attuale situazione
+del vostro conto, se la vostra borsa dell'oro fosse diventata troppo pesante,
+col  comando °Tbank &gdeposita #&w potrete depositare una somma di monete sul 
+vostro conto, mentre se avete bisogno di un po' di soldi con il comando 
+°Tbank &gpreleva #&w potrete attingere al vostro capitale.
+Inoltre, col comando °Tbank &gtrasferisci #&w &Rnome&w potrete trasferire
+una somma di monete dal vostro conto al conto di chi desiderate.
+
+Nelle banche del regno è anche possibile acquistare delle azioni, azioni che
+con il loro andamento influenzeranno tutte quelle trattative economiche in
+cui potrete incorrere, per esempio se il loro valore fosse alto potreste
+ottenre sconti su merci, riparazioni e quant'altro, ma è anche possibile che,
+se il  loro valore scendesse, potrebbe essere più caro il costo della vita.
+
+Per poter acquistare azioni il comando è °Tbank &gcompra #&w, mentre per
+poterle rivendere il comando è °Tbank &gvendi #&w.
+Con il comando °Tbank &gazioni&w potrete sapere quale sia il valore attuale
+delle azioni.
+
+Le banche del regno pongono un  limite al numero di monete che si possono 
+depositare pari a un 1.000.000, mentre per le azioni il numero massimo 
+acquisibile è di 2.500, ma col passare del tempo, la crescita della propria 
+esperienza e della propria fama non è detto che questi limiti non possano 
+essere ampliati.
+~
+End
+
+#HELP
+KeywordItalian BARD~
+KeywordEnglish BARD~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Mud creato basandosi sul codice BARD scritto da Onirik assieme al T2Team.
+~
+End
+
+#HELP
+KeywordItalian brandisci tracanna recita punta~
+KeywordEnglish brandish quaff recite zap~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbrandish
+&YSintassi&w:  °Tquaff <&gpozione&w>
+&YSintassi&w:  °Trecite <&gpergamena&w> <&gobiettivo&w>
+&YSintassi&w:  °Tzap <&gobiettivo&w>
+
+Il comando °Tbrandish serve ad invocare il potere insito in un bastone magico.
+
+Il comando °Tquaff permette di bere pozioni (diverso da °Tdrink, che serve
+per bere liquidi normali).
+
+Il comando °Trecite serve a recitare pergamene magiche; l'inserimento
+ dell'obiettivo può essere opzionale, a seconda della natura dell'incantesimo
+ scritto nella pergamena.
+
+Il comando °Tzap spara un incantesimo con una bacchetta magica verso un
+ obiettivo. Se l'obiettivo non è specificato e stai combattendo con qualcuno
+ quest'ultimo sarà usato come obiettivo.
+
+Devi star afferrando una bacchetta o un bastone per °Tbrandish o °Tzap.
+
+Per tutti questi comandi serve la tipologia di oggetto corretta.
+
+Pozioni e pergamene hanno una singola carica, mentre bacchette e bastoni
+hanno cariche multiple.
+Quando consumi tutte le cariche dell'oggetto magico, questo si consumerà tra
+le tue mani sparendo.
+Usa l'incantesimo '&gidentify&w' per vedere quante cariche rimangono, o, se non
+conosci l'incantesimo o non puoi usare la magia, rivolgiti al mago che trovi
+in Piazzale Mercato a Darkheven, che dietro congruo compenso ti darà le
+informazioni richieste.
+~
+ToSee          recharge~
+End
+
+#HELP
+KeywordItalian bussa~
+KeywordEnglish rap~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Trap <&gdirezione&w>
+&YSintassi&w: °Trap <&gporta&w>
+
+Questo comando ti permette di bussare su un passaggio chiuso e tutti
+dall'altro lato lo sentiranno.
+~
+End
+
+#HELP
+KeywordItalian canali~
+KeywordEnglish channels~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tchannels
+&YSintassi&w:  °Tchannels &g+&w<&gcanale&w>
+&YSintassi&w:  °Tchannels &g-&w<&gcanale&w>
+
+Senza opzioni, °Tchannels mostra i tuoi canali &gprivati&w e &goff-gdr&w, con 
+l'opzione + o - i canali possono essere attivati o disattivati.
+
+I canali &ggdr&w non possono essere disattivati.
+~
+End
+
+#HELP
+KeywordItalian cecità~
+KeywordEnglish blinded~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+Alcuni incantesimi ed alcuni attacci possono rendervi cieco per qualche tempo.
+
+Se vi capitasse di rimanere ciechi avete varie opzioni: 
+- potete aspettare che l'effetto finisca da solo
+- oppure, se siete in gruppo e uno dei vostri compagni può farlo, potete
+  farvi curare
+- potete chiedere aiuto tramite i canali di comunicazione
+- o potete cercare un curatore, come, ad esempio, la sacerdotessa del tempio 
+  di Darkhaven che potrebbe rimovere la vostra cecità.
+~
+ToSee          gogue blind~
+End
+
+#HELP
+KeywordItalian chi 'chi gruppo' chigruppo~
+KeywordEnglish who 'who gruppo' whogruppo~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Twho
+           °Twho &ggruppo&w
+           
+Il comando °Twho mostra tutti i giocatori presenti sul Mud, se non puoi
+vedere l'invisibile non vedrai nella lista le persone che al momento lo sono.
+Non  appariranno neanche gli amministratori che sono invisibili ad un livello
+più alto del tuo.
+Con il comando °Twho &ggruppo&w vedrai tutti i giocatori che al momento sono
+membri di un gruppo.
+~
+End
+
+#HELP
+KeywordItalian cielo costellazione costellazioni~
+KeywordEnglish sky stars starmap~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tsky
+
+Quando passeggiando all'aperto in una bella giornata serena, alzerai lo
+sguardo al cielo potresti essere abbagliato dall'astro solare, ma se volgerai
+di notte lo sguardo alla volta celeste potresti ammirare la luna che passa
+maestosa tra milioni di stelle.
+Potresti riconoscere tra quelle stelle alcune delle costellazioni più famose:
+
+&OCigno      &cOrsa Minore  &GOrione   &WDrago   &PLeo    &gVenus   &RMars
+&CCassiopea  &BMercurius    &bUranus   &pCorvo   &rPluto  &YRaptor&w
+
+Per poter ammirare il cielo il comando da usare è °Tsky, ma ricorda che devi
+trovarti in un luogo all'aperto e che non ci devono essere nuvole in cielo.
+~
+End
+
+#HELP
+KeywordItalian clans~
+KeywordEnglish clans~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  clans
+           clans <clan name>
+
+The 'clans' displays a list of all current clans, the clan deity and its
+leader, as well as the clan pkills (victories) and pdeaths (losses).
+
+You can also use 'clans <clan name>' to view information on the specified
+Clan.
+~
+End
+
+#HELP
+KeywordItalian colore colori~
+KeywordEnglish color colors~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il carattere speciale per colore del testo è &&
+Le opzioni per && sono:
+  &&x  - &xNero        &w              &&r  - &rRosso (sangue)&w
+  &&g  - &gVerde       &w              &&O  - &OArancione (marroncino)&w
+  &&b  - &bBlu Scuro   &w              &&p  - &pVioletto&w
+  &&c  - &cAzzurro     &w              &&w  - &wGrigio (colore standard)
+  &&z  - &zGrigio Scuro&w              &&R  - &RRosso Chiaro&w
+  &&G  - &GVerde Chiaro&w              &&Y  - &YGiallo&w
+  &&B  - &BBlu         &w              &&P  - &PRosa&w
+  &&C  - &CBlu Chiaro  &w              &&W  - &WBianco&w
+
+Il carattere speciale per colorare lo sfondo è ^^
+Le opzioni per ^^ sono:
+  ^^x  - ^xNero (sfondo standard)    ^^r  - ^rRosso^x
+  ^^g  - ^gVerde^x                     ^^O  - ^OArancione^x
+  ^^b  - ^bBlu^x                       ^^p  - ^pVioletto^x
+  ^^c  - ^cAzzurro^x                   ^^w  - ^wGrigio^x
+
+NB: Se imposti sia il colore del testo che il colore di sfondo il primo deve
+    precedere il secondo.
+    Inoltre l'ultimo colore che hai impostato nel tuo prompt si applica a
+    tutta la riga di comando.
+    Quindi se vuoi impostare un colore per i testi che scrivi tu includi quel
+    colore alla fine del tuo prompt.
+
+Esempio:
+
+Prompt     &&Y^^b<%h/&&x^^r%m>&&w^^x =   <43/23>
+Risultato: &Y^b<%h/&x^r%m>&w^x =   <43/23>
+~
+ToSee          prompt~
+End
+
+#HELP
+KeywordItalian comandi~
+KeywordEnglish commands~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcommands
+           °Tcommands &gitaliano&w
+           °Tcommands &ginglese&w
+           °Tcommands &gtraduzione&w
+           °Tcommands &gtipi&w
+           °Tcommands <&gcomando cercato&w>
+          
+Il comando °Tcommands mostra una lista di tutti i comandi (non sociali) che 
+hai a disposizione.
+Se scrivi °Tcommands &gitaliano&w vedrai i comandi in italiano.
+Se scrivi °Tcommands &ginglese&w vedrai i comandi in inglese.
+Se scrivi °Tcommands &gtraduzione&w vedrai il set di comandi che stai
+utilizzando seguito dalla rispettiva traduzione nell'altro set di lingua.
+Se scrivi °Tcommands &gtipi&w vedrai i comandi divisi per tipologia.
+Se dopo °Tcommands scrivi un qualsiasi comando che cerchi, vedrai tutti i 
+comandi disponibili che iniziano con quella parola.
+
+Puoi anche aggiungere in fondo l'opzione &gminihelp&w per avere una piccola
+spiegazione di cosa fanno i vari comandi.
+Ad esempio:
+°Tcommands &gitaliano&w &gminihelp&w
+
+Il comando °Tconfig ti permette di utilizzare uno dei due set di lingua con
+cui si possono inviare i comandi.
+Per impostare i comandi in italiano:
+°Tconfig &g+ italiano&w
+Per impostare invece i comandi in inglese:
+°Tconfig &g+ inglese&w
+
+Se vuoi inviare sia con un set che con un altro allora bisogna attivare
+l'opzione di config &Wdoppialingua&w:
+°Tconfig &g+ doppialingua&w
+~
+ToSee          socials config~
+End
+
+#HELP
+KeywordItalian combattimento~
+KeywordEnglish combat~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+Durante la tua vita in questo mondo, ti capiterà spesso di dover sostenere
+dei combattimenti, potrai batterti contro dei mob o anche contro altri
+giocatori.
+
+Scegli sempre con cura l'avversario da affrontare, prima di accingerti a 
+combattere è saggio che valuti il tuo avversario se non desideri incorrere 
+in amare sconfitte. Per valutare un avversario puoi guardarlo (°Tlook <&gmob&w>) 
+per vedere la sua descrizione e l'equipaggiamento che indossa e farti una
+prima idea su chi ti accingi ad affrontare, se invece vuoi una valutazione
+delle tue possibilità contro il tuo avversario puoi valutarlo (°Tconsider <&gmob&w>)
+per sapere se è alla tua portata. Puoi anche usare l'incantesimo di 
+&gidentificazione&w (°Tcast &gidentify&w <&gmob&w>) per avere informaizoni
+più dettagliate sul mob.
+
+Puoi iniziare un combattimento usando: °Tkill, °Tmurder, o molti degli
+incantesimi o abilità che hai a tua disposizione. Il modo più semplice di
+iniziare uno scontro è °Tkill <&gmob&w>.
+
+Durante  un combattimento potresti trovarti in difficoltà e desiderarre di
+toglierti dai guai, puoi farlo usando i comandi °Tflee o °Trecall.
+Puoi fuggire da uno scontro usando il comando °Tflee oppure ritornare in un
+luogo sicuro usando l'incantesimo '&gword of recall&w' o recitando 
+&guna pergamena di ritorno&w (°Thelp °Trecite). Puoi anche impostare la fuga 
+automatica (vedi °Thelp °Twimpy) che farà si che cerchi di scappare 
+automaticamente quando la tua salute raggiungerà un certo livello.
+Fuggire da uno scontro comporta una perdita di esperienza, se fuggi usando i
+metodi per tornare ad un luogo sicuro (°Trecall) la perdita sarà maggiore.
+~
+End
+
+#HELP
+KeywordItalian compra lista listino vendi valuta~
+KeywordEnglish buy list sell value~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbuy <&goggetto&w>
+&YSintassi&w:  °Tbuy <&g# di oggetti&w> <&goggetto&w>
+&YSintassi&w:  °Tlist
+&YSintassi&w:  °Tlist <&goggetto&w>
+&YSintassi&w:  °Tsell <&goggetto&w>
+&YSintassi&w:  °Tvalue <&goggetto&w>
+
+# = quantità
+
+Il comando °Tbuy ti permette di comprare un oggetto in un negozio, mentre
+°Tbuy <&g#&w> <&goggetto&w> ti permette di comprare fino a venti 
+oggetti di un certo tipo in una volta sola.
+
+Il comando °Tlist ti mostra gli oggetti che il venditore può darti, mentre
+°Tlist <&goggetto&w> ti mostra solo gli oggetti con quel nome.
+
+Il comando °Tsell <&goggetto&w> vende un oggetto ad un negoziante, ma se prima 
+vuoi sapere quanto può valere tale oggetto usa il comando °Tvalue <&goggetto&w>
+per farti dire dal negoziante quanto sarebbe disposto a pagartelo.
+~
+End
+
+#HELP
+KeywordItalian comprime comprimi~
+KeywordEnglish tamp~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Ttamp <&gpipa&w>
+
+Con il comando °Ttamp potrai premere le erbe dentro la tua pipa prima di
+accenderle.
+~
+ToSee          fill light smoke empty~
+End
+
+#HELP
+KeywordItalian comunica comunico rispondo gcomunica~
+KeywordEnglish tell reply gtell~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Ttell <&ggiocatore&w> <&gmessaggio&w>
+&YSintassi&w:  °Treply <&gmessaggio&w>
+&YSintassi&w:  °Tgtell <&gmessaggio&w>
+
+Questi sono i canali &gnon-rpg&w con cui potrai interagire con gli altri 
+giocatori.
+
+Con il comando °Ttell <&ggiocatore&w> potrai dire qualcosa a chiunque, 
+ovunque si trovi, ed anche se sta dormendo.
+Il comando °Treply manda un messaggio all'ultimo giocatore che ti ha parlato
+usando il comando °Ttell, questo comando si rivela molto utile per 
+rispondere a giocatori (o Amministratori) che non puoi vedere, senza
+rivelarti però l'identità di chi ti parla.
+
+Il comando °Tgtell serve invece per comunicare con il gruppo di cui fai 
+parte, il messaggio sarà letto da tutti i tuoi compagni, lo leggeranno anche 
+se al  momento non ti trovi nella stessa stanza con loro e anche se dormono.
+~
+ToSee          channels~
+End
+
+#HELP
+KeywordItalian configuro configura~
+KeywordEnglish config~
+Type           HELPTYPE_OPTION
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tconfig &g+&w<&gopzione&w>
+&YSintassi&w:  °Tconfig &g-&w<&gopzione&w>
+
+Questo comando configura alcune opzioni e comportamenti del tuo
+personaggio.
+Scrivendo °Tconfig solamente vedi la tua configurazione attuale.
+Con un segno più o meno e un'opzione puoi attivare o disattivare quell'opzione.
+~
+ToSee          pause prompt color~
+End
+
+#HELP
+KeywordItalian confronta compara~
+KeywordEnglish compare~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcompare <&goggetto-1&w> <&goggetto-2&w>
+&YSintassi&w:  °Tcompare <&goggetto&w>
+
+Il comando °Tcompare serve per vedere quale oggetto è migliore tra due nel 
+tuo inventario.
+Se sono entrambe armi ti dirà quale ha il danno migliore in media. Se sono
+entrambe armature ti dirà quale ha la migliore classe armatura.
+
+Se scrivi °Tcompare seguito da solo un argomento, avrai un confronto tra 
+quell'oggetto ed un oggetto dello stesso tipo che stai indossando.
+
+Questo comando non considera effetti speciali che l'oggetto ha su di te, solo
+classe armatura o danno medio!
+~
+End
+
+#HELP
+KeywordItalian considera~
+KeywordEnglish consider~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tconsider <&gvittima&w>
+
+Questo comando ti dice quante possibilità hai di uccidere un giocatore od un
+mob.
+Naturalmente è solo una stima approssimativa.
+~
+End
+
+#HELP
+KeywordItalian contenitore contenitori~
+KeywordEnglish container~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+I contenitori sono una necessità nel Mud. Sono usati per trasportare oggetti,
+cibi e liquidi. Ti aiutano ad ordinare le cose usando due o più tipi di
+contenitori alla volta. I corpi si usano con gli stessi comandi dei
+contenitori.
+
+°Fexamine <&gcontenitore&w> o °Tlook &gin&w <&gcontenitore&w> ti permettono
+di vedere cosa contiene.
+
+°Fget <&goggetto&w> <&gcontenitore&w> ti fa prendere un oggetto da un 
+contenitore.
+°Fget &gtutto&w <&gcontenitore&w> ti fa prendere tutto da un contenitore.
+°Fget &gtutto&w.<&goggetto&w> <&gcontenitore&w> ti fa prendere tutti gli oggetti
+di quel tipo.
+
+°Fput <&goggetto&w> <&gcontenitore&w> mette un oggetto nel contenitore.
+°Fput &gtutto&w <&gcontenitore&w> mette tutto quello che hai in inventario nel 
+contenitore finché non è pieno.
+°Fput &gtutto&w.<&goggetto&w> <&gcontenitore&w> metterà tutti gli oggetti di quel
+tipo nel contenitore finché non è pieno.
+
+°Fempty <&gcontenitore&w> prenderà tutti gli oggetti nel contenitore e li metterà
+a terra.
+°Fempty <&gcontenitore1&w> <&gcontenitore2&w> trasferirà il contenuto del primo
+contenitore nel secondo.
+~
+End
+
+#HELP
+KeywordItalian crash~
+KeywordEnglish crash~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Crash è un'imprevista interruzione del gioco che causa la disconnessione
+di tutti i giocatori dal mud.
+Il 99.9% delle volte i corpi vengono salvati (a meno che non foste morti
+qualche attimo prima del crash). Quando vi riconnetterete, il vostro
+personaggio si ritroverà nell'ultimo posto dove avevate salvato, o dove il
+gioco aveva salvato il vostro personaggio.
+~
+ToSee          save~
+End
+
+#HELP
+KeywordItalian mascotte cucciolo cuccioli~
+KeywordEnglish mascotte pet pets~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+In questo mondo ti è possibile comprare un cucciolo che ti faccia compagnia
+nei tuoi viaggi e nelle tue avventure, puoi acquistarlo nei negozi di animali
+che trovi sparsi per il mondo.
+Puoi acquistare un solo cucciolo alla volta, se questo dovesse morire potrai
+acquistarne uno nuovo.
+
+Sei responsabile delle azioni dei tuoi animali, in quanto essi ubbidiscono
+ai tuoi ordini (vedi °Torder).
+~
+ToSee          petsave~
+End
+
+#HELP
+KeywordItalian cucina~
+KeywordEnglish cook~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcook <&gcibo&w>
+
+Cucinare richiede alcuni tipi di cibo ed un fuoco. Cucinare il cibo
+permette di conservarlo più a lungo e rimuoverà molti veleni.
+Tuttavia cucinare troppo un cibo può carbonizzarlo.
+~
+End
+
+#HELP
+KeywordItalian damroll~
+KeywordEnglish damroll~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+Rappresenta la quantità di danno che infliggi ad un avversario.
+Più il valore è alto, meglio è.
+~
+End
+
+#HELP
+KeywordItalian deathtrap dt~
+KeywordEnglish deathtrap dt~
+Type           HELPTYPE_MOVEMENT
+Trust          TRUST_PLAYER
+Text
+La "death trap" (o DT) è un luogo appartenente a questo mondo dove chi ha la
+sventura di caderci subirà delle perdite.
+A differenza di quello che promette il nome, se avrai la sventura di caderci
+dentro lungo il tuo cammino, non morirai, ma perderai tutti i soldi che avevi
+con te in quel momento, oltre ad una diminuzione casuale dei punti esperienza,
+del gloria, delle skill, degli attributi, dei sensi ed un'alterazione del 
+mental state.
+Se cadrai dentro una di queste "trappole mortali" NON perderai nessun oggetto
+da te posseduto, e dopo un certo periodo di tempo, in cui resterai bloccato
+in quel luogo, sarai riportato presso il Carnefice nella capitale.
+Prima di buttarti a testa bassa in una qualsiasi locazione, è sepre buona
+cosa dare un occhiata a cosa potrebbe esserci dove ti appresti ad andare,
+con una semplice occhiata potresti scorgere qualche indizio che ti avverte
+del pericolo imminente.
+Ricordati che questi luoghi fanno parte di queste terre, quindi non correre
+dagli Amministratori a chiedere che ti venga reso ciò che è andato perso.
+~
+End
+
+#HELP
+KeywordItalian descrizione biografia~
+KeywordEnglish description bio~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdescription
+&YSintassi&w:  °Tbio
+
+Il comando °Tdescription ti farà entrare in un editor per modificare la
+descrizione lunga del tuo personaggio (quello che le persone vedono quando
+ti guardano).
+Il comando °Tbio ti farà entrare in un editor per modificare la tua
+biografia personale, questa sarà visibile soltanto a te come giocatore e ti
+servirà per creare un background per una maggior caratterizzazione ed 
+interpretazione del tuo personaggio.
+Se è tuo desiderio che tutti possano leggere la tua storia puoi pubblicarla
+sul sito nella sezione dei racconti.
+
+Un Amministratore può richiederti di cambiare la tua descrizione o biografia
+se contiene materiale inappropriato. Non usare linguaggi blasfemi, insulti
+razziali, commenti sessuali e nomi di altri giocatori (senza il loro permesso).
+Rifiutarsi di cambiare la descrizione o la biografia, su richiesta di un 
+Amministratore può far incorrere in punizioni.
+~
+ToSee          editor~
+End
+
+#HELP
+KeywordItalian di mormoro mormora sussurro sussurra canta urla grida~
+KeywordEnglish say murmur whisper sing yell shout~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  <&Gcanalerpg&w> <&gmessaggio&w>
+&YSintassi&w:  <&Gcanalerpg&w> &ga&w <&gnomepg&w> <&gmessaggio&w>
+&YSintassi&w:  <&Gcanalerpg&w> &g:&w <&gmessaggio&w>
+
+I canali &grpg&w sono: °Tsay, °Tmurmur, °Twhisper,
+                   °Tsing, °Tyell e °Tshout.
+
+Questi canali di comunicazione ti permetteranno di interagire con gli altri 
+giocatori, un buon uso di tali comandi può essere indice di buon Gioco di Ruolo 
+e interpretazione del personaggio e cosa quindi gradita agli amministratori 
+attenti a questi particolari.
+
+Con il comando °Tsay parlerai nella locazione in cui ti trovi rivolgendoti a 
+tutti gli avventurieri che ti circondano, se invece vuoi rivolgerti a qualcuno
+in particolare userai °Tsay &ga&w <&gnomepg&w> e in questo caso ti rivolgerai
+direttamente a quel giocatore, nella stanza tutti ti sentiranno e capiranno 
+che stai parlando con quella persona.
+
+Se alla fine della frase metti &g!&w la tua frase diventerà:
+Esclamo 'ciao!'
+
+Se invece metti &g?&w la tua frase diventerà:
+Domando 'Come va?'
+
+E' inoltre possibile aggiungere degli smile (vedi °Tsocials &gfaccine&w) alle
+frasi per utilizzare alcune espressioni, ad esempio:
+dico ciao :)      Dico sorridendo 'Ciao'
+
+Oppure si può parlare con un determinato tono di voce scrivendo in fondo alla
+frase &g**tono&w.
+Esempio:  
+dico ciao **severo      Dico con voce severa 'ciao'
+
+E' anche possibile usare insieme sia i toni che gli smile, entrambi andranno
+messi alla fine della frase, &Gprima&w il tono e &gpoi&w lo smile.
+Esempio:  
+dico Ciao **squillante :)     Dico sorridendo con voce squillante 'Ciao'
+
+
+I comandi °Tmurmur e °Twhisper ti permettono parlare così piano da essere 
+udito a fatica nella stessa stanza in cui ti trovi, mentre °Tyell e °Tshout
+ti consentono di alzare tanto il tono della tua voce da poter essere udito
+anche in luoghi più lontani. 
+Anche questi canali possono essere usati per parlare in generale con tutti o
+per rivolgersi a qualcuno in particolare, ed anche con questi canali possono
+essere usati gli smile.
+
+I comandi °Tmurmur, °Twhisper, °Tsay, °Tyell e °Tshout se seguiti
+dai due punti indicano che si vuole parlare al proprio gruppo, a seconda del
+canale usato ciò che viene detto potrà essere udito anche da coloro che non
+fanno parte del tuo gruppo, se usate °Tmurmur e °Twhisper ti sentiranno solo
+quelli del gruppo, gli altri vedranno che confabuli con il gruppo.
+
+Puoi utilizzare al posto dei comandi in italiano o in inglese i seguenti
+caratteri-scorciatoia, basta digitarli come se fossero dei semplici
+comandi:
+Scorciatoia   Comando
+' &gciao!&w       °Tsay &gciao!&w
+; &gciao!&w       °Tgtell &gciao!&w
+~
+End
+
+#HELP
+KeywordItalian diku crediti~
+KeywordEnglish diku credits~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+	SMAUG was originally based on the Merc 2.1 code which was
+		based on the orignal DIKUMud code created by:
+
+			The Original DIKUMud Team:
+
+	Katja Nyboe		[Superwoman]	(katz@freja.diku.dk)
+	Tom Madsen		[Stormbringer]	(noop@freja.diku.dk)
+	Hans Henrik Staerfeldt	[God]		(bombman@freja.diku.dk)
+	Michael Seifert		[Papi]		(seifert@freja.diku.dk)
+	Sebastian Hammer	[Quinn]		(quinn@freja.diku.dk)
+
+			Additional contributions from:
+
+Michael Curran	- the player title collection and additional locations.
+Bill Wisner	- for being the first to successfully port the game,
+		  uncovering several old bugs, uh, inconsistencies,
+		  in the process.
+
+	And: Mads Haar and Stephan Dahl for additional locations.
+
+  The Original DIKUMud was Developed at the Department of Computer Science
+		at the University of Copenhagen.
+~
+End
+
+#HELP
+KeywordItalian dividi~
+KeywordEnglish split~
+Type           HELPTYPE_GROUP
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tsplit <&gquantità&w>
+
+Il comando °Tsplit ti consente di dividere una certa somma di monete con tutti
+i membri del tuo gruppo che sono nella tua stessa stanza. 
+Puoi anche dividere automaticamente le monete raccolte dopo un'uccisione con
+il tuo gruppo se attivi la configurazione apposita (vedi °Tconfig).
+~
+End
+
+#HELP
+KeywordItalian editor~
+KeywordEnglish editor~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+Lo SMAUG Editor è usato quando devi scrivere posta, note, biografia,
+descrizione o altri testi lunghi. I comandi nell'editor sono (questi comandi
+sono mostrati con uno spazio tra / e la lettera del comando, non mettere
+questo spazio quando usi i comandi nei tuoi testi):
+
+/ ?                    Mostra l'help dell'editor.
+/ l                    Mostra quello che hai scritto fino a quel momento nella 
+                       nota.
+/ c                    Cancella completamente la nota.
+/ d [linea]            Cancella una linea. Se non c'è il numero viene 
+                       cancellata l'ultima linea scritta.
+/ g <linea>            Va alla linea. Questo è utile per inserire linee, 
+                       cancellare e sistemare le linee ecc...
+/ i <linea>            Inserisce una linea. Inserisce una linea vuota dove 
+                       specificato.
+/ r <vecchia> <nuova>  Per sostituire la vecchia parola con la nuova. Devi
+                       fare '/g' alla prima linea che vuoi sostituire o non ci
+                       saranno corrispondenze.
+/ a                    Abortisce la scrittura. Ti fa uscire dall'editor senza
+                       però salvare quello che hai scritto o i cambiamenti
+                       che hai fatto.
+/ ! <comando>          Esegue un comando del Mud. '/! sorridi' esegue il 
+                       comando sorridi senza uscire dall'editor.
+/ s                    Salva il buffer ed esce dall'editor.
+~
+End
+
+#HELP
+KeywordItalian entra esci~
+KeywordEnglish enter leave~
+Type           HELPTYPE_MOVEMENT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tenter
+&YSintassi&w:  °Tenter <&gparola chiave&w>
+&YSintassi&w:  °Tleave
+&YSintassi&w:  °Tleave <&gparola chiave&w>
+
+Nelle stanze con uscite indicate con '&zsomewhere&w' o altri tipi di uscita, puoi 
+scrivere °Tenter <&gparola chiave&w> od anche °Tleave <&gparola chiave&w> per 
+passare attraverso quell'uscita.
+
+L'uso più comune di questo comando è con i portali creati dai maghi.
+Per usare un portale semplicemente scrivi °Tenter &gportale&w e ci passerai 
+attraverso.
+~
+End
+
+#HELP
+KeywordItalian eqdamage~
+KeywordEnglish eqdamage~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Durante i combattimenti potresti notare che il tuo equipaggiamento viene
+danneggiato, per esempio potresti leggere "Il tuo elmo è stato danneggiato".
+Se l'oggetto è in buone condizioni può reggere un certo numero di danni, ma
+se fosse già in pessime condizioni potrebbe anche rompersi.
+
+Se non desideri vedere parti del tuo equipaggiamento a terra irrimediabilmente
+danneggiate, ricordati di far visita al fabbro, ne potrai trovare uno in
+quasi tutte le città. 
+
+Potresti combattere anche contro creature che usano attacchi con acido (acid 
+breath e simili), in questo caso se il tuo equipaggiamento dovesse essere
+colpito da questi acidi, il danno subito sarà permanente.
+(NOTA: Non tutti i tipi di equipaggiamento sono riparabili)
+~
+ToSee          repair~
+End
+
+#HELP
+KeywordItalian equipaggiamento inventario~
+KeywordEnglish equipment inventory~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tequipment
+&YSintassi&w:  °Tequipment <&ggiocatore&w>
+&YSintassi&w:  °Tinventory
+
+Con il comando °Tequipment puoi vedere quello che stai indossando (armi,
+armature e oggetti indossati),oppure usando °Tequipment <&ggiocatore&w> 
+quello che indossa un'altro giocatore.
+Con il comando °Tinventory vedrai tutto quello che stai trasportando.
+Non puoi vedere con il comando °Tinventory quello che trasportano gli altri
+giocatori.
+~
+End
+
+#HELP
+KeywordItalian esamina guarda~
+KeywordEnglish examine look~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tlook <&goggetto&w/&gpersonaggio&w/&gdirezione&w/&gparola chiave&w>
+&YSintassi&w:  °Tlook &gin&w <&gcontenitore&w/&gcadavere&w>
+&YSintassi&w:  °Texamine <&gcontenitore&w/&gcadavere&w/&gparola chiave&w>
+
+Il comando °Tlook ti permette di guardare: 
+- la stanza in cui ti trovi, scritto senza nessun argomento
+- un'altro &ggiocatore&w per vedere la sua descrizione ed eventualmente anche 
+   l'equipaggiamento se hai configurato l'apposita opzione (vedi °Tconfig)
+- un &goggetto&w per vederne la descrizione
+- in una determinata &gdirezione&w per vedere una breve descrizione della 
+   stanza che vi si trova
+- descrizioni di partilcolari di una stanza od un oggetto dando una
+  determianta &gparola chiave&w.
+
+Il comando °Tlook &gin&w ti permette di guardare dentro un contenitore.
+
+Il comando °Texamine ti permette:
+ - di esaminare il contenuto di un &gcontenitore&w o di un &gcadavere&w
+ - di esaminare un personaggio per vedere la sua descrizione ed eventualmente
+    l'equipaggiamento se hai configurato l'apposita opzione (vedi °Tconfig)
+ - di esaminare particolari di oggetti o descrizioni dando una determinata
+    &gparola chiave&w.
+~
+End
+
+#HELP
+KeywordItalian esperienza livello px~
+KeywordEnglish experience level xp~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il tuo personaggio avanza in potenza guadagnando esperienza. 
+
+Puoi guadagnare esperienza:
+- infliggendo danni ad un avversario
+- facendo parte di un gruppo che uccide un avversario
+- riuscendo ad imparare un'abilità o incantesimo attraverso l'uso
+
+Puoi perdere esperienza:
+- scappando da un combattimento
+- essendo evocato fuori da un combattimento
+- se vieni colpito da certi incantesimi (energy drain, ecc.)
+- morendo
+
+L'esperienza che guadagnerai da un'uccisione dipende da molte cose: quanti
+giocatori sono nel tuo gruppo, il tuo livello rispetto al livello del mostro,
+il tuo allineamento rispetto all'allineamento del mostro ed altre variabili
+casuali.
+
+Le tue ultime 20 uccisioni sono registrate. Ogni volta che uccidi una creatura
+che è stata una di queste 20 riceverai sempre meno esperienza da lei.
+La creatura inoltre imparerà dalla sua esperienza con te ogni volta; se la
+sua intelligenza è più alta della tua inizierà ad avere sempre più
+vantaggio su di te in combattimento.
+~
+End
+
+#HELP
+KeywordItalian esprimi~
+KeywordEnglish emote~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Temote <&gtesto&w>
+
+Il comando °Temote serve per espressioni personalizzate o per compiere azioni
+che non sono presenti tra i sociali.
+
+Ad esempio:
+
+"esprimi sorride ed annuisce col capo"
+
+... mostra a tutti nella stanza:
+
+<Il tuo nome> sorride ed annuisce col capo.
+
+Puoi anche scrivere "&g,&w sorride e annuisce col capo", infatti questo 
+carattere sostituisce il comando °Temote.
+~
+ToSee          socials~
+End
+
+#HELP
+KeywordItalian fedele fedeltà~
+KeywordEnglish loyal loyalty~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+La flag &gfedele-loyal&w rispecchia lo stato di fedeltà di un amra verso il
+suo possessore pkiller, tale arma ritornerà nell'inventario del giocatore 
+disarmato da un altro giocatore pkiller.
+~
+End
+
+#HELP
+KeywordItalian fine~
+KeywordEnglish quit~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Tquit
+
+Il comando °Tquit serve ad abbandonare il gioco, puoi farlo ovunque e quando
+rientrerai ti ritroverai nello stesso luogo. Ti suggeriamo comunque di 
+scegliere un luogo tranquillo per uscire, così da non trovarti in mezzo a 
+situazioni pericolose al tuo ritorno.
+
+In questo mondo non si deve affitare, per uscire devi solo salvare e scrivere
+°Tquit in qualunque luogo ti trovi.
+~
+End
+
+#HELP
+KeywordItalian flag flags~
+KeywordEnglish flag flags~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&P(ATTACKER)&W, &P(KILLER) &Wand &P(THIEF) &Wflags are given to players who
+violate laws regarding Pkilling and/or Theft. Having one of these flags
+will cause Darkhaven mobs to treat you differently. You may be placed before
+Judge Kendra and be fined or thrown in jail until an immortal can impose
+a sentence upon you. For help on &P(ATTACKER) &Wor &P(KILLER) &Wflags, see
+&CHELP ATTACKER &Wor &CHELP KILLER&W. To find out what constitutes illegal
+theft, see &YLAWS STORES&W.
+~
+End
+
+#HELP
+KeywordItalian fuma~
+KeywordEnglish smoke~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tsmoke <&gpipa&w>
+
+Puoi fumare una pipa dopo averla riempita con erbe appropriate o tabacco
+ed averla accesa.
+~
+ToSee          fill tamp light empty~
+End
+
+#HELP
+KeywordItalian gloria~
+KeywordEnglish glory~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+La Gloria dimostra quanto tu sia valoroso!
+Puoi guadagnare gloria prendendo parte alle quest, facendo del buon rpg (non
+potete mai sapere se qualcuno dall'alto vi sta osservando), uccidendo mob
+di livello più alto del vostro personaggio, ed anche in vari altri modi.
+
+La Gloria accumulata è impiegata principalmente per l'onirismo (per ulteriori
+informazioni vedi °Toneirism ).
+~
+End
+
+#HELP
+KeywordItalian gruppo gruppare~
+KeywordEnglish group grouping~
+Type           HELPTYPE_GROUP
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tgroup <&ggiocatore&w>
+           °Tgroup &gtutti&w
+           °Tgroup 
+           °Tgroup &gsciogliere&w
+
+Il comando °Tgroup <&ggiocatore&w> aggiunge qualcuno che ti sta seguendo al
+tuo gruppo, mentre se il giocatore è già parte del tuo gruppo con questo
+comando lo toglierai dal gruppo. Quando togli qualcuno dal tuo gruppo questo
+non smetterà però di seguirti.
+Un giocatore può anche lasciare un gruppo seguendo se stesso, nel qual caso 
+smetterà anche di seguirti.
+
+I membri di un gruppo dividono l'esperienza dalle uccisioni e possono spartirsi
+le ricchezze acquisite dopo uno scontro (per saperne di più °Thelp °Tsplit).
+
+Se qualcuno nel gruppo viene attaccato, tu ti unirai automaticamente al 
+combattimento.
+
+Il comando °Tgroup senza argomenti mostra le statistiche di ogni personaggio
+che appartiene al gruppo.
+
+Il comando °Tgroup &gtutti&w gruppa tutti i giocatori che ti stanno seguendo 
+nella  stanza.
+
+Il comando °Tgroup &gsciogliere&w permette al capogruppo di congedare il
+gruppo (i membri smetteranno di seguire e saranno sgruppati).
+~
+ToSee          'group display'~
+End
+
+#HELP
+KeywordItalian 'gruppo display'~
+KeywordEnglish 'group display'~
+Type           HELPTYPE_GROUP
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tgroup 
+
+Digitando il comando °Tgroup verrà mostrato lo stato del proprio gruppo. 
+
+&gGruppo di Lucrezia      Razza          Stile      Mente  Vita  Movi  Mana&w
+&GLucrezia&w                &RUmana&w          &CEvasivo&w    ====   &R100&w%  &G100&w%  &C88&w%
+
+Il gruppo avrà il nome di colui che guida e il suo personaggio sarà sempre
+il primo della lista.
+
+La riga di ogni giocatore riporta le seguenti informazioni:
+- Nome del personaggio
+- Razza di appartenenza
+- Stile di combattimento adottato
+- Stato mentale
+- Percentuale di vita
+- Percentuale di movimento
+- Percentuale del mana
+
+E' sempre buona cosa controllare lo stato del gruppo per accertarsi che i
+propri compagni stiano bene, così da sapere se qualcuno necessita di cure o
+di un po' di riposo prima di proseguire nella propria avventura.
+~
+End
+
+#HELP
+KeywordItalian guida~
+KeywordEnglish guide~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Tutti i giocatori ricevono una copia della Guida degli Avventurieri quando
+entrano nel gioco.
+Per usare questa guida scrivi °Tlook guida.
+Questa guida è stata creata per rispondere alle domande più frequenti e per
+dare uno sguardo generale ai comandi e alle regole del gioco.
+~
+End
+
+#HELP
+KeywordItalian hitroll hr~
+KeywordEnglish hitroll hr~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+Rappresenta la possibilità che hai di colpire il tuo avversario. 
+Più alto è il valore e meglio è.
+~
+End
+
+#HELP
+KeywordItalian idea commento typo bug~
+KeywordEnglish ideas comment typo bug~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbug <&gmessaggio&w>
+&YSintassi&w:  °Tidea <&gmessaggio&w>
+&YSintassi&w:  °Ttypo <&gmessaggio&w>
+&YSintassi&w:  °Tcomment <&gmessaggio&w>
+
+Questi comandi salveranno i tuoi messaggi e li registreranno in un file
+per gli implementatori del mud.
+
+Con il comando °Ttypo puoi segnalare errori di ortografia o battitura, il 
+comando °Tbug serve a segnalare dei bug o comandi errati, il comando °Tidea 
+ti servirà per proporre nuove idee, mentre il comando °Tcomment ti servirà
+per inviare un tuo commento riguardante il mud.
+~
+End
+
+#HELP
+KeywordItalian informazioni~
+KeywordEnglish information~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+°Fskills       - è un comando che mostra tutti gli incantesimi e le abilità e
+                 il livello al quale puoi praticarli.
+°Fareas        - Con questo comando vedrai una lista di tutte le aree esistenti.
+                 Puoi avere più informazioni scrivendo °Thelp <&gnome area&w>.
+°Fcommands     - Mostra tutti i comandi disponibili.
+°Fsocials      - Mostra tutti i comandi sociali disponibili.
+°Fdate         - Questo comando ti dice l'ora e la data correnti.
+°Fquit         - Se vuoi lasciare il gioco scrivi °Tquit.
+°Fwho          - Mostra una lista di tutti i giocatori visibili nel Mud.
+°Ftitle        - Per scrivere il tuo titolo.
+°Fpassword     - La password può essere cambiata con questo comando
+°Fdescription  - Puoi inserire una descrizione personale, scrivi °Tdescription
+                 per editarla.
+
+Questa è solo una breve lista di comandi che ti aiuteranno con il tuo
+personaggio. Puoi avere informazioni più dettagliati su ogni comando 
+guardando il relativo aiuto.
+~
+End
+
+#HELP
+KeywordItalian killer killerflag killerflags~
+KeywordEnglish killer killerflag killerflags~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&WThe mud will automatically assign you a &PKiller &Wflag if you cause the
+death of another player. Only situations which involve peacefuls being
+killed by mortals, or &RDeadlies &Wkilling fellow clanmembers will result
+in the assignment of this flag. You will receive a &PKiller &Wflag if:
+
+  1. You caused the DEATH of another player, regardless of who attacked first.
+  To help prevent yourself from acquiring a &PKiller &Wflag after being
+  attacked, set yourself to &YConfig +Nice &W(See &CHelp Config &Wfor info).
+
+  2. You were the Master of a mobile which killed another player while
+  under the influence of your charm. PLEASE NOTE that you will receive a
+  &PKiller &Wflag even if the player that died attacked the charmed
+  mobile without the Master's permission. Charmers and Pet Owners are held
+  responsible for the actions of their Pets/Charmies. (See &CHelp Charm
+  &Wand &CHelp Pets &Wfor more info on these topics).
+
+&WDarkhaven Guards, shopkeepers and special function mobs now respond
+differently to illegal flags. You may find yourself barred from making
+puchases, placed before Judge Kendra for a hearing, sentenced to
+jail, or SLAYED by Harakiem.  You may apply to Judge Kendra in person to
+seek removal of the flag. She is located one west of the Main Lobby in
+the Townhall. (See &CHelp TOwnhall &Wfor info)
+Kendra in person if you wish. Her Honour is located one west of the
+Main Lobby in Townhall (See &CHelp Townhall &Wfor info).
+~
+End
+
+#HELP
+KeywordItalian ldt~
+KeywordEnglish afk~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tafk           
+
+Il comando °Tafk ti consentirà di segnalare agli altri giocatori che al momento
+sei lontano dalla tastiera e non puoi rispondere, gli altri giocatori facendo 
+°Twho potranno vedere sotto la colonna dello stato, vicino al tuo nome, la 
+lettera &CL&w.
+Per togliere la flag puoi inserire di nuovo il comando °Tafk oppure inserire
+un qualsiasi comando.
+~
+End
+
+#HELP
+KeywordItalian linguaggi lingua~
+KeywordEnglish languages~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tlanguages
+&YSintassi&w:  °Tlanguages &gimpara&w <&gnome linguaggio&w>
+
+Il comando °Tlanguages mostra le lingue che conosci e quanto le conosci, e ti
+mostra un elenco delle lingue che potresti imparare.
+Per poter imparare una nuova lingua, o migliorare la conoscenza di una lingua
+che gia conosci, devi andare da un maestro di linguaggi e usare il comando
+°Tlanguages &gimpara&g <&gnome lingua&w>.
+
+Se qualcuno sta parlando in una lingua che tu conosci capirai cosa stanno
+dicendo, se tu volessi rispondere nella stessa lingua devi usare il comando
+°Tlanguages per cambiare la lingua in cui stai parlando.
+~
+End
+
+#HELP
+KeywordItalian mana~
+KeywordEnglish mana~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il &gMana&w è un'energia accumulabile interiormente utilizzata da tutti coloro
+che riescono e possono lanciare incantesimi.
+~
+End
+
+#HELP
+KeywordItalian mangia bevi~
+KeywordEnglish eat drink~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdrink <&gcontenitore&w>
+&YSintassi&w:  °Teat <&gcibo&w>
+           °Teat <&gcibo&w> <&gcontenitore&w>
+
+Per bere usa il comando °Tdrink, senza argomenti berrai dalla fontana, o altro
+di simile, se questa si trova nella stanza dove sei, altrimenti devi usare
+°Tdrink <&gcontenitore&w>.
+
+Per mangiare usa il comando °Teat <&gcibo&w>, puoi anche usare il comando
+°Teat <&gcibo&W> <&gcontenitore&w> per mangiare il cibo direttamente dal
+contenitore in cui si trova.
+
+Se stai troppo tempo senza mangiare o bere il tuo fisico inizierà a soffrirne
+e le te capacità di recupero caleranno, farai fatica a guarire dalle ferite e
+avrai bisogno di fermarti più spesso durante i tuoi viaggi, anche le capacità
+di richiamare le forze magiche ne risentiranno.
+Se lo stato di fame e sete si prolungherà per molto anche le tue capacità di
+combattimento e la tua coordinazione di movimenti ne risentiranno, potresti
+arrivare ad avere allucinazione e depressione.
+
+Per risolvere il problema dovrai mangiare e/o bere, e avrai bisogno di un po'
+di riposo.
+~
+ToSee          'mental state'~
+End
+
+#HELP
+KeywordItalian merc~
+KeywordEnglish merc~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+SMAUG was originally based on the Merc 2.1 code which was created by Furey,
+Hatchet, and Kahn.
+This original code base is available as Merc_21.tar.gz via FTP from:
+ftp.tcp.com, ftp.math.okstate.edu and ftp.game.org.
+E-mail to 'merc-request@kpc.com' to join the merc mailing list.
+
+Merc would like to thank ...
+  ... Diku Mud for their code base.
+  ... The Free Software Foundation and DJ Delorie for kick-ass tools.
+  ... Copper Mud and Alfa Mud for releasing their code and worlds.
+  ... Aod of Generic for ... well, everything.  You're a hoopy frood, Aod.
+  ... Alander for many ideas and contributions.
+  ... John Brothers of Silly for permission to use Silly code and worlds.
+  ... Zrin for administering the mailing list.
+  ... Abaddon for proofreading our comm.c.
+  ... Hind, Quin, Vic, Diavolo, Oleg, Trienne, and others for porting help.
+  ... Diavolo, Grodyn, Morgenes, and others for code and bug fixes.
+  ... Raff, Doctor, VampLestat, Nirrad, Tyrst, PinkF, Chris, Glop for worlds.
+  ... the players and imps of Mud Dome, Final Mud, Mud Lite, Vego Mud, Rivers
+      of Mud, Ruhr Mud, and Mystic Realms for bug reports, ideas, new code,
+      and hours of enjoyment.
+				Share and enjoy.
+~
+End
+
+#HELP
+KeywordItalian mobprog mobprograms objprog roomprog mudprog~
+KeywordEnglish mobprog mobprograms objprog roomprog mudprog~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+         The MOBprograms have been contributed by N'Atas-ha.
+
+         Haus hacked together room && obj programs 'cause
+          he got sick of failing to add lever bitvectors,
+               and cause he thought Carnage was a
+                  Trancendentally Cool Mud.
+~
+End
+
+#HELP
+KeywordItalian monete~
+KeywordEnglish money~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tmoney
+
+Mostra quante monete stai trasportando.
+~
+End
+
+#HELP
+KeywordItalian morte morire~
+KeywordEnglish death~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+Quando il tuo personaggio muore, la tua anima si distacca dal tuo corpo e
+viene trasportata alla cattedrale, mentre le tue spoglie e tutti i tuoi
+averi restano sul luogo dove sei stato ucciso.
+
+Alla tua morte tutti gli incantesimi che avevi vengono cancellati e perdi
+anche una parte della tua esperienza accumulata, inoltre potresti perdere
+un po' di consocenza di abilità e incantesimi, puoi indebolirti fisicamente 
+o i tuoi sensi possono subire dei deterioramenti.
+
+Le tue spoglie mortali resteranno sul luogo della tua morte per un certo
+periodo di tempo, ma dopo questo tempo (30 minuti di tempo reale) il corpo
+si dissolverà nel nulla e con lui tutti i tuoi oggetti in esso conservati,
+per questo dovrai sbrigarti a cercare di recuperarlo se vuoi rientrare in
+possesso di tutti i tuoi averi.
+Solo TU, o un giocatore del tuo gruppo, puoi riprendere gli oggetti dal tuo
+cadavere.
+~
+ToSee          remains~
+End
+
+#HELP
+KeywordItalian movimento muoversi~
+KeywordEnglish move movement~
+Type           HELPTYPE_MOVEMENT
+Trust          TRUST_PLAYER
+Text
+Questo aiuto ti spiega come muovere il tuo personaggio da un posto nel Mud
+ad un'altro. I movimenti comuni sono &cnord&w, &Wsud&w, &Rovest&w, &Yest&w, &Calto&w,
+&Obasso&w, &gnordest&w, &Gnordovest&w, &Bsudest&w e &psudovest&w. Puoi anche muoverti
+in queste direzioni usando n, s, o, e, a, b, ne, no, se e so. Se devi passare
+attraverso una porta deve essere sbloccata e aperta. Per sbloccare una porta
+scrivi °Tunlock <&gnome della porta o direzione&g>. Per aprire una porta scrivi
+°Topen <&gnome della porta o direzione&w>.
+
+A volte puoi finire i punti movimento o aver bisogno di cure. Per permettere
+un recupero più veloce puoi sederti, ripostare o dormire. Quando hai
+finito di recuperare i punti e vuoi continuare le tue avventure devi
+svegliarti e alzarti.
+~
+End
+
+#HELP
+KeywordItalian _msg_die_~
+KeywordEnglish _msg_die_~
+Type           HELPTYPE_SYSTEM
+Trust          TRUST_PLAYER
+Text
+Ogni cosa attorno a me diventa eterea ed evanescente..
+Vedo per qualche istante il mio corpo scivolare giù, inerte.
+L'universo vortica intorno a me e nel silenzio più assoluto una folata
+di vento mi trasporta lontano..
+E ora il mio corpo non è più e mi sento anima.
+~
+End
+
+#HELP
+KeywordItalian _msg_news_header~
+KeywordEnglish _msg_news_header~
+Type           HELPTYPE_SYSTEM
+Trust          TRUST_PLAYER
+Text
+.              &Y(&RO&Y)
+              <&OM&Y
+   &Go&Y          <&OM&Y
+  /| ......  /:&OM&Y\&c----------------------------------------------,,,,,,,,
+&Y(&BO&Y)[]&OXXXXXX&Y[]I:K&W+&Y}=&c====<{&CH&c}>  &wLe Novità di &WTerra Secunda   &c=======------------>
+  &Y\| ++++++  \:&OW&Y/&c----------------------------------------------''''''''
+   &Go&Y          <&OW&Y
+              <&OW&Y
+              (&RO&Y)
+~
+End
+
+#HELP
+KeywordItalian _msg_soul_to_corp_~
+KeywordEnglish _msg_soul_to_corp_~
+Type           HELPTYPE_SYSTEM
+Trust          TRUST_PLAYER
+Text
+Ogni cosa attorno a me diventa eterea ed evanescente..
+Vedo per qualche istante la mia anima prendere più consistenza.
+Chiudo gli occhi della mia anima.
+Li riapro, ora.. il battito del mio cuore è la prima cosa che riesco
+a sentire, posso ancora distendere le braccia, ho quasi del tutto
+recuperato il mio corpo dalle energie astrali..
+Chissà se per un po' di tempo riuscirò ancora a evitare gli attacchi
+nemici come quando ero anima..
+~
+End
+
+#HELP
+KeywordItalian mudlettera lettera~
+KeywordEnglish mudmail mail~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tmail &glist&w
+&YSintassi&w:  °Tmail &gread&w <&gnumero&w>
+&YSintassi&w:  °Tmail &gread&w &gall&w
+&YSintassi&w:  °Tmail &gwrite&w
+&YSintassi&w:  °Tmail &gsubject&w <&gstringa&w>
+&YSintassi&w:  °Tmail &gto&w <&glista&w>
+&YSintassi&w:  °Tmail &gtake&w <&gnumero&w>
+&YSintassi&w:  °Tmail &gshow&w
+&YSintassi&w:  °Tmail &gpost&w
+&YSintassi&w:  °Tmail &gremove&w <&gnumero&w>
+
+Il comando °Tmail è molto simile al comando °Tnota. Per scrivere una lettera,
+come con le note, devi avere un foglio bianco tra le mani e una penna o
+matita nel tuo inventario. La mail può essere solo inviata a giocatori
+esistenti o a tutti con &gall&w. C'è un costo per leggere e prendere le
+mail.
+
+Per inviare una mail a più di una persona scrivi °Tmail &Gto&w <&Cnome&w> <&Pnome&w>...
+Nota che ognuno dei giocatori può rimuovere la lettera prima che gli altri
+abbiano la possibilità di leggerla.
+~
+ToSee          boards note~
+End
+
+#HELP
+KeywordItalian nord est sud ovest alto basso nordest nordovest sudest sudovest~
+KeywordEnglish north east south west up down northeast northwest southeast southwest~
+Type           HELPTYPE_MOVEMENT
+Trust          TRUST_PLAYER
+Text
+               Comandi
+&YSintassi&w:  °Tnorth
+&YSintassi&w:  °Tsouth
+&YSintassi&w:  °Teast
+&YSintassi&w:  °Twest
+&YSintassi&w:  °Tup
+&YSintassi&w:  °Tdown
+&YSintassi&w:  °Tnortheast
+&YSintassi&w:  °Tnorthwest
+&YSintassi&w:  °Tsoutheast
+&YSintassi&w:  °Tsouthwest
+
+Usa questi comandi per spostarti nelle varie direzioni.
+
+Al posto di °Tnorth puoi scrivere &gn&w.
+Al posto di °Tsouth puoi scrivere &gs&w.
+Al posto di °Teast puoi scrivere &ge&w
+Al posto di °Twest puoi scrivere &go&w se usi i comandi in italiano oppure
+&gw&w se usi quelli in inglese.
+Al posto di °Tup puoi scrivere &ga&w se usi i comandi in italiano oppure
+&gu&w se usi quelli in inglese.
+Al posto di °Tdown puoi scrivere &gb&w se usi i comandi in italiano oppure
+&gd&w se usi quelli in inglese.
+Al posto di °Tnortheast puoi scrivere &gne&w.
+Al posto di °Tnorthwest puoi scrivere &gno&w se usi i comandi in italiano
+oppure &gnw&w se usi quelli in inglese.
+Al posto di °Tsoutheast puoi scrivere &gse&w.
+Al posto di °Tsouthwest puoi scrivere &gso&w se usi i comandi in italiano
+oppure &gsw&w se usi quelli in inglese.
+~
+End
+
+#HELP
+KeywordItalian nota note~
+KeywordEnglish note notes~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tnote <&gcomando&w>
+&YSintassi&w:  °Tnote <&gcomando&w> <&gnumero&w>
+&YSintassi&w:  °Tnote <&gcomando&w> <&gtesto&w>
+
+I &gcomandi&w che si possono utilizzare sono i seguenti:
+      °Tlist, °Tread, °Twrite, °Tsubject, °Tto, °Tshow, 
+      °Tpost, °Tremove, °Ttake, °Tdate
+
+Il comando °Tlist ti mostra tutte le note che possono essere lette, se invece
+scrivi °Tlist <&gnumero&w> avrai la lista di tutte le note da quel numero in
+avanti.
+Devi essere vicino ad una bacheca per vedere la lista delle note.
+
+Esempio:  °Tnote °Tlist      mostra tutte le note di una bacheca.
+          °Tnote °Tlist 10   mostra la nota 10 e le successive di una bacheca.
+
+Il comando °Tread serve per leggere il contenuto di una nota, per farlo dovrete
+far seguire al comando il numero della nota che vi interessa.
+Per leggere una nota dovete trovarvi vicino alla bacheca che la contiene.
+
+Esempio:  °Tnota °Tread 5    mostra la nota numero 5.
+
+Il comando °Twrite ti apre un editor con cui puoi scrivere il testo di una 
+nota, per poterla scrivere devi tenere in mano un foglio ed avere una penna 
+od una matita in inventario.
+(Per l'utilizzo dell'&geditor&w vedi °Thelp &geditor&w)
+~
+ToSee          note2~
+End
+
+#HELP
+KeywordItalian nota2~
+KeywordEnglish note2~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+Il comando °Tsubject serve ad impostare il soggetto della nota, per farlo
+devi tenere in mano un foglio e avere una penna od una matita nell'invetario.
+
+Esempio: °Tnote °Tsubject Ciao Mondo!  imposta 'Ciao Mondo!' come soggetto.
+
+Il comando °Tto serve ad impostare il destinatario della nota, puoi mandarla
+a tutti mettendo come destinatario &gall&w, oppure a qualcuno in particolare
+scrivendo il suo nome.
+
+Il comando °Tshow mostra la nota che hai scritto e stai tenendo in mano.
+
+Il comando °Tpost prende la nota che stai tenendo in mano e la appende alla
+bacheca presso cui ti trovi così che gli altri possano leggerla.
+
+Il comando °Tremove serve per cancellare una nota scritta, per poterlo fare
+devi scrivere il numero della nota che vuoi togliere, devi trovarti davanti 
+alla bacheca dove si trova la nota ed essere l'autore della nota.
+
+Il comando °Ttake serve per togliere una nota dalla bacheca ma senza eliminarla
+del tutto, anche in questo caso dovrai specificare il numero della nota che
+vuoi prendere, dovrai trovarti davanti alla bacheca in cui si trova la nota e
+esserne l'autore.
+
+Il comando °Tdate è simile al comando °Tlist, ti mostrerà un elenco delle
+note presenti, ma invece di mettere il destinatario del messaggio, le
+elencherà con la data in cui è stata scritta.
+~
+ToSee          note~
+End
+
+#HELP
+KeywordItalian oggetti~
+KeywordEnglish objects~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+Per vedere gli oggetti in tuo possesso scrivi °Tinventory ed °Tequipment:
+°Tinventory mostra gli oggetti che stai trasportando, ma non indossando,
+°Tequipment mostra gli oggetti che stai indossando.
+
+Puoi indossare, impugnare e afferrare gli oggetti per usarli con i 
+comandi °Twear, °Twiel e °Thold. Per smettere di usare un oggetto scrivi 
+°Tremove <&goggetto&w>. Prima di impugnare una nuova arma devi rimuovere quella 
+che stai usando.
+
+Puoi avere più informazioni su un oggetto usando °Tlook ed °Texamine. &gEsamina&w
+ti dice la condizione dell'oggetto in modo più dettagliato di &gguarda&w.
+~
+End
+
+#HELP
+KeywordItalian onirismo onirico 'delirio onirico astrale'~
+KeywordEnglish oneirism~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Toneirism
+
+Con questo comando è possibile far entrare il proprio personaggio in uno stato
+particolare in cui esso trae dai suoi sogni più profondi ed inconsci l'energia
+per poter modificare sé stesso!
+
+Si possono modificare:
+Gli &gattributi&w, aumentandoli o diminuendoli.
+°Lattr.
+I &gsensi&w, aumentandoli o diminuendoli.
+°Lsense.
+I &gpunteggi&w.
+°Lpoint.
+L'&galtezza&w, aumentandola o diminuendola di centimetro in centimetro.
+Il &gpeso&w, modificandolo di un etto in più o in meno.
+La lunghezza dei capelli, aumentandoli o diminuendoli di un centimetro.
+Il tipo di dei capelli:
+°Lhairtype.
+Il colore dei capelli:
+°Lcolorhair.
+Il colore degli occhi:
+°Lcolor.
+Cambiare il proprio &garchetipo&w (per avere una lista utilizzare il comando
+°Tarchetype).
+Cambiare la propria mano, se prima il personaggio usava la destra diventerà
+mancino e viceversa.
+
+E' inoltre possibile:
+
+- Sapere se ci sono nostre &gspoglie&w sparse per il mondo e quanto tempo rimane 
+   prima che tornino ad essere polvere.
+- Per i giovani avventurieri alle prime esperienze, in caso di perdita di tutto
+   il proprio equipaggiamento, ottenere una &gvestizione&w  con gli oggetti di 
+   prima necessità.
+
+Tutto questo grazie ai punti di gloria che verranno sottratti basandosi sulla
+scelta del delirio onirico e sulla propria migrazione, maggiore sarà e minore
+ne risulterà il costo.
+
+Per limitazioni di classe alcuni individui non potranno modificare determinate 
+cose, per esempio un thepa non potrà modificare le caratteristiche riguardanti 
+i capelli.
+~
+End
+
+#HELP
+KeywordItalian calendario tempo~
+KeywordEnglish calendar weather~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcalendar
+&YSintassi&w:  °Tweather
+
+Il comando °Tcalendar mostra l'ora e la data del Mud.
+
+Il comando °Tweather mostra le condizioni atmosferiche, devi però essere in
+una locazione all'aperto per poter vedere che tempo fa.
+~
+End
+
+#HELP
+KeywordItalian ordina~
+KeywordEnglish order~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Torder <&gseguace&w> &gcomando&w
+&YSintassi&w:  °Torder &gtutto&w &gcomando&w
+
+Il comando °Torder serve per ordinare ad uno (o a tutti con &gtutto&w) dei tuoi
+seguaci di fare una determinata cosa impartendogli il comando da te desiderato.
+Ricordati che &Csei responsabile&w delle azioni dei tuoi seguaci e se altri
+dovessero attaccare i tuoi seguaci incorrerano nella stessa penalità come se
+attaccassero te direttamente.
+
+La maggior parte delle creature perdono la loro natura aggressiva finchè
+sono incantate.
+
+Se una delle tue creature incantate inizia a combattere con te questo
+interromperà l'incanto.
+~
+End
+
+#HELP
+KeywordItalian pausa pager~
+KeywordEnglish pause pager~
+Type           HELPTYPE_OPTION
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpause <&gnumero di linee&w>
+&YSintassi&w:  °Tpause &gon&w
+&YSintassi&w:  °Tpause &goff&w
+&YSintassi&w:  °Tpause
+
+Il comando °Tpause crea una  configurazione che farà fermare lo schermo nello 
+scorrimento alla lunghezza specificata dall'utente. Per impostarlo si deve
+scrivere °Tpause <&gnumero di linee&w>.
+
+Inizialmente la lunghezza della pagina è al massimo di 80 linee, per attivarla
+o disattivarla scrivi °Tpause.
+
+I comandi disponibili quando si ferma lo schermo sono:
+
+&C(C)ontinua, (N)on-stop, (E)sci: [C]&w.
+
+- Continua: continua nella visualizzazione della schermata
+- Non-stop: mostra l'intera schermata senza interruzioni
+- Esci: fa uscire dalla schermata
+- Tra le parentesi quadre è riportata l'iniziale dell'opzione di default, che
+   è Continua, quindi battendo semplicemnte invio continuerà la visualizzazione
+   della schermata. 
+
+
+Per disattivare la pausa digitare °Tpause &goff&w
+Per riattivarlo digiate °Tpause &gon&w
+Per cambiare lo stato di attivo/disattivo basta digitare °Tpause
+~
+End
+
+#HELP
+KeywordItalian password~
+KeywordEnglish password~
+Type           HELPTYPE_OPTION
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpassword <&gnuova password&w> <&gconferma password&w>
+
+Il comando °Tpassword serve per cambiare la password del proprio personaggio,
+nel farlo dovrai scegliere una nuova password e riscriverla per conferma.
+Se non inserisci correttamente entrambe le volte la nuova parola l'operazione
+di cambiamento non andrà a buon fine, questo per evitare che eventuali errori
+di ortografia o battitura ti impediscano di usare il tuo personaggio.
+Il comando °Tpassword è protetto e non loggato, è quindi impossibile per
+qualsiasi Amministratore venirne a conoscenza.
+E' responsabilità del giocatore assicurarsi che la propria password sia
+tenuta segreta.
+
+Le password non possono contenere certi carattere o spazi. Ti informiamo
+che se usi una password alfanumerica (cioè che contiene sia numeri che lettere)
+è più difficile da indovinare. Ti raccomandiamo inoltre di scegliere una
+password più lunga di 6 caratteri. Una buona regola è scegliere parole che non
+siano di uso comune, non si trovino sul dizionario o siano facilmente
+collegabili a te.
+
+NB: Se decidi di scambiare la password di un tuo personaggio con un altro
+giocatore lo fai a tuo rischio e pericolo. Gli Amministratori non sono
+responsabili per questi scambi tra pg.
+~
+End
+
+#HELP
+KeywordItalian posa abbandona prendi dai metti~
+KeywordEnglish drop get take give put~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdrop <&goggetto&w>
+           °Tdrop <&gquantità&w> &gcoins&w
+&YSintassi&w:  °Tget <&goggetto&w>
+           °Tget <&goggetto&w> <&gcontenitore&w>
+&YSintassi&w:  °Tgive <&goggetto&w> <&ggiocatore&w>
+           °Tgive <&gquantità&w> &gcoins&w <&ggiocatore&w>
+&YSintassi&w:  °Tput <&goggetto&w> <&gcontenitore&w>
+&YSintassi&w:  °Tget/°Tdrop <&gquantità&w> <&goggetto&w>
+&YSintassi&w:  °Tget/°Tput <&gquantità&w> <&goggetto&w> <&gcontenitore&w>
+
+Per poter prendere un oggetto o qualche moneta da terra, da un contenitore o
+da un cadavere usa il comando °Tget, mentre per lasciare un oggetto o alcune
+monete a terra usa il comando °Tdrop, mentre se l'oggetto lo vuoi riporre in
+un contenitore qualsiasi il comando da usare è °Tput.
+Per passare oggetti o monete ad altri giocatori usa il comando °Tgive.
+
+Esempi:
+- °Tget &gzaino&w
+- °Tget coniglio sacca
+- °Tdrop 1000 coins
+- °Tdrop elmo
+- °Tput pozione borsa
+- °Tget/°Tdrop 10 fungo
+- °Tget/°Tput 10 pergamena zainetto
+
+Se vuoi prendere/mettere/posare tutti gli oggetti presenti usa &gtutto&w, se
+invece ti interessano tutti gli oggetti di un determinato tipo usa
+&gtutto.oggetto&w.
+
+Esempi: 
+- °Tget/°Tdrop &gtutto&w
+- °Tget/°Tdrop &gtutto&w.&gmappa&w
+- °Tget/°Tput &gtutto&w &gsacca&w
+- °Tget/°Tput &gtutto&w.&gpergamena&w &gsacca&w
+~
+End
+
+#HELP
+KeywordItalian posizioni~
+KeywordEnglish positions~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Ci sono 16 "posizioni" nel gioco, e queste sono messe in un ordine speciale.
+Se la posizione B è sotto la posizione A nella lista, questo indica che mentre
+siete in pozione B spenderete una maggiore energia fisica o mentale qualunque
+cosa facciate, che usiate un commando, un incantesimo o un'abilità.
+
+Per esempio, avrete una maggiore ablità nel fare le cose se siete in piedi,
+che non mentre siete seduti. Mentre combatti con uno stile evasivo avrai
+molte più opzioni che non mentre combatti con uno stile aggressivo.
+
+La lista delle posizioni è come segue, da sinistra a destra, dall'alto verso
+il basso:
+&zMorto          &rFerito grave       &BIncapacitato
+&cStordito       &CDormo              &RComb berserk
+&gRiposo         &RComb &Yaggress       &GSeduto
+&RCombattendo    &RComb &Gdifensivo     &RComb &Cevasivo
+&wAlzato         &OCavalco            &OSpingo
+&OTrascino&w
+~
+ToSee          style~
+End
+
+#HELP
+KeywordItalian pratica~
+KeywordEnglish practice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpractice
+&YSintassi&w:  °Tpractice <&gabilità&w|&gincantesimo&w|&garma&w>
+
+Ogni giocatore può apprendere nel corso della sua vita in queste terre una
+serie di &gabilità&w, &gincantesimi&w e &garmi&w a seconda del tipo di vita che
+ha scelto di seguire.
+
+Per sapere quali abilità, incantesimi o armi puoi imparare, hai già imparato
+e quanto le conosci, devi usare il comando °Tpractice che ti mostrerà un elenco.
+Puoi consultare questo elenco in qualunque momento e ovunque ti trovi.
+In fondo all'elenco delle abilità e incantesimi puoi vedere quante sessioni 
+di  pratica hai a tua disposizione per imparare nuove abilità (1 sessione 
+corrisponde a 1 lezione), le sessioni non utilizzate ti resteranno fino a 
+che non sceglierai di usarle.
+
+Se invece vuoi imparare una determinata abilità devi recarti da un Maestro,
+e quando sei davanti a lui usare il comando °Tpractice &gnome abilità&w (per
+sapere cosa fa un incantesimo o un abilità scrivi °Thelp &gabilità&w).
+La percentuale di apprendimento di un abilità parte da 0% (non imparata),
+potrai apprenderla dal maestro fino ad un certo livello di conoscenza dopo il
+quale dovrai continuare a migliorarne la conoscenza con l'uso potrandola 
+al massimo (che non è necessariamente il 100%).
+
+Tutti i giocatori possono andare dal Maestro dell'Accademia per imparare nuove
+abilità oppure dal Maestro della propria Gilda.
+~
+ToSee          skills~
+End
+
+#HELP
+KeywordItalian prompt cprompt~
+KeywordEnglish prompt fprompt~
+Type           HELPTYPE_OPTION
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tprompt <&gstringa&w>
+&YSintassi&w:  °Tfprompt <&gstringa&w>
+
+Il gioco imposta automaticamente il tuo prompt quando viene creato il 
+personaggio, ma puoi sostituirlo usando il comando °Tprompt come preferisci.
+Se come &gstringa&w usi la parola &gdefault&w il tuo prompt tornerà a quello
+predefinito, hai inoltre a tua disposizione alcuni prompt già definiti, e
+puoi inserirli sicrivendo °Tprompt <&gnome&w>, per avere l'elenco scrivi °Tprompt.
+Il comando °Tfprompt serve invece per definire il prompt che appare durante
+i combattimenti, segue lo stesso formato del normale prompt.
+
+Il tuo prompt può essere formato da una qualsiasi stringa che desideri, hai
+a tua disposizione dei caratteri e dei simboli speciali, da inserire nella
+stringa, che aggiungeranno delle informazioni specifiche.
+
+Il primo carattere speciale è: %
+Combinazioni per %:
+ %l - percentuale vita attuale           %m - percentuale mana attuale
+ %v - percentuale movimento attuale      %o - anima attuale
+ %g - monete possedute
+ %c - stringa di salute del combattente  %C - stringa di salute del combattuto
+ %n - nome del giocatore                 %N - nome di chi si sta combattendo
+ %A - indicatore di invisibilità         %S - stile di combattimento
+ %k - flag di ldt                        %T - Ora nel luogo
+
+Gli altri caratteri speciali sono:
+ &&  - Colore del testo                  ^^  - Colore di sfondo
+
+Esempio (assumendo le caratteristiche: punti ferita 43%, mana 23% e movimento 100%):
+Prompt %l%m%v       =   43%23%120%
+Prompt <%l|%m|%v>>> =   <43%|23%|100>>>
+Prompt %l %m %v     =   43% 23% 100%
+
+Vedere °Thelp &gcolore&w per una lista dei colori disponibili..
+~
+TextToAdmin
+In addition to the normal prompt tokens, the following are available for
+immortal use only:
+
+ %h - punti ferita attuali               %m - mana attuale
+ %H - punti ferita massimi               %M - mana massimo
+ %v - movimento attuale
+ %V - movimento massimo                  %O - anima massima
+ %x - current experience                 %X - experience needed to next level
+ %a - il tuo allineamento                %F - Flag della stanza
+ %r - 'vnum' of current room             %i - '(Invis Lv) ' wizinvis
+ %R - '<#vnum> ' of current room         %I - 'Lv' wizinvis
+        (with config +vnum set)
+ %u - numero descrittore                 %U - Picco massimo pg
+~
+End
+
+#HELP
+KeywordItalian regole~
+KeywordEnglish rules~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Mud è governato da un insieme di regole, la maggior parte delle quali sono
+semplici regole di cortesia e buon senso e tutte devono essere seguite per
+assicurare a tutti l'opportunità di divertirsi con il gioco.
+
+Come in ogni Mud la presenza del giocatore qui è un privilegio, non un diritto,
+ed è qualcosa che abbiamo il diritto di rifiutare in qualsiasi momento a nostra
+discrezione.
+
+Gli Amministratori sono responsabili di far osservare queste leggi e le loro
+decisioni devono essere accettate.
+Se pensi che un Amministratore ti abbia trattato ingiustamente esponi il
+problema inviando una mail a t2team@terra-secunda.net
+Le decisioni in risposta alla tua mail saranno definitive.
+
+Per sapere quali Amministratori sono visibili usa il comando °Twho.
+
+Per leggere le regole, scrivi °Thelp <argomento> per ognuno dei seguenti:
+    |  CANALI        |  CHARM         |  CHEATING      |  MULTIPLAYING  | 
+    |  PKILL         |  STORES        |
+~
+End
+
+#HELP
+KeywordItalian 'regole canali'~
+KeywordEnglish 'rules channels'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Lo &rSpam&w (ripetere lo stesso messaggio o fare altre cose che causano lo
+scorrimento eccessivo dello schermo) e i comportamenti molesti (anche sessuali)
+e abusivi non sono permessi in nessun canale (questo include anche il °Ttell,
+°Treply e °Tgtell).
+Non continuare a parlare a qualcuno che ti ha chiesto di smettere.
+
+Le parolacce non sono permesse nei canali gdr (°Tmurmur, °Twhisper, °Tsay,
+°Tsing °Tyell, °Tshout).
+Se usi parolacce in conversazioni private e altri ti chiedono di smettere,
+per favore rispetta questo desiderio.
+
+Se un Amministratore di qualsiasi livello ti chiede di smettere di parlare
+di un certo argomento o di spostare questo argomento su un canale più
+appropriato, fallo immediatamente. Continuare dopo una richiesta può causarti
+la perdita dell'accesso a tale canale o ad altro. Una decisione di un
+Amministratore su un argomento o canale deve essere osservata.
+~
+End
+
+#HELP
+KeywordItalian 'regole charm'~
+KeywordEnglish 'rules charm'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Non portare creature charmate aggressive in città, perché non appena lo charm
+viene meno (perché scade o per un attacco) la loro natura aggressiva tornerà.
+Cerca di non portare neanche creature in aree consigliate per livelli più bassi
+di quella da cui proviene originariamente la creatura.
+~
+End
+
+#HELP
+KeywordItalian 'regole cheating'~
+KeywordEnglish 'rules cheating'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Barare (cheating) è l'offesa più grave e comporta a TUTTI i personaggi
+coinvolti l'uccisione, la perdita di tutto l'equipaggiamento, un freeze,
+diminuzione di stat, infernamento o il ban.
+
+Cosa è considerato barare?
+ - sfruttamento (intenzionale) di un bug per guadagnare soldi o oggetti
+ - causare intenzionalmente il crash del sistema
+ - duplicare intenzionalmente oggetti o soldi
+ - accettare equipaggiamento illegale da altri
+ - provare a duplicare soldi o oggetti -- * anche se non hai successo *
+ - usare o trarre profitto da equipaggiamento accidentalmente duplicato
+ - usare soldi che sono stati accidentalmente duplicati
+
+Barare danneggia il gioco e anche i giocatori in gioco. Proteggi te stesso
+riportando qualsiasi bug se lo trovi e informa gli Amministratori se hai forti
+sospetti che qualcuno faccia una delle cose sopra elencate.
+
+Se ti accorgi di aver duplicato un oggetto per sbaglio, dai _immediatamente_
+l'oggetto ad un Amministratore o sacrifica l'oggetto.
+~
+End
+
+#HELP
+KeywordItalian 'regole multiplaying'~
+KeywordEnglish 'rules multiplaying'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il MultiPlaying è permesso in queste lande con le seguenti regole:
+
+- Puoi avere solo uno o più personaggi online ma essi non devono interagire
+  tra di loro, vietato quindi: il passaggio di oggetti, fare gruppo tra
+  propri personaggi, recuperare il cadavere di un personaggio con un altro,
+  utilizzare   più personaggi per uccidere-rubare-molestare un altro giocatore.
+  In generale è vietato l'utilizzo di 2 o più personaggi per accaparrarsi un
+  profitto personale o extrapersonale (sia in maniera nongdr che in maniera gdr)
+
+- E preferibile agli occhi degli Amministratori che utilizzi un solo
+  personaggio per volta nel gioco.
+  Nel caso che ne utilizzi due o più gli Amministratori si aspettarano da te
+  il doppio impegno o più nell'interpretare i tuoi personaggi.
+  Se tale impegno verrà a mancare gli Amministratori possono chiederti di
+  utilizzare un solo personaggio per volta per migliorare il vostro modo di
+  giocare e di interpretare il personaggio.
+
+NOTA: I personaggi in link death non sono considerati "online."
+~
+End
+
+#HELP
+KeywordItalian 'regole pkill'~
+KeywordEnglish 'rules pkill'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+E' possibile uccidere altri giocatori in qualcunque area, escluse le città e 
+particolari aree nopkill, è possibile uccidere un giocatore qualunque 
+differenza di livello ci sia tra voi, sono protetti dal pkill solo i newbie.
+~
+End
+
+#HELP
+KeywordItalian 'regole stores'~
+KeywordEnglish 'rules stores'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+I negozianti delle città sono protetti dalla legge del signore di tale città.
+Gli stessi negozianti hanno poteri dati dalla magia ed elargiti dalla Gilda
+dei Mercanti della città a loro per affrontare e dare una sonora lezione a
+coloro che infrangono tale legge.
+In pratica chiunque scelga di attaccare un negoziante della città morirà di
+una morte orrenda.
+
+Chiunque venga trovato a rubare ai negozianti sarà imprigionato dalle guardie
+della relativa città fino al tempo del loro rilascio deciso dalla
+giurisdizione locale.
+
+Un negoziante della città è un mob dal quale puoi utilizzare il comando
+°Tlist.
+Se ti viene mostrata una lista di oggetti in vendita o ti viene detto di
+provare più tardi allora quello è un negoziante.
+Questo si applica anche ai negozianti delle gilde e ai fabbri.
+~
+End
+
+#HELP
+KeywordItalian resti cadavere~
+KeywordEnglish remains~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tremains
+
+Se, o meglio, quando vi capiterà di morire potrete usare questo comando per
+poter recuperare il vostro cadavere nel caso in cui  questo si trovasse in
+un luogo che non sapete raggiungere o in un luogo troppo pericoloso.
+Per poter recuperare il corpo dovrete andare da Fosstoh il becchino che vive
+nel cimitero vicino a Darkhaven, portando con voi un po' di soldi (un 
+consiglio: depositate di tanto in tanto un po' di soldi in banca per ogni 
+evenienza) e usare il comando °Tremains, così facendo  il becchino recupererà 
+per voi  il corpo e ve lo restituirà.
+Se invece desiderate recuperare il vostro corpo con le sole vostre forze, ma
+non sapete dove cercarlo potete usare il "delirio onirico astrale" (vedi
+&gonirismo&w) per avere delle visioni del luogo dove i vostri resti giaggiono.
+~
+End
+
+#HELP
+KeywordItalian restring~
+KeywordEnglish restring~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La caratterizzazione del personaggio che si sta giocando non può prescindere 
+dall'uso che fa di armi, vestiti, equipaggiamento ed ogni altro tipo di
+oggetto che si trovi ad avere tra le mani. 
+Essendo però gli oggetti disponibili tra i piani di Terra Secunda in numero  
+limitato è possibile che nessuno di questi corrisponda alla personalità ed 
+al gusto che si intende donare al personaggio. Nasce così l'esigenza di un 
+restring, ovvero il cambiamento del nome di un oggetto affinchè risponda 
+in maniera più precisa alle richieste di chi lo indossa e/o possiede. 
+Gli amministratori di Terra Secunda sono gli unici in grado di eseguire i  
+restring poiché devono controllarne eventuali abusi che vadano magari a 
+collidere o stonare con determinati elementi del background, è quindi 
+inutile aspirare a "Spade del Caos", "Excalibur" e così via. 
+Ricordate inoltre che non è un &gservizio dovuto&w, siate quindi gentili 
+nel chiederlo e preparate le stringhe &gPRIMA&w di contattare l'amministratore
+che vi farà il restring.  
+
+Le stringhe sono le seguenti. 
+Short: Il nome dell'oggetto in inventario o quando è equipaggiato 
+Long:  Il nome dell'oggetto quando è per terra 
+Name:  Parole chiave dell'oggetto 
+Extra: Descrizione aggiuntiva dell'oggetto, fruibile tramite un esame più 
+       attento
+
+E' inoltre possibile colorare alcune stringhe dell'oggetto (short, long e 
+extra), per sapere quali colori hai a disposizione °Thelp &gcolore&w.
+~
+End
+
+#HELP
+KeywordItalian riempi~
+KeywordEnglish fill~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tfill <&gcontenitore&w>
+&YSintassi&w:  °Tfill <pipa> <erba>
+
+Il comando °Tfill può essere usato per riempire contenitori di liquidi o pipe.
+ - per riempire un contenitore di liquidi vai ad una fontana e scrivi
+   °Tfill <&gcontenitore&w>
+ - per riempire una pipa devi avere sia la pipa che l'erba nel tuo
+   inventario, poi scrivi °Tfill <&gpipa&w> <&gerba&w>
+~
+ToSee          tamp light smoke empty~
+End
+
+#HELP
+KeywordItalian ripara~
+KeywordEnglish repair~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Trepair <&goggetto&w>
+           °Trepair &gtutto&w
+
+Il comando °Trepair ti consente di riparare l'equipaggiamento e le armi andando
+da un fabbro, o di ricaricare bastoni e bacchette negli empori magici.
+L'oggetto da riparare deve trovarsi nel tuo inventario.
+Se scrivi °Trepair &gtutto&w proverai a far riparare tutti gli oggetti che si
+trovano nel tuo inventario.
+
+C'e' una sovratassa del 10% per l'uso di °Trepair &gtutto&w.
+~
+End
+
+#HELP
+KeywordItalian riposa siedi dormi alzati sveglia~
+KeywordEnglish rest sit sleep stand wake~
+Type           HELPTYPE_MOVEMENT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Trest
+&YSintassi&w:  °Tsit
+&YSintassi&w:  °Tsleep
+&YSintassi&w:  °Tstand
+&YSintassi&w:  °Twake
+
+Questi comandi ti consentono di cambiare la tua posizione.
+Se hai fatto un lungo viaggio, sei rimasto ferito dopo uno scontro o hai
+esaurito tutte le tue energie magiche, usando il comando °Trest potrai riposare
+e  recuperare, oppure puoi sederti con il comando °Tsit, usando invece il 
+comando °Tsleep ti addormenterai e recupererai  più velocemente. Quando riposi 
+sei più vulnerabile in caso di attacco e se stai dormendo non puoi accorgerti 
+di quello che accade intorno a te e non  sentirai se gli altri parlano.
+
+Dopo che avrai riposato usa il comando °Tstand per alzarti in piedi, oppure usa
+il comando °Twake per svegliarti dopo una bella dormita.
+Con il comando °Twake puoi anche svegliare altri giocatori o mob che stanno 
+dormendo.
+~
+End
+
+#HELP
+KeywordItalian sacrifica~
+KeywordEnglish sacrifice~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tsacrifice <&goggetto&w>
+
+Il comando °Tsacrifice ti permette di dare in sacrificio un oggetto agli dei,
+l'oggetto deve trovarsi in terra per poter essere sacrificato.
+Gli dei ti ricompenseranno per il sacrificio fatto e la natura della ricompensa
+dipenderà dal tipo di oggetto che donerai in sacrificio.
+~
+End
+
+#HELP
+KeywordItalian salva~
+KeywordEnglish save~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tsave
+
+Il comando °Tsave ti permette di salvare il tuo personaggio e il tuo inventario.
+Il Mud salva automaticamente circa un personaggio ogni minuto, ma con un alto 
+numero di giocaotri online potrebbe volerci un po' prima che il tuo personaggio 
+venga salvato in automatico, per questo motivo ti consigliamo di &gsalvare spesso&w.
+
+Usa il comando °Tsave subito dopo aver recuperato il tuo cadavere, dopo aver
+guadagnato esperienza o essere passato di livello, dopo aver preso nuovi
+oggetti o aver fatto riparare l'equipaggiamento, ecc...
+
+Ci sono alcuni oggetti che non possono essere salvati (ad esempio le chiavi),
+inoltre se hai in inventario oggetti di livello più alto del tuo spariranno
+quando uscirai dal gioco.
+Ogni giocatore è salvato automaticamente al riavvio.
+~
+End
+
+#HELP
+KeywordItalian salvamascotte salvacucciolo~
+KeywordEnglish mascottesave petsave~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il salvataggio degli animali è automatico. Quando acquisti un cucciolo, questo
+ti sarà fedele fino alla morte, quando uscirai dal gioco il tuo cucciolo uscirà
+con te e lo vedrai ricomparire quando tornerai. Se tu dovessi morire, il tuo
+cucciolo potrebbe sopravvivere e in quel caso resterà nel luogo dove sei morto.
+Il cucciolo ti resterà fedele fino alla morte. Se dovessi perdere il
+collegamento durante il gioco il tuo cucciolo resterà vicino a te, ma potrebbe
+essere ucciso se tu non sei lì a proteggerlo.
+In nessun caso i cuccioli sono restituiti, quindi non chiedetelo.
+~
+End
+
+#HELP
+KeywordItalian fuggi scappa~
+KeywordEnglish flee~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tflee
+
+Una volta che hai iniziato un combattimento non puoi semplicemente
+andartene. Se il combattimento non sta andando bene puoi provare a scappare
+con il comando °Tflee, o se sei in gruppo un altro giocatore che abbia 
+l'abilità può provare a sostituirti durante lo scontro (vedi °Thelp °Trescue).
+
+Se perdi la connessione durante un combattimento il tuo giocatore continuerà
+a lottare e proverà a fare ritorno di volta in volta. Le tue possibilità
+di riuscire a ritornare sono ridotte e perdi molta più esperienza.
+~
+End
+
+#HELP
+KeywordItalian scava sotterra~
+KeywordEnglish dig bury~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdig
+&YSintassi&w:  °Tdig  <&gdirezione&w>
+&YSintassi&w:  °Tbury <&goggetto&w>
+
+Puoi scavare e sotterrare oggetti mediante l'uso dei comandi °Tdig e 
+°Tbury. Gli oggetti sotterrati non sono visibili ai giocatori, anche
+se usano incantesimi come 'locate object'. Per dissotterrare un oggetto
+scrivi °Tdig senza argomenti, mentre se scavi in una certa direzione proverai 
+ad aprire un'uscita. Avere una pala aumenta la tua possibilità di successo.
+
+Per seppellire un oggetto (o un corpo), posa l'oggetto a terra e scrivi
+°Tbury <&goggetto&w>, a seconda delle dimensioni e del peso dell'oggetto 
+puoi aver bisogno di una pala.
+
+NB: I giocatori assassini possono seppellirsi e dissotterrarsi i corpi a 
+vicenda.
+
+Gli oggetti sotterrati non resteranno li dopo un crash o un riavvio. Non 
+provare ad usare questa abilità per immagazzinare oggetti che vuoi conservare.
+~
+End
+
+#HELP
+KeywordItalian segui~
+KeywordEnglish follow~
+Type           HELPTYPE_GROUP
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tfollow <&ggiocatore&w>
+
+Il comando °Tfollow ti permette di seguire un altro giocatore, puoi farlo sia
+per essere accompagnato in qualche luogo o al fine di entrare a far parte del
+suo gruppo per affrontare qualche avventura.
+Se in qualsiasi momento volessi smettere di seguire quel giocatore devi
+semplicemente scrivere °Tfollow <&gtuo nome&w> e tornerai a seguire te stesso.
+~
+ToSee          group~
+End
+
+#HELP
+KeywordItalian sociali faccine~
+KeywordEnglish socials smiles~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tsocials
+           °Tsocials &gitaliano&w
+           °Tsocials &ginglese&w
+           °Tsocials &gtraduzione&w
+           °Tsocials &gfaccine&w
+           °Tsocials <&gsociale cercato&w>
+
+
+Il comando °Tsocials mostra l'elenco completo dei sociali disponibili.
+Con °Tsocials &gitaliano&w avrai l'elenco dei sociali in italiano, mentre per
+la lista in inglese usa °Tsocials &ginglese&w, il comando °Tsocials &gtraduzione&w
+mostra la lista dei sociali nella tua lingua con accanto la traduzione.
+Il comando °Tsocials &gfaccine&w ti da una lista dei vari smiles da usare
+in fondo ai messaggi che vuoi inviare con i vari canali di comunicazione.
+Se vuoi cercare un sociale particolare usa °Tsocials <&gsociale cercato&w> e
+ti saranno mostrati tutti i sociali con la parola che hai inserito.
+~
+ToSee          emote~
+End
+
+#HELP
+KeywordItalian spalma unguento pomata~
+KeywordEnglish apply salve~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tapply <&goggetto&w>
+&YSintassi&w:  °Tapply <&goggetto&w> <&ggiocatore&w>
+
+Durante i tuoi viaggi potresti incontrare mercanti, negozianti, alchimisti o
+erboristi che vendano oli, creme, preparati a base di erbe, fanghi, unguenti e
+altri oggetti simili.
+Per poterli usare usa il comando °Tapply <&goggetto&w> per spalmare un po' del
+prodotto sulla tua pelle.
+Puoi anche spalmare i vari prodotti su un'altro giocatore, per farlo devi
+scrivere °Tapply <&goggetto&w> <&ggiocatore&w>.
+~
+End
+
+#HELP
+KeywordItalian spingi premi tira leve catene bottoni interruttori~
+KeywordEnglish push pull levers pullchains switches buttons~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpull <&gbottone&w>
+&YSintassi&w:  °Tpush <&gbottone&w>
+
+Leve, bottoni, catene e interruttori possono fare ogni tipo di cose
+interessanti... Aprire o sbloccare porte, cambiare le uscite intorno a te,
+teletrasportarti ad un'altra locazione, fare incantesimi, evocare mostri...
+~
+End
+
+#HELP
+KeywordItalian stato~
+KeywordEnglish score~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tscore
+
+Il comando °Tscore mostra una scheda dove trovi tutte le caratteristiche del
+tuo personaggio. Quando scrivi °Tscore solo tu puoi vedere la scheda.
+~
+End
+
+#HELP
+KeywordItalian 'stato mentale'~
+KeywordEnglish mentalstate mentalstates 'mental state' 'mental states'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Lo &gstato mentale&w è la tua attuale disposizione d'animo, e quanto chiaramente
+e realisticamente vedi ciò che ti circonda. Prolungati combattimenti, fame, 
+sete e avvelenamento possono alterarlo se ne sei colpito per periododi tempo 
+più o meno lunghi, inizierà a deteriorarsi e non sarai più in grado di 
+distinguere correttamente ciò che ti circonda. Inizierai ad avere allucinazioni, 
+o sarai troppo letargico per agire, e le tue abilità ne risentiranno.
+In casi estremi potresti arrivare a collassare perchè troppo esausto o entrare
+in un coma delirante.
+
+Per ripristinare il tuo &gstato mentale&w dovrai riposare (il riposo o un buon
+sonno accellereranno il recupero), mangiare, bere, curare l'avvelenamento di
+cui sei vittima.
+Se però sei malnutrito il tuo stato NON migliorrerà nemmeno con il sonno, fino
+a che non ti sarai sfamato e/o dissetato.
+
+Puoi vedere il tuo &gstato mentale&w nello °Tscore o nel '°Tgroup &gdisplay&w'.
+~
+ToSee          'group display'~
+End
+
+#HELP
+KeywordItalian svuota~
+KeywordEnglish empty~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tempty <&gcontenitore&w>
+&YSintassi&w:  °Tempty <&gcontenitore&w> <&gcontenitore&w>
+
+Con il comando °Tempty <&gcontenitore&w> puoi svuotare un contenitore a terra,
+mentre con °Tempty <&gcontenitore&w> <&gcontenitore&w> potrai passare il
+contenuto da un contenitore all'altro.
+Questo comando funziona solamente con contenitori per liquidi.
+~
+End
+
+#HELP
+KeywordItalian tieni indossa impugna rimuovi~
+KeywordEnglish hold wear wield remove~
+Type           HELPTYPE_OBJECT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Thold <&goggetto&w>
+&YSintassi&w:  °Tremove <&goggetto&w>
+&YSintassi&w:  °Tremove &gtutto&w
+&YSintassi&w:  °Twear <&goggetto&w>
+&YSintassi&w:  °Twear &gtutto&w
+&YSintassi&w:  °Twield <&goggetto&w>
+
+Con questi comandi potrai prendere oggetti dal tuo inventario per utilizzarli
+come equipaggiamento.
+
+Il comando °Thold ti permette di afferrare sorgenti di luce, bacchette,
+bastoni e alcuni tipi di contenitori.
+Il comando °Twear ti permette di indossare armature e capi di vestiario,
+cappelli, gioielli e calzature.
+Il comando °Twield ti permette di impugnare qualsiasi tipo di arma.
+
+Potresti non essere in grado di &Cimpugnare&w, &Cafferrare&w, &Cindossare&w un oggetto se:
+- il suo allineamento non coincide con il tuo
+- è troppo pensante per te
+- se non hai sufficente esperienza per poter usare quell'oggetto
+
+Con il comando °Twear &gtutto&w il tuo personaggio proverà ad &Cimpugnare&w,
+&Cafferrare&w e &Cindossare&w ogni oggetto nel tuo inventario, mentre se vuoi
+togliere un oggetto equipaggiato devi usare il comando °Tremove <&goggetto&w>
+che sposterà l'oggetto nel tuo inventario, mentre con °Tremove &gtutto&w toglierai 
+tutti gli oggetti che hai equipaggiato.
+~
+End
+
+#HELP
+KeywordItalian titolo~
+KeywordEnglish title~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Ttitle <&gstringa&w>
+
+Questo comando ti permette di impostare un titolo a tua scelta, è preferibile
+che i titoli siano adeguati al background di queste terre. 
+
+Un Amministratore può richiederti di cambiare il tuo titolo se contiene 
+materiale inappropriato. Non usare linguaggi blasfemi, insulti razziali, 
+commenti sessuali e nomi di altri giocatori (senza il loro permesso).
+Rifiutarsi di cambiare il titolo su richiesta di un Amministratore può far 
+incorrere in punizioni.
+~
+End
+
+#HELP
+KeywordItalian trascina~
+KeywordEnglish drag~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdrag <&gvittima&w> <&gdirezione&w>
+
+Il comando °Tdrag ti permette di spostare la vittima in una direzione 
+specificata se questa non è in piedi.
+
+Non puoi trascinare un giocatore in una trappola mortale oppure se tu o lui
+siete sotto attacco.
+~
+End
+
+#HELP
+KeywordItalian trovanota~
+KeywordEnglish findnote~
+Type           HELPTYPE_CHANNEL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tfindnote <&gparola chiave&w>
+
+Questo comando cerca nelle note che hai con te. Troverà la nota e la
+piazzerà tra le tue mani. La <&gparola chiave&w> deve essere composta di
+parole prese dall'oggetto della nota che stai cercando.
+~
+End
+
+#HELP
+KeywordItalian uccidi assassina~
+KeywordEnglish kill murder~
+Type           HELPTYPE_COMBAT
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tkill <&gobiettivo&w>
+&YSintassi&w:  °Tmurder <&gobiettivo&w>
+
+Il comando °Tkill serve per iniziare un combattimento contro un mob.
+
+Il comando °Tmurder serve per ingaggiare combattimenti con altri giocatori, 
+ma per poter utilizzare questo comando devi perdere il tuo stato di giocatore
+&WInesperto&w.
+Non puoi uccidere altri giocatori quando ti trovi in città o in zone &gnon-pkill&w.
+(ATTENZIONE: guarda le leggi sul pkill per le restrizioni sull'attaccare
+altri giocatori).
+~
+End
+
+#HELP
+KeywordItalian urta urti~
+KeywordEnglish shove~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tshove <&ggiocatore&w> <&gdirezione&w>
+
+Il comando °Tshove serve per spingere un mob od un altro giocatore in una
+direzione specificata, il bersaglio deve essere in piedi.
+
+I giocatori che stanno in una stanza pacifica per più di 30 secondi
+saranno incapaci di essere spinti o tirati fuori da quella stanza
+finchè non escono di loro iniziativa o provano a urtare/tirare
+un altro giocatore.
+~
+End
+
+#HELP
+KeywordItalian uscite~
+KeywordEnglish exits~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Texits
+
+Ti dice le uscite visibili della stanza nella quale ti trovi. Non tutte le 
+uscite sono visibili. Puoi usare la tecnica "&Rsbatti&w" per trovare le uscite 
+nascoste (Cioè provare a camminare in una certa direzione per vedere se vai a
+"sbattere" su una porta o un passaggio segreto), oppure la tecnica &gbussa&w
+(vedi °Trap) che è meno dolorosa.
+~
+End
+
+#HELP
+KeywordItalian voting vote votes~
+KeywordEnglish voting vote votes~
+Type           HELPTYPE_GAMING
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  note vote <number> open/close/yes/no/abstain
+
+Once a note has been posted on a bulletin board, the author may open
+voting with 'note vote <number> open'.  All those who can read the
+board may then vote on the issue in the note with 'note vote <number>
+yes/no/abstain'. The author may close the voting; the syntax for that
+should be clear enough.
+
+Note list will show whether a note is not a voting note, open to voting
+or closed to voting.  The character that separates the author and the
+recipient in 'note list' will be a colon, a capital V or a capital C
+accordingly.
+~
+End
+
+
+#END

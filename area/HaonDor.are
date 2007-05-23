@@ -1,0 +1,3044 @@
+#AREA
+Name         Haon Dor~
+Author       Diku (Jamirithiana)~
+Color        AT_DGREEN verde scuro~
+LevelRange   5 10
+Economy      0 3643376
+ResetMsg1    Lontano sento l'eco dell'alacre lavoro del picchio.~
+Vnums        6000 6156
+End
+
+
+#MOBILES
+
+#6000
+ehzer taglialegna~
+Ehzer il taglialegna~
+Scorgi la figura di un taglialegna intenta a scrutare gli alberi..~
+Alto circa sei piedi, muscoloso ed agile. Intuisci la corporatura abituata
+alla fatica anche se ha il torso coperto da una curiosa camiciola a scacchi..
+Non ha però lineamenti aggressivi, anzi appare piuttosto pacato sebbene sia
+avvezzo al duro lavoro manuale.
+~
+65 544 350 C
+7 15 7 5d5+50 1d8+2
+50 600
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 3072 0 0 2
+> entry_prog 100~
+if name($n) == grosso verme
+  emote schiaccia un grosso verme con la sua pesante calzatura di cuoio!
+  kill $n
+endif
+~
+> all_greet_prog 100~
+if name($n) == grosso verme
+  emote schiaccia un grosso verme con la sua pesante calzatura di cuoio!
+  kill $n
+endif
+~
+> rand_prog 8~
+emote spacca in due parti un piccolo arbusto con un colpo secco.
+mpechoaround S'ode il rumore di un'ascia che infrange il molle legno..
+~
+|
+
+#6002
+orso bruno gigantesco~
+un gigantesco orso bruno~
+Un gigantesco orso bruno ti fissa, rantolando sommessamente..~
+Apre la bocca per tramutare il rantolo in grugnito e puoi vedergli le possenti
+zanne e la gola profonda.. Questo gigantesco ammasso di pelo bruno non è
+affatto rassicurante almeno a giudicare dalle movenze..
+~
+97 0 -50 C
+8 13 3 8d8+80 2d6+2
+0 2000
+4 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+24 3 0 0 513 512 1
+0 0 263853 0 0 0 2 2
+
+#6003
+coniglio rabbioso feroce~
+un feroce coniglio~
+Un coniglio volta il capo di scatto appena si accorge di te..
+Ha un'espressione feroce negli occhietti rossi..~
+Il piccolo batuffolo di pelo è diventato un assassino feroce..
+Sicuramente ha contratto la rabbia ed ora è alquanto pericoloso.. Attenzione..
+~
+97 0 -150 S
+3 17 6 1d4+26 1d8+0
+0 350
+4 8 0
+
+#6004
+cervo~
+un cervo~
+Un elegante cervo distoglie il capo dal cespuglio e si volta a guardarti.~
+La morbida linea del corpo atletico termina sulle lunghe zampe eleganti.
+Il cervo interrompe il suo pasto per lanciarti un'occhiata disinteressata..
+~
+67 8 350 C
+2 19 2 2d8+2 1d6+0
+0 200
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 512 512 1
+0 0 1581 0 0 0 32 0
+
+#6005
+volpe~
+una volpe rossa~
+Improvvisamente sbuca fuori da un cespuglio una volpe bruna. E' in cerca di cibo..~
+Ha una splendida pelliccia rosso tiziano..
+La folta coda fende lievemente l'aria..
+~
+65 0 -50 C
+2 18 6 1d4+18 1d6+0
+0 200
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+105 3 0 0 512 512 1
+0 0 67117 0 0 0 1 2
+
+#6100
+lupo rabbioso~
+un lupo rabbioso~
+Ti si avvicina ringhiando un lupo rabbioso..~
+E' un animale eccezionalmente grosso, dal manto scuro.. Avanza lentamente,
+ringhia minaccioso.. Dalle zanne aguzze scivolano filamenti di saliva viscosa:
+è rabbioso e affamato..
+~
+97 0 -350 C
+5 16 5 1d1+60 1d6+1
+0 800
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 329261 0 0 0 0 0
+
+#6101
+lupo inferocito~
+un lupo inferocito~
+Ti si avvicina ringhiando un lupo inferocito..~
+E' un animale eccezionalmente grosso, dal manto scuro.. Avanza lentamente,
+ringhia minaccioso.. Dalle zanne aguzze scivolano filamenti di saliva viscosa:
+è inferocito e affamato..
+~
+97 0 -350 C
+5 16 5 1d1+60 2d4+0
+0 800
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 1605 0 0 0 0 0
+
+#6102
+lupo grigio~
+un grosso lupo grigio~
+Un grosso ed affamato lupo grigio ti gironzola attorno..~
+Ti scruta con interesse mentre si passa la lingua sul muso. Ha fame..
+~
+97 0 -150 C
+4 18 7 1d12+35 1d7+0
+0 450
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 513 512 0
+0 0 1704 0 0 0 0 0
+> rand_prog 8~
+mpechoaround Improvviso e lacerante, s'ode un lontano ululato..
+~
+|
+
+#6103
+lupo nero~
+un grosso lupo nero~
+Un grosso e famelico lupo nero girovaga attorno alla tua figura..~
+Ti scruta con interesse mentre si passa la lingua sul muso. Ha fame..
+~
+97 0 -150 C
+4 18 7 1d12+35 1d1+3
+0 450
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 512 512 0
+0 0 1581 0 0 0 0 0
+> rand_prog 8~
+mpechoaround Improvviso e lacerante.. s'ode un lontano ululato..
+~
+|
+
+#6112
+dragone verde~
+un enorme dragone verde~
+Un enorme dragone verde si guarda intorno con occhi gialli e stretti,
+ardenti d'ira..~
+E' un serpente alato, enorme.. Il colossale corpo completamente ricoperto
+di scaglie verde scuro ricorda le colline brulle..  Numerosi fori punteggiano
+le sue ali pesanti raccontando delle battaglie sostenute, così come le
+tacche che segnano le possenti corna sul suo capo..
+~
+99 8 -1000 C
+25 -5 -7 25d25+250 2d6+18
+5000 200000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 2048 2048 3
+0 0 1377933 0 0 0 7 524291
+
+#6115
+sharguth folletto figura~
+Sharguth, il folletto~
+Una figura sogghignante avanza veloce verso di te.. E' certamente Sharguth, il
+Folletto della Foresta.~
+Il piccolo individuo misura solamente tre piedi ed i suoi capelli hanno il
+colore delle castagne mature. E' coperto di foglie selvatiche intrecciate e
+la lunga barba marrone scivola incorniciandogli la figura.
+Ha uno sguardo furbo e attento..
+~
+133 32778 1000 C
+11 1 -10 10d10+100 1d8+2
+500 3000
+8 8 0
+13 13 13 16 13 13 13
+0 0 0 0 0
+4 3 0 0 8 9 1
+0 0 0 0 0 0 0 2
+> rand_prog 16~
+giggle
+~
+> rand_prog 14~
+poke $r
+~
+|
+
+#6116
+druido maggiore~
+un druido maggiore~
+Sei appena arrivato e un anziano druido si volta a guardarti con disappunto..~
+E' molto vecchio e sembra fragile.. ma il suo sguardo sicuro rivela un'arcana
+e misteriosa conoscenza interiore. Forse non è così debole, dopotutto..
+~
+7 8 0 C
+13 4 -7 1d1+130 2d8+2
+0 20000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1775 0 0 0 0 524290
+
+#6117
+rospo anfibio~
+uno strano anfibio~
+Da un angolo buio noti uno strano anfibio gracidare rumorosamente..~
+Formato da una grossa testa posata su otto piedi tondi, questo mostruoso
+anfibio assomiglia ad un incrocio tra un polpo e un rospo ed è sicuramente
+l'essere più strano che tu abbia mai visto.. Gocce viscose gli colano dalle
+narici mentre i grossi occhi luccicano come marmi neri, prima di sparire sotto
+la membrana molle delle palpebre.. Il viscido corpo brilla di umidità, mentre
+l'essere immobile respira gonfiando bolle laterali alla bocca..
+Comprendi rapidamente come esso sia in grado di ingoiare qualsiasi cosa:
+pesci, uccelli, ciottoli, perfino alberi e persone..
+Se particolarmente affamato..
+~
+1 4194856 0 C
+25 0 -300 0d0+0 0d0+0
+0 0
+8 8 0
+18 15 15 13 13 5 13
+0 0 0 0 0
+80 3 0 0 356069 356069 0
+0 0 265405 0 2048 0 262146 2
+> all_greet_prog 100~
+if name($n) == grosso verme
+or name($n) == lupo rabbioso
+or name($n) == lupo inferocito
+  mpecho &G$I, attirato da un improvviso movimento, salta e divora $N!
+  mppurge $n
+else
+if name($n) == ehzer taglialegna
+  mpecho &G$I, sentendo la carne, si fionda su $N, divorandolo interamente!
+  mpecho Le grida di $N riecheggiano in tutto il bosco..
+  mpechoaround Un urlo raccapricciante esplode nell'aria, poi si smorza di colpo..
+  mppurge $n
+else
+if rand(60)
+  mpecho &G$I sballonzola per un attimo, poi torna alla sua posizione sedentaria..
+endif
+endif
+endif
+~
+> speech_prog ribbit~
+mpecho Eppure non sembrava che $I lo trovasse interessante, almeno apparentemente..
+if ismob($n)
+  mpe &G$I graffia $N con un'artigliata!
+else
+  mpechoat $n &G$I ti graffia con un'artigliata precisa, sbalzandoti in aria!
+  mpechoaround $n &G$I graffia $n con un'artigliata precisa, sbalzandolo in aria!
+endif
+murder $n
+~
+> act_prog p e' MORTO!!~
+emote urla sgraziatamente il suo trionfo.
+if ismob($n)
+mpecho $I spinge il corpo di $N nel fango, con l'artiglio tozzo..
+else
+mpecho $I spinge il corpo di $N nel fango, con l'artiglio tozzo..
+endif
+~
+> rand_prog 4~
+mpechoaround Un sordo gracidare tuona improvviso e si propaga nel bosco..
+mpecho &G$I gonfia la sua gola rilasciando un sordo gracidio di soddisfazione.
+~
+> rand_prog 3~
+mpecho Con un gorgoglio grottesco $I rigurgita una bolla bianca gelatinosa..
+~
+|
+
+#0
+
+
+#OBJECTS
+
+#6000
+ascia legname legno~
+un'ascia di legno~
+Giace in terra una grossa ascia di legname.~
+~
+5 0 8193
+0 2 6 1
+10 50 5
+E
+ascia legno legname~
+E' una comune ascia da boscaiolo.
+~
+A
+13 10
+A
+18 1
+A
+19 2
+> wear_prog 100~
+mpecho Gli occhi di $n brillano ardentemente mentre $e cerca l'albero giusto da abbattere..
+~
+|
+
+#6001
+camiciola quadrettata quadrettato cencio~
+una camiciola quadrettata~
+Appallottolato in terra noti un cencio quadrettato~
+~
+9 0 9
+3 0 0 0
+2 20 2
+E
+camiciola quadrettata cencio quadrettato~
+Dispiegando il cencio ti accorgi che si tratta di una camiciola di stoffa
+pesante, a quadri.
+~
+A
+17 -5
+A
+13 5
+
+#6002
+stivali cuoio~
+un paio di stivali di cuoio~
+Un paio di stivali di cuoio è stato lasciati in terra..~
+~
+9 0 65
+3 0 0 0
+4 60 6
+E
+stivali cuoio~
+Ricavati dal cuoio grezzo ma oliato in modo preciso, e sono quindi
+impermeabili. Certo sono stati usati molto questi stivali, tuttavia
+sembrano ancora funzionali..
+~
+A
+14 25
+
+#6003
+focolare~
+un focolare~
+Alla parete orientale c'è un focolare di pietra levigata.~
+~
+15 0 0
+200 0 0 0
+0 0 0
+E
+focolare~
+E' foggiato da pietre di varie dimensioni, accatastate le une con le altre ed
+assicurate da incastri precisi. Un condotto metallico ricurvo conduce il fumo
+fuori attraversando il basso soffitto.
+~
+
+#6005
+cassa legno~
+una cassa di legno~
+Sistemata in un angolo c'è una robusta cassa di legno.~
+~
+15 0 1
+100 13 6006 0
+40 100 10
+E
+cassa legno~
+E' una robusta cassa di legno, costruita da spesse assi incrociate tra loro a
+tasselli perfetti. Chiodi di ferro a saldare l'aderenza degli spigoli e una
+serratura metallica sul davanti ad assicurarne la chiusura.
+~
+
+#6006
+chiave ottone piccola~
+una piccola chiave d'ottone~
+Brilla tra la polvere una piccola chiave d'ottone..~
+~
+18 0 1
+6005 0 0 0
+1 10 1
+E
+piccola chiave bronzo~
+E' piccola ed è interamente di bronzo. Nessuna incisione o altri segni per
+aiutarti ad identificarla meglio..
+~
+
+#6007
+mucchietto oro monete~
+un mucchietto di monete d'oro~
+Un mucchietto d'oro riluce sul terreno..~
+~
+20 0 1
+5000 0 0 0
+0 5000 500
+E
+mucchietto oro monete~
+Soffi sulla polvere che ricopre le monete.. Si, sembra davvero oro..
+~
+
+#6010
+more~
+delle more~
+Alcune more succose crescono su uno spinoso cespuglio..~
+~
+19 0 1
+3 0 0 0
+1 10 1
+E
+more~
+Sembrano deliziose.. che fai, non le assaggi?
+~
+
+#6011
+fungo~
+un fungo~
+Un fungo è cresciuto qui, accanto ad un umido tronco mozzo..~
+~
+19 0 1
+6 0 0 0
+1 10 1
+E
+fungo~
+Forse non è velenoso.. Ma se non l'assaggi.. non lo saprai mai..
+~
+
+#6013
+barilotto acqua~
+un barilotto~
+Un barilotto colmo d'acqua è stato lasciato in un cantuccio..~
+~
+17 0 1
+50 50 0 0
+65 60 6
+
+#6102
+albero colossale antico cavo cavità fenditura~
+un antico albero~
+Un antico albero, enorme, blocca il percorso verso occidente, rendendolo
+impraticabile.~
+~
+15 262148 0
+1000 0 0 0
+0 0 0
+E
+fenditura cavità cavo~
+L'apertura è troppo stretta perchè tu possa entrarvi, ma vedi chiaramente che
+l'albero è cavo al suo interno.
+~
+E
+albero colossale antico~
+Quest'enorme albero avrà più di mille anni, lo racconta il suo tronco grigio,
+scheggiato e segnato da tacche e graffi. Noti inoltre, sul lato occidentale,
+una fenditura.
+~
+
+#6103
+ramo grigio~
+un lungo ramo grigio~
+Un lungo ramo grigio giace in terra..~
+~
+1 0 16385
+0 0 25 0
+20 1 0
+
+#6104
+ramo grigio~
+un lungo ramo grigio~
+Un lungo ramo grigio giace in terra..~
+pound~
+5 0 8193
+0 2 5 7
+30 60 6
+A
+18 -2
+
+#6105
+ramo grigio~
+un lungo ramo grigio~
+Un lungo ramo grigio giace in terra..~
+~
+13 0 1
+0 0 0 0
+40 0 0
+
+#6106
+fungo ombrello~
+un fungo ad ombrello~
+Accanto ad una macchia d'erba marcita cresce un fungo ad ombrello.~
+~
+19 0 1
+12 0 0 0
+5 20 2
+E
+fungo ombrello~
+E' grosso, peserà circa cinque libbre. La cima è ricoperta da un sottile
+strato di limo trasparente ed emana un debole odore di muffa. Non è certo
+appetitoso..
+~
+
+#6107
+fungo ombrello~
+un fungo ad ombrello~
+Accanto ad una macchia d'erba marcita cresce un fungo ad ombrello.~
+~
+19 0 1
+12 0 0 1
+5 20 2
+E
+fungo ombrello~
+E' grosso, peserà circa cinque libbre. La cima è ricoperta da un sottile
+strato di limo trasparente ed emana un debole odore di muffa. Non è certo
+appetitoso..
+~
+
+#6110
+pozione brusente gialla~
+una gialla pozione brusente~
+Un'ampollina è stata dimenticata qui e si vede chiaramente il contenuto: una
+pozione gialla.. brusente..~
+~
+10 66 1
+30 39 66 1
+2 1000 100
+E
+pozione gialla~
+E' gialla di colore e frizza sommessamente. Ha un forte odore di droghe varie.
+~
+
+#6111
+scudo largo legno rotondo~
+un largo scudo rotondo~
+E' stato abbandonato in terra un largo scudo rotondo. E' di legno.~
+~
+9 0 513
+5 0 0 0
+15 300 30
+E
+scudo largo~
+E' costruito con legno duro ed è rinforzato da bande di ferro, al centro.
+~
+A
+17 -4
+A
+23 -3
+A
+5 1
+
+#6112
+corona ferro~
+una corona di ferro~
+Giace al suolo una corona di ferro.~
+~
+9 64 17
+4 0 0 0
+10 5000 500
+E
+corona ferro~
+Rigirando l'oggetto tra le mani capisci che questa corona è della misura
+giusta per gli umani.
+~
+A
+17 -2
+A
+23 -2
+A
+12 10
+
+#6114
+anello ferro~
+un pesante anello di ferro~
+Un pesante anello di ferro è stato dimenticato qui..~
+~
+9 64 3
+1 0 0 0
+4 5000 500
+E
+anello ferro~
+Costruito con solido ferro, quest'anello è della taglia giusta per le dita di
+un umano.. Non è decorato in alcun modo: è semplicemente in ferro liscio.
+~
+A
+17 -5
+A
+5 1
+
+#6155
+mazzafrusto~
+un mazzafrusto~
+Un mazzafrusto giace in terra, a raccogliere polvere..~
+~
+5 64 8193
+0 2 8 8
+10 15000 1500
+
+#0
+
+
+#ROOMS
+
+#6000
+Il ciglio orientale della foresta~
+Sei giunto al margine orientale della foresta di Haon Dor. Un intricato groviglio di
+alberi ostacola ogni chiarore di luce tuttavia l'ambiente non è completamente
+buio.. Ti guardi intorno e scorgi così il cancello occidentale della città di
+Darkhaven, che dista di pochi passi da qui ed uno stretto sentiero si snoda da
+questo punto svettando ed oltrepassando i bruni rami degli antichi alberi
+ammassati, prima di svanire in fondo.. Dove l'oscurità ingoia ogni
+prosecuzione dello sguardo..
+~
+0 4 2
+D1
+Scorgi poco distante il cancello occidentale della città di Darkhaven.
+~
+~
+0 -1 21087
+D3
+Scorgi uno stretto sentiero..
+Esso si lancia tra gli alberi curvando rapidamente.
+~
+~
+0 -1 6001
+E
+sentiero~
+Si snoda sinuosamente lanciandosi e perdendosi tra gli antichi alberi..
+~
+E
+albero alberi~
+Gli antichi alberi che ti circondano sono tra i più alti mai esistiti
+nonostante alcuni tra essi siano appena arbusti di giovane età.
+Scrutando a fondo il più anziano tra quelli che si trovano qui vicino riesci
+ad vedere incise delle lettere, che compongono il nome della foresta:
+"HAON DOR"
+~
+> speech_prog p Cerco le Rovine..~
+if ispg($n)
+    mpechoat $n &RLe Rovine di Umbrageous.. un postaccio di ladri e assassini!
+    mpechoat $n &RMoriresti subito in quel luogo..
+endif
+~
+|
+S
+
+#6001
+Un sentiero nella foresta~
+Stai attraversando un piccolo sentiero che conduce all'interno della foresta..
+Ad est la boscaglia volge al margine mentre ad ovest prosegue diramandosi
+ancora. Attraverso l'abbraccio degli alberi, a nord, noti un ulteriore
+sentiero svettare all'interno di un'altra sezione della foresta..
+~
+0 0 3
+D1
+Il sentiero continua ad est della foresta.
+~
+~
+0 -1 6000
+D3
+Vedi la prosecuzione del sentiero correre e inoltrarsi ad ovest nella foresta,
+sparendo tra il folto degli alberi..
+~
+~
+0 -1 6002
+E
+strada stradina sentiero viuzza via viottolo~
+Ancora s'inoltra nel fitto degli alberi, la stradina stretta..
+~
+E
+albero alberi~
+Alberi verdeggianti, giovani e sani punteggiano questo lato della foresta.
+I rami mossi dal vento si aprono mostrando un nido di uccelli..
+~
+E
+nido uccelli~
+Gorgheggiano allungando i capini al cielo, gli splendidi uccelli dal piumaggio
+color fuoco..
+~
+S
+
+#6002
+Un sentiero nella foresta~
+Continui il percorso attraverso il sentiero nella foresta.
+Ad ovest, la foresta si fa più densa e il fitto degli alberi impedisce la
+completa visibilità.. Un secondo piccolo sentiero si apre da qui
+addentrandosi verso sud..
+~
+0 0 3
+D1
+Il percorso continua ad est, attraverso gli alberi..
+~
+~
+0 -1 6001
+D2
+Un piccolo sentiero parte per la volta del meridione, attraverso gli alberi..
+~
+~
+0 -1 6011
+D3
+E' possibile vedere lo stretto viottolo addentrarsi a ovest, dove la foresta
+si infittisce..
+~
+~
+0 -1 6003
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe..
+~
+E
+percorso~
+Il percorso si biforca ad est e ad ovest attraverso gli alberi..
+~
+E
+albero alberi~
+I giovani alberi snelli sporgono i rami al soffio del vento muovendone le cime
+con grazia, quasi ad accompagnare il canto dei passerotti celati tra i rami..
+~
+S
+
+#6003
+Un viottolo lungo la foresta~
+Incedi lungo il viottolo all'interno della foresta, che ad un tratto si
+biforca in due diramazioni laterali ad est e ad ovest. Dalla parte orientale
+la foresta si dirada lievemente..
+~
+0 0 3
+D1
+La stradina continua ad est e ad ovest..
+~
+~
+0 -1 6002
+D3
+Puoi vedere il percorso piegare verso un lato dove la foresta si raddensa..
+~
+~
+0 -1 6004
+E
+percorso~
+Il percorso sembra quasi fragile confrontato ai tronchi massicci che gli
+disegnano il lato seguendolo nella pista..
+~
+E
+albero alberi~
+La fitta corona d'alberi stagionati lascia visibile solo una porzione di
+cielo..
+~
+> rand_prog 5~
+mpecho Avverti distintamente il suono di un ramoscello che si spezza..
+~
+|
+S
+
+#6004
+Un sentiero attraverso la fitta foresta~
+Sei in prossimità di un sentiero che si diparte ai lati congiungendo l'est e
+l'ovest, all'interno della parte dove la foresta si addensa infittendosi..
+Gli alberi ad ovest sono così uniti e folti da oscurare la completa visibilità
+con le loro chiome feconde.. A sud intravedi una viuzza serpeggiare tra gli
+arbusti..
+~
+0 0 3
+D1
+Il sentiero continua inoltrandosi nella foresta..
+~
+~
+0 -1 6003
+D2
+Il piccolo viottolo continua attraverso gli alberi.
+~
+~
+0 -1 6005
+D3
+Lo stretto sentiero si fa strada tra i grossi tronchi, sparendo ad ogni
+curva..
+~
+~
+0 -1 6100
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+percorso viuzza~
+Il percorso sembra quasi fragile confrontato ai tronchi massicci che gli
+disegnano il lato seguendolo nella pista..
+~
+E
+albero alberi~
+La fitta corona d'alberi stagionati lascia visibile solo una porzione di
+cielo..
+~
+> rand_prog 5~
+mpecho Avverti distintamente il suono di un ramoscello che si spezza..
+~
+|
+S
+
+#6005
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo nord e sud..
+~
+0 0 3
+D0
+Lo stretto sentiero si snoda ancora tra gli alberi..
+~
+~
+0 -1 6004
+D2
+Il percorso incede addentrandosi nella foresta..
+~
+~
+0 -1 6006
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6006
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo nord e sud..
+~
+0 0 3
+D0
+Il percorso incede addentrandosi nella foresta..
+~
+~
+0 -1 6005
+D1
+Lo stretto sentiero si snoda ancora tra gli alberi..
+~
+~
+0 -1 6007
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6007
+Un'intersezione nel folto della foresta~
+Ti sei spinto nel folto della foresta.. Le fronde degli alberi si legano in
+delicati abbracci, le une con le altre, creando ghirlande e filtrando la luce
+in una totale sensazione di crepuscolo surreale.. e intravedi bagliori ad est.
+E sentieri proseguono ai lati e a sud..
+~
+0 0 3
+D1
+Una radura si estende appena ad est..
+~
+~
+0 -1 6008
+D2
+Il percorso incede addentrandosi nella foresta..
+~
+~
+0 -1 6012
+D3
+Lo stretto sentiero si snoda ancora tra gli alberi..
+~
+~
+0 -1 6006
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6008
+La radura nella foresta~
+Ti soffermi a guardarti intorno: sei in una radura..
+Una varietà di ceppi e tronchi di varia misura è disposta su uno dei lati
+della macchia erbosa, protetti da una griglia di pali sistemati sul fianco..
+Scorrendo ancora lo sguardo noti la prosecuzione del sentiero, a nord, est
+ed ovest..
+~
+0 0 3
+D0
+Il percorso incede addentrandosi nella foresta..
+~
+~
+0 -1 6011
+D1
+Lo stretto sentiero si snoda ancora tra gli alberi..
+~
+~
+0 -1 6009
+D3
+Lo stretto percorso avanza nella foresta..
+~
+~
+0 -1 6007
+E
+tronco tronchi~
+Alcuni tronchi tagliati e accatastati giacciono in un angolo occupando un lato
+della radura..
+
+~
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+pali palo~
+I pali sono sistemati in modo da non permettere ai tronchi di rotolare giù..
+~
+E
+ceppo ceppi~
+Anche se mozzati e, alcuni di essi a metà, questi tronchi conservano ancora il
+possente vigore della presenza e, dal tenero legno scoperto, esalano effluvi
+di linfe odorose..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6009
+L'esterno di una baita~
+Sei giunto davanti ad una piccola baita costruita completamente di tronchi.
+L'uscio di legno è appena a nord. Attraverso gli alberi, a sud e a ovest,
+prosegue un piccolo sentiero..
+~
+0 0 3
+D0
+E' resistente e non sembra essere dotata di serratura, forse per entrare ti
+basterà spingerla..
+~
+porta legno uscio~
+3 -1 6010
+D2
+Il percorso incede addentrandosi nella fitta foresta..
+~
+~
+0 -1 6014
+D3
+Lo stretto sentiero si snoda ancora tra gli alberi..
+~
+~
+0 -1 6008
+E
+baita~
+E' graziosissima, calda e confortevole, così, tutta ricavata dall'unione
+sapiente dei tronchi odorosi.. un piccolo idilliaco rifugio nel cuore della
+foresta..
+~
+E
+sentiero sentieri~
+Probabilmente è utilizzato dagli abitanti occasionali per raggiungere la
+baita..
+~
+E
+albero alberi~
+Alcuni di essi sono molto giovani, non vantano secolarità..
+~
+S
+
+#6010
+L'interno della baita~
+Hai attraversato l'uscio di legno immettendoti nell'unica stanza che compone
+la baita di tronchi. E' spaziosa ed arredata solo con l'indispensabile: un
+tavolo, una seggiola e un lettuccio di assi di legno..
+~
+0 8 0
+D2
+Un uscio di legno che conduce a sud.
+~
+porta uscio legno~
+1 -1 6009
+E
+lettuccio~
+Sicuramente non è il più comodo in assoluto, ma è l'unico letto che c'è nelle
+immediate vicinanze..
+~
+E
+seggiola~
+E' forte e robusta, completamente ricavata da legno stagionato.
+~
+E
+tavolo~
+E' costitutito da un tronco mozzato sul quale è stato inchiodato un disco di
+duro legno secco.
+~
+S
+
+#6011
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo nord e sud..
+~
+0 0 3
+D0
+Il sentiero reca a nord, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6002
+D2
+Il sentiero conduce a sud, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6008
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Alcuni di essi sono molto giovani, non vantano secolarità..
+~
+S
+
+#6012
+Un'intersezione nella foresta~
+Qui le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua a nord, est e sud.
+~
+0 0 3
+D0
+Il sentiero reca a nord, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6007
+D1
+Il sentiero conduce ad est, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6013
+D2
+Il sentiero porta a sud, lungo la fila dei novelli arbusti..
+~
+~
+0 -1 6021
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6013
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo est ed ovest..
+~
+0 0 3
+D1
+Il sentiero reca a est, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6014
+D3
+Il sentiero conduce ad ovest, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6012
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6014
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo est ed ovest..
+~
+0 0 3
+D0
+Il percorso si snoda a nord, dove la foresta si dirada..
+~
+~
+0 -1 6009
+D1
+Il sentiero reca ad est, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6015
+D3
+Il sentiero conduce ad ovest, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6013
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+La fitta corona d'alberi stagionati lascia visibile solo una porzione di
+cielo..
+~
+S
+
+#6015
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo sud ed ovest.
+~
+0 0 3
+D2
+Il sentiero reca a sud, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6016
+D3
+Il sentiero conduce ad ovest, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6014
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6016
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo nord e sud..
+~
+0 0 3
+D0
+Il sentiero reca a nord, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6015
+D2
+Il sentiero conduce a sud, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6017
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6017
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo nord ed ovest..
+~
+0 0 3
+D0
+Il sentiero conduce a nord, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6016
+D3
+Il percorso si snoda ad ovest, seguendo gli alberi, dove la foresta si dirada.
+~
+~
+0 -1 6018
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+La fitta corona d'alberi stagionati lascia visibile solo una porzione di
+cielo..
+~
+S
+
+#6018
+Un'intersezione nella foresta~
+Sei qui, su un piccolo sentiero che percorre la foresta.
+Un viottolo conduce a nord, verso un piccolo campo e altre diramazioni dello
+stesso voltano ad est e ad ovest, nel punto dove la foresta si infittisce..
+~
+0 0 3
+D0
+Il viottolo reca a nord, affacciandosi su un piccolo campo erboso..
+~
+~
+0 -1 6023
+D1
+Il viottolo conduce a est, verso la parte fitta della foresta..
+~
+~
+0 -1 6017
+D3
+Il viottolo porta a ovest, aprendo la vista ad una parte folta e profonda
+della foresta..
+~
+~
+0 -1 6019
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Alcuni di essi sono molto giovani, non vantano secolarità..
+~
+S
+
+#6019
+Un sentiero nella foresta~
+Sei qui, su un piccolo sentiero che percorre la foresta nel punto dove essa si
+infittisce.. Ad est sembra diradarsi invece..
+Il sentiero principale continua a nord e ad est..
+~
+0 0 3
+D0
+Il sentiero conduce a nord, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6020
+D1
+Il percorso si snoda ad est, attraverso gli alberi, dove la foresta si dirada.
+~
+~
+0 -1 6018
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+La fitta corona d'alberi stagionati lascia visibile solo una porzione di
+cielo..
+~
+S
+
+#6020
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo sud ed ovest..
+~
+0 0 3
+D2
+Il sentiero conduce a sud, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6019
+D3
+Il sentiero reca ad ovest, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6021
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+Gli alberi che vedi attorno al tuo cammino sono per lo più faggi vecchi e
+querce..
+~
+S
+
+#6021
+Un piccolo sentiero attraverso la foresta~
+In questo posto le fronde degli alberi si legano in delicati abbracci, le une
+con le altre, creando ghirlande e filtrando la luce in una totale sensazione
+di crepuscolo surreale.. Il piccolo sentiero continua unendo nord ed est..
+~
+0 0 3
+D0
+Il sentiero reca a nord, attraverso la fila di giovani arbusti..
+~
+~
+0 -1 6012
+D1
+Il sentiero conduce ad est, scorrendo la fila di teneri arbusti..
+~
+~
+0 -1 6020
+D3
+S'affaccia alla vista, tra l'oscurità di un antro buio, la sagoma di una
+grotta..
+~
+~
+0 -1 6022
+E
+sentiero viottolo~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+albero alberi~
+La fitta corona d'alberi stagionati lascia visibile solo una porzione di
+cielo..
+~
+E
+cava grotta entrata antro~
+L'irregolare fenditura è larga circa otto piedi e alta più o meno sei ed emana
+un acre odore di acidi gassosi..
+~
+S
+
+#6022
+L'interno della grotta~
+Stai calpestando il suolo di una grotta naturale, e ci sei appena entrato..
+Il pavimento è composto da vari crateri e sedimenti di sostanze differenti e
+ignote.. Le pareti umide gocciolano lentamente e ogni tanto uno sbuffo
+sulfureo e pungente viene soffiato dall'interno dell'antro..
+L'unica uscita è a est.
+~
+0 9 0
+D1
+L'oscura entrata della grotta, è immediatamente ad est.
+~
+~
+0 -1 6021
+E
+sedimenti~
+Composto strano ed eterogeneo: minerali, pezzi di ossa, qualche pezzo di
+pelliccia lacerata..
+~
+E
+pareti~
+Roccia scura, umida..
+~
+E
+sbuffo sulfureo~
+Di consistenza azzurrata, opalescente a tratti.. questo sbuffo di vapore è
+impalpabile.. ma visibile..
+~
+S
+
+#6023
+In mezzo all'erba~
+Respiri agevolemente tra il moto lieve di una sensibile marea d'erba alta..
+Essa tutto involge, tutto asperge con il suo odore di fresco e umido. Cinto
+dall'abbraccio dei tronchi grigi delle severo querceto, il prato è invitante..
+Quasi il respiro si perde, poi si ritrova nel brusio proveniente dal bosco..
+Un acciottolato s'insinua tra gli alberi, correndo alla volta meridionale..
+~
+0 0 2
+D2
+Il percorso si snoda a sud, serpeggiando tra gli alberi..
+~
+~
+0 -1 6018
+E
+erba~
+La distesa d'erba alta è un rifugio sicuro per i piccoli animali e un gradito
+pascolo per gli erbivori..
+~
+E
+sentiero viottolo acciottolato~
+Questo viottolo è costeggiato da una alta siepe.. probabile tana degli animali
+che popolano la foresta..
+~
+E
+alberi boschetto bosco~
+Gli alberi qui si chiudono in un piccolo cerchio irregolare dando vita ad un
+fecondo boschetto..
+~
+D5
+~
+~
+0 0 550 0
+S
+
+#6100
+La via per la scura foresta~
+Ecco il viottolo polveroso che conduce alla parte scura della foresta..
+Il vento sferza la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi.. Il viottolo prosegue per
+il versante orientale e ad ovest
+~
+0 9 3
+D1
+Lo stretto sentiero corre ad est, spingendosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6004
+D3
+Il polveroso viottolo scivola verso est, spingendosi attraverso la foresta..
+~
+~
+0 -1 6101
+E
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+> rand_prog 5~
+mpecho Avverti distintamente il suono di un ramoscello che si spezza..
+~
+|
+S
+
+#6101
+La via per la scura foresta~
+Ecco il viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. e alla mente racconta del ricordo di grosse colonne marmoree e
+antichi saloni austeri e deserti.. A sud una fragile viuzza conduce altrove..
+~
+0 9 3
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6100
+D2
+La viuzza scende a sud, allontanandosi dal viottolo principale..
+~
+~
+0 -1 6104
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6102
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sentiero viottolo~
+Il sentiero sembra intatto e regolare, a confronto con i tronchi secolari
+che l'attorniano..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+> rand_prog 8~
+mpecho Avverti distintamente il suono di un ramoscello che si spezza..
+~
+|
+S
+
+#6102
+La via per la scura foresta~
+Sei sul viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. E sostenendosi racchiudono e circondano da ogni parte, rubando il
+suono ad ogni cosa: il silenzio regna incontrastato sire..
+~
+0 9 3
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6101
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6103
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sentiero viottolo~
+Il sentiero sembra intatto e regolare, a confronto con i tronchi secolari
+che l'attorniano..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+> rand_prog 8~
+mpecho Avverti distintamente il suono di un ramoscello che si spezza..
+~
+|
+S
+
+#6103
+La via per la scura foresta~
+Il viottolo polveroso svolta bruscamente qui, serrato da un colossale tronco,
+ad ovest.. Non un suono s'ode qui, non un bisbiglio.. anche il vento tace..
+Sinistra quiete, come ingannevoli appaiono i mille occhi che immagini in ogni
+albero.. cospiratore e nemico o consigliere scaltro.. Uno di essi s'erge
+fiero fermando il passo ad occidente: ti restano le altre direzioni..
+~
+0 9 3
+D0
+Toh.. un sentiero buio.. proprio a nord di qui..
+~
+~
+0 0 6150
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6102
+D2
+Lo stretto sentiero scivola a sud, avanzando nella foresta..
+~
+~
+0 -1 6108
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6104
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento sferza la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e a nord.
+~
+0 9 3
+D0
+L'angusto sentiero sferzato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6101
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6105
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6105
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a nord e ad est.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6104
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6106
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6106
+Un incrocio nel profondo dell'oscura foresta~
+Sei giunto qui, dove tre strade si uniscono in un incrocio, circondato da
+immensi alberi grigi, antichi come il primo cielo.. Il nodo di vie mostra
+le direzioni possibili: est, sud ed ovest..
+~
+0 9 3
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6105
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6117
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6107
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6107
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a nord e ad est.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6108
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6106
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6108
+La via per la scura foresta~
+Il viottolo polveroso che della parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. S'accerchiano, con una lentezza che hanno appreso nei secoli..
+ed ora serrano isolando le direzioni di passaggio..
+Il viottolo prosegue per il versante settentrionale e ad ovest mentre a sud
+una viuzza friabile conduce altrove..
+~
+0 9 3
+D0
+Lo stretto sentiero scivola a nord, avanzando nella foresta..
+~
+~
+0 -1 6103
+D2
+La via corre verso sud, allontanandosi dal sentiero principale..
+~
+~
+0 -1 6107
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6109
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sentiero viottolo~
+Il sentiero sembra intatto e regolare, a confronto con i tronchi secolari
+che l'attorniano..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6109
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. E sostenendosi racchiudono e circondano da ogni parte, rubando il
+suono ad ogni cosa: il silenzio regna incontrastato sire..
+~
+0 9 3
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6108
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6110
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6110
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi.. Il viottolo prosegue per
+il versante meridionale e ad est. A nord invece, una stretta viuzza conduce
+altrove..
+~
+0 9 3
+D0
+L'angusto sentiero svirgola verso occidente, tra i giganteschi tronchi..
+~
+~
+0 -1 6144
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6109
+D2
+Lo stretto sentiero scivola a sud, avanzando nella foresta..
+~
+~
+0 -1 6111
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sentiero viottolo~
+Il sentiero sembra intatto e regolare, a confronto con i tronchi secolari
+che l'attorniano..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Ma c'è qualcosa di strano sulla corteccia.. una
+vischiosa sostanza trasparente, appiccicosa..
+~
+S
+
+#6111
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi..
+~
+0 9 3
+D0
+Lo stretto sentiero scivola a nord, avanzando nella foresta..
+~
+~
+0 -1 6110
+D2
+L'angusto sentiero devia a sud, proseguendo nella foresta..
+~
+~
+0 -1 6112
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6112
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi..
+Il viottolo prosegue per il versante occidentale e a nord, mentre ad est una
+fragile viuzza conduce altrove..
+~
+0 9 3
+D0
+Lo stretto sentiero scivola a nord, avanzando nella foresta..
+~
+~
+0 -1 6111
+D1
+Da qui il sentiero corre ad est, lasciando il percorso principale..
+~
+~
+0 -1 6113
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6127
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sentiero viottolo~
+Il sentiero sembra intatto e regolare, a confronto con i tronchi secolari
+che l'attorniano..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6113
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e ad ovest.
+~
+0 9 3
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6114
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6112
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6114
+Un incrocio nel profondo dell'oscura foresta~
+Sei giunto qui, dove tre strade si uniscono in un incrocio,
+circondato da immensi alberi grigi, antichi come il primo cielo..
+Il nodo di vie mostra le direzioni possibili: nord, est ed ovest.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6113
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6115
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6122
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6115
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a nord e ad est.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6116
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6114
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6116
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e ad est.
+~
+0 9 3
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6117
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6115
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6117
+Un incrocio nel profondo dell'oscura foresta~
+Sei giunto qui, dove tre strade si uniscono in un incrocio,
+circondato da immensi alberi grigi, antichi come il primo cielo..
+Il nodo di vie mostra le direzioni possibili: nord, est ed ovest.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6106
+D1
+Piega ad oriente, l'angusta stradina percorsa da polvere e vento..
+~
+~
+0 -1 6118
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6116
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6118
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e ad ovest.
+~
+0 9 3
+D2
+Lo stretto viottolo sferzato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6119
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6117
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6119
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e a nord.
+~
+0 9 3
+D0
+L'angusto sentiero sferzato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6118
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6120
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6120
+Sulla riva del fiume nero~
+Sei circondato da immensi alberi antichi.. Sembrano osservarti
+silenziosamente. Posi lo sguardo sulle torbide acque di un fiume nero
+che fluisce rapido attraversando le profondità della foresta..
+Se decidi di proseguire.. nord o ovest.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6119
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6121
+E
+fiume nero scuro~
+Scorre rapido e rumoroso il fiume.. è nero, o almeno così appare, alla tua
+vista..
+~
+E
+riva rive albero alberi tronco tronchi~
+Le antiche cime degli alberi s'uniscono in una tetra corona, maestosa,
+silenziosa e s'affaccia sul fiume nero gettando una fluida ombra sulle
+lucide acque brune..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6121
+La fine del sentiero sulla riva del fiume nero~
+Sei proprio giunto dove il percorso principale si perde sparendo tra le
+grinzose radici dei mastodontici alberi secolari.. Sei qui, di fronte al
+fiume nero che attraversa la foresta da est ad ovest con i suoi guizzi
+sinistri. L'unica cosa da fare è prendere la piegata orientale, adesso.
+~
+0 9 3
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6120
+E
+fiume nero scuro~
+Scorre rapido e rumoroso il fiume.. è nero, o almeno così appare, alla tua
+vista..
+~
+E
+riva rive albero alberi tronco tronchi~
+Le antiche cime degli alberi s'uniscono in una tetra corona, maestosa,
+silenziosa e s'affaccia sul fiume nero gettando una fluida ombra sulle
+lucide acque brune..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6122
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e ad est.
+~
+0 9 3
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6114
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6123
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6123
+Una giunzione sulla riva del fiume nero~
+Sei giunto dove tre strade si uniscono in una giunzione circondata da immensi
+alberi antichi.. che sembrano osservarti silenziosamente.. A sud un fiume nero
+fluisce rapido da oriente ad ovest, attraversando le profondità della foresta.
+Il nodo di vie mostra le direzioni possibili: nord, est ed ovest.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6122
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6124
+D3
+Si estende ad occidente, la stretta stradina percorsa da polvere e vento..
+~
+~
+0 -1 6125
+E
+fiume nero scuro~
+Scorre rapido e rumoroso il fiume.. è nero, o almeno così appare, alla tua
+vista..
+~
+E
+riva rive albero alberi tronco tronchi~
+Le antiche cime degli alberi s'uniscono in una tetra corona, maestosa,
+silenziosa e s'affaccia sul fiume nero gettando una fluida ombra sulle
+lucide acque brune..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6124
+La fine del sentiero sulla riva del fiume nero~
+Sei proprio giunto dove il percorso principale si perde sparendo tra le
+grinzose radici dei mastodontici alberi secolari.. Sei qui, di fronte al
+fiume nero che attraversa la foresta da est ad ovest con i suoi guizzi
+sinistri. L'unica cosa da fare è prendere la piegata occidentale, adesso.
+A meno che non decidi di attraversare il fiume..
+~
+0 9 3
+D2
+Una traccia di cocci e frammenti di ossa conduce a nord.
+~
+~
+0 -1 2801
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6123
+E
+fiume nero scuro~
+Scorre rapido e rumoroso il fiume.. è nero, o almeno così appare, alla tua
+vista..
+~
+E
+riva rive albero alberi tronco tronchi~
+Le antiche cime degli alberi s'uniscono in una tetra corona, maestosa,
+silenziosa e s'affaccia sul fiume nero gettando una fluida ombra sulle
+lucide acque brune..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6125
+Sulla riva del fiume nero~
+Sei circondato da immensi alberi antichi.. Sembrano osservarti
+silenziosamente. Posi lo sguardo sulle torbide acque di un fiume nero
+che fluisce rapido attraversando le profondità della foresta..
+Se decidi di proseguire.. nord o ovest.
+~
+0 9 3
+D0
+L'angusto sentiero frustato dal vento prosegue la sua via a settentrione..
+~
+~
+0 -1 6126
+D1
+Piega ad oriente, l'angusta stradina battuta da polvere e vento..
+~
+~
+0 -1 6123
+E
+fiume nero scuro~
+Scorre rapido e rumoroso il fiume.. è nero, o almeno così appare, alla tua
+vista..
+~
+E
+riva rive albero alberi tronco tronchi~
+Le antiche cime degli alberi s'uniscono in una tetra corona, maestosa,
+silenziosa e s'affaccia sul fiume nero gettando una fluida ombra sulle
+lucide acque brune..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6126
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi.. Il viottolo prosegue per
+il versante settentrionale e ad ovest, mentre a sud una fragile viuzza conduce
+altrove..
+~
+0 9 3
+D0
+Lo stretto sentiero scivola a nord, avanzando nella foresta..
+~
+~
+0 -1 6127
+D2
+Una viuzza svetta a sud da qui, lasciando così il sentiero principale..
+~
+~
+0 -1 6125
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6128
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sentiero viottolo~
+Il sentiero sembra intatto e regolare, a confronto con i tronchi secolari
+che l'attorniano..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6127
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi.. Il viottolo prosegue per
+il versante orientale e a sud..
+~
+0 9 3
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6112
+D2
+Lo stretto sentiero scivola a sud, avanzando nella foresta..
+~
+~
+0 -1 6126
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6128
+La via per la scura foresta~
+Sei sul viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. E sostenendosi racchiudono e circondano da ogni parte, rubando il
+suono ad ogni cosa: il silenzio regna incontrastato sire..
+~
+0 9 3
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6126
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6129
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6129
+La via per la scura foresta~
+Sei sul viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. E sostenendosi racchiudono e circondano da ogni parte, rubando il
+suono ad ogni cosa: il silenzio regna incontrastato sire..
+~
+0 9 3
+D1
+L'angusto sentiero corre ad est, addentrandosi verso una parte agevole della
+foresta..
+~
+~
+0 -1 6128
+D3
+Il polveroso viottolo scivola verso ovest, spingendosi attraverso la foresta..
+~
+~
+0 -1 6135
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+albero alberi tronco tronchi~
+Non c'è bisogno di essere un conoscitore del legno per comprendere l'antica
+origine di questi alberi.. Sui tronchi robusti.. le rughe del tempo, e sulle
+radici nodose il colore dei secoli ha lasciato la firma..
+~
+S
+
+#6130
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi.
+Voltando lo sguardo ad occidente si chiarisce ogni dubbio.. il percorso è
+completamente coperto da una gigantesca ragnatela.. Questo posto dà i brividi.
+~
+0 9 3
+D1
+Il tortuoso, polveroso sentiero volge ad est, attraverso la foresta, qui..
+allontanandosi notevolmente dalla ragnatela..
+~
+~
+0 -1 6144
+D3
+L'impalcatura ad ovest somiglia incredibilmente ad un'immensa tela di ragno..
+Ma.. ma non è che ci somiglia! Lo è! E' perfettamente naturale che ti stia
+domandando come uscire indenne da qui..
+~
+~
+0 -1 6131
+D4
+~
+~
+0 -1 6132
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+E
+sostanza fili qualcosa vischiosa corde apertura tronchi albero tronco alberi~
+Non c'è dubbio, è una sostanza strana ma a ben vedere essa collega ogni tronco
+e ogni ramo.. magari si può scalare uno degli alberi, reggendosi a qualche
+grosso filo appicciocoso..
+~
+S
+
+#6131
+La tela del ragno~
+Stai camminando lungo l'intricato percorso, lentamente, chinando il capo
+per evitare gli appiccicosi filamenti bianchi.. Mentre avanzi incerto..
+~
+0 14 3
+> entry_prog 100~
+mpechoat $n Un enorme ragno velenoso balza dal soffitto!
+mpechoat $n Un enorme ragno velenoso balza dal soffitto!
+mpechoat $n Un enorme ragno velenoso balza dal soffitto!
+mpechoat $n L'immenso ragno velenoso ti arpiona!  Resisti al veleno!
+mpechoat $n L'immenso ragno velenoso ti arpiona!  Sei stato avvelenato!
+mpechoat $n L'immenso ragno velenoso ti arpiona!  Sei stato avvelenato!
+mpechoat $n Sei caduto.. e non ti alzerai facilmente..
+~
+|
+S
+
+#6132
+Su un albero~
+Ti stai arrampicando su per il tronco di un grosso albero.. a fatica, dato
+che le mani sdrucciolano sulla corteccia coperta da una sostanza appiccicosa..
+giri il capo, ti guardi intorno, trasali.. tutto è avvolto da una gigantesca
+tela di ragno, parte da occidente e si estende smisurata, sospesa tra i rami
+degli alberi. Tutti.. compreso quello che stai cercando di scalare! Accidenti!
+~
+0 13 3
+D3
+Guardando ad occidente noti un'immensa ragnatela sospesa tra i rami degli
+alberi.. Mah, sembra muoversi impercettibilmente..
+~
+~
+0 -1 6133
+D5
+Cos'altro se non il principale sentiero della foresta?
+~
+~
+0 -1 6130
+E
+ragnatela tela ragno~
+L'enorme tela di ragno si estende da ovest.. sembra però che sia possiblie
+camminarci sopra.. Mmmm.. Che si fa?
+~
+S
+
+#6133
+Sulla ragnatela gigante~
+Fai attenzione.. Anche un respiro troppo accelerato può sbilanciarti, adesso!
+Traballi cercando equilibrio sui giganteschi fili vischiosi che compongono
+l'enorme ragnatela.. Ad est si staglia un grosso tronco e ad ovest ochieggia
+la scura cavità di fili intrecciati della ragnatela..
+~
+0 9 1
+D1
+Quello che riesci a vedere è solo la nodosa corteccia di un gigantesco tronco.
+~
+~
+0 -1 6132
+D3
+E' proprio l'entrata della cavità più interna della ragnatela, si..
+~
+~
+0 -1 6134
+E
+ragnatela~
+Un immenso, mostruoso ragno si muove lentamente sui fili..
+~
+E
+cavità fili~
+Questa immensa ragnatela è vecchia di secoli..
+Copre un'immensa porzione dell'area. Cerchi concentrici infiniti, tessuti da
+viscidi filamenti, brillano ad ogni movimento dell'aria vibrando come tessuti
+elastici..  O sei tu che tremi?
+~
+S
+
+#6134
+La tana della regina dei ragni~
+Che strano posto.. una caverna ricavata da innumerevoli strati di tela di
+ragno.. La temperatura è alta qui dentro, come anche l'umidità, quasi
+soffocante.. Le pareti del luogo che attualmente ti ospita sono interamente
+ricoperte da bozzoli aperti..
+~
+0 9 1
+D1
+Ma guarda.. paragonata a questo posto, la visuale orientale appare addirittura
+invitante..
+~
+~
+0 -1 6133
+E
+tela ragnatela muro muri parete pareti~
+Le viscide pareti del luogo sono completamente tappezzate da lanosi bozzoli
+aperti..
+~
+E
+bozzolo bozzoli~
+I bozzoli sono aperti, osservandoli bene sono scoppiati, lacerati come da una
+pressione interna, qualcosa che voleva uscirne.. Sono poco più grossi di una
+testa d'uomo, questi involucri spaccati..
+~
+S
+
+#6135
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi..
+Il viottolo prosegue per il versante settentrionale e ad est..
+~
+0 9 3
+D0
+L'angusto sentiero segue il settentrione, tra l'urlo del vento..
+~
+~
+0 -1 6136
+D1
+Il polveroso sentiero sferzato dal vento in tumulto piega ad est qui,
+perdendosi attraverso gli alberi..
+~
+~
+0 -1 6129
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+S
+
+#6136
+La via per la scura foresta~
+Il viottolo polveroso che conduce alla parte scura della foresta avanza..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. Essi paiono avvicinarsi gli uni con gli altri e unire i
+possenti tronchi assumendo forme differenti e gettando disegni d'ombra sulla
+terra nera.. Ecco perchè la foresta è scura qui: il cielo riesce a malapena ad
+affacciarsi, tra i rami intricati dei grossi alberi..
+Il viottolo prosegue per il versante meridionale e ad ovest mentre ad est un
+sentiero irregolare conduce altrove..
+~
+0 9 3
+D1
+L'albero che si trova verso quella via ha dei segni sul tronco.
+~
+~
+0 -1 6142
+D2
+La polverosa strada prosegue a sud, attraversando gli alberi..
+~
+~
+0 -1 6135
+D3
+La via polverosa raggiunge l'ovest attraversando la fila di arbusti..
+~
+~
+0 -1 6137
+E
+albero alberi tronco tronchi segni~
+Ad oriente la fila di alberi attira la tua attenzione. Hanno la spessa
+corteccia graffiata e coperta di segni, incisioni.. come artigliate spinte
+da moti irosi..
+~
+E
+sentiero percorso~
+Il percorso è costeggiato di alberi. Strani segni sulla corteccia..
+~
+E
+E
+viuzza~
+La pista scura e polverosa sembra fragile paragonata ai tronchi massicci..
+~
+S
+
+#6137
+La fine del sentiero nella foresta scura~
+E qui finisce il sentiero polveroso che percorre la scura foresta..
+Ancora lo scenario immutato dei grossi alberi antichi e delle loro
+ombre.. ora quasi spettrali.. A nord s'apre in lontananza la sagoma
+scura di un boschetto lontano.. L'unica strada da intraprendere è ad est.
+~
+0 9 3
+D0
+~
+~
+0 -1 1300
+D1
+La polverosa strada prosegue ad est, attraversando gli alberi..
+~
+~
+0 -1 6136
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+S
+
+#6142
+L'esterno di una caverna~
+Il tortuoso e irregolare percorso si ferma ai piedi di un antro enorme, buio..
+Lo vedi distintamente, è appena a nord di te, e gli alberi circostanti hanno
+tutti il tronco graffiato da poderose artigliate..
+~
+0 9 3
+D0
+Dalla bocca della caverna esala l'odore di un enorme rettile..
+~
+~
+0 -1 6143
+D3
+Forse è un malevolo scherzo del timore provato.. ma tant'è che non distingui
+bene..
+~
+~
+0 -1 6136
+E
+albero alberi~
+Tutti i loro tronchi sono segnati e lacerati da unghiate e artigliate..
+~
+E
+caverna antro apertura bocca entrata~
+Dalla bocca della caverna esala l'odore di un enorme rettile..
+~
+S
+
+#6143
+La caverna del drago verde~
+E' un'enorme caverna naturale, scavata nella roccia umida. Il pavimento è
+completamente ricoperto di ossa e il puzzo è tanto fitto e penetrante da
+aggredire lo stomaco.. Ogni tuo movimento ha un suono, sordo e sinistro,
+amplificato dallo spostamento rigido delle ossa sotto i piedi..
+L'unica via di uscita è a sud..
+~
+0 13 3
+D2
+Intravedi, o almeno così credi, l'uscita verso la foresta..
+~
+~
+0 -1 6142
+E
+osso ossa pavimento selciato~
+Una distesa sterminata di ossa.. è raccapricciante..
+~
+S
+
+#6144
+La via per la scura foresta~
+Sei su un viottolo polveroso che conduce alla parte scura della foresta..
+Il vento frusta la polvere e stira le chiome folte degli alberi fischiando in
+modo quasi sinistro.. e dalle aperture occasionali filtra il lucore vischioso
+di un qualcosa di indefinito, enorme, appiccicoso.. forse una moltitudine di
+fili, sospesi come corde tra gli alberi. Puoi proseguire a sud e ad ovest.
+~
+0 9 3
+D2
+Lo stretto viottolo frustato dal vento prosegue la sua via a meridione..
+~
+~
+0 -1 6110
+D3
+Si estende ad occidente, la stretta stradina battuta da polvere e vento..
+~
+~
+0 -1 6130
+E
+sostanza fili qualcosa vischiosa corde corda tronchi albero tronco alberi~
+Ha tutta l'aria di una gigantesca fune ricoperta di colla.. Se non fosse per
+le sproporzionate dimensioni potresti pensare ad una.. ragnatela..
+~
+E
+albero alberi tronco tronchi~
+I giganteschi grigi ed antichi alberi sembrano osservarti silenziosamente..
+~
+E
+stradina viuzza percorso sentiero~
+La viuzza sembra troppo fragile, friabile quasi.. Una delle gigantesche
+radici degli alberi secolari probabilmente potrebbe affossarla in un solo
+colpo.
+~
+S
+
+#6150
+Una buia strada stretta~
+Stai camminando su una strada stretta e buia.. nessuna di quelle percorse
+fino ad ora, nella foresta, le assomigliava minimamente.. Gli alberi che
+ne disegnano il perimetro sono quasi spettrali.. con i loro tronchi graffiati,
+morsi, incisi.. inoltre essi sono stranamente distanziati tra loro..
+Ad ogni modo, questa pista buia prosegue a nord e a sud..
+~
+0 9 3
+D0
+L'angusto percorso prosegue..
+~
+~
+0 -1 6151
+D2
+Il viottolo qui interseca la strada principale della foresta..
+~
+~
+0 -1 6103
+S
+
+#6151
+Una buia strada stretta~
+Desta ancora stupore questa strada e in particolare qui, in questo tratto..
+Non segni di graffi di fiere sulle cortecce degli alberi che ne tratteggiano
+il corso, ma la loro disposizione piuttosto.. sembra forzare il percorso a
+curvare verso est..
+~
+0 13 3
+D1
+La strada curva bruscamente verso est.
+~
+~
+0 -1 6152
+D2
+L'angusto percorso prosegue..
+~
+~
+0 -1 6150
+S
+
+#6152
+Un cerchio di alberi~
+Piccoli arbusti giovani e teneri sono disposti in modo bizzarro.. quasi a
+formare un cerchio.. Noti al centro una porta di legno, inserita nel tronco
+di quello più grosso. L'uscio legnoso dista da te di un solo passo, proprio
+dove bruscamente termina la stradina che ti ha condotto qui..
+~
+0 9 3
+D1
+L'uscio di legno appare graziosamente intagliato..
+~
+porta~
+3 -1 6153
+D3
+Una curva s'intravede..
+~
+~
+0 -1 6151
+S
+
+#6153
+Nel cavo dell'albero~
+Sei entrato in un albero cavo! Da qui hai due alternative, sai?
+O alzi il piede e scivoli giù nell'oscurità del tronco vuoto..
+Oppure protendi ad ovest uscendo dall'albero..
+Però non ci pensare a lungo, non è comoda la tua posizione..
+~
+0 9 3
+D3
+L'uscio di legno appare graziosamente intagliato..
+~
+porta~
+3 -1 6152
+D5
+Stai riflettendo sulla contenenza relativa al tuo peso, vero?
+~
+~
+0 -1 6154
+S
+
+#6154
+L'atrio sotterraneo~
+Ma pensa te.. quest'atrio è ricavato da una delle radici dell'albero, scavata
+dall'interno! La sala s'affaccia a sud in una stanza attigua, dalla quale
+avverti strani brusii, e il rumore distinto di passi..
+~
+0 9 3
+D2
+L'atrio sembra abbastanza largo..
+~
+~
+1 -1 6155
+D4
+Stai riflettendo sulla contenenza relativa al tuo peso, vero?
+~
+~
+1 -1 6153
+S
+
+#6155
+Il tempio di culto~
+Questo tempietto è dedicato ad una Divinità che non adori, te ne accorgi
+subito.. E' un posto gradevole, ma l'altare di legno riluce come percorso
+da fibre di fiamma non appena l'avvicini. Forse non ti conviene sostare a
+lungo in questo luogo. L'unica uscita è quella dalla quale sei entrato.
+~
+0 9 3
+D0
+L'atrio sembra abbastanza largo..
+~
+~
+1 -1 6154
+S
+
+#6156
+Un piccolo viottolo~
+E' un percorso indubbiamente più luminoso ma molto più stretto..
+A sud-est è visibile la sezione più buia della foresta mentre a nord-ovest
+la strada appare sbarrata, forse da una grossa pietra..
+~
+0 0 3
+D8
+E' la sezione più buia della foresta..
+~
+~
+0 -1 6151
+S
+
+#0
+
+
+#RESETS
+M 0 6000 1 6009
+E 1 6000 10 16
+E 1 6001 10 5
+E 1 6002 10 8
+D 0 6009 0 1
+M 0 6002 1 6022
+M 0 6004 1 6023
+M 0 6005 2 6014
+O 0 6003 1 6010
+O 0 6005 1 6010
+P 1 6007 1 6005
+P 1 6006 1 6003
+O 0 6013 3 6010
+O 0 6010 2 6023
+O 0 6011 3 6006
+O 0 6011 3 6013
+O 0 6011 3 6016
+M 0 6100 2 6116
+M 0 6100 2 6116
+M 0 6101 2 6127
+M 0 6101 2 6127
+M 0 6102 4 6108
+M 0 6102 4 6108
+M 0 6102 4 6104
+M 0 6102 4 6104
+M 0 6103 4 6112
+M 0 6103 4 6112
+M 0 6103 4 6118
+M 0 6103 4 6118
+M 0 6112 1 6143
+G 1 6110 10
+G 1 6112 10
+G 1 6111 10
+M 0 6115 1 6100
+E 1 6114 3 1
+M 0 6116 1 6155
+E 1 6155 1 16
+D 1 6152 1 1
+D 1 6153 3 1
+O 0 6102 1 6103
+O 0 6103 1 6113
+O 0 6104 1 6125
+O 0 6105 1 6105
+O 0 6106 4 6104
+O 0 6106 4 6111
+O 0 6106 4 6122
+O 0 6107 4 6119
+M 0 6117 1 6121
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  6112 spec_breath_gas
+M  6116 spec_cast_cleric
+S
+
+
+#END

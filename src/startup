@@ -1,0 +1,58 @@
+#!/bin/csh -f
+
+# Imposta il numero della porta.
+set port = 5002
+if ( "$1" != "" ) set port="$1"
+
+# Imposta i limiti.
+nohup
+nice
+limit stack 2048k
+limit coredumpsize 18000000
+#unlimit stack
+#unlimit core
+if ( -e shutdown.txt ) rm -f shutdown.txt
+
+while ( 1 )
+    # Controlla se vi sia un file eseguibile di update
+    if ( -e ../src/bard.update ) then
+        rm -f ../src/bard
+        mv ../src/bard.update ../src/bard
+    endif
+
+    # Se vuoi che i file di log stiano in un altra directory
+    #   cambia la linea 'set logfile' con la directory voluta.
+    set index = 100
+    while ( 1 )
+        set logfile = ../log/$index.log
+    if ( ! -e $logfile ) break
+        @ index++
+    end
+
+    # Registra l'ora di avvio.
+    date > $logfile
+    date > ../area/boot.txt
+
+    # Controlla che non sia già attivo.
+    set matches = `netstat -an | grep ":$port " | grep -c LISTEN`
+    if ( $matches >= 1 ) then
+        # E' già attivo
+        echo La porta $port è già in uso.
+        exit 0
+    endif
+
+    # Avvia il Bard
+#    if ( -e gdb.run ) then
+#        gdb ../src/bard >&! $logfile < ../src/gdb.run
+#    else
+#         valgrind -v --leak-check=yes --num-callers=6 --show-reachable=yes --db-attach=yes --logfile=valbard ../src/bard $port >&! $logfile
+         ../src/bard $port >&! $logfile
+
+    # Restart, giving old connections a chance to die.
+    if ( -e shutdown.txt ) then
+        rm -f shutdown.txt
+        exit 0
+    endif
+
+    sleep 15
+end

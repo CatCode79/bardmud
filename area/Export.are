@@ -1,0 +1,3439 @@
+#AREA
+Name         Dragon Exports~
+Author       Sandman (Miciko)~
+Color        AT_DRED rosso scuro~
+Economy      0 6672836
+LevelRange   5 25
+ResetMsg1    Una voce roca intona un canto in lontananza.. che canzone mi ricorda?~
+Vnums        9800 9899
+End
+
+
+#MOBILES
+
+#9800
+Kylara locandiera receptionist~
+Kylara~
+Kylara ti sorride da dietro il bancone.~
+Kylara è una donna di bell'aspetto, dal sorriso caldo ed accogliente.
+Il suo compito è di controllare l'ingresso ed evitare che ospiti indesiderati
+si intrufolino all'interno dell'edificio.
+~
+3 4194984 0 C
+4 17 6 1d0+9999 1d4+3
+100 400
+8 8 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1767 1056768 3072 0 64 2
+> all_greet_prog 100~
+if level($n) < 50
+if ismob($n)
+  say Hai poca esperienza per questo luogo, $n!
+  mpforce $n south
+else
+if isgood($n)
+  smile $n
+  mpechoat $n Kylara dice 'Questo luogo potrebbe non accoglierti come pensi. Tuttavia,
+  mpechoat $n se conosci la parola d'ordine ti aprirò le porte.'
+else
+  mpechoat $n Kylara dice 'Mmm, sì. Sei proprio il tipo di persona che vanno cercando.
+  mpechoat $n Se conosci la parola d'ordine ti aprirò le porte.'
+endif
+endif
+endif
+~
+> speech_prog p worship dragons~
+if ispg($n)
+  mpechoat $n Kylara ti sorride.
+  mpechoat $n Kylara dice 'Che la permanenza fra noi ti sia gradita.'
+  mpechoaround $n $n va verso nord.
+  mpechoat $n Kylara apre i portali indicandoti la via d'accesso.
+  mptransfer $n 9851
+  mpat $n mpechoat $n Kylara chiude le porte alle tue spalle.
+endif
+~
+> death_prog 100~
+if rand(33)
+  mpoload 9825 1
+  mpecho Kylara s'accascia al suolo esalando l'ultimo respiro
+  mpecho e dalla sua mano cade una piccola chiave.
+  drop key
+else
+  cackle
+  say Non supererai i portali, la chiave che li apre verrà con me oltre la morte!
+  mpecho Kylara lancia un'occhiata fugace al dipinto sulla parete occidentale..
+endif
+~
+|
+
+#9801
+sacerdote minore~
+un sacerdote minore~
+Un sacerdote del culto del Drago parlotta fra sé e sé.~
+A giudicare dalla sobrietà delle vesti, non sembra uno dei sacerdoti più
+importanti. Al momento è occupato nella recitazione quotidiana delle sue
+preghiere e non ti degna di molta attenzione.
+~
+65 8 -100 C
+12 17 0 1d4+250 2d5+7
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+3 0 1775 0 0 0 96 2
+
+#9802
+sacerdote~
+un sacerdote in abiti da cerimonia~
+Un sacerdote dell'alto culto draconiano trasale appena ti vede.~
+E' un uomo di media statura, vestito con abiti sontuosi, in attesa
+forse di celebrare un importante rito. Una folle luce nei suoi occhi e
+una malcelata agitazione nella mano che impugna la daga, ti sembrano
+indizi sufficienti per non importunare a lungo questo sacerdote.
+~
+97 48 -200 C
+14 17 0 1d4+300 1d4+12
+100 400
+8 8 0
+15 13 13 13 13 13 13
+0 0 0 0 0
+106 3 0 0 1 1 0
+0 2 0 0 0 0 1 0
+
+#9803
+S'goral cavaliere draconiano~
+S'goral~
+Un imponente cavaliere draconiano scruta i tuoi movimenti.~
+Nonostante le apparenze umane alcuni particolari poco convincenti
+insinuano il dubbio che questo cavaliere appartenga ad un'altra razza.
+Il rosso sfumato della pelle e le piccole scaglie appena accennate
+suggeriscono una discendenza in linea rettile della creatura che ti si para
+innanzi. Dal suo sguardo pare che l'unico obiettivo della sua vita sia
+di passare a fil di spada tutti quelli che gli passano accanto senza essere
+stati invitati..
+~
+67 696 -400 C
+16 17 -20 1d4+400 2d5+15
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+106 3 0 0 1 1 0
+4 0 132839 1 2048 8 32 2
+> all_greet_prog 100~
+if ismob($n)
+or isadmin($n)
+else
+  mpechoat $n Il cavaliere draconiano balza in avanti per aggredirti!
+  mpechoat $n Questo ti insegnerà a non profanare i luoghi sacri in futuro!
+  cast magic $n
+endif
+~
+|
+
+#9804
+Syra gransacerdotessa sacerdotessa~
+la somma sacerdotessa~
+Syra, la somma sacerdotessa, non è affatto contenta della tua intrusione!~
+Un fascino tutto particolare avvolge i contorni della somma sacerdotessa, una
+bellezza che quasi assoggetta chiunque osi posare lo sguardo su di lei.
+Ecco che per un gesto del braccio, la sua tunica scivola lieve rivelando un lembo
+di pelle.. e scopri l'insolito colore della sua carnagione, un verde smeraldo
+sfumato in mille tonalità, con sottilissime scaglie che frazionano la superficie
+in maniera impercettibile. Invero, questa creatura non è affatto umana.
+~
+67 8376 -600 C
+18 17 -25 1d4+400 5d4+8
+100 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 1 1 0
+4 0 1767 1 2048 0 1 2
+> rand_prog 20~
+close north
+close east
+~
+> all_greet_prog 100~
+if ismob($n)
+or isadmin($n)
+else
+  cast dragonskin
+  cackle
+  cast flamestrike $n
+endif
+~
+|
+
+#9805
+Keleas giovinetta giovane~
+Keleas~
+Una giovinetta è legata mani e piedi in attesa dell'esecuzione capitale.~
+Trema e piange per la crudele sorte che l'aspetta, ma sulle labbra
+ha ancora una preghiera ed una speranza.. qualcuno che la aiuti.
+~
+3 512 0 C
+5 17 6 1d5+50 1d4+3
+100 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 5 0 0 8 9 0
+0 0 1767 0 0 0 0 0
+> death_prog 100~
+scream
+~
+> all_greet_prog 100~
+if ismob($n)
+else
+  grovel
+endif
+~
+> rand_prog 6~
+sniff
+~
+> rand_prog 4~
+say Vi prego aiutatemi! Sono troppo giovane per morire!
+~
+> rand_prog 2~
+cry
+~
+|
+
+#9806
+drago dragone~
+il grande Drago Nero~
+Il grande drago nero si muove verso di te con fare minaccioso..~
+Hai di fronte il fulcro dell'intero culto Draconiano.. S'erge maestoso
+il grande Drago Nero, spandendo fumo dalle narici ad ogni respiro e
+fissandoti con le serpentine pupille immerse in iridi di fuoco.
+Ti vede.. e spalanca le fauci.
+~
+39 648 -1000 C
+25 -15 -12 10d20+600 3d10+12
+50000 1000000
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+31 2 0 0 1 1 0
+4 2 66599 65 2048 0 0 2
+> fight_prog 33~
+if isaffected($i) == blind
+  emote stringe gli occhi cercando la sua preda.
+else
+  mpechoat $r Il Dragone inspira profondamente e ti investe con una coltre di fiamme e fumo!
+  mpechoaround $r Il Dragone inspira e investe $r con un mare di fiamme!
+  mpdamage $n 30
+endif
+~
+|
+
+#9807
+sacerdote minore~
+un sacerdote minore~
+Un sacerdote minore del culto draconiano è qui, intento nelle sue preghiere.~
+Il sacerdote è assorto in un angolo, cantilenando delle parole poco articolate, quasi
+sibilate. Il suo capo dondola lentamente da destra a sinistra come se il suo
+corpo stesse accompagnando ritmicamente la preghiera.
+~
+67 8200 -100 C
+12 17 0 1d4+9 1d4+3
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 1 1 0
+0 0 0 0 2048 0 0 2
+> all_greet_prog 100~
+blush $n
+mpechoat $n Il sacerdote balza in piedi rivolgendoti uno sguardo di disapprovazione
+mpechoat $n e mentre si ricompone le vesti sibila.. 'Dovresti imparare a bussare prima di entrare!
+~
+|
+
+#9808
+monaco fanatico~
+un monaco fanatico~
+Un monaco agita le mani nervosamente parlottando fra sé.~
+Sembra una trottola impazzita, gira e rigira camminando freneticamente
+avanti e indietro sui suoi passi. Nella miriade di parole incontrollate che escono
+come un fiume in piena dalla sua bocca, riconosci "CONTEAAA BAGGINGSSSSS!!".
+~
+1 8 0 C
+6 17 6 1d4+60 1d4+10
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 2
+0 0 0 0 2048 0 0 2
+> rand_prog 6~
+emote s'inginocchia ed erompe in un pianto straziante.
+say L'ho visto! Tutti! Sul piano astrale!
+say Gli oscuri sapienti avevano ragione! La fine è vicina!
+emote si copre il viso con le mani.
+mpechoaround Poco lontano da qui un monaco sta piangendo disperatamente.
+~
+|
+
+#9809
+Belesdan direttore~
+Belesdan~
+Belesdan, il direttore dei commerci ti accoglie con un sorriso.~
+Belesdan ti colpisce per la sua forbita dialettica oltre che per uno
+strano modo di sorridere: sembra tutta una finzione dedita al convincimento
+del cliente, eppure è condotta con grande perizia che quasi risulta
+simpatica. E' molto alto, dal fisico asciutto e movenze eleganti. I suoi
+occhi scrutano continuamente l'aria circostante pronti a carpire il
+benché minimo particolare. Da dietro una ciocca di capelli sbuca la punta
+dell'orecchio, sottile ed aguzza.. segno che parte del suo sangue
+proviene dalla stirpe elfica.
+~
+71 552 -1000 C
+7 17 6 1d20+60 1d4+3
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+9 2 0 0 3 3 0
+0 0 1767 0 2048 0 32 10
+> rand_prog 5~
+close east
+~
+> all_greet_prog 100~
+if name($n) == Deakin coordinatrice
+  say Oh, mia cara Deakin. Come stai?
+  mpecho Belesdan guarda Deakin, rosso in volto per l'imbarazzo.
+else
+if name($n) == Mehrsil
+  say Mehrsil, per cortesia fa' più attenzione a quelle cose.
+  say Per gli Dei, non ti riesce di lavorare decentemente?
+  nudge Mehrsil
+else
+if ismob($n)
+  mpechoat $n Si rivolge a te vantandosi.
+  say Tu non lavori qui.
+  mpforce $n west
+else
+if isadmin($n)
+  grovel $n
+  say Sempre sian benvenute le Immortali presenze..
+  say Che il mio spirito possa servirvi nel migliore dei modi, $n.
+else
+  say Ah, un mortale.  Cosa vi serve, $n?
+  mpechoat $n Spero vi sia chiaro che qui gradiamo solo ospiti previo esplicito invito.
+  mpechoat $n Vi consiglio di rivolgervi a Thirkem  per le vostre richieste.
+endif
+endif
+endif
+endif
+~
+> act_prog p you feel cold to your bones.~
+if name($n) == Deakin coordinatrice
+  grovel Deakin
+  say Non posso fare a meno d'ammirarti.. La tua bellezza oblia i miei sensi!
+  say Cercherò di concentrarmi nuovamente.. Se solo i tuoi abiti non fossero così..così..
+  moecho Belesdan sospira verso Deakin.
+else
+  mpecho $n Belesdan grunisce verso di te.
+endif
+~
+> act_prog p frowns at what you did.~
+if name($n) == Mehrsil
+  say Attenta a ciò che fai ragazzina o ti dovrai cercare un altro lavoro.
+  say Ricorda che è solo grazie a ME che tu sei ancora qui!
+  mpecho Deakin ghigna un po' malignamente verso Mehrsil
+else
+  mpechoat $n Belesdan si vanta rivolgendosi a te.
+endif
+~
+|
+
+#9810
+Mehrsil~
+Mehrsil~
+Mehrsil è indaffarata a tener questo luogo lindo e perfetto.~
+Mehrsil è la domestica dell'intero edificio, a lei spetta il mantenimento
+della pulizia e dell'ordine in ogni stanza del Dragon Export.
+A guardarla bene si direbbe più un topolino che una ragazza. E' minuta
+con il visino a punta e gli occhietti nervosamente attenti, cammina lungo
+i corridoi tenendosi attaccata ai muri, quasi fosse l'ombra di se stessa.
+E' in perenne movimento fra cenci e stracci, paladina della nettezza.
+Ti vede, ti guarda per un istante, poi ritorna al suo lavoro.
+~
+69 520 200 C
+12 17 6 5d15+120 1d4+3
+100 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1767 0 0 0 64 2
+> rand_prog 5~
+mpecho Mehrsil s'inginocchia ed inizia a strofinare energicamente il pavimento.
+~
+> rand_prog 2~
+mpecho Mehrsil si allunga issandosi sulle punte per spolverare le cornici più alte.
+~
+> act_prog p sculaccia Mehrsil.~
+if name($n) == Jerint direttore vendite
+  emote jerint grugnisce infastidita
+  say Se non fosse per me questo posto andrebbe in polvere in men che non si dica!
+  mpecho Mehrsil riordina gli oggetti sugli scaffali via via che spolvera.
+  say Ora vado, cercate di non far troppo disordine, Jerint.
+  emote spinge Jerint
+else
+  say Ohi te! Ti sembro forse quel tipo di ragazza?
+endif
+~
+> act_prog p smiles at you.~
+if name($n) == Jerint direttore vendite
+  say Bene! Un sorriso ogni tanto non uccide nessuno, nemmeno voi.
+  wave jerint
+  east
+  south
+else
+  nod $n
+endif
+~
+> act_prog p nudges you.~
+if name($n) == Belesdan direttore
+  say Sapete benissimo che non sono maldestra, soprattutto con le vostre cose.
+  frown $n
+else
+  say Ehi, vedi di smetterla di darmi gli spintoni.
+endif
+~
+> act_prog p Better keep your distance.~
+if name($n) == Belesdan direttore
+  say Continuate! Licenziatemi pure, grosso pezzo di ciccia che non siete altro!
+  say Nessuno sa svolgere questo compito meglio di me! Ed ho ancora mesi di ferie arretrate..
+  smirk belesdan
+  west
+else
+  stare $n
+  say Mi piacciono i tipi intriganti..
+  wink $n
+endif
+~
+> act_prog p stares at you, fuming with rage!~
+if name($n) == Thirkem boss
+  say Oh, chiedo scusa.. Pensavo foste da solo.
+  frown
+else
+  shiver $n
+endif
+~
+> act_prog p you.  Have a good journey.~
+if name($n) == Thirkem boss
+  say Molto bene, signore.
+  grumble
+  south
+else
+  smile $n
+  say Arrivederci, $n.
+endif
+~
+|
+
+#9811
+Deakin coordinatrice~
+Deakin~
+Deakin la coordinatrice dell'ufficio è qui, in mille faccende affaccendata.~
+Deakin sembra molto impegnata al momento, corre avanti e indietro per l'ufficio
+controllando che tutto proceda al meglio e senza intoppi. E' una donna piacente,
+se non fosse per la maniacale dedizione al suo lavoro sarebbe anche molto
+sensuale. A quanto pare, Thirkem il suo capo le affida sempre una montagna di lavoro
+forse per motivi personali..?
+~
+65 520 -1000 C
+14 17 0 5d20+190 1d15+4
+100 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1767 0 2048 0 96 2
+> rand_prog 5~
+mpecho Deakin raccoglie alcuni fogli e li raggruppa mettendoli in ordine.
+~
+> rand_prog 2~
+sigh
+say Quanto vorrei che Thirkem non fosse così disordinato...
+~
+> act_prog p smiles at you.~
+if name($n) == Jerint direttore vendite
+  chuckle
+  say Ah, Jerint, sai quanto me che Thirkem mi licenzierà se rallento la produzione..
+  wink $n
+else
+  smile $n
+endif
+~
+> act_prog p waves goodbye to you.  Have a good journey.~
+if name($n) == Jerint direttore vendite
+  say Buona giornata a te, Jerint.
+  wave jerint
+  east
+else
+  smile $n
+  say Buon proseguimento, $n.
+endif
+~
+> act_prog p Such an effect on people!~
+if name($n) == Belesdan director
+  say Belesdan, ti ho detto già troppe volte di non chiamarmi "cara".
+  glare Belesdan
+else
+  say Oh, spiacente $n, non era mia intenzione imbarazzarti.
+endif
+~
+> act_prog p Touching, huh?~
+if name($n) == Belesdan director
+  say Non sopporterò oltre questi tuoi modi insolenti, Belesdan.
+  say Già devo sopportare a sufficienza tuo zio Thirkem, la maleducazione è proprio di famiglia..
+  emote ringhia
+  west
+endif
+~
+> act_prog p winks suggestively at you.~
+if name($n) == Thirkem boss
+  groan
+  say Sii cortese, Thirkem, mantieni una distanza professionale da me.
+  say Son passata solo per vedere se c'era qualche documento da controllare.
+  smile $n
+else
+  blush $n
+endif
+~
+> act_prog p whistles at the sight of you.~
+if name($n) == Thirkem boss
+  mpecho Deakin si alza velocemente e si riaggiusta gli abiti.
+  gasp Thirkem
+  say Buongiorno, Mr. Thirkem.
+  south
+else
+  blush $n
+endif
+~
+|
+
+#9812
+Thirkem boss capo~
+Thirkem~
+Thirkem fuma la pipa rilassandosi..~
+Thirkem regge bene la parte del capo oppressivo, sostanzialmente rimane
+seduto  nel suo ufficio tutto il giorno, salvo alzare la voce con tutti i
+malcapitati che hanno la sventura di lavorare per lui.
+Ha una spiccata predilizione per la coordinatrice Deakin e spesso va da lei
+con la scusa di controllare il suo lavoro ma dal modo in cui la fissa
+si direbbe che le sue intenzioni riguardino altri ambiti non strettamente
+professionali..
+~
+67 520 -500 C
+12 17 -10 1d4+300 1d4+11
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1767 0 0 0 32 2
+> all_greet_prog 100~
+if name($n) == Deakin coordinator
+  say Ciao, Deakin, tesoro. Sei proprio una delizia oggi mia cara.
+  wink Deakin
+else
+if name($n) == Mehrsil
+  growl
+  say Mehrsil, quante volte te lo devo dire..? Una? Cento? MILLE??
+  say Non entrare nel mio ufficio se ho visite!
+else
+if ismob($n)
+else
+if sex($n) == 2
+  lick
+  say Salve $n. Gradite un caffè con me..eh?
+  wink $n
+else
+  shake $n
+  say Salve $n. Quali affari vi han condotto qui da noi?
+endif
+endif
+endif
+endif
+~
+> act_prog p smiles at you.~
+if name($n) == Deakin coordinator
+  say Sì, bene Deakin, ho del lavoro per te.
+  mpecho Thirkem prende alcuni fogli dalla scrivania ma li lascia cadere
+  mpecho prima che Deakin riesca ad afferrarli.
+  say Oh..scusa, sono proprio sbadato. Sii gentile, raccoglili tu.
+  mpecho Deakin si piega per raccattare tutti i documenti sparsi al suolo.
+  whistle Deakin
+else
+  grin $n
+endif
+~
+> act_prog frowns.~
+if name($n) == Mehrsil
+  say Bene, fai il tuo lavoro e finiscilo in fretta, non ho tempo da perdere.
+  mpecho Mehrsil toglie la polvere dalla scrivania e svuota il cestino.
+  say Può bastare così, ora torna di là. Potrai tornare quando ti chiamerò io.
+  wave Mehrsil
+else
+  say Hmph, vedi di non disturbare.
+endif
+~
+> rand_prog 2~
+mpoload 9865 7
+mpoload 9866 7
+fill pipe nip
+tamp pipe
+light pipe
+smoke pipe
+empty pipe
+  mpjunk pipe
+~
+> death_prog 100~
+mpoload 9865 10
+mpoload 9866 10
+mpoload 9866 10
+~
+|
+
+#9813
+Wilam torturatore~
+Wilam~
+Wilam, il sommo Torturatore, attende qualcuno da seviziare.~
+Una criniera di capelli rossi adorna il volto di quest'uomo, dai lineamenti
+fini e regolari. Ha un fisico imponente con muscoli ben disegnati e soprattutto
+allenati dalle migliaia di dolori che ha inflitto..
+Un ghigno improvviso gli incurva le labbra, un'ombra offusca il suo
+sguardo per un istante. Avviene tutto in pochi secondi ma è un tempo sufficiente
+per carpire tutta la pazzia che anima il torturatore..
+~
+71 4194824 -1000 C
+12 17 -30 20d10+500 1d7+5
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+4 0 1767 9 3072 2 64 2
+> rand_prog 6~
+close door
+close secret
+lock door
+lock secret
+  mpjunk all
+~
+> rand_prog 2~
+if ismob($r)
+  growl
+else
+  grin $r
+endif
+~
+> rand_prog 1~
+cackle
+say Nessuno può lasciare questo posto senza il mio beneplacito!
+~
+> death_prog 100~
+mpecho Wilam lascia cadere un'enorme chiave di metallo.
+mpecho Wilam con un ultimo sforzo dà un calcio alla chiave lanciandola lontana..
+~
+> all_greet_prog 100~
+close door
+lock door
+close secret
+lock secret
+mpechoat $n Wilam dice 'Che bello! Una nuova visita.. Che tipo di tortura desideri?'
+~
+|
+
+#9814
+Jerint vendite responsabile direttore~
+Jerint~
+Il responsabile delle vendite si gira verso di te appena ti nota.~
+Ciò che colpisce di quest'uomo è lo sguardo: scrupoloso nell'osservazione
+delle minuzie, vivace ma al contempo ricco di un un calore umano genuino
+ed una bontà sapientemente misurata.
+Il suo viso è segnato dai molti anni trascorsi, dalle calde carezze del sole
+e da una vitalità notevole che lo spinge a ridere di cuore ogni volta che
+può. Ti sorride amichevolmente appena ti vede, con un pacato movimento
+della dita si liscia i lunghi baffi e prima di tenderti la mano, cerca di
+rendersi più presentabile dando un verso ai capelli che crescono a maggese
+sul suo capo.
+~
+67 8872 750 C
+15 17 0 5d10+150 1d8+4
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 1 0 0 1 1 0
+0 0 1767 0 3072 1 624 15
+> all_greet_prog 100~
+if name($n) == Deakin coordinator
+  say Non ti affaticare troppo, Deakin, o ti verranno le rughe. Facciamo una pausa?
+  smile Deakin
+else
+if name($n) == Mehrsil
+  say Ehi donna! La tua mania per l'ordine e il pulito ci fa diventare pazzi!
+  say Mai sentito dire "Mezzo disordine per la serenità, mezzo ordine per la sanità"?
+  emote sculaccia Mehrsil
+else
+if ismob($n)
+  mpforce $n east
+else
+if isadmin($n)
+  say Rifulgano le stelle tutte, $n, lieto di servire un'Immortale presenza.
+else
+  say Vi do il benvenuto nel mio negozio, $n. In cosa vi posso aiutare?
+endif
+endif
+endif
+endif
+~
+> act_prog p winks suggestively at you.~
+if name($n) == Deakin coordinator
+  sigh
+  say Potresti aver ragione, ragazza, anche se è triste ammetterlo
+  say Forse i suoi modi diverranno meno rozzi con il tempo..
+  say Oh bene, felice giornata, Deakin!
+  wave Deakin
+else
+  say Sei proprio una civetta, $n!
+endif
+~
+> act_prog p pokes you in the ribs.~
+if name($n) == Mehrsil
+  say Ahia! Non è affatto solletico questo! Ora levati dai piedi e va' ad annoiare qualcun altro.
+  smile Mehrsil
+else
+  poke $n
+endif
+~
+|
+
+#9815
+zombie carne~
+uno zombie~
+Un ammasso di carne sta qui, davanti a te, in posa meditativa..~
+Dev'essere uno zombi di primo pelo, le sue carni non sono ancora così
+corrotte e sulla sua pelle non si vede traccia di vermi. Considerata la stazza
+di questa creatura, si può pensare che un tempo fosse un cacciatore di
+Draghi. Molta della forza che aveva in vita l'ha accompagnato nel viaggio
+oltre la morte.
+~
+99 136 -1000 C
+15 17 6 10d10+150 1d7+7
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 0
+3 0 1767 0 0 0 0 0
+> death_prog 100~
+mpoload 9893 1
+mpecho Lo Zombi urla 'Maestro! Aiutatemi!'
+mpecho Lo Zombi cade a terra riducendosi ad un ammasso di carne putrefatta.
+~
+|
+
+#9816
+Adrathom lich sacerdote~
+Adrathom~
+Il sacerdote del culto del lich ti squadra con occhi di morte.~
+Hai di fronte il cadavere semovente di quello che un tempo era un grande
+sacerdote del culto del Lich. Nel suo lungo tirocinio di stregone e sacerdote
+ha imparato le mille vie della magia, applicando a se stesso le oscure
+formule che l'han reso un putrefatto proprio come lo vedi ora.
+Non fidarti di quest'essere, la migliore delle sue intenzioni è la tua morte.
+~
+99 33554608 -1000 C
+37 17 -75 10d30+750 5d4+12
+100 400
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 0 0 0 1 1 0
+4 0 1063 1048576 2099200 0 65 2
+
+#9817
+G'narish vecchio monaco~
+G'narish~
+Un vecchio monaco ti intralcia il passo cercando di venderti delle caramelle..~
+E' talmente vecchio che non si stenterebbe a credere che sia già morto
+e sepolto. Il suo viso è costantemente contratto da una serie di tic
+che alterano i lineamenti e rendono quest'uomo, se possibile, ancor più
+sgradevole. Dischiude le labbra per dire qualcosa ed una puzza
+orrenda ti assale. Ti viene il dubbio che si sia mangiato un carro di letame
+o che abbia fatto colazione a base di pane e cadavere.. Poi, fra le nubi
+di fetido miasma, noti un filare di dentacci marci ed un grosso viscido
+nero verme che si agita sotto il palato.. ah no, è la lingua.
+~
+3 4202664 -200 C
+20 17 -300 1d1+10000 10d5+10
+100 400
+8 8 0
+13 13 13 16 13 13 13
+0 0 0 0 -3
+0 1 0 0 1 1 3
+3 0 955 0 11312 0 603980369 418
+> rand_prog 25~
+if goldamt($i) > 50000
+  mpat 5475 drop 40000 coins
+  mpat 5475 mppurge coins
+endif
+~
+> rand_prog 5~
+emote si lecca i denti con la sua linguaccia nera e sorride ghignando verso di te.
+~
+|
+
+#9863
+sacerdote~
+un sacerdote in abiti da cerimonia~
+Un sacerdote dell'alto culto trasale appena ti vede.~
+E' un uomo di media statura, vestito con abiti sontuosi, in attesa
+forse di celebrare un importante rito. Una folle luce nei suoi occhi,
+una malcelata agitazione nella mano che impugna la daga ti sembrano
+indizi sufficienti per non importunare a lungo questo sacerdote.
+~
+65 48 -200 C
+14 17 0 1d4+300 1d4+12
+100 400
+8 8 0
+15 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 1 1 0
+0 0 0 0 0 0 1 0
+
+#0
+
+
+#OBJECTS
+
+#9810
+altar~
+a newly created altar~
+Some god dropped a newly created altar here.~
+~
+13 1073741824 0
+0 0 0 0
+0 0 0
+
+#9825
+chiave nera~
+una chiave nera~
+Una chiave d'una certa importanza è abbandonata qui..~
+~
+18 0 1
+0 0 0 0
+1 0 0
+
+#9826
+chiave rozza~
+una rozza chiave~
+Vedi una rozza chiave per terra.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+
+#9827
+chiave teschio~
+una chiave a forma di teschio~
+Per terra c'è una chiave, ha la forma di un teschio!~
+~
+18 0 1
+0 0 0 0
+1 0 0
+
+#9828
+spada osso~
+una spada d'osso~
+Un'affilata spada d'osso è pronta per l'uso.~
+~
+5 0 8193 0
+12 3 8 3
+50 4000 0
+A
+1 2
+A
+2 2
+A
+3 -1
+A
+19 1
+A
+18 1
+
+#9829
+elmo teschio drago~
+un teschio di drago~
+Vedi un teschio di drago per terra, potrebbe essere un ottimo elmo.~
+~
+9 1 17
+0 0 0 0
+15 4000 400
+A
+3 -1
+A
+5 2
+
+#9830
+abito scuro~
+un abito scuro~
+Qualcuno ha lasciato qui il proprio abito.~
+~
+9 0 9
+0 0 0 0
+5 1000 100
+A
+12 30
+
+#9831
+penna nera~
+una penna nera~
+Una penna nera cattura la tua attenzione.~
+~
+5 0 8193 0
+12 2 3 2
+15 2 0
+
+#9832
+nera daga~
+una daga nera~
+Un alone di malvagità si sprigiona da questa daga nera.~
+~
+5 0 8193 0
+12 5 10 2
+15 200 0
+A
+19 3
+A
+18 2
+
+#9833
+bastone nero~
+un bastone nero~
+Un lungo bastone nero è poggiato qui.~
+~
+5 0 8193 0
+12 4 8 7
+46 10 0
+A
+18 3
+A
+3 1
+
+#9834
+abito scaglie vesti~
+un abito di scaglie di drago~
+Delle vesti di scaglie di drago nero son qui per terra.~
+~
+9 2640 9
+0 0 0 0
+20 5000 500
+A
+12 50
+A
+3 3
+A
+4 3
+A
+13 25
+
+#9835
+abito decorato~
+un abito decorato~
+Un abito finemente tessuto e ricamato è qui per terra.~
+~
+9 0 9
+0 0 0 0
+20 5000 500
+A
+3 1
+A
+4 1
+
+#9836
+abito bianco rovinato~
+un abito bianco rovinato~
+Un tempo quest'abito bianco doveva essere molto grazioso.~
+~
+9 0 9
+0 0 0 0
+5 10 1
+
+#9837
+chiave arrugginita~
+una chiave arrugginita~
+Una chiave arrugginita è stata posata qui.~
+~
+18 33554432 1
+0 0 0 0
+1 0 0
+
+#9838
+mutandoni~
+un paio di mutandoni di lana~
+Chissà quanto caldo tengono questi mutandoni..~
+~
+9 0 33
+0 0 0 0
+5 1000 100
+A
+25 -4
+
+#9839
+bombolone~
+un bombolone~
+Un bombolone ripieno di bontà nascoste è qui.. hai fame?~
+~
+19 0 1
+100 0 0 0
+1 0 0
+
+#9840
+caffè caffe~
+una tazza di caffè~
+Qualcuno s'è dimenticato qui il caffè ancora caldo.~
+~
+17 0 1
+15 15 12 0
+1 0 0
+
+#9841
+caramella drago~
+una caramella a forma di Drago~
+Ehi! E' una rarissima caramella a forma di Drago!~
+~
+26 0 1
+0 4 27 -1
+1 200 20
+
+#9842
+zombi caramella~
+una caramella a forma di Zombi~
+Ehi! E' una rarissima caramella a forma di Zombi!~
+~
+26 0 1
+0 4 2 17
+1 320 32
+
+#9843
+lich caramella~
+una caramella a forma di Lich~
+Ehi! E' una rarissima caramella a forma di Lich!~
+~
+26 0 1
+0 33 -1 -1
+1 50 5
+
+#9844
+vampiro caramella~
+una caramella a forma di Vampiro~
+Ehi! E' una rarissima caramella a forma di Vampiro!~
+~
+26 0 1
+0 25 25 25
+1 100 10
+
+#9845
+beholder caramella~
+una caramella a forma di Beholder~
+Ehi! E' una rarissima caramella a forma di Beholder!~
+~
+26 0 1
+0 44 19 20
+1 1000 100
+
+#9846
+orco caramella~
+una caramella a forma di Orco~
+Ehi! E' una rarissima caramella a forma di Orco!~
+~
+26 0 1
+1 39 66 -1
+1 2000 200
+
+#9847
+troll caramella~
+una caramella a forma di Troll~
+Ehi! E' una rarissima caramella a forma di Troll!~
+~
+26 0 1
+0 16 16 -1
+1 1500 150
+
+#9848
+morte caramella~
+una caramella con una strana forma~
+Ehi! E' una rarissima caramella della Morte!~
+~
+26 0 1
+0 36 66 67
+1 15000 1500
+
+#9849
+smeraldo pietra~
+uno smeraldo~
+La lucentezza di una pietra verde attira il tuo sguardo.~
+~
+8 1 16385
+0 0 0 0
+16960 0 0
+A
+1 2
+A
+2 2
+A
+3 2
+A
+4 2
+A
+5 2
+A
+12 50
+A
+13 50
+A
+17 15
+A
+18 15
+A
+19 15
+
+#9850
+volantino foglietto~
+un insolito volantino~
+Un foglietto svolazza in aria qua e là.~
+~
+13 4224 16385
+0 0 0 0
+1 0 0
+E
+foglietto volantino~
+Si legge:
+ ____________________________________
+ | C U L T O  D E L  D R A G O N E  |
+ |                                  |
+ |   Aggregati ai discepoli del     |
+ |    sommo culto del Dragone!      |
+ | Il supremo Nero ti offre         |
+ | - Fine dei problemi di           |
+ |     riscaldamento!               |
+ | - Vesti meravigliose tessute     |
+ |    a mano                        |
+ | - Sacrifici settimanali          |
+ | - Una fantastica acconciatura!   |
+ | Ricorda di vota 'NO' alla        |
+ |  proposta n.13 : l'interdizione  |
+ |    del culto del Dragone!        |
+ |       Se la pensi come noi       |
+ |       uccidi il Duca, OGGI!      |
+ |__________________________________|
+
+~
+
+#9851
+segnale avviso~
+un avviso~
+Un cartello recante un avviso attira la tua attenzione.~
+~
+12 3 0
+0 0 0 0
+0 0 0
+E
+segnale avviso~
+Muoviti liberamente in questa zona, se sai di poter contare sul tuo
+equipaggiamento.. altrimenti è il caso di visitare altri posti.
+Qui puoi mettere alla prova tutti gli insegnamenti che hai tratto dalla
+esplorazione dei Reami.
+~
+
+#9852
+vesti decorate~
+delle vesti finemente decorate~
+Ripiegate con cura, vedi delle vesti poggiate per terra.~
+~
+9 1 5
+0 0 0 0
+7 5000 500
+A
+3 1
+A
+4 1
+
+#9855
+statua~
+la statua di un dragone~
+Al centro della stanza brilla una statua in oro raffigurante un drago.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+statua~
+E' fatta d'oro massiccio, abilmente modellata secondo il profilo
+classico dei più imponenti draghi. La rifinitura è così accurata
+da poter distinguere ogni singola scaglia del corpo dell'animale.
+La bocca è atteggiata a mo' di minaccioso ringhio, mettendo in
+risalto i numerosi ed aguzzi denti.
+~
+
+#9860
+bastone marrone~
+un bastone intagliato~
+Vedi un bastone con degli intagli simili ad ali di drago.~
+~
+4 262209 16385
+40 1 1 227
+15 10000 1000
+
+#9861
+statuetta dorata~
+una statuetta dorata~
+Una statuetta dorata con le fattezze di un dragone è poggiata qui.~
+~
+9 66 16385
+5 7 0 0
+12 75000 7500
+A
+31 2
+A
+3 1
+A
+12 20
+
+#9862
+bacchetta rossa drago~
+una bacchetta rossa~
+Sull'impugnatura di questa bacchetta è inciso un grande drago..~
+~
+3 65 16385
+20 1 1 212
+10 95000 9500
+
+#9863
+pozione drago nero~
+una pozione nera~
+Una simpatica fiaschetta, dalla minacciosa forma di drago, è qui per terra~
+~
+10 195 1
+30 59 3 1
+20 111111 11111
+
+#9864
+penna oca~
+una penna d'oca sporca d'inchiostro~
+Non c'è verso di impedire all'inchiostro di uscire da questa penna!~
+~
+5 0 8193 0
+12 2 2 2
+15 20 0
+A
+25 -1
+A
+13 4
+A
+19 2
+A
+18 3
+> use_prog 100~
+mpechoat $n Appena impugni la penna una marea di inchiostro cola sui tuoi vestiti.
+mpechoat $n Ti senti meno attraente del solito.
+mpechoaround $n $n sporca d'inchiostro gli abiti di $x, rendendo $m meno gradevole alla vista.
+~
+|
+
+#9865
+pipa dragone~
+una pipa di sepiolite intagliata~
+Sembra una piccola statuetta di drago, in realtà è una pipa.~
+~
+30 1 1
+90 0 0 0
+5 12500 1250
+E
+pipa~
+Se tu cercassi nei testi dell'Accademia troveresti informazioni sul materiale che
+compone questa bellissima pipa intagliata. Si tratta di sepiolite, un silicato del
+magnesio. Naturalmente lo sapevi già vero?
+~
+
+#9866
+erbetta erba dragoni~
+un mazzetto di erba per draghi~
+Per terra vedi un mazzetto d'erba marroncina.~
+~
+32 262144 1
+30 30 0 0
+3 1100 110
+
+#9892
+Dragon caramella~
+una caramella per draghi~
+Un pezzo di caramella smangiucchiata è qui per terra..~
+~
+26 0 1
+5 227 85 -1
+1 450 45
+
+#9893
+chiave arrugginita~
+una chiave arrugginita~
+Una chiave arrugginita è stata posata qui.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+
+#0
+
+
+#ROOMS
+
+#9810
+Winter Altar~
+~
+0 1073741833 0
+D2
+~
+~
+0 -1 9833
+D8
+~
+~
+0 -1 9834
+S
+
+#9811
+The Winter Pit~
+~
+0 1073741833 0
+D2
+~
+~
+0 -1 9895
+S
+
+#9812
+A dark cell~
+~
+0 1073741833 0
+D1
+~
+~
+3 -1 9813
+S
+
+#9813
+North Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9814
+D2
+~
+~
+0 -1 9836
+D3
+~
+~
+3 -1 9812
+S
+
+#9814
+North Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+3 -1 9815
+D3
+~
+~
+0 -1 9813
+S
+
+#9815
+Spring~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9816
+D3
+~
+~
+3 -1 9814
+S
+
+#9816
+Spring Altar~
+~
+0 1073741833 0
+D3
+~
+~
+0 -1 9815
+D9
+~
+~
+0 -1 9838
+S
+
+#9817
+The Spring Pit~
+~
+0 1073741833 0
+D2
+~
+~
+0 -1 9897
+S
+
+#9818
+A dark cell~
+~
+0 1073741833 0
+D2
+~
+~
+3 -1 9819
+S
+
+#9819
+East Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+3 -1 9818
+D2
+~
+~
+0 -1 9820
+D3
+~
+~
+0 -1 9840
+S
+
+#9820
+East Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9819
+D2
+~
+~
+3 -1 9821
+S
+
+#9821
+Summer~
+~
+0 1073741833 0
+D0
+~
+~
+3 -1 9820
+D2
+~
+~
+0 -1 9822
+S
+
+#9822
+Summer Altar~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9821
+D3
+~
+~
+0 -1 9823
+D7
+~
+~
+0 -1 9842
+S
+
+#9823
+The Summer Pit~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9897
+D1
+~
+~
+0 -1 9822
+D3
+~
+~
+3 -1 9824
+S
+
+#9824
+A dark cell~
+~
+0 1073741833 0
+D1
+~
+~
+3 -1 9823
+D3
+~
+~
+3 -1 9825
+S
+
+#9825
+South Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9844
+D1
+~
+~
+3 -1 9824
+D3
+~
+~
+0 -1 9826
+S
+
+#9826
+South Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9825
+D3
+~
+~
+3 -1 9827
+S
+
+#9827
+Autumn~
+~
+0 1073741833 0
+D1
+~
+~
+3 -1 9826
+D3
+~
+~
+0 -1 9828
+S
+
+#9828
+Autumn Altar~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9827
+D6
+~
+~
+0 -1 9846
+S
+
+#9829
+The Autumn Pit~
+~
+0 9 0
+D0
+~
+~
+0 -1 9895
+S
+
+#9830
+A dark cell~
+~
+0 1073741833 0
+D0
+~
+~
+3 -1 9831
+D2
+~
+~
+3 -1 9829
+S
+
+#9831
+West Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9832
+D1
+~
+~
+0 -1 9848
+D2
+~
+~
+3 -1 9830
+S
+
+#9832
+West Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+3 -1 9833
+D2
+~
+~
+0 -1 9831
+S
+
+#9833
+Winter~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9810
+D2
+~
+~
+3 -1 9832
+S
+
+#9834
+Winter Attendant~
+~
+0 1073741833 0
+D7
+~
+~
+0 -1 9810
+D8
+~
+~
+0 -1 9835
+S
+
+#9835
+Winter Liar~
+~
+0 1073741833 0
+D5
+~
+~
+0 -1 9811
+D7
+~
+~
+0 -1 9834
+S
+
+#9836
+North Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9813
+D2
+~
+~
+0 -1 9837
+S
+
+#9837
+North Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9836
+D2
+~
+~
+0 -1 9891
+S
+
+#9838
+Spring Attendant~
+~
+0 1073741833 0
+D6
+~
+~
+0 -1 9816
+D9
+~
+~
+0 -1 9839
+S
+
+#9839
+Spring Liar~
+~
+0 1073741833 0
+D5
+~
+~
+0 -1 9817
+D6
+~
+~
+0 -1 9838
+S
+
+#9840
+East Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9819
+D3
+~
+~
+0 -1 9841
+S
+
+#9841
+East Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9840
+D3
+~
+~
+0 -1 9891
+S
+
+#9842
+Summer Attendant~
+~
+0 1073741833 0
+D7
+~
+~
+0 -1 9843
+D8
+~
+~
+0 -1 9822
+S
+
+#9843
+Summer Liar~
+~
+0 1073741833 0
+D5
+~
+~
+0 -1 9823
+D8
+~
+~
+0 -1 9842
+S
+
+#9844
+South Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9845
+D2
+~
+~
+0 -1 9825
+S
+
+#9845
+South Mage Route~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9891
+D2
+~
+~
+0 -1 9844
+S
+
+#9846
+Autumn Attendant~
+~
+0 1073741833 0
+D6
+~
+~
+0 -1 9847
+D9
+~
+~
+0 -1 9828
+S
+
+#9847
+Autumn Liar~
+~
+0 1073741833 0
+D5
+~
+~
+0 -1 9829
+D9
+~
+~
+0 -1 9846
+S
+
+#9848
+West Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9849
+D3
+~
+~
+0 -1 9831
+S
+
+#9849
+West Mage Route~
+~
+0 1073741833 0
+D1
+~
+~
+0 -1 9891
+D3
+~
+~
+0 -1 9848
+S
+
+#9850
+L'atrio della Dragon Export~
+Sei in un ufficio molto ordinato, le pareti della stanza, dipinte con
+le calde sfumature del giallo oro, sono abbellite con alcuni dipinti
+ad est, mentre ad ovest un enorme quadro occupa tutto il muro.
+Al centro della stanza vedi una scrivania di legno massiccio intarsiata con
+immagini di draghi e cavalieri. Verso nord alcune piante bloccano l'ingresso
+alla parte interna dell'edificio. Alla parete di fronte vedi una placca dorata..
+Sarà il caso di leggerla.
+~
+0 13 3
+D0
+Una porta conduce nel tempio.
+~
+porta~
+39 9825 9851
+D2
+Verso sud vedi Viale della Legge, una delle strade di Darkhaven.
+~
+~
+0 -1 21019
+E
+quadro dipinto~
+Un imponente quadro abbellisce la parete occidentale, coprendo
+la maggior parte della vernice dorata che ricopre i muri.
+Il dipinto è fatto con colori ad olio che donano una luce molto
+particolare all'immagine del dragone raffigurato. La bestia è
+gigantesca, circa quaranta piedi d'altezza per almeno trecento di
+lunghezza, stando alle proporzioni con gli edifici riprodotti a lato
+dell'animale. Ai suoi piedi una moltitudine di uomini e donne si prostra
+in atto d'adorazione, circondando una fanciulla stesa su un altare in
+attesa di ricevere la morte per mano del drago.
+Nell'angolo in basso a destra del quadro, a ridosso della cornice, si leggono
+distintamente alcune parole: "In onore del Culto del Drago".
+~
+E
+pareti muri~
+Le pareti sono verniciate con una simpatica polverina dorata che rende
+l'ambiente molto più luminoso del normale. Sul muro orientale vedi una
+fila di piccoli quadretti mentre su quello occidentale un dipinto
+gigantesco occupa tutta la parete.
+~
+E
+parete muro~
+Le pareti sono verniciate con una simpatica polverina dorata che rende
+l'ambiente molto più luminoso del normale. Sul muro orientale vedi una
+fila di piccoli quadretti mentre su quello occidentale un dipinto
+gigantesco occupa tutta la parete.
+~
+E
+dipinti~
+Alla parete est sono appesi cinque piccoli dipinti ognuno dei quali
+rappresenta un drago ed i suoi antenati: uno occupa la posizione centrale
+gli altri quattro sono intorno a lui. Il drago di mezzo sembra più una sorta
+di grande serpente con le ali, quelli dietro di lui sono di differenti colori.
+Il primo a destra è marrone chiaro adagiato sul limitare di un bosco, a seguire
+un dragone dorato con le ali spalancate di fronte al sole splendente.
+Il successivo ha le scaglie rosso fuoco ed è raffigurato in un circolo
+di alberi dai colori autunnali. L'ultimo dragone è imponente e nero, in
+contrasto con la distesa di neve su cui siede in maniera regale.
+~
+E
+w~
+Un imponente quadro abbellisce la parete occidentale, coprendo
+la maggior parte della vernice dorata che ricopre i muri.
+Il dipinto è fatto con colori ad olio che donano una luce molto
+particolare all'immagine del dragone raffigurato. La bestia è
+gigantesca, circa quaranta piedi d'altezza per almeno trecento di
+lunghezza, stando alle proporzioni con gli edifici riprodotti a lato
+dell'animale. Ai suoi piedi una moltitudine di uomini e donne si prostra
+in atto d'adorazione, circondando una fanciulla stesa su un altare in
+attesa di ricevere la morte per mano del drago.
+Nell'angolo in basso a destra del quadro, a ridosso della cornice, si leggono
+distintamente alcune parole: "In onore del Culto del Drago".
+~
+E
+e~
+Alla parete est sono appesi cinque piccoli dipinti ognuno dei quali
+rappresenta un drago ed i suoi antenati: uno occupa la posizione centrale
+gli altri quattro sono intorno a lui. Il drago di mezzo sembra più una sorta
+di grande serpente con le ali, quelli dietro di lui sono di differenti colori.
+Il primo a destra è marrone chiaro adagiato sul limitare di un bosco, a seguire
+un dragone dorato con le ali spalancate di fronte al sole splendente.
+Il successivo ha le scaglie rosso fuoco ed è raffigurato in un circolo
+di alberi dai colori autunnali. L'ultimo dragone è imponente e nero, in
+contrasto con la distesa di neve su cui siede in maniera regale.
+~
+E
+dipinto~
+Un imponente quadro abbellisce la parete occidentale, coprendo
+la maggior parte della vernice dorata che ricopre i muri.
+Il dipinto è fatto con colori ad olio che donano una luce molto
+particolare all'immagine del dragone raffigurato. La bestia è
+gigantesca, circa quaranta piedi d'altezza per almeno trecento di
+lunghezza, stando alle proporzioni con gli edifici riprodotti a lato
+dell'animale. Ai suoi piedi una moltitudine di uomini e donne si prostra
+in atto d'adorazione, circondando una fanciulla stesa su un altare in
+attesa di ricevere la morte per mano del drago.
+Nell'angolo in basso a destra del quadro, a ridosso della cornice, si leggono
+distintamente alcune parole: "In onore del Culto del Drago"
+~
+E
+piante vasi~
+Su entrambi i lati della porta si trovano delle grandi felci comodamente
+alloggiate in larghi vasi. Il tocco di verde che donano alla stanza
+sdrammatizza la serietà del luogo.
+~
+E
+scrivania~
+E' talmente solida da poter sopravvivere a tutte le ere del mondo.
+Circa sei piedi di lunghezza per tre di altezza, interamente in legno
+di mogano, trattato e rifinito per un bell'effetto finale. D'aspetto
+pesante ed imponente dà l'impressione di essere stata costruita dentro
+questa stanza, dato che le porte son troppo strette per farcela passare.
+~
+E
+placca~
+La Dragon Export ha subito recentemente delle variazioni in sede, in breve
+tempo verranno realizzate nuove sezioni. Fateci sapere cosa pensate delle
+novità e se avete suggerimenti da darci saranno ben accetti!
+~
+S
+
+#9851
+Un corridoio poco illuminato~
+Abituarsi all'oscurità di questo corridoio non è immediato, passano
+alcuni istanti prima di ambientarsi perfettamente alla luce bassa e
+soffusa. Le pareti sono spoglie di colori e decorazioni, nessun dipinto,
+nessun abbellimento di alcun genere. L'assenza di brio pare voluta per
+allontanare eventuali curiosi da questi posti.
+~
+0 13 0
+D0
+Il corridoio prosegue a nord.
+~
+~
+0 -1 9852
+D2
+Una porta conduce nell'area della reception.
+~
+porta~
+3 9825 9850
+S
+
+#9852
+Accesso alla Dragon Export~
+Questo è l'accesso formale per l'ufficio della Dragon Export. La stanza è in
+netto contrasto con l'ingresso che conduce in essa. I muri sono verniciati con un
+colore oro opaco. Il muro orientale ospita due dipinti ed altrettanti sono appesi
+sul  muro occidentale. A nord una porta conduce in un ambiente più luminoso
+A sud un altro ingresso porta verso la reception.
+~
+0 13 0
+D0
+Vedi un ufficio.
+~
+~
+0 -1 9853
+D2
+Vedi un corridoio.
+~
+~
+0 -1 9851
+E
+muri pareti~
+I muri sono abbelliti con dipinti intricati di draghi. Non vedi nessuno dei
+draghi buoni, essi sono tutti draghi perversi famosi, come Tiamat e Shimmergloom.
+~
+E
+dipinti muri~
+Quattro dipinti separati adornano i muri. Due sul muro orientale e due
+su quello occidentale. Tutti quattro che raffigurano draghi malvagi, in diverse
+forme di commemorazione.
+~
+E
+muro parete pareti~
+I muri sono abbelliti con dipinti intricati di draghi. Non vedi nessuno dei
+draghi buoni, essi sono tutti draghi perversi famosi, come Tiamat e Shimmergloom.
+~
+S
+
+#9853
+L'ufficio anteriore~
+Hai raggiunto l'ufficio anteriore della Dragon Export. L'arredamento qui è
+piuttosto sfarzoso paragonato alle parti dell'edificio che hai visto finora. I
+muri mantengono il colore oro delle stanze precedenti, ma qui è nettamente
+più acceso e sfavillante, le mille e mille sfumature di colore quasi ti dà
+il voltastomaco. Vedi un volantino che s'adagia al suolo
+lentamente.
+~
+0 9 0
+D1
+Sulla porta ad est c'è un cartello di divieto di ingresso.
+~
+porta~
+3 -1 9880
+D2
+Vedi l'ingresso.
+~
+~
+0 -1 9852
+D3
+Vedi la sala d'aspetto.
+~
+~
+0 -1 9871
+D5
+Una botola conduce in basso.
+~
+botola~
+3 -1 9854
+E
+volantino foglietto~
+ ____________________________________
+ | C U L T O  D E L  D R A G O N E  |
+ |                                  |
+ |   Aggregati ai discepoli del     |
+ |    sommo culto del Dragone!      |
+ | Il supremo Nero ti offre         |
+ | - Fine dei problemi di           |
+ |     riscaldamento!               |
+ | - Vesti meravigliose tessute     |
+ |    a mano                        |
+ | - Sacrifici settimanali          |
+ | - Una fantastica acconciatura!   |
+ | Ricorda di vota 'NO' alla        |
+ |  proposta n.13 : l'interdizione  |
+ |    del culto del Dragone!        |
+ |       Se la pensi come noi       |
+ |       uccidi il Duca, OGGI!      |
+ |__________________________________|
+
+~
+E
+porta est~
+Sulla porta ad est c'è un cartello di divieto di ingresso.
+~
+S
+
+#9854
+Un'intersezione di corridoi~
+Ti ritrovi in un'intersezione di corridoi. Ci sono uscite a nord, a sud,
+est ed ovest. Sopra puoi vedere il profili di una porta segreta..
+Da sud giunge un'inconsueta luminosità..
+~
+0 9 0
+D0
+Vedi un'uscita.
+~
+~
+0 -1 9856
+D1
+Il corridoio va verso est.
+~
+~
+0 -1 9857
+D2
+Vedi una luce brillante.
+~
+~
+0 -1 9855
+D3
+Vedi un corridoio.
+~
+~
+0 -1 9859
+D4
+Guardi in alto e vedi una botola.
+~
+botola~
+16777219 -1 9853
+S
+
+#9855
+Il sacrario~
+La luce in questo posto è opprimente. Le candele coprono completamente i muri,
+rendendo la sala calda ed eccessivamente luminosa. Una grossa statua di drago
+dorato t'avvisa che hai messo piede in un luogo adibito al culto.
+~
+0 8 0
+D0
+Vedi un'intersezione di corridoi.
+~
+~
+0 -1 9854
+S
+
+#9856
+La stanza degli arazzi~
+I muri di questa stanza  sono coperti con arazzi che rappresentano diverse
+scene di vita dei draghi. Si adattano perfettamente al tema visto lungo tutto
+l'edificio i cinque distinti arazzi: due a nord, due a sud e uno più grande
+sulla parete st. Appena inizi ad osservarli nel dettaglio, t'accorgi che
+la tappezzeria orientale iniziare a spostarsi. Forse questi arazzi non sono
+appesi in maniera sicura..
+~
+0 9 0
+D1
+Un magnifico arazzo copre un'uscita ad est.
+~
+arazzo~
+1027 -1 9886
+D2
+Vedi un'intersezione di corridoi.
+~
+~
+0 -1 9854
+E
+w west ovest~
+I due arazzi sul muro occidentale raffigurano una primavera prematura e
+una scena estiva. La primavera ritrae un drago marrone piccolino, appollaiato su
+un pendio. Gli alberi intorno a lui stanno appena iniziando a sbocciare con nuove
+foglie e l'erba è nuova e di un verde luminoso. Il drago ha lo sguardo fiero,
+ed è abbigliato con un lungo mantello di nobile fattura che ricade morbidamente
+sulle zampe posteriori. I suoi occhi sono di colore arancione e sembrano
+seguire i tuoi movimenti.. Le sue ali sono abbastanza flesse in caso egli abbia
+bisogno di decollare per un volo rapido.
+L'estate è molto diversa dalla prima. Un grande drago d'oro spicca il volo, con
+le ali spiegate di gran lunga più di quanto l'arazzo possa tenere.
+Sullo sfondo è raffigurata la calura estiva, con un immenso sole giallo nel mezzo.
+Sembra caldo e sembra che il drago lo apprezzi enormemente. La sua coda ha
+risvegliato dietro di lui uno scorpione ma il drago lo guarda come se niente
+potesse rompere la sua soddisfazione completa nel volo.
+~
+E
+n north nord~
+I due arazzi sul muro nord rappresentano una scena d'autunno e di
+inverno. L'autunno è il ritratto di un drago rosso enorme sito nel cuore
+di una foresta,circondato da foglie magnifiche dai bellissimi colori rossi sfumati
+di giallo. Si siede sulle gambe posteriori con la coda avvolta intorno ad esse.
+Il suo torace appare gonfiato, come se si mostrasse ancor più grande di quanto non
+sia già. Ispira un gran senso di maestosità.
+L'inverno è realizzato talmente bene che le dita paiono congelarsi al solo sfiorare
+l'arazzo. Immerso nei ghiacci vedi un drago nero, seduto comodamente su una
+scogliera ghiacciata.~
+E
+pareti muri parete~
+Le pareti sono addobbate con dei bellissimi arazzi, puoi guardarli osservando
+le quattro direzioni
+~
+E
+e east est~
+Un grande arazzo copre l'intero muro orientale ritraendo un drago-serpente
+che festeggia con il sacrificio di una vergine. Sembra che la tappezzeria
+protegga un'apertura nel muro.
+~
+S
+
+#9857
+Un corridoio~
+Sei in un piccolo corridoio, che conduce via dalle sezioni più occupate dell'area
+del tempio. I muri sono privi di decorazioni, solo le porte hanno
+qualche parvenza di colore. Una porta conduce ad est e l'altra a nord.
+~
+0 9 0
+D0
+Vedi un piccolo emporio.
+~
+~
+3 -1 9892
+D1
+Vedi una porta.
+~
+porta~
+3 -1 9858
+D3
+Vedi un'intersezione.
+~
+~
+0 -1 9854
+S
+
+#9858
+Il gabinetto~
+Un puzzo orribile assale le narici non appena entri in questa stanza. La
+presenza di feci e urina è intuibile dall'aria irrespirabile.. Sembra venire da
+un unico gabinetto molto usato però l'odore è così intenso che potrebbe
+derivare da numerosi posti all'interno di questa stanza  putrida.
+Per salvare il tuo naso ti fai distrarre dalle opere strane e potentemente
+mistiche appese ai muri..
+~
+0 9 0
+D3
+Vedi una porta.
+~
+porta~
+3 -1 9857
+S
+
+#9859
+Un corridoio~
+Questa parte dell'ingresso è illuminata da un'incandescenza strana che sembra salire
+dal pavimento. E' come se le pietre posseggano una luce interna irradiando da loro
+una flebile luce. Scruti attentamente il pavimento ma non riesci ad individuare
+la sorgente di questa iridescenza.
+~
+0 8 0
+D1
+Vedi un'intersezione di corridoi.
+~
+~
+0 -1 9854
+D3
+Vedi una curva nel corridoio.
+~
+~
+0 -1 9860
+E
+pietra pavimento~
+Le pietre che costituiscono il pavimento brillano di luce propria..
+~
+S
+
+#9860
+Una svolta nel corridoio~
+Hai raggiunto una svolta nel corridoio ed entri in una stanza oscura e cupa,
+pressocché priva di luce e colori. I muri sembrano non aver mai conosciuto l'ordine
+e la pulizia ed il pavimento risente delle migliaia di piedi che l'hanno calpestato
+nei tempi passati.
+~
+0 9 0
+D0
+E' troppo scuro per vedere.
+~
+~
+0 -1 9861
+D1
+Vedi un corridoio.
+~
+~
+0 -1 9859
+S
+
+#9861
+Un luogo di culto~
+In questa oscura stanza i sacerdoti minori celebrano i loro voti per accedere
+alla scalata verso le alte cariche del tempio.
+Sul pavimento rimangono le strutture e i segni dei riti eseguiti; disegnata per terra
+vedi l'immagine di una porta, una botola forse per il cuore del tempio.
+~
+0 9 0
+D0
+Vedi una scalinata.
+~
+~
+0 -1 9894
+D2
+Puoi ancora tornare indietro..
+~
+~
+0 -1 9860
+D5
+Una botola conduce in basso, verso le parti nascoste del tempio.
+~
+botola~
+3 -1 9862
+E
+pavimento~
+A ricordo dei riti precedenti scorgi centinaia di graffiti e segni per terra.
+Il tema principale è quello dei draghi e del sacrificio. L'intero ambiente è
+oscuro e perverso. Vedi una botola nel mezzo della stanza ma ti senti abbastanza
+audace sufficientemente incosciente per scendere?
+~
+E
+botola porta~
+E' una porta di legno massiccio e conduce verso il basso, nel tempio.
+~
+E
+graffiti segni strutture~
+A ricordo dei riti precedenti scorgi centinaia di graffiti e segni per terra.
+Il tema principale è quello dei draghi e del sacrificio. L'intero ambiente è
+oscuro e perverso. Vedi una botola nel mezzo della stanza ma ti senti abbastanza
+audace sufficientemente incosciente per scendere?
+~
+S
+
+#9862
+Una stanza oscura~
+L'oscurità regna sovrana, la luce che hai appresso a stento crea un varco
+attraverso il denso buio. Sopra di te vedi una piccola scala, che conduce
+alla sezione del tempio dei sacerdoti minori. A sud c'è una stanza circolare.
+~
+0 9 0
+D2
+E' troppo buio per vedere alcunché.
+~
+~
+0 -1 9863
+D4
+Vedi una botola.
+~
+botola~
+3 -1 9861
+E
+scaletta~
+La scaletta reggerà al massimo il tuo peso, ma solo quello.
+Conduce di sopra, al tempio dei sacerdoti minori.
+~
+S
+
+#9863
+Il nero circolo~
+Oscuro e denso di nefasti presagi, questo posto di culto è intriso di male..
+I sacerdoti a stento mantengono una forma umana, come se essi stessi trasfigurassero
+in dragoni, talmente intensa è la loro devozione.
+I muri sono macchiati di sangue, la stanza è semicircolare con l'arco perfetto nella
+parete meridionale.
+Nel centro della stanza vi è una tavola lunga e rettangolare, verniciata rosso sangue.
+Sulla tavola c'è una grande pelle, fissata ad ogni angolo per mezzo di cinghie.~
+0 9 0
+D0
+E' troppo buio.
+~
+~
+0 -1 9862
+D1
+Vedi una stanza.
+~
+~
+0 -1 9864
+D3
+Vedi un corridoio.
+~
+~
+16777216 -1 9865
+E
+pareti muri~
+I muri sono ricavati da roccia oscura e cesellata, spogli di decorazioni salvo schizzi di
+sangue essiccati. Il muro meridionale è una mezza luna, dando l'impressione che tutta la
+stanza sia circolare.
+~
+E
+tavola tavolo~
+Questa tavola è abbastanza grande per farci stendere su un uomo adulto..
+Sulla tavola c'è una grande pelle, fissata ad ogni angolo per mezzo di cinghie..
+Decisamente è un tavolaccio per sacrifici..
+~
+E
+muro sud s south~
+I muri sono ricavati da roccia oscura e cesellata, spogli di decorazioni salvo schizzi di
+sangue essiccati. Il muro meridionale è una mezza luna, dando l'impressione che tutta la
+stanza sia circolare.
+~
+S
+
+#9864
+Le stanze dei sacerdoti~
+I sacerdoti del Culto di Drago alloggiano qui. La stanza è molto pulita e ordinata,
+salvo una  grande piastrella sul pavimento con molta sporcizia intorno ai  bordi.
+L'unica uscita è ad ovest.
+~
+0 9 0
+D3
+Vedi il circolo interno.
+~
+~
+0 -1 9863
+D5
+Una scaletta conduce in fondo ad una buca.
+~
+mattonella piastrella~
+16777219 -1 9888
+E
+mattonella piastrella~
+Sembra che sia stata posata su un grosso buco nel pavimento.
+~
+S
+
+#9865
+Il corridoio proibito~
+Un tocco glaciale come il vento d'inverno s'infiltra sotto le tue vesti.
+Odi lontane eco di lamenti soffusi che retrocedono man mano che avanzi lungo
+il corridoio. Una piccola cella s'apre verso nord, ad est ed ovest invece il
+corridoio prosegue.
+~
+0 9 0
+D0
+Vedi la porta della cella.
+~
+cella~
+7 9826 9866
+D1
+Vedi il circolo interno.
+~
+~
+0 -1 9863
+D3
+Non sembra un posto sicuro dove andare.
+~
+~
+0 -1 9867
+S
+
+#9866
+The Virgins' Cell~
+La cella, umida e buia, è il posto dove vengono detenute le giovani vergini
+in attesa d'essere sacrificate al sommo Dragone.
+Le dimensioni della stanza son sufficienti per capire la costrizione d'animo e
+del corpo che devono patire queste povere fanciulle prima della malvagia sorte..
+I muri di malta mostrano graffi e segni e tracce di unghie e sangue.. Qualcuna
+deve avere cercato di scavare una via di fuga per salvarsi, senza riuscirci.
+~
+0 9 0
+D2
+Vedi la porta di una cella.
+~
+cella~
+7 -1 9865
+D4
+Indietro verso la stanza luminosa.
+~
+botola~
+65667 3 9873
+S
+
+#9867
+Un corridoio minaccioso~
+Una sgradevolissima morsa allo stomaco accoglie i tuoi passi in questo
+corridoio, un incipit di panico che freme in ogni cellula dei muscoli..
+Cerca un'uscita al più presto possibile: ad est puoi allontanarti velocemente
+ma se proprio desideri puoi continuare ad ovest.
+~
+0 9 0
+D1
+E' il corridoio che hai appena percorso.
+~
+~
+0 -1 9865
+D3
+La stanza di una sacerdotessa molto potente.
+~
+porta~
+1027 -1 9868
+S
+
+#9868
+La camera della somma sacerdotessa~
+Sei nella camera da letto di Syra, la Somma Sacerdotessa del culto del
+drago. Essere sorpresi in questa stanza significa aver firmato la propria
+condanna a morte... Un letto enorme occupa la parte meridionale della stanza.
+Una soffusa luce di candela illumina l'ambiente, il vacillare delle fiammelle
+dona un po' d'armonia in questo luogo che ha poco brio.. Antiche leggende dicono
+che la sacerdotessa accudisca personalmente i piccoli draghi e che ella stessa
+abbia del sangue draconiano nelle vene..
+~
+0 9 0
+D0
+Un odore tremendo proviene da nord.
+~
+~
+1027 -1 9869
+D1
+Il corridoio proibito era molto meno proibito di ciò che hai davanti..
+~
+porta~
+1027 -1 9867
+E
+letto~
+Questo letto è talmente grosso da ospitare perfino un dragone..
+~
+E
+pareti candele~
+Alle pareti vedi numerose candele riposte ognuna nel proprio portacandela.
+~
+S
+
+#9869
+Un corridoio puzzolente~
+Il puzzo aggredisce i sensi appena entri in questa stanza. Putridi effluvi
+e l'aria consumata ti circondano, facendoti pensare alla morte e al decadimento.
+I tuoi occhi iniziano ad accettare l'oscurità della stanza, tuttavia lacrimano
+in risposta all'odore terribile. Lungo i muri sono i resti scheletrici di figure
+antropomorfe, posti in posizioni eccentriche. Un singolo altare troneggia nel mezzo
+della stanza, coperto da un liquido essicato che supponi fosse un tempo del sangue.
+Scappa da questo posto raccapricciante! Ci sono due porte che conducono via da
+questa stanza, a sud ed una larga porta a nord.
+~
+0 9 0
+D0
+Una pesante porta d'acciaio.
+~
+porta~
+1031 9827 9870
+D2
+Vedi la stanza della Gran Sacerdotessa.
+~
+~
+1027 -1 9868
+S
+
+#9870
+La camera del grande Serpente~
+Ti senti addosso gli occhi di qualcuno che ti fissa non appena metti piedi qua
+dentro. Tutt'intorno è un gran silenzio, a tratti interrotto dal respiro profondo
+di una grande  bestia.
+Nell'angolo a nord  intravedi una creatura enorme che ti osserva come se fosse appena
+giunto il suo pasto.. Poi ti accorgi anche delle ossa rosicchiate e delle alte pile
+di sterco.. Un brivido percorre la schiena, forse è il caso di fuggire alla svelta.~
+0 9 0
+D2
+Una pesante porta d'acciaio, studiata per contenere le ire del Serpente.
+~
+porta~
+3 9826 9869
+S
+
+#9871
+Una sala d'attesa~
+Questa stanza è piena di sedie, tavoli e piattini da caffè. Puoi sederti e
+riposare qui fino al tuo appuntamento. L'ufficio ha molti dipendenti, che svolgono
+ognuno la propria mansione. L'ufficio anteriore è ad est, il Drago d'Asporto e
+gli uffici principali sono a nord.
+~
+0 9 0
+D0
+Da qui si avanza nell'edificio.
+~
+~
+0 -1 9872
+D1
+Vedi l'ufficio frontale.
+~
+~
+0 -1 9853
+D3
+Vedi un alone malvagio..
+~
+porta~
+3 -1 9873
+S
+
+#9872
+Il salone centrale~
+Questa  stanza è tutta un trambusto di dipendenti e visitatori della
+Dragon Export. C'è molto transito da un ufficio all'altro, dato che questo
+è l'ingresso principale. Ad ovest vedi il Drago d'Asporto, il negozio dove i frutti
+del loro lavoro sono venduti. A nord c'è l'ufficio di Deakin, la
+coordinatrice delle esportazioni sebbene di solito corre sempre per ogni dove.
+Ad est vedi il laboratorio principale, dove vengono preparate le creazioni da fornire al
+negozio. Sono affari di esportazione molto fiorenti nonostante tutti i
+tentativi di rimanere inosservati fra la popolazione Darkhaven.
+~
+0 9 0
+D0
+Vedi un ingresso all'ufficio.
+~
+~
+0 -1 9874
+D1
+Vedi il laboratorio.
+~
+~
+0 -1 9878
+D2
+Vedi una saletta d'aspetto.
+~
+~
+0 -1 9871
+D3
+Il negozio del Dragone d'Asporto.
+~
+~
+0 -1 9879
+S
+
+#9873
+Una strana stanzetta luminescente..~
+Le ante della porta si chiudono lasciandoti in piedi in questa
+stanza piccola, stretta e ardente.. non sembra esserci un modo per uscire
+così presto o tardi finirai sul pavimento come il tappeto che lo ricopre..
+~
+0 9 0
+D1
+~
+porta~
+2100271 9850 9871
+D5
+Un'oscura stanzina..
+~
+botola~
+3 -1 9866
+E
+tappeto~
+Stranamente non è inchiodato né fissato..
+Forse nasconde un segreto qua sotto..?
+~
+E
+sotto basso~
+Esatto, avevi ragione.. c'è una botola nascosta
+~
+E
+pavimento~
+E' coperto da un tappeto ma stranamente non è inchiodato né fissato..
+Forse nasconde un segreto qua sotto..?
+~
+S
+
+#9874
+Un ingresso~
+Vedi un ingresso normale, scevro da qualsiasi addobbo salvo un enorme dipinto
+sul muro orientale. Questa sala vede molto meno traffico rispetto a quello più a sud,
+poiché solo l'ufficio di Deakin e una porta strana possono essere raggiunti
+da questa direzione.
+~
+0 9 0
+D0
+Vedi una scalinata.
+~
+~
+3 -1 9893
+D2
+Vedi l'atrio principale della Dragon Export.
+~
+~
+0 -1 9872
+D3
+Vedi l'ufficio di Deakin ad ovest.
+~
+~
+0 -1 9875
+E
+porta~
+E' una porta di metallo, diversa da tutte le altre che hai incontrato
+sinora e conduce a nord.
+~
+E
+dipinto est east parete~
+E' un grande dipinto di un drago dal corpo oblungo praticamente un serpente
+immenso con ali molto spesse e la testa appuntita. Ha un aspetto feroce e pericoloso
+anche attraverso questo ritratto.
+~
+S
+
+#9875
+L'ufficio di Deakin~
+Questo ufficio è molto pulito, quasi troppo pulito per la quantità di lavoro che
+Deakin s'accolla. Le pareti sono verniciate color bianco spento e gli stipiti delle
+porte e le finestre sono di marrone scuro. Entrambe le finestre sono sul muro
+occidentale, rivolte verso un viale di Darkhaven. Una scrivania è sistemata
+direttamente sotto una delle finestre, permettendo alla persona che si siede
+là di guardare in modo fisso la città e trarne ispirazione per il proprio lavoro.
+Le finestre aggiungono sicuramente una gran luminosità alla stanza, cancellando
+la sfumatura di oscurità e male provati per tutto il resto dell'edificio.
+~
+0 9 0
+D1
+Vedi un ingresso dell'ufficio.
+~
+~
+0 -1 9874
+E
+finestra finestre~
+Si può osservare da qui le persone che passano nel viale cittadino sottostante,
+con il vantaggio di non essere notati..
+~
+E
+muri pareti west western w~
+I muri qui sono verniciati con un bianco spento e le finestre hanno la cornice in
+marrone scuro. Sotto una delle due finestre è posta una grande scrivania.
+Guardi fuori dalle finestre e vedi uno dei viali di Darkhaven.
+~
+E
+scrivania~
+E' una scrivania media, ordinata e libera dalla consueta confusione che regna
+negli uffici.
+~
+S
+
+#9876
+L'ufficio di Thirkem~
+L'ufficio di Thirkem è l'acme dello scompiglio. Disseminati sulla scrivania
+vedi pergamene, portacenere e tazze di  caffè. Come riesca a lavorare in mezzo
+a cotanta confusione davvero sorprende. In effetti, dall'aspetto delle cose, dubiti
+che egli realmente lavori in quest'ufficio. A sud puoi vedere il laboratorio
+artigianale e sentire il vociare degli addetti ai lavori.
+~
+0 9 0
+D2
+Vedi un grande emporio in questa direzione.
+~
+~
+0 -1 9878
+E
+scrivania~
+Questa scrivania è rovinata, macchiata e rigata. Stupisce che
+qualsiasi lavoro debba essere fatto tra la spazzatura.
+~
+S
+
+#9877
+Una piccola stanzetta~
+In questa stanza ci sono molte meno attività rispetto agli altri uffici.
+Thirkem preferisce che i suoi dipendenti interrompano i lavori trascorrendo un po'
+di tempo qui, piuttosto che girovagare per i corridoi chiacchierando con
+il primo che incontrano. Per la pausa pranzo i dipendenti s'allontanano dall'edificio
+onde evitare il malumore del loro onnipresente capo.
+~
+0 9 0
+D2
+La dispensa.
+~
+~
+0 -1 9882
+S
+
+#9878
+Un ampio laboratorio~
+Questa stanza, sebbene stranamente arredata, è ben equipaggiata per creare
+gli articoli venduti al negozio. L'intero muro meridionale è occupato da banchi
+e sgabelli, suddivisi in sezioni di lavoro da corte separazioni in legno.
+Appena guardi verso nord, ti rendt conto che il capo ha progettato
+il laboratorio artigianale direttamente a sud del suo ufficio, così può
+controllare i progressi dei lavori senza lasciare la  sua scrivania.
+Ad est si va per il magazzino.
+~
+0 9 0
+D0
+A nord vedi l'ufficio di Thirkem.
+~
+~
+0 -1 9876
+D1
+Il magazzino.
+~
+~
+0 -1 9882
+D3
+Ad ovest c'è il grande atrio della Dragon Export.
+~
+~
+0 -1 9872
+E
+tavoli tavolo bancone lavoro~
+Questo è un lungo tavolo da lavoro, alto circa quattro piedi, diviso in numerose
+stazioni di lavoro. Non è decorato ma sembra molto solido e affidabile per
+sopportare numerosi anni di attività.
+~
+S
+
+#9879
+Il Dragone d'asporto~
+Sembra che questo negozio sia il punto centrale di questa organizzazione. Un
+posto per vendere gli articoli fatti a mano nei laboratori collegati. Tutti gli
+articoli sono relativi ai draghi, nella forma o per gli incantesimi che racchiudono
+in sé. Ci sono quattro scaffali separati collegati al muro posteriore.
+Le uniche suppellettili sono un bancone e uno sgabello alto per il negoziante.
+Il grosso banco è ingombrato da numerose pergamene affastellate a casaccio.
+~
+0 3145737 0
+D1
+Vedi l'ingresso dell'ufficio.
+~
+~
+0 -1 9872
+E
+scaffale scaffali~
+Ci sono quattro scaffali qui, ognuno caricato pesantemente con articoli relativi
+ai dragoni. Ogni ripiano è dedicato ad un particolare colore di drago. Il primo
+ripiano  ospita molte figure di drago intagliate in lunghi bastoni  marroni. Lo scaffale
+successivo ha numerosi tipi di statuine di drago d'oro, per ogni tributo
+silenzioso alla bestia che essi rappresentano. Il terzo è pieno di bacchette rosse,
+con impugnature incise nella forma di un drago.
+L'ultimo scaffale è pieno di pozioni nere, tenute in fiaschi magici dalle sembianze
+di drago. Sicuramente i draghi sono oggetto di culto.. I tributi a queste  bestie
+sono venduti soltanto.
+~
+E
+bancone banco~
+Questo bancone non ha niente di estroso, ma perlomeno è solido e bene utilizzato.
+Il legno è di quercia, costruito per durare per tutti i molti anni di servizio.
+La superficie è macchiata da anelli liquidi, probabilmente il ricordo delle tazze di
+caffè che ancora vi albergano. Alcuni pezzi di pergamena sono accastati nel mezzo
+del bancone alla rinfusa.
+~
+E
+sgabello~
+Questo sgabello sembra instabile. Non è consigliabile testarlo come poltroncina..
+Vien pure paura di respirare nel timore che l'alito sia un uragano dirompente per
+quelle quattro zampette storte del sedile.
+~
+S
+
+#9880
+La porta di servizio~
+Questo ingresso è utilizzato dai dipendenti per evitare le parti più affollate
+dell'edificio. È spoglio d qualsiasi decorazione, tranne lo stesso colore di oro opaco
+dei muri della sala di entrata e dell'ufficio anteriore. Ancora una volta è sorprendente
+trovare gli avvisi di cautela sulle porte che conducono qui dato che niente di
+pericoloso pare aggirarsi per questi corridoi. L'ingresso prosegue verso nord
+ad ovest un'altra porta conduce all'ufficio anteriore.
+~
+0 9 0
+D0
+La fine del corridoio.
+~
+~
+0 -1 9881
+D3
+Vedi una porta che conduce davanti all'ufficio.
+~
+porta~
+3 -1 9853
+S
+
+#9881
+La fine del corridoio~
+L'ingresso è completamente spoglio di decorazioni. Non si comprende bene la ragione degli
+avvisi di cautela sulle porte che conducono qui. L'ingresso continua a sud, ad ovest vedi
+un'altra porta. A nord vedi una porta ancora, stavolta è chiusa.
+~
+0 13 0
+D0
+Per di lì c'è una stanza talmente buia che non se ne vede nemmeno il pavimento.
+~
+porta~
+3 -1 9887
+D2
+L'inizio del corridoio.
+~
+~
+0 -1 9880
+D3
+Vedi una porta.
+~
+porta~
+3 -1 9882
+E
+porta~
+A nord vedi un cartello appeso ad una porta: Privato -- Non entrare!
+~
+S
+
+#9882
+Il magazzino~
+Questa stanza è addobbata con numerosi ripiani che ospitano le materie prime
+utilizzate  nella creazione degli artefatti dell'ufficio Esportazioni  Molti tipi  di
+legni, erbe, liquidi e argille sono riposti sugli scaffali. Trovi anche alcuni
+articoli che non avevi mai visto prima e non hai molto desiderio di toccarli.
+A nord si trova la stanza di riposo dei dipendenti, ad est vedi una porta chiusa.
+Oppure puoi recarti ad ovest verso il negozietto.
+~
+0 9 0
+D0
+Vedi il salottino del dopo-lavoro..
+~
+~
+0 -1 9877
+D1
+Un cartello è appeso alla porta: Non entrare.
+~
+porta~
+3 -1 9881
+D3
+Vedi l'interno dell'ufficio.
+~
+~
+0 -1 9878
+E
+porta est~
+Ad est vedi un cartello appeso ad una porta: Privato -- Non entrare!
+~
+S
+
+#9883
+Il labirinto~
+Ti ritrovi in fondo ad una lunga ed oscura galleria, più di cinquanta piedi
+in altezza ti separano dagli affari di esportazione del Culto del Drago.  Come
+scruti nella stanza, diventa evidente che questi affari sono in realtà delle farse.
+Inizi a chiederti cosa nascondono per giungere a tali estremi nel camuffare il loro
+vero scopo. Ad ovest c'è una porta che offre la possibilità di scoprire quali segreti
+sian celati da queste pareti..
+~
+0 9 0
+D3
+Vedi una grossa porta di ferro arrugginita.
+~
+door~
+39 9893 9884
+S
+
+#9884
+La camera delle torture~
+Tutte le specie di orribili dispositivi di morte, strumenti di dolore, sono
+sparsi nella stanza. Un cadavere si decompone in un angolo della sala, oltre
+a quello, nella sala delle torture rimangono solo il dolore e la paura dei
+poveri malcapitati. Desideri andare via da qui rapidamente e senza danni..
+Ci sono due uscite una a nord ed una ad est ma entrambe sono bloccate!
+Dovrai trovare la chiave.
+~
+0 3145737 0
+D0
+~
+segreta~
+1063 9837 9886
+D1
+Vedi una grossa porta di ferro arrugginita.
+~
+door~
+1063 9837 9883
+> death_prog 100~
+if name($n) == Wilam torturer
+  mpoload 9837 1
+  drop key
+endif
+~
+|
+S
+
+#9885
+Scivolando nel tunnel~
+Stai proprio cadendo.. In qualche modo riesci ad arrestare la caduta a circa
+metà strada dalla fine del tunnel. Guardi verso l'alto dove eri prima e
+ti rendi conto d'aver fatto un volo di venticinque piedi.
+Entrambe le uscite sono equidistanti.. vuoi cadere per altri venticinque piedi
+o preferisci arrancare fino all'imbocco lassù? Non c'è molta scelta..
+~
+0 3153929 0
+D4
+~
+~
+65664 -1 9887
+D5
+Il tunnel termina in un oscuro labirinto.
+~
+~
+0 -1 9883
+S
+
+#9886
+Un passaggio segreto~
+Sei in un passaggio scuro e umido, pieno di ragni e rispettive ragnatele
+tutto intorno. A parte le numerose svolte, sembra proprio una via d'uscita.
+Ad ovest vedi la parte posteriore di un arazzo enorme che nasconde questo
+passaggio da coloro che potrebbe accedere dalla stanza. Inoltre
+noti alcune rigature sul pavimento, prima della parete pannellata a sud, come se
+qualcosa di pesante fosse stato trascinato attraverso la crepa fra la parete ed il pavimento.
+~
+0 13 0
+D2
+Appena sposti un pannelli scorgi una camera nascosta.
+~
+parete pannelli~
+1059 9886 9884
+D3
+Vedi la stanza dall'arazzo.
+~
+arazzo~
+1027 -1 9856
+E
+muro pannelli parete~
+La parete coperta da pannelli in legno, sembra stranamente fuori posto qui, come
+esso se servisse più da travestimento che non da decorazione. Mentre
+osservi più da vicino, vedi una piccola maniglia, forse c'è una porta nascosta?
+~
+E
+arazzo tappezzeria~
+I colori su questa tappezzeria sono opachi e frammentari.
+L'immagine sulla parte anteriore è indistinguibile da qui ma puoi
+spostare l'arazzo e passare nella stanza seguente.
+~
+S
+
+#9887
+Un cunicolo~
+Questo assomiglia ad un grande condotto d'areazione, che conduce dalle
+profondità della terra fin sulla tua testa.
+Guardando in alto, puoi vedere la  galleria stringersi fino a ridursi ad uno stretto
+cunicolo. Sotto, la galleria scompare in un'oscurità senza fondo. Continuare
+ulteriormente verso il basso sarebbe un esotico flirt con la morte. L'odore già
+avvisa.. si tratta di miasmi di morte e di deperimento.
+Qualunque creatura abiti laggiù non gradirà presenze estranee, forse
+dovresti dirigere i tuoi passi indietro al hallway al sud.
+~
+0 16777225 0
+D2
+Il tunnel scende verso la densa oscurità.
+~
+~
+3 -1 9881
+D5
+Il tunnel prosegue verso il basso.
+~
+~
+0 -1 9885
+S
+
+#9888
+Sprofondando nella buca~
+Dalla terra traspira un'energia malevola, nell'oscurità si distinguono
+a malapena alcuni lumi lontani. La scaletta procede dal quartiere dei
+sacerdoti verso l'interno del Tempio, i gradini sono solidi e resistenti
+ma l'ambiente non è affatto accogliente.
+~
+0 9 0
+D4
+Sopra di te vedi le stanze dei sacerdoti.
+~
+porta trappola~
+3 -1 9864
+D5
+Le scale a chiocciola scendono verso il basso.
+~
+~
+0 -1 9889
+S
+
+#9889
+Un pianerottolo illuminato~
+Hai raggiunto il pianerottolo, ad est vedi una piccola porta che conduce
+lontano dalla tromba delle scale. Nel mezzo del pavimento scorgi uno
+stretto passaggio per il fondo della buca.. S'intravede del movimento
+laggiù ma non è altrettanto chiara la causa di tutti questi rumorini.
+Preferisci scendere a controllare di che si tratta, avventurarti nella
+porta ad est o tornare in luoghi più sicuri salendo le scale?
+~
+0 9 0
+D1
+Ad est vedi la porta di un'alcova, un'oasi di luce nel mare buio dei corridoi.
+~
+porta~
+3 -1 9890
+D4
+La scala conduce verso l'alto, nelle stanze private dei sacerdoti.
+~
+~
+0 -1 9888
+D5
+Sotto di te vedi il fondo della buca.
+~
+~
+0 -1 9891
+S
+
+#9890
+Uno stanzino~
+E' uno sgabuzzino buio, probabilmente viene usato come spogliatoio.
+In un angolo vedi un catino per la toeletta personale entro il quale
+stilla un rivolo d'acqua da un rubinetto, è un luogo tranquillo per farsi
+un bagno. Alla parete ovest vedi degli appendini.
+~
+0 9 0
+D3
+Ad ovest vedi una scalinata che riporta verso la parte superiore del tempio
+~
+porta~
+3 -1 9889
+E
+muro parete~
+Il muro non presenta particolari rilevanti, l'unica cosa che spezza un po'
+la monotonia della tinta è un insieme di appendini per abiti.
+~
+E
+catino~
+Da un piccolo rubinetto sgorga una cascatella d'acqua fresca invitante..
+Che ne dici di una lavatina?
+~
+S
+
+#9891
+Nella buca~
+Un armoniosa cornice di cadaveri in decomposizione ti tiene compagnia
+in questa buca puzzolente. Un brivido freddo ti percorre la schiena, una
+spiacevole sensazione di magnificenza ti apre gli occhi sul posto nel quale
+ti trovi.. E' la dimora di Adrathom, uno dei più potenti Lich, ed egli non
+appare felice di vederti qui.
+~
+0 9 0
+D4
+E' troppo buio per vedere.
+~
+~
+0 -1 9889
+S
+
+#9892
+Dolci draconiani~
+Questa stanzina è il luogo dove i seguaci del culto comprano e vendono
+i loro dolcetti. Ogni caramella contiene un intruglio di ingredienti magici
+noti solo ai loro fabbricatori. Fai attenzione a quel che mangi, il localino
+è coperto da due dita di polvere e da altrettante il proprietario del negozio!
+~
+0 13 0
+D2
+Vedi il corridoio.
+~
+~
+3 -1 9857
+S
+
+#9893
+In cima alle scale.~
+Le scale scendono verso il basso, addentrandosi in un'oscurità tutt'altro
+che accogliente, anche le allegre colorate pareti degli uffici lasciano
+il posto ad altrettanti muri di una deprimente tonalità grigio-verde.
+Qualunque forma di vita si trovi in fondo alle scale.. non ispira certo
+una gran voglia di scambi interculturali..
+~
+0 13 0
+D2
+Vedi l'ingresso dell'ufficio.
+~
+~
+3 -1 9874
+D5
+Vedi il fondo delle scale.
+~
+~
+0 -1 9894
+S
+
+#9894
+In fondo alle scale~
+Ti ritrovi in fondo alle scale con una domanda.. Perché sono qui?
+L'oscurità è talmente densa che si potrebbe quasi percepirla fra le
+dita e il risultato di questo intenso buiore è una terribile oppressione.
+Le fredde, umide mura sembrano stringersi intorno a te in un soffocante
+abbraccio mentre nelle orecchie ti risuonano i canti lontani provenienti
+da sud.
+~
+0 13 0
+D2
+E' tutto troppo offuscato, non si distinguono particolari rilevanti.
+~
+~
+0 -1 9861
+D4
+Intravedi la cima delle scale.
+~
+~
+0 -1 9893
+S
+
+#9895
+Una fossa profonda~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9811
+D1
+~
+~
+0 -1 9896
+D2
+~
+~
+0 -1 9829
+S
+
+#9896
+La buca del fuoco~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9898
+D1
+~
+~
+0 -1 9897
+D3
+~
+~
+0 -1 9895
+S
+
+#9897
+Il cunicolo più profondo~
+~
+0 1073741833 0
+D0
+~
+~
+0 -1 9817
+D2
+~
+~
+0 -1 9823
+D3
+~
+~
+0 -1 9896
+S
+
+#9898
+La via verso le miniere~
+~
+0 9 0
+D2
+~
+~
+0 -1 9896
+D4
+~
+~
+0 -1 9899
+S
+
+#9899
+Il passaggio della servitù~
+~
+0 9 0
+D2
+~
+~
+0 -1 9890
+D5
+~
+~
+0 -1 9898
+S
+
+#0
+
+
+#RESETS
+D 0 9812 1 1
+D 0 9813 3 1
+D 0 9814 1 1
+D 0 9815 3 1
+D 0 9818 2 1
+D 0 9819 0 1
+D 0 9820 2 1
+D 0 9821 0 1
+D 0 9823 3 1
+D 0 9824 1 1
+D 0 9824 3 1
+D 0 9825 1 1
+D 0 9826 3 1
+D 0 9827 1 1
+D 0 9830 0 1
+D 0 9830 2 1
+D 0 9831 2 1
+D 0 9832 0 1
+D 0 9833 2 1
+M 0 9802 4 9849
+E 1 9832 6 16
+E 1 9852 4 3
+M 0 9800 1 9850
+D 0 9850 0 2
+D 0 9851 2 1
+M 0 9809 1 9853
+E 1 9838 2 7
+E 1 9864 2 16
+D 0 9853 1 1
+D 0 9853 5 1
+M 0 9802 4 9854
+E 1 9832 6 16
+E 1 9835 4 5
+D 0 9854 4 1
+M 0 9801 7 9855
+E 1 9830 8 5
+O 1 9855 1 9855
+M 0 9801 7 9856
+E 1 9830 8 5
+E 1 9833 6 16
+M 0 9801 7 9856
+E 1 9830 8 5
+E 1 9833 6 16
+D 0 9856 1 1
+D 0 9857 0 1
+D 0 9857 1 1
+M 0 9807 1 9858
+D 0 9858 3 1
+M 0 9801 7 9860
+E 1 9830 8 5
+E 1 9833 6 16
+M 0 9801 7 9860
+E 1 9830 8 5
+E 1 9833 6 16
+M 0 9801 7 9860
+E 1 9830 8 5
+E 1 9833 6 16
+M 0 9802 4 9861
+E 1 9832 6 16
+E 1 9852 4 3
+M 0 9801 7 9861
+E 1 9830 8 5
+D 0 9861 5 1
+D 0 9862 4 1
+M 0 9863 2 9863
+E 1 9835 4 3
+E 1 9832 6 16
+M 0 9863 2 9863
+E 1 9835 4 3
+E 1 9832 6 16
+M 0 9802 4 9864
+E 1 9852 4 3
+D 0 9864 5 1
+M 0 9803 1 9865
+G 1 9826 1
+E 1 9828 1 16
+E 1 9829 1 6
+D 0 9865 0 2
+M 0 9805 1 9866
+E 1 9836 1 5
+D 0 9866 2 2
+D 0 9866 4 1
+D 0 9867 3 1
+M 0 9804 1 9868
+G 1 9827 1
+E 1 9834 1 5
+D 0 9868 0 1
+D 0 9868 1 1
+D 0 9869 0 2
+D 0 9869 2 1
+M 0 9806 1 9870
+D 0 9870 2 1
+D 0 9871 3 1
+M 0 9811 1 9872
+D 0 9873 1 2
+D 0 9873 5 1
+D 0 9874 0 1
+M 0 9812 1 9876
+M 0 9814 1 9879
+G 1 9860 1
+G 1 9861 1
+G 1 9862 1
+G 1 9863 1
+D 0 9880 3 1
+D 0 9881 0 1
+D 0 9881 3 1
+M 0 9810 1 9882
+D 0 9882 1 1
+M 0 9815 1 9883
+D 0 9883 3 2
+M 0 9813 1 9884
+G 1 9837 1
+D 0 9884 0 2
+D 0 9884 1 2
+D 0 9886 2 1
+D 0 9886 3 1
+D 0 9887 2 1
+D 0 9888 4 1
+D 0 9889 1 1
+D 0 9890 3 1
+M 0 9816 1 9891
+M 0 9817 1 9892
+G 1 9892 3
+G 1 9842 1
+G 1 9843 1
+G 1 9844 1
+G 1 9845 1
+G 1 9846 1
+G 1 9847 1
+G 1 9848 1
+D 0 9892 2 1
+D 0 9893 2 1
+S
+
+
+#SHOPS
+9814   0  0  0  0  0   120  90   0 23    ; Jerint
+9817  26  0  0  0  0   205 200   0 23    ; G'narish
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  9804 spec_cast_mage
+M  9806 spec_thief
+M  9809 spec_thief
+M  9814 spec_cast_cleric
+M  9817 spec_fido
+S
+
+
+#END

@@ -1,0 +1,34 @@
+#RACE
+RaceNumber     RACE_HALFOGRE
+NameMale       Mezzogre~
+NameFema       Mezzogre~
+Color          AT_RED firebrick 3~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       10   0  15   -10  0   0   -15  0   0    0   0   0   -5  -10   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus       0     0     0     0    0     0
+PointLimit     7 2 -4 1
+Affected       AFFECT_INFRARED~
+Resist         RIS_PIERCE~
+Suscept        ~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_OGRE~
+*
+LangLearnable  ~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        92
+Height         175
+Weight         73,000
+TonalitySound  voce gutturale~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

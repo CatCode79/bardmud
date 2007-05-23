@@ -1,0 +1,4649 @@
+#AREA
+Name         Rymil~
+Author       Cleyot~
+Color        AT_LCYAN azzurro~
+Flags        AREAFLAG_WEIGHTHEIGHT AREAFLAG_CITY~
+LevelRange   10 50
+ResetMsg1    Melodiosi canti elfici giungono alle mie orecchie.~
+Vnums        10800 10950
+End
+
+
+#MOBILES
+#10800
+soldato legionario elfo~
+un soldato elfico~
+Un elfo in armatura scintillante ti osserva serio.
+~
+Il suo torso è cinto da una corazza di uno strano metallo dorato, ornato
+da spirali e motivi grotteschi e chiusa da cinghie di cuoio, da sotto di
+essa vedi spuntare una corta tunica celeste che arriva sino a metà coscia.
+Le gambe sono protette da solidi schinieri dello stesso metallo della
+corazza, rifiniti come il resto dell'armatura. Porta con sé, al fianco, una
+lunga spada elfica ma è privo di scudo. Lo sguardo luminoso ti osserva,
+l'elmo crestato gli copre guance e naso, lasciandoti intravedere solo gli
+occhi e le labbra.
+~
+65 41472 1000 C
+45 0 -165 25d10+3000 8d4+16
+50 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 185 79568 0 0 1
+5 2 2047 10 0 1 0 0
+#10801
+fabbro giovane~
+un giovane fabbro~
+Un bel ragazzo elfico, a torso nudo, ti viene incontro sorridendo.
+~
+Questo ragazzo è incaricato di mostrarti la merce disponibile al
+pubblico in questo negozio. Ti sorride dolcemente illustrandoti con modi
+garbati e precisi gli oggetti che potrebbero interessarti. Ha un fisico
+decisamente scolpito dal suo duro lavoro, che sembra non pesargli affatto
+(anche grazie agli aiuti della magia) ed il suo volto è sicuro e deciso.
+Noti però un grosso martello sospeso alla sua cinta.
+~
+67 33280 1000 C
+30 0 -90 6d12+853 4d6+8
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 22 182 81596 0 0 2
+6 3 2047 18 0 1 0 0
+#10802
+armaiolo~
+un armaiolo~
+Un ragazzo elfico intento a forgiare una spada solleva lo sguardo e ti sorride.
+~
+Questo ragazzo è incaricato di mostrarti la merce disponibile al pubblico in
+questo negozio. Ti sorride mentre posa il pesante martello e ti si avvicina
+per illustrarti, con modi garbati e precisi, gli oggetti che potrebbero
+interessarti. Ha un fisico scolpito dal suo duro lavoro, un volto deciso e
+sicuro.
+~
+67 33280 1000 C
+30 0 -90 6d12+853 4d6+8
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 22 181 80584 0 0 2
+6 3 2047 34 0 1 0 0
+#10803
+funzionario elfo~
+un funzionario~
+Un funzionario delle Provvisioni Generali è qui, dietro ad un bancone.
+~
+Vestito in una corta tunica color crema, stretta in vita da una cinta di
+cuoio, ti osserva attentamente prima di porgerti un registro che attesta la
+tua identità ed il valore degli oggetti che intendi prelevare. Sembra
+essere abituato a vedere gente di tutti i tipi e non si scompone
+minimamente nel vederti arrivare.
+~
+67 33280 1000 C
+30 0 -90 6d12+853 4d6+8
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 22 179 70088 0 0 1
+4 2 2047 2048 0 1024 0 0
+#10804
+leandrelle elfa~
+Leandrelle~
+Leandrelle, la padrona dell'istituto, ti sorride benevola.
+~
+Lunghi e scintillanti capelli biondi affiancano il delicato volto dalle
+labbra rosate e gli occhi verdi. Sorride dolcemente verso di te, ma dal suo
+sguardo comprendi che sta riflettendo sul modo con il quale renderti migliore.
+~
+67 33280 1000 C
+30 0 -90 6d12+853 4d6+8
+1000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 20 175 63598 0 0 1
+2 1 2047 2 0 1 0 0
+#10805
+eaden~
+Eaden il banchiere~
+Eaden, il banchiere, ti dà il benvenuto con un sorriso mellifluo.
+~
+Due occhi scurissimi sul volto pallido e scarno. Il corpo magro è
+avvolto in attillate vesti nere ed il suo sorrisetto quasi demoniaco non
+promette nulla di buono.
+~
+-2147483581 41600 0 C
+35 0 -115 10d10+1300 4d7+11
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 180 75599 0 0 3
+7 4 2047 2064 4 1024 0 0
+#10806
+thelindear~
+Thelindear~
+Thelindear il gioielliere solleva lo sguardo dalla sua ultima creazione.
+~
+Veste semplici abiti da lavoro in cuoio, legata alla vita ha una borsa
+contenente gli attrezzi del mestiere. Nonostante il suo aspetto, però, vedi
+trasparire dai suoi grandi occhi scuri la tristezza di secoli di vita,
+appena rischiarati dalla bellezza che dona agli altri.
+~
+67 33280 0 C
+25 0 -65 5d10+550 2d10+7
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 22 182 70110 0 0 2
+6 3 2047 2 0 1 0 0
+> rand_prog 5~
+emote ti sorride gentilmente
+~
+|
+#10807
+allandhir elfo oste~
+Allandhir~
+Allandhir, il proprietario della Taverna, ti dà il benvenuto.
+~
+Sembra poco più di un ragazzo ma noti, dal modo con il quale soppesa i tuoi
+averi, che dev'essere già molto esperto nello spennare i clienti. Indossa
+una semplice tunichetta verde e dei pantaloni di cuoio. Un grembiule di
+lino lo ripara dagli schizzi della cucina.
+~
+67 33280 0 C
+20 0 -40 3d9+333 2d8+5
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 21 179 68599 0 0 1
+5 2 2047 258 0 1 0 0
+> rand_prog 5~
+emote ti accoglie con un caloroso sorriso
+~
+|
+#10808
+crythe libraia~
+Crythe~
+Crythe ti sorride gentilmente accogliendoti nella sua libreria.
+~
+Vestita di una semplice candida tunica, i capelli corvini di quest'elfa
+danno un aspetto intelligente al viso lievemente allungato dal quale spiccano
+grandi verdi occhi a mandorla. Ti indica tutto ciò che potrebbe
+interessarti e ti mostra i libri che puoi comprare. Per gli altri, basterà
+chiederli in prestito e restituirli in seguito, dopo aver registrato ogni cosa
+nel piccolo quadernetto che tiene sottobraccio.
+~
+67 33408 1000 C
+25 0 -65 5d10+550 2d10+7
+1000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 175 66950 0 0 1
+4 1 2047 6 0 8 0 0
+#10809
+magistrato elfo~
+un magistrato~
+Un elfo paludato in una bianca veste orlata di porpora ti osserva attentamente.
+~
+E' paludato in un'ampia tunica bianca, bordata alle maniche ed al termine
+da strisce color porpora che lo identificano inequivocabilmente come un
+appartenente alla Magistratura Imperiale. Non sembra però essere
+eccessivamente arrogante o presuntuoso.
+~
+193 41472 0 C
+40 0 -140 15d10+1850 4d8+13
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 180 74010 0 0 3
+5 2 2047 6 0 1 0 0
+#10810
+sacerdotessa elfa~
+una sacerdotessa~
+Un'elfa ti passa vicino, avviluppata in drappi azzurri.
+~
+Una splendida fanciulla, dai capelli scuri e dagli occhi dorati. Il suo
+volto è gentile ma deciso ed infinitamente dolce. Dalle vesti azzurre e
+dal ciondolo recante il volto di Lynthalie, Dea della Luce, che indossa,
+deduci che si tratta senza dubbio di una sacerdotessa, probabilmente
+appartenente al Capitolo di Rymil.
+~
+65601 33408 1000 C
+37 0 -125 10d10+1500 3d10+12
+50 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 1 176 66588 0 0 1
+3 1 2047 8194 0 1048576 0 0
+#10811
+elfo scuro drow prigioniero~
+un prigioniero elfo scuro~
+Un elfo scuro è qui incatenato.
+~
+Questo elfo scuro è incatenato per i piedi ad una grossa lastra di pietra
+infissa nel terreno. Il cartello su di essa ti informa che è stato catturato
+mentre cercava di penetrare in città e che è stato quindi condannato a morte.
+L'esecuzione è affidata ai giovani elfi in cerca di addestramento. Pertanto,
+gli è stata lasciata soltanto una vecchia spada ed una veste sdrucita.
+Dall'aspetto, non sembra denutrito. Ma la sua fine giungerà, presto o tardi.
+~
+67 33280 -1000 C
+25 0 -65 5d10+550 2d10+7
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 3 178 77114 0 0 1
+3 1 2047 2 0 16 1024 0
+#10812
+ghoul~
+un orrendo ghoul~
+Un orripilante ghoul ti guarda intrappolato in un campo d'energia.
+~
+Intrappolato durante una ricognizione dopo una tempesta del Portale dai Maghi
+dell'Accademia, questo essere ti guarda con occhi colmi di ferocia. I suoi
+denti sono lunghi e affilati e ancora mostrano del sangue dei cadaveri con i
+quali è solito nutrirsi, così come i lunghi artigli, che usa come arma.
+~
+67 0 -1000 C
+20 0 -40 3d9+333 2d8+5
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 7 186 84120 0 0 1
+4 1 2047 2 0 4 0 0
+#10813
+troll~
+un grosso troll~
+Un troll alto almeno tre metri è immobilizzato da grosse catene.
+~
+La pelle squamosa di questa bestia è viscida e ricoperta di un muco
+semitrasparente. Bava giallognola gli cola dai denti (alcuni spezzati) che
+sporgono dalla grossa bocca. Gli occhi ti guardano con ira... o forse è fame...
+~
+67 1073742336 -1000 C
+22 0 -50 5d10+400 4d4+6
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 3 254 485256 0 0 1
+5 1 2047 16 0 128 8 0
+#10814
+agente elfa misteriosa~
+un'elfa misteriosa~
+Un'elfa avvolta in un manto dai colori camaleontici ti fissa freddamente.
+~
+Il suo manto cambia colore al minimo movimento e si intona istantaneamente a
+quello dell'ambiente. I suoi capelli sono estremamente chiari, e gli occhi
+azzurri trasmettono il gelo del ghiaccio. Nonostante ciò la sua bellezza è
+grande ma, più di essa, noti l'affilata daga che le pende al fianco.
+~
+65 107008 0 C
+40 0 -140 15d10+1850 4d8+13
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 175 65852 0 0 1
+5 2 2047 2 0 1 32 0
+#10815
+elfo bardo cantore~
+un bardo~
+Un bardo elfico canta dolcemente con gli occhi socchiusi.
+~
+La sua voce è semplicemente splendida. I dolci suoni della lingua elfica
+emergono in soffuse volute dalle sue labbra, ed i biondi capelli sparsi
+sulle spalle lo rendono simile più ad un essere angelico che una creatura
+terrena. Ti senti completamente preso dalla sua ultraterrena abilità...
+~
+9 33280 0 C
+23 0 -55 5d10+450 3d6+6
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 5 184 77558 0 0 1
+3 1 2047 0 0 0 0 0
+#10816
+maestro elfo~
+un maestro dell'accademia~
+Un elfo in lunga veste nera ti osserva con sguardo severo.
+~
+Costui è uno dei Maestri dell'Accademia di Rymil. Le sue vesti sono nere,
+poichè così come il nero assorbe in sé ogni colore, così la sua mente conosce
+qualsiasi gradazione della Suprema Arte della Magia. Un cordone dorato gli
+stringe la veste alla vita, ed il suo volto severo ti incute timore, più che
+rispetto... Inoltre, non porta nessun simbolo oltre al collare distintivo dei
+Maestri.
+~
+131137 2130668 0 C
+40 0 -140 15d10+1850 4d8+13
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 179 71025 0 0 3
+7 2 2047 1794 0 56 0 0
+#0
+
+#OBJECTS
+#10800
+stele sacra~
+La Sacra Stele~
+Un'alta ed affusolate stele si trova al centro esatto del Circolo~
+~
+12 0 0 0
+0 0 0 0
+158000 0 0
+E
+stele~
+Interamente rivestita in mithril, un globo sovrasta la sua cima
+appuntita, aureolato di una pallida fiammella azzurra. Gli spigoli sono
+taglienti come rasoi e l'intera struttura sembra poter resistere a qualsiasi
+cataclisma. Lungo le quattro facce sono incise da tempo immemorabile lunghe
+teorie di rune, intrecciate le une alle altre in un inestricabile groviglio
+di bellezza e potere. E tuttavia senti, dentro di te, che non è la sola
+magia dei maghi elfici a rendere questo manufatto così bello eppure
+terribile... Senti il bisogno di abbassare gli occhi di fronte ad una presenza
+più grande di qualsiasi cosa tu abbia mai conosciuto..
+~
+#10801
+fontana ~
+Una fontana di marmo~
+Una splendida fontana di marmo bianco si trova al centro esatto del Foro~
+~
+25 0 0 0
+0 0 0 0
+239560 0 0
+E
+fontana~
+Realizzata interamente in bianco marmo, ha forma circolare. All'interno
+dell'incavo, si trovano tre sculture raffiguranti rispettivamente lo Stato,
+la Conoscenza e l'Arte, ciascuna posta su un lato della Stele delle Leggi.
+Da ognuna di esse sgorga un fiotto di acqua cristallina che si riversa nella
+vasca principale secondo percorsi esili ed eleganti. Lungo il bordo della
+fontana si trova un'incisione in bronzo dorato.
+~
+E
+statua statue~
+Le tre statue sembrano quasi abbracciarsi, e formare una sola entità..
+La raffigurazione è estremamente realistica: ognuna di esse sembra essere
+un'elfa immortalata per sempre nella sua posa migliore. La statua centrale
+raffigura la Comunione degli Elfi: è una dama elfica con un'elaboratissima
+serie di tuniche e veli ricadenti in morbide volute fino ai suoi piedi. Nella
+destra impugna una lunga e delicata spada elfica, realizzata in bronzo dorato,
+mentre nell'altra mano ha una bilancia a due piatti realizzata in oro puro!
+Benchè bellissima, i suoi occhi di diamante ti scrutano severi ed
+implacabili... Alla sua destra, osservi la raffigurazione della Sapienza.
+Una dama con indosso una semplice veste coperta di delicate rune intrecciate
+e dagli occhi dolcissimi di zaffiro. Dai suoi polsi riuniti sgorga l'acqua
+che riempendo le mani messe a coppa, va ad unirsi poi al liquido presente
+nella vasca principale. L'ultima raffigurazione è quella dell'Arte: una
+dama quasi completamente nuda e ridente. Gli occhi di rubino, un espressione
+di gioia pura ed una mano tesa verso un improbabile amore, mentre l'altra
+sorregge le poche vesti che ancora le restano addosso.
+~
+E
+incisione~
+ "In onore di Ekar il Magnanimo che qui mi pose, nell'anno 250 dall'Esodo."
+~
+#10802
+tribuna oratori oratoria~
+La Tribuna Oratoria~
+La Tribuna degli Oratori si erge di qualche passo, affiancata da una piccola scaletta di marmo~
+~
+12 0 0 0
+0 0 0 0
+459850 0 0
+E
+tribuna~
+L'intera struttura è stata realizzata in un solo blocco di raro marmo
+azzurro. Il parapetto arrotondato è bordato da fili d'oro, e le figure
+dei bassorilievi sottostanti (che avvolgono l'intera Tribuna), raffigurano
+ballerini e danzatrici, oltre che scene di caccia, di guerra e di vita
+domestica.
+~
+#10803
+seggi giudici~
+I seggi dei Giudizi~
+Dei seggi in legno scuro dall'alto schienale sono qui.~
+~
+12 256 0 0
+0 0 0 0
+74200 0 0
+E
+seggi~
+Realizzati completamente in legno scuro, i Sette Seggi sono piuttosto
+spogli e disadorni, paragonati all'eleganza del resto della città. Le
+imbottiture, sul sedile e sullo schienale, sono realizzate in stoffa nera,
+inchiodata al legno tramite fermi di bronzo dorato. All'estremità dei loro
+bracci si trovano delle teste di leone, ed artigli di rapace sono i loro
+piedistalli. Al di sopra di ciascuno di essi si trova una statuetta
+rappresentante un'Aquila di platino.
+~
+#10804
+chiave platino~
+Una chiave di platino~
+Una piccola chiave di platino giace qui al suolo~
+~
+18 0 1 0
+0 0 0 0
+35 0 0
+E
+chiave~
+E' interamente costituita di platino. Il pomello ha la forma di
+un'Aquila, realizzata anch'essa in platino, e minutissimi caratteri si
+trovano incisi lungo il fusto: "Rcv"
+~
+#10805
+chiave oro~
+Una chiave d'oro~
+Una piccola chiave dorata giace incustodita al suolo~
+~
+18 0 1 0
+0 0 0 0
+35 0 0
+E
+chiave~
+E' interamente costituita d'oro puro. Il pomello ha la forma di
+un'Aquila, realizzata anch'essa in platino, e minutissimi caratteri si
+trovano incisi lungo il fusto: "Tsr"
+~
+#10806
+armadietti~
+Armadietti~
+Degli armadietti di mogano sono messi qui in bell'ordine, fissati al muro da robusti chiodi~
+~
+15 0 0 0
+10000 0 0 0
+56000 0 0
+E
+armadietti~
+Osservi da vicino uno degli armadietti. E' realizzato in ebano, e sulla
+sua superfice sono realizzati ad intarsio dei gradevoli fiori ed alberi.
+~
+#10807
+vasca piscina~
+Una piscina~
+Una vasca ellittica occupa gran parte del salone~
+~
+12 0 0 0
+0 0 0 0
+356200 0 0
+E
+vasca~
+La piscina è realizzata in marmo nero, e contiene acqua cristallina.
+I leoni alle estremità sono realizzati con la consueta, maniacale, attenzione
+ai dettagli ed alle proporzioni, ed osservi ammirato la grandiosità del
+sistema idrico di queste terme.
+~
+#10808
+triclinio~
+Un triclinio~
+Un triclinio d'avorio, fissato al pavimento da chiodi d'oro~
+~
+12 0 0 0
+0 0 0 0
+115300 0 0
+E
+triclinio~
+ Su di esso si trova un comodo materasso rivestito di bianca seta, e
+soffici cuscini...
+~
+#10809
+trono avorio~
+Il Trono d'Avorio~
+Un trono realizzato completamente in avorio si trova immerso in un cono di luce~
+~
+12 1 0 0
+0 0 0 0
+88560 0 0
+E
+trono~
+Realizzato come da un solo pezzo d'avorio, prelevato da chissà quale scomparso
+animale. Lungo i suoi bordi sono tracciate rune avvolte in pampini
+dorati, e gemme di ogni colore ravvivano le rappresentazioni di fiori ed
+animali. Quattro teste di leoni ruggenti fanno da supporto al seggio, mentre
+dalle braccia sporgono le teste sibilanti di due serpenti
+~
+#10810
+lorica elfica~
+Una lorica a scaglie elfica~
+Un'armatura a scaglie graziosamente ornata giace incustodita al suolo~
+~
+9 9280 9 0
+20 20 0 0
+10520 20000 0
+E
+lorica~
+Il peso di questa armatura è pressocchè inesistente! Ogni dettaglio è
+meravigliosamente rifinito, ed una volta indossata si adatta incredibilmente
+bene al tuo fisico, aderendovi perfettamente. Deliziose decorazioni
+geometriche sono incise sulle piastre pettorali, mentre alcune rune
+tratteggiate sulle scaglie sono poste lungo il bordo della corazza,
+alle maniche ed alla vita
+~
+A
+17 -10
+#10811
+elmo crestato elfico~
+Un elmo crestato~
+Un elmo di foggia elfica è abbandonato al suolo~
+~
+9 9280 17 0
+15 15 0 0
+2120 5000 0
+E
+elmo~
+Ha forma allungata, e copre quasi completamente il viso di chi lo
+indossa. Due aggraziate aperture in forma di foglia consentono di vedere,
+mentre guanciali e nasale tendono gli uni verso gli altri in delicate curve.
+Una cresta in metallo sovrasta l'elmo: reca incise potenti rune, intrecciate
+artisticamente
+~
+A
+0 0
+#10812
+schinieri elfici~
+Degli schinieri elfici~
+Due eleganti schinieri recanti pregevoli raffigurazioni floreali giacciono al suolo~
+~
+9 9280 33 0
+15 15 0 0
+2650 15000 0
+E
+schinieri~
+Lunghi ed aderenti, questi schinieri proteggono gli stinchi aderendovi
+quasi per magia. Legati al polpaccio da cinghioli di cuoio, sono decorati
+con splendidi motivi floreali. Ma la loro bellezza non deve trarre in
+inganno: sono in grado di svolgere il loro compito egregiamente
+~
+A
+2 2
+A
+17 -5
+#10813
+pugnale~
+Un sottile pugnale~
+Un pugnale dall'elsa finemente lavorata è conficcato in terra~
+~
+5 9472 8193 0
+11 4 5 11
+850 10000 0
+E
+pugnale~
+La lama è sottile e leggera, ma affilata come un rasoio. Lungo tutta la
+sua lunghezza, presenta una scanalatura al cui interno sono presenti miriadi
+di minuscoli segni. L'elsa, di bronzo, raffigura due serpenti intrecciati,
+le cui bocche spalancate si fronteggiano, separate solo dal duro metallo
+della lama
+~
+A
+18 5
+A
+19 10
+#10814
+spada lunga elfica~
+Una lunga spada elfica~
+Una splendida spada di foggia esotica giace incustodita al suolo~
+~
+5 9536 8193 0
+11 4 5 3
+1590 10000 0
+E
+spada~
+La lama ha la sagoma di una foglia, sommamente allungata e sottile.
+Minute scanalature corrono sulla sua superficie, intrecciandosi in una
+labirintica decorazione spiraliforme. L'elsa è formata da due ali d'aquila,
+che si richiudono protettive sulla mano e sul polso di chi regge la spada
+~
+A
+13 5
+A
+19 10
+#10815
+arco composito~
+Un arco composito~
+Un arco formato da due corna d'osso unite da un pezzo di legno è abbandonato qui~
+~
+7 9216 8193 0
+11 4 5 0
+1350 10000 0
+E
+arco~
+Due lunghi corni, uniti per mezzo di una solida impugnatura borchiata di
+legno rivestito di cuoio, per permettere la migliore impugnatura possibile.
+La corda è ben tesa. Benchè non molto grande, la peculiarità di questo
+tipo di arco sta nella forza con cui scaglia le frecce, grazie alla maggiore
+resistenza dell'osso, e alla sua grande maneggevolezza, dovuta alle ridotte
+dimensioni. Viene comunemente impiegato, infatti, anche dagli esploratori a
+cavallo dei gruppi di pattuglia Elfici
+~
+A
+13 10
+A
+19 10
+#10816
+corpetto cuoio~
+Un corpetto di cuoio nero, con ricami dorati~
+Un mucchio di cuoio di colore scuro è ammonticchiato a terra~
+~
+9 9216 9 0
+5 5 0 0
+1782 10 0
+E
+corpetto~
+Realizzato in cuoio nero, sapientemente lavorato e rifinito, è un
+oggetto abbastanza economico, ma di indubbia utilità. I ricami disegnano
+slanciate figure geometriche sulla superficie del corpetto, e lungo i bordi
+delle maniche sono poste delle striscioline di cuoio, a protezione parziale
+delle braccia
+~
+#10817
+cinta cintura pelle~
+Una cintura di pelle nera dalla fibbia d'argento~
+Una sottile striscia di pelle giace a terra~
+~
+9 8192 2049 0
+5 5 0 0
+560 10 0
+E
+cintura~
+E' una striscia di cuoio, larga all'incirca tre dita. La fibbia è
+d'argento, molto sottile in verità, e chiude perfettamente la cintura
+attorno alla tua vita
+~
+#10818
+mantello~
+Un mantello blu notte~
+Un lungo mantello dal colletto rialzato è ripiegato in terra~
+~
+9 9280 1025 0
+0 0 0 0
+1640 30 0
+E
+mantello~
+Un comodo ed ampio mantello di ottima fattura. Il tessuto è molto
+resistente, ed il colletto rialzato offre un'ottima protezione dal vento.
+Stranamente, se lo indossi, non senti nè eccessivamente caldo nè
+eccessivamente freddo
+~
+A
+17 -5
+A
+20 -2
+#10819
+collezione profumi~
+Una collezione di profumi~
+Una scatoletta di legno con la runa della bellezza incisa sul coperchio è qui in terra~
+~
+8 8192 1 0
+0 0 0 0
+1250 1000 0
+E
+collezione profumi~
+ La scatola, in legno di cedro, è suddivisa all'interno in tanti scomparti
+cubici nei quali trovano posto una quindicina di boccette. Ciascuna di
+esse ha un'etichetta con su scritta l'essenza profumata che contiene... Ma
+l'aroma che viene dalla scatola è talmente dolce che quasi ti senti mancare
+~
+#10820
+tunica~
+Una raffinata tunica di seta bianca~
+Una tunica bianca di ottima qualità è posata qui~
+~
+9 9280 9 0
+10 10 0 0
+1120 15000 0
+E
+tunica~
+Una tunica bianca, lunga sino a metà coscia, e dai bordi finemente
+rifiniti con ricami d'oro e argento. Piccole pietre preziose sono
+incastonate attorno al colletto e un cordoncino di perle serra la tunica
+intorno alla vita di chi la indossa
+~
+A
+0 0
+A
+12 50
+A
+20 -5
+#10821
+collana perle~
+Una collana di perle con pendente d'oro~
+Una splendida collana di perle giace al suolo~
+~
+8 9217 5 0
+0 0 0 0
+560 20000 0
+E
+collana~
+Esamini accuratamente le perle: sono tutte levigatissime e luminose, dal
+colore latteo e tuttavia rilucenti di miriadi di sfumature quando inclinate
+verso la luce giusta. Un piccolo aggancio d'oro sostiene una perfetta
+riproduzione di un delfino nell'atto di saltare. I suoi occhi sono
+costituiti da due minutissimi coralli indaco
+~
+A
+20 -15
+A
+6 3
+#10822
+braccialetto mithril~
+Un braccialetto di mithril tempestato di ametiste~
+Un braccialetto di un metallo argenteo brilla alla luce~
+~
+9 9217 4097 0
+0 0 0 0
+350 20000 0
+E
+braccialetto~
+Cinque filamenti di mithril intrecciati: quattro ametiste sono disposte
+a croce lungo il percorso degli esili filamenti e splendono di una luce
+sovrannaturale mentre miriadi di frammenti, sempre della stessa gemma, sono
+sparsi lungo tutto il braccialetto. Delicatissime rune vergate in oro sono
+appena intuibili su uno dei filamenti
+~
+E
+rune~
+ Forza e Bellezza, per sempre unite
+~
+A
+1 2
+A
+19 3
+A
+18 2
+#10823
+diadema ~
+Un diadema d'oro~
+Un filamento d'oro circolare è qui in terra~
+~
+9 9217 17 0
+0 0 0 0
+650 2000 0
+E
+diadema~
+Un semplice circolo d'oro, impreziosito da piccoli brillanti in forma di
+stelle. Due diamanti a goccia pendono ai lati, sospesi da sottili fili di
+perle, mentre uno zaffiro intagliato a mezzaluna rovesciata riluce sulla
+parte frontale
+~
+A
+3 2
+A
+12 50
+#10824
+orecchino smeraldo~
+Uno sfolgorante orecchino di smeraldo in forma d'Aquila~
+Un piccolo smeraldo a forma d'aquila riluce nella polvere~
+~
+8 9472 65537 0
+0 0 0 0
+250 15000 0
+E
+orecchino~
+L'orecchino riproduce il simbolo dell'Aquila, stemma dei primi Profeti.
+E' minuziosamente rifinito: riesci persino ad intravedere le singole penne
+delle ali spiegate, e la punta del becco rapace è davvero affilata
+~
+A
+0 0
+A
+17 -10
+#10825
+scudo~
+Uno scudo elfico~
+Un lungo scudo appuntito alla sua estremità inferiore giace qui~
+~
+9 9216 513 0
+10 10 0 0
+1050 20000 0
+E
+scudo~
+La sua forma è molto allungata. E' formato da tre strati di listelli di
+legno, rinforzati però da due sottili lamine di mithril, una interna e
+l'altra esterna. Quella esterna è stata accuratamente levigata, e l'insegna
+di un Pugno vi è raffigurata, avvolta da serti d'alloro: il simbolo dei
+Difensori.
+~
+A
+17 -15
+A
+2 -2
+#10826
+kaeelath volume libro~
+Il Kaeelath~
+Un voluminoso volume vergato in elegante grafia si trova qui~
+~
+8 8192 16385 0
+0 0 0 0
+2420 1000 0
+E
+libro corpus volume~
+Vergato in lettere del linguaggio comune, onde essere diffuso anche presso
+i popoli di altre terre come esempio di suprema raffinatezza nell'arte del
+governo e dell'amministrazione, il Kaeelath è il codice su cui è organizzata
+la vita delle comunità elfiche.
+~
+#10827
+manuale~
+Un manuale di Belle Arti~
+Una serie di tomi, riccamente miniati ed illustrati, giace qui impilata~
+~
+8 8192 16385 0
+0 0 0 0
+5250 1000 0
+E
+manuale~
+I libri, sette in tutto, trattano delle sei Arti definite "Belle",
+poichè non hanno altro fine che la ricerca del bello e della felicità:
+Poesia, Musica, Scultura, Pittura, Racconto, Teatro. Ognuna di esse è
+riccamente sviscerata con consigli pratici per coloro che intedessero
+applicarvisi, corredati spesso da magnifiche illustrazioni esemplificative
+eseguite a colori vividi e netti. Una piccola dedica si trova alla prima
+pagina: "Alla Signora di ogni Bellezza ed alla Fonte di Ogni Sapienza"
+~
+#10828
+minestra~
+Una minestra vegetale~
+Un piatto colmo di una sorta di brodo è avvolto da un delizioso profumino~
+~
+19 8192 16385 0
+5 5 0 0
+120 10 0
+E
+minestra~
+E' composta da moltissime erbe, verdure e frutti, finemente tritati e
+conditi con un po' di olio e sale. Ha un odore decisamente invitante
+~
+#10829
+arrosto~
+Un arrosto di agnello~
+Un grosso, succulento pezzo di carne spande il suo delizioso aroma intorno a sè~
+~
+19 8192 16385 0
+6 24 0 0
+45 20 0
+E
+arrosto~
+Una polposa coscia d'agnello, ben cotta, è rivestita di una deliziosa
+crosticina dorata sulla quale una mano esperta ha sparso ciuffetti di erbe
+aromatiche. Intorno invece, patate bollite ed affettate, condite con un
+semplice filo d'olio ed un po' di sale
+~
+#10830
+coppa vino~
+Una coppa di vino elfico~
+Una coppa colma di inebriante vino novello ti sta di fronte~
+~
+17 8192 16385 0
+10 10 2 0
+350 2 0
+E
+coppa~
+Una semplice, slanciata coppa di legno, priva di qualsiasi decorazione.
+E' colma di un vino rosso come il sangue
+~
+#10831
+calice elyel~
+Un calice di Elyel~
+Un calice colmo di un liquido trasparente si trova qui~
+~
+17 8192 16385 0
+10 10 11 0
+240 20 0
+E
+calice~
+Un calice di vetro, contenente il famoso Elyel. si tratta di un infuso
+d'erbe dalla ricetta rigorosamente segreta. Ha il colore dell'acqua
+di fonte, ma brilla di luminescenze dorate se inclinato verso la luce. Il
+suo sapore è celestiale: scioglie la fatica, rilassa e libera la mente da
+ogni affanno. Una sensazione di tepore ti avvolge anche solo annusandone
+l'incantevole profumo
+~
+#0
+
+#ROOMS
+#10800
+Il Circolo della Luce~
+Il suolo che calpesti è il più sacro dell'intera Rymil. La tua vista giunge
+lontano in ogni direzione e puoi contemplare un magnifico panorama
+della capitale. La città, da questo punto di vista, è letteralmente ai tuoi
+piedi. Qui hanno luogo tutti i riti più solenni e questo spazio è dedicato a
+tutti gli Dei della Luce, ed alla memoria degli Avi periti nell'Esodo.
+Grosse colonne, una per ciascuno di essi, si tendono verso il cielo, ricoperte
+a spirale da antiche iscrizioni beneaguranti, eleganti archi a tutto sesto le
+collegano le une alle altre, tranne quattro, quelli posti verso le quattro
+direzioni cardinali, a sesto acuto e più alti degli altri, delimitando una
+circonferenza al cui centro vedi una stele sovrastante di alcune spanne i più
+alti fra gli archi e rivestita di lucente mithril. Un sentiero, derivante
+dalla strada principale che ti ha condotto sin qui e delimitato da pietre
+bianche, conduce a nord, aggirando il cerchio sacro.
+~
+0 1024 4 0 0 0
+D0
+~
+~
+0 -1 10801 0
+D3
+~
+~
+0 -1 7800 0
+D5
+~
+~
+0 -1 10803 0
+E
+iscrizioni~
+Molte delle iscrizioni sono talmente antiche da essere quasi completamente
+cancellate. Altre sono invece comprensibili e leggendole credi di vedere le
+colonne che le recano incise sui propri fusti illuminarsi leggermente per
+facilitarti la lettura. Dalle illustrazioni si deduce che molte narrano
+antiche cronache dell'Esodo, ma i caratteri sono ormai troppo arcaici per
+essere facilmente compresi.
+~
+S
+#10801
+Il Tripode della Sacra Fiamma~
+Una scalinata di ventuno gradini porta sino alla sommità di una piccola
+piramide recante sulla cima piatta un tripode di bronzo all'interno del
+quale vedi ardere una fiamma bianca dai bordi azzurri. Le pietre bianche
+che orlano il sentiero che porta sino all'ara brillano di una tenue luce
+blu chiaro, che si rafforza man mano che ci si avvicina alla Fiamma.
+L'intera struttura è avvolta da una spirale di strani arabeschi realizzati
+in mithril ed oro, intrecciati in mille motivi differenti e tuttavia
+armoniosi. L'unico modo in cui una simile opera ha potuto essere realizzata
+è versando i metalli fusi in minutissime scanalature lungo le facciate
+delle levigate lastre di marmo della piramide. Un lavoro certosino, ed
+inarrivabile per perfezione e bellezza. Un cerchio di cipressi avvolge come
+in un abbraccio la costruzione, ed il Tripode svetta alto al di sopra della
+loro cima.
+~
+0 1024 2 0 0 0
+D1
+~
+~
+0 -1 10802 0
+D2
+~
+~
+0 -1 10800 0
+E
+tripode~
+Le gambe del Tripode sono costituite ognuna da tre serpenti intrecciati,
+simbolo di saggezza, mentre al loro termine le code dei serpenti si
+trasformano in modo perfettamente plastico in altrettanti artigli che
+sembrano tenere ancorato il tripode in modo inestricabile alla piramide di
+cui è parte. L'incavo contenente la Fiamma invece è completamente privo di
+decorazioni, tranne quattro zaffiri posti verso le quattro direzioni
+cardinali. E' talmente liscio e levigato da riflettere ogni luce come
+se fosse d'oro. Tutte le città fondate dal Popolo della Stella hanno come
+proprio fulcro un fuoco acceso da quello che vedi di fronte a te, portato con
+sè dagli Esuli.
+~
+E
+fiamma~
+Contempli la splendida scintilla di luce che danza davanti ai tuoi
+occhi... Al suo interno, per brevi istanti, ti sembra di scorgere un
+qualcosa di familiare, un volto amico, una voce fraterna... Una sensazione
+di unione con coloro che ti sono lontani si diffonde nella tua mente,
+facendoti provare profonda malinconia, unita ad un'esile sentimento di
+consolazione...
+~
+S
+#10802
+L'Ara della Memoria~
+Tredici colonne sorreggono una piccola cupola a cassettoni, che sovrasta
+un piccolo altare sul quale è posta un'antica icona del Mondo Perduto.
+Gli occhi della divina Lynthalie ti osservano benevoli dall'opera di un
+artista scomparso ormai da secoli, e ti senti spinto a donare un po' dei
+tuoi beni a coloro che ne hanno bisogno... unendoli a quelli che si trovano
+nella piccola fossa posta ai piedi dell'altare.
+~
+0 1024 0 0 0 0
+D3
+~
+~
+0 -1 10801 0
+E
+icona~
+Realizzata su una tavola di legno, rimani stupito dal capire che non è
+un dipinto, bensì un mosaico! Minutissime tessere di marmi colorati sono
+poste l'una accanto all'altra, a formare il raggiante volto della Divina
+Lynthalie, così come lo vide, secoli fa, l'ignoto artista di questo
+mosaico. Indubbiamente è per sua grazia che sembra essere stato
+appena realizzato.
+~
+S
+#10803
+La strada verso l'Acropoli~
+Ti inerpichi col fiatone lungo questa ripida strada, costruita come tutte
+le altre in bianca pietra levigata. La sua forma è leggermente convessa ed
+ai due lati scorrono dei canaletti di scolo per le acque piovane. Un
+parapetto corre lungo il lato del percorso non protetto dalla collina. Se
+guardi in basso, vedi la folla nelle vie brulicare come formiche, mentre
+verso l'alto inizi ad intravvedere le possenti colonne del Sacro Circolo.
+~
+0 0 1 0 0 0
+D4
+~
+~
+0 -1 10800 0
+D5
+~
+~
+0 -1 10804 0
+S
+#10804
+Il Foro Settentrionale~
+Ti trovi nella parte nord della grande piazza centrale di Rymil.
+L'intero luogo è tappezzato di solida pietra bianca, e un lungo porticato
+quadrangolare avvolge l'intero Foro, senza interruzione, neanche nei pressi
+degli accessi che le quattro principali strade cittadine hanno al cuore della
+città. Eleganti archi infatti, recanti ognuno le insegne delle antiche
+casate, collegano il portico di ogni settore del Foro a quello posto sul lato
+opposto della strada che li attraversa, fornendo così protezione durante le
+giornate di pioggia ed una gradevole frescura nei giorni più caldi
+dell'estate. Una gran folla invade quotidianamente questo spiazzo,
+chiacchierando amabilmente sotto i portici o passeggiando nei pressi della
+Colonna delle Leggi. Vicino l'Arco Nord, noti una strada secondaria che sale
+lungo la collina posta al centro di Rymil, verso l'Acropoli.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10822 0
+D1
+~
+~
+0 -1 10809 0
+D2
+~
+~
+0 -1 10805 0
+D3
+~
+~
+0 -1 10812 0
+D4
+~
+~
+0 -1 10803 0
+S
+#10805
+Il centro del Foro~
+Ti trovi al centro del Foro di Rymil. E' stato recentemente restaurato usando
+lastre di una pietra bianca simile nell'aspetto al calcare, ma insensibile
+all'azione delle acque piovane. A tratti, tuttavia, emergono pietre di una
+pavimentazione più antica, erose dal tempo e dall'azione degli elementi.
+Sembrano di origine artificiale anch'esse, forse poste lì dai primitivi
+abitanti di questo posto. Qui vedi il frenetico svolgimento dell'attività
+della Prima Comunità degli Elfi. Giudici, esattori, nobili, commercianti e
+splendide fanciulle: tutti nel Foro per ammirare ed essere ammirati, oltre che
+per scambiare quattro chiacchiere sui più svariati argomenti. Ne avverti
+l'impeto ordinato, e ne osservi i frutti nell'immensa stele a tre lati che si
+innalza dalla fontana di marmo posta nel centro esatto della piazza: la Stele
+dell'Esodo, primo artefatto Elfico mai costruito.
+Accanto ad essa è posto un alto parallelepipedo di marmo azzurro ornato da
+bassorilievi: la Tribuna Oratoria.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10804 0
+D1
+~
+~
+0 -1 10806 0
+D2
+~
+~
+0 -1 10808 0
+D3
+~
+~
+0 -1 10807 0
+E
+stele~
+Profonde rune elfiche vennero incise su questa lastra di pietra bianca, il cui
+testo inizia con:
+"In nome della Luce Primigenia ed in Memoria dei Caduti della Prima Battaglia
+i Figli delle Stelle giurano nel nome di Lynthalie la Sacra e di Aerthal il
+Possente di seguire il cammino da Loro indicatoci in pace ed in guerra, nella
+salute e nella malattia portando con noi sempre il Fuoco posto nel cuore dei
+nostri avi."
+~
+S
+#10806
+La parte orientale del Foro~
+Ti trovi sulla parte orientale del Foro. L'intero luogo è tappezzato di solida
+pietra bianca, e un lungo porticato quadrangolare avvolge l'intero Foro, senza
+interruzione, neanche nei pressi degli accessi che le quattro principali
+strade cittadine hanno al cuore della città. Eleganti archi infatti, recanti
+ognuno le insegne elfiche, collegano il portico di ogni settore del Foro a
+quello sul lato opposto della strada che li attraversa, fornendo così
+protezione durante le giornate di pioggia ed una gradevole frescura nei giorni
+più caldi dell'estate. Una gran folla invade quotidianamente questo spiazzo,
+chiacchierando amabilmente sotto i portici o passeggiando nei pressi della
+Colonna delle Leggi.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10809 0
+D1
+~
+~
+0 -1 10816 0
+D2
+~
+~
+0 -1 10810 0
+D3
+~
+~
+0 -1 10805 0
+S
+#10807
+La parte occidentale del Foro~
+Ti trovi sulla parte occidentale del Foro. L'intero luogo è tappezzato di
+solida pietra bianca, e un lungo porticato quadrangolare avvolge l'intero
+Foro, senza interruzione, neanche nei pressi degli accessi che le quattro
+principali strade cittadine hanno al cuore della città.
+Eleganti archi infatti, recanti ognuno le insegne elfiche, collegano il
+portico di ogni settore del Foro a quello sul lato opposto della strada che li
+attraversa, fornendo così protezione durante le giornate di pioggia ed una
+gradevole frescura nei giorni più caldi dell'estate. Una gran folla invade
+quotidianamente questo spiazzo, chiacchierando amabilmente sotto i portici o
+passeggiando nei pressi della Colonna delle Leggi.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10812 0
+D1
+~
+~
+0 -1 10805 0
+D2
+~
+~
+0 -1 10811 0
+D3
+~
+~
+0 -1 10813 0
+S
+#10808
+La parte meridionale del Foro~
+Ti trovi sulla parte meridionale del Foro. L'intero luogo è tappezzato di
+solida pietra bianca, e un lungo porticato quadrangolare avvolge l'intero
+Foro, senza interruzione, neanche nei pressi degli accessi che le quattro
+principali strade cittadine hanno al cuore della città.
+Eleganti archi infatti, recanti ognuno le insegne elfiche, collegano il
+portico di ogni settore del Foro a quello sul lato opposto della strada che li
+attraversa, fornendo così protezione durante le giornate di pioggia ed una
+gradevole frescura nei giorni più caldi dell'estate. Una gran folla invade
+quotidianamente questo spiazzo, chiacchierando amabilmente sotto i portici o
+passeggiando nei pressi della Colonna delle Leggi.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10805 0
+D1
+~
+~
+0 -1 10810 0
+D2
+~
+~
+0 -1 10819 0
+D3
+~
+~
+0 -1 10811 0
+S
+#10809
+L'angolo nord-est del Foro~
+Ti trovi sulla parte nord-orientale del Foro. L'intero luogo è tappezzato di
+solida pietra bianca, e un lungo porticato quadrangolare avvolge l'intero
+Foro senza interruzione.
+Eleganti archi, recanti ognuno le insegne elfiche, collegano il portico di
+ogni settore del Foro, fornendo così protezione durante le giornate di
+pioggia ed una gradevole frescura nei giorni più caldi dell'estate. Una gran
+folla invade quotidianamente questo spiazzo, chiacchierando amabilmente
+sotto i portici o passeggiando nei pressi della Colonna delle Leggi.
+Un tempietto si trova verso est.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10899 0
+D2
+~
+~
+0 -1 10806 0
+D3
+~
+~
+0 -1 10804 0
+S
+#10810
+L'angolo sud-est del Foro~
+Ti trovi sulla parte sud-orientale del Foro. L'intero luogo è tappezzato di
+solida pietra bianca, e un lungo porticato quadrangolare avvolge l'intero
+Foro senza interruzione.
+Eleganti archi, recanti ognuno le insegne elfiche, collegano il portico di
+ogni settore del Foro, fornendo così protezione durante le giornate di
+pioggia ed una gradevole frescura nei giorni più caldi dell'estate. Una gran
+folla invade quotidianamente questo spiazzo, chiacchierando amabilmente
+sotto i portici o passeggiando nei pressi della Colonna delle Leggi.
+Intravedi verso est, oltre il portico un giardino, mentre a sud scorgi
+l'insegna del Credito Comune.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10806 0
+D1
+~
+~
+0 -1 10902 0
+D2
+~
+~
+0 -1 10901 0
+D3
+~
+~
+0 -1 10808 0
+S
+#10811
+L'angolo sud-ovest del Foro~
+Ti trovi sulla parte sud-occidentale del Foro. L'intero luogo è tappezzato di
+solida pietra bianca, e un lungo porticato quadrangolare avvolge l'intero
+Foro senza interruzione.
+Eleganti archi, recanti ognuno le insegne elfiche, collegano il portico di
+ogni settore del Foro, fornendo così protezione durante le giornate di
+pioggia ed una gradevole frescura nei giorni più caldi dell'estate. Una gran
+folla invade quotidianamente questo spiazzo, chiacchierando amabilmente
+sotto i portici o passeggiando nei pressi della Colonna delle Leggi.
+Verso sud noti un edificio a pianta tonda circondato da colonne.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10807 0
+D1
+~
+~
+0 -1 10808 0
+D2
+~
+~
+0 -1 10909 0
+S
+#10812
+L'angolo nord-ovest del Foro~
+Ti trovi sulla parte nord-occidentale del Foro. L'intero luogo è tappezzato di
+solida pietra bianca, e un lungo porticato quadrangolare avvolge l'intero
+Foro senza interruzione.
+Eleganti archi, recanti ognuno le insegne elfiche, collegano il portico di
+ogni settore del Foro, fornendo così protezione durante le giornate di
+pioggia ed una gradevole frescura nei giorni più caldi dell'estate. Una gran
+folla invade quotidianamente questo spiazzo, chiacchierando amabilmente
+sotto i portici o passeggiando nei pressi della Colonna delle Leggi.
+Nelle vicinanze noti un grosso palazzo di forma circolare. Sul frontone è
+posta in grossi caratteri aurei la scritta "Santuario dei Giusti".
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10804 0
+D2
+~
+~
+0 -1 10807 0
+D3
+~
+~
+0 -1 10833 0
+S
+#10813
+Via del Tramonto~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10807 0
+D3
+~
+~
+0 -1 10814 0
+S
+#10814
+Via del Tramonto~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca.
+La sua forma è leggermente convessa, ed ai lati, oltre che i canaletti
+di scolo che portano alle fognature, si trovano due ampi e ben tenuti
+marciapiedi realizzati in pietra grigia. Molti edifici ed abitazioni si
+affacciano sulla strada, e molti di essi raggiungono altezze vertiginose,
+uniti gli uni agli altri da ponticelli di cristallo. A nord un grande edificio
+in marmo attira la tua attenzione. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna, e filari
+di alberi ombrosi corrono lungo tutta la via.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10835 0
+D1
+~
+~
+0 -1 10813 0
+D3
+~
+~
+0 -1 10815 0
+S
+#10815
+Via del Tramonto~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna, e filari di
+alberi ombrosi corrono lungo tutta la via.
+Verso ovest la strada giunge alla cinta muraria fermandosi dinanzi ad
+imponenti cancelli.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10814 0
+D3
+~
+portali~
+1 -1 10922 0
+S
+#10816
+Via delle Stelle~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10817 0
+D3
+~
+~
+0 -1 10806 0
+S
+#10817
+Via delle Stelle~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+Ad est un tempio attira il tuo sguardo, mentre ad ovest degli splendidi
+giardini catturano la tua attenzione.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10891 0
+D1
+~
+~
+0 -1 10818 0
+D2
+~
+~
+0 -1 10908 0
+D3
+~
+~
+0 -1 10816 0
+S
+#10818
+Via delle Stelle~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+Un'affolata strada si apre verso sud.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10841 0
+D2
+~
+~
+0 -1 10843 0
+D3
+~
+~
+0 -1 10817 0
+S
+#10819
+Via del Riso~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+Una semplice porta ad arco realizzata in legno si trova verso est, noti una
+placca che reca inciso in lettere bronzee: "Libreria"
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10808 0
+D1
+~
+~
+0 -1 10827 0
+D2
+~
+~
+0 -1 10820 0
+S
+#10820
+Via del Riso~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+Verso est scorgi la parte terminale di Via dei Commerci, mentre ad ovest un
+imponente edificio attira il tuo sguardo.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10819 0
+D1
+~
+~
+0 -1 10848 0
+D2
+~
+~
+0 -1 10821 0
+D3
+~
+~
+0 -1 10825 0
+S
+#10821
+Via del Riso~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+La strada termina a sud in un'ampia valle.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10820 0
+D2
+~
+~
+0 -1 10910 0
+S
+#10822
+Via della Sapienza~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+Il cancello di una bassa costruzione si trova verso est.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10823 0
+D1
+~
+cancello~
+0 -1 10828 0
+D2
+~
+~
+0 -1 10804 0
+S
+#10823
+Via della Sapienza~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+Una gigantesca torre si trova verso ovest, e sopra il grande portale
+d'ingresso spicca un simbolo: un Libro sovrastato da una Corona.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10824 0
+D2
+~
+~
+0 -1 10822 0
+D3
+~
+~
+0 -1 10856 0
+S
+#10824
+Via della Sapienza~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 10823 0
+S
+#10825
+Il Teatro di Aelyen~
+Percorri un breve corridoio illuminato da globi luminosi. Dopo qualche metro
+emergi al di sotto di una grossa arcata ed ai tuoi fianchi vedi estendersi
+tribune a forma semicircolare che raggiungono complessivamente l'altezza di
+almeno venti passi. Ogni tanto la curva dei gradini è interrotta da un tunnel
+come quello che hai appena attraversato, così da consentire l'accesso agli
+spettatori. Alcune scalinate conducono verso le tribune superiori, mentre
+guardando un po' più in basso noti il palcoscenico per gli attori. Tutto è
+realizzato in candido marmo. Al di sopra di te, il cielo.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10820 0
+D3
+~
+~
+0 -1 10826 0
+D4
+~
+~
+0 -1 10892 0
+S
+#10826
+Il palcoscenico~
+Ti trovi su un basso podio di marmo rivestito in legno nella parte superiore.
+La parte posteriore è occupata dalle scenografie usate durante gli spettacoli,
+e due scale poste ai fianchi del palco consentono di salire e scendere da
+dietro le quinte, realizzate con tessuto rosso bordato a frange dorate. Lungo
+il bordo del palco alcuni bassorilievi raffiguranti maschere e danze.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10825 0
+S
+#10827
+La libreria~
+Un ambiente vasto e ben ordinato. Grossi e solidi armadi si trovano lungo
+tutte le pareti, ed alcune scale conducono in alto verso i magazzini. L'aria
+è impregnata dell'odore della carta: molti giovani vengono qui a procurarsi
+penne, pergamene e a vendere o scambiare le proprie opere in cambio di altre
+scritte in precedenza da altri studenti. Molti grandi autori hanno iniziato
+a farsi conoscere facendo circolare le loro prime opere in questo modo, ed
+ora i loro libri sono conservati (e gratuitamente consultabili) nella
+Biblioteca Imperiale.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10819 0
+S
+#10828
+L'Accademia della Sapienza Superiore~
+Varcato il cancello entri, dopo aver percorso un breve vialetto, in una
+pagoda dalle volte di cristallo verde. Slanciate colonne dai capitelli
+immersi nell'ombra sorreggono volte acutissime, ricoperte di mirabili
+intrecci di iscrizioni antichissime. Lo stelo delle colonne riluce
+fiocamente di una candida luce e comprendi di trovarti all'interno
+dell'Accademia della Sapienza Superiore. Qui i migliori adepti dell'Arte
+insegnano i fasti della Magia ai loro discepoli, vestiti i primi in tuniche
+dai colori cangianti, i secondi in semplici vesti nere bordate d'oro. Verso
+settentrione e meridione, intravedi due altissime torri: sono le Custodi
+Gemelle, in cui è custodito il sapere magico di generazioni di Elfi. Campi
+di energia magica dotati di propria intelligenza ti impediscono però il
+passaggio, dal momento che non sei nè un maestro, nè un discepolo.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10829 0
+D3
+~
+~
+0 -1 10822 0
+S
+#10829
+I giardini dell'Accademia~
+Un profumo soave si spande dagli innumerevoli alberi, siepi ed aiuole che
+sono il vero e proprio luogo di insegnamento dell'Accademia: i Maestri
+infatti portano qui i loro adepti, ed insegnano loro a contatto con la
+natura il modo migliore per usare la Magia, senza rinnegare il proprio
+essere. Piccoli ruscelletti scorrono ai fianchi delle evanescenti piste che
+si snodano nei giardini, e miriadi di candidi gigli si abbarbicano sui
+grandi, vetusti alberi, quasi stordendoti con la loro bellezza. Piccole
+statuette votive in legno sono sparse qui e là, in onore degli Spiriti della
+Natura.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10830 0
+D1
+~
+~
+0 -1 10832 0
+D3
+~
+~
+0 -1 10828 0
+S
+#10830
+I giardini dell'Accademia~
+Un profumo soave si spande dagli innumerevoli alberi, siepi ed aiuole che
+sono il vero e proprio luogo di insegnamento dell'Accademia: i Maestri
+infatti portano qui i loro adepti, ed insegnano loro a contatto con la
+natura il modo migliore per usare la Magia, senza rinnegare il proprio
+essere. Piccoli ruscelletti scorrono ai fianchi delle evanescenti piste che
+si snodano nei giardini, e miriadi di candidi gigli si abbarbicano sui
+grandi, vetusti alberi, quasi stordendoti con la loro bellezza. Piccole
+statuette votive in legno sono sparse qui e là, in onore degli Spiriti della
+Natura.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10831 0
+D2
+~
+~
+0 -1 10829 0
+S
+#10831
+I giardini dell'Accademia~
+Un profumo soave si spande dagli innumerevoli alberi, siepi ed aiuole che
+sono il vero e proprio luogo di insegnamento dell'Accademia: i Maestri
+infatti portano qui i loro adepti, ed insegnano loro a contatto con la
+natura il modo migliore per usare la Magia, senza rinnegare il proprio
+essere. Piccoli ruscelletti scorrono ai fianchi delle evanescenti piste che
+si snodano nei giardini, e miriadi di candidi gigli si abbarbicano sui
+grandi, vetusti alberi, quasi stordendoti con la loro bellezza. Piccole
+statuette votive in legno sono sparse qui e là, in onore degli Spiriti della
+Natura.
+~
+0 0 2 0 0 0
+D2
+~
+~
+0 -1 10832 0
+D3
+~
+~
+0 -1 10830 0
+S
+#10832
+I giardini dell'Accademia~
+Un profumo soave si spande dagli innumerevoli alberi, siepi ed aiuole che
+sono il vero e proprio luogo di insegnamento dell'Accademia: i Maestri
+infatti portano qui i loro adepti, ed insegnano loro a contatto con la
+natura il modo migliore per usare la Magia, senza rinnegare il proprio
+essere. Piccoli ruscelletti scorrono ai fianchi delle evanescenti piste che
+si snodano nei giardini, e miriadi di candidi gigli si abbarbicano sui
+grandi, vetusti alberi, quasi stordendoti con la loro bellezza. Piccole
+statuette votive in legno sono sparse qui e là, in onore degli Spiriti della
+Natura.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10831 0
+D3
+~
+~
+0 -1 10829 0
+S
+#10833
+Trimliyv, il Santuario dei Giusti~
+Entri nel vasto edificio e il respiro ti si spezza in gola... una colossale
+statua d'argento  troneggia all'estremità opposta all'ingresso, realizzata
+completamente in oro ed avorio. Sul capo porta una corona splendente di
+gemme, e di gemme dai colori cangianti sono anche gli occhi mentre le
+labbra sono realizzate in corallo rosso sangue. Nelle mani regge scudo e
+spada, e sul basamento è posta una targa di marmo nero a lettere d'oro. Al
+suo fianco destro si trovano, seguendo la curvatura della costruzione, gli
+stalli dei Giudici ed i banchi degli Osservatori, mentre al di sotto
+dello sguardo tremendo della statua si trova un piccolo podio su cui
+prendono posto gli inquisiti. Alla sinistra della statua si trova un
+gigantesco affresco, che occupa quindi la metà esatta della superficie
+interna dell'edificio. L'illuminazione è fornita da un'apertura circolare
+posta sulla sommità della cupola, di giorno, e di notte da uno dei globi
+luminosi disseminati in tutta la città.
+~
+0 0 0 0 0 0
+D0
+Noti che una parte dell'affresco presenta dei bordi leggermente
+luminescenti...
+~
+passaggio~
+97 10804 10834 0
+D1
+~
+~
+0 -1 10812 0
+E
+targa~
+"Protezione dei Deboli/ Perdizione degli Oppressori: LA LEGGE E' UGUALE
+PER TUTTI"
+~
+E
+affresco~
+L'affresco mostra una scena di battaglia fra un'orda indisciplinata di
+barbari Orchi e le schiere ordinate degli Elfi atte ad allontanare i nemici
+da una bianca città in lontananza sullo sfondo.
+In alto, fra le nuvole dell'opera, la scritta: "Giustizia, libertà ed
+uguaglianza noi garantiamo in nome dei Profeti".
+~
+S
+#10834
+L'Archivio~
+Apri la piccola porticina e ti trovi in un vasto ambiente rischiarato
+appena da lunghe file di torce. La sala ha forma rettangolare e su ogni
+lato si trovano armadi pieni di pergamene, fascicoli e ingombranti libroni.
+Una rapida occhiata ad alcune di esse, impilate sulla fila di tavoli ben
+allineata lungo l'asse di simmetria della stanza, ti mostra che ti trovi
+nell'Archivo. Qui vengono conservati tutti i documenti relativi a nascite,
+morti, reclutamenti, acquisti di terreni e di case ed ogni altro documento
+utile alla complessa burocrazia imperiale... Semplicemente impressionante.
+Almeno quanto l'ordine e la pulizia con cui tutto e mantenuto.
+~
+0 0 0 0 0 0
+D2
+~
+porticina~
+97 10804 10833 0
+D5
+Il pavimento sembra essere leggermente rialzato in un punto
+~
+botola~
+0 -1 10840 0
+S
+#10835
+La Tesoreria~
+Il palazzo è rivestito di marmi, internamente ed esternamente. Il soffitto è
+piatto, a cassettoni quadrati. Lucernari di cristalli pendono da essi
+rischiarando l'ambiente. Le poche finestre presenti sono infatti più simili a
+feritoie benchè abilmente dissimulate tramite alcune snelle colonnine poste ai
+loro fianchi ed unite da archetti a sesto acuto. I funzionari del Tesoro qui
+raccolgono il denaro proveniente dai tributi e dai dazi, registrando ogni
+transazione su dei grossi libri contabili, posati su banchi di ossidiana nera
+posti in vari punti della sala. Molti di loro ti rivolgono sguardi indagatori
+e sospettosi. Decisamente in questo posto gli estranei non sono i benvenuti.
+Intravedi uno scintillio oltre una fila di sbarre, a nord.
+~
+0 0 0 0 0 0
+D0
+~
+sbarre~
+0 10805 10836 0
+D2
+~
+~
+0 -1 10814 0
+S
+#10836
+La camera blindata~
+Ti lasci alle spalle le pesanti sbarre di acciaio purissimo che bloccavano
+l'ingresso a questa camera: un paradiso per ogni ladro!
+Lunghe file di bauli ricolmi di monete d'oro si trovano bene allineate ed
+impilate lungo i muri, ciascuno di essi ha un cartellino indicante l'ammontare
+contenuto nel forziere. Altri reliquiari contengono oggetti preziosi,
+vetusti artefatti e persino alcuni documenti fondamentali per la Comunità.
+Purtroppo per te, ogni cosa è circondata da un campo respingente. Quindi
+dovrai tornare indietro a bocca asciutta!
+~
+0 0 0 0 0 0
+D2
+~
+sbarre~
+0 10805 10835 0
+D5
+~
+botola~
+0 -1 10837 0
+S
+#10837
+Uno stretto cunicolo~
+Il tunnel è strettissimo, lo spazio è sufficiente a malapena per una
+persona. E' lastricato in pietra nera... I tuoi passi risuonano
+spaventosamente forti. Alcune torce forniscono una tenue illuminazione al
+lungo percorso. Una botola è al di sopra della tua testa.
+~
+0 2049 0 0 0 0
+D2
+~
+~
+0 -1 10838 0
+D4
+~
+botola~
+0 -1 10836 0
+S
+#10838
+Uno stretto cunicolo~
+Il tunnel è strettissimo, lo spazio è sufficiente a malapena per una
+persona. E' lastricato in pietra nera... I tuoi passi risuonano
+spaventosamente forti. Alcune torce forniscono una tenue illuminazione al
+lungo percorso.
+~
+0 2049 0 0 0 0
+D0
+~
+~
+0 -1 10837 0
+D1
+~
+~
+0 -1 10839 0
+S
+#10839
+Uno stretto cunicolo~
+Il tunnel è strettissimo, lo spazio è sufficiente a malapena per una
+persona. E' lastricato in pietra nera... I tuoi passi risuonano
+spaventosamente forti. Alcune torce forniscono una tenue illuminazione al
+lungo percorso.
+~
+0 2049 0 0 0 0
+D0
+~
+~
+0 -1 10840 0
+D3
+~
+~
+0 -1 10838 0
+S
+#10840
+Uno stretto cunicolo~
+Il tunnel è strettissimo, lo spazio è sufficiente a malapena per una
+persona. E' lastricato in pietra nera... I tuoi passi risuonano
+spaventosamente forti. Alcune torce forniscono una tenue illuminazione al
+lungo percorso. Sopra di te noti a malapena una botola.
+~
+0 2049 0 0 0 0
+D2
+~
+~
+0 -1 10839 0
+D4
+~
+botola~
+0 -1 10834 0
+S
+#10841
+Via delle Stelle~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna. Una
+minuscola stradina si apre verso sud. Una targa si trova al suo imbocco.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10890 0
+D1
+~
+~
+0 -1 10842 0
+D2
+~
+~
+0 -1 10851 0
+D3
+~
+~
+0 -1 10818 0
+E
+targa~
+"Vicolo degli Orefici"
+~
+S
+#10842
+Via delle Stelle~
+Cammini lungo una strada cittadina, larga abbastanza da consentire il
+passaggio di tre carri e formata da grossi lastroni di pietra bianca. La sua
+forma è leggermente convessa, ed ai lati, oltre che i canaletti di scolo
+che portano alle fognature, si trovano due ampi e ben tenuti marciapiedi
+realizzati in pietra grigia. Molti edifici ed abitazioni si affacciano sulla
+strada, e molti di essi raggiungono altezze vertiginose, uniti gli uni agli
+altri da ponticelli di cristallo. Graziose decorazioni ornano le facciate
+delle residenze private e manca la sporcizia così comune nelle strade di
+altre città. Globi luminosi forniscono l'illuminazione notturna. Un
+gigantesco cancello di bronzo rosso segnala l'inizio del Palazzo.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10866 0
+D3
+~
+~
+0 -1 10841 0
+S
+#10843
+Via dei Commerci~
+Ti trovi lungo la strada che si addentra nel quartiere mercantile di Rymil.
+La strada ha le stesse caratteristiche delle altre ma ai suoi fianchi si
+aprono un numero immenso di bancarelle, negozi, botteghe artigiane. Un gran
+vociare si leva dalla folla, nelle chiare e squillanti voci dei mercanti
+elfici che qui giungono dopo lunghi viaggi in lungo ed in largo.
+Molti di loro ti guardano con occhiatine furbe e ridenti. Sarà il caso di
+controllare per bene il portamonete. A est si trova il vicolo degli orefici,
+ad ovest, il rumore di ferro battuto denuncia chiaramente la presenza di una
+forgia, al di sotto del livello stradale.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10818 0
+D1
+~
+~
+0 -1 10851 0
+D2
+~
+~
+0 -1 10844 0
+D3
+~
+~
+0 -1 10849 0
+S
+#10844
+Via dei Commerci~
+Ti trovi lungo la strada che si addentra nel quartiere mercantile di Rymil.
+La strada ha le stesse caratteristiche delle altre ma ai suoi fianchi si
+aprono un numero immenso di bancarelle, negozi, botteghe artigiane. Un gran
+vociare si leva dalla folla, nelle chiare e squillanti voci dei mercanti
+elfici che qui giungono dopo lunghi viaggi in lungo ed in largo.
+Molti di loro ti guardano con occhiatine furbe e ridenti. Sarà il caso di
+controllare per bene il portamonete. Verso ovest, una scaletta discende nel
+sottosuolo, verso una porta da cui proviene un gran baccano, benche' attutito.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10843 0
+D1
+~
+~
+0 -1 10854 0
+D2
+~
+~
+0 -1 10845 0
+D3
+~
+~
+0 -1 10850 0
+S
+#10845
+Via dei Commerci~
+Ti trovi lungo la strada che si addentra nel quartiere mercantile di Rymil.
+La strada ha le stesse caratteristiche delle altre ma ai suoi fianchi si
+aprono un numero immenso di bancarelle, negozi, botteghe artigiane. Un gran
+vociare si leva dalla folla, nelle chiare e squillanti voci dei mercanti
+elfici che qui giungono dopo lunghi viaggi in lungo ed in largo.
+Molti di loro ti guardano con occhiatine furbe e ridenti. Sarà il caso di
+controllare per bene il portamonete.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10844 0
+D3
+~
+~
+0 -1 10846 0
+S
+#10846
+Via dei Commerci~
+Ti trovi lungo la strada che si addentra nel quartiere mercantile di Rymil.
+La strada ha le stesse caratteristiche delle altre ma ai suoi fianchi si
+aprono un numero immenso di bancarelle, negozi, botteghe artigiane.
+Un gran vociare si leva dalla folla, nelle chiare e squillanti voci dei
+mercanti elfici che qui giungono dopo lunghi viaggi in lungo ed in largo.
+Molti di loro ti guardano con occhiatine furbe e ridenti. Una zaffata di
+dolcissimi odori proviene da una bella porta di cristalli molati, verso sud.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10845 0
+D2
+~
+~
+0 -1 10888 0
+D3
+~
+~
+0 -1 10847 0
+S
+#10847
+Via dei Commerci~
+Ti trovi lungo la strada che si addentra nel quartiere mercantile di Rymil.
+La strada ha le stesse caratteristiche delle altre ma ai suoi fianchi si
+aprono un numero immenso di bancarelle, negozi, botteghe artigiane.
+Un gran vociare si leva dalla folla, nelle chiare e squillanti voci dei
+mercanti elfici che qui giungono dopo lunghi viaggi in lungo ed in largo.
+Molti di loro ti guardano con occhiatine furbe e ridenti. Sarà il caso di
+controllare per bene il portamonete. A nord, vedi aprirsi gli splendidi
+Giardini dei Cantori, verso sud noti l'austero ingresso delle Provvisioni
+Generali.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10852 0
+D1
+~
+~
+0 -1 10846 0
+D2
+~
+~
+0 -1 10889 0
+D3
+~
+~
+0 -1 10848 0
+S
+#10848
+Via dei Commerci~
+Ti trovi lungo la strada che si addentra nel quartiere mercantile di Rymil.
+La strada ha le stesse caratteristiche delle altre ma ai suoi fianchi si
+aprono un numero immenso di bancarelle, negozi, botteghe artigiane.
+Un gran vociare si leva dalla folla, nelle chiare e squillanti voci dei
+mercanti elfici che qui giungono dopo lunghi viaggi in lungo ed in largo.
+Molti di loro ti guardano con occhiatine furbe e ridenti. Sarà il caso di
+controllare per bene il portamonete.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10847 0
+D3
+~
+~
+0 -1 10820 0
+S
+#10849
+La Forgia~
+Percorri una ripida scaletta ed entri in questo vasto ambiente sotterraneo:
+piccole colonnine lungo il perimetro rettangolare sostengono la volta a botte
+che ricopre l'ambiente. Gruppi di fabbri si muovono agilmente fra le incudini,
+trasportando pezzi di metallo incandescente senza ustionarsi, altri martellano
+incessantemente armi ed armature, che vengono poi rifinite da veri e propri
+artisti che lavorano separatamente alle due estremità del grande salone.
+Quelli di questo lato sembrano occuparsi prevalentemente di armature. Con
+sorpresa, ti accorgi che c'è un ottimo ricambio d'aria: ma non vedi condotti
+aprirsi nei muri di solida roccia: indubbiamente, gli studi dell'Accademia non
+restano solo teorici.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10843 0
+D2
+~
+~
+0 -1 10850 0
+S
+#10850
+La Forgia~
+Percorri una ripida scaletta ed entri in questo vasto ambiente sotterraneo:
+piccole colonnine lungo il perimetro rettangolare sostengono la volta a botte
+che ricopre l'ambiente. Gruppi di fabbri si muovono agilmente fra le incudini,
+trasportando pezzi di metallo incandescente senza ustionarsi, altri martellano
+incessantemente armi ed armature, che vengono poi rifinite da veri e propri
+artisti che lavorano separatamente alle due estremità del grande salone.
+Quelli di questo lato sembrano occuparsi prevalentemente di armi. Con
+sorpresa, ti accorgi che c'è un ottimo ricambio d'aria: ma non vedi condotti
+aprirsi nei muri di solida roccia: indubbiamente, gli studi dell'Accademia non
+restano solo teorici.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10849 0
+D1
+~
+~
+0 -1 10844 0
+S
+#10851
+Il vicolo degli Orefici~
+E' una stradina molto più stretta rispetto alle altre: qui passano al
+massimo due o tre persone una di fianco all'altra. Ai lati della strada si
+aprono molte botteghe artigiane, ed odi il rumore di molte incudini al
+lavoro ed un gran chiacchiericcio provenire dall'interno. Quasi tutte le
+robuste porte di ingresso a questi misteriosi negozi sono sprangate, ma una
+è aperta: e già da qui intravedi lo scintillio dei preziosi che contiene!
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10841 0
+D1
+~
+~
+0 -1 10948 0
+D3
+~
+~
+0 -1 10843 0
+S
+#10852
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10853 0
+D1
+~
+~
+0 -1 10905 0
+D2
+~
+~
+0 -1 10847 0
+D3
+~
+~
+0 -1 10903 0
+S
+#10853
+Il laghetto di Lynthalie~
+Approdi sull'isoletta artificiale al centro del laghetto circolare.
+Intorno a te vedi estendersi i lunghi verdi prati dei Giardini dei Cantori,
+mentre grandi aiuole di rose rosso sangue sono disposte elegantemente ai
+bordi dei sentieri. Essi si intersecano presso una piccola pagoda,
+completamente rivestita d'oro. Un braciere arde su di essa, e le sue porte
+sono sprangate. Solo il Sommo Sacerdote può ammirare le Sacre Effigi, e
+pronunciare le formule di rito che aprono le porte e danno inizio ai Giorni
+della Gloria.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10907 0
+D1
+~
+~
+0 -1 10906 0
+D2
+~
+~
+0 -1 10852 0
+D3
+~
+~
+0 -1 10902 0
+S
+#10854
+Il quartiere degli artigiani~
+Imbocchi una stretta viuzza, perpendicolare a Via dei Commerci, e ti
+ritrovi immerso in un dedalo di stradine e vicoli, dove piccole botteghe
+artigianali prosperano e mettono in bella mostra i loro prodotti,
+essenzialmente a base di legno e pietra. Una gran confusione regna in questa
+zona della città, resa molto rumorosa dal rumore degli strumenti di lavoro
+e dal chiacchiericcio degli acquirenti.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10855 0
+D3
+~
+~
+0 -1 10844 0
+S
+#10855
+Il quartiere degli artigiani~
+Imbocchi una stretta viuzza, perpendicolare a Via dei Commerci, e ti
+ritrovi immerso in un dedalo di stradine e vicoli, dove piccole botteghe
+artigianali prosperano e mettono in bella mostra i loro prodotti,
+essenzialmente a base di legno e pietra. Una gran confusione regna in questa
+zona della città, resa molto rumorosa dal rumore degli strumenti di lavoro
+e dal chiacchiericcio degli acquirenti.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10949 0
+D3
+~
+~
+0 -1 10854 0
+S
+#10856
+Salone d'ingresso alla Biblioteca~
+Il silenzio che ti accoglie è quasi assoluto, turbato di tanto in tanto
+solo dal mormorio sommesso di qualche lettore, o dal brusio di un gruppo di
+studenti, subito ammoniti dai Custodi. Le mura, il pavimento e le colonne
+sono tutti costituiti da bianchi marmi, e grandi finestre a foggia di foglia
+riversano nell'ambiente una luce abbondante. Questo primo salone sarebbe del
+tutto spoglio, se non fosse per due colossali cariatidi raffiguranti due
+ninfe. Reggono fra le mani due splendidi calici, da cui sembrano fuoriuscire
+due zampilli d'acqua formati da cristallo scolpito, ma talmente scintillante
+da imitare alla perfezione l'acqua di un rapido torrente e formando così
+l'ingresso ai saloni della biblioteca vera e propria.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10823 0
+D3
+~
+~
+0 -1 10857 0
+S
+#10857
+Il primo piano della Biblioteca~
+La biblioteca ha un diametro di almeno cinquanta metri. Lunghe file di
+piccoli tavoli si trovano al centro del salone del primo piano della
+biblioteca. Attorno a te vedi gli scaffali stracolmi di libri e pergamene
+per cui questo luogo è tanto famoso. Tutti rigorosamente in elfico. Nessun
+testo che non sia vergato nell'Antica Lingua viene conservato fra queste
+mura. Piccoli globi bianchi fluttuano accanto ad ogni tavolo, per coloro che
+volessero usufruire della Sapienza anche a tarda notte. Le finestre si
+aprono al di sopra degli armadi che contengono i libri, e si prolungano
+soprattutto in larghezza, dato il ristretto spazio fra esse, la volta della
+sala e la sommità degli armadi. Una piccolissima scala a chiocciola porta
+al secondo piano.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10861 0
+D1
+~
+~
+0 -1 10856 0
+D2
+~
+~
+0 -1 10859 0
+D3
+~
+~
+0 -1 10860 0
+D4
+~
+~
+0 -1 10858 0
+S
+#10858
+Il secondo piano della Biblioteca~
+Lunghe file di piccoli tavoli si trovano al centro del salone del secondo
+piano della biblioteca. Attorno a te vedi gli scaffali, posti in circolo,
+stracolmi di libri e pergamene per i quali questo luogo è tanto famoso.
+Tutti rigorosamente in elfico. Nessun testo che non sia vergato nell'Antica
+Lingua viene conservato fra queste mura. Piccoli globi bianchi fluttuano
+accanto ad ogni tavolo, per coloro che volessero usufruire della Sapienza
+anche a tarda notte. Il soffitto, qui, si eleva in una cupola
+impossibilmente alta ed arcuata. All'incrocio delle arcate vedi brillare
+qualcosa.. Sembra essere una stella.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10862 0
+D1
+~
+~
+0 -1 10863 0
+D2
+~
+~
+0 -1 10864 0
+D3
+~
+~
+0 -1 10865 0
+D5
+~
+~
+0 -1 10857 0
+S
+#10859
+La Sezione Poetica~
+Passeggi in un lunghissimo corridoio, coccolato dalla luminosità del
+luogo ed incuriosito dalle centinaia di titoli che scorrono sotto i tuoi
+occhi. In questa parte del primo piano, vengono conservati i volumi di
+poesia e retorica, oltre che i grandi drammi e le tragedie della letteratura
+elfica. Un cartiglio sovrasta gli armadi di questa sezione: un Cuore
+trafitto da una Spada e stillante tre delicate Rune.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10857 0
+S
+#10860
+Gli scaffali delle Satire~
+Il cartiglio di questo reparto raffigura una Maschera Ridente. Ed infatti, una
+rapida scorsa ai titoli sul dorso dei volumi ti porta rapidamente ad
+individuare questo reparto come una raccolta di satire, motti e canti,
+anch'essi custoditi gelosamente e tramandati di generazione in generazione.
+Prezioso materiale di consultazione, ed a volte anche più accurato dei testi
+ufficiali. Alcuni di essi, inoltre, sembrano essere delle guide
+all'apprendimento della Musica e della Danza.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10857 0
+S
+#10861
+L'Archivio Medico~
+Osservi un gruppo di scaffali su cui spicca un cartiglio raffigurante un
+Libro con un Sole sulla copertina. Gli argomenti dei volumi sono di
+carattere spiccatamente medico/scientifico: biologia ed anatomia degli
+animali, delle piante e delle razze senzienti: ovvero delle creature che è
+possibile incontrare in giro per il mondo. Qui trovi inoltre le possibili
+malattie in cui potresti imbatterti, e di cui spesso queste creature soffrono,
+pazientemente raccolte col lavoro certosino (e spesso a costo della propria
+vita) di generazioni di anatomisti e cerusici.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10857 0
+S
+#10862
+La sala della Filosofia~
+Grossi, pesanti volumi occupano gli scaffali di questo lato della
+biblioteca. Leggendo i loro titoli, ti accorgi che ciascuno di essi discetta
+nei dettagli un aspetto del comportamento elfico, o dispensa fondamentali
+consigli etico-morali, o ancora tratta di astruse questioni che sembrano non
+avere attinenza alcuna coi problemi di tutti i giorni. Ma alcune di queste
+opere, per quanto apparentemente noiose, hanno plasmato il volto della razza
+elfica, e deciso del futuro di popoli interi. Decisamente, questi sono gli
+armadi della Filosofia. Il cartiglio reca raffigurata una Runa Coronata.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10858 0
+S
+#10863
+La sala delle Scienze~
+Questi libri, tutti accomunati dal linguaggio semplice e rigoroso, con
+frequente ricorso alla logica immutabile dei numeri, trattano di tutto lo
+scibile scientifico oggi conosciuto: astronomia, architettura, musica,
+matematica, geometria... La summa del sapere scientifico di Rymil, La Casa
+degli Elfi, raccolta in oltre quattromila anni di esistenza della biblioteca.
+Il simbolo dell'Infinito troneggia sul cartiglio degli armadi.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10858 0
+S
+#10864
+La Camera degli Anonimi~
+Ti avvicini ad una brusca interruzione nell'ordine perfetto in cui sono
+tenuti i tomi della biblioteca: qui al contrario, i libri giacciono alla
+rinfusa sui tavoli e sugli scaffali, privi del nome dell'autore ed a volte
+anche di un titolo. Chiunque può lasciare la sua opera qui, imprimendovi il
+sigillo di appartenenza ad una delle Categorie, e lasciandolo disponibile
+alla libera consultazione di chiunque. Molta gente viene qui per cercare
+qualcosa di nuovo e stimolante, e sovente gli autori sono incoraggiati nel
+pubblicare le opere successive col proprio nome, sperando ovviamente vengano
+accettate poi dalla Biblioteca. Nessun simbolo è visibile, tranne una
+scritta: "Libertà".
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10858 0
+S
+#10865
+L'Archivio Giuridico~
+File su file di dispense, manuali di procedure, codici burocratici, dispense
+di consuetudini, annali di magistrati, copie di documenti pubblici e discorsi
+di famosi oratori: questo è il luogo deputato alla conservazione della Legge e
+dell'Ordine su cui la semplice ma precisa macchina della burocrazia si regge.
+Un gran numero di studenti di legge ti passa vicino, cercando di individuare
+ciò di cui necessita con l'assistenza dei Custodi. Il cartiglio sugli armadi
+mostra una Bilancia con l'asta formata da una spada.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10858 0
+S
+#10866
+I Cancelli del Palazzo~
+I cancelli del Palazzo sono formati da grosse sbarre di bronzo, ognuna
+spessa quanto un braccio di medie dimensioni. Due medaglioni d'argento,
+uno su ciascun lato del cancello, recano in rilievo un'Aquila che fra
+gli artigli stringe una rosa. In lontananza, vedi svettare le insegne
+di Rymil, i simboli della Comunione Elfica e lo stendardo del Reggente
+attuale. Ai lati, un'alta recinzione di candide pietre sovrastate da
+acuminati aculei di acciaio corre ai bordi dei Giardini. Noti un gran
+traffico di funzionari in entrata ed in uscita.
+~
+0 0 0 0 0 0
+D1
+~
+~
+1 -1 10867 0
+D3
+~
+~
+0 -1 10842 0
+S
+#10867
+I Giardini di Palazzo~
+L'erba è verdissima, tenera e profumata. Gigli, rose, violette, tulipani,
+gardenie, orchidee ed ogni altra specie di fiore è presente in quantità
+immensa, simile ad una soffice marea pronta a sommergere i vialetti alberati
+che percorrono questi giardini. Grosse aiuole sono lavorate in varie fogge,
+e splendide fontane rifrangono in sfolgoranti colori la luce del sole.
+Il grande viale lastricato in pietra nera prosegue verso ovest, verso
+il Palazzo!
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10868 0
+D1
+~
+~
+0 -1 10870 0
+D2
+~
+~
+0 -1 10869 0
+D3
+~
+~
+1 -1 10866 0
+S
+#10868
+I Giardini di Palazzo~
+L'erba è verdissima, tenera e profumata. Gigli, rose, violette, tulipani,
+gardenie, orchidee ed ogni altro fiore sono presenti in quantità immensa,
+simili ad una soffice marea pronta a sommergere i vialetti alberati che
+percorrono questi giardini. Grosse aiuole sono lavorate in varie fogge, e
+splendide fontane rifrangono in miriadi di sfolgoranti colori la luce del
+Sole.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10871 0
+D2
+~
+~
+0 -1 10867 0
+S
+#10869
+I Giardini di Palazzo~
+L'erba è verdissima, tenera e profumata. Gigli, rose, violette, tulipani,
+gardenie, orchidee ed ogni altra specie di fiore è presente in quantità
+immensa, simile ad una soffice marea pronta a sommergere i vialetti alberati
+che percorrono questi giardini. Grosse aiuole sono lavorate in varie fogge,
+e splendide fontane rifrangono in sfolgoranti colori la luce del Sole.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10867 0
+D1
+~
+~
+0 -1 10872 0
+S
+#10870
+I Giardini di Palazzo~
+L'erba è verdissima, tenera e profumata. Gigli, rose, violette, tulipani,
+gardenie, orchidee ed ogni altra specie di fiore è presente in quantità
+immensa, simile ad una soffice marea pronta a sommergere i vialetti alberati
+che percorrono questi giardini. Grosse aiuole sono lavorate in varie fogge,
+e splendide fontane rifrangono in sfolgoranti colori la luce del Sole.
+Il viale principale termina qui. Di fronte a te, la gigantesca struttura del
+Palazzo, fulcro legislativo, religioso, politico ed economico della Comunità
+di Rymil e faro per tutte le altre Comunità Elfiche.
+E' una struttura torreggiante, la cui base cilindrica è però manifestamente
+precedente alle strutture tipicamente elfiche che vi sono state impiantate
+sopra: sembra una sorta di elissoide a vari ordini di arcate piuttosto
+primitive, ricoperte nella pietra biancastra tipica delle strade solo per
+proteggerla: gli Elfi hanno mantenuto ciò che le culture antiche avevano
+lasciato preservandolo per il futuro. Innalzando lo sguardo, però, vedi che
+la loro opera si è spinta ben oltre: le mura, lisce come seta sono intrecciate
+di miriadi di complessi archi e trabeazioni, con bassorilievi lungo tutti i
+cornicioni. Sfolgorante è la parte superiore, formato da un immenso sistema di
+volte e cupole, tutte rivestite in oro. Grosse gemme sono incastonate nei
+muri, rivestiti di alabastro. Intorno alle finestre, delle cariatidi in forma
+di splendide raffigurazioni di fanciulle ed efebi.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10871 0
+D1
+~
+~
+0 -1 10873 0
+D2
+~
+~
+0 -1 10872 0
+D3
+~
+~
+0 -1 10867 0
+S
+#10871
+I Giardini di Palazzo~
+L'erba è verdissima, tenera e profumata. Gigli, rose, violette, tulipani,
+gardenie, orchidee ed ogni altra specie di fiore è presente in quantità
+immensa, simile ad una soffice marea pronta a sommergere i vialetti alberati
+che percorrono questi giardini. Grosse aiuole sono lavorate in varie fogge,
+e splendide fontane rifrangono in sfolgoranti colori la luce del Sole.
+~
+0 0 2 0 0 0
+D2
+~
+~
+0 -1 10870 0
+D3
+~
+~
+0 -1 10868 0
+S
+#10872
+I Giardini di Palazzo~
+L'erba è verdissima, tenera e profumata. Gigli, rose, violette, tulipani,
+gardenie, orchidee ed ogni altra specie di fiore è presente in quantità
+immensa, simile ad una soffice marea pronta a sommergere i vialetti alberati
+che percorrono questi giardini. Grosse aiuole sono lavorate in varie fogge,
+e splendide fontane rifrangono in sfolgoranti colori la luce del Sole.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10870 0
+D3
+~
+~
+0 -1 10869 0
+S
+#10873
+Il Colonnato dei Giganti~
+La volta di questo salone è incredibilmente alta! Una selva di colonne,
+ciascuna del diametro di tre passi, sorregge i costoloni di pietra nera, che
+suddividono le volte a crociera in vele, su cui sono ricavate in legno delle
+sculture che da qui sembrano piccole, ma che considerata la distanza devono
+essere di dimensioni proporzionate alle colonne. I pavimenti sono di marmi
+policromi, e su di essi vedi passeggiare a piccoli gruppi i funzionari della
+Comunità.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10874 0
+D3
+~
+~
+0 -1 10870 0
+S
+#10874
+Il Primo Vestibolo~
+Passi in un ambiente a tre navate. Profonde finestre, precise come veloci
+fendenti, si aprono sulle volte, ed inondano la stanza di luce azzurrina,
+poichè i vuoti della parete muraria sono colmati da lastre di cristallo
+azzurro. Statue, affreschi, arazzi sono sparsi ovunque, in una profusione
+senza fine, eppure mai eccessiva. Sembra tutto al proprio posto naturale,
+sotto la giusta luce e con i giusti elementi architettonici vicino.
+Un'attenzione all'ordine ed alla precisione ancora maggiore che nel resto
+della città. Una grande scalinata dai corrimano damascati porta verso i
+Saloni Superiori, mentre nella navata affianco noti da lontano una strana
+raffigurazione sul pavimento.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10886 0
+D3
+~
+~
+0 -1 10873 0
+D4
+~
+~
+0 -1 10875 0
+S
+#10875
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10878 0
+D1
+~
+~
+0 -1 10877 0
+D2
+~
+~
+0 -1 10879 0
+D3
+~
+~
+0 -1 10876 0
+D5
+~
+~
+0 -1 10874 0
+S
+#10876
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento di
+nera ossidiana.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10882 0
+D1
+~
+~
+0 -1 10875 0
+D2
+~
+~
+0 -1 10883 0
+S
+#10877
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10880 0
+D1
+~
+~
+0 -1 10884 0
+D2
+~
+~
+0 -1 10881 0
+D3
+~
+~
+0 -1 10875 0
+S
+#10878
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10880 0
+D2
+~
+~
+0 -1 10875 0
+D3
+~
+~
+0 -1 10882 0
+S
+#10879
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10875 0
+D1
+~
+~
+0 -1 10881 0
+D3
+~
+~
+0 -1 10883 0
+S
+#10880
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10877 0
+D3
+~
+~
+0 -1 10878 0
+S
+#10881
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10877 0
+D3
+~
+~
+0 -1 10879 0
+S
+#10882
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10878 0
+D2
+~
+~
+0 -1 10876 0
+S
+#10883
+Il Salone Aureo~
+Questo salone è talmente grande da mozzare il fiato: solo in lontananza
+intravedi, in uno scintillio, il famoso Trono d'Avorio, nell'abside di
+questa colossale struttura. E proprio lì si concentra apparentemente tutta
+la luce che entra in questa stanza. Il resto del salone, infatti, è immerso
+come in una penombra calda ed accogliente, che fa da sfondo ideale ai
+sommessi mormorii e sussurri dei gruppetti di nobili e dignitari che si
+raccolgono ai piedi delle grosse e slanciate colonne, in attesa di essere
+ricevuti in udienza. Ovunque oro, platino e gemme sono profusi in ogni
+dettaglio, soprattutto nel magnifico fregio floreale che orna il pavimento
+di nera ossidiana.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10876 0
+D1
+~
+~
+0 -1 10879 0
+S
+#10884
+La sala del Trono d'Avorio~
+Improvvisamente ti senti come immerso nella luce. Un bellissimo seggio,
+completamente in avorio, si trova esattamente al di sotto di una grande
+apertura circolare sulla volta, mentre alte finestre come raggi si
+dipartono da essa, irrorando con la loro luce questo abside. Una colossale
+statua di uno dei Profeti con le braccia spalancate si trova nel catino
+absidale, mentre le gemme incastonate nel trono sembrano rilucere come fiamme
+ardenti. I simboli dei vari clan elfici sono posti lungo tutto il tamburo
+della cupola, realizzati in varie leghe, mentre lo stendardo imperiale si
+trova come sospeso a mezz'aria, sostenuto da esili catene di metallo lucente.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10877 0
+D4
+~
+muro~
+0 -1 10885 0
+S
+#10885
+Il Tempio dei Reggenti~
+Un ambiente circolare, a cui si accede per mezzo di una piccola angusta
+scaletta incassata nei possenti muri del palazzo. La volta della cupola è
+realizzata completamente in candido avorio, e stelle d'oro sono incastonate
+nei cassettoni che alleggeriscono la struttura. Ampie finestre circolari si
+aprono verso il cielo, ed una di esse è priva di vetro: nonostante ciò, la
+luce che la attraversa è di un colore blu estremamente rilassante, che
+rifrangendosi sui marmi bianchi e rossi delle colonne che reggono la volta e
+del pavimento, creano una sensazione di grande calma e serena energia. In
+questo luogo, spoglio di ogni comodità, i sovrani entrano in comunione con
+le Divinità, le cui statue sono addossate ai muri, assieme a grandi affreschi
+che le raffigurano nella loro immensa gloria dell'aiuto concesso agli Elfi
+durante l'Esodo.
+~
+0 1024 0 0 0 0
+D5
+~
+botola~
+0 -1 10884 0
+S
+#10886
+La sala degli Ambasciatori~
+Volgi gli occhi verso il pavimento: ciò che vedi ti ricorda vagamente la
+forma che Veedhan ha oggi, ma molte delle terre raffigurate non le hai mai
+conosciute. Comprendi che questo mosaico di finissime tessere di marmo
+raffigura Veedhan prima dei cataclismi. Altri mosaici, raffiguranti la
+Veedhan attuale rivestono i muri, assieme a delicate raffigurazioni
+allegoriche di ogni città amica o neutrale. Sulla volta, un grandioso ciclo
+di affreschi raffigurante la Creazione del mondo, l'Esodo e la Comunione con
+questo nuovo pianeta.
+Questo è il luogo in cui gli ambasciatori ed i messi provenienti da vari
+luoghi di Rymil giungono per consegnare i loro messaggi e riportare le
+direttive indicate dal Reggente, o per intavolare lunghe trattative. Noti che,
+stranamente, non ci sono sedie nè tavoli. Solo un immenso armadio contenente
+innumerevoli pergamene arrotolate.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10887 0
+D2
+~
+~
+0 -1 10874 0
+S
+#10887
+Il salone dei ricevimenti~
+Una grandissima sala, dalle volte a crociera riccamente affrescate con
+migliaia di sottilissimi ghirigori dorati su sfondo color zaffiro. Il
+pavimento è formato da uno splendido mosaico policromo, realizzato in
+tessere di marmo multicolore. Raffigura nuvole, montagne immerse nella
+nebbia e grandi aquile che solcano un cielo limpido. La realizzazione è
+così curata che ti sembra di camminare in aria davvero. Una lunga serie di
+grandi finestre si trova verso nord, e molti arazzi e statue ornano il lato
+sud. Questa parte del palazzo è il luogo in cui si svolgono i balli ufficiali
+ed i pranzi diplomatici. Lunghe tende rosse damascate coprono, se lo si vuole,
+le finestre, trasformando questo posto nella zona ideale per discutere
+sottilmente di pericolose questioni di stato.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10886 0
+S
+#10888
+La Casa della Bellezza~
+Triclini sono posti in bell'ordine, in vari punti dell'edificio. Su
+ognuno di essi, i clienti possono accomodarsi ed attendere di ricevere le
+attenzioni del personale addetto ad un'arte fra le più raffinate: il
+perfezionamento dell'aspetto fisico! Veri e propri consiglieri di bellezza
+si aggirano cortesemente fra i presenti, dispensando consigli su cosa
+indossare, che unguenti e profumi utilizzare, e quali saranno le novità nel
+campo della moda. Il mormorio è alto: come sempre, luoghi simili sono
+l'ideale per chiacchierare con gli amici ed amiche... Oltre che per
+intessere utili relazioni...
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10846 0
+S
+#10889
+Le Provvisioni Generali~
+Realizzato completamente in mattoni rossi, le pareti dell'edificio sono
+rivestite di legno decorato a motivi floreali. Il pavimento è di marmo
+rosato ed un gran numero di inservienti si muove freneticamente da una parte
+e dall'altra. Questo palazzo è il cardine del sistema assistenziale voluto
+da Rymil: chiunque, privo di mezzi, può rivolgersi ad uno dei funzionari ed
+ottenere quanto gli serve con poca o minima spesa. Dato il gran numero di
+elfi che intendono partire a caccia di gloria personale, recentemente qui si
+trovano anche merci adatte ai giovani avventurieri: utili, ma di poco
+prezzo. Decisamente l'ideale, per muovere i primi passi.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10847 0
+S
+#10890
+Il porticato d'ingresso alle Terme~
+Entri in un vasto giardino quadrangolare, circondato da portici. Delicati
+sentieri di ciottolato bianco si incrociano a perpendicolo presso uno stagno
+di forma circolare, all'interno del quale sono presenti incantevoli e
+raffinate raffigurazioni di Ninfe, ed alberi. Splendidi cespugli di rose
+rosse, bianche, gialle sono disseminati dappertutto, oltre ad alcune
+varietà di colori mai visti: violette, blu, nere... Sono il simbolo della
+Dea dell'Amore, e proprio in questo luogo sono nate e continuate moltissime
+storie, sia fugaci avventure galanti, che profondi innamoramenti per la
+vita. Alti alberi di ciliegio e di pesca sovrastano il porticato, ed in
+primavera abbelliscono ulteriormente il luogo con i loro profumatissimi
+fiori. Ad ovest si trovano gli spogliatoi, verso est le palestre. A nord, a
+giudicare dai vapori, le terme vere e proprie.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10894 0
+D1
+~
+~
+0 -1 10898 0
+D2
+~
+~
+0 -1 10841 0
+D3
+~
+~
+0 -1 10893 0
+S
+#10891
+Il Tempio di Aerthal~
+Una gigantesca statua del Dio elfico della Guerra è posta sul fondo del
+tempio. Raffigurato seduto su un trono di nuda roccia, sotto i piedi
+calpesta gli scudi dei nemici e le loro armi spezzate, in mano porta una
+lunga spada ed il suo sguardo sembra essere vivo e vigile su ognuno dei
+presenti. Qui i Sacerdoti si riuniscono per discutere sulla giustezza delle
+guerre intraprese dalle Comunità Elfiche e per invocare la protezione di
+Aerthal sulle armi, le armature ed i soldati della Città e delle Comunità a
+lui fedeli.
+~
+0 1024 0 0 0 0
+D2
+~
+~
+0 -1 10817 0
+S
+#10892
+Le tribune superiori~
+Da qui godi una stupenda visuale dell'intera scena, ed il tuo occhio
+abbraccia l'intera semicirconferenza del teatro. Una lunga serie di archi a
+tutto sesto sovrasta le gradinate, e su di essi vengono stesi dei teli
+fissati al muro dietro al palcoscenico per proteggere il pubblico nei giorni
+di pioggia. I capitelli delle colonne sono ornati di maschere ed i fusti
+sono slanciati come ogni cosa in questa città. L'acustica è perfetta, e
+gli attori a cui viene concesso il privilegio di recitare qui sono i
+migliori di Veedhan. Goditi pure la rappresentazione.
+~
+0 0 2 0 0 0
+D5
+~
+~
+0 -1 10825 0
+S
+#10893
+Gli spogliatoi~
+Attorno a te vedi molti armadietti. In ciascuno di essi vengono
+depositati i vestiti, mentre giovani inservienti porgono ai frequentatori
+drappi e asciugamani di lino candido, oltre che dei sandali per recarsi
+verso i bagni. Il pavimento è di marmo bianco, e le finestre allungate sono
+numerose, onde assicurare una ventilazione continua ed abbondante.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10890 0
+S
+#10894
+La Sala Centrale~
+Il salone è molto grande. Una grande volta a crociera copre il vasto
+spazio quadrato rivestito di marmi policromi a motivi geometrici. Le colonne
+che la sostengono sono di ossidiana nera, bordate d'oro ai capitelli
+floreali ed ai basamenti. I muri sono coperti da lastre di alabastro, e un
+gigantesco globo azzurro illumina la Sala di una tenera luce. Una fontanella
+a forma di pesce fa zampillare un fiotto d'acqua in una vasca bordata da
+erbe profumate. Molta gente qui passeggia e chiacchiera, liberandosi per
+qualche ora del peso della vita esterna. Alcuni giocano a dadi, altri usano
+carte e pedine. Tutti comunque, controllati dai Sovrintendenti vestiti in
+corte tuniche rosse.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10896 0
+D1
+~
+~
+0 -1 10897 0
+D2
+~
+~
+0 -1 10890 0
+D3
+~
+~
+0 -1 10895 0
+S
+#10895
+Il frigidario~
+Passi in un salone coperto da una volta a botte rivestita di bassorilievi
+dorati. Una grande vasca elittica copre quasi tutta la superficie della
+stanza, alimentata da fiotti d'acqua che fuoriescono dalle bocche di due
+leoni spalancati, posti alle estremità della piscina. L'acqua di questa
+sala è gelida, e noti solo pochi cittadini avventurarsi nelle sue acque...
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10894 0
+E
+bassorilievi~
+Sollevi lo sguardo verso l'alto e rimiri incantato: il soggetto delle
+raffigurazioni è prevalentemente floreale, raffigurante viticci che si
+intrecciano, foglie e rose. Sono talmente realistici da sembrare veri.. Se
+non fosse che sono realizzati in oro!
+~
+S
+#10896
+Il tepidario~
+Passi in un salone coperto da una volta a botte rivestita di bassorilievi
+dorati. Una grande vasca elittica copre quasi tutta la superficie della
+stanza, alimentata da fiotti d'acqua che fuoriescono dalle bocche di due
+leoni spalancati, posti alle estremià della piscina. L'acqua di questa
+sala è tiepida, e molti vi si immergono, senza alcuna distinzione di sesso,
+ceto e classe sociale. C'è un gradevole brusio di chiacchiere nell'aria.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10894 0
+E
+bassorilievi~
+Sollevi lo sguardo verso l'alto e rimiri incantato: il soggetto delle
+raffigurazioni è prevalentemente floreale, raffigurante viticci che si
+intrecciano, foglie e rose. Sono talmente realistici da sembrare veri.. Se
+non fosse che sono realizzati in oro!
+~
+S
+#10897
+Il calidario~
+Passi in un salone coperto da una volta a botte rivestita di bassorilievi
+dorati. Una grande vasca elittica copre quasi tutta la superficie della
+stanza, alimentata da fiotti d'acqua che fuoriescono dalle bocche di due
+leoni spalancati, posti alle estremità della piscina. Nuvole di vapore
+provengono dall'acqua bollente della vasca. Anche qui, sono pochissimi
+coloro che decidono di immergervisi.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10894 0
+E
+bassorilievi~
+Sollevi lo sguardo verso l'alto e rimiri incantato: il soggetto delle
+raffigurazioni è prevalentemente floreale, raffigurante viticci che si
+intrecciano, foglie e rose. Sono talmente realistici da sembrare veri.. Se
+non fosse che sono realizzati in oro!
+~
+S
+#10898
+Le palestre~
+Un lungo salone è sovrastato da una volta a botte. Molti attrezzi ginnici
+sono sparsi per la stanza, mentre una lunga fila di ampie finestre si trova
+su ogni lato del salone. Il luogo, contrariamente a quanto ti aspetti, è
+affollato sia da maschi che da femmine. Queste ultime sono vestite esattamente
+come i maschi, ovvero con un corto gonnellino a coprire l'inguine, onde
+facilitare i movimenti. Su due colonne, noti il busto di Aerthal il Possente e
+quello di Lynthalie: infatti, benchè molti amori siano sbocciati anche qui, è
+per allenarsi per le vere battaglie che questo luogo venne costruito, anche se
+spesso e volentieri risulta più utile per le schermaglie amorose. In ogni
+caso, comprendi dagli sguardi fieri di ognuno, qui, che non è il caso di
+cercar rogne.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10890 0
+S
+#10899
+Il Tempio della Vittoria~
+Superi il frontone del tempio, sorretto da due file di colonne tortili in
+bronzo, ed entri in questo piccolo scrigno d'arte. Lastre di marmo bianco
+tappezzano il pavimento, ed i muri sono ricoperti di splendidi affreschi. Il
+soffitto è di cristallo, consentendo alla luce di versarsi abbondante
+all'interno del tempio. La statua di una dama alata con spada e corona
+troneggia al centro della stanza.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 -1 10900 0
+D3
+~
+~
+0 -1 10809 0
+E
+statua~
+La statua è realizzata completamente in oro, drappeggiata in una
+semplice tunica dalle molte pieghe. Un diadema di perle le cinge la fronte,
+ed un'antica spada si trova fra le sue mani. Un'iscrizione si trova sul
+basamento di marmo rosso. "Nella Luce Vincitori".
+~
+E
+affreschi~
+Lungo le pareti, gli episodi cruciali della storia elfica sono
+raffigurati con grande vividezza. Atti di eroismo, coraggio in battaglia,
+sacrificio per i compagni: tutto ciò che ha reso possibile la gloria degli
+Elfi è qui celebrato ed immortalato dalle mani dei più valenti artisti elfici.
+~
+S
+#10900
+La Sala della Gloria~
+Ti ritrovi in un piccolo ambiente circolare. Nessuna decorazione ai muri,
+completamente nudi e spogli, di pietra grigia e solida. Finestre a forma di
+occhio si aprono sul soffitto e sulle pareti, e la luce che da esse proviene
+raggiunge un trono in legno di quercia posto al centro esatto della stanza,
+ed ai suoi piedi noti un incisione in una delle lastre del pavimento.
+Avverti un grande potere risiedere qui. Le statue di due chierici,
+catafratte in nere pianete bordate d'oro sono inginocchiate ai lati di esso,
+a capo chino. Di notte, due bracieri d'argento posti nelle loro mani a coppa
+sollevate verso il trono illuminano fiocamente l'ambiente.
+~
+0 9216 0 0 0 0
+D3
+~
+~
+0 -1 10899 0
+E
+lastra~
+Osservi la scritta, vecchia ormai di secoli e calpestata da centinaia di
+piedi. ".. Il Trono del Primo Profeta sarà stabile sin quando l'ultima
+scintilla di vita svanirà dal corpo dell'ultimo degli Elfi.."
+~
+S
+#10901
+Il Credito Comune~
+Un piccolo ambiente, quasi incassato nel porticato attorno al Foro, dalle
+dimensioni inversamente proporzionali alla sua importanza. Un bancone di
+mogano intarsiato con figure vegetali, e pile di monete su di esso. Un
+grosso libro mastro giace aperto su di un leggio, e nelle vicinanze una gran
+quantità di lettere di cambio. Una grande attività di corrieri e mercanti
+è visibile nelle immediate vicinanze, e comprendi immediatamente di
+trovarti nella sede centrale del Credito Comune, l'istituto di deposito e
+conversione della moneta di Rymil.
+Una tavoletta di bronzo è esposta in bella vista sull'arcata di ingresso.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10810 0
+E
+tavoletta~
+"Tasso di conversione attuale: 1 Aureo = 10 Denari d'Argento = 100 Derhan di
+Bronzo"
+~
+S
+#10902
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10904 0
+D1
+~
+~
+0 -1 10853 0
+D2
+~
+~
+0 -1 10903 0
+D3
+~
+~
+0 -1 10810 0
+S
+#10903
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10902 0
+D1
+~
+~
+0 -1 10852 0
+S
+#10904
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10907 0
+D2
+~
+~
+0 -1 10902 0
+S
+#10905
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10906 0
+D3
+~
+~
+0 -1 10852 0
+S
+#10906
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10908 0
+D2
+~
+~
+0 -1 10905 0
+D3
+~
+~
+0 -1 10853 0
+S
+#10907
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10908 0
+D2
+~
+~
+0 -1 10853 0
+D3
+~
+~
+0 -1 10904 0
+S
+#10908
+I Giardini dei Cantori~
+Stretti sentieri di ghiaia bianca percorrono questo grande parco. L'erba
+è folta e ben curata, gli alberi alti e robusti, e grandi siepi di fiori
+riempiono l'aria di un profumo inebriante. Una musica celestiale riempie
+questi giardini ogni giorno, poichè qui vengono ad esercitarsi o a mostrare
+la propria abilità un gran numero di bardi e musicisti, giorno e notte. Il
+luogo infonde una calma ed una serenità ultraterreni. Un piccolo laghetto
+si trova verso il centro dei giardini: l'isoletta al suo centro è ricoperta
+di rose rosse.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10817 0
+D2
+~
+~
+0 -1 10906 0
+D3
+~
+~
+0 -1 10907 0
+S
+#10909
+Il Sacrario dei Profeti~
+Entri in uno spazio perfettamente rotondo. Il silenzio è pressocchè totale,
+ed è sorprendente data la vicinanza del luogo al Foro. Profonde e sottili
+nicchie sono state ricavate nei muri rivestiti da pannelli di ebano, ciascuna
+contenente la raffigurazione di un Signore degli Elfi, e torce dorate
+illuminano il luogo con una luce tenue e soffusa: nessuna finestra è infatti
+aperta verso l'esterno. Noti che al centro della sala, nel punto di
+intersezione delle sottili linee dorate che uniscono passando sul pavimento
+nero una statua all'altra, si erge un piedistallo con un'iscrizione.
+~
+0 1025 0 0 0 0
+D0
+~
+~
+0 -1 10811 0
+E
+iscrizione~
+Esamini la tavola di marmo nero a lettere dorate. Un'aquila d'argento è
+posta in rilievo sulla parte superiore, ed al di sotto di essa leggi:
+" All'imperitura memoria dei Profeti e degli Antenati"
+~
+S
+#10910
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10821 0
+D1
+~
+~
+0 -1 10911 0
+D2
+~
+~
+0 -1 10915 0
+D3
+~
+~
+0 -1 10913 0
+S
+#10911
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10912 0
+D2
+~
+~
+0 -1 10916 0
+D3
+~
+~
+0 -1 10910 0
+S
+#10912
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D2
+~
+~
+0 -1 10917 0
+D3
+~
+~
+0 -1 10911 0
+S
+#10913
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D1
+~
+~
+0 -1 10910 0
+D2
+~
+~
+0 -1 10914 0
+D3
+~
+~
+0 -1 10950 0
+S
+#10914
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10913 0
+D1
+~
+~
+0 -1 10915 0
+D2
+~
+~
+0 -1 10921 0
+S
+#10915
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10910 0
+D1
+~
+~
+0 -1 10916 0
+D2
+~
+~
+0 -1 10920 0
+D3
+~
+~
+0 -1 10914 0
+S
+#10916
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10911 0
+D1
+~
+~
+0 -1 10917 0
+D2
+~
+~
+0 -1 10919 0
+D3
+~
+~
+0 -1 10915 0
+S
+#10917
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità. Verso est noti un punto in cui è possibile salire
+verso un altipiano sulle Colline.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10912 0
+D1
+~
+~
+0 -1 10931 0
+D2
+~
+~
+0 -1 10918 0
+D3
+~
+~
+0 -1 10916 0
+S
+#10918
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10917 0
+D3
+~
+~
+0 -1 10919 0
+S
+#10919
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10916 0
+D1
+~
+~
+0 -1 10918 0
+D3
+~
+~
+0 -1 10920 0
+S
+#10920
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10915 0
+D1
+~
+~
+0 -1 10919 0
+D3
+~
+~
+0 -1 10921 0
+S
+#10921
+Il Campo di Aerthal~
+Una lunga valle, posta sul lato meridionale delle Colline. Il terreno è
+sgombro, e non coltivato. Nulla vi cresce, se non una folta erba verde,
+qualche cespuglio ed alcuni alberelli isolati. Sparsi intorno ci sono dei
+bersagli e dei fantocci da allenamento, oltre che dei criminali condannati a
+morte ed incatenati a pietre circolari poste sul terreno e che li ancorano
+ferocemente al suolo, in attesa che i giovani avventurieri o i cittadini
+sotto le armi possano usarli come allenamento, rendendo nel contempo un
+servigio alla comunità.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10914 0
+D1
+~
+~
+0 -1 10920 0
+S
+#10922
+I Cancelli d'Oro~
+Profondamente incassati nella Triplice Cinta, vedi aprirsi dinanzi a te i
+giganteschi Cancelli di Diamante. Realizzati completamente in lega di Vero
+Oro, secoli fa, non vennero mai varcati dai nemici degli Elfi. Da qui presero
+il loro nome. Sulla loro superficie, vedi rune e simboli di vittoria
+magnificamente realizzati in bronzo, mentre due grandi Rune di protezione
+troneggiano su ciascuno dei battenti.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10923 0
+D1
+~
+portali~
+1 -1 10815 0
+D2
+~
+~
+0 -1 10924 0
+D3
+~
+~
+0 -1 10925 0
+S
+#10923
+Lungo le Mura di Rymil~
+Sei lungo una stradina militare d'accesso alle mura. E' separata da esse
+da un profondo fossato colmo di pali aguzzi, come quello che si trova
+all'esterno. Una stretta rampa supera il baratro e conduce in cima ad una
+torre.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 10922 0
+D4
+~
+~
+0 -1 10942 0
+S
+#10924
+Lungo le Mura di Rymil~
+Sei lungo una stradina militare d'accesso alle mura. E' separata da esse
+da un profondo fossato colmo di pali aguzzi, come quello che si trova
+all'esterno. Una stretta rampa supera il baratro e conduce in cima ad una
+torre.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10922 0
+D4
+~
+~
+0 -1 10943 0
+S
+#10925
+Sul Tiblyrin verso Rymil~
+Stai viaggiando lungo il grande Fiume che sgorga dal sottosuolo poco oltre i
+Cancelli d'Oro.
+Lunghi filari di cipressi sono ai suoi fianchi, ed oltre essi intravedi i
+fertili campi magicamente coltivati e mantenuti di cui si sostenta la
+popolazione di Rymil. Il profumo dei frutteti è molto intenso, ed infatti noti
+un gran numero di alberi, cresciuti come naturalmente su questa terra scura
+come le penne di un corvo. Sei entrato in una rientranza delle colline, oltre
+questo imbuto naturale si trovano le colossali fortificazioni della cinta
+muraria di Rymil: vedi perfettamente le tre cinta di mura ed i due castelli
+soprannominati le "Torri". Sia le mura che le torri sono gigantesche: sembrano
+ergersi naturalmente dalla roccia e proseguire verso l'alto con uno slancio
+irraggiungibile. Ma vedendo le altissime torri cittadine svettare ben più
+alte dei più elevati pinnacoli della Torre del Drago e dell'Ippogrifo,
+comprendi che questo è veramente solo l'inizio. Al lato noti una
+pietra con un incisione.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10922 0
+D3
+~
+~
+0 -1 10926 0
+E
+pietra incisione~
+Leggi: "Lega Prima dopo i Cancelli"
+~
+S
+#10926
+Sul Tyblirin verso Rymil~
+Stai viaggiando lungo il grande Fiume che sgorga dal sottosuolo poco oltre i
+Cancelli d'Oro.
+Lunghi filari di cipressi sono ai suoi fianchi, ed oltre essi intravedi i
+fertili campi magicamente coltivati e mantenuti di cui si sostenta la
+popolazione di Rymil. Il profumo dei frutteti è molto intenso, ed infatti noti
+un gran numero di alberi, cresciuti come naturalmente su questa terra scura
+come le penne di un corvo. Da qui le colline che circondano la Città sono
+perfettamente visibili: lisce e levigate come se lavorate da una gigantesca
+pialla. Indubbiamente, il frutto del lavoro di maghi potentissimi in tempi
+remoti. Le Torri ai lati dei Cancelli iniziano a mostrarsi in tutta la loro
+possanza: da qui stimi siano alte ad occhio e croce venti passi e larghe
+altrettanto: dei veri e propri castelli in miniatura! Al lato noti una
+pietra con un incisione.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10925 0
+D2
+~
+~
+0 -1 10927 0
+E
+pietra incisione~
+Leggi: "Lega Seconda dopo i Cancelli"
+~
+S
+#10927
+Sul Tyblirin verso Rymil~
+Stai viaggiando lungo il grande Fiume che sgorga dal sottosuolo poco oltre i
+Cancelli d'Oro.
+Lunghi filari di cipressi sono ai suoi fianchi, ed oltre essi intravedi i
+fertili campi magicamente coltivati e mantenuti di cui si sostenta la
+popolazione di Rymil. Il profumo dei frutteti è molto intenso, ed infatti noti
+un gran numero di alberi, cresciuti come naturalmente su questa terra scura
+come le penne di un corvo. Da qui le colline che circondano Città sono
+perfettamente visibili: lisce e levigate come se lavorate da una gigantesca
+pialla. Indubbiamente, il frutto del lavoro di maghi potentissimi in tempi
+remoti. Sempre più vicino intravedi le due possenti Torri a guardia dei
+Cancelli. Al lato noti una pietra con un incisione.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10926 0
+D3
+~
+~
+0 -1 10928 0
+E
+pietra incisione~
+Leggi: "Lega Terza dopo i Cancelli"
+~
+S
+#10928
+Sul Tyblirin verso Rymil~
+Stai viaggiando lungo il grande Fiume che sgorga dal sottosuolo poco oltre i
+Cancelli d'Oro.
+Lunghi filari di cipressi sono ai suoi fianchi, ed oltre essi intravedi i
+fertili campi magicamente coltivati e mantenuti di cui si sostenta la
+popolazione di Rymil. Il profumo dei frutteti è molto intenso, ed infatti noti
+un gran numero di alberi, cresciuti come naturalmente su questa terra scura
+come le penne di un corvo. I ripidi colli che circondano su tre lati la Città
+da qui iniziano effettivamente a sembrare impossibili da scalare, mentre da
+lontano vedi la possente, triplice cinta di mura che chiude il cerchio
+naturale intorno alla Prima Comunità. Al lato noti una  pietra con un
+incisione.
+~
+0 0 1 0 0 0
+D1
+~
+~
+0 -1 10927 0
+D2
+~
+~
+0 -1 10929 0
+E
+pietra incisione~
+Leggi: "Lega Quarta dai Cancelli"
+~
+S
+#10929
+Sul Tyblirin verso Rymil~
+Stai viaggiando lungo il grande Fiume che sgorga dal sottosuolo poco oltre i
+Cancelli d'Oro.
+Lunghi filari di cipressi sono ai suoi fianchi, ed oltre essi intravedi i
+fertili campi magicamente coltivati e mantenuti di cui si sostenta la
+popolazione di Rymil. Il profumo dei frutteti è molto intenso, ed infatti noti
+un gran numero di alberi, cresciuti come naturalmente su questa terra scura
+come le penne di un corvo. I ripidi colli che circondano su tre lati la Città
+da qui iniziano effettivamente a sembrare impossibili da scalare, mentre da
+lontano vedi la possente, triplice cinta di mura che chiude il cerchio
+naturale intorno alla Prima Comunità. Al lato noti una pietra con un incisione.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10928 0
+D2
+~
+~
+0 -1 10930 0
+E
+pietra incisione~
+Leggi: "Lega Quinta dai Cancelli"
+~
+S
+#10930
+Le Colonne dell'Esodo~
+Di fronte a te, due colossali colonne sormontate da aquile d'oro si
+trovano ai fianchi della strada, che qui diventa un percorso ampio e ben
+disegnato, lastricato con pietre e ciottoli e dotato di canali di scolo e
+parapetti per non consentire alla vegetazione di invaderne il percorso. Ogni
+colonna reca un'iscrizione, in linguaggio comune.
+~
+0 0 2 0 0 0
+D0
+~
+~
+0 -1 10929 0
+E
+colonne iscrizione iscrizioni~
+Esamina la colonna di sinistra e la colonna di destra per leggere le
+iscrizioni poste su ciascuna di esse.
+~
+E
+sinistra~
+La colonna di sinistra riporta queste parole: "Qui termina ogni
+giurisdizione che non sia quella dei Figli della Stella.
+Qualsiasi ingerenza verrà punita adeguatamente."
+~
+E
+destra~
+La colonna di destra reca incise queste parole: "Sii benvenuto come un
+fratello, se nel cuore porti l'Antica Luce, ma se tenebre celi dietro il tuo
+cammino, verrai punito com'è tuo destino"
+~
+S
+#10931
+Il Colle dei Falchi~
+Ti inerpichi lungo una stretta strada militare, tracciata in linea retta
+lungo questo ripido e scosceso tornante dei monti attorno Rymil. Sotto di
+te vedi i Campi di Aerthal, mentre proseguendo lungo la via vedi le porte di
+un accampamento. Molti soldati in licenza percorrono questa via, ai cui lati
+non cresce alcun albero: niente deve fare da riparo ad eventuali,
+improbabili aggressori dalle micidiali frecce della guarnigione.
+~
+0 0 4 0 0 0
+D1
+~
+~
+0 -1 10932 0
+D3
+~
+~
+0 -1 10917 0
+S
+#10932
+Le Porte del Presidio~
+Un massiccio, solido portone di ferro percorso da lamine, borchie ed
+aculei d'acciaio. Su ambo i battenti si trova raffigurata un'Aquila. Un
+orifiamma sventola sul portale: la bandiera di battaglia della Prima Armata,
+raffigurante una spada d'oro in campo rosso, avvolta da fulmini e serpenti.
+Vedi le sentinelle camminare lungo i muri merlati che sbarrano l'accesso
+alla cerchia delle colline. Un gran rumore viene dall'interno della cinta.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10933 0
+D1
+~
+~
+0 -1 10935 0
+D2
+~
+~
+0 -1 10934 0
+D3
+~
+~
+0 -1 10931 0
+S
+#10933
+La Cinta Interna~
+Questo muraglione è costituito da due strati di giganteschi tronchi di
+quercia, fra cui è posto uno strato di ghiaia, cemento, ciottoli e mattoni
+frantumati spesso almeno cinque passi. Una tettoia copre il camminamento,
+mentre le feritoie si aprono a distanza regolare fra i merli, intervallate
+da micidiali baliste e catapulte, dotate evidentemente di proiettili
+incendiari. Noti infatti una lunga fila di recipienti di quella che sembra
+ad una prima occhiata pece.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10932 0
+S
+#10934
+La Cinta Interna~
+Questo muraglione è costituito da due strati di giganteschi tronchi di
+quercia, fra cui è posto uno strato di ghiaia, cemento, ciottoli e mattoni
+frantumati, spesso almeno cinque passi. Una tettoia copre il camminamento,
+mentre le feritoie si aprono a distanza regolare fra i merli, intervallate
+da micidiali baliste e catapulte, dotate evidentemente di proiettili
+incendiari. Noti infatti una lunga fila di recipienti di quella che sembra
+ad una prima occhiata pece.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10932 0
+S
+#10935
+Il centro dell'accampamento~
+Un piccolo podio di legno si trova al centro di questo spiazzo. Intorno
+ad esso, si svolgono le adunate. Infisso al fianco si trovano gli stendardi
+personali dei comandanti, ed una tabella con gli ordini del giorno affissi
+in bella mostra. Verso sud, un lungo, arcuato porticato conduce ad
+un'altissima torre.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10936 0
+D1
+~
+~
+0 -1 10937 0
+D2
+~
+~
+0 -1 10938 0
+D3
+~
+~
+0 -1 10932 0
+S
+#10936
+Le camerate~
+Un colossale ambiente, ricavato in parte nel sottosuolo. I vari ambienti
+sono suddivisi da semplici sbarramenti di legno, mentre i letti ed il poco
+mobilio individuale dei soldati sono ridotti all'essenziale. Ognuno di essi
+dorme con l'equipaggiamento ai piedi della branda, pronto a scattare in
+piedi ed a combattere entro pochi secondi dall'allarme.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10935 0
+S
+#10937
+L'alloggiamento degli Strateghi~
+Un basso edificio circolare, sormontato da una cupola a tutto sesto.
+Sulla volta affrescata è raffigurata Veedhan, mentre su di un tavolo al di
+sotto di essa si trovano una gran quantità di mappe, ordini e missive che
+gli Strateghi utilizzano nel loro lavoro. Il mobilio è riccamente decorato,
+ma ridotto all'essenziale. I letti differiscono di poco da quelli dei comuni
+soldati. I tre letti degli Strateghi sono disposti verso nord sud ed est, al
+di sotto di tre grandi finestre sormontate da archi a tutto sesto. Un fodero
+si trova su ciascuno di essi.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10935 0
+E
+fodero~
+In questi foderi vengono riposte, quando non usate da uno Stratego, le
+spade simbolo della loro autorità.
+~
+S
+#10938
+La Torre dell'Apoteosi~
+Percorri a lungo uno stretto cunicolo, ricavato nella roccia delle Colline.
+All'improvviso emergi in uno spazio immenso, perfettamente circolare. Una
+rampa è addossata alle mura, e su di esse sono affrescati tutti i cicli
+mitologici e le credenze del popolo elfico, assieme alla loro storia.
+Guardando verso l'alto, ti sembra che la rampa non termini mai. Una sola,
+grossa colonna di un metallo mai visto e contornato di un alone azzurro parte
+dal pavimento di marmo nero fino a raggiungere, credi, la sommità della torre.
+Ti sconcerta constatare come la colonna sia larga alla base almeno dieci
+passi... E come il suo culmine sembri non più largo di un pollice.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10935 0
+D4
+~
+~
+0 -1 10939 0
+S
+#10939
+La Torre dell'Apoteosi, primo piano~
+Percorri a perdifiato la rampa spiraliforme della Torre dell'Apoteosi.
+Gli affreschi si susseguono in continuazione, realizzati con stile e
+magnificenza impareggiabili. Solo ogni tanto una stretta finestra si apre
+per consentire alla luce di inondare questo vero e proprio sacrario alla
+Storia. Sottili decorazioni runiche percorrono il pavimento della rampa, e
+brillano dolcemente al tuo passaggio.
+~
+0 0 0 0 0 0
+D4
+~
+~
+0 -1 10940 0
+D5
+~
+~
+0 -1 10938 0
+S
+#10940
+La Torre dell'Apoteosi, secondo piano~
+Percorri a perdifiato la rampa spiraliforme della Torre dell'Apoteosi.
+Gli affreschi si susseguono in continuazione, realizzati con stile e
+magnificenza impareggiabili. Solo ogni tanto una stretta finestra si apre
+per consentire alla luce di inondare questo vero e proprio sacrario alla
+Storia. Sottili decorazioni runiche percorrono il pavimento della rampa, e
+brillano dolcemente al tuo passaggio.
+~
+0 0 0 0 0 0
+D4
+~
+~
+0 -1 10941 0
+D5
+~
+~
+0 -1 10939 0
+S
+#10941
+Il culmine della Torre~
+All'improvviso raggiungi il culmine della Torre. Una cupola molto arcuata
+d'oro purissimo, scintillante ai raggi del Sole e della Luna, sostenuta da
+colonne di candido marmo. Il panorama che si presenta ai tuoi occhi dalle
+aperture che si irraggiano attorno a te è mozzafiato: ti trovi in posizione
+più elevata persino dell'acropoli cittadina, e da qui abbracci completamente
+l'intera città di Rymil. Volgendo lo sguardo intorno, vedi la Via d'accesso
+e, piccolissime, le Colonne dell'Esodo. Verso oriente, nella città, scorgi
+la grande mole del Palazzo. Lo scintillio di innumerevoli templi e teatri,
+terme e torri, il candore di tanti palazzi frammisto ai colori vivaci di
+molte abitazioni e al verde sfolgorante dei giardini, dei parchi cittadini
+e dei filari d'alberi che ovunque percorrono la Capitale la rendono simile
+a quello che idealmente è: il gioiello unico ed irripetibile forgiato dalla
+forza degli Esuli, brillante degli innumerevoli colori del loro animo.
+~
+0 0 0 0 0 0
+D5
+~
+~
+0 -1 10940 0
+S
+#10942
+La Torre del Dragone~
+Sali una lunga serie di ripide scale a spirale. La luce è fornita
+unicamente da strette feritoie, scavate nella roccia come da un colpo
+d'ascia. Quando finalmente giungi in cima, resti senza fiato. Volgendosi
+verso oriente, vedi gran parte della Capitale con tutti i suoi traffici,
+monumenti e splendidi edifici, verso occidente, gli sterminati e ben
+ordinati campi e boschetti intorno a Rymil. Un'alta merlatura è posta sul
+bordo della Torre, anch'essa realizzata come da un blocco unico della pietra
+bianca come le mura, baliste e piccole catapulte sono poste a distanze
+regolari sul lato ovest, mentre dai pinnacoli vedi sbandierare l'insegna di
+questa Torre: un Dragone d'argento su fondo nero.
+~
+0 0 0 0 0 0
+D0
+~
+~
+0 -1 10944 0
+D5
+~
+~
+0 -1 10923 0
+S
+#10943
+La Torre dell'Ippogrifo~
+Sali una lunga serie di ripide scale a spirale. La luce è fornita
+unicamente da strette feritoie, scavate nella roccia come da un colpo
+d'ascia. Quando finalmente giungi in cima, resti senza fiato. Volgendosi
+verso oriente, vedi gran parte della Capitale con tutti i suoi traffici,
+monumenti e splendidi edifici, verso occidente, gli sterminati e ben
+ordinati campi e boschetti intorno a Rymil. Un'alta merlatura è posta sul
+bordo della Torre, anch'essa realizzata come da un blocco unico della pietra
+bianca come le mura, baliste e piccole catapulte sono poste a distanze
+regolari sul lato ovest, mentre dai pinnacoli vedi sbandierare l'insegna di
+questa Torre: un Ippogrifo d'oro su campo blu notte.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 -1 10946 0
+D5
+~
+~
+0 -1 10924 0
+S
+#10944
+I camminamenti~
+La bianca pietra usata per costruire le mura emana una
+magica sensazione di sicurezza e calma potenza, mentre gli artifici
+difensivi delle Torri hanno sempre fatto sì che nessun nemico prendesse la
+città durante un assedio.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10945 0
+D2
+~
+~
+0 -1 10942 0
+S
+#10945
+I camminamenti~
+La bianca pietra usata per costruire le mura emana infatti una
+magica sensazione di sicurezza e calma potenza, mentre gli artifici
+difensivi delle Torri hanno sempre fatto sì che nessun nemico prendesse la
+città durante un assedio.
+~
+0 0 1 0 0 0
+D2
+~
+~
+0 -1 10944 0
+S
+#10946
+I camminamenti~
+La bianca pietra usata per costruire le mura emana infatti una
+magica sensazione di sicurezza e calma potenza, mentre gli artifici
+difensivi delle Torri hanno sempre fatto sì che nessun nemico prendesse la
+città durante un assedio.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10943 0
+D2
+~
+~
+0 -1 10947 0
+S
+#10947
+I camminamenti~
+La bianca pietra usata per costruire le mura emana infatti una
+magica sensazione di sicurezza e calma potenza, mentre gli artifici
+difensivi delle Torri hanno sempre fatto sì che nessun nemico prendesse la
+città durante un assedio.
+~
+0 0 1 0 0 0
+D0
+~
+~
+0 -1 10946 0
+S
+#10948
+L'Antica Oreficeria~
+Entri in questo ambiente molto intimo e confortevole: le pareti non si
+vedono, coperte da pesanti drappi color blu scuro bordati da incantevoli
+frange dorate. Un banco di ossidiana si trova di fronte all'entrata, e teche
+di cristallo ai suoi fianchi contengono un numero incalcolabile di collane,
+orecchini, pendenti ed oggettini, magari di non eccelso valore, ma di sicuro
+realizzati con cura straordinaria rispetto a manifatture di pari prezzo.
+Noti una targhetta d'argento su una delle pareti, in mezzo ad una gran
+quantità di pergamene.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10851 0
+E
+targhetta~
+Fornitori ufficiali della Prima Casa dal 2560
+~
+E
+pergamene~
+Sembrano attestati di qualità ed encomi al proprietario.
+~
+S
+#10949
+La Taverna del Lupo Famelico~
+Tavoli in legno di quercia, un bancone anch'esso di legno e la faccia
+dura ma simpatica di un oste! Eccoti giunto alla taverna del Lupo Famelico,
+dove per pochi spiccioli potrai gustare di tutto: dalle raffinatezze della
+cucina nobiliare ai rudi ma saporiti piatti della cucina popolare. I tavoli
+sono bene allineati ed affiancati da panche di legno. Piccoli globi
+azzurrini sono tenuti fissati alle pareti da torce in forma di artigli,
+mentre servitori e cameriere si affrettano da un tavolo all'altro. L'aria è
+piena di un aroma semplicemente delizioso.
+~
+0 0 0 0 0 0
+D3
+~
+~
+0 -1 10855 0
+S
+#10950
+La terra dell'Ultima Ora~
+Un leggero rilievo del terreno, in prossimità della cinta di colline che
+serrano Rymil. Molte pire sorgono al limitare di un boschetto, deputate alla
+cremazione dei morti. Il luogo è silente. Nessun rumore vi giunge, nè dalla
+città nè dai vicini campi di Aerthal. Il muro delle colline si staglia,
+circondato di nebbie, all'orizzonte. Ai loro piedi, gli alberelli più giovani
+ed i maestosi fusti degli alberi più anziani ricordano coloro che qui vennero
+spesso sepolti, dopo essere stati arsi, sotto di loro. Tutto è immerso in una
+pace celestiale, e la luce si diffonde tenue e controllata, come da un velo
+invisibile.
+~
+0 1024 3 0 0 0
+D1
+~
+~
+0 -1 10913 0
+S
+#0
+
+
+#RESETS
+O 0 10800 1 10800  ; Object: #10800 La Sacra Stele => #10800 Il Circolo della Luce
+O 0 10801 1 10805  ; Object: #10801 Una fontana di marmo => #10805 Il centro del Foro
+O 0 10802 1 10805  ; Object: #10802 La Tribuna Oratoria => #10805 Il centro del Foro
+M 0 10809 1 10805  ; Mob: #10809 un magistrato => #10805 Il centro del Foro
+G 0 10805 1 ; -- Give:  #10805 Una chiave d'oro
+M 0 10800 1 10807  ; Mob: #10800 un soldato elfico => #10807 La parte occidentale del Foro
+M 0 10816 1 10808  ; Mob: #10816 un maestro dell'accademia => #10808 La parte meridionale del Foro
+M 0 10810 1 10812  ; Mob: #10810 una sacerdotessa => #10812 L'angolo nordovest del Foro
+M 0 10814 1 10814  ; Mob: #10814 un'elfa misteriosa => #10814 Via del Tramonto
+M 0 10800 1 10815  ; Mob: #10800 un soldato elfico => #10815 Via del Tramonto
+M 0 10800 1 10818  ; Mob: #10800 un soldato elfico => #10818 Via delle Stelle
+M 0 10800 1 10820  ; Mob: #10800 un soldato elfico => #10820 Via del Riso
+M 0 10800 1 10822  ; Mob: #10800 un soldato elfico => #10822 Via della Sapienza
+M 0 10809 1 10823  ; Mob: #10809 un magistrato => #10823 Via della Sapienza
+M 0 10808 1 10827  ; Mob: #10808 crythe => #10827 La libreria
+G 0 10826 1 ; -- Give:  #10826 Il Corpus Iuris Imperialis
+G 0 10827 1 ; -- Give:  #10827 Un manuale di Belle Arti
+M 0 10816 1 10829  ; Mob: #10816 un maestro dell'accademia => #10829 I giardini dell'Accademia
+O 0 10803 1 10833  ; Object: #10803 I seggi dei Giudizi => #10833 Il Palazzo di Giustizia
+D 0 10833 0 2  ; Door: #10833 Il Palazzo di Giustizia/North => closed and locked
+D 0 10834 2 2  ; Door: #10834 L'Archivio di Stato/South => closed and locked
+M 0 10816 1 10842  ; Mob: #10816 un maestro dell'accademia => #10842 Via delle Stelle
+M 0 10809 1 10844  ; Mob: #10809 un magistrato => #10844 Via dei Commerci
+G 0 10804 1 ; -- Give:  #10804 Una chiave di platino
+M 0 10801 1 10849  ; Mob: #10801 un giovane fabbro => #10849 La Forgia
+G 0 10812 1 ; -- Give:  #10812 Degli schinieri elfici
+G 0 10811 1 ; -- Give:  #10811 Un elmo crestato
+G 0 10810 1 ; -- Give:  #10810 Una lorica a scaglie elfica
+G 0 10825 1 ; -- Give:  #10825 Uno scudo elfico
+M 0 10802 1 10850  ; Mob: #10802 un armaiolo => #10850 La Forgia
+G 0 10813 1 ; -- Give:  #10813 Un sottile pugnale
+G 0 10814 1 ; -- Give:  #10814 Una lunga spada elfica
+G 0 10815 1 ; -- Give:  #10815 Un arco composito
+M 0 10800 1 10851  ; Mob: #10800 un soldato elfico => #10851 Il vicolo degli Orefici
+M 0 10815 1 10852  ; Mob: #10815 un bardo => #10852 I Giardini dei Cantori
+M 0 10800 1 10854  ; Mob: #10800 un soldato elfico => #10854 Il quartiere degli artigiani
+M 0 10800 1 10866  ; Mob: #10800 un soldato elfico => #10866 I Cancelli del Palazzo Imperiale
+M 0 10800 1 10866  ; Mob: #10800 un soldato elfico => #10866 I Cancelli del Palazzo Imperiale
+O 0 10809 1 10884  ; Object: #10809 Il Trono d'Avorio => #10884 La sala del Trono d'Avorio
+O 0 10808 1 10888  ; Object: #10808 Un triclinio => #10888 La Casa della Bellezza
+M 0 10804 1 10888  ; Mob: #10804 leandrelle => #10888 La Casa della Bellezza
+G 0 10819 1 ; -- Give:  #10819 Una collezione di profumi
+G 0 10820 1 ; -- Give:  #10820 Una raffinata tunica di seta bianca
+M 0 10803 1 10889  ; Mob: #10803 un funzionario => #10889 Le Provvisioni Generali
+G 0 10816 1 ; -- Give:  #10816 Un corpetto di cuoio nero, con ricami dorati
+G 0 10818 1 ; -- Give:  #10818 Un mantello blu notte
+G 0 10817 1 ; -- Give:  #10817 Una cintura di pelle nera dalla fibbia d'argento
+M 0 10814 1 10890  ; Mob: #10814 un'elfa misteriosa => #10890 Il porticato d'ingresso alle Terme
+O 0 10806 1 10893  ; Object: #10806 Armadietti => #10893 Gli spogliatoi
+O 0 10807 1 10895  ; Object: #10807 Una piscina => #10895 Il frigidario
+O 0 10807 1 10896  ; Object: #10807 Una piscina => #10896 Il tepidario
+O 0 10807 1 10897  ; Object: #10807 Una piscina => #10897 Il calidario
+M 0 10810 1 10899  ; Mob: #10810 una sacerdotessa => #10899 Il Tempio della Vittoria
+M 0 10805 1 10901  ; Mob: #10805 eaden il banchiere => #10901 Il Credito Civile
+M 0 10800 1 10902  ; Mob: #10800 un soldato elfico => #10902 I Giardini dei Cantori
+M 0 10814 1 10902  ; Mob: #10814 un'elfa misteriosa => #10902 I Giardini dei Cantori
+M 0 10815 1 10904  ; Mob: #10815 un bardo => #10904 I Giardini dei Cantori
+M 0 10811 1 10912  ; Mob: #10811 un prigioniero elfo scuro => #10912 Il Campo di Threndor
+M 0 10812 1 10913  ; Mob: #10812 un orrendo ghoul => #10913 Il Campo di Threndor
+M 0 10811 1 10915  ; Mob: #10811 un prigioniero elfo scuro => #10915 Il Campo di Threndor
+M 0 10813 1 10916  ; Mob: #10813 un grosso troll => #10916 Il Campo di Threndor
+M 0 10812 1 10918  ; Mob: #10812 un orrendo ghoul => #10918 Il Campo di Threndor
+M 0 10800 1 10922  ; Mob: #10800 un soldato elfico => #10922 I Cancelli di Diamante
+M 0 10800 1 10932  ; Mob: #10800 un soldato elfico => #10932 Le Porte del Presidio
+M 0 10809 1 10937  ; Mob: #10809 un magistrato => #10937 L'alloggiamento degli Strateghi
+M 0 10806 1 10948  ; Mob: #10806 thelindear => #10948 L'Antica Oreficeria
+G 0 10822 1 ; -- Give:  #10822 Un braccialetto di mithril tempestato di ametiste
+G 0 10823 1 ; -- Give:  #10823 Un diadema d'oro
+G 0 10821 1 ; -- Give:  #10821 Una collana di perle con pendente d'oro
+G 0 10824 1 ; -- Give:  #10824 Uno sfolgorante orecchino di smeraldo in forma d'Aquila
+M 0 10807 1 10949  ; Mob: #10807 allandhir => #10949 La Taverna del Lupo Famelico
+G 0 10829 1 ; -- Give:  #10829 Un arrosto di agnello
+G 0 10828 1 ; -- Give:  #10828 Una minestra vegetale
+G 0 10830 1 ; -- Give:  #10830 Una coppa di vino elfico
+G 0 10831 1 ; -- Give:  #10831 Un calice di Elyel
+S
+
+
+#SHOPS
+10801 0 0 0 0 0 50 100 6 18 ; un giovane fabbro
+10802 0 0 0 0 0 50 100 6 18 ; un armaiolo
+10803 9 7 1 5 19 10 100 6 18 ; un funzionario
+10804 0 0 0 0 0 100 100 6 18 ; Leandrelle
+10806 0 0 0 0 0 100 100 6 18 ; Thelindear
+10807 0 0 0 0 0 100 100 6 23 ; Allandhir
+10808 0 0 0 0 0 100 100 9 19 ; Crythe
+0
+
+
+#SPECIALS
+S
+
+
+#END

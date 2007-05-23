@@ -1,0 +1,34 @@
+#RACE
+RaceNumber     RACE_SEAELF
+NameMale       Elfo Marino~
+NameFema       Elfa Marina~
+Color          AT_BLUE dodger blue 4~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -5   0  -5    5   0   0    5   0   5    0   0   0    0   5   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus         5     5    -10    0     0     0
+PointLimit     0 1 4 1
+Affected       AFFECT_DETECT_MAGIC AFFECT_AQUA_BREATH~
+Resist         RIS_COLD~
+Suscept        ~
+*
+LangNatural    LANGUAGE_MARINE~
+*
+LangLearnable  ~
+AlignStart     600
+MinAlign      -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        112
+Height         160
+Weight         55,000
+TonalitySound  voce armoniosa~
+Tonality       75
+HungerMod      0
+ThirstMod      -3
+SavingThrow    0 0 0 0 0
+End
+
+#END

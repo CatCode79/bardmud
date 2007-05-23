@@ -1,0 +1,11 @@
+#CLASS
+ClassNumber    CLASS_17
+NameMale       System17~
+NameFemale     System17~
+Color          AT_GREY grigio~
+PointsName     Vita Movimento Mana Anima~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AvarageAttr     0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+End
+
+#END

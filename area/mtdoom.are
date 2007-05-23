@@ -1,0 +1,3776 @@
+#AREA
+Name         Monte Fato~
+Author       Yaegar (Naaril)~
+Color        AT_RED rosso~
+LevelRange   40 60
+ResetFreq    1
+ResetMsg1    Stridenti urla giungono dal vuoto..~
+Flags        ~
+Economy      0 497845790
+Vnums        14700 14800
+End
+
+
+#MOBILES
+#14700
+lord krothgar~
+Lord Krothgar~
+Lord Krothgar ti guarda con malignita'.
+~
+Alto piu' di otto piedi, Krothgar indossa un armatura di piastre metalliche
+resa ancor piu' minacciosa da impressionanti spuntoni d'acciaio.
+Da' l'impressione di poter frantumare anche la roccia coi suoi possenti
+pugni, se solo si adirasse. Deve destare poco stupore il fatto che le
+forze dell'oscurita' lo abbiano scelto come loro emissario in questa zona.
+~
+75 8860 -1000 C
+65 0 -300 4638d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 32768 0
+#14701
+cavaliere scheletrico~
+un cavaliere scheletrico~
+Un cavaliere scheletrico ti fissa in modo perverso.
+~
+Uno dei fedeli servitori di Marmandes, il principe dei demoni,
+e' pronto ad eseguire i suoi ordini, ad ogni costo. Krothgar tollera
+ la loro presenza solo in virtu' dell'alleanza che ha stipulato con
+ le forze dell'oscurita' per aumentare il proprio potere.
+~
+75 648 -1000 C
+56 0 -250 2664d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14702
+golem mithryl~
+un golem di mithryl~
+Un golem di mithryl fa' la guardia pronto a stritolare i nemici del suo padrone.
+~
+Questo automa senz'anima e' stato creato dagli scienziati al servizio di Krothgar perche' lo serva come guardia del corpo e boia. Attacchera' al minimo segnale di comando.
+~
+67 0 0 C
+50 0 -212 2016d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14703
+marmandes demone principe~
+Il principe demoniaco Marmandes~
+Il principe demoniaco Marmandes ti osserva incuriosito dalla tua presenza.
+~
+Marmandes è stato mandato qui dai suoi malefici padroni per osservare e aiutare il loro seguace, Krothgar , se possibile preferisce evitare di essere coivolto direttamente in combattimento, essendo molto piu' debole in questo piano di esistenza che in quello natio e interessato com'e' a vedere come si comportera' Krothgar. Questo non significa che, se necessario, non si difendera' al meglio delle sue capacita'.
+~
+75 700 -1000 C
+60 0 -275 4047d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14704
+axtraxes arci mago~
+axtraxes~
+Appena entri il vile arci mago ti attacca urlando.!
+~
+Quest'uomo dall'aspetto malvagio e perverso e'  il consulente di Krothgar nel ramo della  stregoneria,
+impregnato dell'impressionate potere magico del signore oscuro. E' infuriato per la tua intromissione e reagisce aggressivamente.
+~
+227 664 -1000 C
+54 0 -237 1688d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14705
+arci prete~
+un malvagio arci prete~
+Un malvagio arci prete si infuria per il tuo sacrilegio!
+~
+Hai interrotto questo sacerdote nel bel mezzo di una cerimonia in onore di Dei innominabili.
+L'arci prete è estremamente arrabbiato e lo sono anche gli dei che venera ...
+L'arci prete si battera' fino alla morte.
+~
+99 648 -1000 C
+54 0 -237 1413d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14706
+guardia nera~
+una guardia nera~
+Una guardia nera tenta di impedirti di proseguire.
+~
+Esattamente come il suo signore, questa guardia indossa una pesante armature a piastre metalliche nere dotata di tremendi spuntoni impugna una enorme Stella del Mattino ricoperta di punte insanguinate, che oscilla da
+una mazza di legno. Ti grida di identificarti mettendosi in guardia da combattimento.
+~
+99 512 -1000 C
+50 0 -212 1237d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14707
+destriero~
+un destriero~
+Un destriero, cavalcatura di qualche cavaliere del male, sbuffa rabbiosamente contro di te.
+~
+Quest'enorme cavallo deve pesare il doppio qualsiasi altro che hai mai
+visto. Sembra che il suo manto nero arda di una malefica forza interiore e tu respiri a fatica in
+stordito dal malevolo luccichio oscuro nei suoi occhi rossi.
+~
+67 512 -1000 C
+40 0 -150 773d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14708
+sacerdote oscuro~
+Un malvagio sacerdote~
+Un malvagio sacerdote urla pervaso di fanatica devozione.!
+~
+Questa sporca creatura è uno dei malvagi sacerdoti del signore oscuro ed è
+intenzionato a sacrificargli la tua anima!
+~
+67 512 -1000 C
+40 0 -150 1810d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14709
+alchimista~
+Un malvagio alchimista~
+Un malvagio alchimista ti inveisce contro per aver interrotto il suo esperimento!
+~
+Hai scelto il momento sbagliato per disturbarlo distruggendo cosi' anni di lavoro.
+L'alchimista ora sbava furiosamente e sembra inferocito contro di te ...
+~
+227 528 -1000 C
+45 0 -181 2023d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14710
+guardia nera~
+un membro della Guardia Nera~
+Un membro della Guardia Nera si para dinanzi a te.
+~
+Questo e' uno dei fanatici guerrieri che compongono la guardia nera, il nerbo della malefica armata di Lord Krothga.
+~
+99 512 -1000 C
+48 0 -200 1815d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14711
+drago rosso~
+Un drago rosso~
+Un drago rosso sta per incenerirti.
+~
+Questo e' uno dei cinque draghi preferiti da Lord Krothgar, ed e' estremamente fedele al suo padrone.
+Zanne enormi spuntano da una bocca capace di soffiare in modo distruttivo
+mentre il malevolo luccichio dei suoi occhi mentre ti guardano ti  mette lo stomaco sottosopra.
+Ti sei gia' pentito della tua intrusione.
+~
+99 524968 -1000 C
+57 0 -256 1451d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14712
+nero drago~
+un drago nero~
+Un drago nero sta per incenerirti.
+~
+Questo e' uno dei cinque draghi preferiti da Lord Krothgar, ed e' estremamente fedele al suo padrone.
+Zanne enormi spuntano da una bocca capace di soffiare in modo distruttivo
+mentre il malevolo luccichio dei suoi occhi mentre ti guardano ti  mette lo stomaco sottosopra.
+Ti sei gia' pentito della tua intrusione.
+~
+99 524968 -1000 C
+48 0 -200 1351d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14713
+drago bianco~
+un drago bianco~
+Un drago bianco sta per incenerirti.
+~
+Questo e' uno dei cinque draghi preferiti da Lord Krothgar, ed e' estremamente fedele al suo padrone.
+Zanne enormi spuntano da una bocca capace di soffiare in modo distruttivo
+mentre il malevolo luccichio dei suoi occhi mentre ti guardano ti  mette lo stomaco sottosopra.
+Ti sei gia' pentito della tua intrusione.
+~
+99 524968 -1000 C
+45 0 -181 1211d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14714
+blue drago~
+un drago blu~
+Un drago blu sta per incenerirti.
+~
+Questo e' uno dei cinque draghi preferiti da Lord Krothgar, ed e' estremamente fedele al suo padrone.
+Zanne enormi spuntano da una bocca capace di soffiare in modo distruttivo
+mentre il malevolo luccichio dei suoi occhi mentre ti guardano ti  mette lo stomaco sottosopra.
+Ti sei gia' pentito della tua intrusione.
+~
+99 524968 -1000 C
+54 0 -237 2602d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14715
+verde drago~
+un drago verde~
+Un drago verde sta per incenerirti.
+~
+Questo e' uno dei cinque draghi preferiti da Lord Krothgar, ed e' estremamente fedele al suo padrone.
+Zanne enormi spuntano da una bocca capace di soffiare in modo distruttivo
+mentre il malevolo luccichio dei suoi occhi mentre ti guardano ti  mette lo stomaco sottosopra.
+Ti sei gia' pentito della tua intrusione.
+~
+99 524968 -1000 C
+51 0 -218 1241d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14716
+elementale fuoco~
+un elementale del fuoco~
+Un elementale del fuoco incendia tutto cio' che e' nelle sue vicinanze.
+~
+Questa creatura, proveniente da un diverso piano di esistenza, e' stata evocata dai maghi della torre  affinche' li serva.
+~
+99 0 0 C
+53 0 -231 2634d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14717
+efreeti~
+un efreeti~
+Un efreeti si libra sopra una lampada di ferro.
+~
+Questa creatura, trasferita dal Piano Elementale del Fuoco alla lampada sul
+pavimento, non è felice,  la potenza magica della lampada è stata esaurita e lui
+non ha alcun modo di ritornare. La creatura ha gia' ammazzato l'evocatore, e
+ora tentera' di assassinare anche te!
+~
+99 532996 -1000 C
+49 0 -206 2512d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14718
+shedu~
+uno shedu~
+Uno shedu se ne sta seduto in un angolo.
+~
+Questa creatura sfortunata è stata catturata da un agente di Krothgar, che l'ha portata
+qui legata. L'agente passa occasionalmente del tempo torturandola per divertimento, ma se ne e' ormai
+annoiato e presto l'uccidera'.
+~
+67 8832 1000 C
+52 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14719
+illithid~
+Un malvagio illithid~
+Un malvagio illithid adocchia il tuo cranio.
+~
+Questo sporco succhia cervelli vuole romperti la testa e poiché i seguaci di Krothgar non brillano per intelligenza sei una appetitosa sorpresa.
+~
+227 8232 -1000 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14720
+schiavo~
+un miserabile schiavo~
+Un miserabile schiavo attende di essere sacrificato.
+~
+Questo infelice e patetico schiavo ha perso tutta la speranza. Se ne sta accovacciato tutto nudo e tremante
+in un angolo della cella farfugliando implorazioni di clemenza  in preda al piu' oscuro terrore.
+~
+131 0 0 C
+10 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14721
+schiava~
+una miserabile schiava~
+Una schiava che presto sara' "usata" per lenire la noia delle truppe di Krothgar.
+~
+Questa infelice e patetica schiava ha persa tutta la speranza. Se ne sta accovacciata tutta nuda e tremante
+in un angolo della cella cercando di coprirsi come meglio puo' e implora clemenza in preda al terrore e alla vergogna.
+~
+131 0 0 C
+10 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14722
+mutante~
+un mutante~
+Un ripugnante mutante sbava e grida furiosamente.
+~
+Queste creature innaturali sono i prodotti degli sporchi esperimenti pazzi degli
+alchimisti sugli schiavos catturati nel tentativo creare la perfetta
+razza combattente, un esperimento che si e' infine realizzato nella Guardia Nera di Korgthar.
+Questi fallimenti sono stati condannati a trascorrere una vita cupa dimenticati (quando sono fortunati) nelle fosse.
+~
+99 544 0 C
+45 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14723
+idra~
+un idra a dodici teste~
+Un idra a dodici teste ti ruggisce contro.
+~
+Questa potente creatura si è alleata con Krothgar in cambio di una dieta stabile
+a base di esseri umani ed elfi. Combatterà ferocemente per difendere la casa del suo
+fornitore di pasti e contorni.
+~
+99 512 0 C
+52 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14724
+quasit~
+Un quasit~
+Un quasit ti inveisce contro con fare aggressivo.
+~
+Questa creatura e' il famiglio di qualche stregone. Sembra essere arrabbiata
+perche' l'hai vista.
+~
+227 622634 -1000 C
+25 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14725
+succubus~
+un succubus~
+Un succubus ti sorride malizioso.
+~
+Questo demone lussurioso e' l'attuale concubina di Lord Krothgar. A causa del
+suo insaziabile appetito e' sempre in caccia di nuove pred .... ehmmm .... amanti.
+~
+195 524936 -1000 C
+49 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14726
+elementale terra~
+un elementale della terra~
+Un elementale della terra schiaccia tutto cio' che capita sulla sua traiettoria.
+~
+Questa creatura, proveniente da un diverso piano di esistenza, e' stata evocata dai maghi della torre  affinche' li serva.
+~
+99 0 0 C
+53 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14727
+acqua elementale~
+un elementale dell'acqua~
+Un elementale dell'acqua sommerge tutto ciò che capita alla sua portata.
+~
+Questa creatura, proveniente da un diverso piano di esistenza, e' stata evocata dai maghi della torre  affinche' li serva.
+~
+99 0 0 C
+53 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14728
+aria elementale~
+un elementale dell'aria~
+Un elementale dell'aria travolge tutto ciò che capita alla sua portata.
+~
+Questa creatura, proveniente da un diverso piano di esistenza, e' stata evocata dai maghi della torre  affinche' li serva.
+~
+99 0 0 C
+53 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14729
+mastino infernale~
+un mastino infernale~
+Un mastino infernale con un balzo ti salta addosso.
+~
+Sputa fuoco e fiamme e trasuda zolfo dalla squamosa pelle rossiccia questo segugio del male e'
+una spettacolo terrificante da vedere.
+~
+97 520 -1000 C
+45 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14730
+gigante fuoco~
+un gigante del fuoco~
+Un gigante del fuoco ti muove minacciosamente la sua spada sotto al naso.
+~
+Questi giganti sono i guardiani del vulcano conosciuto come Monte Fato, su  cui
+poggia la fortezza inespugnabile del loro padrone, Lord Krothgar. Essi
+si batteranno furiosamente per difenderlo.
+~
+67 512 -1000 C
+51 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14731
+gigante ghiaccio~
+un gigante dei ghiacci~
+Un gigante dei ghiacci ti rivolge un ghigno raggelante.
+~
+Questi giganti sono qui come ambasciatori alla ricerca di un'alleanza con Lord Krothgar.
+Non reagiranno di certo bene a nessun tipo di intrusione nei loro piani.
+~
+99 512 -1000 C
+48 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14732
+gigante colline~
+a hill giant~
+A hill giant grunts at you.
+~
+Questi giganti proteggono il territorio intorno al vulcano conosciuto come Monte Fato, su cui
+poggia l'inespugnabile fortezza del loro padrone, Lord Krothgar. Si batteranno furiosamente per difenderlo.
+~
+97 512 -1000 C
+45 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14733
+gigante nuvole~
+Un gigante delle nuvole~
+Un gigante delle nuvole ti osserva sogghignando.
+~
+Questi giganti sono qui come ambasciatori alla ricerca di un'alleanza con Lord Krothgar.
+Non reagiranno di certo bene a nessun tipo di intrusione nei loro piani.
+~
+99 512 -1000 C
+54 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14734
+schiavo orco~
+uno schiavo orco~
+Uno schiavo orco al servizio dei giganteschi soldati.
+~
+Potrebbe sembrare enorme, ma secondo lo standard di un gigante
+e' solo un tappo, e loro non fanno che prenderlo in giro mentre si avvicina,
+servendo da bere e da mangiare sommerso da "scherzosi" pugni sulla testa.
+~
+195 512 -400 C
+30 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14735
+stregone orco~
+uno stregone orco~
+Uno stregone orco sogghigna maleficamente verso te.
+~
+Questi parenti stretti dei giganteschi orchi dell'est sono stati invitati
+formare qui un'alleanza con l'esercito di Krothgar. Essi sono profondamente
+sospettosi dell'accordo, tuttavia esaminaranno tutte le clausole con lo stesso
+grado di cautela, ma senza prevenzioni di sorta, non troppe almeno ...
+~
+67 664 -1000 C
+49 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14736
+troll~
+un troll~
+Un fante troll sbadiglia profondamente.
+~
+Queste grottesche sono state allevate per combattimento, non per fare la sentinella e la noia
+quasi li uccide. Nemmeno notano la vostra presenza.
+~
+75 512 -1000 C
+48 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14737
+ettin~
+un ettin~
+Un ettin gira le sue due teste per fissarti.
+~
+Questo gigante a due teste è posto a guardia degli abitanti più importanti della
+fortezza. Prende i suoi compiti molto seriamente.
+~
+67 512 -1000 C
+52 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14738
+maestra assassina~
+la maestra degli assassini~
+La maestra degli assassini sorride sfoderando la spada.
+~
+Questa rara bellezza è il letale capo della elite degli assassini di Krothgar, chi
+ha ottenuto di più per la sua causa di una dozzina eserciti. Lei non richiede quartiere,
+e non ne concedera'!
+~
+67 8712 -1000 C
+53 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14739
+assassina~
+un assassina~
+Un assassina si sta preparando per il combattimento.
+~
+Questa donna è un membro della setta di assassini al servizio di Krothgar e ha ammazzato più
+uomini e donne di cento dei suoi soldati regolari.
+~
+99 512 -1000 C
+47 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14740
+ambasciatore drow~
+Un ambasciatore drow~
+Un ambasciatore drow ti concede uno sguardo glaciale.
+~
+Questa sacerdotessa e' qui per stipulare un alleanza fra il suo popolo e le forze di
+Krothgar. Non e' per niente contenta della tua intromissione nei suoi affari.
+~
+227 664 -1000 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14741
+warg~
+un warg~
+Un warg affamato sorveglia la zona.
+~
+Questa bestia serve i giganti delle colline che pattugliano le pianure del Fato.
+~
+97 544 -1000 C
+42 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14742
+ghoul~
+un ghoul assetato di sangue~
+Un ghoul assetato di sangue si aggira senza controllo.
+~
+Questo ripugnante creatura vuole banchettare con la tua carne!
+~
+97 512 -1000 C
+46 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14743
+vampira~
+una vampira~
+Una vampira ti sorride ...
+~
+Questa donna dalla fatale bellezza è traditrice e mortale. Si capisce perché a Krothgar piace averla
+intorno ....
+~
+195 1573512 -1000 C
+52 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14744
+lich~
+un antico lich~
+Un antico lich si risveglia dal suo lungo sonno e inizia a guardarti.
+~
+Nemmeno gli stregoni al servizio di Krothgar  sanno della segreta esistenza di questa tomba.
+Sepolto e imprigionato, il vecchio signore della Fortezza fu incarcerato qui
+dalle forze del Bene ere fa'. E ora voi lo avete svegliato.
+~
+75 533180 -1000 C
+60 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14745
+golem pietra~
+un golem di pietra~
+Un golem pietra fa' la guardia pronto a stritolare i nemici del suo padrone.
+~
+Questo automa privo di anima è stato creato dal potere degli oscuri sacerdoti di  Krothgar per
+servirlo come guardia del corpo (o per altri scopi di se ve ne fosse la necessità)
+e come boia.
+~
+67 0 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14746
+custode~
+il custode della fossa dei mutanti~
+Il custode della Fossa dei Mutanti ti ringhia contro rabbioso.
+~
+~
+99 8704 -1000 C
+46 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#14747
+naga principessa~
+una naga principessa~
+Una principessa dei Naga ti guarda altezzosa.
+~
+Questo serpente con la testa di donna sembra essersi offesa per la tua intrusione, ma
+lei si astiene da attaccare, sperando che le guardie del castello si accorgano
+di te cosi' non sara' costretta a sprecare energie per combattere.
+~
+75 648 -1000 C
+51 0 0 0d0+0 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#14700
+krothgar armatura~
+l'armatura di Lord Krothgar~
+L'armatura di Lord Krothgar e' poggiata qui.~
+~
+9 2 9 0
+10 10 0 0
+25 10 0
+A
+1 2
+A
+5 2
+A
+17 -15
+A
+18 2
+A
+19 3
+A
+23 -1
+A
+24 -1
+#14701
+krothgar spada~
+la spada di Lord Krothgar~
+La spada di Lord Krothgar e' qui.~
+~
+5 2 8193 0
+2 5 5 11
+15 0 0
+A
+13 50
+A
+18 10
+A
+19 10
+#14702
+krothgar scudo~
+lo scudo di Lord Krothgar~
+Lo scudo di Lord Krothgar e' qui.~
+~
+9 2 8193 0
+0 0 0 0
+15 0 0
+A
+17 -30
+A
+23 -3
+A
+24 -3
+#14703
+krothgar elmo~
+l'elmo maledetto di Lord Krothgar~
+L'elmo maledetto di Lord Krothgar e' qui.~
+~
+9 2 17 0
+0 0 0 0
+5 0 0
+A
+3 -5
+A
+4 -5
+#14704
+spadone~
+uno spadone~
+Uno spadone e' qui.~
+~
+5 2 8193 0
+5 8 7 8
+10 0 0
+A
+1 3
+A
+17 10
+A
+18 6
+A
+19 6
+#14705
+elmo bruciato~
+un elmo bruciato~
+Un elmo bruciato su cui e' dipinto un volto ripugnante e' qui.~
+~
+9 2 17 0
+9 5 0 0
+5 0 0
+A
+12 20
+A
+13 20
+A
+14 20
+A
+17 -10
+#14706
+pugno ferro~
+un tirapugni di ferro~
+Un tirapugni in ferro e' qui.~
+~
+5 2 129 0
+5 8 7 16
+10 40000 4000
+A
+2 -2
+A
+17 10
+A
+19 8
+#14707
+kusari-gama~
+una demoniaca kusari-gama~
+Una demoniaca kusari-gama e' qui.~
+~
+5 2 8193 0
+0 5 8 4
+10 0 0
+A
+18 6
+A
+19 6
+#14708
+lancia fiammegiante~
+una lancia fiammegiante~
+Una lancia fiammegiante arde sul pavimento.~
+~
+5 1 8193 0
+11 8 5 0
+5 0 0
+A
+18 4
+#14709
+lancia fiammegiante~
+una lancia fiammegiante~
+Una lancia fiammegiante arde sul pavimento.~
+~
+5 1 4097 0
+11 5 5 0
+5 0 0
+A
+18 4
+#14710
+lancia fiammegiante~
+una lancia fiammegiante~
+Una lancia fiammegiante arde sul pavimento.~
+~
+5 1 8193 0
+9 8 8 0
+5 0 0
+A
+18 4
+#14711
+lancia fiammegiante~
+una lancia fiammegiante~
+Una lancia fiammegiante arde sul pavimento.~
+~
+5 1 8193 0
+2 7 8 13
+5 0 0
+A
+18 4
+#14712
+daga~
+una daga sacrificale~
+Una daga sacrificale e' conficcata nel pavimento.~
+~
+5 2 8193 0
+2 5 4 11
+15 0 0
+#14713
+toga arcimago~
+la toga dell'arcimago~
+La toga dell'arcimago e' arrotolata in un angolo.~
+~
+9 16 9 0
+7 8 0 0
+5 0 0
+A
+4 4
+#14714
+maschera~
+la maschera funebre dell'arci prete~
+La maschera cerimoniale dell'arci prete e' qui.~
+~
+9 16 1048577 0
+8 8 0 0
+3 0 0
+A
+5 3
+A
+13 20
+#14715
+armatura piastre~
+Un'armatura di piastre con spuntoni di ferro~
+Un'armatura di piastre con spuntoni di ferro e' stata stupidamente abbandonata qui.~
+~
+9 2 9 0
+10 10 0 0
+20 0 0
+A
+17 -15
+#14716
+mazzafrusto~
+un enorme mazzafrusto~
+Un enorme mazzafrusto e' stato lasciato sul terreno..~
+~
+5 2 8193 0
+11 8 6 8
+15 0 0
+A
+18 -5
+A
+19 10
+#14717
+elmo~
+un elmo nero~
+Un elmo nero e' qui.~
+~
+9 2 17 0
+0 0 0 0
+5 0 0
+#14718
+daga~
+una daga sacrificale~
+Una daga sacrificale e' conficcata nel pavimento .~
+~
+5 16 8193 0
+0 0 0 11
+5 0 0
+#14719
+tunica da mago~
+la tunica del mago~
+Qui sono abbandonate delle tuniche macchiate di rifiuti chimici.~
+~
+9 16 9 0
+10 5 0 0
+5 0 0
+#14720
+maschera~
+la maschera del sacerdote della morte~
+La maschera cerimoniale di un sacerdote.~
+~
+9 16 1048577 0
+5 5 5 5 5 0
+3 0 0
+#14721
+tunica da mago~
+la tunica del mago~
+Qui sono abbandonate delle tuniche macchiate di rifiuti chimici.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+#14722
+tunica da mago~
+la tunica del mago~
+Qui sono abbandonate delle tuniche macchiate di rifiuti chimici.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+#14723
+tunica da mago~
+la tunica del mago~
+Qui sono abbandonate delle tuniche macchiate di rifiuti chimici.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+#14724
+drago scaglie~
+delle scaglie di drago~
+Delle grandi scaglie di drago sono state abbandonate qui.~
+~
+9 2 9 0
+0 0 0 0
+10 0 0
+A
+17 -18
+A
+23 -5
+#14725
+zanna~
+una zanna di drago~
+Una zanna di drago e' qui.~
+~
+5 2 8193 0
+9 5 5 11
+10 0 0
+A
+18 5
+A
+19 5
+#14726
+artiglio~
+drago artigli~
+Gli artigli insanguinati strappati a un drago sono qui.~
+~
+9 2 8193 0
+-10 10 0 0
+10 0 0
+A
+2 -2
+A
+18 4
+A
+19 4
+#14727
+pelle drago~
+la pelle di un drago~
+Una pelle di drago è stata gettata qui.~
+~
+9 2 9 0
+0 0 0 0
+10 0 0
+A
+13 15
+A
+17 -20
+A
+23 -2
+A
+24 -2
+#14728
+pelle drago~
+la pelle di un drago~
+Una pelle di drago è stata gettata qui.~
+~
+9 2 9 0
+0 0 0 0
+10 0 0
+A
+13 15
+A
+17 -20
+A
+23 -2
+A
+24 -2
+#14729
+fiala~
+una fiala vuota~
+Tutte le proprietà magiche di questa fiala sono state consumate.~
+~
+15 0 1 0
+1 1 0 0
+1 500 50
+#14730
+manette~
+un paio di manette~
+Un paio di manette e' qui.~
+~
+9 64 129 0
+0 0 0 0
+5 0 0
+A
+2 -3
+A
+17 10
+#14731
+toga~
+la toga di un illithid~
+La toga di un illithid e' abbandonata qui.~
+~
+9 64 9 0
+0 0 0 0
+1 0 0
+A
+12 25
+#14732
+gemma~
+una gemma~
+Questa gemma pulsa di energia maligna.~
+~
+1 1 16385 0
+0 0 -1 0
+1 0 0
+A
+3 1
+A
+4 1
+A
+12 20
+A
+17 -10
+#14733
+cassa~
+una cassa~
+Una pesante cassa e' posata qui in terra.~
+~
+15 0 0 0
+10000 1 0 0
+1 0 0
+#14734
+tesoro~
+un grande tesoro~
+Un grande tesoro e' qui.~
+~
+8 1 1 0
+0 0 0 0
+100 50000 5000
+#14735
+letto~
+un letto che ispira alla lussuria~
+Un letto che ispira alla lussuria e' proprio qui davanti a te.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+#14736
+seta~
+della seta preziosa~
+Della seta preziosa e' stata lasciata qui.~
+~
+8 0 1 0
+0 0 0 0
+1 25000 2500
+#14737
+silk~
+some expensive silk~
+Some expensive silk has been left here.~
+~
+8 0 1 0
+0 0 0 0
+1 25000 2500
+#14738
+seta~
+della seta preziosa~
+Della seta preziosa e' stata lasciata qui.~
+~
+8 0 1 0
+0 0 0 0
+1 25000 2500
+#14739
+seta~
+della seta preziosa~
+Della seta preziosa e' stata lasciata qui.~
+~
+8 0 1 0
+0 0 0 0
+1 25000 2500
+#14740
+collare~
+un collare borchiato~
+Un collare borchiato e' stato lasciato nella polvere.~
+~
+9 16 5 0
+0 0 0 0
+5 0 0
+A
+19 4
+#14741
+spada~
+la spada di un gigante~
+La spada di un gigante e' abbandonata qui.~
+~
+5 0 8193 0
+11 5 8 8
+15 0 0
+A
+19 4
+#14742
+proiettile pietra~
+un proiettile di pietra~
+Un proiettile di pietra giace in terra davanti ai tuoi piedi.~
+~
+30 0 262145 0
+0 0 0 0
+15 0 0
+A
+18 -4
+A
+19 4
+#14743
+clava~
+una clava di legno~
+Una semplice clava di legno e' qui.~
+~
+5 0 8193 0
+10 5 5 7
+5 0 0
+#14744
+collare~
+un collare da schiavo~
+Un collare da schiavo e' qui.~
+~
+9 4096 5 0
+0 0 0 0
+1 0 0
+A
+2 -1
+A
+5 -1
+A
+13 -10
+A
+17 10
+#14745
+zampa~
+una zampa unghiata~
+La zampa sinistra di una creatura malefica e' qui strappata dal resto del corpo.~
+~
+5 64 1 0
+12 8 5 3
+10 0 0
+A
+18 3
+A
+19 3
+#14746
+bastone~
+un lungo bastone~
+un lungo bastone e' qui.~
+~
+5 64 8193 0
+6 6 4 3
+10 0 0
+A
+18 3
+A
+19 3
+#14747
+bastone~
+un lungo bastone~
+un lungo bastone e' qui.~
+~
+5 0 8193 0
+6 5 4 8
+10 0 0
+A
+18 -2
+A
+19 6
+#14748
+cotta maglia~
+una nera armatura in cotta di maglia~
+Una nera armatura in cotta di maglia e' qui.~
+~
+9 16 9 0
+0 0 0 0
+10 0 0
+A
+2 -2
+A
+17 -20
+#14749
+stiletto nero~
+un sottile stiletto nero~
+Uno stiletto affilatissimo risplende di energia maligna davanti ai tuoi occhi.~
+~
+5 1 8193 0
+10 8 4 11
+5 0 0
+A
+18 8
+#14750
+stiletto azzurro~
+un sottile stiletto azzurro~
+Una sottile stiletto azzurro emette uno strano ronzio.~
+~
+5 2 8193 0
+13 8 6 11
+5 0 0
+A
+19 8
+#14751
+nera toga~
+una toga nera~
+Una toga nera dall'aspetto stropicciato e' abbandonata qui.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+toga~
+Sembra essere incredibilmente leggera e sottile.
+~
+#14752
+nera toga~
+una toga nera~
+Una toga nera dall'aspetto stropicciato e' abbandonata qui.~
+~
+9 0 1 0
+0 0 0 0
+1 0 0
+E
+toga~
+Sembra essere incredibilmente leggera e sottile.
+~
+#14753
+drow mantello~
+un mantello drow~
+Un nero mantello drow stropicciato e' ai tuoi piedi sul pavimento .~
+~
+9 4 9 0
+0 0 0 0
+1 0 0
+A
+2 1
+A
+18 1
+A
+23 -1
+A
+24 -1
+#14754
+drow stivali~
+un paio di stivali drow~
+un paio di neri stivali drow e' qui.~
+~
+9 4 65 0
+0 0 0 0
+1 0 0
+A
+2 1
+A
+14 50
+A
+17 -5
+#14755
+drow anelli maglia~
+una cotta di maglia dagli anelli di adamantio~
+Una cotta di maglia dagli anelli di adamantio finemente lavorati e' qui.~
+~
+9 64 9 0
+0 0 0 0
+5 0 0
+A
+5 1
+A
+13 10
+A
+17 -10
+#14756
+frusta code~
+una grande frusta a nove code~
+Un bastone da cui nove sottili strisce di cuoio partono come neri tentacoli e' qui in attesa di infliggere dolore.
+~
+~
+5 64 8193 0
+8 12 10 4
+10 0 0
+A
+18 4
+A
+19 6
+#14757
+tiara~
+una tiara~
+Una tiara e' qui.~
+~
+9 64 17 0
+0 0 0 0
+1 0 0
+A
+3 2
+A
+4 2
+A
+12 25
+#14758
+chiave~
+una chiave~
+questa chiave permette l'accesso ai piani superiori.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#14700
+Avvicinandosi alle Pendici del Monte Fato~
+Ti stai dirigendo direttamente verso il Monte Fato, su uno stretto  sentiero che parte dalle
+desolate, infestate di mostri, pendici del monte stesso.Questo e' l'inizio  dei
+dominii di Lord Krothgar, la cui ostile fortezza nera può essere visto sulla cima 
+del vulcano estinto conosciuto come Monte Fato. Eserciti di giganti
+pattugliano le pendenze inferiori, mentre mutanti perversi, stregoni e demoni proteggono la 
+fortezza stessa. Fatti forza e preparati se vuoi andare avanti.
+~
+0 1 0
+D0
+~
+~
+0 -1 14704
+D3
+~
+~
+0 -1 4002
+S
+#14701
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14708
+D1
+~
+~
+0 -1 14702
+S
+#14702
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14709
+D1
+~
+~
+0 -1 14703
+D3
+~
+~
+0 -1 14701
+S
+#14703
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14710
+D1
+~
+~
+0 -1 14704
+D3
+~
+~
+0 -1 14702
+S
+#14704
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14711
+D1
+~
+~
+0 -1 14705
+D2
+~
+~
+0 -1 14700
+D3
+~
+~
+0 -1 14703
+S
+#14705
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14712
+D1
+~
+~
+0 -1 14706
+D3
+~
+~
+0 -1 14704
+S
+#14706
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14713
+D1
+~
+~
+0 -1 14707
+D3
+~
+~
+0 -1 14705
+S
+#14707
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14714
+D3
+~
+~
+0 -1 14706
+S
+#14708
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma il
+l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14715
+D1
+~
+~
+0 -1 14709
+D2
+~
+~
+0 -1 14701
+S
+#14709
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci nella
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14716
+D1
+~
+~
+0 -1 14710
+D2
+~
+~
+0 -1 14702
+D3
+~
+~
+0 -1 14708
+S
+#14710
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14717
+D1
+~
+~
+0 -1 14711
+D2
+~
+~
+0 -1 14703
+D3
+~
+~
+0 -1 14709
+S
+#14711
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14718
+D1
+~
+~
+0 -1 14712
+D2
+~
+~
+0 -1 14704
+D3
+~
+~
+0 -1 14710
+S
+#14712
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14719
+D1
+~
+~
+0 -1 14713
+D2
+~
+~
+0 -1 14705
+D3
+~
+~
+0 -1 14711
+S
+#14713
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14720
+D1
+~
+~
+0 -1 14714
+D2
+~
+~
+0 -1 14706
+D3
+~
+~
+0 -1 14712
+S
+#14714
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma il
+l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14721
+D2
+~
+~
+0 -1 14707
+D3
+~
+~
+0 -1 14713
+S
+#14715
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14722
+D1
+~
+~
+0 -1 14716
+D2
+~
+~
+0 -1 14708
+S
+#14716
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14723
+D1
+~
+~
+0 -1 14717
+D2
+~
+~
+0 -1 14709
+D3
+~
+~
+0 -1 14715
+S
+#14717
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La fortezza di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+~
+~
+0 -1 14724
+D1
+~
+~
+0 -1 14718
+D2
+~
+~
+0 -1 14710
+D3
+~
+~
+0 -1 14716
+S
+#14718
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La Fortezza
+di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+La fortezza~
+~
+0 -1 14725
+D1
+~
+~
+0 -1 14719
+D2
+~
+~
+0 -1 14711
+D3
+~
+~
+0 -1 14717
+S
+#14719
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La Fortezza
+di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+~
+~
+0 -1 14726
+D1
+~
+~
+0 -1 14720
+D2
+~
+~
+0 -1 14712
+D3
+~
+~
+0 -1 14718
+S
+#14720
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14727
+D1
+~
+~
+0 -1 14721
+D2
+~
+~
+0 -1 14713
+D3
+~
+~
+0 -1 14719
+S
+#14721
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14728
+D2
+~
+~
+0 -1 14714
+D3
+~
+~
+0 -1 14720
+S
+#14722
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14729
+D1
+~
+~
+0 -1 14723
+D2
+~
+~
+0 -1 14715
+S
+#14723
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14730
+D1
+~
+~
+0 -1 14724
+D2
+~
+~
+0 -1 14716
+D3
+~
+~
+0 -1 14722
+S
+#14724
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La Fortezza di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+~
+~
+0 -1 14731
+D1
+La FortezzaS~
+~
+0 -1 14725
+D2
+~
+~
+0 -1 14717
+D3
+~
+~
+0 -1 14723
+S
+#14725
+Davanti alla Fortezza di Lord Korgthar~
+Hai raggiunto finalmente la cima e ti trovi sotto le porte della
+Fortezza, a cui puoi accedere per mezzo di una scalinata di ferro. Tu
+ora puoi sentire molte coppie di occhi su di te e ti chiedi quanto a lungo potrai
+continuare prima che le forze di Lord Krothgar si organizzino per assalirti.
+~
+0 0 5
+D0
+~
+~
+0 -1 14732
+D1
+~
+~
+0 -1 14726
+D2
+~
+~
+0 -1 14718
+D3
+~
+~
+0 -1 14724
+D4
+~
+~
+1 0 14750
+S
+#14726
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La fortezza di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.~
+0 0 5
+D0
+~
+~
+0 -1 14733
+D1
+~
+~
+0 -1 14727
+D2
+~
+~
+0 -1 14719
+D3
+~
+~
+0 -1 14725
+S
+#14727
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14734
+D1
+~
+~
+0 -1 14728
+D2
+~
+~
+0 -1 14720
+D3
+~
+~
+0 -1 14726
+S
+#14728
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14735
+D2
+~
+~
+0 -1 14721
+D3
+~
+~
+0 -1 14727
+S
+#14729
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14736
+D1
+~
+~
+0 -1 14730
+D2
+~
+~
+0 -1 14722
+S
+#14730
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14737
+D1
+~
+~
+0 -1 14731
+D2
+~
+~
+0 -1 14723
+D3
+~
+~
+0 -1 14729
+S
+#14731
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso.
+La fortezza di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+~
+~
+0 -1 14738
+D1
+~
+~
+0 -1 14732
+D2
+~
+~
+0 -1 14724
+D3
+~
+~
+0 -1 14730
+S
+#14732
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La Fortezza di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+~
+~
+0 -1 14739
+D1
+~
+~
+0 -1 14733
+D2
+La fortezza~
+~
+0 -1 14725
+D3
+~
+~
+0 -1 14731
+S
+#14733
+Sulla Cima del Monte Fato~
+Ti avvicini costantemente alla cima. La terra è diventata abbastanza pianeggiante 
+qui, ti fermi più di una volta ritornando sui tuoi passi per essere sicuro del percorso
+La Fortezza di Lord Krogthar appare sempre più vicino ormai, e ti prepari mentalmente  
+per le battaglie che ti attendono. I nemici che hai affrontato finora sono
+niente in confronto a cio' che ti attende.
+~
+0 0 5
+D0
+~
+~
+0 -1 14740
+D1
+~
+~
+0 -1 14734
+D2
+~
+~
+0 -1 14726
+D3
+~
+~
+0 -1 14732
+S
+#14734
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14741
+D1
+~
+~
+0 -1 14735
+D2
+~
+~
+0 -1 14727
+D3
+~
+~
+0 -1 14733
+S
+#14735
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma il
+l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14742
+D2
+~
+~
+0 -1 14728
+D3
+~
+~
+0 -1 14734
+S
+#14736
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14743
+D1
+~
+~
+0 -1 14737
+D2
+~
+~
+0 -1 14729
+S
+#14737
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14744
+D1
+~
+~
+0 -1 14738
+D2
+~
+~
+0 -1 14730
+D3
+~
+~
+0 -1 14736
+S
+#14738
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14745
+D1
+~
+~
+0 -1 14739
+D2
+~
+~
+0 -1 14731
+D3
+~
+~
+0 -1 14737
+S
+#14739
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14746
+D1
+~
+~
+0 -1 14740
+D2
+~
+~
+0 -1 14732
+D3
+~
+~
+0 -1 14738
+S
+#14740
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14747
+D1
+~
+~
+0 -1 14741
+D2
+~
+~
+0 -1 14733
+D3
+~
+~
+0 -1 14739
+S
+#14741
+Alla Base del Monte Fato~
+Ti trovi alla base della montagna. Da qui puoi proseguire
+la tua lenta ascesa verso il picco della montagna o tornare indietro verso le pendici sottostanti.
+Il terreno qui è instabile e traditore, punteggiato da piccoli crepacci
+granitica e frastagliata roccia vulcanica. Il vento è  piu'
+forte che alle pendici e ti sembra di sentire intorno a te urla e voci strane.
+~
+0 0 4
+D0
+~
+~
+0 -1 14748
+D1
+~
+~
+0 -1 14742
+D2
+~
+~
+0 -1 14734
+D3
+~
+~
+0 -1 14740
+S
+#14742
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D0
+~
+~
+0 -1 14749
+D2
+~
+~
+0 -1 14735
+D3
+~
+~
+0 -1 14741
+S
+#14743
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D1
+~
+~
+0 -1 14744
+D2
+~
+~
+0 -1 14736
+S
+#14744
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D1
+~
+~
+0 -1 14745
+D2
+~
+~
+0 -1 14737
+D3
+~
+~
+0 -1 14743
+S
+#14745
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali 
+che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D1
+~
+~
+0 -1 14746
+D2
+~
+~
+0 -1 14738
+D3
+~
+~
+0 -1 14744
+S
+#14746
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D1
+~
+~
+0 -1 14747
+D2
+~
+~
+0 -1 14739
+D3
+~
+~
+0 -1 14745
+S
+#14747
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D1
+~
+~
+0 -1 14748
+D2
+~
+~
+0 -1 14740
+D3
+~
+~
+0 -1 14746
+S
+#14748
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D1
+~
+~
+0 -1 14749
+D2
+~
+~
+0 -1 14741
+D3
+~
+~
+0 -1 14747
+S
+#14749
+Alle Pendici del Monte Fato~
+Un vento freddo soffia attraverso le pianure desolate e voi tremate raggelati
+mentre proseguite. Le ossa di avventurieri del passato giacciono sparse attraverso il
+terreno inospitale, tra armi e schegge di roccia corrosa e frastagliata che somigliano
+zanne affilate. Quasi come se  la terra stessa volesse divorarti. Ma l'urlo improvviso di un warg (o di un ghoul) vi allerta contro pericoli molto piu' reali che ti pressano avvicinandosi di nascosto.
+~
+0 0 2
+D2
+~
+~
+0 -1 14742
+D3
+~
+~
+0 -1 14748
+S
+#14750
+Alle Porte della Fortezza di Lord Krothgar~
+Attraversati i cancelli della fortezza, ti ritrovi ad un incrocio. Varie torce e persino delle bandiere sbiadite pendono dai piu' disparati sostegni. Le strade che si dipanano da questo crocevia sembrano tutti uguali.~
+0 8 0
+D0
+~
+~
+0 -1 14758
+D1
+~
+~
+0 -1 14751
+D2
+~
+~
+0 -1 14771
+D3
+~
+~
+0 -1 14763
+D5
+~
+~
+1 -1 14725
+S
+#14751
+Un Blocco di Celle~
+Qui vengono imprigionati i nemici di Lord Krogthar. Ci sono  non molte celle, e anche se la sicurezza sembra trascurata ... ben pochi sono i nascondigli all'esterno della fortezza in cui potersi rifugiare.
+~
+0 1 0
+D0
+~
+~
+1 0 14752
+D1
+~
+~
+0 0 14754
+D2
+~
+~
+1 0 14753
+D3
+~
+~
+0 -1 14750
+S
+#14752
+Una cella~
+Un oscuro e stretto budello con appena un po' di terra a fare da lettiera.
+Il puzzo è in insopportabile.
+~
+0 1 0
+D2
+~
+~
+1 0 14751
+S
+#14753
+Una cella~
+Un oscuro e stretto budello con appena un po' di terra a fare da lettiera.
+Il puzzo è in insopportabile.
+~
+0 1 0
+D0
+~
+~
+1 0 14751
+S
+#14754
+Le Celle~
+Qui vengono imprigionati i nemici di Lord Krothgar. Le celle sono poche dato che detesta fare prigionieri e la sorveglianza è minima, dopotutto, un fuggiasco dove potrebbe mai nascondersi dagli assassini di Krothgar?~
+0 1 0
+D0
+~
+~
+1 0 14755
+D1
+~
+~
+1 0 14757
+D2
+~
+~
+1 0 14756
+D3
+~
+~
+0 -1 14751
+S
+#14755
+Una cella~
+Un oscuro e stretto budello con appena un po' di terra a fare da lettiera.
+Il puzzo è in insopportabile.
+~
+0 1 0
+D2
+~
+~
+1 0 14754
+S
+#14756
+Una cella~
+Un oscuro e stretto budello con appena un po' di terra a fare da lettiera.
+Il puzzo è in insopportabile.
+~
+0 1 0
+D0
+~
+~
+1 0 14754
+S
+#14757
+Una cella~
+Un oscuro e stretto budello con appena un po' di terra a fare da lettiera.
+Il puzzo è in insopportabile.
+~
+0 1 0
+D3
+~
+~
+1 0 14754
+S
+#14758
+Le Caserme~
+Ti trovi di fronte ad una solida porta di legno superata la quale si trovano gli acquartieramenti
+di una parte dei diversi tipi di truppe che servono Lord Krothgar.
+~
+0 8 0
+D0
+~
+~
+1 0 14759
+D2
+~
+~
+0 -1 14750
+S
+#14759
+Un Anticamera~
+Ti trovi in un anticamera ben arredata con porte chiuse  su tutte e quattro le
+pareti. Nessun rumore sembra provenire da oltre le porte.
+~
+0 8 0
+D0
+~
+~
+1 0 14761
+D1
+~
+~
+1 0 14762
+D2
+~
+~
+1 0 14758
+D3
+~
+~
+1 0 14760
+S
+#14760
+Le Sale degli Assassini~
+Qui vivono alcuni degli assassini al servizio di Krothgar.
+Lord Krothgar si ritiene sufficientemente di modi eleganti  da preferire l'uso di un solo assassino, piuttosto che di un 
+rumoroso esercito. Per questo ai suoi assassini e' concesso vivere in confortevoli ed eleganti appartamenti privati.~
+0 8 0
+D1
+~
+~
+1 0 14759
+S
+#14761
+L'Appartamento del Capo degli Assassini~
+Sei entrato nell'appartamento della piu' spietata ed efficiente fra gli assassini di Krothgar.
+I cadaveri di due uomini nudi sono incatenati alle pareti con i segni evidenti delle sadiche torture cui sono stati sottoposti.
+~
+0 8 0
+D2
+~
+~
+1 0 14759
+S
+#14762
+Le Sale degli Assassini~
+Qui vivono alcuni degli assassini al servizio di Krothgar.
+Lord Krothgar si ritiene sufficientemente di modi eleganti  da preferire l'uso di un solo assassino, piuttosto che di un rumoroso esercito. Per questo ai suoi assassini e' concesso vivere in confortevoli ed eleganti appartamenti privati.
+~
+0 8 0
+D3
+~
+~
+1 0 14759
+S
+#14763
+Le Caserme~
+Ti trovi di fronte ad una solida porta di legno superata la quale si trovano gli acquartieramenti
+di una parte dei diversi tipi di truppe che servono Lord Krothgar.
+~
+0 8 0
+D1
+~
+~
+0 0 14750
+D3
+~
+~
+1 0 14764
+S
+#14764
+Un Corridoio~
+Stai attraversando un buio corridoio che conduce agli acquartieramenti
+della Guardia Nera di Lord Krothgar.
+~
+0 1 0
+D0
+~
+~
+0 -1 14767
+D1
+~
+~
+1 0 14763
+D2
+~
+~
+1 0 14765
+S
+#14765
+La Camera del Custode~
+Il custode della fossa dei mutanti abita qui, facendo la guardia ai risultati degli esperimenti falliti,
+tenuti sui prigionieri o su qualche guardia troppo insolente, dagli alchimisti di Lord Krothgar.
+~
+0 8 0
+D0
+~
+~
+1 0 14764
+D5
+~
+~
+1 0 14766
+S
+#14766
+La Fossa dei Mutanti~
+Ack! Sei finito nella fossa dei mutanti! Circondato da sangue coagulato, escrementi, muco, vomito, i mutanti ancora vivi si lanciano verso l'uscita per combattendo fra loro per chi deve scappare prima bloccandola.
+~
+0 1 0
+D4
+~
+~
+1 0 14765
+S
+#14767
+Un Corridoio~
+Stai attraversando un buio corridoio che conduce agli acquartieramenti
+della Guardia Nera di Lord Krothgar.
+~
+0 1 0
+D2
+~
+~
+0 0 14764
+D3
+~
+~
+1 0 14768
+S
+#14768
+La Sala Comune della Guardia~
+Ci sono porte che conducono in tutte le direzioni in questa stanza. Il disordine regna sovrano fra residui di cibo, bottiglie di birra rotte e macchie di sangue
+ricoprono il pavimento polveroso mentre i corpi in decomposizione di creature umanoidi pendono dai ganci appesi al soffitto.
+~
+0 8 0
+D0
+~
+~
+1 0 14770
+D1
+~
+~
+1 0 14767
+D2
+~
+~
+1 0 14769
+D3
+Su questa porta si legge- "Accesso ai piani superiori solo per il personale autorizzato!~
+door~
+1 14758 14779
+D5
+~
+~
+0 -1 14806
+S
+#14769
+Alloggi della Guardia~
+Questo alloggio è pieno di cuccette e guardie russanti. Dadi e carte
+da gioco sono sparsi attraverso il lurido pavimento di pietra e i topi 
+rosicchiano gli stivali delle guardie. ~
+0 1 0
+D0
+~
+~
+1 0 14768
+S
+#14770
+Alloggi della Guardia~
+Questo alloggio è pieno di cuccette e guardie russanti. Dadi e carte 
+da gioco sono sparsi attraverso il lurido pavimento di pietra e i topi
+rosicchiano gli stivali delle guardie. ~
+0 1 0
+D2
+~
+~
+1 0 14768
+S
+#14771
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.~
+0 8 0
+D0
+~
+~
+0 -1 14750
+D2
+~
+~
+0 -1 14772
+S
+#14772
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.~
+0 8 0
+D0
+~
+~
+0 -1 14771
+D1
+~
+~
+1 0 14774
+D2
+~
+~
+0 -1 14775
+D3
+~
+~
+1 0 14773
+S
+#14773
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.
+~
+0 8 0
+D1
+~
+~
+1 0 14772
+S
+#14774
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.
+~
+0 8 0
+D3
+~
+~
+1 0 14772
+S
+#14775
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.
+~
+0 8 0
+D0
+~
+~
+0 -1 14772
+D1
+~
+~
+1 0 14777
+D2
+~
+~
+1 0 14778
+D3
+~
+~
+1 0 14776
+S
+#14776
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.
+~
+0 8 0
+D1
+~
+~
+1 0 14775
+S
+#14777
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.
+~
+0 8 0
+D3
+~
+~
+1 0 14775
+S
+#14778
+Alloggi degli Ospiti~
+Qui vivono i numerosi ospiti venuti a cercare un'alleanza con Lord Krothgar. Non apprezzano intrusioni di sorta.
+~
+0 8 0
+D0
+~
+~
+1 0 14775
+S
+#14779
+La Fortezza~
+Sei entrato nella zona della fortezza il cui accesso e' consentito a pochi visitatori scelti. Scale salgono e scendono da dove ti trovi ed uno stretto passaggio porta verso ovest.
+~
+0 8 0
+D1
+~
+~
+1 14758 14768
+D3
+~
+~
+0 -1 14780
+D4
+~
+~
+0 -1 14793
+D5
+~
+~
+0 -1 14787
+S
+#14780
+Uno stretto Corridoio~
+Questo stretto corridoio attraverso il centro della Fortezza arrivando fino alle torri dei maghi.
+~
+0 8 0
+D1
+~
+~
+0 -1 14779
+D3
+~
+~
+0 -1 14781
+S
+#14781
+Un Incrocio~
+Si può proseguire attraverso le porte a nord o a sud o ad est o tornare indietro verso la fortezza esterna. C'e' un segnale sulla porta meridionale e una piastra su quella settentrionale. ~
+0 8 0
+D0
+~
+~
+1 0 14783
+D1
+~
+~
+0 -1 14780
+D2
+~
+~
+1 0 14782
+E
+segnale~
+Su questo segnale puoi leggere-
+
+        Alloggi dell'ArciMago. Si prega di non entrare. Importanti
+        esperimenti sono in corso. Lasciare un messaggio alle guardie.
+
+        - Axtraxes.
+~
+E
+piastra~
+Su questa piastra puoi leggere-
+
+       "I L   L A B O R A T O R I O   E L E M E N T A L E"
+
+       Fuori dai piedi!
+
+       - Axtraxes.
+~
+S
+#14782
+Gli Alloggi dell'ArciMago~
+Qui l'ArciMago compie i suoi esperimenti ... ne hai appena interrotto uno ...~
+0 8 0
+D0
+~
+~
+1 0 14781
+S
+#14783
+Il Laboratorio Elementale~
+Tini, urne, bicchieri, storte, alambicchi e cento altri attrezzi strani sono sparsi su scrivanie, panche, sedie e pavimento. Tutto sembra piuttosto danneggiato, come se qualcuno (o qualcosa) avesse recentemente scatenato l'ira di un barbaro qui dentro... 
+~
+0 8 0
+D0
+~
+~
+0 -1 14785
+D1
+~
+~
+0 -1 14786
+D2
+~
+~
+1 0 14781
+D3
+~
+~
+0 -1 14784
+S
+#14784
+Estremita' occidentale del Laboratorio~
+Tini, urne, bicchieri, storte, alambicchi e cento altri attrezzi strani sono sparsi su scrivanie, panche, sedie e pavimento. Tutto sembra piuttosto danneggiato, come se qualcuno (o qualcosa) avesse recentemente scatenato l'ira di un barbaro qui dentro... 
+~
+0 8 0
+D1
+~
+~
+0 -1 14783
+S
+#14785
+Estremita' settentrionale del Laboratorio~
+Tini, urne, bicchieri, storte, alambicchi e cento altri attrezzi strani sono sparsi su scrivanie, panche, sedie e pavimento. Tutto sembra piuttosto danneggiato, come se qualcuno (o qualcosa) avesse recentemente scatenato l'ira di un barbaro qui dentro... ~
+0 8 0
+D2
+~
+~
+0 -1 14783
+S
+#14786
+Estremita' orientale del Laboratorio~
+Tini, urne, bicchieri, storte, alambicchi e cento altri attrezzi strani sono sparsi su scrivanie, panche, sedie e pavimento. Tutto sembra piuttosto danneggiato, come se qualcuno (o qualcosa) avesse recentemente scatenato l'ira di un barbaro qui dentro... ~
+0 8 0
+D3
+~
+~
+0 -1 14783
+S
+#14787
+I Sotterranei~
+Sei entrato nei livelli inferiori della fortezza, dove ripugnanti creature sono in agguato e sacerdoti oscuri si impegnano in empie cerimonie dedicate alle loro divinità demoniache. 
+~
+0 1 0
+D1
+Vedi un antica cripta~
+porta cripta~
+1 0 14788
+D2
+~
+~
+0 -1 14789
+D4
+~
+~
+0 -1 14779
+S
+#14788
+Un Antica Cripta~
+Questa cripta è rimasta intatta per secoli. Qui sono sepolti i resti dell'empio re lich che ha una volta governava questa fortezza e gran parte della terra circostante sotto un pugno ferro (letteralmente, il golem di Krothgar ora lo indossa).~
+0 1 0
+D3
+~
+porta crypta~
+0 0 14787
+S
+#14789
+Il Tempio Maledetto~
+Sei nel tempio maledetto della fortezza. Senti gridare le vergini fatte a pezzi in terribili rituali su altari macchiati del sangue di migliaia di innocenti mentre sacerdoti oscuri pregano per ottenere favori dai loro Dei.~
+0 1 0
+D0
+~
+~
+0 -1 14787
+D1
+~
+~
+0 -1 14792
+D2
+~
+~
+0 -1 14791
+D3
+~
+~
+0 -1 14790
+S
+#14790
+Il Tempio Maledetto~
+Sei nel tempio maledetto della fortezza. Senti gridare le vergini fatte a pezzi in terribili rituali su altari macchiati del sangue di migliaia di innocenti mentre sacerdoti oscuri pregano per ottenere favori dai loro Dei.
+
+L'altare e' proprio di fronte a te e distesa sopra ci puoi vedere l'ennesima vergine pronta per essere sacrificata.~
+0 1 0
+D1
+~
+~
+0 -1 14789
+S
+#14791
+Il Tempio Maledetto~
+Sei nel tempio maledetto della fortezza. Senti gridare le vergini fatte a pezzi in terribili rituali su altari macchiati del sangue di migliaia di innocenti mentre sacerdoti oscuri pregano per ottenere favori dai loro Dei.
+~
+0 1 0
+D0
+~
+~
+0 -1 14789
+D5
+~
+~
+0 -1 32700
+S
+#14792
+La Tana dell'Idra~ 
+Qui Lord Krothgar tiene la sua idra, per proteggere il tesoro del tempio maledetto. Una bestia selvaggia e feroce, che aggredira' qualsiasi cosa che entri nella sua tana salvo Lord Krothgar o l'Arci Prete. ~
+0 1 0
+D3
+~
+~
+0 -1 14789
+S
+#14793
+Una Scala a Spirale~
+Sali una scalinata a spirale che porta alle torri che adornano la fortezza.
+
+~
+0 8 0
+D4
+~
+~
+0 -1 14794
+D5
+~
+~
+0 -1 14779
+S
+#14794
+Un Ballatoio~
+4 porte conducono nelle varie direzioni cardinali. La scalinata continua la sua salita proprio nel centro.~
+0 8 0
+D0
+~
+~
+1 0 14797
+D1
+~
+~
+1 0 14798
+D2
+~
+~
+1 0 14795
+D3
+~
+~
+1 0 14796
+D4
+~
+~
+0 0 14799
+D5
+~
+~
+0 0 14793
+S
+#14795
+Una Camera da Letto~
+Sei in un boudoir pieno di mobili cari e lussuosi e riposta dappertutto c'e' una larga varietà profumi, unguenti e altri cosmetici. Pile di vestiti sono accumulate sul pavimento, come se qualcuno avesse appena cercato un completo da indossare. ~
+0 8 0
+D0
+~
+~
+1 0 14794
+S
+#14796
+Una Camera da Letto~
+Sei in un boudoir pieno di mobili cari e lussuosi e riposta dappertutto c'e' una larga varietà profumi, unguenti e altri cosmetici. Pile di vestiti sono accumulate sul pavimento, come se qualcuno avesse appena cercato un completo da indossare. ~
+0 8 0
+D1
+~
+~
+1 0 14794
+S
+#14797
+Una sala~
+Sei in una lunga sala da cena con una tavola enorme fiancheggiata da sedie a schienale alto. Messi a sedere in queste sedie ci sono gli scheletri dei tanti re che Krothgar ha sconfitto. I loro resti mortali sono tenuti qui come trofei.
+~
+0 8 0
+D2
+~
+~
+1 0 14794
+S
+#14798
+Una Camera da Letto~
+Sei in un boudoir pieno di mobili cari e lussuosi e riposta dappertutto c'e' una larga varietà profumi, unguenti e altri cosmetici. Pile di vestiti sono accumulate sul pavimento, come se qualcuno avesse appena cercato un completo da indossare. ~
+0 8 0
+D3
+~
+~
+1 0 14794
+S
+#14799
+Una Scala a Spirale~
+Sali una scalinata a spirale che porta alle torri che adornano la fortezza.
+~
+0 8 0
+D4
+~
+~
+0 -1 14800
+D5
+~
+~
+0 -1 14794
+S
+#14800
+Lo Sala del Trono~
+Sei nella Sala del Trono di Lord Krothgar. Seduto qui, sul suo trono, situato nel centro delle 5 torri che sorgono in tutte le direzioni intorno a questa stanza. In ogni torre risiede un drago potente, alleato leale di Lord Krothgar. I grandi arazzi sui muri rappresentano le tante battaglie vinte da Krothgar e tra questi, in posizione di guardia, stanno i membri della sua guardia nera, pronti per difendere il loro signore.
+~
+0 8 0
+D0
+~
+~
+0 -1 14801
+D1
+~
+~
+0 -1 14804
+D2
+~
+~
+0 -1 14803
+D3
+~
+~
+0 -1 14802
+D4
+~
+~
+0 -1 14805
+D5
+~
+~
+0 -1 14799
+S
+#14801
+La Torre del Drago~
+In questa torre vive un drago enorme, il più grande del suo genere. Non gli piacerà essere disturbato da un misero mortale come te ... ~
+0 8 0
+D2
+~
+~
+0 -1 14800
+S
+#14802
+La Torre del Drago~
+In questa torre vive un drago enorme, il più grande del suo genere.
+Non gli piacerà essere disturbato da un misero mortale come te ... ~
+0 8 0
+D1
+~
+~
+0 -1 14800
+S
+#14803
+La Torre del Drago~
+In questa torre vive un drago enorme, il più grande del suo genere. 
+Non gli piacerà essere disturbato da un misero mortale come te ... ~
+0 8 0
+D0
+~
+~
+0 -1 14800
+S
+#14804
+La Torre del Drago~
+In questa torre vive un drago enorme, il più grande del suo genere. 
+Non gli piacerà essere disturbato da un misero mortale come te ... ~
+0 8 0
+D3
+~
+~
+0 -1 14800
+S
+#14805
+La Torre del Drago~
+In questa torre vive un drago enorme, il più grande del suo genere. 
+Non gli piacerà essere disturbato da un misero mortale come te ... ~
+0 8 0
+D5
+~
+~
+0 -1 14800
+S
+#14806
+Stalle~
+Qui la Guardia Nera tiene i propri destrieri demoniaci.
+~
+0 1 0
+D4
+~
+~
+0 -1 14768
+S
+#0
+
+
+#RESETS
+M 1 14741 8 14701
+E 1 14740 1 3
+M 1 14742 8 14704
+M 1 14741 8 14707
+E 1 14740 1 3
+M 1 14732 8 14711
+E 1 14743 1 16
+G 1 14742 0
+M 1 14729 4 14718
+E 1 14740 1 3
+M 1 14742 8 14722
+M 1 14732 8 14723
+E 1 14743 1 16
+G 1 14742 0
+M 1 14729 4 14724
+E 1 14740 1 3
+M 1 14729 4 14726
+E 1 14740 1 3
+M 1 14732 8 14727
+E 1 14743 1 16
+G 1 14742 0
+M 1 14742 8 14728
+M 1 14730 2 14731
+E 1 14741 1 16
+G 1 14742 0
+M 1 14729 4 14732
+E 1 14740 1 3
+M 1 14730 2 14733
+E 1 14741 1 16
+G 1 14742 0
+M 1 14732 8 14739
+E 1 14743 1 16
+G 1 14742 0
+M 1 14741 8 14743
+E 1 14740 1 3
+M 1 14742 8 14746
+M 1 14741 8 14749
+E 1 14740 1 3
+D 1 14750 5 1
+D 1 14751 0 1
+D 1 14751 2 1
+M 1 14720 8 14752
+E 1 14730 1 10
+E 1 14744 1 3
+D 1 14752 2 1
+M 1 14721 8 14753
+E 1 14730 1 10
+E 1 14744 1 3
+D 1 14753 0 1
+D 1 14754 0 1
+D 1 14754 1 1
+D 1 14754 2 1
+M 1 14720 8 14755
+E 1 14730 1 10
+E 1 14744 1 3
+D 1 14755 2 1
+M 1 14721 8 14756
+E 1 14730 1 10
+E 1 14744 1 3
+D 1 14756 0 1
+M 1 14718 1 14757
+E 1 14730 1 10
+E 1 14744 1 3
+D 1 14757 3 1
+D 1 14758 0 1
+D 1 14759 0 1
+D 1 14759 1 1
+D 1 14759 2 1
+D 1 14759 3 1
+M 1 14739 4 14760
+E 1 14751 1 12
+D 1 14760 1 1
+M 1 14738 1 14761
+E 1 14749 1 16
+D 1 14761 2 1
+M 1 14739 4 14762
+E 1 14751 1 12
+D 1 14762 3 1
+D 1 14763 3 1
+D 1 14764 1 1
+D 1 14764 2 1
+M 1 14746 1 14765
+D 1 14765 0 1
+D 1 14765 5 1
+M 1 14722 6 14766
+D 1 14766 4 1
+D 1 14767 3 1
+M 1 14710 8 14768
+E 1 14715 1 5
+E 1 14716 1 16
+E 1 14717 1 6
+G 1 14758 0
+D 1 14768 0 1
+D 1 14768 1 1
+D 1 14768 2 1
+D 1 14768 3 2
+M 1 14710 8 14769
+E 1 14715 1 5
+E 1 14716 1 16
+E 1 14717 1 6
+G 1 14758 0
+D 1 14769 0 1
+M 1 14710 8 14770
+E 1 14715 1 5
+E 1 14716 1 16
+E 1 14717 1 6
+G 1 14758 0
+D 1 14770 2 1
+M 1 14736 2 14771
+E 1 14747 1 16
+E 1 14748 1 5
+D 1 14772 1 1
+D 1 14772 3 1
+M 1 14731 3 14773
+E 1 14741 1 16
+G 1 14742 0
+D 1 14773 1 1
+M 1 14733 1 14774
+E 1 14741 1 16
+G 1 14742 0
+D 1 14774 3 1
+M 1 14737 1 14775
+E 1 14741 1 16
+G 1 14742 0
+D 1 14775 1 1
+D 1 14775 2 1
+D 1 14775 3 1
+M 1 14735 2 14776
+E 1 14745 1 16
+D 1 14776 1 1
+M 1 14740 1 14777
+E 1 14753 1 12
+E 1 14754 1 8
+E 1 14755 1 5
+E 1 14756 1 16
+E 1 14757 1 6
+D 1 14777 3 1
+M 1 14747 1 14778
+D 1 14778 0 1
+D 1 14779 1 2
+D 1 14781 0 1
+D 1 14781 2 1
+M 1 14704 1 14782
+E 1 14710 1 12
+D 1 14782 0 1
+M 1 14716 1 14783
+D 1 14783 2 1
+M 1 14726 1 14784
+M 1 14709 3 14784
+E 1 14721 1 12
+M 1 14727 1 14785
+M 1 14709 3 14785
+E 1 14721 1 12
+M 1 14728 1 14786
+M 1 14709 3 14786
+E 1 14721 1 12
+D 1 14787 1 2
+M 1 14744 1 14788
+M 1 14708 4 14789
+E 1 14718 1 16
+E 1 14719 1 12
+E 1 14720 1 6
+M 1 14705 1 14790
+E 1 14712 1 16
+E 1 14713 1 12
+E 1 14714 1 6
+M 1 14708 4 14790
+E 1 14718 1 16
+E 1 14719 1 12
+E 1 14720 1 6
+M 1 14708 4 14791
+E 1 14718 1 16
+E 1 14719 1 12
+E 1 14720 1 6
+M 1 14723 1 14792
+O 1 14733 1 14792
+P 1 14734 1 14733
+M 1 14745 1 14793
+M 1 14702 1 14794
+E 1 14706 1 16
+D 1 14794 0 1
+D 1 14794 1 1
+D 1 14794 2 1
+D 1 14794 3 1
+M 1 14719 1 14795
+E 1 14731 1 12
+E 1 14732 1 17
+D 1 14795 0 1
+M 1 14725 1 14796
+E 1 14736 1 12
+O 1 14735 1 14796
+D 1 14796 1 1
+M 1 14703 1 14797
+E 1 14707 1 16
+G 1 14708 0
+D 1 14797 2 1
+M 1 14743 1 14798
+E 1 14736 1 12
+D 1 14798 3 1
+M 1 14701 2 14799
+E 1 14704 1 16
+E 1 14705 1 6
+M 1 14700 1 14800
+E 1 14700 1 5
+E 1 14701 1 16
+E 1 14702 1 11
+E 1 14703 1 6
+M 1 14706 4 14800
+E 1 14715 1 5
+E 1 14716 1 16
+E 1 14717 1 6
+M 1 14712 1 14801
+E 1 14724 1 11
+E 1 14725 1 16
+E 1 14726 1 9
+E 1 14727 1 12
+M 1 14713 1 14802
+E 1 14724 1 11
+E 1 14725 1 16
+E 1 14726 1 9
+E 1 14727 1 12
+M 1 14714 1 14803
+E 1 14724 1 11
+E 1 14725 1 16
+E 1 14726 1 9
+E 1 14727 1 12
+M 1 14715 1 14804
+E 1 14724 1 11
+E 1 14725 1 16
+E 1 14726 1 9
+E 1 14727 1 12
+M 1 14711 1 14805
+E 1 14724 1 11
+E 1 14725 1 16
+E 1 14726 1 9
+E 1 14727 1 12
+M 1 14707 4 14806
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  14702 spec_executioner
+M  14703 spec_cast_undead
+M  14704 spec_cast_mage
+M  14705 spec_cast_cleric
+M  14706 spec_guard
+M  14707 spec_fido
+M  14708 spec_cast_mage
+M  14709 spec_cast_cleric
+M  14710 spec_guard
+M  14711 spec_breath_fire
+M  14712 spec_breath_acid
+M  14713 spec_breath_frost
+M  14714 spec_breath_lightning
+M  14715 spec_breath_gas
+M  14716 spec_breath_fire
+M  14717 spec_cast_mage
+M  14718 spec_cast_cleric
+M  14722 spec_fido
+M  14723 spec_breath_any
+M  14724 spec_thief
+M  14725 spec_cast_undead
+M  14728 spec_breath_gas
+M  14729 spec_breath_fire
+M  14733 spec_cast_cleric
+M  14734 spec_janitor
+M  14735 spec_cast_mage
+M  14736 spec_fido
+M  14737 spec_guard
+M  14738 spec_cast_mage
+M  14739 spec_thief
+M  14740 spec_cast_cleric
+M  14741 spec_fido
+M  14742 spec_fido
+M  14743 spec_cast_undead
+M  14744 spec_cast_mage
+M  14745 spec_executioner
+M  14746 spec_poison
+M  14747 spec_poison
+S
+
+
+#END

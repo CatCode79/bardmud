@@ -1,0 +1,835 @@
+*Prototipo:
+
+*#HINT
+*Level 1
+*Trust TRUST_PLAYER
+*Text
+*~
+*End
+
+
+
+#HINT
+Level 10
+Trust TRUST_PLAYER
+Text
+Puoi utilizzare al posto dei comandi in italiano o in inglese i seguenti
+caratteri-scorciatoie, basta digitarli come se fossero dei semplici
+comandi:
+Scorciatoia   Comando
+' &gciao!&w       °Tsay &gciao!&w
+, &gsaluta&w      °Temote &gsaluta&w
+; &gciao!&w       °Tgtell &gciao!&w
+~
+End
+
+#HINT
+Level 3
+Trust TRUST_PLAYER
+Text
+Se stai utilizzando i comandi in italiano (cioè se digitando il comando
+°Tconfig vedi una scritta così: [&G+&w] &WITALIANO&w) il comando &Gno&w è una
+scorciatoia per &Gnordovest&w e non per &Gnord&w, attenzione a non confonderti.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Se il vostro Client lo permette utilizzate l'opzione degli accenti poiché con
+gli "accenti apostrofati" viene sballata la visuale in alcune parti del gioco
+Per impostarli utilizzare il comando: config + accenti
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Con il comando °Tskills potrai visualizzare le abilità che conosci ed
+alcune a cui in futuro potrai accedere proseguendo nei livelli.
+Non è dunque l'elenco completo, verrà rivelato man mano.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Con il comando °Taffected potrai vedere l'elenco delle magie, effetti
+ancora attivi su di te.
+~
+End
+
+#HINT
+Level 10
+Trust TRUST_PLAYER
+Text
+Con il comando °Tland potrai atterrare se in quel momento stai volando,
+e continuare ad andare in giro a piedi togliendo l'incantesimo che ti
+permetteva di volare.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Con i comandi °Tsit, °Trest e °Tsleep si recuperano meglio punti di
+vita, movimento e mana.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Il comando °Thelp seguito da una parola visualizzerà l'aiuto per quella
+parola.
+Se la parola non ha un riferimento tra gli Aiuti allora il comando cercherà
+di aiutarti elencando delle possibili parole simili da digitare per la tua
+ricerca.
+~
+End
+
+#HINT
+Level 15
+Trust TRUST_PLAYER
+Text
+Se si vuole scrivere la biografia del proprio personaggio si può usare il comando
+ °Tbio.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Per avere un elenco delle persone online su Terra Secunda digita °Twho.
+Per avere un elenco dei gruppi giocanti sul Mud digita:
+°Twho &ggruppi&w
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Nella visualizzazione del comando °Twho sotto all'etichetta Stato vi appaiono
+di tanto in tanto delle lettere indicanti dei stati particolari:
+La &CL&w indica che il giocatore è lontano dalla tastiera
+La &BS&w indica che il giocatore sta scrivendo una nota o la sua descrizione.
+La &OD&w indica che il giocatore è in link death, cioè ha perso il collegamento
+al Mud.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Se vuoi contattare una qualsiasi persona sul mud utilizza il comando
+°Ttell.
+Esempio, se stai utilizzando i comandi in italiano:
+°Ttell &gpinco ciao! Riesco a mandare messaggi eh?eh?&w
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Per poter digitare i comandi in italiano:
+°Tconfig &g+italiano&w
+Viceversa per poter digitare i comandi in inglese:
+°Tconfig &g-italiano&w
+~
+End
+
+#HINT
+Level 3
+Trust TRUST_PLAYER
+Text
+Con il comando °Tareas potrai vedere l'elenco delle aree di &RT&Yerra &RS&Yecunda&w
+con la relativa difficoltà secondo le tue potenzialità.
+~
+End
+
+#HINT
+Level 10
+Trust TRUST_PLAYER
+Text
+Con il comando °Tcolors puoi modificare l'interfaccia dei colori del Mud
+a tuo piacimento.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Digitando °Tcommands avrai delle opzioni che ti permetteranno di
+visualizzare al meglio la lista dei comandi.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Il comando °Tconfig permette di modificare molte opzioni, impara ad
+utilizzarlo.
+Digitandolo vedrai delle parole precedute da [&G+&w] o [&R-&w], se vi è il +
+davanti saranno in maiuscolo e saranno delle opzioni attive.
+Per disattivarle bisogna digitare °Tconfig &g-&w <&gparola&w>
+Ove <&gparola&w> è l'opzione da disabilitare (bisogna digitarla senza < >)
+Viceversa per attivare l'opzione basta digitare
+°Tconfig &g+&w <&gparola&w>
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Con il comando °Tequipment visualizzarete l'equipaggiamento del vostro
+personaggio.
+Se fate seguire al comando il nome di una creatura o di un giocatore potrete
+vedere il suo equipaggiamento.
+Se volete che l'equipaggiamento altrui venga visualizzato attraverso il comando
+°Tlook allora dovete digitare:
+°Tconfig &g+ guardaequip&w
+~
+End
+
+#HINT
+Level 15
+Trust TRUST_PLAYER
+Text
+Per congedare dei mob che ti stanno seguendo utilizza il comando
+°Tdismiss.
+~
+End
+
+#HINT
+Level 10
+Trust TRUST_PLAYER
+Text
+Il comando °Trun permette di correre in una determinata direzione, per un
+tot di locazioni oppure fino a che non può continuare.
+Ci si mette meno tempo che camminando ma consuma anche più punti di movimento.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Con il comando °Tsay parlerai nella locazione in cui ti trovi rivolgendo le
+parole a tutti gli avventurieri che ti circondano.
+C'è una maniera più potente per utilizzare questo comando, ed è quella di
+parlare ad una persona in particolare, nella stanza tutti ti sentiranno e
+capiranno che starai parlando con quella persona.
+Esempio, cambiando pinco con un nome di un avventuriero nella stanza in cui
+vi trovate:
+°Tsay &ga pinco Io sto bene grazie, e voi?&w
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Il comando °Tdescription vi permette di inserire la descrizione del
+proprio personaggio.
+Per visualizzarla una volta inserita utilizzate il comando °Tlook seguito
+dal nome del vostro personaggio.
+Similmente potete utilizzare il comando °Tlook seguito dal nome di un
+mostro o di un altro personaggio per vederne la decrizione ed altre
+informazioni.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+A volte vi sono delle uscite più o meno nascoste nella stanza in cui vi
+potrete accedere solo tramite il comando °Tenter.
+Per esempio se trovate un portale, una cascata, un tronco di un albero
+cavo in una decrizione potrebbe essere che portino da qualche parte,
+provate ad entrarvi digitando °Tenter seguito dal nome dell'oggetto o
+locazione che potrebbe essere un'uscita nascosta, magica o comunque non
+elencata tra le uscite convenzionali.
+~
+End
+
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Per uscire da Terra Secunda dovete digitare il comando °Tquit.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Se vuoi uccidere un personaggio di un altro giocatore e non vi riesci con il
+comando °Tkill prova con il comando °Tmurder.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Se sei nei guai nel combattimento usa il comando °Tflee.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Il comando °Tyell e °Tshout servono far giungere la propria voce lontano
+e farsi sentire maggiormente, la loro portata comunque non supera i limiti
+dell'area.
+Come il comando °Tsay anche questi possono fare riferimento ad una creatura
+o avventuriero in particolare:
+°Tyell &ga pinco Dove lo posso trovare??&w
+Cambiando pinco con il nome del personaggio nella stanza a cui si vuole urlare
+si permettendo di far comprendere al resto dei giocatori nella stanza a chi si
+urla.
+Le persone esterne alla stanza vedono il messaggio ma non capiscono a chi è
+inviato.
+~
+End
+
+#HINT
+Level 3
+Trust TRUST_PLAYER
+Text
+Con il comando °Tgroup si può fare gruppo con altri avventurieri di Terra
+Secunda.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Il comando °Ttell, °Treply e °Tgtell sono off-gdr, cioè non hanno
+restrizioni di interpretazione a livello di gioco di ruolo, possono quindi
+essere utilizzati per parlare del più e del meno o di quello che volete.
+Entro i limiti della buona educazione verso l'altra persona o persone a cui
+parlate si intende :)
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Con il comando °Tidea potete segnalare qualche idea che vi è venuta in mente
+e che pensate potrebbe essere utile per Terra Secunda.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Se dovete allontanarvi dal pc per qualche tempo e volete segnalarlo a tutti
+digitate °Tafk, coloro che sono nella stanza vi vedranno "andare in trance"
+e coloro che digiteranno °Twho vedranno una L Nello stato, che sta ad
+indicare che siete per l'appunto [L]ontani [D]alla [T]astiera, in inglese
+[A]way [F]rom [K]eyboard
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Se vi trovate in un negozio e volete vedere la merce digita °Tlist.
+Se vi appare un messaggio che vi avvisa di non poter comprare nulla nel
+negozio in cui siete probabilmente il livello degli oggetti presenti è
+superiore al vostro e ciò vi impedisce di acquistare alcunchè.
+Per comprare la merce digita °Tbuy <&gnomeoggetto&w>
+~
+End
+
+* Forse questo è da rifare, il learn come comando cioè, quindi se verrà rifatto saraà da ricontrollare
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Il comando °Tlanguages visualizza i linguaggi che si possono parlare o che
+si conoscono.
+Per poter parlare con una lingua in particolare dovete digitare
+°Tlanguages seguito dal nome della lingua voluta.
+Per poter imparare maggiormente una lingua bisogna digitare, in presenza di un
+maestro °Tlanguages &gimpara&w <&gnomelingua&w>
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Il comando °Tmurmur e °Twhisper permettono di dire cose nella stanza che
+pochi potranno sentire a meno che voi non stiate parlando ad una persona con
+questa sintassi:
+°Twhisper &ga&w <&gnome&w> Ti sto sussurrando?
+Mettendo al posto di <&gnome&w> appunto il nome di un avventuriero nella stanza
+tutti quelli attorno a voi vedranno solamente che stai sussurrando ad una
+persona, ma non il messaggio.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+In generale l'utilizzo dei comandi
+°Tmurmur  &ga&w <&gnome&w> <&gmessaggio&w>
+°Twhisper &ga&w <&gnome&w> <&gmessaggio&w>
+°Tsay     &ga&w <&gnome&w> <&gmessaggio&w>
+°Tyell    &ga&w <&gnome&w> <&gmessaggio&w>
+°Tshout   &ga&w <&gnome&w> <&gmessaggio&w>
+al posto del loro utilizzo semplice senza l'argomento
+&ga&w <&gnome&w>
+Può essere indice di buon Gioco di Ruolo e interpretazione del personaggio
+e cosa quindi grata agli amministratori attenti a questi particolari
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+I comandi °Tmurmur, °Twhisper, °Tsay, °Tyell e °Tshout sono tutti
+comandi che devono essere utilizzati interpretando il proprio personaggio.
+Non sono quindi comandi off-gdr, sia utilizzati semplicemente, sia nella
+variante con la "a" per parlare ad una persona in particolare, sia nella
+variante con i ":" per parlare al gruppo.
+Utilizza per parlare in maniera off-gdr (cioè senza interpretare il proprio
+personaggio) i comandi °Ttell e °Tgtell.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+I comandi °Tmurmur, °Twhisper, °Tsay, °Tyell e °Tshout se seguiti
+con i due punti indicano che si vuole parlare al proprio gruppo.
+Esempio:
+°Tsay &g: ci siamo tutti? pronti ad andare?&w
+Farà vedere il messaggio a tutti quelli del guppo, gli esterni al gruppo
+leggeranno il messaggio e vedranno che è stato detto tra di voi.
+Se utilizzi °Tmurmur &g:&w o °Twhisper &g:&w ti sentiranno solo quello del gruppo
+e pochi altri; gli esterni al gruppo nella stanza vedranno che state
+confabulando tra di voi.
+Se utilizzi invece °Tyell &g:&w o °Tshout &g:&w molta gente vi sentirà nei
+d'intorni ma solo quelli della stanza sapranno che ti stai rivolgendo al
+gruppo.
+In alternativa ai due punti ci sono i comandi:
+°Tgmurmur, °Tgwhisper, °Tgsay, °Tgyell, °Tgshout
+~
+End
+
+#HINT
+Level 15
+Trust TRUST_PLAYER
+Text
+Con il comando °Tpager potete impostare il numero di righe massime di
+scorrimento prima di una pausa nell'esecuzione di alcuni comandi.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Con il comando °Tpractice potrai vedere la lista delle abilità e incantesimi
+da te conosciuti e quanto li hai appresi.
+Con il comando °Tskills potrai avere una lista delle abilità e skills con
+altre informazioni come il massimo da te apprendibile e la posizione minima per
+poter utilizzarli.
+Vengono inoltre elencate alcune delle abilità e degli incantesimi che
+apprenderai in futuro proseguendo con l'esperienza.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Con il comando °Tprompt e °Tfprompt potete impostare il vostro prompt come
+più vi aggrada.
+Vi sono anche dei set di prompt già preparati, per esempio per ladri o
+guerrieri, basterà scrivere °Tprompt <nomeset> per impostarlo.
+Se volete aggiungerci dei colori digitate °Thelp &gcolori&w
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Se vi trovate in difficoltà o vi siete persi utilizzare il comando °Trecall per
+tornare in luoghi più sicuri e familiari.
+Tale potere con l'avanzare dell'esperienza del vostro personaggio verrà meno.
+~
+End
+
+*#HINT
+*Level 20
+*Trust TRUST_PLAYER
+*Text
+*Se siete appena morti attraverso il comando °Tremains la vostra Divinità,
+*se ne adorate una, vi mostrerà una visione del vostro cadavere e del luogo
+*in cui si trova.
+*~
+*End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Potete rompere gli oggetti del vostro inventario attraverso il comando
+°Tjunk.
+~
+End
+
+*#HINT
+*Level 20
+*Trust TRUST_PLAYER
+*Text
+*Potete sacrificare gli oggetti alla vostra Divinità, se ne adorate una,
+*solo alcuni tipi di oggetti riescono a soddisfare le Divinità mentre
+*altri li offendono.
+*~
+*End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Il comando °Tjunk funziona solo sugli oggetti che avete in inventario e non
+permette di rompere dei contenitori.
+Il comando °Tsacrifice funziona solo sugli oggetti che trovate nella stanza e
+permette di sacrificare contenitori e corpi estraendo gli oggetti al loro
+interno.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Poi seguire un altro giocatore con il comando °Tfollow seguito dal nome
+del giocatore che vuoi seguire, quest'ultimo potrà utilizzare il comando
+°Tgroup seguito dal tuo nome per farti entrare nel suo gruppo.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Utilizza il comando °Tscore per visualizzare alcune delle vitali informazioni
+riguardanti il tuo personaggio.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Se vuoi avere sotto mano un elenco dei sociali da poter utilizzare in gioco
+digita °Tsocials.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Per avere informazioni sulla data attuale in cui si sviluppa Terra Secunda
+digita °Ttime.
+Per avere informazioni meteo digita °Tweather, non si può utilizzarlo al
+chiuso.
+Per vedere il cielo e, se di notte, le stelle digita °Tsky.
+Questo comando funziona solamente quando il cielo è sereno.
+~
+End
+
+#HINT
+Level 3
+Trust TRUST_PLAYER
+Text
+Se vuoi impostare un un appellativo, al tuo personaggio utilizza il comando
+°Ttitle seguito dal quello che volete come appellativo.
+Il titolo verrà visualizzato nel comando °Twho e in alcune azioni che compiete.
+Puoi aggiungerci anche dei colori, digita °Thelp &gcolor&w per saperne di più.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Se vuoi segnalare un errore di battitura o grammaticale notato nel gioco
+segnalalo con il comando °Ttypo.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Se vuoi fuggire automaticamente ad una determinata percentuale di punti di
+vita impostalo con il comando °Twimpy.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Se siete invisibili grazie ad un incantesimo o abilità o altro tramite il
+comando °Tvisible potrete tornare visibili agli occhi di tutti.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Se vuoi avere una lista completa dei simbolini visualizzabili nella mappa
+digita °Tlegend.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Se questi suggerimenti vi han rotto e volete disattivarli digitate:
+°Tconfig &g- suggerimenti&w
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+I Thepa sono gli uomini lucertola.
+~
+End
+
+#HINT
+Level 1
+Trust TRUST_PLAYER
+Text
+Noterete che molte frasi a voi indirizzate sono espresse in prima persona.
+E' voluto, è il vostro personaggio che vi sta descrivendo e dicendo cosa prova
+o esegue.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &RForza&w è l'attributo che indica la potenza che si riesce a sviluppare in
+tempi brevi e brevissimi.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &RResistenza&w rappresenta appunto quando il personaggio è resistente agli
+sforzi fisici, fatica e al dolore fisico.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &RCostituzione&w è quell'insieme di caratteristiche innate che determinano la
+robustezza o fragilità del corpo di un essere vivente.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+L'&BIntelligenza&w è l'attributo che rappresenta l'utilizzo delle facoltà logiche
+e mentali del proprio personaggio.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &BConcentrazione&w indica quanto il tuo personaggio riesce a raccogliersi
+mentalmente per compiere determinate azioni delicate o emotivamente intense.
+Ork... non riesco a concentrarmi abbastanza per spiegarla... ;P
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &BVolontà&w è quella summa di capacità psicologiche del personaggio che
+gli permettono di resistere a situazioni mentali critiche.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+L'&GAgilità&w rappresenta quanto il vostro personaggio riesce ad essere sciolto
+nei movimento.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+I &GRiflessi&w indicano quanto veloce il tuo personaggio reagisce istintivamente
+ad un uno stimolo o ad un pericolo.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &GVelocità&w indica quanto tempo il tuo personaggio è veloce nel compiere azioni
+di vario genere.
+~
+End
+
+#HINT
+Level 2
+Trust TRUST_PLAYER
+Text
+Se dopo una morte non riuscite a recuperare il vostro corpo potete usufruire
+dell'aiuto del becchino della città di Darkhaven, utilizzate il comando
+°Tremains per farvi restituire i vostri averi previo il pagamento della somma
+di mille monete d'oro.
+Il becchino Fosstoh è reperibile presso il cimitero, assicuratevi di avere
+sempre qualche spicciolo in banca per pagarlo prima di partire all'avventura!
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &CSpiritualità&w indica le potenzialità della vostra anima nelle attitudini
+immateriali relative allo spirito e nelle attività religiose.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &CMigrazione&w indica la capacità di manipolare l'Energia Astrale che ti
+attornia e di cui i Piani sono più o meno intrisi.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+L'&CAssorbimento&w è la capacità di canalizzare l'Energia Astrale grezza dei Piani
+per elabolarla poi per i propri scopi, incantesimi o altri poteri in primis.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+L'&YEmpatia&w è la capacità di identificarsi con l'altra persona e quindi di
+entrare in sintonia con essa rafforzando rapporti di fiducia o intimi.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+La &YBellezza&w è la qualità dell'essere belli, e quindi di affascinare il
+proprio interlocutore o attirare l'attenzione di chi ti sta attorno.
+~
+End
+
+#HINT
+Level 5
+Trust TRUST_PLAYER
+Text
+Il &YComando&w è la capacità di gestire al meglio gruppi sempre più folti di
+persone al proprio seguito.
+~
+End
+
+*#HINT
+*Level 1
+*Trust TRUST_PLAYER
+*Text
+*Il &YComando&w
+*~
+*End
+*
+*#HINT
+*Level 1
+*Trust TRUST_PLAYER
+*Text
+*~
+*End
+
+#HINT
+Level 10
+Trust TRUST_PLAYER
+Text
+Per passare di livello devi dormire e completare un sogno.
+~
+End
+
+#HINT
+Level 50
+Trust TRUST_PLAYER
+Text
+Meglio un uovo oggi che un drago domani.
+~
+End
+
+#HINT
+Level 20
+Trust TRUST_PLAYER
+Text
+Che la Migrazione sia con te!
+~
+End
+
+#END

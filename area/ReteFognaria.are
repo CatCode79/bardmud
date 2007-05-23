@@ -1,0 +1,4969 @@
+#AREA
+Name         La rete fognaria~
+Author       Diku (Miciko)~
+Color        AT_ORANGE marrone~
+Economy      0 7253836
+LevelRange   5 30
+ResetMsg1    Un torbido sciacquio mi giunge alle orecchie, e non avrei mai voluto che giungesse anche alle mie narici.~
+Vnums        7000 7445
+End
+
+
+#MOBILES
+
+#7000
+mostro fango~
+l'orribile Mostrofango~
+Un orrido Mostrofango si solleva inesorabile dalla melma..~
+Figlio della notte e degli incubi degli Dei, il mostro di fango è una creatura
+terrificante..  E non solo per la puzza di melma che spande ad ogni suo passo.
+A malapena si distingue una cavità in questo informe ammasso di liquame ma forse, a giudicare
+dal brandello di carne umana che ne penzola fuori, potrebbe trattarsi proprio della bocca.
+Non ti è ancora venuto il sospetto di poter essere la sua cena?
+~
+65 32768 -250 C
+12 9 -2 12d12+120 2d6+5
+100 4000
+5 5 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+61 3 0 0 1 1 1
+0 0 1705 0 0 0 1 0
+
+#7001
+pipistrello~
+un piccolo pipistrello~
+Appeso a testa in giù, un pipistrello si dondola nelle ombre.~
+E' piccolissimo e pelosetto. Se ne sta pacifico appeso al soffitto senza dar
+noia alcuna.. Saranno vere tutte le leggende che gravitano intorno a queste
+bestiole?
+~
+97 557056 -500 C
+1 20 4 5d2+6 1d5+0
+0 20
+4 4 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 512 512 1
+0 0 1581 0 0 0 1 0
+
+#7002
+ratto topo~
+un grosso topo di fogna~
+Scivola veloce davanti a te un enorme topone in cerca di qualcosa da mangiare.~
+~
+33 512 -1000 C
+5 16 5 5d5+50 2d4+0
+0 600
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 512 512 1
+0 0 67245 0 0 0 0 0
+
+#7003
+ragno~
+un piccolo ragno~
+Un piccolo ragno pelosetto cerca un buco per nascondersi.~
+~
+33 32768 -700 C
+1 20 3 1d12+8 1d4+0
+0 100
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+63 3 0 0 256 256 1
+0 0 1581 0 0 0 1 0
+
+#7004
+coleottero scarabeo~
+uno scarabeo stercorario~
+Una pallina di sterco rotola vicino ai tuoi piedi, spinta da uno scarabeo.~
+~
+1 512 -300 C
+8 13 3 8d8+80 2d5+1
+0 2000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 1
+0 0 1573 0 0 0 1 0
+
+#7005
+baco verme~
+un vermone~
+Un verme di proporzioni inaudite si trascina sul pavimento, a poca distanza da te.~
+~
+1 512 300 C
+3 17 9 2d5+35 1d7+0
+0 350
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 256 256 1
+0 0 1057 0 0 0 1 0
+
+#7006
+serpente~
+un serpentello~
+Senti un fruscio fra le caviglie.. è un serpente!~
+~
+33 512 -500 C
+5 16 7 4d4+40 1d9+0
+0 500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1024 1024 1
+0 0 67112 0 0 0 0 2
+
+#7007
+vagabondo tipo strano~
+uno sporco vagabondo~
+Da dietro un angolo vedi sbucare uno strano tipo.~
+Chissà da quanto tempo vaga per queste fogne, è magro come uno spillo ed indossa
+uno sporco mantellaccio grigio.
+~
+133 512 -1000 C
+10 11 2 10d10+100 2d6+1
+300 2500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+
+#7008
+omuncolo uomo ometto~
+un omuncolo~
+Ti ritrovi davanti un ometto piccino che ti guarda con aria tutt'altro che amichevole.~
+Sembra un incrocio fra un uomo ed una lucertola gigante: ha la pelle verde
+squamata, dietro la schiena gli spuntano due alette e la bocca, simile a
+quella di un pipistrello, è storta in un ghigno malefico.
+Dalle labbra dischiuse fan capolino un bel paio di dentacci gialli..
+~
+65 520 -780 C
+11 10 -1 11d11+110 2d6+2
+10 3500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1083119 0 0 0 2 0
+
+#7010
+chreffn~
+un feroce chreffn~
+Un chreffn striscia in cerca di qualcosa, scrutando intorno con i suoi occhi gialli.~
+Il torso di un chreffn è solitamente ricoperto di rame, dalla testa, anch'essa ramata,
+sbucano due acquosi occhi giallognoli. Il resto del corpo sembra essere un'ombra
+lievemente arancione.
+~
+133 32776 -830 C
+12 9 2 2d26+148 2d7+1
+0 5000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 1767 0 0 0 2 0
+
+#7011
+morkoth~
+un ombroso morkoth~
+Un morkoth ti sbarra la strada, sta cercando qualcuno da uccidere!~
+E' un mostro d'ombra, alto al massimo cinque piedi. Con un po' di immaginazione, studiando
+i contorni di questo strano essere, si può supporre che sia un incrocio fra un topo
+ed un essere umano. Il suo respiro si fa via via più pesante appena s'accorge di te, forse
+sta pensando a quale parte del tuo corpo mangiare per prima.
+~
+161 512 -900 C
+10 11 0 10d10+100 2d6+2
+25 3000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 1 1 1
+0 0 1735 0 0 0 1 0
+
+#7013
+mostro fango~
+l'orribile Mostrofango~
+Un orrido Mostrofango si solleva inesorabile dalla melma..~
+Figlio della notte e degli incubi degli Dei, il Mostrofango è una creatura
+terrificante..  E non solo per la puzza di melma che spande ad ogni suo passo.
+A malapena si distingue una cavità in questo informe ammasso di liquame ma forse, a giudicare
+dal brandello di carne umana che ne penzola fuori, potrebbe trattarsi proprio della bocca.
+Non ti è ancora venuto il sospetto di poter essere la sua cena?
+~
+97 32768 -250 S
+12 9 -2 12d12+120 2d6+5
+1000 8000
+5 5 0
+
+#7040
+rosso drago dragone~
+un fiero drago rosso~
+Sentendosi disturbato nel sonno, questo fiero dragone si sveglia un po' irritato.~
+Il Drago ti fissa con sguardo gelido, mentre si alza irritato per il suo riposo
+interrotto. Inspira per un attimo poi sibila verso di te "Oh.. voi umani ssssapete
+ssssolo fare un ssssacco di sssschiamazzo.. E qui non sssi può mai dormire in pace.. Hsssss!"
+~
+39 520 -1000 C
+33 -10 -10 500d2+2500 3d4+30
+5000 450000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 67584 2049 3
+0 0 361105 112 3073 2 3 0
+> rand_prog 10~
+mpechoaround Avverti uno strano ruggito d'animale nelle vicinanze.
+mpecho La belva ruggisce nuovamente, poi sbuffa e chiude gli occhi.
+~
+> all_greet_prog 100~
+if ismob($n)
+or isadmin($n)
+else
+  cast flamestrike $n
+endif
+~
+|
+
+#7041
+acqua strega~
+la strega dell'acqua~
+Spruzzi d'acqua schizzano tutt'intorno, rivelando la presenza di una strega dell'acqua..~
+Davvero una bella donna, non c'è che dire. Enormi occhi rossastri occupano metà del
+volto, con un sorriso sgangherato e perfido esibisce, come trofei, i denti aguzzi sparsi
+qua e là nelle gengive. Fortunatamente le sue orecchie sono così grandi da distogliere
+per un attimo l'attenzione dal viso..
+~
+33 512 -800 C
+14 7 1 1d8+172 2d8+1
+0 18000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 64 524288
+
+#7042
+guardi naga~
+la guardia naga~
+La guardia naga ti osserva attentamente.~
+Le creature naga sono simili ai serpenti. Questa in particolare ha il corpo
+ricoperto da scaglie verdi-oro con una striatura argentea che percorre tutta
+la spina dorsale. Ti guarda con i suoi occhi dorati e ti mette in guardia.
+"Fà attenzione, lungo questa strada incontrerai degli esseri molto malvagi".
+~
+3 512 700 C
+12 9 2 1d18+148 2d7+1
+50 13500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 8192 0
+0 0 198251 0 0 0 1 524289
+
+#7043
+basilisco~
+un basilisco squamato~
+Una strana creatura ti si avvicina quasi carponando, è un basilisco.~
+Di fronte a te sta un mostro con le forme di un rettile. Ha ben otto zampe che
+terminano con degli affilatissimi artigli; tutto il suo corpo è di una tonalità
+marrone scuro, tranne la pancia di un vago colore giallognolo e gli occhi verde pallido.
+~
+37 520 -250 C
+13 11 0 1d12+160 2d7+2
+0 16000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1024 1024 1
+0 0 1181228 0 0 0 3 2
+
+#7044
+lemure~
+un lemure maculato~
+Senti un fruscio alle tue spalle.. è un lemure che ti balza addosso!~
+Una povera creatura indefinita si agita per attaccarti, non che sia molto
+interessata a te ma cerca ad ogni costo lo scontro fisico. Rotea i suoi grandi
+occhi viola sporgendo in avanti la mandibola per morderti meglio.
+Forse s'è bruciata il cervello..
+~
+33 32768 -500 S
+5 16 6 3d5+57 2d4+0
+0 1000
+8 8 0
+
+#7045
+jones masticatore ettin~
+Jones~
+Una creatura ti fissa con insistenza, è Jones 'Il Masticatore'.~
+A prima vista sembrerebbe un orco, ma appena si sposta un poco dalla zona
+d'ombra riesci a scorgere la sua seconda testa. Indossa una lercia pelle d'animale
+come mantello. Se ancora stai cercando di capire donde arrivi tutta questa puzza.. sappi
+che la sorgente è in piedi davanti a te.
+~
+37 512 -480 S
+10 11 2 10d10+100 2d6+4
+60 4000
+5 5 0
+
+#7046
+herald detopizzatore ettin~
+Herald~
+Un ettin ti guarda con aria sperduta, probabilmente si tratta di Herald 'Il Detopizzatore'.~
+Guardi questo essere e quasi ti senti muovere a pietà. I suoi vestiti sono
+miseri e sporchi, a malapena lo coprono. Una delle due teste pende da un lato
+come se non avesse sostegno alcuno su cui reggersi. Diversi topi morti sono legati
+alla sua cintura tramite una cordicella.
+Dall'odore che emana, Herald potrebbe essere il fratello dell'altro ettin, Jones.
+~
+5 512 200 S
+6 14 4 6d6+60 1d8+0
+40 1000
+5 5 0
+
+#7200
+adulto mindflayer~
+un mindflayer adulto~
+Un mindflayer adulto è qui, squadrandoti in modo poco amichevole.~
+Un'altra creatura interessante. E' alto circa sette piedi, antropomorfo e coperto
+da capo a piedi con un lungo mantello color porpora. Dalla sua fronte fuoriescono
+quattro buffi tentacoli forniti di tanti piccolissimi uncini, che dovrebbero conficcarsi
+nelle carni del nemico per causargli maggior dolore.
+Al momento questo strano essere sta agitando un'asta d'acciaio con notevole malagrazia,
+pronto a colpirti.
+~
+37 520 -800 S
+14 7 0 14d14+140 3d4+4
+1000 18000
+8 8 0
+
+#7201
+anziano mindflayer~
+un anziano mindflayer~
+Un anziano mindflayer cammina adagio, cercando qualcosa di utile.~
+E' un orribile mostro, alto poco più di sei piedi, vestito con abiti rosso cupo e nero.
+Con una mano tiene una gigantesca ascia, con l'altra si trastulla con i quattro tentacoli
+che sbucano dal centro del suo cranio.
+~
+37 520 -600 S
+8 13 2 8d8+80 2d4+3
+400 3000
+8 8 0
+
+#7202
+giovane mindflayer~
+un giovane mindflayer~
+Da dietro un angolo fanno capolino i quattro tentacoli tipici dei mindflayer.~
+Si assomigliano un po' tutti i mindflayer: ha i soliti quattro tentacoli, un'ascia
+appesa alla cintura ed i vestiti porpora bordati di nero. Questo però sembra un po'
+più giovane degli altri.
+~
+37 520 -350 S
+6 15 4 6d6+60 1d4+3
+200 1500
+8 8 0
+
+#7203
+topo mannaro~
+l'abominevole Topo Mannaro~
+Hai l'onore d'incontrare l'orrendo topo mannaro, re delle fogne!~
+L'abominevole Topo Mannaro è alto quattro piedi, annusa l'aria cercando qualcosa
+da mangiare e ad eccezione della postura eretta, assomiglia in tutto e per tutto
+ad un grosso topo.
+~
+101 512 -700 S
+6 15 3 4d6+69 2d4+2
+50 1200
+8 8 0
+
+#7204
+topo ratto~
+un ratto gigante~
+Un ratto ti fissa con aria da questuante, forse sperando in un po' di cibo.~
+Dalla punta del muso alla fine della coda saranno circa dieci piedi di topo.
+Ha degli artigli grandi quanto la tua testa e sembrano ancora sporchi del sangue
+di qualche altro animaletto.
+~
+35 512 -800 S
+12 9 -2 12d12+120 2d6+2
+2513 10000
+4 8 0
+
+#7205
+ghiandaia~
+una ghiandaia~
+Una ghiandaia pigola abbandonata in un angolo..~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 1
+
+#7206
+uccellino~
+un uccellino~
+Quest'uccellino s'è avventurato proprio in un postaccio.~
+~
+1 0 0 S
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+
+#0
+
+
+#OBJECTS
+
+#7190
+anello argento~
+un lucente anello d'argento~
+Un grazioso anellino è per terra davanti ai tuoi piedi.~
+~
+9 64 3
+4 0 0 0
+1 2000 200
+A
+17 -3
+A
+12 5
+A
+13 5
+A
+18 1
+
+#7200
+corno diavolo~
+Il Corno del Diavolo~
+Una strano corno è stato dimenticato qui.~
+~
+5 64 8193
+0 3 5 5
+6 16000 1600
+A
+18 2
+A
+1 1
+E
+diavolo corno~
+Un alone di magia permea questo misterioso oggetto; è nero come la notte più scura
+ed alla base ha incollati quattro tentacoli color porpora.
+~
+
+#7201
+mazza ascia~
+un'enorme ascia~
+Poggiata al muro vedi una grande ascia.~
+crush~
+5 64 8193
+0 2 6 8
+10 1000 100
+E
+mazza ascia~
+Ad un primo sguardo sembra abbastanza pesante, sulle dieci libre circa; anche questa
+ha quattro tentacoli rossastri attaccati sul fondo del manico.
+~
+A
+19 2
+
+#7202
+piccola ascia mazza~
+una piccola mazza~
+Una piccola mazza giace per terra inutilizzata.~
+crush~
+5 64 8193
+0 2 5 8
+6 600 60
+A
+19 1
+E
+piccola mazza~
+Non sembra costituire un gran pericolo questa piccola ascia, ma non si sa mai.
+Ha il manico nero e le lame sono vagamente color porpora.
+~
+
+#7203
+mantello~
+un mantello violaceo~
+Dimenticato in un angolo intravedi un sacco, o è forse un mantello ripiegato?~
+~
+9 64 5
+6 0 0 0
+20 5000 500
+A
+24 -1
+
+#7204
+pozione blu~
+una pozione blu~
+Una fialetta con un liquido azzurrognolo è qui vicino al muro.~
+~
+10 64 1
+14 28 29 292
+4 100 10
+
+#7205
+chiave nera~
+una chiave nera~
+Vedi una chiave per terra, in genere servono ad aprire le porte. Che ce ne sia una qui vicino?~
+~
+18 0 1
+0 0 0 0
+2 10 1
+
+#7206
+teschio bianco~
+uno strano teschio bianco~
+Dalle vuote orbite di questo teschio qualcuno ti sta osservando..~
+~
+9 192 17
+1 0 0 0
+30 0 0
+A
+2 -4
+E
+teschio bianco~
+Il teschio ha due piccoli cornini sulla sommità.. Sarà il teschio del demonio o di una
+mucca? Se guardi bene noterai dei piccoli simboli vicino al bregma..
+~
+E
+cifre numeri lettere~
+Si distingue chiaramente il numero '666'.. Forse è il numero d'assistenza per le fogne.
+~
+
+#7207
+occhio basilisco~
+l'occhio del basilisco~
+Rotola accanto ai tuoi piedi un'insolita sferetta, pare sia un occhio.~
+~
+4 84 16385
+20 8 8 15
+3 3256 325
+
+#7208
+bastone bastoncino~
+un piccolo bastone~
+Vedi un piccolo bastone poggiato per terra.~
+~
+1 0 16385
+0 0 120 0
+4 200 20
+E
+bastone bastoncino~
+Sembra un bastone qualunque, non molto degno d'attenzione.. tranne che per quelle
+strane letterine incise.
+~
+E
+lettera lettere~
+Leggi distintamente 'Prendimi'.
+~
+
+#7209
+stivali~
+un paio di stivali infangati~
+Buttati per terra vedi un paio di stivalacci infangati.~
+~
+9 64 65
+3 0 0 0
+20 75 7
+E
+stivali~
+Sono molto infangati e decisamenti consunti dal tempo e dall'usura, però
+sembrano davvero comodi.
+~
+A
+2 1
+
+#7210
+tesoro monete~
+un grande tesoro~
+Hai di fronte a te un tesoro dal valore inestimabile.~
+~
+20 0 1
+15000 0 0 0
+0 15000 1500
+E
+tesoro~
+Pensavi si trattasse dell'amicizia o dell'amore, vero?
+Invece è proprio una montagna di monete d'oro sonanti!
+~
+
+#7211
+spada spadino~
+un corto spadino~
+Qualcuno ha lasciato qui la sua spada.~
+~
+5 0 8193
+0 2 4 11
+4 60 6
+A
+18 1
+#7212
+flacone escrementil~
+un flacone pieno di un liquido bizzarro~
+Mentre cerchi un modo per uscire da qui, ti cade l'occhio su un flaconcino riposto in un angolo.~
+~
+17 0 0 1
+5 0 0 0
+1 0 0
+E
+rettangolo~
+L'etichetta, scritta in caratteri solenni, recita : "Escrementil, il
+magnifico sgrassatore per tutti i tipi di fognature!"
+~
+E
+flacone~
+E' fatto di uno sconosciuto materiale, leggero ma apparentemente resistente:
+il flacone infatti sembra essere qui da tantissimo tempo.
+Ruotando un po' il contenitore scorgi un rettangolo di cuoio con un buchino in
+alto a sinistra dentro cui passa uno spago che lega il rettangolo al collo del
+flacone.
+~
+
+#7216
+artiglio rosso~
+un enorme artiglio di drago~
+Qualcosa di rosso sbuca da sotto una mattonella, è un artiglio di drago rosso.~
+~
+5 592 8193
+0 4 4 5
+19 1800 180
+E
+artiglio unghione~
+E' una sorta di unghione gigante, magari è l'artiglio di un drago.
+~
+A
+17 5
+A
+19 5
+
+#7299
+spada spadino~
+una piccola spada~
+Una piccola spada attende solo una mano che la porti a combattere.~
+stab~
+5 0 8193
+0 2 5 2
+4 60 6
+E
+spadino spada~
+E' proprio uno spadino grazioso e maneggevole. Abbastanza piccolo da poterlo
+nascondere in uno stivale? Fà la prova.
+~
+
+#7300
+zaino borsone~
+uno zaino~
+Capiente e robusto, hai bisogno di uno zaino?~
+~
+15 0 524289
+60 5 -1 0
+2 100 10
+
+#7301
+marsupio~
+un marsupio~
+Un largo marsupio è stato lasciato qui, chissà che non ci sia ancora qualcosa dentro.~
+~
+15 0 2049
+5 5 -1 0
+1 20 2
+
+#7303
+orbe occhio~
+l'occhio del Drago Rosso~
+Un grosso occhione ti guarda attira il tuo sguardo.~
+~
+4 592 16385
+12 7 7 36
+8 10000 1000
+A
+3 2
+A
+4 2
+
+#7304
+scaglie rosso torso~
+un torso di scaglie rosse di drago~
+Un mucchio di scaglie di drago giace qui nella polvere.~
+~
+9 592 9
+9 0 0 0
+40 780000 78000
+A
+17 -25
+A
+14 -50
+A
+2 -2
+A
+5 2
+A
+13 35
+A
+18 3
+A
+19 4
+
+#7305
+gambali rosso~
+gambali in squame di drago~
+Due gambali ricavati dalle scaglie di drago giacciono qui.~
+~
+9 592 33
+9 0 0 0
+17 12500 1250
+A
+2 -1
+A
+19 2
+
+#7306
+artigli artiglio~
+artigli anteriori di drago~
+Un set di artigli di drago aspetta d'aprir la pancia al nemico.~
+~
+9 592 129
+9 0 0 0
+6 85000 8500
+A
+19 2
+A
+18 2
+
+#7307
+teschio elmo drago~
+un elmetto d'osso~
+Un elmetto fatto con il teschio di un drago è stato posato qui.~
+~
+9 592 17
+9 0 0 0
+15 250000 25000
+A
+2 -1
+A
+19 2
+A
+4 2
+A
+3 1
+
+#7308
+scudo rosso~
+uno scudo di scaglie~
+Un largo scudo di scaglie è posato per terra.~
+~
+9 592 513
+10 0 0 0
+10 100000 10000
+A
+17 -15
+A
+19 2
+
+#7309
+artigli posteriori~
+artigli posteriori di drago~
+Ancora artigli di drago per terra.~
+~
+9 592 65
+9 0 0 0
+40 100000 10000
+A
+19 2
+A
+2 -1
+
+#7310
+maniche scaglie~
+maniche di scaglie di drago~
+Due maniche in scaglie di drago sono qui per terra.~
+~
+9 592 257
+9 0 0 0
+30 125000 12500
+A
+19 2
+A
+18 1
+A
+2 -1
+
+#0
+
+
+#ROOMS
+
+#7001
+Nella melma~
+Sei nella melma fino alle ginocchia, in qualunque direzione tu guardi non
+vedi miglioramenti nello stato delle fognature. Per il picnic sarà il caso
+di rimandare..
+~
+0 9 13
+D2
+Il condotto prosegue nell'oscurità andando verso sud.
+~
+~
+0 -1 7002
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7002
+Un incrocio di condotti~
+Le fognature proseguono verso sud, inoltrandosi in condotti sempre più bui dove, con
+molta probabilità, nessuno vi ha mai messo piede. E' davvero troppo melmoso in quella
+direzione. Volendo, puoi decidere d'andare anche a est o nord.
+~
+0 9 13
+D0
+Le fognature conducono verso nord.
+~
+~
+0 -1 7001
+D1
+Si intravede una svolta verso sud.
+~
+~
+0 -1 7007
+D2
+Il condotto termina in un pozzetto pieno di melma.
+~
+~
+0 -1 7003
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7003
+Il pozzo nero~
+Fatichi a girarti in questo pozzetto pieno di liquami maleodoranti, trattenendo
+qualche imprecazione sul perché hai deciso d'avventurarti qua sotto.. Non è
+decisamente il tuo ambiente naturale.
+Verso nord riesci a scorgere un altro condotto, mentre dal centro del pozzo si diparte
+quello che sembra essere un canale di scolo.
+~
+0 13 13
+D0
+La fognatura prosegue in questa direzione.
+~
+~
+0 -1 7002
+D5
+Il canale di scarico prosegue verso il basso trascinando con sé molta melma.
+~
+~
+0 -1 7101
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7004
+La fossa biologica~
+Dal fondo di questa buca si sollevano vapori mefitici di ogni natura, se hai
+qualcosa per coprirti il naso è il momento giusto per usarla.
+Appena ti riprendi dall'attacco della puzza guarda verso est, c'è un'uscita.
+~
+0 9 13
+D1
+I condotti fognari si incrociano lungo questa direzione.
+~
+~
+0 -1 7009
+D5
+La fossa sembra essere un pozzo senza fondo.. o almeno tu non riesci ad intravederne
+la fine. Inchiodate al muro ci sono alcune barre d'acciaio che fungono da
+scalette.
+~
+~
+0 -1 7102
+S
+
+#7005
+Un condotto fognario~
+Giungi ad uno dei tanti angoli di questa rete fognaria, il posto è decisamente
+buio ed il persistente odore che accompagna i tuoi passi, non rallegra la
+situazione.
+Puoi proseguire verso est o verso sud.
+~
+0 9 13
+D1
+Verso est le fognature si perdono nell'oscurità.
+~
+~
+0 -1 7011
+D2
+C'è più melma in questa direzione che non dove sei tu ora.. Incredibile.
+~
+~
+0 -1 7006
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7006
+Un altro condotto~
+Vediamo il lato positivo di questa camminata.. quando mai t'è capitato di
+attraversare un fiume di porridge? Tutto sommato qui non fa neanche troppo
+caldo, anzi sembrerebbe piuttosto freschino.
+La fognatura curva verso nord e verso est.
+~
+0 9 13
+D0
+Ancora una svolta ad est nel condotto fognario.
+~
+~
+0 -1 7005
+D1
+Il condotto curva verso sud.. Che buffo, c'è della melma anche lì.
+~
+~
+0 -1 7012
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7007
+Una svolta nel condotto~
+Prosegui lungo il condotto, mantenendo sempre la speranza di un luogo migliore
+dove finire i tuoi giorni.. Sei nella melma fino alle ginocchia, o almeno questa
+cosa liquida sembra melma. La fognatura conduce verso ovest e verso sud.
+~
+0 9 13
+D2
+La fognatura conduce verso un'intersezione. Il pavimento è ancora ricoperto di melma.
+~
+~
+0 -1 7008
+D3
+Il canale termina in un incrocio di condotti.
+~
+~
+0 -1 7002
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7008
+Un incrocio di fognature~
+Faticosamente ti apri un varco in mezzo al fango e chissà quant'altro ancora.
+Non è la melma in sé che dà noia, è tutto il bel contorno di odori, fragranze,
+suoni e non ultima l'oscurità che impedisce una visuale quantomeno decente.
+Verrebbe quasi da ridere.. Se non fosse tutto così deprimente.
+Le fognature proseguono verso nord, est e sud. Naturalmente nel liquame.
+~
+0 9 13
+D0
+Da non crederci, il condotto prosegue per un lungo tratto incrostato di melma
+fin sulle pareti, prima di curvare verso est.
+~
+~
+0 -1 7007
+D1
+Questo posto sembra il raduno annuale della melma, nonostante il fetore contribuisca
+poco ad un certo clima di gioioso lerciume. Il canale curva verso nord.
+~
+~
+0 -1 7014
+D2
+In questa direzione il condotto sembra meno impestato dallo sporco, ma c'è anche da dire
+che la tua torcia illumina davvero pochino.. Proseguendo arrivi ad un incrocio.
+~
+~
+0 -1 7009
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7009
+Incrocio di canali~
+Sei nel bel mezzo di un incrocio di fognature, proprio sotto quello che sembra
+un condotto di ventilazione. Non è possibile arrampicarsi ed uscire da quella parte ma
+hai comunque a disposizione tanta altra portentosa melma da esplorare andando ad est, ovest
+sud o nord.
+~
+0 9 13
+D0
+Il pavimento è sparito, sommerso da un fiume di liquami.
+~
+~
+0 -1 7008
+D1
+Se hai intenzione di calpestare una milionata di insetti, puoi venire da questa parte.
+~
+~
+0 -1 7017
+D2
+Qui sembra abbastanza pulito, il condotto giunge ad un angolo e curva verso est.
+~
+~
+0 -1 7010
+D3
+Già da questa distanza si può sentire il forte odore di un altro pozzo, poco lontano da qui.
+~
+~
+0 -1 7004
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7010
+Una svolta nel canale~
+Il condotto si ramifica in questo punto: da nord giunge un fetore molto peggiore di quello
+che già subisci qui. Se preferisci puoi andare anche ad est.
+~
+0 9 13
+D0
+Un'intersezione di canali, puoi scegliere una direzione qualunque.
+~
+~
+0 -1 7009
+D1
+Il condotto si addentra in una fitta oscurità.
+~
+~
+0 -1 7018
+S
+
+#7011
+Uno dei tanti condotti~
+Raggiungi un trivio, camminando a fatica nella melma. Puoi scegliere d'andare a sud, est, ovest.
+Una vale l'altra qua sotto..
+~
+0 9 13
+D1
+Hai come l'impressione che in questo canale ci sia meno liquame.
+~
+~
+0 -1 7024
+D2
+Per di qua la via si fa sempre più buia, sebbene ti pare che sia meno intasata
+dalla melma, forse indica la strada per levarsi da questa fanghiglia.
+~
+~
+0 -1 7021
+D3
+Fa decisamente schifo. Come se fosse una creatura autonoma, la melma si arrampica fin quasi
+al soffitto.
+~
+~
+0 -1 7005
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7012
+Svoltando un angolo~
+Ti sovviene in mente che da tempo avevi preparato una lista di posti dove poter
+trascorrere una vacanza. Appena e se riuscirai ad uscire da qui, ricordati di
+aggiornare l'elenco. La fangaccia assalta le tue gambe in maniera irriverente ed
+è fuori dall'umana comprensione il modo in cui tanta melma sia finita quaggiù..
+Verso ovest e verso sud i condotti si perdono nel buio.
+~
+0 9 13
+D2
+Come fa ad aumentare in continuazione questo liquame?! Distingui in mezzo alla
+fanghiglia una intersezione di condotti.
+~
+~
+0 -1 7013
+D3
+Riesci solo a vedere la svolta a nord, lievemente meno intralciata dalla sporcizia.
+~
+~
+0 -1 7006
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7013
+Melma intersecata~
+Cerchi di rinfrancarti lo spirito con l'idea di un bel bagno caldo, mentre l'unica cosa
+calda qua sotto è il fiume di scarico che lambisce i tuoi fianchi. Probabilmente era
+l'ultimo dei tuoi desideri fare una doccia di letame..
+Se riesci a sopravvivere allo schifo, prova i condotti che dirigono verso sud o nord o est.
+~
+0 9 13
+D0
+Sedimenti di qualsiasi natura si son dati appuntamento in questo canale.. Più avanti
+scorgi una svolta verso ovest.
+~
+~
+0 -1 7012
+D1
+L'unica cosa davvero interessante in questo canale è la completa assenza di melma!
+~
+~
+0 -1 7026
+D2
+Melma dappertutto.. E una svolta del condotto verso ovest.
+~
+~
+0 -1 7014
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+E
+sedimenti~
+Solitamente non ti occupi di studiare questo genere di rifiuto organico, ma dato che
+ci sei dentro fin quasi alle spalle sarà il caso di dargli un'occhiatina.
+~
+S
+
+#7014
+Alcune fognature~
+Per sfuggire all'insostenibile puzzo di queste fognature, cerchi riparo
+nella contemplazione di un'esistenza superiore che ti risollevi dalla melma
+per trasportarti in luoghi più consoni alla meditazione..
+Ma non c'è nulla da fare, il fetore ha la meglio su qualsiasi forma di concentrazione
+e l'unico pensiero che si riesca a formulare è un piano di fuga da queste fogne.
+Prova ad andare ad ovest, magari ci riesci.
+~
+0 9 13
+D0
+Un'altra intersezione di condotti che portano a nord o est.
+~
+~
+0 -1 7013
+D3
+Ehi! Ehi!! per di qua c'è pochissima melma! che sia la strada buona per uscire?
+~
+~
+0 -1 7008
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7015
+Il vecchio pozzo~
+Sei nei pressi di un piccolo pozzo costruito prima di questo secolo. I canali
+portano verso est, il pozzo discende verso il basso ed è possibile raggiungerne
+il fondo aiutandosi con alcune barre di metallo impiantate nel muro come dei
+pioli di una scaletta.
+~
+0 9 13
+D1
+Non vedi un bel niente, però bello.
+~
+~
+0 -1 7028
+D5
+Nel pozzo c'è ancora meno luce che nei corridoi precedenti, quindi dovrai
+scendere affidandoti alle barre di metallo e alla fortuna.
+~
+~
+0 -1 7105
+E
+barre~
+Sembrano molto scivolose e per niente affidabili come sostegno, entrambi particolari
+che incoraggiano molto a scendere nel buio pesto.
+~
+S
+
+#7016
+Un'altra svolta~
+Il condotto curva proprio in questo punto, procedendo verso sud o verso est
+a seconda della direzione che sceglierai.
+~
+0 9 13
+D1
+Un'intersezione di condotti, uno va verso nord, uno verso est.
+~
+~
+0 -1 7021
+D2
+Non vedi nulla in questa direzione, è troppo buio.
+~
+~
+0 -1 7017
+S
+
+#7017
+Un incrocio di canali~
+Pensa che bello, puoi scegliere fra ben tre direzioni: nord, ovest e sud!
+~
+0 9 13
+D0
+Vedi una svolta nel condotto.
+~
+~
+0 -1 7016
+D2
+Un'altra intersezione che però va in direzione est-ovest.
+~
+~
+0 -1 7018
+D3
+Ben quattro canali si incrociano qui.
+~
+~
+0 -1 7009
+S
+
+#7018
+Una normale intersezione~
+E' molto tranquillo qui, anche il liquame sembra puzzare un po' più gentilmente,
+viene quasi voglia di tirare un sospiro.. Ma poi è meglio ripensarci.
+Puoi proseguire verso est, ovest o nord. A te la scelta.
+~
+0 13 13
+D0
+Verso nord c'è un incrocio identico a questo che conduce a nord ed ovest.
+~
+~
+0 -1 7017
+D1
+Ad est vedi solo un'altra intersezione di condotti.
+~
+~
+0 -1 7031
+D3
+Il condotto piega ad angolo proseguendo poi verso nord.
+~
+~
+0 -1 7010
+S
+
+#7021
+Una tranquilla intersezione~
+Basta non respirare e per un quarto d'ora questo angolino di fognatura si
+trasforma magicamente in un comodo punto di ristoro.
+Prima di andare ad ovest o est ricordati di riprendere fiato.
+~
+0 13 13
+D0
+Non vedi proprio un accidenti, è inutile che continui a guardare.
+~
+~
+0 -1 7011
+D1
+Toh che strano.. Un'altra intersezione!
+~
+~
+0 -1 7029
+D3
+Ancora un volta vedi una svolta.
+~
+~
+0 -1 7016
+S
+
+#7022
+Una bizzarra stanza con le pareti lisce~
+Hai sentito quel click quando hai varcato la soglia della stanza..?
+No? E allora come ti spieghi che stai cadendo da circa dieci minuti?
+Caaaaaaadiii.... Cadddiiii...
+.
+.
+.
+.
+..e atterri sulle tue morbide terga.. Strano però, c'è un'enorme arcata che
+conduce ancora più in basso..
+~
+0 9 13
+D5
+Intravedi solamente un'intersezione laggiù.. E' un buiaccio cane.
+~
+entrata~
+0 -1 7112
+S
+
+#7024
+Una fognatura~
+Il liquame ha ormai raggiunto le tue anche e brancoli un po' per scegliere una
+delle tante direzioni.. Ovest, sud o est?
+~
+0 13 13
+D1
+Verso est c'è una stanzina rotonda.
+~
+~
+0 -1 7037
+D2
+Ancora un'intersezione che dirige verso sud ed est.
+~
+~
+0 -1 7025
+D3
+Ancora un'altra intersezione.. Entusiasmante vero?
+~
+~
+0 -1 7011
+S
+
+#7025
+Un'intersezione~
+Non solo puzzano queste fogne, sono anche dannatamente ripetitive.
+Le uscite possibili sono verso nord, sud ed est.. Ma se riesci a bucare il
+pavimento puoi provare ad uscire anche verso il basso.
+~
+0 9 13
+D0
+Un corridoio est-ovest. Verso ovest c'è meno sporco.
+~
+~
+0 -1 7024
+D1
+Un altro incrocio che porta verso sud o verso est.. Cos'hai in mano?? E' un cappio?
+~
+~
+0 -1 7038
+D2
+Ooohh finalmente una bella intersezione! O è un'unione?
+~
+~
+0 -1 7026
+S
+
+#7026
+Un incrocio~
+Quest'incrocio sembra davvero interessante, è molto più grande di tutti quelli che
+hai incontrato sinora ed è molto più pulito. Notevole.
+Verso l'alto un condotto d'areazione ti porterebbe lontano da qui verso l'aria sana..
+Ma giustamente non puoi raggiungerlo. Consolati con le altre scelte, nord, sud, ovest.
+~
+0 13 13
+D0
+Un incrocio, avvicinati e vedi da te le direzioni possibili.
+~
+~
+0 -1 7025
+D2
+Non finiranno mai, sappilo. C'è ancora un'altra intersezione.
+~
+~
+0 -1 7028
+D3
+Verso ovest dovrebbe esserci un'intersezione ma non ne hai proprio la certezza.
+I liquami e sedimenti vari bloccano la visuale.
+~
+~
+0 -1 7013
+E
+melma~
+Camminare in questi condotti è un po' come avventurarsi nelle pozze di catrame.
+Purtroppo si tratta solo di un sogno ad occhi aperti perché l'odore nell'aria
+racconta di tutt'altro materiale biologico..
+~
+S
+
+#7028
+Giunzione di condotti~
+Nord, est, ovest. Cosa scegli?
+~
+0 9 13
+D0
+~
+~
+0 -1 7026
+D1
+Una svolta del condotto porta verso sud.
+~
+~
+0 -1 7034
+D3
+Verso ovest ti pare di scorgere un vecchio pozzo.
+~
+~
+0 -1 7015
+S
+
+#7029
+Una tripla giunzione~
+Sei nel mezzo di una tripla giunzione, puoi andare ad est, sud, ovest.
+~
+0 9 13
+D1
+Il condotto svolta verso nord.
+~
+~
+0 -1 7035
+D2
+Verso sud c'è una quadrupla giunzione, è davvero gigantesca ed illuminata da
+una luce innaturale.
+~
+~
+0 -1 7030
+D3
+Vedi una giunzione identica a quella dove sei adesso.
+~
+~
+0 -1 7021
+S
+
+#7030
+Una giunzione sotto il cancello settentrionale~
+Un formicaio gigante, ecco cosa sembra questa giunzione. Ci sono numerosi condotti
+che proseguono verso nord, altri verso sud, est, ovest.
+In più alcune scale di metallo agganciate al muro conducono al livello superiore..
+Che sia l'uscita?
+~
+0 13 13
+D0
+Una tripla giunzione.
+~
+~
+0 -1 7029
+D1
+Vedi una buca nel pavimento.
+~
+~
+0 -1 7036
+D2
+Due condotti che procedono verso ovest o est.
+~
+~
+0 -1 7031
+D3
+Ad ovest c'è una strana stanza con inconsuete pareti.
+~
+~
+0 -1 7022
+D4
+Guardando in alto vedi alcune foglie che ricoprono il tombino.
+~
+tombino~
+1 -1 21075
+E
+scala~
+E' salda, ben costruita con metallo resistente. Sarebbe davvero un oggetto utile
+da portarsi dietro. Se non fosse che è inchiodata al muro.
+~
+S
+
+#7031
+Una giunzione più scura~
+Puoi andare in tutte le direzioni, verso sud però il passaggio sembra
+un po' più largo.
+~
+0 9 13
+D0
+A nord c'è un enorme incrocio di condotti.
+~
+~
+0 -1 7030
+D1
+Una tripla giunzione.
+~
+~
+0 -1 7044
+D2
+Uno squarcio nel muro.
+~
+~
+0 -1 3590
+D3
+Un'altra tripla giunzione.
+~
+~
+0 -1 7018
+S
+
+#7034
+Una svolta nel condotto~
+La fognatura prosegue verso sud e verso ovest.
+~
+0 9 13
+D2
+Ancora una svolta verso ovest.
+~
+~
+0 -1 7035
+D3
+Una tripla giunzione verso nord e ovest.
+~
+~
+0 -1 7028
+S
+
+#7035
+Una svolta nel canale~
+Puoi proseguire verso nord o verso ovest.
+~
+0 9 13
+D0
+vedi un'altra svolta verso ovest.
+~
+~
+0 -1 7034
+D3
+Un'altra giunzione, tripla.
+~
+~
+0 -1 7029
+S
+
+#7036
+La fossa~
+Sei in una sezione di fogne che non conduce da nessuna parte, un vicolo cieco.
+C'è una fossa nel pavimento, si potrebbe scendere tenendosi salde alle barre
+metalliche fissate al muro.
+~
+0 9 13
+D3
+Una giunzione quadrupla con un'uscita verso l'alto.
+~
+~
+0 -1 7030
+D5
+La fossa è veramente buia e non si vede nulla.
+~
+~
+0 -1 7122
+S
+
+#7037
+La stanza rotante~
+Non fai in tempo ad entrare che scatta un meccanismo e la stanza inizia a ruotare su
+se stessa, dapprima lentamente poi sempre più veloce.. Cerchi d'aggrapparti a
+qualcosa per non cadere, poi la stanza si ferma e l'unica porta della stanza non sembra
+essere nella stessa direzione di prima.. Ora dà verso est e c'è solo questa uscita..
+~
+0 9 13
+D1
+Intravedi una stanzina ed una sedia dentro.
+~
+~
+0 -1 7050
+S
+
+#7038
+Una tripla giunzione~
+Est, west, sud.. Solo l'imbarazzo della scelta.
+~
+0 9 13
+D1
+Scorgi una stanza delle guardie poco illuminata.
+~
+~
+0 -1 7045
+D2
+Verso sud pare che ci sia un magazzino.
+~
+~
+0 -1 7039
+D3
+Ad ovest vedi una linea fognaria che conduce a nord e a sud.
+~
+~
+0 -1 7025
+S
+
+#7039
+Un magazzino fra le fognature~
+Sei in una stanzina illuminata da una singola torcia nel muro, l'unica via
+d'uscita è verso nord.
+~
+0 8 13
+D0
+A nord c'è una giunzione di condotti.
+~
+~
+0 -1 7038
+S
+
+#7041
+Un condotto di ventilazione~
+Dall'orlo del condotto guardi in basso, c'è una scaletta infissa nel
+muro e pare l'unica via per scendere. Se non vuoi avventurarti
+nel condotto di ventilazione puoi proseguire verso sud, lungo il canale.
+~
+0 9 13
+D2
+Verso sud i condotti si perdono nel buio.
+~
+~
+0 -1 7043
+D5
+Buio e buio ancora più buio. Pare non ci sia nulla da vedere qui.
+~
+~
+0 -1 7123
+E
+scala~
+Fissata saldamente al muro, questa scala non può nemmeno essere girata. O almeno
+così ti sembra.
+~
+S
+
+#7043
+Un condotto~
+Nel bel mezzo del condotto è sistemata una grata per l'areazione di
+queste fogne, purtroppo è troppo in alto per poterla raggiungere.
+~
+0 9 13
+D0
+A nord puoi vedere una scaletta che conduce in basso.
+~
+~
+0 -1 7041
+D2
+A sud una tripla giunzione porta verso sud e verso nord.
+~
+~
+0 -1 7044
+S
+
+#7044
+Tripla Giunzione~
+Sei in un passaggio che si divide in tre condotti, uno a nord, uno ad est, uno
+ad ovest.
+~
+0 9 13
+D0
+Un canale va verso nord.
+~
+~
+0 -1 7043
+D1
+~
+~
+0 -1 7049
+D3
+Ancora un'altra giunzione di condotti.
+~
+~
+0 -1 7031
+S
+
+#7045
+Una camera fra i condotti~
+E' davvero insolito trovare una camera arredata di tutto punto, in una rete
+fognaria, eppure questa sala ha tanto di seggiole e torce appese alle pareti
+per illuminare l'ambiente. Allo stupore della scoperta s'aggiunge anche
+una fastidiosa sensazione che qualcuno stia spiando i tuoi movimenti..
+Verso ovest una porta conduce fuori verso nuovi condotti, a sud c'è l'ingresso della
+stanza.
+~
+0 8 13
+D2
+Vedi uno stanzone enorme, lautamente illuminato.
+~
+~
+0 -1 7046
+D3
+Ad ovest non ci si sbaglia.. Ancora fogne.
+~
+~
+0 -1 7038
+S
+
+#7046
+Un'altra camera fra i canali~
+Dalle pareti di questa stanza si emanano fasci di luce dorata, guardandoti intorno
+capisci che questa è l'unica sorgente di illuminazione della camera.
+Più a sud il pavimento della stanza è ricoperto da acqua sporca, a nord
+intravedi una sorta di stanzone per le guardie.
+~
+0 8 13
+D0
+A nord ti par di vedere una guardiola.
+~
+~
+0 -1 7045
+D2
+A sud c'è solo acquaccia sporca.
+~
+~
+0 -1 7047
+S
+
+#7047
+Una pozza fra i tubi~
+Cammini nell'acqua che ormai ha raggiunto la cintola, a est e a nord ci sono
+due uscite.
+~
+0 8 13
+D0
+Verso nord c'è l'ingresso ad una strana stanza.
+~
+~
+0 -1 7046
+D1
+Dalla soglia della porta si intravede un gigantesco atrio.
+~
+~
+0 -1 7053
+S
+
+#7048
+Un vicolo cieco~
+Procedi lungo il condotto fino a raggiungerne il termine. Oltre non si va.
+L'unica soluzione è girarsi e tornare indietro.
+~
+0 9 13
+D2
+~
+~
+0 -1 7049
+S
+
+#7049
+Una giunzione~
+Nord, ovest, est, queste le direzioni possibili.
+~
+0 9 13
+D0
+~
+~
+0 -1 7048
+D1
+L'oscurità impedisce di vedere alcunché in questa direzione.
+~
+~
+0 -1 7060
+D3
+Un'altra giunzione di condotti che porta verso nord ed ovest.
+~
+~
+0 -1 7044
+S
+
+#7050
+Una stanzetta~
+L'unica cosa rilevante in questa stanza, è una sedia, piccola e inchiodata al
+pavimento.
+Ci sono due porte, una a sud e l'altra ad est.
+~
+0 9 13
+D1
+E' buissimo!
+~
+~
+0 -1 7055
+D2
+Vedi una stanza, ma non i dettagli interni.
+~
+~
+0 -1 7051
+E
+sedia~
+E' una sedia di marmo vecchia, rovinata e per giunta ancorata al suolo.
+Pensavi di metterla in tasca e portarla via?
+~
+S
+
+#7051
+Una fognatura~
+Due uscite in questo condotto portano verso nord e verso sud.
+~
+0 8 13
+D0
+~
+~
+0 -1 7050
+D2
+Verso sud intravedi una luce..
+~
+~
+0 -1 7052
+S
+
+#7052
+Un enorme condotto~
+Questo canale è gigantesco! Le pareti saranno alte come minimo venti piedi ed è
+largo quanto tre carri messi vicini. Sul lato est c'è una piccola porta.
+~
+0 8 13
+D0
+A nord vedi una porta.
+~
+~
+0 -1 7051
+D1
+Non vedi nulla in questo buio.
+~
+~
+0 -1 7056
+D2
+Verso sud il condotto è pieno d'acqua.
+~
+~
+0 -1 7053
+S
+
+#7053
+Il termine sud del condotto gigante~
+L'acqua t'arriva fino alle ginocchia e nella ricerca di qualche via d'uscita
+scovi una porta verso ovest, oppure puoi continuare lungo il canale, verso nord.
+~
+0 8 13
+D0
+Vedi delle strane immagini che decorano le pareti.
+~
+~
+0 -1 7052
+D3
+~
+~
+0 -1 7047
+S
+
+#7055
+Alla fine del condotto~
+Il livello dell'acqua non accenna a diminuire; in questo punto ti arriva quasi
+alle cosce. Ad est vedi solo acqua, ad ovest una porta.
+~
+0 9 13
+D1
+Non cambia molto, solo l'orientazione. Per il resto vedi solo condotti pieni d'acqua.
+~
+~
+0 -1 7061
+D3
+~
+~
+0 -1 7050
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7056
+Un oscuro corridoio~
+Non si vede un granché, nemmeno agitando la torcia in avanti. Al massimo
+riesci a capire che verso sud il condotto continua e che ad ovest c'è una porta.
+~
+0 9 13
+D2
+Non si vede nulla, è troppo buio.
+~
+~
+0 -1 7057
+D3
+Vedi una luce intensa quasi quanto quella diurna.
+~
+~
+0 -1 7052
+S
+
+#7057
+Uno scuro passaggio~
+Vai a tastoni cercando di capire la geometria di questo passaggio, dato che
+la torcia non illumina poi così tanto. Puoi andare verso nord o verso sud.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7056
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7058
+S
+
+#7058
+Uno scuro passaggio~
+Vai a tastoni cercando di capire la geometria di questo passaggio, dato che
+la torcia non illumina poi così tanto. Puoi andare verso nord o verso sud.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanzar.
+~
+~
+0 -1 7057
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7059
+S
+
+#7059
+Uno scuro passaggio~
+Vai a tastoni cercando di capire la geometria di questo passaggio, dato che
+la torcia non illumina poi così tanto. Puoi andare verso nord o verso sud.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7058
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7060
+S
+
+#7060
+Un oscuro passaggio~
+Il passaggio prosegue verso ovest e nord perdendosi nell'oscurità, mentre
+ad est un'arcata un condotto fognario che raccoglie le acque di questo passaggio.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanzar.
+~
+~
+0 -1 7059
+D1
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7068
+D3
+Vedi una tripla giunzione.
+~
+~
+0 -1 7049
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7061
+Una svolta nel canale~
+Mentre ti agiti per proseguire nell'acqua giungi ad una svolta
+a gomito nel condotto.
+~
+0 9 13
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7062
+D3
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7055
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7062
+Un condotto pieno d'acqua~
+Le vesti si stanno inzuppando di questo liquido indefinibile.. Continua
+verso nord o verso sud velocemente se non vuoi ammalarti.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7061
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7063
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7063
+Un condotto pieno d'acqua~
+Le vesti si stanno inzuppando di questo liquido indefinibile.. Continua
+verso nord o verso sud velocemente se non vuoi ammalarti.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7062
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7064
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7064
+Una giunzione di canali~
+Sud, nord, est sono le tre vie possibili per lasciarsi alle spalle
+quest'acquaccia che ti impedisce i movimenti.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7063
+D1
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7069
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7065
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7065
+Un condotto pieno d'acqua~
+Le vesti si stanno inzuppando di questo liquido indefinibile.. Continua
+verso nord o verso sud velocemente se non vuoi ammalarti.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7064
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7066
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7066
+Una giunzione di canali~
+Sud, nord, est sono le tre vie possibili per lasciarsi alle spalle
+quest'acquaccia che ti impedisce i movimenti.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7065
+D1
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7070
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7067
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7067
+Un condotto pieno d'acqua~
+Le vesti si stanno inzuppando di questo liquido indefinibile.. Continua
+verso nord o verso sud velocemente se non vuoi ammalarti.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7066
+D2
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7068
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7068
+Una svolta nel canale~
+Mentre ti agiti per proseguire nell'acqua giungi ad una svolta
+a gomito nel condotto.
+~
+0 9 13
+D0
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7067
+D3
+Non vedi nulla, la tua luce non illumina abbastanza.
+~
+~
+0 -1 7060
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7069
+Una sporgenza nei pressi di una pozza scura~
+La penombra rende difficile distinguere i contorni dell'ambiente circostante,
+per fortuna ti viene in aiuto una lontana eco di acqua corrente.
+Seguendo il rumore nel buio, scopri un grande lago scuro poco più in basso,
+allungando un po' la tua luce intravedi le acque sporche dei canali gettarsi
+dentro il lago e defluire poi da esso in una pozza sottostante.
+~
+0 9 13
+D2
+Non riesci a vedere nulla, è troppo buio.
+~
+~
+0 -1 7070
+D3
+Non riesci a vedere nulla, è troppo buio.
+~
+~
+0 -1 7064
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7070
+Una sporgenza nei pressi di un laghetto~
+La penombra rende difficile distinguere i contorni dell'ambiente circostante,
+per fortuna ti viene in aiuto una lontana eco di acqua corrente.
+Seguendo il rumore nel buio, scopri un grande lago scuro poco più in basso,
+allungando un po' la tua luce intravedi le acque sporche dei canali gettarsi
+dentro il lago e defluire poi da esso in una pozza sottostante.
+La roccia su cui poggi i piedi ha una leggera crepatura, grande abbastanza
+da contenere alcune persone.
+~
+0 9 13
+D0
+E' troppo buio per vedere.
+~
+~
+0 -1 7069
+D3
+E' troppo buio per vedere.
+~
+~
+0 -1 7066
+D5
+~
+~
+0 -1 7099
+E
+acqua~
+Fa talmente schifo che se si provasse a buttare dentro un cerino potrebbe
+prendere fuoco tutto il condotto..
+~
+S
+
+#7099
+Una fessura sotto la sporgenza~
+E' una piccola apertura nella solida roccia, sotto di te vedi la pozza dalle acque
+scure e maleodoranti.
+~
+0 13 13
+D4
+~
+~
+0 -1 7070
+D5
+La riva della pozza.
+~
+~
+0 -1 7199
+S
+
+#7101
+Sotto il pozzo nero~
+Ti ritrovi in una piccola stanza con un'enorme voragine nel soffitto. Da questo
+buco stillano gocce e grumi di fango ed altro materiale. Eviti di farti sfiorare
+da questi grappoli di lercio che cadono e, tappandoti il naso per il fetore,
+trovi un'uscita ad est.
+~
+0 13 13
+D1
+Nulla di interessante.
+~
+~
+0 -1 7103
+E
+fanghiglia melma~
+Trattieni a stento la nausea dopo aver inspirato a fondo i fetori di questa fanghiglia.
+~
+S
+
+#7102
+Sotto un altro pozzo nero~
+Un posto grazioso ed accogliente con due uscite: verso l'alto e verso est.
+Una scala molto lunga è poggiata alla parete, probabilmente serve per raggiungere
+il fondo del pozzo.
+~
+0 9 13
+D1
+~
+~
+0 -1 7104
+D4
+Non vedi nulla.
+~
+~
+0 -1 7004
+D5
+~
+botola~
+1 -1 7400
+E
+scala~
+Dev'essere ancorata alle pareti con un incantesimo. E' una scala di legno eppure non
+vi sono segni di chiodi, colla o corde che lascino arguire il modo in cui è stata
+fissata al muro.
+~
+S
+
+#7103
+Una svolta nelle fogne~
+Evitando di pensare alla densa melma che cinge ormai le tue ginocchia, ti avvedi
+delle due uscite, ovest e sud.
+~
+0 9 13
+D2
+A sud non c'è così tanta melma come qui, sarà il caso di mettere i piedi un po' all'asciutto.
+~
+~
+0 -1 7104
+D3
+Vedi una stanza con il pavimento ricoperto dalla melma.
+~
+~
+0 -1 7101
+E
+fanghiglia melma~
+Trattieni a stento la nausea dopo aver inspirato a fondo i fetori di questa fanghiglia.
+~
+S
+
+#7104
+Una giunzione di fognature~
+Ad est, ovest, nord nuovi condotti si dipartono dalla giunzione
+verso l'ignoto.
+~
+0 9 13
+D0
+Vedi tantissimo liquame in quella direzione.
+~
+~
+0 -1 7103
+D1
+Troppo puoi per vedere alcunché.
+~
+~
+0 -1 7112
+D3
+Vedi una scala in una stanza.
+~
+~
+0 -1 7102
+S
+
+#7105
+In fondo al vecchio pozzo~
+Penzoli giù lungo le umidicce pareti del pozzo, tenendo sempre salda la presa
+sulla scaletta di metallo ancorata al muro. Guardi in basso per un istante
+e ti chiedi quanto ancora dovrai scendere prima di arrivare a toccare il
+suolo nuovamente.
+~
+0 9 13
+D4
+Da sopra giunge una luce molto molto fioca.
+~
+~
+0 -1 7015
+E
+pioli scala~
+Le barre metalliche della scala sono molto scivolose e poco affidabili,
+nonostante l'intera struttura sia ben attaccata alla parete del pozzo.
+~
+S
+
+#7106
+L'angolo nord-ovest della sporgenza~
+Scopri presto che la via intrapresa è troppo stretta per girarsi
+e tornare indietro. Verso sud quindi non puoi più andare, ma, se
+riesci a tenerti in piedi su questo terreno scivoloso, la strada
+ad est sembra agibile.
+~
+0 13 13
+D1
+La sporgenza continua ad est.
+~
+~
+0 -1 7113
+D2
+La sporgenza continua a sud.
+~
+~
+0 -1 7107
+S
+
+#7107
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto..
+~
+0 13 13
+D0
+La sporgenza piega verso est.
+~
+~
+0 -1 7106
+D1
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirò
+di cadere prima o poi?.
+~
+~
+0 -1 7190
+D2
+La sporgenza continua a sud, perdendosi nel buio.
+~
+~
+0 -1 7108
+S
+
+#7108
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto..
+~
+0 13 13
+D0
+La sporgenza continua a nord.
+~
+~
+0 -1 7107
+D1
+Fluttuando nel vuoto guardi in basso, un immenso nulla si apre sotto i tuoi piedi.
+~
+~
+0 -1 7190
+D2
+La sporgenza continua a sud, perdendosi nel buio.
+~
+~
+0 -1 7109
+S
+
+#7109
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto..
+~
+0 13 13
+D0
+La sporgenza dirige verso nord.
+~
+~
+0 -1 7108
+D1
+Fluttuando nel vuoto guardi in basso, un immenso nulla si apre sotto i tuoi piedi.
+~
+~
+0 -1 7190
+D2
+La sporgenza continua a sud, perdendosi nel buio.
+~
+~
+0 -1 7110
+S
+
+#7110
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto..
+~
+0 13 13
+D0
+La sporgenza continua a nord.
+~
+~
+0 -1 7109
+D1
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirai
+di cadere prima o poi?.
+~
+~
+0 -1 7190
+D2
+Vedi la parte sud-ovest della sporgenza.
+~
+~
+0 -1 7111
+S
+
+#7111
+L'angolo sud-ovest della sporgenza~
+La sprogenza sembra allargarsi un poco verso nord, continuando il giro
+intorno all'orlo dell'Abisso. Da qui si gode di un insolito panorama.
+~
+0 13 13
+D0
+La sporgenza continua verso nord.
+~
+~
+0 -1 7110
+D1
+Verso est vedi una sorta di sporgenza.
+~
+~
+0 -1 7115
+D2
+Verso sud ci si allontana dalla sporgenza.
+~
+~
+0 -1 7112
+D5
+Sotto ai tuoi piedi c'è l'Abisso.. vuoi visitarlo?
+~
+~
+0 -1 7279
+E
+panorama~
+Osservi la sporgenza per intero, noti come mani di abili scalpellini abbian
+saputo trarre dalla nuda roccia quello che si rivela un comodo passaggio
+intorno all'Abisso, evitando agli avventurieri di finire nel vuoto.
+~
+E
+salto~
+Dai un calcetto ad un sasso e tendi l'orecchio per sentire l'eco del tonfo..
+Aspetta.. aspetta.. aspetta..
+~
+E
+roccia~
+Sembra una sorta di porta, forse provando a spostarla rivelerà un passaggio.
+~
+S
+
+#7112
+Un'intersezione di condotti~
+Tre strade, una a nord, una ad est una ad ovest conducono lontano da qui.
+~
+0 9 13
+D0
+Intravedi l'orlo di un abisso.
+~
+~
+0 -1 7111
+D1
+~
+~
+0 -1 7122
+D3
+~
+~
+0 -1 7104
+S
+
+#7113
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto..
+~
+0 13 13
+D1
+La sporgenza va verso est.
+~
+~
+0 -1 7116
+D2
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirò
+di cadere prima o poi?.
+~
+~
+0 -1 7190
+D3
+La sporgenza si estende verso ovest.
+~
+~
+0 -1 7106
+S
+
+#7114
+Il Vuoto~
+Decisamente hai fatto un passo falso.. Camminare a testa bassa sarà anche
+disonorevole ma a volte può salvarti la vita.. Forse avresti visto per tempo
+l'orlo del baratro e non staresti cadendo a folle velocità verso il nulla.
+Questo è l'Abisso, chissà per quanto ancora cadrai nel vuoto e chissà se
+prima o poi giungerai da qualche parte..
+~
+0 14 13
+S
+
+#7115
+La sporgenza~
+Qui il posto è più largo che non altrove e puoi ammirare la
+grande voragine senza il timore di finirci dentro.
+Verso sud un sentierino conduce nell'oscurità.
+~
+0 13 13
+D0
+~
+~
+0 -1 7114
+D1
+~
+~
+0 -1 7121
+D2
+~
+~
+0 -1 7129
+D3
+~
+~
+0 -1 7111
+S
+
+#7116
+L'angolo nord-ovest della sporgenza~
+Sei proprio sul bordo della sporgenza, ancora due millimetri e rischi di
+volar giù nell'oscurità. La sporgenza continua ad ovest e a sud.
+~
+0 13 13
+D2
+~
+~
+0 -1 7117
+D3
+La sporgenza continua verso est.
+~
+~
+0 -1 7113
+D5
+~
+secret botola~
+3 -1 7280
+E
+sporgenza roccia terreno~
+Qui il terreno cambia di consistenza, da solido e roccioso diventa più
+soffice, quasi instabile. Sembra anche che sotto un manto di terra umida
+si nasconda qualcosa.. Forse dovresti prestare attenzione a dove metti
+i piedi.
+~
+E
+terra suolo~
+Intravedi per terra, i bordi di una botola seminascosti dalla polvere, sembra condurre
+al di sotto della solida superficie rocciosa della sporgenza.
+~
+S
+
+#7117
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto.. Se vuoi provare il brivido della vertigine accomodati
+ad ovest.
+~
+0 13 13
+D2
+La sporgenza prosegue verso sud.
+~
+~
+0 -1 7118
+D3
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirò
+di cadere prima o poi?.
+~
+~
+0 -1 7114
+S
+
+#7118
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto.. Se vuoi provare il brivido della vertigine accomodati
+ad ovest.
+~
+0 13 13
+D2
+La sporgenza continua verso sud.
+~
+~
+0 -1 7119
+D3
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirò
+di cadere prima o poi?.
+~
+~
+0 -1 7114
+S
+
+#7119
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto.. Se vuoi provare il brivido della vertigine accomodati
+ad ovest..
+~
+0 13 13
+D2
+La sporgenza continua verso sud.
+~
+~
+0 -1 7120
+D3
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirò
+di cadere prima o poi?
+~
+~
+0 -1 7114
+S
+
+#7120
+La sporgenza si stringe~
+Stai girando intorno lungo tutta la sporgenza perché non c'è proprio modo di
+tornare indietro, il sentierino è troppo stretto. Ci sarebbe un'uscita rapida ma
+è un bel salto nel vuoto.. Se vuoi provare il brivido della vertigine accomodati
+ad ovest.
+Ad est invece vedi una piccola apertura.
+~
+0 13 13
+D1
+Ad est vedi un bellissimo buio.
+~
+~
+0 -1 7123
+D2
+La sporgenza continua verso sud.
+~
+~
+0 -1 7121
+D3
+Ti ritrovi a mezz'aria, fluttuando nel nulla ed un sospetto si insinua.. Finirò
+di cadere prima o poi?
+~
+~
+0 -1 7114
+S
+
+#7121
+L'angolo sud della sporgenza~
+Sembra una sporgenza, una sorta di davanzale che costeggia tutt'intorno
+il bordo dell'Abisso, dove regna solo il buio completo.
+~
+0 13 13
+D0
+Verso nord si intravede una sporgenza.
+~
+~
+0 -1 7120
+D3
+Puoi proseguire verso ovest.
+~
+~
+0 -1 7115
+S
+
+#7122
+In fondo al pozzo~
+Ti ritrovi in una stanza profondamente buia, da ovest solamente proviene
+un piccolissimo barlume di luce.
+~
+0 9 13
+D3
+~
+~
+0 -1 7112
+E
+muro pareti~
+Sembra che qualcuno abbia aperto uno squarcio nel muro, dai segni si
+direbbe una cosa recente.
+~
+S
+
+#7123
+Sotto il condotto di ventilazione~
+Una scala risale verso la cima del condotto, ad ovest invece vedi
+una piccola apertura che porta lontano da qui.
+~
+0 9 13
+D3
+Uno stretto canale conduce in direzione nord-sud.
+~
+~
+0 -1 7120
+D4
+E' troppo buio.
+~
+~
+0 -1 7041
+S
+
+#7129
+Un canale sotterraneo~
+Stai attraversando uno stretto canale fognario, verso il basso si incrocia con
+altri condotti, a nord invece vedi una strana sporgenza.
+~
+0 9 13
+D0
+Vedi la parte meridionale della buca.
+~
+~
+0 -1 7115
+D5
+Guardi verso il fondo del canale.
+~
+~
+0 -1 7221
+S
+
+#7190
+Il Vuoto~
+Decisamente hai fatto un passo falso.. Camminare a testa bassa sarà anche
+disonorevole ma a volte può salvarti la vita.. Forse avresti visto per tempo
+l'orlo del baratro e non staresti cadendo a folle velocità verso il nulla.
+Questo è l'Abisso, chissà per quanto ancora cadrai nel vuoto e chissà se
+prima o poi giungerai da qualche parte..
+~
+0 14 13
+S
+
+#7199
+Al bordo della pozza~
+Sulla superficie del laghetto si riflette la luce della tua torcia ma sono solo
+dei fiochi bagliori perché l'oscurità è davvero densa. L'aria è pesante e anche a
+volersi sedere sulle rocce intorno al lago si rischia solo di scivolare.
+Ma volendo puoi tentare di scalarle.
+~
+0 13 13
+D4
+~
+~
+0 -1 7099
+S
+
+#7200
+La Tesoreria~
+Sebbene piccola, è una tesoreria molto ben equipaggiata. Sulle pareti vedi
+degli strani segni simili ad una scritta.
+Verso est la porta di pietra riconduce verso la tana.
+~
+0 12 13
+D1
+Guardi indietro verso la tana.
+~
+porta pietra~
+1 7205 7201
+E
+porta pietra~
+E' un portone di pietra nera, sembra molto solido.
+~
+E
+scritta~
+C'è scritto il numero '666'
+~
+S
+
+#7201
+La parte interna della tana~
+Entri in una grande stanza ottagonale con delle purpuree lisce pareti, il pavimento
+è ricoperto da marmo nero. Nella parete occidentale si apre un portone di pietra nera.
+~
+0 9 13
+D2
+Guardi indietro verso la tana.
+~
+porta legno~
+3 -1 7202
+D3
+Vedi la tesoreria.
+~
+porta pietra~
+7 7205 7200
+S
+
+#7202
+La tana~
+E' piena di resti umani questa stanza, ossa smangiucchiate dai topi e teschi
+sparsi qua e là nella melma. Una torcia appesa al muro illumina questo
+deprimente spettacolo. Verso nord c'è una porta di legno.
+~
+0 8 13
+D0
+Vedi l'interno della tana.
+~
+porta legno~
+3 -1 7201
+D1
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7205
+D2
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7203
+E
+teschio ossa~
+Su ogni teschio c'è uno sconcertante foro di tre centimetri di diametro,
+il resto delle ossa non sta meglio, sono tutte rovinate e spezzate.
+~
+E
+melma limo~
+Bella e profumata, come in tutti i condotti di queste fogne.
+~
+E
+torcia~
+La torcia è fissata al portatorcia, il portatorcia è fissato al muro.
+~
+S
+
+#7203
+La tana~
+E' piena di resti umani questa stanza, ossa smangiucchiate dai topi e teschi
+sparsi qua e là nella melma. Una torcia appesa al muro illumina questo
+deprimente spettacolo.
+~
+0 8 13
+D0
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7202
+D1
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7206
+D2
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7204
+E
+teschio ossa~
+Su ogni teschio c'è uno sconcertante foro di tre centimetri di diametro,
+il resto delle ossa non sta meglio, sono tutte rovinate e spezzate.
+~
+E
+melma limo~
+Bella e profumata, come in tutti i condotti di queste fogne.
+~
+E
+torcia~
+La torcia è fissata al portatorcia, il portatorcia è fissato al muro.
+~
+S
+
+#7204
+La tana~
+E' piena di resti umani questa stanza, ossa smangiucchiate dai topi e teschi
+sparsi qua e là nella melma. Una torcia appesa al muro illumina questo
+deprimente spettacolo.
+~
+0 8 13
+D0
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7203
+D1
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7207
+D2
+Ti sembra l'ingresso di una tana.
+~
+porta legno~
+1 -1 7208
+E
+teschio ossa~
+Su ogni teschio c'è uno sconcertante foro di tre centimetri di diametro,
+il resto delle ossa non sta meglio, sono tutte rovinate e spezzate.
+~
+E
+melma limo~
+Bella e profumata, come in tutti i condotti di queste fogne.
+~
+E
+torcia~
+La torcia è fissata al portatorcia, il portatorcia è fissato al muro.
+~
+S
+
+#7205
+La tana~
+E' piena di resti umani questa stanza, ossa smangiucchiate dai topi e teschi
+sparsi qua e là nella melma. Una torcia appesa al muro illumina questo
+deprimente spettacolo.
+~
+0 8 13
+D2
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7206
+D3
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7202
+E
+teschio ossa~
+Su ogni teschio c'è uno sconcertante foro di tre centimetri di diametro,
+il resto delle ossa non sta meglio, sono tutte rovinate e spezzate.
+~
+E
+melma limo~
+Bella e profumata, come in tutti i condotti di queste fogne.
+~
+E
+torcia~
+La torcia è fissata al portatorcia, il portatorcia è fissato al muro.
+~
+S
+
+#7206
+La tana~
+E' piena di resti umani questa stanza, ossa smangiucchiate dai topi e teschi
+sparsi qua e là nella melma. Una torcia appesa al muro illumina questo
+deprimente spettacolo.
+~
+0 12 13
+D0
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7205
+D2
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7207
+D3
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7203
+E
+ossa~
+Sono tutte ossa vecchie e rotte.
+~
+E
+melma limo~
+Bella e profumata, come in tutti i condotti di queste fogne.
+~
+E
+torcia~
+La torcia è fissata al portatorcia, il portatorcia è fissato al muro.
+~
+S
+
+#7207
+La tana~
+E' piena di resti umani questa stanza, ossa smangiucchiate dai topi e teschi
+sparsi qua e là nella melma. Una torcia appesa al muro illumina questo
+deprimente spettacolo.
+~
+0 8 13
+D0
+Vedi un'altra parte della tana.
+~
+~
+0 -1 7206
+D3
+Vedi un'altra parte della tana.
+~
+~
+1 -1 7204
+E
+teschio ossa~
+Su ogni teschio c'è uno sconcertante foro di tre centimetri di diametro,
+il resto delle ossa non sta meglio, sono tutte rovinate e spezzate.
+~
+E
+melma limo~
+Bella e profumata, come in tutti i condotti di queste fogne.
+~
+E
+torcia~
+La torcia è fissata al portatorcia, il portatorcia è fissato al muro.
+~
+S
+
+#7208
+L'ingresso della tana~
+Sei in una parte asciutta del canale, a nord c'è una porta di legno. Da sotto
+la porta sbuca uno strano liquame verde.. Vedi anche alcuni teschi ed ossa rotte.
+~
+0 13 13
+D0
+Vedi una tana.
+~
+porta legno~
+3 -1 7204
+D1
+Vedi un cunicolo.
+~
+~
+0 -1 7209
+E
+viscidume limo~
+E' melma molto molto melmosa.
+~
+S
+
+#7209
+Il cunicolo~
+Stai strisciando nel cunicolo, oltre allo sporco non c'è molto da vedere.
+~
+0 9 13
+D1
+Vedi una quadrupla giunzione.
+~
+~
+0 -1 7210
+D3
+Ti sembra l'ingresso di una tana.
+~
+~
+0 -1 7208
+S
+
+#7210
+La quadrupla giunzione~
+Hai quattro vie da scegliere: nord verso un buco nel muro, ovest per un cunicolo,
+est e sud se vuoi tornare nei canali.
+~
+0 9 13
+D0
+Vedi una piccola grotta o forse è una stanza.
+~
+~
+0 -1 7211
+D1
+Vedi un condotto.
+~
+~
+0 -1 7212
+D2
+Vedi un condotto.
+~
+~
+0 -1 7215
+D3
+Vedi uno stretto cunicolo.
+~
+~
+0 -1 7209
+S
+
+#7211
+Uno strano grottino~
+Parte dei muri del condotto sono franati, rendendolo simile ad un grottino.
+~
+0 9 13
+D2
+Indietro vedi la quadrupla giunzione.
+~
+~
+0 -1 7210
+S
+
+#7212
+Un altro condotto~
+Questo condotto è asciutto e prosegue verso nord.
+~
+0 9 13
+D0
+Il canale prosegue verso nord.
+~
+~
+0 -1 7213
+D3
+Vedi una giunzione quadrupla.
+~
+~
+0 -1 7210
+S
+
+#7213
+Un condotto~
+Sei in un condotto asciutto.
+~
+0 9 13
+D1
+Il canale continua ad est.
+~
+~
+0 -1 7214
+D2
+Il canale continua a sud.
+~
+~
+0 -1 7212
+S
+
+#7214
+Un crollo~
+Giungi al termine del condotto, una frana blocca il passaggio e l'unica uscita
+è ad ovest.
+~
+0 9 13
+D3
+Vedi un condotto fognario.
+~
+~
+0 -1 7213
+S
+
+#7215
+Un umido condotto~
+Passo dopo passo il rumore dello sciacquettio dei piedi nell'acqua ormai ti è
+compagno in questa marcia forzata. Verso nord pare più asciutto, a sud invece
+il condotto prosegue nell'acqua.
+~
+0 9 13
+D0
+A nord c'è una giunzione di quattro condotti.
+~
+~
+0 -1 7210
+D2
+Verso sud vedi un condotto pieno d'acqua.
+~
+~
+0 -1 7216
+E
+acqua~
+Nonostante il colore indefinito a metà fra il verde ed il bruno scuro e l'odore
+inconfondibile dei rifiuti organici, quest'acqua non sembra un grande ostacolo
+per chi sa nuotare.
+~
+S
+
+#7216
+Con l'acqua alla gola~
+Il livello dell'acqua ti costringe a nuotare in questa brodaglia di rifiuti,
+bracciata dopo bracciata ringrazi gli dei che t'aiutano a tener sollevata la torcia
+fuori dall'acqua.
+~
+0 9 13
+D0
+Non si vede molto bene ma riesci comunque a notare una certa pendenza nel condotto.
+~
+~
+0 -1 7215
+D2
+Non si vede molto bene ma riesci comunque a notare una certa pendenza nel condotto.
+~
+~
+0 -1 7217
+S
+#7217
+Un canale quasi asciutto~
+Finalmente un posto dove camminare senza il pericolo d'inzupparsi fino
+alle ginocchia. Il sogno però sfuma verso nord perché il canale declina
+terminando dentro un condotto pieno d'acqua. Ad est vedi un piccolo buco, ad
+ovest c'è un altro canale.
+~
+0 9 13
+D0
+Il canale di scarico trasporta con sé un torrentello d'acqua sporca.
+~
+~
+0 -1 7216
+D1
+Guardi nel buco e trovi una stanza piccolina.
+~
+~
+0 -1 7218
+D3
+Un condotto di scarico prosegue verso ovest.
+~
+~
+0 -1 7219
+E
+acqua~
+Più che acqua sembra un torrente di limo abbastanza basso da poterci
+fare una bella nuotata!
+~
+E
+buco~
+Sembra proprio uno spioncino questo buco, ti permette di vedere dentro una stanzina
+piccinissima.
+~
+S
+
+#7218
+Una stanza piccolissima~
+Non solo è piccinissima questa stanza ma non c'è neppure nulla da vedere.
+~
+0 9 13
+D3
+Guardando attraverso un buchino nella parete scorgi un condotto asciutto. Evviva!
+~
+~
+0 -1 7217
+S
+
+#7219
+Un condotto asciutto~
+Questo condotto è sporco e puzza, ma perlomeno è asciutto.
+~
+0 9 13
+D1
+Un condotto di scarico semiasciutto.
+~
+~
+0 -1 7217
+D2
+Quasi non vuoi guardare, già sai che lì c'è un condotto fognario.
+~
+~
+0 -1 7220
+S
+
+#7220
+Al limite della sopportazione~
+Vagabondare per queste fogne può creare seri problemi di entusiasmo..
+~
+0 9 13
+D0
+In direzione nord si estende il condotto.
+~
+~
+0 -1 7219
+D1
+Un altro condotto di scarico ad est.
+~
+~
+0 -1 7221
+S
+
+#7221
+Un condotto di scarico~
+Sei in un condotto di scarico, nulla di insolito tranne una strana eco
+in lontananza.
+~
+0 9 13
+D1
+Vedi un altro condotto di scarico.
+~
+~
+0 -1 7222
+D3
+Verso ovest inizia un canale di scolo.
+~
+~
+0 -1 7220
+D4
+Vedi un condotto fognario.
+~
+~
+0 -1 7129
+S
+
+#7222
+Un condotto di scarico~
+Affondi i piedi nelle acque limacciose di questo condotto e continui
+con determinazione, pensando d'essere altrove.
+~
+0 9 13
+D1
+Da qui si arriva ad una svolta.
+~
+~
+0 -1 7223
+D3
+Vedi un canale di scarico.
+~
+~
+0 -1 7221
+E
+acqua torbida~
+Le acque torbide scorrono verso est.
+~
+S
+
+#7223
+Una svolta nel canale~
+Giungi presso questa svolta a gomito, puoi scegliere se andare ad ovest o a nord.
+~
+0 9 13
+D0
+Un canale di scolo.
+~
+~
+0 -1 7224
+D3
+Un canale di scolo.
+~
+~
+0 -1 7222
+S
+
+#7224
+Una giunzione~
+Tre condotti si incrociano in questo punto, a nord e a sud le fogne procedono
+senza mutare nel loro aspetto, ad ovest invece scorgi un condotto lievemente
+diverso da quelli che hai percorso finora.
+Vedi anche dei segni di graffi sulle pareti. Opera di un ratto gigante?
+~
+0 9 13
+D0
+Un altro condotto che si perde nell'oscurità.
+~
+~
+0 -1 7225
+D2
+Vedi soltanto un condotto.
+~
+~
+0 -1 7223
+D3
+Ancora uno dei tanti condotti.
+~
+~
+0 -1 7229
+S
+
+#7225
+Una fognatura~
+Le acque che defluiscono in questo canale si dirigono verso un piccolo
+tombino. I segni del ratto ti tengono ancora compagnia..
+Verso sud vedi un canale di scolo.
+~
+0 9 13
+D2
+Un altro canale di scolo.
+~
+~
+0 -1 7224
+S
+
+#7229
+Uno strano condotto~
+Qui i segni lasciati dal ratto gigante sono più nitidi, inoltre il pavimento
+è ricoperto da ossa animali ed umane..
+Ad ovest il condotto pare risalire un poco.
+~
+0 9 13
+D1
+Una giunzione di condotti.
+~
+~
+0 -1 7224
+D3
+Un canale di scolo, mezzo pieno di liquami.
+~
+~
+0 -1 7230
+S
+
+#7230
+Un umido canale~
+Seguendo i segni lasciati dal presunto topone sulle pareti, giungi fino ad un altro
+condotto di scarico che per fortuna è pure pieno di melma, detriti e altre
+sostanze la cui natura non vuoi approfondire.
+La fognatura pare declinare verso est ed ovest.
+~
+0 13 13
+D1
+Vedi un condotto.
+~
+~
+0 -1 7229
+D3
+Vedi un condotto fognario.
+~
+~
+0 -1 7231
+S
+
+#7231
+Un condotto mezzo intasato~
+Detriti ovunque sparsi sul pavimento, rendono difficile avanzare in questo
+condotto. Sulle pareti spiccano numerosi graffi.
+~
+0 9 13
+D1
+Vedi uno dei tanti canali fognari.
+~
+~
+0 -1 7230
+D3
+Vedi un altro condotto.
+~
+~
+0 -1 7232
+E
+detriti~
+Speravi si trattasse di calcinacci? Invece sono proprio resti organici..
+Meglio non approfondire oltre.
+~
+S
+
+#7232
+Un condotto~
+I muri di questo condotto sono rovinati da ogni sorta di graffi, il pavimento, sommerso
+dai rifiuti e dai detriti, non sta messo meglio.
+Il condotto procede verso est e nord.
+~
+0 9 13
+D0
+Ancora una linea della rete fognaria.
+~
+~
+0 -1 7233
+D1
+Vedi un condotto fognario.
+~
+~
+0 -1 7231
+S
+
+#7233
+Un condotto di scarico~
+Procedi lungo il canale fino all'ingresso di quella che sembra una piccola
+grotta; sulle pareti del condotto non ti sfuggono dei graffi incredibilmente
+profondi, forse dovuti agli unghioni di qualche ratto gigantesco.
+Il condotto continua verso sud.
+~
+0 9 13
+D1
+Non si capisce bene se quella sia una stanza o una tana di bestie.
+~
+~
+0 -1 7234
+D2
+Vedi un condotto fognario.
+~
+~
+0 -1 7232
+S
+
+#7234
+La tana del ratto~
+Sei in un grottino probabilmente abitato da qualche animale, stando ai resti di
+cibo sparsi sul pavimento. Verso ovest c'è un canale di scolo.
+~
+0 9 13
+D3
+Per di là si estende la rete fognaria.
+~
+~
+0 -1 7233
+S
+
+#7279
+Le pareti dell'Abisso~
+Ti aggrappi alle pareti dell'Abisso e scendi di qualche passo nell'oscurità.
+Più in alto vedi un'uscita che ti trarrebbe via da qui, ricordati di smuovere
+la pietra d'accesso prima.
+~
+0 9 13
+D4
+~
+~
+0 -1 7111
+D5
+~
+~
+0 -1 7399
+S
+
+#7280
+L'entrata~
+Avanzi con le braccia protese per evitare eventuali ostacoli che il buio
+cela alla tua vista. Dopo poco tempo, quando le tue pupille si sono abituate
+all'oscurità, riesci a distinguere alcuni volti che ti fissano. Lentamente
+deglutisci, sono visi umani incastrati nelle pareti del salone..
+Al centro della stanza vedi un piccolo altare, verso nord si trova una
+piccola porticina rotonda.
+~
+0 9 13
+D0
+Dalla serratura della porta fuoriesce un fascio di luce rossa.
+~
+porta rotonda~
+1 -1 7281
+D4
+~
+botola porta~
+3 -1 7116
+E
+altare~
+Finalmente qualcosa di poco tetro: lungo tutto il perimetro dell'altare
+sono state scolpite dei bei visi sorridenti. Guardando bene sembra esserci uno
+strano oggetto triangolare.
+~
+E
+triangolo~
+E' inciso con parole e simboli che non riesci a decifrare, però puoi
+consolarti ammirando la bellezza di questo oggetto.
+~
+S
+
+#7281
+Il corridoio.~
+La luce rossa intensa sprigionata dalle pareti è al limite del sopportabile, a volte
+è necessario pararsi gli occhi con una mano per non esserne accecati.
+Sconcertanti grida di dolore provengono da una breccia nel muro ad est, verso sud
+invece c'è una porta dalla forma simpatica.
+~
+0 8 13
+D1
+E' uno strano foro nel muro, guardandoci dentro non si vede nulla ed in più
+pare fagocitarsi la luce rossa delle pareti.
+~
+~
+0 -1 7282
+D2
+~
+porta circolare~
+1 -1 7280
+E
+porta circolare~
+Che bellina! E' una porta completamente rotonda, con una piccola serratura al centro.
+~
+E
+luce rossa~
+Una pulsante luce rossa si sprigiona dalle pareti circostanti.
+~
+E
+muri pareti~
+Non ti fidi ad avvicinarti troppo alle pareti.. Sembrano vive.
+~
+S
+
+#7282
+Il regno delle anime perdute~
+Per un istante ti coglie il dubbio d'esser nel profondo spazio siderale..
+Ovunque ti giri vedi lucenti stelle che percorrono la volta celeste
+con estrema lentezza. Un movimento desta la tua attenzione, sembra un'ombra
+che cerca di comunicare con te tramite i suoi insopportabili gemiti
+di dolore.
+Verso nord c'è un passaggio ben illuminato, ad est un'altra apertura
+conduce verso uno strano ambiente tutto rosso..
+~
+0 8 13
+D0
+Guardi dentro un buco del muro dipinto di rosso lucente.
+~
+~
+0 -1 7283
+D3
+Guardi in un buco rosso.
+~
+~
+0 -1 7281
+E
+ombra~
+A ben guardarla sembra l'immagine di un uomo spaventatissimo.
+~
+S
+
+#7283
+L'incrocio a T~
+Sei in un piccolo corridoio lungo il quale si aprono diverse porte,
+ad est e ovest. Su di un pezzo di parete è stato incisa una scritta e
+mentre scorgi un inquietante buco nero, da sud provengono dei lamenti
+strazianti.
+~
+0 13 13
+D1
+Non si vede proprio un bel niente.
+~
+~
+0 -1 7286
+D2
+Un buco nero nel muro.
+~
+~
+0 -1 7282
+D3
+Verso ovest vedi molte fiamme e già da qui avverti uno strano intenso calore.
+~
+~
+0 -1 7284
+E
+scritta~
+"Ad oriente incontrerai il grande serpente,
+ Ad occidente la calura porrà fine all'avventura"
+~
+S
+
+#7284
+La Morte Rossa~
+Un circolo di fiamme ti accoglie in questa camera rovente il loro movimento
+sensuale ed ipnotico delle fiamme rapisce il tuo sguardo per qualche istante
+poi l'attenzione si sposta sui numerosi scheletri che giacciono riversi al suolo..
+Infine ti rendi conto che questo posto non ha uscite.
+~
+0 14 13
+E
+scheletri~
+Forse sono tutti morti di fame questi malcapitati.
+Uno di questi scheletri ha la mano tesa verso alcuni segni incisi sul muro..
+~
+E
+scritta muro~
+"Quando l'unica uscita è la Morte.. è inutile pregare. Addio, Mamma"
+~
+S
+
+#7285
+La stanza delle torture~
+Allucinanti strumenti di tortura, scheletri e catene arrugginite ti accolgono
+in questa lugubre stanza. Al centro della sala vedi una grande scatola di metallo,
+interamente coperta dalla polvere.
+Verso sud c'è una piccola uscita.
+~
+0 8 13
+D2
+Non si vede nulla.
+~
+porta ferro~
+1 -1 7286
+E
+scheletri~
+Questi poveretti sono stati uccisi brutalmente. Alcuni sezionati fino ad incidere
+l'osso con strumenti affilatissimi altri addirittura appesi per le braccia fino
+alla slogatura delle articolazioni della spalla.
+~
+E
+grande scatola metallo~
+Un dito di polvere ricopre questa scatola di metallo che un tempo
+doveva contenere del carbone.
+~
+S
+
+#7286
+Il cortile degli inferi~
+Di bene in meglio. Le gambe sono bloccate da un misto di melma e
+detriti, l'odore indescrivibile rischia d'annebbiarti la ragione e
+tante piccolle fiammelle s'agitano nel liquame muovendosi intorno a te.
+Verso ovest c'è una porticina, a nord invece c'è un grande portone.
+~
+0 12 13
+D0
+Davvero troppo buio.
+~
+porta ferro~
+1 -1 7285
+D3
+Troppo buio per vedere qualcosa.
+~
+~
+0 -1 7283
+S
+
+#7301
+L'entrata al regno del silenzio~
+Tendi l'orecchio per captare il benché minimo rumore.. Nulla!
+Un grande silenzio avvolge questo posto che è rimasto inalterato nel corso
+dei secoli. La polvere riveste di un manto grigio tutte le suppellettili creando
+anche sul pavimento un'insolita coltre che ben s'accosta con la vecchia
+tappezzeria delle pareti. Una scala a chiocciola conduce al piano superiore
+perdendosi nell'oscurità, lungo il muro ad ovest un'enorme torcia illumina
+la stanza mentre a nord la via è bloccata da una pesante saracinesca.
+~
+0 14 13
+E
+saracinesca gate~
+Una saracinesca di metallo pesante sbarra il passaggio.
+~
+E
+torcia luce~
+E' una torcia antichissima e nonostante bruci da secoli non sembra affatto
+consumata.
+~
+E
+scale scala~
+Questa scala avrà un migliaio d'anni o forse più, i pioli sono consunti dagli
+innumerevoli piedi che vi si sono poggiati. Sarà sicura?
+~
+S
+
+#7399
+L'orlo dell'Abisso~
+Fai ben attenzione a dove metti i piedi, è sufficiente un passo falso per trovarsi
+giù giù nell'Abisso..
+Un cartello gigantesco recita: Ho speso tutte le energie per scavare queste fogne..
+                   Fatemi il favore di non lasciare troppo sporco questo posto
+
+                                                     Il Gentil Felcerossa
+
+Non puoi più scendere, l'unica uscita è verso l'alto.
+~
+0 9 13
+D4
+~
+~
+0 -1 7279
+S
+
+#7400
+L'entrata di una caverna~
+Sei sull'ingresso di una caverna molto scura ma nonostante il buio
+si scorgono alcune parole incise sul muro.
+A nord c'è un'uscita, le scale invece conducono di sopra.
+~
+0 9 13
+D0
+Verso nord vedi un piccolo tunnel.
+~
+~
+0 -1 7401
+D4
+Le scale salgono nel buio.
+~
+~
+0 -1 7102
+E
+scritta muro parole~
+La scritta avverte: "ATTENZIONE avventurieri!"
+~
+S
+
+#7401
+Tunnel~
+Acceleri un po' il passo per riscaldarti in questo gelido
+tunnel e anche perché inizi a nutrire l'impressione che qualcosa
+o qualcuno ti stia seguendo.
+~
+0 9 13
+D0
+Il tunnel continua a nord.
+~
+~
+0 -1 7402
+D2
+Il tunnel continua a sud.
+~
+~
+0 -1 7400
+S
+
+#7402
+Stanzina~
+Giungi in una stanza estremamente fredda, le pareti rilucono
+producendo degli strani effetti visivi.
+~
+0 8 13
+D1
+Ad est il tunnel prosegue verso il basso.
+~
+~
+0 -1 7403
+D2
+Verso sud vedi un incrocio.
+~
+~
+0 -1 7401
+D3
+~
+~
+0 -1 7421
+S
+
+#7403
+Incrocio a T~
+Qui è ancora peggio che in altri posti.. Mentre da altre parti hai
+la certezza d'essere un tutt'uno con la melma, in questo luogo non
+riconosci le caratteristiche della sostanza. L'odore è paurosamente
+più tremendo, come di marciume secolare.
+Verso ovest intravedi una luce.
+~
+0 9 13
+D1
+Verso est il tunnel continua a scendere.
+~
+~
+0 -1 7404
+D2
+~
+~
+0 -1 7408
+D3
+Vedi una luce provenire da ovest.
+~
+~
+0 -1 7402
+E
+melma~
+Guardando attentamente scorgi alcuni vermetti che si agitano contenti
+nel liquame.
+~
+E
+vermi~
+Sono pelosi e di un vago color viola che li rende tutt'altro che appetitosi.
+~
+S
+
+#7404
+Grotta~
+La melma arriva a sfiorare la tua cintola e quasi vien da chiedersi
+se non sia il caso di trovare una soluzione presto, prima di svanire
+in un mare di letame. Ti guardi intorno e vedi a sud una pietra rotonda
+e piatta che blocca la via, ad ovest vedi ancora tanta melma.
+~
+0 9 13
+D2
+C'è un'apertura dietro la porta.
+~
+piatta porta pietra~
+3 -1 7405
+D3
+~
+~
+0 -1 7403
+E
+porta piatta tonda~
+La pietra non sembra aver nulla di interessante da vedere, tranne
+un piccolo di spiraglio di luce che filtra appena provi a spostarla.
+Questo suggerisce che il pietrone possa essere rimosso.
+~
+S
+
+#7405
+La stanza segreta~
+La polvere regna sovrana fin negli angoli più irraggiungibili
+di questa stanza. Nel mezzo della stanza un portalampada serve
+da sostegno ad un globo di cristallo nel quale pulsa una luce.
+Verso nord un grosso pietrone rotondo blocca la strada.
+Verso sud vedi uno strano blocco grigio.
+~
+0 8 13
+D0
+Vedi una porta circolare di pietra.
+~
+porta pietra~
+3 -1 7404
+D2
+Vedi un blocco grigio.
+~
+blocco grigio~
+3 -1 7406
+E
+portalampada~
+Qualcosa nei particolari di questo oggetto ti fa pensare che sia il
+lavoro di un nano, soprattutto nella raffinatezza della lavorazione.
+~
+E
+cristallo globo~
+E' un globo di cristallo affascinante, una luce pulsa all'interno
+della sfera, seminascosta da una cortina di fumo.
+~
+S
+
+#7406
+Il pozzo nero~
+Quando pensavi ai bagni di fango intendevi quelli termali vero?
+Mentre lotti per non soccombere al fetore qualcosa striscia contro
+il tuo polpaccio sinistro.
+Hai un'unica via di fuga, ovest.
+~
+0 9 13
+D0
+Non vedi un tubo.
+~
+blocco grigio~
+3 -1 7405
+D3
+~
+~
+0 -1 7407
+S
+
+#7407
+Tunnel~
+La melma ti arriva alle ginocchia, dalle altre parti invece il tunnel
+sembra sgombro da ogni schifezza.
+~
+0 9 13
+D0
+~
+~
+0 -1 7408
+D1
+Vedi un pozzo nero.
+~
+~
+0 -1 7406
+D2
+~
+~
+0 -1 7409
+S
+
+#7408
+Il lungo tunnel~
+Sali su un piccolo masso dal quale puoi vedere il tunnel quasi
+per intero.. E per fortuna non c'è molta melma. Di fianco a te
+vedi un segnale con su scritto. "Attenzione! I vermi sono pericolosi!".
+~
+0 9 13
+D0
+Che bello.. è tutto pieno di liquame!
+~
+~
+0 -1 7403
+D2
+Il tunnel discende in maniera quasi impercettibile.
+~
+~
+0 -1 7407
+S
+
+#7409
+La stanza calda~
+Con grande stupore entri in questa stanza che non è fredda come
+le altre, anzi è molto calda. Verso nord declina nel fango.
+C'è un'ulteriore uscita ad ovest.
+~
+0 9 13
+D0
+Tanta tanta tanta tanta tanta melma.
+~
+~
+0 -1 7407
+D3
+Vedi l'ingresso di una stanza minuscola.
+~
+~
+0 -1 7410
+S
+
+#7410
+Una stanzina~
+Ti guardi intorno e vedi una statuetta, poi noti anche le due uscite
+ad est ed ovest.
+~
+0 9 13
+D1
+E' un buio insondabile.
+~
+~
+0 -1 7409
+D3
+Non riesci a vedere la fine di questo lungo tunnel.
+~
+~
+0 -1 7411
+E
+piccola statua~
+Sembra una piccola statua di un diavoletto con un dito puntato
+verso ovest. Il diavoletto assomiglia ad un uomo con corna e coda.
+~
+S
+
+#7411
+La grotta della stalagmite~
+Stalagmiti di diverse dimensioni sono dislocate qua è là per la grotta, creando
+un bell'effetto visivo insieme con l'acqua che gocciola lenta dal soffitto.
+~
+0 9 13
+D0
+~
+~
+0 -1 7414
+D1
+Vedi un lungo corridoio sporco di melma.
+~
+~
+0 -1 7410
+D2
+~
+~
+0 -1 7412
+E
+stalagmite~
+Le stalagmiti sono molto alte e perciò anche molto datate..
+~
+S
+
+#7412
+Il tunnel della stalagmite~
+Entri in un tunnel piuttosto stretto, ma molto asciutto.
+Ne puoi approfittare per riposare.
+~
+0 9 13
+D0
+Vedi una piccola caverna verso nord.
+~
+~
+0 -1 7411
+D3
+~
+~
+0 -1 7413
+S
+
+#7413
+La stanza spugnosa~
+Si potrebbe nuotare qui dentro per l'elevato tasso di umidità, perfino il
+pavimento è ricoperto da un discreto stato di rugiada.
+~
+0 12 13
+D1
+~
+~
+0 -1 7412
+D3
+~
+~
+0 -1 7445
+S
+
+#7414
+Il trivio della stalagmite~
+Arrivi ad un incrocio a T, verso nord ti pare di vedere alcune
+luci, in tutte le altre direzioni è buio pesto.
+~
+0 12 13
+D0
+Più avanti scorgi alcune luci.
+~
+~
+0 -1 7417
+D1
+~
+~
+0 -1 7415
+D2
+~
+~
+0 -1 7411
+S
+
+#7415
+Un vicolo cieco~
+Bene, da qui non si va in nessun posto però verso nord vedi
+una pittura tribale.
+~
+0 9 13
+D0
+Vedi una pittura primitiva.
+~
+sole~
+3 -1 7416
+D3
+~
+~
+0 -1 7414
+E
+disegno pittura primitiva~
+Alcune persone danzano intorno ad un enorme sole di circa sette
+piedi di diametro.
+~
+S
+
+#7416
+La stanza del tesoro~
+Ricche decorazioni adornano le pareti di questo locale: numerosi
+bassorilievi raccontano di danzatori che compiono le loro evoluzioni
+intorno ad un sole disegnato sul pavimento. Sembra una raffigurazione
+molto antica e purtroppo è anche molto polverosa.
+Verso sud ti pare di vedere una porticina.
+~
+0 9 13
+D2
+Vedi un disegno che raffigura alcune persone mentre strisciano
+intorno ad una gigantesca luna.
+~
+porta figura sole luna~
+3 -1 7415
+S
+
+#7417
+Uno slargo nella tana~
+Raggiungi l'angolo sud-est della tana. Appoggiato alla parete
+vedi uno scheletro impolverato.
+~
+0 8 13
+D0
+Un'altra parte della tana.
+~
+~
+0 -1 7418
+D2
+~
+~
+0 -1 7414
+D3
+Un'altra parte della tana.
+~
+~
+0 -1 7420
+E
+scheletro~
+Deve trattarsi di uno sfortunato avventuriero.. Se vuoi di' una preghiera
+per lui e poi prosegui.
+~
+S
+
+#7418
+Uno slargo nella tana~
+Sei nella zona nord-est del covo, di fronte a te, inciso su un muro
+vedi un segno.. forse una scritta.
+~
+0 9 13
+D1
+Vedi una porta di legno
+~
+porta legno~
+3 -1 7421
+D2
+Un'altra parte della tana.
+~
+~
+0 -1 7417
+D3
+Un'altra parte della tana.
+~
+~
+0 -1 7419
+E
+segno muro~
+La scritta riporta queste parole:  'Dei della Guerra Vi invoco!
+                                    Al mio fianco sta la spada caparbia
+                                    Che troverà la luce scevra da finta superbia!'
+                                         Reyemle Grug.....
+~
+S
+
+#7419
+Uno slargo nella tana~
+In questa parte nord-ovest del covo balza agli occhi uno strano segno, forse
+sono addirittura parole incise nella pietra.
+Puoi uscire dalla tana verso nord.
+~
+0 9 13
+D0
+Vedi un piccolo tunnel che dirige verso nord.
+~
+~
+0 -1 7422
+D1
+Un'altra parte della tana.
+~
+~
+0 -1 7418
+D2
+Un'altra parte della tana.
+~
+~
+0 -1 7420
+E
+Segno segnale~
+E' una scritta.. 'Vago solitario in un'eterna leggenda,
+                  cercando la luce che risollevi il mio orgoglio.'
+                                   Corama
+~
+S
+
+#7420
+In fondo alla tana~
+Di fronte a te è sistemato un tavolo incredibilmente polveroso, intorno al quale
+sono seduti comodamente cinque scheletri di quelli che un tempo erano uomini.
+Due uscite ti conducono fuori di qui: nord, est.
+~
+0 9 13
+D0
+La parte settentrionale della tana.
+~
+~
+0 -1 7419
+D1
+La parte orientale della tana.
+~
+~
+0 -1 7417
+E
+tavolo~
+Da molto tempo la polvere si adagia su questo tavolo formando quasi una
+coperta protettiva. Al centro del mobile vedi una statuetta che sembra
+la raffigurazione di un drago dormiente.
+~
+E
+scheletro scheletri~
+Studiando i danni riportati da questi scheletri puoi intuire che
+la loro morte non fu per spada o clava..
+~
+E
+dragone statua~
+Una piccola statuetta d'argento, fissata al tavolo, rappresenta
+una scena di lotta fra due dragoni. Il vincitore schiaccia la testa
+del vinto con la zampa; il dragone sottomesso sembra morto ma nei suoi occhi
+pulsa ancora un'inconsueta luce rossa che ti lascia una vaga sensazione
+di spossatezza.
+~
+S
+
+#7421
+Tunnel est~
+Prosegui sempre lungo il fosco tunnel, le uscite sono ad est ed ovest.
+Ad ovest in più c'è una strana porta di legno.
+~
+0 12 13
+D1
+Intravedi un tunnel pieno di melma.
+~
+~
+0 -1 7402
+D3
+Vedi una porta di legno.
+~
+porta legno~
+3 -1 7418
+S
+
+#7422
+Tunnel nord~
+Stai avanzando in un tunnel davvero oscuro che prosegue verso l'alto.
+~
+0 9 13
+D0
+Il tunnel oscuro continua.
+~
+~
+0 -1 7423
+D2
+Riesci a scorgere una tana di animale.
+~
+~
+0 -1 7419
+D3
+Vedi l'entrata di un grottino.
+~
+~
+0 -1 7436
+S
+
+#7423
+La stanza a L.~
+Ti muovi con gran difficoltà nel buio pesto di questa stanza. Poggiando le mani
+sulle pareti riesci ad intuire che il perimetro di questo luogo è a forma di L.
+Verso sud trovi una piccola uscita, ad est c'è uno squarcio nel muro.
+~
+0 9 13
+D1
+~
+~
+0 -1 7424
+D2
+~
+~
+0 -1 7422
+S
+
+#7424
+L'atrio circolare.~
+E' un atrio perfettamente circolare lungo le cui pareti sono stati aperti
+tre passaggi sormontati da sculture di teste in pietra.
+Puoi andare a nord, sud o est.
+~
+0 9 13
+D1
+Non sembra essere particolarmente interessante.
+~
+verde testa drago scultura~
+3 -1 7425
+D3
+Vedi una stanza da lontano.
+~
+~
+0 -1 7423
+E
+testa teste~
+Vedi subito che si tratta di teste di drago, appesa su ogni arco ne sta
+una di diverso colore.
+A nord c'è un drago rosso, ad est uno verde, a sud uno blu.
+Cosa vorrà significare?
+~
+E
+verde~
+Questo drago ha un aspetto decisamente feroce.
+~
+E
+rosso~
+Questo drago pare non interessarsi molto a te.
+~
+E
+blu~
+Questo drago ti guarda con aria benevola.
+~
+S
+
+#7425
+Un tunnel polveroso.~
+Tossisci a più riprese per il gran polverone che s'è accumulato
+in questo tunnel, molto probabilmente nessuno veniva qui da tempo
+immemore. E' un luogo decisamente noioso e sembra proprio adatto per farci
+un bel cimitero..
+Verso ovest vedi la soglia di una porta, ad est il tunnel prosegue dritto.
+~
+0 12 13
+D1
+Un tunnel prosegue verso il basso e verso il buio.
+~
+~
+0 -1 7426
+D3
+Vedi la soglia di una porta.
+~
+porta~
+3 -1 7424
+S
+
+#7426
+L'incrocio.~
+Mentre scruti in ogni direzione per decidere meglio dove andare, noti con la
+coda dell'occhio alcune strane impronte lasciate nella polvere.
+~
+0 9 13
+D0
+~
+~
+0 -1 7431
+D1
+~
+~
+0 -1 7430
+D2
+~
+~
+0 -1 7427
+D3
+~
+~
+0 -1 7425
+E
+orma orme~
+Hai mai visto prima delle impronte simili a queste?
+~
+S
+
+#7427
+La stanza ad elle.~
+Sei in una stanza dalla bizzarra forma di una L. Da est provengono alcuni rumori poco
+amichevoli. Di fronte a te vedi un segnale.
+~
+0 9 13
+D0
+~
+~
+0 -1 7426
+D1
+Un lungo e buio tunnel.
+~
+~
+0 -1 7428
+E
+segnale~
+Sul segnale è scritto a grandi lettere "PERICOLO!".
+~
+S
+
+#7428
+La tana del dragone rosso.~
+Pareti annerite dal fumo e dalle fiamme, mattonelle di un rosso scintillante, così ti
+si presenta la tana del drago. Il pavimento è ricoperto da innumerevoli ossa sparse
+per ogni dove, l'aria è ancora intrisa dell'odore di carne bruciata.
+Un orripilante spettacolo ti si para dinnanzi: per terra sono adagiati due corpi, fusi insieme
+dal gran calore delle fiamme..
+~
+0 3145741 13
+D0
+Vedi un lungo tunnel.
+~
+~
+0 -1 7429
+D3
+Non vedi altro che buio.
+~
+~
+0 -1 7427
+S
+
+#7429
+La stanza bruciata.~
+Tanto tempo fa dev'essersi sviluppato un grande incendio in questa stanza.
+Su una delle pareti annerite è incisa una scritta..
+~
+0 9 13
+D2
+Vedi una vaga luce rossa.
+~
+~
+0 -1 7428
+D3
+~
+~
+0 -1 7430
+E
+scritta~
+La scritta dice "Pericolo!".
+~
+S
+
+#7430
+Il tunnel del vento.~
+Stai camminando lungo un tunnel. Un'allegra brezza accompagna i tuoi passi..
+~
+0 9 13
+D1
+Troppo buio per vedere qualcosa.
+~
+~
+0 -1 7429
+D3
+~
+~
+0 -1 7426
+E
+brezza~
+Dall'alto scende una fresca brezza, purtroppo non c'è nulla da fare. Non vedi alcun
+appiglio che ti permetta di salire.
+~
+S
+
+#7431
+La stanza scintillante.~
+Le pareti di questa stanza sembrano contenere discrete quantità d'argento che,
+colpite dalla luce, riflettono dei graziosi scintillii.
+Vedi dei passaggi verso ovest, est e sud.
+~
+0 8 13
+D1
+~
+~
+0 -1 7432
+D2
+~
+~
+0 -1 7426
+D3
+~
+~
+0 -1 7433
+E
+pareti muri argento~
+Stupefacente.. Numerosi riflessi argentati si emanano dalle pareti.
+~
+S
+
+#7432
+La stanza segreta.~
+E' una stanza angusta completamente vuota. Verso ovest si vede
+l'uscita; sul pavimento noti dei segni, come se un tempo
+ci fosse stato un passaggio in basso.
+~
+0 9 13
+D3
+Vedi una lucina verso ovest.
+~
+~
+0 -1 7431
+E
+basso down~
+Un grosso cartello blocca il passaggio. Sopra c'è scritto "E' il tuo giorno fortunato, abbiamo
+appena chiuso una via d'accesso alla morte!"
+~
+S
+
+#7433
+Alla fine del tunnel~
+Dopo tanto peregrinare raggiungi la fine del tunnel. Poco distante da te vedi
+un indefibile oggetto grigio. Verso est puoi tornare indietro all'imbocco del
+tunnel.. sempre che tu ne abbia voglia.
+~
+0 9 13
+D1
+Il tunnel prosegue dritto.
+~
+~
+0 -1 7431
+D3
+Una strana massa grigia ti blocca la strada.
+~
+~
+0 -1 7434
+E
+massa grigia~
+Si tratta di un'informe massa non meglio specificata. Ma come può essere
+finita qui?
+~
+S
+
+#7434
+Ripostiglio~
+Alle pareti di questo stanzino sono appese tantissime immagini di
+volti spaventati.. Molto rassicurante vero?
+Puoi tranquillamente uscire da sud o verso il basso.
+~
+0 9 13
+D2
+Soltanto oscurità in questa direzione.
+~
+~
+0 -1 7435
+D5
+~
+~
+0 -1 7301
+S
+
+#7435
+Un oscuro tunnel~
+Vai a tentoni lungo questo tunnel dove il buio la fa da padrone.
+Mentre cammini urti qualcosa che assomiglia ad un osso.
+Puoi proseguire verso nord o verso sud.
+~
+0 9 13
+D0
+~
+~
+0 -1 7434
+D2
+~
+~
+0 -1 7436
+E
+ossa osso~
+Sembrebbero proprio ossa umane.
+~
+S
+
+#7436
+L'ingresso della tana~
+Non fai in tempo ad entrare che le tue narici sono assalite da un odore
+sgradevolissimo.. Resistendo stoicamente ti addentri nella tana.
+A sud vedi una spessa cortina di fumo, a nord ed est un tunnel porta lontano
+da qui.
+~
+0 13 13
+D0
+~
+~
+0 -1 7435
+D1
+Verso est c'è l'imboccatura di un grottino.
+~
+~
+0 -1 7422
+D2
+Riesci a vedere solo tanto tanto fumo.
+~
+~
+0 -1 7437
+S
+
+#7437
+Il lato nord-est della tana~
+A causa della fitta nube di fumo non si vede un granché; sforzandosi un po' si
+distingue la forma di un tunnel verso nord. A sud ed ovest ti pare di
+scorgere altre due uscite.
+~
+0 9 13
+D0
+~
+~
+0 -1 7436
+D2
+~
+~
+0 -1 7438
+D3
+~
+~
+0 -1 7439
+S
+
+#7438
+La parte sud-est della tana~
+Da un piccolo buchetto nel muro proviene il fumo che oscura la vista in questa
+parte della tana. E' tutto nero come la pece..
+Vedi due uscite possibili, nord ed ovest.
+~
+0 9 13
+D0
+Scorgi solo una densa foschia.
+~
+~
+0 -1 7437
+D3
+Null'altro che fumo.
+~
+~
+0 -1 7440
+E
+buchetto~
+E' un buchetto, al massimo sarà un piede di diametro.
+~
+S
+
+#7439
+Il lato nord-ovest della tana~
+Un pagliericcio fetido e sporco è raggruppato da una parte; osservandone
+l'appiattimento si può supporre che questo sia il letto del basilisco.
+Stai in guardia, forse non è troppo lontano da qui.
+~
+0 9 13
+D1
+~
+~
+0 -1 7437
+D2
+~
+~
+0 -1 7440
+E
+fieno~
+Questo fieno è umido oltre il pensabile, in alcune parti è già marcito ed il solo
+odore ti provoca la nausea.
+~
+S
+
+#7440
+La parte sudoccidentale della tana del basilisco~
+Arranchi in mezzo ad una coltre di fumo e nebbia.
+~
+0 9 13
+D0
+~
+~
+0 -1 7439
+D1
+~
+~
+0 -1 7438
+D2
+~
+~
+0 -1 7441
+S
+
+#7441
+La piccola grotta~
+Metti piede in un grottino, vagamente illuminato da alcuni bagliori distanti.
+Le uniche due uscite sono verso nord e verso sud.
+~
+0 13 13
+D0
+Nubi di fumo si sollevano in questa direzione.
+~
+~
+0 -1 7440
+D2
+Scorgi dei riflessi azzurrognoli in lontananza e percepisci nell'aria un vago
+odor salmastro trasportato da una gentile brezza.
+~
+~
+0 -1 7442
+S
+
+#7442
+Il lato nord della pozza~
+Camminando fra mille pensieri non t'accorgi d'aver immerso i piedi in una pozza.
+Le acque placide ondeggiano avanti e indietro sulla riva, alzando un po' lo sguardo
+puoi vedere la vastità di questo bacino idrico. Una strana forma di luce proviene
+dall'acqua stessa..
+~
+0 8 13
+D0
+Intravedi una piccola grotta.
+~
+~
+0 -1 7441
+D1
+Vedi ancora acqua.
+~
+~
+0 -1 7443
+D2
+La pozza continua in questa direzione.
+~
+~
+0 -1 7444
+S
+
+#7443
+La pozza~
+Nuoti in queste placide acque, probabilmente molto profonde a giudicare dall'intensità
+di blu in questo punto.
+~
+0 9 13
+D2
+Da qui noti alcune bolle d'aria salire in superficie.
+~
+~
+0 -1 7445
+D3
+Vedi il calmo ondeggiare dell'acqua.
+~
+~
+0 -1 7442
+S
+
+#7444
+La parte sudorientale della pozza~
+Sei in immersione, fino al collo. Dopo tanta melma ci voleva proprio.
+~
+0 8 13
+D0
+Vedi il riflesso di calme acque.
+~
+~
+0 -1 7442
+D1
+E' troppo buio per distinguere qualcosa eppure avverti uno strano rumore nell'oscurità.
+~
+~
+0 -1 7445
+S
+
+#7445
+La pozza~
+Non hai resistito al richiamo dell'acqua e con un solo tuffo ti abbandoni
+al massaggio delle piccole onde che increspano la superficie di questa pozza.
+D'un tratto qualcosa tocca la tua gamba destra..
+~
+0 9 13
+D0
+Troppo buio, non vedi nulla.
+~
+~
+0 -1 7443
+D1
+Una calda brezza sfiora il tuo viso.
+~
+~
+0 -1 7413
+D3
+~
+~
+0 -1 7444
+S
+
+#0
+
+
+#RESETS
+M 0 7001 12 7041
+M 0 7001 12 7025
+M 0 7001 12 7004
+M 0 7001 12 7004
+M 0 7002 3 7049
+M 0 7002 3 7031
+M 0 7003 8 7039
+M 0 7003 8 7039
+M 0 7003 8 7039
+M 0 7003 8 7037
+M 0 7003 8 7037
+M 0 7003 8 7050
+M 0 7004 3 7102
+M 0 7005 7 7112
+M 0 7005 7 7112
+M 0 7005 7 7122
+M 0 7002 7 7104
+M 0 7000 3 7103
+M 0 7000 3 7103
+M 0 7006 5 7102
+M 0 7006 5 7104
+M 0 7006 5 7101
+D 1 7116 5 1
+D 1 7280 4 1
+D 0 7201 3 2
+D 0 7201 2 1
+D 0 7202 0 1
+D 0 7208 0 1
+M 0 7200 1 7201
+E 1 7200 4 16
+E 1 7203 4 3
+G 1 7205 7200
+O 0 7204 6 7200
+M 0 7201 1 7203
+E 1 7201 4 16
+M 0 7202 2 7205
+E 1 7202 8 16
+M 0 7202 2 7207
+E 1 7202 8 16
+O 0 7206 4 7206
+M 0 7203 10 7214
+E 1 7211 16 16
+M 0 7203 10 7213
+E 1 7211 16 16
+M 0 7203 10 7215
+E 1 7211 16 16
+M 0 7203 10 7217
+G 1 7208 20
+E 1 7211 16 16
+M 0 7203 10 7219
+E 1 7209 4 8
+E 1 7211 16 16
+M 0 7203 10 7221
+G 1 7208 20
+E 1 7211 16 16
+M 0 7203 10 7223
+E 1 7209 4 8
+E 1 7211 16 16
+M 0 7203 10 7225
+E 1 7211 16 16
+M 0 7203 10 7233
+G 1 7208 20
+E 1 7211 16 16
+M 0 7203 10 7233
+E 1 7209 4 8
+E 1 7211 16 16
+M 0 7204 1 7234
+D 0 7280 4 1
+D 0 7116 5 1
+M 0 7002 5 7285
+E 1 7190 10 2
+M 0 7002 5 7285
+M 0 7000 8 7286
+M 0 7013 3 7286
+M 0 7000 8 7281
+M 0 7000 8 7281
+M 0 7000 8 7280
+D 1 7116 5 1
+D 1 7280 4 1
+D 0 7415 0 1
+D 0 7416 2 1
+D 0 7418 1 1
+D 0 7421 3 1
+D 0 7424 1 1
+D 0 7425 3 1
+D 0 7405 2 1
+D 0 7406 0 1
+D 0 7404 2 1
+D 0 7405 0 1
+O 0 7212 1 7101      * un flacone nella stanza 7101
+M 0 7040 1 7428
+E 1 7304 99 5
+E 1 7305 99 7
+E 1 7306 99 9
+E 1 7307 99 6
+E 1 7308 99 11
+E 1 7309 99 8
+E 1 7310 99 10
+E 1 7216 99 16
+E 1 7303 99 17
+M 0 7041 2 7444
+M 0 7042 2 7435
+M 0 7043 3 7439
+G 1 7207 1
+O 0 7300 8 7439
+M 0 7044 6 7406
+M 0 7045 1 7419
+M 0 7046 1 7424
+M 0 7010 2 7429
+M 0 7013 3 7403
+M 0 7013 3 7412
+M 0 7011 3 7423
+M 0 7007 3 7422
+M 0 7008 4 7401
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7006 spec_poison
+M  7040 spec_breath_fire
+M  7041 spec_cast_undead
+M  7042 spec_cast_cleric
+M  7043 spec_breath_any
+M  7200 spec_cast_mage
+M  7201 spec_cast_mage
+M  7202 spec_cast_mage
+M  7203 spec_poison
+M  7204 spec_poison
+S
+
+
+#END

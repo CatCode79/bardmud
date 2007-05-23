@@ -1,0 +1,2 @@
+Questa cartella contiene i file con gli oggetti salvati di alcune stanze.
+Questo file esiste per far decomprimere correttamente tutte le cartelle.

@@ -1,0 +1,1784 @@
+#AREA
+Name         I Cancelli Spettrali~
+Author       Brittany (Miciko)~
+Color        AT_CYAN ciano~
+LevelRange   1 60
+ResetMsg1    Una campana risuona in lontananza.. Ne deduco che qualcuno deve aver attraversato i Cancelli Spettrali.~
+Economy      0 45009000
+Flags        AREAFLAG_NOPKILL AREAFLAG_NOTELEPORT AREAFLAG_SECRET~
+Vnums        100 199
+End
+
+
+#MOBILES
+#700
+Samylla locandiera donna~
+Samylla~
+La locandiera dei reami ti dà il benvenuto.
+~
+Che sia una donna appare ovvio, nonostante il suo aspetto non corrisponda molto
+all'idea generale di femmina. A prima vista non riesci bene ad identificarla.
+Dandole un'occhiata noti la sua altezza e la snella figura,
+caratteristiche che attraggono lo sguardo. Fissandola nuovamente ti accorgi che
+il suo viso è di un inconsueto biancore, quasi rilucente. Gli occhi, neri come
+il carbone, rendono impossibile distinguere la pupilla dall'iride.
+Sorride, Samylla, vedendo la tua attenzione così concentrata sul suo aspetto e
+puoi raccogliere nel suo sorriso l'ultimo tassello di un'informazione mancante.
+Gli affilati canini fan bella mostra di sé.. è lampante adesso che la persona
+dinnanzi a te è una vampira.
+~
+3 4194984 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 4 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p dall'alto.~
+mpechoaround $n Samylla sorride cordialmente a $n.
+mpechoat $n Samylla mi sorride cordialmente.
+say a $n Ti dò il benvenuto nella locanda dei Piani.
+say a $n Dovete ancora addentrarvi nei Piani, ma lo farete presto..
+say a $n $n Per piacere leggi ogni avviso che incontri lungo la via.
+mpechoat $n "Suggerimento: per guardarti attorno devi scrivere guarda <oggetto>   Es: guarda busto"
+~
+> act_prog p da nord.~
+say a $n Eccoti di nuovo.
+say a $n Forse vuoi dare un'altra occhiata in giro?
+say a $n Spero tu abbia notato gli arazzi in cima alle scale.
+say a $n Rappresentano brevemente ciò che potrai vedere nel nostro Regno.
+~
+> all_greet_prog 100~
+  if race($n) == Halfling
+mpechoaround $n Sorride cordialmente a $n.
+mpechoat $n Mi sorride cordialmente $n.
+say a $n Ti dò il benvenuto nella locanda dei Reami.
+say a $n Dovete ancora addentrarvi nei Reami, ma lo farete presto..
+say a $n $n Per piacere leggi ogni avviso che incontri lungo la via.
+mpechoat $n "Suggerimento: per guardarti attorno devi scrivere guarda <oggetto>. es: guarda busto"
+  endif
+~
+|
+#701
+mob prog~
+Prog Mob~
+Un Mob Prog si trova qui, ma non può essere visto dai giocatori.
+~
+~
+2097155 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p Un piccolo portale si forma ed~
+  mpoload 10311 1
+  give occhio $n
+  mpforce $n wear occhio
+  mpoload 719 1
+  give sacca $n
+mpechoat $n Mi viene consegnata una sacca robusta.
+mpechoat $n Familiare, ma in qualche modo diversa, la mia vita è cambiata..
+mpechoat $n "Suggerimento: scrivi 'look sacca' per usarla"
+~
+> act_prog p dal basso.~
+mpechoat $n Il mio sguardo è repentinamente attratto dagli arazzi.
+  mpforce $n look arazzo
+~
+> all_greet_prog 100~
+  if race($n) == Halfling
+mpechoat $n I tuoi occhietti si volgono verso gli arazzi, fissandoli.
+    mpforce $n look arazzo
+  endif
+~
+|
+#702
+Xouwasi nano insegnante~
+Xouwasi~
+Il tuo mentore è seduto qui, pronto a guidarti verso il tuo futuro.
+~
+La viva espressione dei suoi occhi lascia intendere tutto di lui,
+principalmente la sua profonda conoscenza e cordialità.
+Di solito i nani sono diffidenti nei confronti degli estranei, ma costui pare
+trarre beneficio dall'accogliere gli stranieri e dall'istruirli sulle regole dei Reami.
+Il viso è solcato da rughe, ricordi del sole e di numerose risate.
+Il mento è adornato orgogliosamente da una folta barba ed i suoi indumenti
+vivaci sono al limite del vistoso. Calza stivali di pelle nera, tirati a lucido.
+Nel complesso, è proprio un personaggio che si fa notare.
+~
+3 4194984 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 5 0 0 5 5 0
+0 0 0 0 0 0 0 0
+> act_prog p da sud.~
+mpechoat $n Xouwasi si inchina cordialmente verso di me.
+mpechoaround $n Xouwasi si inchina cordialmente verso $n.
+say a $n Sembra che tu sia un nuovo Viaggiatore dei Piani.
+mpechoat $n "Suggerimento: Scrivi "look <oggetto>" or "look <nome>" per vedere gli oggetti."
+mpechoat $n "Suggerimento: Scrivi 'eq' per controllare il tuo equipaggiamento (i capi che hai indosso)."
+mpechoat $n "Suggerimento: Per vedere la parte dell'eq che non stai usando scrivi 'inventory' o 'i',"
+mpechoat $n "Suggerimento: per vedere il tuo stato attuale scrivi 'score'."
+mpechoat $n "Suggerimento: Scrivi 'look albero'
+~
+|
+#703
+serpente~
+un serpente~
+Un serpente balza fuori da una buca nel terreno e attacca!
+~
+Uno squamoso, viscido serpente, di color nero intenso osserva attentamente ogni
+tuo passo, aspettando il momento giusto per morderti!
+~
+35 520 0 C
+3 0 75 1d1+25 0d0+0
+500 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 4 0 0 396405 396405 0
+0 0 66593 0 0 0 0 0
+> fight_prog 50~
+mpechoat $n $I affonda i denti nella mia carne!
+  mpechoaround $n $I affonda i denti nella carne di $n!
+~
+> death_prog 100~
+  mpoload 706 1
+mpechoat $n Il serpente viene ridotto a brandelli e muore.
+~
+|
+#704
+drago cucciolo~
+un cucciolo di drago~
+Un cucciolo di drago ti scruta con fare minaccioso.
+~
+La testa del cucciolo è identica ad un'altra che hai già visto in passato,
+con la differenza che questa (ringraziando gli Dei) è solo un decimo della precedente.
+Il drago, sebbene ancora piccolo, sembra proprio un nemico da non sottovalutare
+in battaglia.
+~
+3 0 0 C
+2 0 75 20d0+0 0d0+0
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 3420515 3420515 0
+0 0 65671 0 0 0 0 0
+> rand_prog 7~
+mpecho Il drago emette un sordo brontolìo, tanto per ricordare a me la sua presenza.
+sacrifice cadavere
+sacrifice scudo
+sacrifice secchio
+~
+> death_prog 100~
+  mpoload 710 1
+  mpecho $I crolla al suolo, gemendo per il denso fiotto di sangue che gli riempie la gola.
+mpecho Sinistri scricchiolii provengono dalle fitte ombre accanto alla parete meridionale.
+mpecho Un cucciolo di drago esce dal suo uovo seminascosto nel buio.
+  mpmload 704
+mpechoat $n "Suggerimenti: Ricorda.."
+mpechoat $n "Suggerimenti: Non potrai avanzare oltre il livello 1 fino a quando non avrai superato il"
+mpechoat $n "Suggerimenti: cancello con le rune e sarai finalmente nei Reami."
+~
+|
+#705
+mobprog~
+MobProg~
+Un MobProg si trova qui, e non deve essere visto dai giocatori.
+~
+~
+2097155 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog P da ovest.~
+  mpoload 711 1
+  mpoload 712 1
+  mpat 720 give armatura Quercusi
+  mpat 720 give oro Quercusi
+  mpoload 714 1
+  mpoload 715 1
+  mpat 723 mppurge
+  mpat 723 drop scatola
+  mpat 723 put simbolo scatola
+  mpat 723 close scatola
+~
+> all_greet_prog 100~
+  if race($n) == Halfling
+    mpoload 711 1
+    mpoload 712 1
+    mpat 720 give armatura Quercusi
+    mpat 720 give oro Quercusi
+    mpoload 714 1
+    mpoload 715 1
+    mpat 723 mppurge
+    mpat 723 drop scatola
+    mpat 723 put simbolo scatola
+    mpat 723 close scatola
+endif
+~
+> rand_prog 2~
+  mpat 199 drop all
+~
+|
+#706
+Quercusi uomo~
+Quercusi~
+Un uomo dall'aria saggia si sta rilassando, dondolandosi su una bellissima sedia intarsiata.
+~
+Dall'aspetto si direbbe che quest'uomo abbia vissuto nei Reami per centinaia d'anni.
+Il suo volto cordiale e benevolo è segnato dal tempo ma i suoi occhi brillano ancora d'arguzia
+e saggezza così come anche la forma fisica pare ben conservata.
+~
+3 4194952 0 C
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+25 13 13 25 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> all_greet_prog 100~
+mpechoat $n $I mi sorride con benevolenza.
+mpechoaround $n $I sorride con benevolenza a $n.
+say a $n Salute a te, ti dò il benvenuto nella mia dimora.
+say a $n Hai con te ciò che ti chiedo?
+say a $n Un'arma presa da un baule riposto in un albero.
+say a $n Uno Scudo di Scaglie del cucciolo di drago che sta nella caverna.
+say a $n Un anello che troverai al termine del sentiero che hai scelto.
+say a $n Inoltre, una piuma, un secchio e carne di serpente.
+say a $n Se ti manca uno o più degli oggetti richiesti e lo vuoi recuperare, oppure
+  if ispkill($n)
+  say a $n se preferisci riprendere il sentiero di Pace, allora
+  else
+  say a $n se preferisci tornare indietro e scegliere il cammino di Morte, allora
+  endif
+say a $n dammi il tuo anello.
+mpechoat $n "Suggerimento: scrivi 'give anello uomo' se vuoi cambiare."
+~
+> act_prog p verso nord.~
+mpat 719 mpecho $I si sporge fuori dalla porta.
+  mpat 719 give chiave $n
+  mpat 719 give armatura $n
+mpat 719 say a $n La Fortuna guidi i tuoi passi!
+  close porta
+~
+> give_prog anello luce cerchio anelloluce~
+say a $n E' tempo di tornare all'albero di Xouwasi.
+  mpechoaround $n $n scompare in un lampo di luce.
+  mptransfer $n 703
+  mpat 703 mpforce $n south
+  junk anelloluce
+~
+> give_prog anello ombra anelloombra~
+say a $n E' tempo di tornare all'albero di Xouwasi.
+  mpechoaround $n $n scompare in un lampo di luce.
+  mptransfer $n 703
+  mpat 703 mpforce $n south
+  junk anelloombra
+~
+> rand_prog 2~
+  mpat 199 drop all
+  mpat 199 get armatura
+  mpat 199 get armatura
+  mpat 199 get chiave
+  mpat 199 get chiave
+  mpat 199 get chiave
+  mpat 199 get chiave
+  mpat 199 get armatura
+  mpat 199 get armatura
+  mpat 199 mppurge
+~
+> leave_prog 100~
+  if race($n) == Halfling
+    give chiave $n
+    give armatura $n
+say $n La Buona Sorte ti sia compagna di viaggio!
+endif
+~
+|
+#707
+progmob~
+MobProg ~
+Un ProgMob si trova qui, ma non può essere visto dai giocatori.
+~
+~
+2097155 66058 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+> act_prog p tira una corda.~
+  mpechoat $n Molto in alto sopra la tua testa senti il forte rintocco di una campana.
+  mpechoaround $n Più in alto, una campana risponde con un rintocco.
+mpechoat $n Se non accade nulla, scrivi LOOK corda e tira di nuovo tra qualche secondo.
+  mpapplyb $n
+  push corda
+~
+|
+#0
+
+#OBJECTS
+#700
+candelabro~
+un candelabro d'ottone a sei braccia~
+Su ogni braccio brilla la fiamma di una candela nera~
+~
+1 0 1 0
+0 0 0 0
+100 10 1
+#701
+sorgente~
+una sorgente incantata~
+In un angolo della stanza gli allegri spruzzi di una sorgente fatata ti invitano a dissetarti.~
+~
+25 64 0 0
+100000 100000 0 0
+5000 10 1
+#702
+cassa baule cassone~
+una cassa per le armi~
+Un cassone pieno d'armi è poggiato contro la parete settentrionale.~
+~
+15 0 0 0
+1000 0 0 0
+1 0 0
+E
+cassa baule~
+Il baule, fatto di legno di quercia, è robusto ma non chiuso a chiave.
+Pensi di doverlo esaminare da più vicino per vedere cosa contiene.
+~
+> exa_prog 100~
+if isclass($n) == CLASS_MAGE
+or isclass($n) == CLASS_THIEF
+or isclass($n) == CLASS_NECROMANCER
+or isclass($n) == CLASS_BARD
+  mpoload 721 1
+  put 'lama spada granito' chest
+  mpforce $n get lama cassa
+  mpforce $n wield lama
+else
+if isclass($n) == CLASS_PRIEST
+or isclass($n) == CLASS_DRUID
+  mpoload 722 1
+  put 'adamantite mazza' cassa
+  mpforce $n get mazza cassa
+  mpforce $n wield mazza
+else
+if isclass($n) == CLASS_FIGTHER
+or isclass($n) == CLASS_WANDERING
+  mpoload 723 1
+  put 'pesante spadone spada' cassa
+  mpforce $n get spadone cassa
+  mpforce $n wield spadone
+endif
+endif
+endif
+~
+|
+#703
+Pugnale arma daga~
+Vedi brillare nella penombra la lama di una daga.~
+Ben affilata e micidiale questa daga attende solo d'esser portata in battaglia.~
+~
+5 64 8192 0
+12 1 6 11
+2 0 0
+E
+Pugnale~
+A prima vista sembra leggero e maneggevole, utile nelle battaglie che dovrai affrontare.
+~
+A
+18 1
+A
+19 2
+#704
+anello luce cerchio anelloluce~
+un anello di luce~
+Un piccolo cerchio di luce giace accanto ai tuoi piedi.~
+~
+9 64 3 0
+5 5 0 0
+2 0 0
+E
+anello luce~
+La luminosità dell'anello simboleggia la tua natura pacifica. Esso ti sarà d'aiuto
+fino al livello 10. Possa quest'anello proteggerti sempre dal male.
+~
+A
+13 5
+A
+2 1
+#705
+anello ombra anelloombra~
+un anello di ombra~
+Ti pare di scorgere un piccolo anello d'ombra accanto a te.~
+~
+9 64 3 0
+5 5 0 0
+2 0 0
+E
+anello ombra~
+Stringi fra le dita il simbolo della tua essenza malvagia. L'anello ti sarà utile
+fino al raggiungimento del decimo livello. Possa la sua magia salvarti dalla luce ed acuire i tuoi riflessi.
+~
+A
+13 5
+A
+2 1
+A
+18 1
+#706
+carne serpente~
+un pezzo di carne~
+Si direbbe proprio carne di serpente!~
+~
+19 262144 1 0
+25 0 0 0
+1 0 0
+#707
+piuma viola porpora~
+una piuma violacea~
+Una piuma dalle sfumature porpora si posa lieve per terra.~
+~
+3 268697664 16385 0
+3 2 2 32
+4 0 0
+E
+piuma porpora viola~
+E' insolitamente pesante per essere una piuma, forse nasconde in sé una natura incantata?.
+Prova a puntarla verso un bersaglio e recitare zap <bersaglio>. Siccome la piuma
+racchiude un incantesimo d'attacco, non è da usarsi contro altri avventurieri, a meno
+che non possiate sfidarvi vicendevolmente.
+~
+#708
+secchio acqua latta~
+un secchio di latta~
+Un secchio pieno d'acqua aspetta pazientemente che qualcuno lo porti via.~
+~
+17 524288 1 0
+20 10 0 0
+4 0 0
+E
+secchio acqua latta~
+E' un secchio comodo e robusto per raccogliere acqua potabile. Puoi bere
+con i comandi 'drink secchio' o 'drink acqua'. Puoi anche riempirlo
+nelle fontane o nei torrenti con il comando 'fill secchio'.
+~
+#709
+laghetto lago~
+il laghetto~
+Un piccolo lago dalle lucenti acque cristalline~
+~
+25 1073741824 0 0
+100000 1000000 0 0
+1 0 0
+E
+laghetto lago~
+L'acqua del lago, cristallina e sorprendentemente gelida, ospita numerose
+varietà di pesci, una gran parte dei quali hanno splendidi riflessi perlacei.
+Non hai alcun dubbio sulla potabilità di queste acque e volendo puoi anche
+riempire il tuo secchio prima di riprendere il viaggio.
+~
+#710
+scudo scaglie drago~
+uno scudo di scaglie di drago~
+Vedi uno scudo di scaglie drago, consunto da numerose bruciature.~
+~
+9 262148 513 0
+4 3 0 0
+5 0 0
+E
+scudo scaglie drago~
+Questo scudo ti proteggerà da molti pericoli, durante i tuoi viaggi.
+~
+A
+18 1
+A
+19 1
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+#711
+armatura pettorale lamiera~
+una solida e robusta armatura~
+In un angolo giace dimenticata un'armatura ancora in ottime condizioni.~
+~
+9 0 9 0
+4 7 0 0
+10 0 0
+A
+17 -3
+#712
+chiave oro~
+una pesante chiave d'oro~
+Una grossa chiave d'oro..chissà quali porte segrete potrà aprire.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0
+E
+oro chiave~
+Hai la netta sensazione che questa chiave apra qualcosa di molto importante.Forse dischiude
+i cancelli del tuo futuro? Per usare la chiave scrivi UNLOCK <porta> (es: Unlock cancello)
+~
+#713
+corda~
+una corda~
+Pende dal soffito una lunga corda, sembra che ti inviti a tirarla.~
+~
+37 262144 0 0
+29 0 0 0
+1 0 0
+E
+corda~
+Se il tuo animo è pronto ad attraversare i Cancelli Spettrali, hai solo da tirare
+la corda per avvisare gli Immortali che stai per entrare nei Reami!
+
+Se il tuo nome è stato approvato, verrai accolto nel Regno.
+
+Se invece ricevi un messaggio di disapprovazione per il tuo nome,
+devi scegliere un nome NUOVO, originale e in stile con l'epoca medievale. Per fare ciò scrivi:
+
+"nome <nomenuovo>"                 Per esempio:  nome Tarsythia
+
+Quindi tira nuovamente la corda per dichiarare il tuo nuovo nome agli Immortali.
+Attendi 30 secondi per sapere se il nuovo nome è stato accettato. Se non ottieni
+risposta tira la corda una volta ancora.
+
+
+La corda è una sorta di timer regolato sui 30 secondi, il che significa che puoi
+tirarla quante volte desideri, ma otterrai risposta dagli Immortali solo ogni
+trenta secondi. Gli Immortali sono spesso in tante faccende affaccendati, pertanto
+sii paziente - vedrai che qualcuno verrà da te il prima possibile.
+~
+#714
+scatola~
+la scatola~
+Sopra un tavolino in penombra è poggiata una scatola di legno nero.~
+~
+15 0 1 0
+11111 1 0 0
+1100 0 0
+#715
+orecchino simbolo~
+un simbolo di devozione alle Dee~
+Vedi un orecchino annerito dimenticato in un cantuccio.~
+~
+9 65 65537 0
+4 2 0 0
+5 0 0
+A
+26 2097152
+> wear_prog 100~
+  if level($n) < 16
+  mpechoat $n Non appena indosso l'orecchino i miei piedi si sollevano da terra.
+  mpechoaround $n Appena $n indossa $O, $e inizia a fluttuare in aria sollevandosi dal suolo.
+  else
+  mpechoat $n Il fermaglio dell'orecchino non rimarrà chiuso sul mio lobo per molto ancora.
+    mpechoaround $n $n combatte con $O ma non riesce a tenerlo chiuso sul suo orecchio.
+    mpforce $n remove simbolo
+  endif
+~
+|
+#716
+tunica toga~
+una morbida tunica bianca~
+Uno degli Dei ha lasciato qui un'elegante tunica bianca.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+A
+1 5
+A
+2 5
+#717
+pacifico segno pace~
+il cartello del sentiero di Pace~
+Un ampio cartello segnala l'imboccatura del sentiero.~
+~
+12 1 0 0
+0 0 0 0
+1 0 0
+E
+cartello segnale~
+Gli Dei si augurano che la tua permanenza nei Reami possa essere piacevole.
+Ad ogni modo, per assicurare a tutti avventura e divertimento, attieniti a
+queste due Regole principali:
+
+1) Non attaccare, né derubare un personaggio che ha scelto lo status
+   Non-Pkill. Non intraprendere un combattimento fintanto che sei
+   d'animo pacifico.
+2) Non essere blasfemo né molesto, non essere volgare ed evita commenti razziali
+   in ogni canale e con gli altri avventurieri.
+~
+#718
+morte segno cartello~
+il segno del sentiero di Morte~
+Uno strano segno posto lungo il sentiero, attira la tua attenzione.~
+~
+12 4 0 0
+0 0 0 0
+1 0 0
+E
+segno~
+Gli Dei s'aspettano che tu ti renda onore contro i nemici. Tuttavia,
+anche in guerra ci sono delle Regole da rispettare:
+
+1) Non attaccare, né derubare un personaggio che ha scelto lo status
+   Non-Pkill. Non intraprendere un combattimento fintanto che sei
+   d'animo pacifico.
+2) Non essere blasfemo né molesto, non essere volgare ed evita commenti razziali
+   in ogni canale e con gli altri avventurieri.
+
+Inoltre,non dimenticare il comando HELP RULES PKILL per controllare i cambiamenti al pkill.
+~
+#719
+sacca tela~
+una sacca capiente~
+Una sacca di tela resistente attendeva te per essere utilizzata.~
+~
+15 0 16385 0
+75 0 0 0
+1 0 0
+E
+sacca tela~
+Per usare la sacca, scrivi: examine sacca   O   exam sacca
+Per prendere gli oggetti dalla sacca, scrivi:  get <nome oggetto> sacca
+Per mettere gli oggetti nella sacca, scrivi:  put <nome oggetto> sacca
+
+Puoi anche usare i comandi get all o put all per prendere o riporre tutto.
+Per ulteriori informazioni usa il comando help container.
+~
+#720
+scale scala~
+una scalinata~
+Dal centro della sala, una scala a chiocciola conduce di sotto.~
+~
+13 1073741824 0 0
+0 0 0 0
+1 0 0
+E
+scale scala scalinata~
+La scala, salda e ben costruita, scende nella stanza sottostante.
+~
+#721
+lama spada granito~
+un'imponente lama di granito~
+Una cupa lama di granito si protende baldanzosa dall'elsa in pelle.~
+~
+5 68 8193 0
+12 1 6 11
+2 0 0
+E
+lama granito~
+Si vede subito che è di fattura grezza ma si rivelerà utile nei tuoi primi combattimenti.~
+A
+18 2
+A
+19 1
+#722
+adamantite mazza~
+una luccicante mazza d'adamantite~
+Una mazza di metallo splendente emette un leggero ronzìo.~
+~
+5 524610 8193 0
+12 0 0 7
+2 0 0
+E
+adamantite mazza~
+Forgiata con metallo lucente, quest'arma ti servirà a dovere nelle prime battaglie.
+~
+A
+18 2
+A
+19 1
+#723
+pesante spadone spada~
+un pesante spadone di ferro~
+Piccoli bagliori di luce si sprigionano dalla lama della spada.~
+~
+5 524352 8193 0
+12 0 0 3
+2 0 0
+E
+spadone spada pesante~
+Potrai affrontare numerosi nemici con questo spadone in lega di ferro.
+~
+A
+18 2
+A
+19 1
+#724
+prog cont~
+un contenitore di Prog~
+Un contenitore di Prog da rendere inutilizzabili per i giocatori che non sono in un clan.~
+~
+15 1073741824 16385 0
+300 0 0 0
+1 0 0
+#725
+fontana~
+una fontana~
+Ti vien voglia di rinfrescarti e dissetarti in questa fontana.~
+~
+25 0 0 0
+0 0 0 0
+1 0 0
+#726
+placca~
+una placca~
+Una placca fissata ad un masso attira la tua attenzione.  (look placca)~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+masso~
+E' una roccia di medie dimensioni, grigia e molto ruvida al contatto. Ti sembra che sia qui
+solo per far da cornice alla placca su cui sono incise alcune parole. (look placca)
+~
+E
+placca oro dorata~
+Il sentiero t'ha portato all'imbocco di un'area ristretta, al più 25 locazioni.
+Se questo tipo di gioco ti è nuovo, ti consigliamo di esplorare tutte le stanze,
+esaminare attentamente ogni oggetto e raccogliere il tuo equipaggiamento lungo la via.
+Non ti sarà dato il permesso di proseguire nei Reami, finché non tirerai la corda situata
+nell'ultima stanza.
+
+Nessuno muore in quest'area, nessuno acquista livelli. E' solo un trampolino di lancio per testare
+le tue abilità, vedere le stats, controllare le SKILLS e leggere gli Help.
+
+Scruta bene ogni angolino, i tuoi occhi saranno le migliori armi di cui disporrai qui!
+Puoi anche guardare gli oggetti che trovi nelle descrizioni delle stanze per
+collezionare ulteriori informazioni ed istruzioni.
+Assicurati di guardare oggetti e personaggi realmente presenti nelle stanze.
+
+Se ti venissero in mente domande o suggerimenti, puoi parlarne liberamente
+con un Immortale nel canale newbiechat o via tell.
+Scrivi anche HELP NEWBIE per leggere l'help dettagliato creato appositamente
+per i nuovi giocatori.
+
+Buon Divertimento! -- Gli Amministratori
+~
+#727
+oro placca~
+una placca~
+Accanto alla ringhiera è appesa una placca dorata con delle iscrizioni.~
+~
+12 1073741824 0 0
+0 0 0 0
+1 0 0
+E
+oro placca ringhiera~
+Avventurieri! I Cancelli Spettrali vi danno il benvenuto..
+Tutti i nuovi personaggi iniziano il gioco in quest'area, prima di addentrarsi
+nell'Accademia Darkhaven e oltre nei Reami.
+Si tratta di una piccola area formata da 25 locazioni: il tuo compito è di esplorare
+tutte le stanze, leggere le descrizioni delle suddette, degli oggetti che troverai
+e collezionare via via le parti che costituiranno il tuo equipaggiamento.
+Non avrai l'autorizzazione di procedere oltre l'ultima stanza, finché non avrai tirato
+la corda che troverai lì.
+
+Non puoi morire in questa area né acquisire l'esperienza per passare di livello.
+Girare qui ti servirà solo per prendere dimestichezza con il gioco, conoscere le
+tue stat, controllare le tue SKILLS e leggere gli HELP.
+
+Puoi anche guardare gli oggetti che compariranno nelle descrizioni delle stanze
+per ottenere utili informazioni e istruzioni. Per esempio, scrivendo "look arazzi" ti saranno
+forniti indizi, circa il gioco e la stanza in cui sei, che a prima vista non noteresti.
+Assicurati di guardare oggetti e mob <creature del gioco> che siano realmente nella stanza.  Also be sure to
+Ricorda: i tuoi occhi sono la migliore arma che hai appresso .
+
+Buon divertimento! -- Brittany Seccunda-DethBlayde, Madre degli Dei
+~
+#728
+porta~
+apertura porta~
+Una fenditura nel tronco conduce fuori verso il sentiero.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+#729
+chiocciola spirale scale scala~
+una scala~
+Dal centro della stanza una scala a chiocciola conduce al piano di sotto. Intravedi
+una placca con delle iscrizioni fissata al corrimano della scala. [look placca]~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+scala chiocciola~
+La scala è interamente realizzata in ferro battuto. Sulla ringhiera vedi disegnate
+delle bizzarre creature e le incisioni pare continuino man mano che si prosegue
+al piano sottostante. Per scendere scrivi DOWN o D.
+~
+#730
+cancello~
+un cancello~
+Un ampio cancello dorato segna l'ingresso ai Reami.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+#731
+capanna~
+una capanna~
+Lontano, verso i pendii meridionali delle colline si intravede una capanna di legno.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+capanna~
+Di tutta la capanna, seminascosta dietro le colline, si scorge solamente la facciata
+anteriore: vista da qua sembra vecchia ma ancora ben tenuta. Ti incuriosisce la
+porta socchiusa..
+~
+#732
+albero quercia~
+un albero~
+Una quercia gigante si staglia a lato del sentiero. Fra le sue radici spicca
+una larga fenditura.. chissà dove conduce.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+albero quercia~
+Un ampio passaggio alla base della quercia cattura la tua attenzione..ed è grande
+abbastanza da permetterti d'entrare!
+CONSIGLIO:  Scrivi 'apertura' o 'leave apertura' per entrare e uscire dall'albero.
+~
+#0
+
+#ROOMS
+#700
+La stanza degli Arazzi~
+L'atmosfera arcana di questo luogo ti suggestiona.. Giganteschi arazzi sapientemente
+elaborati nella trama e nei colori, ricoprono le altrimenti anonime pareti
+della stanza ottagonale.
+Gli angoli delle pareti sono in qualche modo ammorbiditi dalla presenza di
+pannelli di marmo bianco che donano alla camera un aspetto quasi circolare.
+Il tuo sguardo si sofferma su uno degli arazzi più grande degli altri,
+appeso proprio sopra di te. Inclinando il capo all'indietro per apprezzare meglio
+la bellezza della tessitura, ti coglie una lieve vertigine..
+Nel tuo cuore si alternano lo stupore per il meraviglioso arazzo ed un'insolita agitazione..
+le immagini rappresentate, sebbene di straordinaria finezza, sono conturbanti.
+Sono visioni di una landa prepotentemente oscura..
+~
+0 3154956 0 0 0 0
+D5
+Una scala a chiocciola conduce alla reception.
+~
+~
+0 -1 701 0
+E
+arazzo arazzi~
+Esaminandolo da più vicino ti rendi conto che non si tratta di un arazzo vero e proprio,
+quanto piuttosto di una finestra aperta su una landa oscura e sconosciuta.
+La curiosità ti muove ed inizi ad osservare gli arazzi uno per uno, soffermandoti
+sui particolari dei paesaggi..
+Nove finestre ti offrono sentieri diversi, per ognuna delle otto direzioni.
+LOOK Nord, est, sud, ovest, nord-est, sud-est, sud-ovest, nord-ovest.
+Magari dovresti dare una sbirciatina a questo insolito mondo..
+~
+E
+nordovest nw~
+Verso nord ed ovest si apre una vallata accanto ad una foresta, probabilmente si tratta
+della dimora degli Elfi, a giudicare dalle costruzioni che si vedono.
+In lontananza si scorge un porticciolo con alcune barche ormeggiate.
+~
+E
+sudovest sw~
+La foresta cambia aspetto in questa direzione, gli alberi formano una sorta di
+tettoia naturale sopra una vasta area. Più a sud della foresta si estende una palude.
+~
+E
+sud s~
+Si nota distintamente una grossa discarica, accanto ad essa un'apertura
+conduce in qualche sotterraneo..
+Dalla discarica si diparte un fosco sentiero verso sud..non è proprio il luogo
+che hai sempre sognato di visitare.
+~
+E
+est e~
+La parte orientale sembra essere molto abitata: un grande incrocio con indicazioni
+per ogni dove, un boschetto ed un castello più lontano verso est. Dall'incrocio,
+in direzione ovest, si intravedono i cancelli di una città. All'orizzonte si stagliano
+scure montagne, città chiaramente abbandonate e caverne costruite per ospitare i nani.
+~
+E
+up u~
+Dall'alto riesci a vedere una marea di draghi che sorvolano quella zona,
+sono spaventosi.. Ti sembra che non ci sia nessuna costruzione in quell'area
+solo draghi e grifoni che svolazzano impuniti nelle immensità del cielo!
+~
+E
+nord n~
+Da qui puoi vedere un lungo capo coltivato che si estente fino alle pendici di un'imponente
+montagna e.. che strano! Un'intera città, nella quale spicca un immenso palazzo, fluttua
+sopra la cima del monte.
+~
+E
+nordovest nw~
+Guardando a nordest scorgi un'immensa città contorniata da campi verdeggianti.
+Nella parte orientale del centro abitato sorge una cittadella costruita interamente in oro.
+~
+E
+ovest w~
+Ad occidente si intravede una città ben fortificata. Oltre i cancelli settentrionali
+inizia una piccola foresta che pare abitata da numerosi folletti. Verso nord-ovest
+sta una città più grande della prima. Continuando nella stessa direzione
+la strada termina alla base di un gigantesco albero.
+~
+E
+sudest se~
+In questa direzione puoi vedere una casa-galleggiante ormeggiata sulle sponde
+del fiume che, proseguendo da est ad ovest, termina nell'immenso oceano.
+~
+E
+sudovest sw~
+La foresta cambia aspetto in questa direzione, gli alberi formano una sorta di
+tettoia naturale sopra una vasta area. Più a sud della foresta si estende una palude.
+~
+E
+nordest ne~
+Lontano verso nord-est sorge una città immersa nel verde dei campi circostanti.
+Un castello dorato attira l'attenzione verso la parte orientale della città.
+~
+> leave_prog 100~
+if isadmin($n)
+  or race($n) == halfling
+  else
+  mpforce $n visible
+  endif
+~
+> rand_prog 20~
+  mpecho Una grossa ombra attraversa la stanza mentre si odono sinistri rumori..
+mpechoat $r Guardo su e vedo l'arazzo da cui ero arrivato.
+  mpforce $r look up
+~
+|
+S
+#701
+Un'inquietante reception..~
+Non appena metti piede in questa maestosa camera i tuoi sensi vengono rapidi dai
+suoni soffusi e dall'accattivante essenza di cedro. Ovunque sono disposti tappeti
+e comode poltrone in pelle per assicurarti la massima comodità. In un angolo vedi una
+scrivania in legno massiccio sovrastata da un dipinto raffigurante un arido deserto.
+Quattro sfere luminose fluttuano nell'aria apparentemente senza un preciso ordine, in
+realtà ti accorgi presto che si mantengono equidistanti l'una dall'altra
+A completare la visione generale della stanza ci pensa una semisurreale lucertola impagliata,
+con molta probabilità si tratta di un trofeo di caccia.
+~
+0 3154956 0 0 0 0
+D0
+D'innanzi a te il sentiero prosegue oltre un albero gigante.
+~
+~
+0 -1 702 0
+D4
+Salendo la scaletta si raggiunge la cima della torre d'osservazione dei Reami.
+~
+~
+0 -1 700 0
+E
+cedro~
+Le pareti, realizzate con il pregiato legno del cedro, emanano l'inebriante profumo di
+terre lontane..Qualcuno deve aver viaggiato a lungo e non badato di certo a spese per
+contorniarsi di queste lignee rarità.
+~
+E
+tappeto~
+Stai camminando su un morbidissimo tappeto di cashmere poggiato sul pavimento..passo dopo
+passo i tuoi piedi affondano dolcemente nella soffice lana.
+~
+E
+dipinto~
+I colori del dipinto sono così vivi e caldi che hai l'impressione di poter
+camminare oltre la cornice ed entrare nel quadro..nonostante raffiguri un deserto
+assolato e dislocato in  chissà in quale parte del mondo.
+~
+E
+parete pareti~
+Le pareti in legno di cedro bastano da sole ad abbellire l'ambiente, infatti
+ tutt'intorno vedi pochi quadri o altre decorazioni.
+Un enorme dipinto, tuttavia, adorna l'intera parete retrostante la bellissima
+scrivania di quercia: l'immagine racconta di un deserto arroventato, con colori
+così vividi che vien quasi voglia di camminarci dentro.
+~
+E
+sfera sfere globo~
+I globi risplendono di luce propria, anche se non si capisce bene quale sia la
+loro fonte di energia interna. Ondeggiano nell'aria circostante apparentemente
+senza alcun supporto. La magia della stanza cerca di farsi spazio nella tua mente
+ma non le presti molta attenzione.
+~
+E
+busto trofeo drago~
+Sobbalzi non appena il tuo sgardo incrocia quello del drago! ..ma per fortuna
+si tratta solo di un trofeo di caccia e tiri un sospiro di sollievo. Eppure quegli
+occhi fissi e minacciosi ti lasciano un brivido gelido lungo tutta la spina dorsale..
+~
+E
+poltrona poltrone pelle~
+Ogni poltrona è realizzata con pelle finemente elaborata e tinta dei colori della
+notte fonda. E' di gran lunga la miglior opera artigianale che tu abbia mai visto e
+puoi addirittura sentire l'odore pregnante della pelle se ti avvicini un pochino..
+~
+E
+quercia scrivania~
+La scrivania è ricavata dal solido legno di quercia con le brune sfumature del colore
+originale dell'albero. Preziose le rifiniture: i piedi del mobile sono intagliati
+a mo' di zampa di leone e gli artigli paiono davvero reali.
+~
+> leave_prog 100~
+if isadmin($n)
+  or race($n) == halfling
+  else
+ mpforce $n visible
+  endif
+~
+|
+S
+#702
+Il Cammino della Conoscenza~
+Stai percorrendo un ampio stradone oltre l'area della reception: segui il tuo percorso verso
+il futuro che ti attende. Dopo un po' che cammini intravedi un uomo, di corporatura tozza,
+appoggiato contro il tronco di un grande albero a lato della strada.
+La via maestra prosegue in direzione nord-sud. Sud per tornare indietro, nord per
+inoltrarti nei Reami.. oppure puoi fermarti a chiacchierare con lo sconosciuto.
+~
+0 3154956 0 0 0 0
+D0
+La strada prosegue verso nord.
+~
+~
+0 -1 703 0
+D2
+A sud c'è l'area della reception.
+~
+~
+0 -1 701 0
+D10
+~
+apertura~
+917504 -1 704 0
+E
+albero~
+E' un albero gigantesco! Nella parte del tronco che volge a sud c'è un'apertura
+larga a sufficienza da permetterti d'entrare. Ti chiedi cosa potresti trovare
+all'interno.
+CONSIGLIO: scrivi 'apertura' o 'leave apertura' per entrare ed uscire dall'albero.
+~
+S
+#703
+Una biforcazione nel sentiero~
+Ti piacerebbe dedicare la tua vita al nascondersi fra le ombre, aggirarsi guardinghi
+per le strade ed apprendere l'arte dell'agguato e dell'omicidio?
+
+Pkill -- è giunto il momento di decidere.
+Se scegli il cammino delle ombre, se scegli di uccidere e derubare chi incrocerà
+la tua strada allora sappi che questa decisione è irreversibile.
+Assassino una volta, assassino per sempre.
+Come pellegrino della via oscura, anche tu diverrai una potenziale vittima di quei seguaci
+delle ombre che avranno 5 livelli d'esperienza in più o in meno rispetto al tuo.
+Puoi rimandare la decisione e riaffrontarla prossimamente richiedendo l'assistenza di un
+Immortale o entrando a far parte di un clan.
+Leggi attentamente 'HELP RULES PKILL' e 'HELP RULES ASSIST', ci troverai utili informazioni.
+Gli dei proibiscono agli avventurieri d'animo pacifico di aiutare gli assassini
+in combattimento.
+
+- Se dopo aver letto quanto sopra, opti per la strada del combattimento scrivi:
+  "say Io scelgo il cammino oscuro degli Assassini"
+
+- Se invece preferisci continuare il tuo viaggio lungo il sentiero della Pace scrivi:
+  "say Io scelgo il cammino luminoso dei Pacifici"
+~
+0 3153932 0 0 0 0
+D2
+Dietro di te si trova il sentiero che riconduce all'area della reception.
+~
+~
+0 -1 702 0
+> speech_prog p cammino oscuro~
+  mpforce $n config -nice
+  mpforce $n config -flee
+  say a $n Da questo istante sei un Sanguinario!
+  say a $n Verrai trasferito nel tuo sentiero prescelto.
+  mpechoaround $n $n sceglie il cammino delle ombre e sparisce nell'oscurità!
+  mptransfer $n 707
+  mpat 707 mpforce $n look
+  mpat 707 mpforce $n config +autoloot
+  mpat 707 mpforce $n config +autogold
+~
+> speech_prog p cammino luminoso~
+  say a $n Hai scelto la via luminosa, non sarai mai un Sanguinario.
+  say a $n Verrai trasferito nel tuo sentiero prescelto.
+  mpechoaround $n $n sceglie la via luminosa e scompare in un globo di luce!
+  mptransfer $n 705
+  mpat 705 mpforce $n look
+  mpat 705 mpforce $n config +autoloot
+  mpat 705 mpforce $n config +autogold
+~
+> rand_prog 66~
+  mpechoat $r Non riesco a fare a meno di guardare la placca affissa all'enorme masso.
+  mpforce $r look placca
+~
+|
+S
+#704
+Dentro l'Albero~
+All'interno è costruita una casetta sobriamente decorata. Sembrerebbe che il
+nano che la abita, preferisca trascorrere il tempo all'aperto piuttosto che in casa.
+Alcuni piatti sono sparsi sul tavolo, il letto è sfatto ma il resto della casa è
+tutto sommato in ordine. Contro la parete nord è poggiato un grosso baule; avvicinandoti
+per guardare meglio scopri che il baule è aperto e ti viene la curiosità di
+sapere cosa contenga..
+L'uscita è a sud attraverso l'apertura.
+~
+0 3153932 1 0 0 0
+D10
+~
+apertura~
+917505 -1 702 0
+E
+tavolo~
+E' un piccolo tavolo di legno per due persone al massimo: alcuni piatti e rimasugli di
+cibo sono stati lasciati qui, distrattamente. L'unica cosa degna di nota è che il
+servizio di posate è interamente di legno.
+~
+E
+piatti~
+Sono grossolani piatti di terracotta: paiono consumati dal fuoco,
+cotti fino a logorarne la compattezza durezza. Dopotutto erano pensati
+più per l'uso che non per l'estetica del servizio.
+~
+E
+letto~
+Più corto di un qualunque letto comodo, questo è fatto di due parti: un materasso di piume
+e una resistente ossatura di legno. Le coperte sono di lana e sebbene
+non siano bellissime, sembrano molto calde.
+~
+E
+apertura~
+L'apertura conduce a sud della stanza in cui sei. Per usarla come uscita scrivi
+LEAVE APERTURA o APERTURA solamente. E' la via per tornare al sentiero che hai lasciato.
+~
+S
+#705
+Il Cammino di Pace~
+La strada qui è luminosa e splendente. Gli alberi carichi di frutti costeggiano
+la via e tutt'intorno campi ricchi di messi si estendono sino all'orizzonte..mentre
+cammini ti rendi conto della bellezza e della pienezza di vita che ispira questo luogo.
+Un ampio cartello fluttua nell'aria alla tua destra.
+~
+0 3153924 3 0 0 0
+D0
+Hai di fronte a te una grande avventura, te la senti di affrontarla?
+~
+~
+0 -1 706 0
+> leave_prog 100~
+  mpechoat $n Passando davanti al cartello, leggi la scritta con la coda dell'occhio:
+  mpforce $n look cartello
+~
+|
+S
+#706
+La via di luce~
+La strada prosegue dritta, a destra e a sinistra crescono rigogliosi alberi da
+frutto e via via il sentiero aumenta di splendore.
+Poco più avanti intravedi una biforcazione verso nord. Oltre il bivio si trova
+un campo aperto nel quale riluccica un piccolo cerchietto di metallo.
+Puoi andare a prenderlo se ti dirigi verso nord.
+~
+0 3153924 3 0 0 0
+D0
+Davanti a te si apre un vasto campo.
+~
+~
+0 -1 709 0
+> leave_prog 100~
+  cast refresh $n
+  cast refresh $n
+  mpoload 704 1
+drop anelloluce
+mpechoat $n Raccolgo il pezzetto di metallo da terra.
+  mpforce $n get anelloluce
+  mpechoaround $n $n si inginocchia e raccoglie qualcosa da terra.
+mpforce $n look anelloluce
+  mpapply $n
+~
+|
+S
+#707
+Il Cammino della Morte~
+Il sentiero qui si fa sempre più scuro..
+Filari di alberi scheletrici si susseguono ai lati della strada, accompagnati
+da lande brulle ed incolte..ti rendi conto ora quanto possa essere solitaria
+la vita lungo questo sentiero. Alla tua sinistra, rompe la monotonia del paesaggio un
+cartello che flutta a mezz'aria.
+~
+0 3153925 3 0 0 0
+D0
+Ti si apre dinnanzi un difficile cammino, sarai capace d'affrontarlo?
+~
+~
+0 -1 708 0
+> leave_prog 100~
+mpechoat $n Il mio sguardo si fissa per un istante sul cartello e leggo:
+  mpforce $n look cartello
+~
+|
+S
+#708
+Una via in penombra~
+Il tuo cammino prosegue attraverso un paesaggio sempre più cupo: alberi che si fanno
+via via simili a stecchi e il sentiero che si perde fra le ombre..
+La strada continua sino ad una biforcazione oltre la quale resta un campo deserto.
+Ti colpisce però la presenza nel campo di un piccolo cerchietto di metallo, proseguendo
+verso nord potrai avvicinarti per raccoglierlo.
+~
+0 3153925 3 0 0 0
+D0
+Un campo brullo si apre davanti a te.
+~
+~
+0 -1 709 0
+> leave_prog 100~
+  cast refresh $n
+  cast refresh $n
+  mpoload 705 1
+drop anelloombra
+mpechoat $n Raccolgo un piccolo pezzo di metallo da terra.
+  mpforce $n get anelloombra
+  mpechoaround $n $n trova un pezzo di metallo per terra, si china e lo raccoglie.
+mpforce $n look anelloombra
+  mpapply $n
+~
+|
+S
+#709
+Nel campo~
+Ti trovi in un'ampia vallata erbosa. Le montagne la circondano lungo tutto
+il perimetro ed una foresta cresce alle pendici dei monti, verso nordovest.
+Il prato è cosparso di una miriade di graziose margherite e piccoli trifogli..ma
+girandoti intorno per ammirare il paesaggio ti accorgi presto che il sentiero che
+t'ha condotto fin qui è sparito!
+Una fila di alberi dalla spessa corteccia ti impedisce il passaggio, annullando ogni
+tuo tentativo di retrocedere.
+A quanto pare l'unica cosa che puoi fare è proseguire ed addentrarti nel nuovo mondo..
+~
+0 3153924 3 0 0 0
+D7
+Partendo dal campo, il sentiero si inoltra in un circolo di alberi.
+~
+~
+0 -1 710 0
+> entry_prog 100~
+  if CountMobVnumRoom(703) < 1
+    mpmload 703
+  endif
+~
+|
+S
+#710
+Un circolo di alberi~
+Cammini lungo il sentiero in penombra, circondato dagli alberi.
+La magia del luogo ti circonda e l'intera radura ti lascia un vago senso di
+sicurezza e l'impressione di una presenza benevola.
+~
+0 3153924 3 0 0 0
+D3
+Il sentiero prosegue ancora in mezzo agli alberi.
+~
+~
+0 -1 711 0
+D8
+Ti lasci alle spalle il campo di margherite e trifogli.
+~
+~
+0 -1 709 0
+E
+alberi albero~
+Gli alberi, seppur immobili, danno l'impressione d'essere creature animate
+e senzienti, sprigionando un'aura di oscurità e magia..
+Senti che non hanno cattive intenzioni nei tuoi confronti ma di sicuro non è
+nei tuoi programmi improvvisarti taglialegna proprio in questa radura.
+~
+> entry_prog 100~
+  cast heal $n
+  cast refresh $n
+  cast refresh $n
+~
+> leave_prog 100~
+mpforce $n visible
+  mpoload 707 1
+  mpat 711 drop piuma
+~
+|
+S
+#711
+Sul limitare della foresta~
+La foresta si allarga lievemente in questo tratto, senza però concedere spazio
+a campi o fiumi. E' come se il bosco intero ti stia concedendo l'onore di attraversarlo
+per contemplarne l'interna bellezza. Tutto ciò che in passato i tuoi sensi non avevano colto
+pare sia radunato qui.. profumi, suoni, forme e colori mai conosciuti prima d'ora.
+Stupore e meraviglia nei tuoi occhi quando ti passa davanti uno strano uccellino
+color porpora, che vola via seguito dal tuo sguardo fino a perdersi fra gli alberi.
+Sul lato nord dei tronchi cresce rigoglioso del morbido muschio, spargendo nell'aria
+il suo profumo delicato, mentre alcuni scarabei si industriano intorno ad esso per
+costruirsi un riparo dai predatori. Un improvviso rumore di spruzzi d'acqua ti fa voltare
+verso un piccolo e grazioso laghetto.
+~
+0 3153924 3 0 0 0
+D0
+Verso nord il sentiero costeggia un piccolo lago.
+~
+~
+0 -1 712 0
+D1
+Verso est vedi uno stretto circolo d'alberi.
+~
+~
+0 -1 710 0
+E
+stormo uccello uccelli~
+Più in alto, dalle fronde degli alberi, proviene l'allegro cinguettìo degli uccelli
+che si godono la calda luce del sole.
+Assomigliano tanto ai volatili che già conosci, nonostante il colore del loro piumaggio
+sia notevolmente differente: il rosso vivo delle piume li fa sembrare delle piccole
+fiammelle quando vengono illuminati dalla luce solare.
+~
+E
+muschio~
+Il verde intenso del muschio ed il suo profumo così particolare colpiscono i tuoi sensi.
+Il muschio cresce lungo la parte del tronco esposta a settentrione ed avvicinandoti puoi
+distinguere una piccola colonia di insetti che si nasconde fra i muschi per sfuggire
+ai predatori.
+~
+> leave_prog 100~
+  mpoload 708 1
+  mpat 712 drop secchio
+~
+|
+S
+#712
+Accanto ad un laghetto azzurrino~
+La foresta cede a malincuore un poco di terreno a questo laghetto,
+poco profondo e le cui acque cristalline catturano la tua attenzione.
+Agili pesci dai riflessi perlacei nuotano sotto il pelo dell'acqua, mordicchiando
+di quando in quando, le alghe che tentano di crescere sul fondale.
+~
+0 3153924 3 0 0 0
+D2
+Attraverso gli alberi, il sentiero si snoda verso sud.
+~
+~
+0 -1 711 0
+D3
+Verso ovest, la strada raggiunge la base di una collina.
+~
+~
+0 -1 713 0
+> leave_prog 100~
+  mpforce $n get secchio
+~
+|
+S
+#713
+Una strada cosparsa di rocce~
+Gli alberi iniziano a diradarsi qui, lasciando spazio ad una strana distesa di rocce
+che restano sparse al suolo, come se fossero giocattoli abbandonati dopo un'intera
+giornata di divertimenti.
+Ora più affilati, ora più frastagliati, i contorni di questi massi definiscono i
+limiti del sentiero che s'inerpica verso l'alto.
+~
+0 3153924 3 0 0 0
+D1
+Ad est puoi camminare lungo le rive del laghetto.
+~
+~
+0 -1 712 0
+D4
+Il sentiero prosegue verso l'alto.
+~
+~
+0 -1 714 0
+E
+roccia rocce~
+Tutt'intorno vedi frammenti d'ardesia con sfumature di colore che variano fra il
+grigio ed il fumé. Non servono come decorazioni né pare che abbiano una qualche utilità
+qui; semplicemente si sono staccate dal fianco della collina per scivolare fino a questo punto.
+~
+S
+#714
+Un versante deserto della collina~
+Alcune pietre sono frantumate e sparpagliate disordinatamente lungo il fianco
+della collina; a prima vista parrebbe il risultato di un'eruzione vulcanica ma
+osservando meglio salta all'occhio la presenza di ossa disseminate sul terreno.
+Da una parte giace un gigantesco scheletro senza testa di una bestia primitiva, tuttavia
+la maestosa possanza di questa creatura alata non è stata alterata dallo stato
+attuale dei suoi resti. Dallo scheletro puoi immaginare la stazza della bestia ed il
+terrore che deve aver infuso nei cuori di chi l'ha combattuta.
+Tutt'intorno difatti, è pieno di ossa umane a riprova della strenua lotta ingaggiata
+dalla creatura prima di soccombere.
+~
+0 3153924 3 0 0 0
+D1
+In questa direzione si estende un vasto altipiano.
+~
+~
+0 -1 715 0
+D5
+La strada discende il fianco della collina verso sud.
+~
+~
+0 -1 713 0
+E
+roccia rocce pietre~
+Queste rocce sono meno frastagliate delle altre che hai già visto più in basso,
+ma sono molto più danneggiate: soprattutto la loro superficie è annerita..forse
+ad opera del fuoco o di temperature elevate..
+~
+E
+osso ossa~
+Le ossa sono disposte in modo tale che non risulta difficile ricostruire la
+scena della battaglia fra gli uomini e l'enorme animale: dai numerosi resti umani
+sparsi al suolo puoi indovinare quanti guerrieri morirono prima che la creatura venisse
+uccisa. Lo scheletro dell'animale è lungo quanto venti uomini ed in proporzione
+anche la testa mancante dovrebbe essere bella grossa..d'un tratto ti viene in mente
+la camera della reception..chissà perché.
+~
+S
+#715
+Risalendo la collina~
+Il terreno bruciato e secco, lascia spazio ad un altipiano verdeggiante.
+Purtroppo diverse nuvole basse ti impediscono la visuale e l'unico particolare
+significante è una torre che svetta alta verso il cielo perdendosi nella coltre
+di nubi; dal versante orientale ed occidentale alcuni sentieri riportano in basso.
+Mentre scruti le vicinanze, un improvviso rumore da sud ti fa voltare verso quella che sembra
+l'apertura di una grotta.
+~
+0 3153924 3 0 0 0
+D1
+L'erba si fa sempre più verde sull'altro lato dell'altura.
+~
+~
+0 -1 717 0
+D2
+Il sentiero ti conduce proprio all'imbocco di una caverna.
+~
+~
+0 -1 716 0
+D3
+Da qui si torna verso la parte brulla della collina.
+~
+~
+0 -1 714 0
+> rand_prog 50~
+  mpecho Nelle profondità della grotta riecheggia un sordo rumore simile ad un ruggito.
+~
+|
+S
+#716
+Nella caverna~
+Le scure pareti, dalla forma molto irregolare, rendono difficile
+determinare la reale grandezza della grotta. Per terra vedi degli strani frammenti
+ed alcune tracce che in qualche modo ti aiutano a capire: si tratta di pezzi di
+un guscio d'uovo e, considerate le dimensioni, la creatura che ne è uscita non
+sembra affatto piccola..il tuo timore è pienamente giustificato.
+Con circospezione ti guardi intorno e trovi anche dei resti umani intorno all'uovo..
+ma non hai tempo da dedicare a questa nuova scoperta perché un sibilo sferzante
+ti costringe ad alzare lo sguardo!
+~
+0 3153928 0 0 0 0
+D0
+A nord la strada va dritta verso il tuo futuro.
+~
+~
+0 -1 715 0
+> leave_prog 100~
+  cast refresh $n
+  cast refresh $n
+~
+|
+S
+#717
+Scendendo lungo il fianco della collina~
+L'erba da questo lato cresce verde e rigogliosa anche lungo il sentiero, risparmiata
+dall'aspra lotta combattuta sul versante meridionale.
+Una forte sensazione di tranquillità ti pervade durante il cammino, come se ti
+rendessi conto d'aver scampato un grande pericolo.
+~
+0 3153924 3 0 0 0
+D0
+A nord si trova l'entrata della valle.
+~
+~
+0 -1 718 0
+D3
+Vedi un altipiano fra le colline.
+~
+~
+0 -1 715 0
+S
+#718
+Ai bordi di una florida valle~
+Le colline declinano dolcemente nella distesa di prati verdi colorati qua e là
+da piccoli fiori di campo. L'erba ondeggia carezzata dal tenue soffio di vento,
+nell'aria si incontrano i mille profumi dei fiori e tutto concorre a creare
+in te la convinzione d'essere ormai poco distante da un'indefinibile mèta.
+~
+0 3153924 3 0 0 0
+D1
+Vedi una pista attraverso la valle ed a lato una piccola capanna di legno.
+~
+~
+0 -1 719 0
+D2
+Un sentierino risale lungo il fianco della collina.
+~
+~
+0 -1 717 0
+> entry_prog 100~
+if isadmin($n)
+  or race($n) == Halfling
+  else
+  mpforce $n visible
+  endif
+~
+|
+S
+#719
+Una gola nella valle~
+Alte ed imponenti, le montagne circondano la valle in un materno abbraccio, quasi
+a volerla proteggere dalle brutture del mondo esterno.
+Ovunque regna grande serenità, accompagnata da un rispettoso silenzio..
+Aguzzando la vista, in direzione sud vedi una capanna di legno costruita su
+un versante della collina.
+~
+0 3153924 3 0 0 0
+D2
+L'ingresso della capanna
+~
+porta~
+3 -1 720 0
+D3
+Dietro di te il sentiero torna verso l'ingresso della valle.
+~
+~
+0 -1 718 0
+D6
+Il sentiero termina di fronte ad un largo cancello.
+~
+~
+0 -1 721 0
+E
+capanna~
+La capanna è il risultato di una sapiente commistione di legno e pietra; la piccola
+costruzione pare mimetizzarsi con il paesaggio circostante.
+La porta della capanna è chiusa ma non a chiave.
+Prova OPEN PORTA per accedere all'interno.
+~
+E
+porta~
+Realizzata in legno massiccio, questa porta è più utile contro le intemperie
+che contro gli estranei: non è chiusa a chiave..perché non provi ad aprirla?
+(OPEN PORTA)
+~
+> leave_prog 100~
+if isadmin($n)
+  or race($n) == Halfling
+  else
+  mpforce $n visible
+  endif
+~
+|
+S
+#720
+Dentro la capanna~
+Un'ondata di profumi ti assale appena metti piede nella capanna. L'odore della
+carne cotta si  confonde con quello delle braci scoppiettanti e la delicata fragranza
+del pino completa il tutto.
+Frugali ma ben rifinite, delle piccole suppellettili adornano la casetta: mentre ti
+lasci pervadere dalla semplice bellezza di questo rustico, il gentile scricchiolìo
+di una sedia a dondolo rapisce la tua attenzione facendoti sognare ad occhi aperti.
+~
+0 3154956 1 0 0 0
+D0
+Indietro, verso la valle.
+~
+porta~
+3 -1 719 0
+D5
+~
+botola trappola~
+1071 712 723 0
+E
+dondolo sedia~
+Il dondolo è costruito con un tipo di legno molto flessibile, forse vimini, curvato
+ed intrecciato: è rifinito con una vernice marrone chiaro che esalta le venature
+del legno. Il dondolo è sistemato su un tappeto tessuto artigianalmente, decorato con uno
+strano disegno. Uno degli angoli del tappeto pare impigliato in qualcosa.
+~
+E
+tappeto~
+La decorazione del tappeto raffigura una stella a sei punte intrecciata con una
+serie di cerchi, sembra quasi un enorme Occhio Divino..il disegno è così ben particolareggiato
+che ti sfugge una piccola crepatura delle assi che trattiene un angolo del tappeto.
+~
+E
+crepatura angolo~
+L'angolo del tappeto è rimasto impigliato fra due assi del pavimento. Guardando
+meglio però  ti accorgi che in  realtà si  tratta del bordo di una specie  di botola.
+Sollevando un poco il tappeto scopri una larga serratura..la vicenda si fa interessante!
+~
+E
+pavimento assi~
+Osservando le assi del pavimento noti una piccola spaccatura nella quale è impigliato il tappeto.
+~
+> rand_prog 25~
+mpecho Il dondolo di legno cigola ondeggiando lentamente sulle assi del pavimento.
+~
+> leave_prog 100~
+  if race($n) == Halfling
+    mpforce q emote si appoggia allo stipite della porta..
+    mpforce q give chiave $n
+    mpforce q give armatura $n
+    mpforce q
+  say a $n Che la Buona Sorte ti sia compagna di viaggio, $n..
+    close porta
+  endif
+~
+|
+S
+#721
+Davanti al Passaggio~
+Le grandi montagne, quasi inaccessibili  fin dall'inizio, qui si aprono  un poco
+ed  il sentiero  giunge al  termine. Le  alte cime  che spiccano  verso est  si
+interrompono improvvisamente  davanti ad  un grande  cancello d'oro. L'imponenza
+dello sbarramento ed i suoi  arcani misteri, conferiscono al cancello  il potere
+di impedire il passaggio a tutti quelli che non hanno ancora trovato
+la chiave per aprirlo.
+~
+0 3154944 3 0 0 0
+D1
+~
+gate~
+7 712 722 0
+D9
+~
+~
+0 -1 719 0
+E
+cancello~
+Il cancello  è chiuso  a chiave..ma  forse puoi  chiedere al  proprietario della
+capanna poco lontano da qui, verso sud-ovest.
+~
+> rand_prog 40~
+mpechoat $r Il mio sguardo è attirato da un segnale appeso al cancello:
+  mpforce $r look cancello
+~
+|
+S
+#722
+Una visione dei Reami~
+Ti  ritrovi  sul  limitare  di  un'ampia altura  e  davanti  a  te  si offre  lo
+spettacolare panorama del mondo sottostante. Il cuore si agita nel petto per  le
+grandi aspettative che ti animano e ti senti fremere
+dal desiderio d'avventura. La nuova vita ti sta chiamando..
+~
+0 3154952 3 0 0 0
+D3
+~
+cancello~
+7 712 721 0
+> act_prog p tira la corda.~
+mpechoat $n Molto in alto sopra la mia testa sento il forte rintocco di una campana.
+  mpechoaround $n Più in alto, una campana risponde con un rintocco.
+mpechoat $n "Suggerimento: se non accade nulla, scrivi LOOK corda e tira di nuovo entro 30 secondi."
+  mpapplyb $n
+  push corda
+~
+|
+S
+#723
+Una cantina ammuffita~
+Un  forte  odore di  muffa  permea l'aria  circostante  e mentre  procedi  in un
+ostinato buio, devi  scansare con le  mani le innumerevoli  ragnatele che ti  si
+parano innanzi.  Ogni passo  sembra una  vendemmia di  lunghi filari di polvere,
+accumulata  da  chissà  quanto  tempo..   Il  cigolìo  del  dondolo  quaggiù   è
+amplificato, distorto e rende questa  cantina ancor più spettrale di  quanto non
+lo sia già. Più avanti scorgi a malapena nelle ombre, un piccolo tavolo su cui è
+posata una scatola di  legno bruciacchiato.
+Quando decidi d'uscire da qui ricordati che la botola è proprio sopra la tua testa.
+~
+0 3154952 0 0 0 0
+D4
+~
+botola trappola~
+3 712 720 0
+> entry_prog 100~
+mpechoat $n Sento un cigolìo sopra la mia testa, la botola s'è richiusa.
+  mpat Quercusi
+  mpforce Quercusi close botola
+~
+|
+S
+#0
+
+#RESETS
+O 0 728 1 704  ; Object: #728 apertura porta => #704 Dentro l'Albero
+M 0 701 1 700  ; Mob: #701 Prog Mob => #700 La stanza degli Arazzi
+M 0 700 1 701  ; Mob: #700 Samylla => #701 Un'inquietante reception..
+E 1 700 1 0  ; -- Equip: #700 un candelabro d'ottone a sei braccia (Light)
+M 0 702 1 702  ; Mob: #702 Xouwasi => #702 Il Cammino della Conoscenza
+O 1 702 1 704  ; Object: #702 una cassa per le armi => #704 Dentro l'Albero
+P 1 703 1 702  ; Put: #703 Vedi brillare nella penombra la lama di una daga. => #702 una cassa per le armi
+D 0 704 10 0  ; Door: #704 Dentro l'Albero/Somewhere => open
+M 0 703 1 709  ; Mob: #703 un serpente => #709 Nel campo
+O 1 709 1 712  ; Object: #709 il laghetto => #712 Accanto ad un laghetto azzurrino
+M 0 704 1 716  ; Mob: #704 un cucciolo di drago => #716 Nella caverna
+M 0 705 1 719  ; Mob: #705 Prog Mob => #719 Una gola nella valle
+M 0 706 1 720  ; Mob: #706 Quercusi => #720 Dentro la capanna
+E 1 716 1 5  ; -- Equip: #716 una morbida tunica bianca (Body)
+D 0 720 5 2  ; Door: #720 Dentro la capanna/Down => closed and locked
+D 0 721 1 2  ; Door: #721 Davanti al Passaggio/East => closed and locked
+O 1 713 1 722  ; Object: #713 una corda => #722 Una visione dei Reami
+D 0 722 3 2  ; Door: #722 Una visione dei Reami/West => closed and locked
+O 0 732 1 702  ; Object: #732 un albero => #702 Il Cammino della Conoscenza
+O 0 731 1 719  ; Object: #731 una capanna => #719 Una gola nella valle
+O 0 730 1 721  ; Object: #730 un cancello => #721 Davanti al Passaggio
+O 0 726 1 703  ; Object: #726 una placca => #703 Una biforcazione nel sentiero
+O 0 717 1 705  ; Object: #717 il cartello del sentiero di Pace => #705 Il Cammino di Pace
+O 0 718 1 707  ; Object: #718 il segno del sentiero di Morte => #707 Il Cammino della Morte
+D 0 723 4 1  ; Door: #723 Una cantina ammuffita/Up => closed
+O 0 720 1 700  ; Object: #720 una scalinata => #700 La stanza degli Arazzi
+S
+
+#SPECIALS
+S
+
+#END
+

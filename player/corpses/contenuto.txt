@@ -1,0 +1,2 @@
+Questa cartella contiene tutti i file di salvataggio dei cadaveri.
+Questo file esiste per far decomprimere correttamente tutte le cartelle.

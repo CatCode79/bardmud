@@ -1,0 +1,3687 @@
+#AREA
+Name         I Piani Astrali~
+Author       Andi (Miciko)~
+Color        AT_BLUE blu~
+Economy      0 2064393
+LevelRange   15 35
+ResetMsg1    Il cielo astrale s'illumina di mille giochi di luce per un istante.. poi tutto svanisce..~
+Vnums        800 879
+End
+
+
+#MOBILES
+
+#800
+guardiano sagoma~
+il Guardiano del Piano Astrale~
+Una sagoma grigia controlla l'ingresso al piano astrale.~
+Una strana figura dalle forme umane ma dall'apparente consistenza dell'ardesia
+è davanti a te, priva del benché minimo particolare rilevante.
+Sta in piedi disinteressandosi della tua presenza.
+~
+3 4202664 0 C
+38 -20 -15 1d1+825 8d12+100
+100000 600000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8193 3
+0 0 32 1048608 2048 0 301989968 524291
+> greet_prog 100~
+if level($n) < 10
+  say Non puoi passare, troverai solo la morte attraversando questo cancello.
+else
+if level($n) > 35
+  say Sei troppo forte, $n. Non ti lascerò passare e alterare l'equilibrio dei Piani Astrali.
+  emote stringe fermamente una bacchetta di perla e la punta contro di te..
+else
+  say Penso che sia una follia, se vuoi entrare nei Piani Astrali, puoi farlo ma ti ho avvertito..
+endif
+endif
+~
+> speech_prog p voglio entrare nei piani astrali~
+if level($n) < 10
+  emote ti dona uno sguardo irritato ma non muove un muscolo.
+else
+if level($n) > 35
+  say Non entrerai qui finché io esisterò..
+else
+  say Così sia!
+  mpecho Un tuono vagabondo rimbomba e il cancello per i Piani Astrali s'apre!
+  unlock north
+  open north
+  mpforce $n north
+  close north
+  lock north
+endif
+endif
+~
+> speech_prog p vorrei entrare nei piani astrali~
+if level($n) < 10
+  emote ti dona uno sguardo irritato ma non muove un muscolo.
+else
+if level($n) > 35
+  say  Non entrerai qui finché io esisterò..
+else
+  say Così sia!
+  mpecho Un tuono vagabondo rimbomba e il cancello per i Piani Astrali s'apre!
+  unlock north
+  open north
+  mpforce $n north
+  close north
+  lock north
+endif
+endif
+~
+> fight_prog 40~
+if level($n) < 30
+  say Non avresti dovuto provocarmi!
+  cast ear
+  cast fire
+  cast blind
+else
+  mpechoat $n Il guardiano cantilena una strana frase e punta il dito verso di te..
+  mpechoaround $n Il guardiano cantilena una strana frase e punta il dito contro $n..
+  mpdamage $n 100
+endif
+~
+|
+
+#801
+nightmare cavallo~
+un Nightmare astrale~
+Recalcita e scalcia verso di te uno stranissimo cavallo fatto d'ombra..~
+Il Nightmare astrale è una creatura malvagia, partorita dalla mente dei sommi
+Creatori per portare tormento ai mortali. Ricorda vagamente un cavallo, sebbene
+il suo manto sia più nero della notte ed i suoi zoccoli siano avvolti in fiamme
+maledette.
+~
+262209 33607252 -950 C
+18 2 -2 18d18+180 5d3+10
+6000 32000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 8192 8192 2
+0 0 173 0 0 0 8224 0
+
+#802
+megera notte~
+la megera della notte~
+Una brutta megera ti gira intorno con le ossute dita protese verso di te.~
+Un sorriso malefico ed unghie simili ad artigli ti accolgono in questa parte di
+piano astrale.. La megera ti guarda con aria appetitosa, studiando un modo
+per carpirti l'anima e portarla alla sua padrona.
+~
+97 520 -1000 C
+24 0 -1 24d24+240 5d5+5
+12500 67500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 239 7168 0 17 35651586 0
+> greet_prog 100~
+emote ridacchia sommessamente.
+say E ora, la tua anima apparterà a me!
+~
+|
+
+#803
+cacciatore distorsione invisibile aria~
+il cacciatore invisibile~
+Ti incuriosisce una strana distorsione dell'aria..~
+Intravedi soltanto un vago ed insolito vapore impalpabile, come se si trattasse
+del calore emanato da un corpo.. eppure non vedi nulla qui.
+~
+65 117966 200 C
+20 3 0 17d17+170 2d7+6
+0 19000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 8192 8192 0
+0 0 1263 0 0 0 134218368 2
+
+#804
+corpo essere~
+un povero corpo senz'anima~
+Uno strano corpo ciondola senza meta per il piano astrale.~
+Questo povero corpo vaga da una parte all'altra senza un obiettivo preciso, lo
+sguardo è vacuo, come se gli fosse stata strappata l'anima..
+~
+193 0 0 C
+12 8 5 10d10+100 1d6+2
+250 7500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 4096 4096 0
+0 0 0 0 8192 0 150994944 0
+> greet_prog 100~
+emote si lamenta.
+~
+|
+
+#805
+githyanki cacciatore~
+un cacciatore githyanki~
+Un cacciatore githyanki è sulle tracce di un prigioniero.~
+E' una creatura simile agli umani, per la sua pelle e la sua stazza..Dai denti
+affilati come zanne e dagli occhi incavati capisci invece che hai di fronte a te
+un githyanki.
+~
+69 33280 -500 C
+11 6 6 11d11+110 1d5+4
+1000 8000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 0
+0 0 1263 0 0 0 144 524288
+> rand_prog 5~
+emote esamina questa zona del piano astrale alla ricerca di tracce di githzerai.
+~
+|
+
+#806
+githyanki guerriero~
+un guerriero githyanki~
+Un guerriero githyanki sta controllando che non ci siano disordini.~
+E' una creatura simile agli umani, per la sua pelle e la sua stazza.. Dai denti
+affilati come zanne e dagli occhi incavati capisci invece che hai di fronte a te
+un githyanki.
+Un'armatura protegge il suo busto e con essa lo scudo che tiene stretto a sé.
+Agita la spada accanto al tuo collo, producendo un antipatico sibilo..
+~
+65 512 -500 C
+15 4 6 15d15+150 1d5+6
+2500 15000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 373419 373419 2
+0 0 1263 0 0 0 32 2
+
+#807
+guardiano githyanki~
+un guardiano githyanki~
+Un githyanki in armatura ti blocca la strada.~
+E' una creatura simile agli umani, per la sua pelle e la sua stazza..Dai denti
+affilati come zanne e dagli occhi incavati capisci invece che hai di fronte a te
+un githyanki.
+Un'armatura protegge il suo busto e con essa lo scudo che tiene stretto a sé.
+Agita la spada accanto al tuo collo, producendo un antipatico sibilo..
+~
+35 512 -500 C
+15 4 6 15d15+150 1d5+6
+6000 15000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 2
+0 0 239 0 0 0 528 525312
+
+#808
+cavaliere githyanki~
+un cavaliere githyanki~
+Un cavaliere vestito di nero ti sta osservando.~
+E' di fattezze simili a quelle umane, solo molto più alto della media.
+I lineamenti del suo volto sono coperti da un possente elmo e tutto il suo corpo
+è protetto da una pesante armatura. Di lui puoi sentire solo il sibilo del
+respiro..
+~
+65 512 -500 C
+25 -2 6 25d25+250 1d5+15
+10000 90000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 0
+0 0 1263 0 0 0 4208 1
+
+#809
+cavaliere githyanki~
+un cavaliere githyanki~
+Un cavaliere vestito di nero è qui a difesa della sua regina.~
+E' di fattezze simili a quelle umane, solo molto più alto della media.
+I lineamenti del suo volto sono coperti da un possente elmo e tutto il suo corpo
+è protetto da una pesante armatura. Di lui puoi sentire solo il sibilo del
+respiro..
+~
+35 4194856 -500 C
+25 -2 6 25d25+250 1d5+15
+10000 90000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 3
+0 0 1199 0 0 0 592 2
+> greet_prog 50~
+say Nessuno si può avvicinare alla regina dei Gith!
+emote sguaina la sua lama e carica per la battaglia!
+~
+|
+
+#810
+githyanki gish malvagio~
+un malvagio gish~
+Un piccolo gish ti ghigna contro mostrando i suoi dentacci aguzzi.~
+E' una creatura simile agli umani, per la sua pelle e la sua stazza.. Dai denti
+affilati come zanne e dagli occhi incavati capisci invece che hai di fronte a
+te un githyanki.
+I gish sono molto dotati per le arti magiche, contrariamente al popolo gith.
+~
+193 512 -500 C
+11 6 6 11d11+110 1d5+2
+3000 12500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 8192 0
+0 0 1263 0 0 0 514 0
+
+#811
+githyanki gish~
+un malvagio gish~
+Un piccolo gish ti ghigna contro mostrando i suoi dentacci aguzzi.~
+E' una creatura simile agli umani, per la sua pelle e la sua stazza.. Dai denti
+affilati come zanne e dagli occhi incavati capisci invece che hai di fronte a
+te un githyanki.
+I gish sono molto dotati per le arti magiche, contrariamente al popolo gith.
+~
+101 512 -500 C
+11 6 6 11d11+110 1d5+2
+3000 12500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 0
+0 0 235 0 1 2 268435968 0
+
+#812
+githyanki stregone~
+uno stregone githyanki~
+Un githyanki è qui con la sua spada argentata ben salda nella mano sinistra.~
+E' una creatura molto simile agli umani, vestita di nero e impugna una spada dai
+riflessi argentei. Le sue zanne affilate ti raccontano del suo sangue
+githyanki.. istintivamente fai per fuggire quando senti sibilare accanto a te
+una palla di fuoco..
+~
+97 536 -500 C
+30 0 2 20d20+200 1d5+8
+10000 55000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 -10
+10 3 0 0 8192 1 0
+0 0 1263 0 10240 0 268435968 524290
+> fight_prog 50~
+emote prega un mantra alla sua Regina per aiuto.
+mpechoat $n Improvvisamente, due occhi fluttuanti ed ossessivi appaiono e ti fissano.
+mpechoat $n Due dardi di fiamme blu fulmine eruttano da essi, colpendoti!
+mpechoaround $n Due dardi di fiamme blu fulmine eruttano da essi, colpendo $n!
+cast lightning $n
+cast lightning $n
+~
+> death_prog 100~
+if rand(60)
+  mpecho Nell'ultimo tentativo di distruggeri, lo stregone taglia i suoi polsi per un nauseante rituale.
+  mpecho Spirali di oscure energie iniziano a scorrere lungo il terreno, formando un Nightmare.
+  mpmload 801
+  mpforce nightmare cast fireball $n
+else
+  mpecho Con le sue ultime parole, lo stregone recita una potente pergamena..
+    mpjunk all.pergamenaprog
+  mpdamage $r 100
+endif
+~
+|
+
+#813
+githyanki lich regina~
+La Regina dei Lich~
+La malvagia regina lich si erge in tutta la sua statura pronta a colpirti.~
+La regina lich dei githyanki un tempo era umana, ma ora non più. La sua pelle
+si è completamente rattrappita sul cranio e rimane ancorata alle ossa solo in
+virtù di un malefico incantesimo e dalle forze sconosciute di questo piano
+d'esistenza. Lo sguardo glaciale ti causa un brivido lungo la schiena..
+~
+35 67109560 -750 C
+30 -8 -8 30d30+300 4d5+20
+100000 475000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 4
+0 0 1263 7170 2048 17 266818 524291
+> death_prog 100~
+mpecho Il colpo mortale distrugge la forma corporea della regina lich.
+mpecho Fasci del suo spirito si alzato dal pavimento.
+mpecho Un'ossessiva voce sussurra parole del linguaggio dei ragni e il pavimento improvvisamente si fende aprendosi.
+mpecho Cadi attraverso l'abisso attorno all'altare in un turbinante zona di oscurità,
+mpecho le risate di una strega seguono la tua caduta..
+mptransfer $n 878
+mpgoto 878
+~
+> fight_prog 100~
+if rand(10)
+  emote evoca i suoi scagnozzi dai Piani Inferiori..
+  mpmload 802
+  mpmload 809
+else
+if rand(40)
+  emote curva la sua frusta attraverso la difesa di $r, colpendolo!
+  mpdamage $r 80
+else
+  emote sogghigna verso di te.
+  cast 'acid blast' $n
+endif
+endif
+~
+> greet_prog 60~
+say Molto bene.. altre anime al pranzo dei miei piaceri!
+mpecho Fiamme mortali vengono sprigionate dalle dita della regina Lich!
+cast 'burning hands' $n
+~
+|
+
+#814
+signora githyanki gith~
+Gith, la Signora dei Githyanki~
+Attorniata da una nube di oscurità, una donna punta i suoi occhi nei tuoi..~
+Una donna di aspetto piacevole ti è davanti: il volto tirato dalla sofferenza e
+gli occhi segnati da lacrime antiche e perenni.. La sua corporatura racconta
+quello che lei fu.. Abile e possente guerriera, un tempo, essa ebbe a cuore le
+sorti dei githyanki e volle ad essi strappare la schiavitù e offrire in dono la
+libertà del corpo e dello spirito.. Nobile intento e atto di alta generosità ma
+crudele epilogo fu la perdita della sua stessa libertà.. A causa di un'alleanza
+spezzata dal tradimento della regina dei lich, la donna che hai davanti subì la
+catena della schiavitù e ancora adesso ne sopporta il peso.. Eppure non è tutto.
+Il suo volto esprime il dolore e la frustrazione per le sorti del suo popolo..
+Il suo popolo fu vinto e schiacciato e i superstiti trasformati in sanguinarie
+e mostruose bestie..
+~
+3 301998760 1000 C
+35 -15 -10 35d35+350 10d3+50
+5000 750000
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 8193 0
+0 0 1263 7171 11264 28 1073742512 524291
+> greet_prog 75~
+cry
+say Non c'è speranza per il mio popolo. Sebbene tu abbia ucciso il loro orribile capo;
+say ella ritornerà..
+~
+> rand_prog 3~
+emote piange silente.
+~
+> rand_prog 2~
+say Se vuoi andartene da questo antro di disperazione, non hai che da dirmelo.
+say Solo i miei fratelli e io siamo, in verità, incatenati qui..
+~
+> speech_prog p voglio andarmene da questo antro di disperazione~
+nod
+say Addio, $n..
+mpechoaround $n Una luce bianca scorre dalle dita distese di Gith e avvolge $n.
+mpechoat $n Una luce bianca scorre dalle dita distese di Gith e ti avvolgono.
+mptransfer $n 21000
+endif
+~
+> fight_prog 50~
+say Se solo potessi morire.  Questo posto non permette la pace a nessuno della mia specie!
+mpecho Con sorprendente rabbia, Lady Gith evoca un torrente di acido!
+cast 'acid blast' $n
+cast 'acid blast' $n
+~
+|
+
+#815
+fantasma spirito~
+un fantasma~
+Uno spirito s'aggira nei dintorni, cercando qualcuno da uccidere.~
+Nessun suono è prodotto dallo spostamento di questo etereo fantasma.
+E' un corpo di oscurità condensata, condannato a vagare per sempre nel piano
+astrale. I dolori e le sofferenze trascorse da questa creatura l'han fatta
+impazzire, ed ora ha come unico scopo quello di cercare e distruggere qualunque
+forma di vita..
+~
+65 1101516 -1000 C
+16 2 0 16d16+160 2d9+2
+0 19000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 1 1 2
+0 0 0 7170 8192 17 4096 0
+
+#816
+carcerato githzerai~
+un carcerato githzerai~
+Un githzerai fa degli strani segni per terra, forse sta preparando il piano
+d'evasione.~
+Una creatura dalle fattezze umane è di fronte a te, apparentemente
+disinteressata alla tua presenza. Si tratta di un githzerai, discendente degli
+uomini, reso schiavo dai mindflayers ed imparentato con il popolo dei githyanki.
+Catturato e messo in catene, sta ora approntando un piano per fuggire.
+~
+65 512 -250 C
+10 8 8 10d10+100 1d4+4
+0 6000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+10 3 0 0 8192 1 1
+0 0 1263 0 0 0 32 2
+
+#817
+carcerato mindflayer prigioniero~
+un prigioniero mindflayer~
+Un mindflayer è qui, spaventato per le indicibili torture inflittegli.~
+E' alto e simile agli uomini, tranne per i quattro tentacoli che fuoriescono dal
+suo cranio. Sembra spaventato a morte per le numerose torture subite per mano
+dei Gith, appena s'accorge di te si rintana in un angoletto buio.
+~
+3 0 0 C
+8 13 2 8d8+80 3d4+5
+0 3000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+108 3 0 0 8192 1 2
+0 0 9455 0 3072 0 4096 0
+
+#818
+drago rosso schiavo~
+un dragone rosso in catene~
+Delle grosse catene bloccano la possanza di questo drago rosso.~
+Un incantesimo ha imprigionato il drago rosso in questo luogo, soggiogandolo
+alla volontà dei suoi carcerieri. La sua figura ti sovrasta ed ha un'apertura
+alare di almeno venti piedi. Ti guarda.. e dalle sue narici si solleva una
+colonnina di fumo davvero poco rassicurante.
+~
+3 520 -400 C
+28 -3 -6 28d28+280 3d5+25
+100000 350000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 10243 2048 3
+0 0 1343657 1048577 2048 2 8199 0
+
+#819
+fiamme fornace~
+una gigantesca fiammata~
+Le fiamme della fornace si spandono tutt'intorno cercando di bruciarti!~
+Il fuoco protende alcune fiammelle verso di te, quasi fosse una creatura
+senziente ed abbisognasse delle tue carni per sopravvivere..
+~
+99 33554944 0 C
+13 5 5 13d13+130 3d3+3
+0 10000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 373419 373419 1
+0 0 0 1 1 2 268435456 0
+
+#0
+
+
+#OBJECTS
+
+#800
+bacchetta perla~
+una bacchetta di perla~
+Il terreno pare cullare una bacchetta di perla.~
+blast~
+5 1600 8193
+12 4 8 6
+5 1000000 -31072
+E
+wand pearl~
+Un intricato numero di intagli sono stati incisi all'estremità della bacchetta,
+sembra essere una chiave di qualche tipo..
+~
+A
+12 60
+A
+13 20
+A
+18 5
+A
+19 8
+
+#801
+pergamena viola~
+una pergamena viola~
+Un pezzo di pergamena arrotolata giace sul pavimento.~
+~
+2 256 1
+15 1 3 67
+1 2500 250
+E
+pergamena viola pergamenaprog~
+Un simpatico profumo si libra da questa pergamena scritta con inchiostro
+violaceo..
+~
+
+#802
+tavoletta nera~
+una tavoletta nera~
+Per terra vedi una tavoletta di pietra nera.~
+~
+2 16 1
+30 216 213 -1
+5 15000 1500
+E
+tavoletta nera~
+Probabilmente è ricavata da onice purissima, osservandola bene noti delle
+scritte in rilievo scolpite nella pietra.
+~
+
+#803
+pergamena githyanki~
+una pergamena githyanki con delle scritte~
+Vedi una pergamena con delle scritte incomprensibili.~
+~
+2 0 1
+24 30 30 -1
+1 7500 750
+E
+pergamena githyanki~
+Per quanto cerchi di capire queste scritte, non ti è dato conoscere l'antica
+lingua githyanki.
+~
+
+#804
+amuleto demone~
+l'amuleto del demone~
+Un dito di polvere ricopre un piccolo oggetto, sembra un amuleto.~
+~
+3 144 16385
+25 5 5 25
+5 20000 2000
+E
+amuleto demone~
+L'amuleto è un piccolo oggetto circolare, forgiato con un'insolita lega di
+metalli. Alcuni simboli ne abbelliscono la superficie, fra questi noti la figura
+di un serpente intento a torturare le sue vittime..
+Impresso al centro dell'amuleto, leggi un nome che ti rifiuti di pronunciare..
+~
+A
+3 -1
+A
+4 -1
+
+#805
+talismano malvagio~
+un malvagio talismano~
+Un piccolo talismano è poggiato al suolo.~
+~
+4 144 16385
+25 5 5 65
+5 21000 2100
+E
+talismano~
+E' rosso e pulsante di energia malefica, anche l'aura che lo circonda narra
+delle sue origini diaboliche. Al centro del talismano c'è un'unica parola il cui
+mero significato induce terrore nel possessore dell'oggetto.
+~
+A
+13 -10
+
+#806
+pugnale argento~
+un pugnale d'argento~
+Un pugnale d'argento a lama piatta attira la tua attenzione.~
+stab~
+5 64 8193
+0 2 4 2
+3 1000 100
+E
+pugnale argento~
+Realizzato da sapienti mani che han lavorato l'argento più puro, questo pugnale
+è straordinariamente affilato e maneggevole.
+~
+A
+18 1
+A
+19 1
+
+#807
+daga argento~
+una daga argentata~
+Qualcuno ha lasciato qui una bellissima daga d'argento.~
+pierce~
+5 64 8193
+0 3 4 11
+3 1500 150
+E
+daga argento~
+Una lega di metalli ed argento dà vita a questa daga che sebbene sia leggera
+appare anche molto maneggevole e mortalmente affilata.
+~
+A
+18 2
+A
+19 1
+
+#808
+spadina spada~
+una spadina molto ben affilata~
+Un luccichio attira il tuo sguardo, sembra una piccola spada.~
+slice~
+5 64 8193
+0 4 4 1
+3 2000 200
+E
+spadina spada~
+E' piccolissima! sarà lunga sì e no quanto il palmo di una mano eppure qualcosa
+ti dice che questa spadina è molto più resistente di quanto non lascino
+intendere le sue dimensioni. Provala contro la pietra..
+~
+A
+2 1
+A
+18 1
+A
+19 3
+
+#809
+spadina due mani~
+un'incredibile spadina a due mani~
+Una spadina è poggiata in un angolo, sembra piuttosto robusta.~
+slash~
+5 64 8193
+0 6 4 3
+16 5000 500
+E
+spadina due mani~
+Minuta nelle dimensioni ma pesante quanto una spada di un metro, questa spadina
+si regge con due mani ed è molto molto affilata.
+~
+A
+18 2
+A
+19 4
+
+#810
+spada lama argento~
+una spada argentata~
+Una lama d'argento brilla seminascosta in un angoletto buio.~
+slash~
+5 65 8193
+0 5 4 3
+13 10000 1000
+E
+spada argentata~
+Una lega di metalli ed argento forgia questa spada che sebbene molto leggera
+appare anche maneggevole e mortalmente affilata.
+~
+A
+2 2
+A
+18 4
+A
+19 2
+
+#811
+mazza snodata~
+una mazza snodata d'acciaio~
+Una pesante mazza d'acciaio è posata al suolo, avvolta nel filo spinato.~
+tear~
+5 18 8193
+0 5 5 5
+14 20000 2000
+E
+mazza~
+Dalla quantità di sangue rappreso sulle punte della mazza snodata, si può dire
+che quest'arma abbia mietuto molte vittime durante la sua attività..
+~
+A
+18 3
+A
+19 7
+
+#812
+sword gith~
+la spada sacra dei githyanki~
+Percepisci un filo di morbida luce emanare dalla meravigliosa lama.~
+slash~
+5 1344 8193
+0 10 3 3
+25 100000 10000
+E
+sword gith~
+La lama di questa spada è costituita di puro platino.  Questa deve essere la
+famosa lama che Lady Gith utilizzò per guidare il suo popolo alla libertà.
+~
+A
+1 2
+A
+18 11
+A
+19 4
+A
+26 8192
+
+#813
+pietra blu~
+una pietra luminosa~
+L'ambiente è illuminato da una strana pietra azzurrina..~
+~
+1 0 1
+0 0 -1 0
+1 5000 500
+E
+pietra~
+La pietra è avvolta da una fiamma azzurra che produce un intenso calore e
+nonostante le apparenze, riesci a tenerla in mano agevolmente.
+La sua luce rischiara per almeno un miglio la zona circostante.
+~
+A
+17 -2
+A
+23 -5
+A
+13 15
+> damage_prog 90~
+mpecho La pietra blu viene rotta in due parti, una metà scoppia e muore,
+mpecho mentre l'altra inizia a infuocarsi nuovamente..
+mpoload 813
+drop pietra
+mpforce $n get pietra
+mpforce $n wear pietra
+~
+|
+
+#814
+polvere astrale puviscolo~
+un pizzico di polvere astrale~
+Sospeso a mezz'aria davanti a te vedi dell'impalpabile pulviscolo.~
+~
+26 0 1
+20 81 -1 -1
+1 5000 500
+E
+polvere astrale pulviscolo~
+E' ciò che rimaned di un frammento astrale sbriciolatosi eoni fa..
+~
+
+#815
+armatura~
+un'armatura decorata~
+Un'armatura decorata è poggiata qui.~
+~
+9 0 9
+7 0 0 0
+45 5000 500
+E
+armatura~
+Figlia dell'acciaio, quest'armatura è robusta ed anche finemente decorata con
+figure di draghi e serpenti.
+~
+
+#816
+cotta~
+una cotta di maglia~
+Una cotta di maglia è stata posata qui.~
+~
+9 0 33
+7 0 0 0
+20 1000 100
+E
+cotta maglia~
+Realizzata in acciaio, questa cotta robusta ed anche finemente decorata con
+figure di draghi e serpenti.
+~
+
+#817
+maniche~
+un paio di maniche d'acciaio~
+Qualcuno ha posato qui un paio di maniche d'acciaio.~
+~
+9 0 257
+7 0 0 0
+15 1000 100
+E
+sleeves splint~
+Realizzate in acciaio, le maniche sono molto robuste e finemente decorate con
+figure di draghi e serpenti.
+~
+
+#818
+guanti ornati~
+un paio di guanti decorati~
+Poggiati al suolo vedi un paio di guanti di ferro.~
+~
+9 0 129
+7 0 0 0
+5 19000 1900
+E
+guanti ornati~
+Robusti e tutto sommato leggeri da indossare, questi guanti sono stati forgiati
+nell'acciaio.
+~
+A
+1 2
+A
+18 1
+A
+19 1
+
+#819
+vestito seta~
+un vestito di seta nera~
+Un vestito di seta nera è stato lasciato qui.~
+~
+9 64 9
+3 3 0 0
+5 50 5
+E
+dress black silk~
+Il vestito sembra donare una piccola protezione, sembra brillare di uno strano magico potere..
+~
+A
+17 -6
+A
+24 -2
+A
+31 3
+A
+27 2
+A
+13 40
+> damage_prog 100~
+mpecho Quando il vestito magico è danneggiato, un potere mistico viene rilasciato dalla seta nera
+mpecho che inizia a turbinare attorno alla figura di $n..
+cast fires $n
+cast ices $n
+cast sanc $n
+~
+> repair_prog 100~
+mpecho Quando il vestito viene cucito, il magico potere che gli dava vita
+mpecho sembra essere svanito e il vestito decade nel nulla..
+mpforce $n drop vestito
+mpforce $n sac vestito
+~
+|
+
+#820
+pozione violetta~
+una pozione violetta~
+Un lungo fiasco di vetro contiene del fluido traslucente e violetto.~
+~
+10 0 1
+18 29 34 18
+2 1000 100
+E
+pozione violetta~
+Il fluido violetto all'interno cambia e turbina in continuazione.
+~
+
+#821
+fiaschetta pozione~
+una fiaschetta con del liquido~
+Una fiaschetta aperta lascia intravedere uno scuro liquido al suo interno.~
+~
+10 0 1
+20 19 20 21
+2 1500 150
+E
+pozione scura fiaschetta~
+Il liquido assomiglia molto all'acqua delle fogne.
+~
+
+#822
+pozione argentata~
+una pozione argentata~
+Vedi una pozione argentata contenuta in un prisma ottagonale.~
+~
+10 0 1
+20 19 20 21
+2 1500 150
+E
+pozione argentata~
+Lo strano prisma contiene una pozione argentata che riflette i raggi luminosi.
+~
+
+#823
+cioccolato menta~
+un'invitante tavoletta di cioccolato~
+Un delizioso profumo di menta ti stuzzica l'appetito.~
+~
+26 0 1
+35 81 28 -1
+0 1000 100
+E
+cioccolato~
+Un'anima di cioccolato bianco aromatizzato alla menta, circondata da uno strato
+di finissimo cioccolato fondente. Sembra dire.. Mangiami!
+~
+
+#824
+pentacolo~
+un pentacolo nero~
+Cosa ci fa un pentacolo qui per terra?~
+~
+18 32 16385
+0 0 0 0
+10 0 0
+E
+pentacolo~
+Si tratta di un cerchietto contenente una stella a cinque punte.
+Sulla stella sono incise delle lettere in lingua sconosciuta.
+~
+
+#825
+borsello seta~
+un borsello di fine seta~
+Un borsello creato con finissima seta giace qui.~
+~
+20 0 1
+169372 0 0 0
+100 400000 -25536
+E
+borsello~
+Ti è sembrato di vedere un luccichio metallico attraverso i buchi..
+~
+
+#826
+fiala etere~
+una fiala di etere~
+Una fiala di sfuggenti vapori.~
+~
+10 67 16385
+45 74 84 84
+2 22600 2260
+
+#0
+
+
+#ROOMS
+
+#800
+Alla base dell'arcobaleno~
+Un arco multicolore s'erge verso il cielo partendo proprio sotto i tuoi
+piedi. E' una linea di separazione dal mondo che conosci anche se il mondo delle
+nuvole è pochi metri sotto di te.
+~
+0 0 9
+D4
+L'arcobaleno si espande sopra di te fin verso l'orizzonte..
+~
+~
+0 -1 801
+D5
+Sotto di te vedi il mondo delle nuvole.
+~
+~
+0 -1 535
+E
+arcobaleno~
+Una meravigliosa languida commistione di colori crea l'arco sul quale stai
+camminando. Di luci lievi è il ponte per il nuovo mondo.
+~
+S
+
+#801
+Sull'arcobaleno~
+Passo dopo passo t'avventuri lungo l'arcobaleno, fra fasci di luci multicolori
+danzanti tutt'intorno. Poco più sotto intravedi il mondo delle nuvole.
+~
+0 0 9
+D4
+L'arcobaleno si espande sopra di te, perdendosi poi nell'oscurità..
+~
+~
+0 -1 802
+D5
+L'arcobaleno procede verso il basso fino al mondo delle nuvole.
+~
+~
+0 -1 800
+E
+arcobaleno~
+Una meravigliosa languida commistione di colori crea l'arco sul quale stai
+camminando. Di luci lievi è il ponte per il nuovo mondo.
+~
+S
+
+#802
+Percorrendo l'arcobaleno~
+Passo dopo passo t'avventuri lungo l'arcobaleno, fra fasci di luci multicolori
+danzanti tutt'intorno. Il mondo delle nuvole s'allontana sempre di più..
+~
+0 0 9
+D4
+L'arcobaleno si espande sopra di te, perdendosi poi nell'oscurità..
+~
+~
+0 -1 803
+D5
+L'arcobaleno ridiscende verso conosciute lande.
+~
+~
+0 -1 801
+E
+arcobaleno~
+Una meravigliosa languida commistione di colori crea l'arco sul quale stai
+camminando. Di luci lievi è il ponte per il nuovo mondo.
+~
+S
+
+#803
+Percorrendo l'arcobaleno~
+Passo dopo passo t'avventuri lungo l'arcobaleno, fra fasci di luci multicolori
+danzanti tutt'intorno. Ormai non vedi più nulla del mondo che hai lasciato alle
+spalle.
+~
+0 0 9
+D4
+L'arcobaleno procede ancora, poco distante intravedi una luce.
+~
+~
+0 -1 804
+D5
+L'arcobaleno si espande sotto di te, perdendosi poi nell'oscurità..
+~
+~
+0 -1 802
+E
+arcobaleno~
+Una meravigliosa languida commistione di colori crea l'arco sul quale stai
+camminando. Di luci lievi è il ponte per il nuovo mondo.
+~
+S
+
+#804
+Lungo l'arcobaleno~
+Ti stai appropinquando al termine del viaggio su questo ponte di colori, i fasci
+di luce appaiono ora molto più solidi e tutto intorno a te l'aria è carica di
+pulviscolo colorato.
+Poco più avanti vedi un ponte.
+~
+0 0 9
+D4
+L'arcobaleno prosegue avanti, verso un ponte.
+~
+~
+0 -1 805
+D5
+L'arcobaleno si espande sotto di te, perdendosi poi nell'oscurità..
+~
+~
+0 -1 803
+E
+ponte~
+I colori dell'arcobaleno sembrano convergere in un ponte di luce che termina di
+fronte ad una imponente cancellata.
+~
+E
+polvere stelle~
+Il pulviscolo stellare danza di fronte a te, trasportato da impercettibili moti
+dell'aria. Impalpabile e coloratissima, questa polverina è davvero affascinante.
+~
+E
+arcobaleno~
+Una meravigliosa languida commistione di colori crea l'arco sul quale stai
+camminando. Di luci lievi è il ponte per il nuovo mondo.
+~
+S
+
+#805
+Il ponte di luce ai piedi dell'arcobaleno~
+Dopo una lunga camminata raggiungi finalmente la cima dell'arcobaleno.
+I colori si uniscono a formare un unico ponte di luce che conduce a nord verso
+un'imponente cancellata. Tutto intorno l'atmosfera invoglia al riposo, inducendo
+una calda serenità nell'animo.. interrotta saltuariamente da qualche fascio di
+luce o polverina stellare.
+~
+0 0 1
+D0
+Il ponte termina davanti ad una cancellata. Intravedi un'ombra grigia proprio
+accanto al cancello.
+~
+~
+0 -1 806
+D5
+Il ponte si scinde in mille sfumature dei colori principali, perdendosi nella
+vastità del piano astrale.
+~
+~
+0 -1 804
+E
+cancello~
+Il cancello è alto almeno dieci piedi sopra la tua testa, poco sotto scorgi un
+immenso campo di oscurità dal quale sembrano uscire piccole particelle di
+pulviscolo stellare.
+~
+E
+ponte~
+Il ponte brilla di luce irreale..
+~
+E
+polvere stelle~
+Il pulviscolo stellare danza di fronte a te, trasportato da impercettibili moti
+dell'aria. Impalpabile e coloratissima, questa polverina è davvero affascinante.
+~
+E
+arcobaleno~
+L'arcobaleno pare si formi direttamente dal ponte di luce poco distante.
+~
+S
+
+#806
+I cancelli astrali~
+Qui il ponte termina di fronte ad un imponente cancello di madreperla oltre il
+quale s'apre il vasto mondo astrale ricco di piccole stelle in continuo
+movimento e fasci di luce che saettano qua e là.
+~
+0 0 1
+D0
+Attraverso il cancello scorgi un piano di densa oscurità che si estende fino
+all'orizzonte.
+~
+cancello~
+1063 800 807
+D2
+Il ponte prosegue verso l'arcobaleno che scende verso il basso fino a perdersi
+dalla vista.
+~
+~
+0 -1 805
+E
+placca~
+Sulla placca c'è una scritta:
+Possano questi cancelli preservare il Piano Astrale ed i suoi abitanti dai mondi
+d'esistenza attigui, dai loro pericoli e dalle creature bizzarre e malvage che
+li popolano.
+~
+E
+cancello~
+Un alto cancello separa il mondo a te noto dai Piani Astrali, ogni barra è
+finemente decorata. Una placca è fissata al muro accanto al cancello.
+~
+S
+
+#807
+Nel piano astrale~
+Varchi le soglie di un altro mondo, lasciandoti a sud il cancello.
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale..
+~
+0 12 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 808
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+D2
+Il piano astrale conduce verso il tuo mondo.
+~
+cancello~
+1063 800 806
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 810
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 811
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+E
+cancello~
+Un alto cancello separa il mondo a te noto dai Piani Astrali, ogni barra è
+finemente decorata. Il cancello protegge il mondo astrale da eventuali nemici.
+~
+S
+
+#808
+Esplorando il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 813
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 814
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 807
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 810
+S
+
+#809
+Esplorando il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 814
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 816
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 810
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 811
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 807
+S
+
+#810
+Esplorando il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 813
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 815
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 808
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 807
+S
+
+#811
+Esplorando il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 816
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 807
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 817
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+S
+
+#812
+Esplorando il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 807
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 817
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 815
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 811
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 808
+S
+
+#813
+Vagando per il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+Tutte le uscite conducono in altre parti del piano astrale.
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 808
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 818
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 810
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 814
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 820
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 815
+S
+
+#814
+Vagando per il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. e presto t'accorgi d'aver perso la direzione..
+Tutte le uscite conducono in altre parti del piano astrale.
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 817
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 818
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 808
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 819
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 813
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+S
+
+#815
+Vagando per il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. anche se il tuo istinto t'avverte che forse
+la meta non è molto distante.
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 813
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 822
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 810
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 820
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 816
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+S
+
+#816
+Vagando per il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. anche se il tuo istinto t'avverte che forse
+la meta non è molto distante..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 811
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 815
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 821
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 817
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 819
+S
+
+#817
+Vagando per il Piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato. L'assenza di peso rende faticoso
+l'orientamento nel piano astrale.. anche se il tuo istinto t'avverte che forse
+la meta non è molto distante.
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 822
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 811
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 821
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 816
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 814
+S
+
+#818
+Vagabondando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 836
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 813
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 833
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 814
+D5
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 819
+S
+
+#819
+Vagabondando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 814
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 834
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 818
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 838
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 816
+D5
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 810
+S
+
+#820
+Vagabondando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 835
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 821
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 815
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 811
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 840
+D5
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 813
+S
+
+#821
+Vagabondando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 842
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 820
+D3
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 833
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 816
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 817
+S
+
+#822
+Vagabondando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 817
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 844
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 834
+D4
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 815
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 812
+S
+
+#823
+Girovagando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 832
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 824
+D2
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 837
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 826
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 835
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 828
+S
+
+#824
+Girovagando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 829
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 830
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 833
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 823
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 825
+D5
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 839
+S
+
+#825
+Girovagando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 827
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 828
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 830
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 834
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 841
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 824
+S
+
+#826
+Girovagando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 829
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 831
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 843
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 827
+D4
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 835
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 823
+S
+
+#827
+Girovagando per il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 833
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 832
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 844
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 826
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 831
+D5
+Vedi una scia luminosa.. sembra avere una consistenza propria..
+~
+~
+0 -1 825
+S
+
+#828
+Attraversando il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale..
+Poco lontano si vede una striscia di luce argentata..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 825
+D1
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 834
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 847
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 809
+D4
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 823
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 845
+S
+
+#829
+Attraversando il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 849
+D1
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 835
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 846
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 824
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 830
+D5
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 826
+S
+
+#830
+Attraversando il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 829
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 824
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 833
+D3
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 825
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 845
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 847
+S
+
+#831
+Attraversando il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 846
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 848
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 827
+D3
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 826
+D4
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 834
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 832
+S
+
+#832
+Attraversando il piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 849
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 827
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 848
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 823
+D4
+Il piano astrale prosegue verso le profondità siderali..
+~
+~
+0 -1 835
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 831
+S
+
+#833
+Persi nel piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 821
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 824
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 818
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 830
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 827
+S
+
+#834
+Persi nel piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D1
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 828
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 822
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 831
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 825
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 819
+S
+
+#835
+Persi nel piano Astrale~
+Ti ritrovi a fluttuare in una zona oscura, a tratti illuminata da fasci di luce
+ed impalpabile pulviscolo argentato.
+L'assenza di peso rende faticoso l'orientamento nel piano astrale.. e presto
+t'accorgi d'aver perso la direzione..
+~
+0 8 2
+D0
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 823
+D2
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 820
+D3
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 829
+D4
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 832
+D5
+Il piano astrale si estende all'infinito.
+~
+~
+0 -1 826
+S
+
+#836
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D2
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 837
+D5
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 818
+S
+
+#837
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D4
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 823
+D5
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 836
+S
+
+#838
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D3
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 819
+D5
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 839
+S
+
+#839
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D3
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 838
+D5
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 824
+S
+
+#840
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D4
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 820
+D5
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 841
+S
+
+#841
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D2
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 825
+D4
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 840
+S
+
+#842
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D4
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 821
+D5
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 843
+S
+
+#843
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D0
+La scia luminosa curva nascondendosi alla vista..
+~
+~
+0 -1 842
+D3
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 826
+S
+
+#844
+Camminando sulla scia luminosa~
+Sei in cima ad una striscia di luce argentata che gira e si muove attraverso il
+piano astrale.
+~
+0 8 2
+D1
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 822
+D2
+Il piano astrale s'estende all'infinito..
+~
+~
+0 -1 827
+S
+
+#845
+Nei meandri reconditi del piano astrale~
+Hai viaggiato in lungo in largo per arrivare infine qui, nelle profondità
+nascoste della dimensione astrale. Si scorgono appena delle fluttuazioni
+nell'atmosfera, come se un altro piano d'esistenza fosse molto vicino a quello
+astrale. Le linee di luce che attraversano il piano astrale sono qui curvate a
+mo' di portali verso altri mondi.. fai attenzione alle tue scelte, potresti non
+tornare indietro.
+~
+0 8 2
+D0
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 846
+D1
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 830
+D3
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 849
+D4
+Attraverso questo collegamento astrale puoi vedere una fortezza di pietra.
+~
+~
+0 -1 850
+D5
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 828
+S
+
+#846
+Nei meandri reconditi del piano astrale~
+Hai viaggiato in lungo in largo per arrivare infine qui, nelle profondità
+nascoste della dimensione astrale. Si scorgono appena delle fluttuazioni
+nell'atmosfera, come se un altro piano d'esistenza fosse molto vicino a quello
+astrale. Le linee di luce che attraversano il piano astrale sono qui curvate a
+mo' di portali verso altri mondi.. fai attenzione alle tue scelte, potresti non
+tornare indietro.
+~
+0 8 2
+D0
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 833
+D2
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 845
+D3
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 847
+D4
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 829
+D5
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 831
+S
+
+#847
+Nei meandri reconditi del piano astrale~
+Hai viaggiato in lungo in largo per arrivare infine qui, nelle profondità
+nascoste della dimensione astrale. Si scorgono appena delle fluttuazioni
+nell'atmosfera, come se un altro piano d'esistenza fosse molto vicino a quello
+astrale. Le linee di luce che attraversano il piano astrale sono qui curvate a
+mo' di portali verso altri mondi.. fai attenzione alle tue scelte, potresti non
+tornare indietro.
+~
+0 8 2
+D0
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 834
+D1
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 846
+D2
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 830
+D3
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 828
+D5
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 848
+S
+
+#848
+Nei meandri reconditi del piano astrale~
+Hai viaggiato in lungo in largo per arrivare infine qui, nelle profondità
+nascoste della dimensione astrale. Si scorgono appena delle fluttuazioni
+nell'atmosfera, come se un altro piano d'esistenza fosse molto vicino a quello
+astrale. Le linee di luce che attraversano il piano astrale sono qui curvate a
+mo' di portali verso altri mondi.. fai attenzione alle tue scelte, potresti non
+tornare indietro.
+~
+0 8 2
+D0
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 835
+D1
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 831
+D2
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 849
+D4
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 847
+D5
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 832
+S
+
+#849
+Nei meandri reconditi del piano astrale~
+Hai viaggiato in lungo in largo per arrivare infine qui, nelle profondità
+nascoste della dimensione astrale. Si scorgono appena delle fluttuazioni
+nell'atmosfera, come se un altro piano d'esistenza fosse molto vicino a quello
+astrale. Le linee di luce che attraversano il piano astrale sono qui curvate a
+mo' di portali verso altri mondi.. fai attenzione alle tue scelte, potresti non
+tornare indietro.
+~
+0 8 2
+D0
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 848
+D1
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 845
+D2
+Il piano astrale conduce lontano nei meandri reconditi del mondo..
+~
+~
+0 -1 832
+D3
+Il piano astrale conduce lontano verso l'orizzonte..
+~
+~
+0 -1 829
+S
+
+#850
+Dentro la fortezza dei Githyanki~
+Sei sulla soglia del portale che conduce fuori nei piani strali. Sembra che tu
+abbia raggiunto la casa dei Githyanki seguaci di Lord Gith. Davanti a te una
+porta d'acciaio conduce nella fortezza.
+~
+0 12 0
+D0
+Vedi una porta d'acciaio che conduce dentro la fortezza.
+~
+acciaio~
+1 -1 851
+D5
+Sotto di te s'apre il portale per i piani astrali.
+~
+~
+0 -1 845
+E
+acciaio~
+La porta è formata da placche d'acciaio fissate alla roccia..
+~
+S
+
+#851
+La guardiola~
+E' la guardiola della fortezza, due porte conducono ad est ed ovest.
+Alle pareti sono appese alcune armi, come strumenti di difesa della casa.
+Tranne che a nord, in tutte le direzioni vedi una porta.
+~
+0 8 0
+D1
+Vedi una porta di ferro che conduce fuori verso una stradina di pietre grigie.
+~
+porta ferro acciaio~
+3 -1 861
+D2
+Una porta d'acciaio conduce fuori.
+~
+acciaio~
+3 -1 850
+D3
+Vedi una porta di ferro che conduce fuori, verso una stradina di ciottoli.
+~
+porta ferro~
+3 -1 852
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+E
+acciaio~
+La porta è formata da placche d'acciaio fissate alla roccia..
+~
+S
+
+#852
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+La stradina di pietre gira verso nord, terminando ad est contro una porta di
+ferro.
+~
+0 8 1
+D0
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 853
+D1
+Una pesante porta d'acciaio conduce all'interno di una casupola costruita
+a fianco della fortezza.
+~
+porta ferro~
+3 -1 851
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+S
+
+#853
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+Il ciottolato prosegue verso nord e sud, due porte verso est ed ovest conducono
+ad un edificio di pietra.
+~
+0 8 1
+D0
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 854
+D1
+Vedi una piccola costruzione in pietra con una porta di legno.
+~
+porta legno~
+3 -1 862
+D2
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 852
+D3
+Una porta di ferro blocca l'entrata ad un grande edificio in pietra.
+~
+porta ferro~
+3 -1 869
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#854
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+La stradina gira verso sud e prosegue verso est..
+~
+0 8 1
+D1
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 855
+D2
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 853
+S
+
+#855
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+La stradicciola continua verso est ed ovest. A nord vedi un'imponente
+costruzione in pietra con due grandi porte.
+~
+0 8 1
+D0
+Poco distante  da te vedi un grande portone in metallo..
+~
+portone portale metallo~
+3 -1 874
+D1
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 856
+D3
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 854
+E
+portone metallo~
+Il portone è fatto di una sostanza sconosciuta, mescolata a polvere d'argento
+ed al tatto sembra essere davvero robusto. Alcuni basso-rilievi decorano le due
+ante, riportando scene di combattimento fra umani e bizzarre creature con
+tentacoli.
+~
+S
+
+#856
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+La stradicciola continua verso est ed ovest. A sud vedi un'imponente
+costruzione.
+~
+0 8 1
+D1
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 857
+D2
+Vedi un edificio alto con una porta d'ingresso in legno.
+~
+door wooden~
+3 -1 864
+D3
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 855
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#857
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+Il ciottolato volta verso ovest e prosegue a sud. Verso nord una porta conduce
+in un alto edificio..
+~
+0 8 1
+D0
+Vedi un edificio alto con una porta d'ingresso in legno.
+~
+porta legno~
+3 -1 873
+D2
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 858
+D3
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 856
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#858
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+Il ciottolato prosegue a sud e a nord. Verso est una porta conduce in un grosso
+edificio.
+~
+0 8 1
+D0
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 857
+D1
+Una porta di ferro blocca l'entrata ad un grande edificio in pietra.
+~
+porta ferro acciaio~
+3 -1 867
+D2
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 859
+E
+porta ferro acciaio~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+S
+
+#859
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+Il ciottolato prosegue verso nord e sud.
+~
+0 8 1
+D0
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 858
+D2
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 860
+S
+
+#860
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+Il ciottolato volta a nord e prosegue ad ovest.
+Verso est una porta conduce in un grosso edificio.
+~
+0 8 1
+D0
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 859
+D1
+Una porta di ferro blocca l'entrata ad un grande edificio in pietra.
+~
+porta ferro~
+3 -1 865
+D3
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 861
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+S
+
+#861
+Una stradicciola di pietre~
+Il terreno sotto i tuoi piedi è cosparso in maniera disomogenea di pietre
+grigie. Mentre un insolito sole rosso colora il cielo, intorno a te non avverti
+alcun rumore che possa in qualche modo essere ricondotto a quelli di una normale
+città.
+Il ciottolato prosegue ad est. Ad ovest termina di fronte ad una porta di ferro.
+A nord una porticina conduce in un piccolo edificio in pietra.
+~
+0 8 1
+D0
+Vedi una piccola costruzione in pietra con una porta di legno.
+~
+porta legno~
+3 -1 863
+D1
+Il ciottolato grigio prosegue in questa direzione..
+~
+~
+0 -1 860
+D3
+Una porta di ferro conduce ad una piccola costruzione in pietra accanto alla
+fortezza.
+~
+porta ferro~
+3 -1 851
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#862
+Un piccolo edificio~
+Hai appena messo piede in una casupola che sembra essere una depandance per
+gish. I muri sono formati da grossi blocchi di pietra ricoperti alla meno peggio
+da pannelli in legno. Un paio di candele costituiscono l'intero sistema di
+illuminazione..
+~
+0 8 0
+D3
+La porta di legno s'apre all'esterno verso il ciottolato grigio..
+~
+porta legno~
+3 -1 853
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#863
+Un piccolo edificio~
+Hai appena messo piede in una casupola che sembra essere una depandance per
+gish. I muri sono formati da grossi blocchi di pietra ricoperti alla meno peggio
+da pannelli in legno. Un paio di candele costituiscono l'intero sistema di
+illuminazione..
+~
+0 8 0
+D2
+La porta di legno s'apre all'esterno verso il ciottolato grigio..
+~
+porta legno~
+3 -1 861
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#864
+Una strana dimora~
+Hai messo piedi in una casupola poco illuminata, con soffitto a volte e grandi
+finestre. Le pareti sono di pietra e coperte da panelli di legno. Sul pavimento
+vedi degli strani disegni, pentacoli ed altri simboli.
+~
+0 8 0
+D0
+La porta di legno s'apre all'esterno verso il ciottolato grigio..
+~
+porta legno~
+3 -1 856
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#865
+L'armeria~
+Entri in un ampio salone pieno di armi appese alle pareti, alcune lame rilucono
+in maniera insolita, da un lato vedi un gruppo di coltelli affilatissimi e poi
+ancora spade, daghe ed alabarde.
+Da nord giunge un vago rumore di colpi di martello e la parete è più calda delle
+altre, ad ovest vedi una porta di ferro.
+~
+0 8 0
+D0
+Vedi una gigantesca fucina illuminata dalle fiamme della fornace.
+~
+~
+0 -1 866
+D3
+La porta di ferro s'apre all'esterno verso il ciottolato grigio..
+~
+porta ferro~
+3 -1 860
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+S
+
+#866
+La fucina~
+Al centro della stanza si trova un'immensa fornace che trangugia metallo solido
+per renderlo liquido e pronto per nuove forme e nuove armi.
+Ad ovest vedi un grosso barile di acqua gelata, usato per raffreddare il
+metallo.
+Le uscite sono a nord e sud. Ad est puoi avvicinarti alla fornace.
+~
+0 8 0
+D0
+In questa direzione c'è la stanza delle armature.
+~
+~
+0 -1 867
+D1
+Attraverso la grata della fornace puoi vedere solo le alte fiamme.
+~
+porta fornace~
+3 -1 868
+D2
+In questa direzione c'è l'armeria.
+~
+~
+0 -1 865
+E
+porta fornace~
+La fornace emana un calore insopportabile e la porticina per aprirla
+scotta solo a guardarla.
+~
+S
+
+#867
+La stanza delle armature~
+Una grande sala accoglie armature d'ogni forma, alcune sono robuste e rozze,
+altre sono robuste ma anche finemente decorate.
+Da sud proviene un rumore di martelli ed un vago calore.. Ad ovest vedi una
+porta di ferro.
+~
+0 8 0
+D2
+Vedi una gigantesca fucina illuminata dalle fiamme della fornace.
+~
+~
+0 -1 866
+D3
+La porta di ferro s'apre all'esterno verso il ciottolato grigio..
+~
+porta ferro~
+3 -1 858
+E
+porta ferro acciaio~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+S
+
+#868
+Dentro la fornace~
+Respiri a fatica per i vapori sulfurei ed altri fumi tossici che appesantiscono
+l'aria. Il calore è insopportabile, le fiamme lambiscono i tuoi vestiti..
+Forse è il caso di uscire prima di diventare una torcia..
+~
+0 2097160 0
+D3
+Le fiamme ti accecano impedendoti di vedere oltre..
+~
+porta fornace~
+3 -1 866
+E
+e est east~
+Le fiamme ti accecano impedendoti di vedere oltre..
+~
+S
+
+#869
+La guardiola~
+Sei in una casupola, adibita a guardiola per le prigioni. L'ambiente è molto
+piccolo perché non è costume dei githyanki fare prigionieri..
+Verso ovest ci sono le celle, ad est torni verso il selciato grigio.
+~
+0 8 0
+D1
+Vedi una porta di ferro che conduce fuori, verso il ciottolato di pietre.
+~
+porta ferro~
+3 -1 853
+D3
+Più avanti scorgi le prigioni.
+~
+~
+0 -1 870
+E
+porta ferro~
+Un insieme di placche di ferro fissate alla nuda roccia formano questa imponente
+porta..
+~
+S
+
+#870
+Le prigioni~
+Una torcia illumina poco e male il corridoio delle prigioni. Alle pareti sono
+appesi strumenti di tortura quali fruste, manette e catene.. sembrano consunti
+dall'uso.
+Le porte delle celle si trovano a nord e sud, ad est c'è la guardiola.
+~
+0 8 0
+D0
+Vedi una piccola cella.
+~
+porta cella~
+3 -1 871
+D1
+Vedi la postazione dei secondini.
+~
+~
+0 -1 869
+D2
+Vedi una piccola cella.
+~
+porta cella~
+3 -1 872
+E
+porta cella~
+La porta della cella è di legno massiccio ed alla base c'è un piccolo
+pertugio per passare il cibo ai carcerati.
+~
+S
+
+#871
+Una celletta~
+Sei in una fredda umida e sporca cella. L'aria gelida morde fin nella carne e ti
+chiedi quanto i prigionieri sopravvivano qui dentro. L'unica uscita è la porta a
+sud.
+~
+0 8 0
+D2
+Più avanti scorgi le prigioni.
+~
+porta cella~
+3 -1 870
+E
+porta cella~
+La porta della cella è di legno massiccio ed alla base c'è un piccolo
+pertugio per passare il cibo ai carcerati.
+~
+S
+
+#872
+Una celletta~
+Sei in una fredda umida e sporca cella. L'aria gelida morde fin nella carne e ti
+chiedi quanto i prigionieri sopravvivano qui dentro. L'unica uscita è la porta a
+nord.
+~
+0 8 0
+D0
+Più avanti scorgi le prigioni.
+~
+porta cella~
+3 -1 870
+E
+porta cella~
+La porta della cella è di legno massiccio ed alla base c'è un piccolo pertugio
+per passare il cibo ai carcerati.
+~
+S
+
+#873
+Una strana dimora~
+Hai messo piedi in una casupola poco illuminata, con soffitto a volte e grandi
+finestre. Le pareti sono di pietra e coperte da panelli di legno. Sul pavimento
+vedi degli strani disegni, pentacoli ed altri simboli.
+~
+0 8 0
+D2
+La porta di legno s'apre all'esterno verso il ciottolato grigio..
+~
+porta legno~
+3 -1 857
+E
+porta legno~
+La porta è fatta di una qualità insolita di legno massiccio grigio.
+~
+S
+
+#874
+Angolo sud-est dell'atrio~
+Un imponente atrio con le pareti in pietra ti accoglie, illuminato da flebili e
+pallide fiamme azzurrine. Ai muri sono appese delle armature, armi di ogni
+fattezza realizzate con argento.
+L'ingresso principale continua verso nord e finisce in un paio di immense porte
+di metallo verso sud.
+~
+0 8 0
+D0
+L'ingresso principale continua verso nord.
+~
+~
+0 -1 875
+D2
+Il portone in metallo conduce fuori verso il ciottolato grigio.
+~
+portone metallo~
+3 -1 855
+E
+portone metallo~
+Il portone è fatto di una sostanza sconosciuta, mescolata a polvere d'argento
+ed al tatto sembra essere davvero robusto. Alcuni basso-rilievi decorano le due
+ante, riportando scene di combattimento fra umani e bizzarre creature con
+tentacoli.
+~
+E
+armi~
+Robuste e potenti armi sono appese al muro. Ce n'è per tutti i gusti.
+~
+E
+armatura armature~
+Il set d'armature è completo e finemente decorato.
+~
+S
+
+#875
+Angolo nord-est dell'atrio~
+Un imponente atrio con le pareti in pietra ti accoglie, illuminato da flebili e
+pallide fiamme azzurrine. Ai muri sono appese delle armature, armi di ogni
+fattezza realizzate con argento.
+L'ingresso prosegue verso sud.  Un'arcata conduce a nord, verso una stanza poco
+illuminata.
+~
+0 8 0
+D0
+Ti pare di scorgere una via che sale verso un altare.
+~
+nebbia porta~
+3 -1 876
+D2
+L'ingresso prosegue verso sud.
+~
+~
+0 -1 874
+E
+arcata porta~
+L'arcata è nascosta da una fitta nebbia che impedisce la visuale.
+~
+E
+armi~
+Robuste e potenti armi sono appese al muro. Ce n'è per tutti i gusti: lance,
+spade, alabarde..
+~
+E
+armatura armature~
+Il set d'armature è completo e finemente decorato.
+~
+S
+
+#876
+La stanza dell'altare~
+I tuoi occhi si abituano poco per volta all'oscurità, tutt'intorno vedi
+statue raffiguranti githyanki di ogni epoca, una scalinata conduce all'altare.
+~
+0 9 0
+D0
+Verso nord si raggiunge il gigantesco altare.
+~
+~
+0 -1 877
+D2
+Ti sembra di scorgere l'ingresso.
+~
+porta nebbia~
+3 -1 875
+E
+arcata porta arco~
+L'arcata è nascosta da una fitta nebbia che impedisce la visuale.
+~
+S
+
+#877
+Davanti all'altare~
+Scalino dopo scalino hai finalmente raggiunto l'altare dove Lord Gish paga i
+suoi sacrifici agli Dei. L'altare è ricoperto di sangue ed emana un'inspiegabile
+energia..
+~
+0 3145737 0
+D2
+In questa direzione si torna a sud, verso la stanza dell'altare.
+~
+~
+0 -1 876
+E
+fori buchi~
+Sono piccoli fori di drenaggio alla base dell'altare, per fa defluire il sangue.
+~
+E
+rivolo sangue~
+Un rivolo di sangue cola lentamente dall'altare fino ai tuoi piedi.
+~
+E
+altare~
+E' un gigantesco altare per i sacrifici.. ancora sporco del sangue dell'ultima
+vittima.
+~
+S
+
+#878
+Il cancello per il mondo sotterraneo~
+Passi nel piccolo buco e ti ritrovi in un ampio spazio denso di oscurità..
+Da lontano giungono lamenti di anime perse e spiriti in cerca di pace e
+serenità.
+~
+0 2097161 1
+D5
+Guardi in basso verso la densa oscurità ed un'ondata di energia malefica ti
+assale..
+~
+cancello~
+1031 824 879
+E
+sangue~
+Alcune stille di sangue gocciolano da sopra il tuo capo fino al terreno..
+~
+E
+campo cancello~
+Il campo sembra cibarsi con le gocce di sangue che provengono dall'alto,
+inducendo un brivido nella tua spina dorsale..
+~
+S
+
+#879
+L'oscurità assoluta e la disperazione~
+Una coltre nera aleggia pesante su questo territorio esteso, divorando la
+visuale e restringendola in modo quasi soffocante..
+La fitta oscurità sembra forarsi di tanto in tanto e dagli strappi emergono
+ombre tremule ed allungate, volteggiando per un istante..
+L'attimo dopo, subito, celeri a piegarsi su se stesse e rientrare nello spesso
+strato nero che le ha partorite.. come terrorizzate dalla tua luce..
+Sebbene tutto ciò non rappresenti un pericolo per te, almeno non immediato e
+lampante, il brivido che di continuo ti taglia la schiena ti costringe a stare
+in guardia..
+~
+0 2105357 9
+S
+
+#0
+
+
+#RESETS
+R 0 808 6
+R 0 809 6
+R 0 810 6
+R 0 811 6
+R 0 812 6
+R 0 813 6
+R 0 814 6
+R 0 815 6
+R 0 816 6
+R 0 817 6
+R 0 818 6
+R 0 819 6
+R 0 820 6
+R 0 821 6
+R 0 822 6
+R 0 823 6
+R 0 824 6
+R 0 825 6
+R 0 826 6
+R 0 827 6
+R 0 828 6
+R 0 829 6
+R 0 830 6
+R 0 831 6
+R 0 832 6
+R 0 833 6
+R 0 834 6
+R 0 835 6
+R 0 836 6
+R 0 837 6
+R 0 838 6
+R 0 839 6
+R 0 840 6
+R 0 841 6
+R 0 842 6
+R 0 843 6
+R 0 844 6
+M 0 800 1 806
+E 0 800 0 16
+G 1 826 1
+D 0 806 0 2
+D 0 807 2 2
+M 0 801 2 833
+G 0 804 0
+M 0 801 2 834
+G 0 804 0
+M 0 802 1 846
+G 0 805 0
+M 0 803 4 820
+G 0 814 0
+M 0 803 4 824
+G 0 814 0
+M 0 803 4 826
+G 0 814 0
+M 0 803 4 830
+G 0 814 0
+M 0 804 10 813
+M 0 805 8 818
+E 0 807 0 16
+M 0 805 8 820
+E 0 807 0 16
+M 0 805 8 822
+E 0 807 0 16
+M 0 805 8 824
+E 0 807 0 16
+M 0 806 6 823
+E 0 809 0 16
+E 0 815 0 5
+M 0 806 6 827
+E 0 809 0 16
+E 0 815 0 5
+M 0 808 3 830
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+M 0 810 6 829
+E 0 806 0 16
+M 0 810 6 831
+E 0 806 0 16
+M 0 815 3 845
+G 0 821 0
+M 0 815 3 847
+G 0 821 0
+M 0 815 3 849
+G 0 821 0
+D 0 850 0 1
+D 0 851 2 1
+D 0 851 1 1
+D 0 851 3 1
+D 0 852 1 1
+D 0 853 1 1
+D 0 853 3 1
+D 0 855 0 1
+D 0 856 2 1
+D 0 857 0 1
+D 0 858 1 1
+D 0 860 1 1
+D 0 861 0 1
+D 0 861 3 1
+D 0 862 3 1
+D 0 863 2 1
+D 0 864 0 1
+D 0 873 2 1
+D 0 865 3 1
+D 0 866 1 1
+D 0 867 3 1
+D 0 868 3 1
+D 0 869 1 1
+D 0 870 0 1
+D 0 870 2 1
+D 0 871 2 1
+D 0 872 0 1
+D 0 874 2 1
+D 0 875 0 1
+D 0 876 2 1
+D 0 878 5 2
+M 0 807 8 851
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 851
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 865
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 865
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 867
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 867
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 869
+E 0 808 0 16
+E 0 815 0 5
+M 0 807 8 869
+E 0 808 0 16
+E 0 815 0 5
+M 0 808 3 855
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+M 0 811 6 853
+E 0 806 0 16
+M 0 811 6 859
+E 0 806 0 16
+M 0 811 6 862
+E 0 806 0 16
+M 0 811 6 863
+E 0 806 0 16
+M 0 811 6 862
+E 0 806 0 16
+G 0 822 0
+M 0 811 6 863
+E 0 806 0 16
+G 0 822 0
+M 0 812 4 864
+E 0 810 0 16
+G 0 803 0
+M 0 812 4 873
+E 0 810 0 16
+G 0 803 0
+M 0 812 4 874
+E 0 810 0 16
+G 0 803 0
+M 0 812 4 874
+E 0 810 0 16
+G 0 803 0
+M 0 816 1 872
+M 0 817 1 871
+M 0 818 1 868
+E 0 813 0 0
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 819 6 868
+M 0 809 2 876
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+E 0 818 0 9
+M 0 809 2 876
+E 0 809 0 16
+E 0 815 0 5
+E 0 816 0 7
+E 0 817 0 10
+E 0 818 0 9
+M 0 813 1 877
+E 0 811 0 16
+G 1 824 1
+G 0 802 0
+M 0 814 1 879
+E 0 812 0 16
+E 0 819 0 5
+G 0 825 0
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  802 spec_cast_mage
+M  805 spec_thief
+M  810 spec_cast_mage
+M  811 spec_cast_mage
+M  812 spec_cast_mage
+M  813 spec_cast_undead
+M  815 spec_cast_undead
+M  817 spec_cast_mage
+M  818 spec_cast_mage
+M  819 spec_breath_fire
+S
+
+
+#END

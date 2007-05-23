@@ -1,0 +1,34 @@
+* E' una specie di razza fungosa
+#RACE
+RaceNumber     RACE_SHRIEKER
+NameMale       FunghiUrlatori~
+NameFema       FunghiUrlatori~
+Flags          RACEFLAG_NOMONEY~
+Color          AT_RED firebrick~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus       0     0     0     0     0     0
+PointLimit     0 0 0 0
+Affected       ~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_TREELEAF~
+*
+LangLearnable  ~
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+Height         155
+Weight         50,000
+TonalitySound  urlare~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

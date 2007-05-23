@@ -1,0 +1,310 @@
+#HELP
+KeywordItalian attributi~
+KeywordEnglish attributes~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Gli attributi sono 15, e vengono suddivisi in 5 categorie:
+Forza, Resistenza e Costituzione fanno parte della categoria &RFisico&w.
+Intelligenza, Concentrazione e Volontà fanno parte della categoria &BMentale&w.
+Agilità, Riflessi e Velocità fanno parte della categoria &GDestrezza&w.
+Spiritualità, Migrazione, Assorbimento fanno parte della categoria &CInteriore&w.
+Empatia, Bellezza e Comando fanno parte della categoria &YCarisma&w.
+
+Qui di seguito viene riportata una tabella con gli attributi e il rispettivo
+peso che hanno per ogni classe:
+ ------------------------------------------------------------------------------
+| &WCLASSE       &w| &YPRIMA         &w| &YSECONDA       &w| &zPENULTIMA     &w| &zULTIMA        &w|
+ --------------+---------------+---------------+---------------+---------------
+| &BMago         &w| &BIntelligenza  &w| &CAssorbimento  &w| &RCostituzione  &w| &RForza         &w|
+| &CSacerdote    &w| &CSpiritualita' &w| &BIntelligenza  &w| &RForza         &w| &RResistenza    &w|
+| &YLadro        &w| &GAgilita'      &w| &GVelocita'     &w| &RForza         &w| &BVolonta'      &w|
+| &RCombattente  &w| &RForza         &w| &RResistenza    &w| &CAssorbimento  &w| &BIntelligenza  &w|
+| &GDruido       &w| &CAssorbimento  &w| &BIntelligenza  &w| &RForza         &w| &RResistenza    &w|
+| &gRamingo      &w| &RCostituzione  &w| &RResistenza    &w| &CSpiritualita' &w| &CAssorbimento  &w|
+| &WPaladino     &w| &CSpiritualita' &w| &RForza         &w| &CAssorbimento  &w| &BConcentrazione&w|
+ ------------------------------------------------------------------------------
+ 
+ Per saperne di più su ciascun attributo digita °help <&gnome attributo&w>
+~
+End
+
+#HELP
+KeywordItalian forza~
+KeywordEnglish strenght~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &RForza&w è l'attributo che indica la potenza che si riesce a sviluppare in
+tempi brevi e brevissimi.
+Viene utilizzata principalmente per:
+- Impugnare armi pesanti.
+- Il calcolo dell'Hitroll.
+- Il calcolo del Damroll.
+- L'abilità °Tbash.
+- L'abilità °Tstun.
+- L'abilità °Tgrip.
+- L'abilità °Tdisarm.
+- L'abilità °Tshove.
+- Il calcolo, in piccola parte, dei punti vita.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian resistenza~
+KeywordEnglish resistence~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &RResistenza&w rappresenta appunto quanto il personaggio è resistente agli
+sforzi fisici, fatica e al dolore fisico.
+Viene utilizzata principalmente per:
+- Il calcolo della quantità di oggetti e del peso trasportabile.
+- Mantenere le armi pesanti impugnate.
+- L'abilità °Tgouge.
+- L'abilità °Tbash.
+- L'abilità °Tdrag.
+- Il calcolo dei punti movimento.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian costituzione~
+KeywordEnglish costitution~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &RCostituzione&w è quell'insieme di caratteristiche innate che determinano la
+robustezza o fragilità del corpo di un essere vivente.
+Viene utilizzata principalmente per:
+- L'abilità °Tstun.
+- La resistenza al veleno.
+- La resistenza all'alcol.
+- Il calcolo dei punti vita.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian intelligenza~
+KeywordEnglish intelligence~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'&BIntelligenza&w è l'attributo che rappresenta l'utilizzo delle facoltà logiche
+e mentali del proprio personaggio.
+Viene utilizzata principalmente per:
+- Il calcolo delle pratiche da assegnare.
+- L'apprendimento dello stile dell'avversario.
+- La rimozione magica di trappole.
+- La preparazione di misture letali.
+- Il calcolo, in piccola parte, dei punti mana.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian concentrazione~
+KeywordEnglish concentration~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &BConcentrazione&w indica quanto il tuo personaggio riesce a raccogliersi
+mentalmente per compiere determinate azioni delicate o emotivamente intense.
+Ork... non riesco a concentrarmi abbastanza per spiegarla... ;P
+Viene utilizzata principalmente per:
+- L'apprendimento delle abilità, lingue o incantesimi.
+- Pronunciare di incantesimi in determinate situazioni.
+- La rimozione di trappole.
+- La creazione di oggetti magicamente.
+- L'abilità °Tsteal.
+- L'abilità °Tbackstab.
+- L'abilità °Tgrip.
+- L'abilità di avvelenare le armi.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian volontà~
+KeywordEnglish will~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &BVolontà&w è quella summa di capacità psicologiche del personaggio che
+gli permettono di resistere a situazioni mentali critiche.
+Viene utilizzata principalmente per:
+- Il controllo sullo stato mentale del personaggio.
+- La capacità di dispelling delle magie.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian agilità~
+KeywordEnglish agility~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'&GAgilità&w rappresenta quanto il vostro personaggio riesce ad essere sciolto
+nei movimenti.
+Viene utilizzata principalmente per:
+- Schivare i colpi in battaglia.
+- L'abilità °Tgouge.
+- L'abilità °Tsteal.
+- L'abilità °Trescue.
+- L'abilità °Tbash.
+- L'abilità °Tstun.
+- L'abilità °Tdisarm.
+- L'abilità °Ttumble.
+- Avvelenare armi.
+- L'abilità °Tcircle.
+- L'abilità °Tslice.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian riflessi~
+KeywordEnglish reflex~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+I &GRiflessi&w indicano quanto veloce il tuo personaggio reagisce istintivamente
+ad un uno stimolo o ad un pericolo.
+Vengono utilizzati principalmente per:
+- L'abilità °Tbackstab.
+- L'abilità °Tdisarm.
+- L'abilità °Tcircle.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian velocità~
+KeywordEnglish speed~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &GVelocità&w indica quanto tempo il tuo personaggio impiega nel compiere azioni
+di vario genere.
+Viene utilizzata principalmente per:
+- Il movimento tra una locazione ed un altra.
+- Il calcolo, in piccola parte, dei punti movimento.
+- L'abilità °Tbackstab.
+- L'abilità °Trescue.
+- L'abilità °Tdisarm.
+- L'abilità °Tcircle.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian spiritualità~
+KeywordEnglish spirituality~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &CSpiritualità&w indica le potenzialità della vostra anima nelle attitudini
+immateriali relative allo spirito e nelle attività religiose.
+Viene utilizzata principalmente per:
+- La resistenza alla morte.
+- Il recupero dai traumi della morte.
+- Il calcolo dei punti d'Anima.
+- L'armonia dell'evocazione di poteri religiosi.
+- L'abilità °Taid.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian migrazione~
+KeywordEnglish migration~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &CMigrazione&w indica la capacità di manipolare l'Energia Astrale che ti
+attornia e di cui i Piani sono più o meno intrisi.
+Viene utilizzata principalmente per:
+- Passare da un Portale ad un altro di un Piano.
+- Il recupero e il calcolo del mana, in piccola parte.
+- Far pesare le sorti a proprio favore.
+- Altro..
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian assorbimento~
+KeywordEnglish absorption~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'&CAssorbimento&w è la capacità di canalizzare l'Energia Astrale grezza dei Piani
+per elabolarla poi per i propri scopi, incantesimi o altri poteri in primis.
+Viene utilizzata principalmente per:
+- Il calcolo dei punti mana
+- La canalizzazione del mana.
+- La resistenza alle magie.
+- La resistenza alla corruzione.
+- Altro...
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian empatia~
+KeywordEnglish empaty~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'&YEmpatia&w è la capacità di identificarsi con l'altra persona e quindi di
+entrare in sintonia con essa rafforzando rapporti di fiducia o intimi.
+Viene utilizzata principalmente per:
+-
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian bellezza~
+KeywordEnglish beauty~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+La &YBellezza&w è la qualità dell'essere belli, e quindi di affascinare il
+proprio interlocutore o attirare l'attenzione di chi ti sta attorno.
+Viene utilizzata principalmente per:
+-
+~
+ToSee          attributi~
+End
+
+#HELP
+KeywordItalian comando~
+KeywordEnglish leadership~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il &YComando&w è la capacità di gestire al meglio gruppi sempre più folti di
+persone al proprio seguito.
+Viene utilizzata principalmente per:
+-
+~
+ToSee          attributi~
+End
+
+
+#END

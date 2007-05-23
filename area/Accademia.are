@@ -1,0 +1,7164 @@
+#AREA
+Name         L'Accademia di Darkhaven~
+Author       Scarab (Miciko)~
+Color        AT_RED rosso~
+LevelRange   1 5
+ResetFreq    3
+ResetMsg1    Un tramestio di passi risuona tutt'intorno a me, come se l'arena fosse piena di vita..~
+Flags        AREAFLAG_NOPKILL~
+Economy      0 497845790
+Vnums        10300 10499
+End
+
+
+#MOBILES
+
+#10300
+lupo spaventoso~
+uno spaventoso lupo~
+Un famelico lupo annusa avidamente il terreno in cerca di prede.~
+~
+65 0 0 C
+4 0 35 44d0+1 0d0+0
+500 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 1 1 0
+0 0 66692 0 2048 0 0 0
+
+#10301
+lumaca arena bavosa~
+una bavosa lumaca~
+Una bavosa lumaca si avventa su un pezzettino di insalata.~
+~
+65 0 0 C
+4 0 45 44d0+1 0d0+0
+500 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 0
+0 0 66560 0 2048 0 0 0
+
+#10302
+naga scheletrica~
+una naga scheletrica~
+Appena ti nota, una naga scheletrica s'erge in posizione d'attacco.~
+Il busto scheletrico s'agita producendo un grazioso rumore di costole che
+picchiano l'una contro l'altra.. In compenso la tozza coda da serpente
+avverte che questo essere ha intenzioni tutt'altro che amichevoli.
+~
+65 0 -200 C
+5 0 88 55d0+1 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 62
+62 0 0 0 131073 131073 0
+0 0 66561 0 2048 0 0 0
+
+#10303
+carogna essere arena~
+una carogna strisciante~
+Un essere informe striscia al suolo emanando un'intensa puzza di carogna.~
+~
+65 56 0 C
+5 0 -1 55d0+1 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 1159 0 2048 0 0 0
+
+#10304
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10305
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10306
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 -92 11d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10307
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10308
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10309
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10310
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10311
+naga gabbia~
+la naga~
+Una naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10312
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10312) <= 1
+    mpmload 10357
+    mpat 10333 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10313
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10313) <= 1
+    mpmload 10357
+    mpat 10336 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10314
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10314) <= 1
+    mpmload 10357
+    mpat 10340 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10315
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10315) <= 1
+    mpmload 10357
+    mpat 10344 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10316
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 8 0 C
+1 0 69 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 83
+37 0 0 0 131073 131073 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10316) <= 1
+    mpmload 10357
+    mpat 10348 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10317
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 0 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+37 3 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10317) <= 1
+    mpmload 10357
+    mpat 10352 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10318
+gnoll gabbia~
+lo gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 5
+  if CountMobVnumRoom(10318) <= 1
+    mpmload 10357
+    mpat 10387 mpecho &YUn giovane gnoll balza fuori dal nulla!
+    mpforce $n glance pixie
+  endif
+endif
+~
+|
+
+#10319
+koboldo gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10320
+koboldo gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10321
+kobold gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10322
+kobold gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10323
+koboldo gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10324
+koboldo gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10325
+koboldo gabbia~
+un koboldo~
+Un koboldo diverso dai precedenti si muove qui intorno.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..! E' solo un po' più basso degli altri.
+~
+35 0 1000 C
+1 0 90 11d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 84
+44 0 0 0 3 2 0
+0 0 3 0 0 0 0 0
+
+#10326
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10327
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza..~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10328
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10329
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10330
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10331
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10332
+minotauro gabbia~
+un minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 11d1+0 0d0+0
+100 0
+8 8 0
+
+#10333
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10334
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 3 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10335
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10336
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10337
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10338
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 2 3 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10339
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+67 184 0 C
+50 0 94 20000d1+0 0d0+0
+100 0
+8 8 0
+18 13 13 13 13 13 13
+0 0 0 0 0
+97 3 0 0 1 1 0
+0 0 0 0 0 0 0 0
+> act_prog p sta morendo~
+mpforce $n drink
+mpechoat $n Bevendo la pozione senti recuperare le tue energie!
+~
+> act_prog p sta morendo di fame~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mpechoat $n Il funghetto ti placa i morsi della fame e ti dona nuova forza!
+~
+|
+
+#10340
+Domick Dom insegnante signore~
+Domick~
+Domick, Signore della sapienza, legge un libro in attesa degli studenti.~
+Sguardo severo ed indagatore, Domick ti osserva in silenzio.
+Il suo portamento racconta molto più di mille parole, le sue movenze
+sono ben calibrate, come se ogni gesto acquistasse significato, anche la
+più lieve vibrazione delle dita. Ispira un naturale senso di timore e
+rispetto, sicuramente ben riposti. Una vaga intuizione ti consiglia di non
+tentare un combattimento con lui, la sconfitta ti sorride da dietro l'angolo..
+~
+1027 4194472 1000 C
+1 0 94 1d1+1000 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 37
+0 4 0 0 131072 131073 0
+0 0 0 0 1059840 0 0 0
+> all_greet_prog 100~
+say a $n Possiamo iniziare la lezione?
+~
+|
+
+#10342
+Toric maestro guaritore~
+Maestro Toric~
+Un maestro guaritore attende pazientemente qualcuno da curare.~
+Costui è Toric, Maestro nell'arte della guarigione. Avvicinati a lui con
+timore reverenziale ed egli ti assisterà nel tuo dolore, donandoti energie
+supplementari. Prostrarsi al cospetto dei Maestri non è certamente il modo
+migliore per fare carriera, ma è la più onesta via per chiedere ausilio.
+~
+3 4194472 1000 C
+25 0 94 30000d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 -30
+0 6 0 0 131072 131073 0
+0 0 0 0 1058816 0 0 0
+> all_greet_prog 100~
+if ismob($n)
+  if ischarmed($n)
+  or isfollow($n)
+  else
+  if ismob($n)
+    mppurge $n
+  else
+  if level($n) > 10
+  else
+  if sex($n) == 2
+    mpforce $n curtsey
+    say a $n Se credi sia giunto il momento di combattere, dirigiti verso nord.
+    say a $n Prima di andare, guardami ne trarrai una piacevole sorpresa.
+    smile $n
+  else
+    mpforce $n bow
+    say a $n Se credi sia giunto il momento di combattere, dirigiti verso nord.
+    say a $n Prima di andare, guardami ne trarrai una piacevole sorpresa.
+    smile $n
+  endif
+  endif
+  endif
+  endif
+endif
+~
+> act_prog p ti guarda.~
+if ismob($n)
+else
+if level($n) > 10
+  smile $n
+else
+  pat $n
+  say a $n Bene! La tua conoscenza progredisce velocemente!
+  say a $n Ora guardami attentamente e cerca in me le parole che ti indicheranno gli incantesimi.
+  cast shield $n
+endif
+endif
+~
+> act_prog p grovels in the dirt~
+if ismob($n)
+else
+if level($n) > 10
+  smile $n
+  say a $n Non hai più bisogno del mio aiuto per imparare quest'arte.
+else
+  clap $n
+  say a $n Ottimo lavoro!
+  cast fly $n
+  say a $n Questo ti sarà comodo nei tuoi spostamenti.
+endif
+endif
+~
+|
+
+#10343
+Salorr saggio magazziniere~
+Salorr~
+Un magazziniere dall'aria esperta sta riordinando i suoi cataloghi.~
+Un sorriso amichevole ti accoglie, è Zurg il magazziniere. Nei suoi occhi
+brilla un'insolita luce mista di ironia e tenerezza, durante la sua lunga vita
+ha assistito molti giovani avventurieri e conosce le difficoltà che comporta
+la lettura di una lista di merci in vendita..
+~
+3 4194856 0 C
+1 0 94 1000d1+0 0d0+0
+100 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 44
+0 0 0 0 131072 131073 0
+0 0 3 0 1048576 0 0 0
+> all_greet_prog 100~
+smile $n
+say a $n Salve! Da' pure un'occhiata alle merci esposte.
+~
+> death_prog 100~
+mpgoto 10399
+drop all
+mpmload 10343
+mpforce 2.saggio get torcia
+mpforce 2.saggio get coniglio
+mpforce 2.saggio get otre
+mpforce 2.saggio mpgoto 10357
+mpat 10357 mpecho Il saggio sparisce in un lampo di luce!
+~
+|
+
+#10344
+drago draghetto gabbia~
+un draghetto~
+Un drago dalle sembianze di serpente sbava sul pavimento la sua velenosa saliva..~
+Nonostante sia piccino, non fidarti troppo, può essere davvero pericoloso ma se decidi
+di combatterlo sappi che il gioco vale la candela contro questo imprevedibile
+avversario.
+~
+3 0 0 C
+4 0 35 50d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 44
+31 0 0 0 131072 131073 0
+0 0 3 0 2048 0 0 0
+> death_prog 100~
+mpoload 10307 2
+mpoload 10309 2
+~
+|
+
+#10345
+chadoyn gabbia~
+un chadoyn~
+Un chadoyn strattona il guinzaglio, tendendo il corpo in avanti per colpirti.~
+Impaziente di provare le sue abilità in battaglia, il chadoyn ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+3 0 0 C
+4 0 25 44d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 44
+85 0 0 0 131072 131073 0
+0 0 3 0 2048 0 0 0
+> death_prog 85~
+if level($n) >= 6
+  if rand(50)
+    mpechoat $n Senti la necessità di misurarti con avversari più temibili.
+  else
+    mpechoat $n Il chadoyn è troppo facile da sconfiggere, cerca altri nemici.
+  endif
+endif
+~
+|
+
+#10346
+Myriath locandiera donna~
+Myriath~
+La locandiera controlla i registri mentre attende qualcuno da accompagnare nei portali.~
+Myriath è una signora di mezza età, sorride tranquilla, abituata ormai
+all'andirivieni di persone che le chiedono consigli su come raggiungere
+la propria gilda. Se anche tu hai bisogno, rivolgiti pure a lei con fiducia.
+~
+3 680 1000 C
+50 0 94 15000d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 44
+0 0 0 0 131072 131073 0
+0 0 3 0 0 0 0 0
+> all_greet_prog 100~
+mpechoat $n Myriath distoglie lo sguardo dai suoi archivi e si dedica alla tua richiesta.
+say a $n Ciao e benvenuto.
+if isclass($n) == CLASS_PALADIN
+  mpechoat $n Stai per entrare nel portale dei Paladini.
+endif
+if isclass($n) == CLASS_MAGE
+  mpechoat $n Stai per entrare nel portale dei Maghi.
+endif
+if isclass($n) == CLASS_PRIEST
+  mpechoat $n Stai per entrare nel portale dei Chierici.
+endif
+if isclass($n) == CLASS_FIGHTER
+  mpechoat $n Stai per entrare nel portale dei Guerrieri.
+endif
+if isclass($n) == CLASS_NECROMANCER
+  mpechoat $n Stai per entrare nel portale dei Necromanti.
+endif
+if isclass($n) == CLASS_DRUID
+  mpechoat $n Stai per entrare nel portale dei Druidi.
+endif
+if isclass($n) == CLASS_WANDERING
+  mpechoat $n Stai per entrare nel portale dei Ranger.
+endif
+if isclass($n) == CLASS_THIEF
+  mpechoat $n Stai per entrare nel portale dei Ladri.
+endif
+if isclass($n) == CLASS_BARD
+  mpechoat $n Stai per entrare nel portale dei Bardi.
+endif
+~
+> rand_prog 66~
+if isclass($r) == CLASS_PALADIN
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Paladini!
+  mpechoat $r Atterri nell'atrio della gilda Paladini.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Paladini!
+  mptransfer $r 10449
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_MAGE
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Maghi!
+  mpechoat $r Atterri nell'atrio della gilda Maghi.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Maghi!
+  mptransfer $r 10323
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_PRIEST
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Chierici!
+  mpechoat $r Atterri nell'atrio della gilda Chierici.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Chierici!
+  mptransfer $r 10324
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_FIGHTER
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Guerrieri!
+  mpechoat $r Atterri nell'atrio della gilda Guerrieri.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Guerrieri!
+  mptransfer $r 10318
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_NECROMANCER
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Vampiri!
+  mpechoat $r Atterri nell'atrio della gilda Vampiri.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Vampiri!
+  mptransfer $r 10321
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_WANDERING
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Ranger!
+  mpechoat $r Atterri nell'atrio della gilda Ranger.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Ranger!
+  mptransfer $r 10391
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_DRUID
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Druidi!
+  mpechoat $r Atterri nell'atrio della gilda Druidi.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Druidi!
+  mptransfer $r 10320
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_THIEF
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale dei Ladri!
+  mpechoat $r Atterri nell'atrio della gilda Ladri.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Ladri!
+  mptransfer $r 10322
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_BARD
+  mpechoat $r La terra si apre sotto i tuoi piedi e cadi nel portale degli Auguri!
+  mpechoat $r Atterri nell'atrio della gilda Auguri.
+  mpechoaround $r $r il portale svanisce in una nube di fumo: solo Auguri!
+  mptransfer $r 10400
+  mpat $r mpforce $r bounce
+endif
+~
+|
+
+#10349
+statua mago gabbia~
+una statua~
+Una statua raffigurante un anziano mago è rivolta verso oriente.~
+Dai tratti scolpiti nel marmo si intuisce che il modello per questa statua
+doveva avere almeno un centinaio d'anni. E' ricavata da una qualità di marmo
+molto pregiata e dal suo interno si sprigiona una luce azzurrina.. forse è lo
+spirito del mago che aleggia nella materia rendendola viva.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 0 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_MAGE
+  say a $n Salute a te, sono stato designato per istruirti nel tuo cammino fra i Maghi.
+  say a $n In primo luogo, la dote da potenziare è l'intelligenza.
+  say a $n Questo incantesimo ti renderà più intelligente.
+  cast 'dragon wit' $n
+  say a $n I Maestri lo chiamano 'dragon wit'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare,
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n La Buona Sorte ti accompagni!
+  if level($n) == 1
+  or level($n) == 2
+  or level($n) == 3
+    say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+  endif
+endif
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_MAGE
+  if level($n) == 1
+  or level($n) == 2
+  or level($n) == 3
+    mpoload 10320 1
+    mpoload 10330 1
+    mpoload 10330 1
+    mpoload 10331 1
+    put potion borsa
+    put potion borsa
+    put scroll borsa
+    give borsa $n
+    say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+    say a $n Per usare le pergamene: RECITE PERGAMENA.
+    say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+    say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+    say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+    mpforce $n config +brief
+    mpforce $n wake
+    mpforce $n down
+    mpat $n mpforce $n config -brief
+  else
+    smile $n
+    say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+#10350
+statua chierica gabbia~
+una statua~
+Vedi una statua di marmo con le sembianze di un'anziana chierica.~
+Accuratamente intagliata nel marmo e levigata sino a renderla liscissima, questa
+statua rappresenta forse la madre fondatrice dell'ordine dei chierici.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 1 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_PRIEST
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10321 1
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  put potion borsa
+  put potion borsa
+  put scroll borsa
+  give borsa $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  smile $n
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_PRIEST
+  say a $n Salute a te, sono stata designata per istruirti nel tuo cammino fra i Chierici.
+  say a $n In primo luogo, la dote da potenziare è la saggezza.
+  say a $n Questo incantesimo aumenterà la tua saggezza.
+  cast sagacity $n
+  say a $n I Maestri lo chiamano 'Sagacity'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n La buona Fortuna t'accompagni, $n!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+|
+
+#10351
+statua ladro gabbia~
+una statua~
+L'aria decisamente truffaldina di questa statua ti fa pensare ad un ladro.~
+A differenza delle altre statue, questa è realizzata con un marmo nero come
+la notte scura. Raffigura un ladro dall'espressione guardinga, avvolto nel suo
+mantello d'ombre ed ispira un poco di disagio dato che fissa la tua scarsella
+con occhi così avidi..
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 2 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_THIEF
+  say a $n Salute a te, $n, sono stato designato per istruirti nel tuo cammino fra i Ladri
+  say a $n In primo luogo, la dote da potenziare è la destrezza.
+  say a $n Questo incantesimo aumenterà la tua destrezza.
+  cast slink $n
+  say a $n I Maestri lo chiamano 'slink'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n Usa l'astuzia!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_THIEF
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+   mpoload 10322 1
+   mpoload 10330 1
+   mpoload 10330 1
+   mpoload 10331 1
+   put potion borsa
+   put potion borsa
+   put scroll borsa
+   give borsa $n
+   say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+   say a $n Per usare le pergamene: RECITE PERGAMENA.
+   say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+   say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+   say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+   mpforce $n config +brief
+   mpforce $n wake
+   mpforce $n down
+   mpat $n mpforce $n config -brief
+else
+   smile $n
+   say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+#10352
+statua guerriero gabbia~
+una statua~
+Al centro della sala vedi l'imponente statua di un guerriero.~
+Armonia e potenza nei gesti imperituri del guerriero di marmo, pare sia
+stato fermato e fedelmente riprodotto l'istante in cui questo combattente
+s'accinge a dar battaglia.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 3 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_FIGHTER
+  say a $n Salute a te, $n, sono stato designato per istruirti nel tuo cammino fra i Guerrieri.
+  say a $n In primo luogo, la dote da potenziare è la forza.
+  say a $n Questo incantesimo aumenterà la tua forza.
+  cast 'kindred strength' $n
+  say a $n I Maestri lo chiamano 'kindred strength'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare,
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n La Forza non ti abbandoni mai, $n!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_FIGHTER
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10323 1
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  put potion borsa
+  put potion borsa
+  put scroll borsa
+  give borsa $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  smile $n
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+#10353
+statua vampiro gabbia~
+una statua~
+Vedi una statua di marmo bianco quasi diafano, solcata da innaturali striature rossastre.~
+Sistemata nella penombra, la statua raffigura una donna dall'aspetto seducente,
+qualcosa però non ti convince.. fra le labbra lievemente socchiuse si distinguono
+due punte bianche, i canini. Ciò che cattura più l'attenzione tuttavia, è lo sguardo
+ipnotico di chi sa scrutare nell'animo delle persone.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 4 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_NECROMANCER
+  say a $n Salute a te, $n, sono stata designata per istruirti nel tuo cammino fra i Vampiri.
+  say a $n In primo luogo, la dote da potenziare è la destrezza.
+  say a $n Questo incantesimo aumenterà la tua destrezza.
+  cast slink $n
+  say a $n I Maestri lo chiamano 'slink'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n Spero di rivederti!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_NECROMANCER
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10324 1
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  put potion bag
+  put potion bag
+  put scroll bag
+  give bag $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+  smile $n
+endif
+endif
+~
+|
+
+#10354
+statua druida gabbia~
+una statua~
+Una figura coperta da una tunica s'aggira qui intorno.. anzi no, è immobile ed è una statua..~
+Nonostante la dura consistenza del marmo, la tunica che ricopre questa
+figura sembra incredibilmente morbida e delicata. Le sue mani sono scolpite
+nell'atto di disegnare un simbolo.. forse una runa?
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 5 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_DRUID
+  say a $n Salute a te, $n, sono stata designata per istruirti nel tuo cammino fra i Druidi.
+  say a $n In primo luogo, la dote da potenziare è la saggezza.
+  say a $n Questo incantesimo aumenterà la tua saggezza
+  cast sagacity $n
+  say a $n I Maestri lo chiamano 'Sagacity'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n La Natura segni il tuo cammino!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_DRUID
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10325 1
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  put potion bag
+  put potion bag
+  put scroll bag
+  give bag $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  smile $n
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+#10355
+statua ranger gabbia~
+una statua~
+Una statua dalle fattezze di un ranger è qui di fronte a te.~
+L'artista che ha scolpito questo marmo ha usato molta cura nel tracciare
+i lineamenti del volto di questo giovane ranger, soprattutto gli occhi,
+lievemente socchiusi come se stesse guardando lontano..
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 6 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> act_prog p looks at you.~
+if isclass($n) == CLASS_WANDERING
+  say a $n Salute a te, $n, sono stato designato per istruirti nel tuo cammino fra i Ranger.
+  say a $n In primo luogo, la dote da potenziare è la forza.
+  say a $n Questo incantesimo aumenterà la tua forza.
+  cast 'kindred strength' $n
+  say a $n I Maestri lo chiamano 'kindred strength'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n I sentieri più scuri ti sian sempre amici, $n!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_WANDERING
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10326 1
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  put potion bag
+  put potion bag
+  put scroll bag
+  give bag $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  smile $n
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+#10357
+folletto minuscolo~
+un minuscolo folletto~
+Un minuscolo folletto saltella felice intorno a te.~
+~
+3 4718632 0 C
+4 0 -100 1d1+300 0d0+0
+0 0
+8 8 0
+13 13 13 25 13 13 25
+0 0 0 0 0
+4 0 0 0 68511053 0 0
+0 0 0 0 0 0 0 0
+> act_prog p ti lancia un'occhiata.~
+nudge $n
+if isclass($n) == CLASS_PRIEST
+  say Questo posto non ti mette abbastanza alla prova!
+endif
+if isclass($n) == CLASS_MAGE
+  say Ma guardati! La magia scorre potente nelle tue vene e tu la sprechi qui!?
+endif
+if isclass($n) == CLASS_THIEF
+  say Tu dovresti derubare banche invece di perder tempo con gli gnoll!
+endif
+if isclass($n) == CLASS_FIGHTER
+  say Ma perché ti ho insegnato le migliori tecniche d'attacco? Per usarle sugli gnoll?
+endif
+if isclass($n) == CLASS_NECROMANCER
+  say Sangue di gnoll..? Semplicemente rivoltante!
+endif
+if isclass($n) == CLASS_DRUID
+  say Non buttar via così il tuo talento, la Natura ti chiama a grandi opere!
+endif
+if isclass($n) == CLASS_WANDERING
+  say Gli gnoll sono troppo deboli per te, misurati con qualche essere più forte!
+endif
+if isclass($n) == CLASS_BARD
+  say Prevedevi la vittoria facile eh?
+endif
+shake
+say a $n Il piccolo folletto salta sulla tua spalla, s'avvicina al tuo orecchio e sussurra..
+say a $n $I salta sulla spalla di $n e sussurra al suo orecchio..
+say a $n $I dice, "Perché non vai a visitare il mio amico Deren?"
+say a $n $I dice, "Dirige un piccolo emporio all'ingresso dell'Accademia."
+say a $n $I dice, "Dagli questo e vedrai come sarà contento d'aiutarti.."
+if rand(50)
+  mpoload 10370 1 10
+  mpecho &B$I pronuncia le parole 'eacret fafst'.
+  mpoload 10370 1 10
+  give staff $n
+else
+  mpoload 10371 1 10
+  mpecho &B$I pronuncia le parole 'eacret ildhse'.
+  give shield $n
+endif
+say a $n Corri! Ciò che ti ho dato ha un potere magico e se non fai in fretta svanirà!
+mpecho &YIl folletto fa una giravolta e sparisce in un lampo di luce!
+mpgoto 10399
+mpat 10399 mpecho purge
+~
+|
+
+#10394
+abbigayle insegnante signora~
+Abbigayle~
+Una bellissima signora picchietta le dita contro il tavolo, è in attesa degli studenti.~
+Una voce flautata e tranquilla ti porge un saluto appena metti piedi nell'aula.
+E' Abbigayle, l'insegnante di lingue che aspetta senza troppa ansia l'arrivo
+dei suoi studenti. E' una bellezza eterea dal sorriso accogliente ed il visino
+austero ma perfetto nei lineamenti.
+~
+1048579 4194472 0 C
+5 16 5 1000d1+0 1d6+3
+50 450
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 268296191 1 0
+0 0 3 0 1059840 0 0 0
+> all_greet_prog 100~
+if ispg($n)
+  wink $n
+if level($n) < 10
+  say a $n Non sei ancora pronto per le mie lezioni, troppo inesperto.
+else
+  say a $n Io sono pronta ad insegnarti, la tua mente è pronta per imparare?
+endif
+grin $n
+endif
+~
+> death_prog 100~
+say Il mio destino era la sapienza.. non la violenza..
+mpslay $n
+mpat $n mpechoat $n Ma, ahimé, uccidermi è un'offesa gravissima..
+mpgoto 10399
+mpat 10306 mpmload 10394
+~
+> act_prog p fugge di corsa!~
+mptransfer $n
+say a $n Abbigayle dice, 'Fuggi Fuggi, per questa volta ti risparmio!'
+mpgoto 10399
+mpat 10306 mpmload 10394
+~
+|
+
+#10396
+naga spirito arena~
+lo spirito di una naga~
+Lo spirito della naga ti attacca appena ti vede!~
+Strappati alle loro spoglie mortali, questi spiriti di naga rappresentano la
+guardia personale della Regina delle Aspidi. Sono conosciute come valenti
+guerriere ed ora non temono neppure la morte, per servire la loro sovrana.
+~
+33 0 0 C
+7 0 60 1d1+50 0d0+0
+300 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+84 0 0 0 4097 135169 0
+0 0 0 0 0 0 0 0
+> death_prog 78~
+if level($n) >= 9
+if rand(50)
+  say a $n Sembra quasi ridicolo uno scontro come questo..
+  mpforce $n laugh
+else
+  say a $n Fai i salti di noia appena uccidi l'ennesima naga.
+  mpforce $n sigh
+  say a $n Inizi a guardarti intorno, in cerca di avventura..
+endif
+endif
+~
+|
+
+#10397
+regina naga asp aspirya~
+Aspirya~
+Aspirya, la regina naga snuda le zanne vedendoti arrivare.~
+A prima vista la bellezza del suo viso cattura il tuo sguardo, ma man mano che
+gli occhi scendono verso il basso il terrore cresce.. Al di sotto della vita della
+Regina, si agita un'enorme coda di serpente! Si narra che la sua abilità con
+la spada e il suo acume penetrante siano stati i suoi cavalli di battaglia per
+accedere al trono.
+~
+35 0 0 C
+7 0 80 60d1+0 0d0+0
+500 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 62
+62 0 0 0 131073 131072 0
+0 0 0 0 0 0 0 0
+
+#10398
+apprendista~
+un apprendista di Scarab~
+Un apprendista di Scarab è seduto e sta studiando i suoi incantesimi.~
+Non farti ingannare dalle apparenze, nonostante la sua giovane età, questo
+apprendista possiede già delle notevoli conoscenze delle arti magiche.
+Sta studiando molto, forse per succedere al suo maestro Scarab e diventare
+Arcimago dei Reami.
+~
+1 67108872 0 C
+50 0 -200 9000d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+0 0 0 0 1 4 0
+0 0 0 0 0 0 2097152 512
+
+#10399
+Tsythia insegnante Maestra~
+la grande maestra Tsythia~
+La Grande Maestra di arti illusorie dell'Accademia è qui davanti a te.~
+Si erge in tutto lo splendore della sua persona, Tsythia, Grande Maestra
+delle arti Illusorie. Per un attimo non riesci a distaccare lo sguardo dal
+suo viso, come se t'avesse ipnotizzato ed immobilizzato per sondare il
+tuo animo. Grande è il suo potere..
+~
+3 4194472 0 S
+1 0 0 1000d1+0 0d0+0
+0 0
+8 8 1
+> death_prog 100~
+mpmload 10399
+say a $n Non ti servirà uccidere questo corpo.. perché il mio spirito tornerà a cercarti!
+smile 2.tsythia
+~
+> act_prog p da sud.~
+say a $n Salve. Come è stata la battaglia?
+say a $n Prenditi un po' di tempo per visitare la stanza delle note ad est.
+say a $n Quando hai finito qui, puoi andare in alto e visitare Darkhaven.
+~
+> act_prog p da nord.~
+say a $n Salve. Com'era l'Accademia?
+say a $n Prenditi un po' di tempo per visitare la stanza delle note ad est.
+say a $n Quando hai finito qui, puoi andare in alto e visitare Darkhaven.
+~
+> act_prog p da est.~
+say a $n Salve. Hai letto tutto?
+say a $n A nord vai verso l'Accademia, a sud c'è il campo di battaglia.
+say a $n Quando hai finito qui, puoi andare in alto e visitare Darkhaven.
+~
+> act_prog p dall'alto.~
+say a $n Salve. Come è stato il tuo giro per le strade di Darkhaven?
+say a $n A nord vai verso l'Accademia, a sud c'è il campo di battaglia.
+say a $n Prenditi un po' di tempo per visitare la stanza delle note ad est.
+~
+> act_prog p da qualche parte.~
+say a $n Salve. Ho visto che hai visitato Tagetarle.
+say a $n Prenditi un po' di tempo per visitare la stanza delle note ad est.
+say a $n A nord vai verso l'Accademia, a sud c'è il campo di battaglia.
+say a $n Quando hai finito qui, puoi andare in alto e visitare Darkhaven.
+~
+> rand_prog 100~
+if level($r) == 1
+  say a $r Salute a te! Hai oltrepassato i Cancelli Spettrali, varcando la soglia di questo mondo..
+  mpat hvak1 mpforce hvak1 yell Quale anima ha varcato i cancelli per giungere sin qui?
+  if isclass($r) == CLASS_MAGE
+    mpat hvak2 mpforce hvak2 yell Un'anima devota alla Magia..
+  endif
+  if isclass($r) == CLASS_PRIEST
+    mpat hvak2 mpforce hvak2 yell Un'anima devota all'arte dei Chierici
+  endif
+  if isclass($r) == CLASS_THIEF
+    mpat hvak2 mpforce hvak2 yell Un'anima scaltra..
+  endif
+  if isclass($r) == CLASS_FIGHTER
+    mpat hvak2 mpforce hvak2 yell Un'anima pronta a combattere..
+  endif
+  if isclass($r) == CLASS_NECROMANCER
+    mpat hvak2 mpforce hvak2 yell Un'anima in ombra..
+  endif
+  if isclass($r) == CLASS_DRUID
+    mpat hvak2 mpforce hvak2 yell Un'anima figlia della Natura..
+  endif
+  if isclass($r) == CLASS_WANDERING
+    mpat hvak2 mpforce hvak2 yell Un'anima avventurosa..
+  endif
+  if isclass($r) == CLASS_BARD
+    mpat hvak2 mpforce hvak2 yell Un'anima indagatrice del futuro..
+  endif
+  say a $r Vai a nord per seguire il tuo cammino in Accademia.
+  mpadvance $r 2
+endif
+~
+> act_prog p sta morendo di fame.~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+say a $n Il funghetto placherà i morsi della fame e ti donerà nuova forza, $n.
+~
+> act_prog p sta morendo di sete~
+mpforce $n drink
+say a $n L'acqua di questa fonte disseterà il tuo corpo ed il tuo spirito,
+say a $n rigenerando la tua mente.
+~
+|
+
+#10400
+statua aruspice gabbia~
+una statua~
+Con il viso rivolto verso oriente, questa statua di aruspice sembra scrutare il futuro..~
+Le palpebre sono lievemente socchiuse, come se stesse guardando qualcosa di
+invisibile lontano, verso l'orizzonte dei tempi..
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 7 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_BARD
+  say a $n Salute a te, $n, sono stata designata per istruirti nel tuo cammino fra gli Auguri
+  say a $n In primo luogo, la dote da potenziare è la saggezza.
+  say a $n Questo incantesimo aumenterà la tua saggezza
+  cast sagacity $n
+  say a $n I Maestri lo chiamano 'Sagacity'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n Possano le profezie esserti favorevoli, $n!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_BARD
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  mpoload 10400 1
+  put potion bag
+  put potion bag
+  put escape bag
+  give bag $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  smile $n
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+
+#10401
+spettro guardiano gabbia~
+uno spettro guardiano~
+Un guardiano spettrale dell'Accademia controlla i tuoi progressi.~
+Non si scorgono bene i dettagli fisici di questo guardiano, ha la
+consistenza evanescente di uno spettro e si diverte ad apparire e sparire
+fra le ombre, lasciando ad ogni sua mossa una fitta nebbiolina.
+~
+3 184 1000 C
+50 0 0 20000d1+0 0d0+0
+0 0
+8 8 0
+18 13 13 13 13 13 0
+0 0 0 0 0
+97 0 0 0 3 2 0
+0 0 0 0 2097152 0 0 0
+> act_prog p sta morendo di sete.~
+mpforce $n drink
+say a $n Bevi, questo fluido rigenera le energie fisiche e mentali.
+~
+> act_prog p sta morendo di fame.~
+mpoload 20
+give mushroom $n
+mpforce $n eat mushroom
+say a $n Mangiando ritroverai le forze per proseguire il tuo cammino.
+~
+|
+
+#10402
+naga gabbia~
+la naga~
+La naga stringe gli occhi e ti fissa rabbiosamente.~
+Probabilmente esistono creature più belle, o così speri.. La naga è una bizzarra
+creatura con il busto di donna e dalla cintola in giù tutta vedrai la sua coda di
+serpente, anche dalla cintola in su, però, non è un bello spettacolo e a giudicare
+da come ti sta fissando non è affatto felice di incontrarti.
+~
+67 0 0 C
+1 0 94 9d1+0 0d0+0
+100 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 1159 0 0 0 0 0
+
+#10403
+minotauro gabbia~
+ul minotauro~
+Un minotauro muggisce nervosamente avvertendo la tua presenza.~
+Le leggende narrano di creature con il busto da uomo, le gambe e la testa da toro.
+Questo esemplare non è molto differente da quello che forse hai sempre immaginato, solo
+è un po' più piccino.
+~
+67 0 0 S
+1 0 94 8d1+0 0d0+0
+100 0
+8 8 0
+
+#10404
+gnoll gabbia~
+uno gnoll~
+Un giovane gnoll si volta digrignando i denti e preparandosi all'attacco!~
+Impaziente di provare le sue abilità in battaglia, lo gnoll ti fissa con aria
+poco rassicurante, mostrandoti i denti in segno di sfida.
+~
+35 0 0 C
+1 0 94 9d1+9 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+37 0 0 0 1 1 0
+0 0 1031 0 0 0 0 0
+> death_prog 90~
+if level($n) >= 4
+if CountMobVnumRoom(10404) <= 1
+  mpmload 10357
+  mpat 10404 mpecho &YUna piccola creatura appare dal nulla!
+  mpforce $n glance pixie
+endif
+endif
+~
+|
+
+#10405
+koboldo gabbia~
+un koboldo~
+Un'espressione malefica dipinta sul volto e tanta voglia di darti noia, ecco un koboldo.~
+Con sguardo vitreo ti fissa per un istante, il tempo di sputare per terra e
+prendere la rincorsa per avventarsi contro di te..!
+~
+35 0 0 C
+1 0 94 8d1+0 0d0+0
+100 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 0
+44 0 0 0 131073 131072 0
+0 0 3 0 0 0 0 0
+
+#10406
+formica fuoco insetto arena~
+una formica di fuoco~
+Un insetto gigante s'aggira qui intorno, cercando qualche preda.~
+Si tratta di una formica dalle proporzioni spaventose! E' alta due volte un uomo
+e le sue forti mandibole stanno sgranocchiando quello che un tempo doveva
+essere un avventuriero.. E' interamente avvolta in un manto di fiammelle che
+la difendono da eventuali aggressori.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+8 8 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 1775 0 2048 0 0 0
+
+#10407
+formica fuoco insetto arena~
+una formica di fuoco~
+Un insetto gigante s'aggira qui intorno, cercando qualche preda.~
+Si tratta di una formica dalle proporzioni spaventose! E' alta due volte un uomo
+e le sue forti mandibole stanno sgranocchiando quello che un tempo doveva
+essere un avventuriero.. E' interamente avvolta in un manto di fiammelle che
+la difendono da eventuali aggressori.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+8 8 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10408
+formica fuoco insetto arena~
+una formica di fuoco~
+Un insetto gigante s'aggira qui intorno, cercando qualche preda.~
+Si tratta di una formica dalle proporzioni spaventose! E' alta due volte un uomo
+e le sue forti mandibole stanno sgranocchiando quello che un tempo doveva
+essere un avventuriero.. E' interamente avvolta in un manto di fiammelle che
+la difendono da eventuali aggressori.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+8 8 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10409
+formica fuoco insetto arena~
+una formica di fuoco~
+Un insetto gigante s'aggira qui intorno, cercando qualche preda.~
+Si tratta di una formica dalle proporzioni spaventose! E' alta due volte un uomo
+e le sue forti mandibole stanno sgranocchiando quello che un tempo doveva
+essere un avventuriero.. E' interamente avvolta in un manto di fiammelle che
+la difendono da eventuali aggressori.
+~
+101 33280 0 C
+7 11 25 1d10+120 1d4+6
+340 2000
+8 8 1
+15 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10410
+millepiedi arena~
+un millepiedi~
+Uno..trentasette..novecento..mille.. sono le zampe che stanno camminando vicino ai tuoi piedi.~
+Contare tutte le zampe di questo gigantesco millepiedi è un giochino divertente
+ma anche ipnotico.. non finiscono mai! Ed è quasi ironico constatare come
+questo animalone lungo quanto mezzo uomo, sia talmente indaffarato nel cercare qualche
+preda che non dia alcun peso alla tua presenza.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+8 8 0
+15 13 13 17 13 13 13
+0 0 0 0 0
+98 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10411
+millepiedi arena~
+un millepiedi~
+Uno..trentasette..novecento..mille.. sono le zampe che stanno camminando vicino ai tuoi piedi.~
+Contare tutte le zampe di questo gigantesco millepiedi è un giochino divertente
+ma anche ipnotico.. non finiscono mai! Ed è quasi ironico constatare come
+questo animalone lungo quanto mezzo uomo, sia talmente indaffarato nel cercare qualche
+preda che non dia alcun peso alla tua presenza.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+8 8 0
+15 13 13 17 13 13 13
+0 0 0 0 0
+98 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10412
+millepiedi arena~
+un millepiedi~
+Uno..trentasette..novecento..mille.. sono le zampe che stanno camminando vicino ai tuoi piedi.~
+Contare tutte le zampe di questo gigantesco millepiedi è un giochino divertente
+ma anche ipnotico.. non finiscono mai! Ed è quasi ironico constatare come
+questo animalone lungo quanto mezzo uomo, sia talmente indaffarato nel cercare qualche
+preda che non dia alcun peso alla tua presenza.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+8 8 0
+15 13 13 17 13 13 13
+0 0 0 0 0
+98 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10413
+millepiedi arena~
+un millepiedi~
+Uno..trentasette..novecento..mille.. sono le zampe che stanno camminando vicino ai tuoi piedi.~
+Contare tutte le zampe di questo gigantesco millepiedi è un giochino divertente
+ma anche ipnotico.. non finiscono mai! Ed è quasi ironico constatare come
+questo animalone lungo quanto mezzo uomo, sia talmente indaffarato nel cercare qualche
+preda che non dia alcun peso alla tua presenza.
+~
+65 4194816 0 C
+8 11 25 2d7+130 1d4+6
+1000 2000
+8 8 0
+15 13 13 17 13 13 13
+0 0 0 0 0
+98 3 0 0 68570629 0 0
+0 0 1775 0 2048 0 0 0
+
+#10414
+ratto grigio arena~
+un grosso ratto grigio~
+Due occhiacci gialli ti scrutano nella penombra, è un ratto.~
+Un ratto di dimensioni notevoli ti passa accanto e lanciandogli una rapida
+occhiata ti sembra d'aver appena incrociato il mercato dei germi ed il
+circo delle pulci fusi assieme. Il pelo del ratto è un coacervo di zecche
+e parassiti che hanno trovato un'ottima sistemazione dove poter vivere.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+8 8 0
+15 13 13 14 13 13 13
+0 0 0 0 0
+54 3 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+
+#10415
+ratto grigio arena~
+un grosso ratto grigio~
+Due occhiacci gialli ti scrutano nella penombra, è un ratto.~
+Un ratto di dimensioni notevoli ti passa accanto e lanciandogli una rapida
+occhiata ti sembra d'aver appena incrociato il mercato dei germi ed il
+circo delle pulci fusi assieme. Il pelo del ratto è un coacervo di zecche
+e parassiti che hanno trovato un'ottima sistemazione dove poter vivere.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+8 8 0
+15 13 13 14 13 13 13
+0 0 0 0 0
+54 3 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+
+#10416
+ratto grigio arena~
+un grosso ratto grigio~
+Due occhiacci gialli ti scrutano nella penombra, è un ratto.~
+Un ratto di dimensioni notevoli ti passa accanto e lanciandogli una rapida
+occhiata ti sembra d'aver appena incrociato il mercato dei germi ed il
+circo delle pulci fusi assieme. Il pelo del ratto è un coacervo di zecche
+e parassiti che hanno trovato un'ottima sistemazione dove poter vivere.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+8 8 0
+15 13 13 14 13 13 13
+0 0 0 0 0
+54 3 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+
+#10417
+ratto grigio arena~
+un grosso ratto grigio~
+Due occhiacci gialli ti scrutano nella penombra, è un ratto.~
+Un ratto di dimensioni notevoli ti passa accanto e lanciandogli una rapida
+occhiata ti sembra d'aver appena incrociato il mercato dei germi ed il
+circo delle pulci fusi assieme. Il pelo del ratto è un coacervo di zecche
+e parassiti che hanno trovato un'ottima sistemazione dove poter vivere.
+~
+65 4194816 0 C
+6 11 25 1d10+75 1d4+3
+500 2000
+8 8 0
+15 13 13 14 13 13 13
+0 0 0 0 0
+54 3 0 0 135680721 135680721 0
+0 0 1775 0 2048 0 1 0
+
+#10418
+talpa arena~
+una simpatica talpa~
+Un buffo musetto sbuca da sottoterra, è una talpa!~
+Prima si scorge il nasino rosa, poi tutto il muso, infine le zampe sporche
+di terra che hanno scavato fin qui. Si muove lenta sulla superficie, quasi
+si sentisse scoperta e a disagio fuori dal suo ambiente. Agita il naso nell'aria
+annusando a fondo per carpire tutti i possibili dettagli che sono negati
+alla sua proverbiale vista.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+8 8 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 3 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+
+#10419
+talpa arena~
+una simpatica talpa~
+Un buffo musetto sbuca da sottoterra, è una talpa!~
+Prima si scorge il nasino rosa, poi tutto il muso, infine le zampe sporche
+di terra che hanno scavato fin qui. Si muove lenta sulla superficie, quasi
+si sentisse scoperta e a disagio fuori dal suo ambiente. Agita il naso nell'aria
+annusando a fondo per carpire tutti i possibili dettagli che sono negati
+alla sua proverbiale vista.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+8 8 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 3 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+
+#10420
+talpa arena~
+una simpatica talpa~
+Un buffo musetto sbuca da sottoterra, è una talpa!~
+Prima si scorge il nasino rosa, poi tutto il muso, infine le zampe sporche
+di terra che hanno scavato fin qui. Si muove lenta sulla superficie, quasi
+si sentisse scoperta e a disagio fuori dal suo ambiente. Agita il naso nell'aria
+annusando a fondo per carpire tutti i possibili dettagli che sono negati
+alla sua proverbiale vista.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+8 8 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 3 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+
+#10421
+talpa arena~
+una simpatica talpa~
+Un buffo musetto sbuca da sottoterra, è una talpa!~
+Prima si scorge il nasino rosa, poi tutto il muso, infine le zampe sporche
+di terra che hanno scavato fin qui. Si muove lenta sulla superficie, quasi
+si sentisse scoperta e a disagio fuori dal suo ambiente. Agita il naso nell'aria
+annusando a fondo per carpire tutti i possibili dettagli che sono negati
+alla sua proverbiale vista.
+~
+65 512 0 C
+6 11 25 1d10+99 1d4+3
+500 2000
+8 8 1
+15 13 13 14 13 13 13
+0 0 0 0 0
+76 3 0 0 135680815 135680815 0
+0 0 1775 0 2048 0 0 0
+
+#10439
+statua paladino gabbia~
+una statua~
+Un'enorme scudo copre parzialmente le fattezze di una statua che si erge al centro della stanza~
+Fierezza e determinazione dominano il volto di questa statua, occhi puri e
+decisi che ora fissano te accendendosi di un lucore penetrante.
+~
+3 680 1000 C
+50 0 35 40d1+0 5d5+5
+100 0
+8 8 1
+13 13 13 13 13 13 0
+0 0 0 0 0
+88 7 0 0 1 1 0
+0 0 3 0 3072 0 0 0
+> act_prog p ti guarda.~
+if isclass($n) == CLASS_PALADIN
+  say a $n Salute a te, $n, sono stata designata per istruirti nel tuo cammino fra gli Auguri
+  say a $n In primo luogo, la dote da potenziare è la saggezza.
+  say a $n Questo incantesimo aumenterà la tua saggezza
+  cast sagacity $n
+  say a $n I Maestri lo chiamano 'Sagacity'.
+  say a $n Per trovare tutti gli incantesimi che potrai imparare
+  say a $n o le armi che potrai usare traccia SKILLS sulla tavoletta di cera.
+  say a $n Possano le profezie esserti favorevoli, $n!
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  say a $n Ho ancora un regalo per te, pronuncia REGALO per riceverlo.
+endif
+endif
+~
+> act_prog p si muove improvvisamente.~
+mpforce $n look
+mpecho Lentamente il marmo assume la consistenza ed il colore della pelle.. la statua è viva!
+emote ti guarda.
+smile $n
+mpecho La statua riacquista la primigenia consistenza travertina.
+~
+> speech_prog regalo~
+if isclass($n) == CLASS_PALADIN
+if level($n) == 1
+or level($n) == 2
+or level($n) == 3
+  mpoload 10330 1
+  mpoload 10330 1
+  mpoload 10331 1
+  mpoload 10400 1
+  put potion bag
+  put potion bag
+  put escape bag
+  give bag $n
+  say a $n Per usare le pozioni ricorda: QUAFF POTIONE o QUAFF ELISIR.
+  say a $n Per usare le pergamene: RECITE PERGAMENA.
+  say a $n Per conoscere il contenuto di una borsa devi esaminarla (EXAMINE BORSA)
+  say a $n Per prendere o riporre oggetti da una borsa: PUT <OGGETTO> BORSA, GET <OGGETTO> BORSA.
+  say a $n Usa accortezza nell'adoperare questi oggetti, un giorno potrebbero salvarti la vita.
+  mpforce $n config +brief
+  mpforce $n wake
+  mpforce $n down
+  mpat $n mpforce $n config -brief
+else
+  smile $n
+  say a $n Hai acquisito esperienza sufficiente, non hai più bisogno del mio aiuto.
+endif
+endif
+~
+|
+
+#10497
+hvak1 advancer~
+Una voce incavata ed avida~
+Hvak1 Advancer è qui (deve trovarsi sempre nella stanza 10499)~
+~
+0 4194344 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+
+#10498
+hvak2 advancer~
+Un'aspra voce~
+Hvak2 Advancer è qui (deve trovarsi sempre nella stanza 10499)~
+~
+0 4194344 0 S
+50 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+
+#0
+
+
+#OBJECTS
+
+#10300
+ciondolo accademia~
+un ciondolo multicolore~
+Un bizzarro oggetto multicolore è posato qui, sembra un ciondolo.~
+~
+9 0 4097
+2 2 0 0
+2 0 0
+E
+ciondolo~
+Si dice che trovare ciondoli porti fortuna, chissà magari è proprio così..
+Proviene dall'Accademia da Darkhaven.
+~
+A
+31 1
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10301
+stivali combattimento accademia~
+un paio di stivali neri da combattimento~
+Un paio di stivali sono riposti qui con cura.~
+~
+9 0 65
+3 3 0 0
+3 0 0
+E
+stivali~
+Sembrano davvero comodi e leggeri, vien voglia di indossarli e partire
+per terre lontanissime! Proviene dall'Accademia da Darkhaven.
+~
+A
+14 100
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10302
+cintura pelle accademia~
+una cintura di pelle intrecciata~
+Qualcuno ha lasciato qui una cintura di pelle intrecciata.~
+~
+9 0 2049
+2 2 0 0
+2 0 0
+E
+cintura pelle~
+E' una cintura di pelle ben rifinita e pronta all'uso, reggere pantaloni o
+all'occasione picchiare qualcuno. Proviene dall'Accademia da Darkhaven.
+~
+A
+5 1
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10303
+ghette accademia~
+un paio di ghette~
+Un paio di ghette sono posate per terra.~
+~
+9 0 33
+2 2 0 0
+3 0 0
+E
+ghette~
+Solide e resistenti, queste ghette sono una buona protezione per chi
+dovrà affrontare molti nemici. Proviene dall'Accademia da Darkhaven.
+~
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10304
+elmetto elmo ferro accademia~
+un pesante elmo di ferro~
+Vedi un pesante elmo di ferro posato qui.~
+~
+9 0 17
+3 3 0 0
+2 0 0
+E
+elmetto ferro~
+Fintanto che non troverai una protezione migliore per la tua testa, usa
+quest'elmetto, ti salverà dai colpi dei nemici. Proviene dall'Accademia da Darkhaven.
+~
+A
+3 1
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10305
+cappa accademia~
+una cappa nera~
+Vedi una cappa nera, dono dell'Accademia~
+~
+9 0 1025
+2 2 0 0
+3 0 0
+E
+cappa~
+Realizzata con broccato pesante, ti offrirà un caldo riparo dalle
+intemperie esterne. Proviene dall'Accademia di Darkhaven.
+~
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10306
+collare metallo accademia~
+un robusto collare di metallo~
+Dall'Accademia giunge questo insolito collare di metallo.~
+~
+9 0 5
+3 2 0 0
+5 0 0
+E
+collare metallo~
+Se trovi un cane di metallo puoi provarlo su di lui, oppure mettilo
+attorno al tuo collo, magari ti riparerà da qualche spadata.
+Proviene dall'Accademia di Darkhaven.
+~
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10307
+modulo completamento foglio accademia~
+un modulo di completamento~
+Vedi un foglio poggiato qui, emana una vaga luce azzurrina.~
+~
+9 64 131073
+2 0 0 0
+1 0 0
+E
+modulo completamento~
+Congratulazioni! Hai completato l'Accademia di Darkhaven e puoi ritirare
+il tuo diploma di completamento! E' magico e puoi indossarlo..
+Proviene dall'Accademia di Darkhaven.
+~
+A
+4 1
+A
+3 1
+> wear_prog 100~
+mpechoat $n Appena stringi fra le mani il diploma la tua saggezza aumenta!
+mpechoaround $n Appena $n stringe in mano il diploma, $e sembra più intelligente!
+~
+|
+
+#10308
+armatura accademia~
+un'armatura~
+Un altro dono dell'Accademia, un'armatura d'acciaio.~
+~
+9 0 9
+2 2 0 0
+5 0 0
+E
+armatura~
+Quest'armatura ti proteggerà durante i primi scontri in arena.
+Proviene dall'Accademia di Darkhaven.
+~
+
+#10309
+maniche accademia~
+leggere maniche di latta~
+Un paio di maniche di latta sono posate qui, ancora un dono dall'Accademia.~
+~
+9 0 257
+3 3 0 0
+1 0 0
+E
+maniche latta~
+Le tue braccia saranno protette a sufficienza da queste maniche, ma datti
+da fare per cercarne di migliori..
+Proviene dall'Accademia di Darkhaven.
+~
+A
+1 1
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10310
+scudo crestato accademia~
+uno scudo crestato~
+Sullo scudo posato per terra vedi i simboli dell'Accademia di Darkhaven~
+~
+9 0 513
+2 2 0 0
+5 0 0
+E
+scudo~
+E' il tuo scudo, su di esso son disegnati i simboli dell'accademia
+di Darkhaven.
+~
+
+#10311
+occhio accademia.~
+l'Occhio della Veggenza~
+Incredibile.. vedi per terra un oggetto simile ad un occhio.~
+~
+1 65 1
+0 0 -1 0
+1 0 0
+A
+24 -1
+
+#10312
+accademia daga~
+una daga decorata~
+Vedi una piccola ma affilata daga dell'Accademia.~
+~
+5 64 8193
+12 1 6 11
+2 0 0
+A
+18 2
+A
+19 1
+
+#10313
+spada accademia~
+una spada rifinita~
+Vedi una spada con l'elsa ben rifinita, ancora un dono dell'Accademia.~
+~
+5 0 8193 0
+12 5 8 3
+50 2000 0
+E
+spada~
+Non è una delle migliore spade che incontrerai nel tuo cammino, ma per
+sconfiggere ed uccidere i primi nemici va più che bene.
+Proviene dall'Accademia di Darkhaven.
+~
+A
+18 2
+A
+19 1
+
+#10314
+borraccia otre drago~
+un otre in pelle di drago~
+Da un piccolo otre fuoriesce dell'acqua.~
+~
+17 0 1
+15 15 0 0
+0 30 3
+
+#10315
+mazza accademia~
+una robusta mace~
+Una robusta mazza è poggiata per terra.~
+~
+5 64 8193
+12 3 6 7
+2 0 0
+E
+mazza~
+E' abbastanza buona per i primi scontri, impara ad usarla bene.
+Proviene dall'Accademia di Darkhaven.
+~
+A
+18 2
+A
+19 1
+
+#10316
+torcia~
+una torcia~
+Vedi un pezzo di legno ricoperto di stoffa ad un'estremità, che sia una torcia?~
+~
+1 0 65537
+0 0 24 0
+1 20 2
+
+#10317
+carne coniglio~
+carne di coniglio essiccata~
+L'aria è intrisa di un odore familiare, carne essiccata.~
+~
+19 0 1
+24 0 0 0
+1 40 4
+
+#10318
+spadina Serpentella~
+Serpentella~
+Vedi per terra una spadina tutta verde..~
+~
+5 0 8193 0
+12 4 9 3
+50 2000 0
+A
+19 3
+A
+1 -1
+
+#10319
+guanti bimbo accademia~
+un paio di guantini~
+Dall'Accademia giunge questo paio di guantini.~
+~
+9 0 129
+3 0 0 0
+2 0 0
+A
+2 1
+> drop_prog 100~
+mpforce $n sacrifice $o
+~
+|
+
+#10320
+borsa trucchi~
+una borsa di trucchi~
+C'è un grossa borsa qui, forse un mago se l'è dimenticata.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+borsa trucchi~
+Più che la borsa di un mago sembra la borsa di un prestigiatore.
+~
+
+#10321
+borsa cure~
+una borsa a tracolla~
+Dalla borsa per terra sbucano alcuni flaconcini.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+borsa~
+Questa borsa appartiene a qualche chierico, è piena di pozioni curative.
+~
+
+#10322
+borsa furto~
+la borsa del furto~
+Un piccolo arnese in metallo spunta fuori da una borsa.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+borsa furto~
+E' piena di ferri del mestiere! Chissà che non ci troverai qualcosa di utile..
+~
+
+#10323
+zaino guerra~
+uno zaino pieno d'armi~
+Qualche guerriero ha dimenticato il suo zaino di armi.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+zaino armi~
+Un tempo apparteneva ad un valoroso guerriero.
+~
+
+#10324
+borsa oscurità ombra~
+una borsa d'ombra~
+Un vampiro s'è dimenticato la borsa in un angolo.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+borsa ombre~
+Sembra fatta di materiale scuro impalpabile.. oscurità forse.
+~
+
+#10325
+borsa natura~
+una borsa verde~
+Vedi ciuffo di erbette arancioni sbucare da dentro una borsa.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+borsa natura~
+E' completamente verde, con bordature giallo-oro e contiene diverse
+varietà di erbe e radici.
+~
+
+#10326
+piccolo zaino~
+un piccolo zaino~
+Per terra vedi un piccolo zaino.~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+zaino~
+C'è tutto l'occorrente per sopravvivere in qualunque tipo di ambiente..
+~
+
+#10330
+pozione elisir fiala~
+un elisir contro i non-morti~
+Vedi una fiala per terra, contiene un bizzarro liquido fosforescente.~
+~
+10 1 1
+20 16 61 81
+2 0 0
+E
+elisir pozione~
+E' una pozione curativa e rinvigorente..
+~
+
+#10331
+pergamena fuga~
+una pergamena di fuga~
+Intravedi delle rune disegnate su una pergamena arrotolata.~
+~
+2 0 1
+10 35 43 246
+5 0 0
+
+#10333
+guida libro accademia~
+la Guida per Avventurieri~
+Un grosso tomo è stato lasciato qui, ad uso degli avventurieri più giovani.~
+~
+9 524288 16385
+5 5 0 0
+1 1234 123
+E
+guida tomo libro~
+Utili informazioni per i novizi:
+
+SPAM -        Spiega cos'è lo spam e cosa fare per combatterlo.
+CONFIG -      Spiega la configurazione del menu.
+SCORE -       Mostra la tabella dati relativa al tuo personaggio.
+MOVEMENT -    Spiega alcuni comandi per muoversi nei Reami.
+OBJECTS -     Spiega alcuni comandi per usare adeguatamente l'equipaggiamento.
+CONTAINER -   Spiega come usare i contenitori.
+CHANNELS -    Spiega come comunicare con gli altri avventurieri.
+GROUP -       Spiega come gruppare con gli altri avventurieri.
+COMBAT -      Spiega come scegliere un nemico, iniziare e terminare un combattimento.
+DEATH -       Spiega come avviene la morte nei Reami.
+PRACTICE -    Elenca gli incantesimi e le abilità che imparerai nei Reami.
+INFORMATION - Altre informazioni utili.
+
+Per usare questi aiuti, scrivi HELP <argomento> dalla lista di argomenti
+sopra elencati.
+~
+A
+3 1
+A
+5 1
+A
+4 1
+> get_prog 100~
+if ispg($n)
+  mpechoat $n &WLa tua intelligenza trarrà giovamento dalla lettura di questa
+  mpechoat $n &WGuida per Avventuerieri. Fermati un istante e leggila!
+endif
+~
+|
+
+#10345
+catena guinzaglio Chadoyn~
+il guinzaglio di un chadoyn~
+Vedi alcune catenelle attaccate ad un collare, formano uno strano guinzaglio..~
+~
+9 524288 5
+0 3 0 0
+2 1 0
+A
+17 -3
+
+#10367
+bacheca accademia~
+la bacheca del Consiglio dei Novizi~
+Potrai appendere i tuoi reclami su questa bacheca.~
+~
+13 0 0
+0 0 0 0
+0 0 0
+E
+bacheca novizi~
+Puoi leggere le note in bacheca con NOTE LISTA oppure se vuoi scrivere
+qualcosa usa NOTE LEGGI <#>. Per ulteriori informazioni scrivi HELP NOTA.
+~
+
+#10370
+bastone magico~
+un bastone magico~
+Un bastone che emette vaghi bagliori rossastri attira la tua attenzione.~
+~
+4 321 16385
+5 1 1 36
+1 60 6
+
+#10371
+scudo~
+uno scudo lucente~
+Un'aura magica circonda lo scudo posato ai tuoi piedi..~
+~
+9 321 16385
+2 2 0 0
+1 200 20
+
+#10372
+mappa~
+una mappa accartocciata~
+Vedi un foglio accartocciato per terra, dai simboli si direbbe una mappa.~
+~
+35 321 1
+0 0 0 0
+1 100 10
+E
+mappa~
+Istruzioni:
+
+Questa mappa può dimostrarsi molto utile, per evocare la sua magia
+esaminala attentamente. Ricorda, potrai usare i suoi poteri soltanto
+lungo un sentiero o una strada perché all'interno dell'Accademia non ti
+sarà d'aiuto. Non è stata concepita per riportare gli avventurieri a Darkhaven.
+
+Sappi che una volta recitate le formule magiche, il potere della mappa svanirà..
+~
+> exa_prog 100~
+mpechoat $n &YDalla mappa si sprigiona un'onda di magica potenza!
+mpecho &R$O emana bagliori rossi in tutte le direzioni!
+if isadmin($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21037
+  or inroom($n) == 21036
+    mpechoat $n &wLa mappa ti ha trasferito ad ovest.
+  else
+  if inroom($n) == 21000
+  or inroom($n) == 21042
+  or inroom($n) == 21043
+  or inroom($n) == 21044
+    mpechoat $n &wLa mappa ti ha trasferito a sud.
+  else
+  if inroom($n) == 21020
+    mpechoat $n &wLa mappa ti ha trasferito ad est.
+  else
+  if inroom($n) == 21019
+    mpechoat $n &wLa mappa ti ha trasferito a nord.
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mpechoat $n La mappa s'illumina per un attimo ma poi non succede nulla..
+  else
+    mpechoat $n Darkhaven è troppo distante, la mappa non ha sufficienti poteri.
+  endif
+  endif
+  endif
+  endif
+  endif
+else
+  mpechoat $n Ormai puoi contare sulle tue forze senza l'aiuto della mappa!
+  mpechoat $n Gli Dei inducono $n a sacrificare $O!
+  mpforce $n drop mappa
+  mpforce $n sacrifice mappa
+endif
+~
+|
+
+#10373
+mappa~
+una mappa magica~
+Una luce benedetta risplende intorno alla mappa per terra.~
+~
+35 321 1
+0 0 0 0
+1 100 10
+E
+mappa~
+Istruzioni:
+
+Questa mappa può dimostrarsi molto utile, per evocare la sua magia
+esaminala attentamente. Ricorda, potrai usare i suoi poteri soltanto
+lungo un sentiero o una strada perché all'interno dell'Accademia non ti
+sarà d'aiuto. Non è stata concepita per riportare gli avventurieri a Darkhaven.
+
+Sappi che una volta recitate le formule magiche, il potere della mappa svanirà..
+~
+> exa_prog 100~
+mpechoat $n &YLa mappa ti avvolge con la sua aura magica!
+mpecho &R$O brilla di luce rossa!
+if isadmin($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21012
+  or inroom($n) == 21113
+  or inroom($n) == 21112
+  or inroom($n) == 3503
+    mpechoat $n &wLa mappa ti conduce ad est.
+  else
+  if inroom($n) == 3502
+    mpechoat $n &wLa mappa ti conduce a nord-est.
+  else
+  if inroom($n) == 6500
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mpechoat $n La mappa s'illumina per un attimo ma poi non succede nulla..
+  else
+    mpechoat $n Darkhaven è troppo distante, la mappa non ha sufficienti poteri.
+  endif
+  endif
+  endif
+  endif
+else
+  mpechoat $n Ormai puoi contare sulle tue forze senza l'aiuto della mappa!
+  mpechoat $n Gli Dei inducono $n a sacrificare $O!
+  mpforce $n drop map
+  mpforce $n sac map
+endif
+~
+|
+
+#10374
+mappa vecchia~
+una vecchia mappa rovinata~
+Per terra giace una vecchia mappa abbandonata.~
+~
+2 321 1
+50 95 -1 -1
+1 1 0
+E
+mappa~
+Istruzioni:
+
+Questa mappa può dimostrarsi molto utile, per evocare la sua magia
+esaminala attentamente. Ricorda, potrai usare i suoi poteri soltanto
+lungo un sentiero o una strada perché all'interno dell'Accademia non ti
+sarà d'aiuto. Non è stata concepita per riportare gli avventurieri a Darkhaven.
+
+Sappi che una volta recitate le formule magiche, il potere della mappa svanirà..
+~
+> exa_prog 100~
+mpecho &W$O brilla di luce bianca!
+if isadmin($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21037
+  or inroom($n) == 21036
+  or inroom($n) == 21163
+  or inroom($n) == 21165
+  or inroom($n) == 21182
+    mpechoat $n &wLa mappa guida i tuoi passi verso ovest.
+  else
+  if inroom($n) == 21000
+    mpechoat $n &wLa mappa guida i tuoi passi verso nord-ovest.
+  else
+  if inroom($n) == 21166
+  or inroom($n) == 21167
+  or inroom($n) == 21168
+  or inroom($n) == 21181
+    mpechoat $n &wLa mappa guida i tuoi passi verso nord.
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+   mpechoat $n La mappa s'illumina per un attimo ma poi non succede nulla..
+  else
+    mpechoat $n Darkhaven è troppo distante, la mappa non ha sufficienti poteri.
+  endif
+  endif
+  endif
+  endif
+else
+  mpechoat $n Ormai puoi contare sulle tue forze senza l'aiuto della mappa!
+  mpechoat $n Gli Dei inducono $n a sacrificare $O!
+  mpforce $n drop mappa
+  mpforce $n sac mappa
+endif
+~
+|
+
+#10375
+mappa stregoni~
+la mappa dello stregone~
+Uno stregone distratto s'è dimenticato qui la sua mappa.~
+~
+2 321 1
+51 95 -1 -1
+1 100 10
+E
+mappa~
+Istruzioni:
+
+Questa mappa può dimostrarsi molto utile, per evocare la sua magia
+esaminala attentamente. Ricorda, potrai usare i suoi poteri soltanto
+lungo un sentiero o una strada perché all'interno dell'Accademia non ti
+sarà d'aiuto. Per tornare in città prova "recite mappa"
+
+Sappi che una volta recitate le formule magiche, il potere della mappa svanirà..
+~
+> exa_prog 100~
+mpecho &b$O è avvolta da una luce magica..
+if isadmin($n)
+or level($n) <= 12
+  if inroom($n) == 21038
+  or inroom($n) == 21037
+  or inroom($n) == 21036
+  or inroom($n) == 21163
+  or inroom($n) == 21165
+    mpechoat $n &wLa mappa ti trasferisce ad ovest.
+  else
+  if inroom($n) == 21000
+    mpechoat $n &wLa mappa ti trasferisce a nord-ovest.
+  else
+  if inroom($n) == 21166
+  or inroom($n) == 21167
+  or inroom($n) == 21168
+  or inroom($n) == 21181
+    mpechoat $n &wLa mappa ti trasferisce a nord.
+  else
+  if inroom($n) == 21182
+    mpechoat $n La mappa ti trasferisce ad est.
+  else
+  if inroom($n) < 21000
+  or inroom($n) > 21407
+    mpechoat $n La mappa s'illumina per un attimo ma poi non succede nulla..
+  else
+    mpechoat $n Darkhaven è troppo distante, la mappa non ha sufficienti poteri.
+  endif
+  endif
+  endif
+  endif
+  endif
+else
+  mpechoat $n Ormai puoi contare sulle tue forze senza l'aiuto della mappa!
+  mpechoat $n Thoric ti costringe a sacrificare $O
+  mpechoaround $n Gli Dei inducono $n a sacrificare $O
+  mpforce $n drop mappa
+  mpforce $n sac mappa
+endif
+~
+|
+
+#10397
+stivali~
+stivali neri in pelle di daino~
+Un paio di morbidi stivali è poggiato per terra.~
+~
+9 0 65
+0 0 0 0
+0 0 0
+
+#10398
+abito~
+un abito scuro~
+Qualcuno ha piegato e posato qui un abito scuro come la notte.~
+~
+9 0 1025
+0 0 0 0
+0 0 0
+
+#10399
+bastone~
+il bastone degli Arcani~
+Incredibile! A pochi passi da te vediun bastone che rimane dritto da solo!~
+~
+4 80 16385
+54 100 100 30
+0 0 0
+
+#10400
+borsa saggezza~
+la borsa dei saggi~
+Un aruspice dev'essersi dimenticato della sua borsa..~
+~
+15 0 1
+75 1 0 0
+5 0 0
+E
+borsa saggezza~
+Sembra proprio la borsa di un aruspice.
+~
+
+#10401
+fontana~
+una fontana~
+Ti arriva un piccolo spruzzo d'acqua dalla fontana qui davanti.~
+~
+25 0 0
+50 50 0 0
+500 3000 300
+E
+fontana~
+Semplice nella linea ma attentamente studiata nelle proporzioni, è una fontana
+su tre livelli, l'acqua esce da un tubo di metallo in cima e ridiscende nei
+tre piatti inferiori gradualmente.
+~
+
+#10410
+lama granito~
+una possente lama di granito~
+Nascosta dalla fodera di pelle vedi una gigantesca lama di granito..~
+~
+5 68 8193
+12 1 6 11
+2 0 0
+E
+lama granito~
+E' pesante e grossolana, ma può rivelarsi utile nei primi combattimenti
+che dovrai affrontare.
+~
+A
+18 2
+A
+19 1
+
+#10411
+mazza adamantio~
+una lucente mazza d'adamantio~
+Il metallo di questa mazza riluce ai bagliori del giorno.~
+~
+5 0 8193 0
+12 6 6 7
+46 10 0
+E
+mazza adamantio~
+Anche quest'arma ti sarà utile nei primi scontri con i tuoi avversari.
+~
+A
+18 2
+A
+19 1
+
+#10412
+spadone lama spada~
+un pesante spadone d'acciaio~
+Affilata e micidiale.. una lama brilla nella penombra.~
+~
+5 0 8193 0
+12 6 8 3
+50 2000 0
+E
+spada spadone lama~
+E' forgiata in una resistente lega di metallo e farà strage di nemici
+se saprai usarla sapientemente.
+~
+A
+18 2
+A
+19 1
+
+#10413
+radice arena~
+una radice~
+Coperta da terra e polvere vedi ai tuoi piedi una strana radice.~
+~
+26 537133056 16385
+20 15 84 -1
+3 1200 120
+A
+5 1
+A
+4 1
+
+#10499
+Oggetto finale dell'area NewAcad~
+Oggetto finale dell'area NewAcad~
+Oggetto finale dell'area NewAcad~
+~
+13 1073741824 0
+0 0 0 0
+0 0 0
+
+#0
+
+
+#ROOMS
+
+#10300
+L'Accademia di Darkhaven.~
+Sei nell'Accademia di Darkhaven, luogo preposto all'insegnamento delle regole
+base per avventurarsi nei Reami. Ogni stanza ha un suo preciso scopo e
+contiene molte informazioni su come muoversi nel mondo e come approcciare
+i numerosi avventurieri che incontrerai strada facendo.
+Esplora tutta l'Accademia, poni attenzione ai particolari e prenditi tutto
+il tempo che serve per leggere i messaggio d'aiuto disseminati per ogni dove.
+
+Per andare a nord, scrivi N e sarai nella prossima stanza dell'Accademia.
+Se desideri cimentarti sul campo di battaglia ti basterà aprire la porta
+a sud (OPEN PORTA, OPEN S) e l'arena s'aprirà davanti a te.
+~
+0 1049608 3
+D0
+Un corridoio scavato nella pietra
+~
+~
+16777216 -1 10301
+D2
+~
+porta~
+16777219 -1 10382
+D4
+Di fronte a te vedi l'entrata alla città di Darkhaven.
+~
+~
+0 -1 21280
+E
+porta~
+Vedi una solida porta in legno di noce.
+~
+E
+s~
+Vedi un portone in legno di noce.
+~
+E
+sud~
+Vedi una porta.
+~
+> leave_prog 100~
+if ispg($n)
+if level($n) == 1
+  mpforce $n config +brief
+endif
+endif
+~
+|
+S
+
+#10301
+Un corridoio di pietra.~
+Ad ovest una porta socchiusa ti invita ad entrare nell'aula delle lezioni
+di lingue. Abbigalye, l'insegnante, è in piedi nella stanza, lievemente
+appoggiata alla cattedra ed attende che si faccia vivo qualche studente.
+Ad est invece potrai imparare l'arte del combattimento da Domick, ti parlerà
+anche di abilità ed incantesimi.
+Quando avrai terminato le tue lezioni torna qui e prosegui verso nord.
+~
+0 3145736 0
+D0
+Stanza della Lettura.
+~
+~
+0 -1 10304
+D1
+Il laboratorio degli Incantesimi.
+~
+~
+0 -1 10303
+D2
+L'entrata all'Accademia.
+~
+~
+0 -1 10300
+D3
+L'aula di Abbigayle, l'insegnante di lingue.
+~
+~
+0 -1 10306
+> leave_prog 100~
+if isadmin($n)
+else
+  mpforce $n visible
+endif
+~
+> entry_prog 100~
+if ispg($n)
+if level($n) == 1
+  say a $n &WNon puoi continuare finché non sarai al secondo livello!
+  say a $n &WTi devo mandare indietro da Tsythia, adesso.
+  mptransfer $n 10300
+  mpat 10300 mpforce $n look
+endif
+endif
+~
+|
+S
+
+#10302
+Altrove~
+Ce l'hai fatta! Hai superato i tuoi primi esami! Per continuare il tirocinio
+prosegui verso nord, tornerai alla stanza di Lettura.
+~
+0 3145740 0
+D0
+La stanza della Lettura.
+~
+~
+0 -1 10304
+S
+
+#10303
+Il laboratorio di incantesimi ed abilità.~
+Sei nel posto giusto per impratichirti con diversi tipi di armi e prendere
+confidenza con gli incantesimi e le altre materie che dovrai studiare.
+Per conoscere la lista dei tuoi doveri di studente scrivi PRACTICE.
+Ogni avventuriero si ritrova un piano di studi da seguire, comprendente
+magie, abilità pratiche, armi da saper maneggiare. Per apprendere un qualunque
+insegnamento scrivi PRACTICE <nome incantesimo, abilità o tipo di arma>.
+Se per esempio devi praticare l'arte del disarmare te o un nemico delle
+protezioni magiche scrivi PRAC DISPEL MAGIC.
+Controlla anche il grado di avanzamento delle tue pratiche, quando inizi l'iter
+saranno a 0%, man mano che ti impegnerai la percentuale di conoscenza
+aumenterà.
+Per avere informazioni sugli incantesimi usa HELP CAST o più specificamente
+HELP <nome incantesimo>, per domande di carattere più generale sulle
+pratiche, scrivi solo HELP PRACTICE.
+Ad ogni livello d'esperienza maturerai un numero di sessioni di pratica,
+variabile a seconda della tua saggezza.
+~
+0 1049608 0
+D3
+Un corridoio in pietra
+~
+~
+0 -1 10301
+S
+
+#10304
+La stanza di Lettura.~
+Questa stanza è volutamente silenziosa, qui dentro non potrai comunicare con
+nessuno, in nessun modo.. forse solo a gesti.
+La protezione del silenzio è fortemente voluta per concedere ad ognuno di poter
+leggere in pace le informazioni necessarie.
+Puoi ottenere una lista completa di canali di comunicazione scrivendo CHAN.
+Puoi selezionare un canale da oscurare procedendo con CHAN -<nome canale>,
+potrai riattivarlo in qualunque momento con CHAN +<nome canale>.
+Ad esempio, se non vuoi che ti si informi sulle aste in corso, scrivi
+CHAN -AUCTION, quando vuoi tornare ad ascoltarle ti basterà fare CHAN +AUCTION.
+Pensa che bello.. puoi isolarti dal mondo per rimanere un po' in silenzio
+scrivendo semplicemente CHAN -ALL. Dopo la meditazione ritorna fra la
+gente con un CHAN +ALL.
+Una volta che avrai terminato di leggere qui, vai a testare le tue
+abilità, mettiti alla prova.
+Verso ovest ti ritroverai in un'altra ala dell'Accademia, il test consiste
+nel passare di stanza in stanza leggendo attentamente le indicazioni
+in esse contenute e ritornare infine qui, nella stanza di lettura.
+Se nel tragitto senti d'aver perso l'orientamento vai verso l'alto e la
+magia dell'Accademia ti riporterà proprio qui, al punto di partenza.
+Una volta percorso tutto il tragitto, puoi dirigerti verso nord.
+~
+0 3211272 0
+D0
+Un corridoio con pannelli di marmo.
+~
+~
+0 -1 10314
+D2
+Un corridoio di pietra.
+~
+~
+0 -1 10301
+D3
+Girellando nell'Accademia.
+~
+~
+0 -1 10307
+S
+
+#10305
+Camera dei Ranger tirocinanti~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro i alcuni mostri (conosciuti
+anche come MOBS). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mostro, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET TUTTO CORPO). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10389
+D1
+Una gabbia
+~
+~
+0 -1 10388
+D2
+Una gabbia
+~
+~
+0 -1 10387
+D3
+Una gabbia
+~
+~
+0 -1 10390
+D5
+Un corridoio di pietra.
+~
+~
+0 -1 10356
+S
+
+#10306
+L'aula di Abbigayle~
+Finalmente i tanti idiomi di questo mondo non resteranno un mistero ancora
+per molto.. Abbigayle è qui per insegnarti i linguaggi delle diverse razze
+presenti nei Reami. Per sapere quale lingue puoi imparare consulta la tua
+lista di pratiche (PRACTICE) quindi scrivi LANGUAGE LEARN <nome della lingua>
+Per ulteriori informazioni sui linguaggi consulta HELP LANGUAGES, HELP SPEAK,
+HELP TONGUE. Dovrai usare delle sessioni di pratica per imparare le lingue, ma
+ne vale sempre la pena!
+Chi sa comunicare se la cava sempre.
+~
+0 1049608 0
+D1
+Un corridoio in pietra.
+~
+~
+0 -1 10301
+S
+
+#10307
+A spasso per l'Accademia.~
+Tutti gli avventurieri hanno a disposizione una serie di controlli automatici
+da poter usare, per sapere quali siano scrivi CONFIG.
+In questa parte di tirocinio è consigliato adoperare CONFIG+AUTOEXIT per
+avere subito chiare tutte le uscite in ogni stanza.
+Una delle paroline magiche da ricordarsi sempre è EXIT, ogni volta che ne fai
+uso ti compariranno i nomi delle camere attigue alla tua, alle quali potrai
+accedere tramite le varie uscite, non nascoste, segnalate nella stanza.
+Ti sarà molto comodo per cercare di carpire informazioni su possibili
+trappole vicine.. Se per esempio ti compare il nome di una stanza
+"il Precipizio senza fine", hai l'opportunità di pensarci un paio di volte
+prima di varcare la soglia.. Prova anche a dare un'occhiatina alle stanze
+vicine di quando in quando, è un buon allenamento per evitare tranelli.
+(LOOK <direzione>).
+La prossima stanza da visitare si trova ad ovest, prova a scrivere EXIT e L W.
+~
+0 3145736 0
+D1
+La stanza della Lettura.
+~
+~
+0 -1 10304
+D3
+Girellando per l'Accademia.
+~
+~
+0 -1 10309
+D4
+Indietro verso l'entrata.
+~
+~
+0 -1 10304
+E
+porta~
+Vedi una solida porta in legno massiccio.
+~
+S
+
+#10308
+Una fossa umida.~
+Un esemplare di Chadoyn è qui a far bella mostra di sé.
+Narrano le leggende che un tempo questa creatura si divertisse a seminare
+panico e morte fra gli studentelli ignari, poi le essenze Divine, stufe
+di queste continue scorribande lo punirono relegandolo in questa fossa
+scura e umida. Incatenato alla parete serve come primo avversario per i
+novizi: puoi attaccarlo, scappare oppure parlargli dei tuoi problemi con
+gli insegnanti, ormai non può farti del male così conciato.
+Se non vuoi approfittare della sua pazienza e vuoi passare subito all'attacco
+prova prima a confrontare le tue forze con le sue, con una considerazione
+tutta teorica: CONSIDER Chadoyn o CON Chadoyn.
+E' sempre bene utilizzare CON <nome mostro> prima di dar battaglia, a volte avventuriero
+avvisato, avventuriero salvato.. Sii prudente e buona fortuna!
+~
+0 3145736 0
+D3
+Una fossa umida.
+~
+~
+0 -1 10316
+S
+
+#10309
+Camminando nell'Accademia.~
+Devi sapere che non tutte le apparenze ingannano, talvolta ciò che assomiglia
+ad una porta o una botola è realmente una porta! Ma come si fa a saperlo se
+nella lista delle uscite non compare? Usiamo un metodo empirico, il primo
+tentativo per eccellenza è sbatterci contro.. Ad esempio vai a nord eh.. AHI!
+Hai sbattuto contro una porta. Puoi anche tentare d'aprire porte nelle varie
+direzioni, OPEN N o OPEN DOOR, una volta aperte compariranno nella lista EXIT.
+Consulta HELP OPEN per ricavare altre informazioni sulle porte.
+~
+0 3145736 0
+D0
+Una stanza recintata.
+~
+door~
+3 -1 10310
+D1
+Girellando in Accademia.
+~
+~
+0 -1 10307
+D3
+Persi nei corridoi..
+~
+~
+0 -1 10311
+D4
+Indietro all'inizio.
+~
+~
+0 -1 10304
+E
+porta~
+Vedi una solida porta di legno.
+~
+S
+
+#10310
+La prima stanza~
+Ben fatto! Hai trovato la prima stanza! Nel tuo peregrinare tante stanze
+incontrerai simili a questa. Alcune sono facili da raggiungere, grazie anche
+agli indizi che troverai in ogni camera, altre sono delle stanze nascoste,
+rintracciabili mediante dei particolari riportati anche in sale distanti.
+Non disperarti, ricorda di guardare (look), picchiettare i muri con le nocche (bump),
+ed infine non dimenticarti delle uscite da controllare (exit).
+A molti avventurieri verrà insegnata una pratica chiamata "scry" o "lunga visione",
+utile per dare un'occhiatina nelle stanze attigue a quella in cui si trovano.
+Controlla nella lista di abilità "SKILLS" se avrai modo di imparare lo scry e in caso a
+quale livello di esperienza. Nella lista compariranno anche tutte le altre abilità, gli
+incantesimi che ti verranno insegnati e le armi che potrai maneggiare.
+~
+0 3145736 0
+D2
+Girellando in Accademia.
+~
+porta~
+3 -1 10309
+S
+
+#10311
+Persi nell'Accademia.~
+Ci sono numerose uscite particolari disseminate fra le stanze dell'Accademia.
+Hai già imparato a conoscere alcune di queste, ad esempio quelle chiuse, ma ve
+ne sono altre che non si scovano con una semplice occhiata o con metodi meno
+ortodossi (bump).
+Per indovinare la presenza di una botola segreta, devi osservare attentamente
+la stanza e tutto il mobilio che la arreda, da un particolare si può evincere
+molto, se lo si sa guardare bene.
+Poni attenzione ai nomi degli oggetti che trovi nelle stanze, a volte sono essi
+stessi delle chiavi d'accesso alle porte nascoste. (Esempio: "Sul pavimento impolverato
+ti colpisce una trave, completamente pulita e leggermente sconnessa dalle altre".
+A questo punto puoi tentare: "open trave", trave è la chiave d'accesso alla segreta).
+Incontrerai anche delle porte serrate con lucchetti o chiuse a chiave: hai
+diverse opzioni in questi casi. Se conosci l'incantesimo per passare le porte puoi tentare
+di attraversare la porta chiusa, se conosci l'arte dello scassinamento prova a metterla
+in pratica! Altrimenti, chi non ha cervello abbia gambe.. Prendi una bella rincorsa
+e cerca di sfondare la porta!
+Imparerai a tue spese che alcune porte si aprono soltanto con la loro chiave.
+Alcune uscite saranno poste troppo in alto e l'unico modo per raggiungerle sarà
+volare o arrampicarsi, a te la scelta.
+Tutte le porte sono collocate in direzioni realmente esistenti che sono abbreviate
+con le seguenti lettere: N, E, O, S, NE, NO, SE, SO, A, B.
+Nella stanza a nord si trova la tua prima botola segreta, osserva tutto attentamente
+e scoverai il particolare che cerchi.
+~
+0 3145736 0
+D0
+Persi in Accademia..
+~
+~
+0 -1 10312
+D1
+Girellando nell'Accademia.
+~
+~
+0 -1 10309
+D4
+Indietro all'inizio.
+~
+~
+0 -1 10304
+S
+
+#10312
+Girellando in Accademia~
+Giungi in una sala riccamente decorata. Un grande tavolo in legno di quercia,
+circondato da dodici sedie, occupa gran parte della stanza. Alcuni globi
+di purissimo cristallo incantato, fluttuano nell'aria provvedendo alla
+illuminazione del locale.
+I muri sono decorati con arazzi di pregiata qualità, in ognuno è ricamata
+una scena tratta dalla vita quotidiana in Accademia.
+Ora guarda attentamente ciò che ti circonda e troverai l'uscita nascosta.
+~
+0 3145736 0
+D2
+Persi nell'Accademia.
+~
+~
+0 -1 10311
+D3
+Vedi un arazzo appeso al muro.. qualcosa in esso non ti convince.~
+arazzo arazzi porta apertura~
+11 -1 10313
+D4
+Indietro all'inizio.
+~
+~
+0 -1 10304
+E
+arazzo~
+Seguendo con un dito il disegno dell'arazzo t'accorgi che dietro di esso
+si nasconde qualcosa che sembra una maniglia.. scosti di poco il tessuto
+ed in effetti scopri una porta nascosta! Chissà dove conduce..
+~
+E
+porta~
+Intravedi una porta abilmente camuffata dietro l'arazzo ad ovest.
+~
+E
+sfere cristallo globi~
+La luce diffusa dai globi proietta degli interessanti giochi d'ombre
+sulle pareti.. Le ombre sul muro ad ovest sembrano i contorni di
+un'apertura..
+~
+S
+
+#10313
+Un'alcova segreta~
+Complimenti hai scoperto la tua prima stanza segreta! Affina il tuo istinto
+e le tue abilità per imparare a riconoscere gli ingressi segreti. Può capitare
+che nelle stanze nascoste si trovino tesori d'inestimabile valore o che
+addirittura in esse vi siano ulteriori ingressi celati.
+Accanto a te si trova un dipinto, dagli un'occhiatina.. non sia mai che si possa
+trovar qualcosa di simpatico..
+Oppure puoi uscire da qui andando semplicemente verso l'alto.
+~
+0 3145740 0
+D1
+Persi in Accademia.
+~
+porta~
+3 -1 10312
+D4
+Indietro all'inizio.
+~
+~
+0 -1 10304
+D10
+~
+fessura~
+131072 -1 10302
+E
+porta~
+Vedi una porta in legno massiccio.
+~
+E
+dipinto~
+Colori ad olio per un vaso di vetro contenenti alcuni fiori. Nonostante
+la semplicità del soggetto, il tratto è delicato e cattura lo sguardo..
+forse è studiato proprio per distogliere l'attenzione da una grande fessura
+nel muro. Sembra abbastanza larga da poterci entrare..
+~
+E
+fessura~
+Guardandola più da vicino ti rendi conto che davvero ci si potrebbe passare
+attraverso..
+~
+E
+muro~
+Colori ad olio per un vaso di vetro contenenti alcuni fiori. Nonostante
+la semplicità del soggetto, il tratto è delicato e cattura lo sguardo..
+forse è studiato proprio per distogliere l'attenzione da una grande fessura
+nel muro. Sembra abbastanza larga da poterci entrare..
+~
+S
+
+#10314
+Un corridoio marmoreo~
+Qui apprenderai i metodi per verificare lo stato d'avanzamento delle tue
+abilità e per conoscere le tue condizioni di salute.
+Utilizza SCORE, EQUIPMENT, INVENTORY, LEVEL, oppure le loro abbreviazioni
+SC, EQ, I.
+SCORE fornisce le tue statistiche di base.
+EQUIPMENT ti dà la lista completa degli oggetti che indossi.
+INVENTORY ti dà la lista di oggetti che trasporti oltre all'equipaggiamento.
+LEVEL ti dà informazioni sul tuo grado di esperienza.
+Ulteriori informazioni su HELP <soggetto>.
+~
+0 3145736 0
+D0
+Preparativi per il combattimento.
+~
+~
+0 -1 10315
+D2
+La stanza della Lettura.
+~
+~
+0 -1 10304
+S
+
+#10315
+Preparativi per il combattimento~
+Si avvicina il momento di impugnare le armi e combattere. Proprio sotto di te
+si trova la fossa di un Chadoyn, casa della creatura che seguirà i tuoi
+primi passi nell'arte della guerra. Il Chadoyn non è aggressivo, ciò significa
+che sarai tu ad iniziare lo scontro: il modo più veloce è attaccare brutalmente
+(KILL <nome mob>). Quando imparerai nuove abilità o nuovi incantesimi potrai
+scegliere metodi più eleganti e sbrigativi per eliminare i nemici.
+
+Alcuni incantesimi più diffusi per dar battaglia sono DISPEL MAGIC,
+SLEEP, CHARM PERSON, BLINDNESS, WEAKEN, CURSE, FAERIE FIRE.
+Alcune delle abilità più utili sono STEAL e BACKSTAB.
+
+ **Tutte queste abilità ti faranno entrare in combattimento automaticamente**
+
+Anche gli incantesimi di bacchette, bastoni e pergamene possono essere utilizzati
+per iniziare uno scontro.
+~
+0 3145736 0
+D0
+Un corridoio con pannelli di marmo.
+~
+~
+0 -1 10317
+D2
+Un corridoio con pannelli di marmo.
+~
+~
+0 -1 10314
+D5
+Una fossa umida
+~
+~
+0 -1 10316
+S
+
+#10316
+Una fossa umida~
+In questa fossa ti verrà spiegato come fuggire da un combattimento
+ricorrendo a WIMPY, FLEE o RECALL.
+WIMPY è una ritirata strategica che puoi stabilire a priori scrivendo
+WIMPY <numero>. Il numero rappresenta la quantità di punti ferita che ti
+rimarranno al momento della fuga. (WIMPY <8> significa che una volta raggiunti
+gli 8 hp in combattimento, le tue gambe abbandoneranno il campo di battaglia
+di gran carriera.. e tu con loro).
+La codardia ti costerà in termini di esperienza, ma una buona fuga talvolta
+è migliore di una morte disonorevole.
+FLEE è un modo per scappare non automatico, se ti vedi nelle peste digita
+flee e fuggirai in qualunque momento dello scontro. Anche per il flee la tua
+esperienza ci rimetterà.
+RECALL è l'ultima risorsa dei combattenti. Puoi usarlo come incantesimo
+("word of recall") oppure come lettura salvifica (una pergamena di ritorno).
+Ad ogni modo usalo con parsimonia perché delle tre fughe, il recall è quello
+che ti leverà più esperienza.
+~
+0 3145740 0
+D1
+Una fossa umida.
+~
+~
+0 -1 10308
+D4
+Preparativi per il combattimento.
+~
+~
+0 -1 10315
+S
+
+#10317
+Un corridoio di marmo~
+Complimenti! Stai facendo passi da gigante nel tuo tirocinio. La prossima
+tappa consiste nel recuperare equipaggiamento utile dalla gabbia relativa
+alla categoria che hai scelto (mago, guerriero, chierico etc).
+A nord ti sta aspettando Lord Toric, il guaritore dell'Accademia. Egli
+pronuncerà degli incantesimi di protezione che ti accompagneranno nelle tue
+lotte. Siedi pure con lui fintanto che non ti sentirai in grado di affrontare
+i tuoi nemici.
+~
+0 3146760 0
+D0
+Il Guaritore dell'Accademia.
+~
+~
+0 -1 10319
+D2
+Preparativi per il combattimento.
+~
+~
+0 -1 10315
+S
+
+#10318
+Atrio dei Guerrieri~
+I muri sono decorati con numerosi scudi d'ogni forma e materiale, donati dai
+guerrieri che hanno percorso questi corridoi prima di te. Dalla sala sotto
+l'atrio s'odono echi di spade che si scontrano.
+~
+0 3146760 0
+D5
+La camera per Guerrieri tirocinanti.
+~
+~
+0 -1 10325
+S
+
+#10319
+Il guaritore dell'Accademia~
+Osservalo bene, è un guaritore e come lui tanti altri incontrerai lungo
+il tuo peregrinare in queste terre. Hanno la missione di curare
+e proteggere chiunque si rivolga a loro; dato che le richieste sono sempre
+tante i curatori s'adoperano in di continuo elargendo incantesimi e benedizioni
+a profusione. Basterà attendere qualche istante ed anche tu riceverai
+il loro aiuto. Alcuni curatori possono lanciare delle magie particolari,
+però li stancano molto e per sostentarsi si fanno pagare; altri ancora
+rispondono con incantesimi molto speciali qualora venga loro rivolta
+una parola chiave o un saluto diverso dal solito.
+L'importante, come sempre, è osservarli bene.
+~
+0 1049612 0
+D0
+La stanza dei portali.
+~
+~
+16777216 -1 10355
+D2
+Un corridoio di marmo.
+~
+~
+0 -1 10317
+S
+
+#10320
+L'atrio dei Druidi~
+Passeggiare in quest'atrio induce nella tua mente immagini di foreste
+lontane e sentieri magici nei boschi.. D'un tratto un gentile soffio d'aria
+ti sfiora la nuca e mentre cerchi di capire se qualcuno sia accanto a te,
+prosegui sfiorando con passi leggeri il pavimento dal quale si sprigiona
+una luce tenue.
+~
+0 3146752 0
+D5
+La camera del tirocinio per Druidi.
+~
+~
+0 -1 10326
+S
+
+#10321
+L'atrio dei Vampiri~
+L'ingresso è così poco illuminato che a malapena si distinguono i contorni
+della stanza. Il fruscio di foglie morte trasportate dal vento risuona nelle
+tue orecchie.. Presto ti rendi conto che non si tratta di fruscio ma di sussurri
+appena percepibili, decidi così di metterti alla ricerca della sorgente sonora..
+~
+0 3146760 0
+D5
+La camera per Vampiri tirocinanti.
+~
+~
+0 -1 10327
+S
+
+#10322
+L'atrio dei Ladri~
+Il tuo istinto ti mette in guardia, qualcuno ti spia nascosto nel buio.
+La conferma delle prime impressioni ti viene da repentini movimenti di ombre
+lungo le pareti dell'atrio e un debolissimo spostamento d'aria accanto a te,
+come se qualcuno ti fosse appena passato alle spalle.
+~
+0 3146760 0
+D5
+La camera per Ladri provetti.
+~
+~
+0 -1 10328
+S
+
+#10323
+L'atrio dei Maghi~
+Il pungente odore dello zolfo colpisce le tue narici, non appena metti piede
+nell'atrio. Nonostante la sottilissima nebbiolina che ricopre il pavimento, puoi
+scorgere al di sotto di esso alcuni lampi, accompagnati dal rumore di tuoni lontani..
+~
+0 3146760 0
+D5
+La camera per Maghi novizi.
+~
+~
+0 -1 10329
+S
+
+#10324
+L'atrio dei Chierici~
+Un sentimento di pace e serenità si fa strada nel tuo animo e decidi di
+proseguire con determinazione il cammino che ti porterà nella gilda dei
+Chierici.
+~
+0 3146760 0
+D5
+La camera per Chierici tirocinanti.
+~
+~
+0 -1 10330
+S
+#10449
+L'atrio dei Paladini~
+Un sentimento di pace e serenità si fa strada nel tuo animo e decidi di
+proseguire con determinazione il cammino che ti porterà nella gilda dei
+Paladini.
+~
+0 3146760 0
+D5
+La camera per Paladini tirocinanti.
+~
+~
+0 -1 10430
+S
+#10325
+La camera per Guerrieri tirocinanti~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10339
+D1
+Una gabbia
+~
+~
+0 -1 10342
+D2
+Una gabbia
+~
+~
+0 -1 10340
+D3
+Una gabbia
+~
+~
+0 -1 10341
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10326
+La camera del tirocinio per Druidi~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10343
+D1
+Una gabbia
+~
+~
+0 -1 10346
+D2
+Una gabbia
+~
+~
+0 -1 10344
+D3
+Una gabbia
+~
+~
+0 -1 10345
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10327
+La camera per Vampiri tirocinanti~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10347
+D1
+Una gabbia
+~
+~
+0 -1 10350
+D2
+Una gabbia
+~
+~
+0 -1 10348
+D3
+Una gabbia
+~
+~
+0 -1 10349
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10328
+La camera per Ladri provetti~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10351
+D1
+Una gabbia
+~
+~
+0 -1 10354
+D2
+Una gabbia
+~
+~
+0 -1 10352
+D3
+Una gabbia
+~
+~
+0 -1 10353
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10329
+La camera per Maghi novizi~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10335
+D1
+Una gabbia
+~
+~
+0 -1 10338
+D2
+Una gabbia
+~
+~
+0 -1 10336
+D3
+Una gabbia
+~
+~
+0 -1 10337
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10330
+La camera per Chierici tirocinanti~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10332
+D1
+Una gabbia
+~
+~
+0 -1 10334
+D2
+Una gabbia
+~
+~
+0 -1 10333
+D3
+Una gabbia
+~
+~
+0 -1 10331
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10430
+La camera per Paladini tirocinanti~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146760 0
+D0
+Una gabbia
+~
+~
+0 -1 10432
+D1
+Una gabbia
+~
+~
+0 -1 10434
+D2
+Una gabbia
+~
+~
+0 -1 10433
+D3
+Una gabbia
+~
+~
+0 -1 10431
+D5
+Un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10331
+Gabbia ovest per i Chierici~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10330
+S
+
+#10332
+Gabbia nord per i Chierici~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10330
+S
+
+#10333
+Gabbia sud per i Chierici~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10330
+S
+
+#10334
+Gabbia est per i Chierici~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10330
+S
+
+#10431
+Gabbia ovest per i Paladini~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10430
+S
+
+#10432
+Gabbia nord per i Paladini~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10430
+S
+
+#10433
+Gabbia sud per i Paladini~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10430
+S
+
+#10434
+Gabbia est per i Paladini~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera per Chierici tirocinanti
+~
+~
+0 -1 10430
+S
+
+#10335
+Gabbia nord per Maghi~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera per Maghi novizi
+~
+~
+0 -1 10329
+S
+
+#10336
+Gabbia sud per Maghi~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera per Maghi novizi
+~
+~
+0 -1 10329
+S
+
+#10337
+Gabbia ovest per Maghi~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera per Maghi novizi
+~
+~
+0 -1 10329
+S
+
+#10338
+Gabbia est per Maghi~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera per Maghi novizi
+~
+~
+0 -1 10329
+S
+
+#10339
+Gabbia nord per Guerrieri~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera per Guerrieri tirocinanti
+~
+~
+0 -1 10325
+S
+
+#10340
+Gabbia sud per Guerrieri~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera per Guerrieri tirocinanti
+~
+~
+0 -1 10325
+S
+
+#10341
+Gabbia ovest per Guerrieri~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera per Guerrieri tirocinanti
+~
+~
+0 -1 10325
+S
+
+#10342
+Gabbia est per Guerrieri~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera per Guerrieri tirocinanti
+~
+~
+0 -1 10325
+S
+
+#10343
+Gabbia nord per Druidi~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera del tirocinio per Druidi
+~
+~
+0 -1 10326
+S
+
+#10344
+Gabbia sud per Druidi~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera del tirocinio per Druidi
+~
+~
+0 -1 10326
+S
+
+#10345
+Gabbia ovest per Druidi~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera del tirocinio per Druidi
+~
+~
+0 -1 10326
+S
+
+#10346
+Gabbia est per Druidi~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera del tirocinio per Druidi
+~
+~
+0 -1 10326
+S
+
+#10347
+Gabbia nord per Vampiri~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera per Vampiri tirocinanti
+~
+~
+0 -1 10327
+S
+
+#10348
+Gabbia sud per Vampiri~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera per Vampiri tirocinanti
+~
+~
+0 -1 10327
+S
+
+#10349
+Gabbia ovest per Vampiri~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera per Vampiri tirocinanti
+~
+~
+0 -1 10327
+S
+
+#10350
+Gabbia est per Vampiri~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera per Vampiri tirocinanti
+~
+~
+0 -1 10327
+S
+
+#10351
+Gabbia nord dei Ladri~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera per Ladri provetti
+~
+~
+0 -1 10328
+S
+
+#10352
+Gabbia sud dei Ladri~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera per Ladri provetti
+~
+~
+0 -1 10328
+S
+
+#10353
+Gabbia ovest dei Ladri~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera per Ladri provetti
+~
+~
+0 -1 10328
+S
+
+#10354
+Gabbia est dei Ladri~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera per Ladri provetti
+~
+~
+0 -1 10328
+S
+
+#10355
+La camera dei Portali~
+Nella sala sono sistemati i portali che ti condurranno alla gilda che hai
+scelto. Preparati per il trasferimento..
+Potrebbe impiegare qualche istante, coltiva la pazienza.
+Se decidi di non andare subito torna verso sud, in caso contrario puoi leggere
+il certificato appeso al muro per ingannare l'attesa.
+~
+0 3146764 0
+D2
+Il guaritore dell'Accademia
+~
+~
+0 -1 10319
+> speech_prog p temporaneamente fuori servizio~
+if isclass($r) == CLASS_MAGE
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Maghi.
+  mpechoat $r Atterri nella Sala dei Maghi con un balzo.
+  mptransfer $r 10323
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_PRIEST
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Chierici.
+  mpechoat $r Atterri nella Sala dei Chierici con un balzo.
+  mptransfer $r 10324
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_FIGHTER
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Guerrieri.
+  mpechoat $r Atterri nella Sala dei Guerrieri con un balzo.
+  mptransfer $r 10318
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_NECROMANCER
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Vampiri.
+  mpechoat $r Atterri nella Sala dei Vampiri con un balzo.
+  mptransfer $r 10321
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_DRUID
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Druidi.
+  mpechoat $r Atterri nella Sala dei Druidi con un balzo.
+  mptransfer $r 10320
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_WANDERING
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Ranger.
+  mpechoat $r Atterri nella sala dei Ranger con un balzo.
+  mptransfer $r 10391
+  mpat $r mpforce $r bounce
+endif
+if isclass($r) == CLASS_THIEF
+  mpechoat $r Il terreno si apre sotto di te!  Cadi nel portale dei Ladri.
+  mpechoat $r Atterri nella sala dei Ladri con un balzo.
+  mptransfer $r 10322
+  mpat $r mpforce $r bounce
+endif
+~
+|
+S
+
+#10356
+Un corridoio di pietra~
+Ti renderai conto che un organismo per sopravvivere, a meno che non si
+tratti di innamorati, ha bisogno di cibo e acqua.
+Verso est c'è l'emporio dell'Accademia, puoi acquistare da bere e da
+mangiare. Una volta saziata la fame dirigiti verso nord.
+~
+0 3145736 0
+D0
+Un corridoio di pietra.
+~
+~
+0 -1 10358
+D1
+Ad est c'è l'emporio dell'Accademia.
+~
+~
+0 -1 10357
+S
+
+#10357
+Emporio dell'Accademia di Darkhaven~
+L'emporio è un negozietto regolare, con tanto di licenza. Puoi acquistare
+ciò che troverai nella lista (LIST) chiedendo al commerciante.(BUY <nome oggetto>)
+Incontrerai alcuni negozianti che ti venderanno chiavi e persino informazioni,
+premurati di osservarli bene quindi per capire cosa potrai ottenere da loro.
+~
+0 3146760 0
+D3
+Ad ovest vedi un corridoio in pietra.
+~
+~
+0 -1 10356
+S
+
+#10358
+Un corridoio di pietra~
+E' tempo che tu venga a conoscenza con le trappole mortali.
+Come puoi intuire dal nome, le DT o death trap sono delle trappole che
+causano una morte limbica di chi ci finisce dentro. Non perdi punti
+ferita e non troverai il tuo cadavere nei paraggi della trappola.
+In compenso tutti gli oggetti che avevi con te andranno distrutti e
+un vento magico ti porterà nel Tempio di Darkhaven. Ad ovest puoi
+apprendere ulteriori informazioni sulle DT.
+~
+0 3145736 0
+D0
+Un corridoio di pietra.
+~
+~
+0 -1 10360
+D2
+Un corridoio di pietra.
+~
+~
+0 -1 10356
+D3
+E' una trappola mortale! Ma non ti ucciderà.. per questa volta.
+~
+~
+0 -1 10359
+S
+
+#10359
+Una lenta morte..~
+Guarda attentamente, è ciò che vedrai ogni volta che finirai in una trappola
+mortale. Una DT (death trap) uccide all'istante chiunque abbia la sventura
+di capitarci dentro, in più regala un bellissimo spettacolo pirotecnico
+durante il quale tutto l'equipaggiamento verrà ridotto in minuscoli
+pezzettini. Se vuoi evitare di vedere i tuoi monili depositarsi al suolo
+sotto forma di polvere ricordati di osservare bene le stanze e le direzioni
+delle uscite.
+Per tua fortuna, qualcuno ha deciso di bandire le DT da Darkhaven.
+~
+0 3145736 0
+D1
+Un corridoio di pietra
+~
+~
+0 -1 10358
+S
+
+#10360
+Un corridoio di pietra~
+Ti attende un'ultima prova poi potrai accedere al campo di battaglia.
+Verso ovest si trova una creatura che indossa un oggetto per te molto
+utile.. Uccidila e prendilo.
+~
+0 3145736 0
+D2
+Un corridoio di pietra
+~
+~
+0 -1 10358
+D3
+Un'ultima prova
+~
+~
+0 -1 10361
+S
+
+#10361
+Un'ultima prova.~
+Da ogni angolo rimbalzano le eco di metalli che si scontrano e incantesimi
+recitati ad alta voce, quasi gridati. Questa stanza ha un vago odore di
+decadenza.. dalle pareti stillano gocce di uno strana sostanza verde.
+All'improvviso un lampo illumina a giorno la sala!!
+Poi sparisce lasciando di sè solo il ricordo.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10360
+D4
+Vedi l'ingresso al campo di battaglia.
+~
+~
+3 -1 10362
+> act_prog P da est.~
+if CountMobVnumRoom(10344) < 1
+  mpmload 10344
+endif
+~
+> rand_prog 50~
+if CountMobVnumRoom(10344) < 1
+  mpmload 10344
+endif
+~
+|
+S
+
+#10362
+Nel mezzo del muro orientale~
+Questo è l'ingresso al campo di battaglia, costruito per permettere ai novizi
+di allenare le loro abilità nell'arte del combattimento. Attacca e cerca di
+uccidere le bestie che incontrerai, puoi andartene in qualunque momento, salendo
+verso la stanza del guaritore.
+~
+0 3145740 0
+D0
+~
+~
+0 -1 10363
+D2
+~
+~
+0 -1 10365
+D3
+~
+~
+0 -1 10369
+D4
+~
+~
+16777216 -1 10319
+D5
+Vedi una porta che conduce ai piani bassi dell'Accademia.
+~
+~
+3 -1 10361
+S
+
+#10363
+Lungo il muro orientale~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10364
+D2
+~
+~
+0 -1 10362
+D3
+~
+~
+0 -1 10370
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10364
+Angolo nord-est~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D2
+~
+~
+0 -1 10363
+D3
+~
+~
+0 -1 10371
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10365
+Lungo il muro orientale~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10362
+D2
+~
+~
+0 -1 10366
+D3
+~
+~
+0 -1 10368
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10366
+Angolo sudorientale~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10365
+D3
+~
+~
+0 -1 10367
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10367
+Lungo il muro sud~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10368
+D1
+~
+~
+0 -1 10366
+D3
+~
+~
+0 -1 10376
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10368
+Il campo di battaglia~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10369
+D1
+~
+~
+0 -1 10365
+D2
+~
+~
+0 -1 10367
+D3
+~
+~
+0 -1 10375
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10369
+Verso il centro del campo di battaglia~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145740 0
+D0
+~
+~
+0 -1 10370
+D1
+~
+~
+0 -1 10362
+D2
+~
+~
+0 -1 10368
+D3
+~
+~
+0 -1 10374
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10370
+Il campo di battaglia~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10371
+D1
+~
+~
+0 -1 10363
+D2
+~
+~
+0 -1 10369
+D3
+~
+~
+0 -1 10373
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10371
+Lungo il muro di settentrione~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10364
+D2
+~
+~
+0 -1 10370
+D3
+~
+~
+0 -1 10372
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10372
+A metà del muro nord~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10371
+D2
+~
+~
+0 -1 10373
+D3
+~
+~
+0 -1 10381
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10373
+Campi centrali di battaglia~
+In lontananza alcune grida innaturali si levano dal campo di battaglia, non si
+distingue la natura del suono.. che sia una bestia? Il pavimento è ricoperto
+da cadaveri in putrefazione e tutt'intorno è un inno alla morte: lamenti, urla di
+paura ed angoscia si levano da ogni angolo del campo di battaglia..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10372
+D1
+~
+~
+0 -1 10370
+D2
+~
+~
+0 -1 10374
+D3
+~
+~
+0 -1 10380
+D4
+~
+~
+16777216 -1 10319
+D5
+Poco più in basso un tunnel buio ed umido conduce sottoterra..
+~
+~
+16777216 -1 10406
+S
+
+#10374
+Al centro del campo di battaglia~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10373
+D1
+~
+~
+0 -1 10369
+D2
+~
+~
+0 -1 10375
+D3
+~
+~
+0 -1 10379
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10375
+Campi centrali di battaglia~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10374
+D1
+~
+~
+0 -1 10368
+D2
+~
+~
+0 -1 10376
+D3
+~
+~
+0 -1 10378
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10376
+Nel mezzo del muro meridionale~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10375
+D1
+~
+~
+0 -1 10367
+D3
+~
+~
+0 -1 10377
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10377
+Percorrendo il muro meridionale~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10378
+D1
+~
+~
+0 -1 10376
+D3
+~
+~
+0 -1 10386
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10378
+Campo di battaglia~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10379
+D1
+~
+~
+0 -1 10375
+D2
+~
+~
+0 -1 10377
+D3
+~
+~
+0 -1 10385
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10379
+Nel mezzo del campo di battaglia~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10380
+D1
+~
+~
+0 -1 10374
+D2
+~
+~
+0 -1 10378
+D3
+~
+~
+0 -1 10384
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10380
+Il campo di battaglia~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10381
+D1
+~
+~
+0 -1 10373
+D2
+~
+~
+0 -1 10379
+D3
+~
+~
+0 -1 10383
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10381
+Lungo il muro settentrionale~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D1
+~
+~
+0 -1 10372
+D2
+~
+~
+0 -1 10380
+D3
+~
+~
+0 -1 10382
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10382
+Angolo nordoccidentale~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145740 0
+D0
+~
+~
+16777219 -1 10300
+D1
+~
+~
+0 -1 10381
+D2
+~
+~
+0 -1 10383
+D4
+~
+~
+16777216 -1 10319
+> leave_prog 100~
+if isadmin($n)
+else
+  mpforce $n vis
+endif
+~
+> entry_prog 100~
+if ispg($n)
+if level($n) == 1
+  mpechoat $n &WNon puoi proseguire! Ritorna quando avrai raggiunto il secondo livello.
+  mpechoat $n &WOra ti rimando da Tsythia.
+  mptransfer $n 10300
+  mpat 10300 mpforce $n look
+endif
+endif
+~
+|
+S
+
+#10383
+Lungo il muro occidentale~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10382
+D1
+~
+~
+0 -1 10380
+D2
+~
+~
+0 -1 10384
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10384
+A metà del muro occidentale~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10383
+D1
+~
+~
+0 -1 10379
+D2
+~
+~
+0 -1 10385
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10385
+Lungo il muro occidentale~
+Un ululato sinistro giunge alle tue orecchie mentre cammini rasente il muro,
+pare una bestia in cerca di prede.. Sul pavimento sono disseminati cadaveri
+irriconoscibili e fra essi noti delle orme..
+~
+0 3145736 0
+D0
+~
+~
+0 -1 10384
+D1
+~
+~
+0 -1 10378
+D2
+~
+~
+0 -1 10386
+D4
+~
+~
+16777216 -1 10319
+S
+
+#10386
+Angolo sudoccidentale~
+In questa porzione d'accademia puoi allenare le tue abilità attaccando
+le povere, ignare e morbide bestioline che ti verranno incontro.
+Puoi andartene in qualunque momento salendo verso la camera di Toric, il guaritore.
+Magari prima da' un'occhiata alle rune incise sul pavimento.
+~
+0 3145736 0
+D0
+Muro occidentale
+~
+~
+0 -1 10385
+D1
+Muro orientale
+~
+~
+0 -1 10377
+D4
+Il tempio di Darkhaven
+~
+~
+16777216 -1 10319
+D5
+~
+~
+3 -1 10392
+E
+rune~
+Scendendo per questa apertura finirai nel regno delle Naga. Fai molta attenzione,
+sono aggressive! Se procedi, lo fai a tuo rischio.
+~
+S
+
+#10387
+La gabbia sud per i Ranger~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145736 0
+D0
+La camera del tirocinio per Ranger.
+~
+~
+0 -1 10305
+S
+
+#10388
+La gabbia est per i Ranger~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145736 0
+D3
+La camera del tirocinio per Ranger.
+~
+~
+0 -1 10305
+S
+
+#10389
+La gabbia nord per i Ranger~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145736 0
+D2
+La camera del tirocinio per Ranger.
+~
+~
+0 -1 10305
+S
+
+#10390
+La gabbia ovest per i Ranger~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145736 0
+D1
+La camera del tirocinio per Ranger.
+~
+~
+0 -1 10305
+S
+
+#10391
+La Gilda dei Ranger~
+Il fascino per le terre selvagge ed inesplorate ha condotto i tuoi passi
+sin qui dove imparerai a sopravvivere e districarti anche nelle peggiori
+situazioni. Mentre cammini nell'atrio, bucoliche visioni di boschi e prati
+affollano i tuoi pensieri.
+~
+0 3146764 0
+D5
+La stanza del tirocinio per Ranger.
+~
+~
+0 -1 10305
+S
+
+#10392
+In un'umida caverna~
+Percorri la caverna sotterranea dalle pareti ricoperte di melma, un rumore indistinto,
+quasi un gocciolio, proviene da chissà quale anfratto recondito.
+~
+0 3145741 0
+D3
+~
+~
+0 -1 10393
+D4
+~
+~
+3 -1 10386
+> entry_prog 100~
+if level($n) < 4
+  mpechoat $n La caverna pullula di feroci predatori! Sarebbe meglio aumentare la
+  mpechoat $n propria esperienza sul campo di battaglia prima d'avventurarsi qui.
+else
+if level($n) > 10
+  mpechoat $n Questo luogo è accessibile ad avventurieri meno esperti di te.
+  mpechoat $n Dovresti provare le tue abilità in qualche altro posto.
+endif
+endif
+~
+|
+S
+
+#10393
+Nelle profondità della caverna~
+Un insopportabile sibilo lontano riecheggia per tutta la caverna, forse più
+vicino di quanto tu speri. L'aria carica di umidità rende difficile la
+respirazione.
+~
+0 3145737 0
+D1
+~
+~
+0 -1 10392
+D2
+~
+~
+0 -1 10394
+S
+
+#10394
+Nella caverna~
+Ti par d'essere un'ochetta nel pantano; una persistente umidità ha ridotto
+il pavimento ad un groviglio di muschi e melme..
+~
+0 3145737 0
+D0
+~
+~
+0 -1 10393
+D1
+~
+~
+0 -1 10395
+D3
+~
+~
+0 -1 10396
+S
+
+#10395
+Nelle profondità della caverna~
+Un insopportabile sibilo lontano riecheggia per tutta la caverna, forse più
+vicino di quanto tu speri. L'aria carica di umidità rende difficile la
+respirazione.
+~
+0 3145737 0
+D2
+~
+~
+0 -1 10397
+D3
+~
+~
+0 -1 10394
+S
+
+#10396
+Nella caverna~
+Ti par d'essere un'ochetta nel pantano; una persistente umidità ha ridotto
+il pavimento ad un groviglio di muschi e melme..
+~
+0 3145737 0
+D1
+~
+~
+0 -1 10394
+S
+
+#10397
+La stanza privata della Regina~
+Per un puro caso ti ritrovi nella sala personale della Regina delle Naga.
+Nonostante la regia appartenenza, questa stanza è arredata con cattivo
+gusto.. ovunque sono sparpagliati i corpi dei poveri avventurieri che si
+eran dati per dispersi tanto tempo fa.
+~
+0 3145737 0
+D0
+~
+~
+0 -1 10395
+S
+
+#10398
+DELETE THIS ROOM~
+This room is for questions and problems you may find as a new player.
+All level of players are welcome to post questions/suggestions here.
+If you are between level 1 and level 10, you may receive a piece of
+note paper and a quill to write with by typing:    NOD
+
+If you are above level 10 and wish to post here, you can buy note paper
+in Darkhaven. Please type HELP NOTE to learn how to write a note. There
+is no use of profanity on this or any note board.
+
+**--**     Any note posted here may be removed at any time.     **--**
+~
+0 3211276 0
+D3
+Entrata all'Accademia di Darkhaven.
+~
+~
+0 -1 10300
+> leave_prog 100~
+if isadmin($n)
+else
+  mpforce $n vis
+endif
+~
+> act_prog p annuisce solennemente.~
+if ismob($n)
+else
+if level($n) > 10
+  mpechoat $n Hai troppa esperienza per ricorrere al nostro aiuto.
+else
+  mpechoat $n Tieni! Questi possono tornarti utili.
+  mpoload 36 1
+  mpoload 37 1
+  give note $n
+  give quill $n
+  mpforce $n hold nota
+  mpechoat $n Ricorda queste parole "NOTE WRITE", ti serviranno quando vorrai scrivere a qualcuno.
+endif
+endif
+~
+> entry_prog 100~
+if ispg($n)
+if level($n) == 1
+  mpforce $n config -brief
+endif
+endif
+~
+|
+S
+
+#10399
+La camera infuocata~
+Questa camera è coperta da rune di protezione e una potente palla di scrying
+si libra davanti al trono di Scarab. Il trono è ottenuto dalle sue stesse ossa
+prima ancora che passasse al regno dell'immortalità. Guardandoti attorno scopri
+un vasino da notte per le impellenze urgenti del Signore della Magia Nera.
+~
+0 2097164 0
+> act_prog p purifica~
+mppurge
+mpecho La stanza è purificata!
+~
+|
+S
+
+#10400
+La Gilda degli Auguri~
+Una rilassante atmosfera permea l'aria, infondendo nell'animo una piacevole
+sensazione di calma e benessere.
+Le pareti sono tinteggiate con colori tenui per non disturbare le meditazioni
+degli Auguri, provetti e non, che vengono qui a trascorrere molto tempo
+meditando su importanti questioni.
+Lungo i muri sono sistemati anche dei letti, benché molto semplici nella forma
+sembrano essere davvero comodi.
+~
+0 3146764 0
+D5
+Camera per Auguri tirocinanti.
+~
+~
+0 -1 10401
+E
+brande letti~
+Numerosi letti sono sistemati in fila contro il muro, sembrano molto comodi.
+~
+E
+pareti muri~
+Le pareti sono tinteggiate d'un azzurro pallido, rilassante per la vista.
+~
+S
+
+#10401
+Camera degli Auguri tirocinanti.~
+Qui puoi iniziare il tuo tirocinio nei combattimenti contro dei mostri, (conosciuti
+anche come MOB). Tutte le uscite, eccetto quella in basso conducono nella gabbia
+di un mob, alcuni di essi possono essere aggressivi e ti attaccheranno a vista.
+Se li ucciderai la tua esperienza ne trarrà giovamento, aumentando di qualche
+punto. Potrai anche prendere dai loro cadaveri gli oggetti ed il denaro che tanto a
+loro non serviranno più (GET ALL CADAVARE). Puoi anche affidarti all'abitudine
+del gesto ricordando CONFIG +AUTOLOOT o CONFIG +AUTOGOLD. Il primo serve per
+prendere tutto quello che rimane nel corpo del nemico ucciso, il secondo
+invece ti permette di prendere solo il denaro posseduto dal morto. Quando prendi
+alcune parti di equipaggiamento dai cadaveri dei nemici, esse vengono trasferite
+nel tuo inventario.
+Dopo una battaglia è sempre meglio concedersi un poco di tregua per recuperare
+le forze, approfitta di un riposo (REST) o di un pisolino (SLEEP), sono entrambi
+modi molto efficaci per rimettersi in forma.
+Quando ti senti nel pieno delle energie mentali e fisiche, svegliati (WAKE) o
+alzati (STAND) per riprendere il viaggio.
+~
+0 3146764 0
+D0
+Una gabbia.
+~
+~
+0 -1 10402
+D1
+Una gabbia.
+~
+~
+0 -1 10403
+D2
+Una gabbia.
+~
+~
+0 -1 10404
+D3
+Una gabbia.
+~
+~
+0 -1 10405
+D5
+Un corridoio di pietra.
+~
+~
+0 -1 10356
+S
+
+#10402
+La gabbia nord degli Auguri~
+Puoi rovistare nei cadaveri dei tuoi nemici e raccogliere il loro equipaggiamento,
+basta che ti ricordi di: GET, DROP, WEAR, WIELD, HOLD, REMOVE, REPAIR, EXAMINE.
+Per prendere un oggetto dall'equipaggiamento puoi agire così: GET <oggetto> CORPO.
+Se non ti piace e vuoi posarlo fai semplicemente DROP <oggetto>. Se invece
+è un capo d'abbigliamento provalo con WEAR <oggetto>, o WEAR ALL se vuoi indossare
+tutto ciò che hai nelle tasche. Per le armi è un po' diverso, devi usare
+WIELD <arma>. Non puoi impugnare due armi contemporaneamente, a meno che i tuoi
+maestri non ti abbiano insegnato qualche arte particolare, quindi in linea di
+massima dovrai togliere un'arma prima di provare la successiva (REMOVE <arma>).
+In battaglia le tue protezioni risentiranno dei colpi degli avversari, quindi di tanto
+in tanto osserva bene il tuo equipaggiamento (EXAM <oggetto>) e se non è
+in buono stato trova un fabbro ferraio; quando sarai di fronte al fabbro
+chiedigli di ripararti il pezzo danneggiato (REPAIR <oggetto>).
+~
+0 3145740 0
+D2
+Camera per Auguri tirocinanti.
+~
+~
+0 -1 10401
+S
+
+#10403
+La gabbia est degli Auguri~
+Uccidi questi mob indicandoli "gabbia", rimuovi il loro equipaggiamento usando
+il termine "accademia" quindi sacrificate il loro copo. Gli Dei ti ricompenseranno
+per il sacrificio che tu offri loro. Ricorda, compi un sacrificio con SAC CORPO,
+puoi anche sacrificare oggetti che non reputi utili, semplicemente posandoli
+e SAC <oggetto>. Per ulteriori informazioni circa i sacrifici consulta gli
+aiuti. (help)
+~
+0 3145740 0
+D3
+Camera per Auguri tirocinanti.
+~
+~
+0 -1 10401
+S
+
+#10404
+La gabbia sud degli Auguri~
+Il fetore dei cadaveri in decomposizione assale tutti i tuoi sensi dandoti
+un'insopportabile vertigine. Al suolo sono sparsi brandelli di carne, ossa
+ed armature ormai inutili. Tieni a mente le parole dei tuoi Maestri: uccidi
+ed esamina il corpo dei tuoi nemici, quindi sacrificalo agli dei. Puoi anche
+lasciare che l'abitudine al combattimento ti venga in aiuto nel ricordarti
+queste semplici regole di pulizia dei campi di battaglia.. (CONFIG+AUTOSAC).
+Ricorda, però, che il sacrificio abitudinale dei corpi comporta la distruzione
+di tutto l'equipaggiamento del nemico che non avrai preventivamente messo
+in salvo. Capita inoltre che se girerai con le tasche piene di oggetti non potrai
+raccoglierne altri quindi anche CONFIG+AUTOLOOT potrebbe non funzionare.
+~
+0 3145740 0
+D0
+Camera per Auguri tirocinanti.
+~
+~
+0 -1 10401
+S
+
+#10405
+La gabbia ovest degli Auguri~
+Questi mob si chiamano anche mob "gabbia", puoi ucciderli usando questo nome.
+Puoi ucciderli semplicemente (KILL) o anche degnandoli d'attenzione (KILL KOBOLDO).
+Tutti gli altri nemici nella gabbia hanno lo stesso nome.
+Gli avversari in arena invece sono contraddistinti dall'appellativo arena (puoi
+ucciderli con KILL ARENA). L'equipaggiamento che troverai in Accademia
+similmente puoi raccoglierlo usando GET ACCADEMIA, WEAR ACCADEMIA, REMOVE ACCADEMIA,
+oltre al loro nome proprio.
+~
+0 3145740 0
+D1
+Camera per Auguri tirocinanti.
+~
+~
+0 -1 10401
+S
+
+#10406
+Un oscuro tunnel sotto il campo di battaglia~
+Il tunnel è molto stretto, a malapena si riesce a passare. Il pavimento
+sotto i tuoi piedi è fangoso e della melma s'attacca ai tuoi stivali..
+Verso sud-est e sud-ovest due passaggi s'allontanano dal campo di battaglia,
+te la senti di rischiare ed avventurarti nell'oscurità?
+~
+0 3145737 13
+D4
+Sopra di te si trova il campo di battaglia dell'Accademia.
+~
+~
+16777216 -1 10373
+D8
+Verso sud-est un tunnel s'allontana dal campo di battaglia.
+~
+~
+0 -1 10407
+D9
+Verso sud-ovest un tunnel s'allontana dal campo di battaglia.
+~
+~
+0 -1 10427
+S
+
+#10407
+Un oscuro tunnel sotto il campo di battaglia~
+Il tunnel è molto stretto, a malapena si riesce a passare. Il pavimento
+sotto i tuoi piedi è fangoso e della melma s'attacca ai tuoi stivali..
+Guardi più avanti verso sud quando d'un tratto s'ode uno strillo proprio
+da quella direzione!!
+Vai a vedere di che si tratta o preferisci tornare al sicuro sul campo di
+battaglia?
+~
+0 3145737 13
+D2
+~
+~
+0 -1 10408
+D7
+~
+~
+0 -1 10406
+S
+
+#10408
+Seguendo il tunnel sotto il campo di battaglia~
+Una densa oscurità avvolge il passaggio rendendo impossibile vedere
+alcunché senza l'ausilio di una torcia. Dalle pareti stillano alcune
+gocce d'acqua, aggiungendo umidità all'aria già pesante del tunnel.
+E' proprio un bel posto, sì.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10407
+D1
+~
+~
+0 -1 10409
+S
+
+#10409
+Un oscuro tunnel sotto il campo di battaglia~
+Il tunnel è molto stretto, a malapena si riesce a passare. Il pavimento
+sotto i tuoi piedi è fangoso e della melma s'attacca ai tuoi stivali..
+Guardi più avanti verso sud quando d'un tratto s'ode uno strillo proprio
+da quella direzione!!
+Vai a vedere di che si tratta o preferisci tornare al sicuro sul campo di
+battaglia?
+~
+0 3145737 13
+D2
+~
+~
+0 -1 10410
+D3
+~
+~
+0 -1 10408
+S
+
+#10410
+Seguendo il tunnel sotto il campo di battaglia~
+Una densa oscurità avvolge il passaggio rendendo impossibile vedere
+alcunché senza l'ausilio di una torcia. Dalle pareti stillano alcune
+gocce d'acqua, aggiungendo umidità all'aria già pesante del tunnel.
+E' proprio un bel posto, sì.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10409
+D2
+~
+~
+0 -1 10411
+S
+
+#10411
+Un tunnel buio sotto il campo di battaglia~
+Passi attraverso l'apertura nella roccia e subito vedi l'ingresso
+di un'ampia caverna sulla parete ovest. Tutt'intorno rimbomba l'eco
+di suoni indistinti provenienti da chissà dove..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10410
+D2
+~
+~
+0 -1 10412
+D3
+~
+~
+0 -1 10420
+D9
+~
+~
+0 -1 10416
+S
+
+#10412
+Un tunnel sotterraneo~
+Il tunnel si ferma improvvisamente davanti alla parete meridionale.
+Hai l'imbarazzante scelta da compiere, numerose porte conducono in una
+grotta gigantesca. Dei tanti rumori che affollano l'aria, non ce n'è uno che
+sia rassicurante..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10411
+D3
+~
+~
+0 -1 10416
+D7
+~
+~
+0 -1 10420
+D9
+~
+~
+0 -1 10413
+S
+
+#10413
+Una caverna sotterranea~
+Affondi di qualche centimetro nella melma che ricopre il pavimento
+della caverna. Oscurità e rumori sinistri la fanno da padroni in questo
+covo.. L'ambiente è decisamente inospitale anche se ci fosse una
+forma di vita in questa caverna probabilmente non ti piacerebbe incontrarla..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10416
+D3
+~
+~
+0 -1 10414
+D6
+~
+~
+0 -1 10412
+D7
+~
+~
+0 -1 10417
+S
+
+#10414
+Una caverna sotterranea~
+Affondi di qualche centimetro nella melma che ricopre il pavimento
+della caverna. Oscurità e rumori sinistri la fanno da padroni in questo
+covo.. La parete sud pare trasudare tanta è l'acqua che si sprigiona
+dalle ogni fessura.. L'ambiente è decisamente inospitale anche se ci fosse una
+forma di vita in questa caverna probabilmente non ti piacerebbe incontrarla..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10417
+D1
+~
+~
+0 -1 10413
+D3
+~
+~
+0 -1 10415
+D6
+~
+~
+0 -1 10416
+D7
+~
+~
+0 -1 10418
+S
+
+#10415
+Una caverna sotterranea~
+Affondi di qualche centimetro nella melma che ricopre il pavimento
+della caverna. Oscurità e rumori sinistri la fanno da padroni in questo
+covo.. Se anche ci fosse una forma di vita in questa caverna probabilmente
+non ti piacerà incontrarla..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10418
+D1
+~
+~
+0 -1 10414
+D6
+~
+~
+0 -1 10417
+D7
+~
+~
+0 -1 10419
+S
+
+#10416
+Una caverna sotterranea~
+Affondi di qualche centimetro nella melma che ricopre il pavimento
+della caverna. Oscurità e rumori sinistri la fanno da padroni in questo
+covo.. Se anche ci fosse una forma di vita in questa caverna probabilmente
+non ti piacerà incontrarla..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10420
+D1
+~
+~
+0 -1 10412
+D2
+~
+~
+0 -1 10413
+D3
+~
+~
+0 -1 10417
+D6
+~
+~
+0 -1 10411
+D7
+~
+~
+0 -1 10421
+D9
+~
+~
+0 -1 10414
+S
+
+#10417
+Una caverna sotterranea~
+Ti fai strada nell'oscurità più nera e di quando in quando il tuo naso
+percepisce un forte odore di melma e liquami. L'eco di battaglie lontane
+riempie l'ambiente ed accompagna il tuo viaggio nel buio, facendosi ora più
+vicino ora più lontano, tanto da pensare che dietro alla prossima svolta
+potrebbero trovarsi dei guerrieri.
+Insisti nell'addentrarti in passaggi oscuri, ignorando le richieste di fuga
+di tutti i tuoi sensi, prima che sia troppo tardi..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10421
+D1
+~
+~
+0 -1 10416
+D2
+~
+~
+0 -1 10414
+D3
+~
+~
+0 -1 10418
+D6
+~
+~
+0 -1 10420
+D7
+~
+~
+0 -1 10422
+D8
+~
+~
+0 -1 10413
+D9
+~
+~
+0 -1 10415
+S
+
+#10418
+Una caverna sotterranea~
+Una totale assenza di colori e luce ti accoglie in questa caverna
+sotterranea ove rimbombano contro le pareti, echi lontani di grida
+di terrore e dolore.. Chiunque abiti in questa orribile grotta non è
+bendisposto verso i visitatori..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10422
+D1
+~
+~
+0 -1 10417
+D2
+~
+~
+0 -1 10415
+D3
+~
+~
+0 -1 10419
+D6
+~
+~
+0 -1 10421
+D7
+~
+~
+0 -1 10423
+D8
+~
+~
+0 -1 10414
+S
+
+#10419
+Un tunnel sotterraneo~
+Il tunnel si ferma improvvisamente davanti alla parete meridionale.
+Hai l'imbarazzante scelta da compiere, numerose porte conducono in una
+grotta gigantesca. Dei tanti rumori che affollano l'aria, non ce n'è uno che
+sia rassicurante..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10423
+D1
+~
+~
+0 -1 10418
+D6
+~
+~
+0 -1 10422
+D8
+~
+~
+0 -1 10415
+S
+
+#10420
+Una caverna sotterranea~
+Una totale assenza di colori e luce ti accoglie in questa caverna
+sotterranea ove rimbombano contro le pareti, echi lontani di grida
+di terrore e dolore.. Chiunque abiti in questa orribile grotta non è
+bendisposto verso i visitatori..
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10411
+D2
+~
+~
+0 -1 10416
+D3
+~
+~
+0 -1 10421
+D8
+~
+~
+0 -1 10412
+D9
+~
+~
+0 -1 10417
+S
+
+#10421
+Una caverna sotterranea~
+Affondi di qualche centimetro nella melma che ricopre il pavimento
+della caverna. La parete nord della grotta mostra più asperità rispetto alle
+altre pareti ed è ricoperta da una sostanza sconosciuta..
+Oscurità e rumori sinistri la fanno da padroni in questo
+covo.. Se anche ci fosse una forma di vita in questa caverna probabilmente
+non ti piacerà incontrarla..
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10420
+D2
+~
+~
+0 -1 10417
+D3
+~
+~
+0 -1 10422
+D8
+~
+~
+0 -1 10416
+D9
+~
+~
+0 -1 10418
+S
+
+#10422
+Una caverna sotterranea~
+Affondi di qualche centimetro nella melma che ricopre il pavimento
+della caverna. Oscurità e rumori sinistri la fanno da padroni in questo
+covo.. Se anche ci fosse una forma di vita in questa caverna probabilmente
+non ti piacerà incontrarla..
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10421
+D2
+~
+~
+0 -1 10418
+D3
+~
+~
+0 -1 10423
+D8
+~
+~
+0 -1 10417
+D9
+~
+~
+0 -1 10419
+S
+
+#10423
+Un tunnel buio sotto il campo di battaglia~
+Passi attraverso l'apertura nella roccia e subito vedi l'ingresso
+di un'ampia caverna sulla parete ovest. Tutt'intorno rimbomba l'eco
+di suoni indistinti provenienti da chissà dove..
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10424
+D1
+~
+~
+0 -1 10422
+D2
+~
+~
+0 -1 10419
+D8
+~
+~
+0 -1 10418
+S
+
+#10424
+Seguendo il tunnel sotto il campo di battaglia~
+Una densa oscurità avvolge il passaggio rendendo impossibile vedere
+alcunché senza l'ausilio di una torcia. Dalle pareti stillano alcune
+gocce d'acqua, aggiungendo umidità all'aria già pesante del tunnel.
+E' proprio un bel posto, sì.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10425
+D2
+~
+~
+0 -1 10423
+S
+
+#10425
+Un oscuro tunnel sotto il campo di battaglia~
+Il tunnel è molto stretto, a malapena si riesce a passare. Il pavimento
+sotto i tuoi piedi è fangoso e della melma s'attacca ai tuoi stivali..
+Guardi più avanti verso sud quando d'un tratto s'ode uno strillo proprio
+da quella direzione!!
+Vai a vedere di che si tratta o preferisci tornare al sicuro sul campo di
+battaglia?
+~
+0 3145737 13
+D1
+~
+~
+0 -1 10426
+D2
+~
+~
+0 -1 10424
+S
+
+#10426
+Seguendo il tunnel sotto il campo di battaglia~
+Una densa oscurità avvolge il passaggio rendendo impossibile vedere
+alcunché senza l'ausilio di una torcia. Dalle pareti stillano alcune
+gocce d'acqua, aggiungendo umidità all'aria già pesante del tunnel.
+E' proprio un bel posto, sì.
+~
+0 3145737 13
+D0
+~
+~
+0 -1 10427
+D3
+~
+~
+0 -1 10425
+S
+
+#10427
+Un oscuro tunnel sotto il campo di battaglia~
+Il tunnel è molto stretto, a malapena si riesce a passare. Il pavimento
+sotto i tuoi piedi è fangoso e della melma s'attacca ai tuoi stivali..
+Guardi più avanti verso sud quando d'un tratto s'ode uno strillo proprio
+da quella direzione!!
+Vai a vedere di che si tratta o preferisci tornare al sicuro sul campo di
+battaglia?
+~
+0 3145737 0
+D2
+~
+~
+0 -1 10426
+D6
+~
+~
+0 -1 10406
+S
+
+#10499
+Camera del Guardiano~
+Qui risiedono i guardiani dei cancelli fra i Reami e il mondo sconosciuto,
+da qui le avventure delle nuove leve vengono attentamente osservate
+ed annotate.
+
+** Questa stanza *non* dovrebbe essere usata per alcuna attività fuorché quella
+dei due mob che stanno qui. Non spostare né cancellare i due mob se il sistema
+pre-auth è in uso*
+~
+0 1075838980 1
+S
+
+#0
+
+
+#RESETS
+M 0 10399 1 10300
+D 0 10300 2 1
+M 0 10340 1 10303
+M 0 10333 1 10305
+M 0 10394 1 10306
+M 0 10345 1 10308
+E 1 10345 1 3
+D 0 10309 0 1
+D 0 10310 2 1
+D 0 10312 3 1
+D 0 10313 1 1
+M 0 10352 1 10318
+M 0 10342 1 10319
+M 0 10354 1 10320
+M 0 10353 1 10321
+M 0 10351 1 10322
+M 0 10349 1 10323
+M 0 10439 1 10449
+M 0 10350 1 10324
+M 0 10334 1 10325
+M 0 10335 1 10326
+M 0 10336 1 10327
+M 0 10337 1 10328
+M 0 10338 1 10329
+M 0 10339 1 10330
+M 0 10326 2 10331
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10326 2 10331
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10305 2 10332
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10305 2 10332
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10312 2 10333
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10312 2 10333
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10319 2 10334
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10319 2 10334
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10306 2 10335
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10306 2 10335
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10313 2 10336
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10313 2 10336
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10327 2 10337
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10327 2 10337
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10320 2 10338
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10320 2 10338
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10307 2 10339
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10307 2 10339
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10314 2 10340
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10314 2 10340
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10328 2 10341
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10328 2 10341
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10321 2 10342
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10321 2 10342
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10307 2 10431
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10307 2 10431
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10314 2 10432
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10314 2 10432
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10328 2 10433
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10328 2 10433
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10321 2 10434
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10321 2 10434
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10308 2 10343
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10308 2 10343
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10315 2 10344
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10315 2 10344
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10329 2 10345
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10329 2 10345
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10322 2 10346
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10322 2 10346
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10309 2 10347
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10309 2 10347
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10316 2 10348
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10316 2 10348
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10330 2 10349
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10330 2 10349
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10323 2 10350
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10323 2 10350
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10310 2 10351
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10310 2 10351
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10317 2 10352
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10317 2 10352
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10331 2 10353
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10331 2 10353
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10324 2 10354
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10324 2 10354
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10343 1 10357
+G 1 10316 1
+G 1 10317 1
+G 1 10314 1
+D 0 10361 4 1
+D 0 10362 5 1
+M 0 10303 4 10363
+M 0 10301 4 10365
+M 0 10300 4 10365
+M 0 10301 4 10367
+M 0 10301 4 10368
+M 0 10302 4 10370
+M 0 10302 4 10370
+M 0 10303 4 10370
+M 0 10302 4 10372
+M 0 10302 4 10372
+M 0 10300 4 10373
+M 0 10300 4 10374
+M 0 10301 4 10375
+M 0 10303 4 10377
+M 0 10300 4 10379
+M 0 10303 4 10381
+D 0 10382 0 1
+D 0 10386 5 1
+M 0 10318 2 10387
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10318 2 10387
+E 1 10304 14 6
+E 1 10305 14 12
+M 0 10325 2 10388
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10325 2 10388
+E 1 10300 14 14
+E 1 10301 14 8
+M 0 10311 2 10389
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10311 2 10389
+E 1 10302 14 13
+E 1 10303 14 7
+M 0 10332 2 10390
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10332 2 10390
+E 1 10306 14 3
+E 1 10319 14 9
+M 0 10355 1 10391
+D 0 10392 4 1
+M 0 10396 4 10395
+M 0 10396 4 10395
+M 0 10396 4 10396
+M 0 10396 4 10396
+M 0 10397 1 10397
+E 1 10318 2 16
+O 0 10367 1 10398
+M 0 10401 1 10401
+M 0 10400 1 10400
+M 0 10402 2 10402
+E 1 10302 1 13
+E 1 10303 1 7
+M 0 10402 2 10402
+E 1 10302 1 13
+E 1 10303 1 7
+M 0 10403 2 10403
+E 1 10306 1 3
+E 1 10319 1 9
+M 0 10403 2 10403
+E 1 10306 1 3
+E 1 10319 1 9
+M 0 10405 2 10405
+E 1 10300 1 14
+E 1 10301 1 8
+M 0 10405 2 10405
+E 1 10300 1 14
+E 1 10301 1 8
+M 0 10404 2 10404
+E 1 10304 1 6
+E 1 10305 1 12
+M 0 10404 2 10404
+E 1 10304 1 6
+E 1 10305 1 12
+M 0 10346 1 10355
+M 0 10497 1 10499
+M 0 10498 1 10499
+O 0 10401 1 10300
+O 0 10401 1 10319
+O 0 10401 1 10374
+O 0 10401 1 10386
+O 0 10401 1 10382
+O 0 10401 1 10364
+O 0 10401 1 10366
+O 0 10401 1 10325
+O 0 10401 1 10326
+O 0 10401 1 10327
+O 0 10401 1 10328
+O 0 10401 1 10329
+O 0 10401 1 10330
+O 0 10401 1 10401
+O 0 10401 1 10305
+M 0 10406 1 10413
+M 0 10407 1 10418
+M 0 10408 1 10424
+M 0 10409 1 10408
+M 0 10410 1 10423
+M 0 10411 1 10412
+M 0 10412 1 10415
+M 0 10413 1 10421
+M 0 10414 1 10425
+M 0 10415 1 10407
+M 0 10416 1 10414
+M 0 10417 1 10411
+M 0 10418 1 10409
+M 0 10419 1 10426
+M 0 10420 1 10422
+M 0 10421 1 10427
+S
+
+
+#SHOPS
+10343  0  0  0  0  0   120  90   0 23    ; Salorr
+10357  0  0  0  0  0   120  90   0 23    ; a tiny pixie
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  10325 spec_guard
+M  10333 spec_cast_adept
+M  10334 spec_cast_adept
+M  10335 spec_cast_adept
+M  10336 spec_cast_adept
+M  10337 spec_cast_adept
+M  10338 spec_cast_adept
+M  10339 spec_cast_adept
+M  10342 spec_cast_adept
+M  10398 spec_cast_undead
+M  10401 spec_cast_adept
+S
+
+
+#END

@@ -1,0 +1,687 @@
+#AREA
+Name         L'altopiano nascosto~
+Author       Miciko~
+Color        AT_DGREEN verde scuro~
+LevelRange   1 20
+ResetFreq    15
+ResetMsg1    Sospirato fra i rami, il canto della foresta giunge fino a me..~
+Vnums        19900 19919
+End
+
+
+#MOBILES
+#19900
+cardellino uccellino~
+un cardellino~
+Un uccellino cinguetta volando poco sopra di te.
+~
+E' un simpatico cardellino, dalla testa bruna ed il corpo rossastro, sta
+cinguettando qualche melodia del bosco, puoi fermarti ed ascoltarlo..
+~
+257 0 0 C
+6 0 0 8d1+0 1d1+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+95 7 0 0 4096 1 1
+0 0 536903680 1 128 2097152 1 2
+#19901
+lince~
+una lince grigia~
+Un magnifico esemplare di lince sta riposando qui.
+~
+Le imponenti zampe di questo felino suggeriscono un buon comportamento da
+tenere in sua presenza. E' tranquilla in disparte, gli artigli sono un ottimo
+deterrente contro eventuali atti balordi.
+~
+257 0 0 C
+8 0 0 8d1+0 2d1+0
+0 0
+5 5 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+74 6 0 0 512 512 2
+0 0 262144 2 1048576 4 7 2
+#19902
+acqua elementale~
+un elementale dell'acqua~
+Una strana creatura ti guarda da lontano, è un elementale.
+~
+Cogli lo sguardo di questo essere mentre si avvicina lentamente: i contorni
+della sua figura non sono netti ma un poco tremolanti ed il suo corpo è di
+un'inconsueta opalescenza.
+~
+65 -2147483648 0 C
+11 0 0 9d1+1 2d2+2
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+100 0 0 0 73728 65536 1
+0 0 1024 1048576 1 4 537133056 1048706
+#19903
+coniglio~
+un coniglio bianco~
+Un coniglietto bianco muove il nasino annusando l'aria circostante.
+~
+E' un'esplosione di pelo morbido e tutto bianco. Appena nota la tua presenza,
+il coniglietto si volta di spalle e fa per andarsene, ma poi si gira a
+guardarti come se stesse aspettando che tu segua i suoi passi..
+~
+1 0 0 C
+3 0 0 8d1+1 1d1+1
+0 0
+6 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+101 0 0 0 65664 65664 1
+0 0 65664 2048 512 1040 1 2
+#19904
+aria elementale~
+un'elementale dell'aria~
+Una elementale dell'aria sfiora i tuoi indumenti mentre ti passa accanto.
+~
+I lineamenti del corpo e del viso sono appena accennati ed ogni suo passo
+provoca una leggera brezza che solleva le foglie da terra. Si muove leggiadra
+fra gli alberi, giocando con il vento.
+~
+1 524288 0 C
+8 0 0 8d1+1 2d1+1
+0 0
+6 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+102 0 0 0 73728 73728 2
+0 0 0 2048 1048576 2097152 16384 1154
+#19905
+elfa~
+un'elfa dei boschi~
+Un'aggraziata creatura ti osserva con fare tranquillo, è un'elfa.
+~
+L'elfa ti guarda a sua volta, i suoi occhi smeraldini parlano di amore per il
+suo bosco natio e per le creature che ne fanno parte. L'abbigliamento è quello
+tipico degli elfi silvani così come la sua diffidenza verso gli estranei.
+~
+1 0 0 C
+11 0 0 8d1+1 2d2+1
+0 0
+6 6 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 65538 65538 2
+0 0 0 2099200 512 16 69632 162
+#19906
+terra elementale~
+un elementale della terra~
+Da dietro un albero ti osserva un elementale.
+~
+E' formato interamente di terra frammista a qualche radichetta, che spunta a
+mo' di capello dal capo di questa strana creatura. E' un elementale della
+terra e ti guarda un po' incuriosito.
+~
+1 4 0 C
+10 0 0 8d1+0 2d2+1
+0 0
+6 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+103 0 0 0 73728 73728 2
+0 0 0 8 4 2097152 8388864 8194
+#19907
+fuoco elementale~
+un'elementale del fuoco~
+Una creatura di fuoco si avvicina a te, è un'elementale.
+~
+Una lunga chioma di fiamme incornicia il volto appena definito di questa
+elementale. Le sue movenze sono aggraziate mentre cammina fra gli alberi e
+nonostante la sua natura di fuoco, gli arbusti non risentono del suo tocco
+lieve.
+~
+3 0 0 C
+10 0 0 8d1+1 2d2+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+104 0 0 0 73728 73728 2
+0 0 0 12 1 2 8192 642
+#0
+
+#OBJECTS
+#19900
+anello legno~
+un anello di legno~
+Un piccolo anello di legno attira il tuo sguardo..~
+~
+9 1280 3 0
+-1 -1 0 0
+1 250 25
+E
+anello~
+E' un circoletto di letto, perfettamente liscio con alcune incisioni
+all'interno..
+~
+E
+incisioni~
+Sebbene un poco cancellato dal tempo, si distingue ancora il nome inciso..
+Aleteia.
+~
+#19901
+sorgente fonte~
+la fonte delle fate~
+Da una roccia poco distante sgorga dell'acqua purissima.
+~
+~
+25 1089 0 0
+100 150 0 0
+1 0 0
+E
+fonte~
+L'acqua della fonte è fredda ma non gelida e berla dona una
+piacevole sensazione di ristoro. Delle piccole luci si agitano intorno alla
+roccia..
+~
+E
+luci~
+Guardando attentamente noti che sono delle piccole fate che si divertono fra
+gli spruzzi della fonte.
+~
+#19902
+corazza armatura giunchi~
+una corazza di giunchi~
+Abbandonata in un angolo vedi una strana armatura..~
+~
+9 1280 9 0
+-1 -1 0 0
+5 300 30
+E
+corazza armatura~
+Solo un cuore intrepido potrebbe indossare quest'armatura, se non altro perché
+protegge davvero poco.
+~
+#19903
+fragola fragolina~
+una fragolina di bosco~
+Alla base di una roccia vedi una solitaria piantina di fragole..~
+~
+26 1024 1 0
+5 61 43 -1 1 0
+1 0 0
+E
+fragola fragolina~
+Il profumo è delizioso ed invitante, forse è un incoraggiamento per chi si
+trova a passare in questa stretta gola..
+~
+#19904
+pergamena canto~
+il canto del vento~
+Una pergamena oscilla fra le foglie, cullata da un'insolita brezza..~
+~
+2 1024 16385 0
+10 56 3 81
+1 500 50
+E
+canto pergamena~
+Sibila e soffia, strugge e carezza, ti porta con sé l'inafferrabile brezza..
+~
+#19905
+bastone~
+un bastone nodoso~
+Adagiato al suolo, simile ad un serpente addormentato, vedi uno strano bastone.~
+~
+4 1024 8193 0
+11 10 10 73
+4 0 0
+E
+bastone~
+E' un nodoso bastone di quercia, lungo il quale è intrecciata dell'edera.
+~
+#19906
+zainetto sacchetto~
+un morbido zainetto~
+Vedi uno strano sacchetto posato in un angolo..~
+~
+15 1025 524289 0
+20 0 0 10
+3 150 15
+E
+zainetto sacchetto~
+Cucito con pelli di animali sconosciuti, morbido al tatto eppure
+sorprendentemente resistente, in più emana un vago bagliore azzurrino..
+~
+#19907
+polvere fata~
+polvere di fata~
+Una manciata di polverina multicolore è sparsa al suolo..
+~
+~
+1 1025 1 0
+10 0 0 0
+1 0 0
+E
+polvere~
+Impalpabile fra le dita, all'olfatto ricorda vagamente lo zenzero.. Da essa si
+sprigiona una curiosissima luce arcobaleno.
+~
+#0
+
+#ROOMS
+#19901
+Il cerchio~
+Il passaggio termina in una piccola radura nella quale si staglia un maestoso
+circolo di rami intrecciati. Il legno dei componenti varia da colori più
+chiari a toni più scuri producendo un meraviglioso effetto ottico.. Un
+ipnotico circolo di fiamme.. Oltre il cerchio di rami noti una piccola pietra
+incisa.
+~
+0 1024 2 0 0 0
+D1
+Intravedi le calme acque di un laghetto.
+~
+~
+0 0 19903 0
+D3
+Delle piccole luci danzanti s'aggirano in un boschetto poco distante.
+~
+~
+0 0 19908 0
+D2
+Vuoi tornare sui tuoi passi verso il passaggio segreto?
+~
+~
+0 0 19904 0
+E
+circolo rami~
+Sembra il lavoro di un abile artigiano: i rami sono stati lasciati prima a
+bagno per essere poi piegati ed intrecciati in quel che sembra un'opera della
+Natura stessa..
+~
+E
+pietra~
+Vedi una figura di animale impressa sulla pietra, pare un elefante.
+~
+S
+#19902
+La cattedrale~
+Imperiosa ed imponente, costruita dalla saggia collaborazione della Natura con
+le sue creature, si offre al tuo sguardo.. La cattedrale. Tre lunghi filari di
+carpini creano le tre navate, due laterali più piccole, una più ampia al
+centro. Le chiome degli alberi sono state potate in modo da creare un effetto
+di arco ogivale che slancia l'intera struttura.. Il prato dentro ed intorno la
+costruzione è poco calpestato, segno che non sono molti quelli che
+s'avventurano fra le navate della Cattedrale, forse per rispetto, forse per
+paura.. Vale comunque la pena di fermarsi un istante ed ammirare la
+magnificenza di quest'opera..
+~
+0 1024 0 0 0 0
+D0
+Due guardiani custodiscono i misteri di questo suolo sacro..
+~
+~
+0 0 19906 0
+E
+carpini~
+Il tronco dritto degli alberi e la corteccia grigia ispirano un vago senso di
+pareti di pietra.. Le chiome rigogliose formano il tetto della cattedrale.
+~
+S
+#19903
+Il lago argentato~
+Il sentiero ti conduce fin sulle rive di un lago brulicante di vita: piccoli
+pesciolini dai riflessi argentei guizzano fuori dall'acqua, cercando di
+catturare qualche moscerino impavido; un airone procede lento fra i giunchi
+immergendo di quando in quando il becco per afferrare qualche preda. Il
+gracidio nascosto delle rane accompagna i tuoi passi mentre un musetto di
+lontra ti osserva da debita distanza. L'atmosfera di questo luogo indurrebbe a
+fermarsi per riposare qualche minuto.. Magari proprio su quel pietrone poco
+lontano.
+~
+0 1024 2 0 0 0
+D3
+Anche se un po' lontano, si scorge benissimo il cerchio di rami.
+~
+~
+0 0 19901 0
+D0
+Da nord proviene uno strano suono, che sia il canto del bosco?
+~
+~
+0 0 19905 0
+E
+rana rane~
+Chiudendo gli occhi ed ascoltando attentamente il gracidio di queste bestiole
+forse si può localizzare il punto esatto in cui si trovano..
+~
+E
+lontra~
+Un simpatico musetto sbuca da dietro un filare di giunchi. La lontra ti
+osserva con aria incuriosita ed ogni tanto azzarda un passo verso di te
+cercando di comprendere se le tue intenzioni siano buone o cattive..
+~
+E
+airone~
+Elegante in ogni piccolo movimento, l'airone si prende tutto il tempo che gli
+è necessario per procacciarsi la cena.
+~
+E
+pietra pietrone~
+Un ingegnoso scalpellino ha riprodotto il profilo di una tartaruga su questa
+roccia. Seguendo i solchi dell'incisione con un dito si potrebbe indovinarne
+la forma anche ad occhi chiusi.
+
+               _,.---.---.---.--.._
+            _.-' `--.`---.`---'-. _,`--.._
+           /`--._ .'.     `.     `,`-.`-._\
+          ||   \  `.`---.__`__..-`. ,'`-._/
+     _  ,`\ `-._\   \    `.    `_.-`-._,``-.
+  ,`   `-_ \/ `-.`--.\    _\_.-'\__.-`-.`-._`.
+ (_.o> ,--. `._/'--.-`,--`  \_.-'       \`-._ \
+  `---'    `._ `---._/__,----`           `-. `-\
+            /_, ,  _..-'                    `-._\
+            \_, \/ ._(
+             \_, \/ ._\
+              `._,\/ ._\
+                `._// ./`-._
+                  `-._-_-_.-'
+~
+S
+#19904
+Un passaggio segreto~
+Mentre procedi cautamente, scruti le pareti di questo insolito corridoio
+naturale: si tratta di un corto passaggio, forse una scorciatoia per un nuovo
+mondo.. Le alte rocce a destra e sinistra incutono un certo timore
+reverenziale, quasi ti trovassi al cospetto di millenari guardiani di questo
+luogo. A tratti, la nudità della pietra è velata da cascate di edera le cui
+foglie smeraldine attirano il tuo sguardo.. fra una foglia e l'altra ti pare
+di scorgere delle incisioni rupestri..
+~
+0 0 5 0 0 0
+D0
+Vedi in lontananza una piccola radura ed una strana costruzione in legno.
+~
+~
+0 0 19901 0
+D2
+Verso sud ti attendono le verdi pianure.
+~
+~
+0 0 324 0
+E
+incisioni rupestri~
+   ___________________________________________________
+ ./°                                                 °\.
+°/.              .:.:.:Val Sella:.:.:.                .\°
+.|°                                                   °|.
+°|.        ...è dono della Terra questo luogo         .|°
+.|°         ...ogni passo sia lieve e leggiadro       °|.
+°|.          ...mira la beltà ed il suo afflato       .|°
+.|°                                                   °|.
+°|.                                                   .|°
+.|°              *          *                         °|.
+°|.    .*.......::::::::::::..     *  .....           .|°
+.|°        .:::::;;;;;;;;;;;:::::.... /\  ...         °|.
+°|.      *      .   *  ...........   / .::.           .|°
+.|°    ...:::../\\_  ......     ..._/'   \\\_ .  *    °|.
+°|.    .::::./   \\\ _   .../\    /'      \\\\_       .|°
+.|°        _/      \\\\   _/ \\\ /          \\\\      °|.
+°|.     ./           \\\/     \/             \\\      .|°
+.\°    /             \\/                      \\\     °/.
+ °\._________________________________________________./°
+~
+E
+edera~
+Alcune foglie paiono sporgersi in avanti, come se gli spiriti del bosco
+incuriositi dalla tua presenza ti osservassero nascosti..
+~
+S
+#19905
+L'arco degli spiriti~
+Un venticello gentile sfiora i tuoi indumenti perdendosi poi nel fitto del
+bosco.. E di lontano giunge un'eco di suoni misteriosi. Volgendo il capo per
+capire da dove provengano scopri un arco realizzato in legno di noce nero,
+decorato con delle campanelle tubulari, anch'esse in legno. La posizione
+dell'arco è tale da seguire la direzione del vento così che le campane, mosse
+dalla brezza, ammantino di sacrale rispetto questo luogo con la loro intensa
+melodia. Alla base dell'arcata vedi una pietra..
+~
+0 1024 3 0 0 0
+D2
+Il sentiero prosegue fino al lago ed alle sue lucenti acque.
+~
+~
+0 0 19903 0
+D3
+Verso ovest il bosco sembra diventare piu' scuro..
+~
+~
+0 0 19906 0
+E
+arco~
+Si tratta di dischi di legno forati nel centro ed inseriti uno dietro l'altro
+lungo un palo di noce, piegato ad opera d'arte in modo da formare un arco
+perfetto.
+~
+E
+campane campanelle~
+Paiono ricavate dal cuore del tronco, la parte più morbida di tutto l'albero.
+Sono di diverse lunghezze ed hanno fori di differenti dimensioni, per creare i
+suoni più disparati.
+~
+E
+pietra~
+Anche qui la mano delle creature del bosco ha lasciato il segno.. Un esemplare
+di aquila dalle ali spiegate decora questa pietra, incisa con abilità
+sorprendente.
+
+                              /T /I
+                              / |/ | .--/
+                          T\ Y  I  |/  /  _
+         /T               | \I  |  I  Y.--/
+        I l   /I       T\ |  |  l  |  T  /
+     T\ |  \ Y l  /T   | \I  l   \ `  l Y
+ __  | \l   \l  \I l __l  l   \   `  _. |
+ \ --l  `\   `\  \  \\ -\  \   `. .--   |
+  \   --. "-.  `  \  ^._ ^. "-.  /  \   |
+.----._  --  `  _  --_.-"-." ._ /._ ." ./
+ >--.  --.   ._  ->-"    "\\   7   7   ]
+^.___-"--._    --{  .-- .  `\ Y . /    |
+ <__ -"-.  -       /_/   \   \I  Y   : |
+   ^-.__           -(_/   \   >._:   | l______
+       ^--.,___.--"  /_/   !  `-.-"--l_ /     -"-.
+              (_/ .  -(   /'     "-"--,Y   -=b-. _)
+               (_/ .  \  :           / l      c"-o \
+                \ /    `.    .     .^   \_.--"---.  )
+                 (_/ .   `  /     /       !       )/
+                  / / _.   '.   .':      /        '
+                  -(_/ .   /    _  `  .-<_
+                    /_/ . ' .--" `.  / \  \          ,z=.
+                    -( /   '  :   | K   "-.--.______//
+                      "-,.    l   I/ \_    __{--->._(==.
+                       //(     \  <    -"-"     //
+                      /' /\     \  \     ,v=.  ((
+                    .^. / /\     "  }__ //===-  `
+                   / / ' '  "-.,__ {---(==-
+                 .^ '       :  T  -"   ll
+                / .  .  . : | :!        \\
+               (_/  /   | | j-"          -^
+                 --<_(_.^--"
+~
+S
+#19906
+I lupi guardiani~
+In questa parte del bosco, le chiome degli alberi si infittiscono, generando
+al suolo dei curiosi giochi di luce-ombra. D'improvviso qualcosa attira il tuo
+sguardo! Cautamente ti avvicini a quelli che, da lontano, appaiono due lupi..
+A tutti gli effetti sono proprio due lupi.. Di onice purissima. Gli abitanti o
+gli spiriti di questa foresta devono averli posti qui come guardiani del suolo
+sacro.. Poco più a sud infatti intravedi una costruzione dall'aspetto austero.
+~
+0 1024 3 0 0 0
+D2
+Le alte guglie di una costruzione in legno invitano ad avvicinarsi con
+rispetto..
+~
+~
+0 0 19902 0
+D1
+Da est proviene la voce più profonda degli abitanti del bosco.. Il canto del
+vento.
+~
+~
+0 0 19905 0
+D3
+Alcune figure bizzarre adornano il sentiero verso ovest.
+~
+~
+0 0 19907 0
+E
+lupi~
+In fiera posa quasi leonina, queste due statue incutono un certo timore nei
+viandanti, ma un cuore puro non ha bisogno d'ammonimenti per rispettare la
+bellezza.
+~
+S
+#19907
+Strane figure~
+In questo punto il sentiero compie più e più svolte, procedendo a serpentina
+in una porzione di bosco ricca di castagni e querce. Numerosi scoiattoli
+corrono sui rami guardandoti dall'alto e concedendoti un po' d'attenzione fra
+una ghianda e l'altra. Al suolo trovi alcuni ricci di castagne ancora
+verdeggianti, uno in particolare ospita un insetto sconosciuto, il cui dorso
+riluce di riflessi dorati. Ai lati del sentiero sono poste delle statue
+raffiguranti creature simili alle driadi. Poco lontano dal sentiero, ai piedi
+di un'enorme quercia è posta una pietra..
+~
+0 1024 3 0 0 0
+D1
+Due figure si intravedono nell'ombra..
+~
+~
+0 0 19906 0
+D2
+Bagliori di luce colorata si sprigionano da un boschetto poco distante..
+~
+~
+0 0 19908 0
+E
+statue~
+Misteriose creature dal viso sereno e sorridente, infondono calma ai
+pellegrini, vegliando sul loro cammino.
+~
+E
+scoiattoli~
+Veloci come un soffio di vento, gli scoiattoli corrono sui rami più alti
+scrutando dall'alto i tuoi passi nel bosco.
+~
+E
+pietra~
+Un bel gatto con gli occhi socchiusi ti guarda, dalla sua casa di roccia. La
+linea è perfetta e morbida, specchio della reale sinuosa natura dei felini.
+
+
+                      \`*-.
+                       )  _`-.
+                      .  : `. .
+                      : _   '  \
+                      ; *` _.   `*-._
+                      `-.-'          `-.
+                        ;       `       `.
+                        :.       .        \
+                        . \  .   :   .-'   .
+                        '  `+.;  ;  '      :
+                        :  '  |    ;       ;-.
+                        ; '   : :`-:     _.`* ;
+                     .*' /  .*' ; .*`- +'  `*'
+                     `*-*   `*-*  `*-*'
+~
+S
+#19908
+Il boschetto fatato~
+Uno spettacolo inebriante di colori ti avvolge, piccole luci danzanti
+nell'aria accolgono il tuo arrivo ed un'allegra musica di arpe e tamburelli
+risuona ovunque.. A poco a poco, da ogni anfratto della terra, da ogni tronco,
+foglia, goccia di rugiada si innalzano dei canti gioiosi. I rami ondeggiano
+lievi, accompagnando le melodie e delle piccole creature simili a fate e
+gnometti si rivelano ai tuoi occhi, librandosi nell'aria leggeri e compiendo
+fanciulleschi girotondi attorno ai tuoi piedi. Alcuni di essi sembrano
+indicarti una pietra seminascosta da piantine di fragola..
+~
+0 1024 3 0 0 0
+D1
+Da qui si vede il cerchio di rami.
+~
+~
+0 0 19901 0
+D0
+Verso nord ti par di vedere alcune persone ferme lungo il sentiero..
+~
+~
+0 0 19907 0
+E
+fata fate~
+Sono creature delicatissime a vedersi, eteree ed eternamente gioiose, dedite
+alla Vita ed al naturale evolversi delle stagioni..
+~
+E
+gnometto ~
+Nonostante le gambette corte, si muovono di buon passo da una parte all'altra
+del boschetto, scambiandosi occhiatine d'intesa con le fate.
+~
+E
+pietra~
+Una splendida fenice, dai contorni dipinti con l'oro, risplende in mezzo alle
+fiammelle vivaci delle fate del bosco..
+
+                       (                           )
+                  ) )( (                           ( ) )( (
+              ( ( ( )  ) )                     ( (   (  ) )(
+              ) )     ,,\\\                     ///,,       ) (
+           (  ((    (\\\\//                     \\////)      )
+            ) )    (-(__//                       \\__)-)     (
+           (((   ((-(__||                         ||__)-))    ) )
+          ) )   ((-(-(_||           ```\__        ||_)-)-))   ((
+          ((   ((-(-(/(/\\        ''; 9.- `      //\)\)-)-))    )
+           )   (-(-(/(/(/\\      '';;;;-\-      //\)\)\)-)-)   (   )
+        (  (   ((-(-(/(/(/\======,:;:;:;:,======/\)\)\)-)-))   )
+            )  '(((-(/(/(/(//////:%%%%%%%:\\\\\\)\)\)\)-)))`  ( (
+           ((   '((-(/(/(/('uuuu:WWWWWWWWW:uuuu`)\)\)\)-))`    )
+             ))  '((-(/(/(/('|||:wwwwwwwww:|||')\)\)\)-))`   ((
+          (   ((   '((((/(/('uuu:WWWWWWWWW:uuu`)\)\))))`    ))
+                ))   '':::UUUUUU:wwwwwwwww:UUUUUU:::``    ((   )
+                  ((      '''''''\uuuuuuuu/``````        ))
+                    ))          `JJJJJJJJJ`             ((
+                     ((          LLLLLLLLLLL           ))
+                       ))       ///|||||||\\\         ((
+                         ))    (/(/(/(^)\)\)\)       ((
+                          ((                        ))
+                            ((                    ((
+                               ( )( ))( ( ( ) )( )
+~
+S
+#0
+
+#RESETS
+M 0 19900 1 19901  ; Mob: #19900 un cardellino => #19901 Il cerchio
+O 0 19900 1 19901  ; Object: #19900 un anello di legno => #19901 Il cerchio
+M 0 19901 1 19902  ; Mob: #19901 una lince grigia => #19902 La cattedrale
+O 0 19901 1 19902  ; Object: #19901 la fonte delle fate => #19902 La cattedrale
+M 0 19902 1 19903  ; Mob: #19902 un elementale dell'acqua => #19903 Il lago argentato
+O 0 19902 1 19903  ; Object: #19902 una corazza di giunchi => #19903 Il lago argentato
+M 0 19903 1 19904  ; Mob: #19903 un coniglio bianco => #19904 Un passaggio segreto
+O 0 19903 1 19904  ; Object: #19903 una fragolina di bosco => #19904 Un passaggio segreto
+M 0 19904 1 19905  ; Mob: #19904 un'elementale dell'aria => #19905 L'arco degli spiriti
+O 0 19904 1 19905  ; Object: #19904 il canto del vento => #19905 L'arco degli spiriti
+M 0 19905 1 19906  ; Mob: #19905 un'elfa dei boschi => #19906 I lupi guardiani
+O 0 19905 1 19906  ; Object: #19905 un bastone nodoso => #19906 I lupi guardiani
+O 0 19906 1 19907  ; Object: #19906 un morbido zainetto => #19907 Strane figure
+M 0 19906 1 19907  ; Mob: #19906 un elementale della terra => #19907 Strane figure
+M 0 19907 1 19908  ; Mob: #19907 un'elementale del fuoco => #19908 Il boschetto fatato
+O 0 19907 1 19908  ; Object: #19907 polvere di fata => #19908 Il boschetto fatato
+S
+
+#SPECIALS
+S
+
+
+#END

@@ -1,0 +1,174 @@
+#HELP
+KeywordItalian classe classi~
+KeywordEnglish class classes~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Al tuo arrivo su queste terre potrai decidere quale strada seguire scegliendo
+la classe per il tuo personaggio, avrai varie opzioni, tra cui:
+
+Mago, Sacerdote, Ladro, Combattente, Druido, Ramingo e Paladino.
+
+Per saperne di più su ciascuna classe guarda l'aiuto relativo scrivendo:
+ºThelp <&gnome classe&w>.
+~
+End
+
+#HELP
+KeywordItalian combattente combattenti guerriero guerrieri guerriera guerriere~
+KeywordEnglish fighter fighters warrior warriors~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Combattente è colui che dedica la sua vita alla lotta, ha un'innata propensione
+per le sfide e la ricerca dello scontro con avversari sempre più impegnativi
+per migliorarsi.
+Sviluppa nel tempo un legame particolare con il suo corpo e le sue sensazioni
+imparando presto a dominare e sfruttare quelle più acerbe come paura e dolore.
+Ci sono diverse scuole e strade che un combattente può intraprendere.
+Egli stesso avrà più modi di gestire la sua vita, ma per i migliori tra questi
+non ci sarà mai tregua nell'addestramento e nessun avversario sarà troppo forte
+per rinunciare a battersi.
+Per l'addestramento è fondamentale l'insegnamento di un maestro all'altezza, ma
+conta sempre l'esperienza personale per riuscire a diventare dei veri
+Combattenti.
+~
+End
+
+#HELP
+KeywordItalian druido druidi druida druide~
+KeywordEnglish druid druids~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+I Druidi sono membri di ordini più o meno segreti, volti a conservare integri
+la flora e fauna.
+Le loro credenze spirituali si focalizzano sul culto della Natura, mostrando un
+certo disinteresse per tutto ciò che avviene al di fuori degli ambienti
+silvestri.
+Questo non vuol dire che siano sempre e comunque super partes: quando
+all’orizzonte si profila una minaccia contro le loro amate selve, sono più che
+pronti a scatenare i loro alleati animali (e vegetali...) e le stesse forze
+della Natura contro gli aspiranti invasori.
+Inoltre, si dice che i Druidi più potenti siano in grado di diventare essi
+stessi parte dell’ambiente naturale, acquisendo forza e poteri sovrannaturali,
+per brevi periodi di tempo.
+~
+End
+
+#HELP
+KeywordItalian ladro ladri ladra ladre~
+KeywordEnglish thief thieves~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il nome denota già le doti principali di questo individuo: furto, estorsione,
+ricatto, truffa.
+Quel che è meno noto è che alcuni esponenti di questa benemerita categoria
+approfondiscono le loro conoscenze anche in campi più sanguinosi: assassinio,
+rapimento, spionaggio.
+Per giungere ai loro obiettivi possono fare ricorso sia a trappole estremamente
+insidiose, sia alle "grattatine" dietro la schiena della vittima con pugnali e
+coltelli..
+A ciò si aggiunga che quando un Ladro giunge a padroneggiare l’arte
+dell’omicidio, spesso conosce anche un ampio arsenale di veleni e colpi
+decisamente sporchi per eliminare anche il più robusto guerriero o il più
+protetto dei maghi.
+In ogni caso, evitano comunque lo scontro aperto, che li vedrebbe quasi
+sicuramente perdenti.
+~
+End
+
+#HELP
+KeywordItalian mago maghi maga maghe stregone stregoni strega streghe~
+KeywordEnglish mage mages warlock warlocks witch witches~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+I membri di questa categoria godono spesso di una cattiva reputazione.
+La capacità di poter piegare materia ed energia ai propri comandi, infatti,
+spesso influisce negativamente sull’ego degli individui che si dedicano allo
+studio dell’Arte.
+Studio che è tutt’altro che semplice o breve.
+Un Mago deve passare ore ed ore su libri e pergamene per perfezionare il
+suo sapere, ed inoltre lottare contro i pregiudizi e le paure, spessissimo
+motivate, della popolazione.
+Molto spesso, fra incidenti di laboratorio, lotte fra rivali e linciaggi, uno
+Mago non arriva neanche al primo decennio di pratica.
+Quando tuttavia riesce a superare questi scogli, il potere che è in grado di
+scagliare contro i suoi avversari è devastante, in grado di mettere in
+ginocchio gruppi ben più forti dello Stregone.
+A ciò si aggiunga il vasto repertorio di incanti ed illusioni che il Mago
+usa per mascherare i suoi intenti o piegare la volontà dei suoi avversari, e si
+capirà come uno stregone sia un problema molto grosso per chiunque voglia
+affrontarlo.
+Elfi e Drow sono estremamente attratti dalla magia, mentre gli Umani la temono
+ed odiano.
+~
+End
+
+#HELP
+KeywordItalian sacerdote sacerdoti sacerdotessa sacerdotesse prete preti chierico chierica chierici cheiriche~
+KeywordEnglish priest priestes cleric clerics~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+I Sacerdoti sono diffusi in tutte le culture e civiltà, più o meno progredite.
+Essi sono il mezzo con cui le divinità acquisiscono nuovi fedeli ed aumentano
+la loro influenza sul mondo dei mortali.
+In cambio di cieca devozione e fede incrollabile, il nume tutelare del
+Sacerdote gli concede poteri di guarigione, per meglio espandere il proprio
+culto fra i bisognosi, oltre che garantirgli doti di protezione ineguagliabili
+ed alcuni incantesimi decisamente devastanti per gli infedeli.
+Sono tuttavia notevolmente incapaci in combattimento, migliori nelle arti
+marziali dei soli Stregoni.
+I Thepa sono guidati dai propri Sacerdoti, mentre Gith e Drow li tengono
+comunque in altissima stima.
+~
+End
+
+#HELP
+KeywordItalian paladino paladina paladini paladine antipaladino antipaladini antipaladina antipaladine~
+KeywordEnglish paladin paladins antipaladin antipaladins~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Così come il sacerdote è dedito ad ampliare il numero dei fedeli di una
+divinità, compiendo in suo nome dei miracoli, così un Paladino è chiamato a
+tenerne alto il nome con il proprio codice etico unito ad alcune doti peculiari
+concessegli dalla divinità.
+Il Paladino difende con le armi in pugno la sua fede, con le sue azioni eroiche
+ne aumenta la fama, e rafforza il legame dei fedeli con il suo dio.
+In cambio dell’adesione totale ed imperitura ai codici dei vari ordini
+religiosi combattenti, il Paladino viene benedetto dalla sua divinità con una
+furia prodigiosa contro esseri nemici della sua fede, e con capacità prodigiose
+nel benedire armi ed armature.
+Inoltre, sono in grado di eccellere nell’arte del combattimento a cavallo, con
+spada o lancia.
+~
+End
+
+#HELP
+KeywordItalian ramingo raminghi raminga raminghe~
+KeywordEnglish ranger rangers wandering wanderings~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Lo spirito d'avventura, la capacità di adattarsi ad ogni situazione e far fronte
+a qualsiasi imprevisto, la tenacia ed un intuito molto particolare.. sono queste
+le caratteristiche principali di ogni Ramingo.
+Molti di questi vivono a stretto contatto con la natura e rimangono tra gli
+alberi a contemplare l'armonia e l'equilibrio dei boschi diventandone i
+guardiani.. E la natura ripaga il loro affetto concedendogli i suoi favori.
+C'è chi invece preferisce vagare in lungo e in largo i continenti facendo di
+ogni albero la sua casa.. Ma non disprezzando ogni tanto anche una piccola
+visita nella città più vicina per narrare dei suoi viaggi.
+Nonostante le tante imprese, le scoperte, le conquiste di tanti raminghi i loro
+nomi sono spesso rimasti ignoti ai più.. Ma in ogni gruppo d'avventurieri che si
+rispetti questi sono sempre ricercati per il loro straordinario intuito, il
+senso dell'orientamenteo e l'innata conoscenza dei luoghi.
+~
+End
+
+
+#END

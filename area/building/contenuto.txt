@@ -1,0 +1,2 @@
+Questa cartella contiene tutte le aree create online dai Builder.
+Questo file esiste per far decomprimere correttamente tutte le cartelle.

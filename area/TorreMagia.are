@@ -1,0 +1,2603 @@
+#AREA
+Name         La grande Torre della Magia~
+Author       Skylar (Mydonell)~
+Color        AT_RED rosso~
+LevelRange   10 30
+ResetMsg1    Senti un fruscio di fogli..~
+Version      1
+Vnums        1300 1499
+End
+
+
+#MOBILES
+#1300
+ombra guardiana~
+un'Ombra Guardiana~
+Un'ombra compare alle tue spalle!
+~
+Si tratta di un'ombra, non riesci a definirne i contorni.
+Essa si trova qui a guardia di questo luogo mistico, pare non porti armi se non
+il proprio agghiacciante grido ed il terrore che l'accompagna nei movimenti.
+~
+101 33290 -350 S
+9 10 1 9d9+90 2d5+5
+100 4000
+112 112 0
+#1301
+avventuriero sperduto~
+un avventurriero sperduto~
+Un uomo emaciato ed affaticato si guarda attorno sperduto.
+~
+Innanzi a te si trova un uomo magro e dal volto scarno, si direbbe che non abbia
+toccato cibo da molto tempo ed il suo aspetto ti fa pensare che sia anche
+malaticcio, certamente deve essersi smarrito ed aver vagato senza meta.
+~
+135 0 400 S
+8 12 6 10d10+10 2d4+4
+286 1500
+108 112 1
+#1302
+edgar spadaccino~
+Edgar lo spadaccino~
+Edgar lo spadaccino si trova qui.
+~
+Conoscuito come Edgar l'Orribile, egli partì alla ricerca di fortuna, ma pare
+essersi perso in questo luogo saturo di mistero e magia.
+Indossa una leggera armatura ed una sottile spada dall'elsa grigia pende dalla
+sua cintura.
+~
+149 0 1000 S
+1 20 10 3d9+10 1d8+1
+23 100
+112 112 1
+#1303
+golem arenaria~
+un golem di arenaria~
+Un pesante e grosso golem è qui di guardia.
+~
+Si tratta di un grande e forzuto blocco di pietra areanaria, come tutti i golem
+ha grottesce forme ispirate a quelle umane. Un suo pugno potrebbe arrecarti
+molto dolore!
+~
+67 8 500 S
+23 5 -10 23d23+230 3d6+15
+985 15000
+112 112 0
+#1304
+giovane mago~
+un giovane mago~
+Un giovane mago cammina qui attorno.
+~
+Sembra un ragazzo nel pieno della giovinezza, è vestito con una tunica verde di
+semplice lavorazione e porta sottobraccio alcuni libri e varie pergamene, pare
+sia interessato alla magia ed ai misteri dell'universo.
+~
+193 8 450 S
+10 10 -1 10d10+100 1d8+8
+436 3500
+112 112 1
+#1305
+locandiere gestore~
+il gestore della Taverna Magica~
+Il locandiere sta pulendo dei bicchieri.
+~
+E' un uomo barbuto e ben messo fisicamente, indossa dei normali e leggeri  abiti
+di stoffa. E' forse l'unico qui dentro a non ricorrere alla magia per svolgere
+il suo lavoro quotidiano. Controlla che i suoi aiutanti facciano il loro  dovere
+e che tutti i clienti siano soddisfatti.
+~
+67 8 750 S
+25 1 -6 1d1+30000 3d7+20
+2000 20000
+112 112 1
+#1306
+taddeo venditore~
+Taddeo il venditore~
+Taddeo si trova qui e conta i suoi guadagni.
+~
+E' il gestore del negozio magico della torre, veste degli abiti dai colori
+variopinti abbinati in modo orrendo. Conta di tanto in tanto delle monete
+che porta con sé, ha un viso gioviale ed una gioviale calvizie.
+~
+67 8 900 S
+25 0 -8 1d1+3000 3d7+21
+5000 24000
+112 112 1
+#1307
+ezmerelda~
+Ezmerelda la cuoca~
+La cuoca della torre è qui.
+~
+Si tratta di una donna leggermente obesa, l'abito che indossa le va infatti
+stretto, ha un viso sorridente e sereno, i capelli biondi sono raccolti in una
+coda di cavallo di media lunghezza. Si vanta di saper cucinare in modo egregio e
+porta con sé, ovunque si rechi, una manciata di spezie aromatiche.
+~
+67 8 -500 S
+20 6 -1 20d20+200 3d4+8
+1092 31300
+112 112 2
+#1308
+assistente cuoco~
+un assistente cuoco~
+L'assistente è qui pronto ad aiutare ai fornelli.
+~
+Si tratta di un garzone dal viso paffuto e sornione, il più delle volte si muove
+con passo lento e svogliato. Porta dei larghi pantaloni, una maglia color cielo
+ed una casacca da lavoro con qualche bruciatura.
+~
+195 8 -200 S
+11 8 1 11d11+110 3d4+4
+116 4600
+112 112 1
+#1309
+prigioniero~
+il prigioniero della Torre~
+Un prigioniero è qui incatenato alla parete.
+~
+Hai innanzi la personificazione di ciò che il tempo, unito alla mancanza di cibo
+ed acqua prolungata, può creare. Il  prigioniero non reagisce, sembra ormai
+rassegnato alla sua situazione eppure quando ti avvicini si raggomitola ed
+emette degli urletti di paura. Evidentemente non è più abituato a trattare con
+esseri viventi che non assomiglino ai soliti topi o insetti.
+~
+231 0 100 S
+16 6 2 3d30+30 2d4+9
+0 1800
+112 112 1
+#1310
+carceriere~
+il carceriere della Torre~
+Il carceriere è qui e si sta stiracchiando.
+~
+E' un uomo basso, grasso ed alquanto sudicio, inoltre è zoppo da una gamba ed
+ha un occhio strabico. Porta dei pantaloni di pelle neri ed una giacchetta
+lavorata, anch'essa in pelle nera, il viso è ricoperto da una barba mal tenuta.
+E' decisamente sporco e maleodorante.
+~
+67 8 100 S
+17 5 -3 17d17+170 3d5+10
+1326 12000
+104 104 1
+#1311
+scopa~
+una scopa magica~
+Una scopa magica si muove da sola nella stanza!
+~
+Si tratta di una semplicissima scopa di paglia, è composta da un lungo manico
+e sottili rametti di saggina, utilizzata all'occorrenza per pulire in terra.
+Una normale scopa insomma.. Se non fosse che si muove da sola!
+~
+103 8 50 S
+7 10 2 7d7+70 2d4+4
+0 1600
+112 112 0
+#1312
+artiglio guardiano~
+un guardiano della Torre~
+Uno dei guardiani magici della torre fluttua qui.
+~
+E' uno dei guardiani creati con la magia per la sorveglianza della torre, questo
+in particolare è un grande artiglio fluttuante dotato di lunghe ed affilate
+unghie sicuramente reali e letali.
+Ti domandi come possa un essere del genere esistere, e l'unica risposta che
+riesci a trovare è: "Grazie alla magia!"
+~
+97 0 -400 S
+9 7 -5 9d9+90 2d4+5
+0 3100
+112 112 0
+#1313
+occhio guardiano~
+un occhio guardiano~
+Uno occhio della torre fluttua qui vicino.
+~
+E' uno dei guardiani creati con la magia per la sorveglianza della torre.
+Si tratta di un grande occhio che scruta attorno a sé senza sosta, non è molto
+bello da vedersi, anzi, fa decisamente impressione ma la sua efficienza è senza
+dubbio notevole.
+~
+97 8 -600 S
+15 5 -9 15d15+150 3d4+8
+0 9100
+112 112 0
+#1314
+mago viaggiatore~
+un mago viaggiatore~
+Questo mago si trova qui solo per una rapida visita..
+~
+E' vestito con abiti scuri tendenti al marroncino, porta con sé una sacca da
+viaggio che gli fluttua accanto. Questo elfo oscuro senza dubbio pratica la
+magia e ciò lo puoi notare anche dalla mole di libri che reca con sé.
+~
+199 8 250 S
+12 8 -2 12d12+120 2d4+5
+726 6200
+104 104 1
+#1315
+studentessa ragazza~
+una studentessa di magia~
+Una ragazza è qui e fa pratica con degli esercizi magici.
+~
+Si tratta di una ragazza molto carina e giovane, indossa una tunica bianca priva
+di grandi decorazioni, ai piedi calza dei sandali e nelle mani regge dei fogli.
+Mentre cammina prova alcuni esercizi di magia, probabilmente appresi alla
+lezione del giorno, ma i risultati non sembrano molto esaltanti.
+~
+195 0 400 S
+7 7 2 7d6+25 2d4+5
+369 2950
+108 108 2
+#1316
+studente ragazzo~
+uno studente di magia~
+Un ragazzo è qui e ripete forume magiche tra sé e sé.
+~
+E' un ragazzo giovane che porta degli abiti molto seri, reca con sé dei fogli e
+quadernetti pieni di appunti ed a volte si ferma per aggiungervi qualche cosa,
+oppure per apporvi delle rapide correzioni. Si tratta di uno studente di magia,
+ciò ti è suggerito anche dalle formule che continuamente ripete.
+~
+195 0 380 S
+7 6 2 7d6+25 2d4+5
+487 2750
+112 112 1
+#1317
+studente assonnato~
+uno studente assonnato~
+Uno studente sembra essersi addormentato.
+~
+Sta sonnecchiando, probabilmente per il troppo studio, o forse è caduto vittima
+di uno scherzo dei compagni o della lezione su come far addormentare una persona.
+Fatto sta che il suo viso è pacifico e sereno, forse sta anche facendo dei bei
+sogni magici, svegliarlo ora sarebbe molto crudele.
+~
+195 0 350 S
+7 7 2 7d6+25 2d4+4
+211 2650
+104 104 1
+#1318
+apprendista giovane~
+una giovane apprendistaa~
+Una giovane apprendista ripassa i suoi appunti.
+~
+Questa ragazza sta ripassando costantemente e diligentemente i propri appunti in
+modo quasi ossessivo, sembra molto nervosa  ed anche disperata per il fatto che
+non riesce a ricordarsi l'argomento dell'ultima lezione di magia!
+~
+195 0 -200 S
+7 7 1 7d6+25 2d4+5
+382 2300
+112 112 1
+#1319
+gatto piccolo~
+un piccolo gatto~
+Un piccolo gatto è qui e miagola di tanto in tanto.
+~
+Assomiglia ad una piccola palla di pelo non molto grande, l'unica cosa che
+risalta sono gli occhi vitrei che ti fissano.
+~
+195 0 500 S
+1 20 1 1d1+10 1d4+1
+0 11
+112 112 2
+#1320
+studente annoiato~
+uno studente annoiato~
+Uno studente si trova qui, visibilmente annoiato.
+~
+Si tratta di uno scansafatiche bello e buono, non fa altro che sbadigliare o
+fare scarabocchi su di un foglio, se continua così non riuscirà a superare
+nessun esame.
+~
+195 0 350 S
+8 9 1 8d8+80 2d4+6
+263 3000
+108 108 1
+#1321
+insegnante magia~
+un insegnante di magia~
+Questo insegnante pare non gradire la tua presenza.
+~
+Da quando hai interrotto la sua lezione, ti guarda in cagnesco ed urlando ti
+intima d'andartene immediatamente! Sembra molto infervorato e per nulla disposto
+a parlare se non di argomenti collegati alla magia ed al suo studio.
+~
+99 8 300 S
+14 6 -2 14d14+140 3d4+8
+880 18500
+112 112 1
+#1322
+studente invisibile~
+uno studente invisibile~
+Questo studente è riuscito a fare un incantesimo.
+~
+Dopo aver pronunciato delle parole magiche, la sua figura sparisce
+improvvisamente per poi riapparire alle tue spalle; non appena ti volti, ecco
+che scompare nuovamente. Si sta esercitando nell'incantesimo dell'invisibilità e
+sembra riuscirvi decisamente molto bene.
+~
+195 10 400 S
+8 8 -2 8d8+80 2d4+6
+198 2200
+112 112 1
+#1323
+insegnante magia~
+una vecchia insegnante di magia~
+Questa vecchia pare non apprezzare la tua presenza.
+~
+Si tratta d'una vecchia donna, ha corti capelli grigi è decisamente bassa e
+ricurva sulla schiena. A prima vista sembra una vera e propria strega megera, ti
+guarda in  modo non molto amichevole forse perchè hai disturbato la sua
+noiosissima spiegazione. Subito t'intima di sederti per seguire la lezione  (in
+rigoroso silenzio!) oppure di andartene.
+~
+99 10 300 S
+15 5 -4 15d15+150 3d4+9
+1256 20500
+112 112 1
+#1324
+studentessa assonnata~
+una studentessa assonnata~
+Questa ragazza sembra essersi addormentata sui libri.
+~
+E' una giovane fanciulla dal viso tenero e vivace, ora come ora si è però
+addormentata sui propri libri, sembra essere molto stanca e dall'espressione del
+viso pare che non stia facendo bei sogni, a volte emette dei piccoli versi e
+pare dire nel sonno: "No! No! Non voglio ridare quell'esame, uffa!"
+~
+195 8 400 S
+9 11 -2 9d9+90 2d4+7
+567 3800
+104 104 2
+#1325
+oratore mago~
+un mago oratore~
+Un vecchio mago è qui e parla ininterrottamente.
+~
+Hai davanti a te un uomo abbastanza vecchio, porta dei vestiti sobri e tiene in
+mano alcuni fogli sui quali sono riportate alcune frasi che non riesci a vedere.
+Parla molto e da quanto riesci a scoprire, vieni a sapere che si tratta
+di un grande e virtuoso oratore molto conosciuto.
+~
+195 8 400 S
+18 4 -5 18d18+180 3d4+8
+2468 31000
+112 112 1
+#1326
+mago combattente~
+un mago combattente~
+Questo giovane mago prova ad allenarsi a mani nude.
+~
+Pare che stia tentando d'imparare una difesa a mani nude, inutile dire che non è
+affatto portato, la sua tenacia è ammirevole ma la scarsità del fisico
+è talmente palese che probabilmente nel giro di qualche ora, tornerà a studiare
+un grosso libro.
+~
+195 8 300 S
+9 11 -1 9d9+90 2d4+8
+695 3800
+112 112 1
+#1327
+elfa oscura insegnante pugnale~
+l'insegnante del pugnale~
+Questa elfa oscura sta insegnando come utilizzare un pugnale.
+~
+Sembra una donna decisamente rude e grezza, non sapresti dire se conosca
+maggiormente la magia oppure il pugnale che regge nella mano sinistra, fatto sta
+che essa si trova qui per insegnare i primi rudimenti di difesa ed attacco con
+pugnale.
+~
+99 8 200 S
+17 2 -2 17d17+170 3d5+8
+3211 23050
+112 112 2
+#1328
+insegnante incantesimi~
+un'insegnate d'incantesimi~
+Una sensuale insegnante è qui e si sta rilassando.
+~
+Si tratta di una giovane e molto attraente donna umana, indossa una tunica con
+un vistoso spacco laterale, ha occhi azzurri e capelli mossi color dell'oro.
+Porta con sé dei libri, ma ora come ora non sembra molto interessata ad
+insegnare gli incantesimi.
+~
+67 8 200 S
+15 5 1 15d15+150 3d4+4
+1002 15800
+106 106 1
+#1329
+vecchio stregone~
+un vecchio stregone~
+Un vecchio stregone sembra essersi addormentato.
+~
+Quando ti avvicini per osservarlo, il vecchio apre un occhio e ti sorride
+sdentato, egli faceva finta di dormire ed ha sempre saputo della tua presenza in
+questa stanza.
+~
+227 8 350 S
+20 5 -5 20d20+200 3d4+9
+1567 37500
+104 104 1
+#1330
+scriba~
+uno scriba~
+Uno scriba sta risistemando un manoscritto.
+~
+E' un uomo vestito con abiti dalla foggia elegante e dall'aspetto serio,
+maneggia dei libri e pergamene tenendo stretta una penna ed una boccetta
+d'inchiostro.
+E' pronto per risistemare testi o prendere appunti sul lavoro da fare.
+~
+199 8 400 S
+14 6 -1 14d14+140 3d4+4
+312 14850
+112 112 1
+#1331
+scriba donna~
+una scriba~
+Una donna sta trascrivendo una pergamena.
+~
+Si tratta di una ragazza bruna dai capelli ricci, il suo unico difetto è forse
+quello d'esser troppo attaccata al suo lavoro di traduttrice e d'esser più
+interessata alle parole che alle persone.
+~
+195 8 500 S
+15 6 -1 15d15+150 2d4+10
+684 16550
+112 112 2
+#1332
+uomo capo scriba~
+il capo scriba~
+Un uomo robusto regge in mano molti vecchi libri.
+~
+Ha un fisico abbastanza gracile e benché sia vecchio, dimostra meno anni di
+quanti effettivamente ne abbia. Quando ti avvicini lo senti lamentarsi del fatto
+che lo stai interrompendo e distraendo dal suo lavoro. Di tanto in tanto va dai
+suoi sottoposti per vedere come procedono i vari lavori.
+~
+227 8 100 S
+22 4 -5 22d22+220 3d5+8
+5634 29500
+112 112 1
+#1333
+maestro miniatore~
+un maestro miniatore~
+Un miniatore sta decorando un piccolo oggetto.
+~
+Quest'uomo si sta dedicando alla decorazione di un piccolo oggetto magico, è
+molto bravo e segue un criterio scrupolosissimo ed intricato. La finezza del suo
+operato si attesta ad altissimi livelli, avere un maestro come lui è una rarità.
+~
+227 8 100 S
+16 6 -2 16d16+160 3d4+6
+1050 21300
+112 112 1
+#1334
+maestro incanti~
+il maestro degli incanti~
+Il maestro degli incanti sta usando la sua magia su di un oggetto.
+~
+Si tratta di un uomo all'apparenza vecchio e canuto, egli impone le sue rugose e
+grosse mani sugli oggetti che ha attorno e questi brillano di una strana luce
+per poi prender magicamente vita propria!
+Sembra felice del proprio lavoro.
+~
+99 8 -200 S
+23 4 -5 23d23+230 3d5+6
+6812 30500
+112 112 1
+#1335
+spada danzante~
+una spada danzante~
+Una spada incantata danza nella stanza.
+~
+Si tratta di una normalissima spada che qualsiasi guerriero solitamente porta
+con  sé, eppure questa si muove da sola! Danza per la stanza saltellando e
+piroettando nell'aria, certamente deve esser assoggettata a qualche incantesimo o
+comunque una forza magica la sta controllando da lontano.
+~
+99 0 -500 S
+10 1 -10 10d10+100 3d5+5
+0 4000
+112 112 0
+#1336
+pazzo alchimista~
+il pazzo alchimista~
+Un alchimista si muove freneticamente per tutta la stanza.
+~
+Quest'uomo deve esser decisamente squilibrato, continua a bere pozioni su
+pozioni e pronuncia parole assurde e prive di significato apparente. A volte si
+ferma e ti ride in faccia per poi offrirti una strana pozione dal colore e
+dall'odore sgradevole, forse è meglio non aver a che fare con lui.
+~
+231 8 150 S
+24 4 -4 24d24+240 3d5+10
+2346 31500
+112 112 1
+#1337
+maestro evocatore uomo~
+il maestro evocatore~
+Un uomo sta aprendo un varco nei piani dimensionali.
+~
+Muove le braccia e pronuncia ad alta voce delle parole, appena finito ciò, un
+portale dimensionale si spalanca alle tue spalle ed un coniglio ne salta  fuori
+lentamente. Il maestro dell'evocazione sembra molto soddisfatto.
+~
+227 8 -200 S
+22 5 -2 22d22+220 3d5+6
+1019 27050
+112 112 1
+#1338
+maestra incantatatrice donna~
+la maestra incantatrice~
+Una donna è qui e per poco non ti incanta!
+~
+Porta una gonna provocante e ti sorride con grandi occhi luncenti, le labbra
+sottili ed i capelli sciolti sulle spalle. Questa persona ti guarda sorridendo,
+ma sembra il sorriso di chi sta osservando un nuovo cucciolo da aggiungere  alla
+sua collezione di esseri incantati e soggiogati al suo volere.
+~
+35 8 -400 S
+23 4 -4 23d23+230 3d5+10
+4672 31050
+112 112 1
+#1339
+golem legno~
+un golem di legno~
+Un golem di legno si trova qui, fermo impassibile.
+~
+Questo gigante è fatto solamente di legno, qualche fogliolina spunta qua e là
+sul suo corpo, eppure è estremamente infiammabile..
+~
+99 8 100 S
+16 7 -5 16d16+160 1d10+10
+1000 17500
+112 112 0
+#1340
+maestro energie ~
+il maestro delle energie~
+Questo maestro sta provando a ricaricare un bastone magico.
+~
+Un uomo alto e molto magro si trova innanzi a te. Porta un cappuccio in testa ed
+una tunica azzurra, non sembra molto felice della tua presenza ed ancora meno
+del fatto che il bastone che regge in mano abbia esaurito la sua carica magica,
+ora infatti, dovrà far ricorso alle sue  onoscenze per poterlo rendere
+nuovamente utilizzabile.
+~
+231 8 -500 S
+23 5 -4 23d23+230 3d5+8
+2315 30500
+112 112 1
+#1341
+maestro creatore golem uomo~
+il maestro creatore di golem~
+Un uomo è qui e sta lavorando la pietra con la magia.
+~
+E' uno gnomo anziano con una lunga barba. Grazie all'aiuto della magia, infonde
+vita nella pietra così da ottenere dei golem! Veste abiti molto leggeri
+e comodi.
+~
+99 8 300 S
+21 6 -2 21d21+210 3d5+5
+2678 26850
+112 112 1
+#1342
+golem granito~
+un golem di granito~
+Un grande blocco di granito ostruisce la strada.
+~
+In realtà non si tratta di roccia inanimanta ma bensì di un golem! La sua stazza
+è possente e difficilmente lo abbatterai in poco tempo.
+~
+99 0 300 S
+20 7 -6 20d20+200 4d5+10
+0 25600
+112 112 0
+#1343
+golem bronzo~
+un golem di bronzo~
+Un golem si trova qui e riflette la luce con il suo corpo.
+~
+La superficie della sua pelle, se così si può definire, riflette la luce e pare
+solido e ben impiantato sulle grandi gambe di bronzo che sorreggono il busto.
+~
+67 0 350 S
+18 8 -3 18d18+180 4d5+5
+0 22350
+112 112 0
+#1344
+golem carne~
+un golem di carne~
+Un ammasso di corpi di carne si trova qui.
+~
+Un golem  composto prevalentemente di parti di corpi ti fissa  silenzioso. La
+carne appare leggermente putrefatta  e puzza  di morte, non è certo un bello
+spettacolo incontrare una creatura come questa.
+~
+99 0 200 S
+12 9 -1 12d12+120 4d4+4
+0 8520
+112 112 0
+#1345
+golem avorio~
+un golem d'avorio~
+Un golem fatto d'avorio vaga qui attorno.
+~
+Pare che questo sia un golem molto grande ed altrettanto prezioso, infatti  il
+materiale con cui è stato realizzato pare essere niente meno che avorio allo
+stato  puro!
+Non ha espressione, per quanto un golem possa averne, e sembra vagabondare
+senza un preciso scopo nella sua vita da creatura magica.
+~
+71 0 350 S
+8 10 1 8d8+80 3d4+1
+0 2100
+112 112 0
+#1346
+golem adamantio~
+un golem d'gdamantio~
+Pare che questo golem sia molto pericoloso.
+~
+E' stato forgiato con metallo scuro come l'ombra, e scura è probabilmente
+l'anima magica che gli permette di muoversi. L'adamantite che lo compone è pura
+e di primissima qualità, abbattere un mostro simile richiederebbe certamente
+l'impiego di una grande quantità di forze magiche e non.
+~
+71 0 350 S
+25 0 -10 25d25+250 3d7+3
+10000 35650
+112 112 0
+#1347
+golem ossidiana~
+un golem d'ossidiana~
+Un Golem d'Ossidiana si trova qui.
+~
+I golem fatti di ossidiana sono relativamente pochi al giorno d'oggi, questo è
+veramente enorme! E' alto quasi quanto un gigante delle tempeste, ha braccia,
+gambe e torace lavorati in modo egregio. Un suo pugno potrebbe fracassarti tutte
+le ossa ed un suo calcio potrebbe smembrarti. E' forse meglio non incrociare
+la sua strada o comunque sia, meglio stargli distanti.
+~
+103 8 200 S
+15 5 -1 15d15+150 4d5+3
+0 18320
+112 112 0
+#1348
+maestro illusionista drago~
+il maestro delle illusioni~
+Un dragone ti appare all'improvviso!
+~
+Il Drago che hai innanzi, lentamente sbiadisce ed al suo posto compare la figura
+di un uomo basso, si tratta del maestro delle illusioni e quanto hai appena
+visto rappresenta solo una piccola parte della sua abilità. Indossa  una tunica
+grigia ed un cappello nero, ti osserva ridendo e creando attorno a sé delle
+piccole illusioni ottiche.
+~
+199 8 150 S
+21 6 -4 21d21+210 3d5+5
+2345 26450
+112 112 1
+#1349
+maestro figura necromante~
+il maestro dei necromanti~
+Questa figura sta cercando di riportare in vita qualcosa..
+~
+E' abbigliato con vestiti neri e violetti, è alto ma magro e non sembra parlare
+molto, ogni tanto però ride follemente da solo senza motivo! Il suo viso è
+pallido e gli occhi sembrano uscirgli dalle orbite, nelle mani stringe una
+pergamena ed un uccellino morto, forse sta tentando di riportalo in vita.
+~
+231 8 -950 S
+25 0 -8 25d25+250 3d7+7
+11684 35250
+112 112 1
+#1350
+scheletro~
+uno scheletro tumefatto~
+Uno scheletro è qui, ma è in vita!
+~
+Si tratta di un ammasso d'ossa rosicchiate dai topi, si muove scompostamente ma
+con una discreta  velocità. I  morti dovrebbero stare sottoterra!
+Questo probabilmente, o non la pensa così, oppure è stato evocato da un folle
+necromante.
+~
+99 8 -500 S
+15 5 -2 15d15+150 3d4+10
+0 16500
+112 112 0
+#1351
+gigante non-morto~
+un gigante non-morto~
+Un gigante non-morto si trova qui sbavando.
+~
+Indossa solamente un paio di pantaloni e degli stivali logori, sul suo corpo
+vedi segni di esperimenti, forse opera di qualche necromante non molto sano di
+mente..
+~
+103 8 -500 S
+18 5 -4 18d18+180 3d5+10
+0 22000
+112 112 0
+#1352
+vecchia orribile strega~
+una vecchia strega~
+Un'orribile strega è qui e sparla della gente.
+~
+E' decisamente brutta!
+La sua pelle è rugosa e bitorzoluta, le sue labbra grinzose sono solcate da  un
+velato  pallore violaceo, si sfrega le mani secche e sogghigna sotto i baffi..
+Più  la guardi e più speri che non le venga in mente di lanciarti qualche
+maleficio o che ti tramuti in qualche animale, ma la cosa che temi maggiormente
+è che possa avvicinarsi per stringerti tra le braccia e darti un bacio!
+~
+103 8 -450 S
+20 5 -2 20d20+200 3d6+5
+2150 26850
+112 112 2
+#1353
+Teryel bibliotecaria~
+Teryel, la bibliotecaria della Torre~
+La bibliotecaria è immersa in una profonda lettura.
+~
+Si tratta di una giovane studentessa da poco promossa e messa a lavorare nella
+biblioteca della torre magica. Ha capelli lunghi ricci e di color rosso scuro,
+la carnagione è chiara e gli occhi verdi sono concentrati nella lettura di un
+vecchissimo libriccino di poesie. E' vestita con una tunica scura ed indossa al
+collo, un pendente a forma di drago.
+~
+227 8 450 S
+23 3 -6 23d23+230 3d6+5
+1287 29500
+104 104 1
+#1354
+primo apprendista preferito~
+il primo apprendista~
+L'apprendista preferito del maestro della neutralità ti sorride.
+~
+Si tratta di un potente stregone nel pieno delle forze, noti che sulla sua
+tunica porta il simbolo della neutralità, si tratta infatti del miglior
+apprendista dell'omonimo maestro. E' un uomo serio ma che sa lasciarsi andare
+quando serve.
+Egli spera di apprendere tutti i segreti dal suo maestro ed un giorno di poterlo
+eguagliare e magari, perché no, anche superarlo e prendere il suo posto.
+~
+103 8 0 S
+24 -3 -12 24d24+240 3d6+6
+6723 30750
+112 112 1
+#1355
+gattina grigia~
+una gattina grigia~
+Una gattina è qui e cerca di prendersi la coda.
+~
+E'ancora una cucciola, si muove un po' goffamente e miagola per cercare un po'
+di cibo, ma nessuno le risponde.
+~
+67 32770 0 S
+15 5 -5 15d15+150 5d5+5
+0 18750
+112 112 2
+#1356
+maestro neutralità~
+il maestro della Neutralità~
+Il maestro è qui e soppesa l'equilibrio che regge l'universo.
+~
+Si tratta d'una saggia persona calma e rilassata. Egli si trova qui e contempla
+il mondo in silenzio, suo unico scopo nella vita è il raggiungimento del
+perfetto equilibrio e stabilità.
+~
+67 136 0 S
+30 -10 -20 30d30+300 2d5+20
+15350 150000
+112 112 1
+#1357
+apprendista ragazza scura~
+un'apprendista in abiti neri~
+Una giovane ragazza in abiti scuri è qui.
+~
+E' una giovane ed intrigante ragazza dagli occhi penetranti e maliziosi, gli
+abiti nascondono (si fa per dire) delle curve molto provocatorie e sensuali.  Si
+trova qui per apprendere i più grandi segreti delle arti arcane dal proprio
+maestro, ma chissà se si trova qui per i proprio meriti scolastici oppure per
+altri motivi..
+~
+103 32776 -750 S
+20 2 -6 20d20+200 3d6+6
+13876 27800
+112 112 2
+#1358
+gattina nera~
+una gattina nera~
+Una gattina è qui e si affila le unghie su di una pietra.
+~
+Il suo pelo è nero come la notte ma la punta delle zampette è bianca ed in mezzo
+agli occhi ha una macchia di pelo bianco a forma di goccia.
+~
+67 32776 -800 S
+16 5 -4 16d16+160 3d7+3
+0 19950
+112 112 0
+#1359
+grande maestro~
+il grande maestro della Magia Nera~
+Il maestro della magia nera ti fissa con malignità.
+~
+Si tratta  di un uomo avviluppato in abiti scuri ed indossa sulle spalle un
+mantello scarlatto. Il viso pare esser solcato da un ghigno perpetuo, e ciò è
+reso ancora più accentuato dal pizzetto.
+Si tratta di una persona molto alta dalla quale senti provenire un intenso
+flusso maligno misto a perversione, deve trattarsi di un esponente delle
+arti arcane minori.
+~
+71 136 -1000 S
+30 -10 -20 30d30+300 2d5+20
+22100 150000
+112 112 1
+#1360
+apprendista ragazzo bianco~
+un apprendista in abiti bianchi~
+Un ragazzo in abiti chiari si trova qui.
+~
+Sembra un ragazzo calmo, ma a volte scatta improvvisamente, ricorda molto un
+fanatico; si aggira blaterando che nulla può distruggere la  magia bianca, che
+essa rappresenta il bene assoluto, la materia più pura che possa esistere.
+~
+99 8 750 S
+20 2 -6 20d20+200 3d6+6
+7400 27850
+112 112 1
+#1361
+gatta bianca~
+una gatta bianca~
+Una Gatta si lecca il bianco pelo.
+~
+E' una gatta color del latte, il suo pelo è folto e morbido. Assomiglia un po'
+ad un fiocco di neve con le zampe e la coda.
+~
+67 32776 800 S
+15 4 -4 15d8+10 3d7+3
+0 7950
+112 112 0
+#1362
+maestra bianca~
+la grande maestra della Magia Bianca~
+La maestra della magia bianca ti sorride con benevolenza.
+~
+Si tratta di un'elfa né troppo giovane né troppo vecchia, è vestita con una
+lunga gonna bianca decorata da ricami celesti, il seno è stretto in una
+camicetta corta tanto da mostrare un ventre piatto e magro adornato da un
+tatuaggio a forma  di rosa. Il suo viso è gioioso, dalla sua persona  senti
+sprigionarsi un'aura mistica dagli influssi benveoli e caritatevoli.
+~
+67 136 1000 S
+30 -10 -20 30d30+300 2d5+20
+21900 150000
+112 112 1
+#1363
+gatto maculato~
+un gatto maculato~
+Un bel gatto si fa gli affari suoi.
+~
+Si tratta di un batuffolo di pelo dai vari colori, ha piccoli occhietti vispi ma
+sembra disinteressarsi di te. Ogni tanto si dà una grattatina dietro le
+orecchie.
+~
+67 32776 800 S
+25 1 -9 25d25+250 5d5+10
+0 30000
+112 112 0
+#1364
+somma signora~
+la Signora delle Arti~
+La somma signora siede sul suo trono.
+~
+Sembra sentirsi completamente a suo agio, è molto giovane per ricoprire il ruolo
+che detiene, probabilmente ha conservato questo aspetto giovanile grazie a
+qualche espediente magico di alto livello.
+Le varie voci che girano sul suo conto la figurano come una potente ed
+intelligente maga, nonché conoscitrice di molte verità che solitamente vengono
+celate ai comuni mortali. Essa da quanto ti racconta, fa parte della stretta
+cerchia che è a capo della torre della  magia, ma vi sono altre entità, la cui
+sede si trova nelle torrette più alte di questo luogo.. Pare che non sia
+intenzionata a dirti nulla più di questo.
+~
+67 136 0 S
+50 -20 -30 50d50+500 3d4+20
+50000 500000
+112 112 2
+#1365
+mago mezz-elfo~
+un mago mezz'elfo~
+Un Mago dalle orecchie a punta sembra parlare da solo.
+~
+Porta una tunica violetta ed ha occhi neri, le orecchie sono leggermente a punta
+e di tanto in tanto si accarezza i baffi.
+~
+69 32776 350 S
+17 5 -3 17d17+170 3d5+5
+3210 20500
+112 112 1
+#0
+
+
+#OBJECTS
+#1301
+forno nero~
+un forno nero~
+Un grosso forno nero si trova qui.~
+~
+15 1 0
+1000 5 -1 0
+1000 1000 1000
+E
+forno~
+Questo forno viene utilizzato per cuocere i vari cibi.
+~
+#1302
+armadio cibarie~
+un armadio per le cibarie~
+Un armadio per i cibi si trova qui.~
+~
+15 0 0
+1000 5 -1 0
+1000 1000 1000
+E
+armadio~
+Viene utilizzato per conservare molti cibi.
+~
+#1304
+pezzo pane~
+un pezzo di pane raffermo~
+Un duro pezzo di pane sta a terra.~
+~
+19 0 1
+15 0 0 0
+1 12 3
+E
+pane~
+Questo pezzo di pane è diventato tanto duro da romperti i denti!
+~
+#1305
+carne fetta~
+una fetta di carne al sangue~
+Un pezzo di carne sanguinolenta si trova a terra.~
+~
+19 0 1
+24 0 0 1
+2 20 5
+E
+carne~
+E' al sangue, anzi, sembra quasi cruda da quanto è al sangue!
+~
+#1306
+panino farcito~
+un panino farcito~
+Un panino farcito si trova a terra.~
+~
+19 0 1
+20 0 0 0
+2 15 5
+E
+panino~
+Questo panino sembra voler esser mangiato.
+~
+#1307
+scopa~
+una semplice scopa~
+Una scopa inanimata si trova qui.~
+~
+13 0 16385
+0 0 0 0
+5 5 1
+E
+scopa~
+Si tratta di una scopa magica? No, sembrerebbe una scopa normale.
+~
+#1308
+cassettiera~
+una cassettiera~
+Una cassettiera sta nell'angolo della stanza.~
+~
+15 2 0
+10000 0 -1 0
+10000 10 10
+E
+cassettiera~
+E' fatta di legno robusto e scuro.
+~
+#1309
+cestino~
+un cestino~
+Un piccolo cestino si trova qui.~
+~
+15 0 0
+5000 5 -1 0
+10000 10 10
+E
+cestino~
+E' fatto in ferro e sembra abbastanza resistente, anche alle fiamme.
+~
+#1310
+barra argento~
+una barra d'argento~
+Una barra d'argento si trova a terra.~
+~
+8 0 1
+0 0 0 0
+10 1000 500
+E
+barra~
+Una lunga barra competamente fatta di questo materiale prezioso!
+~
+#1311
+barra oro~
+una barra d'oro~
+Una barra d'oro si trova a terra.~
+~
+8 0 1
+0 0 0 0
+11 2000 750
+E
+barra~
+Una lunga barra competamente fatta di questo materiale prezioso!
+~
+#1312
+barra mithril~
+una barra di mithril~
+Una barra di mithril si trova a terra.~
+~
+8 0 1
+0 0 0 0
+12 3000 950
+E
+barra~
+Una lunga barra competamente fatta di questo materiale prezioso!
+~
+#1313
+barra adamantite~
+una barra d'adamantio~
+Una barra d'adamantio si trova a terra.~
+~
+8 0 1
+0 0 0 0
+15 5000 1000
+E
+barra~
+Una lunga barra competamente fatta di questo materiale prezioso!
+~
+#1314
+martello mithril~
+un martello di mithril~
+Un martello lucente si trova qui!~
+~
+5 64 8193
+0 2 6 7
+19 10000 1000
+A
+18 2
+A
+1 1
+E
+martello~
+Un'arma del genere non l'hai mai vista, la sua lavorazione è pregiata e sublime,
+che sia opera di nani?
+~
+#1315
+scrigno~
+uno scrigno di ferro~
+Uno scrigno di ferro si trova qui.~
+~
+15 1 0
+5000 15 1316 0
+1000 1000 1000
+E
+scrigno~
+E' fatto di ferro nero e non sembra molto leggero da sollevare, presenta un
+lucchetto per esser chiuso a chiave.
+~
+#1316
+piccola chiave~
+una piccola chiave di ferro~
+Una chiave di ferro è stata lasciata a terra.~
+~
+18 0 1
+1315 0 0 0
+1 1 1000000
+E
+chiave~
+Pare possa aprire qualche scrigno..
+~
+#1317
+spada semplice~
+una semplice spada~
+Una semplice spada è stata lasciata a terra.~
+~
+5 0 8193
+0 1 8 3
+8 10000 1000
+A
+18 1
+A
+19 2
+E
+spada~
+La lama è affilata e l'impugnatura abbastanza comoda.
+~
+#1318
+pugnale arrugginito~
+un pugnale dalla lama arrugginita~
+Un pugnale ricoperto di ruggine sta a terra.~
+~
+5 0 8193
+0 3 3 11
+5 15000 1200
+A
+18 2
+A
+19 2
+E
+pugnale~
+E' abbastanza vecchio e forse è per questo che la ruggine ha intaccato la lama.
+~
+#1319
+scimitarra~
+una scimitarra dalla lama ricurva~
+Una scimitarra ingioiellata brilla a terra.~
+~
+5 0 8193
+0 2 7 3
+10 17500 1950
+A
+13 3
+E
+scimitarra~
+La lama affilata compie una leggera curvatura a mezza-luna e l'elsa è adornata
+con dei piccoli segni runici.
+~
+#1320
+bastone~
+Un bastone con la punta di ferro~
+Un bastone appuntito sta a terra.~
+~
+5 0 8193
+0 1 4 8
+6 10 5
+E
+bastone~
+Ad una estremità si trova una punta in ferro molto pericolosa.
+~
+#1321
+teca~
+una teca per bastoni magici~
+Una teca per bastoni magici si trova qui.~
+~
+15 0 0
+5000 15 1325 0
+10000 1 1
+E
+teca~
+E' fatta in legno e vetro, al suo interno puoi vedere alcuni bastoni magici.
+~
+#1322
+armadio~
+un armadio per bastoni magici~
+Un armadio si trova qui con qualche cosa al suo interno.~
+~
+15 0 0
+5000 15 1325 0
+10000 1 1
+E
+armadio~
+Si tratta di un armadio con ante in  vetro, simile ad una teca ma piu grande, è
+praticamente vuoto.
+~
+#1323
+chiave cella~
+la chiave di una cella~
+Una chiave coperta dalla polvere si trova qui.~
+~
+18 0 1
+0 0 0 0
+1 1 1000000
+E
+chiave~
+Si tratta della chiave per aprire qualche sorta di cella, ma quale?
+~
+#1324
+chiave piombo~
+una chiave di piombo~
+Una chiave fatta di piombo sta a terra.~
+~
+18 0 1
+1321 0 0 0
+1 10000 10000000
+E
+chiave~
+Grazie ad essa puoi aprire una teca o un armadio chiuso a chiave.
+~
+#1325
+chiave ferro~
+una chiave di ferro malconcia~
+Una chiave di ferro si trova a terra.~
+~
+18 0 1
+1322 0 0 0
+1 10000 10000000
+E
+chiave~
+Grazie ad essa puoi aprire una teca o un armadio chiuso a chiave.
+~
+#1326
+bastone rosso~
+un bastone scarlatto~
+Un bastone rosso si trova conficcato a terra.~
+~
+4 0 16385
+20 3 3 -1
+8 5500 500
+'heal'
+E
+bastone~
+Si tratta di un particolare bastone in legno d'ebano.
+~
+#1327
+bastone bruciato~
+un bastone mezzo bruciato~
+Un bastone ricoperto da bruciature si trova qui.~
+~
+4 0 16385
+20 4 4 -1
+6 1100 600
+'blindness'
+E
+bastone~
+Presenta segni di bruciature su tutto il suo corpo.
+~
+#1328
+bastone onice~
+un bastone in pietra d'onice~
+Un bastone in pietra onice si trova qui.~
+~
+3 0 16385
+20 3 3 -1
+4 1200 200
+'dispel evil'
+E
+bastone~
+E' fatto di onice e sembra anche abbastanza prezioso.
+~
+#1329
+bacchette legno~
+una bacchetta in legno duro~
+Una bacchettina di legno sta a terra.~
+~
+3 0 16385
+20 10 10 -1
+4 600 60
+'bless'
+E
+bacchetta~
+Assomiglia più ad un ramo che è stato staccato dal tronco di un albero.
+~
+#1330
+bacchetta acciaio~
+una bacchetta d'acciaio~
+Una bacchetta si trova qui a terra.~
+~
+3 0 16385
+20 20 4 -1
+5 2000 350
+'energy drain'
+E
+bacchetta~
+Non è  molto leggera per via del materiale di cui è fatta, ma sembra molto
+versatile.
+~
+#1331
+calderone~
+un nero calderone~
+Un nero calderone si trova qui e ribolle.~
+~
+15 0 0
+1000 0 -1 0
+5000 5000 500000
+E
+calderone~
+E' grosso e nero, bolle e ribolle e di tanto in tanto strani colorati fumi
+fuoriescono da esso!
+~
+#1332
+ali pipiestrello~
+delle ali di un pipistrello~
+Delle piccole ali si trovano a terra ancora sanguinanti.~
+~
+13 0 1
+0 0 0 0
+2 1 1
+E
+ali~
+Il proprietario di queste ali ormai non è più in vita..
+~
+#1333
+occhio~
+un occhio di qualche strana creatura~
+L'occhio di qualche animale si trova qui a terra.~
+~
+13 0 16385
+0 0 0 0
+1 1 1
+E
+occhio~
+Deve esser stato appena strapato, poiché è ancora sanguinante.
+~
+#1334
+libro tomo~
+un libro di arti magiche~
+Un voluminoso tomo si trova a terra.~
+~
+15 1 1
+500 0 -1 0
+5000 500000 500000
+E
+libro~
+Al suo interno pensi di trovare qualche incantesimo? Forse dovresti guardare
+meglio..
+~
+#1335
+occhiali~
+un paio di leggeri occhiali~
+Un paio di occhiali si trovano a terra, attento a non schiacciarli!~
+~
+9 64 17
+0 0 0 0
+4 10000 5000
+A
+3 1
+A
+4 1
+E
+occhiali~
+Grazie alla loro azione di correzione della vista, ti permettono di leggere
+anche le lettere più piccole!
+~
+#1336
+altare dorato~
+Un Altare Dorato~
+Dinnanzi a te vedi un piccolo altare dorato.~
+~
+15 0 0
+1000 5 -1 0
+5000 1 1
+E
+altare~
+E' stato forgiato con oro purissimo e su di esso vi è riportata una scritta:
+"La Magia è Arte".
+~
+#1337
+medaglione cuore~
+un medalione a forma di cuore~
+Un medalione dalla strana forma si trova a terra.~
+~
+9 320 5
+0 0 0 0
+3 10000 1000
+A
+4 2
+A
+5 -1
+E
+medaglione~
+Ha la forma di un cuore diviso a metà, al centro splende una pietra azzurrina
+divisa anch'essa.
+~
+#1338
+forziere~
+un forziere magico~
+Un forziere lucente si trova qui.~
+~
+15 65 0
+2000 15 1339 0
+5000 500000 5000000
+E
+forziere~
+Un grosso lucchetto è posto al suo centro, per far sì che non venga aperto.
+~
+#1339
+chiave dorata~
+una chiave dorata~
+Una chiave fatta di puro oro si trova a terra!~
+~
+18 65 16385
+1338 0 0 0
+1 10000 1000000
+A
+24 -1
+E
+chiave~
+Vendendola ci potresti ricavare una fortuna, ma forse serve a qualcosa di
+particolare..
+~
+#1340
+pila monete~
+una pila di monete~
+Una pila di monete si trova qui!~
+~
+20 0 1
+23574 0 0 0
+1 0 0
+#1341
+foulard~
+un vecchio foulard azzurrino~
+Un foulard si trova a terra coperto dalla polvere.~
+~
+9 0 5
+0 0 0 0
+5 2000 250
+A
+17 -5
+A
+24 -3
+E
+foulard~
+E' fatto di seta e ricorda molto il cielo nelle giornate primaverili.
+~
+#1342
+mantello camaleontico~
+un mantello camaleontico~
+Un mantello che si confonde con l'ambiente si trova qui.~
+~
+9 64 1025
+0 0 0 0
+4 15000 5000
+A
+2 2
+A
+17 -3
+E
+mantello~
+Grazie ad esso, hai una possibilità in più di passare inosservato!
+~
+#1343
+vecchi stivali~
+un paio di vecchi stivali~
+Due vecchi stivali si trovano qui pronti per l'uso.~
+~
+9 64 65
+0 0 0 0
+2 3500 900
+A
+14 15
+E
+stivali~
+Sembrano usati, oltre ad avere un buco sulla loro punta!
+~
+#1344
+anello conchiglia~
+un anello a forma di conchiglia~
+Una conchiglia sembra esser stata lasciata a terra.~
+~
+22 64 3
+0 0 0 0
+2 6500 1100
+E
+anello~
+La conchiglia di un paguro è stata utilizzata per ricavare questo anello!
+~
+#1345
+capiente zaino~
+un grande e capiente zaino~
+Uno zaino molto capiente si trova a terra.~
+~
+15 0 17409
+750 0 -1 0
+9 750 50
+E
+zaino~
+Viene utilizzato dalla maggior parte della gente, ha un'ottima capienza e sembra
+pesare poco!
+~
+#1351
+tazza~
+una tazza di tè~
+Una tazza con un liquido dentro si trova qui.~
+~
+17 0 1
+5 5 11 1
+2 11 5
+E
+tazza~
+E' fatta di legno e sembra molto semplice.
+~
+#1352
+biscotto cacao~
+un biscotto al cacao~
+Un dolce biscotto scuro sta a terra.~
+~
+19 0 1
+32 0 0 0
+3 65 5
+E
+biscotto~
+E' di colore scuro ma molto fragrante, da esso si sprigiona un gustoso profumo
+di cacao.
+~
+#1355
+mannaia~
+una mannaia da cucina~
+Una mannaia per affettare la carne sta a terra.~
+~
+5 0 8193
+0 3 4 1
+8 600 100
+E
+mannaia~
+La lama è molto grossa e presenta qualche pezzo di carne ancora appiccicato ad
+essa.
+~
+#1356
+catene~
+un paio di catene arrugginite~
+Delle rumorose catene si trovano a terra.~
+~
+13 192 1
+0 0 0 0
+15 750 1000
+A
+12 -100
+A
+14 -82
+E
+catene~
+Sono vecchie e quando le muovi fanno un fracasso infernale!
+~
+#1357
+pugnale legno~
+un affilato pugnale di legno~
+Un pezzo di legno a forma di pugnale sta a terra.~
+~
+5 64 8193
+0 2 4 11
+5 1200 500
+A
+18 1
+E
+pugnale~
+Benché di legno può essere comunque un'arma pericolosa, poiché è molto affilato!
+~
+#1359
+pergamena trascritta~
+una pergamena trascritta~
+Una pergamena si trova a terra.~
+~
+2 0 1
+21 -1 -1 -1
+5 3000 1000
+'blindness' 'curse' 'sleep'
+E
+pergamena~
+Le parole scritte sopra non sono molto chiare, ma sicuramente è magica!
+~
+#1360
+pergamena vietata~
+una pergamena vietata~
+Una pergamena si trova a terra.~
+~
+2 64 16385
+16 -1 -1 -1
+3 9500 3000
+'armor' 'teleport' 'protection'
+A
+17 -6
+E
+pergamena~
+Le parole scritte sopra non sono molto chiare, ma sicuramente è magica!
+~
+#1361
+tubo~
+un lungo tubo cilindrico~
+Un tubo è stato lasciato a terra.~
+~
+15 64 1
+100 5 -1 0
+8 500 50
+E
+tubo~
+Lo puoi utilizzare come contenitore anche se è poco versatile.
+~
+#1362
+pergamena datata~
+una pergamena molto datata~
+Una pergamena si trova a terra.~
+~
+2 0 1
+10 -1 -1 -1
+2 500 100
+'create food' 'NONE' 'NONE'
+E
+pergamena~
+Le parole scritte sopra non sono molto chiare, ma sicuramente è magica!
+~
+#1363
+foglio azzurro~
+un foglio color cielo~
+Un foglio azzurrino si trova a terra.~
+~
+2 64 1
+54 -1 -1 -1
+5 20000 15000
+'enchant weapon' 'NONE' 'NONE'
+E
+foglio~
+Le lettere sono scritte con inchiostro  blu, ciò ti rende difficile capire cosa
+vi sia scritto.
+~
+
+#1364
+borsetta~
+una borsetta di pelle~
+Una borsetta di pelle si trova per terra.~
+~
+15 64 16385
+150 0 -1 0
+2 1750 50
+E
+borsetta~
+E' leggera ed ottima per contenere qualsiasi tipo d'oggetto.
+~
+#1365
+tavolo~
+un lungo tavolo in legno d'ebano~
+Un lungo tavolo in legno d'ebano si trova qui.~
+~
+12 64 16385
+0 0 0 0
+1 5650 900
+A
+24 -1
+E
+tavolo~
+Sembra veramente molto pesante, deve inoltre valere molti denari!
+~
+#1366
+pozione rossa~
+una pozione color sangue~
+Una boccetta rossa sta a terra.~
+~
+10 64 1
+24 -1 -1 -1
+2 9000 500
+'harm' 'harm' 'harm'
+E
+pozione~
+Lo  strano liquido che contiene non ha odore però non sai dire di cosa si
+tratta..
+~
+#1367
+pozione verde~
+una pozione color erba~
+Una boccetta verde sta a terra.~
+~
+10 64 1
+15 -1 -1 -1
+2 1500 500
+'cure critical' 'NONE' 'NONE'
+E
+pozione~
+Lo  strano liquido che contiene non ha odore però non sai dire di cosa si
+tratta..
+~
+#1368
+pozione gialla~
+una pozione color limone~
+Una boccetta gialla sta a terra.~
+~
+10 64 1
+20 -1 -1 -1
+2 1500 150
+'blindness' 'teleport' 'cure blindness'
+E
+pozione~
+Lo  strano liquido che contiene non ha odore però non sai dire di cosa si
+tratta..
+~
+#1369
+pozione effervescente~
+una pozione effervescente~
+Una boccetta è a terra e sembra tremare!~
+~
+10 64 1
+16 -1 -1 -1
+2 1000 150
+'detect evil' 'detect invis' 'detect magic'
+E
+pozione~
+Il contenuto è altamente effervescente, tanto che la fiala ti traballa nella
+mano!
+~
+#1370
+pozione latte~
+una pozione color latte~
+Una fiala contenente una pozione si trova a terra.~
+~
+10 0 1
+14 -1 -1 -1
+2 750 50
+'word of recall' 'NONE' 'NONE'
+E
+pozione~
+Il liquido contenuto sembra latte, ma sarà proprio così?
+~
+#1371
+bastone nero~
+un bastone color della notte~
+Un bastone nero si trova a terra.~
+~
+4 64 16385
+18 2 2 -1
+5 500 50
+'teleport'
+E
+bastone~
+E' leggero e corto, con un pomello d'avorio.
+~
+#1372
+flauto strumento dorato~
+un flauto laccato d'oro~
+Uno strumento musicale dorato si trova a terra.~
+~
+4 96 16385
+22 1 1 -1
+4 15000 5000
+'charm person'
+A
+3 -6
+E
+flauto~
+Soffiandovi dentro, alcune note fuoriescono!
+~
+#1373
+lunga staffa~
+una lunga staffa~
+Una staffa si trova conficcata nel terreno.~
+~
+4 64 16385
+21 15 15 -1
+4 6000 650
+'cure serious'
+E
+staffa~
+E' fatta di un materiale pregiato, tanto che potresti rivenderlo e ricavare
+molti soldi.
+~
+#1374
+cinturone~
+un cinturone con tasche~
+Un grande cinturone è stato lasciato a terra.~
+~
+15 0 2049
+20 0 -1 0
+4 290 29
+E
+cinturone~
+Sembra comodo e capiente per conservare tanti piccoli inutili oggetini..
+~
+#1375
+bacchetta nera~
+una bacchetta di piombo~
+Una bacchetta molto pesante sta a terra.~
+~
+3 64 16385
+17 5 1 -1
+4 2500 500
+'fireball'
+E
+bacchetta~
+Hai qualche difficoltà a reggerla però senti che possiede un grande potere..
+~
+#1376
+scalpello~
+uno scalpello con punta in diamante~
+Uno scalpello sta a terra.~
+~
+5 65 8193
+0 2 3 11
+6 1500 500
+A
+2 1
+E
+scalpello~
+Viene utilizzato per modellare la roccia ed altri materiali duri.
+~
+#1377
+pantaloni~
+pantaloni con larghe tasche~
+Un paio di pantaloni con tasche si trovano qui.~
+~
+15 0 2049
+50 0 -1 0
+5 750 50
+E
+pantaloni~
+Le numerose tasche ti permettono di infilarvi molti oggetti.
+~
+#1378
+pietra~
+delle pietre~
+Alcune pietre stanno a terra.~
+~
+4 0 16385
+20 1 1 -1
+2 1000 150
+'sleep'
+E
+pietre~
+Sembrano essere delle pietre magiche..
+~
+#1379
+saio nero~
+una tonaca nera~
+Una tonaca oscura sta a terra.~
+~
+9 576 5
+0 0 0 0
+5 1200 400
+A
+17 -8
+A
+24 -3
+E
+tonaca~
+E' nera come la notte e lunga, pare che sia della tua misura inoltre.
+~
+#1380
+bacchetta legnomobido~
+una bacchetta in legno Morbido~
+Una bacchetta di legno sta a terra.~
+~
+3 512 1
+20 4 4 -1
+4 2000 600
+'cause critical'
+E
+bacchetta~
+Sembra un banalissimo pezzo di legno.
+~
+#1381
+mazza chiodata~
+una mazza chiodata~
+Una pesante palla chiodata con bastone annesso sta a terra.~
+~
+5 0 8193
+0 3 5 8
+29 750 200
+E
+mazza~
+E' composta da un bastone in legno e la parte finale è di ferro con dei grossi
+aculei.
+~
+#1382
+robe grey~
+a grey robe~
+A pile of grey cloth has been left here.~
+~
+15 1600 1025
+50 0 -1 0
+8 5000 750
+A
+17 -9
+A
+24 -2
+#1383
+mantello grigio~
+un lungo mantello grigiastro~
+Un lungo mantello si trova a terra.~
+~
+9 1600 5
+0 0 0 0
+7 12000 1200
+A
+17 -12
+A
+24 -3
+E
+mantello~
+E' del colore delle nuvole prima della tempesta.
+~
+#1384
+bracciale unicorno~
+il bracciale dell'Unicorno~
+Un bracciale con un disegno si trova qui.~
+~
+9 64 4097
+0 0 0 0
+5 5000 500
+A
+17 -5
+E
+bracciale~
+Su di esso è inciso il disegno di un piccolo unicorno, simbolo della velocità.
+~
+#1385
+bastone~
+un bastone lavorato a mano~
+Un bastone grigio si trova a terra.~
+~
+5 64 8193
+0 2 7 8
+7 9000 3000
+A
+18 3
+E
+bastone~
+La manifattura che sta dietro a questo oggetto è molto elevata.
+~
+#1386
+cubo cristallo piccolo~
+un piccolo cubo di cristallo~
+Un cubo di cristallo si trova a terra.~
+~
+9 65 16385
+0 0 0 0
+5 5000 1000
+A
+17 -5
+E
+cubo~
+Non puoi leggervi il futuro, però puoi specchiarvici dentro.
+~
+#1387
+sacca tela~
+una sacca di tela~
+Una sacca rovinata si trova a terra.~
+~
+15 2624 1025
+50 0 -1 0
+8 5000 750
+A
+17 -9
+A
+24 -2
+E
+sacca~
+Non sembra molto capiente ma è carina.
+~
+#1388
+bracciale ferro~
+un bracciale di ferro~
+Un pezzo di ferro sta a terra.~
+~
+9 64 4097
+0 0 0 0
+6 8500 850
+A
+19 2
+E
+bracciale~
+E' molto grezzo e certamente non è adatto alle grandi occasioni.
+~
+#1389
+mantello nero~
+un mantello nero come la pece~
+Un mantello si trova a terra, tra la polvere.~
+~
+9 2624 5
+0 0 0 0
+8 9000 950
+A
+17 -12
+A
+24 -3
+E
+mantello~
+Oltre ad avere il colore della pece, ne conserva un po' anche la puzza!
+~
+#1390
+lama tagliente~
+una lama molto tagliente~
+Una lama è stata conficcata nel terreno.~
+~
+5 512 8193
+0 2 7 1
+8 12000 2000
+A
+19 3
+E
+lama~
+Con essa potresti sbudellare una persona.
+~
+#1391
+robe white~
+a white robe~
+A pile of white cloth is on the ground here.~
+~
+15 3136 1025
+50 0 -1 0
+7 7500 750
+A
+17 -9
+A
+24 -2
+#1392
+bracciale oro bianco~
+un bracciale in oro bianco~
+Un bracciale molto prezioso è stato lasciato qui!~
+~
+9 64 4097
+0 0 0 0
+5 5000 1000
+A
+18 2
+E
+bracciale~
+E' bellissimo ed è adatto a grandi occasioni speciali.
+~
+#1393
+mantello bianco~
+un mantello bianco latte~
+Un mantello sta a terra nascosto dall'ombra.~
+~
+9 3392 5
+0 0 0 0
+7 9000 1500
+A
+17 -12
+A
+24 -3
+E
+mantello~
+Con questo addosso ti sembrerà d'aver evitato di poco una valanga..
+~
+#1394
+daga runica~
+una daga decorata con rune~
+Una daga particolare si trova a terra.~
+~
+5 1344 8193
+0 2 6 11
+8 12000 1500
+A
+18 1
+A
+19 2
+E
+daga~
+Le rune sembrano nascondere qualche arcano mistero e potere.
+~
+#1395
+collare borchiato~
+un collare borchiato~
+Un collare in ferro nero si trova a terra.~
+~
+9 64 5
+0 0 0 0
+9 10000 5000
+A
+17 -2
+A
+19 3
+E
+collare~
+Sembra uno di quelli che vengono utilizzati per i cani solitamente aggressivi.
+~
+#1396
+indumento mantello variopinto~
+un mantello dai colori variopinti~
+Un indumento dai vari colori si trova qui.~
+~
+15 65 5
+100 0 -1 0
+8 25000 5500
+A
+17 -15
+A
+24 -5
+E
+mantello~
+I suoi colori sembrano quelli dell'arcobaleno, peccato che sia fatto di stoffa.
+~
+#1397
+anello rubino~
+un anello fatto di rubino lavorato~
+Un anello che emette un bagliore rosso si trova a terra.~
+~
+9 64 3
+0 0 0 0
+5 50000 10000
+A
+12 20
+E
+anello~
+Una grande pietra è posta esattamente al suo centro.
+~
+#1398
+bracciale bronzo~
+un bracciale in bronzo lavorato~
+Un bracciale sta a terra.~
+~
+9 64 4097
+0 0 0 0
+5 30000 3500
+A
+17 -5
+A
+3 1
+E
+bracciale~
+Sembra a prima vista un comunissimo bracciale di bronzo.
+~
+#1399
+cubo cristallo grande~
+un grande cubo di cristallo~
+Un grande cubo di cristallo si trova a terra.~
+~
+9 65 16385
+0 0 0 0
+6 20000 2000
+A
+17 -10
+A
+24 -2
+E
+cubo~
+Di tanto in tanto brilla, segno che si tratta di un artefatto magico.
+~
+#1400
+kris~
+un kris imperlato~
+Un kris risplende a terra.~
+~
+5 64 8193
+0 3 4 11
+9 60000 5000
+A
+2 2
+A
+19 5
+E
+kris~
+L'elsa è completamente ricoperta di piccole perle.
+~
+#1401
+armatura drago~
+un'armatura in scaglie di drago verde~
+Un'armatura verde fatta di scaglie di drago si trova a terra.~
+~
+9 64 9
+10 0 0 0
+9 10000 1000
+A
+2 3
+A
+17 -5
+E
+scaglie~
+Sono resistenti e dure quanto la roccia, eppure leggerissime.
+~
+#1402
+libreria~
+una libreria dismessa~
+Una vecchia libreria si trova qui.~
+~
+15 2 0
+500 5 -1 0
+5000 1 1
+E
+libreria~
+E' piena di libri diversi tra loro, alcuni anche molto vecchi.
+~
+#1403
+bottiglia acquavite~
+una bottiglia di acquavite~
+Una grossa bottiglia si trova a terra.~
+~
+17 0 16385
+25 25 5 0
+25 1 1
+E
+bottiglia~
+Questa bottiglia sembra contenere un liquido molto buono.
+~
+#1404
+bottiglia succo~
+un succo di ciliegie~
+Una bottiglia contenente un liquido scuro si trova a terra.~
+~
+17 0 16385
+25 25 2 0
+25 1 1
+E
+bottiglia~
+Questa bottiglia sembra contenere un liquido dolciastro.
+~
+#0
+
+
+#ROOMS
+#0
+
+
+#RESETS
+R 0 1301 4
+R 0 1302 4
+M 0 1300 6 1302
+R 0 1303 4
+R 0 1304 4
+M 0 1300 6 1304
+R 0 1305 4
+R 0 1306 4
+M 0 1300 6 1306
+R 0 1307 4
+M 0 1302 1 1307
+R 0 1308 4
+M 0 1300 6 1308
+R 0 1309 4
+M 0 1300 6 1311
+M 0 1301 1 1311
+M 0 1303 1 1312
+M 0 1304 7 1313
+M 0 1304 7 1314
+M 0 1304 7 1314
+M 0 1304 7 1315
+M 0 1304 7 1316
+D 0 1316 3 1
+D 0 1317 5 1
+M 0 1304 7 1318
+M 0 1305 1 1318
+G 1 1351 100
+G 1 1352 100
+M 0 1304 7 1319
+M 0 1306 1 1319
+O 0 1301 1 1320
+P 1 1304 20 1301
+O 0 1302 1 1320
+P 1 1305 1 1302
+P 1 1306 1 1302
+M 0 1307 1 1320
+E 1 1355 2 16
+M 0 1308 1 1320
+D 0 1320 1 1
+D 0 1321 4 1
+D 0 1323 0 2
+M 0 1309 1 1327
+E 1 1356 1 14
+D 0 1327 2 2
+M 0 1310 1 1328
+E 1 1323 1 17
+D 0 1330 0 1
+D 0 1330 2 1
+D 0 1331 0 1
+D 0 1331 1 1
+D 0 1331 2 1
+D 0 1332 2 1
+M 0 1311 2 1333
+M 0 1311 2 1333
+O 0 1307 2 1333
+O 0 1307 2 1333
+D 0 1333 0 1
+D 0 1334 1 1
+D 0 1334 2 1
+M 0 1312 10 1335
+M 0 1312 10 1335
+M 0 1312 10 1335
+M 0 1312 10 1335
+M 0 1313 7 1335
+D 0 1335 0 1
+D 0 1336 3 1
+M 0 1314 1 1337
+D 0 1337 3 1
+D 0 1338 1 1
+D 0 1339 3 1
+M 0 1312 10 1340
+D 0 1340 0 1
+M 0 1315 3 1342
+M 0 1316 3 1342
+M 0 1317 3 1342
+D 0 1342 2 1
+D 0 1343 0 1
+M 0 1315 3 1344
+M 0 1316 3 1344
+M 0 1317 3 1344
+D 0 1344 2 1
+M 0 1318 3 1345
+M 0 1318 3 1345
+M 0 1318 3 1345
+M 0 1319 1 1345
+D 0 1345 0 1
+D 0 1346 2 1
+D 0 1348 3 1
+M 0 1320 4 1349
+M 0 1320 4 1349
+M 0 1320 4 1349
+M 0 1320 4 1349
+M 0 1321 1 1349
+D 0 1349 1 1
+D 0 1350 3 1
+D 0 1351 3 1
+D 0 1352 1 1
+M 0 1322 4 1354
+M 0 1322 4 1354
+M 0 1322 4 1354
+M 0 1322 4 1354
+M 0 1323 1 1354
+D 0 1354 1 1
+D 0 1355 2 1
+D 0 1356 2 1
+M 0 1324 3 1357
+M 0 1324 3 1357
+M 0 1324 3 1357
+M 0 1325 1 1357
+D 0 1357 0 1
+D 0 1358 2 1
+M 0 1326 3 1359
+E 1 1357 6 16
+M 0 1326 3 1359
+E 1 1357 6 16
+M 0 1326 3 1359
+E 1 1357 6 16
+M 0 1327 1 1359
+E 1 1357 6 17
+D 0 1359 0 1
+D 0 1361 0 1
+D 0 1362 1 1
+D 0 1363 1 1
+M 0 1328 2 1364
+D 0 1364 3 1
+M 0 1329 1 1365
+D 0 1365 3 1
+D 0 1366 1 1
+M 0 1330 1 1367
+D 0 1367 3 1
+M 0 1312 10 1368
+M 0 1339 4 1368
+D 0 1370 0 1
+M 0 1331 2 1371
+M 0 1331 2 1371
+D 0 1371 2 1
+D 0 1371 3 1
+M 0 1332 1 1373
+G 1 1359 2
+G 1 1360 2
+G 1 1361 1
+M 0 1333 1 1373
+G 1 1362 3
+D 0 1373 1 1
+D 0 1374 0 1
+M 0 1313 5 1375
+D 0 1375 2 1
+D 0 1377 3 1
+D 0 1378 3 1
+O 0 1310 1 1379
+O 0 1311 1 1379
+O 0 1312 1 1379
+O 0 1313 1 1379
+D 0 1379 1 1
+O 0 1314 1 1381
+D 0 1381 2 1
+D 0 1381 1 1
+D 0 1381 4 1
+O 0 1315 1 1382
+P 1 1317 1 1315
+P 1 1318 1 1315
+P 1 1319 1 1315
+M 0 1334 1 1382
+E 1 1316 1 17
+G 1 1363 1
+M 0 1335 1 1382
+D 0 1382 0 1
+D 0 1384 2 1
+D 0 1386 0 1
+D 0 1387 2 1
+M 0 1336 1 1388
+E 1 1364 5 17
+M 0 1337 1 1390
+E 1 1371 2 17
+D 0 1390 0 1
+D 0 1391 1 1
+R 0 1392 6
+D 0 1394 3 1
+M 0 1338 1 1395
+E 1 1372 1 17
+G 1 1373 1
+D 0 1395 0 1
+D 0 1395 3 1
+D 0 1397 2 1
+M 0 1339 4 1398
+M 0 1339 4 1398
+M 0 1313 4 1400
+D 0 1400 0 1
+O 0 1320 1 1401
+D 0 1401 2 1
+D 0 1401 3 1
+M 0 1340 1 1402
+E 1 1325 1 17
+E 1 1374 2 13
+D 0 1402 1 1
+D 0 1402 3 1
+O 0 1321 1 1403
+P 1 1326 1 1321
+P 1 1327 1 1321
+O 0 1322 1 1403
+P 1 1328 1 1322
+P 1 1329 1 1322
+P 1 1330 1 1322
+D 0 1403 1 1
+D 0 1403 2 1
+D 0 1405 0 1
+D 0 1408 3 1
+M 0 1341 1 1409
+E 1 1376 2 17
+M 0 1342 1 1409
+M 0 1345 2 1409
+D 0 1409 1 1
+D 0 1409 5 1
+M 0 1343 1 1411
+M 0 1344 1 1411
+M 0 1346 1 1411
+M 0 1347 1 1411
+D 0 1412 4 1
+D 0 1412 5 1
+D 0 1416 2 1
+M 0 1348 1 1417
+E 1 1377 3 13
+D 0 1417 0 1
+D 0 1419 2 1
+D 0 1420 0 1
+D 0 1422 1 1
+D 0 1423 3 1
+M 0 1349 1 1425
+E 1 1379 2 3
+E 1 1380 2 17
+M 0 1350 4 1425
+M 0 1350 4 1425
+M 0 1351 1 1425
+E 1 1381 1 16
+M 0 1339 5 1428
+M 0 1339 5 1428
+M 0 1312 10 1430
+M 0 1313 5 1433
+D 0 1434 1 1
+M 0 1352 3 1435
+M 0 1352 3 1435
+M 0 1352 3 1435
+O 0 1331 1 1435
+P 1 1332 1 1331
+P 1 1333 1 1331
+D 0 1435 3 1
+M 0 1353 1 1437
+O 0 1334 1 1445
+P 1 1335 1 1334
+M 0 1313 5 1449
+D 0 1452 2 1
+M 0 1354 1 1453
+E 1 1382 1 12
+E 1 1384 1 14
+D 0 1453 0 1
+M 0 1355 1 1454
+M 0 1356 1 1454
+E 1 1383 1 3
+E 1 1385 1 16
+E 1 1386 1 17
+D 0 1460 1 1
+M 0 1357 1 1461
+E 1 1387 1 12
+E 1 1388 1 14
+D 0 1461 3 1
+M 0 1358 1 1464
+M 0 1359 1 1464
+E 1 1389 1 3
+E 1 1390 1 16
+E 1 1386 1 17
+D 0 1466 3 1
+M 0 1360 1 1467
+E 1 1391 1 12
+E 1 1392 1 14
+D 0 1467 1 1
+M 0 1361 1 1469
+M 0 1362 1 1469
+E 1 1393 1 3
+E 1 1394 1 16
+E 1 1386 1 17
+D 0 1473 0 1
+D 0 1474 0 1
+D 0 1474 2 1
+D 0 1475 0 1
+D 0 1475 2 1
+D 0 1476 2 1
+M 0 1363 1 1477
+E 1 1395 1 3
+M 0 1364 1 1477
+E 1 1401 2 5
+E 1 1397 1 1
+E 1 1398 1 14
+E 1 1399 1 17
+E 1 1400 1 16
+G 1 1339 1
+O 0 1336 1 1480
+P 1 1337 1 1336
+D 0 1480 1 1
+D 0 1480 3 1
+O 0 1338 1 1481
+P 1 1340 1 1338
+D 0 1481 3 1
+O 0 1341 1 1482
+O 0 1342 1 1482
+O 0 1343 1 1482
+O 0 1345 1 1482
+P 1 1344 1 1345
+O 0 1401 2 1499
+O 0 1402 1 1499
+P 1 1403 1 1402
+P 1 1404 1 1402
+S
+
+
+#SHOPS
+ 1305   17 19  0  0  0   210  50         0 23    ; Strick the bartender
+ 1306    2  3  4 10 21   250  30         0 23    ; Tatorious
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1300 spec_cast_undead
+M  1301 spec_cast_cleric
+M  1304 spec_cast_mage
+M  1306 spec_cast_mage
+M  1307 spec_cast_mage
+M  1308 spec_cast_mage
+M  1309 spec_cast_mage
+M  1310 spec_cast_mage
+M  1311 spec_thief
+M  1312 spec_cast_undead
+M  1313 spec_cast_undead
+M  1314 spec_cast_mage
+M  1315 spec_cast_mage
+M  1316 spec_cast_mage
+M  1317 spec_cast_mage
+M  1318 spec_cast_mage
+M  1320 spec_cast_mage
+M  1321 spec_cast_mage
+M  1322 spec_cast_mage
+M  1323 spec_cast_mage
+M  1324 spec_cast_mage
+M  1325 spec_cast_mage
+M  1326 spec_cast_mage
+M  1327 spec_cast_mage
+M  1328 spec_cast_mage
+M  1329 spec_cast_mage
+M  1330 spec_cast_mage
+M  1331 spec_cast_mage
+M  1332 spec_cast_mage
+M  1333 spec_cast_mage
+M  1334 spec_cast_mage
+M  1336 spec_cast_mage
+M  1337 spec_cast_mage
+M  1338 spec_cast_mage
+M  1340 spec_cast_mage
+M  1341 spec_cast_mage
+M  1348 spec_cast_mage
+M  1349 spec_cast_mage
+M  1350 spec_cast_undead
+M  1351 spec_cast_undead
+M  1352 spec_cast_mage
+M  1353 spec_cast_mage
+M  1354 spec_cast_mage
+M  1355 spec_cast_mage
+M  1356 spec_cast_mage
+M  1357 spec_cast_mage
+M  1358 spec_cast_mage
+M  1359 spec_cast_mage
+M  1360 spec_cast_mage
+M  1361 spec_cast_mage
+M  1362 spec_cast_mage
+M  1363 spec_cast_mage
+M  1364 spec_cast_mage
+M  1365 spec_cast_mage
+S
+
+
+#END

@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_GITH
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Githyanki~
+NameFema       Githyanki~
+Color          AT_GREY sgi gray 56~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus      -10  -10  -10  15  15  5  -10  -5  -10  5   20  20  -10  -10  -10
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        -15   0     0     0     0     0
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_DETECT_INVIS~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_GITH~
+*
+LangLearnable  LANGUAGE_ELVEN LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_ORCISH LANGUAGE_DRAGON LANGUAGE_GOBLIN LANGUAGE_ANCIENT LANGUAGE_HALFLING LANGUAGE_GNOME LANGUAGE_DROW LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_AVIS~
+AlignStart     0
+MinAlign      -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        106
+Height         180
+Weight         50,000
+TonalitySound  voce secca~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

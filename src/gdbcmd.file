@@ -1,0 +1,3 @@
+break memory.c:144
+backtrace > file2.txt
+continue detach quit

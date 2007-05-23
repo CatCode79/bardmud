@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_MINOTAUR
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Minotauro~
+NameFema       Minotaura~
+Color          AT_ORANGE burly wood 2~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        15  15  15  -10 -15 0    -5  -10 -5   -10 -10 -5   -5   -5  -5  
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        -5    5     5      -5    -5    0
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_BERSERK~
+Resist         ~
+Suscept        RIS_MAGIC~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_MAMMAL~
+*
+LangLearnable  LANGUAGE_ELVEN LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_TROLLISH LANGUAGE_REPTILE LANGUAGE_DRAGON LANGUAGE_GOBLIN LANGUAGE_ANCIENT LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_AVIS LANGUAGE_TREELEAF~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        92
+Height         220
+Weight         150,000
+TonalitySound  voce mugghiante~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,2 @@
+Questa cartella contiene i file di oggetto compilati.
+Questo file esiste per far decomprimere correttamente tutte le cartelle.

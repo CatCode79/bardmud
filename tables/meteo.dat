@@ -1,0 +1,9 @@
+#METEO
+Random       2
+Climate      2
+Neighbor     10
+Unit         20
+MaxVector    15
+End
+
+#END

@@ -1,0 +1,2919 @@
+#SPELL
+Name         reserved~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         95
+FunName      spell_null
+Dammsg       ~
+Wearoff      ???~
+End
+
+#SPELL
+Name         acetum primus~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         909
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Slot         302
+Mana         15
+Rounds       8
+FunName      spell_acetum_primus
+Dammsg       Acetum Primus~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         acid blast~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         5
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         70
+Mana         20
+Rounds       12
+FunName      spell_acid_blast
+Dammsg       acid blast~
+Wearoff      !Acid Blast!~
+End
+
+#SPELL
+Name         acid breath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         5
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         200
+Mana         20
+Rounds       4
+FunName      spell_acid_breath
+Dammsg       blast of acid~
+Wearoff      !Acid Breath!~
+End
+
+#SPELL
+Name         alertness~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         102
+Mana         60
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Un brivido gelido ti solletica la nuca...i tuoi sensi tornano normali.~
+Hitvict      Un soffio caldo ti accarezza la nuca, i tuoi sensi si espandono.~
+Hitroom      Le pupille di $N si dilatano mentre il suo respiro si fa più profondo.~
+Affect       'l*15' 27 '1024' -1
+End
+
+#SPELL
+Name         animate dead~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_DEFENSIVE
+Slot         231
+Mana         220
+Rounds       12
+FunName      spell_animate_dead
+Dammsg       ~
+Wearoff      !Animate Dead!~
+End
+
+#SPELL
+Name         antimagic shell~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         224
+Mana         40
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      L'aura di luce che ti proteggeva dal magico svanisce in un soffio...~
+Hitvict      Una lieve aura di limpida luce si forma intorno al tuo corpo.~
+Hitroom      Una lieve aura di limpida luce si forma attorno al corpo di $N.~
+Affect       'l*23' 27 '1048576' -1
+End
+
+#SPELL
+Name         aqua breath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        1024
+Target       2
+MinPosition  POSITION_STAND
+Slot         236
+Mana         50
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Le fessure lungo il tuo collo si richiudono in un istante.~
+Hitchar      Due piccole fessure si aprono lungo il collo di $N.~
+Hitvict      Due piccole fessure lungo il tuo collo ti permettono di respirare sottacqua.~
+Hitroom      Due piccole fessure si aprono lungo il collo di $N.~
+Affect       'l*23' 26 'aqua breath' 31
+End
+
+#SPELL
+Name         armor~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         1
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua protezione svanisce lentamente dal tuo corpo.~
+Hitchar      Un'aura protettiva risplende fiocamente sul corpo di $N.~
+Hitvict      Un'aura protettiva risplende fiocamente ricoprendoti.~
+Hitroom      Un'aura protettiva risplende fiocamente sul corpo di $N.~
+Affect       'l*10' 17 '-20' -1
+End
+
+#SPELL
+Name         astral walk~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         90
+Mana         60
+Rounds       12
+FunName      spell_astral_walk
+Dammsg       ~
+Wearoff      !Astral Walk!~
+HitRoom      Il corpo di $n viene sfiorato dalla luce di mille stelle.. e svanisce tra esse in un lampo!~
+HitDest      $n appare in un turbinio di scintille sgargianti!~
+End
+
+#SPELL
+Name         benediction~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         840
+Flags        14336
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         95
+Mana         15
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      All'improvviso hai freddo, la benedizione ha cessato il suo effetto.~
+Hitchar      Per tua mano $N riceve la benedizione degli Dei.~
+Hitvict      Gli Dei ti concedono la loro benedizione.~
+Hitroom      Gli Dei concedono la loro benedizione a $N.~
+Affect       'l' 26 'protection' 13
+End
+
+#SPELL
+Name         benefic aura~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         342
+Mana         50
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua aura benefica lentamente si dissolve.~
+Hitvict      Un pallido bagliore ti circonda separando il tuo corpo dai poteri del male..~
+Hitroom      Un pallido bagliore di luce forma una barriera attorno al corpo di $N.~
+Components   V@65~
+Affect       'l*7' 26 'protection' 13
+End
+
+#SPELL
+Name         bethsaidean touch~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         343
+Mana         30
+Rounds       12
+FunName      spell_bethsaidean_touch
+Dammsg       ~
+End
+
+#SPELL
+Name         black fist~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         911
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         310
+Mana         15
+Rounds       8
+FunName      spell_black_fist
+Dammsg       Black Fist~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         black hand~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         9
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         301
+Mana         8
+Rounds       8
+FunName      spell_black_hand
+Dammsg       Black Hand~
+Wearoff      !WEAROFF!~
+Teachers     10340~
+End
+
+#SPELL
+Name         black lightning~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         303
+Mana         15
+Rounds       8
+FunName      spell_black_lightning
+Dammsg       Black Lightning~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         blazebane~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         216
+Mana         70
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il bruciore sulla tua pelle finalmente si placa...~
+Hitchar      Scagli un'illusione ustionante contro $N!~
+Hitvict      Senti le tue carni bruciare!~
+Hitroom      $N comincia a muoversi freneticamente in preda a dolorosi spasmi.~
+Affect       'l*23' 29 '1' -1
+End
+
+#SPELL
+Name         blazeward~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Slot         215
+Mana         70
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Le fiamme bianche che avvolgevano il tuo corpo si assottigliano e svaniscono nel nulla.~
+Hitvict      Un circolo di fiamme bianche ti avvolge proteggendoti dal caldo.~
+Hitroom      Un circolo di fiamme bianche si dispone attorno a $N.~
+Affect       'l*23' 27 '1' -1
+End
+
+#SPELL
+Name         bless~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         3
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      L'effetto della benedizione si affievolisce.. per poi sparire.~
+Hitchar      Raccomandi $N alla benedizione del tuo Dio.~
+Hitvict      La fievole luce della benedizione ti sfiora la fronte.~
+Hitroom      Un raggio di luce illumina per un attimo la fronte di $N.~
+Affect       '' 60 '109' -1
+Affect       'l*23' 24 '-(l/8)' -1
+Affect       'l*23' 18 'l/8' -1
+End
+
+#SPELL
+Name         blindness~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Slot         4
+Mana         5
+Rounds       12
+FunName      spell_blindness
+Dammsg       ~
+Wearoff      I tuoi occhi riprendono a vederci...finalmente.~
+End
+
+#SPELL
+Name         burning hands~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         1
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         5
+Mana         15
+Rounds       12
+FunName      spell_burning_hands
+Dammsg       burning hands~
+Wearoff      !Burning Hands!~
+End
+
+#SPELL
+Name         call lightning~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         3
+Flags        0
+MinPosition  POSITION_FIGHT
+Slot         6
+Mana         15
+Rounds       12
+FunName      spell_call_lightning
+Dammsg       lightning bolt~
+Wearoff      !Call Lightning!~
+End
+
+#SPELL
+Name         cause critical~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         4
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         63
+Mana         20
+Rounds       12
+FunName      spell_cause_critical
+Dammsg       spell~
+Wearoff      !Cause Critical!~
+End
+
+#SPELL
+Name         cause light~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         4
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         62
+Mana         15
+Rounds       12
+FunName      spell_cause_light
+Dammsg       spell~
+Wearoff      !Cause Light!~
+End
+
+#SPELL
+Name         cause serious~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         4
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         64
+Mana         17
+Rounds       12
+FunName      spell_cause_serious
+Dammsg       spell~
+Wearoff      !Cause Serious!~
+End
+
+#SPELL
+Name         caustic fount~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         909
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         313
+Mana         15
+Rounds       8
+FunName      spell_caustic_fount
+Dammsg       Caustic Fount~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         change sex~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         82
+Mana         15
+Rounds       12
+FunName      spell_change_sex
+Dammsg       ~
+Wearoff      Torni nel tuo vero aspetto.~
+Hitchar      Il corpo di $N attraversa una veloce trasformazione...di sesso!~
+Hitvict      Il tuo corpo attraversa una veloce trasformazione...di sesso!.~
+Hitroom      Il corpo di $N attraversa una veloce trasformazione...di sesso!.~
+Affect       'l*230' 6 '1' -1
+End
+
+#SPELL
+Name         charged beacon~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         105
+Mana         65
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Una scintilla scoppietta sulla tua fronte...e le scariche elettriche ti abbandonano.~
+Hitchar      Un lampo di luce azzurra si avvinghia sulla gola di $N!~
+Hitvict      Un lampo di luce azzurra si avvinghia sulla tua gola, ti senti percors$x da brevi scariche.~
+Hitroom      Un lampo di luce azzurra si avvinghia sulla gola di $N!~
+Affect       'l*17' 29 '4' -1
+End
+
+#SPELL
+Name         charm person~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_EVASIVE
+Slot         7
+Mana         5
+Rounds       12
+FunName      spell_charm_person
+Dammsg       ~
+Wearoff      Riacquisti padronanza di te.~
+End
+
+#SPELL
+Name         chill touch~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         2
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Slot         8
+Mana         15
+Rounds       12
+FunName      spell_chill_touch
+Dammsg       chilling touch~
+Wearoff      Il brivido gelido che ti attanagliava svanisce...~
+End
+
+#SPELL
+Name         colour spray~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         4
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         10
+Mana         15
+Rounds       12
+FunName      spell_colour_spray
+Dammsg       colour spray~
+Wearoff      !Colour Spray!~
+End
+
+#SPELL
+Name         continual light~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         520
+Flags        16384
+MinPosition  POSITION_EVASIVE
+Slot         57
+Mana         7
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Continual Light!~
+Hitchar      Frammenti di luce iridescenti collidono formando un'abbagliante sfera luminosa.~
+Hitroom      Frammenti di luce iridescenti collidono formando un'abbagliante sfera luminosa.~
+Dice         0~
+Value        21
+End
+
+#SPELL
+Name         control weather~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         11
+Mana         25
+Rounds       12
+FunName      spell_control_weather
+Dammsg       ~
+Wearoff      !Control Weather!~
+End
+
+#SPELL
+Name         create fire~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         521
+Flags        16384
+MinPosition  POSITION_EVASIVE
+Slot         85
+Mana         10
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Create Fire!~
+Hitchar      Una nube composta da fiamme vive compare minacciosa alle tue spalle.~
+Hitroom      Una nube composta da fiamme vive compare minacciosa alle spalle di $n.~
+Dice         L~
+Value        30
+End
+
+#SPELL
+Name         create food~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         520
+Flags        16384
+MinPosition  POSITION_EVASIVE
+Slot         12
+Mana         5
+Rounds       12
+FunName      spell_create_food
+Dammsg       ~
+Wearoff      !Create Food!~
+Hitchar      Fai comparire un delizioso frutto nella tua mano .~
+Hitroom      $n fa comparire tra le sue mani un delizioso frutto.~
+Dice         0~
+Value        20
+End
+
+#SPELL
+Name         create spring~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         520
+Flags        16384
+MinPosition  POSITION_FIGHT
+Slot         80
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Create Spring!~
+Hitchar      Tracciando un cerchio davanti a te lasci emergere dal suolo il flusso d'acqua di una sorgente.~
+Hitroom      Tracciando un cerchio davanti a sè $n lascia emergere dal suolo il flusso d'acqua di una sorgente..~
+Dice         L~
+Value        22
+End
+
+#SPELL
+Name         create symbol~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         520
+Flags        16384
+MinPosition  POSITION_EVASIVE
+Slot         101
+Mana         35
+Rounds       20
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Impugni un imponente simbolo divino della tua fede!~
+Hitroom      $n impugna il divino simbolo della sua fede!~
+Dice         0~
+Value        43
+End
+
+#SPELL
+Name         create water~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_EVASIVE
+Slot         13
+Mana         5
+Rounds       12
+FunName      spell_create_water
+Dammsg       ~
+Wearoff      !Create Water!~
+End
+
+#SPELL
+Name         cure blindness~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         14
+Mana         5
+Rounds       12
+FunName      spell_cure_blindness
+Dammsg       ~
+Wearoff      !Cure Blindness!~
+End
+
+#SPELL
+Name         cure critical~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         15
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Cure Critical!~
+Hitchar      Apporti sollievo alle ferite di $N sfiorandol$X.~
+Hitvict      Avverti una piacevole sensazione...il dolore delle ferite si allevia.~
+Affect       '' 13 '3d8+(l-6)' -1
+End
+
+#SPELL
+Name         cure light~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         16
+Mana         10
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      ~
+Hitchar      Apporti un piccolo sollievo alle ferite di $N sfiorandol$X..~
+Hitvict      Avverti una piacevole sensazione...il dolore delle ferite si allevia un po'.~
+Affect       '' 13 '1d8+(l/3)' -1
+End
+
+#SPELL
+Name         cure poison~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         43
+Mana         5
+Rounds       12
+FunName      spell_cure_poison
+Dammsg       ~
+Wearoff      !Cure Poison!~
+End
+
+#SPELL
+Name         cure serious~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         61
+Mana         15
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Cure Serious!~
+Hitchar      Sfiori le ferite di $N alleviandone il dolore.~
+Hitvict      Le tue ferite si rimarginano parzialmente mentre il dolore si allevia.~
+Affect       '' 13 '2d8+(l/2)' -1
+End
+
+#SPELL
+Name         curse~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         17
+Mana         20
+Rounds       12
+FunName      spell_curse
+Dammsg       curse~
+Wearoff      Il senso di desolazione che gravava sul tuo animo ti abbandona...La maledizione è svanita.~
+End
+
+#SPELL
+Name         demonskin~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         210
+Mana         55
+Rounds       25
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La scaglie nerastre sulla tua epidermide si staccano dal tuo corpo.~
+Hitvict      Sulla tua pelle si formano delle spesse croste nerastre atte a proteggerti.~
+Hitroom      Sulla pelle di $N si formano delle spesse croste nerastre che l$X proteggono.~
+Affect       'l*23' 27 '64' -1
+End
+
+#SPELL
+Name         detect alignment~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_DEFENSIVE
+Slot         18
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua vista torna normale, le auree mistiche attorno ai corpi svaniscono lentamente.~
+Hitvict      Un bagliore violaceo schiarisce la tua visione, ora i corpi intorno a te rivelano l'aurea che li possiede.~
+Hitroom      Un intenso bagliore violaceo sfiora gli occhi di $N, pervadendoli.~
+Affect       'l*24' 26 'detect alignment' 2
+End
+
+#SPELL
+Name         detect hidden~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Slot         44
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Un alone scuro cala sui tuoi occhi...le tenebre tornano a celarsi.~
+Hitvict      Una bagliore intenso illumina il tuo sguardo, e le ombre ti si rivelano.~
+Hitroom      Un sinistro bagliore illumina lo sguardo di $N.~
+Affect       'l*24' 26 'detect hidden' 5
+End
+
+#SPELL
+Name         detect invis~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_BERSERK
+Slot         19
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Avverti un pizzicorio sulla nuca, la tua visione torna normale.~
+Hitvict      Avverti una stretta sulla nuca, i tuoi occhi brillano per un istante.~
+Hitroom      $N rabbrividisce per un istante mentre i suoi occhi brillano.~
+Affect       'l*24' 26 'detect invis' 3
+End
+
+#SPELL
+Name         detect magic~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         20
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      L'aura blu attorno agli oggetti magici svanisce lentamente dal tuo sguardo.~
+Hitvict      Una pallida aura blu avvolge gli oggetti magici che riesci a vedere.~
+Hitroom      Un bagliore bluastro attraversa gli occhi di $N.~
+Affect       'l*24' 26 'detect magic' 4
+End
+
+#SPELL
+Name         detect poison~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_STAND
+Slot         21
+Mana         5
+Rounds       12
+FunName      spell_detect_poison
+Dammsg       ~
+Wearoff      !Detect Poison!~
+End
+
+#SPELL
+Name         detect traps~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Slot         86
+Mana         15
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Senti la tua mente rilassarsi...non se più all'erta come prima.~
+Hitvict      Concentri la tua mente nell'intento di percepire eventuali pericoli.~
+Hitroom      $N sembra concentrarsi nell'individuare pericoli intorno.~
+Affect       'l*24' 26 'detect traps' 23
+End
+
+#SPELL
+Name         dispel evil~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         22
+Mana         15
+Rounds       12
+FunName      spell_dispel_evil
+Dammsg       dispel evil~
+Wearoff      !Dispel Evil!~
+End
+
+#SPELL
+Name         dispel magic~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         59
+Mana         15
+Rounds       12
+FunName      spell_dispel_magic
+Dammsg       ~
+Wearoff      !Dispel Magic!~
+End
+
+#SPELL
+Name         disruption~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         305
+Mana         15
+Rounds       8
+FunName      spell_disruption
+Dammsg       Disruption ~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         divinity~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        6144
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         112
+Mana         115
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Invochi il flusso dell'essenza divina nel corpo di $N.~
+Hitvict      L'essenza divina scorre per un istante nelle tue vene.~
+Components   V@43~
+Affect       '' 13 '200' -1
+End
+
+#SPELL
+Name         dragon wit~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         227
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      L'anima del drago lascia la tua mente.~
+Hitchar      Gli occhi $N s'illuminano di un caldo riflesso dorato.~
+Hitvict      L'anima del drago scorre nella tua mente parlandoti di saggezza e virtù.~
+Hitroom      Gli occhi $N s'illuminano di un caldo riflesso dorato.~
+Affect       'l*24' 3 '1+(l/17)' -1
+End
+
+#SPELL
+Name         dragonskin~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         212
+Mana         45
+Rounds       14
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Le scaglie argentate sulla tua pelle si dissolvono nel nulla.~
+Hitvict      Sulla tua pelle si formano dal nulla delle scaglie argentate.~
+Hitroom      Sulla pelle di $N si formano dal nulla delle scaglie argentate.~
+Affect       'l*23' 27 '32' -1
+End
+
+#SPELL
+Name         dream~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         233
+Mana         5
+Rounds       12
+FunName      spell_dream
+Dammsg       ~
+Wearoff      !Dream!~
+End
+
+#SPELL
+Name         earthquake~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+MinPosition  POSITION_FIGHT
+Slot         23
+Mana         15
+Rounds       12
+FunName      spell_earthquake
+Dammsg       earthquake~
+Wearoff      !Earthquake!~
+End
+
+#SPELL
+Name         eldritch sphere~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         207
+Mana         70
+Rounds       20
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La sfera Eldritch sopra di te svanisce nel nulla.~
+Hitvict      Richiami dal nulla una sfera che si posiziona proprio sopra di te.~
+Hitroom      Una sfera giunge dal nulla posizionandosi sopra di $N.~
+Affect       '(l*3)+25' 27 '8192' -1
+Affect       '(l*3)+25' 27 '1048576' -1
+End
+
+#SPELL
+Name         elven beauty~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         226
+Mana         14
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Torni al tuo aspetto normale.~
+Hitchar      Le orecchie di $N si fanno a punta...il suo viso sembra cambiare...~
+Hitvict      Senti le tue orecchie rimodellarsi mentre la tua voce ed il tuo aspetto cambiano.~
+Hitroom      Le orecchie di $N si fanno a punta...il suo viso sembra cambiare...~
+Affect       'l*24' 25 '1+(l/17)' -1
+End
+
+#SPELL
+Name         enchant weapon~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_STAND
+Slot         24
+Mana         100
+Rounds       24
+FunName      spell_enchant_weapon
+Dammsg       ~
+Wearoff      !Enchant Weapon!~
+End
+
+#SPELL
+Name         energy drain~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         4
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         25
+Mana         35
+Rounds       12
+FunName      spell_energy_drain
+Dammsg       energy drain~
+Wearoff      !Energy Drain!~
+End
+
+#SPELL
+Name         ethereal fist~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         312
+Mana         15
+Rounds       8
+FunName      spell_ethereal_fist
+Dammsg       Ethereal Fist~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         ethereal funnel~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         218
+Mana         75
+Rounds       22
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      L'aura nera distorcente sopra di te svanisce nel nulla.~
+Hitchar      Evochi un'aura nera distorcente sopra di $N...~
+Hitvict      Un'aura nera si forma attorno a te convogliando nella tua direzione violente scariche energetiche!~
+Hitroom      Una forte aura nera circonda $N attaccandol$X!~
+Affect       'l*23' 29 '8' -1
+End
+
+#SPELL
+Name         ethereal shield~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         217
+Mana         75
+Rounds       22
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      In questo istante avverti di essere nel tuo solito continuum spazio/temporale.~
+Hitvict      Scindi la tua esistenza dal primario piano degli elementi.~
+Hitroom      Uno scudo etereo scinde $N dal questo piano d'esistenza.~
+Affect       'l*23' 27 '8' -1
+End
+
+#SPELL
+Name         expurgation~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_DEFENSIVE
+Slot         340
+Mana         25
+Rounds       12
+FunName      spell_expurgation
+Dammsg       ~
+End
+
+#SPELL
+Name         extradimensional portal~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         1544
+Flags        16384
+MinPosition  POSITION_EVASIVE
+Slot         95
+Mana         40
+Rounds       24
+FunName      spell_smaug
+Dammsg       !EXTRADIMENSIONAL_PORTAL!~
+Wearoff      !EXTRADIMENSIONAL_PORTAL!~
+Value        63
+End
+
+#SPELL
+Name         faerie fire~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         72
+Mana         5
+Rounds       12
+FunName      spell_faerie_fire
+Dammsg       faerie fire~
+Wearoff      La fastidiosa aura rosa che ti circondava finalmente svanisce.~
+End
+
+#SPELL
+Name         faerie fog~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         73
+Mana         12
+Rounds       12
+FunName      spell_faerie_fog
+Dammsg       faerie fog~
+Wearoff      !Faerie Fog!~
+End
+
+#SPELL
+Name         farsight~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         222
+Mana         15
+Rounds       12
+FunName      spell_farsight
+Dammsg       ~
+Wearoff      !Farsight!~
+End
+
+#SPELL
+Name         fatigue~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         103
+Mana         60
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il sonno ti abbandona.~
+Hitchar      $N sembra improvvisamente molto stanc$X e assonnat$X.~
+Hitvict      Ti senti improvvisamente molto stanc$x e assonnat$x.~
+Hitroom      $N sembra improvvisamente molto stanc$X e assonnat$X.~
+Affect       'l*15' 29 '1024' -1
+End
+
+#SPELL
+Name         fire breath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         1
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         201
+Mana         15
+Rounds       4
+FunName      spell_fire_breath
+Dammsg       blast of flame~
+Wearoff      !Fire Breath!~
+End
+
+#SPELL
+Name         fireball~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         1
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         26
+Mana         15
+Rounds       12
+FunName      spell_fireball
+Dammsg       fireball~
+Wearoff      !Fireball!~
+End
+
+#SPELL
+Name         fireshield~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         88
+Mana         85
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      In un improvviso sbuffo d'aria le fiamme mistiche si spengono.~
+Hitchar      Un circolo di fiamme mistiche avvolge $N.~
+Hitvict      Un circolo di fiamme mistiche ti avvolge.~
+Hitroom      Un circolo di fiamme mistiche avvolge $N.~
+Affect       '(l*4)+8' 26 'fireshield' 25
+End
+
+#SPELL
+Name         flamestrike~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         1
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         65
+Mana         20
+Rounds       12
+FunName      spell_flamestrike
+Dammsg       flamestrike~
+Wearoff      !Flamestrike!~
+End
+
+#SPELL
+Name         flare~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         393
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         60
+Mana         15
+Rounds       12
+FunName      spell_fireball
+Dammsg       shield of flame~
+Missroom     supress~
+End
+
+#SPELL
+Name         fletch~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         8
+Flags        16384
+MinPosition  POSITION_FIGHT
+Slot         95
+Mana         30
+Rounds       10
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Ricavi una freccia da un frammento di roccia.~
+Hitroom      $n ricava una freccia da un frammento di roccia.~
+Misschar     Sbagli a scalfire la roccia...frammento perduto.~
+Value        21085
+Components   v21086~
+End
+
+#SPELL
+Name         float~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         292
+Mana         8
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Ti posi lentamente a terra.~
+Hitchar      $N inizia a fluttuare a mezzaria...~
+Hitvict      Inizi a fluttuare a mezzaria.~
+Hitroom      $N inizia a fluttuare a mezzaria...~
+Affect       'l*24' 26 'float' 21
+End
+
+#SPELL
+Name         fly~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         56
+Mana         10
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Ritorni a terra.~
+Hitchar      $N inizia a fluttuare tra le correnti d'aria...~
+Hitvict      Inizi a fluttuare tra le correnti d'aria...~
+Hitroom      $N inizia a fluttuare tra le correnti d'aria...~
+Affect       'l*24' 26 'fly' 19
+End
+
+#SPELL
+Name         fortify~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         840
+Flags        14336
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         95
+Mana         40
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !FORTIFY!~
+Hitvict      Le tue ferite si richiudono e cicatrizzano all'istante.~
+Affect       '' 13 '3d8+(l-6)' -1
+End
+
+#SPELL
+Name         frost breath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         2
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         202
+Mana         95
+Rounds       4
+FunName      spell_frost_breath
+Dammsg       blast of frost~
+Wearoff      !Frost Breath!~
+End
+
+#SPELL
+Name         galvanic whip~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         907
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         304
+Mana         15
+Rounds       8
+FunName      spell_galvanic_whip
+Dammsg       Galvanic Whip~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         gas breath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+MinPosition  POSITION_FIGHT
+Slot         203
+Mana         15
+Rounds       4
+FunName      spell_gas_breath
+Dammsg       blast of gas~
+Wearoff      !Gas Breath!~
+End
+
+#SPELL
+Name         gate~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         83
+Mana         50
+Rounds       12
+FunName      spell_gate
+Dammsg       ~
+Wearoff      !Gate!~
+End
+
+#SPELL
+Name         grounding~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         104
+Mana         60
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua protezione contro l'elettricità si affievolisce.~
+Hitvict      Isoli il tuo corpo dall'elettricità.~
+Hitroom      $N isola il corpo dall'elettricità.~
+Affect       'l*17' 27 '4' -1
+End
+
+#SPELL
+Name         hand of chaos~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         307
+Mana         15
+Rounds       8
+FunName      spell_hand_of_chaos
+Dammsg       Hand of Chaos~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         harm~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         4
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         27
+Mana         35
+Rounds       12
+FunName      spell_harm
+Dammsg       harm spell~
+Wearoff      !Harm!~
+End
+
+#SPELL
+Name         heal~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_AGGRESSIVE
+Slot         28
+Mana         50
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Heal!~
+Hitchar      Con un tocco apporti sollievo alle ferite di $N.~
+Hitvict      Un fievole tepore accarezza il tuo corpo alleviandoti il dolore.~
+Affect       '' 13 '100' -1
+End
+
+#SPELL
+Name         helical flow~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_DEFENSIVE
+Slot         298
+Mana         180
+Rounds       12
+FunName      spell_helical_flow
+Dammsg       ~
+Wearoff      !Helical Flow!~
+End
+
+#SPELL
+Name         hezekiahs cure~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         341
+Mana         40
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Infondi energia benefica nel corpo di $n.~
+Hitvict      Le tue ferite sono mitigate da una strana energia benefica.~
+Components   V@65~
+Affect       '' 13 '5*(l/3)' -1
+End
+
+#SPELL
+Name         holy sanctity~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        14336
+MinPosition  POSITION_EVASIVE
+Slot         111
+Mana         250
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua santità s'interrompe bruscamente, hai freddo.~
+Hitvict      Una potente benedizione ti santifica.~
+Hitroom      $N viene avvolt$X da una stupefacente aura bianca.~
+Components   V@43~
+Affect       '(l*4)+30' 26 'sanctify' 7
+End
+
+#SPELL
+Name         iceshard~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         394
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         299
+Mana         15
+Rounds       12
+FunName      spell_chill_touch
+Dammsg       hail of ice~
+Missroom     supress~
+End
+
+#SPELL
+Name         iceshield~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_STAND
+Slot         221
+Mana         85
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Lo strato di ghiaccio si scioglie rapidamente e svanisce.~
+Hitchar      $N viene circondat$X da uno spesso strato di ghiaccio.~
+Hitvict      Uno spesso strato di ghiaccio ti circonda.~
+Hitroom      $N viene circondat$X da uno spesso strato di ghiaccio.~
+Affect       '(l*4)+8' 26 'iceshield' 28
+End
+
+#SPELL
+Name         identify~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         53
+Mana         12
+Rounds       24
+FunName      spell_identify
+Dammsg       ~
+Wearoff      !Identify!~
+End
+
+#SPELL
+Name         indignation~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         840
+Flags        14336
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         95
+Mana         90
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La furia degli Dei scorre via dalle tue vene...svuotandoti.~
+Hitchar      Lasci che la furia degli Dei scorra nelle vene di $N.~
+Hitvict      La furia degli Dei riempie le tue vene!~
+Hitroom      La furia degli Dei riempie le vene di $N!~
+Affect       'l/2' 18 '1+(l/17)' -1
+Affect       'l/2' 19 '1+(l/17)' -1
+End
+
+#SPELL
+Name         infravision~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         77
+Mana         5
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Le ombre nel tuo sguardo si ridestano, perdi l'infravisione.~
+Hitchar      Gli occhi di $N guizzano di un sinistro bagliore.~
+Hitvict      Un velo rosso ricopre ora ogni fonte di calore...~
+Hitroom      Gli occhi di $N guizzano di un sinistro bagliore.~
+Affect       'l*24' 26 'infravision' 9
+End
+
+#SPELL
+Name         inner warmth~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         213
+Mana         65
+Rounds       8
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il confortevole calore abbandona bruscamente il tuo corpo.~
+Hitchar      $N è circondat$X da una confortevole aura calda...~
+Hitvict      Una confortevole e calda aura ti circonda.~
+Hitroom      $N è circondat$X da una confortevole aura calda...~
+Affect       'l*23' 27 '2' -1
+End
+
+#SPELL
+Name         invis~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         29
+Mana         5
+Rounds       12
+FunName      spell_invis
+Dammsg       ~
+Wearoff      Torni visibile.~
+Hitchar      $N sparisce invisibilizzandosi.~
+Hitvict      Sparisci invisibilizzandoti.~
+Hitroom      $N sparisce invisibilizzandosi.~
+Affect       'l*11' 26 'invis' 1
+End
+
+#SPELL
+Name         kindred strength~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         39
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua forza ritorna alla normalità...~
+Hitchar      I muscoli di $N guizzano mentre un'energia nera li attraversa...~
+Hitvict      Senti un'energia nera pervaderti e renderti potente.~
+Hitroom      I muscoli di $N guizzano mentre un'energia nera li attraversa...~
+Affect       'l*24' 1 '1+(l/17)' -1
+End
+
+#SPELL
+Name         knock~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         234
+Mana         10
+Rounds       12
+FunName      spell_knock
+Dammsg       ~
+Wearoff      !Knock!~
+End
+
+#SPELL
+Name         know alignment~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         58
+Mana         9
+Rounds       12
+FunName      spell_know_alignment
+Dammsg       ~
+Wearoff      !Know Alignment!~
+End
+
+#SPELL
+Name         lethargy~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_EVASIVE
+Slot         109
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il torpore finalmente ti abbandona.~
+Hitchar      $N è colt$X da un improvviso torpore.~
+Hitvict      Un improvviso torpore ti assale...~
+Hitroom      $N è colt$N da un improvviso torpore.~
+Affect       'l*15' 2 '-2' -1
+End
+
+#SPELL
+Name         lightning bolt~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         3
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         30
+Mana         15
+Rounds       12
+FunName      spell_lightning_bolt
+Dammsg       lightning bolt~
+Wearoff      !Lightning Bolt!~
+End
+
+#SPELL
+Name         lightning breath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         3
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         204
+Mana         15
+Rounds       4
+FunName      spell_lightning_breath
+Dammsg       blast of lightning~
+Wearoff      !Lightning Breath!~
+End
+
+#SPELL
+Name         locate object~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         31
+Mana         40
+Rounds       18
+FunName      spell_locate_object
+Dammsg       ~
+Wearoff      !Locate Object!~
+End
+
+#SPELL
+Name         magic missile~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         340
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         32
+Mana         7
+Rounds       6
+FunName      spell_smaug
+Dammsg       magic missile~
+Wearoff      !Magic Missile!~
+End
+
+#SPELL
+Name         magnetic thrust~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         907
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         311
+Mana         15
+Rounds       8
+FunName      spell_magnetic_thrust
+Dammsg       Magnetic Thrust~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         major invocation~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         840
+Flags        14336
+Target       2
+MinPosition  POSITION_STAND
+Slot         95
+Mana         90
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La più alta benedizione degli Dei finisce ora il suo effetto sul tuo animo.~
+Hitchar      Invochi la più alta benedizione degli Dei su $N.~
+Hitvict      La benedizione più alta degli Dei si posa sul tuo animo.~
+Hitroom      La più alta benedizione degli Dei si posa su $N.~
+Affect       'l' 26 'sanctuary' 7
+End
+
+#SPELL
+Name         mass invis~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        8192
+Target       2
+MinPosition  POSITION_STAND
+Slot         69
+Mana         20
+Rounds       24
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Ritorni visibile.~
+Hitvict      Diventi invisibile.~
+Hitroom      $N diventa invisibile.~
+Affect       'l*11' 26 'mass invis' 1
+End
+
+#SPELL
+Name         midas touch~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         1552
+Flags        0
+Target       4
+MinPosition  POSITION_EVASIVE
+Slot         95
+Mana         30
+Rounds       20
+FunName      spell_midas_touch
+Dammsg       !MIDAS_TOUCH!~
+Wearoff      !MIDAS_TOUCH!~
+End
+
+#SPELL
+Name         minor invocation~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         840
+Flags        14336
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         95
+Mana         10
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La protezione dell'invocazione Divina svanisce.~
+Hitchar      Invochi la protezione degli Dei su $N.~
+Hitvict      La protezione degli Dei è ora su di te.~
+Hitroom      $N viene illuminat$X da una debole aura di luce, segno della protezione Divina.~
+Affect       'l*23' 18 '(l/8)' -1
+Affect       'l*23' 24 '-(l/8)' -1
+Affect       '' 60 '3' -1
+End
+
+#SPELL
+Name         necromantic touch~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         8591
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Saves        5
+Slot         114
+Mana         25
+Rounds       12
+FunName      spell_smaug
+Dammsg       necromantic touch~
+Hitchar      Risucchi l'essenza vitale di $N.~
+Hitvict      Senti l'anima scivolarti via per mano di $n!~
+Hitroom      $n risucchia l'essenza vitale di $N!~
+Dice         150d2~
+Affect       '' 1013 '2d75' -1
+End
+
+#SPELL
+Name         nostrum~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_AGGRESSIVE
+Slot         297
+Mana         50
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Nostrum!~
+Hitvict      Un improvviso calore ti sembra far rinascere...~
+Affect       '' 13 '100' -1
+End
+
+#SPELL
+Name         pass door~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         74
+Mana         50
+Rounds       12
+FunName      spell_pass_door
+Dammsg       ~
+Wearoff      Il tuo corpo torna solido.~
+End
+
+#SPELL
+Name         plant pass~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         291
+Mana         60
+Rounds       12
+FunName      spell_plant_pass
+Dammsg       ~
+Wearoff      !Plant Pass!~
+End
+
+#SPELL
+Name         poison~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        131072
+Target       1
+MinPosition  POSITION_EVASIVE
+Slot         33
+Mana         10
+Rounds       20
+FunName      spell_poison
+Dammsg       poison~
+Wearoff      Il veleno cessa di assillarti.~
+End
+
+#SPELL
+Name         polymorph~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         294
+Mana         60
+Rounds       12
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Polymorph!~
+End
+
+#SPELL
+Name         possess~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         232
+Mana         120
+Rounds       30
+FunName      spell_possess
+Dammsg       possess~
+Wearoff      Ritorni padrone del tuo corpo.~
+Components   v+13~
+End
+
+#SPELL
+Name         portal~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         220
+Mana         70
+Rounds       25
+FunName      spell_portal
+Dammsg       ~
+Wearoff      !Portal!~
+HitChar      Richiami una frattura nello spazio tempo generando un portale davanti a te!~
+HitRoom      $n evoca fluidi che distorcono lo spazio intorno.. e crea dal nulla un portale!~
+HitVict      Un inquietante portale compare dal nulla davanti a te!~
+End
+
+#SPELL
+Name         protection~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         34
+Mana         5
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua protezione dal male termina in questo momento.~
+Hitvict      La benedizione ti protegge dal male.~
+Hitroom      La benedizione protegge $N dagli influssi maligni.~
+Affect       'l*10' 26 'protection' 13
+End
+
+#SPELL
+Name         quantum spike~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         314
+Mana         15
+Rounds       8
+FunName      spell_quantum_spike
+Dammsg       Quantum Spike~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         quickening~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         328
+Flags        0
+Target       3
+MinPosition  POSITION_DEFENSIVE
+Slot         95
+Mana         60
+Rounds       10
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il battito del tuo cuore torna normale.~
+Hitvict      Il battito del tuo cuore raddoppia!~
+Missvict     Non riesci ad accumulare abbastanza energia per lanciare l'incantesimo.~
+Affect       'l+50' 26 'quickening' -1
+Affect       'l+50' 2 '+2' -1
+End
+
+#SPELL
+Name         razorbait~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         211
+Mana         45
+Rounds       14
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      L'insano terrore delle lame finalmente svanisce dalla tua mente.~
+Hitchar      Proietti l'illusione di una lama nella mente di $N.~
+Hitvict      Una lama ti si conficca nel cervello! Provi un dolore indicibile!~
+Hitroom      $N sembra avere il terrore di ogni più piccola lama tagliente!~
+Affect       'l*23' 29 '32' -1
+End
+
+#SPELL
+Name         recharge~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_EVASIVE
+Slot         229
+Mana         100
+Rounds       24
+FunName      spell_recharge
+Dammsg       ~
+Wearoff      !Recharge!~
+End
+
+#SPELL
+Name         refresh~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         81
+Mana         12
+Rounds       18
+FunName      spell_smaug
+Dammsg       refresh~
+Wearoff      !Refresh!~
+Hitchar      Lasci che un ringenerante flusso vitale scorra da te a $N.~
+Hitvict      Un flusso rivitalizzante attraversa il tuo corpo.~
+Affect       '' 14 'l' -1
+End
+
+#SPELL
+Name         remove curse~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         35
+Mana         5
+Rounds       12
+FunName      spell_remove_curse
+Dammsg       ~
+Wearoff      !Remove Curse!~
+End
+
+#SPELL
+Name         remove invis~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         230
+Mana         10
+Rounds       12
+FunName      spell_remove_invis
+Dammsg       ~
+Wearoff      !Remove Invis!~
+End
+
+#SPELL
+Name         remove trap~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         87
+Mana         35
+Rounds       12
+FunName      spell_remove_trap
+Dammsg       ~
+Wearoff      !Remove trap!~
+End
+
+#SPELL
+Name         resilience~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        6144
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         106
+Mana         47
+Rounds       13
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La resilienza divina abbandona il tuo corpo.~
+Hitchar      Invochi su $N la resilienza divina.~
+Hitvict      Senti il tuo corpo pervaso dalla resilienza.~
+Hitroom      $n appare improvvisamente più resiliente.~
+Affect       'l*23' 27 '512' -1
+End
+
+#SPELL
+Name         restoration~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        14336
+MinPosition  POSITION_DEFENSIVE
+Slot         113
+Mana         80
+Rounds       20
+FunName      spell_smaug
+Dammsg       ~
+Hitvict      Un caldo abbraccio ti ristora.~
+Hitroom      $N sembra improvvisamente più ristorat$X.~
+Participants 2
+Components   V@43~
+Affect       '' 13 '125' -1
+End
+
+#SPELL
+Name         restore mana~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_DEFENSIVE
+Slot         84
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      !Restore Mana!~
+Hitvict      Un potente flusso di mana scorre attraverso il tuo corpo.~
+Affect       '' 12 'l+2d10' -1
+End
+
+#SPELL
+Name         sacral divinity~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Slot         345
+Mana         100
+Rounds       12
+FunName      spell_sacral_divinity
+Dammsg       ~
+Components   V@65~
+End
+
+#SPELL
+Name         sagacity~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         228
+Mana         12
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il senso di antica saggezza che ti pervadeva scorre via dalla tua mente.~
+Hitchar      Negli occhi di $N si accende improvvisamente una luce di antica saggezzad.~
+Hitvict      La luce ed il sapere di un'antica saggezza pervadono la tua mente.~
+Hitroom      Negli occhi di $N si accende improvvisamente una luce di antica saggezzad.~
+Affect       'l*24' 4 '1+(l/17)' -1
+End
+
+#SPELL
+Name         sanctuary~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         336
+Flags        0
+Target       2
+MinPosition  POSITION_STAND
+Slot         36
+Mana         75
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La sacra aura attorno al tuo corpo si dissolve.~
+Hitchar      Il corpo di $N viene circondato da una forte aura luminosa.~
+Hitvict      Una forte aura sacra riveste il tuo corpo.~
+Hitroom      Il corpo di $N viene circondato da una forte aura luminosa~
+Affect       '(l*4)+30' 26 'sanctuary' 7
+End
+
+#SPELL
+Name         scorching surge~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         1
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         296
+Mana         25
+Rounds       12
+FunName      spell_scorching_surge
+Dammsg       scorching surge~
+Wearoff      !Scorching Surge!~
+End
+
+#SPELL
+Name         scry~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         91
+Mana         20
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La chiaroveggenza ti abbandona...~
+Hitchar      Una patina luminosa nasconde gli occhi di $N...~
+Hitvict      Avverti che la tua mente è ora capace di guardare più lontano...~
+Hitroom      Una patina luminosa nasconde gli occhi di $N...~
+Affect       'l*23' 26 'scry' 24
+End
+
+#SPELL
+Name         shadowform~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         225
+Mana         110
+Rounds       20
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Le ombre che coprivano il tuo corpo si dissolvono nel nulla...~
+Hitvict      Il tuo corpo si dissolve come un'ombra.~
+Hitroom      Una nube fatta di ombre inghiotte il corpo di $N.~
+Affect       'l*10' 27 '8192' -1
+End
+
+#SPELL
+Name         shield~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         67
+Mana         12
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il tuo scudo di forza si dissolve nel nulla.~
+Hitchar      Uno scudo di forza circonda $N.~
+Hitvict      Uno scudo di forza ti circonda.~
+Hitroom      Uno scudo di forza circonda $N.~
+Affect       'l*24' 17 '-20' -1
+End
+
+#SPELL
+Name         shocking grasp~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         3
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Slot         51
+Mana         15
+Rounds       12
+FunName      spell_shocking_grasp
+Dammsg       shocking grasp~
+Wearoff      !Shocking Grasp!~
+End
+
+#SPELL
+Name         shockshield~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_EVASIVE
+Slot         89
+Mana         95
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il flusso di energie che ti circonda si interrompe.~
+Hitvict      Decine di rivoli d'energia ti circondano proteggendoti.~
+Hitroom      Il corpo di $N viene avvolto da decine di rivoli d'energia che l$X proteggono.~
+Affect       '(l*3)+14' 26 'shockshield' 26
+End
+
+#SPELL
+Name         sleep~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        131072
+MinPosition  POSITION_STAND
+Slot         38
+Mana         15
+Rounds       12
+FunName      spell_sleep
+Dammsg       ~
+Wearoff      Il sonno finalmente ti abbandona.~
+End
+
+#SPELL
+Name         slink~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         205
+Mana         12
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Ti senti un po' girare la testa...la tua coordinazione torna ai normali livelli.~
+Hitchar      ~
+Hitvict      Ti senti improvvisamente più agile.~
+Hitroom      ~
+Affect       'l*24' 2 '1+(l/17)' -1
+End
+
+#SPELL
+Name         solar flight~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         293
+Mana         60
+Rounds       12
+FunName      spell_solar_flight
+Dammsg       ~
+Wearoff      !Solar flight!~
+End
+
+#SPELL
+Name         solomonic invocation~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         520
+Flags        16384
+MinPosition  POSITION_EVASIVE
+Slot         344
+Mana         50
+Rounds       24
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Una brillante sfera di luce si fonde con l'apparizione di una lucente croce argentea.~
+Hitroom      Nelle mani di $n appare una brillante sfera di luce si fonde con l'apparizione di una lucente croce argentea.~
+Value        65
+End
+
+#SPELL
+Name         sonic resonance~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         309
+Mana         15
+Rounds       8
+FunName      spell_sonic_resonance
+Dammsg       Sonic Resonance~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         spectral furor~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         908
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         306
+Mana         15
+Rounds       8
+FunName      spell_spectral_furor
+Dammsg       Spectral Furor~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         spiral blast~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+Slot         295
+Mana         35
+Rounds       4
+FunName      spell_spiral_blast
+Dammsg       spiral blast~
+Wearoff      !Spiral Blast!~
+End
+
+#SPELL
+Name         spiritual wrath~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         396
+Flags        6160
+MinPosition  POSITION_DEFENSIVE
+Slot         115
+Mana         120
+Rounds       24
+FunName      spell_smaug
+Dammsg       spiritual wrath~
+Dice         44*W~
+Participants 2
+Components   V@43~
+Affect       '6' 26 'spiritual wrath' 1
+End
+
+#SPELL
+Name         stone skin~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_FIGHT
+Slot         66
+Mana         12
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Le scaglie rocciose spariscono dalla tua pelle.~
+Hitvict      Dure scaglie rocciose appaiono ricoprono la tua pelle.~
+Hitroom      Sulla pelle di $N compaiono delle dure scaglie rocciose.~
+Affect       'l*23' 17 '-40' -1
+End
+
+#SPELL
+Name         sulfurous spray~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         909
+Flags        0
+Target       1
+MinPosition  POSITION_EVASIVE
+Slot         308
+Mana         15
+Rounds       8
+FunName      spell_sulfurous_spray
+Dammsg       Sulfurous spray~
+Wearoff      !WEAROFF!~
+End
+
+#SPELL
+Name         summon~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         40
+Mana         50
+Rounds       12
+FunName      spell_summon
+Dammsg       ~
+Wearoff      !Summon!~
+End
+
+#SPELL
+Name         swordbait~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_EVASIVE
+Slot         209
+Mana         55
+Rounds       25
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Riacquisti la tua normale percezione delle paure relative alle armi.~
+Hitchar      Proietti l'illusione di una spada a conficcarsi nella mente di $N.~
+Hitvict      Qualcosa trafigge la tua mente inducendoti a temere ogni tipo di arma fendente!~
+Hitroom      ~
+Affect       'l*23' 29 '64' -1
+End
+
+#SPELL
+Name         teleport~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_DEFENSIVE
+Slot         2
+Mana         35
+Rounds       12
+FunName      spell_teleport
+Dammsg       ~
+Wearoff      !Teleport!~
+End
+
+#SPELL
+Name         torrent~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         395
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         300
+Mana         15
+Rounds       12
+FunName      spell_lightning_bolt
+Dammsg       tendril of lightning~
+Missroom     supress~
+End
+
+#SPELL
+Name         transport~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_EVASIVE
+Slot         219
+Mana         70
+Rounds       15
+FunName      spell_transport
+Dammsg       ~
+Wearoff      !Transport!~
+End
+
+#SPELL
+Name         trollish vigor~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         206
+Mana         16
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il tuo vigore diminuisce...ritorni in te.~
+Hitchar      Il volto di $N si contrae in un'orribile smorfia mentre la sua muscolatura aumenta...~
+Hitvict      Un vigore di innata potenza si sprigiona nel tuo corpo...~
+Hitroom      Il volto di $N si contrae in un'orribile smorfia mentre la sua muscolatura aumenta...~
+Affect       'l*24' 5 '1+(l/17)' -1
+Affect       'l*24' 25 '-1' -1
+End
+
+#SPELL
+Name         true sight~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Slot         235
+Mana         70
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il tuo sguardo torna normale.~
+Hitvict      Il tuo sguardo è ora in grado di percepire cose al di fuori del piano materiale.~
+Hitroom      Gli occhi di $N cominciano a brillare di pallide tinte violacee.~
+Affect       'l-10' 26 'true sight' 22
+End
+
+#SPELL
+Name         unknown~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+Slot         95
+FunName      spell_smaug
+Dammsg       ~
+End
+
+#SPELL
+Name         unravel defense~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         110
+Mana         70
+Rounds       15
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Senti che le tue difese tornano ai loro normali valori.~
+Hitchar      $N sbarra gli occhi mentre le sue difese si aprono ai tuoi attacchi.~
+Hitvict      All'improvviso perdi confidenza nei tuoi movimenti e le tue difese sono scoordinate.~
+Hitroom      $N sbarra gli occhi mentre i suoi movimenti sembrano scoordinati e rozzi.~
+Affect       '(l*3)+25' 29 '1048576' -1
+Affect       '(l*3)+25' 29 '8192' -1
+End
+
+#SPELL
+Name         uplift~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        32800
+MinPosition  POSITION_STAND
+Slot         95
+Mana         50
+Rounds       16
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Ti concentri e raggiungi l'animo di $N alleviandone le sofferenze...~
+Hitvict      La mano di $n raggiunge il tuo animo alleviando le tue sofferenze.~
+Hitroom      Una mano eterea si posa su $N alleviandone le sofferenze...~
+Misschar     Una barriera tra i piani ti impedisce di farlo.~
+Affect       '' 13 '20' -1
+End
+
+#SPELL
+Name         valiance~
+Type         Spell
+Intention    INTENT_FRIENDLY
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_EVASIVE
+Slot         208
+Mana         40
+Rounds       18
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua resistenza alla paralisi viene a mancare...~
+Hitchar      $N è circondat$X da una barriera che penetra il suo corpo.~
+Hitvict      Una barriera magica riveste il tuo corpo prima di essere assimilata nei centri nervosi.~
+Hitroom      $N è circondat$X da una barriera che penetra il suo corpo.~
+Affect       'l*23' 27 '2097152' -1
+End
+
+#SPELL
+Name         ventriloquate~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         41
+Mana         5
+Rounds       12
+FunName      spell_ventriloquate
+Dammsg       ~
+Wearoff      !Ventriloquate!~
+End
+
+#SPELL
+Name         weaken~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Slot         68
+Mana         20
+Rounds       12
+FunName      spell_weaken
+Dammsg       spell~
+Wearoff      You feel stronger.~
+End
+
+#SPELL
+Name         winter mist~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_DEFENSIVE
+Slot         214
+Mana         65
+Rounds       8
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La gelida nebbia che ti assillava finalmente svanisce.~
+Hitchar      Ricopri $N con una gelida nebbia mistica...~
+Hitvict      Una gelida nebbia mistica ti avvolge!~
+Hitroom      Una gelida nebbia mistica avvolge $N.~
+Affect       'l*23' 29 '2' -1
+End
+
+#SPELL
+Name         word of recall~
+Type         Spell
+Intention    INTENT_NEUTRAL
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_REST
+Slot         42
+Mana         5
+Rounds       12
+FunName      spell_word_of_recall
+Dammsg       ~
+Wearoff      !Word of Recall!~
+End
+
+#SPELL
+Name         wrath of dominus~
+Type         Spell
+Intention    INTENT_AGGRESSIVE
+Info         0
+Flags        33792
+Target       2
+MinPosition  POSITION_FIGHT
+Slot         246
+Mana         10
+FunName      spell_smaug
+Dammsg       ~
+Affect       '10' 13 '-75' -1
+Affect       '10' 31 '-3' -1
+End
+
+#END

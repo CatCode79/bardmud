@@ -1,0 +1,986 @@
+#HELP
+KeywordItalian aid~
+KeywordEnglish aid~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Taid <&gavventuriero&w>
+
+Permette di riportare nello stato conscio un avventuriero stordito a causa di un
+colpo violento o qualche incantesimo nefasto.
+~
+End
+
+#HELP
+KeywordItalian backstab~
+KeywordEnglish backstab~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbackstab <&gvictim&w>
+
+Si dice che i ladri siano dei veri maestri in questa particolare tecnica di
+attacco.. Nulla di più vero, per un'abilità che richiede sangue freddo, sagacia
+e capacità di eludere le difese dell'avversario nel silenzio più assoluto le
+doti di un buon ladro sono le più indicate.
+Il coltello va conficcato sotto la scapola destra, in maniera tale che la lama
+vada a trafiggere il cuore non lasciando alcuna possibilità di replica alla
+vittima.
+Occhio che la lama sia quella di un coltello! Le altre sono troppo poco
+maneggevoli e rumorose per un lavoro simile..
+~
+End
+
+#HELP
+KeywordItalian bash vault shoulder~
+KeywordEnglish bash vault shoulder~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbash <&gvittima&w>
+&YSintassi&w:  °Tvault
+&YSintassi&w:  °Tshoulder
+
+Il °Tbash è un poco elegante, ma efficace, spintone inflitto al proprio
+avversario con il preciso scopo di buttarlo a terra.
+Una volta a terra questi potrà solamente difendersi e attaccare ma non curarsi,
+scappare o altro.
+
+Una variante del bash, ancor meno elegante, è il °Tvault, un impetuoso attacco
+sferrato ai danni dell'avversario, con tutto il peso del corpo.
+Al contrario del °Tbash non tende a buttare a terra l'avversario, ed può essere
+sferrato solo a combattimento già iniziato.
+
+Altra abilità molto simile, alle due precedenti è lo °Tshoulder, che consistente
+in una solida spallata diretta al corpo del nemico, l'effetto e dirompente,
+difficilmente si causa la caduta dell'avversario ma il danno inflitto è superiore 
+a quello del °Tbash.
+~
+End
+
+#HELP
+KeywordItalian bite~
+KeywordEnglish bite~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Tbite
+
+Spesso durante un combattimento i vampiri tentano di ghermire i loro avversari
+con un terribile morso dei loro acuminati canini.
+A seconda della forza ed esperienza del vampiro ci saranno più o meno
+probabilità che l'attacco vada a segno e che questo produca un danno minore o
+maggiore.
+~
+End
+
+#HELP
+KeywordItalian blitz~
+KeywordEnglish blitz~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tblitz
+
+Il °Tblitz è una tecnica di attacco che basa la sua forza sulla velocità con la
+quale vengono scagliati i colpi, a discapito della forza infatti si preferisce
+una veloce scarica di attacchi che confondano l'avversario penetrando
+ripetutamente le sue difese.
+~
+End
+
+#HELP
+KeywordItalian bloodlet~
+KeywordEnglish bloodlet~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbloodlet
+
+Gesto piuttosto raro tra vampiri ma che comunque assume una sua rilevanza
+all'interno di questa razza per evidenziare come sia in essi presente il senso
+di rispetto che leghi certi elementi della stirpe.
+La tecnica consiste nel taglio superficiale delle vene del polso sinistro in
+maniera tale da lasciar cadere parte del flusso sanguigno per terra, questo
+potrà poi essere consumato da un altro vampiro in quel momento più bisognoso.
+~
+End
+
+#HELP
+KeywordItalian broach~
+KeywordEnglish broach~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbroach <&gdirezione&w>
+
+Sfruttando le sue capacità di manipolazione e trasformazione il vampiro può
+cercare di aggirare una porta chiusa a chiave o altri tipi di ostacoli che si
+oppongano al suo passaggio.
+~
+End
+
+#HELP
+KeywordItalian circle~
+KeywordEnglish circle~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcircle <&gmob&w>
+
+La tecnica del °Tcircle richiede la stessa sagacia e destrezza del °Tbackstab, se
+non maggiore. E' necessario che venga effettuata quando non si è faccia a faccia
+con l'avversario, è quindi preferibile essere accompagnati da chi si incarichi
+di fronteggiarlo direttamente, la tecnica consiste nel colpire ripetutamente
+l'avversario in punti vitali mentre sfruttando l'appoggio del compagno si
+possono aggirare le sue difese in tutta tranquillità.
+~
+End
+
+#HELP
+KeywordItalian climb~
+KeywordEnglish climb~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tclimb  <&gdirezione&w>
+
+Non tutti i muri sono invalicabili, non tutti i pendii insormontabili.. Per chi
+sa scalare, ovvio.
+~
+End
+
+#HELP
+KeywordItalian cuff~
+KeywordEnglish cuff~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcuff
+
+Considerato più una forma di offesa che un vero e proprio attacco, uno schiaffo
+ben piazzato tuttavia farà di sicuro incollerire un avversario permaloso,
+conducendolo forse ad un errore di troppo. E comunque non fa mai troppo bene.
+~
+End
+
+#HELP
+KeywordItalian detrap~
+KeywordEnglish detrap~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdetrap <&goggetto&w>
+
+L'unico modo per far sì che una trappola non adduca danni è quella di
+disinnescarla. Operazione tanto utile quanto delicata, bisogna sempre sapere
+dove mettere le mani e conoscere tutti i tipi di trucchetti richiede sempre un
+continuo aggiornamento!
+~
+End
+
+#HELP
+KeywordItalian devote~
+KeywordEnglish devote~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Tdevote <&gdivinità&w>
+          °Tdevote &gnone&w
+
+E' la preghiera rituale che permette ad un avventuriero di intraprendere il
+cammino di culto di una divinità.
+Gli Dei apprezzano i fedeli, puniscono invece coloro che li lasciano per
+abbracciare altri culti e Divinità, si racconta infatti di avventurieri che nel
+momento in cui decisero di cambiare strada vennero puniti con la cecità subendo
+anche una pesante maledizione.
+Fortunatamente grazie alla successiva intercessione della loro nuova fede
+vennero liberati da entrambi i mali.
+~
+End
+
+
+#HELP
+KeywordItalian disarm~
+KeywordEnglish disarm~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdisarm
+
+L'abilità nel disarmare un avversario dipende da vari fattori, equilibrio, tipo
+di arma che si impugna e che si vuol far cedere, forza, destrezza..
+Per tutti questi motivi quella del disarmare è divenuta presso molte scuole di
+guerra una vera e propria arte, c'è persino chi si dice capace di poter
+disarmare qualunque avversario anche bendato e a mani nude.. ma al di là dei
+miti e delle leggende questa è senz'altro una delle caratteristiche tipiche di
+ogni combattente che si rispetti.
+~
+End
+
+#HELP
+KeywordItalian dodge tumble~
+KeywordEnglish dodge tumble~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Controllare il proprio corpo ed obbligarlo a scattare, schivare, evitare i colpi
+dell'avversario. Ad un combattente sono richieste delle doti di agilità e dei
+riflessi decisamente non indifferenti, in particolare per evitare i colpi è
+davvero necessario avere nervi saldi e una coordinazione eccelsi.
+Per i più destri e rapidi (nemmeno a dirlo, i ladri), il °Ttumble è una tecnica
+evasiva che sfrutta acrobazie e rotazioni di tutto il corpo per evadere i
+colpi.. Evidentemente se non ne siete capaci non è consigliabile nemmeno
+provarci.
+~
+End
+
+#HELP
+KeywordItalian dominate~
+KeywordEnglish dominate~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdominate <&gvittima&w>
+
+La natura mistica del vampiro permette a questa creatura di esercitare una
+particolare forma di dominio su qualsiasi tipo di vittima.
+Molto simile come effetto all'incantesimo °Tcharme non è tuttavia un
+incantesimo poiché non richiede componenti magiche o formule, è solo la volontà
+del vampiro e il suo flusso vitale a deviare il libero arbitrio della sua preda,
+rendendola inerme ai desideri del non-morto.
+~
+End
+
+#HELP
+KeywordItalian doorbash~
+KeywordEnglish doorbash~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdoorbash <&gdirezione&w>
+
+Ci sono diversi modi per aprire una porta chiusa, non avendo tempo e modo di
+adottare strani grimaldelli o incantesimi di vario genere i combattenti
+preferiscono di gran lunga abbattere una porta con una potente spallata.
+Spesso ce ne vogliono due o tre, ma in ogni caso il più forte alla fine rimane
+sempre in piedi, la porta cade giù.
+~
+End
+
+#HELP
+KeywordItalian 'dual wield'~
+KeywordEnglish 'dual wield'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Coordinare gli attacchi con l'utilizzo di due armi per volta non è impresa da
+tutti. Oltre alla grande concentrazione e destrezza richieste c'è anche un
+discorso a parte che interessa la tipologia d'arma che si intende usare, un'arma
+troppo pesante infatti non potrà mai essere mossa dalla mano più debole, al
+contrario chi ha una forza VERAMENTE grande potrà utilizzare nel migliore dei
+modi qualsiasi tipo di arma.
+~
+End
+
+#HELP
+KeywordItalian elbow~
+KeywordEnglish elbow~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Telbow
+
+Che sia ascendente, discendente, circolare, chiusa o aperta, una gomitata è
+sempre un tipo di attacco che se subito non fa mai piacere. Non è tra gli
+attacchi più semplici in quanto richiede una vicinanza ed un'esposizione al
+nemico non indifferente, tuttavia secondo molti la soddisfazione finale appaga
+abbondantemente il rischio corso.
+~
+End
+
+#HELP
+KeywordItalian 'enhanced damage'~
+KeywordEnglish 'enhanced damage'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+La devozione alla lotta paga, così con l'esperienza si apprende ad addurre un
+maggior danno con lo stesso tipo di colpo.
+~
+End
+
+#HELP
+KeywordItalian feed~
+KeywordEnglish feed~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tfeed
+
+E' un attacco apparentemente simile al °Tbite vampirico, in questo caso però la
+forza del vampiro non è così devastante come in quel morso poiché l'obiettivo
+del non-morto è quello di succhiare il sangue della vittima per nutrirsi, non
+primariamente di addurre dolore.
+Ovvio che anche se il dolore non è così grande non è assolutamente un tipo di
+attacco da considerarsi benefico..
+~
+End
+
+#HELP
+KeywordItalian grasp 'grasp suspiria'~
+KeywordEnglish grasp 'grasp suspiria'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tgrasp
+
+Sfruttando la forza del suo flusso vitale il vampiro può proiettare la nera
+ombra della sua mano destra sulla gola della vittima catturando il malcapitato
+in una dolorosissima morsa che oltre a causare un dolore terribile risucchia
+l'energia vitale per aggiungerla a quella del vampiro.
+E' una delle abilità più letali del vampiro e non trova eguali come potenza di
+risucchio vitale in nessun altra tecnica o incantesimo.
+~
+End
+
+#HELP
+KeywordItalian gouge~
+KeywordEnglish gouge~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tgouge
+
+This attack can only be used in combat, and will strike at the eyes of
+your opponent, causing damage and temporary blindness.
+
+Note that gouge has a reduced chance of hitting if the gouger is not
+one of the primary combatants (i.e. is not tanking).
+~
+ToSee          blind blinded~
+End
+
+#HELP
+KeywordItalian grip~
+KeywordEnglish grip~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Essendo la perdita dell'arma fonte di grave onta per i guerrieri, molte scuole
+hanno nei loro programmi di allenamento una serie di esercizi atti a rafforzare
+la presa dell'arma nel momento critico del disarm e in tutte le altre situazioni
+di pericolo. In questo modo il rischio di perdere la propria fidata spada è
+molto ridotto.
+~
+End
+
+
+#HELP
+KeywordItalian headbutt~
+KeywordEnglish headbutt~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Theadbutt
+
+Una delle strategie più efficaci quando si è VERAMENTE a stretto contatto con
+l'avversario è sicuramente una solida testata sul volto del nemico.
+Brutale e violento tipo di attacco, ma sicuramente efficace.
+~
+End
+
+#HELP
+KeywordItalian hide sneak visibile~
+KeywordEnglish hide sneak visible~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Thide
+&YSintassi&w:  °Tsneak
+&YSintassi&w:  °Tvisible
+
+°Fhide, un arte molto antica anche se in molti luoghi dimenticata.
+Quest'arte è da sempre parte della cultura di ogni figlio delle ombre che si
+rispetti, non sempre si può essere perfettamente sicuri di essersi mimetizzati
+nel modo migliore, ma senza il rischio la vittoria non ha colore.
+
+Lo °Tsneak è l'abilità di muoversi da un luogo all'altro senza far rumore,
+anche questo richiede dei sensi sviluppatissimi ed una coordinazione
+millimetrica.
+
+°Fvisible, è la tecnica per tornare visibili annullando gli effetti di °Thide o
+°Tsneak o altro che ti renda temporaneamente celato alla vista degli altri.
+~
+End
+
+#HELP
+KeywordItalian jab~
+KeywordEnglish jab~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tjab
+
+Il °Tjab è un tipo di pugno piuttosto debole, serve principalmente per distarre
+l'avversario o aprire le sue difese facendosi parare il colpo, sempre che ne sia
+capace..
+~
+End
+
+#HELP
+KeywordItalian kick~
+KeywordEnglish kick~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tkick
+
+Tecnica da corpo a corpo non particolarmente efficace ma che sicuramente dà in
+ogni combattimento un sapore diverso. L'effettività del calcio dipende dalla
+forza e dall'agilità di chi lo sferra, talvolta anche la calzatura ha la sua
+importanza..
+~
+End
+
+#HELP
+KeywordItalian knee~
+KeywordEnglish knee~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tknee
+
+Altra tecnica da usare a stretto contatto con l'avversario, una ginocchiata ben
+indirizzata ha sicuramente una forza d'impatto non indifferente, tuttavia
+bisogna sempre stare attenti alla perdita d'equilibrio che seguirebbe il mancato
+aggancio dell'avversario.
+~
+End
+
+#HELP
+KeywordItalian leap~
+KeywordEnglish leap~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tleap
+
+Il °Tleap è un tipo di calcio molto sfruttato nelle vecchie scuole che danno la
+precedenza all'agilità rispetto alla potenza. Le caratteristiche sono la buona
+velocità e l'imprevedibilità date dal salto che precede il calcio.
+~
+End
+
+#HELP
+KeywordItalian lunge~
+KeywordEnglish lunge~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tlunge
+
+E' una tecnica particolare di soffermarsi sul colpo appena inflitto prolungando
+l'estensione dell'arto che lo ha sferrato.
+E' molto indicata negli scontri ravvicinati.
+~
+End
+
+#HELP
+KeywordItalian meditate meditation trance~
+KeywordEnglish meditate meditation trance~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tmeditate
+&YSintassi&w:  °Ttrance
+
+Si tratta di un'avanzata tecnica di concentrazione passiva che riesce a far
+confluire nel corpo di colui che impara a padroneggiarla il Mana di cui ha
+bisogno. All'inizio risulterà più difficile trovare la condizione mentale ideale
+per rigenerare il flusso ma a tecnica acquisita diventa automatico.
+Il °Ttrance è un metodo di meditazione avanzata ancora più efficace, usata per lo
+più dalle elite del mondo della magia.
+~
+End
+
+#HELP
+KeywordItalian monta smonta~
+KeywordEnglish mount dismount~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tmount <&gmob&w>
+&YSintassi&w:  °Tdismount
+
+Abilità per montare o smontare da una cavalcatura, sia essa un cavallo o un
+drago.. ovviamente bisogna prima imparare a farlo.
+~
+End
+
+#HELP
+KeywordItalian 'occulutus visum'~
+KeywordEnglish 'occulutus visum'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tocculutus visum
+&YAbbrev. &w:  °Toccu
+
+A causa della loro particolare affinità con i piani di esistenza materiali e
+non, i vampiri hanno una percezione diversa del mondo e delle varie
+manifestazioni dell'essere. Con quest'abilità essi sono in grado di accorgersi
+della presenza di avventurieri o mostri nascosti nelle ombre o invisibili.
+~
+End
+
+#HELP
+KeywordItalian parry~
+KeywordEnglish parry~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+E' un'abilità che permette di parare un colpo sfruttando la propria arma come
+scudo o per deflettere l'attacco.
+E' uno dei primi insegnamenti nelle scuole di guerra, e uno di quelli
+fondamentali legati all'uso delle armi.
+~
+End
+
+#HELP
+KeywordItalian peek~
+KeywordEnglish peek~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+La vista acuta e un particolare allenamento permettono al ladro guardando
+un avventuriero di sbirciare anche nel suo inventario.
+L'abilità è automatica, tuttavia è necessario esercitarsi molto.
+~
+End
+
+#HELP
+KeywordItalian perizia~
+KeywordEnglish appraise~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tappraise <&goggetto&w>
+           °Tappraise &gtutto&w
+
+Quando ti recherai presso un fabbro, dove puoi far riparare gli oggetti,
+usando il comando °Tappraise potrai avere una valutazione delle condizioni
+dell'oggetto e potrai sapere se necessita di essere riparato e in quel caso
+quanto ti verrebbe a costare il lavoro.
+~
+End
+
+#HELP
+KeywordItalian 'poison weapon'~
+KeywordEnglish 'poison weapon'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  'poison weapon' <&garma&w>
+&YAbbrev. &w:  °Tpoison <&garma&w>
+
+Non è così semplice avvelenare un'arma, ci vuole molta perizia e una discreta
+conoscenza dei vari veleni per scegliere il migliore, non è affatto sufficiente
+spargere la sostanza sul filo della lama, il veleno ha infatti bisogno di una
+certa preparazione altrimenti viene reso inoffensivo dal cattivo utilizzo
+dell'arma.
+Per questo motivo conta molto una buona intelligenza e saggezza perchè
+l'operazione di avvelenamento giunga a buon fine.
+~
+End
+
+#HELP
+KeywordItalian fire missile projectiles~
+KeywordEnglish fire missile projectiles~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tfire <&gdirezione&w> <&gbersaglio&w>
+
+A volte una semplice provocazione, a volte un colpo letale che giunge
+all'improvviso. I proiettili come freccie, dardi, lance etc permettono a chi li
+sa usare di colpire un bersaglio anche se questi è distante.
+~
+End
+
+#HELP
+KeywordItalian 'pick lock'~
+KeywordEnglish 'pick lock'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Ormai famosissima abilità tipica di qualsiasi ladruncolo poi divenuta vera
+e propria arte, talvolta persino tramandata di generazione in generazione.
+Sbloccare porte o lucchetti non è così semplice come si racconta...
+~
+End
+
+#HELP
+KeywordItalian pugilism 'long blades' 'short blades' 'flexible arms' 'talonous arms' bludgeons weapons~
+KeywordEnglish pugilism 'long blades' 'short blades' 'flexible arms' 'talonous arms' bludgeons weapons~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Tutte queste abilità identificano la tua perizia con differenti tipi di armi.
+Ogni classe ha una sua specifica arma preferita, per un mago ad esempio è molto
+facile che questa appartenga al ramo delle "short blades", per un chierico
+invece la scelta migliore sarà "bludgeons".
+Ovviamente una volta praticate il richiamo di queste abilità è totalmente
+automatico.
+~
+End
+
+#HELP
+KeywordItalian pummel~
+KeywordEnglish pummel~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpummel
+
+Un pugno diretto nello stomaco premendo verso il diaframma, l'obiettivo è di
+bloccare il respiro per qualche istante oltre a quello di causare davvero un
+gran dolore..
+~
+End
+
+#HELP
+KeywordItalian punch~
+KeywordEnglish punch~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpunch
+Un semplice pugno di media potenza rivolto al viso.
+~
+End
+
+#HELP
+KeywordItalian punt~
+KeywordEnglish punt~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tpunt
+
+Un calcio frontale senza troppe pretese, la gamba dev'essere interamente distesa
+e il resto del corpo deve bilanciare senza offrire un facile bersaglio al
+nemico.
+~
+End
+
+#HELP
+KeywordItalian roundhouse~
+KeywordEnglish roundhouse~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Troundhouse
+
+Un calcio circolare che seppur più lento del semplice calcio frontale offre
+imprevedibilità e maggior potenza d'impatto, per la sua precisa esecuzione è
+richiesta una buona postura e la chiusura del baricentro del corpo in maniera da
+tornare in posizione di guardia senza troppi problemi dovuti all'equilibrio.
+~
+End
+
+#HELP
+KeywordItalian scan~
+KeywordEnglish scan~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTscan <&gdirezione&w>
+
+Questa abilità ti consente di scrutare in una o più stanze adiacenti nella
+direzione specificata. Fino a quante stanze puoi spingere il tuo sguardo
+dipende dalla pecentuale di apprendimento dell'abilità e dal tipo di area in 
+cui ti trovi.
+~
+End
+
+#HELP
+KeywordItalian 'second attack' 'third attack' 'fourth attack' 'fifth attack'~
+KeywordEnglish 'second attack' 'third attack' 'fourth attack' 'fifth attack'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Allenarsi a colpire e perseverare con costanza serve anche a imparare il modo di
+massimizzare il tempo tra un attacco e l'altro in maniera tale da portare a
+termine più colpi durante lo stesso attacco.
+E' ovviamente una caratteristica comunemente associata a chi ha dedicato 
+l'intera esistenza al combattimento, in particolare gli attacchi di livello
+più avanzato, fino a cinque colpi per attacco.
+~
+End
+
+#HELP
+KeywordItalian shadowform~
+KeywordEnglish shadowform~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+Lo shadowform è uno speciale velo mistico fatto di ombre del rispettivo piano
+d'esistenza, il suo scopo è quello di rendere l'utente magico che ne fa uso
+immune agli attacchi comuni, solo incantesimi ed armi magiche potranno infatti
+avere effetto su di lui.
+~
+End
+
+#HELP
+KeywordItalian shriek~
+KeywordEnglish shriek~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTshriek
+
+E' un terribile lamento che viene richiamato dal piano della non esistenza, da
+molti viene anche chiamato "lamento del banshee", ha il potere di inaridire gli
+animi di chi lo ascoltano.
+~
+End
+
+#HELP
+KeywordItalian spinkick~
+KeywordEnglish spinkick~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTspinkick <&gvittima&w>
+
+Uno dei calci più spettacolari, la tecnica consiste nel compiere un balzo
+tenendo indietro la gamba che dovrà colpire, effettuare una rotazione tenendo
+l'altra aperta ad angolo retto rispetto al corpo e al culmine della rotazione
+liberare tutta la potenza per colpire l'incauta vittima al volo!
+~
+End
+
+#HELP
+KeywordItalian spurn~
+KeywordEnglish spurn~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTspurn
+
+E' una tecnica che consiste nel respingere l'avversario colpendolo con forza
+in pieno petto, c'è una minima probabilità di causarne anche la caduta.
+~
+End
+
+#HELP
+KeywordItalian steal~
+KeywordEnglish steal~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTsteal &Ycoins&w <&gavventuriero&w>
+&YSintassi&w:  ºTsteal <&goggetto&w> <&gavventuriero&w>
+
+ºFsteal è l'abilità principe dei ladri, utilizzata ovviamente per appropriarsi
+indebitamente di monete o oggetti che si riescono a scrutare negli inventari di
+chiunque.
+~
+End
+
+#HELP
+KeywordItalian stile aggressive defensive standard evasive berserk~
+KeywordEnglish style aggressive defensive standard evasive berserk~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tstyle aggressive
+           °Tstyle defensive
+           °Tstyle standard
+           °Tstyle evasive
+           °Tstyle berserk
+
+Adottare uno stile di combattimento significa cambiare il proprio modo di porsi
+di fronte all'avversario, dopo un'attenta valutazione delle forze, proprie ed
+opponenti.
+
+Lo stile °Taggressive è tipico dei guerrieri con buona forza e resistenza,
+difficilmente decidono di adottare stili diversi se non con avversari che
+reputino pericolosi o talmente scarsi da non meritare nemmeno di sfiorare
+l'armatura. Lo stile in questione permette infatti di combattere riversando la
+maggior parte delle energie e dell'attenzione nella fase offensiva.
+
+Lo stile °Tdefensive è invece adatto quando non si conoscono realmente le doti
+dell'avversario, perciò è necessario combattere con più cautela, stando attenti
+ad eventuali colpi devastanti, cercando insomma di minimizzare i danni ma
+rimanendo comunque sempre pronti al contrattacco.
+
+Lo stile °Tstandard è una via di mezzo tra i due precedenti, non dà particolare
+importanza nè all'attacco nè alla difesa, teoricamente è anche questo però
+nella categoria degli stili "d'apprendimento" sulle tecniche degli avversari.
+
+Lo stile °Tevasive è semplicemente l'estremizzazione dello stile ºTdefensive, in
+questa circostanza infatti si cercherà di evitare qualsiasi contatto diretto
+con l'avversario, assumerà un ruolo fondamentale la difesa, gli attacchi
+saranno più sporadici e meno decisi proprio a causa di questa necessità.
+
+Lo stile °Tberserk è invece votato all'attacco. Colpire, colpire e colpire duro.
+Questo è il suo motto. Le difese sono quasi totalmente sguarnite, ma i colpi
+inferti diventano micidiali.
+~
+End
+
+#HELP
+KeywordItalian strike~
+KeywordEnglish strike~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTstrike
+
+E' un colpo che richiede molta abilità, si pratica a mano aperta colpendo con
+ogni forza l'addome dell'avversario, il dolore inflitto è violento e duraturo.
+~
+End
+
+#HELP
+KeywordItalian stun~
+KeywordEnglish stun~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTstun <&gmob&w>
+
+Si può tentare di stordire con dei colpi diretti alla nuca oppure in pieno viso
+causando la fuoriuscita di sangue o ancora colpendo con violenza sulle tempie.
+Ogni scuola di combattimento che si rispetti ha una propria distintiva tecnica
+di stordimento, ma è altrettanto vero che queste sono tenute celate dai maestri
+stessi.
+~
+End
+
+#HELP
+KeywordItalian swat~
+KeywordEnglish swat~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTswat
+Lo ºTswat è un colpo veloce e fulmineo diretto al viso dell'avversario, si cerca
+di prendere l'avversario di sorpresa aggirandone in tal modo le difese.
+~
+End
+
+#HELP
+KeywordItalian swipe~
+KeywordEnglish swipe~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTswipe
+
+Lo ºTswipe è un pugno che utilizza la parte bassa della mano per colpire, il suo
+obiettivo in effetti non è tanto quello di stordire o causare dolore ma di far
+breccia nelle difese dell'avversario usando la forza trainante di tutto il
+braccio.
+~
+End
+
+#HELP
+KeywordItalian tail~
+KeywordEnglish tail~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTtail
+
+Chi è dotato di coda, se robusta ed allenata, può imparare ad usarla come
+un'arma per far cadere l'avversario con un abile strattone sulla caviglia, è
+tuttavia abbastanza difficile che vi si riesca a meno di non essere veramente
+forti e imponenti (o di avere avversari fragilini).
+~
+End
+
+#HELP
+KeywordItalian tend~
+KeywordEnglish tend~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  ºTtend <&gbersaglio&w>
+&YSintassi&w:  ºTtend
+
+Imponendo la mano, grazie alla sua leggendaria fede e forza d'animo, tramite un
+semplice gesto il paladino è in grado di rimarginare le ferite procurate durante
+un combattimento.
+Per utilizzare questa abilità però deve concentrarsi e non deve essere impegnato
+in un combattimento.
+~
+End
+
+#HELP
+KeywordItalian track~
+KeywordEnglish track~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: ºTtrack <&gvittima&w>
+
+E' un'antica tecnica che sfrutta le più piccole tracce lasciate da una preda per
+rintracciarla in qualsiasi luogo dell'ambientazione circostante si sia
+rifugiata.
+~
+End
+
+#HELP
+KeywordItalian trascrivi prepara~
+KeywordEnglish scribe brew~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tbrew <&gnome incantesimo&w>
+&YSintassi&w:  °Tscribe <&gnome incantesimo&w>
+
+Un mago o un sacerdote, che abbiano raggiunto una grande padronanza delle loro
+arti dopo lunghi anni di studio, potranno scrivere delle pergamene incantate o
+preparare delle pozioni usando le relative abilità.
+
+Queste capacità hanno però il piccolo inconveniente di consumare grandi
+quantità di energie magiche.
+
+Per preparare pozioni è necessario un fuoco.
+~
+End
+
+#HELP
+KeywordItalian uppercut~
+KeywordEnglish uppercut~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tuppercut
+
+L'°Tuppercut è un montante devastante che richiede tempismo e forza più di ogni
+altro pugno che possa essere inferto, l'effetto è micidiale su chiunque.
+~
+End
+
+#HELP
+KeywordItalian 'vomica parvus'~
+KeywordEnglish 'vomica parvus'~
+Type           HELPTYPE_SKILL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tvomica <&gvittima&w>
+&YAbbrev. &w:  °Tvom    <&gvittima&w>
+
+E' un particolare tipo di malattia che il vampiro riesce ad iniettare nella
+vittima con un semplice tocco.
+Come risultato la forza e la concentrazione sul combattimento dell'avversario
+diminuiscono drasticamente, il tutto in proporzione con il potere del Vampiro.
+~
+End
+
+
+#END

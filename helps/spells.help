@@ -1,0 +1,2221 @@
+#HELP
+KeywordItalian 'acetum primus'~
+KeywordEnglish 'acetum primus'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gacetum primus&w' <&gvittima&w>
+
+'&gAcetum Primus&w', è uno dei più potenti incantesimi a base di acido che vengono
+insegnati nelle scuole di magia.
+Per la sua riuscita è necessario richiamare una consistente quantità d'acido che
+al comando dell'incantatore inizierà a vorticare paurosamente formando un vero e
+proprio tornado che andrà a schiantarsi contro il nemico.
+~
+End
+
+#HELP
+KeywordItalian 'acid blast' 'burning hands' 'colour spray' fireball 'lightning bolt' 'shocking grasp'~
+KeywordEnglish 'acid blast' 'burning hands' 'colour spray' fireball 'lightning bolt' 'shocking grasp'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+Ecco una breve lista di alcuni incantesimi d'attacco che sfruttano varie fonti
+ed elementi per la loro realizzazione:
+
+&YSintassi&w:  °Tcast &gfireball&w         <&gvittima&w>
+&YSintassi&w:  °Tcast '&gacid blast&w'     <&gvittima&w>
+&YSintassi&w:  °Tcast '&gcolour spray&w'   <&gvittima&w>
+&YSintassi&w:  °Tcast '&gshocking grasp&w' <&gvittima&w>
+&YSintassi&w:  °Tcast '&gburning hands&w'  <&gvittima&w>
+&YSintassi&w:  °Tcast '&gmagic missile&w'  <&gvittima&w>
+
+Il prontuario qui presente li elenca in ordine di potenza ed efficacia, è
+tuttavia noto che più grande è il potere di colui che lancia l'incantesimo,
+maggiore sarà il danno che questo arrecherà al suo avversario, sebbene talvolta
+le differenze possano essere minime.
+~
+End
+
+#HELP
+KeywordItalian 'acid breath' 'fire breath' 'frost breath' 'gas breath' 'lightning breath'~
+KeywordEnglish 'acid breath' 'fire breath' 'frost breath' 'gas breath' 'lightning breath'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gacid breath&w'      <&gvittima&w>
+&YSintassi&w:  °Tcast '&gfire breath&w'      <&gvittima&w>
+&YSintassi&w:  °Tcast '&gfrost breath&w'     <&gvittima&w>
+&YSintassi&w:  °Tcast '&ggas breath&w'
+&YSintassi&w:  °Tcast '&glightning breath&w' <&gvittima&w>
+
+Un generoso e fortunato avventuriero ci ha reso un grande servigio elencando
+in questa breve nota i tipi di soffio che i draghi sono in grado di utilizzare
+durante i loro combattimenti, fortunato appunto perchè è sopravvissuto per
+raccontarcelo.
+
+La potenza di questi soffi è devastante e non va sottovalutato il fatto che
+interessino l'intera stanza e quindi tutti i presenti, arrivando anche a
+distruggere alcuni dei loro oggetti.
+
+Si narra che anche alcune scuole di magie insegnino il segreto di questi soffi e
+siano riuscite a carpirne l'essenza trasformandoli in incantesimi...
+~
+End
+
+#HELP
+KeywordItalian alertness~
+KeywordEnglish alertness~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &galertness&w <&gbersaglio&w>
+
+Si racconta che i guardiani del fuoco sacro di Veldor venissero sottoposti a
+questo potente incantesimo, in grado di renderli immuni al sonno e a tutti gli
+incantesimi da questo derivati.
+Successivamente l'incantesimo si è divulgato divenendo così bagaglio di molti
+altri maghi...
+~
+End
+
+#HELP
+KeywordItalian 'animate dead'~
+KeywordEnglish 'animate dead'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&ganimate dead&w' <&gvittima&w>
+
+Quando l'essenza vitale lascia un determinato corpo, questo può riprendere a
+muoversi grazie all'influsso magico di coloro che riescono a indirizzare in
+questi cadaveri sufficiente energia perchè rispondano ai loro comandi,
+nonostante ciò però la loro sopravvivenza sul piano materiale non sarà mai molto
+prolungata.
+~
+End
+
+#HELP
+KeywordItalian 'antimagic shell' ANTIMAGIC SHELL~
+KeywordEnglish 'antimagic shell'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gantimagic shell&w' <&gbersaglio&w>
+
+Questo incantesimo crea uno scudo che rende più resistenti a molti incantesimi
+siano essi positivi o negativi.
+~
+End
+
+#HELP
+KeywordItalian aqua 'aqua breath'~
+KeywordEnglish aqua 'aqua breath'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gaqua breath&w' <&gbersaglio&w>
+
+Gli Elfi amano poche cose come l'acqua, e per riuscire a rimanere immersi in
+essa senza il bisogno di riemergere di continuo per riprendere fiato decisero
+di mettere a punto questo incantesimo, capace di permettergli una respirazione
+subacquea simile a quella dei pesci.
+~
+End
+
+#HELP
+KeywordItalian armor~
+KeywordEnglish armor~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Tcast &garmor&w <&gbersaglio&w>
+
+E' uno dei più basilari incantesimi di protezione, rendendo colui che ne subisce
+gli effetti più difficile da colpire.
+~
+End
+
+#HELP
+KeywordItalian 'astral walk' farsight portal 'helical flow'~
+KeywordEnglish 'astral walk' farsight portal 'helical flow'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gastral walk&w'  <&gvittima&w>
+&YSintassi&w:  °Tcast &gfarsight&w       <&gvittima&w>
+&YSintassi&w:  °Tcast &gportal&w         <&gvittima&w>
+&YSintassi&w:  °Tcast '&ghelical flow&w' <&gvittima&w>
+
+Questi potenti incantesimi sfruttano i più nascosti principi della migrazione
+dinamica degli atomi all'interno del flusso spazio/temporale, permettono cioè
+di creare distorsioni effettive nelle dimensioni reali, tali da produrre effetti
+che vanno dalla possibilità di riuscire a vedere perfettamente cosa succede
+nella locazioni adiacenti, fino a quella di compiere viaggi istantanei
+semplicemente concentrandosi su di un bersaglio che sia presente nel luogo
+desiderato.
+
+Sotto certe condizioni è ovvio che l'incantesimo possa fallire, molto dipende
+dalle protezioni del bersaglio che si trova nel luogo da raggiungere, dal luogo
+stesso che si desidera visitare o dall'intera area e così via.
+~
+End
+
+#HELP
+KeywordItalian benediction 'benefic aura' bless 'minor invocation'~
+KeywordEnglish benediction 'benefic aura' bless 'minor invocation'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gbenediction&w <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gbenefic aura&w' <&gbersaglio&w>
+&YSintassi&w:  °Tcast &gbless&w <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gminor invocation&w' <&gbersaglio&w>
+
+Preghiere e sortilegi d'ogni tipo sono stati ricercati e sfruttati in ogni era e
+tempo per addurre fortuna e protezione a sè stessi o ai propri cari.
+A volte invocate come semplici auguri di buona fortuna, altre volte potenziate
+dall'utilizzo di catalizzatori magici e rune, le vere benedizioni sono però
+appannaggio di sacerdoti e fedeli che utilizzano il loro credo per invocare
+l'aiuto delle proprie Divinità, su loro stessi e sulle persone a loro vicine, a
+seconda del tipo di benedizione richiamata.
+~
+End
+
+#HELP
+KeywordItalian 'bethsaidean touch'~
+KeywordEnglish 'bethsaidean touch'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gbethsaidean touch&w' <&gobiettivo&w>
+
+L'immenso potere racchiuso nel Sacro Simbolo del Paladino permette di restituire
+la vista a chiunque sia affetto da cecità.
+~
+End
+
+#HELP
+KeywordItalian backfire~
+KeywordEnglish backfire~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+Ogni utente di magia dovrebbe tenere bene a mente che l'utilizzo di oggetti
+magici troppo potenti per le proprie abilità può talvolta causare degli  effetti
+collaterali inaspettati che andranno a danneggiare l'incauto stregone.
+~
+End
+
+#HELP
+KeywordItalian 'black fist'~
+KeywordEnglish 'black fist'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gblack fist&w' <&gvittima&w>
+
+E' un incantesimo che sfrutta l'intreccio di alcune rune di negazione per
+richiamare dall'etere migliaia di particelle di materia oscura le quali vanno a
+formare una sorta di pugno chiuso, il risultato della sovrapposizione delle rune
+coinvolte nel sortilegio, che si abbatterà con violenza sull'avversario
+dell'incantatore.
+~
+End
+
+#HELP
+KeywordItalian 'black hand'~
+KeywordEnglish 'black hand'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gblack hand&w' <&gvittima&w>
+
+E' un incantesimo molto simile al Black Fist, sia nell'esecuzione, sia per le
+rune utilizzate, sia per il risultato finale.
+Il fatto però che la runa che pone il sigillo all'incantesimo sia di forma
+oblunga anzichè semisferica fà si che a materializzarsi sia una sorta di enorme
+mano nera che va a schiacciare con violenza l'avversario.
+~
+End
+
+#HELP
+KeywordItalian 'black lightning'~
+KeywordEnglish 'black lightning'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gblack lightning&w' <&gvittima&w>
+
+Diverse scuole di Magia hanno dato la loro teoria per comprendere la nascita e
+l'evoluzione di quest'incantesimo, spesso considerato una ramificazione dei più
+diffusi "normali" incantesimi elementali dell'aria.
+In realtà è ormai quasi certo che gli elementi da cui prende energia sono ben
+diversi da quelli dell'aria e tanti indizi lasciano pensare che sia ben più
+simile come origine agli incantesimi di Black Hand e Black Fist, teoria anche
+confermata dalla prima parte di invocazione dell'incantesimo che porta con
+questi delle bizzarre analogie.
+Il risultato è comunque il richiamo di una terribile scarica di energia sull'
+opponente principale dell'utente magico, supportata da tante altre più brevi
+scariche sugli avversari circostanti, finchè l'energia richiamata non si
+esaurisce al suolo.
+~
+End
+
+#HELP
+KeywordItalian blazebane~
+KeywordEnglish blazebane~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gblazebane&w <&gmob&w>
+&YSintassi&w:  °Tcast &gblazebane&w <&ggiocatore&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questa variante in particolare è efficace con gli attacchi a base di fuoco e
+calore.
+~
+End
+
+#HELP
+KeywordItalian blazeward~
+KeywordEnglish blazeward~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gblazeward&w <&gbersaglio&w>
+
+E' un incantesimo che sfrutta una runa di negazione unita alla sfera del fuoco
+per creare attorno all'utente magico una barriera magica protettiva che lo
+protegge dal calore e dalle fiamme.
+~
+End
+
+#HELP
+KeywordItalian blind blindness~
+KeywordEnglish blind blindness~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gblindness&w <&gvittima&w>
+
+Nato come una semplice illusione questo incantesimo si è più tardi trasformato
+in un diffuso e pericoloso incantesimo offensivo, proietta infatti all'interno
+delle pupille della vittima una fitta nube nera che solo il tempo o un cura
+appropriata possono dissolvere.. nel frattempo ogni cosa sarà celata al suo
+sguardo.
+~
+End
+
+#HELP
+KeywordItalian 'call lightning'~
+KeywordEnglish 'call lightning'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcall lightning&w'
+
+Molti utenti magici hanno intrapreso questa strada proprio affascinati dal
+potere di sottomettere gli elementi al proprio volere, in particolare gli
+incantesimi celesti e dell'aria hanno sempre avuto un fascino indiscutibile
+suggestionando molti allievi e maestri con i loro giochi di luce e gravità.
+
+Questo incantesimo permette all'utente magico di richiamare dal cielo una
+potente scarica di fulmini sull'incauta vittima, ovviamente è necessario che i
+contendenti si trovino all'esterno.
+
+Nell'utilizzo di questo incantamento bisogna altresì fare attenzione alle
+conseguenze "impreviste", la scarica infatti spesso e volentieri non si limiterà
+a colpire solo il bersaglio diretto dell'incantesimo ma chiunque sia nelle
+immediate vicinanze!
+D'altronde l'imprevedibilità è forse la componente più importante del fascino
+degli incantesimi di magia Celeste.
+~
+End
+
+#HELP
+KeywordItalian pronuncia~
+KeywordEnglish cast~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast <&gincantesimo&w> <&gbersaglio&w>
+
+Padroneggiare un incantesimo richiede molta pratica e perseveranza.
+Alla base di ogni buon risultato nell'universo del dominio degli elementi
+c'è sempre una straordinaria costanza nell'apprendere e nel praticare unita
+all'umiltà e rispetto per tutto ciò che è intorno.
+L'impegno viene sempre ripagato e con il tempo incantesimi prima impossibili o
+tremendamente faticosi divengono semplici come un respiro grazie al
+padroneggiamento del Mana, la vera energia vitale di ogni utente magico.
+~
+End
+
+#HELP
+KeywordItalian 'cause light' 'cause serious' 'cause critical' harm~
+KeywordEnglish 'cause light' 'cause serious' 'cause critical' harm~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcause light&w'    <&gvittima&w>
+&YSintassi&w:  °Tcast '&gcause serious&w'  <&gvittima&w>
+&YSintassi&w:  °Tcast '&gcause critical&w' <&gvittima&w>
+&YSintassi&w:  °Tcast &gharm&w             <&gvittima&w>
+
+Con la diffusione e la ramificazione dei vari incantesimi di cura presso le più
+famose scuole clericali fu' quasi per gioco che alcuni di questi studenti
+provarono a invertirne il risultato finale tramite la semplice opposizione di
+una runa di negazione, l'incantesimo funzionò alla perfezione e così, anche se a
+malavoglia, venne introdotto negli schedari clericali tra gli incantesimi
+offensivi.
+~
+End
+
+#HELP
+KeywordItalian 'caustic fount'~
+KeywordEnglish 'caustic fount'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcaustic fount&w' <&gvittima&w>
+
+Uno dei primi incantesimi che vengono appresi dagli utenti magici nella
+difficile strada del dominio degli elementi riguarda proprio l'acido.
+Questo incantesimo nonostante la relativa semplicità di preparazione non è da
+sottovalutare invece per quanto concerne la potenza d'impatto sulla vittima.
+Con un movimento rotatorio delle braccia levate al cielo, tenendo in mano le
+giuste rune, nella sequenza stabilita dal sommo De Vyldren nel suo "Trattato
+sugli Acidi", viene evocata una una nube nera che diventando sempre più densa
+punterà la sua vittima prima di riversarsi sotto forma di bruciante acido su di
+essa.
+~
+End
+
+#HELP
+KeywordItalian 'change sex'~
+KeywordEnglish 'change sex'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gchange sex&w' <&gvittima&w>
+
+Ecco un altro di quegli incantesimi "nati per gioco" da uno dei tanti spiriti
+intraprendenti nelle alte scuole di magia... Si dice che il suo maestro non
+avesse gradito molto lo scherzo, ma questa è un'altra storia.
+~
+End
+
+#HELP
+KeywordItalian 'charged beacon'~
+KeywordEnglish 'charged beacon'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcharged beacon&w' <&gvittima&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questo incantesimo in particolare rende la vittima suscettibile agli attacchi
+basati sull'elettricità.
+~
+End
+
+#HELP
+KeywordItalian charm 'charm person'~
+KeywordEnglish charm 'charm person'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcharm person&w' <&gvittima&w>
+&YSintassi&w:  °Tcast &gcharm&w          <&gvittima&w>
+
+Il potere del dominio sugli elementi è indubbiamente uno dei più ambiti
+traguardi di qualsiasi utente magico, ma c'è anche chi non accontentandosi di
+questo cerca di comandare a proprio piacimento esseri viventi dotati di corpo e
+anima, annullandone la volontà e rendendoli loro schiavi.
+Numerosi sono stati i dibattiti sull'eticità di tale incantesimo e numerose le
+condanne sul suo abuso indiscriminato, tuttavia è praticamente impossibile
+sorvegliare ogni suo utilizzo e giudicarne poi l'opportunità o necessità..
+Anche perchè spesso e volentieri l'utilizzatore non ha nessuna intenzione di
+farlo.
+Le creature schiave di questo incantesimo sono costrette a obbedire a qualsiasi
+ordine del loro padrone, ma se vengono attaccate da questi si ribelleranno
+riottenendo il loro libero arbitrio.
+~
+End
+
+#HELP
+KeywordItalian 'chill touch'~
+KeywordEnglish 'chill touch'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gchill touch&w' <&gvittima&w>
+
+Secondo un antico adagio "Il freddo allontana casa.", e in effetti gli
+incantesimi basati sul gelo non sono tanto famosi per il dolore che possono
+arrecare quanto per il senso di disagio e le privazioni che l'eventuale vittima
+andrà a soffrire.
+Questo incantesimo in particolare, nonostante la sua limitata potenza, provoca
+un intirizzimento dei muscoli della vittima diminuendone la forza.
+~
+End
+
+#HELP
+KeywordItalian 'continual light'~
+KeywordEnglish 'continual light'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcontinual light&w'
+
+Si racconta che questo incantesimo venne studiato da De Vyldren in persona,
+abituato a leggere interminabili ore sotto la luce delle sue candele... di
+troppo breve durata, secondo lui.
+Così s'ingegnò e produsse questo semplice ma efficacissimo incantesimo, capace
+di generare dal nulla una sfera luminosa.
+~
+End
+
+#HELP
+KeywordItalian 'control weather'~
+KeywordEnglish 'control weather'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcontrol weather&w' <&gwarmer&w/&gcolder&w>
+&YSintassi&w:  °Tcast '&gcontrol weather&w' <&gwetter&w/&gdrier&w>
+&YSintassi&w:  °Tcast '&gcontrol weather&w' <&gwindier&w/&gcalmer&w>
+
+Anche questo incantesimo secondo le leggende è attribuito a Lord De Vyldren.
+In un suo viaggio con il compagno, ormai stufo di sentire le lagne del suo amico
+per la pioggia si concentrò e in pochi minuti fece andar via le nubi con una
+variante controllata dell'incantesimo "Tornado".
+L'effetto stupì molto l'amico e De Vyldren fu così compiaciuto che studiò altri
+metodi per cambiare il tempo a proprio piacimento praticamente in ogni
+occasione.
+~
+End
+
+#HELP
+KeywordItalian 'create fire'~
+KeywordEnglish 'create fire'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcreate fire&w'
+
+Si è ormai perso il nome dell'esploratore che mise insieme il necessario per la
+preparazione di questo incantesimo, così basilare ma così utile nelle lunghe
+traversate o nei luoghi bui oppure ovunque la luce scarseggi, il suo effetto
+immediato è la creazione di un fuoco semi-fatuo, infatti illumina e riscalda
+come un fuoco normale ma non ha bisogno di essere alimentato.
+~
+End
+
+#HELP
+KeywordItalian 'create food'~
+KeywordEnglish 'create food'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcreate food&w'
+
+Altro incantesimo che ha tra i suoi lati migliori la rapidità ed efficacia, in
+ambienti ostili o quando non si ha la possibilità di procurarsi altro cibo ecco
+un modo per avere sottomano un delizioso fungo magico che sazierà ogni sorta
+d'appetito.
+~
+End
+
+#HELP
+KeywordItalian 'create spring'~
+KeywordEnglish 'create spring'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcreate spring&g'
+
+Semplice ma indispensabile incantesimo utilissimo nei viaggi, permette il
+richiamo in superficie di un potente getto d'acqua che si trasforma presto in
+una sorgente.
+~
+End
+
+#HELP
+KeywordItalian 'create symbol'~
+KeywordEnglish 'create symbol'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcreate symbol&w'
+
+Alcuni tra i più potenti incantesimi clericali richiedono come componente
+materiale la presenza di un Simbolo della fede, tramite questa invocazione
+questo viene richiamato tra le mani del credente che così utilizzarlo per i suoi
+scopi.
+~
+End
+
+#HELP
+KeywordItalian 'create water'~
+KeywordEnglish 'create water'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcreate water&w' <&gcontenitore di liquidi&w>
+
+Questo semplice incantesimo rientra in quella folta schiera dei famosi
+"inventati per gioco", l'abilità di padroneggiare piccoli getti d'acqua per
+schizzare i propri compagni di studio è stata poi convertita in un più utile
+(ma forse meno divertente?) incantesimo per riempire le proprie borracce.
+~
+End
+
+#HELP
+KeywordItalian 'cure blindness'~
+KeywordEnglish 'cure blindness'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcure blindness&w' <&gbersaglio&w>
+
+Per quanto diabolico sia l'incantesimo di cecità per lunghi anni si cercò una
+cura che potesse ripristinare la vista nella vittima di tale sortilegio, il
+primo a riuscirci fu un audace stregone che riuscì a sfruttare i poteri di
+alcune erbe curative ottenendo un'essenza mirabolante.
+~
+End
+
+#HELP
+KeywordItalian 'cure light' 'cure serious' 'cure critical' heal~
+KeywordEnglish 'cure light' 'cure serious' 'cure critical' heal~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gheal&w            <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gcure critical&w' <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gcure serious&w'  <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gcure light&w'    <&gbersaglio&w>
+
+Gli incantesimi clericali sono nati come più o meno improvvisate cure e
+protezioni, quelli appartenenti a questa serie permettono ad esempio di curare
+ferite più o meno gravi.
+Ovviamente quelle più efficaci richiedono più esperienza.
+~
+End
+
+#HELP
+KeywordItalian 'cure poison'~
+KeywordEnglish 'cure poison'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gcure poison&w' <&gbersaglio&w>
+
+E' un incantesimo che sfrutta il potere curativo di una particolare erba simile
+all'ortica il cui sapore è stranamente dolce, se ne ricava un'essenza
+delicatamente profumata, in grado di curare il veleno..
+~
+End
+
+#HELP
+KeywordItalian curse~
+KeywordEnglish curse~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gcurse&w <&gbersaglio&w>
+
+Forse storicamente antecedenti anche le benedizioni, le maledizioni sono tra gli
+incantesimi più usati da sempre. Fanno letteralmente cadere in disgrazia chi ne
+è affetto facendolo diventare più impreciso, rendendogli più difficile il
+mettersi in contatto con i suoi Dei e/o altro, a seconda del tipo di maledizione
+preparata.
+~
+End
+
+#HELP
+KeywordItalian dehydrate~
+KeywordEnglish dehydrate~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdehydrate&w <&gvittima&w>
+
+Si racconta che quest'incantesimo sia stato ripetutamente usato per affrettare
+il reperimento di informazioni da parte di prigionieri mediante tortura, così
+anzichè venir lasciati in balia della fame e della sete questi conoscevano una
+veloce e dilaniante sensazione di assideramento che veniva modulata a seconda
+delle volontà del carnefice..
+~
+End
+
+#HELP
+KeywordItalian demonflame~
+KeywordEnglish demonflame~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdemonflame&w <&gvittima&w>
+
+E' indubbiamente uno degli incantesimi più temuti e potenti, contrariamente a
+quanto si crede non viene evocato nessun "fuoco infernale", viene invece
+innescato un processo di autocombustione nei tendini della vittima che viene
+dilaniata dalle fiamme che la avviluppano completamente.
+L'effetto è per l'appunto molto simile a quello di un demone uscito dalle fiamme
+dell'inferno.
+~
+End
+
+#HELP
+KeywordItalian 'demonic aura'~
+KeywordEnglish 'demonic aura'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdemonic&w <&gvittima&w>
+
+Questo misterioso incantesimo raduna in sè la forza della protezione del fuoco
+più una sorta di potere oscuro donatogli dalla runa di negazione necessaria al
+suo lancio.
+Il risultato è una terribile aura malefica che protegge colui che ne fruisce dal
+dolore.
+~
+End
+
+#HELP
+KeywordItalian demonskin~
+KeywordEnglish demonskin~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdemonskin&w <&gbersaglio&w>
+
+Nonostante sia un incantesimo che trae le sue origini dalle forze della terra
+è sempre stato catalogato, dai non praticanti, tra quelli di matrice negativa o
+comunque oscura. Il risultato del richiamo di questo incantamento è la
+formazione sull'epidermide dell'utente magico di una spessa maglia di piccole
+rocce che lo rendono più resistente agli attacchi basati sui fendenti.
+~
+End
+
+#HELP
+KeywordItalian desecrate~
+KeywordEnglish desecrate~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdesecrate&w <&gcibo&w|&gcontenitore&w>
+
+Anche questo incantesimo all'insegna della semplicità, non è altro che un'
+appendice dell'avvelenamento su esseri viventi, in questo caso però a subirlo
+sono cibi e bevande.
+~
+End
+
+#HELP
+KeywordItalian 'detect evil'~
+KeywordEnglish 'detect evil'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdetect evil&w' <&gbersaglio&w>
+
+Secondo le più remote filosofie l'anima avrebbe un colore che ne determina il
+carattere e i desideri. Infinite le speculazioni e le mistificazioni di quello
+che molto probabilmente era solo un modo di dire, però è bastato così poco per
+far venire a qualcuno l'idea di sviluppare un incantesimo capace di carpire
+questo colore, o quantomeno di distinguere il bene dal male, e ci riuscì così
+bene che questo incantesimo è oggi appannaggio di moltissimi.
+~
+End
+
+#HELP
+KeywordItalian 'detect hidden'~
+KeywordEnglish 'detect hidden'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdetect hidden&w' <&gbersaglio&w>
+
+E' misterioso il funzionamento di questo incantesimo, le prime rune che lo
+compongono sono abbastanza conosciute, ma si dice che l'ultima sia stata in
+qualche modo rubata dal leggendario piano delle ombre, ma qui si entra nella
+leggenda e preferiamo fermarci qui.
+Sta di fatto che il suo compito è proprio quello di rilevare la presenza di
+esseri nascosti nelle ombre.
+~
+End
+
+#HELP
+KeywordItalian 'detect invis'~
+KeywordEnglish 'detect invis'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdetect invis&w' <&gbersaglio&w>
+
+Molti pensano che questo incantesimo di individuazione dell'invisibile sia una
+sorta di potenziamento della vista, è invece noto ai più esperti o a coloro che
+lo hanno usato almeno una volta che si tratta di una semplice "negazione della
+negazione", infatti poiché l'incantesimo di invisibilità sfrutta il primo
+livello di negazione sull'oggetto o persona nel livello di visibilità a cui
+appartiene, la sua individuazione, mediante la doppia negazione, riporta la
+situazione alla normalità.
+~
+End
+
+#HELP
+KeywordItalian 'detect magic'~
+KeywordEnglish 'detect magic'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdetect magic&w' <&gbersaglio&w>
+
+L'individuazione del magico è un semplice incantesimo che permette di
+visualizzare tramite un'apposita aura oggetti o individui che risultino affetti
+dalle tipiche emanazioni legate all'utilizzo e accumulo di Mana.
+~
+End
+
+#HELP
+KeywordItalian 'detect poison'~
+KeywordEnglish 'detect poison'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdetect poison&w' <&goggetto&w>
+
+Una modifica alla sequenza di rune dell'incantesimo di individuazione del male
+ed ecco che si trasforma in un valido aiuto per verificare la presenza di veleno
+nei cibi.
+~
+End
+
+#HELP
+KeywordItalian 'detect traps'~
+KeywordEnglish 'detect traps'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdetect traps&w' <&gbersaglio&w>
+
+Ci troviamo di fronte all'ennesima modifica dell'incantesimo di individuazione
+del male, stavolta però alla sequenza di rune ne è stata aggiunta una di
+percezione, rendendo così l'incantesimo adatto all'individuazione di trappole
+pericolose.
+~
+End
+
+#HELP
+KeywordItalian disclosure~
+KeywordEnglish disclosure~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdisclosure&w'
+
+Un incantesimo veramente d'effetto. Innocuo ma capace di rilevare chiunque sia
+nella stanza, visibile o invisibile, nascosto o non nascosto.. Da notare che
+anche l'utente magico sarà rivelato al resto dei presenti.
+~
+End
+
+#HELP
+KeywordItalian dismiss~
+KeywordEnglish dismiss~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tdismiss <&gbersaglio&w>
+
+Restituisce ad un essere charmato (che non sia un avventuriero) il proprio
+libero arbitrio.
+~
+End
+
+#HELP
+KeywordItalian 'dispel evil'~
+KeywordEnglish 'dispel evil'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdispel evil&w' <&gvittima&w>
+
+Questo incantesimo ha la capacità di far letteralmente bruciare nel corpo della
+vittima un fuoco tanto più intenso quanto più il suo bersaglio è malvagio.
+E' importante che alla fine della sequenza per invocare l'incantesimo sia
+formulato il nome della vittima per evitare effetti collaterali.
+~
+End
+
+#HELP
+KeywordItalian 'dispel magic'~
+KeywordEnglish 'dispel magic'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdispel magic&w' <&gbersaglio&w>
+
+E' richiesta una grande energia per questo incantesimo, capace di disinibire gli
+effetti di quasi qualsiasi incantesimo di cui si avvalga la vittima.
+La quantità di incantesimi rimossa dal bersaglio dipende in massima parte
+dall'esperienza e dall'intelligenza dell'utente magico, è inoltre importante
+notare che talvolta potrebbe accadere di rimuovere non solo protezioni e
+benefici ma anche maledizioni e malattie, è comunque un incantesimo che viene
+recepito come un attacco quindi va usato con cautela.
+~
+End
+
+#HELP
+KeywordItalian disruption~
+KeywordEnglish disruption~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdisruption&w <&gvittima&w>
+
+E' un incantesimo di vecchia data ma che in un primo momento non venne sfruttato
+perchè ritenuto "errato" o "incompleto". Nato infatti come un incantesimo di
+trasporto non venne mai ultimato perchè causava dei forti dolori nella vittima
+nel momento della distorsione dello spazio.
+Nei recenti studi questo effetto venne amplificato per poter ottenere un tipo
+diverso di incantesimo, non più di trasporto ma di offesa.
+~
+End
+
+#HELP
+KeywordItalian divinity~
+KeywordEnglish divinity~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdivinity&w <&gbersaglio&w>
+
+E' una forte benedizione che infonde nell'avventuriero che ne beneficia un
+calore ristoratore che ne rimargina le ferite aiutando la coagulazione del
+sangue e arrestandone il flusso, il dolore diminuisce istantaneamente.
+~
+End
+
+#HELP
+KeywordItalian 'dragon wit' dragonwit~
+KeywordEnglish 'dragon wit' dragonwit~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gdragon wit&w' <&gbersaglio&w>
+
+Stimolando opportune aree del cervello questo incantesimo permette di ragionare
+in maniera più efficace.
+~
+End
+
+#HELP
+KeywordItalian dragonskin~
+KeywordEnglish dragonskin~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdragonskin&w <&gbersaglio&w>
+
+Questo incantesimo permette la crescita sull'epidermide di solide scaglie
+grigie, capaci di aumentare la resistenza alla penetrazione di punte.
+~
+End
+
+#HELP
+KeywordItalian dream~
+KeywordEnglish dream~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gdream&w <&ggiocatore&w>  <&gmessaggio&w>
+
+De Vyldren era un attento studioso della mente ed era affascinato dalle diverse
+possibilità di espressione e comunicazione.
+Fu durante uno dei suoi viaggi che diede alla luce un incantesimo che gli
+permetteva di parlare ai suoi conoscenti mentre questi erano addormentati.
+Fu molto felice di trascrivere questo incantesimo per tramandarlo ai posteri
+anche se in forma diversa e semplificata.
+~
+End
+
+#HELP
+KeywordItalian earthquake~
+KeywordEnglish earthquake~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gearthquake&w
+
+Uno dei più famosi incantesimi legati alla terra e all'aria. Una forte scossa
+smuove il terreno sottostante mettendo in pericolo chiunque sia intorno all'
+evocatore di tale forza dirompente.
+~
+End
+
+#HELP
+KeywordItalian 'eldritch sphere'~
+KeywordEnglish 'eldritch sphere'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&geldritch sphere&w' <&gbersaglio&w>
+
+Questo incantesimo avvolge l'utente magico con una potente sfera protettiva
+capace di ridurre il danno inferto da colpi o magie. Le sue origini sembrano
+clericali, tuttavia sono in molti a pensare che ci sia anche qualche studio
+elfico per quanto riguarda la preparazione ed il rituale d'evocazione.
+~
+End
+
+#HELP
+KeywordItalian 'elven beauty'~
+KeywordEnglish 'elven beauty'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gelven beauty&w' <&gbersaglio&w>
+
+Poco più di un afrodisiaco, questo incantesimo rende chi ne beneficia molto più
+gradevole e carismatico del solito. L'effetto è, ahimè, solo temporaneo.
+~
+End
+
+#HELP
+KeywordItalian 'enchant weapon'~
+KeywordEnglish 'enchant weapon'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&genchant weapon&w' <&garma&w>
+
+Questo speciale incantesimo riversa parte dell'energia vitale dell'utente magico
+nell'arma prescelta, questa diviene così non solo più potente ma riceve persino
+l'allineamento del suo possessore.
+Perchè l'incantesimo abbia efficacia è però necessario che l'arma non sia di
+natura magica in quanto la compresenza di magie di fonte differente nello stesso
+oggetto non è contemplata in questi casi.
+~
+End
+
+#HELP
+KeywordItalian 'energy drain'~
+KeywordEnglish 'energy drain'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&genergy drain&w' <&gvittima&w>
+
+E' uno tra i più malefici incantesimi che sia mai stato pensato, a livelli
+estremi riesce ad annullare completamente la coscienza di un essere vivente,
+mediamente invece il risultato di questo terribile incantesimo di negazione
+è quello di risucchiare energia vitale dalla vittima.
+~
+End
+
+#HELP
+KeywordItalian 'ethereal fist'~
+KeywordEnglish 'ethereal fist'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gethereal fist&w' <&gvittima&w>
+
+Variante magica dell'incantesimo 'Black Fist', solo che in questo caso gli
+elementi combinati risultano quelli dell'aria e quelli della terra.
+Il risultato è la formazione di un enorme pugno che va ad impattare contro la
+povera vittima ripetutamente.
+~
+End
+
+#HELP
+KeywordItalian 'ethereal funnel'~
+KeywordEnglish 'ethereal funnel'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gethereal funnel&w' <&gvittima&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questo incantesimo in particolare rende la vittima suscettibile agli attacchi
+basati sull'energia pura.
+~
+End
+
+#HELP
+KeywordItalian 'ethereal shield'~
+KeywordEnglish 'ethereal shield'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gethereal shield&w' <&gbersaglio&w>
+
+Questo semplice ma provvidenziale incantesimo crea attorno all'utente magico una
+forte barriera che lo protegge parzialmente dai danni subiti a causa di attacchi
+basati sull'energia, assorbendoli.
+~
+End
+
+#HELP
+KeywordItalian feebleness~
+KeywordEnglish feebleness~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  cast feebleness <vittima>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questo incantesimo in particolare rende la vittima suscettibile agli attacchi
+basati sul risucchio vitale.
+~
+End
+
+#HELP
+KeywordItalian flamestrike~
+KeywordEnglish flamestrike~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gflamestrike&w' <&gvittima&w>
+
+E' un incantesimo che sfrutta per creare il suo devastante effetto una speciale
+miscela di polveri infiammabili che vengono scagliate in aria al momento del
+lancio dell'incantesimo e che bruciano in un istante schizzando verso la
+vittima.
+~
+End
+
+#HELP
+KeywordItalian fletch~
+KeywordEnglish fletch~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gfletch flint&w
+
+Ogni buon ranger ha un'esperienza invidiabile per quanto concerne la
+sopravvivenza in ambienti ostili e le capacità di adattamento.
+Queste gli sono servite ad esempio per riuscire a ricavare da una qualsiasi
+pietra o spuntone di roccia una letale freccia pronta per il suo arco.
+~
+End
+
+#HELP
+KeywordItalian float~
+KeywordEnglish float~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gfloat&w <&gbersaglio&w>
+
+E' una versione ridotta e meno dispendiosa dell'incantesimo di volo, permette di
+oltrepassare piccole e grandi distese d'acqua con il minimo dispendio di energie
+ed è uno degli incantesimi più usati dai giovanissimi nei loro giochi di
+prestigio.
+~
+End
+
+#HELP
+KeywordItalian fly~
+KeywordEnglish fly~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gfly&w <&gbersaglio&w>
+
+Sebbene determinate altezze siano a dir poco proibitive per il corpo di un
+normale essere umano questo incantesimo viene in aiuto di chiunque abbia mai
+sognato di volare.
+Al piacere del librarsi in volo c'è da aggiungere la comodità nel viaggiare e la
+possibilità di cacciarsi fuori dai guai in caso di sabbie mobili e simili
+pericoli.
+~
+End
+
+#HELP
+KeywordItalian 'galvanic whip'~
+KeywordEnglish 'galvanic whip'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&ggalvanic whip&w' <&gvittima&w>
+
+Frutto di un'accurata manipolazione delle energie celesti, questo incantesimo
+permette all'utente magico di creare nell'aria un intreccio di filamenti di pura
+energia che coagulandosi andranno a formare una frusta diretta sull'avversario
+dello stregone.
+L'effetto è molto doloroso e spesso viene utilizzato in varie modulazioni per
+torture e supplizi.
+~
+End
+
+#HELP
+KeywordItalian grounding~
+KeywordEnglish grounding~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &ggrounding&w
+
+Questo incantesimo sfrutta il principio della canalizzazione dell'energia per
+far si che gli attacchi a base di elettricità anziché scaricare tutta la loro
+potenza sul corpo del mago lo attraversino quasi senza provocare danni.
+~
+End
+
+#HELP
+KeywordItalian hallucinate~
+KeywordEnglish hallucinate~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &ghallucinate&w <&gvittima&w> <&gmessaggio&w>
+
+La scuola dell'illusione ha condensato in questo incantesimo la massima
+espressione della sua potenza, la mente della vittima viene infatti condizionata
+affinché percepisca proprio quanto l'utente di magia decide in quel momento.
+~
+End
+
+#HELP
+KeywordItalian hezekiah hezekiahs 'hezekiahs cure' hezekiah's~
+KeywordEnglish hezekiah hezekiahs 'hezekiahs cure' hezekiah's~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&ghezekiahs cure&w' <&gobiettivo&w>
+               °Tcast &ghezekiahs&w        <&gobiettivo&w>
+
+Hezekiah fu un grandissimo Paladino e difensore della fede che divenne
+particolarmente famoso quando durante una battaglia contro le orde del male nel
+terzo anno della Guerra della Rinascita riuscì a salvare la vita del suo Re, che
+sembrava già morto essendo stato colpito da una freccia in pieno petto, con una
+cura espedita grazie al suo Sacro Simbolo.
+In ricordo della sua impresa eroica questo incantesimo di cura prende il suo
+nome.
+~
+End
+
+#HELP
+KeywordItalian protection sanctuary 'holy sanctity' 'major invocation' 'sacral divinity'~
+KeywordEnglish protection sanctuary 'holy sanctity' 'major invocation' 'sacral divinity'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gprotection&w
+&YSintassi&w:  °Tcast &gsanctuary&w <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gholy sanctity&w'
+&YSintassi&w:  °Tcast '&gmajor invocation&w'
+&YSintassi&w:  °Tcast '&gsacral divinity&w'
+
+Queste protezioni d'indubbia origine clericale svolgono il loro compito contro
+svariati tipi di attacchi e con diversa efficacia e livello di protezione:
+
+L'incantesimo &gprotection&w riduce di un quarto i danni subiti ad opera di esseri
+di allineamento malvagio.
+
+L'incantesimo &gsanctuary&w riduce fino alla metà il danno subito da qualsiasi tipo
+d'attacco o trappola.
+
+L'incantesimo '&gholy sanctity&w' permette di rilasciare a tutti i membri del gruppo
+del chierico l'incantesimo di &gsanctuary&w.
+
+'&gMajor invocation&w' è la versione di '&gholy sanctity&w' sviluppata dai Paladini.
+
+'&gSacral divinity&w' è invece l'incantesimo &gsanctuary&w personale dei Paladini,
+richiede perchè sia efficace l'apposizione del proprio Simbolo Sacro della
+fede.
+~
+End
+
+#HELP
+KeywordItalian iceshield fireshield shockshield~
+KeywordEnglish iceshield fireshield shockshield~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+L'illustrissimo De Vyldren aveva una sua personale opinione sugli oggetti ed
+esseri animati per via magica:
+"Sinceramente non credo che un essere fangoso o rivestito d'adamantio che segua
+alla lettere i miei ordini possa dirsi animato o cosciente di sè o intelligente,
+per quanto mi riguarda ritengo molto più vivo un oggetto che seguendo le leggi
+del caso decida lui stesso quando agire e magari in che modo."
+Accettando la sua stessa sfida riuscì poi nell'intento di costruire per il suo
+compagno di viaggio Bretan uno scudo che rispondesse agli attacchi degli
+avversari con esplosioni dirette al nemico, fulmini, soffi di ghiaccio e altro.
+Data l'alta complessità dell'incantesimo Lord De Vyldren non rivelò mai a nessun
+allievo il segreto di quello scudo, però decise di mettere a disposizione una
+sua versione modificata personalmente in tre varianti distinte a seconda del
+tipo di risposta che offrono all'attacco subito:
+
+La prima variante è l'&CIceshield&w: Risponde agli attacchi con potenti soffi
+di ghiaccio e gelo.
+&YSintassi&w:  °Tcast &giceshield&w
+
+La seconda variante è il &RFireshield&W: Risponde agli attacchi con lingue di
+fuoco e fiammate dirompenti.
+&YSintassi&w:  °Tcast &gfireshield&w
+
+La terza variante è lo &YShockshield&w: Risponde agli attacchi con scariche
+elettriche e fulmini.
+&YSintassi&w:  °Tcast &gshockshield&w.
+
+Le probabilità che lo scudo risponda agli attacchi dipendono dall'esperienza
+dell'utente magico, inoltre i poteri di due scudi simili che si fronteggiano
+si annulleranno a vicenda.
+~
+End
+
+#HELP
+KeywordItalian identify~
+KeywordEnglish identify~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gidentify&w <&gobject&w>
+
+Semplice incantesimo che rivela poteri e altre informazioni di un determinato
+oggetto.
+~
+End
+
+#HELP
+KeywordItalian 'ill fortune'~
+KeywordEnglish 'ill fortune'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gill fortune&w' <&gvittima&w>
+
+E' una delle più diffuse varianti della più solenne maledizione, non fa altro
+che diminuire la fortuna del suo bersaglio.
+~
+End
+
+#HELP
+KeywordItalian infravision infrared~
+KeywordEnglish infravision infrared~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &ginfravision&w
+&YSintassi&w:  °Tcast &ginfravision&w <&gbersaglio&w>
+
+E' un incantesimo che va a stimolare determinate parti del cervello in
+maniera tale da riuscire a dare lo stesso effetto dell'infravisione tipica
+di alcune razze avvezze al buio che gli permette di distinguere nel'oscurità
+fonti di calore.
+~
+End
+
+#HELP
+KeywordItalian 'inner warmth'~
+KeywordEnglish 'inner warmth'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&ginner warmth&w' <&gbersaglio&w>
+
+Incantesimo molto diffuso e di largo utilizzo. Agli albori utilizzato nei viaggi
+per luoghi freddi e inospitali, successivamente, in una sua versione potenziata,
+per proteggersi da attacchi a base di gelo e freddo.
+L'effetto è un abbraccio di calore proveniente dall'interno del corpo.
+~
+End
+
+#HELP
+KeywordItalian invis 'mass invis'~
+KeywordEnglish invis 'mass invis'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &ginvis&w <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gmass invis&w'
+
+Indubbiamente una delle prime e più grandi sfide della scuola d'Illusione,
+l'invisibilià venne raggiunta grazie al provvidenziale apporto dato dagli
+studenti dei legami interplanetari, confermando le teorie più remote riguardo la
+persistenza del tempo nel solo ambito dell'immaginario.
+
+I successivi sviluppi diedero alla vita l'incantesimo MASS INVIS, il quale
+permette all'intero gruppo dell'utente magico di rendersi invisibile.
+~
+End
+
+#HELP
+KeywordItalian 'kindred strength' kindred~
+KeywordEnglish 'kindred strength' kindred~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gkindred&w <&gbersaglio&w>
+
+Altisonante nome per un incantesimo che ha il semplice scopo di aumentare la
+forza fisica del bersaglio. Spesso criticato da molti studiosi ed esperti di
+magia per questioni prettamente "etiche".
+~
+End
+
+#HELP
+KeywordItalian knock~
+KeywordEnglish knock~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gknock&w <&gdirezione&w>
+
+Versione modificata dell'incantesimo IDENTIFY, anzichè richiamare la natura
+dell'oggetto infatti si prova a modificarne la struttura, in particolare quella
+di porte e lucchetti chiusi.. aprendoli.
+~
+End
+
+#HELP
+KeywordItalian 'know alignment'~
+KeywordEnglish 'know alignment'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gknow alignment&w' <&gbersaglio&w>
+
+Versione ampliata e modificata del "&gdetect evil&w", permette infatti di conoscere
+l'allineamento della vittima con una semplice formula.
+~
+End
+
+#HELP
+KeywordItalian lethargy~
+KeywordEnglish lethargy~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &glethargy&w <&gvittima&w>
+
+Questo incantesimo veniva usato anticamente come antidolorifico durante
+gli interventi di cura, più tardi a qualcuno venne l'idea di sfruttarne
+i poteri stordenti contro eventuali avversari.
+Attualmente nella forma standard l'incantesimo induce una torbida sonnolenza
+nella vittima diminuendone la destrezza.
+~
+End
+
+#HELP
+KeywordItalian 'magic missile'~
+KeywordEnglish 'magic missile'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gmagic missile&w' <&gvittima&w>
+
+Il '&gmagic missile&w', anche noto come Dardo Incantato, è uno dei primi
+incantesimi che sfruttano la magia per colpire avversari anche ad una certa
+distanza.
+Basterà infatti osservare il nemico puntandolo con il palmo della mano sinistra
+aperto e si materializzerà un dardo d'energia mistica che andrà a colpirlo con
+precisione assoluta.
+~
+End
+
+#HELP
+KeywordItalian 'magnetic thrust'~
+KeywordEnglish 'magnetic thrust'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gmagnetic thrust&w' <&gvittima&w>
+
+Altro efficacissimo strumento di tortura che sfrutta la creazione di una
+particolare distorsione dello spazio nel corpo della vittima tramite l'utilizzo
+di una barriera di energia che la isola da ciò che la circonda.
+Gli organi interni del bersaglio vengono scossi e i tessuti contorti tra mille
+dolori lancinanti.
+Nato come un'evoluzione dell'incantesimo &gdisruption&w, svolge davvero bene il suo
+dovere.
+~
+End
+
+#HELP
+KeywordItalian 'midas touch' midas~
+KeywordEnglish 'midas touch' midas~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gmidas touch&w' <&goggetto&w>
+
+Come nella famosa leggenda, questo incantesimo sfrutta il millenario studio
+alchemico della natura e dei suoi elementi, permette infatti di mutare qualsiasi
+tipo di oggetto in oro!
+~
+End
+
+#HELP
+KeywordItalian 'mind fortress'~
+KeywordEnglish 'mind fortress'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gmind&w
+
+E' un particolare incantesimo effettivo soprattutto all'interno di un gruppo di
+avventurieri, permette infatti la creazione di un legame mentale tra le menti
+dei componenti che li rende più resistenti contro gli incantesimi.
+~
+End
+
+#HELP
+KeywordItalian mistform~
+KeywordEnglish mistform~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcase &gmistform&w
+
+A causa della loro particolare forma di esistenza i vampiri hanno tra i loro
+talenti delle abilità davvero inimmaginabili, possono infatti mutare il loro
+aspetto a quello di una nebbia mistica capace di oltrepassare barriere
+altrimenti invalicabili.
+Mentre un tempo si pensava che fosse praticamente impossibile distinguere un
+vampiro una volta effettuata questa trasformazione oggi grazie agli studi
+compiuti da De Vyldren possiamo affermare che in realtà oltre alla componente
+mistica e materiale della nebbiolina ne esiste una illusoria atta a nascondere
+l'identità del vampiro. Il metodo per aggirare l'illusione è tuttavia molto
+complesso e solo Arcimaghi come De Vyldren riuscirebbero a farlo in tempi adatti.
+~
+End
+
+#HELP
+KeywordItalian mistwalk~
+KeywordEnglish mistwalk~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gmistwalk&w <&gvittima&w>
+
+Una delle abilità che meglio contraddistingue il vampiro come quello che in
+definitiva è: un predatore. Nel suo aspetto di nebbia mistica riesce infatti a
+tracciare la posizione di quasi qualunque preda e raggiungerla in un istante
+sfruttando le particolari capacità della sua forma.
+Si dice che in particolare l'istinto dei vampiri raggiunga il suo culmine solo a
+notte fonda.
+~
+End
+
+#HELP
+KeywordItalian 'necromantic touch'~
+KeywordEnglish 'necromantic touch'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gnecromantic touch&g' <&gvittima&g>
+
+E' un terribile incantesimo che evoca una diabolica mano d'ombra diretta al
+cuore della vittima, stabilito un contatto con il corpo dell'utente magico gli
+trasferisce parte dell'energia che risucchia al bersaglio, tenendo per sè la
+maggior parte.
+Un incantesimo difficile da governare a causa dell'energia vitale richiesta
+dallo spirito evocato, ma poichè è la vittima a pagarne le conseguenze non vi
+sono necromanti che si fanno problemi in proposito..
+~
+End
+
+#HELP
+KeywordItalian nostrum~
+KeywordEnglish nostrum~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gnostrum&w
+
+Un incantesimo che sfrutta le potenti doti di meditazione degli Auguri
+per curare le ferite dell'utente magico.
+Proprio a causa della sua natura meditativa non è una cura di cui possano
+beneficiare anche altri.
+~
+End
+
+#HELP
+KeywordItalian paralyze~
+KeywordEnglish paralyze~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gparalyze&w <&gvittima&w>
+
+Versione potenziata del &glethargy&w, in questo caso la vittima non riuscirà per
+qualche tempo a rispondere agli attacchi che le vengono mossi.
+~
+End
+
+#HELP
+KeywordItalian paranoia~
+KeywordEnglish paranoia~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gparanoia&w <&gvittima&w>
+
+E' un incantesimo che assomma in sè tutti quegli incantesimi di illusione minori
+che instillano nella vittima il terrore di qualcosa rendendola più suscettibile
+a quel tipo di attacco.
+In questa forma il terrore diventa generico e così anche la debolezza, inoltre a
+causa del diffuso senso di pericolo nell'animo sarà anche più difficile
+richiamare incantesimi.
+~
+End
+
+#HELP
+KeywordItalian 'pass door'~
+KeywordEnglish 'pass door'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gpass door&w'
+
+Giudicando "poco elegante" la nebbia mistica usata dal vampiro per dissolversi e
+"poco cortese" il &gknock&w come incantesimo per varcare porte chiuse, De Vyldren
+decise di mettere a punto un sistema più congeniale per ottenere un effetto
+simile. Così in poco meno di una settimana ideò questo particolarissimo metodo
+di trasmutazione corporale, capace di fondere il corpo, mediante un sottile
+passaggio per il piano di non esistenza, con una qualsiasi porta che si voglia
+attraversare.
+L'effetto di translucenza donata al corpo sembra essere un accorgimento del
+tutto estetico che Lord De Vyldren volle aggiungere alla sequenza per "dare un
+tocco di classe in più".
+~
+End
+
+#HELP
+KeywordItalian pentagram~
+KeywordEnglish pentagram~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Tcast &gpentagram&w
+
+"Di certo è totalmente inutile una protezione che pur invocata per le forze
+del Bene non mi permetta di sopravvivere. Di gran lunga ne preferisco una che
+mi garantisca di proseguire questa vita pur condannandomi in una di cui non
+conosco nemmeno l'esistenza", con queste parole l'arcimago Souman difese dagli
+attacchi dei puristi e dei chierici questo incantesimo di sua creazione.
+Il nocciolo della questione riguardava per l'appunto la natura demoniaca della
+protezione invocata con il pentagramma, una sorta di firma per la propria
+anima, secondo molti.
+L'effetto è comunque la creazione di un pentagramma che offre una efficace
+protezione di natura malvagia contro qualsiasi tipo di attacco, esso è inoltre
+necessario per diversi altri incantesimi.
+~
+End
+
+#HELP
+KeywordItalian pestilence~
+KeywordEnglish pestilence~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gpest&w
+
+Uno degli incantesimi che sfruttano i poteri del Pentagramma invocato con
+l'apposito rituale. In questo caso inalando sul simbolo i fumi derivati dalla
+combustione di un'ala di folletto si richiamerà, tramite l'apposita formula, una
+schiera di affamate locuste.
+~
+End
+
+#HELP
+KeywordItalian 'plant pass'~
+KeywordEnglish 'plant pass'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gplant pass&w' <&gvittima&w>
+
+Eredità degli antichi Druidi di Y'naird, questo incantesimo richiede una totale
+concentrazione ed empatia nei confronti della natura circostante.
+Attraverso la deviazione  e l'incanalamento del flusso vitale della vegetazione
+permette infatti all'utenet magico di diventare una sola cosa con le foglie per
+uscirne a propria discrezione nel momento più opportuno.
+~
+End
+
+#HELP
+KeywordItalian poison~
+KeywordEnglish poison~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gpoison&w <&gvittima&w>
+
+Una sottile e infida forma di attacco, il veleno viene trasmesso alla vittima in
+via empatica o tramite una variante eterea del MAGIC MISSILE, l'effetto è
+l'immediata riduzione della forza fisica del bersaglio oltre ad una diffusa
+sensazione di malessere che danneggia le capacità autocurative del corpo.
+~
+End
+
+#HELP
+KeywordItalian polymorph~
+KeywordEnglish polymorph~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gpolymorph&w
+
+Nato all'inizio come un semplice incantesimo d'illusione che dava all'utente
+magico l'apparenza della fisicità della classe scelta, venne poi ripreso e
+migliorato da Souman.
+Egli diede all'incantesimo il potere di mutare realmente la forma dell'utente
+magico che l'avesse utilizzato in quella della razza scelta, con tutti i pro e i
+contro legati alla stazza e caratteristiche mentali della stessa.
+~
+End
+
+#HELP
+KeywordItalian 'quantum spike'~
+KeywordEnglish 'quantum spike'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gquantum spike&w' <&gvittima&w>
+
+Efficacissimo strumento di tortura e supplizio, arma preferita di torturatori e
+sadici, il '&gquantum spike&w' è un terribile incantesimo che colpisce la vittima con
+un globo nero di energia che ne attraversa i tessuti per collocarsi tra il
+fegato e la milza, successivamente collassa su sè stesso riversando i quanti
+energetici di cui è formato sulle pareti muscolari del corpo ospite, a questo
+punto l'utente magico è libero di indurre dolorose scariche d'energia alla
+vittima, causandone deformazioni e atroci spasmi di dolore senza fine.
+~
+End
+
+#HELP
+KeywordItalian razorbait~
+KeywordEnglish razorbait~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &grazorbait&w <&gvittima&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questa variante in particolare è efficace con gli attacchi che prevedono
+pugnalate alle spalle.
+~
+End
+
+#HELP
+KeywordItalian ritorna 'word of recall'~
+KeywordEnglish recall 'word of recall'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Trecall
+&YSintassi&w:  °Tcast '&gword of recall&w'
+
+L'incantesimo di °Trecall, nella sua forma estesa chiamato '&gword of recall&w',
+permette il ritorno istantaneo in un punto preciso a cui si è legati per
+nascita, appartenenza sociale o religiosa.
+L'incantesimo è disponibile sotto forma di pergamena, pozione o altro.
+~
+End
+
+#HELP
+KeywordItalian recharge~
+KeywordEnglish recharge~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &grecharge&w <&gwand&w/&gstaff&w>
+
+E' un incantesimo che permette di trasferire parte del flusso magico dello
+stregone in un oggetto di tipo bastone o bacchetta, in maniera tale da 
+ricaricare i suoi poteri.
+Esiste tuttavia la possibilità di danneggiare irreparabilmente l'oggetto anche
+se in rari casi è addirittura successo di incrementarne la capacità massima.
+~
+End
+
+#HELP
+KeywordItalian 'remove curse' 'remove invis' 'remove trap'~
+KeywordEnglish 'remove curse' 'remove invis' 'remove trap'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gremove curse&w' <&gbersaglio&w>
+&YSintassi&w:  °Tcast '&gremove invis&w' <&gobject&w>
+&YSintassi&w:  °Tcast '&gremove trap&w'  <&gobject&w>
+
+Questa serie di incantesimi trae origine da una variante del solito &gdispel magic&w,
+seppur lievemente depotenziata e modificata.
+'&gRemove curse&w' rimuove una maledizione da un avventuriero o un oggetto che questi
+sta usando.
+'&gRemove invis&w' rimuove l'invisibilità di un oggetto nell'inventario dell'
+avventuriero che lo subisce, è considerato un attacco.
+'&gRemove trap&w' rimuove invece magicamente una trappola in un oggetto.
+~
+End
+
+#HELP
+KeywordItalian restoration~
+KeywordEnglish restoration~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &grestoration&w
+
+Questo potente incantesimo di cura utilizza le energie congiunte di due utenti
+magici, in compenso la sua efficacia ha potere su tutto il gruppo.
+~
+End
+
+#HELP
+KeywordItalian reveal~
+KeywordEnglish reveal~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &greveal&w
+
+E' un potentissimo incantesimo di potenziamento dei sensi, spinge le percezioni
+ai massimi livelli in maniera tale da riuscire a vedere cose che normalmente
+sarebbero rimaste nascoste ad occhio nudo.
+~
+End
+
+#HELP
+KeywordItalian 'rid toxin'~
+KeywordEnglish 'rid toxin'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &grid&w <&gbersaglio&w>
+
+Un potente incantesimo che purifica il corpo da maledizioni o veleni, di origine
+sconosciuta si suppone però che sia fortemente legata al mondo clericale.
+~
+End
+
+#HELP
+KeywordItalian sagacity~
+KeywordEnglish sagacity~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+Antico metodo che sfrutta la meditazione passiva per incrementare la capacità di
+ragionare per qualche lasso di tempo.
+~
+End
+
+#HELP
+KeywordItalian 'scorching surge'~
+KeywordEnglish 'scorching surge'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gscorching surge&w' <&gvittima&w>
+&YAbbrev. &w:  °Tcast &gscorching&w         <&gvittima&w>
+           °Tcast &gscorch&w            <&gvittima&w>
+
+Questo potente incantesimo sfrutta il legame degli elementi del fuoco e
+dell'aria per creare a piacimento dell'Augure una dirompente ondata di calore
+che si abbatte con violenza sulla vittima.
+~
+End
+
+#HELP
+KeywordItalian scry~
+KeywordEnglish scry~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gscry <&gbersaglio&w>
+
+E' un incantesimo che potenzia la vista in maniera tale che chiunque ne benefici
+riesca a scrutare nelle stanze adiacenti come se fosse li' dentro.
+Dopo aver lanciato l'incantesimo basta infatti guardare nella direzione
+prestabilita.
+~
+End
+
+#HELP
+KeywordItalian shield 'stone skin'~
+KeywordEnglish shield 'stone skin'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w: °Tcast &gshield&w <&gbersaglio&w>
+&YSintassi&w: °Tcast '&gstone skin&w'
+
+Sono due incantesimi di protezione.
+Il primo crea magicamente uno scudo che avvolge l'intera persona ptoreggendola
+dagli attacchi avversari riducendone l'efficacia.
+Il secondo, legato fortemente agli elementi della terra, crea sulla superficie
+corporea uno strato di roccia che protegge da qualsiasi tipo di attacco
+riducendone l'efficacia.
+~
+End
+
+#HELP
+KeywordItalian sleep~
+KeywordEnglish sleep~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gsleep&w <&gvittima&w>
+
+Estremo potenziamento dell'incantesimo &glethargy&w, in caso di riuscita infatti la
+vittima si ritroverà immersa in un sonno profondo, incapace di svegliarsi per
+ore.
+~
+End
+
+#HELP
+KeywordItalian slink~
+KeywordEnglish slink~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gslink&w
+
+Incantesimo ottenuto dalla negazione di LETHARGY, aumenta infatti la prontezza
+muscolare ed i riflessi. Molto utilizzato e richiesto da mezzi combattenti è
+invece pesantemente criticato dalle alte scuole per i soliti motivi etici.
+~
+End
+
+#HELP
+KeywordItalian 'solar flight'~
+KeywordEnglish 'solar flight'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gsolar flight&w' <&gvittima&w>
+
+Incantesimo di chiara ispirazione clericale, sfrutta una semplice deviazione
+dell'energia solare usando i raggi stessi come mezzo di trasporto fino al
+bersaglio specificato. Ovviamente proprio a causa di questa sua natura non è
+possibile utilizzarlo in luoghi chiusi o di sera o comunque con il cielo coperto
+da nubi troppo dense.
+~
+End
+
+#HELP
+KeywordItalian 'solomonic invocation'~
+KeywordEnglish 'solomonic invocation'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gsolomonic invocation&w'
+
+E' un'invocazione/preghiera rivolta al leggendario Paladino a cui si deve il
+Sacro Simbolo tipico dell'Ordine.
+~
+End
+
+#HELP
+KeywordItalian 'sonic resonance'~
+KeywordEnglish 'sonic resonance'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gsonic resonance&w' <&gvittima&w>
+
+Versione lievemente modificata del QUANTUM SPIKE, l'energia sfruttata in questo
+caso è infatti quella di una certa tonalità di suoni più o meno armoniosi.
+L'incantesimo rende dapprima l'organismo suscettibile a determinate tonalità e
+successivamente si preoccupa di procurare una deliziosa agonia ai tessuti
+interni della vittima, preda di atroci convulsioni e indefinibile dolore.
+~
+End
+
+#HELP
+KeywordItalian 'soul petrification'~
+KeywordEnglish 'soul petrification'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gsoul petrification&w' <&gbersaglio&w>
+
+Potrebbe benissimo rientrare tra le benedizioni ma il suo effetto è lievemente
+diverso, il beneficiario ottiene infatti una fermezza d'animo invidiabile e la
+sua determinazione diventa incrollabile.
+~
+End
+
+#HELP
+KeywordItalian 'spectral furor' 'hand of chaos'~
+KeywordEnglish 'spectral furor' 'hand of chaos'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gspectral furor&w' <&gvittima&w>
+&YSintassi&w:  °Tcast '&ghand of chaos&w'  <&gvittima&w>
+
+In seguito alla scoperta dell'incantesimo &gdisruption&w ci furono svariati
+tentativi di affinare il dolore arrecato mediante quella tecnica.
+In particolare due i tentativi più riusciti, ossia '&gspectral furor&w' e
+'&ghand of chaos&w'.
+In entrambi i casi il corpo della vittima viene sfibrato e dilaniato dalla
+manipolazione e dal risucchio operato dall'azione di molteplici piani astrali
+attraverso di esso.
+~
+End
+
+#HELP
+KeywordItalian 'spiral blast'~
+KeywordEnglish 'spiral blast'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gspiral blast&w'
+&YAbbrev. &w:  °Tcast &gspiral&w
+
+Questo incantesimo permette all'Augure di evocare un getto di gas vorticante
+che attacca ogni essere vivente presente nelle immediate circostanze.
+Gli elementi sfruttati sono quelli dell'aria e del fuoco, causando forti
+bruciori e danni da contusione.
+~
+End
+
+#HELP
+KeywordItalian 'spiritual wrath'~
+KeywordEnglish 'spiritual wrath'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gspiritual wrath&w'
+
+L'energia sfruttata da questo incantesimo si dice che provenga direttamente dal
+regno dei non morti, sebbene molti siano scettici sulla sua reale natura.
+Il risultato è molto simile ad un incantesimo celeste di '&gchain lightning&w'
+con qualche variante, viene evocato una lampo di luce accecante che abbaglia
+tutti i presenti. Per essere efficace richiede l'intervento di due utenti
+magici.
+~
+End
+
+#HELP
+KeywordItalian 'sulfurous spray'~
+KeywordEnglish 'sulfurous spray'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gsulfurous spray&w'
+
+Mediante questo incantesimo l'utente magico è in grado di raccogliere in un
+batter d'occhio dall'atmosfera gli elementi necessari per creare una sottile
+pioggia acida che si riversa sui suoi avversari in un istante.
+~
+End
+
+#HELP
+KeywordItalian summon summoning~
+KeywordEnglish summon summoning~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gsummon&w <&gbersaglio&w>
+
+Incantesimo di trasporto passivo che sfrutta la creazione da parte dell'utente
+magico di una distorzione spaziale per trasferire un eventuale avventuriero
+nella sua stessa locazione.
+A causa della delicatezza dell'operazione l'avventuriero che si cerca di
+richiamare non dev'essere impegnato in un combattimento e inoltre per un po' di
+tempo lo stregone sarà lievemente stordito per lo sforzo.
+~
+End
+
+#HELP
+KeywordItalian swordbait~
+KeywordEnglish swordbait~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gswordbait&w <&gvittima&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questa variante in particolare è efficace con gli attacchi basati sui fendenti.
+~
+End
+
+#HELP
+KeywordItalian teleport~
+KeywordEnglish teleport~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gteleport&w
+
+Incantesimo decisamente pericoloso.. per chi lo voglia usare.
+Si tratta di una misura estrema per sfuggire da una situazione di pericolo
+altrimenti non aggirabile, l'effetto è una distorsione spaziale immediata che
+teleporta l'utente magico in un luogo determinato dal caso.
+A volte ci si salva, altre però si potrebbe cadere dalla padella alla brace.
+~
+End
+
+#HELP
+KeywordItalian transport~
+KeywordEnglish transport~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gtransport&w <&goggetto&w> <&gbersaglio&w>
+
+Semplice incantesimo derivato da un sottoramo della scuola di telecinesi.
+Permette di trasportare con la forza del pensiero un oggetto nell'inventario
+dell'utente magico in quello di un bersaglio specifico.
+~
+End
+
+#HELP
+KeywordItalian 'trollish vigor'~
+KeywordEnglish 'trollish vigor'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gtrollish vigor&w' <&gbersaglio&w>
+
+Altro incantesimo appartenente alla serie di "eticamente contestati" da tutto il
+mondo dell'Alta Magia, la sua funzione principale è quella di aumentare le
+dimensioni e la statura dell'utente magico che ne usufruisce al fine di
+garantirgli più forza ed equilibrio, ma come al solito c'è chi lo ritiene un
+incantesimo superfluo o troppo fuori misura.
+~
+End
+
+#HELP
+KeywordItalian true truesight~
+KeywordEnglish true truesight~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gtruesight&w
+&YSintassi&w:  °Tcast &gtrue&w
+
+E' un incantesimo che garantisce al mago di riuscire a varcare per un
+determinato lasso di tempo, dipendente dal suo potere e dall'esperienza, la
+cecità indottagli da una maledizione o simili.
+Quando l'effetto dell'incantesimo svanisce l'utente magico tornerà a non vedere.
+A causa della particolare natura dell'incantesimo esso non avrà effetto se
+lanciato su altri avventurieri.
+~
+End
+
+#HELP
+KeywordItalian 'unravel defense'~
+KeywordEnglish 'unravel defense'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gunravel defense&w' <&gvittima&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questa variante in particolare è efficace con gli attacchi magici e non.
+~
+End
+
+#HELP
+KeywordItalian uplift~
+KeywordEnglish uplift~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &guplift&w <&gbersaglio&w>
+
+E' una delle più tangibili prove del favore accordato dagli Dei ai Chierici ed
+ai loro amici. Con questo incantesimo essi possono infatti arrivare a curare
+avventurieri che siano lontani o vicini.
+Ovviamente tutto ciò richiede massima concentrazione ed impegno, e non è di
+certo una di quelle cure che un chierico elargisce come se nulla fosse..
+~
+End
+
+#HELP
+KeywordItalian valiance~
+KeywordEnglish valiance~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gvaliance&w
+
+Semplice incantesimo che influenza il sistema empatico ridestando le cellule
+neurali e frenando la perdita del controllo sul proprio corpo.
+~
+End
+
+#HELP
+KeywordItalian ventriloquate~
+KeywordEnglish ventriloquate~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gventriloquate&w <&gvittima&w> <&gmessaggio&w>
+
+Tipicissimo incantesimo della scuola di illusionismo, conosciuto in tutto il
+mondo come un gioco di prestigio con tante variazioni sul tema.
+Il risultato di questo semplice inganno è l'apparenza che una determinata
+affermazione non provenga dalla bocca dell'utente magico che lo usa ma da quella
+di un bersaglio scelto a sua discrezione.
+Ovviamente non funziona sempre.. altrimenti che trucco è?
+~
+End
+
+#HELP
+KeywordItalian weaken~
+KeywordEnglish weaken~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast &gweaken&w <&gvittima&w>
+
+Incantesimo che va a colpire i centri nervosi dei muscoli lasciandoli
+intorpiditi e privi di forza. A differenza di quanto si possa credere ci sono
+molte differenze strutturali rispetto alle più conosciute varianti degli altri
+incantesimi di indebolimento muscolare , ciò è dovuto principalmente al fatto
+che il bersaglio non sono i muscoli ma i loro centri di controllo, rendendo
+l'operazione più semplice da eseguire ma forse meno efficace per la leggerezza
+dell'intervento.
+~
+End
+
+#HELP
+KeywordItalian 'winter mist'~
+KeywordEnglish 'winter mist'~
+Type           HELPTYPE_SPELL
+Trust          TRUST_PLAYER
+Text
+&YSintassi&w:  °Tcast '&gwinter mist&w' <&gvittima&w>
+
+Sfruttando il forte legame tra mente e corpo si può riuscire a rendere un
+qualsiasi avversario suscettibile ad un determinato tipo di attacco
+semplicemente instillandogli  il terrore di subire del dolore dalla minaccia
+prescelta.
+Questa variante in particolare è efficace con gli attacchi basati sul freddo.
+~
+End
+
+
+#END

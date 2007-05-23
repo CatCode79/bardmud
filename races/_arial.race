@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_ARIAL
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Arial~
+NameFema       Arial~
+Color          AT_RED burly wood 1~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -10 -10  -5   -5  10  0    5   0   5   0    0   0   -5   5  -5  
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus       15     5      0     0     -5    -5
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_FLYING~
+Resist         RIS_COLD~
+Suscept        RIS_PARALYSIS~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_AVIS~
+*
+LangLearnable  LANGUAGE_ELVEN LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_ORCISH LANGUAGE_RODENT LANGUAGE_MAMMAL LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_TREELEAF~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        102
+Height         170
+Weight         50,000
+TonalitySound  voce~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

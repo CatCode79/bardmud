@@ -1,0 +1,1802 @@
+#AREA
+Name         La foresta incantata~
+Author       Silf~
+Color        AT_GREEN verde~
+Economy      0 2452038
+LevelRange   2 60
+ResetMsg1    Odi un dolce canto elfico.~
+Vnums        550 624
+End
+
+#MOBILES
+#550
+fatine~
+un gruppo di fatine~
+Un gruppo di colorate fatine sta pattinando allegramente sul ghiaccio
+~
+Sono graziose e colorate, avvolte da luci di vari colori, con le alette di
+ogni tipo forma e colore, alcune pattinano e cantano altre eseguono dei
+magnifici balletti usando piccoli trucchi magici che le rendono ancor piu'
+incantevoli.
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#551
+folletti~
+un gruppo di folletti~
+Un gruppo di simpatici folletti osservano incantati le fatine
+~
+Sono piccoli dalle facciette dispettose e allegre, sghignazzano mentre
+rincorrono e infastidiscono le fatine interrompendo le loro danze sul
+ghiaccio. Alcuni ti guardano birichini con i loro occhioni furbacchioni e
+pieni di vita.
+~
+1 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#550
+cespugli~
+alcuni cespugli~
+~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+#551
+porta~
+una porta~
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#552
+letto~
+Un letto a baldacchino~
+Un letto a baldacchino e' accostato ad una parete
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#553
+letto~
+un letto a due piazze~
+Un letto a due piazze e' accostato alla parete~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#554
+armadio~
+Un armadio a due ante~
+Un armadio a due ante copre una parete
+~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+#555
+libreria~
+una grande  libreria~
+Una grande libreria copre un'intera parete
+~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+#556
+libreria~
+una libreria~
+Una piccola libreria e' addossata alla parete
+~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+#557
+divano~
+un divano~
+Un divano a forma di L sembra proprio comodo
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#558
+tavolino~
+un tavolino~
+Un tavolino di legno e' stato posto vicino al divano
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#559
+tavolo~
+un tavolo~
+Un grande e lungo tavolo di legno areda la stanza~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#560
+sedia~
+una sedia di legno~
+Una sedia di legno e' vicino al tavolo
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#561
+cassettone~
+un cassettone~
+Un cassettone e' accostato ai piedi del letto
+~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+#562
+mobile~
+un mobile con vari cassetti~
+Un mobile con un grande specchio e' accostato alla parete ~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+#563
+appendiabiti~
+un alto appediabiti~
+Un alto appendiabiti di legno e' posto vicino alla porta.
+~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+#564
+candelabro~
+un candelabro d'argento~
+Un candelabro d'argento e' qui a far luce
+~
+~
+1 0 1 0
+0 0 0 0
+1 0 0
+#565
+Bucaneve fiore~
+Un bucaneve~
+Un bel fiore bianco e' riuscito a crescere tra la neve.
+~
+~
+1 320 1 0
+0 0 0 0
+1 10 0
+#566
+portascarpe~
+un portascarpe~
+Un portascarpe di legno e' a terra
+~
+~
+15 0 1 0
+30 1 0 0
+30 0 0
+#567
+botola~
+una botola~
+~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+#568
+Ampolla bianca~
+un ampolla bianca~
+Un ampolla con liquido bianco
+~
+~
+10 64 1 0
+16 95 3 36
+1 0 0
+#569
+Ampolla blu~
+un ampolla blu~
+Un apolla con un denso liquido blu
+~
+~
+10 64 1 0
+16 1 67 34
+1 0 0
+#570
+Ampolla verde~
+un ampolla verde~
+Un ampolla con liquido verde~
+~
+10 64 1 0
+16 14 43 29
+1 0 0
+#571
+impasto~
+un impasto di erbe~
+Un impasto vedognolo e' posto in una ciotola
+~
+~
+26 64 1 0
+16 15 15 15
+1 0 0
+#572
+bacche~
+delle bacche nere~
+Una manciata di bacche nere
+~
+~
+26 0 1 0
+16 28 66 56
+1 0 0
+#573
+tavolo~
+un lungo tavolo~
+Un grande tavolo di legno pieno di oggetti.~
+~
+15 0 0 0
+50 0 0 0
+1 0 0
+#0
+#ROOMS
+#550
+In discesa nella foresta~
+La foresta e' fitta e leggermente in discesa, sottili fasci di luce solare
+riescono a penetrare le fronde degli alberi e, mentre i cespugli del
+sottobosco rendono difficoltoso il cammino, nell'aria si diffonde un gradevole
+odere di more, lamponi, fragole e mirtilli. Vari fruscii ti circondano, sono i
+piccoli animali della foresta che al tuo passaggio corrono a nascondersi.
+~
+0 0 3 0 0 0
+D4
+Immersi nell'erba..
+~
+~
+0 -1 6023
+D5
+~
+~
+1 0 551 0
+S
+#551
+In discesa nella foresta~
+La foresta e' fitta e leggermente in discesa, sottili fasci di luce solare
+riescono a penetrare le fronde degli alberi e, mentre i cespugli del
+sottobosco rendono difficoltoso il cammino, nell'aria si diffonde un gradevole
+odere di more, lamponi, fragole e mirtilli. Vari fruscii ti circondano, sono i
+piccoli animali della foresta che al tuo passaggio corrono a nascondersi.
+~
+0 0 3 0 0 0
+D4
+~
+~
+1 0 550 0
+D3
+~
+~
+1 0 552 0
+S
+#552
+Nel folto della foresta~
+La foresta e' talmente scura e la vegetazione talmente fitta che perdi il
+senso dell'orientamento, sui tronchi a nord trovi del muschio, i cespugli
+ricoprono il sottobosco e gli alberi sono enormi, sicuramente non
+sono una specie comune. Odi il canto di numerosi uccelli che si nascondono tra
+le fronde, per un attimo ne scorgi uno dai vivaci colori, ma di una razza
+sconosciuta.. tra l'altro non l'hai nemmeno visto bene, ma la sua coda
+sembrava avere la forma di una piccola arpa.
+~
+0 0 3 0 0 0
+D1
+~
+~
+1 0 551 0
+D3
+~
+~
+1 0 553 0
+S
+#553
+Nel folto della foresta~
+La foresta e' talmente scura e la vegetazione talmente fitta che perdi il
+senso dell'orientamento, sui tronchi a nord trovi del muschio, i cespugli
+ricoprono il sottobosco e gli alberi sono enormi, sicuramente non sono una
+specie comune. Alcuni scogliattoli saltano da un ramo all'altro mentre gli
+uccelli nascosti intonano allegri canti, piu' a sud senti anche rumore di
+acqua e qualche risata cristallina.
+~
+0 0 3 0 0 0
+D1
+~
+~
+1 0 552 0
+D2
+~
+~
+0 0 554 0
+S
+#554
+La sponda della primavera~
+Appena sposti l'ultimo cespuglio ti trovi sulla sponda di un grande e
+particolare lago. La temperatura e' mite, un tappeto di verdissima erba
+ricopre la terra, mentre numerosi fiori crescono spontanei e i loro profumi
+inebrianti sembrano infondere nuova energia. Guardi il paesaggio e noti che e'
+davvero strano: ogni sponda ricrea una stagione diversa, cosi', da un lato vi
+sono neve e ghiacci perenni, da un altro vi e' una spiaggetta dove noti gente
+prendere il sole e da un altro ancora trionfano i colori dell'autunno..
+Esattamente al centro del lago invece cresce un albero, il piu' grande che ti
+sia mai capitato di vedere..
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 553 0
+D1
+~
+~
+0 0 555 0
+D3
+~
+~
+0 0 577 0
+D2
+~
+~
+0 0 580 0
+S
+#555
+La sponda  primavera~
+Sei sulla sponda di un grande lago, la temperatura e' mite, un tappeto di
+verdissima erba ricopre la terra lambita da acque color argento, mentre
+numerosi fiori crescono spontanei e i loro profumi inebrianti sembrano
+infondere nuova energia. Guardi il paesaggio e noti che e' davvero strano:
+ogni sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e
+ghiacci perenni, da un altro vi e' una spiaggetta dove noti gente prendere il
+sole e da un altro ancora trionfano i colori dell'autunno.. Esattamente al
+centro del lago invece cresce un albero, il piu' grande che ti sia mai
+capitato di vedere..
+~
+0 0 3 0 0 0
+D3
+~
+~
+0 0 554 0
+D1
+~
+~
+0 0 556 0
+S
+#556
+La sponda primavera~
+Sei sulla sponda di un grande lago, la temperatura e' mite, un tappeto di
+verdissima erba ricopre la terra lambita da acque color argento, mentre
+numerosi fiori crescono spontanei e i loro profumi inebrianti sembrano
+infondere nuova energia. Guardi il paesaggio e noti che e' davvero strano:
+ogni sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e
+ghiacci perenni, da un altro vi e' una spiaggetta dove noti gente prendere il
+sole e da un altro ancora trionfano i colori dell'autunno.. Esattamente al
+centro del lago invece cresce un albero, il piu' grande che ti sia mai
+capitato di vedere..
+~
+0 0 3 0 0 0
+D3
+~
+~
+0 0 555 0
+D1
+~
+~
+0 0 557 0
+S
+#557
+La sponda del cambio stagione~
+Senti subito che cambia qualcosa, eppure da un lato continua ad esserci la
+foresta e dall'altro le acque del lago.. In effetti pero' le acque ora sono un
+misto di argento e oro, forse anche la temperatura e' leggermente mutata,
+spostandosi a sud sembra fare piu' caldo mentre ad ovest la temperatura e'
+piu' gradevole.
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 558 0
+D3
+~
+~
+0 0 556 0
+S
+#558
+La sponda estate~
+Sei sulla sponda di un grande lago, la temperatura e' alta e fa un caldo
+afoso. Cammini su una distesa di finissimi sassolini, sembra proprio una
+spiaggia e in effetti molta gente e' stesa a terra a prendere il sole. L'acqua
+e' del colore dell'oro e molti bambini stanno facendo il bagno mentre giocano
+alegramente. Guardi il paesaggio e noti che e' davvero strano: ogni sponda
+ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci perenni,
+da un altro la vegetazione cresce rigogliosa e ricca di colori, da un altro
+lato ancora invece trionfano i colori dell'autunno.. Esattamente al centro del
+lago cresce un albero, il piu' grande che ti sia mai capitato di vedere..
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 557 0
+D2
+~
+~
+0 0 559 0
+S
+#559
+La sponda estate~
+Sei sulla sponda di un grande lago, la temperatura e' alta e fa un caldo
+afoso. Cammini su una distesa di finissimi sassolini, sembra proprio una
+spiaggia e in effetti molta gente e' stesa a terra a prendere il sole. L'acqua
+e' del colore dell'oro e molti bambini stanno facendo il bagno mentre giocano
+alegramente. Guardi il paesaggio e noti che e' davvero strano: ogni sponda
+ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci perenni,
+da un altro la vegetazione cresce rigogliosa e ricca di colori, da un altro
+lato ancora invece trionfano i colori dell'autunno.. Esattamente al centro del
+lago cresce un albero, il piu' grande che ti sia mai capitato di vedere..
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 558 0
+D2
+~
+~
+0 0 560 0
+S
+#560
+La sponda estate~
+Sei sulla sponda di un grande lago, la temperatura e' alta e fa un caldo
+afoso. Cammini su una distesa di finissimi sassolini, sembra proprio una
+spiaggia e in effetti molta gente e' stesa a terra a prendere il sole. L'acqua
+e' del colore dell'oro e molti bambini stanno facendo il bagno mentre giocano
+alegramente. Guardi il paesaggio e noti che e' davvero strano: ogni sponda
+ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci perenni,
+da un altro la vegetazione cresce rigogliosa e ricca di colori, da un altro
+lato ancora invece trionfano i colori dell'autunno.. Esattamente al centro del
+lago cresce un albero, il piu' grande che ti sia mai capitato di vedere..
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 559 0
+D2
+~
+~
+0 0 561 0
+D3
+~
+~
+0 0 584 0
+S
+#561
+La sponda estate~
+Sei sulla sponda di un grande lago, la temperatura e' alta e fa un caldo
+afoso. Cammini su una distesa di finissimi sassolini, sembra proprio una
+spiaggia e in effetti molta gente e' stesa a terra a prendere il sole. L'acqua
+e' del colore dell'oro e molti bambini stanno facendo il bagno mentre giocano
+alegramente. Guardi il paesaggio e noti che e' davvero strano: ogni sponda
+ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci perenni,
+da un altro la vegetazione cresce rigogliosa e ricca di colori, da un altro
+lato ancora invece trionfano i colori dell'autunno.. Esattamente al centro del
+lago cresce un albero, il piu' grande che ti sia mai capitato di vedere..
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 560 0
+D2
+~
+~
+0 0 562 0
+S
+#562
+La sponda estate~
+Sei sulla sponda di un grande lago, la temperatura e' alta e fa un caldo
+afoso. Cammini su una distesa di finissimi sassolini, sembra proprio una
+spiaggia e in effetti molta gente e' stesa a terra a prendere il sole. L'acqua
+e' del colore dell'oro e molti bambini stanno facendo il bagno mentre giocano
+alegramente. Guardi il paesaggio e noti che e' davvero strano: ogni sponda
+ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci perenni,
+da un altro la vegetazione cresce rigogliosa e ricca di colori, da un altro
+lato ancora invece trionfano i colori dell'autunno.. Esattamente al centro del
+lago cresce un albero, il piu' grande che ti sia mai capitato di vedere..
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 561 0
+D2
+~
+~
+0 0 563 0
+S
+#563
+La sponda del cambio stagione~
+Senti subito che cambia qualcosa, eppure da un lato continua ad esserci la
+foresta e dall'altro le acque del lago.. In effetti pero' le acque ora sono un
+misto di oro e rame, forse anche la temperatura e' leggermente mutata,
+spostandosi a nord sembra fare piu' caldo mentre ad ovest la temperatura si
+abbassa.
+~
+0 0 3 0 0 0
+D0
+~
+~
+0 0 562 0
+D3
+~
+~
+0 0 564 0
+S
+#564
+La sponda autunno~
+Sei sulla sponda di un grande lago: un leggero vento porta aria fresca che ti
+fa rabbrividire per un attimo, un tappeto di erba dorata ricopre la terra
+lambita da acque color rame. Gli alberi hanno assunto i colori dell'autunno
+caldi e rilassanti, mentre miriadi di foglie cullate dal vento sembrano mille
+farfalle colorate. Guardi il paesaggio e noti che e' davvero strano: ogni
+sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci
+perenni, da un altro vi e' una spiaggetta dove noti gente prendere il sole e
+da un altro ancora trionfano i colori della primavera.. Esattamente al centro
+del lago invece cresce un albero, il piu' grande che ti sia mai capitato di
+vedere..
+~
+0 0 3 0 0 0
+D1
+~
+~
+0 0 563 0
+D3
+~
+~
+0 0 565 0
+S
+#565
+La sponda autunno~
+Sei sulla sponda di un grande lago: un leggero vento porta aria fresca che ti
+fa rabbrividire per un attimo, un tappeto di erba dorata ricopre la terra
+lambita da acque color rame. Gli alberi hanno assunto i colori dell'autunno
+caldi e rilassanti, mentre miriadi di foglie cullate dal vento sembrano mille
+farfalle colorate. Guardi il paesaggio e noti che e' davvero strano: ogni
+sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci
+perenni, da un altro vi e' una spiaggetta dove noti gente prendere il sole e
+da un altro ancora trionfano i colori della primavera.. Esattamente al centro
+del lago invece cresce un albero, il piu' grande che ti sia mai capitato di
+vedere..
+~
+0 0 3 0 0 0
+D1
+~
+~
+0 0 564 0
+D3
+~
+~
+0 0 566 0
+S
+#566
+La sponda autunno~
+Sei sulla sponda di un grande lago: un leggero vento porta aria fresca che ti
+fa rabbrividire per un attimo, un tappeto di erba dorata ricopre la terra
+lambita da acque color rame. Gli alberi hanno assunto i colori dell'autunno
+caldi e rilassanti, mentre miriadi di foglie cullate dal vento sembrano mille
+farfalle colorate. Guardi il paesaggio e noti che e' davvero strano: ogni
+sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci
+perenni, da un altro vi e' una spiaggetta dove noti gente prendere il sole e
+da un altro ancora trionfano i colori della primavera.. Esattamente al centro
+del lago invece cresce un albero, il piu' grande che ti sia mai capitato di
+vedere..
+~
+0 0 3 0 0 0
+D1
+~
+~
+0 0 565 0
+D3
+~
+~
+0 0 567 0
+D0
+~
+~
+0 0 588 0
+S
+#567
+La sponda autunno~
+Sei sulla sponda di un grande lago: un leggero vento porta aria fresca che ti
+fa rabbrividire per un attimo, un tappeto di erba dorata ricopre la terra
+lambita da acque color rame. Gli alberi hanno assunto i colori dell'autunno
+caldi e rilassanti, mentre miriadi di foglie cullate dal vento sembrano mille
+farfalle colorate. Guardi il paesaggio e noti che e' davvero strano: ogni
+sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci
+perenni, da un altro vi e' una spiaggetta dove noti gente prendere il sole e
+da un altro ancora trionfano i colori della primavera.. Esattamente al centro
+del lago invece cresce un albero, il piu' grande che ti sia mai capitato di
+vedere..
+~
+0 0 3 0 0 0
+D1
+~
+~
+0 0 566 0
+D3
+~
+~
+0 0 568 0
+S
+#568
+La sponda autunno~
+Sei sulla sponda di un grande lago: un leggero vento porta aria fresca che ti
+fa rabbrividire per un attimo, un tappeto di erba dorata ricopre la terra
+lambita da acque color rame. Gli alberi hanno assunto i colori dell'autunno
+caldi e rilassanti, mentre miriadi di foglie cullate dal vento sembrano mille
+farfalle colorate. Guardi il paesaggio e noti che e' davvero strano: ogni
+sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e ghiacci
+perenni, da un altro vi e' una spiaggetta dove noti gente prendere il sole e
+da un altro ancora trionfano i colori della primavera.. Esattamente al centro
+del lago invece cresce un albero, il piu' grande che ti sia mai capitato di
+vedere..
+~
+0 0 3 0 0 0
+D1
+~
+~
+0 0 567 0
+D3
+~
+~
+0 0 569 0
+S
+#569
+La sponda del cambio stagione~
+Senti subito che cambia qualcosa, eppure da un lato continua ad esserci la
+foresta e dall'altro le acque del lago.. In effetti pero' le acque ramate ora
+sono ghiacciate, forse anche la temperatura e' leggermente mutata,
+spostandosi a nord sembra fare piu' freddo mentre ad est la temperatura si
+alza.
+~
+0 0 3 0 0 0
+D1
+~
+~
+0 0 568 0
+D0
+~
+~
+0 0 570 0
+S
+#570
+La sponda inverno~
+Sei sulla sponda di un grande lago, e' molto freddo e ogni cosa e' ricoperta
+da candida neve, piccoli ghiaccioli si sono formati sui rami spogli degli
+alberi, mentre il verde dei pini dona un tono di colore al luogo. Semplici
+sentieri, scavati per facilitare il passaggio, interrompono il niveo tappeto,
+mentreil ghiaciodelle acque raggiunge l'albero al centro del lago..e' il piu'
+grande albero che tu abbia mai visto. Guardando il paesaggio noti che ogni
+sponda ricrea una stagione diversa, cosi', da un lato spicca la poesia
+dell'autunno, da un altro vi e' una spiaggetta dove della gente prendere il
+sole e da un altro ancora trionfano i colori della primavera..
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 569 0
+D0
+~
+~
+0 0 571 0
+S
+#571
+La sponda inverno~
+Sei sulla sponda di un grande lago, e' molto freddo e ogni cosa e' ricoperta
+da candida neve, piccoli ghiaccioli si sono formati sui rami spogli degli
+alberi, mentre il verde dei pini dona un tono di colore al luogo. Semplici
+sentieri, scavati per facilitare il passaggio, interrompono il niveo tappeto,
+mentreil ghiaciodelle acque raggiunge l'albero al centro del lago..e' il piu'
+grande albero che tu abbia mai visto. Guardando il paesaggio noti che ogni
+sponda ricrea una stagione diversa, cosi', da un lato spicca la poesia
+dell'autunno, da un altro vi e' una spiaggetta dove della gente prendere il
+sole e da un altro ancora trionfano i colori della primavera..
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 570 0
+D0
+~
+~
+0 0 572 0
+S
+#572
+La sponda inverno~
+Sei sulla sponda di un grande lago, e' molto freddo e ogni cosa e' ricoperta
+da candida neve, piccoli ghiaccioli si sono formati sui rami spogli degli
+alberi, mentre il verde dei pini dona un tono di colore al luogo. Semplici
+sentieri, scavati per facilitare il passaggio, interrompono il niveo tappeto,
+mentreil ghiaciodelle acque raggiunge l'albero al centro del lago..e' il piu'
+grande albero che tu abbia mai visto. Guardando il paesaggio noti che ogni
+sponda ricrea una stagione diversa, cosi', da un lato spicca la poesia
+dell'autunno, da un altro vi e' una spiaggetta dove della gente prendere il
+sole e da un altro ancora trionfano i colori della primavera..
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 571 0
+D0
+~
+~
+0 0 573 0
+D1
+~
+~
+0 0 592 0
+S
+#573
+La sponda inverno~
+Sei sulla sponda di un grande lago, e' molto freddo e ogni cosa e' ricoperta
+da candida neve, piccoli ghiaccioli si sono formati sui rami spogli degli
+alberi, mentre il verde dei pini dona un tono di colore al luogo. Semplici
+sentieri, scavati per facilitare il passaggio, interrompono il niveo tappeto,
+mentreil ghiaciodelle acque raggiunge l'albero al centro del lago..e' il piu'
+grande albero che tu abbia mai visto. Guardando il paesaggio noti che ogni
+sponda ricrea una stagione diversa, cosi', da un lato spicca la poesia
+dell'autunno, da un altro vi e' una spiaggetta dove della gente prendere il
+sole e da un altro ancora trionfano i colori della primavera..
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 572 0
+D0
+~
+~
+0 0 574 0
+S
+#574
+La sponda inverno~
+Sei sulla sponda di un grande lago, e' molto freddo e ogni cosa e' ricoperta
+da candida neve, piccoli ghiaccioli si sono formati sui rami spogli degli
+alberi, mentre il verde dei pini dona un tono di colore al luogo. Semplici
+sentieri, scavati per facilitare il passaggio, interrompono il niveo tappeto,
+mentreil ghiaciodelle acque raggiunge l'albero al centro del lago..e' il piu'
+grande albero che tu abbia mai visto. Guardando il paesaggio noti che ogni
+sponda ricrea una stagione diversa, cosi', da un lato spicca la poesia
+dell'autunno, da un altro vi e' una spiaggetta dove della gente prendere il
+sole e da un altro ancora trionfano i colori della primavera..
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 573 0
+D0
+~
+~
+0 0 575 0
+S
+#575
+La sponda del cambio stagione~
+Senti subito che cambia qualcosa, eppure da un lato continua ad esserci la
+foresta e dall'altro ile acque del lago.. La foresta e' un po' innevata,
+qualche germoglio fa capolino, qualche ciuffo di erba verde spunta dalla neve
+chiazzata di terra, le acque dal colore argenteo sono ricoperte da un sottile
+strato di ghiaccio, forse anche la temperatura e' leggermente mutata,
+spostandosi a sud sembra fare piu' freddo mentre ad est la temperatura diviene
+mite.
+~
+0 0 3 0 0 0
+D2
+~
+~
+0 0 574 0
+D1
+~
+~
+0 0 576 0
+S
+#576
+La sponda primavera~
+Sei sulla sponda di un grande lago, la temperatura e' mite, un tappeto di
+verdissima erba ricopre la terra lambita da acque color argento, mentre
+numerosi fiori crescono spontanei e i loro profumi inebrianti sembrano
+infondere nuova energia. Guardi il paesaggio e noti che e' davvero strano:
+ogni sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e
+ghiacci perenni, da un altro vi e' una spiaggetta dove noti gente prendere il
+sole e da un altro ancora trionfano i colori dell'autunno.. Esattamente al
+centro del lago invece cresce un albero, il piu' grande che ti sia mai
+capitato di vedere..
+~
+0 0 3 0 0 0
+D3
+~
+~
+0 0 575 0
+D1
+~
+~
+0 0 577 0
+S
+#577
+La sponda primavera~
+Sei sulla sponda di un grande lago, la temperatura e' mite, un tappeto di
+verdissima erba ricopre la terra lambita da acque color argento, mentre
+numerosi fiori crescono spontanei e i loro profumi inebrianti sembrano
+infondere nuova energia. Guardi il paesaggio e noti che e' davvero strano:
+ogni sponda ricrea una stagione diversa, cosi', da un lato vi sono neve e
+ghiacci perenni, da un altro vi e' una spiaggetta dove noti gente prendere il
+sole e da un altro ancora trionfano i colori dell'autunno.. Esattamente al
+centro del lago invece cresce un albero, il piu' grande che ti sia mai
+capitato di vedere..
+~
+0 0 3 0 0 0
+D3
+~
+~
+0 0 576 0
+D1
+~
+~
+0 0 554 0
+S
+#578
+Sull'acqua d'argento ghiacciato~
+Qui le acque color argento si coprono di un sottile strato di ghiaccio, alcuni
+pesci continuano a nuotare non troppo lontano da te, si muovono in branchi,
+sono piccoli, sottili e allungati e sembrano emanare una luminescenza
+bluastra. Il paesaggio delle quattro stagioni continua ad essere sempre lo
+stesso.. ogni sponda sembra proprio mantenersi eternamente uguale offrendo uno
+spettacolo di colori e incanto.
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 579 0
+D2
+~
+~
+0 0 593 0
+S
+#579
+Sull'acqua argentata~
+L'acqua sembra argento fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione argentata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altrisono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino.
+~
+0 0 6 0 0 0
+D3
+~
+~
+0 0 578 0
+D1
+~
+~
+0 0 580 0
+D2
+~
+~
+0 0 594 0
+S
+#580
+Sull'acqua argentata~
+L'acqua sembra argento fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione argentata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altrisono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino.
+~
+0 0 6 0 0 0
+D3
+~
+~
+0 0 579 0
+D1
+~
+~
+0 0 581 0
+D2
+~
+~
+0 0 595 0
+D0
+~
+~
+0 0 554 0
+S
+#581
+Sull'acqua argentata~
+L'acqua sembra argento fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione argentata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altrisono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino.
+~
+0 0 6 0 0 0
+D3
+~
+~
+0 0 580 0
+D1
+~
+~
+0 0 582 0
+D2
+~
+~
+0 0 596 0
+S
+#582
+Sull'acqua argento-oro~
+Qui  acque color argento si mescolano con quelle color oro e danno vita ad
+uno scpendido gioco di riflessi e mulinelli argento-dorati, alcuni pesci
+continuano a nuotare non troppo lontano da te, sembrano trote, ma alcuni
+hanno scaglie color argento altri color oro. Il paesaggio delle quattro
+stagioni continua ad essere sempre lo stesso.. ogni sponda sembra proprio
+mantenersi eternamente uguale offrendo uno spettacolo di colori e incanto.
+~
+0 0 6 0 0 0
+D3
+~
+~
+0 0 581 0
+D2
+~
+~
+0 0 583 0
+S
+#583
+Sull'acqua dorata~
+L'acqua sembra oro fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione dorata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 582 0
+D2
+~
+~
+0 0 584 0
+D3
+~
+~
+0 0 596 0
+S
+#584
+Sull'acqua dorata~
+L'acqua sembra oro fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione dorata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 583 0
+D2
+~
+~
+0 0 585 0
+D3
+~
+~
+0 0 597 0
+D1
+~
+~
+0 0 560 0
+S
+#585
+Sull'acqua dorata~
+L'acqua sembra oro fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione dorata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 584 0
+D2
+~
+~
+0 0 586 0
+D3
+~
+~
+0 0 598 0
+S
+#586
+Sull'acqua dorato-ramata~
+Qui acque color oro si mescolano con acque color rame e danno vita ad
+uno scpendido gioco di riflessi e mulinelli dorato-ramati, alcuni pesci
+continuano a nuotare non troppo lontano da te, non capisci di che razza sono,
+ma sono colorati, poi un grosso pesce attira le tua attenzione !! Il paesaggio
+delle quattro stagioni continua ad essere sempre lo stesso.. ogni sponda
+sembra proprio mantenersi eternamente uguale offrendo uno spettacolo di colori
+e incanto.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 585 0
+D3
+~
+~
+0 0 587 0
+E
+pesce~
+Sembra una palla ed e' rossissimo, le pinne sembrano piccole piccole a
+confronto della grandezza del pesce, ma la coda e' lunga e voluminosa e ti
+affascina per le calde sfumature rosse, arancioni e gialle. Gli occhi
+nerissimi del pesce sembrano guardarti per un attimo, poi con compostezza e
+calma egli si allontana..
+~
+S
+#587
+Sull'acqua ramata~
+L'acqua sembra rame fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione ramata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 586 0
+D3
+~
+~
+0 0 588 0
+D0
+~
+~
+0 0 598 0
+S
+#588
+Sull'acqua ramata~
+L'acqua sembra rame fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione ramata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 587 0
+D3
+~
+~
+0 0 589 0
+D0
+~
+~
+0 0 599 0
+D2
+~
+~
+0 0 566 0
+S
+#589
+Sull'acqua ramata~
+L'acqua sembra rame fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione ramata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 588 0
+D3
+~
+~
+0 0 590 0
+D0
+~
+~
+0 0 600 0
+S
+#590
+Sull'acqua di rame ghiacciato~
+Qui le acque color rame si coprono di un sottile strato di ghiaccio, alcuni
+pesci continuano a nuotare non troppo lontano, si muovono in branchi, sono
+grandi come tonni, sono sottili e allungati ed emanano una luminescenza
+verdastra. Il paesaggio delle quattro stagioni continua ad essere sempre lo
+stesso.. ogni sponda sembra proprio mantenersi eternamente uguale offrendo uno
+spettacolo di colori e incanto.
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 589 0
+D0
+~
+~
+0 0 591 0
+S
+#591
+Sull'acqua ghiacciata~
+L'acqua e' ricoperta da uno spesso strato di ghiaccio bianco celeste e,
+guardando meglio, vedi strane sagome nuotare al di sotto del ghiaccio. A un
+tratto noti un buco circolare nella superfice ghiacciata e, accanto ad esso,
+trovi un secchio pieno di pesci insieme ai vari attrezzi utili per la pesca.
+Da qui puoi ben vedere il paesaggio che ti offrono le sponde delle quattro
+stagioni, mentre l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D2
+~
+~
+0 0 587 0
+D0
+~
+~
+0 0 592 0
+D1
+~
+~
+0 0 600 0
+S
+#592
+Sull'acqua ghiacciata~
+L'acqua e' ricoperta da uno spesso strato di ghiaccio bianco celeste e,
+guardando meglio, vedi strane sagome nuotare al di sotto del ghiaccio.
+Da qui puoi ben vedere il paesaggio che ti offrono le sponde delle quattro
+stagioni, mentre l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D2
+~
+~
+0 0 591 0
+D0
+~
+~
+0 0 593 0
+D1
+~
+~
+0 0 601 0
+D3
+~
+~
+0 0 572 0
+S
+#593
+Sull'acqua ghiacciata~
+L'acqua e' ricoperta da uno spesso strato di ghiaccio bianco celeste e,
+guardando meglio, vedi strane sagome nuotare al di sotto del ghiaccio.
+Da qui puoi ben vedere il paesaggio che ti offrono le sponde delle quattro
+stagioni, mentre l'albero al centro del lago si fa piu' vicino..
+~
+0 0 6 0 0 0
+D2
+~
+~
+0 0 592 0
+D0
+~
+~
+0 0 578 0
+D1
+~
+~
+0 0 594 0
+S
+#594
+Sull'acqua d'argento ghiacciato~
+Qui le acque color argento si coprono di un sottile strato di ghiaccio, alcuni
+pesci continuano a nuotare non troppo lontano, si muovono in branchi,
+sono piccoli, sottili e allungati e sembrano emanare una luminescenza
+bluastra. Il paesaggio delle quattro stagioni continua ad essere sempre lo
+stesso.. ogni sponda sembra proprio mantenersi eternamente uguale offrendo uno
+spettacolo di colori e incanto.
+~
+0 0 6 0 0 0
+D3
+~
+~
+0 0 593 0
+D0
+~
+~
+0 0 579 0
+D1
+~
+~
+0 0 595 0
+D2
+~
+~
+0 0 601 0
+S
+#595
+Il ponticello~
+Un grazioso ponticello di legno e' sorretto magicamente, infatti fluttua a
+pochi centimetri sopra le acque del lago che da argento ghiacciato si
+sciolgono in argento per tramutarsi in oro..chissa' cosa sara' a dare questa
+strana colorazione all'acqua? Da un lato del ponticello vedi una grande foglia
+verde smeraldo che prende la forma di una barchetta, dall'altro lato puoi
+raggiungere l'enorme albero che ti sovrasta imponente e noti che sul tronco e'
+stata messa una .. porta!
+~
+0 0 0 0 0 0
+D0
+~
+~
+1 0 580 0
+D1
+~
+~
+0 0 596 0
+D2
+~
+~
+1 0 602 0
+D3
+~
+~
+0 0 594 0
+S
+#596
+Sull'acqua argento-oro~
+Qui le acque color argento si mescolano con quelle color oro e danno vita ad
+uno scpendido gioco di riflessi e mulinelli argento-dorati, alcuni pesci dalle
+strane forme continuano a nuotare non troppo lontano. Il paesaggio delle
+quattro stagioni continua ad essere sempre lo stesso.. ogni sponda sembra
+proprio mantenersi eternamente uguale offrendo uno spettacolo di colori e
+incanto.
+~
+0 0 6 0 0 0
+D3
+~
+~
+0 0 595 0
+D0
+~
+~
+0 0 581 0
+D1
+~
+~
+0 0 583 0
+D2
+~
+~
+0 0 597 0
+E
+pesci~
+alcuni sono rotondi e ciccioni, altri sembrano quadrati, alcuni triangolari..
+uno sembra quasi un panino ripieno per i suoi colori, uno ha un paio di
+lunghissimi baffi neri, un'altro sembra un riccio sottomarino un'altro.. hei!
+mq quello che hai visto non era un pesce: ti e' sembrato di vedere un umanoide
+nuotare, ma forse aveva la coda di un pesce forse..
+~
+S
+#597
+Sull'acqua dorata~
+L'acqua sembra oro fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione dorata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago ti e' tanto vicino che potresti riuscire a
+toccarlo..
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 596 0
+D2
+~
+~
+0 0 598 0
+D1
+~
+~
+0 0 584 0
+E
+albero~
+ti sovrasta imponente, il suo tronco marrone e' massiccio e resistente, ci
+vorrebbero una decina di grossi uomini per abbracciarlo tutto, la chioma e'
+folta e rigogliosa, le foglie sempreverdi sono grandi poco piu' di un umano.
+Sul tronco vedi anche .. delle finestre!
+~
+S
+#598
+Sull'acqua dorato-ramata~
+Qui acque color oro si mescolano con acque color rame e danno vita ad
+uno scpendido gioco di riflessi e mulinelli dorato-ramati, alcuni pesci
+continuano a nuotare non troppo lontano da te. Il paesaggio delle quattro
+stagioni continua ad essere sempre lo stesso.. ogni sponda sembra proprio
+mantenersi eternamente uguale offrendo uno spettacolo di colori e incanto.
+~
+0 0 6 0 0 0
+D0
+~
+~
+0 0 597 0
+D3
+~
+~
+0 0 599 0
+D1
+~
+~
+0 0 585 0
+D2
+~
+~
+0 0 587 0
+S
+#599
+Sull'acqua ramata~
+L'acqua sembra rame fuso, ma se ci immergi una mano ti acorgi che e'
+normalissima acqua, probabilmente sul fondo c'e' qualcosa che le da questa
+colorazione ramata. Qualche pesce ti passa accanto: riconosci una trota, ma
+altri sono razze sconosciute dalle variopinte colorazioni. Da qui puoi ben
+vedere il paesaggio che ti offrono le sponde delle quattro stagioni, mentre
+l'albero al centro del lago ti e' tanto vicino che potresti riuscire a
+toccarlo..
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 598 0
+D3
+~
+~
+0 0 600 0
+D2
+~
+~
+0 0 588 0
+E
+albero~
+ti sovrasta imponente, il suo tronco marrone e' massiccio e resistente, ci
+vorrebbero una decina di grossi uomini per abbracciarlo tutto, la chioma e'
+folta e rigogliosa, le foglie sempreverdi sono grandi poco piu' di un umano.
+Sul tronco vedi anche .. delle finestre!
+~
+S
+#600
+Sull'acqua di rame ghiacciato~
+Qui le acque color rame si coprono di un sottile strato di ghiaccio, alcuni
+pesci continuano a nuotare non troppo lontano, si muovono in branchi, sono
+grandi come tonni, sono sottili e allungati ed emanano una luminescenza
+verdastra. Il paesaggio delle quattro stagioni continua ad essere sempre lo
+stesso.. ogni sponda sembra proprio mantenersi eternamente uguale offrendo uno
+spettacolo di colori e incanto.
+~
+0 0 6 0 0 0
+D1
+~
+~
+0 0 599 0
+D0
+~
+~
+0 0 601 0
+D3
+~
+~
+0 0 591 0
+D2
+~
+~
+0 0 589 0
+S
+#601
+Sull'acqua ghiacciata~
+L'acqua e' ricoperta da uno spesso strato di ghiaccio bianco celeste e,
+guardando meglio, vedi strane sagome nuotare al di sotto del ghiaccio.
+Da qui puoi ben vedere il paesaggio che ti offrono le sponde delle quattro
+stagioni, mentre l'albero al centro del lago ti e' tanto vicino che potresti
+riuscire a toccarlo..
+~
+0 0 6 0 0 0
+D2
+~
+~
+0 0 600 0
+D0
+~
+~
+0 0 594 0
+D3
+~
+~
+0 0 592 0
+E
+albero~
+ti sovrasta imponente, il suo tronco marrone e' massiccio e resistente, ci
+vorrebbero una decina di grossi uomini per abbracciarlo tutto, la chioma e'
+folta e rigogliosa, le foglie sempreverdi sono grandi poco piu' di un umano.
+Sul tronco vedi anche .. delle finestre!
+~
+S
+#602
+L'ingresso~
+Ti trovi in una stanza circolare non troppo grande, alcune candele che mai
+sembrano consumarsi ti fluttuano sopra la testa diffondendo la loro tenue
+luce, sulla parete ci sono appesi due grossi quadri mentre un'altra parete si
+apre lasciando libero passaggio per i piani superiori.
+~
+0 0 0 0 0 0
+D0
+~
+~
+1 0 595 0
+D4
+~
+~
+0 0 603 0
+D5
+~
+~
+1 0 613 0
+S
+#603
+Le scale~
+Cammini su delle scale intagliate nel legno, come di legno sono le pareti,
+salgono a chiocciola per condurti ancor piu' in alto. Le magiche candele
+fluttuati che mai si consumano sono anche qui e continuano ad emanare la loro
+tenue luce per illuminare l'ambiente.
+~
+0 0 0 0 0 0
+D4
+~
+~
+0 0 604 0
+D5
+~
+~
+0 0 602 0
+S
+#604
+Le scale~
+Cammini su delle scale intagliate nel legno, come di legno sono le pareti,
+salgono a chiocciola per condurti ancor piu' in alto. Le magiche candele
+fluttuati che mai si consumano sono anche qui e continuano ad emanare la loro
+tenue luce per illuminare l'ambiente.
+~
+0 0 0 0 0 0
+D5
+~
+~
+0 0 603 0
+D4
+~
+~
+0 0 605 0
+S
+#605
+La sala~
+Sei in una sala quadtrata ben arredata, le pareti sono di legno e le candele
+magiche qui non ci sono. Il fuocherello di un caminetto acceso scoppietta
+allegramente e riscalda la stanza, non ci sono finestre, ma molte porte e
+numerosi quadri le sostutuiscono: le porte lasciano arrivare la luce dalle
+altre stanze, mentre i quadri sembrano davvero molto strani. Una piccola
+scaletta di legno conduce al piano superiore.
+~
+0 0 0 0 0 0
+D0
+~
+~
+1 0 609 0
+D2
+~
+~
+1 0 606 0
+D3
+~
+~
+1 0 607 0
+D1
+~
+~
+1 0 608 0
+D4
+~
+~
+0 0 610 0
+D5
+~
+~
+0 0 604 0
+E
+montagna~
+sei sulla cima di una montagna e sotto di te un paesaggio ricco di monti verdi
+e bianchi che si stendono fino all'orizzonte.. il sole tramonta e le nuvole
+giocano tra le vette innevate..
+~
+E
+mare~
+una distesa di mare si apre davanti ai tuoi occhi, la luna piena e' alta in
+cielo che si riflette sulle acque .. ti sembra di sentire le onde infrangersi
+su una scogliera e il profumo di mare raggiunge le tue narici
+~
+E
+quadri~
+grandi quando una semplice finestra sembrano proprio darti l'impressione che
+stai guardando dal vivo quei paesaggi ritratti: un paesaggio di mare e uno di
+montagna..
+~
+S
+#606
+La sala da pranzo~
+Sei nella sala da pranzo un lungo tavolo e' posto proprio al centro della
+stanza dalle pareti piene di ritratti di animali delle foresta, sia feroci che
+teneri e innoqui. Le candele dei candelabri fanno luce, mentre una grande
+finestra si affaccia sulla sponda dell'autunno.
+~
+0 0 0 0 0 0
+D0
+~
+~
+1 0 605 0
+S
+#607
+La cucina~
+E' una piccola stanza semplicemente arredata, un recipiente concavo fatto di
+ceramica e' attaccato ad una parete e sorretto da quello che sembra un tubo,
+sopra il recipiente sempre attaccato al muro c'e' un altro tubicino dal quale
+gocciola un po' d'acqua. Poco piu' in la' vedi un mobile sopra il quale sono
+state messe quattro piccole lampade davvero strane, mentre un forno a legna e'
+costruito su una parete. Un grande finestrone si affaccia sulla sponda
+dell'inverno.
+~
+0 0 0 0 0 0
+D1
+~
+~
+1 0 605 0
+E
+lampade~
+riconosci che sono lampade ad olio saldamente attaccate alla superfice del
+mobile che risulta un po' bruciacchiato. Sono pero' molto piu' piccole del
+normale, hanno la forma di un cono a cui l'estremita' e' stata tagliata,
+mentre dalla base parte un braccio metallico a forma di C alla cui estremita'
+superiore e' stato aggiunto un anello dello stesso materiale..chissa' a cosa
+puo' servire questa strana costruzione..
+~
+S
+#608
+La camera degli ospiti~
+Grande e spaziosa ha forma rettangolare, il letto sembra molto comodo mentre
+le pareti sono per lo piu' coperte dagli altri mobili. Delle tende di velluto
+verde smeraldo nascondono quasi completamente leggere tendine bianche ricche
+di ricami floreali, mentre dalla finestra lo sguardo spazia dalla poesia della
+sponda della primavera, alla sponda dell'estate fino ai caldi colori della
+sponda dell'autunno.
+~
+0 0 0 0 0 0
+D2
+~
+~
+1 0 612 0
+D3
+~
+~
+1 0 605 0
+S
+#609
+La camera di Silf~
+Grande e spaziosa ha forma rettangolare, il letto sembra molto comodo mentre
+le pareti sono per lo piu' coperte dagli altri mobili. Delle tende di velluto
+blu nascondono quasi completamente leggere tendine bianche ricche di ricami
+floreali, mentre dalla finestra lo sguardo spazia dal caldo estivo, allo
+spettacolo rigoglioso della primavera per arrivare a paesaggio innevato e
+ghiacciato dell'inverno. Alzando lo sguardo sul soffitto vedi disegnate una
+miriade di stelline, queste durante la notte si illuminano e ti sembra di
+guardare un reale cielo sereno notturno.
+~
+0 0 0 0 0 0
+D2
+~
+~
+1 0 605 0
+D3
+~
+~
+1 0 611 0
+S
+#610
+Il balcone~
+Sei sul balcone, non c'e' la ringhiera ma solo i rami dell'albero, sopra la
+tua testa la chioma dell'albero e' talmente folta e le foglie talmente grandi
+che anche il piu' forte acquazzone non riuscirebbe a far passare nemmeno una
+goccia di pioggia. Quando pero' il cielo e' sereno le grandi foglie si
+chiudono addossandosi ai rami e ti lasciano godere l'intero spettacolo del
+cielo e dele sponde delle stagioni: cosi' ad ovest vedi il brillante paesaggio
+innevato con i suoi ghiacci che lentamente passa ai vivaci colori della
+primavera con le acque argentate.. ad est la sponda dell'estate quasi ti fa
+venir voglia di andare a fare il bagno in quell'acqua color oro.. infine a sud
+dall'oro al rame e una distesa di alberi dai caldi colori, foglie che cadono
+come farfalle quasi ti invitano alla concentrazione e alla meditazione..
+~
+0 0 0 0 0 0
+D5
+~
+~
+0 0 605 0
+S
+#611
+Un bagnetto~
+Un bagnetto piccolo ma grazioso, una vasca con doccia e' posta da un lato
+dell'atro trovi il lavandino.. un finestrella con leggere tendine bianche
+ricamate da sulla sponda dell'inverno.
+~
+0 0 0 0 0 0
+D1
+~
+~
+1 0 609 0
+S
+#612
+Il bagnetto degli ospiti~
+Un bagnetto piccolo ma grazioso, una vasca con doccia e' posta da un lato
+dell'atro trovi il lavandino.. un finestrella con leggere tendine bianche
+ricamate da sulla sponda dell'autunno.
+~
+0 0 0 0 0 0
+D0
+~
+~
+1 0 608 0
+S
+#613
+Il laboratorio di Silf~
+E' una stanza davvero grande di forma circolare, piena di tavoli stracolmi di
+strani oggetti, ampolle, fiale, lampade grandi e piccole, pentole, pentoloni,
+fogli di appunti e libri. Un grande tavolo in particolare e' ricco di una gran
+verieta' di preparati.. chissa' a cosa serve tutta quella roba alchemica. Un
+forte odore di erbe impregna l'ambiente, non ci sono finestre, mentre le
+pareti sono fatte di un materiale a prima vista molto resistente che tu
+riconosci come mitrhil.Una scaletta di legno conduce alla botola sul soffitto.
+~
+0 0 0 0 0 0
+D4
+~
+~
+1 0 602 0
+S
+#0
+
+#RESETS
+P 0 572 1 573  ; Put: #9922 delle bacche nere => #9923 un lungo tavolo
+P 0 571 1 573  ; Put: #9921 un impasto di erbe => #9923 un lungo tavolo
+P 0 570 1 573  ; Put: #9920 un ampolla verde => #9923 un lungo tavolo
+P 0 569 1 573  ; Put: #9919 un ampolla blu => #9923 un lungo tavolo
+P 0 568 1 573  ; Put: #9918 un ampolla bianca => #9923 un lungo tavolo
+D 0 550 5 1  ; Door: #9900 In discesa nella foresta/Down => Bad lock
+D 0 551 4 1  ; Door: #9901 In discesa nella foresta/Up => Bad lock
+D 0 602 0 1  ; Door: #9952 L'ingresso/North => Bad lock
+D 0 595 2 1  ; Door: #9945 Il ponticello/South => Bad lock
+D 0 605 0 1  ; Door: #9955 La sala/North => Bad lock
+D 0 605 1 1  ; Door: #9955 La sala/East => Bad lock
+D 0 605 2 1  ; Door: #9955 La sala/South => Bad lock
+D 0 605 3 1  ; Door: #9955 La sala/West => Bad lock
+D 0 606 0 1  ; Door: #9956 La sala da pranzo/North => Bad lock
+D 0 607 1 1  ; Door: #9957 La cucina/East => Bad lock
+D 0 608 3 1  ; Door: #9958 La camera degli ospiti/West => Bad lock
+D 0 608 2 1  ; Door: #9958 La camera degli ospiti/South => Bad lock
+D 0 609 2 1  ; Door: #9959 La camera di Silf/South => Bad lock
+D 0 609 3 1  ; Door: #9959 La camera di Silf/West => Bad lock
+D 0 611 1 1  ; Door: #9961 Un bagnetto/East => Bad lock
+D 0 612 0 1  ; Door: #9962 Il bagnetto degli ospiti/North => Bad lock
+D 0 551 3 1  ; Door: #9901 In discesa nella foresta/West => Bad lock
+D 0 552 1 1  ; Door: #9902 Nel folto della foresta/East => Bad lock
+D 0 552 3 1  ; Door: #9902 Nel folto della foresta/West => Bad lock
+D 0 553 1 1  ; Door: #9903 Nel folto della foresta/East => Bad lock
+O 0 552 1 608  ; Object: #9902 Un letto a baldacchino => #9958 La camera degli ospiti
+O 0 553 1 609  ; Object: #9903 un letto a due piazze => #9959 La camera di Silf
+O 0 554 1 608  ; Object: #9904 Un armadio a due ante => #9958 La camera degli ospiti
+O 0 554 1 609  ; Object: #9904 Un armadio a due ante => #9959 La camera di Silf
+O 0 556 1 608  ; Object: #9906 una libreria => #9958 La camera degli ospiti
+O 0 557 1 605  ; Object: #9907 un divano => #9955 La sala
+O 0 558 1 605  ; Object: #9908 un tavolino => #9955 La sala
+O 0 559 1 606  ; Object: #9909 un tavolo => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 560 1 606  ; Object: #9910 una sedia di legno => #9956 La sala da pranzo
+O 0 556 1 609  ; Object: #9906 una libreria => #9959 La camera di Silf
+O 0 555 1 605  ; Object: #9905 una grande  libreria => #9955 La sala
+O 0 562 1 609  ; Object: #9912 un mobile con vari cassetti => #9959 La camera di Silf
+O 0 561 1 609  ; Object: #9911 un cassettone => #9959 La camera di Silf
+O 0 562 1 608  ; Object: #9912 un mobile con vari cassetti => #9958 La camera degli ospiti
+O 0 561 1 608  ; Object: #9911 un cassettone => #9958 La camera degli ospiti
+O 0 564 1 609  ; Object: #9914 un candelabro d'argento => #9959 La camera di Silf
+O 0 564 1 609  ; Object: #9914 un candelabro d'argento => #9959 La camera di Silf
+O 0 564 1 606  ; Object: #9914 un candelabro d'argento => #9956 La sala da pranzo
+O 0 564 1 606  ; Object: #9914 un candelabro d'argento => #9956 La sala da pranzo
+O 0 564 1 606  ; Object: #9914 un candelabro d'argento => #9956 La sala da pranzo
+O 0 564 1 606  ; Object: #9914 un candelabro d'argento => #9956 La sala da pranzo
+O 0 564 1 605  ; Object: #9914 un candelabro d'argento => #9955 La sala
+O 0 564 1 605  ; Object: #9914 un candelabro d'argento => #9955 La sala
+O 0 564 1 608  ; Object: #9914 un candelabro d'argento => #9958 La camera degli ospiti
+O 0 564 1 608  ; Object: #9914 un candelabro d'argento => #9958 La camera degli ospiti
+M 0 550 1 592  ; Mob: #9900 un gruppo di fatine => #9942 Sull'acqua ghiacciata
+M 0 551 1 592  ; Mob: #9901 un gruppo di folletti => #9942 Sull'acqua ghiacciata
+O 0 565 1 575  ; Object: #9915 Un bucaneve => #9925 La sponda del cambio stagione
+O 0 563 1 602  ; Object: #9913 un alto appediabiti => #9952 L'ingresso
+O 0 566 1 602  ; Object: #9916 un portascarpe => #9952 L'ingresso
+D 0 613 4 1  ; Door: #9963 Il laboratorio di Silf/Up => Bad lock
+D 0 602 5 1  ; Door: #9952 L'ingresso/Down => Bad lock
+O 0 573 1 613  ; Object: #9923 un lungo tavolo => #9963 Il laboratorio di Silf
+S
+
+#SPECIALS
+S
+
+#END

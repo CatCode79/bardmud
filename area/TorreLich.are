@@ -1,0 +1,939 @@
+#AREA
+Name         Torre del Lich~
+Author       Ryzen (Naaril)~
+Color        AT_BLACK nero non-morto~
+LevelRange   20 35
+ResetMsg1    Un urlo di dolore sembra scaturire da sotto i miei piedi..~
+Vnums        29350 29399
+End
+
+
+#MOBILES
+#29350
+Il Cavaliere Spettrale~
+Un Cavaliere Spettrale~
+Lo scheletro rianimato di un cavaliere controlla questa stanza.
+~
+Il Cavaliere Spettrale è un avversario formidabile.  Resuscitato da un potente
+necromante, era il più famoso cavaliere del suo tempo.
+~
+16481 268435456 -750 C
+40 0 0 15d10+1850 4d8+15
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 2047 768 100352 8320 1049884 0
+#29351
+inquisitore~
+L'Inquisitore~
+L'Inquisitore sta preparando i suoi strumenti di tortura.
+~
+Questa creatura malvagia riesce ad apparire più sinistra di uno zombie.
+Si diverte ad usare i suoi poteri magici per tenere in vita le sue vittime
+mentre le tortura così da prolungarela loro sofferenza.
+~
+81923 268435584 -1000 C
+50 0 0 15d10+4250 5d8+19
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 2047 32768 67840 8320 8196 0
+#29352
+demone minore~
+Un Demone Minore~
+Un Demone Minore sogghigna circondato dalle fiamme.
+~
+Un demone dall'aspetto aggressivo  si lamenta tra le fiamme.
+L'evocazione che lo ha attirato deve averlo fatto infuriare.
+I lunghi artigli affilati ti fan venire voglia di fuggire quanto più velocemente
+puoi.
+~
+524291 524288 -1000 C
+50 0 0 15d10+4250 5d8+19
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 2047 100352 128 8448 1196 0
+#29353
+demone maggiore~
+Un Demone Maggiore~
+Un Demone Maggiore fluttua tra le fiamme.
+~
+Un enorme e malvagio demone fluttua tra le fiamme.
+Fornito di ali, zanne, coda, è come hai sempre immaginato che fosse un demone.
+La sua nera pelle squamosa riflette la luce del fuoco mentre i suoi occhi
+ardenti corrompono la tua anima.
+Trema mortale e preparati a morire.
+~
+540675 524416 -1000 C
+65 0 0 50d10+8250 11d5+35
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 0 0 0
+0 0 11636025 1930 67712 8484 5156 0
+#29354
+myzelak lich supremo~
+Myzelak il Lich supremo~
+Myzelak il Lich supremo.
+~
+Incarnazione del male, Myzelak ha passato la sua vita perfezionandosi nella
+stregoneria per garantirsi la vita oltre la morte.
+Ammira il risultato della sua opera, la decadente rappresentazione di ciò che
+era.
+Myzelak ora impiega il suo tempo alla ricerca del modo per distruggere tutta
+la vita in Kerian.
+~
+196611 640 -1000 C
+75 0 0 50d10+11000 9d11+45
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 0 0 0 0 0 0
+0 0 2047 908 0 8192 8992 0
+#29355
+drago spettrale~
+Il Drago Spettrale~
+La mole del Drago Spettrale di Myzelak.
+~
+La mole del Drago Spettrale di Myzelak torreggia su di te.
+Lingue rosso fuoco brillano nelle sue vuote orbite metre ti anellohia contro.
+Lo spettrale drago è mostruoso, faresti bene a scappare prima di essere ucciso.
+~
+540675 524288 -1000 C
+60 0 0 50d10+6750 8d6+28
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+11 0 0 0 0 0 0
+0 0 11636025 1920 0 9248 20524 0
+#29356
+cavaliere spettrale elite~
+Un Cavaliere Spettrale d'Elite~
+Un Cavaliere Spettrale d'Elite grida una bestemmia ed attacca.
+~
+Un enorme figura scheletrica ti aggredisce.
+Egli maneggia un vecchio spadone ricoperto di rune e porta un grande scudo nero
+in squame di drago.
+Assomiglia al Cavaliere Spettrale incontrato prima eccetto che per le dimensioni
+e l'aura di maggior potere.
+~
+540675 0 -900 C
+70 0 0 50d10+9750 8d10+40
+800 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 0 0 0
+0 0 2047 388 0 41600 17708 0
+#0
+
+#OBJECTS
+#29350
+mazza nera~
+una vecchia mazza nera~
+Una vecchia mazza chiodata di acciaio nero giace qui indisturbata~
+~
+5 2 8193 0
+2 6 7 7
+25 1000 0
+#29351
+teschio fiammeggiante~
+un Teschio Fiammeggiante~
+Un teschio umano fluttua davanti a te, circondato da fiamme azzurrine.~
+~
+1 65 16385 0
+0 0 999 0
+5 1000 0
+A
+5 -2
+A
+13 25
+A
+12 25
+A
+18 2
+A
+19 2
+A
+3 2
+#29352
+verga oro~
+Una verga d'oro~
+Nel tesoro c'è anche una piccola bacchetta dorata~
+~
+3 0 16385 0
+50 10 10 81
+3 5000 0
+#29353
+bastone cristallo~
+una bacchetta di cristallo~
+Una meravigliosa bacchetta di cristallo è poggiata sul tesoro.~
+~
+4 64 16385 0
+70 5 5 57
+10 7800 0
+#29354
+granato anello~
+un Anello con Granato~
+Il tesoro comprende anche un piccolo anello con granato.~
+~
+8 65 3 0
+0 0 0 0
+1 900 0
+A
+19 3
+A
+12 50
+A
+3 2
+A
+18 2
+#29355
+parabraccio notte~
+il Bracciali della Notte~
+Un parabraccio nero ricoperto da antiche rune è poggiato qui.~
+~
+9 66 4097 0
+18 18 17 8
+5 1500 0
+A
+18 2
+A
+19 2
+A
+5 1
+#29356
+amuleto notte~
+l'Amuleto della Notte~
+Un antico amuleto risplendente di una innaturale luce azzurrina.~
+~
+9 65 5 0
+21 21 21 10
+3 2000 0
+A
+14 25
+A
+12 50
+A
+3 1
+A
+4 1
+#29357
+antico spadone~
+un Antico Spadone~
+Un Antico Spadone fluttua risplendendo di luce innaturale.~
+~
+5 65 8193 0
+1 10 8 3 136 0
+12 2500 0
+A
+19 3
+A
+18 3
+#29358
+nera squame drago~
+nere squame di drago~
+Nere squame di drago strappate ad una delle bestie spettrali.~
+~
+9 0 513 0
+21 22 21 10
+30 1200 0
+A
+18 3
+A
+19 5
+A
+13 25
+A
+1 2
+A
+3 -2
+#29359
+inferno spada incubo~
+l'Incubo Infernale~
+Forgiata nelle profondità dell'inferno, questa spada dalla lama serpentina
+sembra appena più larga di un kris.
+Pur essendo difficile da maneggiare con maestria è capace di produrre danni
+incredibili.~
+~
+5 4179 8193 0
+0 10 8 10 20 0
+10 5000 0
+A
+2 1
+A
+1 1
+A
+18 5
+A
+19 5
+A
+4 -1
+A
+3 -1
+#29360
+tunica necromante~
+la tunica del necromante~
+Una lunga tunica nera con ricamate lune e stelle di diversi colori e dimensioni.~
+~
+9 64 1025 0
+24 24 24 11
+10 3000 0
+A
+3 3
+A
+12 150
+#29361
+pergamena infinito~
+la Pergamena dell' Infinito~
+Una anticapergamena di cui si narra contenga tutte le risposte a tutte le
+domanda.
+Ma hai come la sensazione che l'ultima creatura in grado di leggerla fosse
+quella che hai appena ucciso.~
+~
+9 67 16385 0
+23 23 24 11
+4 7500 0
+A
+18 2
+A
+19 2
+A
+2 -1
+A
+1 -2
+A
+4 2
+A
+3 2
+A
+13 50
+A
+12 50
+#29362
+pozione argentea~
+una pozione argentea ~
+Una pozione argentea conservata nella scrivania~
+~
+10 65 16385 0
+40 62 34 35 36 0
+2 5400 0
+#29363
+chiave dorata~
+una chiave dorata~
+Una chiave dorata è nascosta nel libro.~
+~
+18 0 1 0
+0 0 0 0
+1 0 0
+#29364
+stivali gallegianti~
+stivali gallegianti~
+Dei vecchi stivali decorati con pesci multicolori sono conservati nell'armadio.~
+~
+22 64 65 0
+0 0 0 0
+5 1000 0
+A
+18 2
+A
+2 1
+A
+17 -5
+#29365
+tunica ladro~
+La tunica del ladro~
+Un camiciotto nero con molte tasche.~
+~
+9 64 9 0
+13 13 12 5
+15 900 0
+A
+18 3
+A
+2 3
+#29366
+carta bianca~
+un pezzo di carta bianca~
+Un pezzo di carta bianca in decomposizione  poggiato su un ripiano.~
+~
+32 0 16385 0
+0 0 0 0 3 0
+1 2000 0
+#29367
+sedia legno~
+una grande sedia di legno~
+Una grande sedia di legno posta a capotavola~
+~
+12 0 0 0
+0 0 0 0
+50 0 0
+#29368
+tavola pranzo~
+una massiccia tavola da pranzo~
+Una massiccia tavola da pranzo~
+~
+12 0 0 0
+0 0 0 0
+100 0 0
+#29369
+libro ripiano libreria~
+u
+na vecchia libreria di legno~
+Una vecchia libreria di legno ricopre la parete orientale~
+~
+15 0 0 0
+10 0 0 0 75 0
+200 0 0
+#29370
+scrivania mogano~
+una grande scrivania in mogano~
+Una grande scrivania in mogano poggiata contro la parete occidentale~
+~
+15 0 0 0
+999 0 22001 499 75 0
+150 0 0
+#29371
+armadio~
+un armadio a muro~
+Un grande armadio, ricavato nella parete.~
+~
+15 0 0 0
+999 0 29363 499 75 0
+999 0 0
+#29372
+grimorio potente~
+un potente grimorio~
+Un antico e potente grimorio ti invita ad aprirlo~
+~
+15 65 0 0
+100 0 0 50 75 0
+50 0 0
+#29373
+croce ossidiana~
+una grande croce di ossidiana~
+Una grande croce di ossidiana~
+~
+12 0 0 0
+0 0 0 0
+200 0 0
+E
+croce~
+"La Torre Spettrale" è stata originariamente creata da Ryzen e solo
+successivamente tradotta da Naaril per Terra Secunda.
+~
+#0
+
+#ROOMS
+#29350
+Davanti alla Torre~
+Sei davanti ad una grande torre nera.
+Il terrore avvinghia il tuo spirito osservando l'oscura costruzione d'ossidiana.
+Le mura stesse della torre irradiano un aura di terrore e malvagità capace
+d'intimorirti.
+Verso nord la strada è bloccata da una grande montagna.
+Puoi tornare verso i campi ad est, o continuare sotto l'entrata ad arco verso
+ovest.
+~
+0 0 0 0 0 0
+D1
+~
+~
+0 0 4029 0
+D3
+~
+~
+0 0 29351 0
+S
+#29351
+Sotto il Passaggio ad Arco~
+Le mura ad arco di questa sala sono così alte da non permetterti di vedere
+la volta.
+Viti ricoperte di spine pendono dall'alto avvolte in spire.
+Da ovest arriva la flebile luce di alcune torce, e da nord, proprio davanti a
+te, senti provenire quello che non riesci a definire se non come un ringhio
+malvagio.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29352 0
+D1
+~
+~
+0 0 29350 0
+D3
+~
+~
+0 0 29353 0
+S
+#29352
+Il Covo del Drago Spettrale~
+Vi trovate davanti al tesoro e ai manufatti accumulati in questa stanza.
+Un oggetto dall'aspetto insolito cattura la tua vista.
+Sembra un'enorme e completa attrezzatura da monta, inclusa una grande sella.
+Solo ora ti accorgi della mostruosa presenza del Drago della Torre Spettrale che
+incombe su te.
+La sola uscita visibile è a sud, sotto l'architrave.
+~
+0 8 0 0 0 0
+D2
+~
+~
+0 0 29351 0
+S
+#29353
+Il Salone d'Entrata~
+Un grande tappeto ricopre il pavimento della sala.
+I ricami sul tappeto rappresentano armate di umani ed umanoidi travolte da orde
+di non morti.
+Alle pareti sono appese torce disposte tra vecchie armi e scudi, ricordi di
+battaglie passate.
+Due uscite sono visibili: una porta verso sud e l'altra verso ovest ma da dove
+ti trovi è impossibile capire cosa ti attenda oltre.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 29351 0
+D2
+~
+~
+0 0 29354 0
+D3
+~
+~
+0 0 29356 0
+S
+#29354
+La Sala da Pranzo~
+Guardandoti intorno pensi di trovarti in quella che un tempo doveva essere una
+sala da pranzo.
+Uno spesso strato di polvere ricopre i coperti in tavola, a dimostrazione che la
+sala è inutilizzata da tempo.
+Ad ovest c'è la cucina e a nord la sala d'entrata.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29353 0
+D3
+~
+~
+0 0 29355 0
+S
+#29355
+La Cucina~
+L'odore nauseante di cibo in putrefazione ti assale, spingendoti a proseguire
+rapidamente oltre alla ricerca di aria fresca.
+A nord ci sono delle scale, ad est la sala da pranzo, ed una grande dispensa è
+a sud.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29356 0
+D1
+~
+~
+0 0 29354 0
+D2
+~
+~
+0 0 29369 0
+S
+#29356
+Alla Base delle Scale~
+Una rampa di scale si perde nell'oscurità sopra di te.
+Un intensa aura di malvagità sembra provenire dai gradini stessi.
+Puoi proseguire a sud verso la cucina, ad ovest verso la sala d'entrata, o in
+alto verso l'ignoto.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 29353 0
+D2
+~
+~
+0 0 29355 0
+D4
+~
+~
+0 0 29357 0
+S
+#29357
+Sulle Scale~
+Le scale proseguono verso l'alto e verso il basso ed una leggera opalescenza
+proviene dal corridoio ad est.
+Quest'area appare innaturalmente calma.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 29362 0
+D4
+~
+~
+0 0 29358 0
+D5
+~
+~
+0 0 29356 0
+S
+#29358
+Sulle Scale~
+Prosegui sulle scale.
+Ascoltando con attenzione, ti sembra di udire le urla di anime dannate e
+torturate provenire da sud e da est.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 29365 0
+D2
+~
+~
+0 0 29363 0
+D4
+~
+~
+0 0 29359 0
+D5
+~
+~
+0 0 29357 0
+S
+#29359
+In Cima alle Scale~
+Sei giunto in cima alle scale.
+Verso sud e verso est si dipartono lunghi corridoi mentre in basso le scale si
+perdono nell'oscurità.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 29368 0
+D2
+~
+~
+0 0 29366 0
+D5
+~
+~
+0 0 29358 0
+S
+#29360
+Studio dell Spettro~
+Questa piccola stanza è quasi completamente satura di libri e pergamene.
+Qualche lampada ad olio arde qua e là, producendo una flebile luce per il
+signore della torre.
+Una grande scrivania è sul lato occidentale della stanza, mentre un armadio è
+stato ricavato nella parete meridionale.
+La sola via d'uscita sembra essere verso la libreria ad est.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 0 29361 0
+S
+#29361
+La Libreria~
+Già dopo la prima parte della libreria sei stupito dalla quantità di scaffali
+ricoperti di pergamene che riempono la sala.
+Addossati alle pareti ci sono molti tavoli a disposizione di chi desideri
+effettuare delle ricerche.
+La libreria prosegue verso nord ed un piccolo corridoio a volta conduce verso
+un studio ad ovest.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29362 0
+D3
+~
+~
+0 0 29360 0
+S
+#29362
+La Libreria~
+L'ampiezza degli scaffali è sorprendente.
+Si estendono lungo l'intera parete nord ed est.
+La quantità di libri accumulati qui è stupefacente.
+La libreria si estende a sud, mentre ad ovest ci sono le scale.
+~
+0 8 0 0 0 0
+D2
+~
+~
+0 0 29361 0
+D3
+~
+~
+0 0 29357 0
+S
+#29363
+La Sala delle Evocazioni~
+Diverse rune e pentagrammi sono incise nella pietra sotto i tuoi piedi.
+Un grande braciere di bronzo spande fiamme al centro della stanza.
+Le sole uscite sono a nord, verso le scale, e ad est verso la sala di tortura.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29358 0
+D1
+~
+~
+0 0 29364 0
+S
+#29364
+La Sala di Tortura~
+Strumenti di tortura di ogni foggia e dimensione riempono la sala.
+Alla parete orientale sono appesi tre corpi in putrefazione, tutti con gli
+intestini sparsi sul pavimento.
+Provi una punta di rimorso per la sorta di questi poveracci prima che il tuo
+spirito vada in collera, ora la sola cosa che desideri è vendicare le loro
+morti.
+Puoi vedere uscite a nord ed est.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29365 0
+D3
+~
+~
+0 0 29363 0
+S
+#29365
+Una Sala di Evocazione~
+Diverse rune e pentagrammi sono incise nella pietra sotto i tuoi piedi.
+Un grande braciere di bronzo spande fiamme al centro della stanza.
+Le sole uscite sono ad ovest verso le scale e a sud verso la sala di tortura.
+~
+0 8 0 0 0 0
+D2
+~
+~
+0 0 29364 0
+D3
+~
+~
+0 0 29358 0
+S
+#29366
+Il Salone~
+Sei in un corridoio decorato con raccapriccianti rappresentazioni di oscura
+perversione.
+Le scale sono a nord e ad est vedi un doppio portone dall'aspetto massiccio.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29359 0
+D1
+~
+~
+1 0 29367 0
+S
+#29367
+La Sala del Trono dello Spettro~
+Entrando nella sala, i tuoi occhi sono attratti immediatamente da un grande
+trono di ossa sulla parete orientale.
+La sala è interamente decorata a mano.
+Antichi grimori e pergamene saltano alla tua attenzione per un breve istante,
+giusto il tempo perchè Myzelak, il Signore degli Spetri, attacchi.
+Le sole uscite sono a nord e ad ovest.
+~
+0 8 0 0 0 0
+D0
+~
+~
+1 0 29368 0
+D3
+~
+~
+1 0 29366 0
+S
+#29368
+Il Salone~
+Sei in un corridoio decorato con raccapriccianti rappresentazioni di oscura
+perversione.
+Le scale sono ad ovest un doppio portone dall'aspetto massiccio ti blocca la
+strada a sud.
+~
+0 8 0 0 0 0
+D2
+~
+~
+1 0 29367 0
+D3
+~
+~
+0 0 29359 0
+S
+#29369
+Dispensa~
+Questa che vedi ì quanto rimane della dispensa.
+Una vecchia porta è stata scardinata sulla parete sud, rivelando un antica
+galleria scavata nel terreno.
+Puoi andare a nord verso la cucina o a sud verso l'oscura galleria.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29355 0
+D2
+~
+~
+0 0 29370 0
+S
+#29370
+Sopra la Fossa~
+Una grande torcia pende dalla parete ardendo luminosa.
+Davanti a te il pavimento scompare lasciando posto ad un grande buco nel
+terreno.
+Puoi andare nella dispensa a nord o calarti nella fossa con una vecchia scala
+di corda penzolante dal bordo della fossa.
+~
+0 8 0 0 0 0
+D0
+~
+~
+0 0 29369 0
+D5
+~
+~
+0 0 29371 0
+S
+#29371
+Nella Fossa~
+Sei nella fossa.
+Tutto ciò che riesci a vedere nell'oscurità è una galleria che si estende
+verso sud.
+~
+0 8 0 0 0 0
+D4
+~
+~
+0 0 29370 0
+D2
+~
+~
+0 0 29372 0
+S
+#29372
+La Galleria Oscura~
+Sei in una antica e buia galleria.
+Da sud una luce arriva attraverso l'oscurità.
+Puoi tornare nella fossa a nord o a sud verso la luce.
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 0 29371 0
+D2
+~
+~
+0 0 29373 0
+S
+#29373
+Di Fronte alle Caverne~
+L'hai trovata!!!! Ed è proprio come narrano le leggende.
+Questa è l'entrata alle Caverne dei Dannati.
+Un enorme fossa è scavata nel terreno, circondata da simboli magici incisi
+nella nuda roccia a guardia del passaggio, proteggendo questo regno da spiriti
+indesiderati.
+Si dice che l'unico modo che ha un mortale di entrare nei reami infernali sia
+attraverso questo passaggio.
+~
+0 8 0 0 0 0
+D5
+~
+~
+0 0 22000 0
+D0
+~
+~
+0 0 29372 0
+S
+#0
+
+
+#RESETS
+D 0 29366 1 1  * The east door of A Large Hall is closed
+D 0 29367 0 1  * The north door of The Lich's Throne Room is closed
+D 0 29367 3 1  * The west door of The Lich's Throne Room is closed
+D 0 29368 2 1  * The south door of A Large Hall is closed
+O 0 29373 1 29350  * Una grande croce di ossidiana loaded to Di Fronte alla Torre
+M 0 29355 1 29352  * Load Il Drago Spettrale
+M 0 29350 4 29353  * Load A Il Cavaliere Spettrale
+E 0 29350 1 16  * An old mazza nera is loaded wielded of A Il Cavaliere Spettrale
+O 0 29367 1 29354  * Una grande sedia di legno loaded to The pranzo Hall
+O 0 29368 1 29354  * Una massiccia tavola da pranzo loaded to The pranzo Hall
+M 0 29350 4 29360  * Load A Il Cavaliere Spettrale
+E 0 29350 1 16  * An old mazza nera is loaded wielded of A Il Cavaliere Spettrale
+O 0 29370 1 29360  * Una grande scrivania in mogano loaded to Lich's Study
+O 0 29371 1 29360  * Un armadio a muro loaded to Lich's Study
+P 0 29361 1 29370  * la Pergamena dell' Infinito put inside la Pergamena dell' Infinito
+P 0 29362 1 29370  * A pozione argentea  put inside a pozione argentea
+P 0 29363 1 29372  * Una chiave dorata put inside una chiave dorata
+P 0 29364 1 29371  * Stivali gallegianti put inside stivali gallegianti
+P 0 29365 1 29371  * A tunica del ladro put inside a tunica del ladro
+P 0 29366 1 29369  * A blank piece of paper put inside a blank piece of paper
+O 0 29372 1 29361  * A powerful grimorio loaded to The Library
+M 0 29350 4 29362  * Load A Il Cavaliere Spettrale
+E 0 29350 1 16  * An old mazza nera is loaded wielded of A Il Cavaliere Spettrale
+O 0 29369 1 29362  * An old wooden bookshelf loaded to The Library
+M 0 29353 1 29363  * Load Un Demone Maggiore
+E 0 29356 1 3  * The amulet of the notte is loaded around the neck (1) of Un Demone Maggiore
+M 0 29351 1 29364  * Load The Inquisitor
+E 0 29351 1 0  * A flaming skull is loaded as a light of The Inquisitor
+M 0 29352 1 29365  * Load Un Demone Minore
+E 0 29355 1 14  * Il parabraccio oscuro is loaded on the left wrist of Un Demone Minore
+M 0 29356 2 29366  * Load An Elite Il Cavaliere Spettrale
+E 0 29357 1 16  * Un Antico Spadone is loaded wielded of An Elite Il Cavaliere Spettrale
+E 0 29358 1 11  * Nere squame di drago is loaded as a shield of An Elite Il Cavaliere Spettrale
+M 0 29354 1 29367  * Load Myzelak the Lich Lord
+E 0 29359 1 16  * L'Incubo Infernale is loaded wielded of Myzelak the Lich Lord
+E 0 29360 1 12  * La tunica del necromante is loaded about the shoulders of Myzelak the Lich Lord
+M 0 29356 2 29368  * Load An Elite Il Cavaliere Spettrale
+E 0 29357 1 16  * Un Antico Spadone is loaded wielded of An Elite Il Cavaliere Spettrale
+E 0 29358 1 11  * Nere squame di drago is loaded as a shield of An Elite Il Cavaliere Spettrale
+M 0 29350 4 29369  * Load A Il Cavaliere Spettrale
+E 0 29350 1 16  * An old mazza nera is loaded wielded of A Il Cavaliere Spettrale
+S
+
+
+#SPECIALS
+M 29353 spec_executioner   ; Un Demone Maggiore
+M 29354 spec_cast_undead   ; Myzelak il Lich supremo
+S
+
+#END

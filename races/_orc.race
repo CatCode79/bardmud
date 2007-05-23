@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_ORC
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Orco~
+NameFema       Orco~
+Color          AT_RED brown 3~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        10  5   10  -5  -5   10   0   0  -5   -5   -5  -5   -5  -5  -5  
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        -5    5      5     -5    -5    -5
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_INFRARED~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_ORCISH~
+*
+LangLearnable  LANGUAGE_DWARVEN LANGUAGE_OGRE LANGUAGE_TROLLISH LANGUAGE_MAMMAL LANGUAGE_REPTILE LANGUAGE_GOBLIN LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_CANINE LANGUAGE_FELINE~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        105
+Height         190
+Weight         105,000
+TonalitySound  voce cavernosa~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

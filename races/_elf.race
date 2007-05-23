@@ -1,0 +1,36 @@
+#RACE
+RaceNumber     RACE_ELF
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Elfo~
+NameFema       Elfa~
+Color          AT_BLUE royal blue~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -10 -10 -5   15  15  0    5    5   0    0  10  5    -10  10  0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus         15   10     0     0     10    -5
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_DETECT_MAGIC~
+Resist         RIS_COLD~
+Suscept        ~
+* Conosce di base il comune, l'elfico e l'antico quest'ultima lingua è insegnata in ambito accademico, un po' come il latino
+LangNatural    LANGUAGE_COMMON LANGUAGE_ELVEN LANGUAGE_ANCIENT~
+* Non può conoscere, tra le valide: il trollese (troppo stupido come linguaggio), il rettilese (impronunciabile), il draconiano (pronunciabile ma blocco mentale perchè simile al rettilese)
+LangLearnable  LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_RODENT LANGUAGE_INSECTOID LANGUAGE_MAMMAL LANGUAGE_GOBLIN LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_AVIS LANGUAGE_MARINE LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_TREELEAF~
+AlignStart     0
+MinAlign       -250
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        110
+Height         170
+Weight         55,000
+TonalitySound  voce melodiosa~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END
+

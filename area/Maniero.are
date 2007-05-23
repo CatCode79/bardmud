@@ -1,0 +1,4034 @@
+#AREA
+Name         Il Maniero dei Tullfuhrzky~
+Author       Cedrick (Miciko)~
+Color        AT_YELLOW giallo~
+LevelRange   1 10
+ResetFreq    10
+ResetMsg1    Sento il nitrire di un cavallo.~
+Economy      0 59671270
+Vnums        2400 2499
+End
+
+
+#MOBILES
+
+#2405
+serpente pitone~
+un pitone~
+Vedi un pitone nella penombra, probabilmente aspetta solo di morderti.~
+Sapendo che questo serpente potrebbe mangiarti in un solo boccone ti tieni
+a debita distanza da lui..
+~
+67 0 -100 C
+7 0 -20 5d4+60 2d3+1
+7000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 0 0 1 1 0
+0 0 67617 288 0 0 1 0
+> greet_prog 85~
+mpechoat $n Il pitone sibila verso di te, minacciosamente.
+~
+> rand_prog 5~
+emote sibila agitando la sua lingua biforcuta.
+~
+> fight_prog 40~
+emote si volta di scatto per colpire.
+~
+> death_prog 100~
+if level($n) > 19
+  mpecho Il corpo del pitone è ridotto a brandelli!
+  mpoload 2415
+else
+  mpecho Il pitone emette l'ultimo sibilo e muore!
+  mpecho Appena il pitone cade a terra, un pezzo della sua pelle si stacca dal corpo.
+  mpoload 2414
+  mpoload 2415
+endif
+~
+|
+
+#2407
+cane collie pelo lungo~
+un collie~
+Un bel cane a pelo lungo ti si avvicina con fare guardingo.~
+Sebbene sia molto socievole con i membri della famiglia, è anche un ottimo
+cane da guardia e pare non gradire molto la tua presenza.
+~
+3 0 150 C
+5 0 -10 1d1+50 1d1+1
+0 0
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 0 0 1 1 0
+0 0 328381 0 0 1024 0 0
+> greet_prog 100~
+mpechoat $n Non si può certo dire che il collie sia felice di vederti..
+mpechoat $n Sta abbaiando verso di te ringhiando di tanto in tanto.
+~
+> rand_prog 6~
+mpecho Il collie si dà una grattatina alle orecchie.
+~
+> rand_prog 5~
+mpecho Il collie ringhia rabbiosamente
+~
+|
+
+#2408
+grosso topo~
+un grosso topo~
+Un grosso topo s'aggira qui intorno.~
+La pelliccia sporca e piena di pustole conferma le tue intenzioni.. Non lo vuoi
+toccare nemmeno con un bastone.
+~
+65 0 -200 C
+4 0 -10 0d0+0 3d3+3
+75 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 1 1 0
+0 0 67081 0 0 0 0 0
+> death_prog 100~
+mpecho Il topo squittisce per l'ultima volta.
+~
+|
+
+#2409
+grosso topo~
+un grosso topo~
+Un grosso topo scorrazza nei paraggi.~
+Questo topo ha il pelo da manuale: sporco, arruffato forse anche pidocchioso.
+L'ultima cosa che vuoi fare è avvicinarti a questa creatura.
+~
+3 0 -1 C
+5 0 -10 5d4+60 3d2+2
+75 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 395666 324275 0
+0 0 327685 0 0 0 0 0
+> greet_prog 100~
+mpecho $I squittisce verso di te.
+~
+> fight_prog 40~
+mpecho Il topo squittisce rabbiosamente.
+~
+> death_prog 100~
+if level($n) > 14
+  mpecho Con un rapido colpo poni fine alla vita del topo.
+else
+  mpecho L'ultimo colpo stacca un pezzo di carne dal corpo del ratto.
+  mpoload 2447
+endif
+~
+|
+
+#2410
+nonno uomo~
+un vecchio nonno~
+Il vecchio nonno è seduto qui a leggere un libro e fumare in pace la sua pipa.~
+Ha l'aria stanca di chi ha viaggiato per tutta la vita, nonostante l'età però
+una sinistra luce nei suoi occhi non ti convince del tutto..
+~
+3 0 275 C
+7 0 10 5d2+60 2d2+1
+2000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Il vecchio ti guarda di sbieco.
+say Chi sei? Non ti conosco!
+if rand(50)
+  mpechoat $n Il nonno cerca di colpirti con il suo libro!
+  mpechoaround $n Il nonno cerca di colpire $n con il libro!
+  if rand(50)
+    mpechoat $n Ahia fa male!
+    mpechoaround $n Il nonno colpisce $n in pieno viso!
+    mpdamage $n 3
+  else
+    mpechoat $n Schivi il suo colpo appena in tempo!
+    mpechoaround $n $n schiva il colpo del nonno appena in tempo!
+  endif
+else
+  emote ringhia
+endif
+~
+> fight_prog 50~
+if rand(50)
+  mpecho Il nonno inizia a tossire sfiancato dal combattimento.
+  if rand(75)
+    mpechoat $n I tuoi colpi infliggono via via sempre più dolore.
+  endif
+else
+  mpechoat $n Il nonno cerca di colpirti nello stomaco!
+  if rand(65)
+    mpechoat $n Il nonno ti sferra una ginocchiata in pancia!
+    mpdamage $n 8
+    mpechoaround $n Il nonno dà una ginocchiata a $n nello stomaco!
+  endif
+endif
+~
+> death_prog 100~
+if level($n) > 14
+  mpecho Gli ultimi colpi mortali son così potenti che distruggono parte degli averi di $I.
+  mpjunk 'smoking jacket'
+endif
+~
+|
+
+#2411
+cuoca Kery~
+una grassa cuoca~
+Una vecchia e grassa cuoca sta cucinando qualcosa.~
+Kery la cuoca sembra molto felice di poter assaggiare i manicaretti che sta
+preparando. E' d'aspetto generosamente rotondo e gioviale.
+~
+3 4194305 250 C
+5 0 0 5d4+40 3d1+1
+2000 0
+8 8 1
+13 6 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+if ispg($n)
+  say Ehi, $n, o mi aiuti o vai fuori di qui.
+  mpechoat $n La cuoca brandisce una scopa verso di te.
+endif
+~
+> rand_prog 5~
+grumble
+say Sempre a lavorare per due misere briciole di pane..
+sigh
+close cabinet
+~
+> fight_prog 60~
+if rand(50)
+  mpechoat $n La cuoca digrigna i denti e raddoppia gli sforzi.
+else
+  mpechoat $n La cuoca stringe gli occhi in uno sguardo colmo d'odio.
+endif
+if rand(50)
+  mpechoat $n La cuoca riesce a strapparti i vestiti!
+  mpechoaround $n La cuoca strappa i vestiti di $n!
+if rand(50)
+  mpdamage $n 1
+  mpechoat $n La cuoca ti dà una ginocchiata in faccia!
+  mpechoaround $n La cuoca dà una ginocchiata a $n in pieno viso!
+else
+  mpechoat $n La cuoca sferra una gomitata ma ti manca di poco.
+  mpechoaround $n La cuoca tira una gomitata a $n ma manca il bersaglio.
+endif
+else
+  mpecho La cuoca pare affaticata dalla lotta..
+endif
+~
+> death_prog 100~
+    mpechoat $n La cuoca soccombe sotto la potenza dei tuoi colpi.
+    mpechoaround $ La cuoca soccombe sotto la potenza dei colpi di $n.
+~
+|
+
+#2412
+ratto grosso~
+un ratto gigante~
+Un enorme ratto zampetta accanto a te.~
+E' proprio una bestiaccia, con il manto lurido e chiazzato da chissà quale
+malattia.. Meglio stare alla larga.
+~
+65 0 -200 C
+5 0 -10 5d5+52 3d2+2
+75 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 1 1 0
+0 0 67081 0 0 0 0 0
+
+#2420
+bambino~
+un bimbetto~
+Un bimbo sta facendo il bagno in una tinozza.~
+Dev'essere uno dei bambini della famiglia Tullfuhrzky.
+~
+3 0 250 C
+5 0 -10 3d3+45 2d2+2
+400 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+hug $n
+mpechoat $n Il bimbo ti guarda con aria innocente.
+say Ciao!
+~
+> rand_prog 5~
+emote spruzza l'acqua tutt'intorno.
+~
+> fight_prog 33~
+if rand(50)
+  say Mi stai facendo male!
+  cry
+else
+  cry
+  yell Mammiiiiinaaa aiuto!
+endif
+~
+> death_prog 100~
+mpechoat $n Il bimbo ti guarda ancora incredulo esalando l'ultimo respiro.
+mpechoaround $n Il bimbo guarda ancora incredulo $n esalando l'ultimo respiro.
+~
+|
+
+#2421
+neonato~
+un neonato~
+Un grazioso neonato sta gattonando sul pavimento.~
+Il suo corpicino piccolo ed indifeso ti infonde un vago senso di calma e non ti
+vien da pensare ad un gesto inconsulto.. Sarebbe un peccato far del male ad una
+creatura innocente.
+~
+3 0 1000 C
+3 0 -10 5d5+50 2d2+1
+10 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Il neonato alza il capino e ti guarda incuriosito.
+smile $n
+~
+> fight_prog 55~
+scream
+cry
+~
+> death_prog 100~
+mpechoat $n Il neonato invoca pietà con lo sguardo mentre la tua mano s'abbatte su di lui.
+mpechoat $n Ben fatto! Hai appena massacrato un innocente.
+mpechoat $n Un magico potere ti trasferisce in un'altra dimensione.
+mptransfer $n 2485
+mpat $n mpforce $n say Aiuto!
+~
+> rand_prog 5~
+mpecho Il neonato va a carponi per la stanza.
+~
+|
+
+#2422
+Robert bambino~
+Robert~
+Robert Tullfuhrzky sta colorando alcuni disegni.~
+Robert Tullfuhrzky ha l'età apparente di 4 anni ma è già un piccolo artista.
+Sorride fiducioso e pare che la tua presenza non lo spaventi.
+~
+3 0 250 C
+6 0 -10 5d6+80 2d2+2
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1023 0 0 0 32 0
+> greet_prog 100~
+mpechoat $n Robert ti guarda.
+say Ciao. Vuoi vedere uno dei miei disegni?
+smile
+mpechoat $n Robert ti sbatte un disegno in faccia.
+mpechoaround $n Robert sbatte un disegno in faccia a $n.
+~
+> fight_prog 45~
+if rand(50)
+  mpecho Robert urla spaventato.
+  scream
+else
+  if rand(50)
+    cry
+    yell Aiuto! Aiutatemi!
+    mpechoat $n Robert cerca di evitare i tuoi colpi.
+  else
+    scream
+    mpechoat $n $I ti guarda chiedendosi perché tu lo stia picchiando..
+  endif
+endif
+~
+|
+
+#2423
+bambino ragazzino~
+un ragazzino~
+Un ragazzino è seduto sul letto.~
+E' un altro bambino della nidiata Tullfuhrzky.
+~
+3 0 150 C
+3 0 1 4d5+75 2d3+2
+600 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+
+#2425
+Joshua Tullfuhrzky padrone uomo~
+Master Tullfuhrzky~
+Joshua Tullfuhrzky non sembra gradire la tua presenza..~
+Joshua Tullfuhrzky è proprio un bestione! Ha le spalle molto larghe ed è alto
+più di due metri. Nonostante non sia più tanto giovane ha mantenuto tutta la
+sua possenza fisica.
+~
+3 40 350 C
+12 0 1 7d5+130 5d3+4
+7000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+1 0 2047 0 2048 0 0 2
+> fight_prog 50~
+emote ringhia arrabbiato appena ti vede.
+if rand(60)
+  mpechoat $n Joshua Tullfuhrzky rotea in aria il bastone e lo abbatte sulla tua testa!
+  mpechoaround $n $I colpisce la testa di $n con il bastone!
+  if rand(80)
+    mpechoat $n Il suo colpo ti sorprende alle spalle.
+    mpechoaround $n Il colpo di Joshua colpisce $n alle spalle.
+    mpdamage $n 15
+  else
+    if rand(45)
+      mpechoat $n Ti arriva una bastonata in pieno viso!
+      mpechoaround $n La bastonata di Joshua colpisce $n in pieno viso!
+      mpdamage $n 20
+    else
+    if rand(20)
+      mpechoat $n Il suo colpo ti ferisce il cranio!
+      mpechoaround $n Il colpo di Joshua ferisce il cranio di $n !
+      mpdamage $n 35
+    endif
+  endif
+endif
+else
+  mpechoat $n Eviti abilmente la bastonata di Tullfuhrzky.
+  mpechoaround $n $I manca $n.
+endif
+~
+> greet_prog 100~
+if ispg($n)
+  emote ringhia
+  if rand(50)
+    say Via dalla mia casa! Fuori dai piedi!!
+    curse $n
+  else
+    say $n, non ti vogliamo qui. VATTENE!
+    glare $n
+  endif
+  if rand(50)
+    mpechoat $n Joshua Tullfuhrzky ti schiaffeggia con forza!
+    mpechoat $n Ahia che male!
+    mpechoaround $n Joshua Tullfuhrzky schiaffeggia $n !
+    mpdamage $n 3
+  else
+    mpechoat $n Joshua Tullfuhrzky cerca di schiaffeggiarti ma eviti la sua mano.
+    mpechoaround $n Joshua Tullfuhrzky cerca di schiaffeggiare $n ma manca il bersaglio.
+  endif
+endif
+~
+> death_prog 100~
+if level($n) > 19
+  mpjunk ring
+endif
+~
+|
+
+#2426
+Tullfuhrzky donna signora~
+la signora Tullfuhrzky~
+Lady Tullfuhrzky è atterrita dalla tua presenza.~
+Probabilmente è una delle donne più belle che tu abbia mai visto.
+La sua fluente chioma castana ricade morbidamente sulle spalle, lo sguardo
+suadente ed il sorriso gentile accompagnano la figura snella e slanciata di
+Lady Tullfuhrzky.
+~
+3 40 350 C
+10 0 1 10d2+130 5d3+4
+4000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 2048 0 16 0
+> fight_prog 30~
+if rand(50)
+  yell Joshua!  Bambini! Aiuto!
+else
+  say NON TI AVVICINARE!
+  glare $n
+endif
+~
+> death_prog 100~
+mpechoat $n Con un ultimo respiro, Lady Tullfuhrzky ti guarda negli occhi e
+mpechoat $n dice: "Per favore.. Dite.. Dite ai miei bambini...."
+if level($n) > 19
+  mpecho La brutalità del tuo attacco ha mezzo distrutto gli oggetti di $I.
+  mpjunk all
+endif
+~
+> greet_prog 100~
+if ispg($n)
+  mpechoaround Un grido di donna giunge da una stanza vicina..
+  scream
+  say Chi.. Chi siete?
+  cringe $n
+  mpechoat $n Lady Tullfhurzky cerca di colpirti!
+  mpechoaround $n Lady Tullfuhrzky cerca di colpire $n!
+  if rand(60)
+    mpechoat $n $I ti dà un calcio negli stinchi!
+    mpechoaround $n Lady Tullfuhrzky dà un calcio negli stinchi a $n!
+    mpdamage $n 3
+    mpforce $n wince
+  else
+    mpechoat $n Eviti il suo colpo per un soffio.
+    mpechoaround $n $n evita il colpo di Lady Tullfhurzky!
+  endif
+endif
+~
+|
+
+#2442
+fantasma uomo~
+il fantasma di un uomo~
+Un fantasma fluttua sulle sue spoglie mortali.~
+Non c'è molto da vedere da quando questo poveretto è diventato un fantasma, eppure,
+osservandolo bene, ti pare di scorgere una forma pulsante di energia accanto a lui.
+~
+3 6291498 -200 C
+6 0 1 1d1+55 5d5+5
+100 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+97 3 0 0 1 1 0
+0 0 0 0 0 0 0 2
+> act_prog p raccoglie uno scudo decorato da a un cadavere.~
+say $n, hai DISTURBATO il mio riposo.
+visible
+mpecho Lo spirito sparisce nel nulla..
+say Muori!
+kill $n
+~
+> death_prog 100~
+if level($n) > 19
+else
+  mpoload 2426
+endif
+~
+> rand_prog 5~
+mpecho Avverti una presenza nella stanza.
+~
+> rand_prog 4~
+mpecho Ti volti sentendo qualcosa che ti sfiora.
+mpat 3 cast invis
+~
+|
+
+#2443
+cadavere~
+un cadavere~
+Un cadavere si sta lentamente decomponendo.~
+~
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+
+#2450
+torturatore~
+un malvagio torturatore~
+Un torturatore incappucciato è qui, in attesa di usarti come cavia..~
+Una lunga veste nera ricopre quest'uomo da capo a piedi lasciando un unico
+spiraglio per la bocca atteggiata a mo' di ghigno.
+~
+3 4194344 -500 C
+11 0 1 10d3+120 3d2+6
+25000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+2 0 2046 0 2048 0 33 2
+> fight_prog 40~
+if rand(50)
+  mpechoat $n Il torturatore ringhia di rabbia mentre tenta di spaccarti le ossa.
+else
+  mpechoat $n Il torturatore schiocca la sua frusta contro di te ma ti manca.
+endif
+if rand(70)
+else
+  say Pensi di essere forte eh tesoro?
+  if rand(50)
+    say Abbandonerò il tuo cadavere in una discarica, pezzente!
+  endif
+endif
+~
+> all_greet_prog 100~
+mpechoat $n Il torturatore ti fissa con sguardo poco rassicurante.
+grin
+say $n.. Proprio il nome di un cadavere che cammina..
+say Complimenti, mi hai trovato.
+say Ed ora ti farò assaggiare la specialità della casa.. La mia frusta!
+kill $n
+~
+> death_prog 100~
+if level($n) > 29
+  mpecho Ciò che rimane del torturatore è sparso qui per terra.
+  mpjunk all
+endif
+~
+|
+
+#2455
+cavallo~
+un cavallo sellato~
+Un magnifico cavallo è qui, pronto per essere cavalcato.~
+E' un bellissimo esemplare di baio, d'aspetto robusto e fiero.
+Non ti piacerebbe cavalcarlo?
+~
+262145 40 200 C
+8 0 1 9d3+100 3d3+2
+1000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 1 262145 0
+0 0 66621 0 0 0 0 0
+> rand_prog 5~
+mpecho Il cavallo agita la coda.
+~
+> rand_prog 4~
+emote nitrisce.
+~
+|
+
+#2456
+stalliere uomo~
+uno stalliere~
+Un vecchio stalliere lavora alacremente.~
+Il duro lavoro, perpetuato giorno dopo giorno, gli ha reso le mani due
+rami nodosi. Ti sembra anche un po' annoiato dalla solita routine.
+~
+1 0 200 C
+7 0 1 5d5+80 3d2+1
+3000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Lo stalliere ti guarda di sfuggita, non bada molto a te.
+~
+|
+
+#2460
+balia tata~
+una balia vecchia decrepita~
+Una balia ciondola allegramente per la stanza.~
+A giudicare dalla pelle, liscia come la cartapecora, dallo sguardo, vivace come
+quello di un tordo, dall'udito latitante questa donna non ha meno di cento anni.
+Il suo volto, tuttavia, conserva ancora un'idea di quel che un tempo doveva
+essere il suo sorriso gentile.
+~
+65 0 250 C
+7 0 1 10d2+60 2d2+1
+25000 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 79 0 0 0 0 0
+> all_greet_prog 100~
+if ismob($n)
+else
+  mpechoat $n Nana ti guarda con aria confusa.
+  if rand(50)
+    say Joshua?  Sei tu?
+  else
+    say Robert?  Vieni dalla nonna, amore.
+    smile $n
+  endif
+endif
+~
+|
+
+#2462
+bambino garzone giovane~
+un giovane garzone~
+Un piccolo garzone si gode un po' di meritato riposo.~
+E' vestito di tutto punto per servire i padroni del maniero.. Ma il suo faccino
+rotondo tradisce la giovanissima età.
+~
+3 8 -100 C
+5 0 15 3d3+60 2d2+2
+20 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> greet_prog 100~
+mpechoat $n Il bambino si spaventa appena ti vede.
+cringe $n
+~
+> fight_prog 35~
+cry
+if rand(50)
+  say Mi fai male!
+else
+  say Smettila! Smettila mi fai male!
+endif
+~
+> fight_prog 30~
+yell $n mi sta picchiando! Aiuto!
+~
+|
+
+#2463
+uomo servitore~
+un servitore~
+Un servitore si riposa dopo la lunga giornata di lavoro.~
+Anni ed anni di duro servizio hanno spento ogni forma di vitalità in quest'uomo.
+Non sorride quasi mai.. Tanto meno ora che ti vede.
+~
+3 0 200 C
+6 0 1 4d5+60 2d3+3
+3000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 0 0 0 0
+> all_greet_prog 100~
+if ispg($n)
+  if rand(50)
+    say Che stai facendo qui? levati dai piedi o ti prendo a calci nel sedere!
+  else
+    emote ringhia
+    say FUORI DI QUI!  Questa è la MIA casa.
+  endif
+  mpechoat $n Il servitore ti spintona verso la porta.
+  mpechoaround $n Il servitore spintona $n verso la porta.
+    if rand(40)
+      mpechoat $n Il servitore ti sbatte letteralmente fuori dalla porta a calci!
+      mpdamage $n 3
+      mpechoat $n Ohia che male!
+      mpechoaround $n $n finisce fuori della porta con un poderoso calcio nelle terga!
+      mpforce $n south
+  endif
+endif
+~
+|
+
+#2465
+giardiniere uomo~
+un giardiniere~
+Un giardiniere è qui, intento a potare alcune erbacce.~
+Hai di fronte un uomo che ha passato tutta la sua vita a sarchiare e coltivare
+terreni. Sembra vecchio e fragile ma una luce di saggezza illumina il suo sguardo.
+~
+7 0 250 C
+9 0 1 5d5+160 4d5+5
+4000 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 2047 0 2048 0 32 0
+> act_prog p si siede per terra.~
+say Ecco guardate, qui c'è tutto quel che posso offrirvi. Scegliete pure con comodo.
+mpforce $n list
+~
+> act_prog p stands up.~
+if rand(50)
+  say Ve ne andate di già? Buona giornata allora, $n.
+  wave $n
+else
+  say Tornate pure quando volete.
+  shake $n
+endif
+~
+> rand_prog 5~
+emote inizia a scavare una buchetta nel terreno.
+~
+> all_greet_prog 100~
+if ismob($n)
+else
+  mpechoaround $n Il giardiniere guarda $n.
+  if rand(50)
+    say Salve, $n, prego, sedetevi e scegliete le verdure che v'aggradano.
+    smile $n
+  else
+    bow $n
+    say Salve, $n, prego sedetevi pure.
+  endif
+endif
+mpechoat $n Il giardiniere ti invita a sederti.
+~
+|
+
+#2471
+scarafaggio piattola~
+un enorme scarafaggio~
+Un gigantesco scarafaggio svicola via.~
+E' la piattola più grande che ti sia mai capitato di vedere.. E fa veramente
+schifo.
+~
+65 0 -275 C
+7 0 1 4d3+78 3d4+4
+100 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+26 3 0 0 1 1 0
+0 0 9273 1 0 256 0 0
+> death_prog 100~
+if level($n) > 19
+  mpecho La carcassa dello scarafaggio è riversa al suolo.
+else
+  mpecho Appena la piattola ricade a terra, una zampa si stacca dal resto del corpo.
+  mpoload 2429
+endif
+~
+|
+
+#2472
+piattola scarafaggio~
+uno scarafaggio~
+Un gigantesco scarafaggio svicola via.~
+E' la piattola più grande che ti sia mai capitato di vedere.. E fa veramente
+schifo.
+~
+65 0 -275 C
+3 0 0 4d3+20 3d2+2
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 1 1 0
+0 0 9273 1 0 256 0 0
+
+#2484
+giudice~
+il giudice~
+Il giudice ti osserva, sta per emettere il suo verdetto finale.~
+Il giudice indossa una lunga tunica scura, bordata in argento. Ti fissa
+dall'alto in basso con aria di comprovata superiorità..
+~
+5 369098920 -1000 C
+2 0 0 1d1+30000 1d1+1000
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 34815 224 1052159 0 1359405504 532583
+> all_greet_prog 100~
+mpechoat $n $I ti squadra con severo cipiglio.
+say VERME! FECCIA DELLA SOCIETA'! INFANTICIDA!
+yell $n si diverte ad uccidere bambini innocenti!
+say Tu non meriti di VIVERE.
+say Comunque.. hai fortuna, non ti manderò alla forca.
+mpechoat $n Il Giudice punta il dito verso di te..
+say Lontano da me, vile delinquente!
+mpechoat $n Per grazia del Giudice, una forza magica ti traferisce..
+if rand(35)
+  mpechoat $n $n Via del Falco e Via della Legge
+  mptransfer $n 21016
+else
+  if rand(45)
+    mpechoat $n Giorno dei Nani
+    mptransfer $n 6501
+  else
+  if rand(50)
+    mpechoat $n Miden'nir
+    mptransfer $n 3504
+  else
+    mpechoat $n Le Rune di Toth
+    mptransfer $n 21001
+  endif
+  endif
+endif
+~
+|
+
+#0
+
+
+#OBJECTS
+
+#2400
+scatola bauletto~
+un grazioso bauletto in legno~
+In un angolo vedi un bauletto in legno contenente alcuni giocattoli~
+~
+15 0 0
+50 5 0 0
+0 0 0
+E
+scatola bauletto~
+La scatola è dipinta di bianco, decorata con disegni di farfalle ed alberi.
+~
+
+#2401
+scodella~
+una scodella per mescolare gli ingredienti~
+Una scodella piuttosto larga è riposta qui.~
+~
+15 0 1
+30 0 0 0
+1 50 5
+
+#2402
+legno cucchiaio mestolo~
+un mestolo di legno~
+Qualcuno ha dimenticato qui un mestolo di legno.~
+~
+5 262208 8193
+12 2 5 0
+1 100 10
+E
+mestolo~
+E' un cucchiaio di legno robusto e resistente alle numerose cotture.
+~
+A
+18 1
+A
+19 1
+
+#2403
+pozzo~
+un pozzo~
+Un piccolo pozzo attinge l'acqua da una falda sotterranea.~
+~
+25 0 0
+0 0 0 0
+0 0 0
+
+#2404
+grembiule fornaio~
+un grembiule~
+Un grembiule da fornaio è poggiato qui.~
+~
+15 0 1
+0 0 0 0
+0 0 0
+
+#2405
+ago~
+un ago ricurvo~
+Fai attenzione a dove metti i piedi.. A qualcuno dev'esser caduto quell'ago.~
+~
+5 8454208 8193
+12 0 0 7
+3 500 50
+A
+18 2
+A
+1 1
+
+#2406
+oro soldi monete~
+una montagna di monete d'oro~
+Nessuno fa la guardia a questo mucchio di monete..~
+~
+20 0 1
+40000 0 0 0
+0 50000 5000
+
+#2407
+forziere~
+un forziere~
+Vedi un forziere in un angolo della stanza.~
+~
+15 8 0
+100 15 2425 0
+0 0 0
+
+#2408
+libro~
+un libro intitolato "Come curare i moribondi"~
+Per terra vedi un libro.. Forse è caduto da qualche scaffale.~
+~
+3 64 16385
+15 3 3 15
+0 0 0
+E
+libro~
+Istruzioni per l'uso: impugna questo libro e puntalo verso il soggetto da curare
+(zap <nome>)
+~
+
+#2409
+giacca~
+una giacca felpata~
+Una vecchia giacca felpata giace per terra abbandonata.~
+~
+9 256 9
+6 5 0 0
+8 0 0
+A
+17 -4
+A
+18 1
+
+#2410
+pipa~
+una pipa di legno~
+Una pipa intagliata è stata dimenticata qui dal padrone distratto.~
+~
+4 0 16385
+11 3 3 72
+2 4000 400
+A
+3 2
+
+#2411
+fila armadietto armadietti~
+una lunga fila di armadietti~
+Il lavandino è sovrastato da una lunga fila di armadietti.~
+~
+15 0 0
+30 5 0 0
+0 0 0
+
+#2412
+cassetta attrezzi~
+una piccola cassetta degli attrezzi~
+Vedi una piccola cassetta degli attrezzi.~
+~
+15 0 0
+999 5 0 0
+0 0 0
+
+#2413
+cesoie giardinaggio~
+un paio di cesoie da giardinaggio~
+Poggiate con cura, vedi un paio di cesoie per il giardinaggio.~
+~
+5 0 8193 0
+12 2 8 2
+15 20 0
+A
+19 1
+A
+2 1
+
+#2414
+pelle serpente mantello~
+la pelle d'un pitone~
+Si tratta proprio di un mantello in pelle di pitone..~
+~
+9 262144 1025
+6 6 0 0
+2 0 0
+A
+5 1
+A
+27 256
+
+#2415
+zanna velenosa~
+una zanna velenosa~
+Attenzione.. Quella zanna di pitone sembra piena di potente veleno.~
+~
+3 0 16385
+15 6 6 33
+1 2000 200
+
+#2416
+armadio~
+un armadio~
+Vedi un armadio qui di fronte a te.~
+~
+15 0 0
+10 5 0 0
+0 0 0
+
+#2417
+pantera crestato anello~
+un anello foderato~
+Uno strano anello foderato con manto di pantera, è poggiato al suolo.~
+~
+9 524352 3
+5 5 0 0
+1 4000 400
+A
+2 1
+A
+1 1
+A
+18 1
+
+#2418
+saponetta barretta~
+una saponetta~
+Una saponetta arancione emana un dolce profumo di glicine.~
+~
+26 0 1
+30 28 1 81
+1 3000 300
+
+#2419
+camicia notte~
+una camicia da notte~
+La bella immagine di una pantera decora questa camicia da notte.~
+~
+9 0 9
+5 0 0 0
+2 100 10
+A
+17 -10
+A
+5 1
+
+#2420
+armadietto~
+un piccolo armadietto di legno~
+C'è un piccolo armadietto.. Non ti va di sapere cosa contenga?~
+~
+15 0 0
+50 5 0 0
+0 0 0
+
+#2421
+seta vestaglia~
+una vestaglia di seta~
+Lieve ed elegante, questa vestaglia attende solo d'essere indossata.~
+~
+9 262144 9
+8 0 0 0
+7 1600 160
+A
+17 -4
+A
+4 1
+A
+25 1
+
+#2422
+bastone avorio~
+un bastone d'avorio~
+Più che un semplice bastone sembra un piccolo gioiello in avorio..~
+~
+4 320 16385
+1 1 1 36
+15 10000 1000
+
+#2423
+pelle scarpe~
+scarpe in pelle con marchio di garanzia~
+Deve essere discretamente ricco il proprietario di queste scarpe.~
+~
+9 262144 65
+5 5 0 0
+2 1000 100
+A
+17 -5
+A
+14 50
+
+#2424
+zaffiro anello~
+un rilucente anello con zaffiro~
+Lo scintillìo di un anello attira il tuo sguardo.~
+~
+9 65 3
+5 5 0 0
+1 2000 200
+A
+13 5
+A
+2 1
+A
+18 2
+
+#2425
+chiave~
+una piccola chiave di metallo~
+Vedi una piccola chiave di metallo.. Chissà perché ti viene in mente un forziere..~
+~
+18 524288 1
+2407 0 0 0
+0 0 0
+
+#2426
+fiala pozione~
+una pozione contro i non morti~
+Abbandonata a terra c'è una fiala con uno strano liquido.~
+~
+10 80 1
+10 28 18 29
+1 3000 300
+
+#2427
+collare cane~
+un collare per cani~
+Cosa ci fa qui un collare per cani con delle gemme incastonate?~
+~
+9 524288 5
+3 3 0 0
+8 0 0
+A
+17 -1
+A
+3 1
+> wear_prog 100~
+if level($n) > 10
+  mpechoat $n Hai il collo troppo grosso per questo collare.
+  mpechoaround $n Il collo di $n è troppo grosso per $O.
+  mpforce $n remove $o
+endif
+~
+|
+
+#2428
+frusta nerbo toro~
+una frusta in nerbo di toro~
+Vedi un lungo frustino ricavato dal nerbo di un toro.~
+~
+5 8651776 8193
+12 2 6 4
+2 560 56
+A
+18 2
+
+#2429
+esoscheletro corazza~
+una corazza di scarafaggio~
+Una disgustosa corazza di piattola si trova qui per terra..~
+~
+9 262144 9
+5 7 0 0
+3 10000 1000
+A
+5 1
+A
+17 -7
+> use_prog 100~
+mpechoaround $n Un inconsueto rumore di biscotti calpestati desta l'attenzione di $n.. Ha appena pestato una piattola.
+mpechoat $n Un inconsueto rumore di biscotti calpestati desta la tua attenzione.. Poi t'accorgi d'aver pestato una piattola.
+~
+|
+
+#2430
+oro~
+dell'oro~
+25000 monete d'oro sono qui, alla mercé di tutti.~
+~
+20 0 1
+0 0 0 0
+0 25000 2500
+
+#2431
+borsello borsellino monete~
+un borsellino~
+Un borsellino per terra.. Sarà pieno di monete?~
+~
+15 320 1
+65 5 0 0
+1 50 5
+
+#2432
+lenti occhiali~
+un paio di occhiali~
+Qualcuno ha perso questo paio d'occhiali..~
+~
+9 524288 131073
+4 3 0 0
+1 8600 860
+A
+3 1
+
+#2433
+scialle~
+uno scialle~
+Un logoro scialle è qui, buttato a terra in mezzo alla polvere.~
+~
+9 256 5
+4 3 0 0
+4 4000 400
+A
+17 -5
+A
+4 1
+
+#2434
+legno coltello~
+un coltello di legno~
+Questo coltello sembra più il gioco di un bimbo che non una vera e propria arma.~
+~
+5 0 8193 0
+12 2 2 2
+15 20 0
+
+#2435
+libro fiabe fate~
+un librone di fiabe sulle fate~
+Un libro dalla copertina molto colorata cattura la tua attenzione.~
+~
+2 0 1
+2 20 56 1
+1 1000 100
+
+#2436
+orologio tasca~
+un orologio da taschino~
+Qualcosa scintilla nella penombra.. E' un piccolo orologio da taschino.~
+~
+9 524288 16385
+4 4 0 0
+2 24000 2400
+A
+2 1
+A
+9 -14
+
+#2437
+candela~
+una candela di cera~
+Una candela in cera d'api rischiara un poco le ombre.~
+~
+1 1 16385
+0 0 65 0
+1 0 0
+
+#2438
+pannolino stoffa~
+un pannolino di stoffa~
+Un pannolino di stoffa per terra.. Ecco cos'era questo strano odore.~
+~
+9 0 2049
+1 1 0 0
+0 0 0
+
+#2439
+pennello~
+un pennello~
+Ti vien quasi voglia di dipingere appena vedi questo pennellino.~
+~
+3 64 16385
+9 4 4 10
+1 0 0
+
+#2440
+cipria portacipria~
+un portacipria d'avorio~
+Se non ti è utile questo portacipria, puoi sempre rivenderlo.~
+~
+4 320 16385
+14 3 3 226
+1 1000 100
+
+#2441
+cuoca grembiule~
+un grembiule da cuoca~
+Bianco, forse di farina, un grembiule da cuoca è poggiato qui.~
+~
+9 0 9
+3 3 0 0
+1 1000 100
+A
+17 -5
+A
+13 5
+
+#2442
+elmetto pantera~
+un elmetto foderato~
+Un elmetto ricoperto con pelliccia di pantera.~
+~
+9 0 17
+2 4 0 0
+2 75 7
+A
+5 1
+
+#2443
+scudo pantera~
+uno scudo decorato~
+Vedi uno scudo in un angolo, decorato con il nero manto di pantera.~
+~
+9 0 513
+4 4 0 0
+3 50 5
+A
+17 -6
+A
+24 -1
+
+#2444
+cadavere~
+un cadavere in decomposizione~
+Un grottesco cadavere si sta decomponendo.~
+~
+15 0 0
+5 0 0 0
+0 0 0
+
+#2445
+avatar pergamena~
+una pergamena con strane citazioni~
+Ti incuriosisce questa pergamena.. Pare riporti frasi celebri.~
+~
+2 65 1
+4 39 228 227
+1 10000 1000
+E
+pergamena~
+Alcuni sommi spiriti hanno lasciato le loro migliori parole su questo foglio.
+Puoi vederne una per volta ("look uno" "look due" etc)
+~
+E
+uno~
+"Maestro, dovevo svegliare il drago o solo salutarlo?"
+-Un novizio incenerito
+~
+E
+due~
+"Fai pure quello che vuoi, se vuoi quel che voglio io."
+-La Dea della Bontà
+~
+E
+tre~
+"Avrei tanta voglia di una birra ghiacciata, ma non so dove trovare il ghiaccio"
+-Il demone degli inferi
+~
+E
+quattro~
+"Puoi chiamarmi semplicemente Divino Splendore delle Creature Siderali"
+-Il Dio dell'Umiltà
+~
+E
+cinque~
+"Qualcuno mi può aiutare?"
+-Tu!
+~
+
+#2446
+scudo latta~
+uno scudo di latta~
+Sebbene sia di latta forse protegge bene in battaglia.~
+~
+9 0 513
+2 2 0 0
+3 50 5
+A
+17 -3
+A
+22 -1
+
+#2447
+mantello ratto pelliccia~
+un mantello in pelo di ratto~
+Un mantello in pelo di ratto è buttato a terra.. Pare il suo ambiente naturale.~
+~
+9 262144 1025
+3 4 0 0
+2 100 10
+A
+17 -6
+A
+13 10
+
+#2448
+specchietto~
+uno specchietto~
+Volendo, puoi usare questo specchietto per comunicare.~
+~
+3 320 16385
+10 2 2 7
+1 50 5
+
+#2449
+canottiera~
+una canottiera rovinata~
+Qualcuno ha dimenticato qui una vecchia canottiera, non s'è perso nulla comunque.~
+~
+9 0 9
+1 3 0 0
+1 50 5
+A
+17 -4
+
+#2450
+chiave~
+una chiave d'osso~
+Non si capisce bene se sia un osso o una chiave.. Meglio provare.~
+~
+18 0 1
+2450 0 0 0
+0 0 0
+
+#2451
+frusta~
+la tremenda frusta del torturatore~
+Lunga e sferzante, vedi per terra la frusta del torturatore.~
+~
+5 0 8193 0
+12 5 10 4
+46 40 0
+A
+13 20
+A
+18 4
+A
+19 5
+
+#2452
+maschera~
+la maschera nera del torturatore~
+Una maschera in pelle nera con due buchi per gli occhi è abbandonata qui.~
+~
+9 199188 17
+4 5 0 0
+3 3000 300
+A
+3 1
+A
+18 1
+
+#2453
+pantaloni~
+un paio di pantaloni in pelle~
+Stai forse pensando di indossare questi vecchi pantaloni di pelle?~
+~
+9 0 33
+2 3 0 0
+1 100 10
+A
+17 -2
+
+#2454
+martello giudizio~
+il sacro martello del giudizio~
+Il martello del giudice è finito per terra.~
+~
+5 0 8193
+12 5 11 7
+5 2000000 200000
+
+#2455
+frustino~
+un frustino da cavalcata~
+Può tornarti utile questo frustino, nel caso tu avessi un cavallo.~
+~
+5 0 8193 0
+12 2 3 4
+46 40 0
+A
+18 1
+A
+19 2
+A
+2 -1
+
+#2456
+staffe~
+un paio di staffe~
+Qualcuno ha perso le staffe proprio qui! .. Divertente vero?~
+~
+9 262144 33
+2 5 0 0
+2 630 63
+A
+17 -2
+
+#2457
+olio lampada lume~
+un lume ad olio~
+Una lampada ad olio brilla di luce fioca.~
+~
+1 524289 1
+0 0 70 0
+4 5 0
+
+#2458
+carota~
+una bella carota arancione~
+Il ciuffo verde di una carota sbuca dal suolo.~
+~
+26 262144 1
+3 19 -1 -1
+6 500 50
+
+#2460
+cesto biancheria~
+un cesto per la biancheria~
+Cosa ci fa qui un cesto per la biancheria?~
+~
+15 262144 0
+30 5 0 0
+0 0 0
+
+#2461
+cocomero~
+un succoso cocomero~
+Un magnifico cocomero tenta il tuo appetito..~
+~
+26 262144 1
+5 39 56 -1
+15 900 90
+
+#2462
+insalata cespo~
+un cespo di insalata~
+Un'insalatina verde.. Buona per gli umani e le lumache.~
+~
+26 262144 1
+14 15 -1 -1
+4 500 50
+
+#2463
+porto barile vino~
+un barile di Porto~
+Il profumo di vino si sente anche se il barile è ben sigillato.~
+~
+17 262144 1
+20 20 2 0
+14 0 0
+
+#2464
+carne~
+un po' di carne essiccata~
+Qui son riposte alcune fette di carne essiccata.~
+~
+19 0 1
+5 0 0 0
+1 0 0
+
+#2465
+formaggio~
+un delizioso pezzo di formaggio~
+Nonostante l'odore persistente, questo formaggio ha un aspetto gustoso.~
+~
+19 0 1
+0 0 0 0
+1 0 0
+
+#2466
+mazzo carte~
+un mazzo di carte da gioco~
+Un mazzo di carte è stato dimenticato qui.~
+~
+9 0 16385
+2 2 0 0
+2 0 0
+A
+4 1
+A
+2 1
+
+#2486
+abbeveratoio~
+un abbeveratoio~
+Vedi davanti a te un abbeveratoio colmo d'acqua.~
+~
+25 0 0
+0 0 0 0
+0 0 0
+
+#2498
+spada~
+una spada~
+Una spada affilata è qui, inutilizzata.~
+~
+5 0 8193
+12 6 10 3
+0 0 0
+A
+17 -399
+A
+18 10
+A
+19 10
+
+#2499
+pozione~
+una pozione~
+Una strana pozione desta la tua curiosità.~
+~
+10 0 1
+50 28 28 28
+0 0 0
+
+#0
+
+
+#ROOMS
+
+#2400
+Il cancello principale~
+Appena raggiungi la cima della collina ti ritrovi dinnanzi ad un enorme cancello,
+si tratta della via d'accesso ad un grande Maniero.
+Oltre la cancellata si intravede un cortile ben tenuto, adornato con file di alberi
+e numerosi vasi di fiori. La casa è costruita con mattoni rossi bordati di
+bianco e due portalampada sono affissi ai lati della porta d'ingresso.
+Ora scegli se tornare indietro oppure passare i cancelli ed entrare ma prima da'
+un'occhiata alla placca in bronzo fissata alla roccia sulla tua destra.
+~
+0 8 0
+D0
+Vedi la facciata anteriore di un maniero.
+~
+cancello~
+3 -1 2401
+D5
+Da qui si scende lungo il fianco della collina.
+~
+~
+0 -1 2467
+E
+placca~
+Questo Maniero è stato costruito per i visitatori di comprovata esperienza.
+Fa' attenzione e prendi nota di tutto all'interno del maniero.. le stanze e gli
+oggetti che incontrerai nel tuo cammino.
+~
+E
+roccia~
+Alla roccia è fissata una piccola placca con delle incisioni.
+~
+S
+
+#2401
+Davanti alla porta d'ingresso~
+Passato il cancello, cammini lungo il viale d'accesso fino alla porta della casa.
+Bianche persiane velano le finestre ai lati della porta così che tu non possa
+sbirciare dentro.. Pare che nessuno sia in casa al momento, magari può essere
+una buona occasione per fare un giretto in questa bella magione.
+Oppure preferisci far due passi nel cortile?
+~
+0 8 0
+D0
+La porta conduce all'interno della casa.
+~
+porta~
+3 -1 2406
+D1
+Il cortile continua verso est.
+~
+~
+0 -1 2402
+D2
+Da qui si raggiunge il cancello principale.
+~
+cancello~
+3 -1 2400
+D3
+Il cortile prosegue verso ovest.
+~
+~
+0 -1 2403
+E
+porta~
+La porta ha una finestrella quadrata incastonata in sé.
+~
+E
+finestra~
+Non si vede nulla di particolare da questa finestra.
+~
+S
+
+#2402
+Ad est dell'ingresso principale~
+Prosegui lungo il lato orientale della casa.. Allungando lo sguardo dentro una
+finestra socchiusa puoi vedere un salotto.
+Verso ovest si ritorna alla porta d'ingresso, continuando verso est si fa il giro
+della casa.
+~
+0 12 0
+D1
+Il cortile prosegue verso est.
+~
+~
+0 -1 2405
+D3
+Vedi la parte frontale della casa.
+~
+~
+0 -1 2401
+S
+
+#2403
+Ad ovest dell'ingresso principale~
+Ti ritrovi nel cortile, ad ovest della porta d'ingresso. Trovi un piccolo pozzo
+pieno di gelida acqua cristallina. Un sentierino d'erbetta morbida ti conduce
+intorno alla casa proseguendo nel cortile ad ovest.
+Se vuoi tornare alla porta dirigiti verso est.
+~
+0 12 0
+D1
+In questa direzione si va verso l'entrata principale.
+~
+~
+0 -1 2401
+D3
+Il cortile continua ad ovest.
+~
+~
+0 -1 2404
+S
+
+#2404
+L'angolo sud-ovest del Maniero~
+Raggiungi l'angolo sud-ovest della casa: verso nord il cortile prosegue a perdita
+d'occhio mentre la via ad ovest è bloccata da un'alta recinzione.
+Puoi continuare a nord o tornare indietro.
+~
+0 12 0
+D0
+Il cortile continua a nord.
+~
+~
+0 -1 2412
+D1
+Il cortile prosegue verso est.
+~
+~
+0 -1 2403
+E
+recinto~
+Il recinto è alto circa quindici piedi. Sembra che i padroni del maniero
+non gradiscano visite..
+~
+S
+
+#2405
+L'angolo sud-est del Maniero~
+Hai raggiunto un altro angolo del maniero, l'angolo sudorientale.
+Un alto recinto blocca i tuoi passi verso est. Puoi solo proseguire a nord
+o tornare indietro verso ovest, alla porta d'ingresso.
+~
+0 12 0
+D0
+Il cortile si estende verso nord.
+~
+~
+0 -1 2415
+D3
+Il cortile continua verso ovest.
+~
+~
+0 -1 2402
+S
+
+#2406
+L'atrio~
+Entri in casa ed inizi a guardarti intorno: sei nell'androne principale.
+Sulla parete orientale è appeso uno specchio dalla cornice di legno nero
+intarsiato, contro la parete opposta un appendiabiti ospita un lungo cappotto.
+Muovi un passo e qualcosa di morbido sotto i piedi attira la tua attenzione: è
+uno splendido tappeto tessuto artigianalmente, ti pieghi un poco per vederne meglio
+i colori quando d'improvviso senti un rumore!
+Da qualche lontano corridoio giungono delle voci.. C'è qualcun altro in casa.
+Magari sarà meglio ricordarsene qualora decidessi d'addentrarti oltre l'ingresso..
+~
+0 8 0
+D0
+Sei sulla soglia di una camera ben ammobiliata.
+~
+~
+0 -1 2408
+D1
+Più avanti intravedi un salotto.
+~
+~
+0 -1 2464
+D2
+Da questa parte si esce dalla casa.
+~
+~
+3 -1 2401
+D5
+~
+botola~
+11 -1 2407
+E
+tappeto~
+Sollevi di poco un lembo del tappeto e trovi una botola!
+~
+E
+specchio~
+Guardi nello specchio e vedi.. Te!
+~
+E
+botola~
+Dalla botola si scende in un buio sotterraneo.
+~
+E
+Appendiabiti~
+Vuoi appendere il mantello?
+~
+S
+
+#2407
+Il seminterrato~
+Ops! ti chiedi subito perché non hai dato un'occhiata prima di scendere..
+Uno scivolo posto a trabocchetto subito dopo l'apertura e  *TUMP*.. rovini
+sul pavimento del sotterraneo.
+Rialzi il capo e guardando in alto vedi la lontana botola che non ti servirà ora
+come uscita.. Devi arrangiarti a trovarne un'altra.
+~
+0 3153928 0
+D2
+A sud si prosegue verso una scalinata.
+~
+~
+3 -1 2474
+S
+
+#2408
+Un lussuoso salotto~
+Ti ritrovi in un salotto ammobiliato con garbo e cura per la comodità
+degli ospiti. Gradevoli manufatti adornano le pareti e dedichi un po' di tempo
+ad osservarli attentamente mentre il dolce crepitio del focolare rasserena
+l'atmosfera. La robusta poltrona in legno di quercia, in un angolo del salotto,
+pare fatta apposta per rilassarsi qualche momento sul suo morbido cuscino.. Sembra
+proprio di essere a casa.
+Proseguendo la panoramica sulla stanza, t'accorgi delle tende ricamate che celano
+le finestre: accanto ai battenti, due piante in vaso tendono le loro foglie verso
+i vetri in cerca di qualche raggio di luce.
+Appoggiata alla parete occidentale, un'antica pendola batte le ore segnando
+il tempo che scorre..
+Una scala conduce al piano di sopra.
+~
+0 8 0
+D0
+Per di qua si va in cucina.
+~
+~
+0 -1 2411
+D1
+Riesci a vedere lo studio da qui.
+~
+~
+1 -1 2410
+D2
+A sud si va verso l'atrio.
+~
+~
+0 -1 2406
+D4
+Le scale portano al secondo piano.
+~
+scale~
+0 -1 2419
+D5
+~
+~
+0 -1 2409
+E
+opera arte~
+La firma dell'artista è illeggibile ma con un po' di fantasia s'intravede una P come iniziale
+~
+E
+focolare~
+A giudicare dallo stato dei mattoni, questo focolare sembra essere molto usato.
+~
+E
+fuoco~
+Caldo e scoppiettante.. La danza delle fiamme quasi ti ipnotizza.
+~
+E
+cuscino~
+Sembra così morbido ed invitante.. Cos'è quest'improvviso desiderio di un pisolino?
+~
+E
+tende~
+Tessute in cotone bianco come l'avorio, le tendine velano le finestre della stanza.
+~
+E
+pianta~
+Si tratta di un esemplare di Kentia, ama la luce solare ma non diretta.
+~
+E
+poltrona~
+Legno finemente lavorato per una poltrona di prima qualità, cuscino rivestito di
+morbida pelle, braccioli larghi.. Non resta che provarla!
+~
+E
+arte~
+E' un'opera realizzata con un intreccio di tessuti variopinti.. Ti ricorda
+vagamente un paio di calze della tua vecchia zia.
+~
+S
+
+#2409
+La stanza segreta~
+Dove sono..? Ti starai chiedendo.. E' una stanza segreta!
+La penombra regna sovrana, nonostante alcuni spiragli di luce provenienti dalle
+finestre del salotto. L'umidità penetra attraverso i vestiti e cercando di uscire
+quanto prima da qui, ti accorgi dell'ingresso di un cunicolo.
+Incedi nel tunnel ma l'oscurità ti impedisce di proseguire oltre qualche passo
+dall'imboccatura.. Un brivido ti sale su per la schiena.. Ma decidi di andare avanti.
+~
+0 12 0
+D4
+~
+~
+0 -1 2408
+D5
+Ovunque è solo oscurità.
+~
+~
+0 -1 2429
+S
+
+#2410
+Un confortevole studiolo~
+Non fai in tempo ad entrare nello studio, che già l'odore delle montagne di
+carta raggiunge le tue narici..
+Ovunque ti giri vedi libri.. E libri.. E ancora libri!
+A malapena sbuca qualche pezzettino di parete libera, gli scaffali occupano
+gran parte dei muri, dal pavimento al soffitto è tutta una grande libreria.
+Già che ci sei dai un'occhiatina ai titoli dei tomi, pare che ve ne siano per
+tutti i gusti.
+Due poltroncine in pelle sono sistemate in un angolo con un piccolo tavolo da
+caffè in mezzo; la finestra sulla parete orientale, affacciata sul cortile, illumina
+uno splendido tappeto persiano al centro della stanza.
+~
+0 8 0
+D3
+Ad ovest si torna verso il salotto.
+~
+~
+1 -1 2408
+E
+libri~
+Scorri i titoli dei libri con lo sguardo.. "L'immortalità dei Reami",
+"Pensieri di Theodore, il patriarca del Maniero", "Come coltivare i fiori di brughiera",
+"L'arte della Guerra, dai primi secoli ad oggi", "Il galateo dei Tullfuhrzky"..
+Alcuni ti sembrano noti altri un po' meno.
+~
+E
+scaffali~
+Probabilmente non hai mai visto tanti scaffali pieni di libri tutti in una volta.
+~
+E
+finestra~
+Guardando attraverso i vetri vedi il cortile esterno.
+~
+E
+tappeto~
+Preziosi disegni adornano questo tappeto, la lana è morbida e si è ben mantenuta
+negli anni.. E' un oggetto degno di una casata nobile!
+~
+S
+
+#2411
+La cucina~
+Un bel calduccio ti accoglie entrando in cucina, la fonte di tanto calore
+è un forno gigantesco che occupa tutta la parete ovest. Accanto al forno, le
+cassette piene di ciocchi di legna lasciano intendere che farà caldo ancora
+per molto..
+Lungo la parete nord è sistemato un piccolo lavabo con dentro uno strofinaccio
+ed una brocca; sopra il lavandino ci sono alcuni armadietti, forse per contenere
+piatti e bicchieri.
+Sulla parete opposta c'è una lunga fila di coltelli da cucina.. Sembrano uno più
+affilato dell'altro. Nel bel mezzo della cucina troneggia un largo tavolone
+in legno massiccio: se guardi bene il tavolo puoi vedere una spolverata di farina.
+Che sia la traccia di una torta appena sfornata?
+Una porta a nord ti conduce fuori dalla casa, ad est invece puoi dirigerti
+verso la dispensa.
+~
+0 8 0
+D0
+La porta conduce fuori.
+~
+~
+3 -1 2418
+D1
+Da questa direzione ti giunge un vago odor di cibo.
+~
+~
+3 -1 2463
+D2
+Vedi una grande stanza in questa direzione.
+~
+~
+0 -1 2408
+S
+
+#2412
+L'ala occidentale del Maniero~
+Ti ritrovi nella parte ovest del maniero, non c'è molto da vedere a parte
+una strana cassetta per gli attrezzi abbandonata. Verso ovest la strada è bloccata dal recinto.
+~
+0 12 0
+D0
+Il cortile si estende verso ovest.
+~
+~
+0 -1 2413
+D2
+Il cortile continua verso sud.
+~
+~
+0 -1 2404
+S
+
+#2413
+Proseguendo lungo il lato occidentale del maniero~
+Il cortile continua a nord verso la casa.
+~
+0 12 0
+D0
+Il cortile prosegue verso nord.
+~
+~
+0 -1 2414
+D2
+A sud continua ancora il cortile.
+~
+~
+0 -1 2412
+S
+
+#2414
+L'angolo nord-ovest del maniero~
+Giungi all'angolo nordoccidentale del maniero, un alto recinto ti impedisce
+di proseguire ancora in questa direzione. Verso est però puoi vedere la porta
+sul retro della casa.
+~
+0 12 0
+D1
+Ad est prosegui verso il cortile sul retro.
+~
+~
+0 -1 2418
+D2
+Il cortile continua verso sud.
+~
+~
+0 -1 2413
+S
+
+#2415
+L'ala orientale del maniero~
+Stai camminando lungo il lato est della casa, il recinto alla tua destra prosegue
+lungo tutto il perimetro del maniero.
+~
+0 12 0
+D0
+Il cortile continua a nord.
+~
+~
+0 -1 2416
+D2
+Il cortile si estende a sud.
+~
+~
+0 -1 2405
+S
+
+#2416
+Proseguendo lungo il lato orientale del maniero~
+Cammini lungo il cortile a fianco del muro orientale della casa, alzando
+lo sguardo puoi vedere la finestra dello studio verso ovest.
+Il recinto di protezione è ancora alla tua destra impedendoti il passaggio
+verso est.
+~
+0 12 0
+D0
+Il cortile continua a nord.
+~
+~
+0 -1 2417
+D2
+Il cortile prosegue verso sud.
+~
+~
+0 -1 2415
+S
+
+#2417
+L'angolo nord-est del maniero~
+Ti trovi nell'angolo nordorientale della casa, proseguendo verso ovest puoi
+continuare la tua passeggiata nel vasto cortile oppure puoi tornare sui tuoi
+passi verso sud, in direzione dell'entrata principale.
+~
+0 12 0
+D2
+Il cortile continua verso sud.
+~
+~
+0 -1 2416
+D3
+Ad ovest si va verso il cortile sul retro.
+~
+~
+0 -1 2418
+S
+
+#2418
+Il cortile sul retro~
+Dopo aver fatto mezzo giro ti ritrovi sul retro del maniero.
+Il cortile si estende verso nord dove si scorgono due piccole costruzioni
+una accanto all'altra.
+Più lontano intravedi un giardinetto ed oltre questo ti pare che vi sia
+un ulteriore edificio ma non ne hai la piena certezza per via delle numerose
+siepi che ostacolano la visuale.
+La grande corte prosegue in tutte le direzioni, ad est e ovest ti conduce
+lungo il perimetro del maniero mentre a sud riporta verso l'ingresso della casa.
+~
+0 12 0
+D0
+A nord ci si inoltra nel cortile sul retro.
+~
+~
+0 -1 2451
+D1
+Il cortile prosegue verso est.
+~
+~
+0 -1 2417
+D2
+Vedi la porta sul retro della casa.
+~
+~
+3 -1 2411
+D3
+~
+~
+0 -1 2414
+S
+
+#2419
+Il pianerottolo del secondo piano~
+Il secondo piano si dirama in tutte le direzioni.
+A ben vederli, i tappeti che ricoprono i pavimenti qui hanno sofferto di più per
+l'usura e alcuni sono molto macchiati. In alcuni puoi addirittura vedere le
+travi sottostanti attraverso i buchi nel tessuto.
+Alle pareti sono appesi i ritratti degli antenati Tullfuhrzky.. E' una saga
+familiare!
+Verso nord si imbocca un altro corridoio mentre ad ovest c'è una stanza per
+i giochi. Ad est si intravede la porta di un bagno.
+Guardandoti intorno vedi anche il corridoio che si dirige a sud ed una scala
+che conduce al piano superiore.
+Hai solo l'imbarazzo della scelta..
+~
+0 8 0
+D0
+Vedi un altro corridoio.
+~
+~
+0 -1 2422
+D1
+Per di qui si va verso il bagno.
+~
+~
+3 -1 2420
+D2
+Ancora un altro corridoio.
+~
+~
+0 -1 2458
+D3
+Ad ovest c'è la porta della stanza dei giochi.
+~
+~
+3 -1 2421
+D4
+Caspita.. E' veramente buio..
+~
+scale~
+0 -1 2426
+D5
+Le scale ti riportano verso il salotto al primo piano.
+~
+scale~
+0 -1 2408
+S
+
+#2420
+Un ampio bagno~
+E' un bagno come tanti: un lavabo completo di brocca ed asciugamano alla tua
+sinistra. Sopra il lavabo si trova uno specchio non bello ma largo e comodo.
+Lungo il muro sono appesi diversi armadietti per la biancheria pulita, alla
+tua destra è appoggiata una grossa tinozza contro il muro.
+Il tutto è illuminato da un semplice lampadario.
+~
+0 8 0
+D3
+Il pianerottolo continua in questa direzione.
+~
+~
+3 -1 2419
+E
+lavabo~
+E' un lavabo di ceramica bianca, sobrio nella linea ma molto pulito.
+~
+E
+armadietti~
+Sono vetrinette per riporre asciugamani e biancheria.
+~
+E
+specchio~
+Toh.. Chi si vede!
+~
+E
+lampadario~
+E' un lampadario a gocce, di semplice fattura.
+~
+E
+brocca~
+E' una brocca di ceramica usata per riempire il lavabo.
+~
+E
+tinozza~
+Non si capisce bene se sia una tinozza o una piscinetta..
+~
+S
+
+#2421
+La stanza dei giochi~
+Che confusione! Il pavimento è ricoperto da giocattoli di tutti i tipi e
+una nube di bambini corre per ogni lato della stanza. Mentre procedi nella
+camera fai molta attenzione a dove metti i piedi..
+Ti avvicini alle finestre e per un istante il tuo sguardo è rapito dalla
+gigantesca foresta che si estende dietro la casa.
+Un baule per i giochi è di fianco alla parete nord.
+~
+0 8 0
+D1
+Ad est ritorni sul pianerottolo.
+~
+~
+3 -1 2419
+E
+finestra~
+La foresta dietro la casa si estende per ettari ed ettari in lontananza..
+~
+S
+
+#2422
+Un corridoio del secondo piano~
+Cammini lungo uno dei tanti corridoi di questo piano. Verso est, sbirciando
+dietro una porta vedi un letto matrimoniale ed un camerino. Non sembra la
+camera di un inquilino del maniero, forse è la stanza degli ospiti.
+Ad ovest si apre un'altra camera stavolta con diversi letti ed armadi.
+La porta a nord è socchiusa.. Dando un'occhiata all'interno della stanza
+vedi un letto enorme sovrastato da uno scudo appeso al muro.
+~
+0 8 0
+D0
+A nord accedi alla camera da letto del padrone.
+~
+~
+3 -1 2425
+D1
+Un'altra camera da letto.
+~
+~
+3 -1 2424
+D2
+A sud si torna verso il pianerottolo.
+~
+~
+0 -1 2419
+D3
+Vedi una stanza piena di letti ed armadi.
+~
+~
+3 -1 2423
+S
+
+#2423
+La camera dei bambini~
+Finalmente hai trovato dove riposano tutti i bimbi del maniero. Una lunga fila
+di letti correda la parete nord mentre la parete opposta è occupata da armadi
+di diverse dimensioni.
+Il colore luminoso dei muri dona un vago senso di calore ed allegria.. La tinta, comunque,
+si alterna con i numerosi disegni dei bambini.
+~
+0 8 0
+D1
+Vedi un corridoio.
+~
+~
+3 -1 2422
+E
+disegno disegni~
+Ma che bel disegno! raffigura l'intera famiglia: mamma, papà e tutta la mandria
+di fratelli e sorelle.
+~
+S
+
+#2424
+La stanza degli ospiti~
+La camera non è molto grande ed è arredata con gusto sobrio, quasi spartano.
+L'arredamento consiste in un letto, una seggiola ed un minuscolo tappeto arabescato.
+Si può intuire da ciò che il padrone del maniero non ami molto intrattenere
+ospiti nella sua casa. Una misera finestrella regala un po' di luce alla stanza,
+affacciandoti puoi intravedere un pezzetto della grande foresta dietro la casa.
+~
+0 8 0
+D3
+Vedi il corridoio.
+~
+~
+3 -1 2422
+E
+letto~
+La tua culla era più grande di questo letto..
+~
+E
+sedia seggiola~
+La sedia non ha un cuscino né braccioli, pare sia fatta apposta per le visite brevi.
+~
+E
+finestra~
+Guardando attraverso la finestra puoi scorgere il cortile e la foresta retrostante.
+~
+E
+tappeto~
+Disegno rozzo e tessuto scadente.. Il padrone sceglie il meglio per i suoi invitati..
+~
+S
+
+#2425
+La stanza del padrone~
+Hai raggiunto la stanza del padrone del maniero, spera di non farti trovare da
+lui.. Non sarebbe contento di trovarti in camera sua.
+Ma già che ci sei fai bene a dare un'occhiatina: di fronte a te c'è un letto
+enorme, dal materasso apparentemente molto comodo. Insomma un letto degno d'un re.
+Accanto al letto vi sono due armadi, un'ampia scrivania ed uno specchio alto
+quanto una persona. La stanza è inondata dalla luce delle molte finestre che
+s'affacciano sul cortile offrendo lo splendido panorama della foresta.
+Sulla parete retrostante il letto, è appeso un imponente scudo sormontato da
+un cimiero in pelo di pantera.
+Incrociate sullo scudo fanno bella mostra due micidiali scimitarre.
+~
+0 8 0
+D1
+~
+~
+3 -1 2466
+D2
+Vedi il corridoio.
+~
+~
+3 -1 2422
+E
+letto~
+Il lettone gigante sembra essere un invito esplicito..
+~
+E
+specchio~
+L'immagine di una bestia orribile è rinchiusa dentro lo specchio! sfoderi l'arma
+e ti prepari a colpire.. Ma poi ti ricordi d'aver dormito poco la notte scorsa.
+~
+E
+finestra~
+Vedi una foresta che si stende per miglia e miglia..
+~
+E
+scimitarra~
+La lama della scimitarra, in mani sapienti, saprebbe infliggere danni seri al nemico.
+~
+E
+scudo~
+Un largo scudo sormontato da un cimiero in pelo di pantera.
+~
+S
+
+#2426
+La soffitta~
+Le scale t'han portato in una soffitta fredda, umida e decisamente buia.
+Riesci a malapena a vedere gli oggetti a due passi da te e, mentre cammini,
+sinistri scricchiolii del pavimento salgono verso le tue orecchie, ironicamente
+rassicuranti sulla stabilità delle travi.
+Dallo stato d'abbandono della soffitta si direbbe che nessuno abbia messo piede
+qui dentro da almeno qualche anno. Volendo riusciresti persino a scrivere il
+tuo nome sul muro solamente muovendo il dito nella polvere.. Tanta se n'è
+accumulata nel tempo.
+Verso ovest puoi continuare la tua visita nella penombra oppure riprendere
+le scale e scendere di sotto.
+~
+0 13 0
+D3
+E' MOSTRUOSAMENTE buio qui..
+~
+~
+0 -1 2427
+D5
+L'idea di tornare giù inizia a farsi allettante..
+~
+scale~
+0 -1 2419
+S
+
+#2427
+Più in là, nella soffitta~
+Un'atmosfera sinistra avvolge questa parte della soffitta.. Le assi del pavimento
+si incurvano sotto i tuoi passi, producendo rumorini tutt'altro che incoraggianti.
+Ti lascia pensare il fatto che nemmeno i topi vivono quassù.. L'oscurità è
+così densa che la tua luce non illumina più in là di due metri da te.
+Guardi verso nord ed un brivido gelido ti corre su per la schiena.. Forse è il caso
+di voltarsi e tornare indietro..
+~
+0 13 0
+D0
+L'oscurità non ti ispira nulla di buono..
+~
+~
+0 -1 2428
+D1
+Puoi tornare verso est, non sarebbe una cattiva idea.
+~
+~
+0 -1 2426
+S
+
+#2428
+Un passo falso~
+Non fai nemmeno in tempo ad accorgerti della trave che cede sotto il tuo peso..
+
+CRACK!
+
+Per fortuna ricadi su una parte solida del pavimento ma il danno ormai è fatto.
+Tutto il pavimento nella zona della porta crolla, restando intatto solo nel punto
+in cui ti trovi.
+Pare che questa sia destinata ad essere la tua nuova dimora..
+~
+0 12 0
+S
+
+#2429
+Il sotterraneo~
+E' incredibilmente buio qui, non si riesce a vedere proprio nulla.
+Ti accorgi che la cosa migliore da fare a questo punto sia quella di tornare indietro.
+~
+0 13 0
+D1
+E' così buio qui..
+~
+~
+0 -1 2430
+D4
+Ti pare di vedere una luce provenire da sopra.
+~
+~
+0 -1 2409
+S
+
+#2430
+Il labirinto~
+Guardando in su vedi una torcia appesa molto in alto sul muro, forse è per
+questo motivo che la stanza ad ovest era così oscura. La stanza in cui ti trovi
+adesso è completamente vuota.
+Le pareti sono coperte di muffa a causa della forte umidità e di sicuro l'odore
+non è dei più gradevoli.
+Puoi andare avanti o tornare indietro sui tuoi passi.
+~
+0 12 0
+D2
+Vedi soltanto un oscuro corridoio.
+~
+~
+0 -1 2431
+D3
+Ad ovest si esce da qui.
+~
+~
+0 -1 2429
+S
+
+#2431
+Il labirinto~
+Pare che questo sia una sorta di dedalo costruito proprio sotto il Maniero.
+Le pareti grigiastre ed ammuffite non aiutano di certo ad orientarsi quaggiù.
+Ti rendi conto che non è poi così difficile perdersi senza possibilità di
+ritorno..
+Ti volti a guardare la via che t'ha condotto fin qui.. Sembra più sicura.
+In tutte le altre direzioni si aprono corridoi scuri e cupi.
+~
+0 12 0
+D0
+L'uscita da qui è verso nord.
+~
+~
+0 -1 2430
+D1
+Non vedi altro che scuri corridoi.
+~
+~
+0 -1 2434
+D2
+Ancora corridoi oscuri.
+~
+~
+0 -1 2432
+S
+
+#2432
+Il labirinto~
+Il dedalo si estende in tutte le direzioni.
+~
+0 8 0
+D0
+Nient'altro che corridoi bui.
+~
+~
+0 -1 2431
+D2
+Sempre corridoi oscuri.
+~
+~
+0 -1 2438
+D3
+Questa è l'entrata ad una cantina.
+~
+~
+0 -1 2433
+D6
+Corridoi.. Corridoi ed ancora corridoi.
+~
+~
+0 -1 2434
+D8
+Vedi solo corridoi oscuri.
+~
+~
+0 -1 2439
+S
+
+#2433
+La cantina~
+Fredda ed umida, questa cantina accoglie numerosi barilotti in legno pieni di
+vino. Un'imponente rastrelliera, accostata contro una delle pareti, è riempita
+con svariate bottiglie di vini differenti.
+~
+0 8 0
+D1
+~
+~
+0 -1 2432
+S
+
+#2434
+Un'intersezione~
+Il corridoio termina in un incrocio di altre vie.. L'unica cosa che puoi fare
+è imboccarne una e sperare per il meglio.
+~
+0 8 0
+D1
+Cosa speri di trovare? Solo corridoi oscuri.
+~
+~
+0 -1 2435
+D2
+Ancora cerchi? Qui ci sono solo corridoi.
+~
+~
+0 -1 2440
+D3
+E' bello sperare, ma.. Vedi solo corridoi oscuri.
+~
+~
+0 -1 2431
+D6
+Sempre e sempre corridoi bui ed umidi.
+~
+~
+0 -1 2437
+D9
+Nulla da fare, corridoi anche qui.
+~
+~
+0 -1 2432
+S
+
+#2435
+Il labirinto~
+Ebbene sì, hai proprio perso la strada.
+~
+0 8 0
+D0
+Corridoi e ancora corridoi.
+~
+~
+0 -1 2437
+D1
+Corridoi bui ed oscuri.
+~
+~
+0 -1 2436
+D2
+Toh! un altro corridoio oscuro.
+~
+~
+0 -1 2445
+D3
+Un bellissimo corridoio oscuro.
+~
+~
+0 -1 2434
+S
+
+#2436
+Il labirinto~
+Sei ancora vittima del disorientamento.
+~
+0 8 0
+D2
+Buio, buio, buio, corridoi su corridoi.
+~
+~
+0 -1 2446
+D3
+Niente.. Solo corridoi umidi.
+~
+~
+0 -1 2435
+D7
+Umidità e buio..
+~
+~
+0 -1 2437
+S
+
+#2437
+Il labirinto~
+Ancora non ne sei fuori.. spiacente.
+~
+0 8 0
+D0
+AAAHHHH.. ancora buio.
+~
+~
+0 -1 2441
+D2
+Tiri un sospiro di sollievo.. Nulla è cambiato, sempre corridoi. Rassicurante eh?
+~
+~
+0 -1 2435
+D8
+Inizia a farsi divertente la vicenda.. Un altro corridoio uguale agli altri!
+~
+~
+0 -1 2436
+D9
+Non ci siamo.. Qui ci son solo corridoi.
+~
+~
+0 -1 2434
+S
+
+#2438
+Il labirinto~
+Raggiunto un angolo del labirinto inizi a chiederti se esista davvero un'uscita..
+Non riesci neppure a ricordare come hai fatto a finire quaggiù. Chissà quale strana
+creatura si nasconde e si aggira fra queste pareti.. Meglio non pensarci.
+~
+0 8 0
+D0
+Ehi! Ehi forse.. Mhrr no, sempre solo corridoi.
+~
+~
+0 -1 2432
+D1
+Ancora buio e umidità..
+~
+~
+0 -1 2439
+S
+
+#2439
+Il labirinto~
+Inizi a lasciare ogni speranza.. Quando raggiungi un'altra intersezione e trovi
+una massiccia porta di metallo sulla parete sud. Curioso, tiri la maniglia ma
+la porta non ne vuol sapere di aprirsi.. Allora poggi l'orecchio su essa per
+captare qualche rumore ed in effetti avverti uno strano *clang* *clang*.
+~
+0 8 0
+D0
+Una bella camminata era proprio quel che ci voleva.. In questi corridoi.
+~
+~
+0 -1 2440
+D2
+~
+~
+1063 2450 2450
+D3
+Ancora insisti? Vedi solo corridoi.
+~
+~
+0 -1 2438
+D7
+Nulla di nuovo.. Corridoi bui.
+~
+~
+0 -1 2432
+S
+
+#2440
+Il labirinto~
+Decisamente la cosa inizia a preoccuparti..
+~
+0 8 0
+D0
+Un corridoio lievemente diverso dagli altri.. O è solo la tua vista che ti inganna?.
+~
+~
+0 -1 2434
+D1
+Un altro corridoio oscuro.
+~
+~
+0 -1 2445
+D2
+Vedi solo corridoi nelle ombre.
+~
+~
+0 -1 2439
+S
+
+#2441
+Il labirinto~
+E' ironico come ci si possa perdere in stanze tutte uguali..
+~
+0 8 0
+D0
+Non vedi altro che oscuri corridoi.
+~
+~
+0 -1 2442
+D2
+Corridoi corridoi e ancora corridoi.
+~
+~
+0 -1 2437
+S
+
+#2442
+Il labirinto~
+Hai completamente perso il senso dell'orientamento, in più un insopportabile
+fetore proviene da ovest.. Da est invece giunge uno strano rumore di sibili e
+tintinnii.. Una confortante alternativa.
+~
+0 8 0
+D1
+~
+~
+0 -1 2444
+D2
+Uno dei tanti corridoi oscuri.
+~
+~
+0 -1 2441
+D3
+~
+~
+0 -1 2443
+S
+
+#2443
+Il labirinto~
+Giungi in quel che sembra essere stata l'ultima dimora di un malcapitato
+avventuriero.. In una nicchia nel muro giace il corpo di un uomo.
+Il cadavere ha già iniziato a decomporsi emanando un buon profumino di morto per
+tutta la stanza. Per un attimo provi l'impulso di rovistare nei panni del poveretto
+per trovare qualcosa di utile.. Ma ritorni in te ed eviti di farlo.
+~
+0 8 0
+D1
+~
+~
+0 -1 2442
+S
+
+#2444
+Un'orribile tana~
+Che orrore! le pareti sono interamente ricoperte di sangue ed il pavimento
+non sta meglio.. Ovunque sono sparpagliate carcasse di animali, ma hai il
+sospetto che possano essere ossa umane..
+Tutto concorre a farti pensare una sola cosa.. MORTE.
+~
+0 8 0
+D3
+~
+~
+0 -1 2442
+S
+
+#2445
+Il labirinto~
+Niente da fare.. Ancora non hai trovato l'uscita.
+~
+0 8 0
+D0
+Ancora oscuri corridoi.
+~
+~
+0 -1 2435
+D3
+Bello.. Un altro corridoio oscuro!
+~
+~
+0 -1 2440
+D8
+Ancora corridoi.
+~
+~
+0 -1 2468
+S
+
+#2446
+Il labirinto~
+Una stanza del labirinto come le altre..
+~
+0 8 0
+D0
+Corridoi e corridoi si stendono in questa direzione.
+~
+~
+0 -1 2436
+D1
+Ancora corridoi.. E nulla più.
+~
+~
+0 -1 2447
+D2
+Speri di vedere l'uscita? non ancora.. Qui, solo corridoi.
+~
+~
+0 -1 2468
+S
+
+#2447
+Il labirinto~
+Un grande disorientamento ti accompagna mentre vaghi per il dedalo.
+~
+0 8 0
+D2
+Ancora e solo corridoi.
+~
+~
+0 -1 2448
+D3
+Non ti viene voglia di piangere? Qui vedi solo corridoi..
+~
+~
+0 -1 2446
+S
+
+#2448
+Il labirinto~
+Stanze identiche, corridoi uguali.. Sei ancora dentro il labirinto.
+~
+0 8 0
+D0
+Corridoi ancora e sempre.
+~
+~
+0 -1 2447
+D2
+Sempre e solo corridoi.
+~
+~
+0 -1 2449
+S
+
+#2449
+Il labirinto~
+Non ne vieni fuori per il momento.. Continua a provare.
+~
+0 8 0
+D0
+Buio e corridoi.
+~
+~
+0 -1 2448
+D7
+Umidità e corridoi.
+~
+~
+0 -1 2468
+S
+
+#2450
+La camera della tortura~
+L'hai fatta grossa.. Forse non avresti dovuto assecondare la tua curiosità circa
+questa stanza.. Macchine infernali e strumenti di morte sono ovunque, alcuni
+anche impensabili. Ti volti per guardarti intorno ed un sorriso fatto frusta
+ti saluta, insieme a lance di ogni dimensione e catene pesanti.
+Un brivido gelido ti corre su per la spina dorsale mentre fissi con incredulità
+questi oggetti..
+~
+0 8 0
+D0
+A nord puoi uscire da questo luogo di morte.
+~
+~
+33 0 2439
+S
+
+#2451
+Più lontano nel retro cortile~
+Ti ritrovi vicino a due capanne di legno: da quella verso ovest proviene un
+odoraccio tremendo mentre quella a nord sembra essere una piccola depandance.
+Il cortile continua ad est e a sud riconduce al Maniero.
+~
+0 12 0
+D0
+Vedi la casa del servitore.
+~
+~
+3 -1 2462
+D1
+Un incrocio di strade.
+~
+~
+0 -1 2453
+D2
+Andando a sud ti riavvicini alla casa.
+~
+~
+0 -1 2418
+D3
+L'aria è impregnata da un odore orribile..
+~
+~
+3 -1 2452
+S
+
+#2452
+Il gabinetto esterno~
+Puah! Desideri fortemente di allontanarti al più presto da qui, tutto il luogo
+puzza in maniera inverosimile. Ti chiedi come possano vivere i servitori accanto
+ad un simile tanfo.. Ed il padrone della casa non si cura affatto di intervenire!
+Le tue narici non ne possono più e tappandoti il naso riprendi la via.
+~
+0 12 0
+D1
+Ad est ritorni verso il cortile e l'aria pulita!
+~
+~
+3 -1 2451
+> rand_prog 10~
+mpecho Il fetore ti ha sopraffatto.. Avverti un vago senso di nausea.
+mpecho Non riesci a sopportare il fetore e vomiti.. Blearch!
+~
+|
+S
+
+#2453
+Un incrocio~
+Alcuni sentieri si incontrano in questo punto: uno conduce a nord verso quel che
+sembra un graziosissimo giardinetto, ad ovest si ritorna verso il maniero, infine
+da est proviene uno strano odore di.. Fieno?
+~
+0 12 0
+D0
+Vedi un giardinetto.
+~
+~
+0 -1 2465
+D1
+Vedi le stalle in lontananza.
+~
+~
+0 -1 2454
+D3
+Ad ovest ritorni verso la casa.
+~
+~
+0 -1 2451
+S
+
+#2454
+L'ingresso alle stalle~
+Sei al cancello d'entrata alle stalle, stranamente molto più curate rispetto
+al quartierino della servitù e di sicuro meno puzzolente.
+Allungando lo sguardo oltre la cancellata ti pare di vedere del movimento, forse
+c'è qualcuno nella stalla.
+~
+0 12 0
+D1
+Un recinto per cavalli.
+~
+cancello~
+3 -1 2455
+D3
+Vedi un incrocio di viuzze.
+~
+~
+0 -1 2453
+S
+
+#2455
+Il recinto dei cavalli~
+La stalla privata del maniero ospita cinque recinzioni separate, ognuna con un lettino
+di fieno ed una madia piena di cibo per il cavallo.
+Il pavimento è mantenuto molto pulito, indice del grande amore che il padrone
+nutre per i suoi animali.
+~
+0 12 0
+D0
+~
+cancello~
+33 -1 2457
+D2
+Vedi numerosi paramenti per cavalli.
+~
+~
+0 -1 2456
+D3
+Vedi il cancello d'ingresso.
+~
+cancello~
+3 -1 2454
+S
+
+#2456
+Il magazzino dei finimenti~
+Questa stanza viene utilizzata come magazzino ove riporre i paramenti dei
+cavalli; sulla parete nord sono appese diverse selle e briglie. Una sfilza di
+ferri di cavallo occupa l'intera parete ovest mentre a sud puoi trovare tutti
+gli altri tipi di finimento: frustini, speroni e staffe.
+L'unica uscita è a nord.
+~
+0 12 0
+D0
+Vedi i recinti dei cavalli.
+~
+~
+0 -1 2455
+S
+
+#2457
+Il campo~
+Sei un grande campo adibito alla monta dei cavalli: numerosi ostacoli di legno
+sono posti dappertutto nel campo. L'erba è falciata di fresco.
+Il campo prosegue a nord ed ovest, a sud ritorni verso le stalle.
+~
+0 0 2
+D0
+~
+~
+0 -1 2483
+D2
+Vedi i recinti dei cavalli.
+~
+cancello~
+1 -1 2455
+D3
+~
+~
+0 -1 2482
+S
+
+#2458
+Un corridoio scuro~
+Ti ritrovi in un corridoio molto più buio degli altri, forse sei nella zona
+riservata alla servitù. Ad est e sud ti sembra di vedere delle camere da letto,
+ad ovest vedi un altro bagno.
+Evidentemente il padrone non vuole dividere il suo bagno con i servitori.
+~
+0 8 0
+D0
+Il pianerottolo prosegue in questa direzione.
+~
+~
+0 -1 2419
+D1
+Vedi una stanza da letto.
+~
+~
+3 -1 2459
+D2
+Vedi una stanza da letto.
+~
+~
+3 -1 2460
+D3
+Da qui si entra in un bagno piccolissimo.
+~
+~
+3 -1 2461
+S
+
+#2459
+La camera da letto della cuoca~
+Questa camera è assolutamente patetica. Hai visto prigioni che in confronto
+a questa erano palazzi reali. Le uniche cose che arredano questa stanza sono
+un letto, una sedia ed uno specchietto che forse entra nella tua tasca..
+~
+0 8 0
+D3
+Il corridoio prosegue in questa direzione.
+~
+~
+3 -1 2458
+S
+
+#2460
+La camera della tata~
+Qui la tata si ritira ogni sera per riposare. E' una camera disordinata, con un
+letto, un piccolo dondolo ed un tappeto. Le fredde pareti biancastre non sono
+adornate con alcun disegno o quadretto.
+Una piccola candela rischiara le notti della tata, mentre una finestrella provvede
+alla luce diurna.. In un angolo vedi un cesto per la biancheria.
+L'unica uscita è la porta.
+~
+0 8 0
+D0
+Si ritorna verso l'ingresso.
+~
+~
+3 -1 2458
+E
+letto~
+Un letto piccino con un materasso di terza mano.
+~
+E
+sedia dondolo~
+La tipica seggiola a dondolo delle tate.
+~
+E
+tappeto~
+Questo tappetino dovrebbe servire come isolante, per impedire al caldo della
+stanza di disperdersi attraverso il pavimento.
+~
+S
+
+#2461
+Un minuscolo bagno~
+Non riesci a credere quanto sia piccolo questo bagno.. Hai a malapena lo
+spazio per girarti. C'è una candela appesa al muro che dovrebbe fare luce..
+Solo un bimbo di cinque anni potrebbe farsi il bagno qui dentro ed il
+lavandino è grande quanto un piatto da minestra.
+Anche la brocca è piccolissima!
+Se non esci al più presto ti verrà un attacco di claustrofobia.
+~
+0 8 0
+D1
+Vuoi disperatamente uscire da questa gabbia di bagno!
+~
+~
+3 -1 2458
+E
+candela~
+Illumina lo stanzino per quanto possibile.
+~
+E
+tinozza~
+~
+S
+
+#2462
+La zona della servitù~
+Passi la porta e ti ritrovi in una capanna di legno.. Già pensavi che i servitori
+di questo maniero non avessero a disposizione molte suppellettili, ma questa
+casa è l'apoteosi del ridicolo. La capanna è sostanzialmente vuota, eccetto che per
+una stuoia fungente da letto ed un piccolo armadio. Per non parlare del
+pavimento.. Praticamente cammini sul terriccio. I servitori a quanto pare non
+hanno diritto ad una pavimentazione decente!
+Le pareti della capanna inoltre non ci pensano nemmeno a trattenere un pochino
+del già misero calore di questa casetta. La saga del maltrattamento continua con
+le finestre, che non sembrano affatto finestre.. Diresti piuttosto che siano
+buchi fatti per sbaglio nelle pareti coperti da pelli d'animali usate come tendine.
+Sopra la tua testa il soffitto è tutto un programma: probabilmente la notte i
+servitori si divertono a contare le stelle attraverso i buchi nel tetto..
+Forse fuori si sta meglio, la porta è a sud.
+~
+0 12 0
+D2
+La porta conduce fuori da questa misera capanna.
+~
+~
+3 -1 2451
+E
+stuoia~
+Una semplice stuoia di paglia, a quanto pare è l'unico letto della stanza.
+~
+S
+
+#2463
+La dispensa~
+Ti ritrovi di fronte a montagne di cibo sistemato sugli scaffali.. Farina,
+carne secca, grano su una parete. Dalla parte opposta vedi del formaggio, vari
+tipi di pasta e ceste piene di frutta; in un angolo vedi pure dei barilotti di
+vino.. Non ti è ancora venuta un po' di fame? Magari se fai in fretta puoi
+prendere qualcosa senza che se ne accorgano.
+~
+0 8 0
+D3
+Ad ovest torni nella cucina.
+~
+~
+3 -1 2411
+S
+
+#2464
+Il salotto~
+E' un salotto piccolo ma confortevole: alcune sedie con comodi schienali sono
+appoggiate alla parete corredate con tavolini da caffè.
+I muri sono ricoperti da pannelli in legno di quercia, nel complesso la stanza
+è illuminata da lampadari a goccia.
+Al centro del salotto c'è un tavolo di forma circolare contorniato da seggiole,
+sul tavolo giace dimenticato un mazzo di carte.
+Il pavimento è ben lavorato e soprattutto ben mantenuto, anche le pareti sono
+abbellite con alcune opere d'arte.. Forse vale la pena di dar loro un'occhiata.
+L'unica uscita è ad ovest, verso l'atrio.
+~
+0 8 0
+D3
+Ad ovest si ritorna verso l'atrio.
+~
+~
+0 -1 2406
+E
+lampada~
+Un'unica candela brilla solitaria su questo lampadario di cristallo.
+~
+E
+sedia~
+Una sedia piuttosto grossa, foderata con del velluto rosso.
+~
+E
+arte~
+Un piccolo quadretto rappresenta un paesaggio bucolico e sullo sfondo un salice
+piangente.. Guardando attentamente la firma si legge solo una M iniziale.
+~
+S
+
+#2465
+Il giardino~
+E' un giardino davvero grazioso, il tenero profumo di fiori ti accoglie già
+da lontano. Una piccola aiuola è riservata alla coltivazione di verdure.
+Un muro altro sei metri circonda tutto il giardino, appena dietro il muro c'è
+un boschetto.
+~
+0 0 0
+D2
+~
+~
+0 -1 2453
+S
+
+#2466
+Il bagno del padrone~
+Il padrone del maniero adopera ogni riguardo quando si tratta della propria
+persona.. Un'ostentata eleganza regna per ogni dove e tutto il mobilio è
+ricavato da ottimo marmo. Uno specchio a grandezza naturale occupa mezza parete,
+mentre al soffitto è appeso un lampadario apparentemente fatto con i diamanti.
+~
+0 8 0
+D3
+~
+~
+3 -1 2425
+E
+specchio~
+Per un attimo fai finta d'essere il padrone del maniero..
+~
+E
+lampadario~
+E' fatto interamente di oro e diamanti.
+~
+S
+
+#2467
+Un dolce pendio~
+Il tuo avanzare si fa un poco più lento appena la pendenza aumenta, raggiungendo
+il fianco della collina.
+Ad est e ovest vedi solo una grande distesa d'alberi ed inizi a pensare che
+una volta raggiunta la cima della collina ci sarà un grande cancello o una sorta
+di recinto a bloccarti il passo.
+Puoi comunque proseguire o tornare a sud verso lo stagno.
+~
+0 0 4
+D2
+Vedi un sentierino.
+~
+~
+0 -1 2492
+D4
+Ti pare di scorgere un cancello più avanti.
+~
+~
+0 -1 2400
+S
+
+#2468
+Un incrocio~
+Gli oscuri corridoi si incontrano in questa intersezione di strade, non hai idea
+di quale direzione scegliere.. Provane una e spera sia quella giusta.
+~
+0 8 0
+D0
+Niente, solo corridoi.
+~
+~
+0 -1 2446
+D2
+Ancora corridoi.
+~
+~
+0 -1 2469
+D7
+Nulla di cambiato, solo corridoi.
+~
+~
+0 -1 2445
+D8
+Quale dio vuoi pregare? Qui ci sono solo corridoi.
+~
+~
+0 -1 2449
+S
+
+#2469
+Il labirinto~
+Una stanza come le tante.
+~
+0 8 0
+D0
+Solo corridoi..
+~
+~
+0 -1 2468
+D2
+Buio e niente più, a parte i corridoi, ovviamente..
+~
+~
+0 -1 2470
+D8
+Ancora corridoi.. Meglio essere ciechi alle volte..
+~
+~
+0 -1 2491
+S
+
+#2470
+Il labirinto~
+Sei ancora qui, nel labirinto.
+~
+0 8 0
+D0
+Questi corridoi non finiscono mai vero?.
+~
+~
+0 -1 2469
+D3
+E' incredibile quanti corridoi abbia un labirinto.
+~
+~
+0 -1 2471
+S
+
+#2471
+Il labirinto~
+Nulla da fare, ancora labirinto.
+~
+0 8 0
+D1
+Corridoi.
+~
+~
+0 -1 2470
+D2
+Umidi corridoi!
+~
+~
+0 -1 2473
+D3
+Oscuri corridoi..
+~
+~
+0 -1 2472
+S
+
+#2472
+Il labirinto~
+Ancora nulla, sei distante dall'uscita.
+~
+0 8 0
+D1
+Solo corridoi.
+~
+~
+0 -1 2471
+D2
+Forse t'aspettavi altro? Qui, solo corridoi..
+~
+~
+0 -1 2475
+D3
+Buio e umidità.. E corridoi.
+~
+~
+0 -1 2478
+S
+
+#2473
+Il labirinto~
+L'uscita sembra essere irraggiungibile..
+~
+0 8 0
+D0
+Sempre e solo corridoi.
+~
+~
+0 -1 2471
+D8
+Numerosi corridoi bui.
+~
+~
+0 -1 2488
+S
+
+#2474
+Una scala~
+Evviva! Lo sentivi che doveva esserci un'uscita da qualche parte..
+Corri su per le scale e ti ritrovi davanti ad una porta, spingi la porta ed
+entri nel salottino. Voltandoti indietro noti che la porticina è
+sapientemente nascosta allo sguardo, ti rendi conto che non sarai in grado
+di rientrare nel labirinto dalla parte del salotto..
+~
+0 12 0
+D0
+A nord si va verso il sotterraneo.
+~
+~
+3 -1 2407
+D4
+~
+~
+0 -1 2464
+S
+
+#2475
+Il labirinto~
+Sei in una moltitudine di corridoi.
+~
+0 8 0
+D0
+Solo corridoi e nulla più.
+~
+~
+0 -1 2472
+D2
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2476
+S
+
+#2476
+Il labirinto~
+Sei ancora nel labirinto..
+~
+0 8 0
+D0
+Solo corridoi e nulla più.
+~
+~
+0 -1 2475
+D3
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2487
+S
+
+#2477
+Il labirinto~
+L'uscita sembra ormai troppo lontana..
+~
+0 8 0
+D2
+Solo corridoi e nulla più.
+~
+~
+0 -1 2478
+S
+
+#2478
+Un'intersezione di corridoi~
+Un altro incrocio, quasi quasi ti vien voglia di scegliere con un lancio di moneta..
+~
+0 8 0
+D0
+Solo corridoi e nulla più.
+~
+~
+0 -1 2477
+D1
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2472
+D2
+Ancora corridoi..
+~
+~
+0 -1 2479
+D3
+Lunghi corridoi che si perdono nell'oscurità.
+~
+~
+0 -1 2481
+S
+
+#2479
+Il labirinto~
+Una stanza come tante, nel labirinto.
+~
+0 8 0
+D0
+Lunghi corridoi che si perdono nell'oscurità.
+~
+~
+0 -1 2478
+D2
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2487
+D3
+Ancora corridoi..
+~
+~
+0 -1 2480
+S
+
+#2480
+Il labirinto~
+Sei in un dedalo di corridoi.
+~
+0 8 0
+D0
+Lunghi corridoi che si perdono nell'oscurità.
+~
+~
+0 -1 2481
+D1
+Ancora umidi corridoi che ti fan perdere l'orientamento.
+~
+~
+0 -1 2479
+S
+
+#2481
+Il labirinto~
+Ancora nulla.. nessuna uscita in vista.
+~
+0 8 0
+D1
+Ancora umidi corridoi che ti fan perdere l'orientamento.
+~
+~
+0 -1 2478
+D2
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2480
+S
+
+#2482
+Il campo~
+Il campo si estende a nord ed est da qui, il terreno pare lasciato a maggese.
+Verso nord intravedi un abbeveratoio.
+~
+0 0 2
+D0
+~
+~
+0 -1 2486
+D1
+~
+~
+0 -1 2457
+S
+
+#2483
+Il campo~
+Sei nell'angolo nord-est del campo. A parte l'erba non si vede altro, tranne
+forse una piccola radura nel campo, probabilmente perché viene usato come pascolo.
+~
+0 0 2
+D2
+~
+~
+0 -1 2457
+D3
+~
+~
+0 -1 2486
+S
+
+#2484
+Giudizio Finale~
+L'hai combinata grossa.. Stai fluttuando nel vuoto, senza alcuna possibilità
+di aiuto. Di fronte a te un giudice severo sta per emettere la sua sentenza.
+~
+0 3145804 0
+S
+
+#2485
+Un'anticamera~
+Sei in una stanza senza pareti.. Ti volti e vedi.. Assolutamente nulla!
+Ti si gela il sangue nelle vene.. Sotto di te vedi un uomo dall'aria
+altera, seduto su una sedia. Non pare molto felice.. E forse desideri
+d'essere dappertutto tranne che qui.
+~
+0 3154060 0
+D5
+~
+~
+0 -1 2484
+> speech_prog p Aiuto!~
+mpforce $n down
+~
+|
+S
+
+#2486
+Il campo~
+L'angolo nord-ovest del campo è molto fangoso e ti sporchi le scarpe mentre
+cammini; forse i cavalli amano camminare tutt'intorno all'abbeveratoio.
+~
+0 0 2
+D1
+~
+~
+0 -1 2483
+D2
+~
+~
+0 -1 2482
+S
+
+#2487
+Il labirinto~
+Niente da fare, ancora labirinto.
+~
+0 8 0
+D0
+Ancora umidi corridoi che ti fan perdere l'orientamento.
+~
+~
+0 -1 2479
+D1
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2476
+S
+
+#2488
+Il labirinto~
+Niente da fare, ancora labirinto.
+~
+0 8 0
+D1
+Ancora umidi corridoi che ti fan perdere l'orientamento.
+~
+~
+0 -1 2489
+D7
+Sempre e solo corridoi umidi.
+~
+~
+0 -1 2473
+S
+
+#2489
+Il labirinto~
+Niente da fare, ancora labirinto.
+~
+0 8 0
+D0
+Sempre e solo corridoi umidi.
+~
+~
+0 -1 2490
+D3
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2488
+S
+
+#2490
+Il labirinto~
+Niente da fare, ancora labirinto.
+~
+0 8 0
+D0
+Sempre e solo corridoi umidi.
+~
+~
+0 -1 2491
+D2
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2489
+S
+
+#2491
+Il labirinto~
+Niente da fare, ancora labirinto.
+~
+0 8 0
+D2
+Tutti questi corridoi ti faranno impazzire prima o poi.
+~
+~
+0 -1 2490
+D7
+Solo corridoi indistinguibili..
+~
+~
+0 -1 2469
+S
+
+#2492
+Un sentierino nel bosco~
+Cammini lungo un sentierino attraverso il bosco; di fronte a te si staglia
+una collina dal dolce pendìo. Provi ad immaginare la vista da lassù, poi ti
+lasci un po' cullare dal suono del vento attraverso gli alberi.
+Ad est e ovest il bosco continua, a sud torni verso il laghetto.
+~
+0 0 3
+D0
+Una collinetta ti si para davanti..
+~
+~
+0 -1 2467
+D9
+Un laghetto.
+~
+~
+0 -1 2096
+S
+
+#2493
+Fluttuando nel vuoto~
+~
+0 12 0
+S
+
+#2494
+Fluttuando nel vuoto~
+~
+0 12 0
+S
+
+#2495
+Fluttuando nel vuoto~
+~
+0 3145740 0
+S
+
+#2496
+Fluttuando nel vuoto~
+~
+0 12 0
+S
+
+#2497
+Fluttuando nel vuoto~
+~
+0 12 0
+S
+
+#2498
+Fluttuando nel vuoto~
+~
+0 12 0
+S
+
+#2499
+Fluttuando nel vuoto~
+~
+0 12 0
+S
+
+#0
+
+
+#RESETS
+D 0 2400 0 1
+D 0 2401 0 1
+D 0 2401 2 1
+O 1 2403 1 2403
+M 0 2407 1 2406
+E 1 2427 1 3
+D 0 2406 2 1
+D 0 2406 5 1
+M 0 2409 2 2407
+O 1 2407 1 2407
+P 1 2450 1 2407
+P 1 2406 1 2407
+P 1 2445 1 2407
+D 0 2407 2 1
+D 0 2408 1 0
+M 0 2410 1 2410
+G 1 2436 1
+G 1 2408 1
+E 1 2410 1 17
+E 1 2409 1 5
+D 0 2410 3 0
+M 0 2411 1 2411
+E 1 2405 1 16
+E 1 2441 1 5
+O 1 2411 1 2411
+P 1 2402 1 2411
+P 1 2401 1 2411
+D 0 2411 0 1
+D 0 2411 1 1
+O 1 2412 1 2412
+P 1 2413 1 2412
+D 0 2418 2 1
+D 0 2419 1 1
+D 0 2419 3 1
+M 0 2420 1 2420
+O 1 2420 1 2420
+P 1 2421 1 2420
+D 0 2420 3 1
+M 0 2421 1 2421
+E 1 2438 1 13
+O 1 2400 1 2421
+P 1 2434 1 2400
+P 1 2435 1 2400
+D 0 2421 1 1
+D 0 2422 0 1
+D 0 2422 1 1
+D 0 2422 3 1
+M 0 2422 1 2423
+E 1 2439 1 17
+D 0 2423 1 1
+D 0 2424 3 1
+M 0 2425 1 2425
+E 1 2422 1 17
+E 1 2423 1 8
+E 1 2424 1 1
+G 1 2425 1
+D 0 2425 1 1
+D 0 2425 2 1
+O 1 2463 2 2433
+M 0 2408 2 2435
+D 0 2439 2 2
+M 0 2412 4 2440
+M 0 2442 1 2443
+G 1 2426 1
+O 1 2444 1 2443
+P 1 2442 1 2444
+P 1 2443 1 2444
+M 0 2405 1 2444
+M 0 2471 4 2447
+M 0 2408 2 2449
+M 0 2450 1 2450
+E 1 2452 1 6
+E 1 2451 1 16
+D 0 2451 0 1
+D 0 2451 3 1
+D 0 2452 1 1
+D 0 2454 1 1
+M 0 2455 3 2455
+M 0 2455 3 2455
+D 0 2455 0 0
+D 0 2455 3 1
+M 0 2456 1 2456
+E 1 2428 1 16
+O 1 2455 1 2456
+O 1 2456 1 2456
+D 0 2457 2 0
+D 0 2458 1 1
+D 0 2458 2 1
+D 0 2458 3 1
+O 1 2448 1 2459
+D 0 2459 3 1
+M 0 2460 1 2460
+E 1 2433 1 3
+E 1 2432 1 20
+O 1 2460 1 2460
+P 1 2440 1 2460
+P 1 2431 1 2460
+D 0 2460 0 1
+O 1 2437 1 2461
+D 0 2461 1 1
+M 0 2462 1 2462
+E 1 2449 1 5
+M 0 2463 1 2462
+E 1 2453 1 7
+O 1 2457 1 2462
+D 0 2462 2 1
+O 1 2464 1 2463
+O 1 2465 1 2463
+O 1 2463 2 2463
+D 0 2463 3 1
+O 1 2466 1 2464
+M 0 2465 1 2465
+G 1 2462 1
+G 1 2461 1
+G 1 2458 1
+M 0 2426 1 2466
+E 1 2419 1 5
+E 1 2418 1 17
+E 1 2417 1 1
+D 0 2466 3 1
+M 0 2412 4 2468
+O 1 2446 1 2468
+M 0 2409 2 2470
+M 0 2471 4 2472
+D 0 2474 0 1
+M 0 2412 4 2479
+O 1 2447 1 2479
+M 0 2412 4 2481
+M 0 2484 1 2484
+E 1 2454 1 16
+M 0 2455 3 2486
+O 1 2486 1 2486
+M 0 2471 4 2488
+M 0 2471 4 2490
+S
+
+
+#SHOPS
+2465    0  0  0  0  0   150  90         0 23    ; the gardener
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  2405 spec_poison
+M  2462 spec_thief
+M  2484 spec_janitor
+S
+
+
+#END

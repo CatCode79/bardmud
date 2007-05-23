@@ -1,0 +1,11 @@
+#CLASS
+ClassNumber    CLASS_BUTCHER
+NameMale       Macellaio~
+NameFemale     Macellaia~
+Color          AT_DRED rosso sangue~
+PointsName     Vita Movimento Mana Anima~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AvarageAttr     0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+End
+
+#END
