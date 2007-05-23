@@ -1,0 +1,2302 @@
+#AREA
+Name         Le Catacombe della Cappella~
+Author       Copper (Cleyot)~
+Color        AT_BLACK nero~
+Economy      0 30000000
+LevelRange   15 25
+ResetMsg1    Mi è parso di sentire lo squittio di topi nascosti là, tra le crepe delle mura.~
+Vnums        3400 3475
+End
+
+
+#MOBILES
+
+#3400
+scheletro~
+uno scheletro~
+Uno scheletro ti viene incontro col suo ghigno mortifero~
+Ossa marroni su cui ancora pendono resti di antichi abiti e armature.
+Questo Non Morto è abbastanza stupido e debole, da solo. Il problema è che
+di solito dove ce n'è uno, ne arrivano TANTI!
+~
+33 0 0 C
+1 20 9 1d1+19 1d6+0
+5 100
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 1
+0 0 0 0 0 0 64 524291
+
+#3401
+zombie~
+uno zombie~
+Uno zombie è qui.. e si sta nutrendo di qualcosa..~
+Il suo corpo è completamente bianco, e si sta rapidamente decomponendo.
+Ogni Zombie è diverso dagli altri, poichè ancora portano le sembianze di
+quand'erano vivi.. Grottescamente distorte..
+~
+35 40 -100 C
+4 17 6 1d1+49 1d8+0
+0 600
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 390521 390521 1
+0 0 1231 0 0 0 64 2
+
+#3402
+ghoul~
+un ghoul~
+Un ghoul è qui.. E ti osserva affamato.~
+Da una rapida occhiata ai suoi abiti comprendi che un tempo quest'essere
+era affine a te. Ma ora non ricorda più nulla della sua vita passata, e da
+te desidera solo una cosa: la tua carne.
+~
+33 8 -500 C
+6 15 4 1d1+79 2d5+1
+0 1500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+
+#3403
+spettro~
+uno spettro~
+Scorgi uno spettro avvicinarsi a te, uscendo dalle ombre!~
+Non ha una forma materiale. Vedi solo una sorta di drappo scuro che lo
+cela completamente alla vista.. Ed il bagliore dei suoi gelidi occhi
+violetti puntati su di te.
+~
+35 42 -750 C
+12 9 2 1d1+149 3d6+0
+0 13000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+97 3 0 0 1 1 1
+0 0 0 0 0 0 1073741824 524291
+
+#3404
+vampiro~
+un vampiro~
+Un vampiro cerca di celarsi dalla tua luce!~
+Il vampiro sembra essere molto CATTIVO! Tuttavia, benchè il suo solo
+aspetto ti faccia sbiancare per la sua assurda apparente normalità, sembra
+essere solo un servo di qualcuno di più potente..
+~
+35 40 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+5 3 0 0 1 1 0
+0 0 1735 0 0 0 33558528 0
+
+#3405
+sacerdote~
+un sacerdote~
+Un sacerdote dagli occhi spiritati ti guarda minacciosamente!~
+"Non varcherete questa porta!!! Non violerete la casa degli Dei!!!", urla a
+gran voce questo sacerdote.. poi si calma osservandoti meglio e prende a
+camminare in circolo all'interno del tempietto, dando di tanto in tanto un'occhiata
+alle serrature. Ti guarda con circospezione, poi torna a camminare brontolando
+preghiere intrammezzate da continui "Sacrilegio! Sacrilegio!"..
+~
+2051 168 1000 C
+15 5 -5 15d15+150 1d4+8
+2000 20000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1775 0 0 0 0 2
+
+#3406
+mi-go fungi~
+un mi-go~
+Un Mi-Go si muove sinistramente nei paraggi.~
+E' un essere color rosa scuro lungo circa cinque piedi. Ha un corpo
+crostaceo su cui si innestano due grandi ali membranose e molte paia di
+gambe articolate convergono sul corpo elissoide, coperto da una moltitudine
+di antennine viscide dove dovrebbe di solito trovarsi la testa. Queste
+bestie di solito camminano su tutte le gambe, altre volte invece solo sul
+paio posteriore.
+~
+33 0 -500 C
+12 9 2 12d12+120 2d7+2
+0 10000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+
+#3407
+slynar mostro~
+uno Slynar~
+Un orrendo mostro ti viene incontro!~
+E' orrendo: la sua pelle è liscia ed oleosa, porta due corna che si
+curvano l'una verso l'altra e ali di pipistrello che non fanno alcun suono
+quando le batte. Ha orridi artigli prensili, stillanti un secreto
+appiccicoso e denso e una lunga coda con affilati aculei. E quel che è peggio
+è che egli non ha alcuna espressione, nè emette alcun suono: perchè una tetra
+oscurità si trova al posto del viso..
+~
+97 98304 -1000 C
+10 11 1 10d10+100 2d6+3
+150 4050
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 1775 0 0 0 0 0
+
+#3408
+tetro cacciatore~
+un tetro cacciatore~
+Un tetro cacciatore è qui in attesa di un avventuriero sperduto..~
+Serve Roch'tar. Egli impiega questi suoi servitori per cacciare gli
+intrusi nel suo dominio. Ricordano enormi serpenti o vermi con grandi ali da
+pipistrello. Si contraggono in continuazione, così è difficile guardarli.
+Sono in grado di parlare con possenti ma sgraziate voci. E' ENORME: circa 40
+piedi!!!
+~
+33 40 -1000 C
+20 1 -5 20d20+200 3d6+12
+0 60000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 1 1 1
+0 0 0 0 0 0 1073741824 2
+
+#3409
+erbe erba erbacce~
+erbe di caverna~
+Una strana erba cresce tra le fratture del pavimento..~
+Sembra solo un ammasso di fili d'erba color viola scuro..
+Secerne una sorta di rugiada verdognola..
+~
+37 98312 0 C
+6 15 4 1d1+75 1d8+1
+0 1500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+
+#3410
+demone~
+un demone infero~
+Un demone infero ti guarda ghignante.~
+Che orrido essere! E' alto circa sei piedi ed ha la pelle verde e
+squamosa, ricoperta di un ignoto secreto, ed i capelli rosseggianti. Metà
+della sua faccia è carbonizzata e sull'altra è sempre dipinto un sorriso
+sardonico. E' stato evocato sicuramente da Roch'tar, l'Immortale.
+~
+3 8 -750 C
+20 0 -1 1d1+365 4d3+15
+10 40000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+94 3 0 0 1 1 1
+0 0 1775 0 0 0 1 2
+
+#3411
+divoratore~
+un divoratore~
+Un divoratore solleva il capo dal suo pasto e ti guarda tenendo brandelli
+di carne in bocca..~
+Una grande bestia pelosa e famelica: la prima cosa VIVA che hai visto
+dacchè sei entrato. E' alto circa 8 piedi e deve rannicchiarsi per entrare
+in questo spazio. Ha un paio di tremendi artigli che usa per lacerare e
+squartare. Ha il volto simile a quello di un cane.. Ma gli occhi sono molto
+più grandi per compensare l'assenza di luce e soprattutto ha denti molto
+più affilati e robusti..
+~
+35 8 -1000 C
+17 4 1 1d1+215 4d2+7
+0 28000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 3 0 0 1 1 1
+0 0 0 0 0 0 1 2
+
+#3412
+derion~
+lo spirito di Re Derion~
+Lo spirito di Re Derion fluttua a qualche passo dal suolo.~
+Fluttua al di sopra del suolo e sembra alquanto MORTO! Mormora lievemente
+nell'aria: Le forze del male hanno destato il mio spirito e forse anche
+un'altro. Chiunque possa sentirmi, mi liberi da quest'esistenza miserevole.
+La pace della tomba mi chiama, ma io sono bloccato qui..
+~
+3 40 350 C
+20 0 -1 1d1+260 4d6+5
+1000 40000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 1 1 2
+0 0 1735 0 0 0 1107296256 524291
+> speech_prog p Apri la porta~
+if name($n) == Vorthian
+  nod vorthian
+  mpmload 2018
+else
+  say Ne è vietato l'accesso.
+endif
+~
+|
+
+#3413
+lumaca~
+una lumaca gigante~
+Una gigantesca lumaca sta lasciando dietro di sè tracce di muco verde..~
+E' una lumaca.. Solo, grossa quanto un alligatore!
+~
+5 0 0 C
+3 18 7 1d1+42 1d7+0
+5 350
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 3 0 0 1 1 1
+0 0 0 0 0 0 0 0
+
+#3414
+scultore~
+lo scultore folle~
+Uno scultore è qui lavorando sulle pareti e blaterando frasi senza senso~
+Decisamente pazzo, questo scultore è qui da ormai due decadi. I capelli sono
+bianchi; balbetta frasi sconnesse a sè stesso; uno strato di polvere riveste
+i suoi abiti fuori moda e sembra stia lavorando sempre sulla stessa porzione
+del muro vicino la base. Ah. Pare anche abbastanza cieco. Ride follemente
+verso di te e dice: "he he he cosa posso fare per te ragazzo? Non
+preoccuparti di mia moglie, è sempre in quel modo. Ciao cara puoi preparare
+un po' di tè per i nostri ospiti? Oh bene! Ora siediti qui! Lo gradisci
+caldo o freddo il tè? Si il tempo è.."
+~
+65 1 1000 C
+5 5 3 1d1+80 2d6+1
+0 900
+6 6 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1703 0 0 0 16 524290
+
+#3415
+moglie scultore spettro~
+lo spettro della moglie dello scultore~
+L'etereo spirito della moglie dello scultore fluttua qui..~
+Puoi a malapena vederla, benchè ti faccia già vomitare. Le manca metà
+della testa. L'altra metà è schiacciata in modo tremendo, ed il suo solo
+occhio spappolato le pende liberamente sul viso. Ti sorride follemente con
+la mandibola rotta, mostrandoti un sorriso privo di moltissimi denti. Una
+mano è posata sulla spalla dello Scultore. Suo marito.
+~
+3 65536 1000 C
+7 14 4 1d1+86 2d4+3
+15 2250
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 3 0 0 1 1 1
+0 0 1765 0 0 0 64 524291
+
+#3416
+corpo~
+un corpo mezzo decomposto~
+Un corpo in avanzato stato di decomposizione giace al suolo coperto da
+vermi.. S'è mosso mica? !~
+E' orrido, ributtante, schifoso e.. Si è anche mosso!!!
+~
+37 0 -350 C
+6 15 4 1d1+80 2d5+1
+0 1500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 1
+0 0 1775 0 0 0 1 0
+
+#0
+
+
+#OBJECTS
+
+#3400
+candeliere~
+Un candeliere~
+Un candeliere d'ottone è posato qui~
+~
+1 0 16385
+0 0 24 0
+5 150 15
+E
+candeliere~
+ E' un candeliere di antica fattura, a tre braccia, in ottone. Le sue
+candele stanno diventando giallognole..
+~
+
+#3402
+tentacolo~
+Il tentacolo di uno Slynar~
+Un tentacolo nero e ancora palpitante si contorce al suolo~
+tickle~
+5 128 8193
+0 3 4 5
+8 5000 500
+A
+18 1
+A
+19 2
+E
+tentacolo~
+ Un' orrido tentacolo strappato dal corpo di uno Slynar. Trasuda un umore
+acido e corrosivo.. Oltre a emanare un fetore ORRENDO.
+~
+
+#3403
+rete plasma~
+Una disgustosa rete di plasma roseo..~
+Un grumo di plasma color rosa giace al suolo.. puzzolente!~
+~
+9 2560 9
+7 0 0 0
+10 5000 500
+E
+rete plasma~
+ Umidiccia e flaccida.. E' formata da un intrico di piccoli tubuli
+pulsanti in cui scorre un umore roseo.. Rivoltante.
+~
+
+#3410
+chiave bastoncino~
+Una chiave ottagonale~
+Un bastoncino ad otto lati giace al suolo~
+~
+18 0 1
+0 0 0 0
+5 0 0
+E
+chiave~
+ Questa specie di chiave sembra poter infilarsi agevolmente in una
+qualche apertura..
+~
+
+#3411
+grande sporca chiave nera~
+Una grande e sporca chiave nera~
+Una chiave nera giace al suolo~
+~
+18 0 1
+0 0 0 0
+3 0 0
+E
+chiave~
+ Una tradizionale chiave di ferro o ghisa. Eccetto grosse, nere e orride
+macchie.. Sembra sia stata sepolta per un certo tempo..
+~
+
+#3412
+testa jubal~
+La testa mummificata di Jubal il Benevolo~
+Una testa mummificata rotola per terra.~
+~
+15 1024 1
+3 5 -1 0
+20 0 0
+E
+testa~
+ La carne è stata quasi completamente mangiata. Tuttavia lo scheletro
+della cassa cranica è integro. Sembra ci sia qualcosa fra i denti..
+~
+
+#3413
+anello nero marmo~
+Un anello nero di marmo~
+Un nero anello di marmo giace al suolo~
+~
+8 1088 3
+0 0 0 0
+2 4000 400
+A
+14 10
+A
+24 1
+E
+anello~
+ E' scurissimo, ed ha le venature tipiche del marmo color azzurro. Un
+oggetto molto bello.
+~
+
+#3414
+spada~
+Una sottilissima spada~
+Una spada estremamente affilata giace al suolo.~
+pierce~
+5 2 8193
+0 4 2 11
+4 1000 100
+A
+2 2
+A
+18 1
+E
+spada~
+ Sembra quasi inutile, talmente è sottile.. E tuttavia, allo stesso
+tempo, ha l'aria di poter essere letale.
+~
+#3415
+sarcofago bara~
+Un sarcofago di pietra~
+Un sarcofago di pietra è qui.~
+~
+15 0 0
+400 15 3416 0
+2000 0 0
+E
+sarcofago~
+ Una dimora per l'ultimo viaggio ben fatta, benchè polverosa e un po'
+antiquata. Sembra poter essere aperto, purchè abbia una chiave.
+~
+
+#3416
+chiave ferro~
+Una pesante chiave di ferro~
+Una chiave di ferro è a terra.~
+~
+18 0 1
+0 0 0 0
+4 0 0
+E
+chiave ferro~
+ Una chiave di ferro davvero pesante
+~
+
+#3417
+fiasco vino~
+Un fiasco di vino~
+Un fiasco di vino è stato abbandonato qui mezzo pieno~
+~
+17 0 16385
+4 4 2 0
+5 80 8
+E
+fisco vino~
+ Un prezioso tipo di vino che è sopravvisuto al trascorrere del tempo in
+una bara. Dovrebbe essere MOLTO ben stagionato
+~
+
+#3418
+monete tesoro cumulo~
+Un cumulo di monete per un Sovrano Defunto~
+Un GRANDIOSO cumulo di monete deposte per un sovrano defunto!~
+~
+20 0 1
+10000 0 0 0
+50 10000 1000
+
+#3419
+chiave~
+La chiave della bara~
+Una chiave scura giace a terra.~
+~
+18 1 1
+0 0 0 0
+3 0 0
+E
+chiave~
+ La chiave per la bara.. Ha una sorta di colore arancione, e brucia
+leggermente la tua mano
+~
+
+#3420
+rathcor~
+Uno scompartimento nascosto!~
+~
+~
+15 4 0
+10 5 -1 0
+1000 0 0
+E
+rathcor~
+ Ah ah! Uno scompartimento nascosto!
+~
+
+#3421
+scimitarra arruginita~
+Una vecchia e arruginita scimitarra~
+Una scimitarra è al suolo..~
+slash~
+5 0 8193
+0 2 3 3
+6 500 50
+E
+arruginita scimitarra~
+ Molto vecchia e molto arruginita. Addirittura, alcuni pezzi della lama
+sono assenti, così da renderla quasi dentellata..
+~
+
+#3422
+muco verde~
+Del muco verde~
+Calpesti una chiazza verdognola di muco.. il tuo piede fa uno schifoso rumore..~
+~
+19 0 1
+15 0 0 0
+1 15 1
+E
+muco~
+ Del muco verdognolo.. Sembra quasi prodotto da una lumaca.. gigante.
+~
+
+#3423
+grembiule~
+Un grembiule da pittore~
+Un grembiule macchiato giace qui~
+~
+9 0 9
+0 0 0 0
+7 100 10
+E
+grembiule~
+ Ha piccole macchie tutte sparse sopra, di vari colori; molti strappi e
+brandelli di materiali diversi.. E' molto vecchio. E puzza di vernice.. E
+di putrefazione
+~
+A
+9 -3
+
+#3424
+pergamena~
+Una pergamena arrotolata~
+Una pergamena ingiallita e arrotolata giace al suolo~
+~
+2 64 16385
+20 10 65 32
+5 5000 500
+E
+pergamena~
+ E' ben arrotolata. Le scritte sono pallidissime, quasi illegibili. Ma un
+sigillo si trova sul fondo. Sembra una sorta di X, aspersa di sangue..
+
+    88
+    88
+8888  8888
+    88
+    88
+
+~
+
+#3425
+globo rame~
+Un globo di rame~
+Un globo rotola per terra~
+~
+4 66 16385
+10 2 2 7
+10 15000 1500
+E
+globo~
+ Mentre lo osservi ti senti catturato dall'improvviso accendersi di
+bagliori colorati al suo interno.. E' un oggetto molto raro e prezioso..
+~
+
+#3426
+lingotto oro~
+Un lingotto d'oro~
+Un lingotto d'oro è qui~
+~
+8 0 1
+0 0 0 0
+30 5000 500
+E
+oro lingotto~
+ Un piccolo lingotto d'oro. Un tempo aveva un qualche sigillo impresso,
+ma il tempo, e forse altre forze, l'hanno cancellato..
+~
+
+#3427
+mantello nero~
+Un mantello nero~
+Un mantello nero giace al suolo~
+~
+9 68 1025
+5 0 0 0
+10 45000 4500
+A
+17 -10
+A
+19 2
+E
+mantello~
+ Il manto ondeggia lievemente in modo estremamente aggraziato. E' così
+scuro da sembrare una macchia di tenebra anche in piena luce.. E' molto
+bello.
+~
+
+#3428
+spada nera fiammeggiante~
+Una spada dalla lama nera avvolta dalle fiamme~
+Una spada nera avvolta da fiamme è infissa al suolo~
+~
+5 64 8193
+0 3 6 3
+20 45000 4500
+A
+12 25
+A
+13 25
+A
+19 5
+A
+18 5
+E
+spada fiammeggiante~
+ Questa lama è meravigliosa! Sembra quasi muoversi da sè! Mentre la
+osservi, sembra sussurrarti tentazioni oscure, e le fiamme che circondano la
+lama brillano più forte. Stille di sangue colano perpetuamente dall'elsa..
+~
+> use_prog 100~
+Un alone infuocato pervade la lama della spada nel momento in cui $n ne impugna l'elsa.
+~
+|
+
+#3429
+piastra consunta pezzo~
+Una piastra pettorale antichissima e consunta~
+Un pezzo d'armatura è a terra~
+~
+9 0 9
+6 0 0 0
+50 20000 2000
+E
+piastra~
+ Benchè sia estremamente vecchia e fragile, sembra poter ancora essere
+indossata..
+~
+
+#3430
+chiave argento~
+Una chiave d'argento~
+Vedi una chiave d'argento per terra~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+chiave argento~
+ C'è un'incisione: "Per l'altar maggiore del Tempio"
+~
+
+#0
+
+
+#ROOMS
+
+#3405
+Dentro il Tempietto~
+Anticamente questo tempio doveva ispirare calma e serenità: molti affreschi si
+trovavano sulle mura, illuminati da una calda luce che doveva provenire
+dall'unica finestra aperta come un occhio verso il cielo. Tuttavia, col
+passare degli anni, l'incuria e la decadenza hanno colpito anche questo
+luogo. Ora il vetro è sporco e scurito, poca luce entra ad illuminare i
+dipinti che si sono ormai già scrostati in gran parte. A malapena scorgi un
+altare, verso il muro meridionale, e qualche fila di panche in legno,
+invecchiate e rovinate anch'esse.
+~
+0 0 1
+D0
+La porta del Tempietto è fatta di legno scuro.
+~
+porta~
+7 -1 3604
+D5
+~
+altare~
+39 3430 3421
+E
+vetro finestre vetri~
+La finestra è tondeggiante, ma il vetro è scheggiato in più punti ed
+incrostato di sporcizia da molto tempo.
+~
+E
+panche file~
+Le panche non sono esattamente confortevoli
+~
+E
+affresco affreschi~
+Credi di intuire, fra ciò che resta delle antiche raffigurazioni, una
+grande Mietitrice che raccoglie le anime, ed una Figura severa accanto ad
+una bilancia.
+~
+E
+altare~
+L'altare è ornato da un motivo floreale smussato dall'età. Uno strano
+foro si trova sul suo retro!
+~
+E
+foro~
+Sembra quasi una serratura..
+~
+S
+
+#3408
+La Seconda Scalinata~
+I tunnel convergono in questa stanza pressocchè circolare. Il puzzo è
+tremendo, e fai quasi fatica a sopportarlo. Una sensazione di pericolo
+sempre più opprimente si fa strada nel tuo animo, quasi rigurgitata dalla
+profondità stessa della Scalinata che vedi perdersi nel buio più fitto..
+~
+0 9 0
+D3
+~
+porta~
+7 3411 3449
+D5
+~
+~
+0 0 3450
+S
+
+#3409
+Il dormitorio degli Accoliti~
+Ecco spiegato il motivo per cui non sei stato accolto all'ingresso dai devoti
+sacerdoti custodi del Sacrario.
+I cadaveri riversi degli Accoliti sono sparsi per questo salone, ed il loro
+sangue ti arriva quasi alla caviglia.
+Molti sono stati fatti a pezzi e.... la porta dietro di te è stata serrata da
+qualcuno!!
+E' una TRAPPOLA! ! ! ! ! ! ! ! ! !
+~
+0 15 0
+E
+corpi cadaveri~
+Maciullati.. Squartati.. Le gole sono state lacerate da artigli
+impietosi, e le budella dei ventri squarciati sono sparse sul pavimento.
+Scivoli e cadi, ed il sangue rappreso ti si attacca al vestito, assieme a
+frattaglie e pezzi di organi umani…
+~
+S
+
+#3410
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D2
+~
+~
+0 0 3415
+D3
+~
+~
+0 0 3411
+S
+
+#3411
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3410
+S
+
+#3412
+La Grande Sala dei Re~
+Ti trovi al termine della parte occidentale della Sala dei Re. Una porta
+è a sud, con una lapide su di essa. Ci sono anche delle macchie di sangue
+rappreso sul pavimento, ma il loro colore sembra un po' strano..
+~
+0 9 0
+D1
+~
+~
+0 0 3417
+D2
+Una porta a sud
+~
+porta~
+3 -1 3413
+E
+lapide scritta~
+E' stata rovinata dal tempo, ma si riferisce ad un antico sovrano di nome
+"Shohan"
+~
+E
+macchie~
+Strano.. Sembrano VERDI! ! !
+~
+S
+
+#3413
+La cappella di Shohan~
+SANGUE DAPPERTUTTO! I muri sono rivestiti di sangue, pezzi di carne
+sanguinolenta giacciono ai tuoi piedi, ed abiti strappati si trovano per
+ogni dove. Non ti preoccuperebbe più del normale.. Se non fosse tutto
+FRESCO! Qualsiasi cosa sia stata usata come altare in questa cappella, ora
+giace ribaltata e distrutta. Porte conducono a sud e a nord.
+~
+0 9 0
+D0
+~
+nord~
+3 -1 3412
+D2
+~
+sud~
+1 -1 3414
+S
+
+#3414
+Il sepolcro di Shohan~
+Una volta magnifico,questo luogo è stato trasformato in un mattatoio
+dalle mani di creature malefiche.. C'è persino più sangue e carne qui
+che nella cappella di Shohan. Questo posto sembra essere stato trasformato
+nella zona in cui bestie e mostri si nutrono della carne più o meno putrida
+che vedi sparsa in giro. Il sarcofago distrutto dell'una volta potente Re
+Shohan giace al suolo. Una porta si trova a nord, ed una parte di muro è
+stata distrutta verso est, creando un passaggio..
+~
+0 9 0
+D0
+~
+porta nord~
+1 0 3413
+D1
+~
+~
+0 0 3419
+E
+tomba sarcofago~
+Ora distrutto.. C'è una scritta su di esso: 'Viva il nuovo Re; noi
+serviamo il Roch'tar, l'Immortale! Quelli che non lo adorano saranno
+massacrati! '
+~
+S
+
+#3415
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3410
+D2
+~
+~
+0 0 3420
+D3
+~
+~
+0 0 3416
+S
+
+#3416
+L'Entrata ai Cunicoli Inferiori~
+Puoi dire con sicurezza che questa zona non faceva parte della
+costruzione originale. I muri sembrano essere stati scavati da una forza
+fenomenale e sono alquanto irregolari. Addirittura, nei pressi delle scale,
+sembrano essere stati ARTIGLIATI!
+~
+0 1 0
+D0
+~
+~
+0 0 3415
+D4
+~
+tunnel~
+1 -1 3418
+E
+muri~
+Qualcosa di GROSSO deve aver fatto questo lavoro! Ci sono tracce di
+sangue nei segni degli artigli..
+~
+S
+
+#3417
+La Grande Sala dei Re~
+Questa è l'ala orientale della Sala dei Re. Il corridoio prosegue
+immerso in una luce irreale dalle fiaccole che si trovano agganciate ai
+muri. Non sembrano essere state cambiate di recente, eppure continuano a
+brillare rischiarando debolmente le tenebre di questo luogo..
+~
+0 9 0
+D1
+~
+~
+0 0 3422
+D3
+~
+~
+0 0 3412
+S
+
+#3418
+La Cappella di Cristis~
+A differenza del resto, questo luogo non è stato sconsacrato. Un altare
+si trova ancora bene saldo, e gli affreschi mostrano scene della vita di
+Cristis il Dolce. Noti una scalinata sprofondare nelle tenebre.. Ed un
+fantasma avvolto di luce dorata venirti incontro reggendo qualcosa in mano!
+~
+0 9 0
+D2
+~
+~
+0 0 3419
+D5
+~
+scala~
+3 -1 3416
+E
+altare~
+E' alto all'incirca tre piedi, con resti di vecchissime candele
+giallognole sul ripiano. C'è un'iscrizione su una lapide posta sulla sua
+parte frontale: 'Prega per Cristis il Portatore di Luce e Giustizia nel
+mondo. Colui che ha combattuto i piè grandi fra i mali riposa in pace.
+Possano gli Dei ricordarlo in eterno'
+~
+E
+fantasma cristis~
+Il suo riposo è stato disturbato dalle creature malefiche che hanno
+invaso questo Sacrario. Sorregge una pergamena fluttuante, reggendola di
+fronte a sè cosicchè tu possa leggerla. "Salve, Pellegrino, e ultima
+speranza di Darkhaven e di queste Tombe! Ciò che stai leggendo è
+un'invocazione d'aiuto da un uomo che è da lungo tempo ha abbandonato
+questa terra. Le forze del Male hanno preso il controllo di questa Cripta, e
+gli Antichi Re necessitano il tuo aiuto per essere liberati e poter godere
+di nuovo del riposo eterno. Credo che io solo sono stato in grado di
+apparirti e di comunicare con il mondo mortale. Roch'tar, il Vampiro, ora
+regna incontrastato in queste tombe. Devi trovarlo e distruggerlo, assieme
+alle sue abominevoli creature! Possano gli Dei della Luce guidare i tuoi
+passi!"
+~
+S
+
+#3419
+Il sepolcro di Cristis~
+Tutto, qui, è stato semplicemente distrutto. Tracce di ciò che un tempo
+era questo luogo sono a malapena visibili sul soffitto, da cui vedi pendere
+una vecchissima bandiera per chissà quale motivo non asportata e distrutta
+come il resto dell'arredo mortuario. Schegge di pietra indicano forse il
+luogo in cui si trovava il sarcofago del sovrano una volta qui sepolto.
+~
+0 9 0
+D0
+~
+~
+0 0 3418
+D3
+~
+~
+0 0 3414
+S
+
+#3420
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3415
+D3
+~
+~
+0 0 3425
+S
+
+#3421
+L'Atrio della Cripta dei Re~
+Chiunque abbia costruito questo posto dev'essere stato davvero molto
+ricco! Benchè tu sia entrato da un ingresso relativamente piccolo, questo
+luogo ha abbastanza spazio da ospitare un mucchio di persone. Il pavimento
+ha un tappeto ben intessuto, ed i muri sono coperti con raffinati arazzi. Di
+certo queste cose devono aver avuto un grande valore, ma non sono sfuggite
+alla falce del Tempo inesorabile. Un grande portone conduce a sud, ed
+un'ampia scalinata di pietra risale verso il Tempio.
+~
+0 9 0
+D2
+Porte di quercia finemente lavorate chiudono l'ingresso meridionale.
+~
+porta~
+3 -1 3422
+D4
+Vedi una lunga serie di scali culminanti con una piccola botola di pietra.
+~
+pietra bolota porta~
+39 3410 3405
+E
+portone~
+Le ante della porta sono IMMENSE! Sono alte almeno 12 piedi e larghe 10.
+Se non fosse per un solo dettaglio, sarebbero perfettamente conservate:
+sembra ci siano delle lettere rozzamente scavate nel legno..
+~
+E
+lettere graffiti incisione incisioni~
+'.. Fermatevi Uomini, la Morte vi attende oltre.. Insho'rkthon
+brsskra-lehsn Roch'tar'. Due tagli incrociati a formare una X sembrano esser
+stati fatti da qualcosa o qualcuno per cancellare la scritta.. Cancellando
+forse l'incisore. Ci sono delle piccole macchie di sangue incrostato nei
+pressi..
+~
+E
+scale~
+Benchè siano alquanto scheggiate, sembrano molto stabili.
+~
+E
+pietra botola~
+E' abbastanza piccola, e sembra abbastanza pesante, ma forse con qualche
+leva potresti smuoverla. Ha un'apertura che sembra fatta apposta per
+infilarvi un'asta della stessa larghezza. Se solo l'avessi, ovviamente.
+~
+E
+arazzo arazzi~
+Gli arazzi sono stati tessuti in modo da raffigurare episodi di antiche
+battaglie. In una di esse si nota un antico sovrano, che il cartiglio
+identifica come "Jubal il Benevolo" in lotta contro un essere mostruoso di
+nome "Krogen". Ovviamente, il sovrano sta vincendo l'epico confronto.
+~
+S
+
+#3422
+La Grande Sala dei Re~
+Un lungo corridoio va da est ad ovest. Nella parte meridionale della sala
+ci sono molte porte, ciascuna con il nome di un Re defunto sepolto qui. Il
+corridoio è bello, ma sinistramente agghiacciante nel suo silenzio rotto
+solo da brevi rumori (topi, forse? ). Benchè l'area sia stata ripulita
+dagli accoliti tempo fa, un forte odore di morte e decomposizione permane..
+~
+0 9 0
+D0
+~
+porta~
+3 -1 3421
+D1
+~
+~
+0 0 3427
+D2
+La porta reca scritto: 'Possano gli Uomini di tutte le terre ringraziare
+in eterno Derion il Vittorioso. Senza la sua guida, il Regno sarebbe andato
+perduto. '
+~
+porta~
+3 -1 3423
+D3
+~
+~
+0 0 3417
+S
+
+#3423
+La cappella di Derion~
+In gran parte in rovina, questo posto era la cappella del famoso sovrano
+Derion, che combattè assieme ad Elfi e Nani contro le forze della Tenebra
+oltre 2500 anni fa. Grazie al suo contributo, la sua stessa prima città,
+da poco trasferita a Darkhaven, sarebbe stata distrutta.
+Benchè Derion sia stato un sovrano giusto e saggio, si diceva che si fosse
+volto al male nei suoi ultimi anni per paura della Morte.. E che sia morto
+nell'Ombra.
+~
+0 9 0
+D0
+~
+porta~
+3 -1 3422
+D2
+~
+~
+0 0 3424
+S
+
+#3424
+Il sepolcro di Derion~
+Un sarcofago giace nel mezzo della stanza, e sembra essere integro ed il
+riposo del sovrano non è stato turbato. Un buco è stato fatto nel muro
+orientale
+~
+0 9 0
+D0
+~
+~
+0 0 3423
+D1
+~
+~
+0 0 3429
+S
+
+#3425
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3426
+D3
+~
+~
+0 0 3420
+S
+
+#3426
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3430
+D2
+~
+~
+0 0 3425
+S
+
+#3427
+La Grande Sala dei Re~
+Questa è l'ala orientale della Sala dei Re. Il corridoio prosegue
+immerso in una luce irreale dalle fiaccole che si trovano agganciate ai
+muri. Non sembrano essere state cambiate di recente, eppure continuano a
+brillare rischiarando debolmente le tenebre di questo luogo.. A sud c'è
+una porta, ad est e ovest si estende la sala.
+~
+0 9 0
+D1
+~
+~
+0 0 3432
+D2
+~
+porta~
+3 -1 3428
+D3
+~
+~
+0 0 3422
+S
+
+#3428
+La cappella di Mitnar~
+Mitnar era un uomo violento e battagliero. Amava la lotta.. e
+nient'altro. I guerrieri amarono Mitnar, e tutti i combattenti lo onorarono.
+Sui muri sono affrescate battaglie su battaglie, a cui questo bellicoso
+sovrano deve aver preso parte. Una piccola apertura è stata ricavata verso
+est.
+~
+0 9 0
+D0
+~
+porta~
+3 -1 3427
+D1
+~
+~
+0 0 3433
+D2
+~
+~
+0 0 3429
+S
+
+#3429
+Il sepolcro di Mitnar~
+Gli affreschi mostrano guerrieri, uomini e donne allo stesso modo,
+inchinarsi davanti a Mitnar; prigionieri di guerra messi a morte da lui in
+persona e grandi mucchi d'oro ed armi sotto i suoi piedi. Dove si dovrebbe
+trovare la sua bara, però, c'è soltanto un alone un po' più chiaro
+rispetto al pavimento polveroso..
+~
+0 9 0
+D0
+~
+~
+0 0 3428
+D3
+~
+~
+0 0 3424
+S
+
+#3430
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3435
+D1
+~
+~
+0 0 3431
+D2
+~
+~
+0 0 3426
+S
+
+#3431
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3430
+D2
+~
+~
+0 0 3436
+S
+
+#3432
+La Grande Sala dei Re~
+Questa è l'ala orientale della Sala dei Re. Il corridoio prosegue
+immerso in una luce irreale dalle fiaccole che si trovano agganciate ai
+muri. Non sembrano essere state cambiate di recente, eppure continuano a
+brillare rischiarando debolmente le tenebre di questo luogo..
+~
+0 9 0
+D1
+~
+~
+0 0 3437
+D3
+~
+~
+0 0 3427
+S
+
+#3433
+La cappella di Frath~
+Brandelli di carne secca sono sparsi sul pavimento. I muri sono coperti
+da sangue rappreso. Quasi come se fossero stati verniciati.. Puoi quasi
+intuire un disegno..
+~
+0 9 0
+D1
+~
+~
+0 0 3438
+D3
+~
+~
+0 0 3428
+E
+disegno~
+Gli orridi simboli di un massacro e dei suoi artefici
+sono disegnati rozzamente sui muri da mani incerte.. Ma tinte di sangue..
+~
+S
+
+#3434
+Il Sepolcro di Frath~
+Il sarcofago è aperto, ed il cadavere mummificato è sparso all'esterno,
+squarciato in minuti frammenti di carni ed ossa sparsi nei dintorni!
+~
+0 9 0
+D5
+~
+~
+0 0 3439
+S
+
+#3435
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3440
+D1
+~
+~
+0 0 3436
+D3
+~
+~
+0 0 3430
+S
+
+#3436
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3435
+D2
+~
+~
+0 0 3431
+D3
+~
+~
+0 0 3441
+S
+
+#3437
+La Grande Sala dei Re~
+Sei giunto all'estremità orientale della Sala dei Re. Le fiaccole qui
+sono presenti in numero minore. Alcune sono addirittura gettate in terra ed
+infrante come da morsi violenti. Un odore mefitico proviene da nord, dove si
+trova una porta socchiusa..
+~
+0 9 0
+D0
+~
+porta~
+3 -1 3409
+D3
+~
+~
+0 0 3432
+S
+
+#3438
+La cappella di Jubal~
+Un tempo questo luogo doveva essere bello. Ora, i grandi arazzi sono
+stati strappati e gettati in terra, i tappeti distrutti e squarciati, i
+dipinti sul soffitto irriconocibili e l'altare distrutto..
+~
+0 9 0
+D2
+~
+~
+0 0 3439
+D3
+~
+~
+0 0 3433
+S
+
+#3439
+Il sepolcro di Jubal~
+Il fetore emanante dal sarcofago spalancato è nauseante. Il pavimento di
+pietra è leggermente sconnesso ed i muri mostrano la loro trama di legno e
+pietra, essendo stati completamente divelti i rivestimenti che li ornavano.
+Ma la parte peggiore è la mummia. Jubal il Benevolo è privo della testa!
+~
+0 9 0
+D0
+~
+~
+0 0 3438
+D4
+~
+~
+0 0 3434
+S
+
+#3440
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+3 -1 3449
+D1
+~
+~
+0 0 3441
+D2
+~
+~
+0 0 3445
+D3
+~
+~
+0 0 3435
+S
+
+#3441
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3440
+D1
+~
+~
+0 0 3446
+D2
+~
+~
+0 0 3436
+S
+
+#3442
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3443
+D2
+~
+~
+0 0 3447
+S
+
+#3443
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3444
+D3
+~
+~
+0 0 3442
+S
+
+#3444
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse..
+~
+0 9 0
+D2
+~
+~
+0 0 3443
+S
+
+#3445
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D1
+~
+~
+0 0 3440
+D3
+~
+~
+0 0 3446
+S
+
+#3446
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3441
+D1
+~
+~
+0 0 3447
+D3
+~
+~
+0 0 3445
+S
+
+#3447
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 1 0
+D0
+~
+~
+0 0 3446
+D1
+~
+~
+0 0 3448
+D2
+~
+~
+0 0 3442
+S
+
+#3448
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+Questa stanza è stata completamente ricavata nella dura roccia. Le sue
+pareti sono lisce e levigate in modo quasi sovrumano, ed un pozzo è stato
+scavato al centro del pavimento. Noti inoltre degli orrorifici affreschi
+intorno a te: raffigurano bestie e mostri terrorizzanti una campagna, e
+Vampiri che succhiano il sangue di Uomini e Bestie indifferentemente..
+~
+0 1 0
+D0
+~
+~
+0 0 3447
+E
+dipinto dipinti muro murali~
+Dipinto sul muro c'e' un piccolo dipinto che raffigura una volta, identica
+a quella qui presente.. riesci a distinguere chiaramente un'incisione:
+'rathcor'.
+~
+S
+
+#3449
+I Cunicoli Inferiori e le Tombe dei Non Morti~
+I muri del tunnel sono opprimenti e bassi. Non vi è alcuna luce eccetto
+quella che porti con te. Senti risuonare in lontananza i tuoi passi.. E
+quelli di molte altre creature vermicolanti nei paraggi. Il pavimento sembra
+essere intasato da vermi e scarafaggi, mentre ai lati noti delle nicchie in
+cui si notano scheletri e cadaveri in riposo eterno.. Forse.
+~
+0 9 0
+D1
+~
+porta~
+33 3411 3408
+D2
+~
+~
+3 -1 3440
+S
+
+#3450
+L'Ingresso delle Catacombe~
+Questo sistema di cunicoli e strettoie dev'essere stato scavato molti
+secoli prima che il Sacrario sorgesse. L'aria è immota e pervasa dal puzzo
+dei morti.. O dei Non Morti. Inoltrati a tuo rischio. Il Male risiede qui.
+~
+0 1 0
+D0
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3451
+D1
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3452
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3453
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3454
+D4
+~
+~
+0 -1 3408
+S
+
+#3451
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D1
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3455
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3450
+S
+
+#3452
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D0
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3461
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3450
+S
+
+#3453
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D0
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3450
+S
+
+#3454
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D1
+L'oscurità ti impedisce di vedere
+~
+~
+0 -1 3450
+S
+
+#3455
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3456
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3451
+S
+
+#3456
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D0
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3455
+D1
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3457
+S
+
+#3457
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3458
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3456
+S
+
+#3458
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D0
+~
+~
+0 0 3457
+D2
+L'oscurità sembra diradarsi a sud, interrotta da repentini e sinistri
+bagliori rossastri..
+~
+~
+0 -1 3472
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3459
+S
+
+#3459
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D1
+L'oscurità ti impedisce di vedere..
+~
+~
+0 -1 3458
+D3
+Una fioca luce illumina a malapena una figura china su un corpo..
+~
+~
+0 -1 3460
+S
+
+#3460
+Il Covo del Vampiro!~
+L'immagine che ti si presenta è a dir poco raccapricciante. Il fetore è
+insostenibile, ed i corpi morti, spolpati di ogni goccia di sangue, sono
+accatastati gli uni sugli altri con espressioni di terrore su ciò che resta
+del volto. Una bara giace al centro della stanza, su di un catafalco nero..
+Aspettando TE!
+~
+0 9 0
+D1
+L'oscurità ti impedisce di vedere.
+~
+~
+0 -1 3459
+D5
+Ti sembra di vedere l'angolo di una bara nera..
+~
+bara~
+1063 3419 3475
+S
+
+#3461
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D1
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3462
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3452
+S
+
+#3462
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3463
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3461
+S
+
+#3463
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D0
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3462
+D1
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3464
+S
+
+#3464
+Le Catacombe~
+Muri di pietra ben lavorata in tempi remoti, e nicchie contenenti ormai
+nulla più che polvere. L'aria è opprimente.. Ti sembra quasi di sentire
+la terra stessa gemere e lamentarsi..
+~
+0 1 0
+D1
+Ti sembra di intravedere dei segni nel muro.. Una porta segreta forse?~
+porta~
+3 -1 3470
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3465
+D3
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3463
+S
+
+#3465
+Il Corridoio Dorato~
+Benchè questo corridoio sia sporco e polveroso, è considerevolmente
+diverso dal resto delle Catacombe.. Ma non ti senti per questo al sicuro.
+Le pareti rilucono debolmente mostrando antichi bassorilievi in oro e
+argento di ancestrali rituali.. Non tutti piacevoli. Il corridoio conduce a
+nord di nuovo verso le Catacombe, ed a sud fino a perdita d'occhio.
+~
+0 9 0
+D0
+Il bagliore della tua luce si riflette sulle pareti ed illumina
+debolmente le catacombe a nord.
+~
+~
+0 0 3464
+D2
+Il corridoio prosegue.. Ancora.
+~
+~
+0 0 3466
+E
+bassorilievi~
+Sono belli ma.. ti turbano. E ti spingono ad andare avanti pur di non
+averli sotto gli occhi!
+~
+S
+
+#3466
+Il Corridoio Dorato~
+Benchè questo corridoio sia sporco e polveroso, è considerevolmente
+diverso dal resto delle Catacombe.. Ma non ti senti per questo al sicuro.
+Le pareti rilucono debolmente mostrando antichi bassorilievi in oro e
+argento di ancestrali rituali.. Non tutti piacevoli. Il corridoio conduce a
+nord di nuovo verso le Catacombe, ed a sud fino a perdita d'occhio.
+~
+0 9 0
+D0
+Il corridoio dorato..
+~
+~
+0 0 3465
+D2
+Ancora questo corridoio..
+~
+~
+0 0 3467
+E
+bassorilievi~
+Sono belli ma.. ti turbano. E ti spingono ad andare avanti pur di non
+averli sotto gli occhi!
+~
+S
+
+#3467
+Il Corridoio Dorato~
+Benchè questo corridoio sia sporco e polveroso, è considerevolmente
+diverso dal resto delle Catacombe.. Ma non ti senti per questo al sicuro.
+Le pareti rilucono debolmente mostrando antichi bassorilievi in oro e
+argento di ancestrali rituali.. Non tutti piacevoli. Il corridoio conduce a
+nord di nuovo verso le Catacombe, ed a sud fino a perdita d'occhio.
+~
+0 9 0
+D0
+Il corridoio..
+~
+~
+0 0 3466
+D2
+Il corridoio..
+~
+~
+0 0 3468
+E
+bassorilievi~
+Sono belli ma.. ti turbano. E ti spingono ad andare avanti pur di non
+averli sotto gli occhi!
+~
+S
+
+#3468
+Il Corridoio Dorato..~
+Benchè questo corridoio sia sporco e polveroso, è considerevolmente
+diverso dal resto delle Catacombe.. Ma non ti senti per questo al sicuro.
+Le pareti rilucono debolmente mostrando antichi bassorilievi in oro e
+argento di ancestrali rituali.. Non tutti piacevoli. Il corridoio conduce a
+nord di nuovo verso le Catacombe, ed a sud fino a perdita d'occhio.
+~
+0 9 0
+D0
+Il corridoio..
+~
+~
+0 0 3467
+D2
+Il corridoio..
+~
+~
+0 0 3469
+E
+bassorilievi~
+Sono belli ma.. ti turbano. E ti spingono ad andare avanti pur di non
+averli sotto gli occhi!
+~
+S
+
+#3469
+Il Corridoio Dorato~
+Benchè questo corridoio sia sporco e polveroso, è considerevolmente
+diverso dal resto delle Catacombe.. Ma non ti senti per questo al sicuro.
+Le pareti rilucono debolmente mostrando antichi bassorilievi in oro e
+argento di ancestrali rituali.. Non tutti piacevoli. Il corridoio conduce a
+nord di nuovo verso le Catacombe, ed a sud fino a perdita d'occhio.
+~
+0 9 0
+D0
+Il corridoio ritorna verso nord..
+~
+~
+0 0 3468
+E
+bassorilievi~
+Sono belli ma.. ti turbano. E ti spingono ad andare avanti pur di non
+averli sotto gli occhi!
+~
+S
+
+#3470
+Un passaggio segreto~
+Un passaggio segreto ricavato nella roccia! Chissà dove potrebbe condurre!
+~
+0 9 0
+D2
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3471
+E
+porta~
+La porta si è chiusa così silenziosamente e nemmeno te ne sei
+accorto!
+~
+S
+
+#3471
+Un passaggio segreto~
+Un passaggio segreto.. Sembra non condurti da NESSUNA PARTE! La roccia
+ti circonda da tutti i lati. La porta alle tue spalle si è richiusa. Pare
+tu sia intrappolato qui, come un tuo sfortunato predecessore di cui noti lo
+scheletro.. E quello di un suo compagno. Le ossa sono masticate..
+Rabbrividisci. Morire di fame e sete in una tomba dimenticata da secoli non
+è esattamente ciò che speravi, vero?
+~
+0 11 0
+D0
+L'oscurità ti impedisce di vedere..
+~
+~
+0 0 3470
+S
+
+#3472
+Il Pozzo Senza Fondo~
+Il terreno ti manca improvvisamente da sotto i piedi, ed inizi a
+precipitare in una voragine colma di fiamme rossastre.. La tua pelle si
+ustiona e poi brucia, i tuoi capelli prendono fuoco ed evaporano.. E
+continui a precipitare, senza perdere i sensi.. Ma soffrendo atroci
+dolori.. Senza fine..
+~
+0 6 0
+S
+
+#3475
+Dentro la bara~
+Sei dentro la bara. Puoi uscirne. O puoi aspettare che il proprietario
+ritorni e si unisca a te.
+~
+0 2057 0
+D4
+~
+coperchio~
+1031 3419 3460
+S
+
+#0
+
+
+#RESETS
+R 0 3410 4
+R 0 3411 4
+R 0 3415 4
+R 0 3420 4
+R 0 3425 4
+R 0 3426 4
+R 0 3430 4
+R 0 3431 4
+R 0 3435 4
+R 0 3436 4
+R 0 3440 4
+R 0 3441 4
+R 0 3442 4
+R 0 3443 4
+R 0 3444 4
+R 0 3445 4
+R 0 3446 4
+R 0 3447 4
+R 0 3449 4
+M 0 3405 1 3405
+G 1 3430 99
+D 0 3405 0 2
+D 0 3405 5 2
+O 0 3400 1 3405
+M 0 3400 8 3441
+E 1 3421 15 16
+M 0 3400 8 3430
+E 1 3421 15 16
+M 0 3400 8 3410
+E 1 3421 15 16
+M 0 3400 8 3419
+E 1 3421 15 16
+M 0 3401 8 3414
+M 0 3401 8 3414
+M 0 3401 8 3414
+M 0 3401 8 3414
+M 0 3401 8 3409
+M 0 3402 8 3409
+M 0 3402 8 3447
+M 0 3402 8 3454
+M 0 3402 8 3462
+M 0 3402 8 3437
+M 0 3403 1 3411
+E 1 3425 3 17
+M 0 3404 1 3460
+E 1 3428 3 16
+E 1 3427 10 12
+E 1 3419 1 17
+G 1 3424 5
+M 0 3406 4 3466
+E 1 3403 8 5
+M 0 3406 4 3463
+E 1 3403 8 5
+M 0 3406 4 3455
+E 1 3403 8 5
+M 0 3407 5 3465
+E 1 3402 5 16
+M 0 3407 5 3465
+E 1 3402 5 16
+M 0 3407 5 3457
+E 1 3402 5 16
+M 0 3407 5 3452
+E 1 3402 5 16
+M 0 3407 5 3453
+E 1 3402 5 16
+M 0 3408 1 3471
+E 1 3425 3 17
+G 1 3426 10
+M 0 3409 4 3444
+M 0 3409 4 3444
+M 0 3409 4 3426
+M 0 3409 4 3426
+M 0 3410 1 3449
+E 1 3414 10 16
+E 1 3429 5 5
+E 1 3411 2 17
+M 0 3411 1 3434
+E 1 3414 10 16
+G 1 3412 2
+P 1 3413 2 3412
+M 0 3412 1 3424
+E 1 3416 1 17
+O 0 3415 1 3424
+P 1 3417 5 3415
+P 1 3418 1 3415
+M 0 3413 5 3432
+G 1 3422 10
+M 0 3413 5 3417
+G 1 3422 10
+M 0 3413 5 3450
+G 1 3422 10
+M 0 3413 5 3418
+G 1 3422 10
+M 0 3413 5 3441
+G 1 3422 10
+M 0 3414 1 3468
+E 1 3423 4 5
+M 0 3415 1 3468
+M 0 3416 4 3426
+M 0 3416 4 3442
+M 0 3416 4 3448
+M 0 3416 4 3411
+O 0 3420 1 3448
+P 1 3410 1 3420
+D 0 3418 5 1
+D 0 3421 2 1
+D 0 3422 0 1
+D 0 3421 4 2
+D 0 3412 2 1
+D 0 3413 0 1
+D 0 3422 2 1
+D 0 3423 0 1
+D 0 3427 2 1
+D 0 3428 0 1
+D 0 3437 0 1
+D 0 3408 3 2
+D 0 3460 5 2
+D 0 3475 4 2
+D 0 3464 1 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3400 spec_cast_undead
+M  3401 spec_cast_undead
+M  3402 spec_cast_undead
+M  3403 spec_cast_undead
+M  3405 spec_cast_cleric
+M  3407 spec_cast_undead
+M  3408 spec_cast_undead
+M  3410 spec_cast_undead
+M  3411 spec_cast_undead
+M  3412 spec_cast_mage
+M  3414 spec_cast_mage
+M  3415 spec_cast_undead
+M  3416 spec_cast_undead
+S
+
+
+#END

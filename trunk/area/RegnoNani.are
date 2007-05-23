@@ -1,0 +1,1897 @@
+#AREA
+Name         Il Regno dei Nani~
+Author       Raff (Jamirithiana)~
+Color        AT_ORANGE arancione~
+LevelRange   10 35
+Economy      0 13141784
+ResetMsg1    Sento cadenze di passi pesanti, suoni di mole operose, allegri borbottii festosi..~
+Vnums        6500 6554
+End
+
+
+#MOBILES
+
+#6500
+guardia nanica nano~
+una guardia nanica~
+Una guardia nanica si trova qui.~
+Ecco un nano dalla corporatura robusta, ben piantato nonostante la bassa statura
+tipica della sua razza. Indossa abiti non voluminosi ma indubbiamente spessi.
+~
+2051 8 500 S
+20 0 -2 20d20+200 2d4+18
+10000 40000
+8 8 1
+
+#6501
+nano lavoratore~
+un nano lavoratore~
+Un nano lavoratore si trova qui.~
+E' sporco, così come la sua barba, appare leggermente affaticato dal duro
+lavoro, eppure la sua tenacia lo porta a sopportare ogni duro incarico.
+~
+2113 0 900 S
+12 4 1 12d12+120 1d7+7
+3500 6000
+8 8 0
+
+#6502
+drago rosso~
+un drago rosso~
+Un giovane drago rosso è qui con le ali aperte.~
+Scaglie rosse a ricoprire interamente il suo corpo, agita lentamente le ali ed a
+volte emette una nuvoletta di fumo o di fuoco dalle narici.
+Non sembra gradire molto la tua presenza e neanche a te converrebbe poi
+aggredire un drago, anche se giovane!
+~
+3 40 -900 S
+29 -5 -10 29d29+290 4d6+15
+50000 125000
+8 8 0
+
+#6503
+rudulfus negoziante~
+Rudulfus il negoziante~
+Il negoziante del "Dente Celato" si trova qui.~
+L'altezza è quella di un nano così come la lunga barba.. ma osservandolo bene
+noti che si tratta di un umano! E' decisamente rotondetto di vita ed il viso è
+solcato da qualche ruga, nel complesso ha tutta l'aria di essere una brava
+persona.
+~
+3 40 900 C
+35 2 2 6d10+990 2d9+20
+100000 80000
+8 8 0
+16 13 13 14 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+3 0 0 3 3072 0 64 1
+
+#6504
+negoziante satiro~
+un negoziante satiro~
+Un satiro negoziante si trova qui e ti sorride.~
+Si tratta di un satiro di media corporatura, il rumore dei suoi zoccoli sulla
+pietra è a volte fastidiosissimo, veste abiti leggeri ed a volte sembra che
+guardi più il tuo borsellino che il tuo viso.. eppure ispira fiducia.. Chissà..
+forse le apparenze ingannano..
+~
+3 40 900 C
+35 2 2 7d10+990 2d9+19
+20000 80000
+8 8 0
+16 13 13 15 13 13 13
+0 0 0 0 0
+107 3 0 0 5 4 0
+3 0 0 3 3072 0 0 1
+
+#6505
+lucertola~
+una grande lucertola~
+Una lucertola ti fissa!~
+Questa orribile creatura sembra trovarsi a suo agio in questo luogo, essa
+predilige sicuramente luoghi sotterranei, di tanto in tanto vedi la sua lunga
+lingua spuntare dalla bocca per assaporare l'aria. Appare nel complesso,
+decisamente forte e prestante.
+~
+65 8 100 S
+18 7 2 10d20+500 4d4+5
+1200 25000
+8 8 0
+
+#6506
+gigante~
+un gigante~
+Un gigante dall'aria confusa è qui.~
+Questo gigante è alto circa sette metri, possiede braccia d'acciaio e gambe
+solide come montagne, ma la sua espressione non denota certo un'intelligenza
+vivace..
+~
+65 0 0 S
+16 5 1 4d20+300 3d7+5
+2000 24000
+8 8 0
+
+#6507
+nano minatore~
+un nano minatore~
+Un nano minatore è qui con la sua vanga.~
+La sua espressione, anche se nascosta dalla barba, è quella di un nano
+leggermente stanco: il duro lavoro passato nelle miniere deve aver avuto effetto
+anche sulla sua possente massa muscolare. Ha addosso solamente i pantaloni,
+infatti sembra essere abituato a lavorare a torso nudo.
+~
+2051 0 0 S
+8 14 7 8d8+100 2d9+9
+40 1000
+8 8 0
+
+#6508
+capo nano~
+un nano capo minatore~
+Un capo minatore si trova qui.~
+Questo grosso nano ha l'aria d'essere il capo dei minatori, sembra essere molto
+serio e di tanto in tanto va a cercare i suoi uomini per vedere come procedono
+gli scavi.
+~
+2051 0 0 S
+21 0 -8 5d3+400 3d9+3
+20000 52000
+8 8 0
+
+#6509
+nano curatore~
+il curatore dei nani~
+Un curatore nanico.~
+Si tratta di un nano decisamente basso ed abbigliato da curatore, e di tanto in
+tanto ripete una frase a te incomprensibile. Accanto a lui, ogni nano può stare
+tranquillo che ogni sua pena, se possibile, verrà curata.
+~
+2051 136 1000 S
+9 15 4 9d9+99 3d4+12
+1500 15000
+8 8 0
+
+#6510
+nano aiutante novizio~
+un nano aiutante novizio~
+Un novizio nanico è qui, pronto ad aiutare chi ne ha bisogno.~
+E' vestito con una tunica che gli arriva sino alle caviglie, non porta armi nè
+altri attrezzi, sul viso ha una corta barba, segno che si tratta di un nano
+ancora giovane anche se dall'aspetto non si direbbe!
+~
+2051 0 500 S
+3 16 6 5d3+33 2d4+3
+75 400
+8 8 0
+
+#6511
+nano barbuto~
+un nano comune~
+Un nano è qui e si accarezza la barba.~
+E' basso e tozzo, porta dei vestiti semplici ma dal taglio comodo e su misura.
+Ha un espressione seria ma che suscita simpatia, la lunga barba è rossa con
+alcuni peletti color rame.
+~
+2051 0 500 S
+9 10 2 9d9+99 3d4+1
+1250 6000
+8 8 0
+
+#6512
+nano monti~
+un nano dei monti~
+Un nano dei monti si aggira qui attorno.~
+E' vestito con abiti pesanti e grandi stivali borchiati, sulle spalle ha uno
+zaino con appesa una piccola piccozza. Si guarda intorno lanciando, di tanto in
+tanto, uno sguardo pieno di curiosità.. anche se mai del tutto sfuma la sua
+espressione seriosa..
+~
+65 0 250 S
+9 12 3 3d4+125 3d5+5
+50 5000
+8 8 0
+
+#6513
+donna nana monti~
+una nana dei monti~
+Una nana si trova qui.~
+Questa nana non supera in altezza la controparte maschile ma fortunatamente non
+possiede barba, anche se pare esistano femmine naniche barbute..
+Indossa degli abiti leggeri e femminili, anche se la fattura è diversa da quella
+delle normali femmine umane o elfiche.
+Ad ogni modo.. non è facile trovare delle femmine di nano in queste zone,
+ultimamente..
+~
+65 0 250 S
+10 11 2 3d4+135 3d5+7
+50 5000
+8 8 1
+
+#6514
+guardia nano~
+una nano di guardia~
+Un nano si trova qui e fa la guardia.~
+E' vestito di una corta cotta di maglia lavorata egregiamente, impugna
+saldamente un'arma affilata ed osserva attorno a sè, guardingo.. come se da un
+momento all'altro dovesse sbucare qualche strano individuo..
+~
+2051 0 100 S
+16 5 1 16d16+160 3d6+8
+3000 18000
+8 8 0
+
+#6515
+uomo qualunque~
+un uomo qualunque~
+Un uomo è qui in attesa di qualcosa o qualcuno.~
+E' vestito con semplici indumenti e porta alla vita una cintura alla quale è
+legato un sacchetino, probabilmente quello delle monete, non porta altri oggetti
+con se ed ha un espressione un po' imbronciata e stanca.
+~
+2051 0 300 S
+15 12 7 6d8+180 3d7+5
+6969 20000
+8 8 0
+
+#6516
+nano signore labirinto~
+il signore del labirinto~
+Un nano oscuro ti ride in faccia!~
+Questo essere sembra essere il proprietario del piccolo labirinto situato nel
+cuore della montagna, anche se è un nano, rassomiglia maggiormente ad un grande
+blocco di pietra!
+~
+2083 128 -1000 S
+29 0 -9 25d29+290 4d8+15
+80000 200000
+8 8 0
+
+#6517
+serpente montagna~
+un serpente di montagna~
+Un grande serpente sibilando e strisciando ti si avvicina!~
+E' color verde scuro, non ha disegni sulle squame e gli occhi giallastri
+rilucono come stelle nella notte, si muove molto lentamente.. pare non avere
+alcuna paura di te.
+~
+35 0 -1000 S
+15 7 2 3d7+432 3d7+6
+3000 30000
+8 8 0
+
+#6518
+Gondy~
+Gondy la taverniera~
+Gondy la taverniera è qui
+~
+Una bella nana sta allegramente servendo ai tavoli dispensando sorrisi e
+occhiate languide ai clienti della taverna.
+Porta i capelli acconciati in due lunghe e folte trecce che scendono sul
+petto florido e abbondante inconiciando il bel viso rotondo e sorridente.
+La maggior parte dei nani seduti ai tavoli sembra avere occhi solo per lei.
+~
+65 512 0 C
+1 0 94 8d1+0 0d0+0
+100 0
+6 6 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+2 2 0 0 131078 4 0
+0 0 64 256 3072 0 1344 2621443
+
+#6519
+nano ubriaco~
+Un minatore ubriaco~
+Un minatore ubriaco e'  qui
+~
+Con la testa che ciondola e la barba inzuppata di birra piena di briciole di
+pane non e' certo un bello spettacolo.
+Ma ha un espressione cosi' allegra che quasi quasi viene voglia di mettersi
+a bere con lui.
+~
+65 0 0 C
+1 0 94 8d1+0 0d0+0
+0 0
+6 6 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 4 4 0
+0 0 0 64 0 0 417 524291
+
+#6520
+guardia ubriaca ubriaco~
+Una guardia ubriaca~
+Una guardia ubriaca e'  qui.
+~
+E' vestita di una corta cotta di maglia lavorata egregiamente, impugna
+saldamente un boccale di birra mezzo vuoto ed osserva attorno a sè,
+guardinga.. come se da un momento all'altro dovesse sbucare qualche
+ufficiale all'improvviso.
+
+~
+1 0 0 C
+14 0 13 237d1+0 0d0+0
+0 0
+6 6 3
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 4 6 0
+0 0 0 3072 0 0 400 524291
+
+#0
+
+
+#OBJECTS
+
+#6502
+chiave mithril~
+una chiave in mithril~
+Una chiave risplende a terra.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+E
+chiave~
+E' preziosissima.. ed è lavorata estremamente bene.
+~
+
+#6504
+martello guerra~
+un martello da guerra~
+Un martello dei nani è stato posato a terra.~
+~
+5 0 8193
+0 3 6 8
+3 5500 550
+A
+18 2
+E
+martello~
+E' grosso e pesante, non deve esser bello riceverlo in testa!
+~
+
+#6505
+corazza nanica~
+una corazza nanica~
+Una corazza lavorata dai nani si trova qui!~
+~
+9 0 9
+8 0 0 0
+4 4500 450
+E
+corazza~
+Ottima per essere indossata da un nano!
+~
+
+#6506
+bastone~
+un robusto bastone~
+A terra scorgi un bastone di legno.~
+~
+4 0 16385
+12 10 10 15
+3 100 10
+
+#6507
+insetto lucciola~
+una lucciola~
+Un insetto è qui e brilla pacatamente di tanto in tanto.~
+~
+1 0 16385
+0 0 100 0
+3 0 0
+A
+20 -1
+E
+lucciola~
+E' un piccolo insetto molto carino! Il corpicino pulsa di vivida luce..
+~
+
+#6508
+mazza nanica~
+una mazza nanica~
+Un nano deve aver lasciato qui la sua mazza!~
+~
+5 0 8193
+0 2 6 8
+8 3000 300
+A
+13 10
+A
+19 2
+E
+mazza~
+E' in legno ma la sua mole la rende ugualmente un oggetto pericoloso.
+~
+
+#6509
+ascia duemani nanica~
+una grande ascia nanica~
+Un'ascia a due mani si trova conficcata nel terreno.~
+~
+5 0 8193
+0 2 7 1
+5 5000 500
+A
+18 2
+A
+1 2
+E
+ascia~
+Con quest'arma potresti spaccare in due un cranio!
+~
+
+#6510
+elmo nanico~
+un elmo da nano~
+Un elmo da nano è stato dimenticato qui.~
+~
+9 0 17
+8 0 0 0
+4 2500 250
+A
+4 2
+E
+elmo~
+Ottimo per essere indossato da un nano!
+~
+
+#6511
+anello nanico~
+un anello dorato~
+Un anello ottimamente forgiato è qui in terra.~
+~
+8 64 3
+0 0 0 0
+1 15000 1500
+A
+18 1
+A
+19 1
+A
+13 5
+E
+anello~
+Nei tempi remoti i nani conferivano poteri magici agli anelli.
+Sarà questo uno di quelli?
+~
+
+#6512
+guanti nanici~
+un paio di guanti per nani~
+Dei piccoli guanti sono stati lasciati a terra~
+~
+9 0 129
+4 0 0 0
+2 4000 400
+A
+1 1
+A
+2 1
+E
+guanti~
+Su misura.. per essere indossati da un nano!
+~
+
+#6513
+lettera~
+una lettera~
+Una lettera è stata lasciata qui.~
+~
+12 0 1
+0 0 0 0
+0 0 0
+E
+lettera~
+La scrittura è quella dei nani e riporta i turni che le guardie devono svolgere.
+~
+
+#6514
+chiave fortezza nani~
+la chiave della fortezza~
+La chiave della fortezza dei nani si trova qui.~
+~
+18 0 1
+0 0 0 0
+0 10 1
+E
+chiave~
+Si tratta della chiave per accedere alla fortezza dei nani di montagna.
+~
+
+#6516
+chiave miniera~
+la chiave per le miniere~
+Una strana chiave si trova qui.~
+~
+18 0 1
+0 0 0 0
+0 10 1
+E
+chiave~
+Si tratta della chiave per accedere alla miniera dei nani di montagna.
+~
+
+#6517
+qualcosa carbone~
+un pezzo di carbone~
+Qualcosa si trova a terra.~
+~
+13 0 16385
+0 0 0 0
+100 0 0
+E
+carbone~
+Un pezzettino di carbone! E' nero e con esso potresti scrivere su una superficie
+chiara.
+~
+
+#6518
+piccozza~
+una piccozza da minatore~
+Una piccozza è conficcata nel terreno.~
+~
+5 256 8193
+0 2 3 11
+1 300 30
+A
+13 20
+A
+18 2
+A
+19 2
+E
+piccozza~
+E' piccola e leggera, utile ad un esploratore sempre in viaggio, ottima per un
+nano!
+~
+
+#6519
+pillole curative~
+alcune pillole~
+Delle pillole si trovano qui a terra.~
+~
+26 0 1
+20 82 -1 -1
+1 300 30
+E
+pillole~
+Sono piccole, bianche e dall'odore malsano, eppure, secondo i curatori, queste
+pillole sono un toccasana per curare gli acciacchi fisici.
+~
+#6520
+biscotto~
+Un fragrante biscotto~
+Un fragrante biscotto e' qui pronta per essere mangiata.
+~
+~
+19 8192 1 0
+10 12 0 0
+2 10 0
+#6521
+boccale birra~
+Boccale di birra scura~
+Un boccale di schiumante birra scura e' stato appoggiato qui~
+~
+17 0 16385
+5 5 1 0
+1 15 10
+#6522
+pane fetta~
+Una fetta di pane tostato~
+Una croccante fetta di pane tostato e' qui pronta per essere mangiata.
+~
+~
+19 0 1 0
+5 10 0 0
+2 10 0
+
+#0
+
+
+#ROOMS
+
+#6500
+La strada per la cittadina dei nani~
+Attorno a te vedi solo montagne.. il terreno sul quale cammini è decisamente
+duro ma non molto faticoso, sarà forse perché ancora non stai scalando una vera
+montagna. Verso nord si trova la montagna più alta, sulla quale pare si trovi il
+reame dei nani, a sud invece pare vi siano delle costruzioni..
+~
+0 0 2
+D0
+Il sentiero continua.
+~
+~
+0 -1 6501
+D9
+Vedi un sentiero.
+~
+~
+0 -1 3500
+S
+
+#6501
+Alle pendici del monte~
+Ti stai avvicinando ai piedi della grande montagna, la foresta che si trova ai
+suoi piedi non sembra molto vasta ed ampia, ma una leggera nebbiolina la ricopre
+e ciò potrebbe trarti in inganno. Il monte ti sovrasta con tutta la sua mole e
+proietta la sua ombra per una distanza veramente considerevole, innanzi a te
+scorgi la via che conduce alla sua cima.. Sei pronto ad iniziare la scalata?
+~
+0 0 4
+D0
+Un sentiero di montagna.
+~
+~
+0 -1 6502
+D2
+La strada che ti riporta indietro si trova in questa direzione.
+~
+~
+0 -1 6500
+S
+
+#6502
+Scalando il monte~
+Ti trovi a metà strada dalla vetta della montagna, un sorriso di felicità
+dipinge il tuo viso, la fine delle tue fatiche non sembra essere molto distante.
+Voltandoti e guardando indietro, noti come la strada percorsa sia maggiore di
+quella che credevi aver effettivamente fatto. Il sentiero prosegue più contorto
+verso nord e verso l'alto, mentre ad est ed ovest si allarga e costeggia il
+fianco della montagna.
+~
+0 0 5
+D0
+Il cucuzzolo della montagna è sempre più vicino..
+~
+~
+0 -1 6503
+D2
+Discendendo il monte, puoi raggiungere la strada.
+~
+~
+0 -1 6501
+S
+
+#6503
+La vetta del monte~
+Sei finalmente giunto in cima alla vetta di questa altissima Montagna!
+Verso sud puoi vedere il sentiero che può ricondurti ai piedi del monte, mentre
+ad est un sentiero porta alla miniera ed alla fortezza dei nani, recandoti ad
+ovest puoi invece raggiungere un largo spiazzo di terra. Il panorama che puoi
+ammirare da questo punto è senza dubbio uno tra i migliori del mondo: oltre a
+vedere le montagne circostanti, scorgi le pianure e le foreste che fanno la
+terra un luogo d'incanto. Un piacevole e fresco venticello ti solletica il viso
+e inebria i tuoi polmoni.
+~
+0 0 4
+D1
+Un'entrata che porta verso il basso.
+~
+~
+0 -1 6540
+D2
+Questo sentiero può portarti ai piedi della montagna.
+~
+~
+0 -1 6502
+D3
+L'entrata del monte.
+~
+~
+0 -1 6505
+S
+
+#6504
+Un sentiero di montagna~
+Il sentiero prosegue ed attraversa tutto il Regno dei Nani, puoi osservare
+alcune case scavate in vere e proprie pareti di roccia, ma altri fabbricati,
+simili alle usuali case umane si trovano di tanto in tanto lungo il tuo cammino.
+Alla tua destra si trova una profonda gola il cui fondo è difficile da vedere..
+~
+0 8 0
+D0
+Un sentiero.
+~
+~
+0 -1 6506
+D2
+Un sentiero.
+~
+~
+0 -1 6540
+S
+
+#6505
+L'entrata del monte~
+I tuoi piedi poggiano su di un terreno duro ed abbastanza spoglio: ti trovi in
+un ampio spazio piano, qualche nano si trova qui, alcuni sono a guardia di un
+entrata, essa rappresenta la via d'accesso per l'interno della montagna sulla
+quale ti trovi, dall'interno senti provenire alcuni rumori ed un vociare di nani
+all'opera.
+~
+0 0 2
+D1
+L'uscita.
+~
+~
+0 -1 6503
+D3
+Il percorso è molto oscuro..
+~
+porta~
+39 6502 6513
+S
+
+#6506
+Una curva nel sentiero di montagna~
+Ti trovi presso una curva che aggira il precipizio e si inerpica ancora in
+altezza. La vegetazione qui è più ricca che verso sud, l'aria è molto fresca e
+di tanto in tanto vedi volteggiare nel cielo alcune aquile dall'ampia apertura
+alare, alcuni alberi crescono vicino ad una parete di roccia e il sentiero
+prosegue ora verso est.
+~
+0 8 0
+D1
+Un sentiero.
+~
+~
+0 -1 6507
+D2
+Un sentiero.
+~
+~
+0 -1 6504
+E
+alberi~
+Sono dei piccoli pini sempreverdi.
+~
+E
+aquile~
+Hanno un apertura alare incredibile ed il loro piumaggio bianco ricorda
+le nevi invernali.
+~
+S
+
+#6507
+Una curva nel sentiero di montagna~
+Il percorso subisce ora una brusca svolta verso ovest ed il precipizio resta
+così alle tue spalle, infatti il sentiero è ora situato esattamente in mezzo a
+due cime facenti parte della catena di montagne sulla quale ti sei avventurato.
+Innanzi a te, alzando lo sguardo, vedi la roccaforte della Regina di questi Nani
+dei Monti. Non molta strada ti separa ormai da quel luogo, un altro piccolo
+sforzo e potrai ammirare lo sfarzo del quale, si dice, la Regina ami
+circondarsi.
+~
+0 8 0
+D0
+Un sentiero.
+~
+~
+0 -1 6508
+D3
+Un sentiero.
+~
+~
+0 -1 6506
+S
+
+#6508
+Un sentiero di montagna~
+Eccoti finalmente! Poco distante da te, si trova la Porta della Fortezza.
+E' situata a nord-est ed esattamente in opposizione ad essa, puoi vedere un
+edificio apparentemente sorvegliato. Alle tua spalle si trova invece il sentiero
+che ti può ricondurre verso le pendici del monte.
+~
+0 8 0
+D0
+Un sentiero.
+~
+~
+0 -1 6509
+D2
+Un sentiero.
+~
+~
+0 -1 6507
+S
+
+#6509
+La porta per il regno~
+Eccoti Tra la Porta del Regno ed il Posto di Guardia. Alcuni nani si trovano qui
+e svolgono il loro compito di guardiani, ti scrutano accarezzandosi di tanto in
+tanto le folte barbe. Evidentemente non capita spesso che giungano degli
+estranei sino qui. Il paesaggio che ti circonda è composto prevalentemente da
+montagna, di tanto in tanto scorgi alcuni piccoli pini sempreverdi e
+rappresentano l'unico tipo di vegetazione qui presente.
+~
+0 8 0
+D1
+Un portone in mithril!
+~
+portone~
+39 6502 6510
+D2
+Un sentiero.
+~
+~
+0 -1 6508
+D3
+Un edificio.
+~
+~
+0 -1 6522
+S
+
+#6510
+La strada per la fortezza~
+Ora che hai superato la grande porta in mithril, la strada che ti conduce alla
+parte interna della fortezza è completamente a tua disposizione. I nani che
+gironzolano qui dentro non sembrano badare molto a te anche se, ogni tanto, noti
+degli sguardi curiosi e a volte ostili, intenti a fissarti.
+La strada è completamente piastrellata con un tipo di roccia particolare si
+snoda attraverso un prato ben curato dove sono presenti alcune fontane lavorate
+a mano.
+~
+0 8 0
+D0
+Girovagando nella fortezza..
+~
+~
+0 -1 6511
+D3
+L'uscita
+~
+portone~
+39 6502 6509
+E
+strada~
+Le piastrelle sembrano esser composte prevalentemente da pietra marmorea.
+~
+E
+fontane~
+Sono costruite in pietra in modo egregio!
+~
+S
+
+#6511
+La strada per la fortezza~
+La strada completamente piastrellata con un tipo di roccia particolare si snoda
+attraverso un prato ben curato dove sono presenti alcune fontane lavorate a
+mano. Mentre cammini, ti capita di passare sotto alcuni archi bianchi molto
+alti, difficile pensare che sia opera dei nani, ma questo.. non puoi saperlo con
+certezza..
+~
+0 8 0
+D0
+Girovagando nella fortezza..
+~
+~
+0 -1 6512
+D2
+Girovagando nella fortezza..
+~
+~
+0 -1 6510
+E
+archi~
+Sono costruite in pietra in modo egregio!
+~
+E
+strada~
+Le piastrelle sembrano esser composte prevalentemente da pietra marmorea.
+~
+E
+fontane~
+Sono costruite in pietra in modo egregio!
+~
+S
+
+#6512
+L'interno della fortezza~
+Sei arrivato infine nel cuore della fortezza, qui si trova la cittadella, cioè
+le stanze più importanti, oltre ovviamente alle stanze private della Regina.
+Alcuni nani sono di guardia e dal modo in cui si presentano si capisce che
+sarebbero disposti a dare la vita nel caso qualcuno osasse penetrare le stanze
+che si trovano qui.
+~
+0 8 0
+D1
+Girovagando nella fortezza..
+~
+porta~
+39 6514 6525
+D2
+Perlustrando la fortezza..
+~
+~
+0 -1 6511
+S
+
+#6513
+All'interno della montagna dei nani~
+Ecco all'interno della grande montagna: soffitti scavati e lavorati con grande
+perizia, pavimentazione piastrellata con graniti in modo egregio, pareti
+adornate da fiaccole che illuminano la madre terra ed i suoi riflessi
+incantatori.. ecco come ti si presenta questa galleria. Le opere dei nani per
+quanto concerne la lavorazione della pietra è rinomata in ogni angolo della
+terra. Ad ovest si trova quello che all'apparenza sembra essere un magazzino,
+mentre a nord inizia una lunga galleria.
+~
+0 8 0
+D0
+Il percorso è molto oscuro..
+~
+~
+0 -1 6514
+D1
+In questa direzione puoi uscire dal monte.
+~
+porta~
+39 6502 6505
+D3
+L'entrata di un magazzino.
+~
+~
+0 -1 6526
+S
+
+#6514
+Una biforcazione~
+soffitti scavati e lavorati con
+grande perizia, pavimentazione piastrellata con graniti in modo egregio, pareti
+adornate da fiaccole che illuminano la madre terra ed i suoi riflessi
+incantatori.. ecco come ti si presenta questa galleria. Le opere dei nani per
+quanto concerne la lavorazione della pietra è rinomata in ogni angolo della
+terra. Nel punto dove ti trovi, la galleria subisce una biforcazione, un tempo
+vi era un cartello che dava indicazioni, ma ora pare essere in riparazione,
+almeno questo è quanto riporta un bigliettino posto sulla parete.
+~
+0 8 0
+D0
+Il percorso è molto oscuro..
+~
+~
+0 -1 6515
+D2
+Verso l'entrata della montagna.
+~
+~
+0 -1 6513
+E
+biglietto~
+"Il Cartello che stavate cercando è momentaneamente in lavorazione, ci scusiamo
+per il problema, ma il legno s'era marcito".
+~
+S
+
+#6515
+Una curva nel corridoio~
+Soffitti scavati e lavorati con grande perizia, pavimentazione piastrellata con
+graniti in modo egregio, pareti adornate da fiaccole che illuminano la madre
+terra ed i suoi riflessi incantatori, ecco come ti si presenta questa galleria,
+le opere dei nani per quanto concerne la lavorazione della pietra è rinomata in
+ogni angolo della terra. Da questo punto puoi raggiungere la zona dei negozi
+situata ad ovest, il primo di questi sembra essere un'armeria, verso sud è
+invece possibile tornare all'uscita.
+~
+0 8 0
+D2
+Una biforcazione.
+~
+~
+0 -1 6514
+D3
+Un negozio si trova in questa direzione.
+~
+~
+0 -1 6516
+S
+
+#6516
+Il negozio del "Dente Celato"~
+Hai messo piede in uno dei più importanti negozi della zona: il venditore è
+rinomato e conosciuto quasi in tutto il mondo, egli vende le migliori armi ed
+armature di fabbricazione nanesca. Se sei in cerca della qualità, forse potrai
+trovare qualcosa che ti soddisfi, molti collezionisti di armi si recano in
+questo negozio per fare i loro acquisti, i prezzi a volte sono un po' alti ma ne
+vale sicuramente la pena spendere qualche moneta in più per dei pezzi d'indubbia
+qualità! Il negozio è decisamente piccolo e ricolmo di oggetti e il proprietario
+sembra veramente un tipo un po' strano.
+~
+0 8 0
+D0
+Il percorso è molto oscuro..
+~
+~
+0 -1 6517
+D1
+Tutto l'ambiente è oscuro..
+~
+~
+0 -1 6515
+S
+
+#6517
+Un corridoio nella montagna~
+Soffitti scavati e lavorati con grande perizia, pavimentazione piastrellata con
+graniti in modo egregio, pareti adornate da fiaccole che illuminano la madre
+terra ed i suoi riflessi incantatori, ecco come ti si presenta questa galleria,
+le opere dei nani per quanto concerne la lavorazione della pietra è rinomata in
+ogni angolo della terra. Ti trovi ora in una zona punteggiata da vari negozi,
+alcuni grandi, altri piccoli.
+Un soave profumo arriva da sinistra.. chissà di cosa si tratta.
+~
+0 8 0
+D0
+Il percorso è molto oscuro..
+~
+~
+0 -1 6518
+D1
+La birreria Nanica
+~
+~
+0 -1 6555
+D2
+Puoi scorgere un negozio, guardando in questa direzione.
+~
+~
+0 -1 6516
+D3
+Un negozio.
+~
+~
+0 -1 6535
+S
+
+#6518
+Una curva nel corridoio~
+Soffitti scavati e lavorati con grande perizia, pavimentazione piastrellata con
+graniti in modo egregio, pareti adornate da fiaccole che illuminano la madre
+terra ed i suoi riflessi incantatori, ecco come ti si presenta questa galleria,
+le opere dei nani per quanto concerne la lavorazione della pietra è rinomata in
+ogni angolo della terra. Seguendo la curva, verso est il sentiero prosegue,
+mentre dirigendoti a sud è possibile raggiungere la zona dove sono presenti i
+negozi.
+~
+0 8 0
+D1
+Il percorso è molto oscuro..
+~
+~
+0 -1 6519
+D2
+Tutto l'ambiente è oscuro..
+~
+~
+0 -1 6517
+S
+
+#6519
+Un corridoio nella montagna~
+Soffitti scavati e lavorati con grande perizia, pavimentazione piastrellata con
+graniti in modo egregio, pareti adornate da fiaccole che illuminano la madre
+terra ed i suoi riflessi incantatori, ecco come ti si presenta questa galleria,
+le opere dei nani per quanto concerne la lavorazione della pietra è rinomata in
+ogni angolo della terra.
+Il sentiero scavato che stai percorrendo subisce in questo punto una
+biforcazione un cartello è posto affinchè non ci si perda.
+~
+0 8 0
+D0
+Un tempietto.
+~
+~
+0 -1 6534
+D1
+Il percorso è molto oscuro..
+~
+~
+0 -1 6520
+D3
+Tutto il sentiero è scuro..
+~
+~
+0 -1 6518
+E
+cartello~
+Nord: Curatore Ovest: L'Uscita Est: Baracche.
+~
+S
+
+#6520
+Un corridoio nella montagna~
+Soffitti scavati e lavorati con grande perizia, pavimentazione piastrellata con
+graniti in modo egregio, pareti adornate da fiaccole che illuminano la madre
+terra ed i suoi riflessi incantatori, ecco come ti si presenta questa galleria,
+le opere dei nani per quanto concerne la lavorazione della pietra è rinomata in
+ogni angolo della terra.
+Procedendo verso est è possibile entrare nella caserma delle guardie.
+~
+0 8 0
+D1
+Il percorso è molto oscuro..
+~
+~
+0 -1 6521
+D3
+Tutto il sentiero è scuro..
+~
+~
+0 -1 6519
+S
+
+#6521
+L'entrata della caserma dei nani~
+Eccoti giunto innanzi alla caserma delle guardie di questo regno. Si tratta di
+un basso edificio composto da più sezioni, anch'esso è per metà ricavato dalla
+roccia ma presenta delle parti in duro legno. Alcuni nani gironzolano qui
+attorno, e certi sono intenti a riparare una parte della caserma, crollata forse
+a seguito di qualche smottamento della caverna.
+~
+0 8 0
+D2
+~
+porta~
+3 -1 6523
+D3
+Il percorso è molto oscuro..
+~
+~
+0 -1 6520
+S
+
+#6522
+Un posto di guardia~
+Ti trovi all'interno dell'edificio appartenente alle guardie della Porta.
+Qui molti nani si ritrovano e si danno il cambio per poter sorvegliare notte e
+giorno l'accesso per la roccaforte. Si tratta di un edificio molto grande, ampio
+e spazioso, è costruito in legno e roccia e la sua solidità sembra garantire un
+ottimo riparo da intemperie o assalti armati, non sembrano però molto felici i
+nani qui presenti nel vederti, probabilmente perché ti trovi in un luogo
+solitamente riservato a loro soltanto.
+~
+0 8 0
+D1
+Un sentiero.
+~
+~
+0 -1 6509
+S
+
+#6523
+Nella caserma dei nani~
+L'interno di questa caserma non è molto grande, dall'esterno appariva molto più
+larga e spaziosa, alcuni nani si trovano qui intenti a riparare una sezione
+danneggiata, mentre altri fanno la guardia o sbrigano delle pratiche, non badano
+molto alla tua presenza, eppure ti senti osservato..
+~
+0 8 0
+D0
+L'entrata.
+~
+porta~
+3 -1 6521
+D2
+Una stanza.
+~
+~
+0 -1 6524
+S
+
+#6524
+Il dormitorio dei nani~
+Questo deve essere il dormitorio: molte brande si trovano qui, alcune non sono
+state rifatte, probabilmente il nano che vi riposava andava di fretta..
+Le finestre che danno sulla strada esterna sono circolari e permettono
+all'ambiente di mantenersi arieggiato e fresco.
+~
+0 8 0
+D0
+Mah.. sembra una stanza..
+~
+~
+0 -1 6523
+D5
+~
+tavole asse~
+1 -1 32900 0
+S
+
+#6525
+L'atrio princiaple~
+Ti trovi all'interno delle stanze più importanti di tutta la magione, una scala
+conduce verso l'alto mentre attorno a te si trovano altre stanze, sulle pareti
+trovi alcuni affreschi rappresentanti i monti ed alcuni celebri nani. La mobilia
+è molto pregiata, alcuni pezzi non sono però opera della popolazione locale.
+Ogni stanza, questa compresa, è illuminata da una fila di fiaccole poste in
+locazioni strategiche così da permettere un'illuminazione piacevole e non
+fastidiosa. Da sud senti provenire una forte brezza calda.
+~
+0 8 0
+D3
+C'è un Portone..
+~
+portone~
+39 6514 6512
+D4
+Stai salendo le scale..
+~
+~
+0 -1 6528
+E
+affreschi~
+In uno di questi è rappresentato un imponente Re nanico.
+~
+E
+fiaccole~
+Ardono intensamente fornendo luce alla stanza.
+~
+S
+
+#6526
+Un magazzino scavato nella roccia~
+Ti trovi in un magazzino per gli attrezzi per il lavoro e non v'è molto di
+interessante se non fosse per un grande buco presente in fondo alla stanza!
+Il luogo sembra essere in riparazione comunque, stai attento quindi a dove metti
+i piedi, potresti finire nel buco.. chissà a cosa serve e a dove conduce..
+~
+0 9 0
+D1
+Verso l'entrata della montagna.
+~
+~
+0 -1 6513
+D5
+Uno strano pozzo si trova qui.
+~
+pozzo~
+3 0 6527
+E
+buco~
+E' molto largo e se non stai attento potresti caderci dentro!
+~
+S
+
+#6527
+Ull'interno di una vecchia cella~
+Il luogo dove sei giunto doveva essere un tempo una sorta di cella, non vi sono
+mobili al suo interno, solamente la nuda roccia e nulla più, o almeno questo è
+quanto credi. Sotto i piedi senti un rumore metallico e restando un attimo in
+silenzio, avverti un leggero sibilo alle tue spalle..
+~
+0 9 0
+D4
+Il magazzino.
+~
+~
+3 -1 6526
+S
+
+#6528
+Le gradinate~
+Queste scalinate sono splendidamente lavorate a mano, sono ampie e ben
+illuminate da torce poste in punti strategici, il materiale non sembra essere
+pregiato ma la manifattura che è stata usata, le rende dei veri e propri pezzi
+unici nel loro genere. Esse continuano verso il basso e si inerpicano verso
+l'alto.
+~
+0 8 0
+D4
+Salendo le scale..
+~
+~
+0 -1 6529
+D5
+Discendendo le scale..
+~
+~
+0 -1 6525
+S
+
+#6529
+Le scalinate~
+Queste gradinate sono splendidamente lavorate a mano, sono ampie e ben
+illuminate da torce poste in punti strategici, il materiale non sembra essere
+pregiato ma la manifattura che è stata usata, le rende dei veri e propri pezzi
+unici nel loro genere. Esse continuano verso il basso e si inerpicano verso
+l'alto.
+~
+0 8 0
+D4
+Salendo le scale..
+~
+~
+0 -1 6530
+D5
+Discendendo le scale..
+~
+~
+0 -1 6528
+S
+
+#6530
+In cima alle scale~
+Queste scalinate sono splendidamente lavorate a mano, sono ampie e ben
+illuminate da torce poste in punti strategici, il materiale non sembra essere
+pregiato ma la manifattura che è stata usata, le rende dei veri e propri pezzi
+unici nel loro genere. Hai finalmente posto piede sull'ultimo piano, verso
+oriente si trova un altro atrio.
+~
+0 8 0
+D1
+Una grande sala.
+~
+~
+0 -1 6531
+D5
+Discendendo le scale..
+~
+~
+0 -1 6529
+S
+
+#6531
+Un grande salone~
+Questa è la sala d'attesa della Regina, qui la Signora dei Nani di questa
+regione permette a coloro che fanno richiesta d'udienza, d'attendere il loro
+turno. Si tratta di un salone molto ampio e spazioso, con panche e tavoli in
+legno e pietra scura, degli arazzi si trovano sulle pareti e raffigurano antiche
+storie della popolazione locale. A nord puoi vedere una bella porta in ferro
+battuto ed oro, mentre da sud senti provenire un dolce profumo di cibarie.
+Verso ovest si trovano le scale attraverso le quali è possibile scendere ai
+piani inferiori della fortezza.
+~
+0 8 0
+D0
+La stanza della Regina.
+~
+porta~
+35 6502 6532
+D3
+Verso le scale..
+~
+~
+0 -1 6530
+S
+
+#6532
+Le stanze reali~
+Tavoli di alto pregio, quadri mitologici, doni di altri popoli, questo è quanto
+subito osservi mettendo piede in questo luogo, più che una stanza rassomiglia ad
+una tesoreria. La stanza è vuota e un inserviente ti avvisa che la Regina è
+assente per importanti questioni diplomatiche e ti invita gentilmente ad
+andartene.
+~
+0 8 0
+D2
+~
+porta~
+35 6502 6531
+S
+
+#6534
+Un tempietto scavato nella roccia~
+Ti trovi all'intero di un tempietto costruito dai nani. Qui molte persone, anche
+viaggiatori, si fermano per riposare o per trovare ristoro delle loro fatiche,
+grazie alle cure dei vari sacerdoti. Se sei affaticato e stanco, forse potrai
+trovare un curatore che potrà aiutarti e magari fermarti qui per qualche tempo.
+Sulla parete vi è la raffigurazione di una divinità.
+~
+0 8 0
+D2
+La strada.
+~
+~
+0 -1 6519
+E
+raffigurazione~
+La raffigurazione rappresenta un Dio nell'atto di scagliare un fulmine.
+~
+S
+
+#6535
+Un negozio~
+Sei entrato in un negozio pieno di scaffali con molti generi alimentari,
+attrezzi da viaggio ed altri utilissimi oggetti che un avventuriero solitamente
+dovrebbe portare con se. Il negozio è per metà scavato nella roccia e per metà
+costruito in solido e resistente legno scuro, se sei sprovvisto di qualcosa,
+questo è il luogo ed il momento giusto per rifornirti.
+~
+0 8 0
+D1
+Una biforcazione.
+~
+~
+0 -1 6517
+S
+
+#6540
+Un sentiero di montagna~
+Il sentiero è molto ben lavorato, mani esperte lo hanno scavato nella roccia ed
+abbellito e reso ancora più spazioso. verso est si trova l'entrata di una
+miniera, mentre il percorso prosegue verso nord ed ovest.
+Attorno a te puoi osservare un tipico paesaggio di montagna, e di tanto in tanto
+ti capita di incontrare qualche nano diretto alla miniera o intento a recarsi
+alla fortezza situata in lontananza.
+~
+0 8 0
+D0
+Un sentiero.
+~
+~
+0 -1 6504
+D1
+L'entrata di una miniera.
+~
+porta~
+39 6502 6541
+D3
+La vetta della montagna.
+~
+~
+0 -1 6503
+S
+
+#6541
+L'entrata della miniera~
+Ti trovi all'ingresso della miniera, verso il basso intravedi la porta che ti
+condurrà nelle oscure profondità della terra, ove i minatori si recano per
+creare gallerie sempre più profonde e per estrarre i preziosi minerale di cui
+questa regione è ricca; alcune torce sono appese alle pareti, la loro luce è
+fioca ma tanto basta per illuminare l'ambiente.
+~
+0 8 0
+D3
+Una Porta.
+~
+porta~
+39 6502 6540
+D5
+La miniera.
+~
+~
+0 -1 6542
+S
+
+#6542
+All'interno della miniera~
+Vi sono scavi in ogni punto, ogni traccia di materiale prezioso è completamente
+sparita in questo punto iniziale della miniera, segno che i nani sono stati
+molto laboriosi sin dal passato, le pareti sono fredde ed umide, poche torce
+illuminano il luogo dove ti trovi. Le miniere dei nani possono essere
+labirintiche ricordalo, il tuo cammino può proseguire verso il basso o verso
+l'uscita in alto.
+~
+0 9 0
+D4
+Al piano superiore..
+~
+~
+0 -1 6541
+D5
+Al piano inferiore..
+~
+~
+0 -1 6554
+S
+
+#6543
+Una galleria nella miniera~
+Ti aggiri lentamente per le larghe strade che compongono la miniera, non si
+tratta di un luogo decorato, ma bensì di un grande e continuo scavo, alla
+ricerca di ogni gemma e metallo prezioso. Di tanto in tanto senti una goccia
+cadere oppure qualcosa scricchiolare, alcuni nani vanno avanti ed indietro
+trasportando fagotti, carrelli pieni di terra o altri materiali.
+La galleria continua verso est ed ovest.
+~
+0 9 0
+D1
+Un incrocio.
+~
+~
+0 -1 6544
+D3
+Verso l'uscita.
+~
+~
+0 -1 6554
+S
+
+#6544
+Un incrocio nella miniera~
+Sei arrivato ad un incrocio: qui alcune strade prendono altre direzioni, la luce
+sprigionata dalle fiaccole che circondano il cerchio dove ti trovi ti permette
+di vedere il volto di due statue scavate nella roccia! Benchè si tratti di una
+miniera e non di una zona abitativa i nani non rinunciano ad abbellire con il
+loro tocco la roccia viva.
+~
+0 9 0
+D0
+Una porta in acciaio si trova qui. Chissà se riuscirai mai a spingerla..
+~
+porta~
+39 6502 6546
+D1
+Una grande galleria.
+~
+~
+0 -1 6545
+D2
+Una stanza.
+~
+~
+0 -1 6551
+D3
+Una galleria.
+~
+~
+0 -1 6543
+E
+statue~
+Raffigurano il volto di due nani dalla barba lunga e folta.
+~
+S
+
+#6545
+La stanza del carbone~
+Ti trovi ora nella stanza di stoccaggio dei veri minerali, essa pare venga
+chiamata dai nani come la "Stanza del Carbone", per la presenza in grande
+quantità di questo minerale, o forse anche perché le pareti sono molto nere e le
+fiaccole appese non fanno altro che risaltare questo particolare.
+Verso est inizia una galleria scavata recentemente e un cartello ti mette in
+guardia, verso ovest puoi invece ritornare all'incrocio circolare.
+~
+0 9 0
+D3
+Un bivio.
+~
+~
+0 -1 6544
+S
+
+#6546
+L'entrata del labirinto della miniera~
+Hai oltrepassato la porta in acciaio e ti sei ritrovato in una stanza esagonale,
+con due sole direzioni percorribili ai lati, non vi sono altre cose particolari
+qui dentro, a parte forse un inquietante scritta su di una tavoletta in marmo
+rosa appesa alla parete innanzi a te.
+~
+0 9 0
+D1
+Verso il labirinto.
+~
+~
+0 -1 6547
+D2
+Una porta in acciaio si trova qui.
+~
+porta~
+39 6502 6544
+E
+tavoletta marmo~
+"Benvenuto nel MIO labirinto, esploratore! Possa divertiti sino alla morte.."
+Firmato: Il Signore del Labirinto.
+~
+S
+
+#6547
+Il labirinto della miniera~
+Ti trovi all'interno di un dedalo di cunicoli scuri e privi di lumi, le vie ti
+si aprono innanzi una dopo l'altra ed il panico aumenta dentro di te ad ogni
+svolta, dove ti trovi ora? Quale direzione vuoi prendere? Sarà quella giusta? !
+Ed ora? ? ! Sei in trappola? ? ! !
+~
+0 9 0
+D0
+Il labirinto continua..
+~
+~
+0 -1 6548
+D3
+Il labirinto incede..
+~
+~
+0 -1 6546
+S
+
+#6548
+Il labirinto della miniera~
+Ti trovi all'interno di un dedalo di cunicoli scuri e privi di lumi, le vie ti
+si aprono innanzi una dopo l'altra ed il panico aumenta dentro di te ad ogni
+svolta, dove ti trovi ora? Quale direzione vuoi prendere? Sarà quella giusta? !
+Ed ora? ? ! Sei in trappola? ? ! !
+~
+0 9 0
+D0
+Il labirinto prosegue..
+~
+~
+0 -1 6549
+D2
+Il labirinto continua..
+~
+~
+0 -1 6547
+S
+
+#6549
+Il labirinto della miniera~
+Ti trovi all'interno di un dedalo di cunicoli scuri e privi di lumi, le vie ti
+si aprono innanzi una dopo l'altra ed il panico aumenta dentro di te ad ogni
+svolta, dove ti trovi ora? Quale direzione vuoi prendere? Sarà quella giusta? !
+Ed ora? ? ! Sei in trappola? ? ! !
+~
+0 9 0
+D0
+Il labirinto prosegue..
+~
+~
+0 -1 6550
+D3
+Il labirinto continua..
+~
+~
+0 -1 6548
+S
+
+#6550
+Il labirinto della miniera~
+Ti trovi all'interno di un dedalo di cunicoli scuri e privi di lumi, le vie ti
+si aprono innanzi una dopo l'altra ed il panico aumenta dentro di te ad ogni
+svolta, dove ti trovi ora? Quale direzione vuoi prendere? Sarà quella giusta? !
+Ed ora? ? ! Sei in trappola? ? ! !
+~
+0 9 0
+D2
+Il labirinto prosegue..
+~
+~
+0 -1 6549
+D3
+Il labirinto continua..
+~
+~
+0 -1 6552
+S
+
+#6551
+La stanza degli attrezzi~
+Ti trovi in una piccola stanza utilizzata dai nani per il deposito degli
+attrezzi che utilizzano per scavare le gallerie e per estrarre i minerali dal
+sottosuolo. Si tratta di un luogo angusto non molto grande ed solamente un
+piccolo lumino permette di vedere al suo interno.
+~
+0 9 0
+D0
+L'incrocio è in questa direzione.
+~
+~
+0 -1 6544
+E
+lumino~
+Si tratta di un lanterna ad olio.
+~
+S
+
+#6552
+La fine del labirinto!~
+Incredibile ma vero, hai risolto il labirinto! Finalmente sei uscito da quel
+dannato groviglio di gallerie e cunicoli, il luogo dove ti trovi sembra
+desolato, a nord vedi una porta bloccata ed non apribile, verso est si trova il
+dedalo dal quale sei appena giunto, verso ovest si trova un arco in pietra sul
+quale è incisa un iscrizione in caratteri correnti.
+~
+0 9 0
+D1
+Verso il labirinto..
+~
+~
+0 -1 6550
+D3
+Una stanza particolare!
+~
+~
+0 -1 6553
+E
+iscrizione arco~
+"La fortuna ti ha salvato! Ma non tentar oltre la sorte, non metter piede nella
+mia magione!" Firmato: Il Signore del Labirinto.
+~
+S
+
+#6553
+Il labirinto della miniera~
+Sei arrivato nella stanza di colui che governa l'intricato dedalo che sei
+riuscito a risolvere giungendo qui, si tratta di una stanza misera, ricavata
+dalla roccia, con un letto ed una credenza e nulla più, colui che vive qui deve
+esser un tizio stravagante oppure molto solo.
+~
+0 9 0
+D1
+Verso il labirinto..
+~
+~
+0 -1 6552
+S
+
+#6554
+Il fondo della miniera~
+Eccoti arrivato sul fondo, da questo punto in poi la miniera dei nani ti si
+mostra nella sua pienezza, non si tratta di un luogo decorato, ma bensì di un
+grande e continuo scavo, alla ricerca di ogni gemma e metallo prezioso, tra cui
+ovviamente, il Mithril! I nani pare abbiano una grande passione per questo
+materiale, estremamente versatile e di alto pregio. Da qui puoi tornare verso
+l'uscita in alto oppure addentrarti nel cuore della miniera.
+~
+0 9 0
+D1
+Una galleria.
+~
+~
+0 -1 6543
+D4
+Al piano superiore.
+~
+~
+0 -1 6542
+S
+#6555
+Taverna~
+Scavata direttamente nella roccia la grande sala sembra calda e accogliente.
+Forse un po' bassa se non si e' dei nani.
+Piccoli gruppi di cinque o sei nani, tra cui molte guardie non in servizio,
+chiacchierano stando seduti sulle panche disposte ai lati delle basse tavole di
+legno.
+Molti di loro sembrano cosi' ubriachi da non accorgersi della tua presenza.
+Sulle tavole sono posati boccali di birra scura e vassoi di legno ricolmi di
+biscotti e fette di pane nero tostato.
+L'odore del pane tostato e dei biscotti appena sfornati sembra molto invitante.
+~
+0 1048584 0 0 0 0
+D3
+Un negozio.
+~
+~
+0 -1 6517
+S
+
+#0
+
+
+#RESETS
+D 0 6505 3 2
+D 0 6513 1 2
+D 0 6509 1 2
+D 0 6510 3 2
+D 0 6512 1 2
+D 0 6525 3 2
+D 0 6521 2 1
+D 0 6523 0 1
+D 0 6526 5 1
+D 0 6527 4 1
+D 0 6540 1 2
+D 0 6541 3 2
+D 0 6544 0 2
+D 0 6546 2 2
+D 0 6531 0 1
+D 0 6532 2 1
+M 0 6500 4 6505
+E 1 6504 10 16
+E 1 6505 10 5
+G 1 6502 10
+M 0 6500 4 6505
+E 1 6504 10 16
+E 1 6505 10 5
+M 0 6500 4 6540
+E 1 6504 10 16
+E 1 6505 10 5
+G 1 6502 10
+M 0 6500 4 6540
+E 1 6504 10 16
+E 1 6505 10 5
+O 0 6506 1 6534
+O 0 6507 2 6513
+O 0 6507 2 6505
+O 0 6507 2 6503
+O 0 6507 1 6540
+M 0 6501 6 6503
+M 0 6501 6 6502
+M 0 6501 6 6501
+M 0 6502 1 6527
+G 1 6502 10
+M 0 6503 1 6516
+G 1 6504 10
+G 1 6505 10
+G 1 6510 10
+G 1 6511 10
+G 1 6512 10
+E 1 6504 10 16
+M 0 6504 1 6535
+E 1 6504 10 16
+M 0 6505 1 6515
+M 0 6506 2 6508
+M 0 6500 6 6509
+E 1 6509 10 16
+E 1 6510 10 6
+E 1 6511 10 1
+M 0 6500 6 6509
+E 1 6512 10 9
+E 1 6509 10 16
+E 1 6505 10 5
+M 0 6507 4 6543
+E 1 6508 10 16
+M 0 6507 4 6543
+E 1 6508 10 16
+M 0 6507 4 6542
+E 1 6508 10 16
+M 0 6508 4 6543
+E 1 6512 10 9
+E 1 6508 10 16
+M 0 6510 4 6534
+M 0 6510 4 6534
+M 0 6514 4 6521
+E 1 6509 10 16
+M 0 6514 4 6521
+E 1 6509 10 16
+M 0 6500 4 6521
+M 0 6500 4 6521
+M 0 6500 4 6521
+M 0 6511 8 6523
+M 0 6511 8 6523
+E 1 6504 10 16
+E 1 6514 10 17
+M 0 6511 8 6523
+M 0 6511 8 6523
+M 0 6511 8 6524
+O 0 6513 1 6524
+M 0 6502 2 6524
+M 0 6511 8 6524
+M 0 6512 3 6528
+M 0 6512 3 6529
+M 0 6513 3 6529
+M 0 6513 3 6530
+M 0 6515 4 6531
+M 0 6515 4 6531
+M 0 6509 1 6534
+E 1 6506 10 17
+M 0 6516 1 6553
+M 0 6517 2 6548
+M 0 6517 2 6549
+O 0 6516 1 6532
+O 0 6517 6 6545
+O 0 6518 3 6551
+M 0 6500 2 6512
+E 1 6508 10 16
+M 0 6500 2 6512
+E 1 6508 10 16
+M 0 6505 1 6520
+M 0 6518 1 6555
+G 1 6520 1
+G 1 6521 1
+G 1 6522 1
+M 0 6519 1 6555
+M 0 6520 1 6555
+S
+
+
+#SHOPS
+6503  0  0  0  0  0   150  50   0 23    ; the storekeeper
+6504  0  0  0  0  0   150  50   0 23    ; the baker
+6518  0  0  0  0  0   150  50   0 23    ; the baker
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#END

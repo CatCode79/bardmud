@@ -1,0 +1,12 @@
+#HELP
+KeywordItalian razza razze~
+KeywordEnglish race races~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+(DA FARE, MAGARI INDICARE UN COMANDO PER VISUALIZZARE LE RAZZE ATTIVE)
+~
+End
+
+
+#END

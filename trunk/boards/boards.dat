@@ -1,0 +1,10 @@
+#BOARD
+Filename          darkhaven.board~
+Vnum              21011
+MinTrustRead      TRUST_PLAYER
+MinTrustPost      TRUST_PLAYER
+MinTrustRemove    TRUST_MASTER
+MaxPosts          100
+End
+
+#END

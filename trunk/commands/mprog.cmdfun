@@ -1,0 +1,274 @@
+#CMDFUN
+FunName     do_mpadvance
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpasupress
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpat
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS CMDFLAG_WATCH~
+End
+
+#CMDFUN
+FunName     do_mpbodybag
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpclosepassage
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpdamage
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpdelay
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpdeposit
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpdream
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpecho
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpechoaround
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpechoat
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpechozone
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpforce
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpgoto
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpinvis
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpmload
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpmorph
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpnothing
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpoload
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpopenpassage
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mppardon
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mppeace
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mppractice
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mppurge
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mprestore
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpslay
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mptransfer
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpunmorph
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_mpwithdraw
+MiniHelp    ~
+Type        CMDTYPE_MUDPROG
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+
+#END

@@ -1,0 +1,7 @@
+void	gain_exp		( CHAR_DATA *ch, int gain );
+void	advance_level	( CHAR_DATA *ch, bool showinfo );
+int		get_exp			( CHAR_DATA *ch );
+int		get_exp_worth	( CHAR_DATA *ch );
+int		get_exp_base	( CHAR_DATA *ch );
+int		exp_level		( CHAR_DATA *ch, sh_int level );
+int		level_exp		( CHAR_DATA *ch, int exp );

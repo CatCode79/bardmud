@@ -1,0 +1,2 @@
+Questa cartella contiene tutte le note inviate dai pg.
+Questo file esiste per far decomprimere correttamente tutte le cartelle.

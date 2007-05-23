@@ -1,0 +1,358 @@
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        07/10/2004
+Title       Apertura!~
+Text
+Apertura della seconda Beta del Mud &RT&Yerra &RS&Yecunda&w!
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        12/10/2004
+Title       Who rifatto~
+Text
+Rifacimento della interfaccia del comando chi/who
+~
+End
+
+#NEWS
+Type        NEWS_AREA
+Author      Onirik
+Date        22/10/2004
+Title       Area per Newbie~
+Text
+Aggiunta un'Area per newbie. Si trova oltre le mura, se seguite il sentiero
+attorno alle mura la troverete
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        27/10/2004
+Title       Nuovi sogni~
+Text
+Aggiunti dei Sogni e degli Incubi ai vostri sonni.. >:)
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        28/10/2004
+Title       Comando rompi e corri~
+Text
+Aggiunti il comando &Grompi&w/&Gjunk&w e &Gcorri&w/&Grun&w
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        29/10/2004
+Title       Aiuti simili~
+Text
+Ora tramite il comando &Gaiuto&w/&Ghelp&w se si digita un argomento inesistente
+verranno visualizzate le voci più simili a quell'argomento.
+~
+End
+
+#NEWS
+Type        NEWS_BUG
+Author      Onirik
+Date        02/11/2004
+Title       Correzione baco statistiche~
+Text
+Correzione di un baco che alzava e abbassava le stat casualmente, se pensate
+d'esserne stati colpiti fateci sapere che vi correggeremo il personaggio
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        06/11/2004
+Title       Revisione esperienza~
+Text
+Revisionata la distribuzione dei punti esperienza alcuni di voi passaranno di
+livello alla minima esperienza acquistata
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        09/11/2004
+Title       Rifatto il comando config~
+Text
+Rifatto completamente il comando config, forse alcuni di voi si ritroveranno
+con i comandi in inglese, per riattivare quelli in italiano digitate
+&Gconfig &g+italiano&w
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        10/11/2004
+Title       Suggerimenti~
+Text
+Inserito un sistema di invio suggerimenti, se volete disattivarli usate il
+comando &Gconfig &g-suggerimenti&w
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        12/11/2004
+Title       Spiriti dopo la morte~
+Text
+Ora quando il vostro personaggio morirà (e giù di corna) diverrà spirito e si
+comporterà come tale per un po' di tempo, in tale tempo esso non verrà
+attaccato dai mob
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        12/11/2004
+Title       Nuovi sogni~
+Text
+Aggiunti 4 sogni di Sharas.
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        30/11/2004
+Title       Sistema di combattimento~
+Text
+Ritarato il sistema di combattimento.
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        30/11/2004
+Title       Identificazione~
+Text
+Data la possibilità ad un negoziante della capitale di dare le informazioni
+sugli oggetti tramite il comando &Gidentifica&w/&Gidentify&w, a voi la cerca
+del negoziante :)
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        04/12/2004
+Title       Doppia lingua nei comandi~
+Text
+Sistema di doppia lingua nei comandi attivabile tramite comando &Gconfig
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        13/12/2004
+Title       Lingue revisionato~
+Text
+Revisionato e corretto il sistema delle lingue
+~
+End
+
+#NEWS
+Type        NEWS_BUG
+Author      Onirik
+Date        15/12/2004
+Title       AC corretta~
+Text
+Corretto un baco che minava la correttezza della classe d'armatura per gli
+oggetti indossabili
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        23/12/2004
+Title       Banca e Azioni~
+Text
+Inserito il Sistema Bancario, con la possibilità, oltre di depositare e
+prelevare, quella di comprare delle Azioni: il comando è &Gbanca&w/&Gbank&w
+~
+End
+
+#NEWS
+Type        NEWS_AREA
+Author      Onirik
+Date        23/12/2004
+Title       Area Miniere~
+Text
+Aggiunta l'area delle Miniere
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        05/12/2004
+Title       Archetipo~
+Text
+Inserito il comando di &Garchetipo&w/&Garchetype&w che permette di scegliere
+qual'è l'archetipo del proprio personaggio
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        05/12/2004
+Title       Carattere~
+Text
+Inserito il comando &Gcarattere&w/&Gcharacter&w che permette di descrivere
+la psicologia del proprio personaggio, utile per migliorare il proprio RPG
+e utile per gli Admin al caso vogliano creare quest personalizzate.
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        18/12/2004
+Title       Alias~
+Text
+Aggiunti gli Alias
+~
+End
+
+#NEWS
+Type        NEWS_AREA
+Author      Onirik
+Date        18/12/2004
+Title       Catacombe e Manhtor~
+Text
+Aggiunte le Catacombe dei Nani e Il Regno di Manhtor
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        07/02/2005
+Title       Becchino del cimitero~
+Text
+Aggiunto il becchino Fosstoh nel cimitero di DarkHaven con cui si può
+utilizzare il comando resti/remains per recuperare il cadavere pagando
+~
+End
+
+#NEWS
+Type        NEWS_AREA
+Author      Onirik
+Date        25/02/2005
+Title       Mononoke~
+Text
+Aggiunta due aree raggiungibili in maniera speciale..
+Esse sono il Villaggio di Ashitaka e la Città del Ferro.
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        25/02/2005
+Title       Onirismo~
+Text
+Aggiunto il comando onirismo con cui è possibile modificare alcune delle
+caratteristiche del proprio personaggio con i punti gloria
+~
+End
+
+#NEWS
+Type        NEWS_AREA
+Author      Onirik
+Date        07/03/2005
+Title       Torre del Lich~
+Text
+Aggiunta l'area Torre del Lich, tradotta da Naaril, essa si trova a nord
+delle Miniere
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Amlugil
+Date        30/04/2005
+Title       Musiche e Suoni~
+Text
+E' attivo da un po' di tempo il codice che rende possibile ascoltare musiche
+e suoni che vengono trasmessi al client in maniera completamente automatica
+dal MUD in determinati momenti (alba, tramonto, pioggia, schivate, colpi
+critici, cure particolari e così via).
+Per facilitare l'utilizzo a tutti i nostri utenti abbiamo realizzato un
+piccolo tutorial che vi spiega passo passo come configurare Zmud per
+abilitarlo a ricevere le istruzioni necessarie.
+Lo trovate al link  http://www.terra-secunda.net/t2h/tutorial/tutorial.htm
+~
+End
+
+#NEWS
+Type        NEWS_NEW
+Author      Onirik
+Date        29/04/2005
+Title       Nuove Razze~
+Text
+8 nuove razze giocabili aggiunte al Mud:
+- Arial: una creatura umanoide simil volatile.
+- Felar: una creatura umanoide simil felina.
+- Githyanki: maestri dei flussi astrali.
+- Gnomi: grandi inventori.
+- Coboldi: non fategli vedere un felar nei d'intorni.
+- Minotauro: quanto cornuti è bello...
+- Orco: guerra e viulenza, ma con senso dell'onore tra membri della tribù
+- Pixie: piccole creature alate, un solo obiettivo: dare fastidio
+~
+End
+
+#NEWS
+Type       NEWS_NEW
+Author     Onirik
+Date       09/09/2005
+Title      Nomi e razze~
+Text
+Ultime novità:
+- Aggiunta la possibilità durante la creazione di scegliere un nome creato
+  casualmente.
+- Aggiunto il comando cognome/surname per inserire il cognome, il soprannome
+  o la provenienza del vostro personaggio.
+- Ora le razze hanno dei bonus e malus sugli attributi e sui sensi, sono
+  appunto caratteristiche tipiche delle razze di T2
+- Modificato il sistema dei comandi, non dovrebbero esserci problemi ora di
+  priorità tra un comando ed un altro rendendoli più comodi da digitare.
+~
+End
+
+#NEWS
+Type      NEWS_NEW
+Author    Onirik
+Date      18/09/2005
+Title     Clan~
+Text
+E' stato aggiustato e rifatto in certe parti il codice per la gestione dei
+Clan, per coloro che sono capoclan per visualizzare i nuovi comandi digitate
+comandi tipi oppure commands tipi troverete una sezione verso la fine con i
+comandi per la gestione del Clan.
+~
+End
+
+
+#END

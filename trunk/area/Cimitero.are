@@ -1,0 +1,1225 @@
+#AREA
+Name         Il Cimitero~
+Author       Alfa (Cleyot)~
+Color        AT_BLACK nero~
+Economy      0 9999180
+LevelRange   5 10
+ResetMsg1    Una folata di vento gelido sulla nuca mi fa venire la pelle d'oca.~
+Vnums        3600 3651
+End
+
+
+#MOBILES
+
+#3600
+yrneh giardiniere~
+Yrneh il giardiniere~
+Yrneh il giardiniere è seduto qui, ubriaco fradicio.~
+E' un uomo alto e robusto di all'incirca quarant'anni. Il viso è segnato
+da decenni di duro lavoro e la sua espressione in qualche modo crucciata è
+dovuta alla profonda tristezza e depresionne di cui soffre. Sembra essere
+angustiato da qualcosa.. Di certo non dev'essere molto salutare lavorare in
+un posto simile.
+~
+65 0 350 C
+4 15 8 1d12+48 1d6+1
+10 800
+6 6 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+
+#3601
+zombie~
+uno zombie~
+Uno zombie avanza verso di te, con le braccia tese.~
+Vermi e scarafaggi pasteggiano delle sue carni in decomposizione, ed i
+muscoli emettono nugoli di minutissimi moscerini ad ogni loro contrazione.
+Il fetore è orrendo, ma ancora di più lo è la fiamma rossa che gli arde
+negli "occhi"..
+~
+1073741891 512 -750 C
+4 16 5 2d6+60 1d8+2
+0 800
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 1 1 1
+0 0 1775 0 0 0 16 2
+
+#3602
+ghoul~
+un orrendo ghoul~
+Un ghoul è qui e ti guarda con bramosia.~
+La sua pelle è giallognola e simile nella consistenza esteriore alla
+pelle di pollo. Viscido e nauseabondo, le dita delle sue mani sono però
+diventate artigli, rosseggianti del sangue delle sue vittime... E dalla
+bocca emergono, in una sorta di ghigno morto, lunghi ed affilati denti
+che aspettano con ansia il momento di lacerare nuova carne viva. Il ghoul
+è affamato. Il ghoul vuole TE!
+~
+1073741891 512 -750 C
+6 15 4 2d6+72 1d10+2
+20 1500
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+36 3 0 0 1 1 1
+0 0 1769 0 0 0 4096 524290
+
+#3603
+scheletro~
+uno scheletro~
+Uno scheletro avanza scricchiolando verso di te..~
+Le ossa hanno ancora qualche brandello di carne attaccato addosso, e si
+muovono scricchiolando in modo atroce. Il sinistro sorriso mortifero del
+teschio è rivolto verso di te, come le pallide fiammelle azzurre che gli
+danzano nei bulbi oculari.
+~
+1073741891 512 -750 C
+3 17 7 1d12+36 1d6+2
+10 600
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 1 1 1
+0 0 263 96 0 16 16 2
+
+#3604
+scheletro~
+uno scheletro~
+Uno scheletro in antica armatura avanza verso di te!~
+I resti di ciò che un tempo era un'armatura, forse quella della Guardia
+di Darkhaven, pendono inerti addosso a questo cumulo di ossa. Stringe in
+pugno una spada dalla lama arrugginita dal tempo, ma la sua arma migliore è
+il terrore che spira dal suo essere vivo pur nella morte.
+~
+1073741889 512 -750 C
+3 17 7 1d12+36 1d6+2
+10 600
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+60 3 0 0 370945 370945 1
+0 0 71 96 0 16 16 2
+
+#3605
+zombie~
+uno zombie~
+Uno zombie avanza verso di te, con le braccia tese.~
+Vermi e scarafaggi pasteggiano delle sue carni in decomposizione, ed i
+muscoli emettono nugoli di minutissimi moscerini ad ogni loro contrazione.
+Il fetore è orrendo, ma ancora di più lo è la fiamma rossa che gli arde
+negli "occhi"..
+~
+1073741889 512 -750 C
+4 16 5 2d6+60 1d8+2
+100 800
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+71 3 0 0 370945 370945 1
+0 0 1775 0 0 0 16 2
+
+#3606
+spettro fantasma~
+uno spettro~
+Un fantasma levita a sospeso a qualche centimetro da terra~
+Fluttua davanti a te l'anima in pena di una qualche dama morta
+da chissà quanto.
+E' avvolta da un'aura di luce blu elettrico. Il volto è bello e regolare..
+Fin quando l'aura da blu diventa rossa, ed i suoi occhi iniziano a brillare di lampi
+gialli, ed il volto si deforma in una maschera di odio per tutto ciò che è vivo!
+Cercherà di ghermirti per portarti nel regno delle ombre con se!
+~
+1073741889 0 0 C
+1 0 70 2d6+35 1d6+0
+5 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+96 7 0 0 65536 65536 2
+0 0 268439419 0 0 0 1073741824 0
+
+#3607
+becchino fosstoh~
+Fosstoh il becchino~
+Fosstoh il becchino si aggira tra le tombe con aria meditabonda~
+Appena lo guardi si ferma un attimo a scrutarti con i suoi occhi privi di
+iride e senti il suo sguardo superare la tua carne per guardare il fondo
+della tua anima.
+Prima che il gelo arrivi a bloccarti il cuore china il capo e riprende a
+muoversi col suo passo lento e calmo aiutandosi con la pala mentre cammina
+tenendo gli occhi fissi sulle pagine di un libro dalle pagine bianche.
+~
+209 4 -200 C
+14 17 9 1d12+48 1d6+1
+25 800
+8 8 0
+16 12 10 15 13 7 11
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 512 48 2
+
+#0
+
+
+#OBJECTS
+
+#3600
+candeliere~
+un candeliere~
+Un candeliere d'ottone è qui.~
+~
+1 0 16385
+0 0 24 0
+5 150 15
+E
+candeliere~
+ E' un candeliere di antica fattura, a tre braccia, in ottone. Le sue
+candele si stanno ingiallendo..
+~
+
+#3601
+bottiglia liquore~
+una bottiglia di liquore~
+Una bottiglia di liquore giace al suolo.~
+~
+17 0 1
+10 10 5 0
+2 50 5
+E
+bottiglia liquore~
+ E' una speciale bottiglia di "Sangue di Drago". Il collo è modellato in
+forma di drago. Bottiglie rare come questa sono di un qualche valore anche
+se vuote.
+~
+
+#3602
+bottiglia liquore~
+una bottiglia di liquore~
+Una bottiglia di liquore giace al suolo~
+~
+17 0 1
+10 0 5 0
+2 50 5
+E
+bottiglia liquore~
+ E' una speciale bottiglia di "Sangue di Drago". Il collo è modellato in
+forma di drago. Bottiglie rare come questa sono di un qualche valore anche
+se vuote.
+~
+
+#3603
+carriola~
+una carriola~
+Una carriola dipinta di verde è qui.~
+~
+22 0 1
+0 0 0 0
+100 100 10
+E
+carriola~
+ E' una carriola in solido legno di quercia, dipinta di verde.
+~
+
+#3604
+pala~
+una pala~
+Una pala è conficcata nel terreno~
+~
+59 0 8193
+0 1 5 7
+8 30 3
+E
+pala~
+ E' una solida pala di ferro con un robusto e lungo manico di legno scuro.
+~
+
+#3605
+rastrello~
+un rastrello~
+Un rastrello è stato gettato per terra~
+~
+5 0 8193
+0 1 4 5
+8 30 3
+E
+rastrello~
+ E' un grosso rastrello di metallo con l'impugnatura in legno.
+~
+
+#3606
+maggot edible~
+an edible maggot~
+An ugly little maggot crawls along here.~
+~
+26 0 16385
+6 15 -1 -1
+1 250 25
+
+#3610
+scheletro~
+uno scheletro~
+Uno scheletro polveroso giace qui.~
+~
+12 0 1
+0 0 0 0
+15 0 0
+E
+scheletro~
+ Lo scheletro non ha addosso più nulla: l'opera degli animali del
+sottosuolo, oltre che dei ladri come te, l'ha privato di tutto. Tranne che
+della paura che ti incute trovartelo così vicino, così in profondità..
+~
+
+#3611
+ametista~
+un'ametista~
+Una splendida, luminosa ametista è stata abbandonata incautamente..~
+~
+8 0 16385
+0 0 0 0
+1 3000 300
+E
+ametista~
+ Ha un colore violetto davvero profondo.. quasi magico.
+~
+
+#3612
+pendente argento~
+Un pendente d'argento~
+Un pendente d'argento è qui a terra.~
+~
+9 0 5
+4 0 0 0
+1 400 40
+E
+pendente argento~
+ Su questo simbolo vi è un'icona rappresentante una bilancia il cui perno
+è retto da una figura alata.Sicuramente si tratta di un'effige sacra.
+Forse, il suo proprietario era un sacerdote. Ad ogni modo, ora è
+tuo.
+~
+
+#3613
+pugnale argento~
+Un pugnale d'argento~
+Un lungo ed affilato pugnale d'argento giace al suolo.~
+pierce~
+5 0 8193
+0 2 4 11
+1 100 10
+A
+19 1
+E
+pugnale argento~
+ La lama è dritta e ben affilata da ambo i lati. E' fatta in argento,
+materiale adattissimo per combattere i nonmorti. Inoltre, una piccola runa
+è incisa vicino l'elsa. Forse il marchio del fabbricante..
+~
+
+#0
+
+
+#ROOMS
+
+#3600
+Oltre il Cancello del Cimitero~
+Cammini lungo un sentiero di terriccio marrone fra le pietre tombali del
+cimitero. Intorno vedi confusi ammassi di pietre e grossi massi...quello
+che una volta era forse il muro di cinta che separava separa la città dall'
+eterna dimora dei suoi morti. Molte sepolture sono ornate da semplici pietre più o
+meno piatte con le incisioni dei nomi dei defunti, altre invece
+sono dei veri e propri monumenti funebri che la trascuratezza e l'oblio hanno
+reso tetri templi avvolti da impenetrabili ombre.Alberi cupi e oppressivi
+si muovono impercettibilmente all'unisono, sembra di sentire il luogo stesso
+respirare...
+Si respira un'atmosfera gelida, anche in pieno giorno. Un'iscrizione è
+a malapena leggibile su di una colonna ornamentale.
+~
+0 0 2
+D0
+Attraverso le sbarre arrugginite vedi il sentiero che ti ha condotto qui
+~
+gate~
+1 -1 21293
+D1
+Il sentiero si inoltra ad est attraverso l'erba scura e gli alberi spogli.
+~
+~
+0 -1 3650
+D2
+Il sentiero è più chiaro verso sud, dirigendosi verso un lontano
+tempietto.
+~
+~
+0 -1 3601
+D3
+Il sentiero si inoltra ad ovest attraverso l'erba scura e gli alberi
+spogli.
+~
+~
+0 -1 3606
+E
+iscrizione~
+Un teschio ghignante, e quattro femori a formare una cornice per queste
+parole: CIO' CHE NOI SIAMO VOI SARETE CIO' CHE VOI SIETE NOI SIAMO STATI.
+Una sensazione di gelido terrore ti invade..
+~
+S
+
+#3601
+Il Sentiero Principale~
+Segui il sentiero principale del Cimitero. E' spoglio e nemmeno sfiorato
+dalle erbacce. Le tombe che lo fiancheggiano sono vuote e trasandate.
+Inquietanti e strani scricchiolii ti sono attorno.. ed alle tue spalle, il
+volo dei corvi non promette nulla di buono..
+~
+0 0 2
+D0
+Il sentiero va verso un Cancello..~
+~
+0 -1 3600
+D2
+Verso il piccolo tempio.~
+~
+0 -1 3602
+S
+
+#3602
+Il Sentiero Principale~
+Segui il sentiero principale del Cimitero. E' spoglio e nemmeno sfiorato
+dalle erbacce. Le tombe che lo fiancheggiano sono vuote e trasandate.
+Inquietanti e strani scricchiolii ti sono attorno.. ed alle tue spalle, il
+volo dei corvi non promette nulla di buono..
+~
+0 0 2
+D0
+Verso un Cancello.
+~
+~
+0 -1 3601
+D2
+Verso il piccolo tempio.
+~
+~
+0 -1 3603
+S
+
+#3603
+Il Sentiero Principale~
+Segui il sentiero principale del Cimitero. E' spoglio e nemmeno sfiorato
+dalle erbacce. Le tombe che lo fiancheggiano sono vuote e trasandate.
+Inquietanti e strani scricchiolii ti sono attorno.. ed alle tue spalle, il
+volo dei corvi non promette nulla di buono..
+~
+0 0 2
+D0
+Verso un Cancello.
+~
+~
+0 -1 3602
+D2
+In prossimità del piccolo tempio!
+~
+~
+0 -1 3604
+S
+
+#3604
+Davanti al tempietto~
+Segui il sentiero fino a trovarti davanti ad una piccolo tempietto che
+ad una prima occhiata sembrerebbe in disuso. Ad una seconda occhiata ti
+accorgi però chela serratura è stata usata di recente e che il terreno
+intorno sembra essere stato smosso da poco..
+~
+0 0 2
+D0
+Il sentiero verso il Cancello.~
+~
+0 -1 3603
+D1
+Il sentiero si inoltra ad ovest attraverso l'erba scura e gli alberi spogli.~
+~
+0 -1 3638
+D2
+La porta del tempietto è di legno scuro.
+~
+porta~
+1 -1 3405
+D3
+Il sentiero si inoltra ad ovest attraverso l'erba scura e gli alberi spogli.~
+~
+0 -1 3618
+S
+
+#3606
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D1
+Verso est noti il Cancello ed il sentiero principale.
+~
+~
+0 -1 3600
+D2
+Tombe, tombe ed ancora tombe!
+~
+~
+0 -1 3608
+D5
+~
+pietra~
+3 -1 3607
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3607
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio...
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3606
+S
+
+#3608
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Alberi scuri.. e il muro di cinta del cimitero, forse..
+~
+~
+0 -1 3606
+D3
+Tombe e uccelli da carogna..
+~
+~
+0 -1 3610
+D5
+~
+pietra~
+3 -1 3609
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3609
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3608
+S
+
+#3610
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D1
+Tombe..
+~
+~
+0 -1 3608
+D2
+Tombe..
+~
+~
+0 -1 3612
+D5
+~
+porta~
+3 -1 3611
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3611
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+tomba pietra~
+3 -1 3610
+S
+
+#3612
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Ad ovest noti una baracca.
+~
+0 0 2
+D0
+Il sentiero prosegue verso nord.
+~
+~
+0 -1 3610
+D1
+Il sentiero prosegue a est.
+~
+~
+0 -1 3614
+D3
+Una baracca nera con la porta di legno scuro. Le assi sono sconnesse.
+~
+porta~
+3 -1 3613
+S
+
+#3613
+Dentro la Baracca~
+Sembra che questa baracca sia usata come deposito per un gran numero di
+attrezzi usati nella cura dei "giardini" del Cimitero. I muri di legno sono
+fradici e sconnessi, quanto le assi della porta, e un gran numero di
+spifferi penetra nelle loro aperture. Una grossa rastrelliera contiene dei
+rastrelli, ed uno scaffale di lato, è ricolmo di bottiglie..
+~
+0 8 1
+D1
+~
+porta~
+3 -1 3612
+S
+
+#3614
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D2
+Tombe..
+~
+~
+0 -1 3616
+D3
+Mmm.. Forse una baracca nei paraggi. Ci sarà qualcuno di VIVO
+all'interno?!
+~
+~
+0 -1 3612
+D5
+~
+pietra~
+3 -1 3615
+E
+tomba pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3615
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3614
+S
+
+#3616
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Tombe.. e scheletri (? ! ? ! ? ! ? )
+~
+~
+0 -1 3614
+D2
+Un sentiero sconnesso.. e ancora tombe..
+~
+~
+0 -1 3618
+D5
+~
+pietra~
+3 -1 3617
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3617
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3616
+S
+
+#3618
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Il sentiero prosegue ancora..
+~
+~
+0 -1 3616
+D1
+Un tempietto! !
+~
+~
+0 -1 3604
+D5
+~
+pietra~
+3 -1 3619
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3619
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3618
+S
+
+#3638
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Tombe, in mezzo agli alberi scuri..
+~
+~
+0 -1 3640
+D3
+Un tempietto! ! !
+~
+~
+0 -1 3604
+D5
+~
+pietra~
+3 -1 3639
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3639
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3638
+S
+
+#3640
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Tombe ed ossa.
+~
+~
+0 -1 3642
+D2
+Tombe... e tombe... Ed un piccolo tempietto!
+~
+~
+0 -1 3638
+D5
+~
+pietra~
+3 -1 3641
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3641
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3640
+S
+
+#3642
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D1
+Tombe ed ossa..
+~
+~
+0 -1 3644
+D2
+Ossa e tombe..
+~
+~
+0 -1 3640
+D5
+~
+pietra~
+3 -1 3643
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3643
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3642
+S
+
+#3644
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Tombe, alberi e corvi in volo, a tagliare il cielo..
+~
+~
+0 -1 3646
+D3
+Il sentiero prosegue ancora..
+~
+~
+0 -1 3642
+D5
+~
+pietra~
+3 -1 3645
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3645
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto... Ed a tastoni, trovi anche qualcosa di
+peggio...
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3644
+S
+
+#3646
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D2
+Tombe!
+~
+~
+0 -1 3644
+D3
+Il sentiero prosegue ancora..
+~
+~
+0 -1 3648
+D5
+~
+pietra~
+3 -1 3647
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3647
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3646
+S
+
+#3648
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D0
+Vedi in lontananza il muro di cinta del Cimitero.
+~
+~
+0 -1 3650
+D1
+Tombe, e tombe. E ancora tombe.
+~
+~
+0 -1 3646
+D5
+~
+pietra~
+3 -1 3649
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3649
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3648
+S
+
+#3650
+Un sentiero nel Cimitero~
+Un venticello costante e gelido spira sempre sulla terra tenebrosa del
+Cimitero. A tratti vedi affiorare dal terreno un femore, oppure occhieggiare
+un teschio scarnificato dai corvi che noti sui rami scuri degli alberi. Stai
+seguendo un sentiero poco chiaro fra le tombe: molte sono totalmente preda
+dell'incuria, e le iscrizioni su di esse sono dilavate dal tempo e
+dall'erosione delle piogge. Nei pressi, noti una pietra tombale leggermente
+smossa.
+~
+0 0 2
+D2
+Tombe, tombe ed ancora tombe..
+~
+~
+0 -1 3648
+D3
+Verso ovest, noti il sentiero principale ed il Cancello..
+~
+~
+0 -1 3600
+D5
+~
+pietra~
+3 -1 3651
+E
+pietra~
+E' un grande lastrone di pietra grigia, di forma rettangolare. Dovrebbe
+coprire la tomba sottostante, ma il tempo oltre a cancellare il nome e le
+date dalla sua superficie ha anche sollevato la lastra, cosicchè un fetore
+tremendo si leva dall'interno della tomba. Avrai il coraggio di sollevare la
+pietra e profanare la sepoltura?
+~
+S
+
+#3651
+Nella tomba!!!~
+Sei in un angusto spazio al di sotto della pietra tombale. Un fetore
+orrendo ti accoglie, e nell'oscurità che ti circonda senti scivolarti
+addosso ogni sorta di insetto.. Ed a tastoni, trovi anche qualcosa di
+peggio..
+~
+0 9 1
+D4
+~
+pietra~
+3 -1 3650
+S
+
+#0
+
+
+#RESETS
+M 0 3607 1 3600 1
+G 1 3604 1
+M 0 3606 1 3602 1
+D 0 3606 5 1
+D 0 3607 4 1
+O 0 3610 13 3607
+D 0 3608 5 1
+D 0 3609 4 1
+M 0 3603 5 3609
+D 0 3610 5 1
+D 0 3611 4 1
+M 0 3603 5 3611
+O 0 3613 10 3611
+D 0 3612 3 1
+D 0 3613 1 1
+M 0 3600 1 3613
+G 1 3601 1
+O 0 3602 1 3613
+O 0 3603 1 3613
+O 0 3605 1 3613
+D 0 3614 5 1
+D 0 3615 4 1
+O 0 3610 13 3615
+D 0 3616 5 1
+D 0 3617 4 1
+M 0 3602 1 3617
+G 1 3612 1
+D 0 3618 5 1
+D 0 3619 4 1
+O 0 3610 13 3619
+D 0 3638 5 1
+D 0 3639 4 1
+M 0 3603 5 3639
+D 0 3640 5 1
+D 0 3641 4 1
+O 0 3610 13 3641
+D 0 3642 5 1
+D 0 3643 4 1
+O 0 3603 5 3643
+D 0 3644 5 1
+D 0 3645 4 1
+M 0 3601 1 3645
+G 1 3606 1
+G 1 3611 1
+D 0 3646 5 1
+D 0 3647 4 1
+O 0 3610 13 3647
+D 0 3648 5 1
+D 0 3649 4 1
+M 0 3603 5 3649
+D 0 3650 5 1
+D 0 3651 4 1
+M 0 3604 4 3606
+M 0 3604 4 3604
+M 0 3604 4 3612
+M 0 3604 4 3640
+M 0 3605 3 3651
+G 1 3606 1
+M 0 3605 3 3644
+G 1 3606 1
+M 0 3605 3 3638
+G 1 3606 1
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3601 spec_cast_undead
+M  3602 spec_cast_undead
+M  3603 spec_cast_undead
+M  3604 spec_cast_undead
+M  3605 spec_cast_undead
+M  3606 spec_cast_undead   ; uno spettro
+S
+
+
+#END

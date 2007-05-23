@@ -1,0 +1,53 @@
+#HELP
+KeywordItalian 'area altopiano' 'area val di sella'~
+KeywordEnglish 'area altopiano' 'area val di sella'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'area si è ispirata ad "Arte Sella" una biennale internazionale di arte
+contemporanea, che si svolge all'aperto nei prati e nei boschi della Val di
+Sella (comune di Borgo Valsugana, provincia di Trento).
+~
+End
+
+#HELP
+KeywordItalian 'area limbo'~
+KeywordEnglish 'area limbo'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+The limitless void known as Limbo is a strange plane fabricated by
+the Gods to hold mortals who have been rendered unconscious or have
+been mortally wounded. It is a well known fact that only Gods may travel
+here of their own volition.
+~
+End
+
+#HELP
+KeywordItalian 'area torre magia' 'area torre della magia'~
+KeywordEnglish 'area torre magia' 'area torre della magia'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'alta Torre della Magia, venne fondata dai più potenti e rinomati
+stregoni, in essa numerosi sono gli studenti che si cimentano nella
+faticosa e lunga strada per padroneggiare le arti arcane.
+Essa è situata in qualche luogo protetto dalla magia..
+~
+End
+
+#HELP
+KeywordItalian 'area foresta mononoke' 'area foresta kodama'~
+KeywordEnglish 'area foresta mononoke' 'area foresta kodama'~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Ultima parte di un'area divisa in tre settori (Villaggio di Ashitaka,
+Cittadella del Ferro, La foresta dei Kodama), questa grande foresta si ispira,
+più o meno liberamente, al magnifico cartone animato "Mononoke Hime" di Hayao
+Miyazaki.
+~
+End
+
+
+#END

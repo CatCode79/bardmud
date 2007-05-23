@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_LIZARDMAN
+Flags          RACEFLAG_PLAYABLE~
+NameMale       Thepa~
+NameFema       Thepa~
+Color          AT_DGREEN spring green 2~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       5   5    5    -5  -5  -5   5   5   5   -5   -5  -5  -5   -5  0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        -5   5     5      -5    -5    -5
+PointLimit     8000 6000 7000 5000
+Affected       AFFECT_AQUA_BREATH~
+Resist         RIS_SLASH~
+Suscept        ~
+* Conosce di base il comune e il rettilese
+LangNatural    LANGUAGE_COMMON LANGUAGE_REPTILE~
+* Non può imparare elfico e antico, il primo per la sua pronuncia, l'altro per la "differenza" mentale con gli altri linguaggi
+LangLearnable  LANGUAGE_DWARVEN LANGUAGE_PIXIE LANGUAGE_OGRE LANGUAGE_ORCISH LANGUAGE_TROLLISH LANGUAGE_RODENT LANGUAGE_INSECTOID LANGUAGE_MAMMAL LANGUAGE_DRAGON LANGUAGE_GOBLIN LANGUAGE_HALFLING LANGUAGE_GITH LANGUAGE_GNOME LANGUAGE_GNOLLISH LANGUAGE_DROW LANGUAGE_AVIS LANGUAGE_MARINE LANGUAGE_CANINE LANGUAGE_FELINE LANGUAGE_TREELEAF~
+AlignStart     0
+MinAlign       750
+MaxAlign       750
+ACPlus         0
+Attacks        4
+Defenses       0
+ExpMult        96
+Height         195
+Weight         90,000
+TonalitySound  voce sibilante~
+Tonality       75
+HungerMod      -2
+ThirstMod      -3
+SavingThrow    0 0 0 0 0
+End
+
+#END

@@ -1,0 +1,455 @@
+#AREA
+Name         La Profumeria Volante~
+Author       Miciko~
+Color        AT_CYAN grigio nuvola~
+LevelRange   1 30
+ResetMsg1    Nell'aria si spande un buon profumo di zagare.~
+Vnums        34125 34149
+End
+
+
+#MOBILES
+#34125
+Jenserin elementale ~
+Jenserin~
+Da dietro il bancone, un'elementale dell'aria ti sorride tranquilla.
+~
+E' una elementale dell'aria, i contorni del corpo vagamente delineati e lunghi
+sbuffi di vapore, simili a boccoli di nebbia, le adornano il capo.
+L'abbigliamento di Jenserin è bizzarro ed appena accennato da volute di fumo
+colorato che disegnano una corta tunichetta al ginocchio, stretta in vita da
+una cintura di morbida nube.
+Il viso, sebbene evanescente, conserva nitidi i lineamenti: una bella fronte
+tonda, zigomi alti e taglio degli occhi lievemente obliquo, simile ad un'elfa.
+Il sorriso è caldo ed accogliente, ti guarda ed attende che tu le chieda
+consiglio su qualche profumo.
+~
+3 13107260 0 C
+30 0 0 755d1+0 0d0+0
+1000 0
+6 6 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+99 5 0 0 8193 8193 0
+0 0 8 1048576 512 2 -2147348480 16400
+#34126
+Fertintun folletto~
+Fertintun~
+Un piccolo folletto s'agita tutt'intorno a delle provette.
+~
+Un simpatico folletto corre su e giù per tutto il retrobottega, facendo lo
+slalom fra provette, fialette ed alambicchi di ogni genere. Probabilmente
+questo è il laboratorio dove vengono lavorate le piante ed estratte le essenze
+da vendere. Alla cintura porta alcune boccettine colorate con un prezzo
+impresso sopra, forse anche lui vende delle fragranze particolari..
+~
+3 8388668 0 C
+30 0 0 960d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+4 0 0 0 8201 8201 0
+0 0 128 4096 1 2 2097153 4
+#0
+
+
+#OBJECTS
+#34125
+tunica tunichetta coltre fumo~
+una tunichetta di fumo colorato~
+Una piccola coltre di fumo fluttua a pochi centimetri da terra.
+~
+~
+65 256 9 0
+0 0 0 0
+50 500 0
+E
+tunica tunichetta fumo coltre~
+Cangianti i colori di questo soffice abitino di fumo, fluttua lieve nell'aria,
+morbido d'eterea inconsistenza, adatto alle forme accennate degli elementali.
+~
+#34126
+cintura nube~
+una cintura di nube~
+Una cintura di nube è arrotolata qui per terra.~
+~
+65 256 2049 0
+0 0 0 0
+15 400 0
+E
+cintura nube~
+E' una soffice nube arrotolata e può essere comodamente usata come cintura.
+~
+#34127
+essenza lavanda profumo~
+essenza di lavanda~
+Una piccola nube di profumo violaceo aleggia a metà altezza..~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 400 0
+E
+essenza lavanda profumo~
+Incorporea essenza, frizzante e distensiva per gli animi inquieti, richiama
+alla mente il buon profumo di lavanda.
+~
+#34128
+essenza glicine vapore~
+essenza di glicine~
+Vedi del vapor acqueo color lilla..~
+~
+13 268435456 4194305 0
+0 0 0 0
+1 800 0
+E
+essenza vapore glicine~
+E' l'odore preferito dagli animi sereni, spande armonia intorno a sé e lieta
+speranza in un domani migliore, è il glicine.
+~
+#34129
+essenza gelsomino profumo~
+essenza di gelsomino~
+Un vago profumo di gelsomino permea l'aria.
+~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 400 0
+E
+essenza profumo gelsomino~
+Un dolce profumo estivo permea l'aria tutt'intorno, richiamando il buon
+profumo di gelsomino notturno.
+~
+#34130
+essenza pironella profumo nuvoletta~
+essenza di pironella~
+Una nuvoletta rosa profumata aleggia qui intorno.~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 1000 0
+E
+essenza nuvoletta pironella~
+Un profumo acre di fruttino acerbo assale le tue narici donandoti per un
+istante una grande vitalità e forza d'animo.
+~
+#34131
+zolfo nube~
+odore di zolfo~
+Una nube giallastra è qui ai tuoi piedi.. L'odore non promette bene.~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 400 0
+E
+zolfo odore nube~
+E' acre, pungente, penetrante ed a tratti stordente. Lo zolfo non perdona, una
+volta sfiorata questa nube, la sua essenza ti accompagnerà per molte e molte
+miglia.
+~
+A
+81 1
+#34132
+profumo rugiada goccioline~
+profumo di rugiada~
+Vedi delle piccole goccioline in sospensione..~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 700 0
+E
+profumo rugiada~
+E' il delicato profumo del risveglio, fresco come l'erba al mattino, carezzata
+da cristallina rugiada, coccolata dai primi tiepidi raggi di sole.
+~
+#34133
+odore troll verde putridume~
+odore di troll~
+Un vago odore di putridume si spande nell'aria..~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 700 0
+E
+odore troll putridume~
+Esalare l'ultimo respiro con quest'odore nelle narici è la peggiore delle
+maledizioni, eppure i troll pare siano contenti del loro tipico profumo di
+me..lma.
+~
+A
+34 1
+#34134
+odore felar selve~
+odore di felar~
+Un vago odore di selve ed anfratti nascosti stuzzica le tue narici.~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 700 0
+E
+felar odore profumo selve~
+Un buon profumino di selvatico aleggia tutt'intorno, ricorda il buon odore del
+manto dei micini ma con un'aggiunta sconosciuta, un aroma fuori dal coro che
+narra di incroci di razze e nuove creature...
+~
+A
+2 1
+#34135
+mirto profumo~
+profumo di mirto~
+Un buon profumo di mirto ti solletica le narici.
+~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 500 0
+E
+profumo nube mirto~
+Una fragranza raffinata, il mirto, e al tempo stesso arricchita del lieve
+profumo dei grandi prati soleggiati.
+~
+#34136
+profumo erba pipa nuvoletta~
+profumo di erba pipa~
+Una nuvoletta di fumo verde fluttua a mezz'aria.
+~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 500 0
+E
+profumo erba pipa~
+Un allegro e brioso odore di erba pipa ti avvolge regalandoti visioni di
+idilli bucolici e rilassatezza..
+~
+A
+58 1
+#34137
+odore minotauro~
+odore di minotauro~
+Un forte odore taurino si spande nell'aria.~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 550 0
+E
+odore minotauro taurino~
+L'aria è pregna di un pressante odore taurino, quasi prepotentemene s'insinua
+nelle narici trasportando con sé la veemenza di tutta una razza.
+~
+#34138
+puzza marcio ~
+puzza di marcio~
+Una potente puzza inonda questo luogo.
+~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 400 0
+E
+puzza marcio~
+Sembra di camminare in un magazzina di frutta andata a male, la puzza è
+davvero insostenibile, a meno di non avere grossi danni all'apparato
+olfattivo.
+~
+#34139
+essenza olibano profumo~
+essenza di olibano~
+Un buon profumo fresco inonda l'aria circostante.~
+~
+63 268435456 4194305 0
+0 0 0 0
+1 800 0
+E
+essenza olibano profumo~
+Intenso, sensuale e delicato, è il profumo di olibano che accarezza la pelle
+dolcemente avvolgendola in una nube di fresche evocazioni di cascate e luoghi
+remoti.
+~
+#34140
+bruciato sospetto puzza~
+puzza di bruciato~
+Quando qualcosa non va per il verso giusto, si sente sempre quest'odore.~
+~
+63 0 4194305 0
+0 0 0 0
+1 700 0
+E
+puzza bruciato odore~
+Decisamente solletica il sesto senso quest'odore, c'è qualcosa che non va..
+Oppure hai scordato nel forno un pezzo di carne.
+~
+#34141
+puzza sudore odore fatica~
+puzza di sudore~
+L'aria trasporta l'odore della fatica..~
+~
+63 0 4194305 0
+0 0 0 0
+1 400 0
+E
+puzza sudore fatica odore~
+Aahhh.. il buon odore di venti ore di lavoro intenso ed ininterrotto, il buon
+odore di camminate interminabili lungo pendii scoscesi, il buon odore di una
+corsa a perdifiato..
+Eh sì, è proprio puzza di sudore questa.
+~
+#34142
+odore umano~
+odore di umano~
+Un odore familiare permea l'aria circostante.~
+~
+63 0 4194305 0
+0 0 0 0
+1 400 0
+E
+odore umano~
+E' un odore che racconta di uomini e donne, bambini, capanne, villaggi, guerre
+e vita nei campi. E' odore di umano.
+~
+#34143
+profumo strega~
+profumo di strega~
+Un vago profumo di calderoni e antichi testi aleggia nell'aria.~
+~
+63 0 4194305 0
+0 0 0 0
+1 900 0
+E
+profumo strega~
+Un avvolgente nebbiolina di intensi profumi travolge i tuoi sensi, inebriando
+la memoria con dolci ricordi, poi d'un tratto s'ode un coro di voci lontane e
+cantilenanti, stanno recitando una sorta d'incantesimo.. Che sia tu il
+bersaglio..?
+~
+A
+12 40
+#34144
+profumo cedro~
+profumo di cedro~
+Nell'aria si spande un fresco profumo di cedro .~
+~
+63 0 4194305 0
+0 0 0 0
+1 700 0
+E
+profumo cedro~
+L'aspro ed intenso profumo di cedro è un toccasana per la stanchezza.. Esso
+sferza le tue narici rinvigorendo l'animo.
+~
+#34145
+profumo sandalo~
+profumo di sandalo~
+Un profumo intenso di solletica le narici..
+~
+~
+63 0 4194305 0
+0 0 0 0
+1 700 0
+E
+profumo sandalo~
+E' inebriante, potentemente avvolgente e carico di passione, è il profumo del
+legno di sandalo.
+~
+#34146
+pelo bagnato puzza odore animale~
+puzza di pelo bagnato~
+Un intenso odore di animale fradicio aleggia nell'aria.
+~
+~
+63 0 4194305 0
+0 0 0 0
+1 700 0
+E
+puzza animale pelo bagnato~
+Il tipico odore che si avverte quando il cane rientra a casa dopo aver passato
+quattro giorni nelle pozzanghere.. Ecco cosa ti ricorda questa nuvoletta di
+aromi incontaminati di fradiciume e pellicce umide.
+~
+#0
+
+
+#ROOMS
+#34125
+La bottega dei profumi~
+Mettere piede qui dentro è uno choc olfattivo tutte le volte: sei nella
+profumeria di Jenserin, ultima elementale dell'aria, custode di arcani segreti
+nella fabbricazione di profumi.
+La bottega non è molto grande ma decorata con estremo gusto e semplicità; tre
+alti scaffali occupano le pareti ad est, nord e ovest, a sud è l'ingresso o,
+se non ti trovi bene qui, l'uscita. Fra i ripiani del muro orientale scorgi
+una porticina che conduce al retrobottega.
+I ripiani degli scaffali sono occupati da file di boccette di vetro colorato,
+ognuno riporta un'etichetta con il nome del profumo che contiene: le ampolle
+sono divise per categorie, da una parte ci sono gli odori floreali, poi quelli
+silvani, poi altri specifici di razza.. Una delle fialette contiene
+addirittura puzza di troll! Si trova davvero di tutto in questo negozio..
+
+~
+0 0 0 0 0 0
+D1
+Una piccola porticina conduce al retrobottega.
+~
+~
+0 0 2070 0
+D2
+Uscendo dalla porta ritorni nella vivace foresta dei pixie.
+~
+~
+0 0 34126 0
+S
+#34126
+Il retrobottega~
+Questo è il covo di Fertintun, folletto creatore delle essenze più stravaganti
+delle lande conosciute. Ogni sorta di vaso o fialetta è riempito con erbe di
+irriconoscibile natura o polveri puzzolenti o liquidi scoppiettanti.
+Alti scaffali adornano le pareti, ad ogni ripiano ospitando file e file di
+boccette ed alambicchi con esperimenti in corso.
+L'uscita è ad ovest.
+~
+0 0 0 0 0 0
+D3
+Dalla porticina torni nel negozio.
+~
+~
+0 0 34125 0
+S
+#0
+
+
+#RESETS
+M 0 34125 1 34125  ; Mob: #9900 Jenserin => #9900 La bottega dei profumi
+G 1 34145 1 ; -- Give:  #9921 profumo di sandalo
+G 1 34144 1 ; -- Give:  #9920 profumo di cedro
+G 1 34143 1 ; -- Give:  #9919 profumo di strega
+G 1 34139 1 ; -- Give:  #9915 essenza di olibano
+G 1 34136 1 ; -- Give:  #9911 profumo di erba pipa
+G 1 34135 1 ; -- Give:  #9910 profumo di mirto
+G 1 34132 1 ; -- Give:  #9907 profumo di rugiada
+G 1 34130 1 ; -- Give:  #9905 essenza di pironella
+G 1 34129 1 ; -- Give:  #9904 essenza di gelsomino
+G 1 34128 1 ; -- Give:  #9903 essenza di glicine
+G 1 34127 1 ; -- Give:  #9902 essenza di lavanda
+E 1 34126 1 13  ; -- Equip: #9901 una cintura di nube (cinta                - indossato alla vita)
+E 1 34125 1 5  ; -- Equip: #9900 una tunichetta di fumo colorato (corpo                - indossato sul corpo)
+M 0 34126 1 34126  ; Mob: #9901 Fertintun => #9901 Il retrobottega
+G 1 34146 1 ; -- Give:  #9925 puzza di pelo bagnato
+G 1 34142 1 ; -- Give:  #9918 odore di umano
+G 1 34141 1 ; -- Give:  #9917 puzza di sudore
+G 1 34140 1 ; -- Give:  #9916 puzza di bruciato
+G 1 34138 1 ; -- Give:  #9914 puzza di marcio
+G 1 34137 1 ; -- Give:  #9912 odore di minotauro
+G 1 34134 1 ; -- Give:  #9909 odore di felar
+G 1 34133 1 ; -- Give:  #9908 odore di troll
+G 1 34131 1 ; -- Give:  #9906 odore di zolfo
+S
+
+
+#SHOPS
+34125 63 1 10 0 0 100 90 10 23 ; Jenserin
+34126 63 2 27 32 33 100 90 0 23 ; Fertintun
+0
+
+
+#END

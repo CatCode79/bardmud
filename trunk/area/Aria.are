@@ -1,0 +1,1266 @@
+#AREA
+Name         Nell'Aria~
+Author       Copper (Miciko)~
+Color        AT_LCYAN azzurro~
+LevelRange   5 10
+ResetMsg1    Una dolce brezza mi scompiglia i capelli.~
+Version      1
+Vnums        500 540
+End
+
+
+#MOBILES
+
+#500
+drago fatato~
+un drago fatato~
+Un piccolo drago fatato fluttua nell'aria dolcemente.~
+Un piccolo drago, dall'aspetto aggraziato ti vola incontro. Le sue
+scaglie multicolore riflettono la luce che attraverso le nubi
+giunge fin quassu'. Ondeggia le ampie ali mentre fende l'aria, compiendo
+evoluzioni simili a passi di danza.
+~
+65 24 500 S
+5 16 5 5d5+50 2d4+1
+20 0
+112 112 0
+
+#501
+grifone~
+un grifone~
+Un grande grifone con le ali nere si prepara ad un attacco.~
+Plana davanti a te un essere enorme: ha le ali coperte da lunghe penne nere
+mentre il corpo e' interamente dorato. Dal rostro forte scendi con lo
+sguardo lungo il petto piumato e poi ancora piu' giu' alle possenti
+zampe leonine. Se non fosse che manifesta una discreta fame, staresti
+a guardare il grifone per ore ed ore.
+~
+97 0 300 S
+8 14 4 1d1+104 2d5+2
+500 0
+112 112 0
+
+#0
+
+
+#OBJECTS
+
+#500
+rosa rossa~
+una rosa rossa~
+Trasportata dal vento si posa a terra delicatamente una rosa.~
+~
+9 0 1
+6 0 0 0
+8 0 0
+E
+rosa~
+Ahi! Una spina del gambo ti ha punto ma non e' forse questo il bello
+delle rose? La bellezza esige attenzione prima d'essere sfiorata ed una
+piccola puntura val bene lo splendore di questi petali ancora
+imperlati di rugiada.
+~
+
+#501
+arpa magica~
+Una luminosa arpa~
+Nell'angolo scorgi un oggetto luminoso e voluminoso!~
+~
+8 65 16385
+0 0 0 0
+15 2000 0
+A
+12 150
+
+#502
+liuto intarsiato~
+Un liuto intarsiato~
+E' stato lasciato in un angolo un liuto intarsiato.~
+~
+8 65 16385
+0 0 0 0
+20 2000 0
+A
+12 150
+
+#503
+flauto argento~
+Un flauto d'argento~
+Vedi per terra un delizioso flauto!~
+~
+8 65 16385
+0 0 0 0
+20 2000 0
+A
+12 135
+
+#0
+
+
+#ROOMS
+
+#500
+Un giardino pensile~
+Un incantevole corridoio di glicini accoglie i tuoi passi in questo giardino..
+Il colore tenue rilassa la vista e dolci profumi di fiori esotici corteggiano
+la tua mente donandole serenita'. Dopo un attimo di primo smarrimento e stupore
+inizi a chiederti come possa fluttuare questo piccolo paradiso fra le nubi
+cosi' sottili. Poi le domande lasciano il posto ad un vago desiderio di
+accomodarsi nell'erbetta verde del prato e lasciarsi cullare per il cielo
+da un docile vento.
+~
+0 0 9
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 505
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 501
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 520
+S
+
+#501
+Nell'aria~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Uno strano profumo aleggia in questa direzione.
+~
+~
+0 0 500
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 506
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 502
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 521
+S
+
+#502
+Nell'aria~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 501
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 507
+D2
+Molte persone si agitano frenetiche avanti e indietro.. cosa sara'?
+~
+~
+0 0 503
+D4
+Ti par di scorgere una strana costruzione in lontananza.
+~
+~
+0 0 522
+S
+
+#503
+Un mercatino~
+Questa porzione di cielo nasconde una sorpresa dietro l'altra.. Non fai in
+tempo ad abituarti alla prima che subito ne giunge una seconda, una terza
+e tante ancora. Al momento cerchi di farti spazio fra una moltitudine di
+persone che si ritrovano qui per comprare, vendere o solamente fare un giro.
+Hai quasi paura di sfiorare uno di questi esseri di nuvola, sembrano cosi'
+fragili anche se celano in se' una grande vitalita'. Ecco quindi che da
+una prima bancarella si ode una voce che richiama l'attenzione:
+"Lenzuolaaaaa Lenzuolaaa di pura nuvola primizia! Forza accorrete!"
+seguita da un "Le migliori coperte di cirrooo!! Nessuno le ha piu' belle
+delle mieee!". Gli inviti calorosi dei commercianti rimbalzano da un'ala
+all'altra del mercatino, mentre qualche bimbo ne approfitta per
+sgraffignare un pezzetto di zucchero filato.
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 502
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 508
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 504
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 523
+S
+
+#504
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Molte persone si agitano frenetiche avanti e indietro.. cosa sara'?
+~
+~
+0 0 503
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 509
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 524
+S
+
+#505
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D1
+Che siano proprio navi quelle che vedi?
+~
+~
+0 0 510
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 506
+D3
+Uno strano profumo aleggia in questa direzione.
+~
+~
+0 0 500
+S
+
+#506
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 505
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 511
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 507
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 501
+S
+
+#507
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 506
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 512
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 508
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 502
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 527
+S
+
+#508
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 507
+D1
+Vedi alcune porticine in quella direzione.
+~
+~
+0 0 513
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 509
+D3
+Molte persone si agitano frenetiche avanti e indietro.. cosa sara'?
+~
+~
+0 0 503
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 528
+S
+
+#509
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 508
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 514
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 504
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 529
+S
+
+#510
+Un porto operoso~
+Si dice che i porti siano operosi per definizione.. e questo non tradisce
+le aspettative! Numerosi scaricatori si avvicendano intorno a delle gigantesche
+navi dell'aria.. Sono tutte creature del cielo, fatte interamente di nubi.
+Da un lato vedi anche un capannone, probabilmente e' adibito alla
+costruzione ed al varo dei natanti. Eppure non un suono proviene da quella
+direzione.. Strano no?
+~
+0 0 9
+D1
+Vedi un capannone.
+~
+~
+0 0 515
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 511
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 505
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 530
+S
+
+#511
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Che siano proprio navi quelle che vedi?
+~
+~
+0 0 510
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 516
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 512
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 506
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 531
+S
+
+#512
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 511
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 507
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 532
+S
+
+#513
+Delle strane porticine~
+Una scritta dal significato inconfondibile ti avverte che se hai bisogno
+di qualche minuto di relax per il tuo corpo, qui potrai trovare di tutto,
+dalla sauna alle docce, persino i bagni!
+~
+0 0 9
+D1
+I bagni.
+~
+~
+1 0 518
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 508
+S
+
+#514
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 509
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 534
+S
+
+#515
+Un capannone~
+Sbirci, da fuori, i lavori in atto nel capannone: un nugolo di operai sta
+intrecciando nuvole per farne delle corde da ormeggio, altri stanno
+modellando un grosso cumulonembo.. Sembrerebbe l'ancora della nave!
+Un gruppetto di naviganti del cielo segue fedelmente un solo uomo dal
+portamento nobile ed austero, probabilmente si tratta del capitano del
+vascello.
+~
+0 0 9
+D3
+Che siano proprio navi quelle che vedi?
+~
+~
+0 0 510
+S
+
+#516
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 511
+D4
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 536
+D5
+Verso una zona piu' terra-terra.
+~
+~
+0 0 21338
+S
+
+#517
+La sauna~
+L'ambiente e' decisamente caldo ma non insopportabile, anzi restarsene seduti
+sulle panche di legno a chiacchierare, puo' essere un modo piacevole per
+trascorrere un po' di tempo. Alcuni abitanti delle nuvole sono qui ad
+approfittare di un momento di svago per scambiarsi due parole e raccontarsi
+la loro giornata.
+~
+0 0 9
+D2
+I bagni.
+~
+~
+0 0 518
+S
+
+#518
+Il salone comune~
+Sei nel locale comune dei bagni, numerosi specchi sono appesi alle pareti
+ed altrettanti lavandini sono sistemati proprio sotto essi.
+Alle tue spalle vedi delle porticine, prova ad aprirne una..
+~
+0 0 9
+D0
+La sauna.
+~
+~
+0 0 517
+D2
+I bagni.
+~
+~
+1 0 519
+D3
+Vedi alcune porticine in quella direzione.
+~
+~
+1 0 513
+S
+
+#519
+Un bagno~
+La pulizia regna sovrana in ogni piu' piccolo interstizio delle mattonelle,
+non v'e' traccia alcuna di insetti o bestie simili.. Gli abitanti delle
+nuvole amano il candore e l'ordine: li pretendono anche negli aspetti meno
+appariscenti e decantati della vita quotidiana. Se necessiti di qualche
+minuto di solitudine, puoi fidarti che qui starai benissimo.
+~
+0 0 9
+D0
+I bagni.
+~
+~
+1 0 518
+S
+
+#520
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 521
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 500
+S
+
+#521
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 520
+D2
+Ti par di scorgere una strana costruzione in lontananza.
+~
+~
+0 0 522
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 501
+S
+
+#522
+Un castello..~
+Ti e' mai capitato di vedere una nuvola a forma di castello..?
+Forse pensavi che fossero solo le fantasie dell'infanzia, ma ora che ti
+ritrovi a camminare dentro un maniero di nubi ritratti tutto.
+Alte mura di soffice vapor acqueo circondano il cortile nel quale sei
+adesso e quattro guglie appuntite sorvegliano il castello da un improvviso
+attacco di grifoni.
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 521
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 527
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 523
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 502
+S
+
+#523
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Ti par di scorgere una strana costruzione in lontananza.
+~
+~
+0 0 522
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 528
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 524
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 503
+S
+
+#524
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 523
+D1
+Vedi una piccola costruzione bianca poco distante da qui, sembra un gazebo.
+~
+~
+0 0 529
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 504
+S
+
+#525
+Il retro del tempio~
+Sei sul retro del tempio, la struttura e' ben disegnata anche in queste
+parti meno visitate. Poco piu' avanti una scaletta di nembi conduce
+verso quello che sembra essere un altare di luce.
+~
+0 0 9
+D2
+Le note di alcuni canti solenni scivolano nel vento sino a te.
+~
+~
+0 0 526
+D4
+Una scala di nubi conduce verso un altare luminoso.
+~
+~
+0 0 540
+S
+
+#526
+Un tempio~
+Un sentierino di piccole nuvole, simili a pietre, conduce all'ingresso
+di questo tempio. Tutt'intorno regna una pace incontrastata, sorella della
+meditazione e del silenzio, quest'ultimo interrotto a tratti da una corale
+che sta provando alcuni inni solenni per delle celebrazioni future.
+Il tempio e' circondato da un piccolo sentierino di nube che conduce sul retro,
+forse c'e' qualcosa di interessante da vedere.
+~
+0 0 9
+D0
+Il sentiero di nuvole prosegue verso il retro del tempio.
+~
+~
+0 0 525
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 527
+S
+
+#527
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Le note di alcuni canti solenni scivolano nel vento sino a te.
+~
+~
+0 0 526
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 532
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 528
+D3
+Ti par di scorgere una strana costruzione in lontananza.
+~
+~
+0 0 522
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 507
+S
+
+#528
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 527
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 533
+D2
+Una lontana eco di flauti ed arpe attira la tua attenzione.
+~
+~
+0 0 529
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 523
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 508
+S
+
+#529
+Il gazebo bianco~
+Le dolci note che sentivi in lontananza, si concretano in una lieve melodia
+proveniente da un piccolo gazebo bianco che si confonde con la nuvola su cui e'
+poggiato.
+Delle panchine in legno di forma circolare, sono sistemate lungo il perimetro
+del gazebo. Seduti l'uno accanto all'altro, vedi i musici celesti che allietano
+l'atmosfera suonando armonie degne di questi luoghi..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 528
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 534
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 524
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 509
+S
+
+#530
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D1
+Ti pare di scorgere delle frecce o forse sono altri oggetti volanti.
+~
+~
+0 0 535
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 531
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 510
+S
+
+#531
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 530
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 536
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 532
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 511
+S
+
+#532
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 531
+D1
+Uno schiamazzare indistinto cattura la tua attenzione.
+~
+~
+0 0 537
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 533
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 527
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 512
+S
+
+#533
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 532
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 538
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 534
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 528
+S
+
+#534
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 533
+D1
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 539
+D3
+Nell'aria si diffondono lievi note musicali..
+~
+~
+0 0 529
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 514
+S
+
+#535
+Colori nel cielo~
+Uno dei passatempi preferiti della popolazione delle nuvole e' lasciarsi
+condurre dal vento. In molti sono qui per affrontare il vuoto con
+un deltaplano di nube, o addirittura una piccola mongolfiera.
+Le mongolfiere hanno il cestello di nembi ed il pallone tessuto in seta
+leggerissima, adatta a muoversi secondo le correnti ascensionali e anche
+resistente agli improvvisi vuoti d'aria.
+L'entusiasmo degli abitanti traspare dai loro occhi e dalle espressioni
+divertite mentre si godono lo spettacolo del cielo colorato da decine e
+decine di palloni aerostatici.
+~
+0 0 9
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 536
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 530
+D4
+Un arcobaleno si staglia nel cielo, sembra quasi solido.
+~
+~
+0 0 800
+S
+
+#536
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Ti pare di scorgere delle frecce o forse sono altri oggetti volanti.
+~
+~
+0 0 535
+D2
+Uno schiamazzare indistinto cattura la tua attenzione.
+~
+~
+0 0 537
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 531
+D5
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 516
+S
+
+#537
+Una fattoria~
+Ma cosa succede..? Animali di nuvola corrono incontro a te festosi,
+circondandoti, scalpitando ancora e rincorrendosi fra di loro.
+Vedi una mucchina bianca ruminare paciosa un povero cirro, due oche
+svolazzano intorno ad un altocumulo, ignare che una gatta dall'aria
+sorniona le sta puntando, comodamente seduta su un puff di morbida nube.
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 536
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 538
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 532
+S
+
+#538
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Uno schiamazzare indistinto cattura la tua attenzione.
+~
+~
+0 0 537
+D2
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 539
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 533
+S
+
+#539
+Nell'aria..~
+Stai volando! Senti il tuo corpo fluttuare e guardando in basso, provi un
+piccolo brivido da vertigini. L'aria e' leggermente piu' rarefatta e fai un po'
+piu' fatica a respirare. Una strana nebbiolina ti avvolge, confondendo il tuo
+senso dell'orientamento.. stai proprio galleggiando fra le nuvole!
+Da quassu' tutto ti appare piccolo e insignificante..
+~
+0 0 9
+D0
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 538
+D3
+Nuvole leggerissime dappertutto.
+~
+~
+0 0 534
+S
+
+#540
+L'altare di luce~
+Mille e mille colori si sprigionano dalla base di questo altare, minuziosamente
+decorato con bassorilievi raffiguranti scene di vita quotidiana.
+Una tovaglietta di lino ricopre l'altare, su di essa e' poggiato un piccolo
+scrigno dorato.. La curiosita' e' tanta e nei paraggi non si vede nessuno, dai
+una sbirciatina allo scrigno, ma appena sollevi il coperchio di poco, subito si
+librano nell'aria alcuni fasci di luce.. Decidi di non dare troppo nell'occhio
+e rimetti tutto a posto.
+~
+0 0 9
+D5
+Il sentiero di nuvole prosegue verso il retro del tempio.
+~
+~
+0 0 525
+S
+
+#0
+
+
+#RESETS
+M 1 500 8 506 3
+M 1 500 8 514 3
+M 1 500 8 516 3
+M 1 501 2 522 2
+M 1 501 2 533 2
+M 1 501 2 539 2
+O 0 501 1 529	* [Carica 1] una luminosa arpa [Alla stanza] Il gazebo bianco
+O 0 502 1 529	* [Carica 1] un liuto intarsiato [Alla stanza] Il gazebo bianco
+O 0 503 1 529	* [Carica 1] un flauto d'argento [Alla stanza] Il gazebo bianco
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  500 spec_cast_mage
+S
+
+
+#END

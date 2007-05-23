@@ -1,0 +1,521 @@
+#HELP
+KeywordItalian altruista~
+KeywordEnglish altruista~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Tutti hanno bisogno di essere consolati e di avere una spalla su cui piangere.
+Un Altruista prova gioia nel consolare gli altri e la gente spesso gli confida
+i suoi problemi.
+Gli avventurieri di questo Archetipo spesso tentano, per quanto possono, di
+proteggere chiunque nei paraggi che si trovi in pericolo.
+~
+End
+
+#HELP
+KeywordItalian architetto architetta~
+KeywordEnglish architetto architetta~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'Architetto possiede propositi più grandi di se stesso, ed è veramente felice
+solo quando crea qualcosa di valore durevole per gli altri.
+La gente avrà sempre bisogno di qualcosa e l'Architetto si ingegna per
+soddisfare almeno una di queste necessità.
+~
+End
+
+#HELP
+KeywordItalian autocrate~
+KeywordEnglish autocrate~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'Autocrate vuole comandare. Cerca la supremazia per proprio interesse, non
+perché un'operazione gli stia particolarmente a cuore o perché abbia idee
+migliori (anche se lui probabilmente crede sia cosi).
+Può genuinamente pensare che gli altri siano tutti incompetenti, ma alla fine
+lui desidera ardentemente il potere e il controllo.
+~
+End
+
+#HELP
+KeywordItalian bambino bambina~
+KeywordEnglish bambino bambina~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Bambino ha una personalità e un carattere ancora immatura.
+Vuole ciò che vuole subito e spesso preferisce che sia qualcun altro a
+concederglielo.
+Può prendersi cura di se stesso, ma potrebbe avere qualcuno che si preoccupi di
+lui.
+Alcuni avventurieri di questo archetipo sono innocenti più che immaturi, ignari
+dei sentieri gelidi dei Piani Astrali.
+~
+End
+
+#HELP
+KeywordItalian buffone buffona~
+KeywordEnglish buffone buffona~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Buffone trova l'assurdo in ogni cosa.
+Non importa quanto la vita possa diventate spiacevole, egli scopre sempre un
+pizzico di humour anche nelle situazioni più tragiche e tristi.
+Non può sopportare il dolore e la sofferenza e cerca di mettere di buonumore chi
+lo circonda.
+Alcuni hanno nobili ideali e sfidano i dogmi stazionari descrivendo in modo
+umoristico i loro fallimenti.
+~
+End
+
+#HELP
+KeywordItalian bullo bulla~
+KeywordEnglish bullo bulla~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Bullo è un duro e un prepotente, e spesso prova un piacere perverso nel
+tormentare i deboli.
+Secondo il suo pensiero, la potenza dà il diritto; il potere è ciò che conta e
+solo quelli che lo detengono meritano rispetto.
+Naturalmente la forza fisica è la cosa più importante, ma qualsiasi tipo di
+potenza può andare.
+Vede le minacce come un mezzo ragionevole per ottenere la cooperazione.
+Non è incapace di pietà e cortesia, solo preferisce fare le cose a modo suo.
+~
+End
+
+#HELP
+KeywordItalian burbero burbera~
+KeywordEnglish burbero burbera~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Un Burbero è sgradevole e cinico, trova difetti ovunque e non vede alcuna forma
+di umorismo nella vita.
+È spesso fatalista o pessimista e nutre pochissima stima nei confronti degli
+altri.
+Per lui il bicchiere è sempre mezzo vuoto, anche se potrebbe essere dannatamente
+vuoto nel caso siano coinvolte altre persone.
+~
+End
+
+#HELP
+KeywordItalian competitore competitrice~
+KeywordEnglish competitore competitrice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Competitore prova una forte emozione nel conseguire una vittoria.
+Per lui ogni compito costituisce una nuova sfida da accettare e un nuovo
+conflitto da vincere.
+Vede tutte le interazioni come una sorta di opportunità per dimostrare di
+essere il migliore, il leader, il più produttivo, il più valido e così via.
+~
+End
+
+#HELP
+KeywordItalian conformista~
+KeywordEnglish conformista~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Conformista è un seguace, uno che accetta il comando di un altro e trova
+sicurezza nelle decisioni altrui.
+Preferisce non assumersi responsabilità, ma cerca di gettarsi nella mischia con
+il resto del gruppo e dare una mano.
+Viene attirato dalla personalità più dinamica o da quella che egli considera
+essere "migliore".
+Essere un Conformista non è necessariamente una brutta cosa, ogni gruppo
+necessita di seguaci per dare stabilità alle proprie cause.
+~
+End
+
+#HELP
+KeywordItalian deviato deviata~
+KeywordEnglish deviato deviata~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Deviato è un freak, bandito dalla società per i suoi gusti singolari che lo
+allontanano dalla corrente principale.
+Non è un ribelle indolente o un "genio incompreso", è piuttosto un libero
+pensatore che non si identifica nello status quo.
+Spesso ha la sensazione che il mondo sia contro di lui e quindi rifiuta la
+moralità tradizionale.
+Alcuni Deviati hanno gusti, preferenze e ideologie bizzarre.
+~
+End
+
+#HELP
+KeywordItalian difensore difenditrice~
+KeywordEnglish difensore difenditrice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Non tutti possono essere guerrieri; tu puoi, e qualsiasi sia il
+campo di battaglia che hai scelto (la guerra, la legge, la medicina, la
+religione, eco), rivolgi ogni tuo sforzo alla difesa di coloro che
+meritano che si combatta per loro. Qualunque sia la tua storia, il tuo
+compito nella vita è la difesa di un patrono: alcuni difendono i
+deboli, altri difendono i troni.
+~
+End
+
+#HELP
+KeywordItalian egoista~
+KeywordEnglish egoista~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'unica cosa che conta sei tu; ognuno deve arrangiarsi, saper
+badare a se stesso, e se agisci per gli altri, beh, peggio per te! Se la
+gente fosse più forte, forse apprezzerebbe maggiormente la
+vita, così come fai tu. Non che tu sia un bullo prepotente, semplicemente
+sei egocentrico, e spaventosamente egoista. Non hai bisogno
+di essere un dominatore, ma che tu sia dannato se sarai il dominato!
+Gli Egoisti sono orgogliosi della loro autosufficienza: puoi
+essere un ladro, un cavaliere errante, un vagabondo o una prostituta;
+chiunque tu sia, gli altri ti guardano dall'alto in basso, perché ti
+rifiuti di vivere secondo le loro regole. Alla fine, la cosa che ti sta a
+cuore sono i tuoi interessi, e non lasci che nessuno ti guidi.
+~
+End
+
+
+#HELP
+KeywordItalian entusiasta~
+KeywordEnglish entusiasta~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'Entusiasta è felice quando realizza i propri ideali.
+Che la sua passione sia per la battaglia, il fervore religioso, la sconfitta
+dei suoi rivali o la letteratura ricercata, riceve da essa la forza di
+resistere alle avversità.
+Se ne ha la possibilità, si dedica completamente a ciò che gli interessa.
+A differenza del Fanatico, l'Entusiasta non porta avanti la sua passione per
+dovere.
+~
+End
+
+#HELP
+KeywordItalian fanatico fanatica~
+KeywordEnglish fanatico fanatica~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Fanatico ha uno scopo e questo scopo consuma la sua esistenza.
+Dedica anima e corpo alla sua causa e si sente in colpa se persegue un obiettivo
+che si allontana dalla sua meta.
+Per il Fanatico il fine giustifica i mezzi: la causa è più importante di coloro
+che la servono.
+~
+End
+
+#HELP
+KeywordItalian furfante~
+KeywordEnglish furfante~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Furfante ha cara una sola cosa: se stesso.
+Tutto gli appartiene e se gli altri non riescono a proteggere ciò che
+rivendicano come proprio, vuol direche non ne hanno il diritto.
+Non è necessariamente un duro o un bullo, comunque.
+Rifiuta semplicemente di sottostare ai capricci degli altri.
+Possiede un profondo senso di autosufficienza e ciò che conta in ogni momento
+è il suo interesse.
+~
+End
+
+#HELP
+KeywordItalian galante~
+KeywordEnglish galante~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+I Galanti sono anime appariscenti, che ricercano l'attenzione e la possibilità
+di essere le stelle più lucenti.
+Cercano la compagnia degli altri anche solo per essere adorati.
+E l'altrui attenzione che li guida, e la ricerca di questa attenzione li
+soddisfa spesso più che ottenerla.
+Niente incita un Galante più di un nuovo pubblico da adulare e da cui ottenere
+ciò che desidera.
+~
+End
+
+#HELP
+KeywordItalian gaudente~
+KeywordEnglish gaudente~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II	Gaudente sa che la vita, e la non vita, sono brevi e insignificanti, e per
+questo decide di godersi il suo tempo sui Piani Astrali.
+Non è necessariamente un irresponsabile. E' semplicemente predisposto al
+divertimento.
+La maggior parte dei Gaudenti hanno un self control basso, poiché sono portati
+all'eccesso.
+~
+End
+
+#HELP
+KeywordItalian giudice~
+KeywordEnglish giudice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Giudice cerca sempre di migliorare il sistema.
+Un Giudice ottiene soddisfazione dalla sua natura razionale e dalla sua abilità
+di trarre la giusta conclusione quando gli viene sottoposto un caso.
+Rispetta la giustizia, poiché è il metodo più efficiente per risolvere le
+questioni.
+Cerca di "ottimizzare" i problemi, ma non è un visionario; preferisce fare
+riferimento a modelli consolidati che affidarsi all'intuito.
+~
+End
+
+#HELP
+KeywordItalian innovatore innovatrice~
+KeywordEnglish innovatore innovatrice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+C'è sempre un modo migliore per raggiungere la meta, e la tua
+vocazione è di trovarlo ogni volta. Inventore, mercante, filosofo o
+stratega: sei colui che apre nuove piste, il critico mai
+soddisfatto, anche quando sembri aver raggiunto la perfezione. La
+tradizione è per te come un laccio che imprigiona l'immaginazione:
+qualunque sìa la tua attività, ti adoperi per migliorare quello che
+c'era prima.
+~
+End
+
+#HELP
+KeywordItalian martire~
+KeywordEnglish martire~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Martire soffre per la sua causa, resìstendo alle prove con la consapevolezza
+che il suo sforzo alla fine migliorerà il destino altrui.
+Alcuni Martiri vogliono solo ottenere attenzione e comprensione per i loro
+sforzi, mentre altri perseguono sinceramente la loro causa, accettando le
+ostilità senza mai crollare nella loro fede.
+~
+End
+
+#HELP
+KeywordItalian masochista~
+KeywordEnglish masochista~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Masochista vive per mettere alla prova i propri limiti, per comprendere
+quanto dolore riesca a sopportare prima dì crollare.
+Trae soddisfazione dall'umiliazione, dalla sofferenza, dal rifiuto e persino
+dal dolore fisico.
+Riesce a stabilire chi è veramente solo grazie alla sua capacità di provare
+disagio, si sveglia ogni giorno solo per provare nuovo dolore.
+~
+End
+
+#HELP
+KeywordItalian mostro~
+KeywordEnglish mostro~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Mostro è consapevole di essere una creatura delle tenebre e agisce di
+conseguenza.
+La cattiveria e la sofferenza sono i suoi strumenti e li utilizza ovunque vada.
+Nessuna malvagità è a lui sconosciuta, nessuna ferita viene evitata, nessuna
+menzogna taciuta.
+Non fa del male per il proprio bene, ma piuttosto come mezzo per comprendere
+ciò che è diventato.
+~
+End
+
+#HELP
+KeywordItalian maestro maestra~
+KeywordEnglish maestro maestra~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il  Maestro sa tutto di tutto, e desidera disperatamente informarne gli altri.
+Che sia per senso del dovere o per il desiderio genuino di  aiutare, si
+assicura che  il suo messaggio venga ascoltato.
+I Maestri possono essere mentori ben intenzionati o logorroici sbruffoni che
+amano sentire il suono della propria voce.
+~
+End
+
+#HELP
+KeywordItalian penitente~
+KeywordEnglish penitente~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Penitente espia il grave peccato che commette semplicemente esistendo.
+O ha poca stima di sé o ha vìssuto esperienze traumatìche in passato e sì sente
+costretto a compensare il fatto d'essersi imposto al mondo.
+I Penitenti non sono sempre legati alla religione; alcuni vogliono sinceramente
+castigarsi per il dolore che hanno causato al mondo.
+~
+End
+
+#HELP
+KeywordItalian perfezionista~
+KeywordEnglish perfezionista~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Perfezionista esige il meglio.
+Un lavoro incompiuto non gli dà soddisfazione e pretende dagli altri lo stesso
+impegno e la stessa attenzione che pretende da sé stesso.
+Sebbene possa essere rigoroso ed esigente, lo guida il raggiungimento dello
+scopo finale, e spesso guida anche coloro dì cui è responsabile.
+~
+End
+
+#HELP
+KeywordItalian pianificatore pianificatrice~
+KeywordEnglish pianificatore pianificatrice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Per un Pianificatore non c'è niente di peggio del caos e del disordine.
+Cerca sempre di essere in carica e dì adottare il proprio metodo in qualunque
+decisione venga presa.
+Si occupa di riportare l'ordine nei conflitti e non deve avete un gruppo
+veramente sotto controllo per poterlo guidare.
+~
+End
+
+#HELP
+KeywordItalian ribelle~
+KeywordEnglish ribelle~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+II Ribelle è un malcontento, mai soddisfatto dello status quo o del sistema
+così com'è.
+Odia l'autorità e fa qualsiasi cosa in suo potere per minacciarla o minarla.
+Forse crede davvero nei suoi ideali, ma è altrettanto probabile che abbia del
+malanimo verso ciò che rappresenta l'autorità a causa di un malinteso o di un
+torto a suo discapito.
+~
+End
+
+#HELP
+KeywordItalian sfruttatore sfruttatrice~
+KeywordEnglish sfruttatore sfruttatrice~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Perché lavorare tanto per ottenere qualcosa quando puoi convincere qualcun'altro
+a farlo per te?
+Lo Sfruttatore cerca sempre di trovare il modo più semplice, la via più veloce
+verso il successo e il benessere.
+Alcuni lo chiamano ladro, imbroglione o con termini meno gradevoli, ma lui sa
+che tutti prenderebbero il suo posto se potessero.
+Lo fa solo prima degli altri, e meglio.
+~
+End
+
+#HELP
+KeywordItalian solitario~
+KeywordEnglish solitaria~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Persino all'interno di una folla, il Solitario si evidenzia perché è convinto
+fermamente di non farne parte.
+Viene considerato un emarginato, ma in realtà preferisce la sua sola compagnia
+a quella degli altri.
+Per un motivo o per l'altro, li disdegna e questo sentimento è spesso reciproco.
+~
+End
+
+#HELP
+KeywordItalian sopravvissuto sopravvissuta~
+KeywordEnglish sopravvissuto sopravvissuta~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Non importa ciò che accade, non contano i vantaggi e le opposizioni, il
+Sopravvissuto riesce sempre a cavarsela.
+Sia da solo che in gruppo, il rifiuto completo della sconfitta spesso fa la
+differenza tra il successo e il fallimento.
+E frustrato dal fatto che gli altri accettino "ciò che il destino ha in serbo"
+o che si oppongano meno di quanto possano.
+~
+End
+
+#HELP
+KeywordItalian temerario temeraria~
+KeywordEnglish temerario temeraria~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Temerario vive per l'eccitazione che gli provoca il pericolo.
+A differenza di coloro che sono più sani di mente, il Temerario ricerca
+attivamente situazioni rischiose e mortali.
+Non è un suicida o un autodistruttivo, cerca semplicemente lo stimolo dato
+da un disastro imminente.
+~
+End
+
+#HELP
+KeywordItalian tiranno tiranna~
+KeywordEnglish tiranno tiranna~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Nessuno, eccetto te, sa fare le cose come vanno fatte. Quando
+lasci fare qualcosa agli altri, sicuramente questi rovinano tutto: perciò,
+devi sorvegliare coloro di cui ti occupi, e prendere le cose sotto
+la tua diretta custodia ogni volta che sia possibile.
+Qualsiasi cosa fai, assicurati che non te la sciupino: forse la gente non
+ti apprezzerà, ma perlomeno le cose saranno fatte per bene, una volta tanto.
+~
+End
+
+#HELP
+KeywordItalian tradizionalista~
+KeywordEnglish tradizionalista~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+L'ortodossia soddisfa il Tradizionalista, che preferisce portare a termine i
+suoi compiti grazie a metodi sperimentati.
+Perché cambiare qualcosa quando ciò che funzionava in passato funziona ancora
+oggi?
+Considera accettabile lo status quo e anzi lo preferisce al cambiamento, che
+potrebbe condurre a risultati imprevedibili.
+~
+End
+
+#HELP
+KeywordItalian visionario visionaria~
+KeywordEnglish visionario visionaria~
+Type           HELPTYPE_INFO
+Trust          TRUST_PLAYER
+Text
+Il Visionario è abbastanza forte da andare oltre tutto ciò che è mondano e
+percepire tutto quello che di meraviglioso esiste.
+Accetta i limiti della società e va in cerca di ciò che solo pochi hanno il
+coraggio dì immaginare.
+Raramente lo soddisfa quello che la società ha da offrire; preferisce
+incoraggiarla a offrire ciò che potrebbe fare invece di ciò che fa.
+Solitamente la società fornisce una misera risposta nei confronti dei
+Visionari, sebbene siano loro i responsabili del progresso e del cambiamento.
+~
+End
+
+
+#END

@@ -1,0 +1,372 @@
+#AREA
+Name         Antro dei Troll~
+Author       Merc (Miciko)~
+Color        AT_ORANGE marrone~
+LevelRange   10 15
+ResetMsg1    Sento un continuo biascicare in ogni angolo scuro della caverna.~
+Version      1
+Vnums        2800 2808
+End
+
+
+#MOBILES
+
+#2800
+bestia guardiana~
+una bestia guardiana~
+Una bestia guardiana ti osserva e ringhia dalla rabbia.~
+Un manto nero lucente copre questa bestia, ti scruta con enormi occhi rossi.
+Puoi contare almeno 50 denti nella sua bocca anche se non riesci a capire se
+dalle sue fauci coli saliva o sangue. Nel frattempo la bestia ringhia ancora..
+~
+103 98312 -200 S
+7 12 2 7d7+70 2d6+1
+0 1550
+112 112 1
+
+#2801
+troll giovane~
+un giovane troll~
+Un giovane troll è seduto, mentre mastica un osso.~
+E' un alto, peloso, ispido umanoide. Meglio chiudere gli occhi.
+Sorride, posa il suo osso pronto a prendere uno dei tuoi!!!
+~
+101 32768 -500 S
+6 13 3 6d6+60 2d5+1
+500 1000
+108 112 0
+
+#2802
+troll adulto~
+un troll adulto~
+Un troll accudisce il suo animaletto, una bestia guardiana.~
+E' un alto, peloso e scarno umanoide.
+E' impegnato a leccar via dalla sua bestia le zecche.
+Ti osserva con aria famelica appena si rende conto che sei solo un terzo della
+sua taglia.
+~
+103 32768 -500 S
+8 11 1 8d8+80 2d6+3
+1500 3000
+112 112 0
+
+#2803
+troll bambino~
+un troll bambino~
+Un troll bambino sta giocando al dottore con un cadavere.~
+E' un grasso, peloso, paffuto umanoide e sta tentando di far entrare un
+braccio nel buco del muro. Ti nota e ti chiede "VUOI DIVERTIRTI CON ME?".
+~
+39 32768 -100 S
+5 14 4 5d5+50 2d4+1
+250 700
+108 112 0
+
+#2804
+troll gigante~
+un troll gigante~
+Un troll gigante è sdraiato su una serie di cadaveri, compiaciuto della sua abilita'.~
+Vedi un gigante, muscoloso, peloso umanoide.
+Lui sobbalza appena s'accorge della tua intrusione.. Tu sobbalzi appena
+realizzi che hai interrotto il suo atto di passione!
+~
+103 32768 -1000 S
+13 6 -4 13d13+130 3d6+4
+3000 13000
+106 112 0
+
+#2805
+grossa troll donna~
+una grossa femmina troll~
+Una grossa troll donna è sdraiata su una serie di cadaveri, mentre scrive beatamente.~
+Come gli altri della sua razza, anche costei e' enorme, grottesca e pelosa.
+Sta facendo delle moine ma spalanca gli occhi appena ti nota. Il suo sorriso
+si trasforma in una smorfia ed inizia ad urlare verso te.
+~
+103 32768 -800 S
+11 8 -3 11d11+110 3d5+3
+2500 8000
+106 112 1
+
+#2806
+grasso verme~
+un grasso verme~
+Un grasso verme striscia, cercando cibo.~
+E' lungo e sottile. Su di esso non riesci a scorgere la testa perche' si muove
+troppo velocemente da un corpo all'altro.
+~
+165 98304 0 S
+3 13 3 3d3+30 2d4+0
+0 350
+112 112 0
+
+#2807
+bestia vagabonda~
+una bestia vagabonda~
+Una bestia vagabonda sta cercando una preda.~
+Un manto nero lucente copre questa bestia, ti scruta con enormi occhi rossi.
+Puoi contare almeno 50 denti nella sua bocca anche se non riesci a capire se
+dalle sue fauci coli saliva o sangue.
+~
+103 32776 -200 S
+7 12 2 7d7+70 2d6+1
+0 2250
+112 112 1
+
+#2808
+troll adulto~
+un troll adulto~
+Un troll adulto vaga qua attorno, mentre compie il suo dovere.~
+E' un alto, smunto, peloso umanoide. Intuisci la sua soddisfazione per aver
+trovato cio' che sta cercando: te.
+~
+101 32768 -500 S
+8 11 1 8d8+80 2d6+3
+1500 2750
+112 112 1
+#0
+
+
+#OBJECTS
+#2800
+cadavere~
+il cadavere-giocattolo~
+Vedi un corpo tutto mangiucchiato~
+~
+15 0 1
+30 0 0 0
+50 0 0
+
+#2801
+letto cadaveri mucchio~
+un mucchio di cadaveri~
+Scorgi, disgustato, un letto fatto di cadaveri.~
+~
+15 0 0
+30 0 0 0
+999 0 0
+
+#2802
+pelle troll~
+la pelle di troll~
+La sudicia pelle di una bestia e' per terra.~
+~
+9 0 1025 0
+5 0 0 0
+50 50 50
+A
+1 1
+E
+pelle troll~
+Questa e' la pelle di un'enorme, e molto morta, bestia. Puzza come un cimitero
+scoperchiato.. E' veramente fetida.
+~
+
+#2803
+anello  opale~
+un anello di opale~
+Un anello di nero opale e' qui, nascosto dalla polvere.~
+~
+9 64 1
+3 0 0 0
+1 1000 100
+A
+19 2
+E
+anello opale~
+E' un piccolo anello di opale, molto semplice e rotondo.
+~
+
+#2804
+cintura pelle~
+una cintura di pelle~
+E' stata lasciata sul pavimento una vecchia cintura di pelle..~
+~
+9 64 1025
+6 0 0 0
+5 100 20
+E
+cintura pelle~
+Fai un favore a questa vecchia cintura.. Buttala.
+~
+
+#2805
+osso rosicchiato~
+un osso rosicchiato~
+Vedi un osso rosicchiato.~
+~
+5 0 1
+0 3 3 7
+3 3 50
+A
+19 -1
+A
+18 -1
+E
+osso~
+Questo pezzo d'osso sembra abbastanza resistente da essere usato in battaglia,
+ma e' meglio affidare la propria vita ad un'arma migliore.
+~
+#0
+
+
+#ROOMS
+#2801
+La discarica dei rifiuti~
+Questa stanza e' piena di cocci e frammenti di ossa, da cio' si deduce che
+qualcosa di molto grosso vive qui. Una piccola placca e' sul muro.
+~
+0 1 0
+D0
+Puoi tornare alla civilta'.
+~
+~
+0 0 6124
+D2
+Trovi che dentro il puzzo sia piu' forte.
+~
+~
+0 0 2803
+E
+placca~
+Questo e' l'Antro di una famiglia di Troll. Si sono stabiliti qui, dopo
+lunghissime peregrinazioni per tutto il Regno.
+Con l'avvento dell'Oscurita', hanno cominciato a vivere nel lusso e ora possono
+vantarsi d'essere assai abbienti.
+~
+S
+
+#2802
+Dispensa dei Trollish~
+Sangue e sudiciume indefinito ricoprono le pareti di questa sala.
+Vedi ovunque scarafaggi e altri insetti strisciare lungo i muri.
+Il proprietario e' sicuramente poco civilizzato.
+Sul pavimento sono sparpagliati brandelli di cadaveri in putrefazione, ognuno
+dei quali ospita una colonia banchettante di vermi.
+~
+0 1 0
+D1
+La fresca brezza orientale dona serenita' al tuo animo, ma non dura a lungo..
+Il puzzo attorno a te diventa sempre piu' forte.
+~
+~
+0 0 2803
+E
+Corpi mezzi mangiati~
+Quel che un tempo solcava queste terre in forma umana, giace qui ora come corpo
+putrido, desco solo per gli insetti.
+~
+S
+
+#2803
+Il Salotto dei Troll~
+Questa piccola caverna e' aperta a nord, sud, est e ovest. Ti disgusta il fetore
+e stai pensando di non voler esplorare oltre.
+~
+0 1 0
+D0
+Una traccia di cocci e frammenti di ossa conduce a nord.
+~
+~
+0 0 2801
+D1
+Per tutti gli Dei! Spii fra i corpi sparsi sul pavimento. Sembra esserci un
+ipotetico cimitero.
+~
+~
+0 0 2804
+D2
+Indietreggiando per il fetore ti pare di scorgere la fonte di questo odore
+sgradevole.
+~
+~
+0 0 2805
+D3
+Tra qui e la stanza ad ovest si allunga una fila di vermi indaffarati nell'opera
+di pulizia dei cadaveri.. Un forte senso di nausea ti assale.
+~
+~
+0 0 2802
+S
+
+#2804
+Il Recinto per bambini~
+I muri sono coperti da sangue e brandelli di organi umani.
+Spiaccicato sul muro piu' lontano vedi qualcosa che sembra un braccio umano.
+Un corpo mangiucchiato e' per terra con il petto dilaniato.
+Il predatore sembra disinteressato ad esso.
+~
+0 1 0
+D3
+Apprezzi la fresca brezza proveniente da ovest, ma storci il naso quando
+senti il puzzo crescere ancora di piu'.
+~
+~
+0 0 2803
+E
+braccio putrescente~
+Il largo strato di cancrena intorno al braccio ti fornisce un'idea della
+giovialita' che regna durante le cene dei bambini di questa famiglia.
+~
+S
+
+#2805
+La Stanza da letto dei Troll~
+Sicuramente qualcosa di veramente grande vive qui. Il fetore e' indescrivibile
+e ci sono molte e molte parti di corpi di animali, orchi putrescenti e
+mangiucchiati, stesi per terra sul pavimento.
+C'e' una catasta , piu' grossa, di parti di corpi andati a male in un angolo.
+Sembra essere schiacciata da qualcosa.
+~
+0 1 0
+D0
+Apprezzi la fresca brezza che proviene da nord, ma storci il naso appena senti
+crescere il puzzo ancora di piu'.
+~
+~
+0 0 2803
+S
+#0
+
+
+#RESETS
+M 0 2800 2 2801
+O 0 2805 10 2801
+M 0 2801 2 2802
+M 0 2801 2 2802
+M 0 2806 20 2802
+M 0 2806 20 2802
+M 0 2807 1 2802
+M 0 2802 1 2803
+M 0 2800 2 2803
+M 0 2806 20 2803
+M 0 2806 20 2803
+M 0 2808 1 2803
+O 0 2800 10 2804
+P 0 2804 40 2800
+M 0 2803 4 2804
+M 0 2803 4 2804
+M 0 2803 4 2804
+M 0 2803 4 2804
+M 0 2806 20 2804
+M 0 2804 1 2805
+E 1 2802 40 12
+M 0 2805 1 2805
+O 0 2801 10 2805
+P 0 2803 40 2801
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+S
+
+
+#END

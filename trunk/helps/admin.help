@@ -1,0 +1,4758 @@
+#HELP
+KeywordItalian aasign~
+KeywordEnglish aasign~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Taassign <&gfilename&w>.&gare&w
+&YExample&w :  °Taassign &gedo&w.&gare&w
+
+°Faassign temporarily assigns all rooms, objects, and mobiles in the area
+range to your pfile.  This allows you to use blist and reset list.
+This also means that typing savearea, reset area, or
+instazone will affect this area.
+
+To save changes permenantly, type "aassign none" and foldarea.
+
+&rWarning&w!! Do not have an area aassigned to yourself when getting personal
+vnums assigned to you.  The personal vnums will overwrite the area file.
+
+In order to assign a proto area to yourself, you must either have that
+area bestowed to you by a Greater God or higher.
+
+In order to assign a nonproto area to yourself, you must either have
+that area bestowed to you by an Exalted+. Even if you have the area bestowed
+only Lesser+ can aassign themselves nonproto areas.
+~
+End
+
+#HELP
+KeywordItalian aexit~
+KeywordEnglish aexit~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Taexit
+
+This is a really useful little utility for builders and other imms to check
+areas for all the standard entry and exit points it has, including teleport
+rooms. It will not count up exits by mudprograms though.
+
+Here's an example of its output:
+
+To: Overland  237X  161Y From:             deme.are Room  3700 (north)
+To: Overland  237X  169Y From:             deme.are Room  3701 (south)
+To: hdcaverns.are        Room: 29241 From: deme.are             Room  3703 (down)
+From: hdcaverns.are        Room: 29241 To: deme.are             Room  3703 (up)
+From: Overland  237X  162Y To: Room  3700
+From: Overland  237X  168Y To: Room  3701
+
+The program will default to the area you are standing in if you fail to
+specify an argument to it. Otherwise it accepts the filename for any
+area listed on the 'zones' command output.
+~
+End
+
+#HELP
+KeywordItalian actflags mobflags~
+KeywordEnglish actflags mobflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&GMOBFLAG       &W|&GDESCRIPTION&W
+&Y--------------&W|&Y--------------------------------------------------------&W
+sentinel       Mobile always stays at its post.
+scavenger      Mobile picks up items of value.
+aggressive     Mobile attacks players.
+stayarea       Mobile does not leave its home area.
+wimpy          Mobile flees when low in hits.
+practice       Players can "practice" at this mobile.
+immortal       Mobile is immortal (not implemented).
+deadly         Mobile has a deadly poison (not implemented).
+meta_aggr      Mobile is VERY aggressive (not implemented).
+nowander       Mobile doesn't wander unless attacked.
+mountable      Mobile can be mounted.
+prototype      Mobile is under construction.
+running        Mobile is running (moves twice as fast)
+noassist       Mobile won't assist other mobs in a fight.
+pacifist       Mobile cannot be attacked.
+scholar        Mobile can teach languages.
+secretive      Mobile will not echo acts. MOBs actions are invisible.
+mobinvis       Mobile is invisible to both pc's and non pc's.
+noattack       Mobile won't use any physical attacks.
+autonomous     Mobile won't switch tanks if hit by someone with higher style.
+pet            Mobile can be used in creating a petshop.
+&Y--------------&W|&Y--------------------------------------------------------&W
+~
+End
+
+#HELP
+KeywordItalian advancedexits~
+KeywordEnglish advancedexits~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+SMAUG supports having more than one exit in the same direction, as well as
+the special direction 'somewhere', represented by a '?'.
+
+If you already have an exit leading north, and would like another one, use
+a plus sign '+' in front of the direction:
+  redit exit +n 3001          - Adds another exit north to room 3001
+
+To modify an extra exit like this, or to remove it, you'll have to refer to
+it by number:
+  redit exit #2 3002          - Change the second exit to go to room 3002
+  (to know what number an exit is, do an "rstat")
+
+For someone to be able to use the second north exit, you have to set one of
+the extra flags (see EXFLAGS) like CAN_CLIMB.  It's also usually a good idea
+to set the HIDDEN flag for any special exit so that it looks nicer to those
+with autoexits on.
+
+The AUTO flag makes it possible to go in a direction by simply typing the
+keyword for that exit:
+  redit exit ? 3001           - Create a 'somewhere' exit to 3001
+  redit exflags ? auto hidden - Set the proper flags
+  redit exname ? swim         - Set the keyword "swim"
+  ... here, if a player types 'swim' in the room they will move to room 3001
+~
+End
+
+#HELP
+KeywordItalian affectedby affected_by~
+KeywordEnglish affectedby affected_by~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The following are affect flags that can be used when osetting an item
+(with oset <item> affect affected <affect flag>).  These flags can also
+be used when msetting a mobile (mset <mob name> affected <affect flag>).
+They may additionally be used to mset players if your level allows it.
+
+Blind          Invisible    Detect_evil  Detect_invis  Detect_magic
+Detect_hidden  **Hold**     Sanctuary    Faerie_fire   Infrared
+Curse          **Flaming**  Poison       Protect       Paralysis
+Sneak          Hide         Sleep        Charm         Flying
+Pass_door      Floating     Truesight    Detect_traps  Scrying
+Fireshield     Shockshield  Iceshield    Aqua_breath   Possess
+
+Note - Hold and Flaming are current not in use.
+~
+ToSee          oset affecttypes~
+End
+
+#HELP
+KeywordItalian affecttypes applytypes~
+KeywordEnglish affecttypes applytypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+none        strength    dexterity   intelligence  wisdom       constitution
+sex         level       age         height        weight       mana
+hit         move        gold        experience    armor        hitroll
+damroll     save_para   save_rod    save_poison   save_breath  save_spell
+charisma    resistant   immune      susceptible   affected     luck
+backstab    pick        track       steal         sneak        hide
+detrap      dodge       peek        scan          gouge        search
+mount       disarm      kick        parry         bash         stun
+punch       climb       grip        scribe        brew
+
+Additionally:
+weaponspell <sn>    Will cast a spell on victim with every blow of a weapon
+wearspell   <sn>    Will cast a spell on wearer when object is worn
+removespell <sn>    Will cast a spell on wearer when object is removed
+<skill> <modifier>  Will modifify a player's ability in a skill
+~
+ToSee          affectedby~
+End
+
+#HELP
+KeywordItalian alignment align zapping~
+KeywordEnglish alignment align zapping~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Your alignment can range from +1000 to -1000. When you are +1000 this
+means that you are good aligned, when you are -1000 this means you are
+evil aligned, and when you are 0 aligned this means you are neutral.
+You can change your alignment by killing good or evil aligned mobs.
+This will raise or lower your alignment.
+
+The different alignments will allow you to wear different pieces of
+equipment. If you are good aligned and try to wear a piece of equipment
+which is antigood, you will be zapped, which means the piece of eq will
+fall to the ground. The same occurs when you are evil and you try to
+wear an antievil piece of eq, or if you are neutral and try to wear
+an antineutral piece of eq. You can also be zapped during battle if you
+are fighting a mob opposite of your align.
+
+You can find out what your alignment is by typing SCORE.
+~
+End
+
+#HELP
+KeywordItalian allow ban warn~
+KeywordEnglish allow ban warn~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tallow  &gsite&w/&grace&w/&gclass&w    <&gaddress&w/&grace&w/&gclass&w>
+&YSintassi&w:  °Tban    &gsite&w/&grace&w/&gclass&w    <&gaddress&w/&grace&w/&gclass&w>   <&gtype&w>   <&gduration&w>
+&YSintassi&w:  °Tban    &gshow&w               <&gclass&w/&gsite&w/&grace&w>      <&gnumber&w>
+&YSintassi&w:  °Twarn   <&gsite&w/&gclass&w/&grace&w>  <&gnumber&w>
+
+Seeking to ban a site above level 1 should be an extremely rare situation. One
+in which the actions of one or more key persons from a site are deemed to be
+a detriment to the enjoyment of a large portion of the players in the game.
+Such person(s) are generally deemed to be beyond rehabilitation at this time.
+
+All site bans above level one should be set at level 50 or higher. It should be
+a rare instance in which a site is banned at some in between level. Only in the
+direst of instances would a site be banned above level 50, as this will affect
+immortal level players as well.
+
+°Fban site will ban a site from playing the game.
+°Fban race bans anyone with that race from playing the game.
+°Fban class bans anyone with that class from playing the game.
+°Fban site/race/class without any other arguemts will give you a list of
+currently banned sites/races/classes.
+Type can either be a level or one of the following keywords: all,newbie,mortal,
+warn. If you set it to a level everyone equal to that level and below will not
+be allowed on.  °Fwarn, sends a warning to the Warn: channel that someone if
+logging in from the site, with a certaing class or race.  If you add the
+duration, the ban will expire in that many days. Sites can be banned with the *
+wildcard as well.  Be carefull however as *.edu would ban everysite from .edu,
+or *foo* would ban anysite that had the string foo in it.
+°Fban show, will print out the reason why that particular site/race or class was
+banned and by who.  Number can be a class or race name, a site address or
+you can use # followed by the ban number.
+°Fwarn will toggle the warn flag on a CURRENTLY banned site/class or race.
+
+°Fallow site/race/class  <address/race/class>  removes a site, class or race from
+the ban list.  This also can be allowed by using # syntax.
+~
+End
+
+#HELP
+KeywordItalian advance~
+KeywordEnglish advance~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tadvance <&gcharacter&w> <&glevel&w>
+
+°Fadvance sets a character's level to the specified value.  It is the
+only way to create new immortal characters within the game.  °Fadvance
+may also be used to demote characters.
+~
+End
+
+#HELP
+KeywordItalian armorclass~
+KeywordEnglish armorclass~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&gThere are two values used with armor class for object type Armor:
+
+&GValue0: Variable amount based on level of item at repop.
+Value1: Maximum repairable armor setting for the object.
+
+&gSetting Value0 has no effect. It will re-adjust itself on repop based on
+the repop level of the item. Setting Value1 below the expected repop value
+for Value0 will result in an item that cannot be repaired until Value0 drops
+below Value1's setting. The listing below gives you a rough approximation of
+the values returned for Value0 based on level:
+
+&GLevel Invoked   Value0   Level Invoked   Value0   Level Invoked   Value0
+-------------   ------   -------------   ------   -------------   ------
+      1           1-3         10           3-5         20           6-8
+     30           8-10        40          11-13        50          13-15
+
+&gThe amount that Value0 is set to determines the amount the player's A.C. will
+be adjusted. Different wear locations have a different multiplying affect:
+
+&G0 X Value0: Wield, Ears.
+1 X Value0: Arms,  Finger, Neck, Feet, Hands, Shield, Waist, Wrist, Hold, Eyes.
+2 X Value0: Head,  Legs,   About.
+3 X Value0: Body.
+~
+ToSee          oset affecttypes wearflags objectflags abjecttypes itemvalues weapontypes variables omenu~
+End
+
+#HELP
+KeywordItalian aset~
+KeywordEnglish aset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Taset <&garea filename&w> <&gfield&w> <&gvalue&w>
+
+°Faset is used to set the following fields for an individual area:
+author    - The name of the area's author
+name      - The full "name" of an area... ie: {10 20} Somegod  Some Area
+filename  - The filename (ie: somearea.are)
+lo_room   - The lowest room vnum
+hi_room   - The highest room vnum
+lo_obj    - The lowest obj vnum
+hi_obj    - The highest obj vnum
+lo_mob    - The lowest mob vnum
+hi_mob    - The highest mob vnum
+low_economy - minumum amount of gold the area will start with at reboot
+max_economy - maximum amount of gold the area _can_ start with at reboot
+resetmsg  - Message displayed throughout the area at reset
+resetfrq  - Number of minutes between area resets
+flags     - Area-wide flags:  nopkill
+
+The area must be folded to make these changes permanent.
+~
+End
+
+#HELP
+KeywordItalian astat~
+KeywordEnglish astat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tastat                      (area stats for the area you are in)
+&YSintassi&w:  °Tastat <&gfilename of area&w>   (area stats for specified area)
+
+°Fastat displays the vital stats of an area, including the following:
+Name:            title of the area
+Filename:        filename of the area
+Prototype:       If the area is prototype or under construction, will be 'yes'
+Max_players:     max # of players in the area as of last reboot
+IllegalPks:      number of illegal pkills in the area since last reboot
+Gold looted:     total amount of gold looted from the area since last reboot
+Area Economy:    current pool of gold for the area (not including player gold)
+Mdeaths:         number of players mobs killed in the area since last reboot
+Mkills:          number of mobs killed in the area since last reboot
+Pdeaths/Pkills:  number of players killed by players in area since reboot
+Author:          name of the area's author
+Number Players:  current number of players in the area
+Area flags:      area-wide flags (such as nopkill)
+Low/hi_room:     first/last room vnum of the area
+Low/hi_obj       first/last object vnum of the area
+Low/hi_mob       first/last mob vnum of the area
+Soft range:      level range recommended for the area
+Hard range:      level range enforced for area (outside range cannot enter)
+Resetmsg:        current reset message for the area at repop
+Reset frequency: frequency with which the area resets
+~
+ToSee          aset~
+End
+
+#HELP
+KeywordItalian at~
+KeywordEnglish at~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tat <&glocation&w> <&gcommand&w>
+           °Tat &gobj&w <&gobject&w> <&gcommand&w>
+(RR) da completare la sintassi
+
+°Fat executes the given command (which may have arguments) at the given
+location.  The location may be specified as a vnum, as the name of
+a mobile or player.
+
+°Fat works by temporarily moving you to that location, executing the
+command, and then moving you back (if the command didn't change your
+location).
+~
+End
+
+#HELP
+KeywordItalian attacks~
+KeywordEnglish attacks~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+bite          claws        tail        sting      punch        kick
+trip          bash         stun        gouge      backstab     feed
+drain         firebreath   frostbreath acidbreath lightnbreath gasbreath
+poison        nastypoison  gaze        blindness  causeserious earthquake
+causecritical curse        flamestrike harm       fireball     colorspray
+weaken
+
+(Some are not implemented).
+~
+ToSee          mset defenses~
+End
+
+#HELP
+KeywordItalian auctionstop~
+KeywordEnglish auctionstop~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w: <&gauctionstop&w>
+
+Auctionstop is to be used to halt the auctioning of illegal items, ie:
+deadly equipment, order/clan/guild items. Auctions are NOT to be
+stopped for overbidding, misbidding, or misauctioning.
+  Other items the auction can be stopped for are balls of light and
+recall scrolls if sold alone. If they are inside a container with other
+items, they may be auctioned.
+~
+End
+
+#HELP
+KeywordItalian 'ban duration'~
+KeywordEnglish 'ban duration'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The standard set for ban durations are as follows:
+
+Newbie Ban:          1) One week on first instance.
+                     2) Two weeks for the second.
+                     3) One month at newbie, or level 50 for third.
+                     4) Permanent at newbie, or level 50 for 4th offense.
+
+Bans for level 2-50: 1) One month for first instance.
+                     2) Two months, or permanent for 2nd.
+                     3) Permanent for 3rd offense.
+
+All bans above level 50 should be permanent by their very nature.
+
+&WReminder - Without documenting each time we ban a site, we will have no
+           source of history on sites. Always remember to post a note
+           detailing the reasons for the ban.&w
+~
+ToSee          ban 'ban allow' 'ban newbie' 'ban 50'~
+End
+
+#HELP
+KeywordItalian 'ban newbie'~
+KeywordEnglish 'ban newbie'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Banning a site is a form of last resort, as it not only affects the offending
+player or players, but will also affect every other player from that site.
+Before seeking to ban a site, even for a temporary level 1 banning, make
+sure you have exhausted all other options first.
+
+In the case of newbie bans, most such instances arise through the actions of
+one or more abusive players who log in a newbie and begin swearing, spamming,
+threatening, etc.. Many times this has developed from an immature player's
+frustrations over getting a name authed. If you find a player going through a
+series of silly names trying to auth them, make every effort to try and talk
+with them first. If this fails, use Fquit to discourage them. If you have
+Disconnect, use this instead, as it is less provoking than fquit (makes it
+appear as if they simply lost their conneection). If they continue their
+efforts, send them warnings to get their attention. Use freeze if you have it
+(or if someone else is on who can use it) to get their attention and make sure
+received the message. Then, and only then, once you've exhausted all avenues
+at being civil, you can use ban in good conscience. You've given the player(s)
+every chance to cease their actions and given them fair warning over the fact
+that if they continue they risk getting banned.
+~
+ToSee          ban 'ban allow' 'ban duration' 'ban 50'~
+End
+
+#HELP
+KeywordItalian barenum baresize~
+KeywordEnglish barenum baresize~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmset <&gmob&w> &gbarenum&w <&gnumber&w>
+           °Tmset <&gmob&w> &gbaresize&w <&gnum&w>
+
+These mob fields control the mobs ability to fight without weapons.
+Barenum is the low end of the damage done and baresize is the multiplier.
+For example: barenum 10 and baresize 5 would have the effect of allowing
+the mob to hit barehanded for 10-50 damage.
+
+* This field also affects experience gained.
+Experience is calculated as follows:
+^level 3*5 + max_hit +barenum *baresize +damroll * 50
++hitroll *ch -> level *10
+~
+End
+
+#HELP
+KeywordItalian bodybag~
+KeywordEnglish bodybag~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tbodybag <&gname&w> <&gbag&w/&gyes&w>
+           °Tbodybag <&gname&w> will show the status of the corpse.
+
+°Fbodybag gets all of <character's> corpses and puts them in your inventory
+to do with as you wish.
+
+If you find yourself getting the wrong corpse, post a bug report immediately!
+~
+ToSee          timer~
+End
+
+#HELP
+KeywordItalian bset bstat~
+KeywordEnglish bset bstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tbset <&gboard filename&w> <&gfield&w> <&gvalue&w>
+&YSintassi&w:  °Tbstat <&gboard filename&w> (same room as board needs no args)
+
+°Fbstat will show the current setting for the statted board.
+
+°bset will set new values for a given board.
+Correct FIELD values for Bset are:
+  ovnum, read, post, remove, maxpost, filename, and type
+  read_group, post_group, extra_readers, and extra_removers
+  All boards will be type 1, except Nerif's mail board (type 2).
+Action FIELD values include:
+  oremove, otake, oread, ocopy, opost, and postmessg
+  These should be followed by the message to be sent to those
+  who are at the board, but not performing the action (similar
+  to mpechoaround). Postmessg is the only message that will be
+  seen by the actor of a Bset action value.
+~
+End
+
+#HELP
+KeywordItalian cshow~
+KeywordEnglish cshow~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tcshow <&gcommand&w>
+
+Displays current statistics on a command.
+~
+ToSee          restrict~
+End
+
+#HELP
+KeywordItalian checkvnum checkvnums~
+KeywordEnglish checkvnum checkvnums~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tcheckvnums <&gfield&w> <&gstart vnum&w> <&gend vnum&w>
+
+Checkvnums will allow you to view if any areas conflict with a set
+of vnums that you need.
+Correct FIELD values include Mob, Object, Room, or All (all three fields).
+Starting and ending vnums should not be more than 5k from each other
+as you might spam yourself out :)
+~
+ToSee          aassign massign oassign freevnums freevnums2~
+End
+
+#HELP
+KeywordItalian climate~
+KeywordEnglish climate~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tclimate <&gfield&w> <&gname&w>
+
+This command allows you to view or modify the climate
+settings for an area. There are settings for temperature,
+precipitation, and wind. In addition, you may specify
+neighboring areas who will affect changes in the current
+areas weather. Therefore there are four fields to choose
+from. Each field has a different range of values available.
+
+Field name:           Values:
+temp                  cold, cool, normal, warm, hot
+precip                arid, dry, normal, damp, wet
+wind                  still, calm, normal, breezy, windy
+neighbor              <area name>
+
+Specifying an area name with neighbor which is already on
+the list will remove it. Using climate without any arguments
+will display the area's current setting. Note that this
+command always refers to the area which you are currently in.
+~
+End
+
+#HELP
+KeywordItalian cmdtable~
+KeywordEnglish cmdtable~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tcmdtable
+
+Lists all of the commands in the game, and how many times they have been used
+since the last startup.
+~
+End
+
+#HELP
+KeywordItalian colorize~
+KeywordEnglish colorize~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tcolorize
+&YSintassi&w:  °Tcolorize [<&glocation&w> <&gcolor&w>]
+
+&gLocation&w:  Without any arguments will list your current
+settings.  Otherwise specify the location you want to change.
+
+&gColor&w:  This can be the name of the color you want or default
+which will set it to the current color in the mud scheme for that
+location.
+~
+End
+
+#HELP
+KeywordItalian container_flags~
+KeywordEnglish container_flags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Container flag values:
+     Closeable = 1
+     Pickproof = 2
+     Closed    = 4
+     Locked    = 8
+~
+End
+
+#HELP
+KeywordItalian controls~
+KeywordEnglish controls~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Cset is used to set the system's 'control panel' settings.
+&YSintassi&w:  °Tcset <&gfield&w> <&glevel&w>
+
+Fields:    save - saves the control panel settings
+           dodge_mod - divide dodge chance (% learned) by this (default 2)
+           parry_mod - same as above, for parry                (default 2)
+           tumble_mod - same as above, for tumble              (default 4)
+           stun - sets normal (mob vs. player / player vs. mob) stun modifier
+           stun_pvp - as above, for player vs. player
+           bash_pvp - bash modifier player versus player
+           bash_nontank - modifier if basher is not tanking the victim
+           gouge_pvp - gouge modifier player versus player
+           gouge_nontank - gouge modifier if gouger is not tanking the victim
+           dam_pvp - percentage adjustment for player vs. player fighting
+           dam_pvm - as above, for player vs. mob
+           dam_mvp - as above, for mob vs. player
+           dam_mvm - as above, for mob vs. mob
+           get_notake - level to pick up notake flagged items
+           read_all - level to read all mail
+           read_free - level to read mail for free
+           write_free - level to write mail for free (no items necessary)
+           take_all - level to take all mail
+           muse - level to see/use muse channel
+           think - level to see/use think channel
+           log - level to see log channel
+           build - level to see build channel
+           proto_modify - level to modify prototype objects
+           mset_player - level to allow mset to operate on a player
+           override_private - level to override private/solitary rooms
+           forcepc - level to force pc's
+           guild_overseer - name of the Overseer of Guilds
+           guild_advisor - name of the Advisor to Guilds
+           saveflag - flags/actions on which to save a pfile (drop, give, get,
+                      receive, auction, zap, death, auction, auto, password)
+           imc_vnum - vnum for imc board
+           ban_site_level -  level able to ban sites
+           ban_class_level - level able to ban classes
+           ban_race_level -  level able to ban races
+           bestow_dif - max lvl dif between bestowed cmd level and char lvl
+           checkimmhost - imm host checking on or off
+~
+End
+
+#HELP
+KeywordItalian cset~
+KeywordEnglish cset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Cset is used to set the system's 'control panel' settings.
+&YSintassi&w:  °Tcset <&gfield&w> <&glevel&w>
+
+Fields:    save - saves the control panel settings
+           dodge_mod - divide dodge chance (% learned) by this (default 2)
+           parry_mod - same as above, for parry                (default 2)
+           tumble_mod - same as above, for tumble              (default 4)
+           stun - sets normal (mob vs. player / player vs. mob) stun modifier
+           stun_pvp - as above, for player vs. player
+           bash_pvp - bash modifier player versus player
+           bash_nontank - modifier if basher is not tanking the victim
+           gouge_pvp - gouge modifier player versus player
+           gouge_nontank - gouge modifier if gouger is not tanking the victim
+           dam_pvp - percentage adjustment for player vs. player fighting
+           dam_pvm - as above, for player vs. mob
+           dam_mvp - as above, for mob vs. player
+           dam_mvm - as above, for mob vs. mob
+           get_notake - level to pick up notake flagged items
+           read_all - level to read all mail
+           read_free - level to read mail for free
+           write_free - level to write mail for free (no items necessary)
+           take_all - level to take all mail
+           muse - level to see/use muse channel
+           think - level to see/use think channel
+           log - level to see log channel
+           build - level to see build channel
+           proto_modify - level to modify prototype objects
+           mset_player - level to allow mset to operate on a player
+           override_private - level to override private/solitary rooms
+           forcepc - level to force pc's
+           guild_overseer - name of the Overseer of Guilds
+           guild_advisor - name of the Advisor to Guilds
+           saveflag - flags/actions on which to save a pfile (drop, give, get,
+                   receive, auction, zap, death, auction, auto, password)
+
+           WebServer options (if enabled in Makefile):
+           WebServer  - Enables/Disables the usage of the Telnet Interface
+           WebPort    - Sets the Port that the Telnet Interface will be on
+           WebCounter - Turns On/Off logging from the Telnet Interface
+~
+End
+
+#HELP
+KeywordItalian damplus~
+KeywordEnglish damplus~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+For those unsure of what damplus is, it is part of the damage
+equasion for a mob... ie:  10d6 + 10   (the +10 is the damplus)
+This "damplus" is always added, whether or not the mob is barehanded or
+wielding a weapon.   This is basically the mob's damroll.
+~
+End
+
+#HELP
+KeywordItalian damtypes acttypes classtypes powertypes~
+KeywordEnglish damtypes acttypes classtypes powertypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+DAMAGE          ACTION       CLASS         POWER       SAVES
+none            none         none          none        none
+fire            create       lunar         minor       poison_death
+cold            destroy      solar         greater     wands
+electricity     resist       travel        major       para_petri
+energy          suscept      summon                    breath
+acid            divinate     life                      spell_staff
+poison          obscure      death
+drain           change       illusion
+~
+End
+
+#HELP
+KeywordItalian defenses~
+KeywordEnglish defenses~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+parry        dodge      heal       curelight   cureserious   curecritical
+dispelmagic  dispelevil sanctuary  fireshield  shockshield   shield
+bless        stoneskin  teleport   monsum1     monsum2       monsum3
+monsum4      disarm
+
+(Some are not implemented).
+~
+ToSee          mset attacks~
+End
+
+#HELP
+KeywordItalian deityfields deityfield~
+KeywordEnglish deityfields deityfield~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Alignment     Deities alignment.  Followers lose favor for all actions when
+                  650 or more out of alignment.
+Worshippers   # of followers.
+Npcrace       A mob race protected by the deity.  The _npcrace fields only apply
+                  to this race.
+Npcfoe        A mob race detested by the deity.  The _npcfoe fields only apply
+                  to this race.
+Race          A race the deity is restricted to.
+Class         A class the deity is restricted to.
+Sex           A sex the deity only accepts.
+Element       Resistance deity bestows on followers.
+Suscept       Susceptible deity bestows on followers.
+Affected      Spell deity bestows on followers.
+Object        Vnum of deity object
+Avatar        Vnum of deity avatar
+Scorpse,
+Savatar,
+Sdeityobj,
+Srecall       Prices (in favor) to supplicate for these for a particular deity.
+Flee,
+Flee_npcrace,
+Flee_npcfoe   Favor adjustment made when fleeing
+Kill,
+Kill_npcrace,
+kill_npcfoe   Favor adjustment made when you kill something
+Kill_magic    Favor adjustment for each offensive spell cast
+Sac           Favor adjustment for sacrificing a corpse
+Bury_corpse,
+Dig_corpse    Favor adjustments for burying/digging up corpses.
+Aid_spell     Favor adjustment for helping someone with a spell
+Aid           Favor adjustment for aiding someone physically (aid, rescue)
+Steal         Favor adjustment for theft
+Backstab      Favor adjustment for circling and backstabbing
+Die,
+Die_npcrace,
+Die_npcfoe    Favor adjustment for dying
+Spell_Aid     Favor adjustment for having a help spell cast upon you.
+~
+End
+
+#HELP
+KeywordItalian delay~
+KeywordEnglish delay~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tdelay <&gvictim&w> <&grounds&w>
+
+This command will allow an immortal to "pause" a player. All commands
+received by the mud from that player will be delayed by the number of
+round determined by the delaying immortal. After the rounds have
+elapsed, anything input by the victim during the delay will take affect
+on the mud.
+NOTE: Mobiles cannot be delayed.
+~
+End
+
+#HELP
+KeywordItalian deny disconnect freeze~
+KeywordEnglish deny disconnect freeze~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tdeny       <&gcharacter&w>
+&YSintassi&w:  °Tdisconnect <&gcharacter&w>
+&YSintassi&w:  °Tfreeze     <&gcharacter&w>
+
+°Fdeny denies access to a particular player and throws them out of the game.
+°Fdeny persists past reboots and crashes and can only be undone by either loading
+up the character and doing a 'mset <character name> flags deny', or by editing
+the player file offline.
+
+°Fdisconnect <&gcharacter&w> immediately disconnects that character.
+
+°Ffreeze <&gcharacter&w> is a toggle which prevents a character from issuing any
+commands at all.
+~
+End
+
+#HELP
+KeywordItalian destroy~
+KeywordEnglish destroy~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tdestroy <&gtarget&w>
+
+The °Tdestroy command does exactly as it suggests: destroys player files.
+Caution, the command destroys the pfile in use, leaving only the backup of the
+pfile, if there is one.
+~
+End
+
+#HELP
+KeywordItalian diagnose~
+KeywordEnglish diagnose~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tdiagnose &gof 20&w
+
+Diagnose of n - object frequency of top "n" objects.  The above example will
+return the 20 most numerous object vnums in the game at that time.
+~
+End
+
+#HELP
+KeywordItalian diceformulas~
+KeywordEnglish diceformulas~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+To make the special SMAUG spells possible, special dice formula handling
+had to be coded in.  (At least to make it nice).  This dice formula code
+supports full BEDMAS expressions ( ) ^^ / * + -, plus extra mud related
+operators and variables:
+
+D dice         L level          H hit points      M mana
+V movement     S strength       I intelligence    W wisdom
+X dexterity    C consitution    A charisma        U luck
+Y age
+~
+ToSee          smaugspells sset~
+End
+
+#HELP
+KeywordItalian doordirs~
+KeywordEnglish doordirs~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Here is the order of the exits, and their corresponding values:
+
+ ---------------------
+ | Direction | Value |
+ |--------------------
+ | NORTH     |   0   |
+ | EAST      |   1   |
+ | SOUTH     |   2   |
+ | WEST      |   3   |
+ | UP        |   4   |
+ | DOWN      |   5   |
+ | NORTHEAST |   6   |
+ | NORTHWEST |   7   |
+ | SOUTHEAST |   8   |
+ | SOUTHWEST |   9   |
+ | SOMEWHERE |  10   |
+ ---------------------
+~
+ToSee          redit rstat resetcmds~
+End
+
+#HELP
+KeywordItalian echo recho aecho gecho~
+KeywordEnglish echo recho aecho gecho~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Techo  <&gnomepg&w> <&gmsg&w>
+&YSintassi&w:  °Trecho <&gnomepg&w> <&gmsg&w>
+&YSintassi&w:  °Taecho <&gnomepg&w> <&gmsg&w>
+&YSintassi&w:  °Tgecho <&gmsg&w>
+
+Echo semplice:
+°Techo <&gnomepg&w> <&gmsg&w>
+Invia un echo che viene visto solo dal personaggio "nomepg".
+
+Recho, room echo:
+°Trecho <&gnomepg&w> <&gmsg&w>
+Invia un messaggio nella stanza di "nomepg", tutti coloro che si trovano
+nella stanza di quel pg lo leggeranno.
+
+Aecho, area echo:
+°Taecho <&gnomepg&w> <&gmsg&w>
+Invia un echo che sarà letto da tutti i pg che si trovano nella stessa area
+di "nomepg".
+
+Gecho, global echo:
+°Tgecho <&gmsg&w>
+Invia un messaggio a tutto il Mud.
+
+Il colore del messaggio è uguale a quello del resetmessage nelle aree, così
+da renderlo più "mimetico".
+Ovvio che si può cambiare con altri colori, i soliti (°Thelp &gcolor&w)
+
+Tra le opzioni di °Tconfig per admin ora c'è l'opzione &gechoin&w, essa se attivata
+permette di utilizzare i comandi recho e aecho senza bisogno di digitare il nome
+della vittima, in pratica usano come bersaglio voi stessi, quindi la sintassi
+sarà:
+°Trecho <&gmsg&w>
+°Taecho <&gmsg&w>
+un po' come, senza l'echoin attivo, voi aveste digitato:
+°Trecho <&gnomevostro&w> <&gmsg&w>
+°Taecho <&gnomevostro&w> <&gmsg&w>
+
+Occhio che tutti i comandi di echo sopra inviano un messaggio che viene anche
+letto da chi dorme.
+~
+End
+
+#HELP
+KeywordItalian economy~
+KeywordEnglish economy~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Each area will initialize (on bootup of the mud) with a pool of gold based on
+the area's range and the wealth of each mob in that area.
+
+The shopkeepers and thieves will automatically deposit gold into the economy if
+they are carrying more than a certain amount (the higher the level of the
+shopkeeper, the greater they will carry before depositing).
+
+To allow mobprogs to be created to manipulate area economies, making them
+interactive and interdependent, there are two mpcommands:  mpdeposit, and
+mpwithdraw (see related helpfiles).  There is also an 'if economy' ifcheck.
+
+The aset command can also be used to adjust an area's economy by hand
+(example:  °Taset <&garea filename&w> &glow_economy&w <&gamount&w>, this will give the
+specified area a minimum economy at the level you set).
+
+Mobs will not repop with more gold than what they were originally created with,
+but if the area economy runs low they will begin to repop with less until the
+economy is replenished (as they all share the same gold pool).
+
+Use foldarea to make changes to an area's economy with aset permenent.
+~
+ToSee          aset foldarea~
+End
+
+#HELP
+KeywordItalian exflags~
+KeywordEnglish exflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The °Tredit &gexflags&w <&gdir&w> [&gflag&w] ... command accepts the following flags:
+
+ISDOOR       | There is a door in that direction
+CLOSED       | The door is closed
+LOCKED       | The door is locked
+SECRET       | The door is a secret door
+PICKPROOF    | Door is pickproof
+FLY          | Must be able to fly to go that way
+CLIMB        | Must be able to climb to go that way
+DIG          | Passage is blocked and must be dug out
+NOPASSDOOR   | Door is resistant to the passdoor spell
+HIDDEN       | Door is not "obvious" -- doesn't appear with autoexits
+CAN_CLIMB    | Can use the climb command to go this way
+CAN_ENTER    | Can use the enter command to go this way
+CAN_LEAVE    | Can use the leave command to go this way
+AUTO         | Keyword can be typed to go this way
+SEARCHABLE   | Searching in this direction can remove the SECRET flag
+BASHED       | Denotes a door that has succesfully been bashed open
+BASHPROOF    | Cannot bash the door
+NOMOB        | Mobs may not pass through this exit
+WINDOW       | Points to a destination, but does not allow direct access to it
+CAN_LOOK     | Allows a person to view the destination room for a WINDOW exit
+PUSHTYPE     | Players will be pushed or pulled by a type of force.
+PUSH         | Players will be pushed or pulled with a degree of force.
+~
+End
+
+#HELP
+KeywordItalian exitmaking~
+KeywordEnglish exitmaking~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The °Tredit &gexit&w command is used to create, modify and remove exits in a room.
+Currently there can only be one exit in a certain direction.
+The Sintassi of the °Tredit &gexit&w command is as follows:
+°Tredit &gexit&w <&gdirection&w> [&gvnum&w] [&gexit-type&w] [&gkey&w] [&gkeyword(s)&w]
+direction: one of: n, s, e, w, u, d, ne, nw, se, sw or ?
+vnum     : the room number in which the exit leads to.
+exit-type: a number detailing the exit -- has a door, open/closed/locked etc.
+key      : a number corresponding to a key object which can unlock the door.
+keywords : keywords used to refer to the door, (or exit).
+
+If only °Tredit &gexit&w <&gdirection&w> is specified, the exit will be removed.
+The 'key' field is optional when specifying keywords.  All other fields are
+required previous to the field desired.
+
+Examples:
+°Tredit exit n 3001           - Creates an exit north to room 3001
+°Tredit exit n 3001 3 gate    - Changes the exit north to have a closed "gate"
+°Tredit exit n 3001 3 15 gate - Changes the gate to allow use of a key vnum 15
+°Tredit exit n                - Removes the north exit
+~
+ToSee          exittypes~
+End
+
+#HELP
+KeywordItalian exittypes~
+KeywordEnglish exittypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+These are the currently valid exit-types:
+      0 - Plain exit
+      1 - Door exists         (Required to be closed or locked)
+      2 - Door is Closed
+      4 - Door is Locked
+      8 - Door is Secret      (Trying to go that way won't reveal door)
+     32 - Door is Pickproof   (Door can't be picked by spell or skill)
+     64 - Need to be able to fly to go that way
+    128 - Need to be able to climb to go that way
+   1024 - Door is Passdoor proof
+
+NOTE: You must ADD the values together to generate an exit-type:
+        3 = a closed door
+        7 = a closed and locked door
+       11 = a closed secret door
+       15 = a closed, locked and secret door
+
+-- Use the °Tredit &gexflags&w command to change these flags, and to set the
+   advanced exit flags, most of which are not shown above.
+~
+ToSee          exflags exitmaking~
+End
+
+#HELP
+KeywordItalian foldarea~
+KeywordEnglish foldarea~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tfoldarea <&garea filename&w>
+
+This command saves an area file, usually after modification.
+
+&rThis command must be used with extreme care.  If you aren't
+exactly and intimately familiar with the changes being made
+or what the command does -- don't use it.&w
+
+*NOTE*
+Area files have backups that record the file as it was prior to foldarea.
+If you folda something and realize there's a mistake, and you've only
+folded it once -- don't do anything else.  Post a note or find Blodkai.
+
+Do not fold changes into non-quest areas that are quest related.  If you
+must do this, write a note or ensure it's changed back.
+
+Any time an area is folded, document it with the fixed command.
+(check °Thelp °Tfixed)
+~
+ToSee          aset unfoldarea installarea~
+End
+
+#HELP
+KeywordItalian for~
+KeywordEnglish for~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tfor (&gargument&w) (&gcommand&w)
+&YSintassi&w:  °Tfor (&gargument&w) (&gcommand&w) (&gtarget&w)
+
+For allows an immortal to perform a command at or even on a large
+number of targets.  The arguments include:  all, mobs, gods.
+
+Example:  for gods gl, you will 'glance' in the room of every god
+who is online (include link-dead)
+
+You can also perform an action on the argument target.
+Example:  for mobs poke #, you will perform the 'poke' social on
+every mob in the game.
+
+°Ffor' does not override private flags.
+~
+End
+
+#HELP
+KeywordItalian force~
+KeywordEnglish force~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tforce <&gcharacter&w> <&gcommand&w>
+&YSintassi&w:  °Tforce &gall&w <&gcommand&w>
+
+°Fforce forces one character or mob to execute a command.
+
+°Fforce <&gall&w forces all player characters to execute a command.
+This is typically used for 'force all save'.
+
+Force is restricted to mob use only until level 57.
+  *Note.. NEVER force a mob to drop eq and give to a player... lest God
+   smite thee down in your very tracks.
+~
+End
+
+#HELP
+KeywordItalian forceclose~
+KeywordEnglish forceclose~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tforceclose <&gdescriptor&w>
+
+This command will force a certain descriptor to close.
+This is useful to disconnect connections that aren't really connected
+due to a poor TCP connection.
+
+It can also be used to forceclose a connection before a potential
+problem player can even get to the authorization state of connection.
+~
+ToSee          users constates disconnect~
+End
+
+#HELP
+KeywordItalian formpass formpassword~
+KeywordEnglish formpass formpassword~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tformpass <&gplayer&w> <&gnew password&w>
+
+This command allows you to change a user's password if necessary.
+It should ordinarily only be used if the player is requesting this
+help for some reason. Though it can also be used as a form of
+disciplinary action against particularly nasty players. The command
+informs the player of the password change if they are online at the
+time.
+
+If the target character is offline, then they will need to have
+their pfile loaded into the game using the 'loadup' command first.
+~
+ToSee          loadup password~
+End
+
+#HELP
+KeywordItalian fshow~
+KeywordEnglish fshow~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tfshow <&gmoblog&w|&gplevel&w>
+
+The °Tfshow command when used with the &gmoblog&w variable, displays the current log
+of &gmplog&w. When °Tfshow is used with the &gplevel&w variable, it will display the
+current log of all character levels that have occurred since the last reboot.
+~
+End
+
+#HELP
+KeywordItalian gfighting~
+KeywordEnglish gfighting~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tgfighting
+           °Tgfighting <&glow&w> <&ghigh&w>
+           °Tgfighting <&glow&w> <&ghigh&w> &gmobs&w
+
+The °Tgfighting command does a global search for the fighting targets specified,
+where <&glow&w> <&ghigh&w> indicates the target's level.
+
+Example:  gfighting 1 5
+would display a list of PCs levels one through five that are fighting, who they
+are fighting and their level, what vnum/room name they are fighting in, and the
+name of the area they are fighting in. By adding the 'mobs' variable, the
+command would display the same information for mobs of the levels specified.
+~
+End
+
+#HELP
+KeywordItalian gloryimm~
+KeywordEnglish gloryimm~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Somethings to keep in mind when giving/taking Glory:
+
+  - Glory is UNtradable between mortals.  (Please do not facilitate trades of
+         Glory between mortals.
+  - It is allowed for a player to use his Glory to affect items for another
+         player.
+  - Currently, appropriate prizes to be awarded for quests are as follows:
+
+  Avatar quests (lvl 40+):
+         Suggested Maximum:  50 Glory  (For playing an integral part)
+         Suggested Minimum:   5 Glory  (For making a notable effort)
+    - Then Glory of appropriate amounts (use your judgement) can be given out
+         for intermediate efforts between winning and participating.
+
+  NOTE:  Being integral doesn't neccessarily mean landing the killing blow on
+         the supermob, it might also mean the person who solved the riddle
+         leading to the mob (if it was a difficult riddle).
+  NOTE:  Prizes should be scaled up or down to reflect the difficulty and
+         participation of the quest.  For example a difficult quest would be
+         one that takes more than 2 hours to complete.
+
+  Non-Avatar quests (lvl < 40):
+         Suggested Maximum:  35 Glory  (For an integral part)
+         Suggested Minimum:   5 Glory  (For a notable effort)
+~
+ToSee          gloryimm2 qpset glory 'glory rates'~
+End
+
+#HELP
+KeywordItalian gloryimm2~
+KeywordEnglish gloryimm2~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+     Glory does not neccessarily have to be the only prize given out.  In fact
+     for the lower level quests it is preferred if a combination of Glory and
+     minorly affected/renamed objects are given out as prizes.  i.e. a weapon
+     renamed to something related to the quest that has a couple +1's or +2's
+     on it (that will be useful for a couple levels, but then discarded).
+
+     NOTE:  It is suggested for Guild and Order quests that the prizes be
+            scaled down slightly as participation is limited from the entire
+            mud - and open exclusively to guild/order members.  The quests they
+            recieve from the guild/order are supplemental to the mud-wide ones
+            they can participate in.
+
+
+     DISCLAIMER:  These numbers are not set in stone, they are guidelines.  The
+                  QC is counting on the good judgement of the immortals to
+                  make sure the prizes they are giving out are appropriate.
+                  The QC reserves the right to change the guidelines as well
+                  the right to set them in stone if we find it is being abused.
+~
+ToSee          gloryimm glory 'glory rates' qpset~
+End
+
+#HELP
+KeywordItalian goto~
+KeywordEnglish goto~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tgoto <&glocation&w>
+
+°Fgoto takes you to a location.  The location may be specified as a vnum,
+as the name of a mobile, or as the name of an object.
+
+If the location is a vnum, and it does not already exist, and it is within
+your room vnum range; it shall be created for your to edit further with
+REDIT.
+
+You may not GOTO a room if it is PRIVATE and has two (or more) characters
+already present, or if it is SOLITARY and has one (or more) characters
+already present.
+
+You may also "GOTO pk" to go to the site of the most recent illegal pkill.
+~
+ToSee          redit~
+End
+
+#HELP
+KeywordItalian gwhere~
+KeywordEnglish gwhere~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tgwhere
+           °Tgwhere <&glow&g> <&ghigh&g>
+           °Tgwhere <&glow&g> <&ghigh&g> &gmobs&g
+
+The °Tgwhere command displays a global location list of the targets specified;
+name of target and level, vnum/name of room, and name of area are all displayed,
+where <&glow&w><&ghigh&w> indicates the level of the players or MOBs.
+If level criterias are note defined, all will be displayed.
+~
+ToSee          gfighting~
+End
+
+#HELP
+KeywordItalian hell unhell~
+KeywordEnglish hell unhell~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Thell <&gcharacter&w> <&gnumber&w> <&ghours or days&w>
+&YSintassi&w:  °Tunhell <&gcharacter&w>
+
+The °Thell command sends a character to hell for a given period of time.  It
+automatically releases the character when their time has been served.  Upon
+being helled, the character receives the message, "The immortals are not
+pleased with your actions.  You shall remain in hell for <time period>".
+
+Hell takes arguments of either hours or days.  To hell someone for 3 hours,
+"hell <character> 3 hours".  To hell someone for three days, "hell <character>
+3 days".  Hell will default to hours if hours or days is not specified.
+
+You may not hell someone for more than thirty days with the hell command.
+
+To release a player from hell, simply °Tunhell <&gcharacter&w>.
+~
+End
+
+#HELP
+KeywordItalian hitall~
+KeywordEnglish hitall~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Thitall
+
+°Fhitall is a fighter skill that will start a fight by hitting all the
+opponents in the room.  For nondeadly characters, the 'opponents' means
+mobs, for deadlies it means all the deadly players in the room.
+
+Be aware that area attacks are aggressive to all mobs in the room,
+including pets, mounts and charmed creatures.
+~
+End
+
+#HELP
+KeywordItalian admingsight~
+KeywordEnglish admingsight~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tconfig +admingsight
+
+°Fholylight is a toggle that allows you to see (almost) every character and
+mobile in the game.  With holy light, you can see what's in the game more
+easily.  Without holy light, you can see what mortal players see.
+
+°Finvis is a toggle which makes you completely invisible to all player characters
+of lower level than you, and to all mobiles.
+
+When an immortal is °Tinvis, they will have a flag on the who list which
+indicates their level of invisibility, such as (51) for °Tinvis 51.  A
+similar flag will also appear when you &glook&w in a room - this flag will
+say (Invis 51).
+
+°Fholylight will not allow you to see immortal °Tinvis characters who are
+higher level than you.
+~
+End
+
+#HELP
+KeywordItalian life~
+KeywordEnglish life~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+All classes begin with 20 hp at creation and gain between 6 and 19 hp per
+gained level, depending on class, race and CON.
+Equipment can also add to your total hp.
+~
+End
+
+#HELP
+KeywordItalian imm~
+KeywordEnglish imm~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+This immortal list of rules and regulations is currently under construction.
+
+The helpfiles that are available are:
+
+°Thelp &gimmrules&w
+°Thelp &gimm invis&w          °Thelp &gimm echo&w          °Thelp &gimm recho&w
+°Thelp &gimm auth&w           °Thelp &gimm forceclose&w    °Thelp &gimm force&w
+°Thelp &gimm snoop&w          °Thelp &gimm freeze&w        °Thelp &gimm bodybag&w
+
+°Thelp &gimmortal&w           °Thelp &gcreator&w           °Thelp &gsavior&w
+°Thelp &gdemi god&w           °Thelp &glesser god&w
+~
+End
+
+#HELP
+KeywordItalian 'imm bodybag' 'imm cr'~
+KeywordEnglish 'imm bodybag' 'imm cr'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Tbodybag && CR
+
+- You are never required to do a CR for a mortal.
+- If you do perform an Immortal CR, you are required to take at least one
+  item as charge, this item should be one of the best items the player has.
+  ** The only exceptions are a CR for a person under level 10 or if you are
+  ** running a quest, and the player died in that quest or you have the
+  ** approval from a Council of Elders member.  These qualify for a free CR.
+- You may never give free CRs to your friends or for your own mortals.
+- You may choose more then one item or gold for a CR, but _must_ inform the
+  player of your intent prior to bodybagging them.
+- You are never allowed to do a cr for a deadly character.
+- Corpses should be at least "crawling with vermin" prior to receiving an
+  Immortal CR, i.e. a corpse timer of less then 20.
+
+You may never CR for your own mortal unless _all_ the following apply:
+   - There is no other Immortal online to do it for you.
+   - You have tried to get your corpse on your own, with mortal assistance.
+   - Your corpse is in "the last stages of decay", meaning you cannot wait
+     any longer, i.e. a corpse timer of less than 8.
+
+If you perform a CR for one of your -own- mortal characters, you must:
+   - Take at least one of the better/best items from your mortal, and eat it.
+   - Post a note on 1220 stating that you cr'd your own mortal's corpse.
+
+***** See °Thelp °Ttimer to get a list of corpse decay timer and messages.
+~
+End
+
+#HELP
+KeywordItalian 'imm echo'~
+KeywordEnglish 'imm echo'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Techo
+
+Echos should generally be medieval in nature, and their use confined
+primarily to administrative functions, weddings, quest, role-playing
+and the like.  Role-playing should be used rarely, however.
+
+Though there is some leeway within these guidelines, some practices
+are frowned upon and should be avoided.  Do not use your name in an echo
+unless necessary.  Avoid comical phrases or 'cutsey' terms.  Do not use
+:) or other symbols/punctuations at all.
+
+If any of the above are necessary, there exist a sufficient number of
+public channels via which the task can be accomplished while still
+reaching a wide audience -  without forcing it onto the screen of
+every character in the game.
+~
+End
+
+#HELP
+KeywordItalian 'imm equip'~
+KeywordEnglish 'imm equip'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+                       Equipment Usage
+                       ---------------
+**  All equipment worn by an immortal must be made from vnum 1222.
+**  No stats or affects may be added to vnum 1222.
+**  If you need to test your mobs, you may make a weapon with the
+    stats needed to test your mob.
+~
+End
+
+#HELP
+KeywordItalian 'imm force'~
+KeywordEnglish 'imm force'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Tforce
+
+This command allows you to make someone execute a command.  Forcing
+someone can often be looked at as high-handed.  Most common use of
+force is to make someone do something as you are snooping, to check
+problems or bugs, without waiting having to tell the character exactly
+what to type.  It is always best to ask the person before you begin
+forcing them.  You may also use force to make a player quit, drop,
+or read something when you are punishing them.
+
+°Fforce &gall&w <&gcommand&w> can be done, but causes excessive lag because it
+causes every player lower than you to attempt the command.  This should
+be reserved to °Tforce &gall&w &gsave&w in times of numerous crashes.  You should
+never °Tforce &gall&w to use a channel.
+~
+End
+
+#HELP
+KeywordItalian 'imm forceclose'~
+KeywordEnglish 'imm forceclose'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: &gforceclose&w
+
+This command will force a certain descriptor to close.  To use, you
+must first look for the number listed under Desc on the user list.
+Then type: forceclose <Desc #>
+
+You can use forceclose to knock a trouble player offline, as well as
+knock off someone who it stuck online.
+~
+End
+
+#HELP
+KeywordItalian 'imm freeze'~
+KeywordEnglish 'imm freeze'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Thelp °Tfreeze
+
+&YSintassi&w:  °Tdeny         <&gcharacter&w>
+&YSintassi&w:  °Tdisconnect   <&gcharacter&w>
+&YSintassi&w:  °Tfreeze       <&gcharacter&w>
+
+°Fdeny denies access to a particular player and throws them out of the game.
+Deny is permanent (persists across reboots) and is not undoable from within
+the game.  Only someone with access to the player files directory may repeal
+a °Tdeny by editing the appropriate player file.
+
+°Fdisconnect <&gcharacter&w> immediately disconnects that character.
+
+°Ffreeze <&gcharacter&w> is a toggle which prevents a character from issuing any
+commands at all.
+~
+End
+
+#HELP
+KeywordItalian 'imm goto'~
+KeywordEnglish 'imm goto'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tgoto <&gname&w>
+
+This is a reminder to use common courtesy when using such commands
+as goto.   Not only is it considered inappropriate to goto higher
+level immortals without asking permission, the same could be said
+when wanting to visit any player on the mud.  A quick tell requesting
+to visit would suffice.  For those of you who frequent headquarters,
+either Clans, Guilds or Orders, requesting permission, though not
+necessary, is certainly welcome.  Note that if a mortal requests that
+you leave their hq, and you have no pressing business, you are obligated
+to abide by their wishes.  (This does not apply to high ranking immortals.)
+~
+End
+
+#HELP
+KeywordItalian 'imm invis'~
+KeywordEnglish 'imm invis'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Tinvis and &gwizinvis
+
+Those Immortals between levels 51 and 54 may invis to level 51 when they
+are running or preparing a quest, involved in a building projects that
+requires you to be uninterrupted, or you are actively watching a mortal.
+At all other times, the Immortal should be visible to all levels of mortals
+and Immortals.  Wizinvis is to be used as a tool to assist you in your duties
+as an Immortal, it is not a means to spy on others or hide.
+
+Immortals of level 55 and above may use wizinvis beyond 51 to work on
+projects or monitor another person.  It is mandatory to be visible to all
+other immortals whenever reasonably able to do so.  Keep the use of
+"Someone" to a minimum on channels.  Exceptions are when you need to answer
+a question, make a comment, or pass on some information, but are too busy
+to become visible.
+~
+End
+
+#HELP
+KeywordItalian 'imm recho'~
+KeywordEnglish 'imm recho'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Trecho
+
+Rechos should generally be medieval in nature, and their use confined
+primarily to administrative functions, weddings, quest, role-playing
+and the like.  Recho can be seen by all players in one room.  Do not
+use recho to "scare" mortals.  Recho is seen on logs, be cautious in
+using them in social/private situations.
+~
+End
+
+#HELP
+KeywordItalian 'imm snoop'~
+KeywordEnglish 'imm snoop'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: °Tsnoop
+
+The °Tsnoop command is a very valuable tool, when used appropriately.  Snoop
+not only allows you to watch another person, but to see the world through
+their eyes, helping to track down problems the person may be experiencing.
+The reasons for snooping are too varied to mention here, but the reasons
+NOT to snoop are easily listed.
+
+-- Do not snoop people being intimate. <i.e. Mudsex, voyeurism, etc...>
+-- Do not repeat information learned in snoop casually, especially to mortals
+-- Only snoop a person talking to a higher level Immortal with the higher
+   Immortals "Express Permission".
+-- If a higher level Immortal begins communication with someone you are
+   snooping, inform that higher Immortal immediately of the snoop.
+-- If a higher level Immortals requests you to stop snooping, do so quickly.
+-- "Spot check" snooping of lower level Immortals is part of being a higher
+   level immortal.  All Immortals may be snooped at any time, for any reason.
+-- Do not snoop for the purpose of gaining information for personal reasons.
+-- Any incidental references learned in snoop should be disregarded.
+    ** For example, you learn someone is having a mud affair from snoop.
+    ** This information has nothing to do with the reason you are snooping
+    ** and should not affect your judgement.  It should not be passed on.
+-- Being an Immortal is a privilege and a job.  Snoop is a tool to assist
+   you do your job properly.  Snoop is neither a toy nor a right.
+~
+End
+
+#HELP
+KeywordItalian immhost~
+KeywordEnglish immhost~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Timmhost &gadd&w    <&gname&w> <&ghost&w>
+&YSintassi&w:  °Timmhost &gdelete&w <&gname&w> <&ghost&w>
+&YSintassi&w:  °Timmhost &gsave&w
+&YSintassi&w:  °Timmhost
+
+This command is for setting the hosts allowed for immortals that are added
+with this command.  Wildcards are allowed (*), so *edu, would allow any domain
+from edu connect and 127*, would allow any local domain to connect.
+IMMHOST without arguments will show a list of names and what domains they are
+allowed to connect from.
+To delete a command you need to provide the name and the host, this allows
+for multiple hosts for a certain name.
+This file won't be saved until the immhost save command is issued.
+~
+End
+
+#HELP
+KeywordItalian immlaw2 immlaws2 immrules2~
+KeywordEnglish immlaw2 immlaws2 immrules2~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+ -- Continued from immlaws1
+6) Auths
+* Names should sound medieval and not be offensive to a sex, religion, race etc
+
+7) Helling
+* Do not abuse.  Talk to the offender and use as necessary.
+* Accessive abuse of mortal rules.
+* Comment
+
+8) Snooping
+* Not for personal reason, and any personal information received is private
+* Snoop only for the time needed to accomplish objective.
+
+9) Disputes Between Immortals
+* Handle them privately and not on public channels.
+
+10) DO NOT share your password/account with any other.
+~
+ToSee          immlaws1 hell snoop password bodybag~
+End
+
+#HELP
+KeywordItalian immlaws immlaw immlaws1 immrules immrules1~
+KeywordEnglish immlaws immlaw immlaws1 immrules immrules1~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+1) Equipment
+* All eq must be made from vnum 1222.
+* No stats or affects can be added to the item.
+* No immortal should possess Glory or over 50000 Gold
+
+2) Invis
+* Levels 54 and under should be visible at all times.
+
+3) Corpse Retrievals
+* Mortals should attempt to get mortal help first
+* Must eat a minimum of one item if the player is above level 10
+
+4) Silencing
+* Insulting of an individual which is witnessed by an Immortal.
+* Usage of foul language beyond minor offenses (under imms discretion)
+* Prolonged discussion of sexual acts requires one public warning that
+  further communication will result in silencing.
+
+5) Giving Mortal aid/information
+* Not Tolerated
+* You can NOT: give eq; info on areas, mobs, and items; spelling; transing
+  to areas; act as spy; give out mortal stats.
+~
+ToSee          immlaws2~
+End
+
+#HELP
+KeywordItalian immprogs~
+KeywordEnglish immprogs~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+These mpcommands are restricted knowledge to port 4000 immortals.
+
+&Gmpcommand&w          &YSyntax&w                  &Wbasic description&W
+°Tmpapply            °Tmpapply 0.$n            For use in pre-auth.
+°Tmpbodybag          °Tmpbodybag 0.$n          Not currently in use.
+°Tmpfillin           °Tmpfillin <dir>          Closes off exits
+°Tmplog              °Tmplog <text>            Logs mob activity
+°Tmposet / °Tmpmset      °Tmp$set <field> <value>  Osets and Msets objs mobs.
+°Tmpnuisance         °Tmpnuisance $n <val>...  Sets player to nuisance (in use?)
+°Tmpscatter          °Tmpscatter $n vnum vnum  Do not use.
+°Tmpstrew            unknown                 unknown
+°Tmppeace            °Tmppeace <victim>        Performs an immortal peace.
+°Tmpasurpess         °Tmpasupress $n val       Not in use.
+°Tmpdelay            °Tmpdelay <victim><time>  Delays a victim for * rounds
+
+&WNOTE: &CIf flagged "not in use" or "do not use", then &YDON'T USE &W:P
+&WFor more on individual mpcommands, type&w °Thelp &gmpcommandname&w.
+~
+ToSee          ifchecks4~
+End
+
+#HELP
+KeywordItalian immquest~
+KeywordEnglish immquest~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+This help file will contain the current status as well as the expectations of
+what is to be followed of Immortals questing.
+  Currently imms &YARE&G allowed to quest.
+
+&WRules for imm's questing:&G
+
+ &W*&G It is expected that no Imm will be multi-playing their imm while they
+   are questing.  This includes multi-playing while invis/afk/etc.
+
+ &W*&G It is expected that no imm will log off their imm character in order to
+   quest.  We don't want the situation arising where everyone logs off and the
+   QC imm is stranded running the quest and fielding everything else.
+
+ &W*&G You may &CNOT&G quest if you log in with your imm at any time during
+   the quest.
+
+&WSo when can you quest?&G
+
+ &W*&G It's somewhat limiting, but you can quest &CIF&G you happen to be
+   morting when a quest begins, &COR&G if you are given the explicit
+   permission of the imm running the quest. &CPlease do not pressure them.&G
+
+
+Immortals can apply once a month for a rename scroll or twenty glory.
+Phalanx, on behalf of the Quest Council, and Elcid on behalf of the
+Symposium are responsible for the distribution of the monthly 'payments.'
+To apply for your monthly rename or share of glory, post a note on 1203
+stating the month, the form in which you'd like to receive your payment
+(scroll/glory), and the mortal's name that will be receiving the payment.
+~
+End
+
+#HELP
+KeywordItalian admtalk~
+KeywordEnglish admtalk~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tadmtalk <&gmessage&w>
+
+°Fadmtalk sends a message to all avatars.  &g:&w is a synonym for °Tadmtalk.
+~
+End
+
+#HELP
+KeywordItalian induct outcast~
+KeywordEnglish induct outcast~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tinduct  <&gplayer&w>
+           °Toutcast <&gplayer&w>
+
+Induct and outcast are clan commands.  The leader and number 1 of the
+clan receive the induct commands, while the deity, leader, number 1 and
+number 2 all receive outcast.  Induct will bring a new player into the
+clan, while outcast will remove them.
+~
+End
+
+#HELP
+KeywordItalian info~
+KeywordEnglish info~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tinfo <&gmessage&w>
+
+This is an one way global channel to announce news.  It can not be
+turned off or ignored.
+~
+End
+
+#HELP
+KeywordItalian installarea~
+KeywordEnglish installarea~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tinstallarea <&garea filename&w> <&gfull area name&w/&gtitle&w>
+
+Installs a prototype area into the mud as a non-prototype area.
+The filename can be fixed with aset, (don't forget to foldarea the new name.)
+
+Currently the builder should quit and have his/her vnums cleared manually.
+(This should be fixed soon).
+~
+End
+
+#HELP
+KeywordItalian ipcompare~
+KeywordEnglish ipcompare~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tipcompare <&gname&w>
+           °Tipcompare <&gsite&w>
+           °Tipcompare <name or site&w> <&groom&w|&garea&w|&gworld&w> <&g#&w>
+
+This takes * as a wild card.
+°Fipcompare will compare online users to search for multiplayers. A positive
+match using °Tipcompare does not always mean it is a multiplayer..but shows
+that there are more than one user from a site on simultaneously.
+°Fipcompare <&gfield&w> <&g#&w> will limit the output to x number of lines based on #.
+* may be used as a wild card, for example °Tipcompare 207.18.3.* will return
+matches from any that begin with the ip prior to the asterisk.
+°Fipcompare <&gfield&w> <&groom&w|&garea&w|&gworld&w> will limit the search based on that
+criteria.  The room|area|world limitation will be judged on the room that
+the immortal issued the command in.  So if you are in a different area
+than the victim, it will show only players matching the site in the area
+you are in.
+~
+End
+
+#HELP
+KeywordItalian itemvalues~
+KeywordEnglish itemvalues~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+In these values, 'sn' is a spell number;  a negative value means 'no spell'.
+Item Type |V0         |V1          |V2         |V3         |V4       |V5
+----------|-----------|------------|-----------|-----------|---------|-------
+armor     |current AC |original AC |           |           |         |
+container |capacity   |flags       |key vnum   |condition  |         |
+drinkcon  |capacity   |quantity    |liquid #   |poison?    |         |
+food      |food value |(condition) |           |poison?    |         |
+herb      |           |charges     |herb #     |           |         |
+key       |(lock #)   |            |           |           |         |
+keyring   |capacity   |            |           |           |         |
+lever     |leverflags |vnum/sn     |vnum       |vnum/value |         |
+light     |           |            |hours left |           |         |
+money     |# of coins |coin type   |           |           |         |
+pill      |spell level|sn 1        |sn 2       |sn 3       |food val |
+pipe      |capacity   |# of draws  |herb (sn)  |flags **   |         |
+potion    |spell level|sn 1        |sn 2       |sn 3       |         |
+projectile|           |            |           |           |         |
+salve     |spell level|charges     |max charges|delay      |sn       |sn
+scroll    |spell level|sn 1        |sn 2       |sn3        |         |
+staff     |spell level|max charges |charges    |sn         |         |
+switch    |leverflags |vnum/sn     |vnum       |vnum/value |         |
+trap      |charges    |type        |level      |flags      |         |
+treasure  |(type)     |(condition) |           |           |         |
+wand      |level      |max charges |charges    |sn         |         |
+weapon    |condition  |num dice    |size dice  |weapontype |         |
+missiles  |condition  |            |dam bonus  |weapontype |range    |
+quiver    |capacity   |flags       |key vnum   |condition  |         |
+
+** pipe flags : see °Thelp &gpipeflag&w
+~
+ToSee          objecttypes weapontypes slookup liquidtypes leverflags oset armorclass weaponcondition missiles~
+End
+
+#HELP
+KeywordItalian khistory~
+KeywordEnglish khistory~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tkhistory <&gplayer&w>
+
+This command will display a list of mobs recently killed by the
+character in question.
+This is an imm only command.
+~
+End
+
+#HELP
+KeywordItalian layers~
+KeywordEnglish layers~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&gLayers are currently available on the following wear locations:
+
+&GAbout, Arms, Body, Feet, Hands, Legs, Waist.
+
+&gLayers are set with a numeric value, or combination of values. The lower the
+value, the lower the layer, or thinner the item of clothing/armor is. Valid
+numeric values are:
+
+&G0, 1, 2, 4, 8, 16, 32, 64, 128.
+
+&gOr any combination of the above. A value of zero means no other items came
+be layered with this item. Items of clothing can be layered over one another
+as long as their layer values do not overlap. ie, if leather armor were set
+to a value of 56 (8, 16, and 32), it could not layer with, say, a set of
+heavy chain that is set to a value of 96 (32 and 64), as they overlap on the
+layer value of 32.
+
+It is suggested that only those items that will occupy the highest value
+slots, or a slot of 0, have any special affects added to them. Underclothing
+should only have a.c. settings.
+~
+ToSee          oset affecttypes wearflags objectflags objecttypes itemvalues weapontypes variables armorclass layers2 omenu~
+End
+
+#HELP
+KeywordItalian layers2~
+KeywordEnglish layers2~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&gLayer Bit Vectors
+&G|1              |       |
+|2|6|3|1        |       |
+|8|4|2|6|8|4|2|1| Layer | Suggested Armor Type
++-+-+-+-+-+-+-+-+-------+---------------------------------------------
+|0 0 0 0 0 0 0 0|   0   | (Default - Nothing Layers)
+|0 0 0 0 0 0 0 1|   1   | silk shirt, light cloth tunic (Lowest Layer)
+|0 0 0 0 0 0 1 0|   2   | leather vest, heavy cloth
+|0 0 0 0 0 1 0 0|   4   | light chainmail, padded gambeson
+|0 0 0 0 0 1 1 0|   6   | padded chainmail
+|0 0 0 0 1 0 0 0|   8   | leather jacket, reinforced chainmail
+|0 0 0 0 1 1 0 0|  12   | platemail, similarly rigid armor
+|0 0 0 1 0 0 0 0|  16   | light cloak, loose robes
+|0 0 0 1 1 0 0 0|  24   | heavy fur cloak
+|0 0 1 0 0 0 0 0|  32   | loose cloaks, surcoats
+|0 1 0 0 0 0 0 0|  64   | capes
+|1 0 0 0 0 0 0 0| 128   | magical effects (auras, clouds of dust, etc)
+|1 1 1 1 1 1 1 1| 255   | (Highest Layer - Nothing Layers)
++-+-+-+-+-+-+-+-+-------+---------------------------------------------
+&g* Thick or bulky items may need to occupy more than one layer.
+  (example; padded chain covers 2 layers)
+* Any items with layer bit(s) should NOT have any/many magical effects
+  as they will be overpowerful when mixed with other layered equipment.
+* Lower layers (thinner layers) should have a lower AC than higher layers.
+* A "body" wear position will have more layers than other positions such
+  as "arms", "hands", "legs", and "feet".
+  (example for "hands"; silk gloves | leather gloves | chain gauntlets)
+~
+ToSee          oset affecttypes wearflags objectflags objecttypes itemvalues weapontypes variables armorclass layers omenu~
+End
+
+#HELP
+KeywordItalian leverflags switchflags buttonflags pullchainflags dialflags~
+KeywordEnglish leverflags switchflags buttonflags pullchainflags dialflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+FLAG NAME     |  BITVECTOR  |  DESCRIPTION
+----------------------------------------------------------------------
+UP            |          1  |  Trigger is UP
+UNLOCK        |          2  |  Trigger unlocks something
+LOCK          |          4  |  Trigger locks something
+D_NORTH       |          8  |  Affects the north exit
+D_SOUTH       |         16  |  Affects the south exit
+D_EAST        |         32  |  Affects the east exit
+D_WEST        |         64  |  Affects the west exit
+D_UP          |        128  |  Affects the exit up
+D_DOWN        |        256  |  Affects the exit down
+DOOR          |        512  |  Affects a door
+CONTAINER    *|       1024  |  Affects a container
+OPEN          |       2048  |  Opens something
+CLOSE         |       4096  |  Closes something
+PASSAGE       |       8192  |  Creates a passage
+OLOAD        *|      16384  |  Loads up an object
+MLOAD        *|      32768  |  Loads up a mobile
+TELEPORT      |      65536  |  Teleports the puller
+TELEPORTALL  *|     131072  |  Teleports everyone in the room
+TELEPORTPLUS *|     262144  |  Teleports everything in the room
+DEATH        *|     524288  |  Causes instant death
+CAST         *|    1048567  |  Casts a spell (sn in value1)
+FAKEBLADE    *|    2097152  |  Lever is a wax covered sword blade (OUCH)
+RAND4         |    4194304  |  Randomizes the exits N, S, E, W
+RAND6         |    8388608  |  Randomizes the exits N, S, E, W, U, D
+TRAPDOOR     *|   16777216  |  Opens a trap door, everthing falls down
+
+* = not yet implemented.
+~
+ToSee          oset itemvalues~
+End
+
+#HELP
+KeywordItalian liquidtypes~
+KeywordEnglish liquidtypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Value | Liquid Type
+------------------------------
+  0   | water
+  1   | beer
+  2   | wine
+  3   | ale
+  4   | dark ale
+  5   | whiskey
+  6   | lemonade
+  7   | firebreather
+  8   | local specialty
+  9   | slime mold juice
+ 10   | milk
+ 11   | tea
+ 12   | coffee
+ 13   | salt water
+ 14   | cola
+~
+ToSee          oset itemvalues~
+End
+
+#HELP
+KeywordItalian litterbug~
+KeywordEnglish litterbug~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tlitterbug <&gplayer&w>
+
+Places/removes the litterbug flag, allowing/prohibiting a player from
+dropping any objects.
+~
+End
+
+#HELP
+KeywordItalian loadup~
+KeywordEnglish loadup~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tloadup <&gplayer&w>
+
+°Floadup allows one to load up a player's character (playing or not), to do
+whatever needs be done to the character.  (Modifying a flag, changing a
+password... etc).  Use °Tforce to make the character do your bidding.
+
+If we make any changes to the char, we comment the char and place a note in
+their inventory explaining who loaded them up and what changes were made.
+The character is transed to room 99 and forced to quit there (unless they
+are going to be left in hell).  If we don't make any changes to the char, we
+trans them back from where they came and force quit them there.  Loadup is
+used primarily when a player quits to avoid dealing with immortals or if
+they quit before you finish writing a comment.  But it is also used to
+investigate chars for duping and other allegations made against them.
+
+So... there is actually a wide range of reasons to use loadup and you are
+encouraged to use your discretion in this area.
+
+If you load up a character to slay or purge them, you must post in 1205.
+~
+ToSee          force~
+End
+
+#HELP
+KeywordItalian log snoop~
+KeywordEnglish log snoop~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tlog   <&gcharacter&w>
+           °Tlog   &gll&w
+&YSintassi&w:  °Tsnoop <&gcharacter&w>
+
+°Flog <&gcharacter&w> causes all of a character's commands to be logged into
+the server's log file.  Like °Tfreeze, it is a permanent character toggle.
+
+Certain commands (°Tpassword) are protected against °Tlog.  Conversely, certain
+commands (especially immortal commands) are always logged.
+
+°Flog &gll&w logs all character commands.  It is a server-wide toggle; it does not
+persist across reboots.
+
+°Fsnoop shows you a copy of all the input and output going to a character.
+The character must have an open channel.  You may snoop more than one
+character at a time.
+The input from the player will be displayed with a header of the players
+name and a percentage sign (i.e. Mudder%)
+°Fsnoop yourself to cancel all outstanding snoops.
+-- Do not snoop people being intimate. <i.e. Mudsex, voyeurism, etc...>
+-- Do not repeat information learned in snoop casually, especially to mortals
+-- Only snoop a person talking to a higher level Immortal with the higher
+   Immortals "Express Permission".
+-- If a higher level Immortal begins communication with someone you are
+     snooping, inform that higher Immortal immediately of the snoop.
+-- Any incidental references learned in snoop should be disregarded
+    ** For example, you hear someone is having a mud affair, it is not
+    ** important to the reason you are snooping.  Do not judge or pass
+    ** on information learned in this manner.
+-- "Spot check" snooping of lower level Immortals is part of being a higher
+   level immortal.  All Immortals may be snooped at any time, for any reason.
+-- Do not snoop for the purpose of gaining information for personal reasons.
+-- Being an Immortal is a privilege and a job.  Snoop is a tool to assist
+   you do your job properly.  Snoop is neither a toy nor a right.
+~
+End
+
+#HELP
+KeywordItalian make~
+KeywordEnglish make~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmake <&gobject&w>
+
+For use by clan, Order or guild leaders only to make one of the three
+clan, Order or guild objects.
+~
+ToSee          setclan~
+End
+
+#HELP
+KeywordItalian makeclan~
+KeywordEnglish makeclan~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmakeclan <&gclan name&w>
+
+DESCRIPTION: The °Tmakeclan command is used to create a
+             new clan, order, or guild which may then
+             be customized with the °Tsetclan command.
+~
+ToSee          setclan showclan~
+End
+
+#HELP
+KeywordItalian makedeity~
+KeywordEnglish makedeity~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmakedeity <&gdeity name&w>
+
+DESCRIPTION: The °Tmakedeity command creates a new deity
+             that may then be customized with the °Tsetdeity
+             command.
+~
+ToSee          setdeity showdeity deities~
+End
+
+#HELP
+KeywordItalian makerepair~
+KeywordEnglish makerepair~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmakerepair <&gmobvnum&w>
+
+Automatically gives the mobile the ability to repair damaged equipment.
+Use °Trepairset to set the parameters by which the shop will function.
+~
+ToSee          repairset repairstat repairshops~
+End
+
+#HELP
+KeywordItalian makeshop~
+KeywordEnglish makeshop~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmakeshop <&gmobile vnum&w>
+
+Creates a new shop and assigns it to a mobile.
+
+The levels of the items in the shop are picked randomly based on item type:
+
+--------------------------------------------
+|Item Type | Level Range                   |
+--------------------------------------------
+| default  | 0                             |
+| pill     | 0 to 10                       |
+| potion   | 0 to 10                       |
+| scroll   | value[0] of the scroll object |
+| wand     | 10 to 20                      |
+| staff    | 15 to 25                      |
+| armor    | 5 to 15                       |
+| weapon   | 5 to 15                       |
+--------------------------------------------
+~
+ToSee          shopstat shopset shops~
+End
+
+#HELP
+KeywordItalian mcreate ocreate~
+KeywordEnglish mcreate ocreate~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmcreate <&gvnum&w> <&gkeywords&w>
+&YSintassi&w:  °Tocreate <&gvnum&w> <&gkeywords&w>
+
+Create and new mobile / object.
+A prototype monster or object will be created with the selected vnum, and
+set up with the plainest of default values.  A material image of the magical
+prototype will appear before you, for you to futher modify with °Tmset or °Toset.
+~
+ToSee          mset oset~
+End
+
+#HELP
+KeywordItalian memory~
+KeywordEnglish memory~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmemory
+
+°Fmemory reports the current counts of objects, mobiles, affects, rooms,
+areas, etc, etc.
+~
+End
+
+#HELP
+KeywordItalian mfind ofind~
+KeywordEnglish mfind ofind~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmfind <&gname&w>
+&YSintassi&w:  °Tofind <&gname&w>
+
+°Fmfind finds all mobile types with a particular name.
+
+°Fofind finds all object types with a particular name.
+~
+End
+
+#HELP
+KeywordItalian minpos~
+KeywordEnglish minpos~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Minimum Positions affect both spells and skills. For example, if the minimum
+position for a spell was 8, it would work while sitting, fighting or any
+position higher than that. The same spell would not work in the resting
+position as it's ranked at 6.
+0 POS_DEAD
+1 POS_MORTAL
+2 POS_INCAP
+3 POS_STUNNED
+4 POS_SLEEPING
+5 POS_BERSERK
+6 POS_RESTING
+7 POS_AGGRESSIVE
+8 POS_SITTING
+9 POS_FIGHTING
+10 POS_DEFENSIVE
+11 POS_EVASIVE
+12 POS_STANDING
+13 POS_MOUNTED
+14 POS_SHOVE
+15 POS_DRAG
+~
+ToSee          style~
+End
+
+#HELP
+KeywordItalian minvoke oinvoke~
+KeywordEnglish minvoke oinvoke~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tminvoke <&gvnum&w>
+           °Tminvoke <&gkeyword of mob&w>
+&YSintassi&w:  °Toinvoke <&gvnum&w>
+           °Toinvoke <&gkeyword of obj&w>
+           °Toinvoke <&gvnum&w/&gkeyword of obj&w> <&glevel&w>
+
+°Fminvoke invokes an instance of the mobile specified.
+
+°Foinvoke invokes an copy of the object specified.  It accepts an optional
+parameter for the level of the object to be invoked.
+~
+End
+
+#HELP
+KeywordItalian missiles~
+KeywordEnglish missiles~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Creating a projectile is basically the same as making any other
+weapon. The exception to this are its Values (see °Thelp &gitemvalues&w)
+and the need to have missiles which match missileweapons.
+
+&GFollow this basic proceedure to make a set of projectiles&W:
+  1) Create a firing mechanism, for instance, a long bow.
+  2) Set the itemtype to 'missileweapon'.
+  3) Set the wearflags to 'take missile'
+  4) Set the projectile values from the °Thelp &gitemvalues&w table.
+  5) Set the Value3 (V3) from the table in °Thelp &gweapontypes&w.
+
+&G Now the wielded weapon is done, but you need something to fire...&W
+  1) Create a shootable object, for instance, an arrow.
+  2) Set the itemtype to 'projectile'
+  3) Set the wearflags to 'take'.
+  4) Set the projectile values from the °Thelp &gitemvalues&w table.
+  5) Set the V3 to match the V3 on the firing mechanism you created.
+
+Don't forget to finish the items with weight, cost, long, short etc.
+You now have two objects in inventory which are ready to fire.
+Lastly, you may create a quiver for certain objects. To do this,
+set the itemtype to 'quiver', and use v0 to set its capacity.
+Be sure not to set the capacity too high, as quivers should be small.
+~
+ToSee          projectiles itemvalues weapontypes oset~
+End
+
+#HELP
+KeywordItalian blist~
+KeywordEnglish blist~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tblist
+           °Tblist <&gmob&w|&gobj&w|&groom&w> <&gfirst vnum&w>
+           °Tblist <&gmob&w|&gobj&w|&groom&w> <&gfirst vnum&w> <&glast vnum&w>
+
+This command will list all of the prototype mobs|objects|rooms in your area,
+when used with no arguments.  When used with a single argument it will list all
+mobs|object|rooms including and after the argument, and when used with two arguments,
+it will list all mobs|object|rooms including and between the two.
+~
+End
+
+#HELP
+KeywordItalian mmenu~
+KeywordEnglish mmenu~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmmenu <&gmob name&w> [&gmenu page&w] (defaults to 'a' if none given)
+
+°Fmmenu will bring you into a menu system of editing mobiles.  To use mmenu,
+the mobile that you are editing should be in the same room as you.  To
+choose an option in the menu, type the number of the section followed by the
+desired letter, and any variables that may follow.
+
+See &gmenu&w for generic menu commands.
+~
+End
+
+#HELP
+KeywordItalian morph unmorph~
+KeywordEnglish morph unmorph~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmorph <&gvnum&w> <&gtarget&w>
+&YSintassi&w:  °Tunmorph
+
+°Fmorph is an immortal command used to morph into various
+things, while °Tunmorph reverts the effect.
+~
+ToSee          polymorph morphcreate morphdestroy morphstat~
+End
+
+#HELP
+KeywordItalian morphcreate morphdestroy~
+KeywordEnglish morphcreate morphdestroy~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+These commands are used for the creation or deletion of
+polymorph data.
+~
+ToSee          polymorph morph morphstat~
+End
+
+#HELP
+KeywordItalian morphstat~
+KeywordEnglish morphstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmorphstat <&gvnum&w|&gname&w> [&ghelp&w|&gdesc&w]
+
+Stats a morphed target by name or vnum.
+~
+ToSee          polymorph morphcreate morphdestroy morph~
+End
+
+#HELP
+KeywordItalian mset~
+KeywordEnglish mset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmset <&gcharacter&w> <&gfield&w> <&gvalue&w>
+           °Tmset &gcharacter on&w
+
+°Fmset sets the properties of mobiles. If a mobile has the &gprototype&w flag,
+modifying an instance of this mobile will also modify the index mobile, which
+all other instances of the mobile are based on.
+
+°Fmset &gon&w will lock you onto a particular mob/character. Once locked on, all
+°Tmset commands will imply °Tmset <&gcharacter&w>. Hitting enter while in °Tmset &gon&w
+will give you an °Tmstat of the mob/character you are working on. To get out
+of °Tmset &gon&w, simply type the word &gdone&w. 
+Example:
+        mset gracca on
+        long A large hulking figure stands here.
+        sex 1
+        done
+~
+ToSee          actflags specfuncs savingthrows ris races attacks defenses mcreate mmenu mstat~
+End
+
+#HELP
+KeywordItalian msetpkill~
+KeywordEnglish msetpkill~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmset <&gtarget&w> &gpkill&w
+
+Before msetting a player to pkill, ensure the following conditions are met:
+
+Player has read °Thelp &gdeadly&w and &glaws pkill&w
+Player understands he/she/it may not return to the peaceful side
+Player is config -nice
+Player is in an area appropriate for pkill.
+~
+End
+
+#HELP
+KeywordItalian mstat ostat rstat~
+KeywordEnglish mstat ostat rstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmstat <&gcharacter&w/&gmob or mobvnum&w>
+&YSintassi&w:  °Tostat <&gobject&w/&gobject vnum&w>
+&YSintassi&w:  °Trstat
+&YSintassi&w:  °Trstat <&glocation&w>
+
+°Fmstat shows you statistics on a character or mobile.  If a copy of the mobile
+is present in the game, you can access it using its vnum.
+
+°Fostat shows you statistics on an object.  If a copy of the object is present
+in the game, you can acces it using its vnum.
+
+°Frstat shows you statistics on a location.  The location may be specified as
+a roomvnum, as the name of a mobile, or as the name of an object.  Rstat
+with no argument returns the statistics on your present room.
+~
+ToSee          mset oset redit~
+End
+
+#HELP
+KeywordItalian mwhere~
+KeywordEnglish mwhere~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tmwhere <&gname&w>
+
+°Fmwhere shows you the locations of all mobiles with a particular name.
+~
+End
+
+#HELP
+KeywordItalian newbieset~
+KeywordEnglish newbieset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tnewbieset <&gcharacter&w>
+
+°Fnewbieset riveste un pg newbie con del equip di default (quasi tutto preso
+dall'Accademia) nell'inventario.
+Inserisce nell'inventario 6 oggetti, il minimo trasportabile per un newbie
+nel suo inventario, quindi se ha qualcos'altro nel suo inventario potrebbe 
+non caricare alcuni degli oggetti.
+~
+End
+
+#HELP
+KeywordItalian 'newclan applications'~
+KeywordEnglish 'newclan applications'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+In all cases new clan applications would be taken the old way:
+
+ - you find your three leaders (no shared leaders here)
+
+ - you find at least two additional avatars
+   ... need five avatars total start clan (3 leaders, 2 more)
+
+ - your theme is approved by the conclave; approval is defined
+   here as little more than a straining process for quality.
+   If you have a theme you're willing to build on/around and
+   play and it's not something like a clan that fights for the
+   glory of Metallica you're probably okay
+
+- you find a deity that's willing to help you in upkeeping
+   the clan (i.e. be a mediator with other imms, help you get
+   changes made, help you keep the theme of your clan going).
+   You won't _have_ to have a deity all the time if it just
+   really ends up that you can't keep one, but it's necessary
+   to get started (though have pondered linking the function
+   of certain clan bonuses such as healers, etc. to the clan
+   having a deity, but that's a completely different matter)
+
+NOTE:  This isn't to say an imm-created clan or clans may not be
+       introduced, but any such clans would have stipulations on
+       them and be for specific use, such as any assassin type of
+       clan.  This isn't being planned, just covering bases here
+~
+End
+
+#HELP
+KeywordItalian 'newclan eq2'~
+KeywordEnglish 'newclan eq2'~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Equipment option 2:  self-created
+
+Created via purchase by the clan.  Either gold or glory or both used
+to add affects to the items up to a cap.  Items would start off with
+no affects, or perhaps a very, very low set of base stats
+ - cap would be raised occasionally to allow more power to be added
+   if stock item power overtakes it
+   NOTE:  There are new areas coming in that are going to have stock
+          items better than existing stock items, and some will have
+          items that give unusual rewards.  The difficulty will be
+          astronomical, but the value is pretty high
+
+Affects could also be removed and replaced at the will of the clan
+(i.e. adjusting the item for a cost, remove hps and add some dr, etc.)
+or even stripped completely by the clan I suppose if it really wanted
+to screw everyone up who had their stuff.
+ -  changes to affects could either be retroactive or new eq only,
+    meaning when you change a bracer every bracer out there would
+    receive that change, or that change would only affect new items
+    made.  This is something that would be decided at inception.
+
+Yes, cost would be high for affects, and we have not decided on a scale
+yet.  It's very unlikely that even the existing clans could foot the
+bill for a set of eq comparable even to old clan stuff in a short time.
+It's meant that it'll be a slower process, though I'm sure someone will
+surprise us.  The advantages are a rising cap over time, the control to
+adjust stats as you want and can afford, and that the eq will likely
+be more powerful when capped than the divinated eq would be.
+~
+End
+
+#HELP
+KeywordItalian newzones~
+KeywordEnglish newzones~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tnewzones [&glow&w] [&ghigh&w]
+
+Lists the vnum range for rooms/mobs/objects in prototype areas that have been
+loaded.
+~
+End
+
+#HELP
+KeywordItalian nohelps~
+KeywordEnglish nohelps~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tnohelps
+
+This commands shows all commands, wizcommands, spells, skills and
+areas which do not have help files.  It does produce some minor
+lag as it searches for help files, however is rather useful when you
+want to know what needs a helpfile.
+~
+End
+
+#HELP
+KeywordItalian nosupplicate nosupp~
+KeywordEnglish nosupplicate nosupp~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Nosupplicate as a room flag is only for use in hell, jails and some immortal
+rooms. It should never be used in an area without fair warning given to mortals
+and after extensive consideration and approval by the Area council.
+~
+End
+
+#HELP
+KeywordItalian notell noemote notitle silence unsilence~
+KeywordEnglish notell noemote notitle silence unsilence~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tnotitle   <&gcharacter&w>
+&YSintassi&w:  °Tnoemote   <&gcharacter&w>
+&YSintassi&w:  °Tnotell    <&gcharacter&w>
+&YSintassi&w:  °Tsilence   <&gcharacter&w>
+&YSintassi&w:  °Tunsilence <&gcharacter&w>
+
+°Fnotitle, °Tnoemote, °Tnotell, and °Tsilence are used to muffle other characters, by
+preventing them from setting their title, emoting, telling, and using
+channels, respectively.  Characters who are notelled will also not recieve
+those forms of communication.
+
+Use °Tunsilence to remove a player's silence.  Simple use °Tnotell, °Tnoemote or
+°Tnotitle on the character again to remove each of those restrictions.
+~
+End
+
+#HELP
+KeywordItalian oasis oredit ooedit omedit ocopy~
+KeywordEnglish oasis oredit ooedit omedit ocopy~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Toredit [&gvnum of room&w]
+&YSintassi&w:  °Tomedit <&gname of mobile&w/&gcharacter&w>
+&YSintassi&w:  °Tooedit <&gvnum&w/&gname of object&w>
+&YSintassi&w:  °Tocopy <&gold vnum&w> <&gnew vnum&w>
+
+The above commands are part of the OasisOLC II suite written by Tagith
+based on the original one for Circle 3.0bpl9.
+
+The options are pretty much self explanatory, and remember..you still need
+to savearea and foldarea, and ocreate/mcreate.
+~
+End
+
+#HELP
+KeywordItalian objectflags~
+KeywordEnglish objectflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Flags that objects can have:
+
+Flag        Affect                Flag        Affect
+&r====        ======                ====        ======
+&Gglow        &cn/a                   &Ghum         &cn/a
+&Gdark        &cn/a                   &Gloyal       &cloyalty ('help loyal')
+&Gevil        &cglow on det. evil     &Ginvis       &cinvisible
+&Gmagic       &cprevents enchant      &Gnodrop      &ccannot drop
+&Gbless       &c+20% resist dam.      &Gantigood    &czap if align +350
+            &cdbl. duration poison
+            &cweapon
+&Gantievil    &czap if align -350     &Gantineutral &czap if align -350 to +350
+&Gnoremove    &ccannot remove         &Ginventory   &cpurge upon char. death
+&Gantimage    &czap if mage           &Gantithief   &czap if thief
+&Gantiwarrior &czap if warrior        &Ganticleric  &czap if cleric
+&Gantivampire &czap if vampire        &Gantidruid   &czap if druid
+&Gorganic     &c+20% suscept. dam.    &Gmetal       &c+20% resist damage
+&Gdonation    &cprevents get all      &Gclanobject  &cn/a
+&Gclancorpse  &cn/a                   &Gprototype   &cn/a
+&Gnolocate    &cnot visible on locate
+
+&YAdditional flags:
+&Gcovering      &cItems inside this are 'covered', use 'look under <object>' to
+              see 'inside'.  The object does not have to be a container to
+              be a covering object.  Use 'reset put' to indicate objects to
+              be covered by this object.&w
+~
+End
+
+#HELP
+KeywordItalian objecttypes~
+KeywordEnglish objecttypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Object types listed in bit order:
+
+  None        Light     Scroll     Wand        Staff       Weapon
+  Fireweapon  Missile   Treasure   Armor       Potion      Worn
+  Furniture   Trash     Oldtrap    Container   Note        Drink_con
+  Key         Food      Money      Pen         Boat        Corpse_npc
+  Corpse_pc   Fountain  Pill       Blood       Bloodstain  Scraps
+  Pipe        Herb_con  Herb       Incense     Fire        Book
+  Switch      Lever     Pullchain  Button      Dial        Rune
+  Runepouch   Match     Trap       Map         Portal      Paper
+  Tinder      Lockpick  Spike      Disease     Oil         Fuel
+  Short_bow   Long_bow  Crossbow   Projectile  Quiver      Shovel
+  Salve
+
+Not all are implemented.
+~
+ToSee          oset itemvalues armorclass~
+End
+
+#HELP
+KeywordItalian objtriggers optriggers~
+KeywordEnglish objtriggers optriggers~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Trigger Optnl Triggering Variable Explanation
+------- ----- ------------------- -----------
+Wear          <percentage>        [when a player wears the object]
+Remove        <percentage>        [when a player removes the object]
+Speech   {p}  <keyword / phrase>  [says or tells from same room as mob]
+Rand          <percentage>        [randomly triggered based on percentile]
+Sac           <percentage>        [when a player sacrifices the object]
+Zap           <percentage>        [when the player is zapped due to alignment]
+Get           <percentage>        [when a player gets the object]
+Drop          <percentage>        [when a player drops the object]
+Damage        <percentage>        [when the object is damaged]
+Repair        <percentage>        [when the object is repaired]
+Greet         <percentage>        [when a mob/player enters the room]
+Exa           <percentage>        [when the object is Examined or Looked upon]
+Look          ** THIS TRIGGER IS NOT CURRENTLY IN USE **
+Push          <percentage>        [when a player pushes an object]
+Pull          <percentage>        [when a player pulls an object]
+Use           <percentage>        [see 'help useprog' for details]
+~
+ToSee          opstat opedit trigger opcommands ifchecks variables~
+End
+
+#HELP
+KeywordItalian objtypenums~
+KeywordEnglish objtypenums~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+                   &GNUMBER                 TYPE of OBJECT
+
+                     &c1                       Light
+                     2                       Scroll
+                     3                       Wand
+                     4                       Staff
+                     5                       Weapon
+                     9                       Armor
+                    10                       Potion
+                    15                       Container
+                    16                       Note
+                    18                       Key
+                    19                       Food
+                    23                       Mcorpse
+                    24                       Pcorpse
+                    26                       Pill
+                    34                       Book
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3 itemvalues objecttypes variables~
+End
+
+#HELP
+KeywordItalian omenu~
+KeywordEnglish omenu~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tomenu <&gobject name&w> [&gmenu page&w] (defaults to 'a' if none given)
+
+°Fomenu will bring you into a menu system of editing objects.  To use omenu,
+you must be holding the object that you are editing in your inventory.  To
+choose an option in the menu, type the number of the section followed by the
+desired letter, and any variables that may follow.
+
+See &gmenu&w for generic menu commands.
+~
+End
+
+#HELP
+KeywordItalian orange~
+KeywordEnglish orange~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+This function is under construction.
+~
+End
+
+#HELP
+KeywordItalian oset~
+KeywordEnglish oset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Toset <&gobject&w> <&gfield&w> <&gvalue&w>
+           °Toset &gobject&w &gon&w
+
+If the copy of the object you are currently modifying has the PROTOTYPE flag,
+your modifications will also modify the index of that object, which all other
+instances of the object are based on.  In the future, every copy of that obj
+will reflect your modifications.
+
+Also be aware that modifications to the object affect list (everything that
+is listed after 'object values') will affect _every_ copy of that object in
+the game, including old copies (even if they are not online).  Thus if you
+change a prototype-flagged copy of a sword to +4 damroll, every copy of that
+vnum ever made will reflect that change.  If you add a 'magic' flag to that
+sword, however, only copies made after the change will be affected.
+
+If the copy of the object you are modifying does NOT have the PROTOTYPE flag,
+your modifications will affect only that copy.
+
+°Foset &gon&w will lock you onto a particular object.  Once locked on, all commands
+commands will imply °Toset <&gobject&w>.  Hitting enter while in °Toset &gon&w gives
+you an ostat of the object you are working on.  To get out of °Toset &gon&w, simply
+type the word &gdone&w. 
+Example:
+        oset staff on
+        long A long gnarled staff of burnished oak lies here.
+        type staff
+        done
+~
+ToSee          affecttypes wearflags objectflags objecttypes armorclass itemvalues weapontypes variables omenu layers layers2~
+End
+
+#HELP
+KeywordItalian owhere~
+KeywordEnglish owhere~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Towhere <&gobject&w/&gkeyword&w>
+
+This command will allow you to search for a certain item by using its
+keyword. This will list the name of the object, its' location, the name
+of the player(s) carrying it and the number of the objects currently online.
+are currently on-line.
+~
+End
+
+#HELP
+KeywordItalian pardon~
+KeywordEnglish pardon~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tpardon <&gcharacter&w> &gkiller&w
+&YSintassi&w:  °Tpardon <&gcharacter&w> &gthief&w
+&YSintassi&w:  °Tpardon <&gcharacter&w> &gattacker&w
+
+°Fpardon pardons a player for their crimes.
+~
+End
+
+#HELP
+KeywordItalian part bodyparts xflags~
+KeywordEnglish part bodyparts xflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Misc body parts:
+HEAD     ARMS    LEGS   HEART        BRAINS      GUTS        HANDS   FEET
+FINGERS  EAR     EYE    LONG_TONGUE  EYESTALKS   TENTACLES   FINS    WINGS
+TAIL     SCALES  HOOVES FORELEGS     HAUNCHES
+
+Used for attacking:
+CLAWS    HORNS   TUSKS  TAILATTACK   SHARPSCALES
+~
+End
+
+#HELP
+KeywordItalian pcrename~
+KeywordEnglish pcrename~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tpcrename <&goldname&w> <&gnewname&w>
+
+This command permanently changes a players name and should be used
+sparingly. It does a check to ensure there is no other player by that
+name already in the files.
+~
+End
+
+#HELP
+KeywordItalian peace~
+KeywordEnglish peace~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tpeace
+
+°Fpeace causes all characters in a room to stop fighting.
+~
+End
+
+#HELP
+KeywordItalian pipeflag~
+KeywordEnglish pipeflag~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The following flags may be used with the item type pipe in the v3 item
+value:
+PIPE_TAMPEDPipe compressa
+PIPE_LITPipe accesa (richiesta per fumare)
+PIPE_HOTPipe calda
+PIPE_DIRTYPipe sporca
+PIPE_FILTHYPipe molto sporca
+PIPE_GOINGOUTPipe sta per consumarsi
+PIPE_BURNTNot già usata
+PIPE_FULLOFASHPipe piena di ceneri, va' svuotata.
+~
+End
+
+#HELP
+KeywordItalian plrstats~
+KeywordEnglish plrstats~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The following results were obtained by leveling a character with maxed
+attributes from 1 to 50 a total of 20 times.  The results were averaged
+and are as follows:
+
+  ---------------------------------------------------
+ |   Class   |  Hitpoints  |    Mana   |  Movements  |
+ |---------------------------------------------------|
+ | Mage      |     560     |    335    |     600     |
+ | Cleric    |     630     |    340    |     600     |
+ | Warrior   |     850     |    100    |     600     |
+ | Vampire   |     790     |    60 bp  |     600     |
+ | Druid     |     775     |    347    |     600     |
+ | Ranger    |     855     |    320    |     600     |
+ | Theif     |     730     |    100    |     600     |
+ `---------------------------------------------------'
+
+A characters's armor class (AC) will vary in relation to its dexterity.
+The higher the dexterity, the lower the AC will be.  In general, the base
+AC on a character will vary between 60 and 100.  In the worst case, if the
+character's dexterity is very low (3 - 5) its AC can drop to 130 or so.
+
+Various races have been imbued by the gods with certain effects:
+* detect magic --  Elves
+* sneak        --  Halflings
+* flying       --  Pixies
+* infrared     --  Dwarves, Half-elves, Half-orcs, Half-trolls
+* none         --  Humans
+~
+End
+
+#HELP
+KeywordItalian pulltypes~
+KeywordEnglish pulltypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&W:  °Tredit &gpushtype&w <&gdirection&w> <&gtype&w>
+&YSintassi&W:  °Tredit &gpush&w <&gdirection&w> <&gforce&w>
+
+Where type is equal to Current, Wave, Whirlpool, Geyser, Wind,
+Storm, and Vortex, to name a few . These equal the 'pushforce'
+Other types include Vacuum, Slip, Coldwind, Sinkhole, Landslide,
+Quicksand, Earthquake, Undefined, Lava, Hotair and Breeze (objects only).
+
+The frequency of the push is controlled by the value set in
+redit push <force>, and may be anything from -100 to 100. Positive
+and negative values represent pulling and pushing, respectively.
+The more positive (or negative) the number is, the sooner the force
+will push or pull you.
+~
+End
+
+#HELP
+KeywordItalian purge~
+KeywordEnglish purge~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tpurge
+&YSintassi&w:  °Tpurge <&gcharacter&w>
+
+°Fpurge is used to clean up the world.  
+°Fpurge with no arguments removes all the NPC's and objects in the current room.
+°Fpurge with an argument purges one character from anywhere in the world.
+
+°Fpurge will not get rid of PC's.
+~
+End
+
+#HELP
+KeywordItalian qpset~
+KeywordEnglish qpset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tqpset <&gplayer&w> <&ggive&w|&gtake&w> <&gamount&w>
+
+This command is used for giving/taking Glory from players.
+Where one of give or take is used, and the amount is always a positive
+integer.
+
+Please see °Thelp &ggloryimm&w before affecting a player's Glory.
+~
+ToSee          gloryimm2 glory 'glory rates'~
+End
+
+#HELP
+KeywordItalian qpstat~
+KeywordEnglish qpstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tqpstat <&gtarget&w>
+
+This command will show information regarding the amount of glory a
+player has. The first number is their current glory, the second is
+the amount of glory held over lifetime.
+~
+ToSee          glory gloryrates qpset~
+End
+
+#HELP
+KeywordItalian rassign massign oassign~
+KeywordEnglish rassign massign oassign~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trassign
+           °Toassign
+           °Tmassign
+
+> Steps for creating a new area from scratch;
+> 1. checkvnum rooms   low_vnum hi_vnum
+>    checkvnum objects low_vnum hi_vnum
+>    checkvnum mobs    low_vnum hi_vnum
+>     (make sure the vnums don't overlap another area)
+> 2. rassign (person) low_vnum hi_vnum
+>    massign (person) low_vnum hi_vnum
+>    oassign (person) low_vnum hi_vnum
+> 3. mset (person) aloaded yes
+> 4. goto low_vnum
+>    goto hi_vnum
+> 5. savea
+> 6. save
+>
+> This should create a new area listed as '{PROTO} (Person)'s area in
+> progress', with the file name '(person).are' and it should load up after
+> rebooting the MUD with 'loadarea' or 'loadarea (person).are' if it's not
+> your area.
+NEVER do this to someone who has an area assigned to them. This would
+change the range for the area they have assigned and wipe out the area.
+~
+End
+
+#HELP
+KeywordItalian rat~
+KeywordEnglish rat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trat &gvnum1&w &gvnum2&w &gcommand&w [&gparameters&w]
+
+Rat, or 'range at' is the at command with the added parameters of two
+room vnums.  Assuming the vnums are valid, your 'at' command will be
+executed in every room in the range you give.
+
+Example: rat 100 110 redit flags 0
+This will clear the room flags in all rooms from 100 to 110 inclusive.
+~
+End
+
+#HELP
+KeywordItalian reboot shutdown wizlock~
+KeywordEnglish reboot shutdown wizlock~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Treboot <&gnosave&w>
+&YSintassi&w:  °Tshutdown <&gnosave&w>
+&YSintassi&w:  °Twizlock
+
+°Freboot shuts down the server.  When the normal 'startup' script is used
+to control the server, a delay of sixty seconds will ensue (to allow
+old connections to die), followed by a reboot.
+
+°Fshutdown shuts down the server and prevents the normal 'startup' script
+from restarting it.
+
+°Fwizlock is a toggle command.  When the server is WIZLOCKed, players
+below level 51 may not log in.  Players who lose their links, however,
+may reconnect.
+
+If nosave is specified for reboot or shutdown, it will not automatically
+save all of the players.
+~
+End
+
+#HELP
+KeywordItalian redit~
+KeywordEnglish redit~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tredit <&gfield&w> [&gparameter list&w]
+           °Tredit &gon&w
+
+FIELD  | PARAMETERS             -- DESCRIPTION / NOTES
+---------------------------------------------------------------------
+name   | <room name>            -- sets the room name / short description
+exit   | <direction> [vnum] [exit-type] [key] [keywords]
+bexit  | same as above, but does the exit in both directions
+desc   | none                   -- you will be placed into the buffer editor
+exdesc | <direction> [text]     -- sets/clears an exit's description
+ed     | <keyword(s)>           -- adds/edits an extra description to the room
+rmed   | <keyword(s)>           -- removes an extra description from the room
+sector | <value>                -- sets the sector type
+flags  | <flag> [flag]          -- toggles room flags
+exflags| <direction> [flags]    -- displays/toggles exit flags
+exname | <direction> [keywords] -- sets an exit's keywords
+exkey  | <direction> <key vnum> -- sets an exit's key vnum/value
+
+Note: Put a '+' before the direction to force ADDing of that exit
+      and use a '#' to specify the exit by sequential order.
+
+°Fredit &gon&w will lock you into a mode in which °Tredit is implied in each command
+sequence, and hitting enter will give you an instant rstat of whichever room
+you are in at the time. To get out of °Tredit &gon&w, simply type the word &gdone&w.
+Example:
+
+        redit on
+        name A dark and forboding hallway
+        flags dark indoors
+        done
+~
+ToSee          exittypes exflags exitmaking sectortypes roomflags~
+End
+
+#HELP
+KeywordItalian repairset~
+KeywordEnglish repairset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trepairset <&gmobile vnum&w> <&gfield&w> <&gvalue&w>
+
+This command allows you to set the following fields for repair shops:
+
+-----------------------------------------------
+| Fields | Meaning                            |
+-----------------------------------------------
+| fix#   | Types of items the keeper will fix |
+|        |  - armor, weapon, wand, staff      |
+| profit | Profit on fixing items             |
+| type   | Repair shop type                   |
+|        |   type 1 = standard                |
+|        |   type 2 = recharge                |
+| open   | Hour shop opens                    |
+| close  | Hour shop closes                   |
+| keeper | Vnum of repair shop keeper         |
+-----------------------------------------------
+~
+ToSee          makerepair repairstat repairshops~
+End
+
+#HELP
+KeywordItalian repairshops~
+KeywordEnglish repairshops~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trepairshops
+
+Displays statistics on all the repair shops.
+~
+ToSee          makerepair repairset repairstat~
+End
+
+#HELP
+KeywordItalian repairstat~
+KeywordEnglish repairstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trepairstat <&gmobile vnum&w>
+
+Shows statistics on a mobile's repair shop.
+~
+ToSee          makerepair repairset repairshops~
+End
+
+#HELP
+KeywordItalian repeat~
+KeywordEnglish repeat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trepeat <&gletter&g>
+
+This command will repeat tell messages which you
+have already received. If no parameters are given
+it will simply produce the last tell you received.
+If a single letter is given, then the last tell
+sent to you by a character with a name starting
+with that letter will be displayed. This is an imm
+only command.
+~
+End
+
+#HELP
+KeywordItalian repop~
+KeywordEnglish repop~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Area resetting happens roughly every 3 minutes if there are no characters in
+in the area; less often (15 minutes) if any characters are present.  Also
+note that objects lying on the ground will not be regenerated if anyone
+is in the area when it resets.
+
+Area resets are indicated by 'squeaking noises' just prior to the reset.
+~
+End
+
+#HELP
+KeywordItalian reserve~
+KeywordEnglish reserve~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The "Reserve" command enables us to specify certain names that are
+reserved and cannot be used by players.
+
+We can specify names that we want to reserve because they belong to
+former imms (like Narn and Dominus). We can specify names that are
+often tried and are a bit of a pain (like Killer or Satan or Seth).
+
+We can specify parts of names by preceding the string with an "*">
+e.g.  reserve *goof
+This will prevent any name with the substring "goof" ... like ...
+"goofface", "biggoof" or "biggoofface".
+All deity names should be reserved.
+
+reserve                        list current reserved names
+reserve joe                    add joe to the list if he's not on it
+reserve joe                    remove joe to the list if he is on it
+reserve *goof                  add the substring "goof" to the list
+~
+End
+
+#HELP
+KeywordItalian reset~
+KeywordEnglish reset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Treset &glist&w   [&gstart&w] [&gend&w]
+&YSintassi&w:  °Treset &gdelete&w [&gnumber&w]
+&YSintassi&w:  °Treset &gadd&w    <&gcommand&w> <&gparameters&w>
+&YSintassi&w:  °Treset &ginsert&w <&gnumber&w> <&gcommand&w> <&gparameters&w>
+&YSintassi&w:  °Treset &gedit&w   <&gnumber&w> <&gcommand&w> <&gparameters&w>
+&YSintassi&w:  °Treset &garea&w   (will "reset" your area based on the defined resets)
+
+WARNING:
+  The order that resets are in is VERY important.  You cannot equip
+  a mobile with an object before putting the mobile into a room first.
+  Likewise, you cannot put an object into a container until the container is
+  put into a room first.
+
+This command is used to display, edit, delete, add and insert resets for
+your area.
+~
+ToSee          instazone resetcmds~
+End
+
+#HELP
+KeywordItalian resetcmds resetcommands~
+KeywordEnglish resetcmds resetcommands~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Treset &gedit&w   <&gnumber&w> <&gcommands&w>
+&YSintassi&w:  °Treset &ginsert&w <&gnumber&w> <&gcommands&w>
+&YSintassi&w:  °Treset &gadd&w    <&gcommands&w>
+
+Commands:
+MOB   <mobile vnum> <room vnum> [limit]  loads a mobile into a room
+OBJ   <object vnum> <room vnum> [limit]  loads an object into a room
+GIVE  <object vnum> [limit]              gives object to last loaded mobile
+EQUIP <object vnum> <position> [limit]   equips object on last loaded mobile
+PUT   <object vnum> <object vnum>        puts and object into another object
+DOOR  <room vnum> <door dir> <state>     resets a door to a certain state
+RAND  <room vnum> <last door dir>        randomizes a range of exits
+TRAP  <vnum> <type> <charges> <flags>    sets a trap
+HIDE  <object vnum>                      hides an object
+
+For EQUIP position, see WEARLOCS.
+For DOOR door dir, see DOORDIRS.
+For TRAP setting see TRAPSETTING.
+~
+ToSee          resets~
+End
+
+#HELP
+KeywordItalian restore~
+KeywordEnglish restore~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trestore <&gcharacter&w>
+           °Trestore &gall&w
+
+°Frestore restores full hit points, mana points, and movement points to the
+target character.  RESTORE ALL does this for all mortals except player
+killers and any who happen to be in the arena.
+
+A note on °Trestore &gall&w: This is a gift from the gods, and it is never
+planned in advance or done on request.  The best way to ensure that a
+restore all will NOT be done is to ask for one.
+~
+End
+
+#HELP
+KeywordItalian restoretime~
+KeywordEnglish restoretime~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Restoretime shows you how much time has passed since you last did a
+restore all. All Immortals between the levels of 53 and 56 can do one
+restore all per 18 hours of Real Time. Those of level 57+ can restore
+all at any given time, upon their discretion.
+~
+End
+
+#HELP
+KeywordItalian restrict~
+KeywordEnglish restrict~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trestrict <&gcommand&w>      -Displays the current level of the command.
+           °Trestrict <&gcommand&w>          -Displays the current level of the command
+
+Please remember to set the command back to its original level when you
+are done with it. Some commands may not be restricted.
+~
+End
+
+#HELP
+KeywordItalian retran~
+KeywordEnglish retran~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tretran <&gplayer&w>
+
+This command will return that player or mob to the room from which
+you last transferred it from.
+~
+End
+
+#HELP
+KeywordItalian rgrub~
+KeywordEnglish rgrub~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:
+
+RGRUB st n lo hi  -  list all room vnums between "lo" and "hi" that match
+                     sectortype "n"
+
+e.g.
+
+RGRUB st 1 900 969  -  list all sectortype 1 rooms in Olympus
+RGRUB st 3          -  list all sectortype 3 rooms in the whole mud
+
+Please use this command with caution. If you're not careful ... you can
+get 1,000 lines of output.
+~
+End
+
+#HELP
+KeywordItalian ris resistant immune susceptible~
+KeywordEnglish ris resistant immune susceptible~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Players and mobiles may have resistance, suceptibility or immunity to
+certain types of attack:
+
+FIRE      COLD      ELECTRICITY  ENERGY     BLUNT     PIERCE     SLASH
+ACID      POISON    DRAIN        SLEEP      CHARM     HOLD       NONMAGIC
+PLUS1     PLUS2     PLUS3        PLUS4      PLUS5     PLUS6      MAGIC
+PARALYSIS
+~
+End
+
+#HELP
+KeywordItalian rmenu~
+KeywordEnglish rmenu~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trmenu [&gmenu letter&w] (defaults to 'a' if none given)
+
+Rmenu will bring you into a menu system of editing rooms.  To use rmenu, you
+must be in the room that you are editing.  To choose an option in the menu,
+type the number of the section followed by the desired letter, and any
+variables that may follow.
+
+See &gmenu&w for generic menu commands.
+~
+End
+
+#HELP
+KeywordItalian roomflags~
+KeywordEnglish roomflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+FLAG NAME     |  BITVECTOR  |  DESCRIPTION
+----------------------------------------------------------------------
+DARK          |          1  |  Room is always dark
+DEATH         |          2  |  Room causes instant death
+NOMOB         |          4  |  Mobs cannot wander into this room
+INDOORS       |          8  |  Room is indoors - MUST also use sectortype 0
+LAWFUL        |         16  |  Room is oriented to those of lawful alignment
+NEUTRAL       |         32  |  Room is oriented to those of neutral alignment
+CHAOTIC       |         64  |  Room is oriented to those of chaotic alignment
+NOMAGIC       |        128  |  Magic cannot be used in this room
+TUNNEL        |        256  |  Room is a tunnel - x number of players allowed
+                               (use 'redit tunnel #' to  set the number)
+PRIVATE       |        512  |  Room is private (restricted to 2 people)
+SAFE          |       1024  |  Room is safe... no violence allowed
+SOLITARY      |       2048  |  Room is solitary (restricted to 1 person)
+PETSHOP       |       4096  |  Petshop (next vnum must be the storeroom)
+NORECALL      |       8192  |  Players cannot recall out of this room
+DONATION      |      16384  |  Donation room... cannot get all
+NODROPALL     |      32768  |  Cannot drop all in this room
+SILENCE       |      65536  |  Not a sound can be made or heard in this room
+LOGSPEECH     |     131072  |  All speech in this room is logged
+NODROP        |     262144  |  Nothing can be dropped in this room
+CLANSTOREROOM |     524288  |  Clan storage room
+NOSUMMON      |    1048576  |  Player cannot be summoned out of this room
+NOASTRAL      |    2097152  |  People cannot astral to this room
+TELEPORT      |    4194304  |  People in this room will be teleported out
+TELESHOWDESC  |    8388608  |  Players will see the room desc of the dest room
+NOFLOOR       |   16777216  |  Room has no floor: exit down + no fly = fall
+PROTOTYPE     | 1073741824  |  Room is a prototype, (under construction)
+NOMISSILE
+~
+End
+
+#HELP
+KeywordItalian roomtriggers rptriggers~
+KeywordEnglish roomtriggers rptriggers~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Trigger Optnl Triggering Variable Explanation
+------- ----- ------------------- -----------
+Act      {p}  <keyword / phrase>  [emotes, socials, actions, bamfs]
+Speech   {p}  <keyword / phrase>  [says or tells from within the room]
+Rand          <percentage>        [randomly triggered based on percentile]
+Sleep         <percentage>        [when a player sleep within the room]
+Rest          <percentage>        [when a player rests within the room]
+Entry         <percentage>        [when a mob/player enters the room]
+Fight         <percentage>        [when a player is fighting in the room]
+Death         <percentage>        [when a player dies in the room]
+Leave         <percentage>        [when a player leaves the room]
+Time          <hour>              [script prog, runs once on hour specified]
+Hour          <hour>              [loops as Script for an hour from start hour]
+
+*NOTE* {hour}/<hour> is in military time. ie, 15 hours is 3p.m. mud time.
+*NOTE* The mpcommand MPDONOTHING currently only works in Script progs,
+       NOT in Time or Hour progs.
+~
+ToSee          rpstat rpedit trigger rpcommands ifchecks variables~
+End
+
+#HELP
+KeywordItalian rpedit~
+KeywordEnglish rpedit~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trpedit <&gcommand&w> [&gnumber&w]  [&gprogram&w] [&garguments&w]
+&YSintassi&w:  °Trpedit &gadd&w       <&gprogram&w> <&garguments&w>
+&YSintassi&w:  °Trpedit &ginsert&w    <&gnumber&w>  <&gprogram&w> <&garguments&w>
+&YSintassi&w:  °Trpedit &gedit&w      <&gnumber&w>  [&gprogram&w] [&garguments&w]
+&YSintassi&w:  °Trpedit &gdelete&w    <&gnumber&w>
+&YSintassi&w:  °Trpedit &glist&w
+
+Add, insert and edit will put you into the line editor to edit your
+program.  The arguments consist of a trigger, plus any arguments
+associated with that trigger.
+
+To edit a toomprogram you must be in the room.
+~
+ToSee          rpstat trigger rptriggers rpcommands ifchecks ifchecks2 variables~
+End
+
+#HELP
+KeywordItalian rpfind~
+KeywordEnglish rpfind~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+  for room progs that contain an occurrence of text.
+   Display a maxiumu of n lines.
+
+rpfind n mud text
+   Search all the rooms in the mud for
+   room progs that contain an occurrence of text.
+   Display a maxiumu of n lines.
+
+Example:
+rpfind 20 901 969 if isnpc
+   Search all room progs in Olympus (vnums 901 thru 969)
+   and display all vnums that contain the text "if isnpc".
+   Display a maximum of 20 lines.
+
+Example:
+rpfind 100 mud mpslay
+   Search all room progs in the entire mud
+   and display all vnums that contain the text "mpslay".
+   Display a maximum of 100 lines.
+~
+End
+
+#HELP
+KeywordItalian rpstat~
+KeywordEnglish rpstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Trpstat
+
+°Frpstat will display all of the roomprograms that have been written for a
+room.  You must be standing in the room that you are rpstatting (though
+you can also use 'rpstat' in conjunction with the 'at' command to rpstat
+a room remotely).
+~
+ToSee          rpedit trigger rptriggers rpcommands ifchecks ifchecks2 variables~
+End
+
+#HELP
+KeywordItalian saveall~
+KeywordEnglish saveall~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsaveall
+
+This command allows all active and inactive pfiles to be saved as well as any
+prototype areas.
+~
+End
+
+#HELP
+KeywordItalian savearea loadarea~
+KeywordEnglish savearea loadarea~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsavearea
+           °Tloadarea
+
+°Fsavearea and °Tloadarea will save or load your prototype area.
+~
+End
+
+#HELP
+KeywordItalian savingthrows~
+KeywordEnglish savingthrows~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Saving throws:
+  sav1 - Saving vs. poison or death
+  sav2 - Saving vs. wands
+  sav3 - Saving vs. paralysis or petrification
+  sav4 - Saving vs. breath
+  sav5 - Saving vs. spells or staves
+  
+See MSET or type MSET by itself.
+~
+ToSee          mset~
+End
+
+#HELP
+KeywordItalian sectortypes~
+KeywordEnglish sectortypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+INSIDE              0
+CITY                1
+FIELD               2
+FOREST              3
+HILLS               4
+MOUNTAIN            5
+WATER_SWIM          6
+WATER_NOSWIM        7
+UNDERWATER          8
+AIR                 9
+DESERT             10
+UNKNOWN            11
+OCEANFLOOR         12
+UNDERGROUND        13
+~
+End
+
+#HELP
+KeywordItalian sshow~
+KeywordEnglish sshow~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsedit <&gsocial&w>
+
+View socials online.
+
+CNoArg: response to character if no argument given
+ONoArg: response to room if no argument given
+CFound: Response to character if target is someone else
+OFound: Response to room if target is someone else
+VFound: Response to target if target is someone else
+CAuto : Response to character if target is self
+OAuto : Response to room if target is self
+
+$n - Name of the user of the social.
+$N - Name of the target of the social.
+$m - him/her/it for the user the social.
+$M - him/her/it for the target of the social.
+$s - his/her/its for the user of the social.
+$S - his/her/its for the targt of the social.
+$e - he/she/it for the user of the social.
+$E - he/she/it for the target of the social.
+~
+End
+
+#HELP
+KeywordItalian setboot~
+KeywordEnglish setboot~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsetboot &gtime&w <&ghour&w> <&gminute&w>
+           °Tsetboot &gmanual&w <&g0&w|&g1&w>
+
+The °Tsetboot command is useful for planning a reboot, (to save you from
+the trouble of all those echos :) ) and for the daily boot.  The manual
+bit is used by the mud to determine whether the boot time was set by
+hand.  When the mud starts up, the boot time is set to 0600hrs (6am)
+and the manual bit to 0.  If 'setboot time' is used, the mud sets the
+manual bit to 1.  When it comes time to do the reboot, the mud checks
+how long it has been running.  If it has been running less than 18
+hours and the reboot time has not been set manually, the reboot does
+not take place (nor do the automatic warning echoes).
+
+Echoes: when a scheduled reboot is coming up, the mud will send out
+echoes to that effect.  The echoes start 30 minutes before the reboot
+and are repeated at t minus 15, 10, 5, 4, 3, 2 and 1 minute(s).
+~
+End
+
+#HELP
+KeywordItalian setclan~
+KeywordEnglish setclan~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsetclan <&gclan&w> <&gfield&w> <&gdeity&w|&gleader&w|&gnumber1&w|&gnumber2&w> <&gplayer&w>
+
+Field being one of:
+ deity leader number1 number2
+ members board recall storage guard1 guard2
+ align (not functional) memlimit obj1 obj2 obj3 obj4 obj5
+ name filename motto desc
+ favour strikes type class
+ pkill1-7 pdeath1-7
+ex: to set a new person in the number 1 spot of guild of warriors..
+setclan 'guild of warriors' number1 <name>
+~
+End
+
+#HELP
+KeywordItalian setrace~
+KeywordEnglish setrace~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsetrace <&gracename&w> <&gfield&w>
+
+°Fsetrace &g<name>      &wwill name your newly created race
+°Fsetrace &g<name> save &wwill save the creation and changes.
+
+°Fsetrace &g<name> <language> &wdetermines the races native language.
+Field &gclasses&w  will set the allowed classes. IE.. °Tsetrace elf classes
+cleric paladin would allow those classes for the race. This is a toggle feature
+that will disallow the same classes if repeated.
+
+Field(s) &gstrplus dexplus wisplus intplus conplus chaplus lckplus &w apply
+the set modifier to the race.(setrace elf str 2 gives elves +2 bonus to str).
+Setrace <race> &ghit &wor &gmana  &wwill determine the amnt of hps or mana
+gained by leveling. Example: °Fsetrace drow hit 5 would yield a 5pnt hp gain with
+each level.
+
+°Fsetrace &galign &wdetermines the alignment default for the race.
+(°Fsetrace mage align 500 sets the mage default alignment to 500)
+
+°Fsetrace <racename> &g minalign&w/&gmaxalign &w sets min and maxs  from
+ -1000  to 1000 to determine if a penalty will be applied.  If the max align is
+500 - character would suffer a mental state penalty for straying above 500.
+~
+ToSee          showrace setrace2~
+End
+
+#HELP
+KeywordItalian setrace2~
+KeywordEnglish setrace2~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+°Fsetrace &Wracename &gaffected /attack/resist/suscept/defense&w are similar
+to msetting mobs. Setrace elf affected resist poison would make the race
+resistant to poison attacks
+
+°Fsetrace <racename> &gheight/weight &w<value> do not have  affects..yet.
+
+°Fsetrace with a field of  &ghungermod/thirstmod &w will determine the rate of
+thirst or hunger  is affected by upon each round.
+
+°Fsetrace  <racename> &gexpmultiplier &w determines the rate of experience
+acquired from leveling, adepting or successfully using skills and spells .
+Example: If a race with an experience modifier of 80 , the race would gain 80 %
+of the exp.that a human would by having completed the same task.
+
+°Fsetrace <racename> &gacplus &w <variable> sets the armor class for the race
+without any equipment or spells.
+See also: AC
+
+°Fsetrace <race> <save>
+&gsaving_poison,death,saving_wand,saving_,para_petri,saving_breath,
+saving_spell_staff &wwill modify the races saving throw capabilities.
+~
+ToSee          showrace setrace1~
+End
+
+#HELP
+KeywordItalian shops~
+KeywordEnglish shops~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tshops
+
+Displays statistics on all the shops.
+~
+ToSee          makeshop shopset shopstat~
+End
+
+#HELP
+KeywordItalian shopset~
+KeywordEnglish shopset~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tshopset <&gmobile vnum&w> <&gfield&w> <&gvalue&w>
+
+-----------------------------------------------
+| Fields | Meaning                            |
+-----------------------------------------------
+| buy#   | Types of items the keeper will buy |
+| buy    | Profit on buying items             |
+| sell   | Profit on selling items            |
+| open   | Hour shop opens                    |
+| close  | Hour shop closes                   |
+| keeper | Vnum of shop keeper                |
+-----------------------------------------------
+
+Lets you set certain stats on a shop.
+~
+ToSee          makeshop shopstat shops shopvalues~
+End
+
+#HELP
+KeywordItalian shopstat~
+KeywordEnglish shopstat~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tshopstat <&gmobile vnum&w>
+
+Shows statistics on a mobile's shop.
+~
+ToSee          makeshop shopset shops~
+End
+
+#HELP
+KeywordItalian shopvalues~
+KeywordEnglish shopvalues~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tshopset <&gmobile vnum&w> &gbuy#&w <&gvalue&w>
+
+1  - light               21 - pen                41 - rune
+2  - scroll              22 - boat               42 - runepouch
+3  - wand                23 - corpse             43 - match
+4  - staff               24 - corpse_pc          44 - trap
+5  - weapon              25 - fountain           45 - map
+6  - _fireweapon         26 - pill               46 - portal
+7  - _missile            27 - blood              47 - paper
+8  - treasure            28 - bloodstain         48 - tinder
+9  - armor               29 - scraps             49 - lockpick
+10 - potion              30 - pipe               50 - spike
+11 - _worn               31 - herbcon            51 - disease
+12 - furniture           32 - herb               52 - oil
+13 - trash               33 - incense            53 - fuel
+14 - _oldtrap            34 - fire               54 - shortbow
+15 - container           35 - book               55 - longbow
+16 - _note               36 - switch             56 - crossbow
+17 - drinkcon            37 - lever              57 - projectile
+18 - key                 38 - pullchain          58 - quiver
+19 - food                39 - button             59 - shovel
+20 - money               40 - dial               60 - salve
+~
+End
+
+#HELP
+KeywordItalian showclan~
+KeywordEnglish showclan~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tshowclan <&gclan name&g>
+
+Displays statistics on a clan, guild and order.
+~
+End
+
+#HELP
+KeywordItalian showlayers~
+KeywordEnglish showlayers~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  showlayers <number of lines>
+
+Example: showlayers 100   (lists a maximum of 100 lines)
+
+This command is used by builders to show all equipment in the game
+that is layerable.
+
+It is used by builders to help decide what eq should be made layerable
+and what kind of stats to give the eq.
+
+We don't want players to be able to wear 10 pieces of eq on the same
+wear location and get huge stats as a result.
+~
+End
+
+#HELP
+KeywordItalian showrace~
+KeywordEnglish showrace~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tshowrace <&gname of race&w>
+
+This will give vital statistics on pc races. IE.. showrace lizardmen
+would net the following:
+
+Disallowed Classes:Mage Cleric Thief Vampire Druid Augurer
+Paladin Nephandi
+Allowed Classes:Warrior Ranger
+Str Plus: 002   Dex Plus: -003  Wis Plus: -006  Int Plus: -006
+Con Plus: 002   Cha Plus: -002  Lck Plus: -004
+Hit Pts:  002   Mana: 000       Align:0 AC: 0
+Min Align:  -1000       Max Align: 500  XP Mult:91%
+Height:  78 in. Weight: 215 lbs.         HungerMod: 0    ThirstMod: 0
+Affected by:aqua_breath
+Resistant to:slash
+Susceptible to:
+Saves: (P/D) 0 (W) 0 (P/P) 0 (B) 0 (S/S) 0
+Innate Attacks:tail
+Innate Defenses:
+~
+ToSee          setrace~
+End
+
+#HELP
+KeywordItalian slay~
+KeywordEnglish slay~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tslay <&gvictim&g> [&gimmolate&g/&gshatter&g/&gdemon&g]
+
+°Fslay kills a character in cold blood, no saving throw.
+
+The optional parameters cause different messages to be sent to the actor,
+the victim and the room, just for a bit of variety.
+
+°Fslay bypasses auto actions such as autoloot and autosac.
+~
+End
+
+#HELP
+KeywordItalian slookup~
+KeywordEnglish slookup~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tslookup <&gskill-or-spell&w>
+&YSintassi&w:  °Tslookup &gall&w
+
+°Fslookup shows you the internal 'sn' and external 'slot' for the given skill
+or spell.  The 'sn' is used for °Toset and °Tostat.  The 'slot' is used for area
+files.  Neither 'sn' nor 'slot' is used for player files; these operate with
+the actual skill and spell names.
+
+°Fslookup ALL shows this information for all skills and spells.
+~
+End
+
+#HELP
+KeywordItalian slotlist~
+KeywordEnglish slotlist~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSyntax&w: °Tslotlist
+
+This command will list the skill table, but sorted by slot number. It's
+useful for spotting slot gaps, and slot problems such as spells with
+a slot of zero, or duplicate slots.
+~
+ToSee          slookup skills~
+End
+
+#HELP
+KeywordItalian smaugspells~
+KeywordEnglish smaugspells~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+SMAUG has a specially coded spell type "spell_smaug", which is a generic
+spell handler that uses the extra spell fields to determine what the spell
+is going to achieve.
+
+damtype   the class of damage done (see DAMTYPES)
+acttype   the action of the spell (see ACTTYPES)
+classtype the class of spell (see CLASSTYPES)
+powertype the power ranking of the spell (see POWERTYPES)
+flag      special extra flags this spell has (see SPELLFLAGS)
+hit       Message displayed when spell is successful
+miss      Message displayed when spell misses or fails
+die       Message sent if spell causes death
+imm       Message sent if victim is immune
+(Messages must specify char, vict or room, ie: hitchar, hitvict, hitroom)
+dice      a dice formula used for rolling things like damage (see DICEFORMULAS)
+saves     saving throw victim gets (see SPELLSAVES)
+bitvector see AFFECTED_BY, the bitvector applied by the spell, if any
+affects   see AFFECTTYPES, the effect the spell has, if any
+value     an extra field reserved for things like the vnum used in spells
+          that create objects, or summon monsters to the caster's aid.
+~
+End
+
+#HELP
+KeywordItalian sober~
+KeywordEnglish sober~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsober <&gplayer&w>
+This command can be used to Sober a player or your self when they/you
+are in a drunken state.
+~
+End
+
+#HELP
+KeywordItalian specfuncs~
+KeywordEnglish specfuncs~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+These special functions are available to assign to mobiles.
+Use them sparingly:
+
+To add spec:  °Tmset <&gmob&w> &gspec&w <&gfunction&w> (ex. mset guard spec spec_guard)
+To remove:    °Tmset <&gmob&w> &gspec&w &gnone&w
+
+spec_breath_any        Mobiles breathes one of the four breaths randomly.
+spec_breath_acid       Mobile has breath of acid.
+spec_breath_fire       Mobile has breath of fire.
+spec_breath_frost      Mobile has breath of frost
+spec_breath_gas        Mobile has gas breath.
+spec_breath_lightning  Mobile has lightning breath.
+spec_cast_adept        Mobile casts helpful spells.
+spec_cast_cleric       Mobile casts healing spells.
+spec_cast_mage         Mobile casts offensive spells during battle.
+spec_cast_undead       Mobile casts offensive spells during battle.
+spec_guard             Mobile attacks KILLERS and THIEVES.
+spec_executioner       Same as above except summons guards to help.
+spec_fido              Mobile eats corpses.
+spec_janitor           Mobile picks up trash.
+spec_mayor             Reserved for the mayor... don't use.
+spec_poison            Mobile poisons during battle.
+spec_thief             Mobile steals gold from players.
+~
+End
+
+#HELP
+KeywordItalian spellcompare~
+KeywordEnglish spellcompare~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+(RR) convertirlo in comando
+ Det Mag         Aug   Dru   Cle   Mag   Ran   Pal
+ Cr food         Aug         Cle         Ran   Pal
+ cont light      Aug         Cle   Mag   Ran   Pal
+ Det Mag         Aug   Dru   Cle   Mag   Ran   Pal
+ Det invis       Aug   Dru   Cle   Mag   Ran   Pal
+ Dis Magic       Aug   Dru   Cle   Mag   Ran
+ Dream                 Dru   Cle   Mag   Ran
+ Enchant         Aug   Dru         Mag
+ Ener Dra        Aug   Dru         Mag
+ Faerie Fir      Aug   Dru   Cle   Mag   Ran
+ Float           Aug   Dru   Cle   Mag   Ran   Pal
+ Fly             Aug   Dru   Cle   Mag
+ harm            Aug   Dru   Cle
+ ident           Aug   Dru   Cle   Mag   Ran   Pal
+ infravision     Aug   Dru         Mag   Ran
+ Invis           Aug   Dru         Mag   Ran
+ Know align            Dru   Cle   Mag   Ran   Pal
+ lightning bolt  Aug   Dru         Mag
+ locate          Aug   Dru   Cle   Mag
+ recall          Aug   Dru   Cle   Mag   Ran   Pal
+ stone skin      Aug   Dru         Mag   Ran   Pal
+ shock gras      Aug   Dru         Mag
+ shield          Aug   Dru         Mag   Ran   Pal
+ scry                  Dru   Cle   Mag
+ Sanct           Aug   Dru   Cle
+ Rem Trap              Dru   Cle   Mag
+ Rem Invis       Aug   Dru         Mag   Ran
+ Rem Curse             Dru   Cle               Pal
+ Refresh         Aug   Dru   Cle   Mag   Ran   Pal
+ Poison          Aug   Dru   Cle         Ran
+ Passdoor        Aug   Dru         Mag   Ran
+ Massinvis             Dru   Cle   Mag
+~
+End
+
+#HELP
+KeywordItalian spellcomponents~
+KeywordEnglish spellcomponents~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+T###         check for item of type ###
+V#####       check for item of vnum #####
+Kword        check for item with keyword 'word'
+G#####       check if player has ##### amount of gold
+H####        check if player has #### amount of hitpoints
+
+Special operators:
++ don't consume this component
+@ decrease component's value[0], and extract if it reaches 0
+# decrease component's value[1], and extract if it reaches 0
+$ decrease component's value[2], and extract if it reaches 0
+% decrease component's value[3], and extract if it reaches 0
+decrease component's value[4], and extract if it reaches 0
+decrease component's value[5], and extract if it reaches 0
+and ! will make the spell fail if the caster is carrying that component.
+
+Example: V1100 V+1101
+The spell will only succeed if the caster is carrying objects of vnums
+1100 and 1101.  The object of vnum 1100 will get consumed by the spell,
+and the object of vnum 1101 will not.
+
+With the decremental operators (@#$%), the object must have at least
+a value of 1 in the respective location for the spell to succeed.
+~
+End
+
+#HELP
+KeywordItalian spellflags~
+KeywordEnglish spellflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+WATER           water based (create water, ice spells)
+EARTH           interracts with nature (earthquake)
+AIR             involve the air or winds
+ASTRAL          involve the astral plane (astral walk)
+AREA            an "area spell"... affects everyone in the room
+DISTANT         affects something far away
+REVERSE         has a reverse affect
+SAVE_HALF_DAM   victim can save for half damage
+SAVE_NEGATES    victim can save for no effect
+ACCUMULATIVE    can be cast repeatedly to have an increased effect
+RECASTABLE      can be cast again to refresh the spell
+NOBREW          cannot be brewed into a potion
+NOSCRIBE        cannot be scribed onto a scroll
+GROUP           affects everyone in the caster's group (same room only)
+OBJECT          specifically affects an object (for target 'ignore')
+CHARACTER       specifically affect a character (for target 'ignore')
+PKSENSITIVE     affects target as if they were double your level
+~
+End
+
+#HELP
+KeywordItalian spellsaves~
+KeywordEnglish spellsaves~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Here are the saving throws you can set for use in SMAUG spells:
+NONE            victim doesn't get a saving throw
+POISON_DEATH    save vs. poison or death
+WANDS           save vs. wands
+PARA_PETRI      save vs. paralysis or petrification
+BREATH          save vs. (dragon) breath
+SPELL_STAFF     save vs. spells or staves
+~
+End
+
+#HELP
+KeywordItalian strip~
+KeywordEnglish strip~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tstrip <&gvictim&w>
+
+Silently transfers their entire inventory and clothing to yours.
+~
+End
+
+#HELP
+KeywordItalian superbless~
+KeywordEnglish superbless~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tsuperbless <&gmessage&w>
+
+This will cast a list of spells and also echo an announcement if more
+then just "superbless" is typed.  Example:
+
+superbless The God's feel it is time for a gift.
+
+You can not direct it at a specific persons, it is for all on the MUD.
+~
+End
+
+#HELP
+KeywordItalian switch return~
+KeywordEnglish switch return~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tswitch <&gcharacter&w>
+&YSintassi&w:  °Treturn
+
+°Fswitch switches you into the body of another character (who must not
+already have a descriptor, e.g. you can't switch into a PC).
+
+°Freturn returns you to your original body.
+~
+End
+
+#HELP
+KeywordItalian targettypes~
+KeywordEnglish targettypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Target                Function
+--------------------------------------------------------------------
+IGNORE                Spell affect relies on the casting argument
+OFFENSIVE             Spell will initiate combat
+DEFENSIVE             Can be cast on anyone safely
+SELF                  Spell only affects the caster
+OBJINV                Casted onto an object in the caster's inventory
+~
+End
+
+#HELP
+KeywordItalian tick~
+KeywordEnglish tick~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Many of the actions in the Bard are based upon interval timers, including
+combat, most autonomous monster actions, hp/mana/move regeneration, spell
+duration, weather, and area resetting.
+
+Of these timers, the hp/mana/move regeneration timer is popularly called the
+'tick'.  Ticks in these Realms average 60 seconds of real time, but the
+actual amount varies randomly from 45 seconds to 75 seconds.
+
+Area resetting happens roughly every 3 minutes if there are no characters in
+in the area; less often (15 minutes) if any characters are present; Also,
+some lower level areas have shorter reset periods, while some higher level
+areas have longer reset periods.
+
+Note that objects lying on the ground will not be regenerated if anyone is
+in the area when it resets.
+
+Area resets are indicated by 'squeaking noises' or other messages just prior
+to the reset itself.
+~
+End
+
+#HELP
+KeywordItalian timer~
+KeywordEnglish timer~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Associated help files: &gcorpse&w, &gimm cr&w, &gbodybag&w
+
+31 to 40                "is lying here."
+23 to 30                "is buzzing with flies."
+15 to 22                "fills the air with a foul stench."
+07 to 14                "is crawling with vermin."
+01 to 06                "is in the last stages of decay."
+
+Since a corpse now lasts from 40 to 60 minutes, we are requested to wait
+until the corpse has reached below a timer of 23 or has hit the
+"fills the air with a foul stench." stage in decay.
+
+You can see what stage of decay a corpse is in by either typing:
+°Tostat <&gplayer name&w>       (i.e. ostat Brittany)    OR
+°Tat &gcorpse&w <&gname&w> °Tlook   (i.e. at 'corpse Brittany' look)
+~
+End
+
+#HELP
+KeywordItalian tongue tongues~
+KeywordEnglish tongue tongues~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+The different PC languages include common, elvish, dwarven, pixie, ogre, orcish,
+trollese, goblin, halfling and gith.
+
+NPC languages include rodent, insectoid, mammal, reptile, dragon, spiritual,
+magical, god, and ancient.
+~
+End
+
+#HELP
+KeywordItalian transfer~
+KeywordEnglish transfer~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Ttransfer <&gbersaglio&w>
+           °Ttransfer &gall&w
+           °Ttransfer <&gbersaglio>&w <&glocation&w>
+           °Ttransfer &gall&w         <&glocation&w>
+
+Trasferisce l'avventuriero specificato o tutti i pg nella tua corrente
+locazione (default) o in una a tua scelta.
+~
+End
+
+#HELP
+KeywordItalian trapflags~
+KeywordEnglish trapflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Flags to describe a trap and what triggers it:
+
+ROOM    - Trap is in a room
+OBJ     - Trap is on an object
+ENTER   - Trap is triggered by entering the room
+LEAVE   - Trap is triggered by leaving the room
+OPEN    - Trap is triggered by opening
+CLOSE   - Trap is triggered by closing
+GET     - Trap is triggered by getting the object
+PUT     - Trap is triggered by putting the object
+EXAMINE - Trap is triggered by examining the object
+PICK    - Trap is triggered by picking the object
+UNLOCK  - Trap is triggered by unlocking the object
+NORTH   - Trap is triggered by moving north
+SOUTH   - Trap is triggered by moving south
+EAST    - Trap is triggered by moving east
+WEST    - Trap is triggered by moving west
+UP      - Trap is triggered by moving up
+DOWN    - Trap is triggered by moving down
+~
+ToSee          reset trapsetting traptypes~
+End
+
+#HELP
+KeywordItalian trapsetting~
+KeywordEnglish trapsetting~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Setting a trap is a little tricky.
+
+Parameters: <vnum> <type> <charges> <flags>
+VNUM    - The vnum of either the room or object to be trapped.
+TYPE    - The type of trap.  (See TRAPTYPES)
+CHARGES - The number of charges this trap should contain.
+FLAGS   - Flags specifying the characteristics of the trap.
+          (ie: room trap or object trap, what triggers the trap, etc.)
+~
+ToSee          resets traptypes trapflags~
+End
+
+#HELP
+KeywordItalian traptypes~
+KeywordEnglish traptypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Types of traps:
+
+ --------------------------------------------------------------------
+ | Number | Description             | Number | Description          |
+ --------------------------------------------------------------------
+ |    1   | Poison gas              |    8   | Flame                |
+ |    2   | Poison dart             |    9   | Explosion            |
+ |    3   | Poison needle           |   10   | Acid Spray           |
+ |    4   | Poison dagger           |   11   | Electric Shock       |
+ |    5   | Poison arrow            |   12   | Blade                |
+ |    6   | Blindness gas           |   13   | Sex change spell     |
+ |    7   | Sleeping gas            |        |                      |
+ --------------------------------------------------------------------
+~
+ToSee          reset trapsetting trapflags~
+End
+
+#HELP
+KeywordItalian trigger~
+KeywordEnglish trigger~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+A trigger is an action, phrase, or game event that causes a program
+held within a room, mob or object, to begin playing out its commands.
+
+Triggers can be anything from a player or mob entering a room, to a
+player stating a particular phrase within a room, or to a mob or an
+object.
+~
+ToSee          rptriggers mptriggers optriggers~
+End
+
+#HELP
+KeywordItalian trust~
+KeywordEnglish trust~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Ttrust <&gcharacter&w> <&gtrust&w>
+
+(RR)
+~
+End
+
+#HELP
+KeywordItalian unfoldarea~
+KeywordEnglish unfoldarea~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tunfoldarea <&garea filename&w>
+
+This command will load up an area file.
+
+NOTE:  It could be quite dangerous to unfold an area that is already
+       loaded, or one that has not been tested.
+~
+End
+
+#HELP
+KeywordItalian useprog~
+KeywordEnglish useprog~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Topedit <&gobject&w> <&gcommand&w> [&gnumber&w] [&guse_prog&w] [&gpercentage&w]
+
+The use_prog is an objtrigger that can be used in object programs.  The
+use_prog will be executed when the item is used.  To define what will
+trigger the use_prog, here is a list:
+
+* Wands - when you zap
+* Staves - when you brandish
+* Food/pills - when you eat
+* Blood/fountains/drink containers - when you drink
+* Lights/armour/weapons - when you wear/wield/hold
+* Potions - when you quaff
+* Pipes - when you smoke
+
+When the use_prog is executed you will not see the standard 'use message'
+(ie You quaff a violet potion). What you will will be any mpechoes placed
+in the program.  Also, any mobprog commands can be used in use_prog (°Thelp
+&gmpcommands&w).
+
+**NOTE** The use_progs on lights, armour, and weapons are executed BEFORE
+the player wears/holds/wields any item. Therefore, a mpforce to remove the
+item will not work in the use_prog.  You will have to use a wear trigger
+to accomplish this.
+~
+End
+
+#HELP
+KeywordItalian users~
+KeywordEnglish users~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tusers <&ghost ip&w>
+&YSintassi&w:  °Tusers <&gplayername&w>
+
+°Fusers reports all of the visible users connected to the server, including users
+in the process of logging in.
+If used with an argument, it will show all users from that host ip.
+Shortforms of host will work -- e.x. 205, or 205.113, etc.
+Shortened names will also work.  e.x., users fre would show
+Fredrick and Fred if they were on at the time.
+The first number, (desc), is the descriptor number that this user is on.
+The second number is the user's connected state.  (See CONSTATES)
+The third number is the number of seconds the user has been idle.
+The fourth number is the remote TCP port on the user's host machine.
+Next is the user's character name, then the user's host address.
+(Usually the IP number as name resolving is normally disabled.)
+
+The °Tforceclose command can be used to force a connect to close by its
+descriptor number.
+~
+End
+
+#HELP
+KeywordItalian vnums~
+KeywordEnglish vnums~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tvnums [&glow&w] [&ghigh&w]
+
+Lists the vnum range for rooms/mobs/objects in all prototype areas.
+~
+End
+
+#HELP
+KeywordItalian vsearch~
+KeywordEnglish vsearch~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tvsearch <&gvnum&w>
+
+This command will list all instances of an object with that vnum that
+are currently in the game.
+~
+End
+
+#HELP
+KeywordItalian watch~
+KeywordEnglish watch~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Twatch                  &W Shows you a help screen
+&YSintassi&w:  °Twatch &gsize&w             &W Shows the size of your watch file
+&YSintassi&w:  °Twatch &gclear&w            &W Deletes your watch file
+&YSintassi&w:  °Twatch &gshow&w             &W Shows all your active watches
+&YSintassi&w:  °Twatch &gplayer&w <&gname&w>    &W Starts watching a player
+&YSintassi&w:  °Twatch &gsite&w <&gsite&w>      &W Starts watching all players from site
+&YSintassi&w:  °Twatch &gdelete&w <&gnumber&w>  &W Stops a watch
+&YSintassi&w:  °Twatch &gprint 1&w          &W Shows file starting at line 1
+&YSintassi&w:  °Twatch &gprint 500&w       &W Shows file starting at line 500
+&YSintassi&w:  °Twatch &gprint 500 100&w   &W Shows 100 lines starting at line 500
+
+°Fwatch will work 24 hours a day from the time you put a watch on a player until
+you take it off. You can also watch all players from a specific site.
+
+We need you to be real careful about the size of your watch file. If you
+are watching a number of players or sites, please do not just forget about
+your watches and allow your watch file to grow to outrageous sizes. You
+should never have more than 5,000 or 10,000 lines in your watch file.
+If you are doing some watching, be sure you check your watch file daily
+and either print it, display it, copy it to your hard drive or do whatever
+you need to do with it but then ... please ... please ... be sure you
+clear it so that it don't grow huge and eat up all our hard drive space.
+If you clear your watch file daily ... there should be no problem. If you
+aren't watching anyone ... you don't have to worry about this. But if you
+start a watch, it is your responsibility to know how big your watch file
+is and to stop the watch when you no longer need it. The command
+&G"watch size" &W tells you how many lines are in your watch file.
+The command &G"watch clear"&W clears (deletes) your watch file.
+For the time being the maximum number of lines you can display at one time
+is 1000. So ... even if you have 5,000 lines in your watch file ... you can
+only display 1,000 at a time.
+~
+End
+
+#HELP
+KeywordItalian weaponcondition weaponconditions~
+KeywordEnglish weaponcondition weaponconditions~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Value0  Condition
+------  ---------
+  12    in superb condition.
+  11    in excellent condition.
+  10    in very good condition.
+   9    in good shape.
+   8    showing a bit of wear.
+   7    a little run down.
+   6    in need of repair.
+   5    in great need of repair.
+   4    in dire need of repair.
+   3    very badly worn.
+   2    practically worthless.
+   1    almost broken.
+   0    broken.
+~
+ToSee          oset objecttypes weapontypes itemvalues omenu~
+End
+
+#HELP
+KeywordItalian weapontypes~
+KeywordEnglish weapontypes~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+For items of type "weapon", the value3 field specifies the weapon type:
+
+Value3 | Type     | Weapons     | Skill
+-------------------------------------------------------------
+   0   | hit      | general     |pugilism
+   1   | slice    | knife/sword |long blades
+   2   | stab     | dagger      |short blades
+   3   | slash    | sword       |long blades
+   4   | whip     | whip        |flexible arms
+   5   | claw     | claw        |talonous arms
+   6   | blast    | magical     |pugilism
+   7   | pound    | club/hammer |bludgeons
+   8   | crush    | club/hammer |bludgeons
+   9   | grep     |             |
+  10   | bite     |             |pugilism
+  11   | pierce   | dagger      |short blades
+  12   | suction  |             |pugilism
+  13   | bolt     | crossbow    |missile weapons
+  14   | arrow    | bow         |missile weapons
+  15   | dart     | pipe        |missile weapons
+  16   | stone    | sling       |missile weapons
+  17   | pea      | peashooter  |missile weapons
+~
+ToSee          oset missiles weaponcondition itemvalues~
+End
+
+#HELP
+KeywordItalian wearflags~
+KeywordEnglish wearflags~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+These flags should be self explanatory:
+
+ take   finger   neck    body    head   legs
+ feet   hands    arms    shield  about  waist
+ wrist  wield    hold    ears    eyes
+~
+ToSee          oset resetcmds armorclass~
+End
+
+#HELP
+KeywordItalian wearlocs~
+KeywordEnglish wearlocs~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+Here are the various locations where items may be equipped:
+
+ ---------------------------------------------------------
+ |  0 | light       |  1 | finger1     |  2 | finger2    |
+ |  3 | neck1       |  4 | neck2       |  5 | body       |
+ |  6 | head        |  7 | legs        |  8 | feet       |
+ |  9 | hands       | 10 | arms        | 11 | shield     |
+ | 12 | about       | 13 | waist       | 14 | wrist1     |
+ | 15 | wrist2      | 16 | wield       | 17 | hold       |
+ | 18 | dual_wield  | 19 | ears        | 20 | eyes       |
+ ---------------------------------------------------------
+~
+ToSee          resets resetscmds~
+End
+
+#HELP
+KeywordItalian where~
+KeywordEnglish where~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Twhere
+&YSintassi&w:  °Twhere <&gpersonaggio&w>
+
+°Fwhere senza argomento ti dice dove sono tutti i giocatori visibili nella
+tua stessa area.
+
+°Fwhere con un argomento ti dice dove è un personaggio con quel nome all'interno
+della tua area, inclusi i mostri.
+~
+End
+
+#HELP
+KeywordItalian chie whois~
+KeywordEnglish chie whois~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w: °Twhois <&ggiocatore&w>
+
+Il comando °Twhois mostra un po' piu' di informazioni su un giocatore che e'
+online. In pratica ti mostra chi e' quel giocatore.
+~
+End
+
+#HELP
+KeywordItalian incognito~
+KeywordEnglish incognito~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+All immortals have the responsibility to be available to others whenever
+possible, be they mortal or immortal.  When the use of wizinvis is called
+for, the following are parameters for its use:
+
+ - Immortals level 51 through 54 should be visible at all times, save
+   for when snooping, running a quest or some similar circumstance.
+
+ - Immortals level 55 and up may invis to any level at their discretion.
+
+Guidelines for use of wizinvis by 55 and higher:
+It is considered mandatory to be visible to all other immortals whenever
+reasonably able to do so.  Using wizinvis beyond 51 to facilitate work on
+a project, allow concentration on something, avoid excessive tells or the
+like is fine, but it should only be used while necessary.
+
+Guidelines for use of wizinvis beyond 51 in immortal channels:
+Sightings of Someones in immortal channels should be kept to a minimum.
+If you are free enough to be able to use an immortal channel, you should
+be visible to the lowest immortal in that channel; no higher than 54 in
+Muse, no higher than 51 in immtalk, etc.  Being a Someone to anyone on
+an immortal channel should only occur if you're too tied up to go
+visible but need to make a comment.
+
+The same applies to all situations using channels, tells or actions.
+Avoid being a Someone to mortals and immortals alike unless you have
+a good reason to do otherwise.
+~
+End
+
+#HELP
+KeywordItalian worth~
+KeywordEnglish whort~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  worth
+
+WORTH shows a simple, easy-to-read table of important and widely used
+statistics. This command is for the character itself and cannot be used
+on others. The Statistics that follow have been included in the table:
+Level, Favor, Alignment, Experience, Glory, Weight, Style, and Gold.
+~
+End
+
+#HELP
+KeywordItalian zones~
+KeywordEnglish zones~
+Type           HELPTYPE_ADMIN
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  °Tzones [&glow&w] [&ghigh&w]
+
+Lists the name of the file, and room/mob/object vnum range for each
+non-prototype zone in the mud.
+~
+End
+
+
+#END

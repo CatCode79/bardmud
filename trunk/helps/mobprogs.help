@@ -1,0 +1,2021 @@
+#HELP
+KeywordItalian 'ifcheck canpkill'~
+KeywordEnglish 'ifcheck canpkill'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if canpkill($n)
+            mpechoat 0.$n Your fate awaits, $n.
+
+&cThe CANPKILL ifcheck is used to determine if the target is a:
+- Minimum age of 18,
+- Minimum level of 5, and
+- pkiller.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck cansee'~
+KeywordEnglish 'ifcheck cansee'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if cansee($n)
+            '$n can see just fine!
+
+The CANSEE ifcheck is used to determine if the target is able to see.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck cha'~
+KeywordEnglish 'ifcheck cha'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if cha($n) > 18
+            'You're very charismatic, $n!
+
+The CHA ifcheck is used to direct a command based on the charisma stat of the
+target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck charcount'~
+KeywordEnglish 'ifcheck charcount'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if charcount(21000) > 10
+
+CHARCOUNT ifcheck counts the number of chars in the specified room. This
+example returns TRUE if there are more than 10 chars in room 21000.
+You can use this form in room or mob programs and you can have one room program
+check the number of chars in a different room.
+Note the number of characters is defined as the number of mortals plus the
+number of mobs.
+
+Example:  &cif charcount(0) > 10
+
+Use a zero room number if you want to have a mob check the number of chars in
+its room.
+Note that if the mob changes rooms, the ifcheck applies to whatever room the mob
+is in.
+You should use this form in mob programs only.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck clan'~
+KeywordEnglish 'ifcheck clan'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if clan($n) == inconnu
+            tell 0.$n You're an Inconnu!
+The CLAN ifcheck is used to determine if the target belongs to a Clan or Order.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck clantype'~
+KeywordEnglish 'ifcheck clantype'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+EXAMPLE:  if clantype($n) == 15
+            '$n belongs to an Order.
+
+The CLANTYPE is used to determine what type of clan the target belongs to.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck class'~
+KeywordEnglish 'ifcheck class'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if class($n) == 0
+            t 0.$n You're a mage!
+
+The CLASS ifcheck is used to determine the class of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck con'~
+KeywordEnglish 'ifcheck con'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if con($n) < 5
+            'You're constitution is low, $n.
+The CON ifcheck is used to direct a command based on the constitution stat of
+the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck council'~
+KeywordEnglish 'ifcheck council'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if council($n) == 1
+            '$n is from the Council of Elders.
+
+The COUNCIL ifcheck determines what council the target belongs to.
+(訊help &gcouncilnums&w)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck deity'~
+KeywordEnglish 'ifcheck deity'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if deity($n) == vl'arescht
+            'May Thoric save your evil soul!
+
+The DEITY ifcheck is used to determine who the target is devoted to.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck dex'~
+KeywordEnglish 'ifcheck dex'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:     if dex($n) > 20
+               'You're pretty nimble, $n
+
+The DEX ifcheck is used to direct a command based on the dexterity stat of the
+target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck doingquest'~
+KeywordEnglish 'ifcheck doingquest'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+(??)
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck economy'~
+KeywordEnglish 'ifcheck economy'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if economy(21001) > 10000000
+            mpecho DH economy is booming!
+
+The ECONOMY(rvnum) ifcheck is used to base a command on the economy of the area
+the checker is in.
+NOTE: area will be specified by default to area the MOB is in, via rvnum.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck favor'~
+KeywordEnglish 'ifcheck favor'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if favor($n) == 2500
+            'You're well loved by your deity, $n.
+
+The FAVOR ifcheck is used to determine the amount of favor held by the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck goldamt'~
+KeywordEnglish 'ifcheck goldamt'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if goldamt($i) > 10000
+            'I'm rich!
+The GOLDAMT ifcheck determines the specified amount of coins carried by the
+target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck guild'~
+KeywordEnglish 'ifcheck guild'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if guild($n) == guild of thieves
+            'You belong to the GoT!
+
+The GUILD ifcheck is used to determine what guild the target belongs to, if any.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck hitprcnt'~
+KeywordEnglish 'ifcheck hitprcnt'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if hitprcnt($n) < 10
+            'You're going to dieeeeeee!
+
+The HITPRCNT ifcheck is used to base a command on the targets current hit
+points.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck hps'~
+KeywordEnglish 'ifcheck hps'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if hps($n) > 1900
+            'You're buff, $n!!
+
+The HPS ifcheck is used to base a command on the target's current hit points.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck inroom'~
+KeywordEnglish 'ifcheck inroom'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if inroom($i) == 1200
+            'Look at all the notes to read!
+
+The INROOM(target) ifcheck is used to determine the target's rvnum location.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck int'~
+KeywordEnglish 'ifcheck int'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if int($i) == 25
+            'I'm smart!
+
+The INT ifcheck is used to direct a command based on the intelligence of the
+target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isasupressed'~
+KeywordEnglish 'ifcheck isasupressed'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isasupressed($n) > 10
+            '$n's got a bit of wait ahead of them!
+
+The ISASUPRESSED ifcheck checks the target's asupress timer.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isattacker' 'ifcheck iskiller' 'ifcheck isthief'~
+KeywordEnglish 'ifcheck isattacker' 'ifcheck iskiller' 'ifcheck isthief'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Sintassi:  if isattacker($n)
+             say Didn't quite pull it off, did you?
+
+The ISATTACKER, ISTHIEF, and ISKILLER, if checks are used to determine if the
+target is flagged as an attacker/killer/thief.
+~
+ToSee          mppardon flags pardon~
+End
+
+#HELP
+KeywordItalian 'ifcheck ischarmed'~
+KeywordEnglish 'ifcheck ischarmed'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ischarmed($n)
+            ' Wake up!
+
+The ISCHARMED ifcheck determines if the target is charmed.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isdevoted'~
+KeywordEnglish 'ifcheck isdevoted'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isdevoted($n)
+            ' I see you have devoted your soul, $n.
+
+The ISDEVOTED ifcheck is used to determine if the target is devoted to a Deity.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isevil'~
+KeywordEnglish 'ifcheck isevil'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isevil($n)
+            ' Greetings, evil one.
+
+The ISEVIL ifcheck is used to determine if the targets alignment is lower than
+-350.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isfight'~
+KeywordEnglish 'ifcheck isfight'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isfight($i)
+            yell Lookie Mom! I'm fighting!
+
+The ISFIGHT ifcheck determines if the target is fighting.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isfollow'~
+KeywordEnglish 'ifcheck isfollow'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+(??)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isgood'~
+KeywordEnglish 'ifcheck isgood'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isgood($n)
+            ' Always a pleasure, $n.
+
+The ISGOOD ifcheck is used to determine if the target's alignment is +350 or
+higher.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isadmin'~
+KeywordEnglish 'ifcheck isadmin'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isadmin($n)
+            bow 0.$n
+
+The ISADMIN ifcheck determines if the target is an Admin.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isleader'~
+KeywordEnglish 'ifcheck isleader'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isleader($n)
+            ' $n is an Order, Guild, or Clan leader.
+
+The ISLEADER ifcheck is used to determine if the target is a leader of an Order,
+Guild, or Clan.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck islocked'~
+KeywordEnglish 'ifcheck islocked'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if islocked($n) == 6
+            ' The northeast exit is locked.
+
+The ISLOCKED(dir) ifcheck is used to determine if a specified exit is locked.
+(訊help &gdoordirs&w)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ismorphed'~
+KeywordEnglish 'ifcheck ismorphed'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ismorphed($n)
+            '$n is not as they appear!
+
+The ISMORPHED ifcheck is used to determine if the target is morphed.
+(訊help &gmorphtypes&w)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ismounted'~
+KeywordEnglish 'ifcheck ismounted'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ismounted($n)
+            mpforce 0.$n dismount
+
+The ISMOUNTED ifcheck determines if the target is mounted.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isneutral'~
+KeywordEnglish 'ifcheck isneutral'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isneutral($n)
+            ' Make up your mind, $n.
+
+The ISNEUTRAL ifcheck is used to determine if the target's alignment is:
+- less than +350 and
+- greater than -350
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isnpc'~
+KeywordEnglish 'ifcheck isnpc'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isnpc($n)
+            ' $N is a Non-player character.
+
+The ISNPC ifcheck is used to determine if the target is a Mob.
+(MOB)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isnuisance'~
+KeywordEnglish 'ifcheck isnuisance'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isnuisance($n)
+            ' $n is a bit of a pest.
+
+The ISNUISANCE ifcheck is used to determine if the PC is nuisanced.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isopen'~
+KeywordEnglish 'ifcheck isopen'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isopen($n) == 6
+            ' The northeast exit is open.
+
+The ISOPEN ifcheck is used to determine if an exit is open in the specified
+direction.
+(訊help &gdoordirs&w)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ispacifist'~
+KeywordEnglish 'ifcheck ispacifist'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ispacifist($n)
+            ' $n will not fight.
+
+The ISPACIFIST ifcheck is used to determine if the target is flagged pacifist.
+(MOB)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ispassage'~
+KeywordEnglish 'ifcheck ispassage'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ispassage($n) == 6
+            ' There is a passage leading northeast.
+
+The ISPASSAGE(dir) ifcheck is used to determine if there is an exit in the
+specified direction.
+(訊help &gdoordirs&w)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ispc'~
+KeywordEnglish 'ifcheck ispc'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ispc($n)
+            ' $n is a Player Character.
+
+The ISPC ifcheck is used to determine if the target is a Player Character.
+(PC)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck isshelled'~
+KeywordEnglish 'ifcheck isshelled'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if isshelled($n)
+            mpat 0.$n 'Tsk, tsk.
+
+The ISSHELLED ifcheck is used to determine if the target is helled.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck lck'~
+KeywordEnglish 'ifcheck lck'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if lck($n) < 5
+            ' Betcha don't feel very lucky, $n.
+
+The LCK ifcheck is used to direct a command based on the luck stat of the
+target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck leader'~
+KeywordEnglish 'ifcheck leader'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:         if isleader($n)
+                   $ is an order, guild, or clan leader
+
+(RR)
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck level'~
+KeywordEnglish 'ifcheck level'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if level($n) < 5
+            ' You're just a wee baby, $n!
+
+The LEVEL ifcheck is used to determine the level of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mana'~
+KeywordEnglish 'ifcheck mana'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mana($n) > 100
+            ' You're low on mana, $n.
+
+The MANA ifcheck is used to determine the amount of mana the target has.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mobcount'~
+KeywordEnglish 'ifcheck mobcount'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mobcount(21000) > 10
+
+MOBCOUNT ifcheck counts the number of mobs in the specified room.
+This example returns TRUE if there are more than 10 mobs in room 21000.
+You can use this form in room or mob programs and you can have one room program
+check the number of mobs in a different room.
+
+Example:  if mobcount(0) > 10
+
+Use a zero room number if you want to have a mob check the number of mobs in its
+room.
+Note that if the mob changes rooms, the ifcheck applies to whatever room the mob
+is in.
+You should use this form in mob programs only.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mobinarea'~
+KeywordEnglish 'ifcheck mobinarea'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mobinarea(3) == 1
+            ' The SuperMob is here working.
+
+The MOBINAREA(vnum) ifcheck is used to determine if the target is in the area.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mobinroom'~
+KeywordEnglish 'ifcheck mobinroom'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mobinroom(3) > 1
+            ' We only need one SuperMob!
+
+The MOBINROOM(vnum) ifcheck is used to determine if, and/or how many, of target
+are present in the room.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mobinvis'~
+KeywordEnglish 'ifcheck mobinvis'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ismobinvis($n)
+            ' $N is mobinvis
+
+The ISMOBINVIS ifcheck determines if the target MOB is flagged mobinvis.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mobinvislevel'~
+KeywordEnglish 'ifcheck mobinvislevel'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mobinvislevel($i) == 50
+            ' I'm invisible to all under lvl 50
+
+The MOBINVISLEVEL is used to determine the level the target is invisible to.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mobinworld'~
+KeywordEnglish 'ifcheck mobinworld'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mobinworld(21044) < 1
+            ' Who killed Harakiem?
+
+The MOBINWORLD(vnum) ifcheck is used to determine if the specified MOB is
+anywhere in the realms.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mortal'~
+KeywordEnglish 'ifcheck mortal'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mortal($n)
+            ' Greetings Mortal.
+
+The MORTAL ifcheck is used to determine if the target is level 50 or lower.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mortcount'~
+KeywordEnglish 'ifcheck mortcount'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mortcount(21000) > 10
+
+MORTCOUNT ifcheck counts the number of mortals in the specified room.
+This example returns TRUE if there are more than 10 mortals in room 21000.
+You can use this form in room or mob programs and you can have one room program
+check the number of mortals in a different room.
+
+Example:  if mortcount(0) > 10
+
+Use a zero room number if you want to have a mob check the number of mortals in
+its room.
+Note that if the mob changes rooms, the ifcheck applies to whatever room the mob
+is in.
+You should use this form in mob programs only.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mortinroom'~
+KeywordEnglish 'ifcheck mortinroom'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mortinroom(Fred)
+            ruffle fred
+
+The MORTINROOM ifcheck returns true everytime the mortal is in the room.
+MORTINROOM will work for link dead as well as link live players.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck mortinworld'~
+KeywordEnglish 'ifcheck mortinworld'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if mortinworld(Fred)
+            mpat 0.Fred say Hi Fred!
+
+MORTINWORLD ifcheck returns true if the mortal is in the game.
+MORTINWORLD will work for both link dead as well as link live players.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck multi'~
+KeywordEnglish 'ifcheck multi'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if multi($n) > 4
+            ' $n has more than four characters logged in.
+
+The MULTI ifcheck is used to determine if/how many PCs the target has logged in.
+Also applies to MOBs, objects, rooms.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck name'~
+KeywordEnglish 'ifcheck name'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if name($n) == haus
+            bow 0.$n
+
+The NAME ifcheck is used to determine the name of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck norecall'~
+KeywordEnglish 'ifcheck norecall'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+(RR)
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck nuisance'~
+KeywordEnglish 'ifcheck nuisance'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if nuisance($n)
+            ' How much of a pest are you...
+
+The NUISANCE ifcheck is used to determine at what level the target is nuisanced.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck number'~
+KeywordEnglish 'ifcheck number'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+(RR)
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck objtype'~
+KeywordEnglish 'ifcheck objtype'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objtype($o) == 19
+            ' Yummy! Food!
+
+The OBJTYPE ifcheck is used to determine the type of object the target is.
+(訊help &gobjtypenums&w)
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck objval0'~
+KeywordEnglish 'ifcheck objval0'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objval($0) = 10
+          (and the object is a drink container)
+          This container has 10 units of fluid in it
+
+The OBJVAL0(name) ifcheck returns the numeric value of the val0 field of the
+object referenced by name.
+See 訊help &gitemvalues&w for what val0 can be used for.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck objval1'~
+KeywordEnglish 'ifcheck objval1'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objval($1) == 20
+          (and the object is an armor)
+          The AC of the armor is 20
+
+The OBJVAL1(name) ifcheck returns the numeric value of the val1 field of the
+object referenced by name.
+See 訊help &gitemvalues&w for what val1 can be used for.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck objval2'~
+KeywordEnglish 'ifcheck objval2'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objval($2) == 12
+          (And the item is a drinkcon)
+          This container holds coffee
+
+The OBJVAL(name) ifcheck returns the numeric value of the val2 field of the
+object referenced by name.
+See 訊help &gitemvalues&w for what val2 can be used for.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck objval3'~
+KeywordEnglish 'ifcheck objval3'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objval($3) == 12
+          (And the object is a weapon)
+          This is a suction type weapon
+
+The OBJVAL(name) ifcheck returns the numeric value of the val3 field of the
+object referenced by name.
+See 訊help &gitemvalues&w for what val3 can be used for.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck objval4'~
+KeywordEnglish 'ifcheck objval4'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objval($4) == 135
+          (And the object is a salve)
+          The 1st spell this salve casts is poison
+
+The OBJVAL(name) ifcheck returns the numeric value of the val3 field of the
+object referenced by name.
+See 訊help &gitemvalues&w for what val4 can be used for.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck objval5'~
+KeywordEnglish 'ifcheck objval5'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if objval($4) == 135
+          (And the object is a salve)
+          The 2nd spell this salve casts is poison
+
+The OBJVAL(name) ifcheck returns the numeric value of the val3 field of the
+object referenced by name.
+See 訊help &gitemvalues&w for what val4 can be used for.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck otypehere'~
+KeywordEnglish 'ifcheck otypehere'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+The OTYPEHERE(name)/OTYPEHERE(number) ifcheck is used to determine if an object
+of the given objecttype is in the room.
+See 訊help &gobjecttypes.&w
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck otypeinv'~
+KeywordEnglish 'ifcheck otypeinv'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+The OTYPEINV(name)/OTYPEINV(number) ifcheck is used to determine if an object of
+the given objecttype is in the checker's inventory.
+See 訊help &gobjecttypes.&w
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck otyperoom'~
+KeywordEnglish 'ifcheck otyperoom'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+The OTYPEROOM(name)/OTYPEROOM(number) ifcheck is used to determine if an object
+of the given objecttype is in the checker's room.
+See 訊help &gobjecttypes.&w
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck otypewear'~
+KeywordEnglish 'ifcheck otypewear'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:
+
+The OTYPEWEAR(name)/OTYPEWEAR(number) ifcheck is used to determine if an object
+of the given objecttype is worn by the checker.
+See 訊help &gobjecttypes.&w
+~
+ToSee          mpedit opedit rpedit ifchecks~
+End
+
+#HELP
+KeywordItalian 'ifcheck ovnumcarry'~
+KeywordEnglish 'ifcheck ovnumcarry'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ovnumcarry(1200) > 1
+            ' Why do you have so many general imm boards?
+
+The OVNUMCARRY(vnum) ifcheck is used to determine if an object with the given
+vnum is worn OR carried by the CHECKER.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ovnumhere'~
+KeywordEnglish 'ifcheck ovnumhere'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ovnumhere(1200)
+          ' Reading Imm Sam, I see.
+
+The OVNUMHERE(vnum) ifcheck is used to determine if an object is:
+- in the room of the checker
+- in the inventory of the checker
+- being worn by the checker
+- carried by the checker
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ovnuminv'~
+KeywordEnglish 'ifcheck ovnuminv'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ovnuminv(1200) < 1
+          ' Where's my Imm board?
+
+The OVNUMINV(vnum) ifcheck is used to determine if an object is in the checker's
+inventory.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ovnumroom'~
+KeywordEnglish 'ifcheck ovnumroom'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ovnumroom(1200) > 1
+          ' Why are there so many general Imm boards here?
+
+The OVNUMROOM(vnum) ifcheck is used to determine if an object is in the room the
+checker is in.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck ovnumwear'~
+KeywordEnglish 'ifcheck ovnumwear'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if ovnumwear(1200)
+          ' Why am I wearing the general imm board?
+
+The OVNUMWEAR(vnum) ifcheck is used to determine if the specified object is
+being worn by the checker.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck position'~
+KeywordEnglish 'ifcheck position'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if position($i) == 6
+            stand
+
+The POSITION ifcheck is used to determine the position of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck race'~
+KeywordEnglish 'ifcheck race'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if race($n) == drow
+            , eyes the Drow suspiciously
+
+The RACE ifcheck is used to determine the race of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck rand'~
+KeywordEnglish 'ifcheck rand'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if rand(25)
+            ' I will say this 25% of the time, or less.
+
+The RAND ifcheck is used to vary command strings given to the same trigger.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck sex'~
+KeywordEnglish 'ifcheck sex'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if sex($n) == 2
+            ' Greetings M'Lady!
+
+The SEX ifcheck is used to determine the gender of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck str'~
+KeywordEnglish 'ifcheck str'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if str($n) < 5
+            ' You need to work out, $n.
+
+The STR ifcheck is used to direct a command based on the target's strength stat.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck time'~
+KeywordEnglish 'ifcheck time'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if time($n) == 1201
+            ' Noon, and all is well.
+
+The TIME ifcheck is used to determine the time of day in military time. <,>, !
+and == also apply in any combination.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck timeskilled'~
+KeywordEnglish 'ifcheck timeskilled'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if timeskilled($n) > 200
+            ' Try an easier MUD, $n :)
+
+The TIMESKILLED(name) ifcheck is used to base a command on the specified number
+of times the target has been killed.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck waitstate'~
+KeywordEnglish 'ifcheck waitstate'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if waitstate($n) > 5
+            ' $n is a bit lagged.
+
+The WAITSTATE ifcheck is used to check the amount of "wait" a PC has. Does not
+apply to NPCs.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck wasinroom'~
+KeywordEnglish 'ifcheck wasinroom'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  entry_prog 100
+          if ispc($n)
+            if wasinroom($n) == 1200
+              mpe $n was in room 1200
+
+The WASINROOM ifcheck is used to determine if the target was in a specified
+room.
+NOTE: wasinroom checks for the 'last' room the target was in only.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifcheck wis'~
+KeywordEnglish 'ifcheck wis'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Example:  if wis($n) > 20
+            ' You're a wise person, $n.
+
+DESCRIPTION:  The WIS ifcheck is used to direct a command based on the wisdom
+stat of the target.
+~
+ToSee          mpedit opedit rpedit ifchecks ifchecks2 ifchecks3~
+End
+
+#HELP
+KeywordItalian 'ifchecks'~
+KeywordEnglish 'ifchecks'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+VALUE CHECKS (If check == #/string/vnum)
+Ifcheck        Question                      Ifcheck    Question
+&r------------   ---------------------------   ---------  ------------------
+&GHitprcnt       &cPercentage of hit/max_hit?    &GSex        &cSex?
+&GDeity          &cName of deity?  (STRING)      &GName       &cName?  (STRING)
+&GLevel          &cExperience level?             &GInroom     &cRoom #?  (VNUM)
+&GObjtype        &cType of Object?               &GStr        &c# of strength?
+&GObjval#        &cValue# equal to this?         &GInt        &c# of intelligen
+&GNumber         &cIs its vnum equal to this?    &GWis        &c# of wisdom?
+&GPosition       &cPosition #?                   &GDex        &c# of dexterity?
+&GClan           &cClan name?  (STRING)          &GCon        &c# of constituti
+&GRace           &cRace name?  (STRING)          &GCha        &c# of charisma?
+&GMobinarea      &cIs mob in area?               &GMobinworld &cDoes mob exist?
+&GMobinroom      &cHow many of mob?  (VNUM)      &GLck        &c# of luck?
+&GGuild          &cGuild name?  (STRING)         &GGoldamt    &c# of gold ya go
+&GClass          &cClass name?  (STRING)         &GFavor      &c# of favor?
+&GMobinvislevel  &cLevel of invis?               &GEconomy    &c# of economy?
+&GCouncil        &cMember of council?            &GHps        &c# of hps?
+&GMana           &c# of mana?                    &GMortal      &c*Not In Use*
+&r------------   ---------------------------   ---------  ------------------
+
+&wValue checks can use == (equals) > (greater than) < (less than)
+and ! (not).  Combine for:  != (not equal) >= (greater than or equal).
+
+&YSee individual help files for each ifcheck:&W 訊help &gifcheck mortcount&W
+
+&YContinued on:&w &gIFCHECKS2&w, &gIFCHECKS3&w, &gIFCHECKS4&w
+~
+ToSee          mpstat rpstat opstat mpedit rpedit opedit trigger mptriggers rptriggers optriggers mpcommands rpcommands opcommands variables affectedby~
+End
+
+#HELP
+KeywordItalian 'ifchecks2'~
+KeywordEnglish 'ifchecks2'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&r----------  ------------------------    -----------  ------------------
+&GIsgood      &cAlign +350 or higher?       &GIsdevoted    &ctarget devoted?
+&GIsneutral   &cAlign < 350 and > -350?     &GIsimmort     &cImmortal?
+&GIsevil      &cAlign -350 or lower?        &GIsmounted    &cMounted?
+&GIsfollow    &cFollow master in room?      &GIsnpc        &cMob?
+&GRand (#)    &cEqual to or less?           &GIspc         &cPlayer character?
+&GIsaffected  &cAffected_by name?           &GIspkill      &cPkill?
+&GCanpkill    &cPkill lev>4 and age>17      &GIsfight      &cFighting?
+&GIsmobinvis  &cMobinvis? (versus invis)    &GIscharmed    &cCharmed?
+&GNorecall    &cIs target's room norecall?  &GIspacifist   &cPacifist?
+&GMortinworld &cIs mort anywhere?           &GMortinarea   &cin area?
+&GMortinroom  &cIs mort in room?            &GIspassage    &c(DIR)Exit exists?
+&GWasInRoom   &cWas target in X room?       &GIsMulti      &cMulti-playing?
+&GIsopen      &c(DIR)Exit open?             &GIslocked     &c(DIR)Exit locked?
+&GTime        &c(Military)Time of day?      &GWeight       &cTarget's weight?
+&GMortCount   &cMortals in room?            &GMobCount     &cNPCs in room?
+&GCharCount   &cNPCs + Mortals in room?
+&r----------  ------------------------    -----------  ------------------
+
+&wValue checks can use == (equals) > (greater than) < (less than)
+and ! (not).  Combine for:  != (not equal) >= (greater than or equal).
+
+&YSee individual help files for each ifcheck:&w 訊help &gifcheck mortcount&w
+
+&YContinued on:&w &gIFCHECKS&w, &gIFCHECKS3&w, &gIFCHECKS4&w
+~
+ToSee          mpstat rpstat opstat mpedit rpedit opedit trigger mptriggers rptriggers optriggers mpcommands rpcommands opcommands variables affectedby~
+End
+
+#HELP
+KeywordItalian 'ifchecks3'~
+KeywordEnglish 'ifchecks3'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&GTimesKilled
+&c        If timeskilled($* OR vnum) == amount
+For character checks only, can use any normal mobprog operator
+
+&GOvnumHere  OvnumRoom  OvnumCarry  OvnumWear  OvnumInv
+&c        If ovnum<place>(vnum) == amount
+For objects only, counts how many objects of vnum 'vnum' exist in <place>
+
+&GOtypeHere  OtypeRoom  OtypeCarry  OtypeWear  OtypeInv
+&c        If otype<place>(type OR value) == amount
+For objects only, counts how many objects of type 'value' are in <place>
+Will convert the type names (light is 1, for example)
+
+&gDefinitions:
+Room  In the room the mobile is in.  Wear   Worn by the mobile as equipment.
+Inv   In the mobile's inventory.     Carry  Worn or in inventory
+Here  All of the above
+
+&YContinued on:&w &gIFCHECKS&w, &gIFCHECKS2&w, &gIFCHECKS4&w
+~
+ToSee          mpstat rpstat opstat mpedit rpedit opedit trigger mptriggers rptriggers optriggers mpcommands rpcommands opcommands variables affectedby~
+End
+
+#HELP
+KeywordItalian 'ifchecks4'~
+KeywordEnglish 'ifchecks4'~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&GThe following are ifchecks available to port 4000 immortals only:
+
+&Yifcheck           Syntax                 usage
+&Wisasupressed      if isasupressed($n)    is the target asupressed?
+ismorphed         if ismorphed($n)       Is the target morphed? (not in use)
+isnuisance        if isnuisance($n)      Is the target nuisanced?
+ishelled          if ishelled($n)        Is the target currently helled?
+ismulti           if ismulti($n) (value) Is the target multying?
+waitstate         if waitstate($n) (val) Is the target in waitstate?
+
+&YAdditional help on each of these subjects is available through
+'IFCHECK (IFCHECK NAME)'.
+~
+ToSee          immprogs~
+End
+
+#HELP
+KeywordItalian mobtriggers mudtriggers mptriggers~
+KeywordEnglish mobtriggers mudtriggers mptriggers~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Trigger Optnl Triggering Variable Explanation
+------- ----- ------------------- -----------
+Act      {p}  <keyword / phrase>  [emotes, socials, actions, bamfs]
+Speech   {p}  <keyword / phrase>  [says or tells from same room as mob]
+Rand          <percentage>        [randomly triggered based on percentile]
+Fight         <percentage>        [random, within a fight, based on percentile]
+Hitprcnt      <percentage>        [percent is % of mob's max H.P.]
+Greet         <percentage>        [entry that mob can see, by mob/player]
+Allgreet      <percentage>        [entry by a mob/player, regardless if seen]
+Entry         <percentage>        [when the mob itself enters a room]
+Bribe         <amount of gold>    [when a player gives the mob money]
+Death         <percentage>        [when the mob dies]
+Script {hour}                     [loops a line at a time. Hour triggers start]
+Time          <hour>              [script prog, runs once on hour specified]
+Hour          <hour>              [loops as Script for an hour from start hour]
+
+*NOTE* {hour}/<hour> is in military time. ie, 15 hours is 3p.m. mud time.
+*NOTE* The mpcommand MPDONOTHING currently only works in Script progs,
+       NOT in Time or Hour progs.
+~
+ToSee          mpstat mpedit trigger mpcommands ifchecks variables~
+End
+
+#HELP
+KeywordItalian mpadvance~
+KeywordEnglish mpadvance~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpadvance <&gname&w> <&glevel&w>
+
+Advances the level of a player (not functional in prototype programs).
+
+~
+End
+
+#HELP
+KeywordItalian mpasound~
+KeywordEnglish mpasound~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpasound <&gphrase&w>
+
+Displays a phrase to all surrounding rooms.
+~
+End
+
+#HELP
+KeywordItalian mpat~
+KeywordEnglish mpat~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Sintassi:  訊mpat <&gvnum&w> <&gcommand&w>
+
+Lets the mobile perform a command at another location.
+~
+End
+
+#HELP
+KeywordItalian mpcommands rpcommands opcommands~
+KeywordEnglish mpcommands rpcommands opcommands~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+The following commands can be used for Room, Mob and Object progs.  The
+commands listed at the bottom are for mob progs only.  Each command also
+has its own help file.  Type 訊help <&gcommand&w>.
+
+MPCOMMAND       PARAMETERS            MPCOMMAND      PARAMETERS
+--------------  --------------------  -------------  --------------------
+MPASOUND        <phrase>              MPJUNK         <name/var>
+MPECHOAROUND    <name/var> <phrase>   MPECHOAT       <name/var> <phrase>
+MPECHO          <phrase>              MPMLOAD        <mob vnum>
+MPOLOAD         <object vnum>         MPPURGE        <object/mobile name>
+MPADVANCE       <player name> <level> MPTRANSFER     <name/all>
+MPFORCE         <name/all> <actions>  MPSLAY         <victim>
+MPDREAM         <name> <phrase>       MPDAMAGE       <name> <#hps>
+MPCLOSEPASSAGE  <room> <direction>    MPOPENPASSAGE  <origin> <dest> <dir>
+MPPRACTICE      <victim> (skill|spell) (max_percent)
+MPFAVOR         <victim> <favor>
+
+Mobs only:
+訊mpkill <&gname&w>
+訊mpgoto <&gvnum&w>
+訊mpat <&gvnum&w> <&gcommand&w>
+~
+ToSee          mpstat rpstat opstat mpedit rpedit opedit trigger mptriggers rptriggers optriggers ifchecks variables~
+End
+
+#HELP
+KeywordItalian mpdamage~
+KeywordEnglish mpdamage~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpdamage <&gvictim&w> <&gamount&w>
+
+This command inflicts a specified amount of damage on the victim.
+This damage will be affected by sanctuary, but is not affected by
+protect, saving throws or resists.
+
+A mob should _never_ mpdamage itself.
+~
+End
+
+#HELP
+KeywordItalian mpdeposit mpwithdraw~
+KeywordEnglish mpdeposit mpwithdraw~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpdeposit <&gamount&w>
+&YSintassi&w:  訊mpwithdraw <&gamount&w>
+
+This command orders the mobile to deposit or withdraw a specified number
+of gold coins from an area.  These can be used in conjunction with mpat
+to tell the mob which area to withdraw/deposit money in.
+
+Example:  mpat 21000 mpwithdraw 5000000
+
+This would cause the mob to withdraw 5 million coins from the new Darkhaven
+area, as that is the area vnum 21000 is in.
+
+If no mpat is used, the mob will withdraw or deposit the gold from the
+area in which it is located at the time.
+~
+End
+
+#HELP
+KeywordItalian mpdream~
+KeywordEnglish mpdream~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+Sintassi:  訊mpdream <&gname&w> <&gphrase&w>
+
+Sends a message to a sleeping character.
+~
+End
+
+#HELP
+KeywordItalian mpecho~
+KeywordEnglish mpecho~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpecho <&gphrase&w>
+
+Displays a phrase to the entire room.
+~
+End
+
+#HELP
+KeywordItalian mpechoaround~
+KeywordEnglish mpechoaround~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpechoaround <&gname&w> <&gphrase&w>
+
+Displays a phrase to all in the room except victim.
+The abbreviation "mpechoaround" may be used for mpechoaround.
+~
+End
+
+#HELP
+KeywordItalian mpechoat~
+KeywordEnglish mpechoat~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpechoat <&gname&w> <&gphrase&w>
+
+Displays a phrase to only the victim.
+The abbreviation "mpechoat" may be used for mpechoat.
+~
+End
+
+#HELP
+KeywordItalian mpechozone~
+KeywordEnglish mpechozone~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpechozone <&gcolor&w> <&gstring&w>
+
+The 訊mpechozone mpcommand works much like the 訊echo and 訊recho comands do except
+the specified string is only displayed within the area.
+~
+ToSee          color mpcommands~
+End
+
+#HELP
+KeywordItalian mpedit~
+KeywordEnglish mpedit~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpedit <&gmobile&w> <&gcommand&w> [&gnumber&w]  [&gprogram&w] [&garguments&w]
+&YSintassi&w:  訊mpedit <&gmobile&w> &gadd&w       <&gprogram&w> <&garguments&w>
+&YSintassi&w:  訊mpedit <&gmobile&w> &ginsert&w    <&gnumber&w>  <&gprogram&w> <&garguments&w>
+&YSintassi&w:  訊mpedit <&gmobile&w> &gedit&w      <&gnumber&w>  [&gprogram&w] [&garguments&w]
+&YSintassi&w:  訊mpedit <&gmobile&w> &gdelete&w    <&gnumber&w>
+&YSintassi&w:  訊mpedit <&gmobile&w> &glist&w
+
+Add, insert and edit will put you into the line editor to edit your
+program.  The arguments consist of a trigger, plus any arguments
+associated with that trigger.
+
+For complete infomation, reference the mob program documentation available
+via FTP on realms.game.org:  (building.tar.gz/building.tar.Z/building.zip )
+~
+ToSee          mpstat trigger mptriggers mpcommands ifchecks ifckecks2 variables~
+End
+
+#HELP
+KeywordItalian mpfavor~
+KeywordEnglish mpfavor~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpfavor <&gtarget&w> &g-#&w
+           訊mpfavor <&gtarget&w> &g+#&w
+           訊mpfavor <&gtarget&w> &g#&w
+
+The 訊mpfavor mpcommand is used to take, give, or set a PCs favor by/to the
+specified amount.
+
+Examples:  訊mpfavor 0.$n -10  -> decrease $n's favor by 10
+           訊mpfavor 0.$n +10  -> increase $n's favor by 10
+           訊mpfavor 0.$n 10   -> set $n's favor to 10
+
+NOTE: The current high/low settings for favor can not be exceeded: 2500 and
+-2500
+~
+ToSee          mpcommands 'ifcheck favor'~
+End
+
+#HELP
+KeywordItalian mpfillin~
+KeywordEnglish mpfillin~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpfillin <&gexit&w>
+
+New mpfillin, this simply sets a closed door bit, so can be used for
+several things, quietly closing a door, closing an exit that was dug, etc...
+~
+End
+
+#HELP
+KeywordItalian mpfind~
+KeywordEnglish mpfind~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+  Display a maximum of n lines.
+
+Exampole:  mpfind n mud text
+   Search all the mobs in the mud for
+   mob progs that contain an occurrence of text.
+   Display a maxiumu of n lines.
+
+Example:  mpfind 20 901 969 if isnpc
+  Search all mob progs in Olympus (vnums 901 thru 969)
+  and display all mob vnums that contain text "if isnpc".
+  Display a maximum of 20 lines.
+
+Example:  mpfind 100 mud mpslay
+  Search all mob pros in the entire mud
+  and display all mob vnums containing text "mpslay".
+  Display a maximum of 100 lines.
+~
+End
+
+#HELP
+KeywordItalian mpforce~
+KeywordEnglish mpforce~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpforce <&gname&w/&gall&w>
+
+Forces a player/mob to do a command (non-functional on immortals, all will only
+force all in room).
+~
+End
+
+#HELP
+KeywordItalian mpgoto~
+KeywordEnglish mpgoto~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpgoto <&gvnum&w>
+
+Goes to any room which is not private.
+~
+End
+
+#HELP
+KeywordItalian mpinvis~
+KeywordEnglish mpinvis~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpinvis
+           訊mpinvis <&glevel&w>
+
+This command controls a mob's ability to use a modified form of wizinvis.
+
+Use 訊mpinvis alone to toggle the invisibility.
+
+Use 訊mpinvis <&glevel&w> to set the level at which the mob will be invis.
+
+Mortals under the mobinvis level of the mob will be unable to see the mob
+when it goes mobinvis; they cannot see it with any spell, it will be
+completely invisible to them.
+
+Be warned, however, that its programs will still function as normal, the
+mortal will simply see a 'someone' if it performs an action or an echo
+that they see, just as if a wizinvis immortal performed the action.
+
+Also be warned that at the present time, area attacks _will_ hit a mobinvis
+creature even if it is invisible.
+~
+End
+
+#HELP
+KeywordItalian mpjunk~
+KeywordEnglish mpjunk~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpjunk <&gname&w>
+
+Destroys an object in inventory/being worn - can be used with all.object .
+~
+End
+
+#HELP
+KeywordItalian mpkill~
+KeywordEnglish mpkill~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpkill <&gname&w>
+
+Kills a player without using murder.
+~
+End
+
+#HELP
+KeywordItalian mpmload mpoload~
+KeywordEnglish mpmload mpoload~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpmload <&gvnum&w>
+           訊mpoload <&gvnum&w> <&glevel&w> <&gtimer&w>
+
+Loads a mob or object. In the case of objects, the level must be set, or
+supermob will end up setting the level. Timer is optional, and is the decay
+timer for objects.
+~
+End
+
+#HELP
+KeywordItalian mpopenpassage mpclosepassage~
+KeywordEnglish mpopenpassage mpclosepassage~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpopenpassage <&gorigin&w> <&gdestination&w> <&gdirection&w>
+
+Opens a passage to a room (does not affect pre-existing doors)
+
+&YSintassi&w:  訊mpclosepassage <&groom&w> <&gdirection&w>
+
+Closes a passage to a room (does not affect pre-existing doors that were
+not created with mpopenpassage)
+~
+End
+
+#HELP
+KeywordItalian mppardon~
+KeywordEnglish mppardon~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mppardon <&gtarget&w> <&gflag&w>
+
+The 訊mppardon mpcommand works just as the immortal PARDON command does.
+~
+ToSee          pardon flags 'ifcheck isattacker' 'ifcheck iskiller' 'ifcheck isthief'~
+End
+
+#HELP
+KeywordItalian mppeace~
+KeywordEnglish mppeace~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mppeace <&gname&w>
+
+Any target name within the room can be forced to cease all fighting.
+~
+ToSee          mpcommands opcommands rpcommands optriggers mptriggers~
+End
+
+#HELP
+KeywordItalian mppractice~
+KeywordEnglish mppractice~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mppractice <&gvictim&w> <&gskill&w/&gspell&w/&glanguage&w> <&gamount&w>
+
+This command will set the victim's percentage of proficiency in the
+specified skill/spell/language to the specified amount.
+
+It cannot train a character in a skill/spell/language the character does
+not have as a part of its class and that it does not already have as a
+result of its level.  In other words, it cannot train a warrior in
+fireball, or a level 1 thief in gouge.
+~
+End
+
+#HELP
+KeywordItalian mppurge~
+KeywordEnglish mppurge~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mppurge <&gobject&w/&gmobile&w>
+
+Purges the room, or a specified object/mobile.
+
+&YSintassi&w:  訊mppurge
+           訊mppurge <&gitem name&w>
+           訊mppurge <&gmob name&w>
+
+The 訊mppurge mpcommand works much like the immortal command 訊purge, but for one
+exception: there must be something to purge. If there is nothing to be purged,
+the command will log a bug.
+~
+End
+
+#HELP
+KeywordItalian mprestore~
+KeywordEnglish mprestore~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mprestore <&gvictim&w> <&gamount&w>
+
+This command restores a specified number of hitpoints to the victim.
+~
+End
+
+#HELP
+KeywordItalian mpscatter~
+KeywordEnglish mpscatter~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpscatter <&gtarget name&w> <&glow vnum&w> <&ghi vnum&w>
+
+This command will send the victim to any one of the rooms specified at random.
+
+Example:  訊mpscatter &glascivias 1 50&w
+  Will transfer Lascivias to a room between 1 and 50.
+  The numbers you specify are inclusive in the formula.
+~
+ToSee          mpcommands opcommands rpcommands optriggers mptriggers~
+End
+
+#HELP
+KeywordItalian mpslay~
+KeywordEnglish mpslay~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpslay <&gtarget&w>
+
+The mpcommand 訊mpslay works exactly as the immortal slay command does, causing
+the PC/NPC target instant death.
+NOTE: This is a mob program command only.
+~
+ToSee          mpcommands~
+End
+
+#HELP
+KeywordItalian mpstat~
+KeywordEnglish mpstat~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mpstat <&gmob&w/&gmobvnum&w>
+
+蚌Mpstat will display all of the mobprograms that have been written for the
+specified mob.  If an instance of that mob exists in the game, it can be
+accessed with its vnum.
+~
+ToSee          mpedit trigger mptriggers mpcommands ifchecks ifchecks2 variables~
+End
+
+#HELP
+KeywordItalian mptd~
+KeywordEnglish mptd~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+(??)
+~
+End
+
+#HELP
+KeywordItalian mptransfer~
+KeywordEnglish mptransfer~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊mptransfer <&gname&w/&gall&w>
+
+Transfers one or all in the room to a specified location.
+~
+End
+
+#HELP
+KeywordItalian opedit~
+KeywordEnglish opedit~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w:  訊opedit <&gobject&w> <&gcommand&w> [&gnumber&w]  [&gprogram&w] [&garguments&w]
+&YSintassi&w:  訊opedit <&gobject&w> &gadd&w       <&gprogram&w> <&garguments&w>
+&YSintassi&w:  訊opedit <&gobject&w> &ginsert&w    <&gnumber&w>  <&gprogram&w> <&garguments&w>
+&YSintassi&w:  訊opedit <&gobject&w> &gedit&w      <&gnumber&w>  [&gprogram&w] [&garguments&w]
+&YSintassi&w:  訊opedit <&gobject&w> &gdelete&w    <&gnumber&w>
+&YSintassi&w:  訊opedit <&gobject&w> &glist&w
+
+Add, insert and edit will put you into the line editor to edit your program.
+The arguments consist of a trigger, plus any arguments associated with that
+trigger.  Object programs are like mobprograms, with trigger differences.
+
+To edit an Objprogram, you must be holding the object in your inventory.
+~
+ToSee          opstat trigger optriggers opcommands ifchecks ifchecks2 variables~
+End
+
+#HELP
+KeywordItalian opstat~
+KeywordEnglish opstat~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+&YSintassi&w: 訊opstat <&gobject&w/&gobject vnum&w>
+
+蚌Opstat will display all of the objprograms that have been written for the
+specified object.  If a copy of the object exists in the game, it can be
+accessed by its vnum.
+~
+ToSee          opstat trigger optriggers opcommands ifchecks ifchecks2 variables~
+End
+
+#HELP
+KeywordItalian variable variables~
+KeywordEnglish variable variables~
+Type           HELPTYPE_MUDPROG
+Trust          TRUST_NEOMASTER
+Text
+This is the list of variables to be used in actiondescs for objects and in
+mob/room/object programs.
+
+VARIABLE         MOBILE  ACTOR  VICTIM  RANDOM  OBJECT  2ND_OBJECT
+---------------  ------  -----  ------  ------  ------  ----------
+Name               $i     $n      $t      $r      $o        $p
+shrt_desc/title    $I     $N      $T      $R      $O        $P
+he/she/it          $j     $e      $E      $J      --        --
+him/her/it         $k     $m      $M      $K      --        --
+his/her/its        $l     $s      $S      $L      --        --
+~
+ToSee          mpstat rpstat opstat mpedit rpedit opedit trigger mptriggers rptriggers optriggers mpcommands rpcommands opcommands ifchecks~
+End
+
+
+#END

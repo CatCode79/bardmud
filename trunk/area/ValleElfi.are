@@ -1,0 +1,2954 @@
+#AREA
+Name         Valle degli Elfi~
+Author       Hatchet (Jamirithiana)~
+Color        AT_WHITE bianco~
+Flags        AREAFLAG_WEIGHTHEIGHT~
+Version      1
+LevelRange   5 20
+ResetMsg1    La radura mi saluta piegando le fronde al mio passaggio.~
+ResetMsg2    L'aria frizzantina mi riempie l'animo di soavi guizzi briosi.~
+ResetMsg3    Sento il cielo cantare con gli uccelli..~
+Vnums        7800 7883
+End
+
+
+#MOBILES
+#7800
+cane~
+un grosso cane~
+Un cane di grossa mole è qui, a guardia della Valle Elfica.
+~
+E' più grosso dei comuni canidi ed ha il manto color smeraldo
+picchiettato da macchie nocciola.. E' questo che gli permette di
+mimetizzarsi perfettamente tra le fronde e i cespugli..
+~
+65 32768 0 C
+5 15 4 4d4+55 2d4+1
+0 700
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+30 3 70 50000 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 11~
+emote ringhia sommessamente verso di te.
+~
+|
+#7801
+elfo valle~
+un elfo della valle~
+Un elfo volta il capo lentamente appena ti vede..
+~
+Molto più alto di te ma sinuoso ed agile nelle movenze.. Ti fissa e dal
+suo gelido sguardo appare tutta la fierezza tipica della razza della
+progenie.. Muove flessuosamente il torace, sembra il morbido ritrarsi di un
+leone l'attimo prima di spiccare il balzo sulla sua preda..
+~
+101 33280 0 C
+8 11 0 7d7+80 1d4+6
+10 2000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 180 60000 0 0 0
+0 0 0 0 0 0 0 0
+#7802
+elfa valle~
+un'elfa della valle~
+Un'elfa è qui impegnata nella raccolta di erbe e bacche.
+~
+Questa graziosa elfa della valle muove agilmente le mani scrutando foglie
+e fili d'erba.. Si è accorta di te, si volta.. Ti guarda in viso e dal suo
+sguardo comprendi il solenne rimprovero per la tua presenza ravvicinata..
+~
+229 33280 0 C
+8 11 0 7d7+80 1d4+6
+10 2000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 5 175 56325 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 10~
+emote si è accorta di te e ti sta fissando!
+~
+|
+#7803
+elfo sentinella elfica soldato guardia valle~
+una sentinella elfica~
+Una sentinella elfica ti viene incontro con sguardo furente!
+~
+Gli occhi stretti a fissarti e la mascella rigida per il disappunto.
+Forse non è il caso di fermarsi a fare quattro chiacchiere con questo
+soldato elfico..
+~
+35 33280 0 C
+7 12 1 6d6+70 1d4+5
+10 1500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 183 61136 0 0 0
+0 0 0 0 0 0 0 0
+#7804
+elfo sentinella elfica soldato guardia valle~
+un soldato elfico~
+Un soldato elfico avanza minacciosamente verso di te.
+~
+Il passo deciso seppur silenzioso di questo soldato elfico mostra la sua
+disapprovazione per la tua presenza in questi luoghi. Sicuramente non gli
+andrà di fare conversazione..
+~
+35 33280 0 C
+7 12 1 6d6+70 1d4+5
+10 1500
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 181 67250 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 8~
+emote stringe la mano sull'elsa della spada..
+~
+|
+#7805
+elfo esploratore valle~
+un esploratore elfico~
+Un esploratore elfico salta improvvisamente fuori da un cespuglio.
+~
+Ti fissa con sguardo decisamente ostile ma non durerà a lungo lo studio
+della tua persona..
+~
+101 33280 0 C
+6 13 2 5d5+60 1d4+4
+10 1000
+112 112 3
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 6 179 58645 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 8~
+emote brandisce la sua spada con fierezza e determinazione.
+~
+|
+#7806
+elfa valle~
+un'elfa della valle~
+Il profilo di una graziosa elfa ti si delinea lentamente alla vista..
+~
+E' immersa nelle sue faccende domestiche e sembra non curarsi di te..
+Almeno finchè le resterai distante..
+~
+193 33280 0 C
+6 13 2 5d5+60 1d4+4
+10 1000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 170 52100 0 0 0
+0 0 0 0 0 0 0 0
+#7807
+elfo prisco~
+un elfo prisco~
+Un elfo prisco è immerso nello studio di alcuni tomi..
+~
+E' sicuramente molto più vecchio di te, deve perciò trattarsi di un
+elfo prisco: gli anziani tra la progenie.. La sicura fierezza dello
+sguardo rivela il suo infinito sapere e potere. Fa' attenzione!
+~
+39 41600 0 C
+15 3 -7 14d14+150 1d4+9
+10 30000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 170 59622 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 7~
+emote appena si avvede della tua presenza si solleva di scatto e ti guarda minaccioso!
+~
+|
+#7808
+elfa maggiore~
+un'elfa prisca~
+Una figura femminile è china su alcuni volumi.. E' un elfa prisca della valle.
+~
+Gli elfi prischi, come lei, sono gli anziani tra la progenie, più di
+tutti hanno conoscenza perchè più di tutti hanno vissuto.. Reggi a stento
+il confronto con il suo sguardo..
+~
+39 41472 0 C
+15 3 -10 14d14+150 1d4+9
+10 30000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+1 3 169 50258 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 8~
+emote percepisce la tua presenza e si volta di scatto puntandoti il dito contro!
+~
+|
+#7809
+idra infuocata bestia~
+un'idra infuocata~
+Un'orribile bestia dalle infinite teste spalanca le fauci sputando fuoco!
+~
+Non ha una stazza eccessiva, ricorda nel corpo le fattezze dei draghi ma
+è più piccola e ha numerose teste che si muovono sincroniche scrutandoti
+con cattiveria..
+~
+35 0 0 C
+20 2 -5 20d20+200 1d20+12
+0 50000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 3 257 125365 0 0 0
+0 0 0 0 0 0 0 0
+> fight_prog 5~
+emote tossisce fuoco verso di te!
+~
+|
+#7810
+vecchio eremita uomo~
+un vecchio eremita~
+Un uomo è qui seduto, fuma tranquillamente la sua pipa di legno.
+~
+Il volto segnato dal tempo e dalla solitudine. Ti guarda fermando gli
+occhi nei tuoi, mentre continua a tirare boccate dalla sua pipa di legno..
+~
+135 0 0 C
+3 17 7 3d3+33 1d4+2
+10 300
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 168 56250 0 0 0
+0 0 0 0 0 0 0 0
+#7811
+talemon mago~
+Talemon~
+Un vecchio mago traffica tra alambicchi e strane sostanze, si muove rapidamente
+~
+Appare stanco e forse ammalato, ma sicuramente lo sguardo aggressivo che
+ti rivolge è carico di combattività..
+~
+39 0 0 C
+25 0 -10 25d25+250 1d4+10
+1000 100000
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 165 45258 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 7~
+emote sembra perfettamente a suo agio tra i fumi gassosi che avvolgono le sue mani..
+~
+|
+#7812
+demone guardiano~
+un demone guardiano~
+Un demone è qui. Gli occhi fiammeggianti si fermano sul tuo viso.
+~
+E' sicuramente un guardiano: qualcosa della sua espressione te lo mostra
+chiaramente.. Non appare felice della sua occupazione, ma forse non ha
+nemmeno più memoria della vita senziente..
+~
+35 0 -500 C
+25 -2 -10 25d25+250 2d4+20
+0 80000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+89 3 205 85695 0 0 0
+0 0 0 0 0 0 0 0
+> rand_prog 8~
+emote ghigna perversamente..
+~
+|
+#7813
+lupo~
+un lupo~
+Un lupo si aggira silenziosamente tra le siepi, in cerca di una piccola preda..
+~
+Uno splendido esemplare di lupo dagli occhi rossi e il folto pelo marrone.
+~
+161 32768 0 C
+4 16 6 4d4+40 1d4+3
+0 500
+112 112 3
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 60 36584 0 0 0
+0 0 0 0 0 0 0 0
+#7814
+antilope~
+un'antilope~
+Un'antilope è qui: il muso immerso nell'erba.. Sta brucando serenamente..
+~
+Il manto marrone baciato dai raggi di astri lucenti, quest'agile e snello
+animale sta brucando serenamente. I suoi occhi vispi non ti perdono di
+vista, però!
+~
+129 0 0 C
+6 14 4 6d6+66 1d4+5
+0 1000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 6 145 49214 0 0 0
+0 0 0 0 0 0 0 0
+#7815
+coniglio azzurro~
+un coniglietto~
+Un grazioso coniglietto sbuca da una siepe!
+~
+E' graziosissimo e ha un curioso pellicciotto azzurro cinerino!
+~
+129 0 0 C
+1 0 0 2d6+10 1d4+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+101 6 10 1125 0 0 0
+0 0 1725 0 0 0 1 0
+#7816
+cerbiatto~
+un cerbiatto~
+Uno splendido cerbiatto ti fissa con i suoi occhioni nocciola.
+~
+Armonioso nella forma, il manto lucido e l'agilità tattile nella
+muscolatura nervosa.. Ti sta guardando..
+~
+129 0 0 C
+6 0 0 2d7+71 1d7+1
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+87 6 90 35124 0 0 0
+0 0 0 0 0 0 0 0
+#0
+
+#OBJECTS
+#7800
+cotta maglia elfica~
+Una cotta di maglia elfica~
+Una leggera cotta di maglia è posata in terra.~
+~
+9 0 9 0
+4 0 0 0
+3000 50 50
+E
+cotta~
+La fitta trama delle maglie rende questa cotta rigida al tatto ma
+tirandola con entrambe le mani appare estremamente duttile..
+~
+#7801
+stivali elfici~
+Un paio di stivali elfici.~
+Un paio di stivali è stato lasciato qui.~
+~
+9 0 65 0
+3 0 0 0
+1000 10 10
+E
+stivali~
+Questi stivali dalla suola flessibile mostrano chiaramente quanto gli
+elfi tengano all'eleganza senza trascurare la praticità.
+~
+A
+14 50
+#7802
+spada lunga elfica~
+Una lunga spada elfica.~
+Una lucida spada giace in terra.~
+~
+5 64 8193 0
+0 3 3 3
+1500 50 50
+E
+spada~
+Lunga e appuntita la lama di questa bella spada di chiara manifattura
+elfica.
+~
+A
+18 1
+#7803
+mantello marrone~
+Un mantello marrone~
+Posato in terra, ripiegato su se stesso, c'è un mantello marrone.~
+~
+9 64 1025 0
+3 0 0 0
+956 50 50
+E
+mantello~
+Pratica ed elegante questa bella mantella marrone. Da avvolgere attorno
+al corpo e annodare i nastrini di velluto attorno alla gola..
+~
+A
+2 1
+#7804
+chiave bronzo~
+Una chiave di bronzo~
+Una chiave di bronzo brilla tra la polvere, in terra.~
+~
+18 0 16385 0
+7846 0 0 0
+35 0 0
+E
+chiave bronzo~
+Una semplice chiave di bronzo, lucidissima..
+~
+#7805
+chiave legno~
+Una chiave di legno~
+Una chiave di legno è stata dimenticata qui.~
+~
+18 0 16385 0
+7880 0 0 0
+28 0 0
+E
+chiave legno~
+Una semplice chiave di legno duro..
+~
+#7806
+anello oro cerchietto~
+Una anello d'oro~
+Un cerchietto d'oro riluce in terra.~
+~
+9 64 3 0
+3 0 0 0
+75 1000 10
+E
+anello oro cerchietto~
+Un cerchietto d'oro puro. All'interno, guardando bene, alcuni disegni
+elfici percorrono tutta la circonferenza dell'anello.
+~
+A
+12 10
+#7807
+bastone legno~
+Un bastone di legno~
+Un bastone di legno scuro è riverso sul selciato.~
+~
+5 64 8193 0
+0 4 4 8
+2000 1000 10
+E
+bastone~
+Un lungo e spesso bastone di legno: per tenerlo saldamente forse dovrai
+impugnarlo con tutte e due le mani..
+~
+A
+19 2
+#7808
+pozione ampolla vetro~
+Un'ampolla di vetro~
+Un'ampolla di vetro è qui.~
+~
+10 64 16385 0
+10 -1 -1 -1
+300 200 10
+'armor' 'invis' 'NONE'
+E
+pozione ampolla vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7809
+pozione ampolla vetro~
+Un'ampolla di vetro~
+Un'ampolla di vetro è stata lasciata qui..~
+~
+10 64 16385 0
+10 -1 -1 -1
+300 200 10
+'energy drain' 'NONE' 'NONE'
+E
+pozione ampolla vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7810
+pozione flacone vetro~
+Un flacone di vetro~
+Un flacone di vetro è qui.~
+~
+10 64 16385 0
+10 -1 -1 -1
+312 200 10
+'detect hidden' 'detect magic' 'NONE'
+E
+pozione flacone vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7811
+pozione boccetta vetro~
+Una boccetta di vetro~
+Una boccetta di vetro è stata lasciata qui..~
+~
+10 64 16385 0
+50 -1 -1 -1
+297 200 10
+'dispel magic' 'dispel magic' 'dispel magic'
+E
+pozione boccetta vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7812
+pozione bottiglina vetro~
+Una bottiglina di vetro~
+Una bottiglina di vetro è qui, in un angolo..~
+~
+10 64 16385 0
+10 -1 -1 -1
+239 200 10
+'refresh' 'protection' 'NONE'
+E
+pozione bottiglina vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7813
+pozione bottiglina vetro~
+Una bottiglina di vetro~
+Una bottiglina di vetro è stata dimenticata qui..~
+~
+10 64 16385 0
+10 -1 -1 -1
+239 200 10
+'sleep' 'NONE' 'NONE'
+E
+pozione bottiglina vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7814
+pozione fiala vetro~
+Una fiala di vetro~
+Una fiala di vetro è stata dimenticata qui da qualcuno..~
+~
+10 64 16385 0
+10 -1 -1 -1
+148 200 10
+'bless' 'NONE' 'NONE'
+E
+pozione fiala vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7815
+pozione fiala vetro~
+Una fiala di vetro~
+Una fiala di vetro è qui, in terra..~
+~
+10 64 16385 0
+10 -1 -1 -1
+148 200 10
+'cure critical' 'NONE' 'NONE'
+E
+pozione fiala vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7816
+pozione boccetta vetro~
+Una boccetta di vetro~
+Una boccetta di vetro è qui in terra.~
+~
+10 64 16385 0
+10 -1 -1 -1
+297 200 10
+'fly' 'NONE' 'NONE'
+E
+pozione boccetta vetro~
+Un semplice contenitore di vetro. Troppo coperto di polvere per poter
+distinguere il colore del liquido all'interno..
+~
+#7817
+pergamena ~
+Una pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'cure critical' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7818
+pergamena ~
+Una pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'fly' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7819
+pergamena~
+Una pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'detect evil' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7820
+pergamena~
+pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'create water' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7821
+pergamena~
+pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'magic missile' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7822
+pergamena~
+pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'chill touch' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7823
+pergamena~
+pergamena~
+Una pergamena arrotolata è qui.~
+~
+2 64 16385 0
+10 -1 -1 -1
+39 200 10
+'heal' 'NONE' 'NONE'
+E
+pergamena~
+Un foglio di carta pergamena completamente riempito da calligrafia
+elfica. Purtroppo il tempo ha macchiato ed eroso i margini della pergamena ma
+la scrittura è intatta..
+~
+#7824
+arbusto ~
+arbusto~
+Un giovane arbusto tende i suoi rami verso il cielo..~
+~
+1 64 1 0
+0 0 -1 0
+514 1000 10
+E
+arbusto~
+I rami son decorati di piccoli e graziosi fiori bianchi, simili a perle
+contornate da petali.
+~
+E
+fiori perle~
+Guardando i fiori attentamente noti delle piccole iridescenze..
+Al buio appaiono ancor piu' luminescenti.
+~
+A
+19 5
+#7825
+verga legno~
+Una lunga verga di legno~
+Una verga di legno scuro è appoggiata ad un ciottolo..~
+~
+5 64 8193 0
+5 3 7 7 32 0
+2560 310 0
+E
+verga legno~
+Una lunga e doppia verga di legno scuro. Sembra pesante e probabilmente
+ti occorreranno entrambe le mani per impugnarla saldamente..
+~
+A
+19 1
+#7826
+arco fiori ~
+arco fiori ~
+Un arco di fiori selvatici delimita l'ingresso della Valle Elfica.~
+~
+12 16385 0 0
+0 0 0 0
+20265 0 0
+E
+arco fiori~
+Questi coloratissimi fiori selvatici si sono intrecciati spontaneamente
+e, incurvandosi a volta, segnano l'Entrata della Valle degli Elfi.
+~
+#7827
+cascata~
+cascata ~
+Una cascata naturale scivola impetuosamente da un'altura rocciosa.~
+~
+25 16384 0 0
+0 0 0 0
+150000 0 0
+E
+cascata acqua~
+Tra mille spruzzi scende dalla parete rocciosa occidentale,
+quest'impetuosa cascata naturale. Irriga tutta la vallata
+favorendo la florida vegetazione che ti circonda..
+~
+#7828
+alberi oro~
+alberi oro~
+Una fila di altissimi alberi costeggia il lato della valle.~
+~
+1 16385 0 0
+0 0 0 0
+100000 0 0
+E
+alberi oro~
+Sono alberi decisamente molto più alti della norma.. Sei incuriosito
+dallo strano colore delle foglie..
+~
+E
+foglie colore~
+Dalla forma tondeggiante, le foglie sono dorate e presentano curiose
+striature azzurre...
+~
+#7829
+alberi viola~
+alberi viola~
+Una serie di alti alberi costeggia il fianco della piccola valle~
+~
+1 16385 0 0
+0 0 0 0
+100000 0 0
+E
+alberi viola~
+Curiosamente più alti della norma, questi alberi lunghi e snelli
+presentano un fogliame dal colore insolito..
+~
+E
+foglie fogliame colore~
+Dalla forma allungata, le foglie sono di un bel viola tenue spruzzato da
+macchioline scarlatte... Un effetto ottico gradevolissimo, sotto la luce del
+giorno!
+~
+#7830
+alberi grigio~
+alberi grigio~
+Una serie di alti alberi segue il margine della piccola valle.~
+~
+1 16385 0 0
+0 0 0 0
+100000 0 0
+E
+alberi grigio~
+L'altezza di questi alberi è decisamente fuori della norma ma le
+stranezze non finiscono qui: le fronde sono cariche di foglie di particolare
+tonalità cromatica. La corteccia emana un gradevole e intenso profumo di
+sandalo..
+~
+E
+foglie fronde tonalita tonalità cromatica~
+Le foglie si presentano larghe e zigrinate e il loro colore va sul
+grigio ferro, picchiettato da variegature magenta.. L'accostamento
+di tinte è decisamente insolito ma alquanto gradevole...
+~
+#7831
+cespuglio bacche rametto~
+Un rametto di bacche selvatiche~
+Un rametto carico di bacche selvatiche s'è staccato da un cespuglio..~
+~
+19 0 16385 0
+0 7 0 0
+35 0 0
+E
+rametto bacche~
+E' stato sicuramente il peso a staccare questo rametto dalla pianta
+madre.. Le bacche sono profumatissime, e tenere al tatto.. Forse anche
+commestibili?
+~
+#7832
+bacche grappolo~
+Un grappolo di bacche bianche~
+Un profumato grappolo di bacche si affaccia da un cespuglio.~
+~
+19 0 16385 0
+0 7 0 0
+25 0 0
+E
+grappolo bacche~
+Profumatissime ed invitanti, bianche come il latte e lisce al tatto..
+~
+#7833
+tappeto distesa foglie~
+Una distesa di foglie~
+Tutto il selciato di questo tratto di valle è coperto da una distesa di foglie violacee..~
+~
+12 16385 0 0
+20 0 1170 0
+2000 0 0
+E
+tappeto distesa foglie~
+Si.. Sono fresche ancora e formano un morbido tappeto dove sedersi a
+riposare ... Il colore viola acceso che assumono nella totalità è davvero
+spettacolare.. prova a distenderti..
+~
+#7834
+bacche viola~
+Alcune bacche viola~
+Un gruppetto di bacche viola giace in terra ed emette una delicata luce~
+~
+1 65 1 0
+0 0 50 0
+28 0 0
+E
+bacche viola~
+Piccoli ovuli semitrasparenti, al cui interno pulsa una tenue luce
+intermittente, di colore viola.
+~
+#0
+
+#ROOMS
+#7800
+Un sentiero tra le pianure~
+Stai proseguendo lungo un sentiero che man mano si allontana dalle pianure
+nordiche, che vedi appunto a sud di qui. La pista si rivela ben curata
+nonostante non abbia un percorso agevole. La prosecuzione è verso nord.
+Un gentile cinguettio accompagna la celerità del tuo passo.
+~
+0 0 2 0 0 0
+D0
+Il sentiero si snoda proseguendo in direzione nord.
+~
+~
+0 0 7801 0
+D2
+Scorgi le pianure del nord.
+~
+~
+0 0 323 0
+D1
+~
+~
+0 0 10800 0
+S
+#7801
+Lungo il sentiero~
+Prosegui spedito per il sentiero, allontandoti dalle Pianure Settentrionali
+che ancora sono visibili da sud. La diramazione principale della via prosegue
+a nord, offrendo una magnifica visuale dall'alto. I versanti laterali di ovest
+ed est mostrano l'agevole sinuosità di due viuzze secondarie e le rapide
+tracce sul terreno raccontano delle corse spensierate di cervi e caprioli..
+~
+0 0 2 0 0 0
+D0
+Una magnifica vista dall'alto.
+~
+~
+0 0 7804 0
+D1
+Una piccola viuzza secondaria prosegue ad est di qui.
+~
+~
+0 0 7803 0
+D2
+La strada a ritroso per le pianure nordiche.
+~
+~
+0 0 7800 0
+D3
+Una piccola viuzza secondaria prosegue ad ovest di qui.
+~
+~
+0 0 7802 0
+S
+#7802
+Una viuzza ad occidente~
+Qui il sentiero si restringe tramutandosi in una graziosa viuzza secondaria,
+meta preferita di cervi e caprioli.. Prosegui sereno, l'aria è fresca e il
+canto di allegri uccelletti sembra accompagnare ogni tuo passo..
+~
+0 0 2 0 0 0
+D0
+La viuzza prosegue a nord.
+~
+~
+0 0 7867 0
+D1
+Verso est scorgi il sentiero principale.
+~
+~
+0 0 7801 0
+S
+#7803
+Una viuzza ad oriente~
+Guizzi improvvisi tra le siepi che costeggiano questa stretta ma agevole
+viuzza catturano la tua attenzione. Non sei spaventato, le foglie smosse
+velocemente svelano che si tratta dei giochi gioiosi degli scoiattoli..
+~
+0 0 2 0 0 0
+D0
+La viuzza prosegue a nord.
+~
+~
+0 0 7849 0
+D3
+Verso ovest scorgi il sentiero principale.
+~
+~
+0 0 7801 0
+S
+#7804
+Una magnifica vista dall'alto~
+Sei salito fin quassù e tutta la valle si mostra dal basso.. Respiri,
+socchiudi per un istante gli occhi e poi li riapri affacciandoti su quello
+che viene offerto alla vista da questa meravigliosa posizione di dominio..
+Di sotto scorgi il celere movimento degli abitanti della valle, ne distingui
+solo le forme ma ogni cosa ripete armonia e senso di spensierata esistenza.
+L'estesa vallata appare dominata dal verde brillante della ricca vegetazione,
+alberi disseminati ovunque punteggiano lo scenario..
+~
+0 0 2 0 0 0
+D2
+La strada a ritroso per le pianure settentrionali.
+~
+~
+0 0 7801 0
+D5
+L'entrata della valle si apre al tuo sguardo, proprio qui.
+~
+~
+0 0 7805 0
+S
+#7805
+L'entrata della valle degli elfi~
+Sei sceso fino all'entrata della valle elfica.
+Ghirlande di fiori selvatici s'intrecciano ad arco, delicatamente, delineando
+l'ingresso della silente vallata circostante.
+Ti soffermi a guardare, sai che gli elfi si accorgeranno della tua presenza,
+ma forse saranno troppo indaffarati per darti retta o più probabilmente, ti
+seguiranno silenziosamente.
+La vallata sorge a nord e si estende verso est ed ovest.
+~
+0 0 2 0 0 0
+D0
+La vallata sorge a settentrione.
+~
+~
+0 0 7810 0
+D1
+La vallata si estende verso est.
+~
+~
+0 0 7807 0
+D3
+La vallata si spinge ad ovest.
+~
+~
+0 0 7806 0
+D4
+Salendo da questa parte godrai di una splendida vista sulla vallata..
+~
+~
+0 0 7804 0
+S
+#7806
+Ai margini sud-occidentali della valle elfica~
+Ti sei avventurato presso uno dei margini della valle elfica, e alla tua vista
+appare la magnifica estensione della vallata, raggiungibile dalle varie
+stradine che si dipartono da questo punto.
+~
+0 0 2 0 0 0
+D0
+Il margine occidentale della valle prosegue verso nord.
+~
+~
+0 0 7809 0
+D1
+In lontananza scorgi l'apertura principale della vallata elfica.
+~
+~
+0 0 7805 0
+S
+#7807
+Ai margini sud-orientali della valle elfica~
+Eccoti presso uno dei margini della vallata. Tutt'intorno si colora l'intera
+estensione della valle, percorsa da infiniti viottoli sinuosi e armonici.
+La vallata continua verso nord.
+~
+0 0 2 0 0 0
+D0
+La valle prosegue a nord.
+~
+~
+0 0 7811 0
+D3
+La graziosa entrata della valle è appena ad ovest di qui.
+~
+~
+0 0 7805 0
+S
+#7808
+Gli estremi sud-occidentali della valle elfica~
+Continui a costeggiare il margine della pittoresca vallata e la sensazione di
+rilassamento e di piacevole leggerezza non ti ha abbandonato. Voci accorate e
+gentili provengono dai bracci che il cammino ti mostra: nord ed est.
+~
+0 0 2 0 0 0
+D0
+La valle si estende verso nord.
+~
+~
+0 0 7813 0
+D1
+La valle prosegue a est.
+~
+~
+0 0 7809 0
+S
+#7809
+Un tratto occidentale della valle degli elfi~
+Eccoti all'ultimo tratto del margine della Valle.
+Ti fermi a rimirare ancora l'ipnotico paesaggio, e guardandoti attorno ti
+accorgi che le vie sono aumentate, aprendosi alla vista, in ogni direzione.
+~
+0 0 2 0 0 0
+D0
+La valle prosegue a nord.
+~
+~
+0 0 7814 0
+D1
+La valle si estende verso oriente.
+~
+~
+0 0 7810 0
+D2
+La valle scende a ritroso, a sud di qui.
+~
+~
+0 0 7806 0
+D3
+La valle prosegue a ovest.
+~
+~
+0 0 7808 0
+S
+#7810
+La valle degli elfi~
+Ti fermi a guardare la magnificenza della vallata che in questo tratto pare
+offrire ogni splendore ma sei certo che avanzando l'incantevole scenario
+muterà ma non sarai deluso. L'armonia regna sovrana anche tra la vegetazione,
+tutto ha un suo posto e un suo ruolo preciso, o.. Almeno così sembra..
+La valle si apre alla tua vista in ogni direzione..
+~
+0 0 2 0 0 0
+D0
+La valle si estende a settentrione.
+~
+~
+0 0 7815 0
+D1
+La valle prosegue a est.
+~
+~
+0 0 7811 0
+D2
+I delicati toni floreali dell'entrata della valle degli elfi.
+~
+~
+0 0 7805 0
+D3
+La valle prosegue a ovest.
+~
+~
+0 0 7809 0
+S
+#7811
+Un tratto orientale della valle degli elfi~
+Prosegui la tua passeggiata serenamente.
+Lo spettacolo non ti ha deluso, inoltrandoti nel cuore della vallata, nessun
+colore o suono si ripete ma nuove combinazioni di melodici canti e pittoresche
+cromature salutano il tuo ingresso..
+La vallata offre il prosieguo in ogni direzione.
+~
+0 0 2 0 0 0
+D0
+La valle prosegue a nord.
+~
+~
+0 0 7816 0
+D1
+La valle si estende verso est.
+~
+~
+0 0 7812 0
+D2
+La valle scende a ritroso, a sud di qui.
+~
+~
+0 0 7807 0
+D3
+La valle prosegue a ovest.
+~
+~
+0 0 7810 0
+S
+#7812
+Gli estremi sud-orientali della valle elfica~
+Incedi nel tuo cammino inoltrandoti presso i margini orientali della vallata
+elfica.
+Ti senti continuamente osservato e presti orecchio ad ogni sonorità nuova del
+luogo: a tratti ti sembra di udire bisbigli sommessi in una lingua melodiosa ma
+presto il canto delle cinciallegre s'unisce al brusio, coprendolo.
+~
+0 0 2 0 0 0
+D0
+La valle prosegue a nord.
+~
+~
+0 0 7817 0
+D3
+La valle prosegue a ovest.
+~
+~
+0 0 7811 0
+S
+#7813
+Ai margini occidentali della valle elfica~
+Respiri a pieni polmoni l'aria salubre della vallata elfica. Guizzi leggeri
+tra i cespugli e felici giochi aerei di allodole diurne sono la tua compagnia
+per questo tratto ai margini della vallata elfica.
+La vallata prosegue a nord e a sud.
+Noti un dosso crescente sul quale s'inerpica un viottolo transitabile,
+in salita.
+~
+0 0 2 0 0 0
+D0
+La valle prosegue a nord.
+~
+~
+0 0 7818 0
+D1
+La valle continua a est.
+~
+~
+0 0 7814 0
+D2
+La valle si estende verso sud.
+~
+~
+0 0 7808 0
+D4
+Un viottolo transitabile s'inerpica in un tratto in salita.
+~
+~
+0 0 7863 0
+S
+#7814
+Un rettilineo occidentale della valle elfica~
+Prosegui spedito nel tratto di valle che ti si offre alla vista e al passo. Il
+percorso è agevole e niente turba la tua pacifica esplorazione.. Se solo ti
+abbandonasse la continua sensazione di essere osservato..
+Puoi prendere ogni direzione.
+~
+0 0 2 0 0 0
+D0
+Un tratto di valle continua da qui
+~
+~
+0 0 7819 0
+D1
+La vallata si apre ad oriente..
+~
+~
+0 0 7815 0
+D2
+Un tratto in discesa raggiunge ancora la vallata, a sud di qui..
+~
+~
+0 0 7809 0
+D3
+La valle prosegue ad ovest..
+~
+~
+0 0 7813 0
+S
+#7815
+Proseguendo nella valle degli elfi~
+Socchiudi gli occhi alla carezza leggera della brezza tiepida, e riaprendoli
+regali al tuo animo la magnificenza della natura, che qui vive e dimora.
+Ogni lato offre la splendida vista della vallata circostante, hai solo da
+decidere la direzione da intraprendere..
+~
+0 0 2 0 0 0
+D0
+La valle prosegue a settentrione..
+~
+~
+0 0 7820 0
+D1
+La valle continua a est.
+~
+~
+0 0 7816 0
+D2
+La valle discende a sud..
+~
+~
+0 0 7810 0
+D3
+La valle si estende ad occidente.
+~
+~
+0 0 7814 0
+S
+#7816
+Un rettilineo orientale della valle elfica~
+La strada intrapresa avanza allungandosi in un ampio rettilineo. Profumi
+diversi si mischiano nell'aria, umide gocce di brina notturna ancora
+brillano sulle foglie dei teneri arbusti allineati sul versante orientale..
+~
+0 0 2 0 0 0
+D0
+Un tratto di valle continua da qui
+~
+~
+0 0 7821 0
+D1
+La vallata si apre ad oriente..
+~
+~
+0 0 7817 0
+D2
+Un tratto in discesa raggiunge ancora la vallata, a sud di qui..
+~
+~
+0 0 7811 0
+D3
+La valle prosegue ad ovest..
+~
+~
+0 0 7815 0
+S
+#7817
+Ai margini orientali della valle elfica~
+Non ti sei affaticato lungo questo tratto dritto della vallata. Ti hanno
+accompagnato il dolce canto degli uccelli e i giochi di luce dei rami degli
+astri sulle foglie dei giovani arbusti che costeggiano questo tratto di valle.
+Puoi scegliere di proseguire verso nord, svoltare ad ovest o prendere la strada
+a sud. Un piccolo dosso in salita mostra una stradina secondaria che si
+arrampica verso l'alto: ci dai un'occhiata?
+~
+0 0 2 0 0 0
+D0
+La vallata prosegue a nord di qui.
+~
+~
+0 0 7822 0
+D2
+La strada a ritroso per la vallata principale si apre a sud di qui.
+~
+~
+0 0 7812 0
+D3
+La vallata si estende ad ovest di qui..
+~
+~
+0 0 7816 0
+D4
+Una viuzza transitabile svetta verso un tratto in salita.
+~
+~
+0 0 7853 0
+S
+#7818
+Gli estremi nord-occidentali della valle elfica~
+Ti fermi a guardare il panorama incantevole..
+Questo posto ha qualcosa di magico: fusi in indissolubile tessitura armonica,
+suoni, colori e profumi.
+Un cerbiatto s'affaccia da una siepe ti guarda sbattendo gli occhioni nocciola
+e poi si tuffa rapidamente nel verde, sparendo alla tua vista immediatamente.
+La valle prosegue a est e a sud..
+~
+0 0 2 0 0 0
+D1
+La vallata prosegue a est di qui..
+~
+~
+0 0 7819 0
+D2
+La vallata segue il tratto meridionale.
+~
+~
+0 0 7813 0
+S
+#7819
+Un tratto del rettilineo occidentale della valle elfica~
+Avanzi e mentre passeggi con lo sguardo accarezzi i teneri grappoli di fiori
+d'iris che pendono da un gruppo di teneri arbusti posti su un lato del
+rettilineo, quasi una cascata di colore e profumo inebriante.. Ogni via è
+aperta al tuo cammino, hai solo da decidere la strada da fare..
+~
+0 0 2 0 0 0
+D0
+La vallata si apre ancora a nord, in tutta la sua magnifica vista.. Da
+là proviene un forte rumore d'acqua che scroscia..
+~
+~
+0 0 7823 0
+D1
+Il versante orientale mostra ancora un tratto della vallata..
+~
+~
+0 0 7820 0
+D2
+La valle continua a meridione..
+~
+~
+0 0 7814 0
+D3
+Ad ovest di questo posto c'è ancora un immenso tratto di valle..
+~
+~
+0 0 7818 0
+S
+#7820
+Avanzando nella valle degli elfi~
+Segui il tuo cammino attraverso la magnifica valle elfica, accompagnato dal
+gioioso fischio del vento e dai gorgheggi degli uccellini.
+Ancora il solare panorama ti avvolge nella sua totalità e dirama le sue
+arterie in ogni direzione.
+~
+0 0 2 0 0 0
+D0
+Ancora le splendide distese della valle elfica, a nord.
+~
+~
+0 0 7824 0
+D1
+La valle continua a est..
+~
+~
+0 0 7821 0
+D2
+La vallata discende a meridione.
+~
+~
+0 0 7815 0
+D3
+La valle prosegue ad occidente..
+~
+~
+0 0 7819 0
+S
+#7821
+Un tratto del rettilineo orientale della valle elfica~
+E' lungo il rettilineo che stai attraversando ma non ti senti affaticato.
+Forse ti soffermi ma più che una sosta rigenerante è un modo per riempire lo
+sguardo della magnificenza della natura.
+Chissà se questa valle e le sue verdi tinte non siano frutto del più perfetto
+sogno degli Dei..
+~
+0 0 2 0 0 0
+D0
+La vallata si apre ancora a nord, in tutta la sua magnifica vista..
+~
+~
+0 0 7825 0
+D1
+Il versante orientale mostra ancora un tratto della vallata..
+~
+~
+0 0 7822 0
+D2
+La valle continua a meridione..
+~
+~
+0 0 7816 0
+D3
+Ad ovest di questo posto c'è ancora un immenso tratto di valle..
+~
+~
+0 0 7820 0
+S
+#7822
+Gli estremi nord-orientali della valle elfica~
+Stai costeggiando l'estremo nord del versante orientale della valle degli elfi.
+Lo spettacolo è immutato se non per i giochi di luci e colori e per i suoni
+che la natura miscela sapientemente unendo allo sbuffo del vento il frullare
+tenero di ogni foglia.
+~
+0 0 2 0 0 0
+D2
+La vallata segue il tratto meridionale..
+~
+~
+0 0 7817 0
+D3
+La vallata prosegue a ovest di qui.
+~
+~
+0 0 7821 0
+S
+#7823
+Ai margini nord-occidentali della valle elfica~
+Piccolo angolo di empirea beatitudine, questo tratto della vallata. Forse il
+primo sorriso della natura neonata ha dipinto il verde così intenso di ogni
+foglia di queste alte e snelle siepi..
+Forse è il suo canto l'eco irruente dell'acqua che scende dalla vicina parete
+rocciosa?
+Una farfalla nera disegna festosamente l'aria e ti precede verso est..
+~
+0 0 2 0 0 0
+D1
+La valle continua sul versante orientale.
+~
+~
+0 0 7824 0
+D2
+La valle prosegue a sud di qui..
+~
+~
+0 0 7819 0
+S
+#7824
+Ai margini centrali della valle elfica~
+Ti addentri ancora nelle profondità della valle principale, dimora e splendore
+della civiltà elfica.
+Stai costeggiando aderente al margine superiore, tra la vegetazione curata e le
+corse dei cervi in lontananza.
+Lo spazio circostante è talmente esteso da spezzare il respiro.. Ai versanti
+laterali la valle continua, a nord inizia una viuzza.
+~
+0 0 2 0 0 0
+D0
+Una piccola strada s'inerpica su per la valle principale.
+~
+~
+0 0 7826 0
+D1
+La vallata si estende ad oriente..
+~
+~
+0 0 7825 0
+D2
+La valle continua a sud..
+~
+~
+0 0 7820 0
+D3
+La vallata si estende ad occidente.. In lontananza l'eco di uno scroscio
+d'acqua..
+~
+~
+0 0 7823 0
+S
+#7825
+Ai margini nord-orientali della valle elfica~
+Sussulti e volti il capo: un cespuglio di bacche rosa si apre e ti mostra
+l'allegro musetto di un coniglio.. Ops! Scappa via di corsa, tagliandoti la
+strada e sparendo nella siepe opposta tanto rapidamente che hai solo potuto
+notare l'azzurro cenerino del suo folto pellicciotto..
+~
+0 0 2 0 0 0
+D2
+La valle prosegue a sud di qui..
+~
+~
+0 0 7821 0
+D3
+La valle continua sul versante occidentale.
+~
+~
+0 0 7824 0
+S
+#7826
+Una stradina attraverso la valle elfica~
+Ecco.. Hai intrapreso la via di questa bella stradina elfica. Essa si snoda
+sinuosa su per il tratto di valle. Specchio di cielo terso e abbraccio di siepi
+fiorite il contorno che guida i tuoi passi.. Un docile sbuffo di vento muove
+altalenando una scaletta di corda che pende dall'alto..
+~
+0 0 2 0 0 0
+D0
+La viuzza si snoda verso il versante settentrionale.
+~
+~
+0 0 7827 0
+D2
+La stradina a ritroso per la valle principale..
+~
+~
+0 0 7824 0
+D4
+Una scaletta di fune conduce ad un piccolo ponte di corda.
+~
+~
+0 0 7858 0
+S
+#7827
+Lungo la strada nella valle elfica~
+Ti spingi ancora lungo la graziosa stradina elfica, deciso a proseguire
+nell'esplorazione.
+Da nord un campo è visibile in lontananza, mentre ai versanti laterali e a
+meridione la stradina prosegue il suo corso..
+~
+0 0 2 0 0 0
+D1
+La strada elfica si piega ad est..
+~
+~
+0 0 7828 0
+D2
+La strada elfica a ritroso attraverso la valle principale..
+~
+~
+0 0 7826 0
+D3
+La stradina elfica svolta dolcemente a ovest..
+~
+~
+0 0 7868 0
+S
+#7828
+Una curva orientale nella strada~
+Ti stai allontanando dalla valle principale e a nord comincia a delinearsi
+quella che sembra essere una seconda vallata, ma decisamente più piccola.
+Forse è quella che tutti chiamano Valle Minore..
+~
+0 0 2 0 0 0
+D0
+Scorgi in lontananza una seconda vallata..
+~
+~
+0 0 7829 0
+D3
+La stradina elfica curva dolcemente a ovest..
+~
+~
+0 0 7827 0
+S
+#7829
+Una vallata minore~
+Ecco.. Qui si apre la valle minore del pittoresco territorio elfico: essa si
+estende tutt'intorno formando un ellittico anello e, al centro, si staglia
+nella sua magnificenza architettonica, una grande casa colonica.
+Attorno alla casa, un viottolo si snoda seguendone il perimetro.
+~
+0 0 2 0 0 0
+D0
+Si delineano i contorni chiari e precisi, seppure ancora distanti, di una
+bella e grande casa colonica in stile elfico..
+~
+porta~
+1 -1 7834 0
+D1
+Un viottolo serpeggia circondando la costruzione elfica..
+~
+~
+0 0 7831 0
+D2
+La stradina a ritroso conduce alla Valle Maggiore..
+~
+~
+0 0 7828 0
+D3
+Un viottolo si snoda circondando la costruzione elfica.
+~
+~
+0 0 7830 0
+S
+#7830
+Un viottolo occidentale della valle minore~
+Stai passeggiando sul viottolo occidentale attraverso la valle minore,
+circostante l'ampia casa colonica alla tua destra. L'esterno già ispira
+alla mente quello che l'interno mostrerà allo sguardo qualora riuscirai ad
+entrare nella casa elfica..
+~
+0 0 2 0 0 0
+D0
+Il viottolo prosegue il suo cammino..
+~
+~
+0 0 7832 0
+D1
+Il viottolo continua il suo percorso..
+~
+~
+0 0 7829 0
+S
+#7831
+Un viottolo orientale della valle minore~
+Proseguendo lungo il viottolo t'inoltri nella valle minore.
+File di alberi snelli dalle folte fronde svettano alti e sembra tocchino il
+cielo, in certi punti. I rami si curvano dolcemente incontrandosi in un
+suggestivo arco, fonte di ombra e frescura..
+~
+0 0 2 0 0 0
+D1
+Il viottolo prosegue il suo cammino..
+~
+~
+0 0 7833 0
+D3
+La viuzza continua..
+~
+~
+0 0 7829 0
+S
+#7832
+Lungo il rettilineo della valle minore~
+Avanzi ancora su per la viuzza che s'inoltra all'interno della valle minore,
+costeggiando la costruzione centrale.
+Una siepe carica di boccioli bianchi emana un dolcissimo profumo di sambuco,
+i fiori dischiusi sono a forma di campana rovesciata.
+Puoi proseguire a nord o a sud.
+~
+0 0 2 0 0 0
+D0
+Il viottolo costeggia la costruzione elfica..
+~
+~
+0 0 7837 0
+D2
+Il viottolo prosegue il suo percorso a sud..
+~
+~
+0 0 7830 0
+S
+#7833
+Lungo il viottolo orientale della valle minore~
+A nord-est vedi lo spigolo meridionale della grande casa elfica, posta al
+centro della valle minore.
+Il viottolo si snoda ancora a nord e ad ovest. La vegetazione intorno appare
+appena mossa da un flebile soffio di vento.. Gioisce il canto di un'allodola e
+tutta l'aria profuma di sambuco, in questo luogo..
+~
+0 0 2 0 0 0
+D0
+Il viottolo prosegue il suo cammino..
+~
+~
+0 0 7836 0
+D3
+La viuzza continua..
+~
+~
+0 0 7831 0
+S
+#7834
+Una casa colonica elfica~
+Hai varcato l'uscio di una costruzione elfica: la grande casa colonica di un
+clan familiare elfico.
+L'ingresso nel quale ti trovi già prelude al gusto e all'armonia di tutta la
+costruzione: dai toni dei colori alla disposizione degli oggetti.
+Sulle pareti laterali si aprono minuscole nicchie, ognuna delle quali contiene
+un cero cubico che, bruciando ininterrottamente, illumina l'ambiente e ne
+infonde un delicato profumo di sambuco.
+~
+0 8 0 0 0 0
+D0
+Un'altra stanza si affaccia a nord di qui: deve trattarsi del soggiorno.
+~
+~
+0 0 7838 0
+D1
+Un altro locale della graziosa casetta elfica
+~
+~
+0 0 7835 0
+D2
+All'esterno della costruzione elfica.
+~
+porta~
+1 -1 7829 0
+S
+#7835
+La cucina elfica~
+Che meraviglia questo cucinino elfico: così piccolo eppure serve tutto il clan
+di questa sezione della Valle..
+Tutte le pareti sono funzionali all'arte culinaria: mestoli allineati accanto
+all'angolo dei fuochi, una capiente piattaia e un piano di granito compongono
+il lato orientale, misurini e pentolame di ogni grandezza sono disposti
+ordinatamente sullo spesso mensolone a copertura di un grande forno a legna.
+A nord e ad est due piccole porticine in frassino.
+~
+0 8 0 0 0 0
+D0
+Una porticina in frassino dà l'accesso ad un locale adibito a dispensa.
+~
+~
+0 0 7839 0
+D3
+Un altro locale della graziosa casetta elfica, dietro la porta di frassino.
+~
+~
+0 0 7834 0
+S
+#7836
+Un rettilineo nella valle minore~
+Alla tua sinistra c'è il lato orientale della graziosa casa colonica.. Ne stai
+seguendo i contorni mostrati dal viottolo sul quale stai camminando. Gruppi di
+fiori selvatici vantano i loro colori fiammanti alla luce degli astri
+brillanti.. Sembra quasi che essi voltino le loro delicate corolle per
+abbeverarsi alla luce diurna.
+~
+0 0 2 0 0 0
+D0
+Il viottolo costeggia la costruzione elfica..
+~
+~
+0 0 7840 0
+D2
+Il viottolo prosegue il suo percorso a sud..
+~
+~
+0 0 7833 0
+S
+#7837
+Un rettilineo della valle minore~
+Proseguendo lungo il viottolo ti spingi ancora nella valle minore: alla tua
+destra la costruzione colonica dal centro della vallata s'erige maestosa
+mentre alla tua sinistra l'abbraccio della vegetazione ti avvolge
+rassicurante..
+Dolce l'aria odorosa di sambuco.. Giochi di luce su ogni foglia dei severi
+arbusti in fiore..
+~
+0 0 2 0 0 0
+D0
+Ancora avanza il viottolo, costeggiando la casa colonica elfica..
+~
+~
+0 0 7841 0
+D2
+Il viottolo avanza a sud, di pari passo col perimetro della casa elfica..
+~
+~
+0 0 7832 0
+S
+#7838
+Il soggiorno elfico~
+Accogliente, luminoso e profumato di sambuco, questo locale è un soggiorno in
+perfetto stile elfico: un enorme tappeto copre completamente il rivestimento
+della pavimentazione assumendo tinte delicate a seconda dell'angolazione della
+luce che filtra dall'ampio finestrone laterale.
+Scostando appena le graziose tende azzurre vedi, attraverso i vetri limpidi, la
+maestosità della vallata circostante. Accostamento perfetto del sobrio
+arredamento, un tavolo al centro della stanza mostra un canestro di vimini
+ricolmo di frutta profumata e lucida.
+~
+0 8 0 0 0 0
+D1
+Una stanzetta è raggiungibile dirigendosi ad est di qui.
+~
+~
+0 0 7839 0
+D2
+Il grazioso ingresso della casa elfica.
+~
+~
+0 0 7834 0
+S
+#7839
+La dispensa elfica~
+Stai attraversando un locale adibito a dispensa: tutto è ordinatamente stipato
+e riposto in robusti scaffali di legno bianco, sacchi di spago e canapa sono
+allineati lungo una delle pareti, legati con funi brune, una credenza capiente
+è posta accanto ad una graziosa scaletta di pietra e legno.
+~
+0 8 0 0 0 0
+D2
+Dovrebbe celarsi un cucinino elfico, dietro questa porta..
+~
+~
+0 0 7835 0
+D3
+Un'altra stanza si apre ad occidente.
+~
+~
+0 0 7838 0
+D4
+Attraverso una graziosa scaletta di legno e pietra arriverai al secondo piano
+della costruzione.
+~
+~
+0 0 7848 0
+S
+#7840
+Lungo il rettilineo della valle minore~
+Prosegui ancora nell'esplorazione della valle minore, giungendo, attraverso il
+viottolo che la costeggia, a pochi passi dall'angolo nord-occidentale: quindi
+ti guardi intorno ed hai consapevolezza dell'intera superficie, nella sua
+bellezza.
+~
+0 0 2 0 0 0
+D0
+Ancora avanza il viottolo, costeggiando la casa colonica elfica..
+~
+~
+0 0 7844 0
+D2
+Il viottolo avanza a sud, di pari passo col perimetro della casa elfica..
+~
+~
+0 0 7836 0
+S
+#7841
+L'angolo nord-occidentale della valle minore~
+Qui il viottolo curva dolcemente a est e a sud.
+Sei nell'angolo nord-occidentale della vallata e proseguendo verso sud
+costeggerai il fianco sinistro della casa colonica sita al centro.
+Un intenso ma delicato aroma di sambuco pervade tutta la zona.
+~
+0 0 2 0 0 0
+D1
+Il viottolo piega dolcemente a est, seguendo il muro esterno della casa
+colonica elfica
+~
+~
+0 0 7842 0
+D2
+Il viottolo continua in questa direzione..
+~
+~
+0 0 7837 0
+S
+#7842
+Lungo il rettilineo nella valle minore~
+Avanzi lungo il rettilineo all'interno della valle minore, tra il frinire delle
+cicale e i canti di risposta dei grilli argentati.
+Ti fermi ad osservare la vegetazione circostante.. Ed è così che posi lo
+sguardo su questi insetti particolari.
+A malincuore sospiri e prosegui la tua passeggiata salutando i musicisti con un
+battito di ciglia..
+~
+0 0 2 0 0 0
+D1
+La stradina fiancheggia il muro esterno della casa colonica elfica
+~
+~
+0 0 7843 0
+D3
+Il viottolo prosegue rincorrendo l'esterno della costruzione elfica..
+~
+~
+0 0 7841 0
+S
+#7843
+Un rettilineo nella valle minore~
+Il viottolo ti ha immesso in un lungo rettilineo, che si estende ancora per
+molto: gira e curva verso sud di pari passo con il retro della casa elfica.
+L'aria è salubre e un venticello leggero cosparge la vallata minore di un
+delicato aroma di sambuco..
+~
+0 0 2 0 0 0
+D1
+Il viottolo segue il perimetro della costruzione elfica..
+~
+~
+0 0 7844 0
+D3
+La viuzza prosegue di pari passo con la costruzione elfica..
+~
+~
+0 0 7842 0
+S
+#7844
+L'Angolo nord-orientale della valle minore~
+Ecco l'angolo nord-orientale della valle minore.
+Qui intravedi il retro della casa colonica e, ad ovest, il sentiero prosegue
+attraversato dalla viuzza che stai percorrendo..
+~
+0 0 2 0 0 0
+D2
+Il viottolo continua in questa direzione..
+~
+~
+0 0 7840 0
+D3
+Il viottolo piega dolcemente a ovest, seguendo il muro esterno della casa
+colonica elfica.
+~
+~
+0 0 7843 0
+S
+#7845
+La stanza degli elfi prischi~
+Entri furtivamente in questa stanza, cercando di attutire il rumore dei tuoi
+stessi passi ma lo scricchiolio della porta ha tradito i tuoi propositi.
+I quattro lati delle pareti mostrano pesanti mensole di legno di cedro, ad
+ospitare, in ordine, diversi tomi vergati in lingua arcana.
+Un massiccio tavolo nero posto in un angolo, è ricoperto da pergamene e al
+centro esatto della stanza uno strano oggetto sferico pulsa emanando un cono di
+luce rovesciato.
+~
+0 8 0 0 0 0
+D0
+Una porta di legno conduce ad un'altra stanza.
+~
+porta~
+1 -1 7847 0
+D1
+C'è sicuramente un locale, dietro questa porta.
+~
+porta~
+1 7804 7846 0
+S
+#7846
+Un locale adibito a deposito~
+Sei entrato in un locale angusto e buio, l'unico modo per vedere qualcosa è
+attendere che gli occhi si abituino all'oscurità.
+Ti rendi però subito conto che si tratta di un deposito: molti oggetti qui
+stipati sono di dubbia utilità.. Ma chi può affermarlo con certezza, poi?
+~
+0 8 0 0 0 0
+D0
+Una porta blocca l'accesso ad un altra stanza.
+~
+porta~
+1 7804 7848 0
+D3
+C'è sicuramente un'altra stanza, ad ovest del locale.
+~
+porta~
+1 7804 7845 0
+S
+#7847
+Un dormitorio elfico~
+Una camera ampia e asciutta, illuminata a giorno da un paio di finestroni posti
+ad angolo sulle pareti nord e ovest: è il dormitorio della valle degli elfi.
+Il pavimento liscio e livellato ospita brande di ferro battuto e qualche libro
+è stato lasciato aperto sui davanzali dei finestroni. Non c'è nulla che ti
+possa interessare, qui.
+~
+0 8 0 0 0 0
+D1
+C'è un altro locale ad est di qui, quella è la porta..
+~
+porta~
+1 -1 7848 0
+D2
+Una porta di legno chiude l'ingresso ad un'altra stanza.
+~
+porta~
+1 -1 7845 0
+S
+#7848
+Uno studiolo elfico~
+Hai oltrepassato la soglia immettendoti in un locale adibito a Studio.
+L'ambiente è gradevolmente illuminato da vasetti di olio di sambuco che
+bruciano continuamente ad ognuna delle pareti.
+Il pavimento è completamente ricoperto da morbidi stuoini di vello e, disposti
+in modo ordinato lungo uno dei muri principali, ci sono diversi strumenti
+musicali: arpe, liuti e flauti di legno e metalli leggeri, libri dalle coste
+dorate e carta da musica accatastati tutt'intorno.
+Una scaletta accede al piano inferiore.
+~
+0 8 0 0 0 0
+D2
+Vedi una stanza a sud di questa, varchi la soglia?
+~
+porta~
+1 7804 7846 0
+D3
+Ancora una stanza, ad ovest di qui.
+~
+porta~
+1 -1 7847 0
+D5
+Il primo piano della costruzione è raggiungibile da questa scaletta in legno
+e
+pietra.
+~
+~
+0 0 7839 0
+S
+#7849
+Un viottolo lungo i margini della valle~
+Ecco che sei giunto ai margini orientali della vallata e intraprendi la tua
+passeggiata lungo un acciottolato di pietra naturale, tra fronde scosse dal
+vento e gioiosi cinguettii di volatili..
+~
+0 0 2 0 0 0
+D1
+Il viottolo di pietra prosegue da qui.
+~
+~
+0 0 7850 0
+D2
+Intravedi una viuzza affacciarsi da qui.
+~
+~
+0 0 7803 0
+D5
+Non è tanto conveniente scendere di sotto..
+~
+~
+0 0 7883 0
+S
+#7850
+Lungo il viottolo ai margini della valle~
+Prosegui a passo celere seguendo la strada obbligata, a questo punto.
+La vegetazione ti circonda con le sue mille meraviglie e i suoi colori
+cangianti..
+~
+0 0 2 0 0 0
+D0
+Il viottolo si snoda verso nord.
+~
+~
+0 0 7851 0
+D3
+Il viottolo piega a ovest.
+~
+~
+0 0 7849 0
+D5
+La discesa che intravedi non appare affatto sicura..
+~
+~
+0 0 7883 0
+S
+#7851
+Seguendo i margini della valle~
+L'aria profuma di rugiada e terra, in questo punto preciso della vallata.
+Un delicato fruscio cattura la tua attenzione. Hai visto? S'è mosso un
+cespuglio! Era il saluto di uno scoiattolino!
+~
+0 0 2 0 0 0
+D1
+Intravedi la viuzza piegare in questa direzione..
+~
+~
+0 0 7852 0
+D2
+La strada prosegue a sud.
+~
+~
+0 0 7850 0
+D5
+Sei proprio sicuro di volerti calare per questo cunicolo?
+~
+~
+0 0 7883 0
+S
+#7852
+Costeggiando i margini della valle~
+Incedi avanzando spedito per questa stradina di pietra: porzioni di cielo fanno
+capolino tra i rami alti di alcuni arbusti in fiore mentre una brezza frizzante
+solleva armoniosamente le foglie dei rami più lunghi.
+~
+0 0 2 0 0 0
+D0
+Il viottolo avanza verso settentrione.
+~
+~
+0 0 7853 0
+D3
+Il viottolo piega ad occidente.
+~
+~
+0 0 7851 0
+D5
+Attento.. Ti stai sporgendo pericolosamente!
+~
+~
+0 0 7883 0
+S
+#7853
+Il margine orientale della valle~
+Continui la tua strada verso lo stretto viottolo di sassi. L'aria si fa
+frizzante a causa di un docile vento che s'è appena affacciato sulla vallata.
+Una farfalla bianca ti precede a nord.
+~
+0 0 2 0 0 0
+D0
+Ancora avanza la pista del viottolo di sassi..
+~
+~
+0 0 7854 0
+D2
+La strada volge a meridione.
+~
+~
+0 0 7852 0
+D5
+Lo scivolo in basso appare relativamente sicuro..
+~
+~
+0 0 7817 0
+S
+#7854
+Seguendo il viottolo ai margini della valle~
+In questo tratto del sentiero di sassi le siepi presentano boccioli colorati e
+bacche odorose.
+L'erba circostante è alta ma livellata e le foglie brillano di perle di rugiada
+cangiante.
+Avanzi..
+~
+0 0 2 0 0 0
+D2
+La stradina discende verso sud.
+~
+~
+0 0 7853 0
+D3
+La viuzza svolta in questa direzione.
+~
+~
+0 0 7855 0
+D5
+La viuzza ripida non appare di agevole transito.. Mah..
+~
+~
+0 0 7883 0
+S
+#7855
+Una rientranza lungo il margine della valle~
+Un angolo di paradiso questa piccola rientranza. L'erba appare livellata, le
+siepi sono punteggiate da pruni selvatici dai colori brillanti e delicate more
+violacee. A nord si apre ancora l'agile cammino del viottolo.
+~
+0 0 2 0 0 0
+D0
+Il sentiero di sassi prosegue a nord.
+~
+~
+0 0 7856 0
+D1
+Il sentiero di sassi prosegue a est.
+~
+~
+0 0 7854 0
+D5
+Questo condotto verso il basso non è affatto sicuro.. Pensaci ancora prima
+di
+decidere di proseguire.
+~
+~
+0 0 7883 0
+S
+#7856
+L'angolo nord-occidentale ai margini della valle~
+Mentre la luce diurna gioca tra le foglie e il vento sfiora teneramente la tua
+guancia avanzi sereno.. Stai sorridendo, vedi? Il silenzio ti avvolge in una
+rassicurante coltre. Ormai cammini da tanto ma non sei affaticato.
+~
+0 0 2 0 0 0
+D2
+Il viottolo di sassi scende verso sud.
+~
+~
+0 0 7855 0
+D3
+Il viottolo curva dolcemente in questa direzione..
+~
+~
+0 0 7857 0
+D5
+Il terreno è sdrucciolevole e non riesci a distinguere dove potresti finire se
+scivolassi da qui.. Attenzione!
+~
+~
+0 0 7883 0
+S
+#7857
+Un rettilineo ai margini della valle~
+Ti soffermi ad ammirare ancora la vallata sottostante: gli alberi carichi di
+frutti colorati si stagliano alti e fieri verso il cielo terso, l'erba si
+muove della docile guida del vento e sotto i piedi hai la rassicurante pista
+di un sentiero di sassi levigati che si allunga verso oriente mentre ad ovest
+ondeggia un piccolo ponte di corda.
+~
+0 0 2 0 0 0
+D1
+Il viottolo prosegue ad est.
+~
+~
+0 0 7856 0
+D3
+In lontananza ondeggia un ponte di corda..
+~
+~
+0 0 7858 0
+D5
+Tieniti lontano da questo oscuro imbocco.. Non è confortevole la strada
+che
+stai scrutando in questo momento..
+~
+~
+0 0 7883 0
+S
+#7858
+Sul ponte di corda~
+Ti muovi adagio su questo piccolo ponte di corda ma presto intuisci che è
+saldo e sicuro e ti soffermi a guardarti attorno posando le mani sul corrimano
+di canapa bionda. Il ponte è costituito da una passerella a travi di castagno,
+sui bordi sono impiantate delle robuste stecche di legno di noce. Tutta
+l'impalcatura è legata da robuste funi sapientemente intrecciate, come anche
+di corda è la ringhiera che ti permette di affacciarti. Da qui t'è offerta
+la vista dell'intera valle elfica: a sud s'estende la vallata principale, a
+nord-est una piccola vallata racchiude una costruzione al centro, a
+nord-ovest ancora una minuscola vallata che ospita una capanna.
+Lasci scivolare lo sguardo su una graziosa scaletta di corda che conduce verso
+il basso..
+~
+0 0 2 0 0 0
+D1
+Un sentiero di ciottoli levigati avanza verso oriente..
+~
+~
+0 0 7857 0
+D3
+Un sentiero di ciottoli levigati avanza verso occidente.
+~
+~
+0 0 7859 0
+D5
+Una scaletta di corda conduce ad una stradina..
+~
+~
+0 0 7826 0
+S
+#7859
+Un rettilineo ai margini della valle~
+L'acciottolato che hai sotto i piedi è curiosamente riposante.. I talloni non
+soffrono dei dolci dislivelli dei sassi lisci. Ti fermi, respiri e ti guardi
+intorno.. Allietato dal canto di un usignolo dorato volgi lo sguardo ad oriente
+dove si delinea la sagoma di un piccolo ponte di corda. Spostando gli occhi ad
+occidente noti il prosieguo del sentiero di sassi.
+~
+0 0 2 0 0 0
+D1
+In lontananza ondeggia un ponte di corda..
+~
+~
+0 0 7858 0
+D3
+Il viottolo prosegue ad ovest.
+~
+~
+0 0 7860 0
+D5
+Non è tanto conveniente scendere di sotto..
+~
+~
+0 0 7883 0
+S
+#7860
+L'angolo nord-orientale ai margini della valle~
+Avanzi ancora lungo la stradina di pietra tra il fischio invitante del vento
+dell'est e i giochi di luce degli astri lucenti tra i rametti dei piccoli
+arbusti posti tutt'intorno.
+~
+0 0 2 0 0 0
+D1
+Il viottolo curva dolcemente in questa direzione..
+~
+~
+0 0 7859 0
+D2
+Il viottolo di sassi scende verso sud.
+~
+~
+0 0 7861 0
+D5
+La discesa che intravedi non appare affatto sicura..
+~
+~
+0 0 7883 0
+S
+#7861
+Una rientranza lungo il margine della valle~
+I profumi dei frutti di bosco si intrecciano in questa piccola rientranza
+paradisiaca. Bacche bianche e chicchi dorati ricoprono le sinuose siepi accanto
+al viottolo di sassi che ancora volge il suo prosieguo a nord..
+~
+0 0 2 0 0 0
+D0
+Il sentiero di sassi prosegue a nord.
+~
+~
+0 0 7860 0
+D3
+Il sentiero di sassi prosegue a ovest.
+~
+~
+0 0 7862 0
+D5
+Sei proprio sicuro di volerti calare per questo cunicolo?
+~
+~
+0 0 7883 0
+S
+#7862
+Seguendo il viottolo ai margini della valle~
+Abbassi lo sguardo alla vallata sottostante e lo spettacolo, seppure ormai
+noto, ti spezza il respiro.. L'erba si muove al ritmo del vento come danza
+fatata, l'intera distesa riluce.
+~
+0 0 2 0 0 0
+D1
+La viuzza svolta in questa direzione.
+~
+~
+0 0 7861 0
+D2
+La stradina discende verso sud.
+~
+~
+0 0 7863 0
+D5
+Attento.. Ti stai sporgendo pericolosamente!
+~
+~
+0 0 7883 0
+S
+#7863
+Il margine occidentale della valle~
+Prosegui spedito attraverso le siepi ai margini del viottolo. Voltando il capo
+ammiri la perfezione dello scenario. Gruppi di rondini tagliano il cielo, vanno
+verso nord.
+~
+0 0 2 0 0 0
+D0
+Ancora avanza la pista del viottolo di sassi..
+~
+~
+0 0 7862 0
+D2
+La strada volge a meridione.
+~
+~
+0 0 7864 0
+D5
+Lo scivolo in basso appare relativamente sicuro..
+~
+~
+0 0 7813 0
+S
+#7864
+Costeggiando i margini della valle~
+Ancora cammini costeggiando i margini della valle elfica: il silenzio
+rilassante è rotto saltuariamente dai gorgheggi dei passerotti e dal fruscio
+leggero del vento tra le fronde scure.. E' agevole incedere lungo questa
+viuzza in pietra levigata e lo spettacolo che ti circonda infonde al tuo animo
+un senso di pace e quiete.
+~
+0 0 2 0 0 0
+D0
+Il viottolo avanza verso settentrione.
+~
+~
+0 0 7863 0
+D1
+Il viottolo piega ad oriente.
+~
+~
+0 0 7865 0
+D5
+La viuzza ripida non appare di agevole transito.. Mah..
+~
+~
+0 0 7883 0
+S
+#7865
+Seguendo i margini della valle~
+Che incanto la natura che ti tiene per mano mentre avanzi inoltrandoti per la
+stradina di sassi. Mille i colori che ogni foglia assume sotto la carezza
+leggera della luce degli astri..
+~
+0 0 2 0 0 0
+D2
+La strada prosegue a sud.
+~
+~
+0 0 7866 0
+D3
+Intravedi la viuzza piegare in questa direzione..
+~
+~
+0 0 7864 0
+D5
+Questo condotto verso il basso non è affatto sicuro..
+Pensaci ancora prima di decidere di proseguire.
+~
+~
+0 0 7883 0
+S
+#7866
+Lungo il viottolo ai margini della valle~
+Avanzi serenamente sul comodo viottolo di pietra tra i canti allegri degli
+uccelli e i giochi della luce tra le foglie delle numerose siepi che
+costeggiano i margini della vallata..
+~
+0 0 2 0 0 0
+D0
+Il viottolo prosegue verso nord.
+~
+~
+0 0 7865 0
+D1
+Il viottolo piega a est.
+~
+~
+0 0 7867 0
+D5
+Il terreno è sdrucciolevole e non riesci a distinguere dove potresti finire se
+scivolassi da qui.. Attenzione!
+~
+~
+0 0 7883 0
+S
+#7867
+Un viottolo lungo i margini della valle~
+Hai scelto di attraversare la valle prendendo un viottolo in pietra naturale,
+dalla parte occidentale. Lo spettacolo resta immutato nella sua grazia, la tua
+passeggiata è allietata da un venticello tiepido..
+~
+0 0 2 0 0 0
+D2
+Intravedi una viuzza affacciarsi da qui.
+~
+~
+0 0 7802 0
+D3
+Il viottolo di pietra prosegue da qui.
+~
+~
+0 0 7866 0
+D5
+Tieniti lontano da questo oscuro imbocco..
+Non è confortevole la strada che stai scrutando in questo momento..
+~
+~
+0 0 7883 0
+S
+#7868
+Una curva occidentale nella strada~
+Sei giunto dove la stradina elfica piega in una morbida curva verso occidente.
+Dolci poggi in lontananza mostrano il disegno circolare dello scenario che stai
+per raggiungere se deciderai di proseguire per la strada intrapresa..
+~
+0 0 2 0 0 0
+D0
+La stradina elfica avanza a settentrione..
+~
+~
+0 0 7869 0
+D1
+La stradina elfica curva dolcemente ad est..
+~
+~
+0 0 7827 0
+S
+#7869
+Un'altra piega ad occidente della strada~
+La curva prosegue piegandosi verso ovest. Lo scenario si delinea maggiormente
+e, infatti, vedi ad ovest, in lontananza, un'altra piccola vallata estendersi
+in un circolo di dolci poggi: sembra racchiudere qualcosa al suo interno, non
+è ancora completamente riconoscibile.. Forse è una capanna..
+~
+0 0 2 0 0 0
+D2
+La stradina elfica scende a ritroso da qui..
+~
+~
+0 0 7868 0
+D3
+Scorgi in lontananza un'altra piccola vallata..
+~
+~
+0 0 7870 0
+S
+#7870
+Una piccola valle elfica~
+Hai raggiunto un'altra valle, più piccola.. Guardandoti attorno ti accorgi di
+alcune stranezze: gli alberi che crescono qui sono curiosamente alti e
+presentano foglie d'oro striate d'azzurro.. Cominci a chiederti se questo sia
+frutto dell'affascinante mistero della natura o piuttosto il risultato di un
+segreto incantamento. Ad ogni modo il contorno dello scenario è chiaro: la
+vallata assume forma circolare racchiudendosi attorno ad una piccola capanna a
+forma di cono.
+~
+0 0 2 0 0 0
+D0
+La piccola valle prosegue a nord..
+~
+~
+0 0 7871 0
+D1
+L'Entrata della piccola valle elfica.
+~
+~
+0 0 7869 0
+D2
+La piccola valle scivola dolcemente a sud..
+~
+~
+0 0 7872 0
+D3
+Circondata dalle siepi e dai teneri arbusti intravedi una capanna in stile
+elfico..
+~
+porta~
+1 -1 7878 0
+S
+#7871
+Il margine nord-orientale della piccola valle~
+Ancora avanzi, decidendo così di percorrere il perimetro esterno della piccola
+valle. Esamini da vicino gli altissimi alberi dalle foglie azzurro-dorate e
+ancora ti chiedi se la magia c'entri qualcosa.. A sud-ovest vedi chiaramente
+uno dei lati della capanna sita al centro della valle..
+~
+0 0 2 0 0 0
+D2
+La piccola valle scende morbidamente a settentrione..
+~
+~
+0 0 7870 0
+D3
+La piccola valle si estende ancora lungo il versante occidentale..
+~
+~
+0 0 7873 0
+S
+#7872
+Il margine sud-orientale della piccola valle~
+Ti fermi ad osservare, in questo punto preciso della piccola valle, un curioso
+cespuglio di bacche violacee: sono ovali e trasparenti e al loro interno pulsa
+una luce intermittente, come un piccolo cuore.. Al tatto sono morbide ma
+resistenti, simili a certe linfe gommose una volta rapprese..
+A nord vedi l'entrata della piccola valle mentre ad ovest prosegue l'estensione
+~
+0 0 2 0 0 0
+D0
+La piccola valle s'apre ancora a settentrione..
+~
+~
+0 0 7870 0
+D3
+La piccola valle avanza verso occidente..
+~
+~
+0 0 7877 0
+S
+#7873
+A nord della piccola valle elfica~
+Costeggiando la piccola valle noti che gli strani alberi giganteschi hanno, in
+questo tratto, mutato il colore delle loro fronde: dall'oro vivo striato
+d'azzurro, le foglie hanno assunto un tono violaceo spruzzato di rosso..
+Alzandosi improvvisa, una brezza leggera ti scompiglia i capelli portando con
+se' un tenue odore di menta..
+~
+0 0 2 0 0 0
+D1
+La piccola vallata prosegue da qui
+~
+~
+0 0 7871 0
+D3
+Ancora un tratto della piccola vallata.
+~
+~
+0 0 7874 0
+S
+#7874
+Il margine nord-occidentale della piccola valle~
+Ancora prosegui, accompagnato dalla brezza odorosa e costeggi l'angolo
+nord-occidentale della piccola valle, seguendo le file degli alti arbusti dalle
+foglie vermiglie.
+Cespugli di more e bacche bianche crescono spontaneamente un po' ovunque, in
+questo tratto di valle.. A sud la piccola vallata prosegue la sua curva..
+~
+0 0 2 0 0 0
+D1
+La piccola vallata prosegue ad est..
+~
+~
+0 0 7873 0
+D2
+Scivola dolcemente l'estensione della piccola valle..
+~
+~
+0 0 7875 0
+S
+#7875
+Un tratto della piccola valle elfica~
+Sei lungo il perimetro della piccola valle, l'atmosfera è serena e stai girando
+in tondo, ora ne sei certo: al centro della vallata c'è proprio una capanna in
+stile elfico: deve trattarsi del rifugio di qualche eremita..
+~
+0 0 2 0 0 0
+D0
+La vallata si estende ancora per un tratto dritto, a nord..
+~
+~
+0 0 7874 0
+D2
+Immutevole segue il percorso verticale della piccola valle..
+~
+~
+0 0 7876 0
+S
+#7876
+Il margine sud-occidentale della piccola valle~
+Prosegui costeggiando la piccola valle e anche qui gli strani arbusti
+giganteschi allietano lo scenario con la loro presenza, solo che hanno di nuovo
+mutato il colore delle foglie: appaiono di un solido grigio ferro con
+variegature magenta.
+L'aria profuma di sandalo..
+~
+0 0 2 0 0 0
+D0
+Scivola dolcemente l'estensione della piccola vallata, verso nord..
+~
+~
+0 0 7875 0
+D1
+La piccola valle prosegue ad est.
+~
+~
+0 0 7877 0
+S
+#7877
+A sud della piccola valle elfica~
+Un forte sbuffo di vento crea mulinelli di foglie davanti ai tuoi piedi, volti
+il capo verso nord e ti fermi ad osservare il fianco della capanna elfica, al
+centro della valle.
+Appena il vento si placa procedi spedito e rasserenato sul tappeto di foglie
+grigie che lastrica la vallata..
+~
+0 0 2 0 0 0
+D1
+La piccola vallata prosegue da qui..
+~
+~
+0 0 7872 0
+D3
+Ancora un tratto della piccola vallata.
+~
+~
+0 0 7876 0
+S
+#7878
+L'interno di una capanna elfica~
+Ti guardi intorno, sei appena entrato in questa graziosa ed accogliente capanna
+elfica.
+E' costruita dall'intreccio ad arte di spesse canne di fiume, legate tra loro
+da lacciuoli di vegetale di palma e termina in uno stretto soffitto a cono.
+Un tubo metallico funge da tubo di scarico del piccolo fornello in pietra e
+ferro, una pentola bombata è appesa al gancio ricurvo in superficie.
+Accanto al forno, un largo essiccatoio mostra foglie di varia specie distese in
+lungo, ordinatamente.
+Un paio di cilindrici tronchi mozzi a fare da tavolo e sedia.
+~
+0 8 0 0 0 0
+D1
+Dall'apertura del rifugio vedi la distesa della vallata..
+~
+porta~
+1 -1 7870 0
+D5
+Probabilmente quello che vedi è una botola, mah..
+~
+botola~
+1 -1 7879 0
+S
+#7879
+Sotto la piccola capanna elfica~
+Sei sotto la piccola baracca elfica e l'ambiente è stranamente riscaldato,
+forse in modo innaturale, in un cunicolo che si snoda verso meridione.
+Da quella direzione proviene una luce rossastra: per quanto ti sporgi e cerchi
+di aguzzare la vista, vedi da te che l'unico modo per saperne di piu' è
+avanzare..
+~
+0 9 0 0 0 0
+D2
+Un fascio di luci rossastre proviene da questa direzione..
+~
+~
+0 0 7880 0
+D4
+Attraverso la botola s'intravede l'interno di un piccolo rifugio elfico.
+~
+botola~
+1 -1 7878 0
+S
+#7880
+La tana dell'idra infuocata~
+Accidenti.. Sei finito proprio nel covo di un'Idra di fuoco! Tutte le pareti
+sono carbonizzate e l'aria è satura di fumo e ti stringe la gola.. Scappa se
+sei ancora in tempo!
+~
+0 9 0 0 0 0
+D0
+Forse una via di salvezza potrebbe essere proprio qui..
+~
+~
+0 0 7879 0
+D1
+Una larga breccia nella parete rocciosa carbonizzata..
+~
+breccia~
+1 7805 7882 0
+D3
+Una porta metallica, annerita dal fumo.
+~
+porta~
+1 7805 7881 0
+S
+#7881
+Un laboratorio elfico~
+Questa stanza è utilizzata per gli studi magici, teorici e pratici. Ovunque
+ribollono pozioni in vari contenitori dalle fogge più disparate e dai
+differenti colori, alambicchi sinuosi collegano varie ampolle poste a distanze
+precise su un lungo piano di vetro nero.
+Una fornacella dà luce all'ambiente e in terra sono ammonticchiati resti di
+animali, pelli ed erbe misteriose. Tutta la stanza è impregnata di un alone di
+magia..
+~
+0 8 0 0 0 0
+D1
+Sbuffi di fumo passano ad intervalli irregolari sotto questa porta di metallo.
+~
+porta~
+1 7805 7880 0
+S
+#7882
+Un magazzino elfico.~
+Una strana aura magica pervade tutto l'ambiente: è un magazzino elfico e serve
+alla conservazione di ogni artefatto prodotto in laboratorio.
+Vedi infatti diverse pergamene impilate con cura, varie fialette catalogate in
+modo impeccabile, sfere luminose e bacchette di ogni foggia e colore.
+Tutto è disposto metodicamente sui vari scaffali di legno chiaro.
+Grosse candele verdi illuminano tenuamente la stanza emettendo un dolce profumo
+di cedro..
+~
+0 8 0 0 0 0
+D3
+Un largo crepaccio nel muro roccioso emana ogni tanto un effluvio di nera
+caligine.. che sia un passaggio segreto?
+~
+passaggio~
+1 7805 7880 0
+S
+#7883
+Molto in fondo.. alla valle~
+Ti sei avventurato troppo in fondo alla vallata senza conoscerla bene.. Ahimè
+sei finito in un posto angusto e poco illuminato.. Non troverai facilmente il
+modo per uscire di qui..
+~
+0 6 0 0 0 0
+S
+#0
+
+#RESETS
+M 0 7801 1 7805  ; Mob: #7801 un elfo della valle => #7805 L'entrata della valle degli elfi
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7800 1 7806  ; Mob: #7800 un grosso cane => #7806 Ai margini sud-occidentali della valle elfica
+M 0 7800 2 7807  ; Mob: #7800 un grosso cane => #7807 Ai margini sud-orientali della valle elfica
+M 0 7802 2 7811  ; Mob: #7802 un'elfa della valle => #7811 Un tratto orientale della valle degli elfi
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7814 3 7815  ; Mob: #7814 un'antilope => #7815 Proseguendo nella valle degli elfi
+M 0 7801 6 7816  ; Mob: #7801 un elfo della valle => #7816 Un rettilineo orientale della valle elfica
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7801 3 7818  ; Mob: #7801 un elfo della valle => #7818 Gli estremi nord-occidentali della valle elfica
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7813 3 7818  ; Mob: #7813 un lupo => #7818 Gli estremi nord-occidentali della valle elfica
+M 0 7801 2 7820  ; Mob: #7801 un elfo della valle => #7820 Avanzando nella valle degli elfi
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7802 6 7820  ; Mob: #7802 un'elfa della valle => #7820 Avanzando nella valle degli elfi
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7800 5 7823  ; Mob: #7800 un grosso cane => #7823 Ai margini nord-occidentali della valle elfica
+M 0 7814 3 7825  ; Mob: #7814 un'antilope => #7825 Ai margini nord-orientali della valle elfica
+M 0 7805 3 7827  ; Mob: #7805 un esploratore elfico => #7827 Lungo la strada nella valle elfica
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+D 0 7829 0 1  ; Door: #7829 Una vallata minore/North => closed
+M 0 7813 3 7830  ; Mob: #7813 un lupo => #7830 Un viottolo occidentale della valle minore
+M 0 7800 6 7833  ; Mob: #7800 un grosso cane => #7833 Lungo il viottolo orientale della valle minore
+D 0 7834 2 1  ; Door: #7834 Una casa colonica elfica/South => closed
+M 0 7806 3 7835  ; Mob: #7806 un'elfa della valle => #7835 La cucina elfica
+M 0 7800 3 7837  ; Mob: #7800 un grosso cane => #7837 Un rettilineo della valle minore
+M 0 7806 4 7838  ; Mob: #7806 un'elfa della valle => #7838 Il soggiorno elfico
+M 0 7806 5 7839  ; Mob: #7806 un'elfa della valle => #7839 La dispensa elfica
+M 0 7802 5 7842  ; Mob: #7802 un'elfa della valle => #7842 Lungo il rettilineo nella valle minore
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7805 4 7842  ; Mob: #7805 un esploratore elfico => #7842 Lungo il rettilineo nella valle minore
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7801 4 7844  ; Mob: #7801 un elfo della valle => #7844 L'Angolo nord-orientale della valle minore
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7807 1 7845  ; Mob: #7807 un elfo prisco => #7845 La stanza degli elfi prischi
+G 1 7804 99 ; -- Give:  #7804 Una chiave di bronzo
+E 1 7806 99 1  ; -- Equip: #7806 Una anello d'oro (Finger-L)
+E 1 7807 99 16  ; -- Equip: #7807 Un bastone di legno (Wield)
+M 0 7808 1 7845  ; Mob: #7808 un'elfa prisca => #7845 La stanza degli elfi prischi
+E 1 7806 99 1  ; -- Equip: #7806 Una anello d'oro (Finger-L)
+E 1 7807 99 16  ; -- Equip: #7807 Un bastone di legno (Wield)
+D 0 7845 1 2  ; Door: #7845 La stanza degli elfi prischi/East => closed and locked
+D 0 7845 0 1  ; Door: #7845 La stanza degli elfi prischi/North => closed
+O 0 7809 99 7846  ; Object: #7809 Un'ampolla di vetro => #7846 Un locale adibito a deposito
+O 0 7823 99 7846  ; Object: #7823 pergamena => #7846 Un locale adibito a deposito
+O 0 7820 99 7846  ; Object: #7820 pergamena => #7846 Un locale adibito a deposito
+O 0 7817 99 7846  ; Object: #7817 Una pergamena => #7846 Un locale adibito a deposito
+O 0 7815 99 7846  ; Object: #7815 Una fiala di vetro => #7846 Un locale adibito a deposito
+O 0 7816 99 7846  ; Object: #7816 Una boccetta di vetro => #7846 Un locale adibito a deposito
+O 0 7819 99 7846  ; Object: #7819 Una pergamena => #7846 Un locale adibito a deposito
+D 0 7846 3 2  ; Door: #7846 Un locale adibito a deposito/West => closed and locked
+D 0 7846 0 2  ; Door: #7846 Un locale adibito a deposito/North => closed and locked
+M 0 7806 1 7847  ; Mob: #7806 un'elfa della valle => #7847 Un dormitorio elfico
+M 0 7806 2 7847  ; Mob: #7806 un'elfa della valle => #7847 Un dormitorio elfico
+D 0 7847 1 1  ; Door: #7847 Un dormitorio elfico/East => closed
+D 0 7847 2 1  ; Door: #7847 Un dormitorio elfico/South => closed
+M 0 7803 4 7848  ; Mob: #7803 una sentinella elfica => #7848 Uno studiolo elfico
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7804 1 7848  ; Mob: #7804 un soldato elfico => #7848 Uno studiolo elfico
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+D 0 7848 2 2  ; Door: #7848 Uno studiolo elfico/South => closed and locked
+D 0 7848 3 1  ; Door: #7848 Uno studiolo elfico/West => closed
+M 0 7804 1 7850  ; Mob: #7804 un soldato elfico => #7850 Lungo il viottolo ai margini della valle
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7805 1 7852  ; Mob: #7805 un esploratore elfico => #7852 Costeggiando i margini della valle
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7814 3 7852  ; Mob: #7814 un'antilope => #7852 Costeggiando i margini della valle
+M 0 7803 1 7853  ; Mob: #7803 una sentinella elfica => #7853 Il margine orientale della valle
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7802 4 7854  ; Mob: #7802 un'elfa della valle => #7854 Seguendo il viottolo ai margini della valle
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7804 1 7856  ; Mob: #7804 un soldato elfico => #7856 L'angolo nord-occidentale ai margini della valle
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7803 3 7860  ; Mob: #7803 una sentinella elfica => #7860 L'angolo nord-orientale ai margini della valle
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7813 3 7860  ; Mob: #7813 un lupo => #7860 L'angolo nord-orientale ai margini della valle
+M 0 7805 2 7862  ; Mob: #7805 un esploratore elfico => #7862 Seguendo il viottolo ai margini della valle
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7804 1 7863  ; Mob: #7804 un soldato elfico => #7863 Il margine occidentale della valle
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7802 3 7865  ; Mob: #7802 un'elfa della valle => #7865 Seguendo i margini della valle
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7803 2 7866  ; Mob: #7803 una sentinella elfica => #7866 Lungo il viottolo ai margini della valle
+E 1 7800 99 5  ; -- Equip: #7800 Una cotta di maglia elfica (Body)
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7802 1 7868  ; Mob: #7802 un'elfa della valle => #7868 Una curva occidentale nella strada
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+D 0 7870 3 1  ; Door: #7870 Una piccola valle elfica/West => closed
+M 0 7800 4 7873  ; Mob: #7800 un grosso cane => #7873 A nord della piccola valle elfica
+M 0 7805 5 7876  ; Mob: #7805 un esploratore elfico => #7876 Il margine sud-occidentale della piccola valle
+E 1 7801 99 8  ; -- Equip: #7801 Un paio di stivali elfici. (Feet)
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+E 1 7803 99 3  ; -- Equip: #7803 Un mantello marrone (Neck-1)
+M 0 7801 5 7877  ; Mob: #7801 un elfo della valle => #7877 A sud della piccola valle elfica
+E 1 7802 99 16  ; -- Equip: #7802 Una lunga spada elfica. (Wield)
+M 0 7810 1 7878  ; Mob: #7810 un vecchio eremita => #7878 L'interno di una capanna elfica
+D 0 7878 1 1  ; Door: #7878 L'interno di una capanna elfica/East => closed
+D 0 7878 5 1  ; Door: #7878 L'interno di una capanna elfica/Down => closed
+D 0 7879 4 1  ; Door: #7879 Sotto la piccola capanna elfica/Up => closed
+M 0 7809 1 7880  ; Mob: #7809 un'idra infuocata => #7880 La tana dell'idra infuocata
+G 1 7805 99 ; -- Give:  #7805 Una chiave di legno
+D 0 7880 1 2  ; Door: #7880 La tana dell'idra infuocata/East => closed and locked
+D 0 7880 3 2  ; Door: #7880 La tana dell'idra infuocata/West => closed and locked
+M 0 7811 1 7881  ; Mob: #7811 Talemon => #7881 Un laboratorio elfico
+E 1 7806 99 1  ; -- Equip: #7806 Una anello d'oro (Finger-L)
+E 1 7807 99 16  ; -- Equip: #7807 Un bastone di legno (Wield)
+E 1 7824 99 0  ; -- Equip: #7824 arbusto (Light)
+D 0 7881 1 2  ; Door: #7881 Un laboratorio elfico/East => closed and locked
+O 0 7808 99 7882  ; Object: #7808 Un'ampolla di vetro => #7882 Un magazzino elfico.
+O 0 7822 99 7882  ; Object: #7822 pergamena => #7882 Un magazzino elfico.
+O 0 7821 99 7882  ; Object: #7821 pergamena => #7882 Un magazzino elfico.
+O 0 7810 99 7882  ; Object: #7810 Un flacone di vetro => #7882 Un magazzino elfico.
+O 0 7812 99 7882  ; Object: #7812 Una bottiglina di vetro => #7882 Un magazzino elfico.
+O 0 7811 99 7882  ; Object: #7811 Una boccetta di vetro => #7882 Un magazzino elfico.
+O 0 7820 99 7882  ; Object: #7820 pergamena => #7882 Un magazzino elfico.
+O 0 7815 99 7882  ; Object: #7815 Una fiala di vetro => #7882 Un magazzino elfico.
+O 0 7818 99 7882  ; Object: #7818 Una pergamena => #7882 Un magazzino elfico.
+O 0 7814 99 7882  ; Object: #7814 Una fiala di vetro => #7882 Un magazzino elfico.
+O 0 7813 99 7882  ; Object: #7813 Una bottiglina di vetro => #7882 Un magazzino elfico.
+O 0 7823 99 7882  ; Object: #7823 pergamena => #7882 Un magazzino elfico.
+M 0 7812 1 7882  ; Mob: #7812 un demone guardiano => #7882 Un magazzino elfico.
+D 0 7882 3 2  ; Door: #7882 Un magazzino elfico./West => closed and locked
+S
+
+#SPECIALS
+M 7807 spec_cast_cleric   ; un elfo prisco
+M 7808 spec_cast_mage   ; un'elfa prisca
+M 7809 spec_breath_fire   ; un'idra infuocata
+M 7811 spec_cast_mage   ; Talemon
+S
+
+
+#END

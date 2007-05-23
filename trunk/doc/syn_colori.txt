@@ -1,0 +1,19 @@
+ è una cosa potente che mi son inventato poco a poco e sto aggiungendo qui e là
+ in pratica è formato da due campi, uno è il codice che rappresenta una cosa tipo, classe, razza, materiale qualcosa di numerico insomma
+ l'altro è una stringa, che va al posto della stringa di default che identifica di solito il codice sopra
+
+ tipo
+ RACE_FELINE
+ solitamente è tradotto come feline
+ ma si può scriverla anche
+ RACE_FELINE leone~
+ ed allora al posto di felino i pg leggono un leone
+Onirik: tanto per dire
+
+ ma il vero potere sta nelle parti del corpo
+ ricordi che avevo fatto un sistema di colori con 256 colori e più?
+ ed ora invece ne ho 16?
+Onirik: ecco, synonym
+ uno è il codice che identifica il colore, l'altro è la stringa che descrive il colore
+ AT_BLACK nero lucente~
+ al posto di nero

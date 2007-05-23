@@ -1,0 +1,1446 @@
+#AREA
+Name       Il labirinto iniziatico~
+Author     Maynard (Amlugil)~
+LevelRange 1 5
+Color      AT_RED rosso~
+ResetMsg1  Un sordido tonfo mi giunge da chissà dove..~
+ResetMsg2  Un lontano clangore mi sorprende prima di dipanarsi nell'aria..~
+Vnums      18600 18650
+End
+
+
+#MOBILES
+#18601
+bestia belva infame~
+la bestia infame~
+Sul fondo del pozzo noti un'orribile belva che ringhia ferocemente.
+~
+Dalle sue fauci dilatate spunta fuori una dentatura ingiallita e sporca di
+sangue, il suo enorme corpo è ricoperto da una folta e lunga peluria nera
+con sporadiche chiazze verdastre. Cammina reggendosi su due zampe.. bramando
+la tua carne..
+~
+7 0 -750 C
+5 0 0 2d6+60 1d6+1
+150 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 2 0
+
+#18602
+umanoide strano~
+uno strano umanoide~
+Uno strano umanoide si aggira da queste parti.. sembra piuttosto confuso.
+~
+La folta capigliatura di questo strano individuo è libera e sciolta, si
+direbbe quasi che non sia mai stata lavata.. ma preferisci non indagare.
+La peluria ispida sul suo viso ti impedisce di scorgerne in maniera precisa
+i lineamenti.. tuttavia non è molto alto, anche se la sua muscolatura
+sembra decisamente sviluppata. Ha un'aria frastornata e confusa e si guarda
+intorno con circospezione..
+~
+7 64 0 C
+2 0 0 2d7+21 1d5+0
+120 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 4 0
+
+#18603
+cucciolo drago~
+un cucciolo di drago~
+Un tenero cucciolo di drago se ne sta solo soletto in un angolo.
+~
+Ispira davvero tenerezza, le scaglie che lo ricoprono sembrano ancora piccole
+e fragili sul suo minuto corpicino. Gli occhi sono simili a liquidi smeraldi
+opalescenti che spiccano con la loro rotondità nell'aguzzo volto.
+Nonostante la giovane età riesci già a distinguere chiaramente la muscolatura
+delle zampe posteriori che ne reggono il peso mentre con passi scattosi e brevi
+si aggira con aria sperduta.
+~
+3 0 100 C
+4 0 0 2d7+46 1d5+1
+140 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 0 0 0 0 0 0
+0 0 0 0 0 0 4 0
+
+#18604
+vico guardiano individuo~
+Vico, il guardiano~
+Uno strano individuo si aggira con aria preoccupata nei dintorni.
+~
+E' un uomo tozzo e baffuto, si guarda intorno strabuzzando i piccoli occhi
+grigi con frenesia, come se cercasse qualcosa. Bofonchia parole senza senso
+tra sè e sè mentre continua la sua frustrante ricerca..
+~
+3 0 0 C
+3 0 0 2d6+35 1d6+0
+130 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8 0
+
+#18605
+zved alchimista ragazzo~
+Zved, l'alchimista~
+Un ragazzo dall'aria spigliata si dà da fare tra alambicchi e pozioni.
+~
+Questo ragazzo dall'aria trasandata sembra non prestare la minima attenzione
+alla tua presenza, confabula tra sè e sè, sghignazza o esplode in una
+fragorosa risata mentre osserva i risultati dei suoi assurdi esperimenti..
+Non hai la minima idea di che cosa stia combinando lì in mezzo.. e per un po'
+dubito che lo sappia anche lui effettivamente..
+~
+3 0 0 C
+5 0 0 2d6+60 1d6+1
+150 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 16 0
+
+#18606
+viscido verme sagoma~
+un viscido verme~
+Improvvisamente scorgi l'oblunga sagoma di qualcosa muoversi nell'oscurità..
+~
+E' una specie di scolopendra gigante che sembra apparentemente sprovvista di
+un capo ed una coda. Si muove in maniera alquanto bizzarra seguendo un
+percorso tortuoso mediante scatti improvvisi semicircolari, come l'oscillare
+di un pendolo. Noti che il suo corpo è ricoperto di minuscole scaglie lucenti
+cosparse di un viscido liquame azzurrognolo e fluorescente che cola per terra
+lasciando delle tracce sul terreno.. Osservandole nell'insieme ti accorgi
+che.. Ehi! Quel verme ti sta puntando!
+~
+99 0 -250 C
+1 0 0 2d6+8 1d4+0
+110 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 0 0 0 0 0 0
+0 0 0 0 3 0 32 0
+
+#18607
+cadavere decrepito corpo~
+un decrepito cadavere~
+Un corpo in avanzato stato di decomposizione si regge ancora in piedi..
+~
+Ha le braccia protese in avanti e brancola a passi pesanti e lenti.
+Gli occhi sono incavati nelle orbite e ricoperti da una disgustosa patina
+giallastra che cola sul volto.. dando l'impressione che stia quasi lacrimando.
+Le carni sono ormai disfatte e consunte dal tempo, rattrappite sulle rimanenti
+ossa che reggono ancora in piedi questo corpo privo di anima e volontà.
+Emette dei cupi lamenti gutturali mentre ti punta..
+A questo punto è da considerare seriamente l'ipotesi di alleviargli il
+dolore di questa pesante esistenza..
+~
+101 0 -500 C
+4 0 0 2d7+46 1d5+1
+140 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 3 0 64 0
+
+#18608
+folletto infernale creatura~
+un folletto infernale~
+Vedi aggirarsi una minuscola creatura umanoide dalle appuntite corna..
+~
+Ti pare d'aver sentito di una creatura del genere.. anche se al momento
+non riesci a ricordarne il nome preciso. E' uno strano incrocio tra un
+pipistrello un folletto ed una imprecisata entità demoniaca.
+La sua pelle verdastra è coperta da porri e verruche che ne accentuano
+l'aspetto infido e disgustoso, i piccoli occhietti neri sono attraversati
+da lampi rossi che bruciano come fiamme.
+Sul dorso ha delle  piccole ali che sfrutta per  prolungare l'ampiezza dei
+suoi balzi, noti però che preferisce perlopiù rimanere nelle ombre
+strisciando e nascondendosi.. come se stesse tramando qualcosa..
+~
+197 32768 -800 C
+3 0 0 2d6+35 1d6+0
+130 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 0 0 0 0 0 0
+0 0 0 0 0 0 128 0
+
+#18609
+minotauro possente~
+un possente minotauro~
+Sembra proprio che questo minotauro ti stia puntando..
+~
+E' alto ben più di due metri, suo corpo è imponente e ricoperto di una fulva
+peluria che non nasconde però l'incredibile possanza della sua muscolatura.
+La testa taurina è sorretta da un collo enorme, attraversato grosse vene che
+si gonfiano seguendone il ritmo del respiro.
+Sbuffa inquieto mentre ti squadra con attenzione..i suoi occhi scuri brillano
+di una terribile furia selvaggia..
+~
+99 0 -1000 C
+7 0 0 2d6+80 1d8+1
+170 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 3 0 256 0
+
+#18610
+spettro fantasma~
+uno spettro~
+Le oscure forme di uno spettro si delineano soffusamente nell'aria..
+~
+Percepisci a stento la presenza di questo inquietante essere di cui non
+distingui lineamenti o altre definite parti del corpo.. puoi solo notare
+come si proietti nell'aria diventando un'ombra che la luce non riesce
+ad attraversare..
+Si muove fluidamente variando le sue dimensioni da quelle di una goccia
+d'acqua a quelle di un uomo.. Quando si avvicina a te l'aria diventa più
+fredda..
+~
+99 524298 -850 C
+6 0 0 2d7+71 1d7+0
+140 0
+8 8 3
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 3 0 512 0
+
+#18611
+Matis avventuriero~
+Matis~
+Un giovane avventuriero ti viene incontro porgendoti la mano.
+~
+Ti prende la mano e si presenta come Matis, non ti fa rispondere al saluto,
+ti parla dei suoi progetti futuri, dei suoi studi, della sua futura fidanzata,
+del suo futuro castello, dei suoi parenti, del suo regno..
+Ehy.. non credi che si stia allargando un po' troppo?
+~
+7 96 -500 C
+2 0 0 2d7+21 1d5+0
+120 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1024 0
+
+#18612
+Tatis avventuriero~
+Tatis~
+Un avventuriero è qui mentre cerca di allacciarsi la scarpa.
+~
+Di certo il suo sguardo non ti suggerisce arguzia o intelligenza, si rivolge
+a te con un sorriso enorme accompagnato da un mugulo di soddisfazione..
+poi comincia a farti domande di tutti i tipi senza darti un attimo di pace!
+Fallo smettere per carità!
+~
+7 64 0 C
+1 0 0 2d6+10 1d4+0
+110 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 2048 0
+
+#18613
+Yunie ragazza~
+Yunie~
+Una ragazza dai capelli corvini ti accoglie con un gentile sorriso.
+~
+Una ragazza vestita in modo semplice e sbarazzino, sorride ingenuamente
+per poi chinare lo sguardo sulle sue mani, come se stesse ripassando
+mentalmente qualcosa.
+~
+67 0 100 C
+3 0 0 2d6+35 1d6+0
+130 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 4096 0
+
+#18614
+Lothar avventuriero~
+Lothar~
+Un giovane avventuriero si guarda intorno con aria sperduta.
+~
+E' vestito di tutto punto e fa un gran baccano smuovendo le sue cianfrusaglie
+mentre cerca di orientarsi tra mappe e attrezzature d'ogni genere.. sembra
+davvero che si sia perso.. anche se non sembra assolutamente intenzionato a
+chiederti aiuto.
+~
+69 0 300 C
+4 0 0 2d7+46 1d5+1
+140 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 8192 0
+
+#18615
+Valem ragazzo~
+Valem ragazzo~
+Un ragazzo dall'aria sicura di sè ti saluta con un cenno del capo.
+~
+Taciturno e sornione si aggira con passo lento e cadenzato ripassando con
+gli occhi i contorni di ogni muro, come se riuscisse a cogliere nella più
+piccola sfumatura chissà quali segreti e regole.. Ha uno sguardo tuttavia
+sveglio e attento e non sembra affatto sprovveduto come altri qui intorno..
+~
+7 64 0 C
+5 0 0 2d6+60 1d6+1
+150 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 1280 0
+
+#0
+
+
+#OBJECTS
+
+#18601
+spada~
+una spada non troppo affilata~
+Una spada dalla lama ben tirata a lucido è qui in un angolo.~
+~
+5 65 8193 0
+536870912 1 7 0
+120 200 0
+A
+19 1
+
+#18602
+veste calda~
+una calda veste per giovani avventurieri~
+Una bella veste è riposta qui in un angolo, pronta a riscaldare qualcuno..~
+~
+9 0 9 0
+3 3 4 0 3 0
+150 250 0
+
+#18603
+elmetto leggerissimo~
+un leggerissimo elmetto~
+Un elmetto in acciaio e cuoio giace qui per terra.~
+~
+9 65 17 0
+4 4 3 1 1 0
+50 220 0
+A
+5 1
+
+#18604
+mantello scuro~
+uno scuro mantello~
+Un pesante mantello scuro un po' impolverato e sgualcito è qui per terra.~
+~
+9 65 1025 0
+3 4 3 1 2 0
+100 180 0
+A
+17 -3
+A
+4 1
+
+#18605
+anello argento~
+un sottile anello d'argento~
+Un sottile anello argenteo è qui nella polvere.~
+~
+9 96 3 0
+4 3 3 1 1 0
+20 200 0
+A
+17 -2
+
+#18606
+daga~
+una daga~
+Una daga senza troppe pretese è qui riversa nella polvere.~
+~
+5 65 8193 0
+3 1 7 2
+50 140 0
+A
+19 1
+
+#18607
+collare robusto~
+un robusto collare~
+Vedi in terra una sorta di collare di uno strano materiale maculato.~
+~
+9 64 5 0
+3 3 4 1 1 0
+20 300 0
+A
+18 1
+A
+17 -1
+
+#18608
+chiave minuscola~
+una minuscola chiave~
+Una minuscola chiave è qui per terra.~
+~
+18 4 1 0
+0 0 0 0
+10 10 0
+
+#18609
+lanterna~
+una lanterna~
+La fioca luce di una lanterna illumina l'ambiente.~
+~
+1 65 1 0
+0 0 -1 0
+20 120 0
+A
+24 -1
+
+#18610
+corno imponente~
+un imponente corno~
+Un imponente corno è qui, tutto impolverato.~
+~
+9 64 17 0
+3 4 4 1 1 0
+100 320 0
+A
+1 1
+
+#18611
+pelle conciata~
+una puzzolente pelle conciata~
+Vedi per terra la maleodorante e polverosa pelle conciata di qualche animale.~
+~
+9 0 1025 0
+5 5 5 0 3 0
+190 366 0
+A
+17 -6
+A
+13 15
+
+#18612
+gambali cuoio~
+dei gambali di cuoio~
+Vedi un paio di polverosi gambali di cuoio riposti nell'angolo.~
+~
+9 0 33 0
+3 3 3 0 1 0
+120 200 0
+
+#18613
+manicotti cuoio~
+dei manicotti in cuoio~
+Vedi un paio di manicotti in cuoio abbandonati per terra.~
+~
+9 64 257 0
+4 4 3 1 1 0
+140 275 0
+A
+2 1
+
+#18614
+mazza semplice~
+una semplice mazza~
+Una semplice mazza chiodata è riposta qui in un angolo.~
+~
+5 65 8193 0
+2 1 7 7
+170 245 0
+A
+17 -2
+
+#18615
+sfera luminosa~
+una sfera luminosa~
+Vedi una soffusa luce provenire da questa sfera.~
+~
+9 4689 65537 0
+3 3 3 1 1 0
+20 400 0
+A
+3 1
+A
+4 1
+A
+2 1
+
+#0
+
+
+#ROOMS
+
+#18600
+L'ingresso~
+Ti ritrovi nell'androne antistante un lungo corridoio all'interno di questo
+edificio; un'intera area dedita alla pratica e all'addestramento delle giovani
+leve.Imparare, fare esperienza.. proprio ciò di cui hai bisogno per entrare
+in possesso delle conoscenze che ti serviranno per sopravvivere nel viaggio
+che hai intrapreso lasciandoti alle spalle tutto il resto.Una grande insegna
+richiama la tua attenzione..
+Appena sarai pronto potrai dirigerti a Nord.
+~
+0 4 1 0 0 0
+D0
+Un piccolo corridoio.
+~
+~
+0 -1 18601 0
+D2
+Verso la stradina attorno alla Capitale.
+~
+~
+0 -1 21094 0
+E
+insegna~
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++      Opera architettonica ad opera dell'ingegner di Jaceks         +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~
+E
+scale~
+Delle eleganti e solide scale in marmo.
+~
+S
+#18601
+La prima parte del corridoio~
+Sei in un lungo ed ampio corridoio, riesci a sentire le voci di altri
+avventurieri e creature che si aggirano intorno.. anche se non puoi
+stabilire con precisione da dove vengano.
+Ci sono due uscite, a est e a sud.
+~
+0 8 0 0 0 0
+D1
+L'entrata ad un vestibolo.
+~
+~
+0 -1 18602 0
+D2
+L'entrata principale dell'edificio.
+~
+~
+0 -1 18600 0
+S
+#18602
+Il vestibolo~
+Il corridoio prosegue, a parte la luce un po' più scarsa le differenze
+rispetto a prima sono irrilevanti.. riesci tuttavia a sentire dei rumori
+più pressanti in direzione della porta a sud e alcuni da est.
+Le mura sono un po' consunte e sporche di fuligine.. e il pavimento non
+sembra di certo più pulito..
+~
+0 8 0 0 0 0
+D1
+Il corridoio prosegue!
+~
+~
+0 -1 18603 0
+D2
+Sembrerebbe l'ingresso ad una stanza.
+~
+door~
+1 -1 18606 0
+D3
+Il corridoio prosegue!
+~
+~
+0 -1 18601 0
+S
+#18603
+Un'intersezione nel corridoio~
+Qui il corridoio prosegue prendendo direzioni diverse.
+Verso nord ed est il passaggio sembrerebbe farsi più luminoso mentre
+verso sud noti una certa penuria di luce.. a te la scelta.
+~
+0 8 0 0 0 0
+D0
+Qui il corridoio sembra più luminoso.
+~
+door~
+1 -1 18644 0
+D1
+Qui il corridoio sembra più luminoso.~
+door~
+1 -1 18646 0
+D2
+Il corridoio prosegue!
+~
+~
+0 -1 18607 0
+D3
+Il corridoio prosegue!
+~
+~
+0 -1 18602 0
+S
+#18604
+Un passaggio angusto~
+Qui il corridoio si fa molto più stretto e fai quasi fatica a passare
+senza urtare qua e là qualcosa.. tuttavia almeno è tenuto un po' più
+pulito dell'ingresso. Verso sud noti una solida porta in legno di quercia.
+~
+0 9 0 0 0 0
+D0
+Vedi un'ampia sala a cupola.
+~
+~
+0 -1 18647 0
+D2
+Vedi una piccola e disordinata stanza.
+~
+door~
+1 -1 18612 0
+S
+#18605
+All'interno del fosso~
+Ti trovi all'interno di un fosso.. è molto buio e a stento riesci a
+vedere qualcosa.. Tuttavia i suoni prodotti dal tuo incerto camminare
+non sono affatto rincuoranti.
+In aggiunta a ciò noti anche qualcosa di insolito e cattivo nell'angolo
+laggiù.. forse è meglio darsela a gambe?
+~
+0 9 0 0 0 0
+D4
+Vedi una scala che sale
+~
+grate~
+1 18608 18606 0
+S
+#18606
+Una piccola stanza~
+Una piccola e curata stanzetta.. Vedi anche qualcuno all'interno, a dir
+la verità sembra anche un po' turbato dalla tua presenza e continua a
+fissarti sospettosamente.
+Puoi uscire dalla porta a nord oppure ad est, vedi anche una grata sul
+pavimento.. chissà se conduce da qualche parte..
+~
+0 8 0 0 0 0
+D0
+Il corridoio prosegue..
+~
+door~
+1 -1 18602 0
+D1
+Il corridoio prosegue..
+~
+door~
+1 -1 18607 0
+D5
+Troppo buio per vedere..
+~
+grate~
+1 18608 18605 0
+S
+#18607
+Nel corridoio~
+Sembra davvero interminabile questo corridoio, almeno ora però sei libero di
+respirare senza quel senso di oppressione che ti davano quelle mura troppo
+strette che sembravano volerti stringere.
+Vedi una porta ad ovest.
+~
+0 8 0 0 0 0
+D0
+Il corridoio prosegue..
+~
+~
+0 -1 18603 0
+D2
+Il corridoio prosegue..
+~
+~
+0 -1 18611 0
+D3
+~
+door~
+1 -1 18606 0
+S
+#18608
+Il giardino~
+Oh, finalmente un po' d'aria! Senti un buon profumo provenire da alcune aiuole
+qui intorno, sembra tutto molto curato e allegro. Dopo la monotonia di quel
+corridoio un po' di vivaci colori non guastano..
+A proposito, se vuoi tornarci vai ad est, altrimenti vedi un'altra uscita
+a ovest.
+~
+0 4 0 0 0 0
+D1
+La fine del corridoio.
+~
+~
+0 -1 18609 0
+D3
+Una fioca luce in lontananza illumina le parche pareti di una sobria stanza.
+~
+~
+0 -1 10303 0
+S
+#18609
+La fine del corridoio~
+Sembra che il corridoio si fermi qui, vedi davanti a te un grande arco
+che porta all'esterno. Intravedi una forte luce e dei colori sgargianti
+lì..
+~
+0 8 0 0 0 0
+D1
+Il corridoio prosegue..
+~
+~
+0 -1 18610 0
+D3
+Riesci a intravedere i colori di un bel giardino in fiore.
+~
+~
+0 -1 18608 0
+S
+#18610
+Un vestibolo illuminato~
+Questo braccio del corridoio sembra più illuminato, noti che la luce
+si fa più intensa proseguendo verso ovest.
+~
+0 8 0 0 0 0
+D1
+Vedi un angolo nel passaggio.
+~
+~
+0 -1 18611 0
+D3
+Il corridoio prosegue..
+~
+~
+0 -1 18609 0
+S
+#18611
+Un angolo~
+Un lieve disimpegno architettonico porta alla formazione di questo
+angolo nel corridoio, non che la sostanza cambi molto.. lo sporco
+ed il disordine regnano incontrastati. Vedi una porta ad est mentre
+il corridoio prosegue a ovest e nord.
+~
+0 8 0 0 0 0
+D0
+Il corridoio prosegue..
+~
+~
+0 -1 18607 0
+D1
+Sbirci scorgendo l'interno di una piccola stanza..
+~
+door~
+1 -1 18612 0
+D3
+Il corridoio prosegue..
+~
+~
+0 -1 18610 0
+S
+#18612
+La stanza dell'alchimista~
+Bottiglie flaconi e fiale ovunque.. ti chiedi quanto ci sia voluto a
+creare un tale ammasso di contenitori e liquidi.. e quanto ipoteticamente
+ci vorrebbe per mettere un po' d'ordine.. Abbandoni subito i pensiero
+comunque, non vorresti che si facessero strane idee.
+Vedi una porta che conduce a nord e una scaletta che scende sotto.. c'è
+anche un'insegna vicino.. forse dovresti leggerla.
+~
+0 8 0 0 0 0
+D0
+Il corridoio
+~
+door~
+1 -1 18604 0
+D3
+Un angolo del corridoio.
+~
+door~
+1 -1 18611 0
+D5
+Una piccola scaletta che si affaccia giù.
+~
+~
+0 -1 18632 0
+E
+insegna~
+Attenzione! Pericolo incombente! Scendere sempre accompagnati!
+
+~
+S
+#18620
+Una svolta nel corridoio~
+Il corridoio qui stringe un po' sull'angolo, non vedi nulla di particolare
+a parte forse una strana luce proveniente da sud.. Potrebbe essere un'uscita..
+almeno lo speri.
+~
+0 9 0 0 0 0
+D1
+Il passaggio continua ad est.
+~
+~
+0 -1 18621 0
+D2
+Vedi una strana luce rossa provenire da questa direzione.
+~
+~
+0 -1 18629 0
+S
+#18621
+Un'intersezione a T~
+Ti trovi al centro di un'intersezione del passaggio con un corridoio che
+prosegue a sud. L'aria sembra più limpida e priva di quel senso di chiuso
+che ti opprimeva.. forse porterà ad un'uscita?
+~
+0 9 0 0 0 0
+D1
+~
+~
+0 -1 18622 0
+D2
+~
+~
+0 -1 18633 0
+D3
+~
+~
+0 -1 18620 0
+S
+#18622
+Una svolta~
+Il passaggio qui prende un'altra direzione, da nord a ovest. Le mura sono così
+umide che vedi addirittura dei funghi e delle spore far compagnia alla muffa
+che li ricopre.. Alcuni strani rumori ti distolgono da altri pensieri..
+~
+0 9 0 0 0 0
+D2
+~
+~
+0 -1 18628 0
+D3
+~
+~
+0 -1 18621 0
+S
+#18623
+Una svolta nel corridoio~
+Puoi sentire intorno a te il caos di mille creature in fermento.. e in effetti
+realizzi che non è una sensazione confortante. Lo scarno arredamento non è
+certamente lussuoso.. anche questo preda della muffa e di quegli orribili
+funghi verdastri.. puah!
+~
+0 9 0 0 0 0
+D1
+~
+~
+0 -1 18624 0
+D2
+~
+~
+0 -1 18627 0
+S
+#18624
+Ancora una svolta~
+Qui il corridoio svolta a sud, meglio andare cauti per non perdersi.. non
+avrai mica voglia di perderti qui dentro ad ammuffire eh?
+~
+0 9 0 0 0 0
+D2
+~
+~
+0 -1 18630 0
+D3
+~
+~
+0 -1 18623 0
+S
+#18625
+Un piccolo atrio~
+Un'insolita apertura del corridoio in un atrio di forma ovale.. Il tutto è
+vuoto e desolato, sembra uno spazio inutilizzato da gran tempo e non ha
+davvero nulla di particolare da offrire.. meglio lasciar perdere.
+~
+0 9 0 0 0 0
+D1
+~
+~
+0 -1 18626 0
+D2
+~
+~
+0 -1 18631 0
+S
+#18626
+All'interno del corridoio~
+Sei all'interno del lungo e stretto corridoio che percorre orizzontalmente
+l'area. Le mura sono ovviamente sporche e infeste della solita disgustosa
+fanghiglia.. speri solo che non decida di staccarsi e venirti ad imbrattare
+all'improvviso.. non hai idea di dove si possa trovare un po' d'acqua da
+queste parti..
+~
+0 9 0 0 0 0
+D1
+~
+~
+0 -1 18627 0
+D3
+~
+~
+0 -1 18625 0
+S
+#18627
+Un'intersezione.~
+Questo è il punto in cui i corridoio si incrociano, quello che taglia
+orizzontalmente l'area e quello che la taglia verticalmente. L'area è
+veramente malsana.. speri con tutto il cuore di riuscire ad andartene
+al più presto.
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18623 0
+D1
+~
+~
+0 -1 18628 0
+D2
+~
+~
+0 -1 18632 0
+D3
+~
+~
+0 -1 18626 0
+S
+#18628
+Una stanza ad angolo~
+Questa stanza è poco più di un punto di passaggio, avverti un'inaspettata
+li brezza provenire da un passaggio in basso spirando verso nord, l'odore
+malsano comunque persiste..
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18622 0
+D3
+~
+~
+0 -1 18627 0
+S
+#18629
+La stanza rossa~
+In un attimo realizzi che la soffusa luce rossa proviene da una singolare
+cornice luminescente incastonata nel pavimento.
+Questa racchiude un dipinto nel quale sembra che qualcuno abbia cercato di
+catturare la sensazione di una corsa in mezzo ai prati.
+E' così particolare e suggestivo che ti sembra di sentire il vento
+uscire dal disegno per accarezzarti sul viso.
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18620 0
+D1
+~
+~
+0 -1 18630 0
+E
+dipinto~
+Ehi.. sembra che la scena disegnata sia quasi viva.. a meno che questo
+non sia un portale! E se provassi ad entrarci?
+~
+S
+#18630
+Un'altra ramificazione del corridoio~
+Il corridoio qui si ramifica ad est, noti in fondo una calda luce rossastra
+che brilla ininterrottamente.. chissà da dove viene..
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18624 0
+D2
+~
+~
+0 -1 18634 0
+D3
+Vedi una strana luce rossastra provenire da questa parte.
+~
+~
+0 -1 18629 0
+S
+#18631
+Un passaggio strettissimo~
+Bleah.. sempre più disgustoso.. non c'è un solo centimetro delle mura
+che non sia ricoperto di fanghiglia putrescente.. che sembra quasi
+muoversi oscillando verso di te! Fai il possibile per tenerla lontano,
+tappati il naso e vola via!
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18625 0
+D1
+~
+~
+0 -1 18632 0
+D2
+~
+~
+0 -1 18638 0
+S
+#18632
+Un ingresso~
+La luce qui è praticamente inesistente, ti chiedi se questa trascuratezza
+sia semplicemente segno di pigrizia oppure non sia in verità un espediente
+per creare un'atmosfera così inquietante e difficile da sopportare..
+In ogni caso è meglio fare attenzione.
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18627 0
+D2
+~
+~
+0 -1 18635 0
+D3
+~
+~
+0 -1 18631 0
+D4
+~
+~
+0 -1 18612 0
+S
+#18633
+Un'altra svolta~
+Ancora nulla di nuovo.. fanghiglia.. strani rumori.. onnipresente fetore..
+voglia di rimanere pari a zero..
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18621 0
+D1
+~
+~
+0 -1 18634 0
+S
+#18634
+Un'intersezione nel corridoio~
+Il pavimento qui è persino più umido e bagnato da larghe pozzanghere di
+liquido giallognolo. Non vedi funghi intorno.. speri vivamente che al loro
+posto non ci sia qualcosa di peggio.. ma cominci anche a sentire un po' di
+freddo a causa di alcuni fastidiosi spifferi..
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18630 0
+D2
+~
+~
+0 -1 18637 0
+D3
+~
+~
+0 -1 18633 0
+S
+#18635
+Una svolta nel corridoio~
+Ormai la nausea è giunta all'apice, qui hai persino la netta sensazione
+che ci sia un cadavere in putrefazione da qualche parte.. o magari lo stai
+calpestando in questo momento senza accorgertene.. coperto come potrebbe
+essere dalla fanghiglia.. meglio non pensarci, devi sbrigarti e trovare
+un'uscita.
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18632 0
+D1
+~
+~
+0 -1 18636 0
+S
+#18636
+Una diramazione a sud~
+Un'improvvisa svolta a sud qui, l'odore di morte è ormai ovunque.
+La fanghiglia non aiuta però sei ormai sicuro che ci sia qualcosa di
+peggio qui intorno, rimuovi il pensiero in fretta e continui la tua
+ricerca. L'uscita non può essere così lontana!
+~
+0 9 0 0 0 0
+D1
+~
+~
+0 -1 18637 0
+D2
+~
+~
+0 -1 18639 0
+D3
+~
+~
+0 -1 18635 0
+S
+#18637
+Ancora un'altra svolta~
+Il corridoio qui svolta a nord. Avverti la presenza di qualcosa di strano
+laggiù in fondo.. ma non sai dirti se ciò è positivo o negativo..
+Prendere o lasciare.
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18634 0
+D3
+~
+~
+0 -1 18636 0
+S
+#18638
+Una stanza enorme~
+Per poco non inciampi nell'entrare in questa stanza. E' davvero enorme,
+così tanto che la luce della tua lanterna non riesce ad illuminarne le
+mura. La sensazione che ti trasmette non è piacevole, prima le strette
+mura del corridoio ti fornivano almeno una protezione ai lati.. ora ti
+senti come vulnerabile.. da tutte le direzioni..
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18631 0
+D1
+Vedi solo ombre..
+~
+~
+0 -1 18639 0
+S
+#18639
+Una stanza enorme~
+Appena entri noti delle strane e incomprensibili scritte sul muro a est,
+nella direzione opposta invece la stanza si estende in lungo ed in largo
+impedendo alla tua luce di illuminarla completamente.
+Un senso di inquietudine ti pervade, ti senti come scoperto e vulnerabile
+ora che le mura del corridoio non ti coprono più ai lati..
+~
+0 9 0 0 0 0
+D0
+~
+~
+0 -1 18636 0
+D3
+Solo ombre..
+~
+~
+0 -1 18638 0
+E
+scritte parole~
+At......ne a. M...tau.o!
+~
+E
+muro~
+C'è il disegno stilizzato di quello che sembrerebbe un uomo dalla testa
+taurina.. ci sono delle parole scritte vicino..
+~
+S
+#18640
+La stanza della statua~
+Qui il corridoio conduce ad una piccola stanza con uscite a est e sud.
+Ti accorgi della presenza di un'imponente statua a nord.
+~
+0 9 0 0 0 0
+D1
+Un lungo corridoio.
+~
+~
+0 -1 18641 0
+D2
+Il corridoio prosegue a sud diventando più scuro.
+~
+~
+0 -1 18644 0
+E
+statua~
+Si direbbe la statua di un guerriero umano.. Forse uno dei grandi maestri
+oppure uno dei tanti eroi delle grandi guerre.. C'è una placca dorata
+sul piedistallo.
+~
+E
+placca dorata~
+Dice:
+
+Ulrik, Eroe di Calindur nella guerra delle saette erranti.
+
+~
+S
+#18641
+Il corridoio~
+Miracolo! Si potrebbe quasi dire che qui non è sporchissimo!
+La fanghiglia è un brutto ricordo.. le mura sono invece adorne di stendardi
+e decorazioni.. Davvero un bel cambiamento.. ti chiedi come mai un cambiamento
+così repentino.. oppure era davvero solo una prova da superare..
+~
+0 9 0 0 0 0
+D1
+Il corridoio termina con una scala marmorea.
+~
+~
+0 -1 18642 0
+D3
+Il corridoio termina in una piccola stanzetta.
+~
+~
+0 -1 18640 0
+S
+#18642
+La scala settentrionale~
+Qui la sala prosegue in una grande stanza con una sontuosa copertura a cupola.
+Noti che la scala che va su porta ad una terrazzina che sovrasta l'area..
+Da lì dev'esserci proprio un bel panorama.
+La stanza prosegue a sud dove vedi un'altra scala, identica a quella che hai
+davanti.
+~
+0 9 0 0 0 0
+D2
+Vedi un'altra scala e due passaggi, uno ad ovest e l'altro a sud.
+~
+~
+0 -1 18647 0
+D3
+L'entrata ad un passaggio illuminato.
+~
+~
+0 -1 18641 0
+D4
+Una piccola terrazzina.
+~
+~
+0 -1 18643 0
+E
+scale~
+Delle solide ed eleganti scale in  marmo.
+~
+S
+#18643
+La terrazzina~
+Ti ritrovi in uno spiazzo all'aria aperta che ti regala un panorama superbo
+sull'area. Lo spazio in cui ti trovi ha una base semicircolare che ti permette
+di guardare praticamente in ogni direzione..
+~
+0 9 0 0 0 0
+D2
+A sud della terrazzina.
+~
+~
+0 -1 18645 0
+D5
+Dalle scale accedi ad una stanza a cupola.
+~
+~
+0 -1 18642 0
+E
+scale~
+Delle eleganti e solide scale in marmo
+~
+S
+#18644
+Un corridoio illuminato~
+Davvero bello questo corridoio.. è tutto pulitissimo e tenuto in ordine,
+i nauesabondi odori e la zozza fanghiglia sono solo un ricordo ormai..
+Sulle mura ci sono delle eleganti decorazioni mentre il pavimento è
+arricchito da un interessante disegno..
+~
+0 9 0 0 0 0
+D0
+Una piccola stanza con una statua dentro..
+~
+~
+0 -1 18640 0
+D2
+Un'intersezione nel passaggio.
+~
+door~
+1 -1 18603 0
+E
+disegno pavimento~
+Vedi una grande ascia da battaglia disegnata con dovizia e cura..
+~
+S
+#18645
+La terrazzina~
+Ti ritrovi in uno spiazzo all'aria aperta che ti regala un panorama superbo
+sull'area. Lo spazio in cui ti trovi ha una base semicircolare che ti permette
+di guardare praticamente in ogni direzione..
+~
+0 9 0 0 0 0
+D0
+La parte settentrionale della terrazzina.
+~
+~
+0 -1 18643 0
+D5
+Giù verso la scalinata.
+~
+~
+0 -1 18647 0
+E
+scale~
+Delle eleganti e solide scale in marmo
+~
+S
+#18646
+Un corridoio illuminato~
+Davvero bello questo corridoio.. è tutto pulitissimo e tenuto in ordine,
+i nauesabondi odori e la zozza fanghiglia sono solo un ricordo ormai..
+Sulle mura ci sono delle eleganti decorazioni mentre il pavimento è
+arricchito da un interessante disegno..
+~
+0 9 0 0 0 0
+D1
+Il corridoio si interrompe in una grande stanza a cupola.
+~
+~
+0 -1 18647 0
+D3
+Un'intersezione piuttosto scura nel corridoio.
+~
+door~
+1 -1 18603 0
+E
+disegno pavimento~
+Vedi una grande ascia da battaglia disegnata con dovizia e cura..
+~
+S
+#18647
+Presso la scalinata sud~
+Il corridoio termina in una grande stanza con un alto soffitto a cupola.
+Riesci a vedere le scale che portano sulla terrazzina e a nord la stanza
+che prosegue.. con un'altra scala identica a quella che vedi qui.
+~
+0 9 0 0 0 0
+D0
+Un'altra scalinata a nord.
+~
+~
+0 -1 18642 0
+D2
+Uno stretto passaggio a sud che conduce ad una porta in legno.
+~
+~
+0 -1 18604 0
+D3
+Al corridoio illuminato.
+~
+~
+0 -1 18646 0
+D4
+Alla terrazzina.
+~
+~
+0 -1 18645 0
+E
+scale~
+Delle eleganti e solide scale in marmo
+~
+S
+#0
+
+#RESETS
+M 1 18601 1 18605  * Pit Beast
+E 1 18604 50 12  *  Cloak
+M 1 18602 3 18600  * Newbie Monster
+E 1 18602 99 5  *  Vest
+M 1 18602 3 18607  * Newbie Monster
+E 1 18606 99 16  *  Dagger
+M 1 18611 1 18646  * Annoying Newbie
+E 1 18606 99 16  *  Dagger
+M 1 18612 1 18642  * Clueless Newbie
+M 1 18613 1 18640  * Friendly Newbie
+E 1 18602 99 5  *  Vest
+M 1 18614 1 18604  * Lost Newbie
+M 1 18615 1 18645  * Smart Newbie
+E 1 18613 99 10  *  Sleeves
+E 1 18612 99 7  *  Leggings
+E 1 18602 99 5  *  Vest
+E 1 18614 30 16  *  Mace
+M 1 18603 1 18602  * Dragon
+E 1 18607 99 3  *  Collar
+E 1 18615 100 18  *  orb
+M 1 18604 1 18606  * Newbie Guard
+E 1 18605 60 1  *  Ring
+E 1 18603 30 6  *  Helm
+G 1 18608 5 *  Key
+M 1 18605 1 18612  * Alchemist
+E 1 18609 50 0  *  Light
+G 1 18609 50 *  Light
+M 1 18606 4 18602  * Crawler
+M 1 18606 4 18606  * Crawler
+M 1 18606 4 18609  * Crawler
+M 1 18607 5 18620  * Zombie
+M 1 18607 5 18624  * Zombie
+M 1 18607 5 18637  * Zombie
+M 1 18607 5 18633  * Zombie
+M 1 18608 5 18627  * Quasit
+M 1 18608 5 18636  * Quasit
+M 1 18608 5 18638  * Quasit
+M 1 18608 5 18621  * Quasit
+M 1 18609 1 18629  * Minotaur
+E 1 18610 50 6  *  Horns
+E 1 18611 50 5  *  Hide
+M 1 18610 1 18639  * Spectre
+D 1 18602 2 1  * The Dirty Hallway Close South
+D 1 18606 0 1  * A Small Room Close North
+D 1 18603 0 1  * A Nexus Close North
+D 1 18644 2 1  * A Bright Hallway Close South
+D 1 18603 1 1  * A Nexus Close East
+D 1 18646 3 1  ; Door: #18646 Un corridoio illuminato/West => closed
+D 1 18604 2 1  * A Narrow Passage Close South
+D 1 18612 0 1  * The Alchemist's Room Close North
+D 1 18606 5 2  * A Small Room Lock Down
+D 1 18605 4 2  * The Dark Pit Lock Up
+D 1 18607 3 1  * More Of The Hallway Close West
+D 1 18606 1 1  * A Small Room Close East
+D 1 18611 1 1  * Another Corner Close East
+D 1 18612 3 1  * The Alchemist's Room Close West
+S
+
+#SPECIALS
+S
+
+
+#END
+

@@ -1,0 +1,14 @@
+Regole di Stile del BARD
+------------------------
+
+Prefisso	Descrizione
+
+make_		Creazione di una entità indicizzata e non, e creazione di oggetto particolari, fuoco, moente, cadavere e altro
+clean_		Pulizia di una entità indicizzata e non, senza togliere il puntatore dalla lista o dalla hash
+free_		Pulizia della entità (richiamando una clean_) e rimozione dalla lista o dalla hash
+init_		Inizializza la struttura, indicizzata e non, qualsiasi tipo, con valori di default
+
+
+Postfisso	Descrizione
+_index		Se la funzione riguarda la gestione di entità indicizzate
+_handler	Funzione che gestisce il passaggio di argomenti maggiormente dettagliato da più funzioni (es: get_char_handler)

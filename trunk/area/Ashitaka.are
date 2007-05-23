@@ -1,0 +1,2104 @@
+#AREA
+Name         Il Villaggio di Ashitaka~
+Author       Miciko~
+Color        AT_GREEN verde~
+LevelRange   5 40
+ResetMsg1    Il vento porta con sé il richiamo del bosco..~
+Vnums        32750 32799
+End
+
+#MOBILES
+#32750
+madre anziana~
+l'anziana madre~
+Un'anziana signora è seduta placidamente su un tappeto.
+~
+I suoi capelli candidi sono raccolti sulla nuca, il viso, segnato dalla
+veneranda età conserva una straordinaria forza e serenità al contempo.
+L'anziana madre sta discutendo con un giovane ragazzo del villaggio e
+dall'espressione di lui pare si tratti di qualcosa di serio. Lei, tuttavia,
+mantiene un'incrollabile calma.
+~
+3 136 0 C
+60 -2 -2 50d10+6750 8d6+28
+200 0
+5 5 2
+20 20 20 20 20 20 20
+0 0 0 0 0
+0 0 4 3 262145 65537 2
+0 0 33554443 1280 1051136 8208 1207963648 1028
+> death_prog 100~
+emote con l'ultimo respiro affida la propria anima alle divinità silvane.
+~
+> fight_prog 50~
+mpechoat $n $I abbatte un colpo di bastone su di me!
+mpechoaround $n $I picchia duramente $n con il suo bastone!
+~
+> fight_prog 25~
+mpechoat $n $I pronuncia arcane e malefiche parole contro di me..
+mpechoaround $n $I pronuncia formule malefiche contro $n!
+~
+> greet_prog 100~
+mpechoat $n $I volge il capo verso di te appena entri.
+emote ti porge il saluto con un lieve sorriso.
+mpechoat $n Una voce calma ti accoglie..
+say a $n Se vieni in pace, considerati a casa tua.
+say a $n ..ma se le tue intenzioni sono malvagie porta il tuo odio via con te.
+~
+|
+#32751
+giovane ragazzo esploratore~
+un giovane esploratore~
+Un ragazzo dall'aspetto fiero è qui, intento a parlare con l'anziana signora.
+~
+I  lineamenti  del   viso  sono  regolari,   scurissimi  gli  occhi,   corti
+ed irrimediabilmente spettinati i capelli. Mentre parla con l'anziana il suo
+tono è basso e  rispettoso, a  tratti però  si fa  più acuto  come se qualcosa
+di molto preoccupante riguardasse le sorti dell'intero villaggio.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+500 0
+6 6 1
+18 16 16 18 19 16 17
+0 0 0 0 0
+0 6 6 3 327681 1 1
+0 0 523 1048640 2080 256 192 2051
+> death_prog 100~
+emote si copre gli occhi implorando i suoi dei.. e muore.
+~
+> fight_prog 20~
+say  Non l'odio ma la giustizia muove la mia mano!
+~
+> fight_prog 15~
+mpechoat $n $I mi spintona violentemente!
+mpechoaround $n $I spintona violentemente $n!
+~
+> rand_prog 5~
+mpechoat $n $I osserva i tuoi movimenti di quando in quando..
+~
+|
+#32752
+bimba~
+una bimba irrequieta~
+Una bimba gioca correndo tutt'intorno.
+~
+Più che una bimba sembra un folletto! Corre da una parte all'altra della
+capanna facendo ondeggiare la sua lunga chioma rossa come il fuoco ed imitando
+i versi di tutti gli animali mentre tiene stretto con le manine un animaletto
+di legno. In quei rari momento in cui si ferma a guardarti, cogli nei suoi
+limpidi occhi verdi una luce vivissima, un'esplosione di entusiasmo e
+desiderio di scoprire il mondo.
+~
+3 0 0 C
+9 0 20 2d6+110 1d8+2
+1 0
+8 8 2
+9 9 10 9 10 9 10
+0 0 0 0 0
+0 6 3 2 262145 1 0
+0 0 1163 0 0 112 0 2
+> death_prog 100~
+say ..mamminaa...
+emote s'accascia al suolo ormai priva di vita.
+~
+> fight_prog 75~
+mpechoat $n $I mi dà un forte calcio sulla tibia!
+mpechoaround $n $I dà un calcione sulla di tibia di $n!
+~
+> fight_prog 39~
+say Vattene via!
+~
+> greet_prog 25~
+mpechoat $n $I ti viene incontro saltellando.
+smile $n
+say Ciao! vuoi giocare con me?
+~
+|
+#32753
+cacciatore uomo~
+un cacciatore del villaggio~
+Un uomo con un pugnale in mano s'aggira qui intorno.
+~
+E' alto, di corporatura robusta e sguardo impegnato alla ricerca di qualcosa,
+forse sta aggiustando le sue armi per la prossima caccia.
+~
+3 0 0 C
+35 0 -115 10d10+1300 4d7+11
+10 0
+6 6 1
+16 13 14 16 17 12 15
+0 0 0 0 0
+0 6 0 0 262145 1 1
+0 0 0 0 0 0 160 0
+> fight_prog 69~
+say Morirai per la tua temerarietà!
+~
+> death_prog 100~
+say Erlinkas.. Ibehte Erlinkas..
+emote si porta le mani sul cuore ed esala l'ultimo respiro.
+~
+|
+#32754
+cacciatrice donna~
+una cacciatrice del villaggio~
+Una giovane donna è qui che ripara il suo arco.
+~
+E' una giovane del villaggio impegnata nella riparazione del suo arco. E' alta
+e di corporatura snella, necessaria per muoversi agilmente nei boschi
+rincorrendo le prede.
+~
+3 0 0 C
+35 0 -115 10d10+1300 4d7+11
+10 0
+6 6 2
+15 16 15 17 14 16 15
+0 0 0 0 0
+0 6 0 0 262145 1 1
+0 0 0 0 0 0 160 0
+> death_prog 100~
+emote esala l'ultimo respiro stringendo al petto un piccolo monile.
+~
+> fight_prog 42~
+say Infame! pagherai l'oltraggio alla foresta!
+~
+> fight_prog 67~
+mpechoat $n $I mi sferra una stilettata sul braccio!
+mpechoaround $n $I sferra una stilettata sul braccio di $n!
+~
+|
+#32755
+anziano~
+un anziano~
+Un anziano cammina lentamente.
+~
+Cammina curvo sotto il peso dell'età che avanza, appoggiandosi ad un bastone
+e scansando via via qualche ciottolo dal sentiero. Guardandolo attentamente
+vedi che mentre si muove parla.. O forse sta canticchiando.
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+5 0
+8 8 1
+10 18 18 14 13 13 13
+0 0 0 0 0
+0 1 0 0 327681 1 0
+0 0 0 0 0 0 0 0
+> fight_prog 68~
+mpechoat $n $I cerca di colpirmi ma si dà una bastonata su un piede!
+mpechoaround $n $I cerca di colpire $n ma riesce solo a farsi mal!
+~
+> death_prog 100~
+say ..ma perché..
+emote cade come corpo morto cade.
+~
+|
+#32756
+vagabondo uomo~
+un vagabondo~
+Un uomo vestito di stracci s'aggira qui intorno.
+~
+Sembra smarrito, infreddolito ed affamato; è minuto nel corpo e vestito a
+malapena con abiti di fortuna. Parlotta fra sé, agitando le mani in aria come
+se si rivolgesse ad un interlocutore invisibile.. Poi ti vede e ti si avvicina.
+~
+3 0 0 C
+40 0 -140 15d10+1850 4d8+13
+5 500
+8 8 1
+17 14 12 18 16 15 19
+0 0 0 0 0
+0 5 0 0 327681 1 0
+0 0 1679 256 1048576 13 72 3
+> death_prog 100~
+say ..gghh...hhh.. kkkkk.....
+emote ciancica alcune parole incomprensibili prima di tirar le cuoia.
+~
+> give_prog grano~
+mpecho $I mangia un po' di grano con avidità.
+if isevil($n)
+  mpechoat $n Ti osserva molto attentamente.
+  whisper a $n Grazie, hai aiutato un poveretto.. anche se il tuo cuore è malvagio.
+  whisper a $n Non temere la nebbia.. non ti fermerà.
+  emote s'allontana parlottando fra sé.. è proprio matto.
+else
+  smile $n
+  whisper a $n Il tuo buon cuore merita di vedere le grandi meraviglie..
+  whisper a $n L'acacia ti indicherà la via per la montagna.
+  emote mentre s'allontana un'aura magica lo circonda.. sarà davvero un vagabondo?
+endif
+~
+|
+#32757
+furetto~
+un piccolo furetto~
+Un musetto vispo ti spia da dietro un cespuglio.. E' un furetto!
+~
+Agile e rapido nei movimenti, il furetto non è a disagio per la tua presenza,
+probabilmente è abituato a vedere nel bosco la gente del villaggio che
+viene a prendere la legna.
+~
+3 0 0 C
+20 0 -40 3d9+333 2d8+5
+0 0
+8 8 1
+13 11 11 20 13 19 18
+0 0 0 0 0
+32 6 0 0 512 1 0
+0 0 134807552 4096 256 4 3 2
+> fight_prog 65~
+mpechoat $n $I affonda i suoi dentini aguzzi nella mia coscia!
+mpechoaround $n $I azzanna la coscia di $n!
+~
+> death_prog 100~
+emote s'irrigidisce tutto e crolla esanime al suolo.
+~
+> greet_prog 28~
+mpechoat $n Il furetto non sembra molto spaventato dalla tua presenza.
+look $n
+mpechoat $n $I s'arrampica su una tua spalla.
+mpechoat $n $I ti annusa il collo e dopo averti dato un morsino all'orecchio scappa via!
+~
+|
+#32758
+orso~
+un orso affamato~
+L'orso ti stava giusto aspettando..
+~
+A giudicare dallo stato generale del bestione, vien da pensare che sia caduto
+nella buca ormai da qualche giorno..
+Ha un'aria decisamente affamata e poca voglia di comunicare amore e pace. La
+brutta ferita che vedi sulla sua zampa non sembra proprio il ricordo di una
+carezza ed il dolore non aiuta a riconciliarsi con il mondo. Appena ti sente
+cadere nella buca si volta e ti mostra il suo sorriso pieno di dentini
+aguzzi.. buona fortuna.
+~
+35 1073741824 0 C
+50 0 -210 50d10+4250 5d8+19
+0 0
+6 6 1
+20 10 12 15 20 15 11
+0 0 0 0 0
+24 3 0 0 513 513 2
+0 0 786432 1 2 2052 131 3
+> fight_prog 50~
+mpechoat $n $I ti azzanna un braccio!
+mpechoaround $n $I azzanna un braccio di $n!
+~
+> death_prog 100~
+mpechoat $n L'orso esala l'ultimo respiro e crolla al suolo privo di vita..
+mpoload 32774 50
+~
+|
+#32759
+uomo individuo~
+uno strano individuo~
+Un uomo seduto su uno sperone di roccia sospira guardando avanti a sé.
+~
+Un lungo mantello grigio avvolge questo strano individuo, il cappuccio
+calato sul viso impedisce di vederne bene i lineamenti. Siede immobile
+sopra un enorme pietrone e fissa apparentemente il vuoto.. seguendo la
+direzione del suo sguardo capisci che sta rimirando il bosco della montagna di
+fronte.
+~
+3 0 0 C
+33 0 -105 10d10+1100 6d4+10
+15 0
+5 5 1
+14 18 18 17 14 14 10
+0 0 0 0 0
+0 0 0 0 1 1 0
+0 0 16 2097152 64 1024 512 1024
+> death_prog 100~
+emote si porta le mani alla gola per respirare ma è una vana ricerca d'aria..
+~
+> rand_prog 5~
+emote solleva un poco le spalle in un lungo lento respiro
+~
+> act_prog p mi guarda.~
+mpechoat $n $I con un lieve gesto della mano indica la montagna.
+whisper a $n Passeggiavo in quei boschi.. un tempo.
+sigh
+~
+> act_prog p mi si avvicina e cerca di confortarmi.~
+mpechoat $n $I si volta a guardarti.
+emote stringe un pugno mormorando alcune parole sottovoce..
+mpoload 32775 1
+emote riapre il pugno.. dentro c'è una ghianda!
+give ghianda $n
+~
+> act_prog p posa una ghianda verde.~
+whisper a $n E' una gemma magica..
+whisper a $n Se andrai nel bosco sacro, piantala per me.
+sigh
+whisper a $n Le mie colpe mi impediscono di tornare laggiù..
+emote accenna un sorriso e torna a guardare il bosco in silenzio.
+~
+|
+#32760
+capriolo~
+un capriolo~
+Un magnifico esemplare di capriolo si ferma a guardarti.
+~
+Ha le orecchie dritte e ti osserva mentre mastica piano una qualche erbetta.
+Sta studiando le tue mosse in attesa di capire se debba scappare o possa
+continuare a ruminare il suo pasto pacificamente. Ha un bel manto color
+nocciola con una lunga striatura bianca sulla schiena.
+~
+3 0 0 C
+30 0 -90 6d12+853 4d6+8
+0 0
+6 6 2
+14 12 12 15 16 15 15
+0 0 0 0 0
+87 6 0 0 513 513 1
+0 0 1036 256 1024 128 65 2
+> death_prog 100~
+emote cade rovinosamente sotto l'ultimo colpo mortale.
+~
+> fight_prog 56~
+mpechoat $n $I mi dà una cornata in pieno stomaco!
+mpechoaround $n $I dà una cornata a $n in pieno stomaco!
+~
+|
+#32761
+ragazzino~
+un ragazzino~
+Un ragazzino sta raccogliendo della legna per il villaggio.
+~
+A giudicare dall'aspetto ha circa quindici anni, capelli biondi un po'
+spettinati, la carnagione chiara e lineamenti del viso regolari. E' alto e
+dinoccolato, ora sembra intento a cercar legna. Indossa semplici abiti in
+pelle, lo stesso stile di tutti gli altri abitanti del villaggio.
+~
+3 0 0 C
+25 0 -65 5d10+550 2d10+7
+5 0
+8 8 1
+13 14 13 16 12 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 0 0 0 3
+> death_prog 100~
+emote cerca inutilmente di difendersi poi soccombe miserevolmente..
+~
+|
+#32762
+granchio~
+un granchio~
+La torretta ospita un inquilino.. è un granchio!
+~
+Si muove fra le pietre della torretta facendo qualche apparizione
+sporadica. E' bello grosso ed ha una solida corazza a proteggerlo
+da attacchi indesiderati. Puoi provare a mangiarlo se credi.. ma già
+sai che prenderlo sarebbe uno sbaglio.
+~
+3 0 0 C
+15 0 -15 3d9+208 2d6+3
+0 0
+8 8 1
+13 11 12 14 11 12 12
+0 0 0 0 0
+82 2 0 0 1 1 0
+0 0 268435464 1048576 128 1 9 3
+> death_prog 100~
+emote s'accartoccia tutto sotto l'ultimo sferzante colpo.
+~
+> fight_prog 87~
+mpechoat $n $I mi pizzica con una chela!
+mpechoaround $n $I pizzica $n con la sua grande chela..
+~
+|
+#32763
+gabbiano~
+un gabbiano~
+Un gabbiano vola nei dintorni in cerca di qualche preda.
+~
+Osservi per un istante il gabbiano che plana qua e là fissando il mare, in
+cerca di qualche pesciolino. Ha un bel piumaggio bianco che gli copre il petto
+mentre la testa è completamente grigia.
+~
+3 524288 0 C
+18 0 -30 3d9+283 2d7+4
+0 0
+8 8 1
+13 12 13 14 12 12 13
+0 0 0 0 0
+78 6 0 0 1 1 0
+0 0 553680904 1048576 1024 1 9 3
+> death_prog 100~
+say ..kkaaa rrrr kkkrrr gggg....
+emote emette alcuni striduli versi poi s'affloscia a terra, morto.
+~
+> fight_prog 100~
+mpechoat $n $I mi dà una beccata in pieno viso!
+mpechoaround $n $I dà una beccata a $n in pieno viso!
+~
+> act_prog p Un'onda più lunga delle altre deposita una conchiglia sulla spiaggia.~
+mpoload 32790
+emote afferra la conchiglia con il becco, la scuote un po', poi la lascia cadere.
+drop conchiglia
+~
+|
+#32764
+merlo~
+un merlo nero~
+Un merlo nero saltella fra le frasche.
+~
+Se non fosse per il becco arancione, il merlo si confonderebbe con il verde
+scuro e le ombre del sottobosco.. Un lucore improvviso attira il tuo sguardo,
+ad una delle zampe del merlo è infilato un anello.
+~
+3 2097152 0 C
+18 0 -30 3d9+283 2d7+4
+0 0
+8 8 1
+12 11 12 15 12 12 10
+0 0 0 0 0
+78 2 0 0 1 1 0
+0 0 822083592 4 2097152 2 9 2
+> death_prog 100~
+emote saltella sbilenco per un paio di metri, poi stramazza al suolo.
+~
+> fight_prog 69~
+mpechoat $n $I cerca di beccarmi gli occhi!
+mpechoaround $n $I cerca di beccare gli occhi di $n!
+~
+|
+#32765
+serpente serpe~
+un serpentello nero~
+Un serpentello striscia fra le radici degli alberi.
+~
+E' davvero piccino, tutto nero ed in continuo movimento a cercar riparo sicuro
+dai piedi che calpestano i sentieri di questi boschi.
+~
+3 0 0 C
+35 0 0 10d10+1300 4d7+11
+0 0
+6 6 1
+13 13 11 16 12 12 12
+0 0 0 0 0
+62 6 0 0 1024 1024 1
+0 0 66576 2097152 256 2 262145 1
+> death_prog 100~
+emote striscia cercando di scappare ma la morte lo coglie a metà strada.
+~
+> fight_prog 100~
+mpechoat $n $I affonda il suo dente avvelenato nelle mie carni!
+mpechoaround $n $I morde $n con il dente avvelenato!
+~
+|
+#0
+
+#OBJECTS
+#32750
+cassapanca~
+una cassapanca~
+Seminascosta dalla penombra, vedi una cassapanca in legno.~
+~
+15 0 0 0
+30 1 0 0
+30 0 0
+E
+cassapanca~
+La cassapanca sembra antica ma ancora in ottime condizioni. Sui lati sono
+scolpite delle scene di caccia, sullo sportello invece è raffigurata
+un'isoletta al centro di un lago ed un animale simile ad un cervo.
+~
+#32751
+sacchettino~
+un sacchettino di stoffa~
+Un sacchettino di stoffa è poggiato qui.~
+~
+15 0 16385 0
+3 1 0 0
+1 0 0
+E
+sacchettino~
+E' un sacchetto di stoffa decorato con ricami floreali. E' chiuso con un
+laccetto.
+~
+#32752
+sfera ametista~
+una sfera di pura ametista~
+Rotola lentamente una sfera di materiale pregiato.~
+~
+1 0 16385 0
+0 0 0 0
+1 0 0
+E
+sfera ametista~
+Ruotando delicatamente la sfera, essa sprigiona dei bagliori di luce violetta.
+~
+#32753
+tomo libro~
+un grosso tomo impolverato~
+Un vecchio libro impolverato attira il tuo sguardo.~
+~
+15 0 1 0
+75 1 0 0
+5 0 0
+E
+tomo libro~
+Sulla copertina del libro il titolo è ormai mezzo cancellato, si legge
+soltanto "A.h...ka".
+~
+#32754
+foglio~
+un foglio strappato~
+A qualcuno dev'essere caduto un foglietto mezzo strappato.~
+~
+47 8192 16385 0
+0 0 0 0
+1 1500 150
+E
+foglio~
+Sulla pagina leggi quel che resta di un'antica poesia:
+..se al guardiano tu darai
+l'oro sacro della gente
+le frontiere scoprirai
+del perduto continente..
+~
+#32755
+pozzo pozzetto~
+un pozzo~
+Vedi un pozzetto per l'acqua piovana.~
+~
+25 0 0 0
+0 0 0 0
+1 0 0
+E
+pozzo pozzetto~
+Il pozzo è costruito con pietre bianche levigate in modo da incastrarsi alla
+perfezione. Affacciandoti sull'orlo del pozzo vedi il tuo riflesso
+nell'acqua..
+~
+E
+riflesso~
+Ti soffermi un istante ad ammirar la tua immagine riprodotta fedelmente da
+questo specchio naturale. D'improvviso nelle piccole increspature dell'acqua
+si disegna il volto di un giovane dai capelli castani e dal sorriso lieve ma
+gentile. Alzi il capo per vedere chi sia il visitatore ma l'unica persona del
+villaggio nei pressi del pozzo è un anziano che procede lento sul sentiero.
+~
+#32756
+animaletto scultura~
+un animaletto in legno~
+Un animaletto di legno se ne sta qui buono buono in attesa di qualcuno con cui giocare.~
+~
+8 0 16385 0
+0 0 0 0
+1 0 0
+E
+animaletto scultura~
+E' curiosa la forma di questa bestiola, sembra un incrocio fra una capretta ed
+un cigno. La testa ha dei piccoli cornetti ed il muso allungato, mentre dal
+collo in giù i tratti rapidi dello scalpello hanno inciso ali, penne, piume e
+zampe palmate.
+~
+#32757
+costruzione cubo~
+un cubetto di sughero~
+Un cubo di sughero è qui alla merce' dei curiosi.~
+~
+15 0 16385 0
+2835 1 0 0
+100 0 0
+E
+costruzione cubo~
+I bimbi di questo villaggio hanno una bella fantasia. Questo gioco è un cubo
+di sughero, cavo all'interno con dentro una scultura a forma di isola o
+collina. Una piccolissima statuina a forma di cervide è posta sull'isoletta.
+~
+#32758
+isoletta~
+un'isoletta di sughero~
+Una piccola isola di sughero è poggiata qui.~
+~
+8 0 16385 0
+0 0 0 0
+1 0 0
+E
+isoletta~
+Sembra ben realizzata anche nei più piccoli particolari, sulla sommità
+dell'isoletta, accanto ad un alberello si vede una statuina di un animale.
+Sembra un cervide.
+~
+#32759
+lancia~
+una lancia dalla punta di ferro~
+Una lancia è poggiata qui, pronta per l'uso.~
+~
+5 0 8193 0
+13 2 10 11
+1 0 0
+E
+lancia~
+Si tratta di una lunga lancia con una punta particolare fatta di ferro e
+seghettata in modo da penetrare le carni della preda e restare ancorata
+all'interno.
+~
+#32760
+grano manciata~
+una manciata di grano~
+Una manciata di grano è per terra.~
+~
+19 0 16385 0
+0 0 0 0
+1 0 0
+E
+grano manciata~
+Non è molto, al massimo ci si può ricavare una focaccia ma per gli abitanti
+del villaggio rappresenta una vitale fonte di sostentamento.
+~
+#32761
+carne~
+una fetta di carne essiccata~
+Una lunga fetta di carne essiccata è qui.. hai fame?~
+~
+19 0 1 0
+5 0 0 0
+1 0 0
+E
+carne~
+Se la vista non ti ha ancora convinto, prova ad assaggiarla.. Non sembra
+affatto male.
+~
+#32762
+bracciale cuoio~
+un bracciale di cuoio~
+Un bracciale di cuoio è poggiato per terra.~
+~
+9 0 4097 0
+0 0 0 0
+1 0 0
+E
+bracciale cuoio~
+Una resistente striscia di cuoio protegge i polsi di chi la indossa.
+~
+#32763
+stivali~
+stivali di pelliccia~
+Un paio di morbidi stivali è posato qui.~
+~
+9 0 65 0
+0 0 0 0
+1 0 0
+E
+stivali~
+Rivestiti di pelliccia d'orso, questi stivali sono utili per camminare senza
+far troppo rumore e per proteggersi dal rigore invernale.
+~
+#32764
+pugnale~
+un pugnale di ferro~
+Vedi un corto pugnale per terra.~
+~
+5 0 8193 0
+12 2 2 2
+1 0 0
+E
+pugnale~
+Adatto per il lancio e per gli scontri corpo a corpo, il pugnale ha una lama
+molto affilata e decorata con strane incisioni.
+~
+E
+incisioni~
+Si tratta di piccole tacche sulla lama, forse indicano il numero delle prede
+catturate.
+~
+#32765
+arco~
+un arco di legno~
+Un lungo arco è poggiato al suolo..~
+~
+55 0 8193 0
+0 0 0 0
+1 0 0
+E
+arco~
+E' un bell'arco, lungo circa un metro, molto elastico e micidiale per la
+caccia.
+~
+#32766
+corpetto cuoio corazza~
+un corpetto di cuoio~
+Una leggera corazza è qui per terra.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+corpetto cuoio corazza~
+Semplice nella linea ma resistente e comodo, si allaccia di lato con stringhe
+di cuoio fermate da fibbie in metallo.
+~
+#32767
+maglia stoffa~
+una maglia di stoffa pesante~
+Qualcuno ha dimenticato qui la propria maglia.~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+maglia stoffa~
+E' una maglia a maniche lunghe, in tela robusta adatta per la caccia nei
+boschi.
+~
+#32768
+pantaloni~
+pantaloni corti al ginocchio~
+Sembrano pantaloni quelli lì per terra.~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+pantaloni~
+Piuttosto ampi, ricavati da pelli di vitello cucite insieme. A vederli così
+danno l'impressione d'essere molto comodi in caso di corse dietro le prede o
+rapide fughe dai nemici.
+~
+#32769
+gonnellino~
+un gonnellino in pelle di daino~
+Vedi un bel gonnellino ben ripiegato.~
+~
+9 0 33 0
+0 0 0 0
+1 0 0
+E
+gonnellino~
+Lungo fino alle ginocchia, morbido ed agevole per correre nei boschi.
+~
+#32770
+abitino stoffa~
+un abitino di stoffa leggera~
+Un bell'abitino colorato è riposto qui..~
+~
+9 0 9 0
+0 0 0 0
+1 0 0
+E
+abitino stoffa~
+A giudicare dalla taglia si direbbe proprio un vestito per bambini. Qua e là
+vi è qualche macchia d'erba e terra.
+~
+#32771
+bastone~
+un bastone da passeggio~
+Un bastone è caduto a qualcuno.~
+~
+4 0 16385 0
+0 0 0 -1
+1 0 0
+E
+bastone~
+E' un bastone nodoso resistente abbastanza da sorreggere il peso di un anziano
+che lo usa come sostegno per camminare.
+~
+#32772
+catasta~
+una catasta di legna~
+Una grossa catasta di legna è bloccata con spesse corde di iuta.~
+~
+15 0 0 0
+40 0 0 0
+1 0 0
+E
+catasta~
+Gli abitanti del villaggio hanno accumulato qui la legna necessaria
+per sopravvivere ai mesi freddi. Uno dei rami della catasta sembra
+di forma differente dagli altri..
+~
+#32773
+rametto~
+un rametto bitorzoluto~
+Un strano rametto giace pacifico al suolo.~
+~
+3 0 16385 0
+0 0 0 57
+1 0 0
+E
+rametto~
+E' molto più piccolo degli altri legnetti ed ha una vaga forma
+allungata che s'assottiglia in punta. Uno strano segno è inciso
+alla base del rametto.
+~
+E
+segno~
+Gelenia, la luce.
+~
+#32774
+artigli~
+lunghi artigli di orso~
+Vedi per terra i lunghi artigli dell'orso..~
+~
+5 0 8193 0
+12 3 8 2
+15 20 0
+E
+artigli~
+Sono ancora sporchi del sangue delle numerose vittime dell'orso ma sembrano
+davvero efficaci in battaglia.
+~
+#32775
+ghianda ghiandaprog~
+una ghianda verde~
+Una semplice ghianda è qui per terra.~
+~
+32 0 16385 0
+0 0 0 0
+1 0 0
+E
+ghianda ghiandaprog~
+Ovale, liscia al tatto e contorniata da una inconsueta aura violetta. Forse si
+può provare a sotterrarla..
+~
+> drop_prog 100~
+mpecho La ghianda inizia a vibrare sul terreno..
+mpecho Dalla ghianda si sprigiona una nube di fumo argentato!
+mpoload 32776 1
+mpforce $n sac $o
+~
+|
+#32776
+pianta piantina arbusto~
+una piantina dalle foglie argentate~
+Un giovane arbusto si erge dal terreno in cerca di luce.~
+~
+15 0 0 0
+1 0 0 0
+1 0 0
+E
+pianta piantina arbusto~
+E' una graziosissima pianticella dalle foglie lanceolate e contorniate da una
+sottile striscia d'argento. Attaccato ad un rametto noti un frutto simile ad
+una bacca.
+~
+#32777
+bacca~
+una bacca color indaco~
+Per terra vedi una strana bacca color indaco.~
+~
+26 8388608 16385 0
+9 28 -1 -1
+1 0 0
+E
+bacca~
+E' davvero minuta, un vago alone azzurrino l'avvolge e all'olfatto ricorda un
+profumo familiare..
+~
+#32778
+fungo funghi~
+un fungo giallo e blu~
+Un fungo giallo e blu sbuca dal terreno..~
+~
+19 67108864 1 0
+1 0 0 1
+1 0 0
+E
+fungo funghi~
+I colori non sono del tutto rassicuranti e anche la forma ricorda più quella
+di un fiasco che non quella di un fungo vero e proprio..
+~
+#32779
+cespuglio~
+un cespuglio di more~
+Un cespuglio carico di more si protegge con delle lunghe spine.~
+~
+15 0 1 0
+10 0 0 0
+500 0 0
+E
+cespuglio~
+Irresistibili more rosse e nere fanno bella mostra di sé a pochi centimetri
+dalla tua mano.. insieme ad evidenti ed acuminate spine.
+~
+> get_prog 100~
+mpechoat $n Ahia! nel tentativo di prendere il cespuglio una spina t'ha punto..
+mpechoat $n Il repentino spostamento della tua mano però ha staccato una spina dal cespuglio.
+mpoload 32786 1
+~
+|
+#32780
+mora nera~
+una mora nera~
+Vedi una succulenta mora nera per terra.~
+~
+19 0 1 0
+2 0 0 0
+1 0 0
+E
+mora nera~
+Hai preso una grossa mora nera, il profumo è delizioso, l'aspetto ancor più
+invitante.. che stai aspettando?
+~
+#32781
+baule~
+un vecchio baule~
+Vedi un vecchio baule seminascosto dalla penombra.~
+~
+15 0 0 0
+19 1 0 0
+1 0 0
+E
+baule~
+E' un cassone fatto d'assi tenute insieme da larghe fasce di metallo.
+Un grosso lucchetto chiude il baule..
+~
+#32782
+bende~
+alcune bende di tela~
+Alcune bende sono sparse al suolo.~
+~
+9 0 257 0
+-2 0 0 0
+1 0 0
+E
+bende~
+Sembrano tessute in tela grezza e nonostante tutto sono incredibilmente pulite.
+Forse possono tornare utili dopo uno scontro cruento..
+~
+#32783
+specchio specchietto~
+uno specchietto rotondo~
+Uno specchietto è poggiato qui, vuoi dare un'occhiata?~
+~
+12 0 16385 0
+0 0 0 0
+1 0 0
+E
+specchio specchietto~
+Ma che sorpresa! Un viso molto familiare s'affaccia dall'altra parte
+della superficie argentata dello specchio..
+~
+#32784
+anellino anello~
+un anellino dorato~
+Un circoletto dorato brilla sul terreno, è un anellino.~
+~
+9 0 67 0
+-1 -1 0 0
+1 0 0
+E
+anellino anello~
+Un piccolo anellino dorato, finito chissà come alla zampa di un merlo..
+Ora che lo guardi da vicino noti una piccola iscrizione al suo interno.
+~
+E
+iscrizione~
+**Amin**irma**quen**
+~
+#32785
+erbe erbette~
+delle erbette profumate~
+Un ciuffo d'erbe verdi è qui vicino ai tuoi piedi~
+~
+26 0 1 0
+10 43 236 -1 1 0
+1 0 0
+E
+erbe erbette~
+Strofinando un poco le foglie si sprigiona un intenso profumo balsamico..
+~
+#32786
+spina~
+una spina acuminata~
+Prendila con delicatezza.. è una spina.~
+~
+5 0 0 0
+11 5 6 1
+5 0 0
+E
+spina~
+Anche se piccina fa bene il suo mestiere, è molto appuntita e solida.
+~
+#32787
+mora rossa~
+una mora rossa~
+Una mora rossa è qui per terra.~
+~
+19 0 1 0
+2 0 0 0
+1 0 0
+E
+mora rossa~
+Le rosse sono un po' più aspre ma di certo non meno buone delle nere.
+~
+#32788
+freccia~
+una freccia di ferro~
+Una lunga ed appuntita freccia è qui per terra.~
+~
+5 0 1 0
+12 2 2 14
+1 0 0
+E
+freccia~
+E' un freccia di ferro, utilizzata per la caccia e la difesa contro i nemici.
+~
+#32789
+faretra~
+una piccola faretra~
+Qualcuno s'è dimenticato la propria faretra per terra.~
+~
+15 0 1 0
+20 0 0 0
+1 0 0
+E
+faretra~
+E' abbastanza capiente da contenere un buon numero di frecce.
+~
+#32790
+conchiglia~
+una conchiglia di madreperla~
+Una piccola conchiglia luccica semicoperta dalla sabbia.~
+~
+15 0 1 0
+75 1 0 0
+5 0 0
+E
+conchiglia~
+Di forma elicoidale, si avvolge su se stessa in più giri, trattenendo
+al suo interno una piccola pallina di alghe. La madreperla inoltre
+le conferisce una lucentezza tutta particolare..
+~
+#0
+
+#ROOMS
+#32750
+La capanna dell'Anziana Madre~
+Il pavimento della capanna è interamente ricoperto da stuoie di paglia su cui
+sono poggiati dei tappeti in fibra ruvida. Alle pareti sono appesi alcuni
+scudi di forma circolare ed alcune torce per illuminare l'ambiente. Dalla
+parte opposta all'ingresso, una pesante tenda cela ad occhi indiscreti ciò
+che potrebbe essere il letto dell'Anziana Madre e su un panchetto di legno
+poco lontano dalla tenda vedi un piccolo oggetto, sembra una scatola con il
+coperchio forato.
+~
+0 0 0 0 0 0
+D2
+Vedi lo spiazzo antistante la grande capanna.
+~
+~
+0 0 32751 0
+D10
+Si tratta proprio di una botola, magari conduce in un magazino sotterraneo
+del villaggio..
+~
+botola~
+133128 0 32768 0
+E
+scatola~
+La scatoletta si rivela essere un incensiere, dal suo coperchio forato
+esce un fumo colorato all'odore di cannella.
+~
+E
+freccia~
+La parte del tappeto indicata dalla freccia è lievemente rialzata a
+causa di una botola! Chissà dove conduce..
+~
+E
+tappeto tappeti~
+La fibra grezza puo' dar l'illusione che questi siano prodotti
+artigianali primitivi ma la sottile linea rossa che percorre tutto il
+tappeto si intreccia ripetutamente in forme geometriche ed animali eseguite
+alla perfezione. Una decorazione a forma di freccia attira il tuo sguardo..
+~
+S
+#32751
+Davanti alla grande capanna~
+Il pavimento della capanna è interamente ricoperto da stuoie di paglia su cui
+sono poggiati dei tappeti in fibra ruvida. Alle pareti sono appesi alcuni
+scudi di forma circolare ed alcune torce per illuminare l'ambiente. Dalla
+parte opposta all'ingresso, una pesante tenda cela ad occhi indiscreti ciò
+che potrebbe essere il letto dell'Anziana Madre e su un panchetto di legno
+poco lontano dalla tenda vedi un piccolo oggetto, sembra una scatola con il
+coperchio forato.
+~
+0 0 2 0 0 0
+D0
+L'interno della capanna è in ombra ma un vago odore d'incenso t'invita ad
+entrare.
+~
+~
+0 0 32750 0
+D1
+Alcuni gridolini di bimbo provengono dalla capanna accanto.
+~
+~
+0 0 32752 0
+E
+foglie~
+Al tatto risultano spesse e pelosette, segno che la pianta ha imparato a
+difendersi dai parassiti e ad incamerare acqua per eventuali periodi di
+siccità.
+~
+E
+piante~
+Hanno sottili rami che si piegano sotto la pressione delle dita, però
+paiono anche molto elastici e difficili a spezzarsi. Le foglie sono insolite
+per delle piante così..
+~
+S
+#32752
+Una capanna del villaggio~
+E' un'ampia capanna sistemata in modo da accogliere un paio di famiglie,
+stando al numero di giacigli. In un angolo sono ben riposte diverse
+vettovaglie, ciotole, mestoli in legno mentre alcuni buffi giochi per bambini
+giacciono sparsi qua e là sul pavimento. Accanto all'altro ingresso, un
+circoletto di pietre protegge le ultime braci dai soffi improvvisi della
+brezza che solleva, di quando in quando, un po' di cenere accompagnata da un
+vago profumino di carne arrosto.
+~
+0 0 0 0 0 0
+D3
+Verso ovest vedi lo spiazzo antistante la capanna dell'Anziana Madre.
+~
+~
+0 0 32751 0
+D0
+Un sentierino d'erba si snoda fra le capanne del villaggio.
+~
+~
+0 0 32753 0
+E
+giochi~
+Si tratta per lo più di sagome di sughero incastrate a formare case e
+costruzioni di vario genere. Da una parte trovi anche degli animali scolpiti
+in legno più duro.. Di tanti che ne vedi riconosci solo un piccolo
+stambecco, gli altri sono chiaramente il frutto della fantasia dei bambini.
+~
+S
+#32753
+Il sentiero nel villaggio~
+Un sentierino d'erba si snoda fra le capanne del villaggio segnando la via
+verso i cancelli o, in direzione opposta, verso la capanna più grande. Ad
+ovest un'alta palizzata protegge il villaggio da intrusioni esterne.
+~
+0 0 2 0 0 0
+D2
+Vedi una capanna del villaggio.
+~
+~
+0 0 32752 0
+D0
+Vedi una capanna del villaggio.
+~
+~
+0 0 32754 0
+> rand_prog 3~
+mpecho Una voce di fanciullina proviene da una delle capanne.
+~
+|
+S
+#32754
+Una capanna del villaggio~
+Un forte odore di selvaggina ti cattura l'olfatto appena metti piede nella
+capanna. Guardandoti intorno vedi tre aste orizzontali alle quali sono appese
+delle lunghe strisce di carne da essiccare. Un baule di legno, aperto in un
+cantuccio, contiene vari utensili per la caccia. Una pelle di cinghiale, tesa
+per le quattro zampe, fa bella mostra di sé ed altre pellicce sono accastate
+con cura accanto ad essa.
+~
+0 0 0 0 0 0
+D2
+Un sentierino d'erba si snoda fra le capanne del villaggio.
+~
+~
+0 0 32753 0
+D3
+Fra i radi ciuffi d'erba sbuca il pozzo del villaggio.
+~
+~
+0 0 32755 0
+E
+cinghiale~
+A giudicare dalle dimensioni della sua pelle doveva proprio essere un
+bestione! Il suo manto è fulvo con una striatura bianca lungo tutta la
+schiena.
+~
+E
+pellicce~
+Grandi, piccole, a pelo lungo o corto.. Ce n'è per tutti i gusti. Alcune
+sembrano di capra, daino ed orso ma altre, per la morbidezza e l'insolito
+colore del manto, non sono riconducibili ad animali conosciuti..
+~
+E
+utensili baule~
+Rovistando nel baule trovi un pugnale molto affilato, un'accetta, un arco
+ed alcune frecce, probabilmente sono le armi con cui gli abitanti del
+villaggio si procurano la carne.
+~
+S
+#32755
+Un piccolo spiazzo~
+In questo punto il sentiero s'allarga sino a formare un piccolo spiazzo in
+mezzo al quale si trova un pozzetto di raccolta per l'acqua piovana. A nord la
+palizzata blocca il passaggio.
+~
+0 0 2 0 0 0
+D3
+Una grande capanna è poco distante da qui, si intravedono alcuni grossi
+sacchi di juta.
+~
+~
+0 0 32756 0
+D1
+Da est proviene un invitante odore di selvaggina.
+~
+~
+0 0 32754 0
+S
+#32756
+La capanna magazzino~
+E' la capanna più piccola di tutto il villaggio, adibita alla custodia delle
+scorte alimentari. Numerose giare piene di granaglie sono accostate ad otri
+più piccoli destinati alla conservazione dell'olio. Poggiati alla parete,
+riuniti in una sorta di rastrelliera, si trovano gli arnesi per i campi,
+vanghe, zappe e falcetti.
+~
+0 0 0 0 0 0
+D1
+Fra i radi ciuffi d'erba sbuca il pozzo del villaggio.
+~
+~
+0 0 32755 0
+D2
+Un sentierino d'erba si snoda fra le capanne del villaggio.
+~
+~
+0 0 32757 0
+E
+giara giare~
+Sono enormi recipienti in terracotta, grandi abbastanza da contenere un
+uomo. Al momento sono piene di grano e provviste per le stagioni più
+fredde. Una delle giare ha una piccola crepa alla base da cui è uscita una
+manciata di grano.
+~
+S
+#32757
+Il sentiero nel villaggio~
+Sei poco distante dai cancelli di ingresso e percorri un sentiero d'erba che
+conduce a nord verso una capanna. Ad est un'alta palizzata protegge il
+villaggio da possibili incursioni esterne.
+~
+0 0 2 0 0 0
+D2
+A sud si aprono i cancelli del villaggio.
+~
+~
+0 0 32758 0
+D0
+Una grande capanna è poco distante da qui, si intravedono alcuni grossi
+sacchi di juta.
+~
+~
+0 0 32756 0
+S
+#32758
+I cancelli di bambù~
+Alti circa quattro metri, interamente fatti di canne di bambù legate con
+spesse corde, questi cancelli rappresentano la via d'accesso al villaggio. Con
+molta probabilità non possono resistere ad un attacco armato ma sono
+sufficienti a proteggere la gente del posto da orsi e lupi dei boschi vicini.
+Verso il centro del villaggio spicca il tetto di una capanna molto più grande
+delle altre.
+~
+0 0 2 0 0 0
+D3
+Fuori dal villaggio si vedono alcuni campi coltivati.
+~
+~
+0 0 32759 0
+D0
+Un sentierino d'erba si snoda fra le capanne del villaggio.
+~
+~
+0 0 32757 0
+S
+#32759
+Campi coltivati~
+Un sentiero procede fra i campi, inoltrandosi sui dolci pendii delle colline.
+Il tempo sembra essersi fermato, clemente e benevolo risparmia questo luogo
+dall'ingiuria delle ere che si rincorrono. Ogni piccolo angolo di terra
+accoglie una forma di vita, sia essa vegetale che animale e non è raro
+incrociare il volo di una coccinella che si posa su un papavero o il musetto
+di una talpa che annusa per qualche secondo l'aria e torna a nascondersi nei
+suoi cunicoli.
+~
+0 0 2 0 0 0
+D1
+Ad est si aprono i cancelli del villaggio.
+~
+~
+0 0 32758 0
+D3
+Le distese di campi coltivati proseguono verso ovest.
+~
+~
+0 0 32760 0
+E
+talpa~
+La talpa non ti vede di buon occhio.. E decide di rientrare nella sua
+tana per rincorrere qualche lombrico.
+~
+E
+coccinella~
+Un paio d'ali rosse punteggiate di nero vola a pochi centimetri dal tuo
+naso e si va a posare su un papavero, confondendosi con il rosso del fiore.
+~
+S
+#32760
+Ancora campi~
+La strada si inerpica su per i fianchi della collina, mentre tutt'intorno
+regna una pace senza eguali. Lieve è il moto dell'aria che carezza gli steli
+d'erba, lunghi e verdi come sottili fili di smeraldo. Ci si può concedere
+qualche momento, chiudere gli occhi ed inspirare a fondo per godere degli
+intensi profumi che danzano trasportati dalla brezza: grano e ginestre, timo e
+mentuccia si son dati appuntamento in una sinfonia di odori.. Di sera è ancor
+più bello fermarsi a contemplare, quando possibile, gli astri lontani,
+inebriati dal fresco gelsomino e coccolati dal canto delle cicale.
+~
+0 0 2 0 0 0
+D1
+In questa direzione si vedono alcuni campi coltivati.
+~
+~
+0 0 32759 0
+D3
+I campi lasciano posto ad una zona boscosa.
+~
+~
+0 0 32761 0
+D2
+La stradina prosegue inerpicandosi lungo una salita.
+~
+~
+0 0 32773 0
+S
+#32761
+Sul limitare del bosco~
+La collina, madre delle messi, cede il passo alla montagna; il sentiero che
+percorri si fa più ripido ed in breve tempo raggiungi un filare di alberi,
+prima avvisaglia dell'imminente traversata nel bosco. Le fronde dei faggi si
+mescolano con quelle dei lecci e da un angolo remoto spuntano le piccole
+foglie ovali di una robinia. Da qui il bosco sembra accompagnare lo stradello
+per tutta l'arrampicata fino alla sommità della montagna e gli alberi si fan
+via via più fitti, impedendo la vista della cima.
+~
+0 0 4 0 0 0
+D1
+Le distese di campi coltivati proseguono verso est.
+~
+~
+0 0 32760 0
+D0
+Un sentiero s'inoltra nel bosco proseguendo verso nord.
+~
+~
+0 0 32762 0
+S
+#32762
+Il sentiero fra gli alberi~
+I lunghi rami fronduti filtrano la luce proiettando sul selciato delle
+simpatiche ombre dalle forme più disparate. Di quando in quando si incontrano
+delle cataste di tronchi tagliati, segno che gli abitanti del villaggio si
+recano fin qui per raccogliere il legname necessario a scaldarsi nei mesi
+freddi.
+~
+0 0 3 0 0 0
+D0
+Delle strane orme sul terreno guidano la tua curiosità verso nord.
+~
+~
+0 0 32763 0
+D2
+Il bosco si dirada cedendo il passo ai campi coltivati.
+~
+~
+0 0 32761 0
+S
+#32763
+Alcune tracce~
+Stai camminando nel bosco, girovagando con lo sguardo per cogliere le
+differenze fra le numerose varietà di piante, quand'ecco noti sulla corteccia
+di un albero dei chiari segni di graffi, per non dire artigliate vere e
+proprie.. Il sospetto che da queste parti vivano uno o più orsi è confermato
+da alcune orme di plantigrado, poggiate pesantemente sul sentiero. Stando alla
+profondità ed alla dimensione dell'impronta non si tratta di un cucciolotto..
+
+~
+0 0 3 0 0 0
+D1
+Una macchia colorata sul terreno copre il sentiero ad est.
+~
+~
+0 0 32764 0
+D2
+Un sentiero s'inoltra nel bosco proseguendo verso sud.
+~
+~
+0 0 32762 0
+S
+#32764
+Trappole nascoste~
+Il ricordo delle orme dell'orso ti accompagna ancora per qualche passo, quando
+d'un tratto un volo improvviso d'uccelli richiama la tua attenzione.. Subito
+seguito da un suono basso e cavernoso, quasi un ruggito.. Una strana macchia
+di foglie e canne giace proprio in mezzo al sentiero e non pare affatto
+casuale la sua posizione. Potrebbe trattarsi di una trappola preparata dalla
+gente del villaggio per catturare qualche bestia feroce. Sarà il caso di dare
+un'occhiatina?
+~
+0 0 3 0 0 0
+D1
+Il sentiero si fa più stretto man mano che t'inoltri fra gli alberi.
+~
+~
+0 0 32765 0
+D3
+Delle strane orme sul terreno guidano la tua curiosità verso ovest.
+~
+~
+0 0 32763 0
+D10
+Sembra una bella buca profonda..
+~
+trappola buca~
+133128 0 32781 0
+> rand_prog 3~
+mpecho Un brontolio poco sommesso proviene dalla trappola..
+~
+|
+S
+#32765
+Il bosco si infittisce~
+Prosegui fino a giungere quasi nel cuore del bosco, foglie ed arbusti coprono
+il sentiero, tanto che il tuo senso d'orientamento ne risente. Una sottile
+nebbiolina si spande lentamente rendendo le piante identiche l'una all'altra..
+Nessun punto di riferimento quindi, eppure un debole lucore proviene da
+una direzione non ben definita..
+~
+0 0 3 0 0 0
+D3
+Una macchia colorata sul terreno copre il sentiero ad ovest.
+~
+~
+0 0 32764 0
+D0
+Una macchia colorata sul terreno copre il sentiero a nord.
+~
+~
+0 0 32764 0
+D1
+Una macchia colorata sul terreno copre il sentiero ad est.
+~
+~
+0 0 32764 0
+D2
+Una strana nebbia confonde i contorni del sentiero.
+~
+~
+0 0 32782 0
+D10
+~
+mirtilli acero faggio abete sequoia noce acacia~
+131072 0 32766 0
+S
+#32766
+Pietre lucenti~
+Un sentierino di ciottoli argentati indica una nuova via, lontana dal bosco
+che hai appena attraversato e diretta verso una strana nebbiolina proprio
+accanto all'orlo di un precipizio.. Tutt'intorno anche gli alberi non sembrano
+più gli stessi di prima: alcuni hanno foglie iridescenti, altri hanno i rami
+piegati in modo da stringersi in un abbraccio vegetale con il tronco del
+vicino.. Immerso in un profondo silenzio, questo luogo surreale ti spinge a
+proseguire il tuo cammino verso l'ignoto..
+~
+0 0 5 0 0 0
+D0
+Il sentiero si fa più stretto man mano che t'inoltri fra gli alberi.
+~
+mirtilli acero faggio abete sequoia noce~
+131072 0 32765 0
+D3
+Il sentiero pare allargarsi verso ovest.
+~
+~
+0 0 32767 0
+S
+#32767
+Una radura di pietre~
+Seguendo le pietrine argentate raggiungi una radura fra gli alberi; ti guardi
+intorno cercando d'orientarti ma una fitta nebbiolina blocca la visuale verso
+il basso, impedendoti, così, di trovare punti di riferimento con il bosco che
+hai attraversato per venire sin qui. Sai solo che continuando dritto finirai
+in fondo al burrone.. E non è una bella prospettiva. Qualcosa però nutre le
+tue speranze, un gradino di legno dall'aspetto sicuro e stabile fluttua a
+mezz'aria di fronte e te, esattamente ad un metro dall'orlo del precipizio.
+Puoi scegliere di salire e sfidare l'immaginazione oppure ripercorrere i tuoi
+passi e tornare verso il villaggio, con della terra reale sotto ai piedi.
+~
+0 0 5 0 0 0
+D1
+Un vago lucore attira il tuo sguardo verso nord..
+~
+~
+0 0 32766 0
+E
+gradino scalino~
+Di certo non capita tutti i giorni di vedere degli scalini fluttuanti..
+Questo sembra fatto di ottimo legno massiccio ed in qualche modo ispira
+fiducia.. E se invece fosse un incantesimo, una qualche stregoneria atta a
+far precipitare nel vuoto i malcapitati?
+~
+> rand_prog 3~
+mpecho Uno strano ticchettio ti fa voltare il capo.. E' uno spiritello degli alberi!
+~
+|
+S
+#32768
+Sotto la grande capanna~
+Passata la botola scendi lungo dei pioli in legno infissi nel muro e,
+nonostante l'umidità del luogo, sembrano ancora ben saldi e resistenti. Con
+un ultimo saltello tocchi finalmente il suolo..
+....
+....
+....
+CLICK
+...
+...
+...
+
+Decisamente un rumore poco raccomandabile, soprattutto quando ci si trova in
+una stanza buia e sconosciuta. Sarà il caso di risalire.. Volgendo il capo
+verso l'alto ti appare chiaro che lo scatto di prima doveva essere di qualche
+meccanismo legato alla protezione di questo cunicolo. I pioli della scaletta
+sono rientrati nella parete e l'unica via rimasta è a sud, nel tunnel.
+~
+0 3153920 13 0 0 0
+D2
+Il tunnel continua a sud..
+~
+~
+0 0 32769 0
+S
+#32769
+Nel tunnel~
+La camminata nel tunnel si presenta come un imprevedibile salto nel tempo:
+grossi blocchi di pietra perfettamente squadrati costituiscono il pavimento,
+il soffitto ed i muri laterali di questo passaggio sotterraneo. Le pareti sono
+decorate con numerose scene di caccia e vita quotidiana, probabilmente
+raffigurano gli antenati della gente del villaggio. In mezzo alla parete di
+destra giganteggia l'immagine di una strana creatura.
+~
+0 3153920 13 0 0 0
+D0
+In questa direzione vedi il punto di partenza del cunicolo.
+~
+~
+0 0 32768 0
+D2
+Puoi proseguire ancora verso sud.
+~
+~
+0 0 32770 0
+E
+immagine creatura~
+Ha la mole di un elefante, il muso allungato e corte zanne come quelle di
+un cinghiale. Il corpo è ricoperto da serpenti neri che si agitano in ogni
+direzione.. In piedi di fronte alla creatura vedi un ragazzo munito di arco
+mentre cerca di tenere lontano dal villaggio l'immane bestia.
+~
+S
+#32770
+Nel tunnel~
+Proseguendo lungo il tunnel, le immagini tranquille di vita e lavoro cedono il
+passo ad altre più cruente e, a giudicare dalle migliori condizioni dei
+graffiti, relative a periodi recenti. Da sud proviene un vaghissimo odore di
+salsedine..
+~
+0 3153920 13 0 0 0
+D0
+A nord torni indietro sui tuoi passi.
+~
+~
+0 0 32769 0
+D2
+A sud una luce innaturale illumina il cunicolo..
+~
+~
+0 0 32771 0
+E
+demone~
+Veste un copricapo di piume, le sue spalle son coperte da un poncho di
+pelliccia ed indossa un corto gonnellino. E' scalzo ed è seduto a
+cavalcioni di un enorme lupo bianco..
+~
+E
+scene graffiti immagini~
+Sono scene di battaglie fra gli uomini del villaggio ed una carovana di
+mercanti, i primi armati di archi e pugnali, i secondi muniti di sofisticati
+archibugi; sullo sfondo s'intravede la figura di un demone.. !
+~
+S
+#32771
+Spiragli di luce~
+Giungi alla fine del cunicolo, l'assenza di torce alle pareti dovrebbe gettare
+l'ambiente in ombra eppure esso appare molto ben illuminato. Volgendo il capo
+verso il soffitto noti dei cristalli di forma esagonale incastonati nella
+roccia.. L'insolita scoperta impegna la tua attenzione per qualche minuto,
+quindi ti accorgi che l'unica via d'uscita è a nord, indietro sui tuoi
+passi.. ciò significa che questo tunnel sarà la tua tomba?
+
+~
+0 3154048 13 0 0 0
+D0
+A nord torni indietro sui tuoi passi, nel cunicolo.
+~
+~
+0 0 32770 0
+D10
+E' uno stretto pertugio, stretto e buio..porterà davvero fuori?
+~
+pertugio~
+133129 0 32779 0
+E
+profumo brezza~
+Giri un poco il capo cercando di individuare la provenienza di questa fresca
+arietta, quand'ecco che il tuo sguardo coglie un particolare nascosto ad occhi
+distratti.. è uno stretto pertugio.. che sia la via d'uscita?
+~
+E
+Cristalli~
+Sono perfettamente esagonali ed incastrati nella roccia come se
+rappresentassero una struttura portante dell'intera volta. La loro superficie,
+molto liscia e regolare, è di un vago color indaco. Guardando al loro interno
+scorgi un'incomprensibile forma di energia pulsante.. che sia questa la fonte
+di tanta luce?
+~
+E
+Soffitto~
+Oltre ai cristalli non vedi nulla di rilevante ma continui a scrutare la volta
+in cerca d'ausilio, se non da esso almeno buon fato.. Ed ecco che un piccolo
+suggerimento non tarda a venire:  una fresca brezza ti sfiora il viso
+solleticandoti le narici con il profumo di salsedine e mirto.
+~
+S
+#32772
+Un prato di lavanda~
+Una distesa di profumatissima lavanda copre questo versante della collina, il
+colore tenue dei fiori rilassa la vista inducendo un vago desiderio di
+stendersi a rimirar le nuvole e liberar la mente dagli affanni.
+Sembra un luogo incantato, uno di quei posti in cui le stagioni rallentano il
+loro corso e permettono alla calda luce del sole di brillare senza bruciare,
+alle languide piogge di bagnare senza inondare, alle brezze di soffiare senza
+estirpare..
+~
+0 0 2 0 0 0
+D3
+La stradina prosegue inerpicandosi lungo una salita.
+~
+~
+0 0 32773 0
+D2
+La strada discende in direzione del mare.
+~
+~
+0 0 32777 0
+> rand_prog 3~
+mpecho Il profumo della lavanda si spande nell'aria..
+~
+|
+S
+#32773
+Lungo la salita~
+Percorri un sentiero di ciottoli, semicoperto da fresca erbetta verde che
+spunta qua e là, accanto ai bordi dello stradello. Il fatto che numerosi
+ciuffi ricoprano anche l'interno del selciato lascia pensare che questo luogo
+non sia meta frequente di passeggiate.. Di quando in quando fra gli alti steli
+spuntano delle lunghe orecchie pelose.
+A tratti il vento si raccoglie formando piccoli turbini che agitano le messi
+dei campi circostanti, poco più avanti la strada si stringe e la salita
+diventa più ripida.
+~
+0 0 4 0 0 0
+D0
+A nord si vedono i campi coltivati intorno al villaggio.
+~
+~
+0 0 32760 0
+D3
+Uno stretto viottolo sale verso ovest.
+~
+~
+0 0 32774 0
+D1
+Un forte profumo di lavanda proviene da est..
+~
+~
+0 0 32772 0
+E
+orecchie~
+Si muovono veloci nell'erba, fermandosi ogni tanto per captare rumori
+sospetti.. Già pregusti una buona cena a base di leprotto quando scopri con
+immane stupore che invece di un roditore hai di fronte a te un mulo nano..
+Forse sta qui perché la zona è molto ventosa?
+~
+> rand_prog 5~
+mpecho Di quando in quando s'ode uno strano fruscio nell'erba..
+~
+|
+S
+#32774
+Uno stretto viottolo~
+Rimane un'idea appena accennata del sentiero su cui procedevi, la via ora si
+distingue solo dalla conformazione dell'erba, ove è più schiacciata o più rada
+lì è la direzione giusta.
+Lungo il cammino trovi delle pietruzze stranamente variopinte: azzurro, rosso,
+giallo ocra e nero onice.. Probabilmente un tempo venivano utilizzate per la
+celebrazione di riti propiziatori sulla scogliera ed ora sono il ricordo
+tangibile di quelle epoche lontane o forse servono solo a tracciare un
+sentiero quasi cancellato dall'erba.
+~
+0 0 4 0 0 0
+D1
+Ad est si ridiscende verso i campi coltivati.
+~
+~
+0 0 32773 0
+D3
+Una grande distesa d'erba copre questo versante..
+~
+~
+0 0 32775 0
+E
+pietre pietruzze~
+Alcune pietre sono grandi quanto la spanna di un umano, altre invece sono così
+piccole che sembrano quasi granelli di sabbia. Fra esse spiccano i
+lapislazzuli, piccole frecce di azzurro intenso nella grande prateria verde,
+altre di rosso brillante sembrano dei rubini..
+~
+S
+#32775
+Camminando nell'erba~
+Ormai non hai più modo di seguire un sentiero preciso, l'erba ricopre tutta la
+vasta superficie del promontorio ma il fragore delle onde ed il forte profumo
+salmastro ti suggeriscono che la cima della scogliera non è poi così lontana.
+Alcuni fiori dai petali azzurrini cercano la luce del sole, ergendosi
+timidamente fra gli steli verdi del prato.
+~
+0 0 4 0 0 0
+D1
+Indietro vedi il viottolo che t'ha condotto sin qui.
+~
+~
+0 0 32774 0
+D3
+Un fragore d'onde proviene da ovest.
+~
+~
+0 0 32776 0
+E
+fiori petali~
+Sono dei piccolissimi "Non ti scordar di me" giunti quassù per mano dell'uomo
+o trasportati dal vento sotto forma di semente.. hai qualcosa da ricordare?
+~
+S
+#32776
+In cima alla scogliera~
+Il vento qui è decisamente imperioso e sotto di te, ai piedi della scogliera,
+la spuma bianca delle onde s'infrange contro gli scogli. Per un istante rimani
+a fissare l'ipnotico andirivieni dell'acqua, quel movimento che dura
+imperturbato dall'inizio dei tempi.. La cristallina trasparenza del mare
+permette di scorgere i grossi massi che costituiscono il fondale a pochi metri
+dalla riva ma più avanti l'azzurro carico s'intensifica celando i misteri
+degli abissi. Poi..poi lo sguardo percorre l'orizzonte, soffermandosi sui
+piccoli particolari che difficilmente si notano quando si ha fretta: un
+quadrifoglio, un vascello attraccato al molo, una città operosa ed.. un ponte
+sospeso verso nord!
+
+~
+0 0 5 0 0 0
+D1
+Ad est il verde manto ricopre la parte alta della scogliera.
+~
+~
+0 0 32775 0
+E
+città~
+Da lontano si sollevano sbuffi di cenere ed un brulichio di persone, simile
+alle corse delle formiche, segnala un'intensa attività lavorativa della gente
+del luogo.
+~
+E
+vascello~
+Visto da qua si direbbe una nave mercantile ormeggiata nel porto e pronta a
+salpare piena del suo carico verso lontane spiagge..
+~
+E
+ponte~
+Si distingue a malapena la struttura del ponte, sembrerebbe fatto di corde ed
+unisce la collina del villaggio con un'alta montagna verso ovest..
+Ci sarà una via per raggiungerlo?
+~
+E
+quadrifoglio~
+Verde, con quattro foglioline arrotondate.. sì, proprio quattro. Un piccolo
+bruco sta salendo a fatica lungo il gambo, una volta giunto in cima
+inizia ad assaggiare perentoriamente tutte le foglioline, con grande stupore
+del mondo intorno.. Trascorrono brevi istanti e del quadrifoglio non
+rimane che il ricordo, il bruco se ne va, felice del suo lauto pasto.
+~
+> rand_prog 3~
+mpecho In lontananza il ponte oscilla sotto la spinta del vento.
+~
+|
+S
+#32777
+Ai piedi della collina~
+Scendi con passo rapido lungo il versante della collina, il terreno è soffice
+sotto ai piedi ed il sentiero è largo e di terra battuta, comodo per gli
+spostamenti rapidi. Da qui lo sguardo spazia fino all'orizzonte.. Verso ovest
+ti incuriosisce lo sbuffo di un camino, simile ad una fucina, ad est in
+lontananza si staglia un'alta montagna e a sud un sentierino si snoda fra i
+cespugli fino al grande mare.
+~
+0 0 4 0 0 0
+D0
+Un forte profumo di lavanda proviene da nord..
+~
+~
+0 0 32772 0
+D3
+Ad ovest si vedono dei campi coltivati.
+~
+~
+0 0 32800 0
+S
+#32778
+Un sentierino nascosto~
+Ti apri un varco fra le siepi di mirto che costeggiano il viottolo, un forte
+odore salmastro t'avverte che sei proprio nelle strette vicinanze del mare,
+probabilmente mancano pochi passi.
+
+~
+0 0 2 0 0 0
+D0
+~
+arbusto arbusti~
+2056 0 32777 0
+D2
+Verso sud il sentierino diventa uno stradello seminascosto dalla sabbia.
+~
+~
+0 0 32779 0
+S
+#32779
+La stradina di sabbia~
+Percorri uno tratto di sentiero semicoperto dalla sabbia, ad ogni passo una
+folata di vento cancella tutte le orme dietro di te come a voler tenere
+segreta la presenza di chiunque in questa zona.
+Poco distante intravedi una costruzione traballante, sembra una torretta
+d'avvistamento.
+~
+0 0 10 0 0 0
+D0
+La sabbia lascia il posto ad una cornice d'arbusti di mirto.
+~
+~
+0 0 32778 0
+D2
+Verso sud si scorge una costruzione diroccata.
+~
+~
+0 0 32780 0
+S
+#32780
+Una torretta diroccata~
+La torretta si regge in piedi per miracolo o per una ben congegnata
+architettura atta a confondere i passanti.. Tutt'intorno la sabbia dorata si
+distende a perdita d'occhio fino ad incontrare le tranquille onde del mare che
+con il loro sommesso brontolio sembrano intonare un'antica nenia..
+~
+0 0 10 0 0 0
+D0
+A nord torni indietro lungo la stradina di sabbia.
+~
+~
+0 0 32779 0
+D10
+~
+torretta~
+133128 0 32784 0
+> rand_prog 7~
+if ovnumroom(32790) > 0
+  mpecho La schiuma di un'onda sposta la conchiglia sulla spiaggia.
+else
+  mpecho Un'onda più lunga delle altre deposita una conchiglia sulla spiaggia.
+endif
+~
+|
+S
+#32781
+La buca dell'orso~
+Grande idea quella di venire a romper l'anima a questo bestione già adirato
+per la brutta caduta.
+Sii gentile almeno, offriti come pasto.
+~
+0 0 13 0 0 0
+D4
+Scappa..!
+~
+~
+0 0 32764 0
+S
+#32782
+Nella nebbia~
+Nella fitta nebbia non si distinguono i contorni degli alberi attorno a te, a
+malapena scorgi i tuoi piedi sul sentiero che prosegue verso una meta
+sconosciuta. Anche se non si vede nulla però, noti che lo stradello continua
+in salita.. magari è un indizio nel disorientamento generale.
+Un arco di rami in lontananza sembra rappresentare un indizio.. Condurrà fuori
+da qui?
+~
+0 1056768 3 0 0 0
+D10
+Nebbia..
+~
+arco rami~
+133128 0 32765 0
+D0
+Nebbia..
+~
+~
+0 0 32782 0
+D1
+Nebbia..
+~
+~
+0 0 32782 0
+D2
+Nebbia..
+~
+~
+0 0 32782 0
+D3
+Nebbia..
+~
+~
+0 0 32782 0
+D4
+Nebbia..
+~
+~
+0 0 32783 0
+S
+#32783
+La radura nel nulla~
+Giungi nel bel mezzo di una radura, la nebbia si è diradata quel tanto che
+basta per vedere dinnanzi a te l'orlo di un profondo burrone.. e un bosco
+immenso che riveste i fianchi di una montagna oltre il precipizio.
+~
+0 0 5 0 0 0
+D5
+Nebbia..
+~
+~
+0 0 32782 0
+> rand_prog 5~
+mpecho Un ululato irrompe dal nulla spezzando la staticità della nebbia..
+~
+|
+S
+#32784
+Dentro la torretta~
+Sembra attrezzata proprio bene.. ed è un ottimo nascondiglio per chi desideri
+restare un po' di tempo in solitudine.. magari a preparare qualche piano segreto?
+Nel muro vedi una breccia grande abbastanza da passarci dentro.
+~
+0 0 0 0 0 0
+D10
+~
+breccia~
+133128 0 32780 0
+> rand_prog 3~
+mpecho Un raggio luminoso fa capolino da una fessura nel muro.
+~
+|
+S
+#0
+
+#RESETS
+M 0 32750 1 32750  ; Mob: #9900 l'anziana madre => #9900 La capanna dell'Anziana Madre
+O 0 32750 1 32750  ; Object: #9900 una cassapanca => #9900 La capanna dell'Anziana Madre
+P 0 32751 1 32750  ; Put: #9901 un sacchettino di stoffa => #9900 una cassapanca
+P 0 32752 1 32750  ; Put: #9902 una sfera di pura ametista => #9900 una cassapanca
+P 0 32753 1 32750  ; Put: #9903 un grosso tomo impolverato => #9900 una cassapanca
+P 1 32754 1 32750  ; Put: #32754 un foglio strappato => #32753 un grosso tomo impolverato
+M 0 32751 1 32750  ; Mob: #9901 un giovane esploratore => #9900 La capanna dell'Anziana Madre
+E 1 32767 1 5  ; -- Equip: #9917 una maglia di stoffa pesante (Body)
+E 1 32768 1 7  ; -- Equip: #9918 pantaloni corti al ginocchio (Legs)
+E 1 32763 1 8  ; -- Equip: #9913 stivali di pelliccia (Feet)
+E 1 32762 1 14  ; -- Equip: #9912 un bracciale di cuoio (Wrist-L)
+M 0 32752 1 32752  ; Mob: #9902 una bimba irrequieta => #9902 Una capanna del villaggio
+E 1 32756 1 17  ; -- Equip: #9906 un animaletto in legno (Hold)
+E 1 32770 1 5  ; -- Equip: #9920 un abitino di stoffa leggera (Body)
+O 0 32757 1 32752  ; Object: #9907 un cubetto di sughero => #9902 Una capanna del villaggio
+P 0 32758 1 32757  ; Put: #9908 un'isoletta di sughero => #9907 un cubetto di sughero
+O 0 32789 1 32754  ; Object: #9943 una piccola faretra => #9904 Una capanna del villaggio
+P 0 32788 7 32789  ; Put: #9942 una freccia di ferro => #9943 una piccola faretra
+M 0 32753 1 32754  ; Mob: #9903 un cacciatore del villaggio => #9904 Una capanna del villaggio
+E 1 32768 1 7  ; -- Equip: #9918 pantaloni corti al ginocchio (Legs)
+E 1 32763 1 8  ; -- Equip: #9913 stivali di pelliccia (Feet)
+E 1 32764 1 16  ; -- Equip: #9914 un pugnale di ferro (Wield)
+E 1 32767 1 5  ; -- Equip: #9917 una maglia di stoffa pesante (Body)
+M 0 32754 1 32754  ; Mob: #9904 una cacciatrice del villaggio => #9904 Una capanna del villaggio
+E 1 32762 1 15  ; -- Equip: #9912 un bracciale di cuoio (Wrist-R)
+E 1 32763 1 8  ; -- Equip: #9913 stivali di pelliccia (Feet)
+E 1 32765 1 16  ; -- Equip: #9915 un arco di legno (Wield)
+E 1 32769 1 7  ; -- Equip: #9919 un gonnellino in pelle di daino (Legs)
+E 1 32766 1 5  ; -- Equip: #9916 un corpetto di cuoio (Body)
+E 0 32789 1 17  ; -- Equip: #9943 una piccola faretra (Hold)
+O 0 32759 3 32754  ; Object: #9909 una lancia dalla punta di ferro => #9904 Una capanna del villaggio
+O 0 32761 5 32754  ; Object: #9911 una fetta di carne essiccata => #9904 Una capanna del villaggio
+M 0 32755 1 32755  ; Mob: #9905 un anziano => #9905 Un piccolo spiazzo
+E 1 32771 1 17  ; -- Equip: #9921 un bastone da passeggio (Hold)
+O 0 32755 1 32755  ; Object: #9905 un pozzo => #9905 Un piccolo spiazzo
+O 0 32760 1 32756  ; Object: #9910 una manciata di grano => #9906 La capanna magazzino
+M 0 32760 1 32761  ; Mob: #9911 un capriolo => #9911 Sul limitare del bosco
+O 0 32772 1 32762  ; Object: #9922 una catasta di legna => #9912 Il sentiero fra gli alberi
+P 0 32773 1 32772  ; Put: #9923 un rametto bitorzoluto => #9922 una catasta di legna
+M 0 32761 1 32762  ; Mob: #9912 un ragazzino => #9912 Il sentiero fra gli alberi
+E 1 32768 1 7  ; -- Equip: #9918 pantaloni corti al ginocchio (Legs)
+E 1 32763 1 8  ; -- Equip: #9913 stivali di pelliccia (Feet)
+E 1 32767 1 5  ; -- Equip: #9917 una maglia di stoffa pesante (Body)
+O 0 32778 1 32762  ; Object: #9932 un fungo giallo e blu => #9912 Il sentiero fra gli alberi
+M 0 32757 1 32763  ; Mob: #9907 un piccolo furetto => #9913 Alcune tracce
+O 0 32779 1 32763  ; Object: #9933 un cespuglio di more => #9913 Alcune tracce
+P 0 32787 3 32779  ; Put: #9941 una mora rossa => #9933 un cespuglio di more
+P 0 32780 2 32779  ; Put: #9934 una mora nera => #9933 un cespuglio di more
+M 0 32764 1 32764  ; Mob: #9916 un merlo nero => #9914 Trappole nascoste
+E 1 32784 1 8  ; -- Equip: #9938 un anellino dorato (Feet)
+M 0 32756 1 32765  ; Mob: #9906 un vagabondo => #9915 Il bosco si infittisce
+O 0 32785 1 32765  ; Object: #9939 delle erbette profumate => #9915 Il bosco si infittisce
+M 0 32765 1 32765  ; Mob: #9918 un serpentello nero => #9915 Il bosco si infittisce
+O 0 32776 1 32767  ; Object: #9930 una piantina dalle foglie argentate => #9917 Una radura di pietre
+P 0 32777 1 32776  ; Put: #9931 una bacca color indaco => #9930 una piantina dalle foglie argentate
+M 0 32763 1 32780  ; Mob: #9915 un gabbiano => #9930 Una torretta diroccata
+M 0 32758 1 32781  ; Mob: #9908 un orso affamato => #9986 La buca dell'orso
+M 0 32759 1 32783  ; Mob: #9909 uno strano individuo => #9988 La radura nel nulla
+M 0 32762 1 32784  ; Mob: #9914 un granchio => #9989 Dentro la torretta
+O 0 32781 1 32784  ; Object: #9935 un vecchio baule => #9989 Dentro la torretta
+P 0 32783 1 32781  ; Put: #9937 uno specchietto rotondo => #9935 un vecchio baule
+P 0 32782 1 32781  ; Put: #9936 alcune bende di tela => #9935 un vecchio baule
+S
+
+#SPECIALS
+S
+
+#END

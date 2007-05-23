@@ -1,0 +1,167 @@
+*									LISTA DELLE DOMANDE
+* Lista delle domande che vengono chiamate per la creazione del pg.
+*
+* Prototipo della sezione:
+*
+* #QUESTION
+* Text
+* ~
+* AnswerClass   CLASS_
+* AnswerClass   CLASS_
+* End
+* #END
+
+
+#QUESTION
+Text
+  Hai molta esperienza e sei alla testa di un manipolo di compagni; ti ritrovi
+  dall'alto di un dirupo ad osservare una colonna di goblin in marcia.
+  Cosa faresti?
+
+  1) Tendi un'imboscata ai Goblin, ma restando bene attento nel non precluderti
+     la ritirata.
+  2) Li osservi fino a quando sono tutti passati e poi inizi ad ammazzarli con
+     le un nugolo di frecce.
+  3) Fai crollare su di loro un grosso macigno, così da creare confusione,
+     schiacciarne qualcuno e fuggire con rapidità.
+  4) Li segui fino al loro accampamento ed intrufolandoti nottetempo avveleni
+     il loro rancio.
+  5) CAAARICAAAAAAAA!!!!!
+~
+Answer 1 CLASS_THIEF
+Answer 2 CLASS_WANDERING
+Answer 3 CLASS_MAGE
+Answer 4 CLASS_PRIEST
+Answer 5 CLASS_FIGHTER
+End
+
+
+#QUESTION
+Text
+  Attraverso un oggetto magico liberi accidentalmente un Demone Maggiore.
+  Sei decisamente nella... in pericolo, come faresti?!
+
+  1) Via il più velocemente possibile!!!
+  2) Cerchi di far buon viso a cattivo gioco e ti inchini al tuo nuovo Signore
+     mendicando pietà.
+  3) Lo intrattieni con qualche chiacchiera bene elaborata, e poi fuggi per
+     preparare con calma la rivincita.
+  4) Tenti di scacciarlo ostentando con sicurezza un simbolo religioso.
+  5) Estrai la tua fida spada lunga in acciaio ammazzademone e ne fai polpette,
+     o almeno ci provi.
+~
+Answer 1 CLASS_WANDERING
+Answer 2 CLASS_THIEF
+Answer 3 CLASS_MAGE
+Answer 4 CLASS_PRIEST
+Answer 5 CLASS_FIGHTER
+End
+
+
+#QUESTION
+Text
+  Mentre ti dirigi nottetempo verso una lontana città, vieni tratto in arresto
+  da un manipolo di uomini armati. Uno di loro ti punta la spada alla gola e ti
+  dice: "Parla, lurido sacco di viscere, dove sono i Bunz?!"
+
+  1) Accetti ISTANTANEAMENTE di parlare e riveli dove si trovano i Bunz (ovvero
+     il primo villaggio di povere anime innocenti che condannerai al massacro
+     pur di salvarti la pelle).
+  2) Cerchi di intavolare una trattativa, e vedi di spedire questa massa di
+     deficienti che non riconoscono un innocuo viandante da una spia, a casa del
+     tuo peggiore nemico.
+  3) Li supplichi in nome degli Dei di risparmiarti, e già che ci sei provochi
+     un eclissi di luna tanto per impressionarli.
+  4) Fissi il capo delle guardie  e cerchi di ipnotizzarlo, così da potertene
+     andar via tranquillo. Per la vendetta c'e' sempre tempo.
+  5) Vigliacchi! Durlindana(tm), a me!!!
+~
+Answer 1 CLASS_WANDERING
+Answer 2 CLASS_THIEF
+Answer 3 CLASS_PRIEST
+Answer 4 CLASS_MAGE
+Answer 5 CLASS_FIGHTER
+End
+
+
+#QUESTION
+Text
+  Un vecchio ti si avvicina con fare misterioso nel mezzo di una trafficata
+  piazza cittadina e ti mormora qualcosa a proposito di un vecchio monastero
+  abbandonato e ti chiede di seguirlo. Tu:
+
+  1) Lo segui a ruota, con la mano sulla daga. Appena il vecchio ha parlato,
+     lo accoppi e raduni la compagnia per saccheggiare i tesori del monastero.
+  2) Ascolti attentamente il vecchio, e ti fai dire con precisione dove si
+     trova il monastero. Quindi conduci approfondite ricerche fra bardi e
+     taverne, in cerca di eventuali leggende, prima di partire per una prima
+     missione di ricognizione.
+  3) Solleciti l'uomo a narrarti tutto ciò che sa, mettendolo il più possibile
+     a proprio agio. Quindi, gli prometti una sostanziosa parte dell'eventuale
+     bottino se accetterà di fare da guida a te ed al tuo, eventuale, gruppo.
+  4) Scuoti la testa e mormori qualcosa sui luoghi sconsacrati, invitando
+     l'importuno individuo a cercare in altri luoghi di che calmare la sua
+     avidità.
+  5) "Hai trovato il tuo uomo, vecchio. Andiamo e spazziamoli via!"
+~
+Answer 1 CLASS_THIEF
+Answer 2 CLASS_WANDERING
+Answer 3 CLASS_MAGE
+Answer 4 CLASS_PRIEST
+Answer 5 CLASS_FIGHTER
+End
+
+
+#QUESTION
+Text
+  Sei solo, nell'ala decrepita di un vecchio castello abbandonato.
+  All'improvviso, un rumore alle tue spalle, in fondo al corridoio.
+  Sei sicuro di non aver avvertito la presenza di nessuno, quando sei entrato?
+  Eppure hai sentito bene. E' tempo di prendere una decisione:
+
+  1) Ti trovi un confortevole riparo da cui osservare l'evolversi della situa-
+     zione, pronto a fare MOLTO male a qualsiasi cosa ti passi davanti.
+  2) Ti giri con molta calma, estrai la tua ascia e ti prepari a vender cara
+     la pelle.
+  3) In tutta fretta, prendi la tua vecchia pozione d'invisibilità e sparisci.
+     Ti prepari al peggio.
+  4) Attendi con calma la cosa, ostentando sicurezza di fronte al gruppo, ma
+     con ben salda in mano la tua vecchia daga incantata, frutto dei tuoi
+     precedenti viaggi.
+  5) Biascichi una preghiera al tuo Dio, e ti prepari a spedire (o rispedire)
+     la Cosa dal suo Creatore?
+~
+Answer 1 CLASS_THIEF
+Answer 2 CLASS_FIGHTER
+Answer 3 CLASS_MAGE
+Answer 4 CLASS_WANDERING
+Answer 5 CLASS_PRIEST
+End
+
+
+#QUESTION
+Text
+  Tu ed il tuo gruppo avete appena sconfitto un giovane ed inesperto Drago!
+  Il suo tesoro è vostro! Dato il tuo decisivo contributo alla vittoria, puoi
+  scegliere per primo cosa prendere per te. Prendi:
+
+  1) Quella splendida scimitarra intarsiata e ornata di rune, ovviamente!
+  2) Che domande! Lo scudo borchiato là in fondo. Ha l'aria di far male, se lo
+     tiro in faccia a qualcuno!
+  3) "Sbaglio o quello è ORO?!?!?!". E arraffi un forziere da due quintali
+     colmo di oro zecchino.
+  4) La pietruzza sferica nell'angolo, assieme a quel bel bastone di quercia
+     ancora intatto. (Ed ovviamente ti guardi bene dal dire che è un cataliz-
+     zatore magico...)
+  5) Un antico simbolo di una religione ormai dimenticata, in oro massiccio e
+     gemme, ovviamente.
+~
+Answer 1 CLASS_WANDERING
+Answer 2 CLASS_FIGHTER
+Answer 3 CLASS_THIEF
+Answer 4 CLASS_MAGE
+Answer 5 CLASS_PRIEST
+End
+
+
+#END

@@ -1,0 +1,128 @@
+#PLAYER
+AffectedBy   AFFECT_INFRARED~
+Alignment    -75
+Archetype    9
+Armor        100
+*            ATTR_STR ATTR_RES ATTR_CON  ATTR_INT ATTR_COC ATTR_WIL  ATTR_AGI ATTR_REF ATTR_SPE  ATTR_SPI ATTR_MIG ATTR_ABS  ATTR_EMP ATTR_BEA ATTR_LEA 
+AttrMod        0   0   0    0   0   0    0   0   0    0   0   0    0   0   0 
+*            ATTR_STR ATTR_RES ATTR_CON  ATTR_INT ATTR_COC ATTR_WIL  ATTR_AGI ATTR_REF ATTR_SPE  ATTR_SPI ATTR_MIG ATTR_ABS  ATTR_EMP ATTR_BEA ATTR_LEA 
+AttrPerm      68  64  55   53  37  43   54  54  33   62  68  32   46  44  65 
+Class        CLASS_WANDERING
+MaxColors    76
+Colors       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 25 7 7 5 5 15 11 11 13 15 11 11 7 31 25 12 7 2 7 11 9 10 1 15 11 9 7 7 7 12 10 11 12 10 3 12 9 15 11 11 14 2 5 15 7 9 12 9 17 7 12 12 12 7 11 2 2 6 10 7
+Condition    CONDITION_DRUNK 0  CONDITION_FULL 48  CONDITION_THIRST 48  CONDITION_BLOODTHIRST 10
+CreationDate 1154559441
+DamRoll      0
+Exp          0
+Eye
+    AT_CYAN ciano~
+    AT_BLACK nero~
+    AT_NONE nessuno~
+    EYE_NORMAL normali~
+Flags        PLAYER_ACCENT PLAYER_BLANK PLAYER_COMBINE PLAYER_COLOR PLAYER_HINT PLAYER_MAPPER PLAYER_PROMPT PLAYER_AUTOEXIT PLAYER_INTRO PLAYER_ITALIAN PLAYER_DOUBLELANG~
+Glory        1
+Gold         48
+Hair
+    AT_NONE nessuno~
+    AT_NONE nessuno~
+    HAIRTYPE_BALD calvo~
+    HAIRSTYLE_NONE lisci~
+    40
+Height       135
+Hitroll      0
+Host         151.24.84.253
+IllegalPK    0
+Speaking     LANGUAGE_COMMON
+Level        2
+MentalState	 0
+MDeaths      0
+MKills       0
+MobInvis     0
+Name         Onirik~
+Logon        1154559412
+Password     wisdul91~
+PDeaths      0
+PKills       0
+Played       33
+Points       POINTS_LIFE    28  POINTS_MOVE   106  POINTS_MANA   107  POINTS_SOUL   105
+PointsMax    POINTS_LIFE    47  POINTS_MOVE   106  POINTS_MANA   107  POINTS_SOUL   119
+Position     POSITION_STAND
+Practice     4
+Protocol         PROTOCOL_MSP PROTOCOL_MUSIC PROTOCOL_SOUND PROTOCOL_COMBAT~
+QuestGlory   0
+Race         RACE_DWARF
+RightHand    False
+Room         10300
+SavingThrow  SAVETHROW_POISON_DEATH 0  SAVETHROW_ROD_WANDS 0  SAVETHROW_PARA_PETRI 0  SAVETHROW_BREATH 0  SAVETHROW_SPELL_STAFF 0
+SenseMod     SENSE_SIGHT 0  SENSE_HEARING 0  SENSE_SMELL 0  SENSE_TASTE 0  SENSE_TOUCH 0  SENSE_SIXTH 0
+SensePerm    SENSE_SIGHT 70  SENSE_HEARING 64  SENSE_SMELL 68  SENSE_TASTE 64  SENSE_TOUCH 64  SENSE_SIXTH 68
+Sex          SEX_MALE
+Style        STYLE_BERSERK
+Title         il Viaggiatore dei Piani~
+Trust        TRUST_PLAYER
+Version      1
+Weight       71.692
+LearnedLang  LANGUAGE_COMMON 100
+LearnedLang  LANGUAGE_DWARVEN 100
+End  * Plr
+
+#OBJECT
+Vnum         10308
+ExtraFlags   ~
+Level		 1
+Values OBJTYPE_ARMOR 2 2 0
+    ~
+    ~
+End  * Obj
+
+#OBJECT
+Vnum         10310
+ExtraFlags   ~
+Level		 1
+Values OBJTYPE_ARMOR 2 2 0
+    ~
+    ~
+End  * Obj
+
+#OBJECT
+Vnum         10311
+Level		 1
+Values OBJTYPE_LIGHT 0 LIGHT_FIRE -1
+    ~
+    ~
+    ~
+    ~
+    ~
+    ~
+End  * Obj
+
+#OBJECT
+Vnum         10313
+ExtraFlags   ~
+Level		 1
+Values OBJTYPE_WEAPON 12 5 8 WEAPON_DAGGER DAMAGE_SLASH DAMAGE_NONE 0
+    ~
+    ~
+End  * Obj
+
+#OBJECT
+Vnum         10333
+Level		 1
+Values OBJTYPE_ARMOR 5 5 0
+    ~
+    ~
+End  * Obj
+
+#OBJECT
+Vnum         719
+ExtraFlags   ~
+Level		 1
+Values OBJTYPE_CONTAINER 2126 0 0 OBJTYPE_NONE
+    ~
+    ~
+    ~
+    ~
+    ~
+End  * Obj
+
+#END

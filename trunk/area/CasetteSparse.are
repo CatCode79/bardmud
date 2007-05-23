@@ -1,0 +1,4410 @@
+#AREA
+Name         Casette sparse~
+Author       Seccunda (Miciko)~
+Color        AT_ORANGE arancione~
+Economy      0 22706892
+LevelRange   5 20
+ResetMsg1    La terra trema a seguito dell'ennesimo esperimento..~
+Vnums        1500 1599
+End
+
+
+#MOBILES
+#1500
+bimbo gnomo~
+un bambino~
+Un bimbo è qui, parlottando fra sé, assorto nei suoi pensieri.
+~
+E' un bimbo della razza gnomica, se già son piccini gli adulti figuriamoci la prole..
+E' una creaturina piccolina e paffutella, con grandi occhioni scuri concentrati
+su qualche terribile problema infantile..
+~
+3 4194856 600 C
+7 18 7 3d7+70 2d4+0
+300 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1709 0 0 9 64 2
+> rand_prog 5~
+  ponder
+~
+|
+#1501
+donna gnoma~
+una gnoma~
+Una gnoma si cotona un po' i capelli cercando di farsi bella.
+~
+"Altezza mezza bellezza", dicono i proverbi.. E certo non favoriscono le femmine
+di questa razza ma questa in particolare si sta proprio impegnando per sembrare
+bella oltre le proprie reali possibilità. Sii caritatevole, asseconda i suoi sforzi.
+~
+1 0 600 C
+10 16 5 5d10+100 1d8+0
+500 700
+8 8 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 2 0 0 64 2
+#1502
+uomo gnomo~
+uno gnomo~
+Uno gnomo cammina allegramente verso il proprio lavoro.
+~
+In mezzo ad una comitiva di umani verrebbe certo scambiato per un bimbo
+barbuto, ma non farti ingannare dalle apparenze, lo sguardo di questo
+gnomo, fisso su di te da qualche secondo ormai, è molto più sveglio di quanto
+lasci credere.
+~
+1 4194856 500 C
+12 15 4 1d12+100 1d8+1
+450 900
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 0
+0 0 0 2 0 0 64 2
+> rand_prog 5~
+  sing
+~
+> rand_prog 2~
+  hand $r
+~
+|
+#1503
+scienziato gnomo~
+uno gnomo scienziato~
+Uno gnomo cammina avanti ed indietro parlottando da solo.
+~
+Questo gnomo dai capelli spettinatissimi, sta armeggiando intorno a qualche
+strana invenzione; mugugna mentre cerca di stringere una vite che palesemente
+non vuol saperne d'entrare nel filetto..
+~
+1 4194856 500 C
+12 14 4 5d10+100 1d8+3
+1000 1300
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 0 0 0 64 2
+#1504
+assistente gnomo~
+un assistente~
+L'assistente si diverte a far roteare coppe e fialette..
+~
+Si tratta dell'assistente di qualche scienziato, indossa un lungo camice
+bianco ed al momento ha poco lavoro da fare, così perde tempo dietro a
+giochi da circense. Non sembra molto in carne questo gnomo ma il suo sguardo
+è attento e curioso.
+~
+1 0 400 C
+10 13 3 5d5+90 1d7+2
+100 2000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 2 0 1 64 2
+> rand_prog 3~
+  emote acchiappa al volo una fialetta che stava per cadere.
+  sigh
+  say ..ah.. Se solo potessimo creare nuovi mondi!
+~
+|
+#1505
+capo gnomo~
+il capo degli gnomi~
+Una vaga aura di carisma avvolge questo gnomo.
+~
+Assomiglia ad un troll in miniatura.. Le sue braccia sono incredibilmente
+muscolose in rapporto alla statura, non abbassa lo sguardo neppure un istante ed
+anzi ti sta fissando incessantemente per capire le tue intenzioni. Forse non è
+uno con cui scherzare..
+~
+3 0 550 C
+15 6 -1 5d10+200 1d15+2
+8000 15000
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 2
+0 0 1775 0 0 0 1073741888 524290
+> rand_prog 10~
+  wield spadacapo
+~
+|
+#1507
+troll~
+un grosso troll~
+A far da guardiano al ponte c'è un bel trollone puzzolone..
+~
+"Vai con lo zoppo e zoppicherai".. A quanto pare, a forza di stare vicino
+agli gnomi anche questo troll s'è rimpicciolito. E' decisamente più basso
+e minuto rispetto ai suoi fratelli, ma i dentacci gialli e gli occhi
+invasati consigliano di non dar troppo fastidio a questo signorino..
+~
+1073741831 4194856 -900 C
+20 12 3 1d50+350 2d5+1
+200 2000
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+19 3 0 0 1 1 0
+0 0 1312495 0 0 0 2 2
+> all_greet_prog 100~
+  say Chi va là!?
+  say a $n Il troll urla 'Tu non passa sul mio ponte se tu non paga pegno!'
+  say a $n 500 monete e anderai! Oppure io ti ammazza! Scegli.
+  mpechoat $n Il troll ti dà uno spintone.
+~
+> bribe_prog 500~
+  if isfight($n)
+    say Io no pazzo! Ora tu muore!
+  else
+    smile $n
+    say a $n Saggia decisione tu non combatte, o tu moriva sai?
+    mpechoaround $n $I se ne va contando le monetine.
+    mpschoaround $n Il troll mette al sicuro le monetine in un borsello sgualcito.
+    mpechoat $n Il troll si sposta lentamente e ti lascia finalmente passare..
+    mptransfer $n 1547
+    mpjunk monete
+  endif
+~
+|
+#1508
+topolino topo~
+un topolino di campo~
+Un piccolo topolino ti passa fra i piedi e scappa via!
+~
+E' tutto bianco e rapido come una saetta; impaurito da ogni piccolo rumore
+cerca di evitare tutti quelli più grossi di lui, soprattutto se sono MOLTO
+più grossi di lui.
+~
+5 0 0 C
+5 19 9 1d5+50 1d4+0
+0 100
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 512 513 0
+0 0 67117 0 0 0 0 2
+#1509
+ratto piccolo~
+un ratto~
+Un piccolo ratto squittisce all'aria.
+~
+Due occhiacci gialli s'aggirano nei dintorni, scrutando ogni piccola crepa
+nel terreno o nei muri alla ricerca di un boccone. L'animale sembra molto
+affamato e poco propenso alla socializzazione.
+~
+5 0 -200 C
+6 19 8 1d1+66 1d5+1
+0 200
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+77 3 0 0 512 513 1
+0 0 329349 0 0 8 0 2
+#1510
+ratto grosso~
+un grosso ratto~
+Un grosso ratto gironzola qui intorno con fare torvo..
+~
+Non ha alcun problema di fronte agli estranei, anzi ti si avvicina e cerca di
+darti un morso su un piede! Poi s'accorge che non stava cercando quel tipo di
+formaggio e desiste.
+~
+5 0 -200 C
+8 17 6 1d1+88 1d8+0
+0 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 512 513 1
+0 0 329261 0 0 8 0 2
+#1511
+ratto gigante~
+un ratto gigante~
+Un ratto gigante squittisce con rabbia contro di te.
+~
+Più che squittire, sembra quasi che grugnisca.. Digrigna i lunghi
+denti gialli contro di te pronto a dare un'assaggiatina al tuo polpaccio.
+~
+37 0 -200 C
+10 15 4 1d1+111 1d8+1
+0 800
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 3 0 0 512 513 1
+0 0 263853 0 0 8 0 2
+#1512
+troll~
+un troll~
+Un grosso troll barcolla nei paraggi.
+~
+Un enorme ammasso di ciccia s'aggira qui intorno, cercando qualcuno da colpire
+con la sua potente arma, magari evita d'esser proprio tu la sua prossima vittima.
+~
+35 0 -800 C
+14 7 0 3d5+160 2d8+1
+100 10000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+19 3 0 0 65 65 0
+0 0 1775 0 0 0 2 524290
+#1513
+pipistrello nero~
+un pipistrello nero~
+Qualcosa di oscuro pende dal soffitto.. Se non è una forca è un pipistrello.
+~
+Il pipistrello avverte un rumorino e ruota le sue grandi orecchie per captare
+meglio la direzione da cui proviene il fastidioso bzz bzz.. Forse c'è una zanzarina
+nei dintorni.
+~
+33 4719144 -500 C
+5 16 5 3d4+70 1d8+0
+1 1000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 513 513 0
+0 0 34349 0 0 0 0 2
+#1514
+gnomo scienziato spia~
+una spia~
+Uno gnomo cammina tutt'intorno nervosamente, fissandoti di quando in quando.
+~
+A differenza degli altri gnomi, solari e curiosi, questo qui è piuttosto schivo
+e diffidente. Evita continuamente il tuo sguardo e si muove nervosamente per
+tutta la stanza fermandosi sempre sopra lo stesso punto del pavimento..
+~
+3 4194856 -700 C
+12 14 3 4d12+110 1d8+3
+696 2300
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 0
+0 0 1775 2 0 0 64 2
+#1515
+pipistrello fuoco~
+un pipistrello di fuoco~
+Un pipistrello di fuoco spalanca le ali e si prepara all'attacco.
+~
+Un grosso corpo fiammeggiante dalla forma di pipistrello vola verso di te con 
+fare minaccioso.. E' vero che sembra un topo con le ali, ma stavolta sono ali 
+di fuoco.
+~
+37 8 -900 C
+12 9 2 1d10+60 3d5+0
+6000 6000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1 1 0
+0 0 0 0 0 0 64 2
+#1516
+guardia hobgoblin~
+una guardia hobgoblin~
+La guardia hobgoblin prima attacca, poi riflette.
+~
+E' una creatura bella grossa, piantata su due gambe simili a tronchi con braccia
+grosse come pale di mulino. Ti guarda e sghignazza, meditando un modo per
+dilaniarti in tanti pezzettini piccolissimi.
+~
+35 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16385 1
+0 0 1775 0 0 0 64 524290
+> rand_prog 5~
+  get fungo helmet
+  mpecho L'hobgoblin trangugia voracemente un pezzo di fungo.
+  put fungo helmet
+~
+|
+#1517
+soldato hobgoblin~
+un soldato hobgoblin~
+Un soldato hobgoblin sta pigramente sull'attenti.
+~
+Questo soldato non passerà mai di grado, se non in peggio, forse.
+E' appoggiato stancamente contro un muro e non sembra affatto intenzionato
+a combattere contro chicchessia, piuttosto è più facile pensare che sia
+il primo a scappare in caso di battaglia.
+~
+35 4194856 -600 C
+7 18 7 1d7+70 1d7+0
+50 300
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16385 1
+0 0 1775 0 0 0 64 524290
+> rand_prog 2~
+  grunt
+~
+> rand_prog 1~
+  drool
+~
+|
+#1518
+guardiacorpo hobgoblin bodyguard~
+una guardia del corpo hobgoblin~
+Questa guardia del corpo è pronta a dare la vita per difendere il re.
+~
+Hai di fronte una delle guardie del corpo del re, appartiene all'elite
+del corpo militare regale. E' ben piazzato, alto e robusto per la sua razza.
+Sul viso conserva un'espressione crudele e folle, tipica di chi non teme
+la morte, né propria, né altrui..
+~
+3 4194856 -500 C
+10 14 4 2d15+105 1d7+2
+100 2000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 1 1 1
+0 0 1775 0 0 0 64 3
+#1519
+re hobgoblin~
+il re degli hobgoblin~
+Il re è assiso in trono, scrutando con cipiglio severo i suoi sudditi.
+~
+Il re è un hobgoblin dall'espressione spaventosamente cattiva e stupida; i suoi
+muscoli gonfiano l'abbigliamento in maniera esagerata, distorcendo ed annullando
+il fine lavoro di cucitura e pregiata sartoria che si nasconde dietro i suoi
+vestiti..
+~
+3 4194856 -500 C
+18 9 2 5d20+150 2d7+1
+500 6000
+6 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16385 16385 2
+0 0 1775 0 0 0 1073741888 524291
+#1520
+minatore hobgoblin~
+un minatore hobgoblin~
+Un minatore hobgoblin sta cercando dell'oro.
+~
+E' tutto sudato, stanco morto di sacvare in cerca d'oro, ma insiste
+e persiste, convinto d'essere sempre a poca distanza da un filone
+aurifero che lo renderà ricchissimo!
+~
+5 0 -400 C
+5 16 5 1d12+60 1d8+0
+700 500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16384 1
+0 0 1773 0 0 0 64 2
+> rand_prog 5~
+  grumble
+~
+> rand_prog 2~
+  curse
+~
+|
+#1521
+tesoriere hobgoblin tt~
+il tesoriere~
+Un tesoriere è qui a far tintinnare le monete nelle mani.
+~
+Il tesoriere è un hobgoblin vecchio con la faccia arcigna; gli occhialini calcati
+sul naso, il viso schiacciato contro le monete denotano una vita trascorsa 
+dietro i soldi. Solleva la testa appena sente un rumore strano ma è chiaro che
+la vita nelle caverne l'ha reso terribilmente miope.
+~
+7 4194856 -200 C
+13 11 2 3d15+115 2d6+1
+5000 2500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 1 1 0
+0 0 1775 0 0 0 2359296 2
+#1522
+prigioniero gnomo~
+uno gnomo prigioniero~
+Uno gnomo prigioniero è steso mezzo morto sulla paglia.
+~
+Gli aguzzini di questo povero gnomo lo hanno torturato fino a un passo dalla
+morte e l'hanno poi scaraventato in questo posso orribile e puzzolente.
+Lo gnometto respira a fatica e resta immobile: tutte le energie che ancora 
+possiede sono volte alla sopravvivenza.
+~
+7 4194856 1000 C
+6 17 8 5d3+50 2d3+1
+0 50
+5 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 0 0 0 0 0
+> rand_prog 2~
+  sulk
+~
+|
+#1523
+prigioniero umano~
+un prigioniero umano~
+Vedi un uomo svenuto su un cumulo di paglia.
+~
+Sembrerebbe svenuto o addirittura morto, ma l'impercettibile movimento delle
+pagliuzze accanto al suo naso, tradisce un alito di vita che non vuol saperne
+di lasciare questo corpo.
+~
+7 0 100 C
+5 17 8 3d5+35 2d3+1
+0 50
+5 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 0 0
+> rand_prog 3~
+  groan
+~
+|
+#1524
+uomo vecchio eremita~
+l'eremita~
+Un anziano è qui, borbottando frasi non udibili..
+~
+E' molto, molto anziano e sembra davvero contento di poter vivere in solitudine.
+La sua dimora sotterranea è amorevolmente custodita e curata, specie le 
+suppellettili che, conservate gelosamente, paiono aver attraversato intatte i 
+lunghi millenni della storia.
+~
+5 0 -10 C
+12 16 5 5d10+120 1d8+0
+2500 600
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 263205 0 0 0 2 2
+#1526
+cuoca hobgoblin~
+il cuoca~
+Il cuoca hobgoblin sta assaggiando alcuni funghi.
+~
+E' una signora di gentile aspetto, dai gusti raffinati e i modi impeccabili 
+degni della più irriverente caricatura. Rimesta il cibo nelle pentole con
+la grazia di un troll, spargendo a terra ondate di minestra verdognola; tossisce
+e sputa per ogni dove, poco le importa se molta della saliva finisce nei piatti 
+che andranno in mensa a breve..
+Il linguaggio di questa creatura è davvero semplice da intuire.. Di quando in quando
+assaggia le pietanze che prepara: se lunghe eruttazioni accompagnano la deglutizione
+allora il cibo è buono e pronto ma se invece seguono forti venti dal basso, è segno
+che lo stomaco della cuoca non ha gradito il piatto.
+E' il caso di controllare il tuo zaino.. E sperare d'aver con te un panino elfico.
+~
+3 4194856 -500 C
+15 14 4 150d1+1 1d7+1
+26 900
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 16384 16385 0
+0 0 1775 0 0 0 32 2
+> rand_prog 4~
+  burp
+~
+> rand_prog 2~
+  fart
+~
+|
+#1527
+guardia gnomica~
+una guardia~
+Una guardia bella robusta sta sorvegliando il sentiero a nord.
+~
+E' ben salda sui piedini di gnomo, le braccia sono corte ma pasciute di 
+muscoli, lo sguardo severo ed impassibile di chi non lascia trapelare
+alcun sentimento.
+~
+3 0 500 C
+13 13 3 2d6+120 3d3+2
+1500 2000
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 1 1 1
+0 0 1775 0 0 0 64 524290
+> death_prog 100~
+  if level($n) == 50
+    mpecho L'attacco è così devastante che distrugge tutto l'equipaggiamento della guardia!
+    mpjunk all.fizz
+  endif
+~
+|
+#1529
+canarino cc~
+un canarino~
+Un canarino giallo riposa sulla sbarretta.
+~
+E' un bel canarino giallo pieno di piumette morbide, cinguetta svagandosi un po'.
+Dall'aspetto si direbbe che il suo padrone gli sia molto affezionato e che tenga
+molto a lui.
+~
+3 0 0 C
+5 0 0 1d1+40 1d1+2
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 1 1 0
+0 0 0 0 0 0 0 2
+#1530
+gnoma donna locandiera~
+la locandiera~
+Vedi una gnoma qui, intenta a riempir delle carte.
+~
+Interrompe il suo lavoro per un istante, giusto il tempo di lanciarti un'occhiata
+e subito si tuffa nuovamente fra le scartoffie che sta scribacchiando.
+E' una delle gnome più anziane nei dintorni, forse è la moglie del capo.
+~
+3 4194856 500 C
+13 14 4 3d13+130 1d13+0
+1000 1300
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400641 400641 1
+0 0 1775 2 0 0 64 2
+> rand_prog 4~
+  say Scrivi e scrivi e scrivi! Possibile si debba prender nota di tutto?
+  mpecho Un vago rumore di pergamene accartocciate riempie la sala.
+~
+> rand_prog 8~
+  grumble
+  say Non riuscirò mai a finire questo lavoro, uffa!
+~
+|
+#1531
+gnomo assistente~
+un assistente~
+Uno degli assistenti sta qui a giocherellare con le provette.
+~
+E' uno gnomo che sa il fatto suo, nonostante sia un assistente è ben 
+preparato ed attende solo il momento per farsi notare.. Nel frattempo
+si trastulla con le fiale del laboratorio..
+~
+1 0 500 C
+10 13 3 5d5+90 1d7+2
+100 2000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400641 400641 1
+0 0 1775 2 0 1 64 2
+> rand_prog 4~
+  whistle
+~
+> rand_prog 3~
+  smile
+~
+|
+#1532
+gnomo scienziato~
+uno gnomo scienziato~
+Uno gnomo gironzola nei paraggi parlottando fra sé.
+~
+E' profondamente concentrato e non s'accorge nemmeno della tua presenza.
+Borbotta frasi senza senso, miste ad altre con un vago senso, ma il risultato
+è comunque una bella confusione.
+Mentre cammina si arruffa i capelli, forse sono troppo pettinati..
+~
+1 4194856 500 C
+12 14 4 5d10+100 1d8+3
+1000 1300
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400641 400641 1
+0 0 1775 0 0 0 64 2
+> rand_prog 3~
+  emote si passa una mano nei capelli, grattandosi il capo.
+  snap
+  say Ecco! Così dovrebbe funzionare.
+~
+|
+#1533
+bimbo gnomo gnometto~
+un bimbo~
+Uno gnometto piccino sta giocando con un boomerang.
+~
+E' una piccola ed innocente creaturina, non vuoi fermarti a giocare un po'
+con lui?
+~
+5 4194856 600 C
+8 18 7 3d7+80 1d6+2
+300 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400945 400945 1
+0 0 1709 0 0 9 64 2
+#1534
+donna gnoma insegnante~
+un'insegnante~
+Una gnoma è intenta ad impartir lezioni ai piccini.
+~
+E' un'anziana gnoma dal volto sorridente e i capelli grigi raccolti sulla testa.
+Alla lavagna sono disegnate parabole di proiettili, carrellini su piani inclinati,
+oscillatori armonici.. Pare che questa sia la lezione di fisica.
+~
+3 4194856 600 C
+10 16 5 5d10+100 1d8+0
+500 700
+8 8 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400945 400945 1
+0 0 1775 2 0 0 64 2
+> rand_prog 3~
+  snap
+~
+> rand_prog 2~
+  say Essere piccoli significa solo aver più tempo per imparare!
+~
+|
+#1535
+insegnante uomo gnomo~
+un insegnante~
+L'insegnante richiama l'attenzione dei suoi scolari.
+~
+Sembra un tipo sanguigno, è piccolo e debole ma il suo sguardo sprizza grande 
+vivacità ed anche le parole, ben pesate, denotano acutezza d'animo e spirito.
+~
+1073741827 4194856 500 C
+6 15 4 1d12+100 1d8+1
+450 900
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400945 400945 0
+0 0 0 2 0 0 64 2
+> rand_prog 5~
+  emote indica alcuni oggetti sul tavolo.
+  say Inventare è lo scopo primario della nostra esistenza.
+  say Morire per la scienza è un onore che spetta solo a pochi.
+~
+|
+#1536
+bimbo gnomo bambino~
+un bimbo~
+Un bimbo è qui, sta giocando con il suo boomerang.
+~
+E' piccino e paffutello, ma anche pericoloso.. Maneggia il boomerang
+come si trattasse di un fruttino e probabilmente se non farà del male a
+se stesso prima o poi toccherà a chi gli è intorno.
+~
+5 4194856 600 C
+8 18 7 3d7+80 1d6+2
+300 400
+8 8 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 401009 401009 1
+0 0 1709 0 0 9 64 2
+> rand_prog 5~
+  giggle
+~
+> rand_prog 2~
+  wink $r
+~
+|
+#1537
+bimbo gnomo gnometto~
+un piccolo gnometto~
+Uno gnometto sta giocando con i sassi.
+~
+E' un bimbo, piccolo e paffutello, che gioca contento con i sassi che trova per strada.
+Ha proprio l'aria innocente dei bambini, ma un bimbo con dei sassi in mano non si sa mai
+che intenzioni abbia..
+~
+1 0 500 C
+6 0 0 2d6+60 1d4+2
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 401009 401009 0
+0 0 1775 0 0 1 64 2
+> rand_prog 5~
+  smile $r
+~
+> rand_prog 2~
+  hop
+~
+|
+#1538
+donna gnoma~
+una gnoma~
+Una bella gnoma si sta pettinando i capelli con cura.
+~
+La lunga chioma rossa è curata con molto amore; la gnoma si pettina amorevolmente
+i capelli fluenti legandoli con nastri colorati e fermagli con piccole perline dorate.
+Nel complesso, è una bella creatura nonostante la scarsa altezza.
+~
+1 0 600 C
+10 16 5 5d10+100 1d8+0
+500 700
+8 8 2
+18 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 401009 401009 1
+0 0 1775 2 0 0 64 2
+#1539
+ombra oscurità~
+una piccola ombra~
+Un'ombra scivola alle tue spalle e si confonde con l'oscurità.
+~
+Alcune leggende narrano l'esistenza di piccole ombre che popolano il buio e
+che scrutano le creature viventi dai loro rifugi oscuri.
+Questa in particolare, sembra una giovane ombra, piccola all'inizio ma pare
+si stia estendendo tutt'intorno, sovrastandoti...
+~
+3 4194856 0 C
+15 0 0 2d30+150 2d7+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+56 3 0 0 1 1 0
+0 0 0 0 0 0 2048 2
+> death_prog 100~
+  say Grazie $n, mi hai liberato da quest'oscura prigione.
+  mpecho L'ombra diventa via via più chiara fino a sparire del tutto.
+  mpgoto 199
+~
+> rand_prog 3~
+  mpecho Un brivido gelido ti corre lungo la spina dorsale.
+  say Un giorno questa sala non basterà a contenere tutta la mia oscurità.
+~
+|
+#1545
+troll large bridge bridgetrolla~
+a large troll~
+A large troll stands here, guarding the bridge.
+~
+The small troll is a short and stocky beast with a human-like face
+but with the eyes and fangs of a wild beast.
+~
+7 4194856 -900 C
+20 12 3 1d50+350 5d3+4
+200 2000
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+19 3 0 0 1 1 0
+0 0 1312495 0 3072 0 2 2
+> all_greet_prog 100~
+  say a $n Dove va tu? EH? EH?
+  say a $n Nessuno passa se non pagare moneta!
+  say a $n 500 monete se tu vuole passare o fuori dai piedi!
+  mpechoat $n Il troll ti spinge da una parte.
+~
+> fight_prog 100~
+  if ismob($n)
+    mpechoaround $n Il troll solleva la sua arma e l'abbatte pesantemente su $n.
+    mpdamage $n 30000
+  endif
+~
+> bribe_prog 500~
+  if isfight($n)
+    say IO NO STUPIDO! TU ORA MUORE!
+  else
+    smile $n
+    say a $n Tu saggi$x che non sfida ME o io mangiava tuo cervello!
+    mpecho La foschia si dirada svelando una parte del ponte.
+    mpechoaround $n $n va oltre il ponte verso ovest.
+    mpechoat $n Il troll si sposta e mi ritrovo sul sentiero ad ovest, verso il ponte.
+    mpechoat $n La nebbia s'addensa intorno a me, oscurando il ponte.
+    mpechoaround $n La foschia s'addensa intorno a $n, oscurando nuovamente il ponte.
+    mptransfer $n 1547
+    put coins basket
+  endif
+~
+> death_prog 100~
+  mpecho Il troll cade a terra sputando fiotti di sangue..
+  say ..Coff.. arrr..non è la fine.. questa.. IO VINCE!
+  mpecho Con un ultimo tremito, il troll spira.
+  mpoload 1546 1
+~
+|
+#1546
+troll ~
+un grosso troll~
+Un grosso e brutto troll è qui a guardia del ponte.
+~
+Non si poteva sceglier di meglio per controllare il passo sul ponte..
+Questo troll è bello grosso, puzzolente al punto giusto e determinato
+a riscuotere il dazio per il passaggio.
+~
+7 4194856 -900 C
+20 12 3 1d50+350 5d3+4
+200 2000
+8 8 1
+16 13 13 13 13 13 13
+0 0 0 0 0
+19 3 0 0 1 1 0
+0 0 1312495 0 3072 0 2 2
+> all_greet_prog 100~
+  say a $n Dove va tu? EH? EH?
+  say a $n Nessuno passa se non pagare moneta!
+  say a $n 500 monete se tu vuole passare o fuori dai piedi!
+  mpechoat $n Il troll ti spinge da una parte.
+~
+> fight_prog 100~
+  if ismob($n)
+    mpechoaround $n Il troll solleva la sua arma e l'abbatte pesantemente su $n.
+    mpdamage $n 30000
+  endif
+~
+> bribe_prog 500~
+  if isfight($n)
+    say IO NO STUPIDO! TU ORA MUORE!
+  else
+    smile $n
+    say a $n Tu saggi$x che non sfida ME o io mangiava tuo cervello!
+    mpecho La foschia si dirada svelando una parte del ponte.
+    mpechoaround $n $n va oltre il ponte verso ovest.
+    mpechoat $n Il troll si sposta e mi ritrovo sul sentiero ad ovest, verso il ponte.
+    mpechoat $n La nebbia s'addensa intorno a me, oscurando il ponte.
+    mpechoaround $n La foschia s'addensa intorno a $n, oscurando nuovamente il ponte.
+    mptransfer $n 1546
+    put coins basket
+  endif
+~
+> death_prog 100~
+  mpecho Il troll cade a terra sputando fiotti di sangue..
+  say ..Coff.. arrr..non è la fine.. questa.. IO VINCE!
+  mpecho Con un ultimo tremito, il troll spira.
+  mpoload 1547 1
+~
+|
+#1547
+serpente cornuto~
+un serpente cornuto~
+Un serpente sta strisciando qui, in cerca di cricetini o topi da mangiare.
+~
+E' un bel serpente di due metri, nero con un'ipnotica linea a zigzag per
+tutta la lunghezza del corpo. Due piccoli cornini adornano la testa dell'animale.
+Ti guarda mentre ti muovi, studiando ogni tuo passo.
+~
+1 4194856 -400 C
+6 0 25 2d5+55 1d4+2
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+62 3 0 0 1 1 0
+0 0 66561 0 0 0 64 2
+> fight_prog 33~
+  mpechoat $n Il serpende scatta e ti morde a tradimento! Ahia!
+  mpechoaround $n Il serpente si rivolta e morde $n procurandogli non poco dolore.
+  mpdamage $n 3
+~
+|
+#1548
+guardia hobgoblin~
+una guardia hobgoblin~
+Una grossa guardia sta controllando il passaggio.
+~
+Occupa gran parte del passaggio, questa guardia. E' grossa e tozza, le mani sembrano
+due pale di mulino e dà l'impressione d'essere proprio ottusa.
+~
+35 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 399855 399854 0
+0 0 1775 0 0 0 0 524290
+> rand_prog 2~
+  burp
+~
+> rand_prog 1~
+  munch
+~
+|
+#1549
+guardia hobgoblin~
+una guardia hobgoblin~
+Una massiccia guardia sta facendo il suo turno di ronda.
+~
+E' grossa e dall'espressione stupida e cattiva, è proprio il tipo di soldato
+che prima ti uccide poi ti chiede cosa volevi.
+~
+33 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 400031 400030 1
+0 0 1775 0 0 0 64 2
+#1550
+saldatore stagnino hobgoblin~
+uno stagnino~
+Un hobgoblin è qui intento a saldare alcuni pezzi di metallo.
+~
+L'hobgoblin è così concentrato sul suo lavoro che a malapena s'accorge della
+tua presenza. La costruzione che sta saldando lo stagnino è ben lungi dalla
+complessità delle invenzioni gnomiche.
+Questo hobgoblin sembra molto più sveglio di tutti gli altri e l'ebete
+espressione del suo viso rende bene la drammatica stupidità della razza..
+~
+3 4194856 -700 C
+12 14 4 5d10+100 1d8+3
+1000 1300
+8 8 1
+18 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 400031 400030 1
+0 0 1775 0 0 0 64 2
+> rand_prog 5~
+  fart
+  mpecho Lo stagnino si gratta una ferita sulla nuca.
+  mpecho Poi si guarda le dita vagamente insanguinate e le pulisce con una sonora leccata.
+~
+|
+#1551
+minatore hobgoblin~
+un minatore hobgoblin~
+Un minatore hobgoblin fa le carezzine alla caverna con il suo piccone.
+~
+E' molto stanco il minatore o forse non ha più voglia di lavorare, fatto sta
+che il suo piccone, contro la nuda roccia, produce un armonioso *ping* che tutto
+indica tranne alacre lavoro di miniera.
+~
+7 0 -400 C
+5 16 5 1d12+60 1d8+0
+700 500
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 400031 400030 1
+0 0 1773 0 0 0 64 2
+#1552
+guardia hobgoblin~
+una guardia hobgoblin~
+La guardia hobgoblin, prima attacca, poi controlla..
+~
+E' un bestione di hobgoblin, brutto come un debito, cattivo come solo gli
+hobgoblin cattivi sanno essere. Ti guarda e sogghigna pensando ad un modo per
+cucinare la tua testa.
+~
+3 4194856 -700 C
+10 15 4 2d15+100 1d8+1
+75 1000
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+43 3 0 0 400031 400030 1
+0 0 1775 0 0 0 64 524290
+#1566
+gnometto bimbo bambino~
+un bimbo~
+Uno gnometto piccolo e paffuto è assorto nei propri pensieri.
+~
+E' un bimbo, piccino e rotondetto, dai grandi occhioni scuri. Sta giocando
+da solo o forse con qualche amico invisibile, fa un sacco di versi imitando
+tutti i suoni del villaggio e gli animali del bosco.
+~
+3 4194856 600 C
+7 18 7 3d7+70 2d4+0
+300 400
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+38 3 0 0 400641 400641 1
+0 0 1709 0 0 9 64 2
+> rand_prog 3~
+  nod insegnante
+~
+|
+#0
+
+#OBJECTS
+#1500
+chiave sangue~
+una chiave insanguinata~
+Una chiave insanguinata sta sporcando il suolo..~
+~
+18 0 1 0
+2 0 0 0
+1 1000 100
+#1501
+chiave sporca~
+una chiave sporca~
+Una chiave sporca è qui per terra.~
+~
+18 0 1 0
+2 0 0 0
+1 1050 105
+#1502
+boomerang~
+un boomerang~
+Un boomerang giocattolo è in attesa di qualcuno con cui giocare.~
+~
+5 262144 8193 0
+0 2 4 7
+5 5 0
+#1503
+bastone nodoso~
+un bastone nodoso~
+Un bastone nodoso è stato poggiato qui.~
+~
+5 0 8193 0
+0 1 9 7
+15 600 60
+#1504
+spada gnomica~
+una spada gnomica~
+Una spada gnomica riluce nella penombra.~
+~
+5 0 8193 0
+0 3 3 3
+15 4000 400
+E
+spada gnomica~
+Non è una spada adatta a sopportare grandi battaglie, ma in piccolo fa
+bene il suo mestiere.
+~
+#1505
+scudo borchiato~
+uno scudo borchiato~
+Uno scudo di legno è stato dimenticato qui.~
+~
+9 0 513 0
+4 0 0 0
+16 3000 300
+#1506
+pozione provetta sangue~
+una pozione sanguinolenta~
+Una provetta rossastra giace al suolo dimenticata.~
+~
+10 0 1 0
+15 15 15 39
+22 1500 150
+#1507
+mantello sangue~
+un mantello insanguinato~
+Nascosto nella penombra, vedi un mantello chiazzato di sangue.~
+~
+9 64 5 0
+4 0 0 0
+15 2000 200
+A
+17 -5
+A
+13 5
+A
+25 -1
+#1508
+anello pipistrello pipistro~
+l'anello del pipistrello~
+Un anello dalla forma insolita è qui per terra.~
+~
+9 64 3 0
+3 0 0 0
+2 2500 250
+A
+14 15
+#1509
+collier perle~
+un collier di perle~
+Un filo di perle è qui per terra.~
+~
+9 0 5 0
+3 0 0 0
+8 4000 400
+A
+18 2
+#1510
+spada ambra~
+una spada d'ambra~
+Una strana spada è qui per terra.~
+~
+5 65 8193 0
+0 4 3 3
+20 100000 10000
+#1511
+cesto vimini~
+un cesto di vimini~
+Un cesto di vimini è qui in attesa d'essere riempito.~
+~
+15 0 16385 0
+150 0 -1 0
+5 45 4
+#1512
+noccioline~
+alcune noccioline~
+Una manciata di noccioline sta qui, hai fame?~
+~
+19 262144 1 0
+16 0 0 0
+9 25 2
+#1513
+cereali grano~
+una manciata di grano~
+Vedi per terra del grano sparso.~
+~
+19 0 1 0
+15 0 0 0
+8 22 2
+#1514
+barca~
+una barchetta a remi~
+Una piccola barca a remi è qui in attesa d'essere utilizzata.~
+~
+22 0 1 0
+0 0 0 0
+24 1500 150
+#1515
+stivali gnomici~
+un paio di stivali da gnomo~
+Vedi per terra dei piccoli stivali, sono stivali da gnomo.~
+~
+9 0 65 0
+4 0 0 0
+12 12000 1200
+A
+14 40
+#1516
+monete monetine~
+una pila di monete~
+Se non dai troppo nell'occhio puoi anche prendere tutte queste monetine..~
+~
+20 0 1 0
+1000 0 0 0
+1 1 0
+#1517
+monete monetine~
+una pila di monete~
+Se non dai troppo nell'occhio puoi anche prendere tutte queste monetine..~
+~
+20 0 1 0
+5000 0 0 0
+1 1 0
+#1518
+monete monetine~
+una pila di monete~
+Se non dai troppo nell'occhio puoi anche prendere tutte queste monetine..~
+~
+20 0 1 0
+100000 0 0 0
+1 1 0
+#1519
+scudo pietra lastra~
+uno scudo di pietra~
+Vedi per terra una grossa lastra di pietra.~
+~
+9 0 513 0
+4 0 0 0
+35 9000 900
+A
+1 2
+#1520
+maglia pesante metallo~
+una pesante maglia di ferro~
+Una pesante maglia di ferro è qui per terra.~
+~
+9 0 9 0
+6 0 0 0
+30 35000 3500
+#1521
+mazza grossa clava~
+una pesante mazza~
+Una pesante clava sta qui pronta all'uso.~
+~
+5 0 8193 0
+0 4 3 7
+22 20000 2000
+#1522
+banana~
+una banana~
+Toh, una banana.~
+~
+19 0 1 0
+6 0 0 0
+5 9 0
+#1523
+pozione vita chiara~
+una pozione di cura~
+Qualcuno ha lasciato qui una pozione chiara.. A cosa servirà?~
+~
+10 129 1 0
+32 28 3 81
+1 1 0
+#1524
+leva~
+una leva in un oggetto~
+Una piccola leva è inserita in un oggetto nel muro.~
+~
+37 33554432 0 0
+0 0 0 0
+1 0 0
+E
+leva~
+E' una piccola leva fatta di un metallo rosso e lucente. Liscia al tatto, ti
+pare di non aver mai visto un materiale simile.
+~
+> use_prog 100~
+  mpecho Appena la leva si muove, una strana voce riempie la stanza..
+  mpecho "Lavorato fino a tardi capo? Dovrai prenderti un po' di riposo prima o poi.
+  mpecho Ti risparmio la camminata per l'ennesima volta, ma in futuro torna a casa prima."
+  mpechoat $n D'un tratto il tuo corpo perde di forma e consistenza.. Che succede??
+  mpecho Una strana foschia avvolge la stanza..
+  mpechoat $n Ogni cosa sparisce dalla vista per poi ricrearsi in maniera del tutto nuova.
+  mpechoaround $n $n sparisce in una fitta coltre di nebbia.
+  mpechoaround $n Quando la foschia si dirada, di $n rimane solo il ricordo..
+  mptransfer $n 1534
+  mppurge lever
+  mpoload 1524
+~
+|
+#1525
+oggetto~
+un oggetto~
+Un largo oggetto sta qui, buono buono.~
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+E
+oggetto~
+Assomiglia ad uno scrigno intarsiato e trafitto da tubi cilindrici inseriti
+a varie angolazioni; quest'oggetto così quietamente vibrante è davvero
+insolito. Una piccola porticina sul pannello frontale sembra chiedere un esame
+più approfondito.. Vuoi darle un'occhiata?
+~
+E
+porta porticina~
+Piccoli ingranaggi, rotelle e molle abbondano in questo strano oggetto.
+Un continuo rumore di sottofondo, simile al rollio delle onde dell'oceano,
+accompagna la tua esplorazione nell'oggetto.. Mentre curiosi nell'oggetto, le
+tue dita incontrano qualcosa di insolito e non riesci a capirne subito la forma.
+Forse devi insistere un pochino per capire di cosa si tratti..
+~
+#1526
+scatola box~
+una scatola~
+Una pesante scatola è ferma al suolo.~
+~
+15 0 0 0
+1 5 0 0
+1 0 0
+E
+scatola~
+E' una larga e solida scatola di acciaio temprato; ad un esame più attento
+risulta priva di segni particolari; se non fosse per la maniglia sarebbe
+impossibile trovare il coperchio di questo contenitore.
+E' stata studiata per proteggere oggetti di valore o forse per proteggere
+altri da oggetti pericolosi contenuti al suo interno?
+~
+#1527
+pacchetto pacco~
+uno strano pacco lucente~
+Uno strano pacco è qui, protetto da un contenitore più grande.~
+~
+13 0 1 0
+0 0 0 0
+1 0 0
+E
+pacchetto pacco~
+E' fatto di un materiale lucente sconosciuto, tinto in toni scuri e sigillato
+ermeticamente. L'artigiano che l'ha costruito ha impiegato molta cura
+nella realizzazione di questo pacco.. Dev'essere proprio prezioso.
+~
+> get_prog 100~
+  mpechoat $n Un intenso calore ti attraversa le mani risalendo le braccia!
+  mpechoat $n Una forte esplosione ti spinge indietro facendomi cadere.
+  mpechoaround $n $n è spint$x indietro da una forte esplosione!
+  mpdamage $n 30
+  mpechoat $n La prudenza ti fa posare il pacco, prima che esploda nuovamente..
+  mpechoaround $n $n rimette a posto il pacco, con molta cautela..
+  mpforce $n put pacchetto box
+  mpforce $n close box
+~
+|
+#1528
+spaccatura breccia apertura~
+una breccia nel muro~
+Nel muro davanti a te c'è una breccia..~
+~
+15 33554432 0 0
+10 0 0 0
+1 0 0
+E
+breccia spaccatura~
+Dopo un'attenta ricerca, scopri una piccola apertura nel muro a nord.
+Sembra causata da accidenti naturali, ma è certo che in molti l'hanno
+utilizzata per i propri scopi, leciti o meno..
+~
+#1529
+penna nera luce~
+una piccola penna d'oca~
+Una piccola penna d'oca è adagiata al suolo.~
+~
+1 1025 16385 0
+0 0 7200 0
+1 0 0
+E
+penna oca~
+E' una lunga penna d'oca, scolpita via da un blocco di materiale nero e 
+stranamente senza piume. La cima della penna non è a punta come al solito
+ma termina in una sorta di tubicino ripiegato.
+La penna sembra essere asciutta e nuova nuova.
+~
+A
+3 1
+A
+14 30
+A
+27 256
+> get_prog 100~
+  mpechoat $n Appena tocchi la penna, da essa si sprigiona un lampo di luce.
+  mpechoaround $n Un lampo di luce si sprigiona dalla penna appena $n la sfiora.
+~
+> use_prog 100~
+  mpechoat $n Come prendo la penna in mano, un dolore ti trapassa le dita!
+  mpechoaround $n $n sobbalza improvvisamente quando la penna trapassa la sua mano.
+  mpechoat $n Un fiotto di sangue sgorga dalla tua mano fin dentro la diabolica penna.
+  mpechoat $n La penna riluce di vivido rosso, sazia del tuo sangue.
+  mpechoaround $n Una livida luce rossa brilla dall'interno della penna.. Essa è sazia, ora.
+  mpdamage $n 10
+~
+|
+#1530
+statua placca granito~
+una placca granitica~
+Sei di fronte ad uno gnomo davvero grosso, peccato sia di granito.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+granito~
+Guardando il blocco di granito, noti subito una bella placca in bronzo
+su cui sono incisi diversi nomi.
+~
+E
+placca~
+La placca di bronzo è posta a qualche metro da terra, in modo che si possa
+vedere bene anche da lontano. Un titoletto in cima alla placca recita così:
+                      "Ai nostri eroi caduti"
+Accanto ad ogni nome è riportata la professione e scopri che curiosamente
+si tratta di soli scienziati, probabilmente morti durante gli esperimenti.
+A quanto pare, l'onore più grande per uno gnomo è morire giovane nel 
+tentativo di scoprire o inventare qualcosa di importante e meraviglioso..
+~
+E
+pietra gnomo~
+Guardando lo gnomo di granito, noti subito una bella placca in bronzo
+su cui sono incisi diversi nomi.
+~
+E
+statua~
+Guardando la statua di granito, noti subito una bella placca in bronzo
+su cui sono incisi diversi nomi.
+~
+#1531
+quercia scaffali scaffale~
+un alto scaffale di quercia~
+Un grosso scaffale di quercia è qui in bella mostra.~
+~
+15 0 0 0
+20 0 0 0
+1 0 0
+E
+scaffale scaffali~
+Pezzi di prima qualità per questo scaffale, il duro legno di quercia sopporterà
+nel tempo l'uso e l'abuso. Quasi orgogliosamente questo scaffale tiene in mostra
+dei ninnoli pregiati o forse soltanto un ricordo affettuoso di qualcuno che si è
+amato. Ai lati dello scaffale, lunghi intarsi corrono fino al pavimento abbellendo
+ciò che già di per sé era una meraviglia.
+~
+#1532
+pergamena foglio rovinata patinata~
+una pergamena rovinata~
+Una vecchia pergamena rovinata è qui per terra.~
+~
+2 0 1 0
+25 59 3 34
+1 0 0
+E
+pergamena~
+Deve avere la sua bella età questa pergamena; una patina di polvere la ricopre ma
+si scorgono chiaramente delle scritte in caratteri arcaici di cui non è semplice
+comprendere il senso. Con un po' di sforzo alcuni ricordi affiorano alla mente e
+riesci a leggere:
+Leggimi e ricevi ciò che gli Dei vogliono donarti..
+~
+> get_prog 100~
+  mpechoat $n Una voce spettrale risuona nella tua mente..
+  mpechoat $n "Se deciderai di tenermi fa' attenzione a quanto dico:
+  mpechoat $n Usa le mie parole soltanto per te e non per altri.
+  mpechoat $n Attieniti a ciò se non vuoi risvegliare le ire degli Immortali..
+~
+|
+#1533
+fungo funghi~
+uno strano fungo~
+Un boschetto di funghi pulsa di vita propria..~
+$n si gratta il naso dopo aver annusato un pezzo di fungo.~
+19 0 1 0
+5 0 0 0
+3 0 0
+> sac_prog 75~
+  mpecho Un tappeto di muffe rimane dove prima c'erano i funghi.
+  mpecho Lentamente le muffe si trasformano in una sorta di losanga.
+  mpoload 1534
+  mpat $n drop losanga
+~
+|
+#1534
+losanga~
+una losanga~
+Una viscida losanga è qui per terra.~
+$n fa dei versi strani dopo aver assaggiato un pezzo di losanga.~
+26 0 1 0
+20 77 205 208
+5 550 55
+#1535
+spada spadacapo~
+la spada del capo~
+Una grande spada è poggiata al suolo.~
+~
+5 65 8193 0
+0 4 3 3
+20 100000 10000
+A
+12 25
+A
+13 15
+A
+18 3
+#1536
+occhiali~
+un paio di occhiali~
+Un paio d'occhiali con lenti spesse è qui per terra.~
+~
+9 524353 131073 0
+6 9 0 0
+4 0 0
+A
+4 1
+A
+3 2
+#1537
+fiala fialetta liquido~
+una fiala fosforescente~
+Una fiala piena di uno strano liquido luminescente è qui per terra.~
+~
+10 65 1 0
+20 3 15 81
+1 0 0
+#1538
+camice camici~
+un camice da laboratorio grigio topo~
+Ammassati da una parte vedi dei camici da laboratorio.~
+~
+9 0 1025 0
+2 4 0 0
+3 1200 120
+A
+2 1
+A
+3 1
+#1539
+pietra roccia piatta~
+una pietra tonda e piatta~
+Una strana pietra tonda è qui per terra.~
+~
+3 65 16385 0
+15 1 1 66
+5 300 30
+#1540
+grembiule flanella~
+un grembiule di flanella~
+Vedi alcuni grembiuli di flanella tutti macchiati.~
+~
+9 0 2049 0
+1 3 0 0
+3 0 0
+E
+grembiule~
+Non è proprio un bel grembiule, è un po' verde e un po' blu ricoperto
+da macchie di inimmaginabili nature. Ma almeno tiene caldo.
+~
+A
+1 1
+#1541
+fazzolettino cotone~
+un fazzolettino di morbido cotone~
+Un fazzolettino di morbido cotone è qui per terra.~
+~
+9 0 17 0
+2 2 0 0
+1 100 10
+E
+cotone fazzoletto fazzolettino~
+E' un bel fazzolettino di cotone, con bordini blu e verdi.
+~
+A
+25 1
+#1542
+fialetta fiala fizz~
+una fialetta di liquido frizzante~
+Una fiala con del liquido frizzante è qui per terra.~
+~
+10 0 1 0
+15 15 15 39
+22 1500 150
+#1543
+mantello cotone~
+un mantello sbrindellato~
+Un mantello di brandelli è qui per terra.~
+~
+9 64 5 0
+4 0 0 0
+15 2000 200
+A
+17 -5
+A
+13 5
+A
+25 -1
+#1544
+pelliccia~
+un collage di pelli~
+Alcuni quadrati di pelli e pellicce sono qui per terra.~
+~
+9 8421969 1025 0
+2 4 0 0
+8 15000 1500
+E
+pelliccia abito~
+Questa strana accozzaglia di pelli ti potrà essere utile prima o poi, a meno che
+tu non sia un vampiro o un ladro.. L'odore delle pelli renderebbe matto anche il
+più temerario vampiro e la discrezione dell'abito farebbe scoprire anche l'uomo
+invisibile.
+~
+A
+13 10
+A
+12 10
+A
+18 1
+A
+19 1
+#1545
+scettro~
+uno scettro intarsiato~
+Un grosso scettro pesante è qui per terra.~
+~
+5 0 8193 0
+12 5 8 7
+46 10 0
+E
+scettro~
+Questo scettro sembra una grossa clava ricoperta di pietre preziose e cristalli.
+Osservando bene le pietre noti che esse sono molto affilate e quindi anche 
+pericolose..
+~
+A
+19 3
+A
+18 3
+A
+2 1
+#1546
+disco~
+un disco dorato~
+Un disco dorato è poggiato qui al suolo.~
+~
+13 0 1 0
+0 0 0 0
+1 500 50
+E
+disco~
+E' un unico pezzo d'oro, modellato a forma di disco. Alcuni simboli simili
+a rune sono incisi sulla superficie del disco, fissandoli per qualche istante
+pare quasi di vederli muovere in un'ipnotica danza di lettere.
+~
+> get_prog 100~
+  if inroom($n) == 1546
+    if ispg($n)
+      mpforce $n look disco
+      mpechoat $n Una voce profonda risuona nelle tue orecchie..
+      mpechoat $n "Hai sconfitto il mio padrone guadagnandoti il ritorno a casa
+      mpechoat $n Non essere imprudente però, Egli non è sconfitto per sempre.
+      mpechoat $n Quando tornerai la prossima volta, lo troverai qui ad attenderti di nuovo."
+      mpecho La foschia si dirada rivelando la parte nascosta del ponte.
+      mpechoat $n Una strana forza ti spinge oltre il ponte.
+      mpechoaround $n Una mano invisibile ti spinge oltre il ponte.
+      mpecho Cala nuovamente la nebbia e il ponte sparisce una volta ancora.
+      mpechoat $n Il disco si surriscalda fino a diventare incandescente.. Ahi! Lo lasci cadere.
+      mptransfer all 1547
+      mpat 1547 mpforce $n drop disco
+      mpecho Il disco si sbriciola e finisce il polvere al suolo.
+      mpat 1547 mppurge disco
+    else
+      mpforce $n drop disco
+      mpecho Il disco si sbriciola e finisce il polvere al suolo.
+      mppurge disco
+    endif
+  endif
+~
+|
+#1547
+disco~
+un disco dorato~
+Un disco dorato è poggiato qui al suolo.~
+~
+13 0 1 0
+0 0 0 0
+1 500 50
+E
+disco~
+E' un unico pezzo d'oro, modellato a forma di disco. Alcuni simboli simili
+a rune sono incisi sulla superficie del disco, fissandoli per qualche istante
+pare quasi di vederli muovere in un'ipnotica danza di lettere.
+~
+> get_prog 100~
+  if inroom($n) == 1547
+    if ispg($n)
+      mpforce $n look disco
+      mpechoat $n Una voce profonda risuona nelle tue orecchie..
+      mpechoat $n "Hai sconfitto il mio padrone guadagnandoti il ritorno a casa
+      mpechoat $n Non essere imprudente però, Egli non è sconfitto per sempre.
+      mpechoat $n Quando tornerai la prossima volta, lo troverai qui ad attenderti di nuovo."
+      mpecho La foschia si dirada rivelando la parte nascosta del ponte.
+      mpechoat $n Una strana forza ti spinge oltre il ponte.
+      mpechoaround $n Una mano invisibile ti spinge oltre il ponte.
+      mpecho Cala nuovamente la nebbia e il ponte sparisce una volta ancora.
+      mpechoat $n Il disco si surriscalda fino a diventare incandescente.. Ahi! Lo lasci cadere.
+      mptransfer all 1546
+      mpat 1546 mpforce $n drop disco
+      mpecho Il disco si sbriciola e finisce il polvere al suolo.
+      mpat 1546 mppurge disco
+    else
+      mpforce $n drop disco
+      mpecho Il disco si sbriciola e finisce il polvere al suolo.
+      mppurge disco
+    endif
+  endif
+~
+|
+#1548
+helmet elmetto~
+un elmetto coperto di fango~
+Vedi per terra un elmetto incrostato di sporco~
+~
+15 0 17 0
+20 0 0 0
+4 1234 123
+A
+17 -7
+A
+25 -1
+A
+31 2
+#1573
+piscina sorgente~
+una sorgente puzzolente~
+Una forte puzza proviene dalla sorgente poco distante da te.~
+~
+25 0 0 0
+0 0 0 1
+1 0 0
+E
+sorgente puzza~
+Da una piccola crepa nella parete sgorga un rivoletto d'acqua che gocciola
+direttamente sul pavimento della caverna formando una pozza scura. 
+L'odore non è dei migliori, forse un incantesimo malevolo circonda questa 
+sorgente. 
+~
+E
+piscina pozza~
+E' una piccola pozza, fetida e piena di viscide alghe, vien da chiedersi come
+ci si possa voler bagnare in queste acque torbide. O peggio, berle.
+Sembra però che questa sia l'unica fonte d'acqua per gli hobgoblin ed essi
+non si faranno certo problemi a bere un po' di fango.
+~
+> use_prog 100~
+  if ismob($n)
+    mpecho $n tossisce e si dimena non appena viene a contatto con l'acqua..
+    mppurge $n
+  else
+    mpechoat $n L'acqua scorre come un fiume di melma nella tua gola..
+    mpechoat $n Tossisci ed annaspi mentre l'acqua prosegue il suo corso nel tuo corpo..
+    mpechoaround $n $n tossisce ripetutamente come se si stesse per strozzare..
+    mpdamage $n 10
+    mpechoat $n Avverti un forte dolore al ventre, l'acqua è giunta nel tuo stomaco..
+    mpechoaround $n $n trema vistosamente assumendo un colorino verde poco rassicurante..
+  endif
+~
+|
+#1597
+pala piccone~
+una sporca pala da minatore~
+Una sporca pala da minatore è poggiata per terra.~
+~
+59 0 16385 0
+0 0 0 0
+5 1200 120
+E
+pala~
+Ha un buon manico di legno, robusto quanto basta per spaccare pietre e trovare oro!
+~
+A
+5 1
+#1598
+segno segnale cartello~
+un segnale~
+Uno strano segnale è piantato nel terreno, forse è il caso di leggerlo.~
+~
+12 0 0 0
+0 0 0 0
+1 0 0
+E
+segnale cartello~
+Molti anni fa, in un luogo remoto sorgeva il maestoso reame degli gnomi.
+Case, strade, laboratori.. Crearono un regno degno della miglior nomea, grazie
+alla loro inventiva, il loro fine senso dell'umorismo si fecero strada nel
+mondo delle genti alte.
+Molti avventurieri giunsero fin qui affascinati dalle leggende che permeano
+le nuove scoperte le creazioni degli gnomi scienziati.
+
+Nel periodo d'oro del regno, gli gnomi conobbero morte e distruzione per mano
+degli orribili hobgoblin. Da principio questi furono accolti a braccia aperte
+dagli gnomi, ignari di chi si stavan tirando in casa. A poco a poco, le creature
+del buio appresero parte delle tecniche più raffinate degli studiosi gnomi ed 
+iniziarono ad usarle in maniera appropriata.
+
+Un bel giorno, gli hobgoblin decisero che gli gnomi stavano loro nascondendo
+alcune delle più importanti invenzioni e che probabilmente lo facevano per 
+assicurarsi il potere sulle creature meno sapienti.
+Si comportarono di conseguenza: mossero guerra agli gnomi, rubando le loro
+armi si rivoltarono contro i propri benefattori conducendoli verso morte 
+certa.
+
+La maestosa nazione degli gnomi però non fu sconfitta del tutto, alcuni di loro
+riuscirono a portarsi in salvo e a stabilirsi qui, ricostruendo pian piano ciò 
+che rimaneva del loro passato, insegnando alle nuove generazioni le antiche 
+conoscenze e insegnando anche la diffidenza per gli hobgoblin e le creature 
+dell'oscurità.
+
+*Una piccola scrittina prosegue sotto il racconto*
+~
+E
+scrittina scritta~
+Ad est si trova il villaggio degli gnomi, colonia della grande ed antica nazione
+degli gnomi, semidistrutta dalla barbarie degli hobgoblin.
+Gli gnomi sono abitanti pacifici e tranquilli, amano il quieto vivere ma negli
+ultimi tempi sono stati costretti a prendere le armi per difendersi da un folto
+gruppo di hobgoblin che si annida nelle miniere poco distanti da qui.
+
+Nel nome della sapienza e la saggezza, gli gnomi hanno tentato di stabilire dei
+contatti con gli hobgoblin in modo da assicurarsi la pace, o perlomeno una tregua.
+E' stato raggiunto un accordo di non belligeranza che si regge su un filo di seta.
+E' bene quindi tenere sempre gli occhi aperti, non si sa mai chi si possa incontrare.
+~
+#0
+
+#ROOMS
+#1500
+La guardiola~
+Grosse lastre di granito sono state ammassate a formare una sorta di 
+casupola. Una grossa scrivania occupa parte della stanza ed è ricoperta
+da vari pezzi di armature e spade arrugginite. La lastra a nord pare essere
+una porta..
+~
+0 0 13 0 0 0
+D0
+Vedi la porta della camera del re.
+~
+porta granito~
+3 -1 1576 0
+D2
+Per qui si va alla sala delle guardie.
+~
+~
+0 -1 1575 0
+S
+#1501
+Una curva nel sentiero~
+Il sentiero in questo punto si allarga diventando uno stradello più comodo
+da percorrere. La strada continua verso est, a nord invece il sentiero si 
+inoltra nel fitto bosco. Su un vecchio cartello sono riportate alcune scritte.
+~
+0 4 3 0 0 0
+D1
+In questa direzione la strada continua verso la civiltà.
+~
+~
+0 -1 1502 0
+D7
+Il sentiero torna verso la foresta.
+~
+~
+0 -1 3588 0
+E
+cartello scritte~
+Ad est si va nel territorio popolato da gnomi e hobgoblin.
+In passato feroci battaglie hanno diviso questi due gruppi, ora fra loro
+sussiste una pacifica tregua, non si sa quanto durevole.
+Gli gnomi sono creature accoglienti, dedite alla scienza e alle invenzioni,
+desiderose di approfondire le leggi del mondo. 
+Gli hobgoblin vivono nelle miniere poco distanti dal villaggio degli gnomi.
+Sono creature infide, se vi fidate di loro lo fate a vostro rischio e 
+pericolo.
+Buona permanenza. 
+~
+S
+#1502
+Rumori in lontananza~
+Un'atmosfera di estrema rilassatezza permea questo luogo, quasi come
+un'aura di magia buona. La natura non è ostile, lungo il sentierino che
+percorri crescono docili fiorellini azzurri ed erbetta fresca. Gli alberi
+che costeggiano lo stradello, paiono invitare i viandanti a fermarsi un poco
+sotto le loro chiome e riposarsi all'ombra.
+L'unico rumore che spezza l'incantevole silenzio è un lontano fracassso di 
+metallo contro metallo.. Forse si sta combattendo?
+Un sentierino prosegue verso nord, ma tu puoi andare anche ad ovest o est.
+~
+0 4 3 0 0 0
+D0
+Il sentiero prosegue.
+~
+~
+0 -1 1503 0
+D1
+Il sentiero dirige verso la foresta.
+~
+~
+0 -1 1520 0
+D3
+Una curva nel sentiero.
+~
+~
+0 -1 1501 0
+S
+#1503
+Proseguendo lungo il sentiero~
+La strada procede in direzione nord-sud, alcune interruzioni fra gli alberi, ad est
+e ovest, mostrano case di insolita fattura. Sono larghe e basse con tetti tondi, il
+disegno è bizzarro ma sostanzialmente appaiono molto solide. Di sicuro chi le abita
+non è molto alto.
+~
+0 0 3 0 0 0
+D0
+Il sentiero prosegue.
+~
+~
+0 -1 1510 0
+D1
+Vedi una casetta tozza.
+~
+~
+0 -1 1506 0
+D2
+Vedi l'intersezione con un altro sentiero.
+~
+~
+0 -1 1502 0
+D3
+Vedi un'abitazione tozza e bassa.
+~
+~
+0 -1 1505 0
+S
+#1504
+Un magazzino~
+E' piccolo ma zeppo di scatole, scatoloni ed oggetti di varia natura non meglio
+definibile. Contro la parete sono ammucchiate con cura delle alte pile di scatole
+con etichetta. Una serie di scaffali avvicinati ospita alcuni oggetti smarriti, tutti
+rigorosamente catalogati.
+~
+0 8 0 0 0 0
+D1
+The lab
+~
+~
+0 -1 1505 0
+E
+oggetti smarriti~
+E' davvero difficile identificare questi oggetti, non solo per la loro
+forma ma anche perché, nonostante l'etichetta, non serve a molto sapere
+d'avere in mano un "Bodotronico portarimpalli".
+~
+E
+scatole scatoloni~
+Il magazziniere dev'essere un tipo scrupolosissimo: su ogni scatola è impressa
+l'etichetta riassuntiva del contenuto, ma al limite della paranoia, aprendo una
+scatola di unghie finte, scopri che su ognuna delle unghie è apposta la 
+targhettina: Unghia finta, quantità = 1.
+~
+S
+#1505
+Un piccolo laboratorio~
+Non appena metti piede in questo piccolo laboratorio, i tuoi timpani sono 
+letteralmente aggrediti da una cacofonica successione di note e suoni strampalati.
+Una miriade di piccoli e grandi congegni meccanici in funzione produce 
+un continuao ticchettio, scalpitio, brusio e quant'altro ancora.
+Come si può lavorare bene con un simile fracasso nelle orecchie?
+~
+0 8 0 0 0 0
+D1
+Vedi un sentiero tranquillo.
+~
+~
+0 -1 1503 0
+D3
+Vedi la porta di un magazzino.
+~
+~
+0 -1 1504 0
+S
+#1506
+Un laboratorio tranquillo~
+In un attimo, tutti i rumori della strada s'affievoliscono fino a
+lasciare posto ad un avvolgente silenzio. 
+Dopo qualche istante, t'accorgi che il silenzio innaturale della stanza
+non è poi così totale, anzi è interrotto da un ronzio molto flebile
+proveniente da uno strano oggetto appoggiato contro la parete sud.
+~
+0 8 0 0 0 0
+D1
+Vedi la porta di un magazzino.
+~
+~
+0 -1 1507 0
+D3
+In questa direzione vedi un sentierino tranquillo.
+~
+~
+0 -1 1503 0
+S
+#1507
+Il magazzino degli attrezzi~
+Più che pieno, questo magazzino è proprio intasato da strumenti 
+di ogni tipo. Ad una parete è appesa una rastrelliera di attrezzi, ad un'altra
+invece c'è una rastrelliera di rastrelliere! Realizzati con i materiali
+più disparati, sono strumenti per tutte le stagioni: legno di quercia, oro,
+ottone, ferro, acciaio.. Ovviamente ogni strumento ha la propria etichetta.
+~
+0 8 0 0 0 0
+D3
+Vedi un laboratorio.
+~
+~
+0 -1 1506 0
+S
+#1508
+Un magazzino protetto~
+Una ventata d'aria fresca e pulita ristora le tue narici, dopo il trauma della
+sala precedente. Linda e forse anche sterile, questa camera offre un riposo 
+dalle fatiche olfattive. Centinaia di scatole sono poste ordinatamente sugli
+scaffali, ognuna con la propria etichetta.
+~
+0 8 0 0 0 0
+D1
+Una puzza devastante proviene dall'altra sala.
+~
+~
+0 -1 1509 0
+S
+#1509
+Un laboratorio fetido~
+L'odore del laboratorio è indefinibile, l'unica cosa certa è il progressivo
+annebbiamento della vista a causa dell'infausto fetore.
+Decine di provette, poste su piccole fiammelle, contengono del liquido di colore
+indaco in ebollizione. Il vapore sprigionato dalle fialette è davvero mefitico
+e vale la pena iniziare a prendere in considerazione l'idea di uscire da qui
+al più presto.
+~
+0 8 0 0 0 0
+D1
+~
+~
+0 -1 1510 0
+D3
+Vedi un magazzino ben ordinato.
+~
+~
+0 -1 1508 0
+S
+#1510
+Alla fine del sentiero~
+Raggiungi la fine del sentiero, fra i rami bassi degli alberi intravedi alcune
+buffe costruzioni, basse e tozze con il tetto tondo. Verso est ed ovest le
+piccole casine occupano i lati del sentiero, a nord invece scorgi una casa
+dalle pareti riccamente decorate.
+~
+0 0 3 0 0 0
+D0
+Vedi una costruzione decorata.
+~
+~
+0 -1 1513 0
+D1
+Vedi una tozza casetta.
+~
+~
+0 -1 1511 0
+D2
+Il sentiero prosegue in questa direzione.
+~
+~
+0 -1 1503 0
+D3
+Vedi una casetta bassa e tozza.
+~
+~
+0 -1 1509 0
+S
+#1511
+Un giardinetto nascosto~
+Ti ritrovi in un'inconsueta costruzione, una via di mezzo fra un giardinetto
+interno ed un laboratorio di meccanica. File di piante rampicanti mantenute
+in vita da complicati marchingegni, occupano parte delle pareti di questo
+strano posto. Alcune sfere volanti fluttuano a mezz'aria, rischiando di
+colpire i presenti, fa' attenzione quindi.
+~
+0 8 0 0 0 0
+D1
+Vedi la porta del magazzino.
+~
+~
+0 -1 1512 0
+D3
+Da qui inizia la strada.
+~
+~
+0 -1 1510 0
+S
+#1512
+Un magazzino in disordine~
+La miglior definizione per questa stanza è: caos organizzato.
+Strane combinazioni di pentole su scatola, pugni di terra su pizzi antichi,
+bastoni da caccia e fialette, affollano il magazzino.
+Una bizzarra sequela di scaffali occupa tutta la parete est, su ogni mensola è
+poggiato un oggetto che nulla ha da spartire con il proprio vicino, eppure
+niente è lasciato al caso, i bravi gnomi hanno etichettato tutto con molta
+perizia.
+~
+0 8 0 0 0 0
+D3
+Vedi una piccola serra.
+~
+~
+0 -1 1511 0
+S
+#1513
+Un ampio ufficio~
+A giudicare dalla pomposità dell'arredamento, si direbbe che questo sia proprio
+lo studiolo del capo del villaggio. Alle pareti sono appesi dipinti raffiguranti 
+improbabili invenzioni; appoggiati al muro occidentale vedi degli oggetti di
+inconsueta fattura e muovendo alcuni passi sul pavimento lo senti scricchiolare
+in modo particolare.
+~
+0 8 0 0 0 0
+D0
+Vedi il laboratorio del capo.
+~
+~
+0 -1 1514 0
+D2
+Lo stradello inizia proprio qui.
+~
+~
+0 -1 1510 0
+D5
+Una grande umidità proviene da questa direzione.
+~
+trappola botola trap~
+2055 1501 1515 0
+E
+dipinti quadri~
+I dipinti raffigurano delle invenzioni al limite del surreale: tubi
+intricatissimi svettano alti, formando quello che assomiglia vagamente
+ad un organo a canne; la più sconcertante delle invenzioni è forse
+una grossa sfera fluttuante sulla cima di una montagna, non si comprende
+bene il motivo di tale sistemazione.
+A lato del quadro, un piccolo schema riassuntivo riporta l'interno della
+sfera.
+~
+E
+oggetti oggetto~
+Piccoli e sofisticati, questi oggetti sono la rappresentazione materiale della
+maniacale attenzione degli gnomi verso ogni forma possibile di progresso.
+Fra le altre cose, noti un grosso ragno metallico, con lunghe zampe acuminate
+che terminano in pugnali letalmente affilati.
+A lato del ragnone, un piccolo schema raffigura il robot nel terribile atto di
+sbucciare una povera ed ignara mela.
+~
+E
+pavimento parquet~
+Cammini su un pregiato legno, sagomato a listelli e montato come parquet.
+Le tonalità del legno variano da un bianco sporco ad un nero intenso e
+i listelli sono sistemati in modo da creare per terra un'ipnotica
+spirale, divertente da seguire passo dopo passo.
+~
+E
+tavolo scrivania~
+Sul tavolo sono allineati con estrema cura diversi oggettini di varie
+dimensioni, alcuni paiono di uso comune: un calamaio, una penna d'oca..
+Altri sembrano la concretizzazione dei sogni meno probabili degli gnomi.
+~
+S
+#1514
+Il laboratorio del capo~
+La stanza è divisa in due sezioni distinte: da un lato vedi un grosso lavabo
+realizzato da un unico blocco di malachite. Nel lavabo trovi un pezzo di 
+cristallo frantumato. Non si comprende bene l'uso e lo scopo di questo 
+cristallo, sarà il caso di osservarlo meglio.
+L'altra parte della stanza è riservata ad un tavolo coperto da fogli.
+~
+0 8 0 0 0 0
+D2
+Da qui torni nell'ufficio.
+~
+~
+0 -1 1513 0
+E
+cristallo~
+Il suo interno è pieno di scheggiature e piccole crepe, segno che si tratta
+di un oggetto estremamente fragile. Il cristallo racconta di esperimenti a suo
+danno: lanci da non indifferenti altezze, ricostruzioni minuziose dei milioni
+di pezzi in cui si frantuma ogni volta..
+Ogni frammento sembra avere una propria specifica proprietà, ignota.
+~
+E
+tavolo~
+Una sequela di piccoli oggettini è disposta sul tavolo, si tratta di strumenti
+d'alta precisione, prismi birifrangenti, cristalli da lancio ed alcuni 
+irriconoscibili. Provi a prenderne uno ma uno scintillone ti consiglia di
+lasciare l'ogggetto lì dov'è.
+~
+S
+#1515
+Uno scantinato umidiccio~
+Ebbene sì, è uno scantinato incredibilmente umido. Le pareti sono pannellate in 
+legno, scelta insolita per un posto del genere, il legno risente dell'umidità.
+Agli angoli del soffitto, miriadi di ragni organizzano festicciole nelle ragnatele
+pasteggiando a base di insetti miserelli.
+~
+0 8 0 0 0 0
+D0
+~
+muro pareti crepa~
+1035 -1 1519 0
+D1
+Vedi un laboratorio ben protetto.
+~
+~
+0 -1 1516 0
+D2
+Vedi un laboratorio ben protetto.
+~
+~
+0 -1 1517 0
+D3
+Vedi un laboratorio ben protetto.
+~
+~
+0 -1 1518 0
+D4
+Vedi un ufficio abbellito.
+~
+botola trap~
+3 -1 1513 0
+E
+muro~
+Vedi una crepa nel muro e non è troppo piccola..
+~
+E
+pareti~
+Tutti le pareti sono occupate da una porta, tranne la parte nord che però sembra
+segnata da piccole fratture dell'intonaco quasi come se il muro si divertisse a 
+muoversi di quando in quando.
+~
+S
+#1516
+Un freddo laboratorio~
+Per qualche ignota ragione, la luce non riesce a raggiungere questo salone e non 
+dipende soltanto dalle spesse mura annerite. C'è qualcosa nell'aria che impedisce
+ai raggi luminosi di filtrare qua dentro.
+Su uno dei tavoli del laboratorio scorgi un oggetto bizzarro, sembra un disco 
+di metallo.
+~
+0 8 0 0 0 0
+D3
+L'ingresso allo scantinato.
+~
+~
+0 -1 1515 0
+E
+disco~
+Ti avvicino al disco per esaminarlo più da vicino ed ecco che esso si fa più
+scuro per alcuni istanti. Con un improvviso brusio, il disco diventa incandescente
+ed emette lampi di luce intermittenti. 
+Non provare a toccarlo, il suo calore ti ustionerebbe.
+~
+S
+#1517
+Un laboratorio illuminato~
+E' pulito e ben tenuto ma soprattutto sembra d'essere in ambiente sterile.
+Le pareti sono di un bianco granitico spettrale, il pavimento è di metallo
+e un tavolo anch'esso in metallo occupa parte della stanza.
+In una piccola alcova inserita nella parete orientale scorgi uno strano
+oggetto.
+~
+0 8 0 0 0 0
+D0
+Da qui torni indietro nell'umido sotterraneo.
+~
+~
+0 -1 1515 0
+E
+ruscello~
+Il ruscelletto è carino ma le sue acque sono troppo gelide per nuotarci ora.
+~
+E
+oggetto vetro alcova~
+Appena scruti all'interno del contenitore di vetro, scorgi un oggetto di forma 
+ovale, di materiale sconosciuto, intrecciato con sottili tubini di metallo.
+Pensando e ripensando, quest'oggetto richiama alla memoria la forma del cuore..
+Probabilmente è un prototipo da trapianto..
+~
+S
+#1518
+Un grande laboratorio privato~
+E' pulito con grande scrupolo anche se sui muri rimangono le chiazze
+di qualche recente esplosione. E non solo chiazze, anche brecce e crepe
+abbelliscono le pareti, alcune tracce di una polverina magica fan bella
+mostra di sé sul muro difronte.
+~
+0 8 0 0 0 0
+D1
+Un umidiccio scantinato.
+~
+~
+0 -1 1515 0
+D2
+~
+~
+2099211 -1 1515 0
+E
+polvere chiazza~
+Tracce di un qualche strano tipo di polvere sono ovunque, sparse sui muri
+di questo laboratorio. Ad un'indagine più approfondita non sfugge che una
+fialetta contenente della polvere magica, deve essere stata infilata nel 
+muro e fatta esplodere per qualche ignaro motivo.
+Il risultato è un bel buco.
+~
+S
+#1519
+Un laboratorio segreto~
+Questa stanza è piccola e puzza di muffa, probabilmente è un laboratorio poco
+utilizzato o frequentato solo da una ristretta elite di scienziati.
+Guardandoti intorno vedi alcune tabelle, pulite e puliti sono anche tutti gli
+strumenti e le provette.. Strano.
+Un improvviso bagliore cattura la tua attenzione.
+~
+0 8 0 0 0 0
+D2
+Uno scantinato umidiccio.
+~
+muro~
+1035 -1 1515 0
+E
+luce bagliore~
+Socchiudi per una frazione di secondo gli occhi e la luce è già sparita.
+Per qualche strana ragione lo sguardo ti si fissa su un punto indistinto del 
+muro, forse una breccia..?
+~
+> leave_prog 100~
+  mppurge breccia
+  mpoload 1528
+  mpoload 1529 6
+  put quill breccia
+~
+|
+S
+#1520
+Un sentiero nella foresta~
+Passo dopo passo, percorri il sentiero che attraversa la foresta; essa ti sta
+osservando, scruta i tuoi movimenti con mille occhi di animali, annusa il tuo
+odore, con olfatto ferino, racconta di te a sé, con i piccoli suoni del bosco.
+Gli uccellini volano cinguettando, gli scoiattoli si rincorrono sui rami 
+squittendo a tutti i compari di tenersi in allerta.
+~
+0 0 3 0 0 0
+D1
+Vedi un sentierino poco battuto.
+~
+~
+0 -1 1537 0
+D2
+Un passaggio fra gli alberi.
+~
+~
+0 -1 1521 0
+D3
+Uno stradello tranquillo.
+~
+~
+0 -1 1502 0
+S
+#1521
+Una strettoia fra gli alberi~
+Gli alberi in questo punto si fan più radi e gli gnomi ne hanno approfittato
+per gettare le fondamenta di nuove costruzioni. Sei proprio nel bel mezzo
+di un piccolo villaggio, ad est ed ovest vedi alcune casette mentre il 
+sentiero si dilunga verso nord e sud.
+~
+0 0 3 0 0 0
+D0
+Proseguendo verso il cuore della foresta.
+~
+~
+0 -1 1520 0
+D1
+Vedi una piccola costruzione.
+~
+~
+0 -1 1523 0
+D2
+Il sentiero s'allarga un po' in questo punto.
+~
+~
+0 -1 1527 0
+D3
+Vedi una casetta.
+~
+~
+0 -1 1522 0
+S
+#1522
+Una piccola classe~
+Questa classe non è molto grande ma ha tutte le comodità di cui necessitano i 
+piccoli scolari: banchi, seggioline, giocattoli nel settore giochi e diversi 
+cartoncini colorati con dei numeri scritti sopra.
+Un tavolo in fondo alla classe è posto sopra una pedana, forse è la cattedra
+dell'insegnante. Alle pareti sono appesi i disegni dei piccini.
+~
+0 12 0 0 0 0
+D1
+Vedi il sentiero che riporta verso la foresta.
+~
+~
+0 -1 1521 0
+E
+tavolo puzzle~
+Sembrava la cattedra e invece no! E' il tavolone dei giochi, sulla sua superficie
+infatti ci sono molti puzzle cominciati e non ancora finiti.
+~
+E
+disegni~
+Sono semplici nelle linee ma già estremamente chiari nelle rappresentazioni dei
+soggetti: macchinari d'ogni tipo, gnomi che lavorano, che fanno esperimenti, animalini
+del bosco.. Alcuni riportano anche dei volti orribili, forse qualche piccolino
+ha incontrato un hobgoblin.
+~
+E
+banchi~
+I banchi sono in semplice legno con i bordi arrotondati per evitare che i piccoli
+si facciano del male.
+~
+S
+#1523
+Un'aula grande~
+Quest'aula è stata studiata appositamente per ospitare alcune decine di studenti
+soprattutto piccoli gnometti destinati a grandi futuri da scienziati e storici
+in erba.
+Le pareti sono occupate da tabelle di numeri, elementi ed un grande quadro occupa
+tutta la parete sud, forse è il fondatore della scuola.
+~
+0 12 0 0 0 0
+D3
+Da qui parte un sentiero verso la foresta.
+~
+~
+0 -1 1521 0
+E
+tabelle~
+Una delle tabelle raffigura una successione di numeri e coniglietti, ha un che di
+conosciuto questa cosa. Alcune tabelle sono scarabocchiate con pastelli e cere, segno
+che i piccoli gnomi sanno ancora cosa significhi giocare.
+~
+E
+quadro~
+Il quadro rappresenta uno gnomo posto al centro del villaggio, pare una statua in granito,
+forse l'hai anche già vista mentre venivi qui.
+~
+S
+#1524
+Un'austera dimora~
+Ogni cosa è in ordine, linda e spolverata, al limite del rigore militare
+o dei collegi per educande. Nulla è fuori posto, neanche un granellino di
+pulviscolo.
+Chiunque viva qui, deve essere proprio un maniaco della pulizia..
+~
+0 8 0 0 0 0
+D2
+Di nuovo lungo la strada.
+~
+~
+0 -1 1526 0
+S
+#1525
+Un portento di sporcizia~
+Le piastrelle del pavimento sono coperte interamente da detriti di varia forma
+e natura, rendendo difficoltoso l'ingresso ed il progresso in questa capanna.
+Forse ci vive un rattaccio di dimensioni inaudite, forse una bestia selvaggia, o 
+forse il padrone di casa è sepolto qui in mezzo al disordine..
+~
+0 1073741832 0 0 0 0
+D1
+Riprendi il cammino lungo la strada.
+~
+~
+0 -1 1526 0
+S
+#1526
+Un vicolo cieco~
+La strada termina in un vicolo cieco, ma oltre, verso nord, ovest e sud intravedi
+tre piccole capanne. Sembrano casine di pan di zucchero, colorate e davvero ben 
+tenute, o forse solo poco usate.
+~
+0 0 3 0 0 0
+D0
+Vedi una piccola capanna.
+~
+~
+0 -1 1524 0
+D1
+La strada si biforca.
+~
+~
+0 -1 1527 0
+D2
+Vedi una capannina.
+~
+~
+0 -1 1530 0
+D3
+Vedi una piccola capanna.
+~
+~
+0 -1 1525 0
+S
+#1527
+Il sentiero s'allarga~
+Ampio respiro di strade, da uno stretto sentierino si passa ad una strada con
+tanto di biforcazioni ad ovest e sud. Una piccola capanna si trova verso est ed
+altre costruzioni fiancheggiano la strada, proseguendo verso il villaggio.
+~
+0 0 3 0 0 0
+D0
+La strada continua in questa direzione.
+~
+~
+0 -1 1521 0
+D1
+Vedi una piccola capanna.
+~
+~
+0 -1 1528 0
+D2
+La strada prosegue.
+~
+~
+0 -1 1532 0
+D3
+La strada prosegue.
+~
+~
+0 -1 1526 0
+S
+#1528
+Un pandemonio!~
+Questo dev'essere il paradiso dei bambini: una miriade di giocattoli, balocchi
+d'ogni tipo, biberon e copertine si trovano qui, sparsi alla rinfusa su un grande
+tappetone di morbida lana.
+Data la grande confusione che impera per ogni dove, probabilmente i genitori dei 
+piccoli hanno qualche difficoltà ad impartire la disciplina ai proprio pargoli.
+~
+0 8 0 0 0 0
+D3
+Da qui torni sulla strada.
+~
+~
+0 -1 1527 0
+S
+#1529
+Un laboratorio artigianale~
+Sembra più un negozietto che una casa vera e propria, forse il padrone si sente
+più a suo agio qui: diversi tavoli da lavoro sono allineati contro il muro
+e su ognuno di essi vedi strumenti da falegname e da stagnino.
+Una bella poltrona di pelle, comoda ed accogliente è accostata ad uno dei tavoli.
+C'è qualcosa di insolito nella sistemazione degli oggetti, pare studiata apposta
+per impedire agli estranei di toccare oggetti preziosi e delicati..
+In compenso, dal pavimento risalta un particolare interessante, una delle travi
+sembra spostata..
+~
+0 12 0 0 0 0
+D2
+Qui ritorni sulla strada.
+~
+~
+0 -1 1533 0
+D5
+Un portale luminoso ti attende..
+~
+pavimento floor travi trappola botola~
+3016715 -1 1585 0
+E
+pavimento~
+Dai una scorsa al pavimento, c'è qualcosa di poco convincente, forse si tratta
+di quell'asse un poco rialzata a forma di botola?
+~
+E
+arredamento arnesi~
+Tutti gli oggetti sono disposti curiosamente, in modo da lasciare un bello spazio
+vuoto proprio al centro del pavimento.. Che sia un indizio?
+~
+E
+poltrona~
+Pelle di qualità per questa poltrona soffice ed accogliente; sembra davvero 
+molto usata eppure ha resistito egregiamente nel corso degli anni.
+~
+> leave_prog 100~
+  close floor
+~
+|
+S
+#1530
+Un bel giardinetto~
+Le piante fan da padrone in questa piccola ed accogliente serra di vetro e legno.
+Il profumo dei vegetali si confonde nell'aria, trasportando lontano odori di 
+terre lontane ed erbette aromatiche tipiche di queste parti.
+Non sarebbe male fermarsi un istante e contemplare tutti i fiorellini che 
+abbelliscono questo posto.. Narcisi, petunie, gerbere..
+~
+0 8 0 0 0 0
+D0
+Da qui torni sulla strada.
+~
+~
+0 -1 1526 0
+E
+erbette spezie~
+Profumo di mirto e menta, timidamente spiccano fra odori più forti nella serra.
+~
+E
+fiori fiorellini narcisi petunie~
+E' una melodia di colori e profumi, sono accostati uno all'altro senza darsi
+alcun fastidio, senza intrecciarsi le radici rubandosi così l'acqua. Convivono
+pacificamente donando a questo luogo un'atmosfera di grande armonia cosmica.
+~
+S
+#1531
+Una casa essenziale~
+Un letto, una sedia, scaffali vuoti.. La desolazione sintetica di una casa poco
+vissuta, o forse vissuta da un maniaco dell'essenzialità.
+Tutto è mantenuto in perfetto ordine, etichettato e spolverato ogni giorno dato che
+non c'è traccia di pulviscolino nemmeno nei punti più critici.
+~
+0 8 0 0 0 0
+D1
+Da qui torni sulla strada.
+~
+~
+0 -1 1532 0
+E
+letto scaffali sedia~
+Tutto l'arredamento ha l'aspetto di non essere mai stato utilizzato
+prima d'ora.
+~
+S
+#1532
+Una curva~
+La strada curva proseguendo verso est e nord, due capanne stanno ad ovest
+e sud: questo stradello pare molto frequentato stando alle pentolette d'acqua
+vuote che vengono lasciate a disposizione dei viandanti assetati.
+~
+0 0 3 0 0 0
+D0
+Vedi una biforcazione.
+~
+~
+0 -1 1527 0
+D1
+La strada termina in un vicolo cieco.
+~
+~
+0 -1 1533 0
+D2
+Un'orribile puzza proviene da sud.. Vuoi andare a vedere di che si tratta?
+~
+~
+0 -1 1535 0
+D3
+Ad ovest vedi una casa.
+~
+~
+0 -1 1531 0
+S
+#1533
+Un vicolo cieco~
+Sorpresa! La strada finisce qui, nonostante tu veda diverse casette verso
+nord, est e sud. Graziose nella forma, spuntano come funghetti qua e là 
+ai lati della strada; sembrano anche molto resistenti.
+~
+0 0 3 0 0 0
+D0
+Vedi una piccola capanna.
+~
+~
+0 -1 1529 0
+D1
+Vedi una piccola capanna.
+~
+~
+0 -1 1534 0
+D2
+Vedi una piccola capanna.
+~
+~
+0 -1 1536 0
+D3
+Il sentiero curva in altre direzioni.
+~
+~
+0 -1 1532 0
+S
+#1534
+Una casetta tutta pulita~
+E' semplice nell'arredo ma tenuta con grande cura e soprattutto è molto, davvero
+molto pulita. Ci sono tutti i comfort di cui si abbisogna la sera dopo il 
+lavoro.. Un letto comodo, una poltrona morbida, un piccolo poggiapiedi ed una
+grande libreria piena di volumi con cui sbizzarrirsi un po'.
+~
+0 8 0 0 0 0
+D3
+Da qui torni sulla strada.
+~
+~
+0 -1 1533 0
+S
+#1535
+Una capanna malconcia~
+Potrebbe abitarci un orchetto qua dentro: stovglie sporche di giorni nel lavandino, letto
+sfatto, tappeti polverosi e soffitto pieno di tele di ragno.. Quale gnomo terrebbe
+la propria capanna in questo stato? L'unica soluzione è che il padrone di casa
+sia via da mesi, dietro a qualche impossibile esperimento che non vuole saperne di dare
+buoni risultati.
+~
+0 8 0 0 0 0
+D0
+Da qui torni sulla strada.
+~
+~
+0 -1 1532 0
+S
+#1536
+Una sinfonia di luci e colori~
+Una collezione di specchi e cristalli t'acceca per un breve istante appena metti
+piede qua dentro. Lanterne, sculture, calici, piatti, vasi grandi e piccoli sono 
+tutti sistemati su scaffali, in bella vista.
+Su un tavolino vedi delle miniature e piccole fontanelle realizzate in fine
+cristallo; è notevole il talento di chi ha costruito delle gioie di così 
+delicata fattura.
+~
+0 8 0 0 0 0
+D0
+Da qui vai verso la strada.
+~
+~
+0 -1 1533 0
+E
+vetro cristallo~
+Praticamente tutto in questa stanza è ricavato da vetro o da cristalli di tutti
+i tipi, colorato, trasparente, con fregi in argento o fuso con altri metalli.
+~
+E
+statuine statue sculture~
+Le statuette raffigurano animali, creature del bosco, elfi, gnomi, alcune sono
+anche tetre come la morte, ma forse si tratta di un hobgoblin..
+Una, più bella delle altre, rappresenta un dragone dalle ali spiegate; è fatta di
+cristallo mescolato con polvere rossa e il risultato è un bellissimo effetto cromatico
+che dà risalto alla bestia.
+~
+E
+lanterne~
+Gran parte del vetro è impiegato nella creazione di lanterne di tutte le grandezze.
+Dalle lanterne si passa anche ai candelabri a goccia, a braccia, da muro, da soffito..
+Ce n'è per tutti i gusti!
+Il bello di queste creazioni è che esposte alla luce, producono sui muri di casa
+dei simpatici giochi di arcobaleni.. Potenze prismatiche.
+~
+E
+piatti stoviglie~
+Soffiati con grande perizia, queste stoviglie non sono soltanto utili ma anche molto
+belle da esporre su scaffali. 
+~
+E
+tavolo fontanelle~
+Divertentissime fontanelle di cristallo, l'artista è riuscito a bloccare l'acqua 
+nell'istante esatto della massima elongazione riuscendo pure a creare alcuni
+piccoli spruzzi laterali..
+~
+S
+#1537
+Uno stradello poco frequentato~
+E' il posto ideale per un agguato, non si vede nessuno nel raggio di miglia
+e miglia, gli alberi sono stretti intorno al sentiero in modo da formare
+una barriera verso il bosco.. Ad ovest e sudest il sentiero prosegue per
+altre destinazioni.
+~
+0 0 3 0 0 0
+D3
+Vedi uno stradello più grande.
+~
+~
+0 -1 1520 0
+D8
+Il sentiero curva all'improvviso.
+~
+~
+0 -1 1538 0
+S
+#1538
+Uno stretto sentierino~
+Il sentiero si stringe così tanto da obbligarti a camminare mettendo un piede
+davanti all'altro; felci ed arbusti non migliorano la situazione, oscurando
+il sentiero qui ed anche più avanti.
+~
+0 0 3 0 0 0
+D1
+Il sentierino prosegue nel bosco.
+~
+~
+0 -1 1539 0
+D7
+Vedi uno stretto sentierino.
+~
+~
+0 -1 1537 0
+S
+#1539
+Alla fine del sentiero~
+Il sentiero sparisce in un ampio campo erboso, gli alberi si fanno da parte
+e dal limitare del bosco ti ritrovi in piena luce, all'aria aperta, possibile
+preda di cattivissimi rapaci.
+~
+0 4 3 0 0 0
+D1
+Il campo prosegue in questa direzione.
+~
+~
+0 -1 1540 0
+D3
+Un sentierino stretto prosegue per questa direzione.
+~
+~
+0 -1 1538 0
+S
+#1540
+Un campo a maggese~
+L'erba è alta e tanti fiori selvatici sbucano fra spighe ramenghe di grano 
+e piccoli fusti d'albero che a fatica si fanno strada nella rigogliosa
+vegetazione.
+Sembra il posto ideale dove fermare i passi e stendersi ad ascoltare i 
+grilli o le cicale, liberando la mente dai pensieri tetri e lasciandosi
+pervadere dalla gentile brezza che accarezza il campo ed i suoi abitanti.
+~
+0 0 2 0 0 0
+D1
+Il campo si estende in questa direzione.
+~
+~
+0 -1 1541 0
+D2
+Il campo si estende in questa direzione.
+~
+~
+0 -1 1542 0
+D3
+A thin trail through the trees
+~
+~
+0 -1 1539 0
+S
+#1541
+Il campo verso il fiume~
+Dal campo si giunge alle rive di un fiumiciattolo che scorre cristallino davanti
+a te. Piccoli gorghi si formano intorno ai pietroni che sostano da chissà quanti
+secoli nelle acque del ruscello. In alcuni tratti è troppo fondo e tempestoso
+per rischiare d'attraversarlo con un balzo, meglio fare il giro lungo.
+~
+0 0 2 0 0 0
+D2
+Lungo le rive del fiume.
+~
+~
+0 -1 1543 0
+D3
+Indietro si ritorna sul sentiero.
+~
+~
+0 -1 1540 0
+S
+#1542
+Una distesa di trifogli~
+Un bellissimo mare verde smeraldino occupa parte del campo, è una distesa
+di trifogli. Il colore tranquillo rilassa la vista ed un buon profumo 
+d'erbetta  Se vuoi, puoi sostare qualche attimo e dilungarti alla ricerca
+di un quadrifoglio.. D'un tratto un paio di orecchie bianche sbuca dai 
+trifogli! E' un coniglietto che stava pasteggiando pacificamente ed ora
+vedendoti, preferisce scappare via.
+~
+0 0 2 0 0 0
+D0
+L'ingresso al campo verdeggiante.
+~
+~
+0 -1 1540 0
+D1
+Un sentiero costeggia le rive di un ruscello.
+~
+~
+0 -1 1543 0
+S
+#1543
+Sulle rive del fiume~
+Il sentiero s'accosta al fiume in questo punto, permettendoti d'udire lo sciacquio
+delle piccole onde che s'accostano ritmicamente alle rive.
+Si respira aria buona, fresco profumo d'acqua che scorre veloce, non ristagno
+putridino che ottura le narici. Dei piccoli narcisi sbucano dal suolo, tendendo
+verso il fiume, cercando di vedere se stessi, riflessi nel cristallo d'acqua.
+~
+0 0 2 0 0 0
+D0
+Scendendo lungo il fiume.
+~
+~
+0 -1 1541 0
+D2
+Davanti una piccola collina.
+~
+~
+0 -1 1544 0
+D3
+Vedi una distesa di campi.
+~
+~
+0 -1 1542 0
+S
+#1544
+Ai piedi di una collinetta~
+Il fiume scorre intorno il versante orientale della collina; allungando lo
+sguardo, scorgi un sentierino che risale fino alla cima dell'altura.
+Spingendo la vista ancora oltre, ti pare di vedere un ponte.
+~
+0 0 2 0 0 0
+D0
+Indietro si torna verso il fiume.
+~
+~
+0 -1 1543 0
+D4
+Da qui si sale verso la collinetta.
+~
+~
+65536 -1 1545 0
+S
+#1545
+Lungo il fianco della collina~
+La rigogliosa vegetazione scompare man mano che si procede lungo la 
+salita, quasi ci fosse una presenza malevola ad impedire la crescita di 
+forme di vita. Solo sterpaglia secca e sassi accolgono i tuoi passi 
+lungo il sentiero..
+~
+0 0 2 0 0 0
+D0
+Davanti al ponte.
+~
+~
+0 -1 1546 0
+D5
+Indietro, verso la base della collina.
+~
+~
+65536 -1 1544 0
+S
+#1546
+Un ponte sul fiume~
+Un ampio ponte di legno scavalca il letto del fiume e le sue acque.
+Nel mezzo del ponte manca una piccola porzione di trave, un buco causato forse
+da una creatura dal passo poco aggraziato.. Gli estremi della fessura non sono
+nitidi, anzi, se non fosse che probabilmente si tratta di un'allucinazione, diresti
+proprio che si spostano di continuo..
+~
+0 1048580 2 0 0 0
+D2
+In basso riscendi verso la collina.
+~
+~
+0 -1 1545 0
+S
+#1547
+Un ponte sul fiume~
+Un ampio ponte di legno scavalca il letto del fiume e le sue acque.
+Nel mezzo del ponte manca una piccola porzione di trave, un buco causato forse
+da una creatura dal passo poco aggraziato.. Gli estremi della fessura non sono
+nitidi, anzi, se non fosse che probabilmente si tratta di un'allucinazione, diresti
+proprio che si spostano di continuo..
+~
+0 1048580 2 0 0 0
+D2
+In basso riscendi verso la collina.
+~
+~
+0 -1 1548 0
+S
+#1548
+Lungo il fianco della collina~
+La rigogliosa vegetazione scompare man mano che si procede lungo la 
+salita, quasi ci fosse una presenza malevola ad impedire la crescita di 
+forme di vita. Solo sterpaglia secca e sassi accolgono i tuoi passi 
+lungo il sentiero..
+~
+0 4 2 0 0 0
+D0
+Verso il ponte.
+~
+~
+0 -1 1547 0
+D5
+Indietro torni verso la base della collina.
+~
+~
+65536 -1 1549 0
+S
+#1549
+Alla base della collinetta~
+Il fiume scorre intorno il versante occidentale della collina; allungando lo
+sguardo, scorgi un sentierino che risale fino alla cima dell'altura.
+Spingendo la vista ancora oltre, ti pare di vedere un ponte.
+~
+0 4 3 0 0 0
+D1
+Da qui vai verso il ponte.
+~
+~
+0 -1 1550 0
+D4
+Puoi incamminarti e salire la collina.
+~
+~
+65536 -1 1548 0
+S
+#1550
+Un sentiero buio nella foresta~
+Il campo soleggiato ai piedi della collina è ancora visibile da qui ma diventa 
+via via un ricordo sempre più lontano.
+In qualche modo, la foresta si fa più cupa procedendo verso il fiume, il tronco
+degli alberi si scurisce e le foglie non sono più smeraldine ma quasi nere.
+Pare che una presenza malevola si stia occupando di loro, stravolgendo la loro
+linfa vitale.
+~
+0 4 3 0 0 0
+D3
+Towards a hill
+~
+~
+0 -1 1549 0
+D6
+The trees surround you
+~
+~
+0 -1 1551 0
+S
+#1551
+Un sentiero buio~
+Gli alberi sovrastano il sentiero impedendo alla luce di filtrare ed aumentando
+l'umidità del luogo. Le piante, benché numerose, non sembrano in buona salute
+come se una presenza malevola stesse tentando di sradicarle tutte e loro dovessero
+lottare strenuamente per mantenersi in vita.
+~
+0 4 3 0 0 0
+D4
+Scorgi un largo altopiano.
+~
+~
+65536 -1 1552 0
+D9
+Una breccia nella fila degli alberi.
+~
+~
+0 -1 1550 0
+S
+#1552
+Un vasto altopiano~
+Il sentiero prosegue fino a confondersi con il manto erboso di un grande altopiano.
+Alcuni alberi popolano ancora la zona, ma sono pochi e soprattutto man mano che si
+risale verso la collina la vegetazione si fa sempre più rada e ricca di arbusti.
+Verso sud una pista battuta scende verso le sponde di un fiumiciattolo e da quassù
+oltre il fiume scorgi degli sbuffi di fumo, quasi si trattasse di caminetti.
+~
+0 4 3 0 0 0
+D1
+L'altopiano s'estende in questa direzione.
+~
+~
+0 -1 1553 0
+D5
+Scorgi un sentiero poco illuminato.
+~
+~
+65536 -1 1551 0
+S
+#1553
+Un vasto altopiano~
+L'altopiano s'estende verso est ed ovest, declinando poi in direzione di un
+fiumiciattolo. A nord, lungo il versante della collina, scorgi l'ingresso 
+di una caverna scura e buia come tutte le caverne.
+~
+0 0 3 0 0 0
+D0
+Scorgi l'ingresso di un'oscura caverna.
+~
+~
+0 -1 1554 0
+D1
+L'altopiano si interrompe in questo punto.
+~
+~
+0 -1 1557 0
+D3
+L'altopiano si estende in questa direzione.
+~
+~
+0 -1 1552 0
+S
+#1554
+Un'oscura caverna~
+E' molto scuro qua dentro, ma areato e ciò fa supporre che sia abitata e non
+solo dai detriti accumulati contro le pareti della grotta.
+Il pavé della caverna s'inclina verso il basso, indicando la strada per le
+profondità nascoste dei cunicoli.
+~
+0 8 0 0 0 0
+D2
+Scorgi un ampio altipiano.
+~
+~
+0 -1 1553 0
+D5
+Intravedi uno stretto declino.
+~
+~
+65536 -1 1555 0
+S
+#1555
+Una casetta tranquilla~
+E' un poco disordinata ma molto allegra a vedersi, piena di stoffe colorate
+appese alle pareti e ninnoli alle finestre, simili a campanellini tubulari
+che oscillano sotto la gentile spinta del vento.
+Confortevole e tranquillo, questo posto è il luogo ideale per fermarsi a 
+riposare un pochino.
+~
+0 8 0 0 0 0
+D3
+Vedi la stanza da letto.
+~
+~
+0 -1 1556 0
+D4
+Da qui si risale verso l'ingresso alla caverna.
+~
+~
+65536 -1 1554 0
+E
+scaffali ninnoli~
+Oltre alle campanelle tubulari, scorgi un'intera collezione di giocattoli
+per bimbi: bambole di diverse fatture, anche per riti poco convenzionali e
+balocchi in legno, simili a boomerang.
+~
+S
+#1556
+Una confortevole camera da letto~
+I detriti sono stati spazzati via con cura e la camera risulta linda nella 
+sua semplicità, accogliente nella mobilia.
+Alcuni scaffali colmi di libri occupano la parete da nord a sud ed un piccolo
+lettino, infilato fra le librerie, sembra chiamare il viandante.. Stenditi..stenditi..
+Se vuoi fare un pisolino è proprio il caso di approfittarne.
+~
+0 8 0 0 0 0
+D1
+Ritorni verso l'ingresso della casetta.
+~
+~
+0 -1 1555 0
+S
+#1557
+Al limite dell'altopiano~
+L'altopiano s'interrompe bruscamente terminando in una piccola striscia di 
+terra che conduce in basso verso la foresta. Guardando giù scorgi la causa
+di un tale disastro: una lunga ed indisturbata erosione ha fatto scendere
+il letto del fiume sempre più in basso lungo il fianco della collina, scavando
+via l'altopiano e lasciando intatta, per fortuna di chi vive qui, un sottile
+lembo di terra che congiunge i due versanti del precipizio.
+~
+0 4 3 0 0 0
+D3
+L'altopiano si allunga in questa direzione.
+~
+~
+0 -1 1553 0
+D8
+La pendenza dell'altopiano si fa più gentile.
+~
+~
+0 -1 1558 0
+S
+#1558
+Un versante scosceso~
+Da questo lato la collina termina senza mezzi termini, riprendendo
+oltre il fiume, fino al limitare della foresta. Rocce affilate e 
+residui di rena occupano parte del sentiero rendendo difficile la
+traversata.
+~
+0 4 3 0 0 0
+D5
+Scorgi un oscuro stradello.
+~
+~
+0 -1 1559 0
+D7
+Da qui procedi verso un grande altopiano.
+~
+~
+0 -1 1557 0
+S
+#1559
+Un'interruzione nel sentiero~
+Giungi ad un trivio: verso l'alto puoi risalire un versante della collina
+che hai davanti, le altre due direzioni, est ed ovest, conducono nel 
+buio, non si sa bene dove.
+~
+0 4 3 0 0 0
+D1
+Vuoi perderti nell'oscurità..? Allora continua in questa direzione.
+~
+~
+0 -1 1560 0
+D3
+Da qui procedi verso le rive del fiume.
+~
+~
+0 -1 1561 0
+D4
+Scorgi un impervio sentiero.
+~
+~
+0 -1 1558 0
+S
+#1560
+Un oscuro sentiero~
+La densa oscurità del sentiero allerta i sensi, soprattutto l'udito.
+Ogni piccolo rumore potrebbe nascondere l'arrivo di qualche nemico e non è 
+il caso di farsi trovare impreparati, soprattutto se "nemico" significa hobgoblin.
+Se aguzzi la vista però, scorgerai uno stradello che risale verso la cima di 
+una collina fino all'imbocco di una grotta.
+~
+0 4 3 0 0 0
+D2
+Al termine del sentiero.
+~
+~
+0 -1 1578 0
+D3
+Un'intersezione nella strada.
+~
+~
+0 -1 1559 0
+S
+#1561
+Vicino alle rive~
+La pesante oscurità che ammanta il sentiero si dirada momentaneamente passando
+accanto al fiumiciattolo. Una breccia fra gli alberi consente uno spiraglio, un
+passaggio verso il fiume dove si potrà fare un bagno nelle acque cristalline.
+Dall'altra parte del fiume un sentiero conduce fino alla cima di una collina.
+~
+0 4 3 0 0 0
+D1
+Scorgi un'intersezione nel sentiero.
+~
+~
+0 -1 1559 0
+D9
+In questa direzione t'inoltri nella fitta oscurità.
+~
+~
+0 -1 1562 0
+S
+#1562
+Avvolti nell'oscurità~
+Gli alberi sovrastano lo stradello con fare minaccioso, quasi fossero psicopompi
+in attesa di condurre agli inferi la loro prossima vittima.
+Lunghe alghe viscide pendono dai rami, incomprensibilmente resistono agli sporadici
+raggi di luce che filtra ogni tanto. Gli arbusti lungo il sentiero sembrano 
+allungare le proprie spine per pungerti. Guardando verso sud, lo stradello conduce
+dritto all'imbocco di una caverna.
+~
+0 4 3 0 0 0
+D2
+Scorgi un'oscura caverna.
+~
+~
+0 -1 1563 0
+D6
+Intravedi uno spiazzo fra gli alberi, sarà solo un miraggio?
+~
+~
+0 -1 1561 0
+S
+#1563
+Una caverna oscura~
+Per fortuna qua invece della polvere c'è un simpatico straterello di alghe 
+viscide e fango non meglio definibile.. Sopra esso galleggiano in bella 
+vista i rimasugli dell'ultimo pasto delle creature della grotta: ciccia ormai
+verde, ossa spolpate, qualche frutto marcio pieno di vermi.
+Se lo stomaco ti regge puoi proseguire lungo il passaggio.
+~
+0 8 13 0 0 0
+D0
+Qui inizia un tunnel sotterraneo molto scuro.
+~
+~
+0 -1 1562 0
+D1
+Scorgi un oscuro passaggio.
+~
+~
+0 -1 1564 0
+D9
+Scorgi un oscuro passaggio
+~
+~
+0 -1 1568 0
+S
+#1564
+Un umido passaggio~
+Umido, fetido, nauseabondo e già va bene.. L'aria in questo passaggio è resa
+irrespirabile da mucchietti di sporcizia, dall'umidità, dall'odore insopportabile
+degli hobgoblin..
+Chiunque viva qui deve avere un costante raffreddore.
+~
+0 8 13 0 0 0
+D0
+Vedi una casetta sporca.
+~
+~
+0 -1 1565 0
+D1
+Scorgi un mucchio di roba andata a male.
+~
+~
+0 -1 1566 0
+D2
+Vedi una piccola stanzina.
+~
+~
+0 -1 1567 0
+D3
+Evviva! Finalmente l'uscita.
+~
+~
+0 -1 1563 0
+S
+#1565
+Polvere e decadenza~
+Una nuvola di polvere si solleva appena entri, oscurando per un attimo tutta la
+stanza e infilandosi nei polmoni causando tosse ed irritazione..
+Alcune pellicce sono accumulate in un angolo nel pavimento, sono molto rovinate 
+e probabilmente a questo punto servono soltanto ad accrescere la discarica.
+~
+0 8 13 0 0 0
+D2
+Vedi un passaggio umido e buio.
+~
+~
+0 -1 1564 0
+S
+#1566
+Un forte puzzo di rancido~
+La camera è piena zeppa di ossa e brandelli di carne in decomposizione. Da alcuni
+cadaveri si esalano vapori verdastri tutt'altro che salutari, causando nei presenti
+grandi crisi lacrimatorie.. Sulle pareti crescono dei funghi dall'aspetto più 
+che mai viscido.
+~
+0 12 13 0 0 0
+D3
+Vedi un umido tunnel in questa direzione.
+~
+~
+0 -1 1564 0
+> entry_prog 100~
+  if race ($n) == half-ogre
+  or race ($n) == half-orc
+  or race ($n) == half-troll
+  or ismob ($n)
+    mpechoat $n Una puzza orribile aleggia nella stanza ma tutto sommato c'è di peggio..
+  else
+    mpechoat $n L'orribile puzza della stanza ti chiude tutte le vie respiratorie.
+    mpechoaround $n $n tossisce per l'immane puzzo che regna in questo posto.
+    mpdamage $n 5
+    mpechoat $n Avverti un forte bruciore al petto, come se l'aria fosse di fuoco..
+    mpechoat $n Fortunatamente il dolore sta passando e puoi respirare di nuovo..
+  endif
+~
+|
+S
+#1567
+Una minuscola casupola~
+E' piccolissima e soffocante, per chi soffre di claustrofobia questa casa è una
+cura ideale. Dopo due minuti qua dentro, o sei morto, o sei guarito.
+Dai numerosi segni che sporcano le pareti, si direbbe che questa sia una sala
+molto frequentata, per fortuna che c'è lo spazio per girarsi su se stessi 
+altrimenti si dovrebbe uscire all'indietro.
+~
+0 8 13 0 0 0
+D0
+Vedi il tunnel oscuro che t'ha portato fin qui.
+~
+~
+0 -1 1564 0
+S
+#1568
+Un passaggio umido e buio~
+L'aria stagnante e puzzolente di questo luogo consiglierebbe a chiunque di girare
+i tacchi ed andare altrove. Per terra vedi molti detriti e rimasugli di cibo 
+ormai preda di prepotente decomposizione.. I padroni di casa sanno proprio come
+accogliere i propri ospiti.
+~
+0 8 13 0 0 0
+D0
+Il tunnel curva prendendo altre direzioni.
+~
+~
+0 -1 1570 0
+D2
+Una stanza piena d'ossa.
+~
+~
+0 -1 1569 0
+D6
+Da questa parte forse c'è l'uscita.
+~
+~
+0 -1 1563 0
+S
+#1569
+Un ossario~
+Ossa, ossa e ancora ossa dappertutto; coprono il pavimento, abbelliscono le
+pareti, formano arcate sul soffitto. Questo confuta l'ipotesi che gli 
+hobgoblin non posseggano velleità artistiche..
+~
+0 8 13 0 0 0
+D0
+Vedi un oscuro passaggio.
+~
+~
+0 -1 1568 0
+S
+#1570
+Una svolta nel tunnel~
+Il tunnel curva proseguendo verso sud ed ovest, ma la costante dei pezzi di cibo
+avariato buttati per terra ti accompagnerà in entrambe le direzioni.
+~
+0 8 13 0 0 0
+D0
+Vedi una stanza vuota e polverosa.
+~
+~
+0 -1 1571 0
+D2
+Scorgi un oscuro passaggio.
+~
+~
+0 -1 1568 0
+D3
+Continuando per qui raggiungerai il termine del passaggio.
+~
+~
+0 -1 1572 0
+S
+#1571
+Uno spazio vuoto~
+Uno strato di polvere alto circa tre pollici permea il pavimento creando un 
+divertente tappeto che attutisce i rumori. Alcune ragnatele, spesse come pentole
+occupano gran parte del soffitto, se non altro, dormendo qui, non correrai il 
+rischio che qualche zanzara ti punga..
+E' una stanza tutto sommato abbandonata a se stessa.
+~
+0 8 13 0 0 0
+D2
+Il passaggio curva proseguendo in altre direzioni.
+~
+~
+0 -1 1570 0
+S
+#1572
+In fondo al tunnel~
+Il passaggio raggiunge il suo termine proprio qui: scorgi tre camere che restano
+verso nord, sud e ovest. La stanza ad ovest sembra molto più larga delle altre
+e da essa provengono dei confortanti grugniti di creature dell'oscurità.
+~
+0 8 13 0 0 0
+D0
+Da qui odi il gorgoglio della putrida fonte.
+~
+~
+0 -1 1573 0
+D1
+Il passaggio curva in altre direzioni.
+~
+~
+0 -1 1570 0
+D2
+Vedi l'ingresso ad una stanza tutto sommato pulita.
+~
+~
+0 -1 1574 0
+D3
+Vedi la guardiola.
+~
+~
+0 -1 1575 0
+S
+#1573
+Una sporca pozza~
+Una piccola pozza d'acqua se ne sta tranquilla alla base della parete settentrionale
+della sala. La sorgente è in una piccola crepa nel muro da cui sgorga incessantemente
+un rivoletto d'acqua tutto sommato putrida e puzzolente.
+Pare che questa sia l'unica fonte d'abbeveraggio per gli hobgoblin.
+~
+0 8 13 0 0 0
+D2
+Scorgi l'inizio di un sentiero.
+~
+~
+0 -1 1572 0
+S
+#1574
+Un locale quesi pulito~
+A confronto con le altre stanze, questa è una reggia degna di principi e principesse.
+Le pellicce accatastate in un angolo formano un comodo giaciglio per chi decidesse
+di fermarsi a schiacciare un pisolino.
+Stranamente non puzzano nemmeno di carne in decomposizione, né di cadavere.
+Probabilmente qui ci abita un hobgoblin che molto ha imparato dalle buone maniere
+degli gnomi.
+~
+0 8 13 0 0 0
+D0
+Vedi l'imbocco di un passaggio.
+~
+~
+0 -1 1572 0
+S
+#1575
+La sala delle guardie~
+Una pila di cibo ammuffito fa da apriporta in questa sala delle guardie.
+Una bella accoglienza, non c'è che dire, in pieno stile hobgoblin. 
+Per terra vedi scaraventati alcuni pezzi di armature ed armi ormai arrugginite,
+abbandonate in un angolo nell'attesa di una degna sepoltura in discarica.
+A nord deve trovarsi la camera di qualche alto funzionario, forse del re in
+persona.
+~
+0 12 13 0 0 0
+D0
+La sala del capo delle guardie.
+~
+~
+0 -1 1500 0
+D1
+L'ingreso ad un passaggio scuro ed umido.
+~
+~
+0 -1 1572 0
+S
+#1576
+La stanza del Re~
+E' molto spaziosa, alle pareti sono appese diverse pellicce di animali, trofei 
+di caccia del Re. Un trono di grandi dimensioni occupa una buona parte di sala: si
+tratta di un unico blocco di granito, faticosamente scolpito e modellato per far stare
+comodo un Re. Il trono è sistemato in modo da occupare quasi per intero la parete
+occidentale.. Sarà un caso?
+Una fila di torce percorre tutto il muro illuminando l'ambiente e donando al salone
+un'aria meno spettrale; per fortuna il fumo delle torce copre un po' di puzza.
+~
+0 12 13 0 0 0
+D2
+La sala del capo delle guardie.
+~
+porta granito~
+3 -1 1500 0
+D3
+~
+trono~
+2098223 1500 1577 0
+E
+trono~
+E' un grosso trono pesante, di granito scuro e sta proprio proprio davanti 
+alla parete ovest, coprendola quasi interamente..
+~
+S
+#1577
+La sala del tesoro~
+Sei nella stanza del tesoro degli hobgoblin, piuttosto scarna in verità
+conoscendo le ambizioni ladresche di queste creature.
+Un bel gruzzoletto di monete se ne sta buono buono in mezzo alla stanza
+in compagnia di altri gioielli.
+~
+0 12 13 0 0 0
+D1
+La camera del Re.
+~
+porta trono~
+35 -1 1576 0
+S
+#1578
+Alla fine dell'oscuro sentiero~
+Il sentiero termina qui alle pendici di una scoscesa collina, proprio davanti
+all'imbocco di una grotta dall'aria poco rassicurante. E' bello scuro là dentro..
+Giungono alcuni suoni soffocati, grida di giubilo e urla disumane, ma cosa 
+starà succedendo?
+Un sentierino risale il versante della collina, è un po' faticoso da percorrere
+ma se vuoi andare via da qui, quella è l'unica via.
+~
+0 4 3 0 0 0
+D0
+Vedi un oscuro passaggio.
+~
+~
+0 -1 1560 0
+D1
+Vedi l'imbocco di un'umida caverna.
+~
+~
+0 -1 1581 0
+D4
+Eh.. la salita non sarà proprio una passeggiatina.
+~
+~
+128 -1 1579 0
+S
+#1579
+Un'erta salita~
+Il sentiero si confonde con l'erbetta della collina, la salita si fa sempre 
+più ardua fino alla cima della collina. Bisogna fare attenzione a dove si 
+mettono i piedi, alcune rocce sporgenti non facilitano la camminata.
+Hai raggiunto ormai una quota sufficiente per guardare dall'alto la foresta
+nera, quei poveri alberi certo non invogliano a scendere una seconda volta..
+~
+0 4 3 0 0 0
+D4
+Ti pare di vedere un posto di guardia.
+~
+~
+128 -1 1580 0
+D5
+In questa direzione scorgi la foresta.
+~
+~
+128 -1 1578 0
+S
+#1580
+Un posto di guardia abbandonato~
+Appena sali gli ultimi metri di collina, ti trovi davanti ad un posto di guardia
+abbandonato ormai da tempo. Un piccolo riparo di assi di legno è stato costruito
+alla meno peggio, per proteggersi dalle intemperie, ma il livello di sicurezza
+che ispira questo capannotto è pari a quello di un salvagente bucato in una 
+tempesta. Questo è uno degli avamposti degli hobgoblin, da qui essi possono 
+spiare l'intera foresta, tenendo d'occhio il villaggio degli gnomi.
+~
+0 4 3 0 0 0
+D5
+Un pendio scosceso.
+~
+~
+128 -1 1579 0
+S
+#1581
+Una strana eco nell'aria~
+Appena pochi passi ed ecco che una densa oscurità t'avvolge, puoi seguire i tuoi
+movimenti ascoltando la eco dei tuoi passi. Stando ai suoni che tornano indietro,
+pare che la caverna sia molto più ampia di quanto non sembrava da fuori e si 
+estende a lungo verso est.
+~
+0 9 13 0 0 0
+D1
+La grotta s'estende in questa direzione.
+~
+~
+0 -1 1582 0
+D3
+Scorgi l'inizio del sentiero che va verso la foresta.
+~
+~
+0 -1 1578 0
+S
+#1582
+Una svolta improvvisa~
+A mala pena si tiene l'orientamento in questa caverna, d'un tratto ci si ritrova
+una svolta ad ovest ed una a nord, senza neanche averle intraviste!
+Strascichi di rumori e suoni indistinti provengono da ogni dove, rimbombando per 
+tutte le pareti della grotta e giungendo fino a qui mescolati e frammentati.
+Cercando e cercando scovi un passaggio verso ovest.
+~
+0 9 13 0 0 0
+D0
+La grotta prosegue in questa direzione.
+~
+~
+0 -1 1593 0
+D1
+Vedi un umido passaggio nella caverna.
+~
+~
+0 -1 1583 0
+D3
+La grotta si estende in questa direzione.
+~
+~
+0 -1 1581 0
+S
+#1583
+Un umido tunnel~
+Le pareti grondanti umidità si incontrano con un pavimento altrettanto umidiccio
+generando un tunnel sotterraneo che pare un passaggio subacqueo.
+E' un tunnel scavato nella dura pietra e si vedono ancora i segni dei picconi 
+e qualche traccia di sangue, forse di un minatore hobgoblin.
+Il tunnel si divide in due tronconi, uno va verso nord, l'altro dirige verso
+sudest. Ad ovest scorgi un'ampia caverna.
+~
+0 13 13 0 0 0
+D0
+Il tunnel prosegue in questa direzione.
+~
+~
+0 -1 1584 0
+D3
+Scorge una vasta ed oscura caverna.
+~
+~
+0 -1 1582 0
+D8
+Vedi una piccola guardiola.
+~
+~
+0 -1 1587 0
+S
+#1584
+Scorgi il termine di un passaggio umido~
+Il tunnel finisce qui davanti alla porta di una cella, realizzata con legno 
+ancora verde e liane. Nonostante le apparenze questa porta non è affatto
+facile da buttare giù.
+Non ci sono lucchetti e non ci sono guardie in giro a sorvegliarla.. 
+~
+0 13 13 0 0 0
+D1
+La cella è davvero strana..
+~
+~
+3 -1 1585 0
+D2
+Il tunnel prosegue in questa direzione.
+~
+~
+0 -1 1583 0
+E
+dporta~
+A prima vista questa porta sembra molto fragile, realizzata con semplici assi
+di legno giovane e tenero. Non credere alle apparenze, è solida come roccia
+e se provi a buttarla giù te ne accorgerai.
+~
+S
+#1585
+Una strana cella~
+Pare che l'inquilino di questa cella ci si sia trovato così bene da voler persino
+abbellire la propria prigione. Un bel lettino morbido, alcune stampe appese alle 
+pareti, un tavolo di legno di quercia ed una poltrona, ecco l'arredamento.
+Può apparire molto essenziale, ma stando ai canoni delle altre prigioni, questa
+qua al confronto è una reggia. Il pavimento è coperto da un tappeto in buono stato.. 
+L'occupante di questa cella deve essere proprio un pezzo grosso.
+~
+0 13 13 0 0 0
+D3
+Vedi l'inizio di un tunnel.
+~
+~
+3 -1 1584 0
+D5
+Un portale lucente è difronte a te.
+~
+floor botola trappola porta~
+3016715 -1 1529 0
+E
+tappeto~
+E' lavorato a mano, lana preziosa ed intrecciata a rappresentare degli intricati
+meccanismi e creature metalliche di altri mondi.
+Guardando attentamente il tappeto scorgi un piccolo rialzo sotto uno dei bordi.
+Non è un caso, è la maniglia di una botola segreta.
+~
+S
+#1586
+Un magazzino~
+Sei in un piccolo magazzino per minatori, i picconi e le pale sono allineati
+contro le pareti, nel complesso questa stanza sembra essere una sistemazione
+provvisoria.
+A nord, un passaggio rivela lo sviluppo dei lavori, gli hobgoblin si stanno
+aprendo delle vie in questa direzione.
+~
+0 13 13 0 0 0
+D2
+Vedi l'inizio di un tunnel.
+~
+~
+0 -1 1597 0
+S
+#1587
+Una guardiola~
+Un tavolo di legno grezzo è posto al centro della stanza occupando
+metà della superficie calpestabile. Sporche torce alle pareti forniscono
+un minimo di illuminazione alla guardiola che comunica con un'altra sala delle
+guardie verso est. A nord e sud due pesanti porte ti separano dalle celle 
+dei detenuti.
+~
+0 9 13 0 0 0
+D0
+Vedi una porta sbarrata.
+~
+~
+3 -1 1591 0
+D1
+~
+~
+0 -1 1588 0
+D2
+Vedi una porta sbarrata.
+~
+~
+3 -1 1592 0
+D7
+Un passaggio umido e scuro.
+~
+~
+0 -1 1583 0
+E
+porta~
+A prima vista questa porta sembra molto fragile, realizzata con semplici assi
+di legno giovane e tenero. Non credere alle apparenze, è solida come roccia
+e se provi a buttarla giù te ne accorgerai.
+~
+S
+#1588
+La guardiola~
+Contro la parete orientale della guardiola vedi una brandina malconcia che ha
+sicuramente conosciuto tempi migliori. Due ulteriori celle sono a nord e a sud
+mentre l'unica uscita possibile è ad ovest. 
+~
+0 9 13 0 0 0
+D0
+Vedi una porta sbarrata.
+~
+~
+3 -1 1589 0
+D2
+Vedi una porta sbarrata.
+~
+~
+3 -1 1590 0
+D3
+Vedi un'altra guardiola.
+~
+~
+0 -1 1587 0
+E
+porta~
+A prima vista questa porta sembra molto fragile, realizzata con semplici assi
+di legno giovane e tenero. Non credere alle apparenze, è solida come roccia
+e se provi a buttarla giù te ne accorgerai.
+~
+S
+#1589
+Una cella vuota~
+E' una cella vuota, inutilizzata da molto tempo giudicando dallo spessore della 
+coltre di polvere che s'è depositata per terra. L'unica traccia, l'unico ricordo
+del precedente inquilino è un po' di paglia orma tutta ammuffita ed alcune 
+incisioni sul muro.
+~
+0 9 13 0 0 0
+D2
+Vedi la guardiola.
+~
+~
+3 -1 1588 0
+E
+graffi incisioni~
+Guardando attentamente le pareti della cella scopri alcune insolite scritte forse
+qualche lamento inciso dei precedenti occupanti. Ci sono delle parole recanti
+strani simboli, magari si tratta di formule e riti arcani, ma ormai è troppo
+tardi per recuperare qualcosa, il tempo ha mezzo cancellato tutto.
+~
+S
+#1590
+Una cella ben tenuta~
+Non è proprio sconfortante l'idea di finire prigionieri in questa cella: è pulita
+ed arredata con un comodo lettino, semplice ma sicuro, un tavolinetto ed una 
+seggiolina.
+Chiunque sia stato costretto a trascorrere qui del tempo, è riuscito a trovare
+il coraggio per non rendersi penoso il soggiorno, occupandosi di tenere in ordine
+quest'orribile luogo.
+~
+0 9 13 0 0 0
+D0
+Vedi una sala delle guardie.
+~
+~
+3 -1 1588 0
+S
+#1591
+Una cella oscura~
+E' una densa oscurità, quella che avvolge la cella in cui ti trovi, costringendoti
+la flebile luce a lottare disperatamente per farsi notare in mezzo al buio.
+Nel complesso, se anche fosse illuminata a giorno non ci sarebbe nulla da 
+vedere, esclusi un po' di paglia come letto ed una piccola stoviglia, un piatto rotto.
+~
+0 9 13 0 0 0
+D2
+Vedi una sporca guardiola.
+~
+~
+3 -1 1587 0
+S
+#1592
+Una cella disordinata~
+Questa cella è piena d'ogni ben di Dei, porene di navi, metallo fuso e riassemblato
+in modo improbabile, sassi scolpiti a forma di barattolo.
+Lungo le pareti sono allineate diverse scatole, lasciando un piccolo spazio per un
+pagliericcio addossatto al muro meridionale. 
+Probabilmente è il giaciglio del magazziniere.
+~
+0 9 13 0 0 0
+D0
+Vedi una sporca stanza.
+~
+~
+3 -1 1587 0
+S
+#1593
+In fondo alla caverna~
+La caverna termina in modo repentino, in modo quasi brutale: lo spostamento
+di qualche masso deve aver causato una frana che a sua volta a posto fine
+al cunicolo nel quale ti trovi ora.
+Verso nord intravedi un piccolo passaggio, ricavato fra le rocce, probabilmente
+dagli stessi hobgoblin.
+~
+0 9 13 0 0 0
+D0
+Vedi un passaggio umido e scuro.
+~
+~
+0 -1 1594 0
+D2
+La caverna continua in questa direzione.
+~
+~
+0 -1 1582 0
+S
+#1594
+Un passaggio buio ed umido~
+Ricavato dalla nuda roccia, questo passaggio sembra di nuova fattura.
+Polvere ed alcuni frammenti di roccia sono disseminati ovunque lungo
+il percorso, tracce evidenti di un recente lavoro.
+Data la natura incostante degli hobgoblin, non è possibile sapere se
+i lavori di trivellatura siano stati interrotti pochi giorni fa o 
+addirittura mesi fa.
+~
+0 9 13 0 0 0
+D1
+Vedi una sala per le conferenze.
+~
+~
+0 -1 1596 0
+D2
+Vedi una grossa e buia caverna.
+~
+~
+0 -1 1593 0
+D3
+Uno sgabuzzino.
+~
+~
+0 -1 1595 0
+D6
+Il passaggio prosegue.
+~
+~
+0 -1 1597 0
+S
+#1595
+Uno sgabuzzino~
+Le pareti spariscono dietro alle alte pile di scatole e scatoloni 
+ammassati per ogni dove. Alcuni meccanismi assemblati a casaccio
+occupano parte del pavimento, insieme con manette e catenelle il cui
+stato versa in preoccupanti condizioni d'abbandono e ruggine.
+~
+0 9 13 0 0 0
+D1
+Un passaggio umido prosegue in questa direzione.
+~
+~
+0 -1 1594 0
+E
+scatole cartoni scatoloni~
+Gli scatoloni sono pieni zeppi di ciarpame: vecchi pannelli di legno, pezzi
+di mettallo inutilizzato, rotelline d'alluminio.. Insomma un po' di tutto.
+~
+E
+assemblaggi meccanismi~
+E' curioso rigirare fra le mani questi agglomerati d'ingranaggi e scoprire
+nuove forme di vita metallica spuntare fuori da un'improbabilissima rete
+di rotelle, pannellini, bottoni..
+Più che capire il modo di utilizzare queste robe, sarebbe bello capire a cosa
+servano.
+~
+E
+catene manette~
+Un po' arrugginite ma ancora ben funzionanti, queste catene e manette sono
+state usate anche di recente. Dalle dimensioni delle manette si direbbe che
+siano adatte per una creatura più grande di uno gnomo, forse un hogoblin..
+~
+S
+#1596
+Una sala per le conferenze~
+E' una sala molto accurata, arredata con gusto e pulita in modo quasi maniacale.
+Un paio di scrivanie in legno di quercia sono poste agli angoli della sala
+circondate da monti di fogli e carte varie, rigorosamente inchiostrati con
+formule e diagrammi apparentemente sconosciuti.
+In un angolino sono riposti anche alcuni lenzuoli.. per quale motivo?
+Oltre alla stranezza di trovar lenzuola in una sala per conferenza, da una parte
+vedi un mucchietto di ferraglia, catene e manette. Ma che posto strano..
+~
+0 9 13 0 0 0
+D3
+Un passaggio umido e buio.
+~
+~
+0 -1 1594 0
+E
+catene manette~
+Un po' arrugginite ma ancora ben funzionanti, queste catene e manette sono
+state usate anche di recente. Dalle dimensioni delle manette si direbbe che
+siano adatte per una creatura più grande di uno gnomo, forse un hogoblin..
+~
+E
+fogli foglio pila mucchio~
+Curiosando fra i monti di fogli che sono accatastati qui, scopri diagrammi,
+grafici e formule discretamente incomprensibili.
+Puoi cimentarti con essi fin quanto vuoi, se scoprirai qualcosa, comunicalo
+agli scienziati del luogo, potrebbe essere utile..
+~
+E
+lenzuola lenzuolo~
+Un piccolo bordino diamantato costeggia tutta la superficie del lenzuolo
+conferendogli una certa importanza, anche se non si capisce la necessità
+di diamanti in un oggetto che finisce a lavarsi nei fiumi..
+~
+E
+scrivania scrivanie quercia~
+Un bel blocco di legno scuro ha dato vita alle scrivanie della stanza ma
+guardandole da vicino t'accorgi che la superficie è un po' graffiata, segno
+di un uso protratto nel tempo e non sempre accorto.
+~
+S
+#1597
+Alla fine del passaggio~
+Il passaggio termina qui, le pareti si fanno via via più grezzi nella lavorazione
+segno di una muratura recente ed incompleta. Pezzi di pietre sono sparsi
+ovunque su tutto il pavimento. A nord un'arcata conduce fuori da qui.
+~
+0 9 13 0 0 0
+D0
+E' un magazzino quello?
+~
+~
+0 -1 1586 0
+D1
+Intravedi la porta di un laboratorio malmesso.
+~
+~
+0 -1 1599 0
+D3
+Una puzza tremebonda proviene da questa direzione.
+~
+~
+0 -1 1598 0
+D9
+Il passaggio prosegue in questa direzione.
+~
+~
+0 -1 1594 0
+E
+pietra macerie pietre~
+Dando un'occhiata alle macerie scorgi dei segni di arnesi utilizzati
+per spostare via le grosse pietre. Stando ai grossi segni lasciati, chi
+ha lavorato qui doveva essere ben forte, anche perché ci sono le
+impronte di massi incredibilmente grossi spostati chissà dove.
+~
+S
+#1598
+Un laboratorio puzzolente~
+L'aria è appesantita dai residui di mille e più esperimenti falliti.
+Dappertutto si trovano contenitori di tutte le dimensioni, alcuni sono
+spaccati, altri bruciacchiati, altri sbeccati, insomma ce n'è per tutti i
+gusti.
+I rimasugli degli esperimenti giacciono cadaverici sul pavimento: tranci
+di carne ormai verde, fette di torta ammuffita ed altro ancora è disposto
+in posizioni bizzarre sul tavolo all'angolo.
+~
+0 9 13 0 0 0
+D1
+Un passaggio umido ed oscuro prosegue in questa direzione.
+~
+~
+0 -1 1597 0
+E
+coppe bottiglie contenitori~
+Bruciacchiati, arrugginiti, sbeccati, frantumati, i contenitori di
+questo laboratorio han conosciuto uso ed abuso durante i numerosi
+esperimenti condotti.
+~
+E
+tavolo~
+Questo tavolo deve averne viste di cotte e di crude dato lo stato pietoso
+in cui versa; la sua superficie è graffiata e scarabocchiata peggiorando
+così le sue condizioni già ampiamente pietose.
+~
+> entry_prog 100~
+  if race ($n) == half-ogre
+  or race ($n) == half-orc
+  or race ($n) == half-troll
+  or ismob ($n)
+    mpechoat $n Una puzza orribile aleggia nella stanza ma tutto sommato c'è di peggio..
+  else
+    mpechoat $n L'orribile puzza della stanza ti chiude tutte le vie respiratorie.
+    mpechoaround $n $n tossisce per l'immane puzzo che regna in questo posto.
+    mpdamage $n 5
+    mpechoat $n Avverti un forte bruciore al petto, come se l'aria fosse di fuoco..
+    mpechoat $n Fortunatamente il dolore sta passando e puoi respirare di nuovo..
+  endif
+~
+|
+S
+#1599
+Un laboratorio malridotto~
+Più che un laboratorio pare d'essere in una discarica: un tavolino mezzo
+divorato dai tarli si regge a malapena sull'unica zampa rimasta, pezzi
+di macchinari sono sparsi sul pavimento od ammonticchiati su alte pile
+insieme a bucce di fruttini, pezzi di carne mangiucchiata ed altri rimasugli
+organici non meglio definibili.
+Sul tavolino vedi dei fogli scribacchiati, sembrano appunti importanti..
+~
+0 9 13 0 0 0
+D3
+Da qui entri in un freddo ed umido cunicolo..
+~
+~
+0 -1 1597 0
+E
+rottami ferraglia chincaglieria~
+Alte colonne di robaccia accatastata occupano parte del laboratorio in cui
+ti trovi; si tratta di robaccia sparsa, rimasugli di cibo mescolati con parti
+di macchinari.. Gli hobgoblins si curano dei propri esperimenti tanto quanto
+si preoccupano delle proprie case
+~
+E
+scarabocchi appunti fogli~
+Si tratta di imperscrutabili calcoli matematici, integrali a mille variabili,
+quantistiche sconosciute e diagrammi di urti particellari.
+Guardando meglio.. I grafici diventano disegni infantili e i calcoli altro non
+sono che meri scarabocchi.
+~
+E
+macchinario macchina~
+Dando un'occhiata ai molti pezzi sparsi sul tavolo, risulta difficile
+pensare che un tempo erano assemblati in uno strumento di una qualsivoglia
+utilità. L'idea di base poteva anche essere buona, ma la realizzazione dei
+meccanismi lascia davvero a desiderare.
+~
+E
+tavolo~
+Non è ben messo questo tavolo: delle zampe che un tempo lo reggevano ormai
+rimane solo un bel ricordo ed un ultimo supporto di legno tenuto insieme
+da ciarpame metallico non meglio identificato.
+~
+S
+#0
+
+#RESETS
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+M 0 1517 7 1500  ; Mob: #1517 un soldato hobgoblin => #1500 The chief guard
+D 0 1500 0 1  ; Door: #1500 The chief guard/nord => closed
+O 1 1598 1 1501  ; Object: #1598 a signpost => #1501 A bend in the trail
+M 0 1527 2 1502  ; Mob: #1527 a gnome guard => #1502 A distant sound
+E 1 1504 2 16  ; -- Equip: #1504 una spada gnomica (impugnato            - impugnato)
+E 1 1505 2 11  ; -- Equip: #1505 uno scudo borchiato (scudo                - indossato come scudo)
+G 1 1542 2 ; -- Give:  #1542 a vial of fizz
+E 1 1543 2 3  ; -- Equip: #1543 a tattered plaid cloak (collo-1              - indossato al collo n° 1)
+M 0 1527 2 1502  ; Mob: #1527 a gnome guard => #1502 A distant sound
+G 1 1542 2 ; -- Give:  #1542 a vial of fizz
+E 1 1543 2 3  ; -- Equip: #1543 a tattered plaid cloak (collo-1              - indossato al collo n° 1)
+E 1 1504 2 16  ; -- Equip: #1504 una spada gnomica (impugnato            - impugnato)
+E 1 1505 2 11  ; -- Equip: #1505 uno scudo borchiato (scudo                - indossato come scudo)
+M 0 1504 2 1505  ; Mob: #1504 un assistente => #1505 A small lab
+G 1 1537 4 ; -- Give:  #1537 a glowing beaker of liquid
+M 0 1532 2 1505  ; Mob: #1532 a gnome scientist => #1505 A small lab
+E 1 1511 4 17  ; -- Equip: #1511 un cesto di vimini (tenuto               - tenuto)
+M 0 1504 2 1506  ; Mob: #1504 un assistente => #1506 A small lab
+G 1 1537 4 ; -- Give:  #1537 a glowing beaker of liquid
+O 1 1525 1 1506  ; Object: #1525 object => #1506 A small lab
+O 1 1524 1 1506  ; Object: #1524 a lever inside the object => #1506 A small lab
+M 0 1532 2 1507  ; Mob: #1532 a gnome scientist => #1507 Gears galore
+E 1 1511 4 17  ; -- Equip: #1511 un cesto di vimini (tenuto               - tenuto)
+M 0 1503 2 1508  ; Mob: #1503 uno gnomo scienziato => #1508 Careful storage
+E 1 1511 4 17  ; -- Equip: #1511 un cesto di vimini (tenuto               - tenuto)
+M 0 1531 2 1510  ; Mob: #1531 an assistant => #1510 End of the path
+G 1 1537 4 ; -- Give:  #1537 a glowing beaker of liquid
+M 0 1531 2 1511  ; Mob: #1531 an assistant => #1511 A strange garden
+G 1 1537 4 ; -- Give:  #1537 a glowing beaker of liquid
+M 0 1503 2 1511  ; Mob: #1503 uno gnomo scienziato => #1511 A strange garden
+E 1 1511 4 17  ; -- Equip: #1511 un cesto di vimini (tenuto               - tenuto)
+M 0 1530 1 1513  ; Mob: #1530 the receptionist => #1513 A large office
+G 1 1501 1 ; -- Give:  #1501 una chiave sporca
+E 1 1536 2 20  ; -- Equip: #1536 a pair of reading glasses (occhi                - sugli occhi)
+D 0 1513 5 2  ; Door: #1513 A large office/basso => closed and locked
+M 0 1505 1 1514  ; Mob: #1505 il capo degli gnomi => #1514 The chief's lab
+E 1 1508 1 1  ; -- Equip: #1508 l'anello del pipistrello (dito-sx              - indossato al dito sinistro)
+E 1 1509 1 3  ; -- Equip: #1509 un collier di perle (collo-1              - indossato al collo n° 1)
+E 1 1535 1 16  ; -- Equip: #1535 an electrum sword (impugnato            - impugnato)
+M 0 1510 2 1515  ; Mob: #1510 un grosso ratto => #1515 A dank cellar
+M 0 1511 1 1515  ; Mob: #1511 un ratto gigante => #1515 A dank cellar
+D 0 1515 0 1  ; Door: #1515 A dank cellar/nord => closed
+D 0 1515 4 1  ; Door: #1515 A dank cellar/alto => closed
+M 0 1509 3 1516  ; Mob: #1509 un ratto => #1516 A dark, cold lab
+M 0 1510 2 1517  ; Mob: #1510 un grosso ratto => #1517 A brightly lit lab
+M 0 1509 3 1518  ; Mob: #1509 un ratto => #1518 A large, private lab
+M 0 1509 3 1518  ; Mob: #1509 un ratto => #1518 A large, private lab
+O 1 1526 1 1518  ; Object: #1526 The box => #1518 A large, private lab
+P 1 1527 1 1526  ; Put: #1527 an odd slick packet => #1526 The box
+D 0 1518 2 1  ; Door: #1518 A large, private lab/sud => closed
+O 1 1528 1 1519  ; Object: #1528 a crack in the wall => #1519 A secret lab
+P 1 1529 1 1528  ; Put: #1529 a small quill => #1528 a crack in the wall
+D 0 1519 2 1  ; Door: #1519 A secret lab/sud => closed
+M 0 1537 5 1520  ; Mob: #1537 a gnome child => #1520 Forest pathway
+E 1 1539 5 17  ; -- Equip: #1539 a rounded, flat stone (tenuto               - tenuto)
+M 0 1537 5 1520  ; Mob: #1537 a gnome child => #1520 Forest pathway
+E 1 1539 5 17  ; -- Equip: #1539 a rounded, flat stone (tenuto               - tenuto)
+M 0 1502 4 1521  ; Mob: #1502 uno gnomo => #1521 A thinning in the trees
+E 1 1515 4 8  ; -- Equip: #1515 un paio di stivali da gnomo (piedi                - indossato ai piedi)
+M 0 1502 4 1521  ; Mob: #1502 uno gnomo => #1521 A thinning in the trees
+E 1 1515 4 8  ; -- Equip: #1515 un paio di stivali da gnomo (piedi                - indossato ai piedi)
+M 0 1534 1 1522  ; Mob: #1534 the teacher => #1522 A small classroom
+E 1 1536 2 20  ; -- Equip: #1536 a pair of reading glasses (occhi                - sugli occhi)
+M 0 1535 1 1523  ; Mob: #1535 the teacher => #1523 A large classroom
+E 1 1503 1 16  ; -- Equip: #1503 un bastone nodoso (impugnato            - impugnato)
+M 0 1538 4 1525  ; Mob: #1538 a gnome woman => #1525 A draggle-tailed jumble
+E 1 1541 4 6  ; -- Equip: #1541 a plaid cotton handkerchief (testa                - indossato sulla testa)
+M 0 1538 4 1525  ; Mob: #1538 a gnome woman => #1525 A draggle-tailed jumble
+E 1 1541 4 6  ; -- Equip: #1541 a plaid cotton handkerchief (testa                - indossato sulla testa)
+M 0 1536 3 1527  ; Mob: #1536 a gnome child => #1527 The path widens
+E 1 1502 6 16  ; -- Equip: #1502 un boomerang (impugnato            - impugnato)
+O 1 1530 1 1527  ; Object: #1530 a stone plaque => #1527 The path widens
+M 0 1538 4 1528  ; Mob: #1538 a gnome woman => #1528 Pandemonium
+E 1 1541 4 6  ; -- Equip: #1541 a plaid cotton handkerchief (testa                - indossato sulla testa)
+M 0 1538 4 1528  ; Mob: #1538 a gnome woman => #1528 Pandemonium
+E 1 1541 4 6  ; -- Equip: #1541 a plaid cotton handkerchief (testa                - indossato sulla testa)
+M 0 1514 1 1529  ; Mob: #1514 una spia => #1529 Workshop
+E 1 1538 1 12  ; -- Equip: #1538 a ratty grey labcoat (intorno al corpo     - indossato intorno al corpo)
+D 0 1529 5 1  ; Door: #1529 Workshop/basso => closed
+M 0 1536 3 1531  ; Mob: #1536 a gnome child => #1531 An ill kept home
+E 1 1502 6 16  ; -- Equip: #1502 un boomerang (impugnato            - impugnato)
+M 0 1536 3 1531  ; Mob: #1536 a gnome child => #1531 An ill kept home
+E 1 1502 6 16  ; -- Equip: #1502 un boomerang (impugnato            - impugnato)
+M 0 1533 3 1532  ; Mob: #1533 a gnome child => #1532 A bend in the road
+E 1 1502 6 16  ; -- Equip: #1502 un boomerang (impugnato            - impugnato)
+M 0 1502 4 1532  ; Mob: #1502 uno gnomo => #1532 A bend in the road
+E 1 1515 4 8  ; -- Equip: #1515 un paio di stivali da gnomo (piedi                - indossato ai piedi)
+M 0 1502 4 1532  ; Mob: #1502 uno gnomo => #1532 A bend in the road
+E 1 1515 4 8  ; -- Equip: #1515 un paio di stivali da gnomo (piedi                - indossato ai piedi)
+M 0 1533 3 1534  ; Mob: #1533 a gnome child => #1534 A well kept home
+E 1 1502 6 16  ; -- Equip: #1502 un boomerang (impugnato            - impugnato)
+M 0 1533 3 1534  ; Mob: #1533 a gnome child => #1534 A well kept home
+E 1 1502 6 16  ; -- Equip: #1502 un boomerang (impugnato            - impugnato)
+M 0 1501 3 1535  ; Mob: #1501 una gnoma => #1535 A sloven hut
+E 1 1540 3 13  ; -- Equip: #1540 a plaid cotton apron (cinta                - indossato alla vita)
+M 0 1501 3 1535  ; Mob: #1501 una gnoma => #1535 A sloven hut
+E 1 1540 3 13  ; -- Equip: #1540 a plaid cotton apron (cinta                - indossato alla vita)
+M 0 1501 3 1536  ; Mob: #1501 una gnoma => #1536 Light and color
+E 1 1540 3 13  ; -- Equip: #1540 a plaid cotton apron (cinta                - indossato alla vita)
+M 0 1537 5 1537  ; Mob: #1537 a gnome child => #1537 The road less travelled
+E 1 1539 5 17  ; -- Equip: #1539 a rounded, flat stone (tenuto               - tenuto)
+M 0 1537 5 1538  ; Mob: #1537 a gnome child => #1538 A thin trail
+E 1 1539 5 17  ; -- Equip: #1539 a rounded, flat stone (tenuto               - tenuto)
+M 0 1537 5 1538  ; Mob: #1537 a gnome child => #1538 A thin trail
+E 1 1539 5 17  ; -- Equip: #1539 a rounded, flat stone (tenuto               - tenuto)
+M 0 1508 4 1540  ; Mob: #1508 un topolino di campo => #1540 An overgrown field
+G 1 1512 2 ; -- Give:  #1512 alcune noccioline
+M 0 1508 4 1540  ; Mob: #1508 un topolino di campo => #1540 An overgrown field
+G 1 1512 2 ; -- Give:  #1512 alcune noccioline
+M 0 1547 2 1541  ; Mob: #1547 the adder => #1541 A field by the river
+M 0 1508 4 1543  ; Mob: #1508 un topolino di campo => #1543 Skirting the river edge
+G 1 1513 2 ; -- Give:  #1513 una manciata di grano
+M 0 1508 4 1543  ; Mob: #1508 un topolino di campo => #1543 Skirting the river edge
+G 1 1513 2 ; -- Give:  #1513 una manciata di grano
+M 0 1545 1 1546  ; Mob: #1545 a large troll => #1546 A bridge over the river
+M 0 1546 1 1547  ; Mob: #1546 a large troll => #1547 A bridge over the river
+M 0 1547 2 1550  ; Mob: #1547 the adder => #1550 A dark path
+M 0 1524 1 1555  ; Mob: #1524 the hermit => #1555 A quiet home
+M 0 1529 1 1556  ; Mob: #1529 a canary => #1556 A comfortable bedchamber
+O 1 1531 1 1556  ; Object: #1531 a tall oak shelf => #1556 A comfortable bedchamber
+P 1 1532 1 1531  ; Put: #1532 a battered scroll => #1531 a tall oak shelf
+M 0 1513 3 1563  ; Mob: #1513 un pipistrello nero => #1563 A dark cave
+M 0 1513 3 1563  ; Mob: #1513 un pipistrello nero => #1563 A dark cave
+M 0 1513 3 1563  ; Mob: #1513 un pipistrello nero => #1563 A dark cave
+M 0 1520 6 1563  ; Mob: #1520 un minatore hobgoblin => #1563 A dark cave
+E 1 1597 1 17  ; -- Equip: #1597 a dirty shovel (tenuto               - tenuto)
+M 0 1520 6 1564  ; Mob: #1520 un minatore hobgoblin => #1564 A dank passage
+M 0 1526 1 1566  ; Mob: #1526 the cook => #1566 A rancid pile
+G 1 1534 1 ; -- Give:  #1534 a fungoid losenge
+O 1 1533 2 1566  ; Object: #1533 an odd fungus => #1566 A rancid pile
+M 0 1520 6 1568  ; Mob: #1520 un minatore hobgoblin => #1568 A dank passage
+M 0 1520 6 1570  ; Mob: #1520 un minatore hobgoblin => #1570 A turn in the passageway
+E 1 1597 1 17  ; -- Equip: #1597 a dirty shovel (tenuto               - tenuto)
+M 0 1520 6 1570  ; Mob: #1520 un minatore hobgoblin => #1570 A turn in the passageway
+E 1 1597 1 17  ; -- Equip: #1597 a dirty shovel (tenuto               - tenuto)
+M 0 1520 6 1570  ; Mob: #1520 un minatore hobgoblin => #1570 A turn in the passageway
+O 1 1573 1 1573  ; Object: #1573 a foul spring and pool => #1573 A foul spring
+M 0 1548 5 1575  ; Mob: #1548 the hobgoblin guard => #1575 The guard room
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1548 5 1575  ; Mob: #1548 the hobgoblin guard => #1575 The guard room
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1548 5 1575  ; Mob: #1548 the hobgoblin guard => #1575 The guard room
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1548 5 1575  ; Mob: #1548 the hobgoblin guard => #1575 The guard room
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1548 5 1575  ; Mob: #1548 the hobgoblin guard => #1575 The guard room
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1519 1 1576  ; Mob: #1519 il re degli hobgoblin => #1576 The King's chamber
+G 1 1500 1 ; -- Give:  #1500 una chiave insanguinata
+E 1 1544 1 12  ; -- Equip: #1544 a patchwork fur robe (intorno al corpo     - indossato intorno al corpo)
+E 1 1545 2 16  ; -- Equip: #1545 a gnarled sceptre (impugnato            - impugnato)
+M 0 1518 2 1576  ; Mob: #1518 una guardia del corpo hobgoblin => #1576 The King's chamber
+E 1 1520 3 5  ; -- Equip: #1520 una pesante maglia di ferro (corpo                - indossato sul corpo)
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1518 2 1576  ; Mob: #1518 una guardia del corpo hobgoblin => #1576 The King's chamber
+E 1 1520 3 5  ; -- Equip: #1520 una pesante maglia di ferro (corpo                - indossato sul corpo)
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+D 0 1576 2 1  ; Door: #1576 The King's chamber/sud => closed
+D 0 1576 3 2  ; Door: #1576 The King's chamber/ovest => closed and locked
+M 0 1521 1 1577  ; Mob: #1521 the treasurer => #1577 The treasure room
+G 1 1523 2 ; -- Give:  #1523 a potion of life healing
+O 1 1518 2 1577  ; Object: #1518 una pila di monete => #1577 The treasure room
+D 0 1577 1 1  ; Door: #1577 The treasure room/est => closed
+M 0 1516 2 1580  ; Mob: #1516 una guardia hobgoblin => #1580 A desolate guard post
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+E 1 1519 3 11  ; -- Equip: #1519 uno scudo di pietra (scudo                - indossato come scudo)
+E 1 1548 3 6  ; -- Equip: #1548 a grime covered helmet (E' UN CONTENITORE) (testa                - indossato sulla testa)
+G 1 1533 2 ; -- Give:  #1533 an odd fungus
+M 0 1516 2 1580  ; Mob: #1516 una guardia hobgoblin => #1580 A desolate guard post
+E 1 1521 10 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+E 1 1519 3 11  ; -- Equip: #1519 uno scudo di pietra (scudo                - indossato come scudo)
+E 1 1548 3 6  ; -- Equip: #1548 a grime covered helmet (E' UN CONTENITORE) (testa                - indossato sulla testa)
+G 1 1533 1516 ; -- Give:  #1533 an odd fungus
+M 0 1515 4 1581  ; Mob: #1515 un pipistrello di fuoco => #1581 Strange echos
+M 0 1515 4 1581  ; Mob: #1515 un pipistrello di fuoco => #1581 Strange echos
+D 0 1584 1 1  ; Door: #1584 The end of a dank passageway/est => closed
+D 0 1585 3 1  ; Door: #1585 A cell of a different ilk/ovest => closed
+D 0 1585 5 1  ; Door: #1585 A cell of a different ilk/basso => closed
+M 0 1551 2 1586  ; Mob: #1551 a hobgoblin miner => #1586 A storage room
+M 0 1549 4 1587  ; Mob: #1549 the hobgoblin guard => #1587 A guard post
+M 0 1549 4 1587  ; Mob: #1549 the hobgoblin guard => #1587 A guard post
+D 0 1587 0 1  ; Door: #1587 A guard post/nord => closed
+D 0 1587 2 1  ; Door: #1587 A guard post/sud => closed
+M 0 1549 4 1588  ; Mob: #1549 the hobgoblin guard => #1588 A guard room
+M 0 1549 4 1588  ; Mob: #1549 the hobgoblin guard => #1588 A guard room
+D 0 1588 0 1  ; Door: #1588 A guard room/nord => closed
+D 0 1588 2 1  ; Door: #1588 A guard room/sud => closed
+D 0 1589 2 1  ; Door: #1589 An empty cell/sud => closed
+M 0 1522 3 1590  ; Mob: #1522 a gnome prisoner => #1590 A well kept cell
+M 0 1522 3 1590  ; Mob: #1522 a gnome prisoner => #1590 A well kept cell
+M 0 1522 3 1590  ; Mob: #1522 a gnome prisoner => #1590 A well kept cell
+D 0 1590 0 1  ; Door: #1590 A well kept cell/nord => closed
+M 0 1539 1 1591  ; Mob: #1539 an infant shadow => #1591 A dark cell
+D 0 1591 2 1  ; Door: #1591 A dark cell/sud => closed
+M 0 1523 4 1592  ; Mob: #1523 a human prisoner => #1592 A cluttered cell
+M 0 1523 4 1592  ; Mob: #1523 a human prisoner => #1592 A cluttered cell
+M 0 1523 4 1592  ; Mob: #1523 a human prisoner => #1592 A cluttered cell
+M 0 1523 4 1592  ; Mob: #1523 a human prisoner => #1592 A cluttered cell
+D 0 1592 0 1  ; Door: #1592 A cluttered cell/nord => closed
+M 0 1515 4 1594  ; Mob: #1515 un pipistrello di fuoco => #1594 A dank passageway
+M 0 1515 4 1594  ; Mob: #1515 un pipistrello di fuoco => #1594 A dank passageway
+M 0 1551 2 1595  ; Mob: #1551 a hobgoblin miner => #1595 An assembly room
+M 0 1550 3 1598  ; Mob: #1550 a tinker => #1598 Un laboratorio puzzolente
+M 0 1550 3 1599  ; Mob: #1550 a tinker => #1599 Un laboratorio malridotto
+M 0 1550 3 1599  ; Mob: #1550 a tinker => #1599 Un laboratorio malridotto
+M 0 1552 1 1584  ; Mob: #1552 the hobgoblin guard => #1584 The end of a dank passageway
+E 1 1521 1552 16  ; -- Equip: #1521 a large club (impugnato            - impugnato)
+M 0 1500 2 1522  ; Mob: #1500 un bambino => #1522 A small classroom
+M 0 1500 2 1522  ; Mob: #1500 un bambino => #1522 A small classroom
+M 0 1566 3 1523  ; Mob: #1566 a gnome child => #1523 A large classroom
+M 0 1566 3 1523  ; Mob: #1566 a gnome child => #1523 A large classroom
+M 0 1566 3 1523  ; Mob: #1566 a gnome child => #1523 A large classroom
+S
+
+#SPECIALS
+M 1511 spec_poison   ; un ratto gigante
+S
+
+#END

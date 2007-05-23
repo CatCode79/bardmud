@@ -1,0 +1,1082 @@
+#SKILL
+Name         aggressive style~
+Type         Skill
+Info         0
+Flags        0
+Rounds       4
+FunName      spell_null
+Dammsg       ~
+Wearoff      !aggressive style!~
+Teachers     10340 3004~
+End
+
+#SKILL
+Name         aid~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+Rounds       12
+FunName      do_aid
+Dammsg       ~
+Wearoff      !Aid!~
+End
+
+#SKILL
+Name         backstab~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_backstab
+Dammsg       backstab~
+Wearoff      !Backstab!~
+End
+
+#SKILL
+Name         bash~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      do_bash
+Dammsg       bash~
+Wearoff      !Bash!~
+End
+
+#SKILL
+Name         berserk~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_EVASIVE
+Rounds       4
+FunName      do_berserk
+Dammsg       ~
+Wearoff      La rabbia nelle tue vene si placa, il battito cardiaco torna normale.~
+Teachers     1~
+End
+
+#SKILL
+Name         berserk style~
+Type         Skill
+Info         0
+Flags        0
+Rounds       4
+FunName      spell_null
+Dammsg       ~
+Wearoff      !berserk style!~
+Teachers     10340 3004~
+End
+
+#SKILL
+Name         bite~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      do_bite
+Dammsg       bite~
+Wearoff      !Bite!~
+End
+
+#SKILL
+Name         blitz~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_smaug
+Dammsg       Blitz~
+Hitchar      Attacchi $N con una furiosa scarica di colpi!~
+Dice         l/2 { 40~
+End
+
+#SKILL
+Name         bloodlet~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+Rounds       12
+FunName      do_bloodlet
+Dammsg       ~
+End
+
+#SKILL
+Name         brew~
+Type         Skill
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_STAND
+Mana         95
+Rounds       12
+FunName      do_brew
+Dammsg       ~
+Wearoff      !Brew!~
+End
+
+#SKILL
+Name         broach~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+FunName      do_broach
+Dammsg       ~
+End
+
+#SKILL
+Name         circle~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      do_circle
+Dammsg       circle~
+Wearoff      !Circle!~
+End
+
+#SKILL
+Name         claw~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_null
+Dammsg       slash~
+End
+
+#SKILL
+Name         climb~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_STAND
+Rounds       10
+FunName      do_climb
+Dammsg       climb~
+Wearoff      !climb!~
+End
+
+#SKILL
+Name         cook~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_DEFENSIVE
+Slot         100
+Rounds       14
+FunName      do_cook
+Dammsg       ~
+Misschar     Non sei ancora in grado di cucinare.~
+End
+
+#SKILL
+Name         cuff~
+Type         Skill
+Info         9096
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_smaug
+Dammsg       cuff~
+Dice         L/3~
+End
+
+#SKILL
+Name         defensive style~
+Type         Skill
+Info         0
+Flags        0
+Rounds       4
+FunName      spell_null
+Dammsg       ~
+Wearoff      !defensive style!~
+Teachers     10340 3004~
+End
+
+#SKILL
+Name         detrap~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_SIT
+Rounds       24
+FunName      do_detrap
+Dammsg       ~
+Wearoff      !Detrap!~
+End
+
+#SKILL
+Name         dig~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       20
+FunName      do_dig
+Dammsg       ~
+End
+
+#SKILL
+Name         disarm~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+Rounds       24
+FunName      do_disarm
+Dammsg       ~
+Wearoff      !Disarm!~
+End
+
+#SKILL
+Name         dodge~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Dodge!~
+End
+
+#SKILL
+Name         dominate~
+Type         Skill
+Info         2048
+Flags        0
+Target       1
+MinPosition  POSITION_STAND
+Mana         5
+Rounds       12
+FunName      spell_charm_person
+Dammsg       ~
+End
+
+#SKILL
+Name         doorbash~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       24
+FunName      do_bashdoor
+Dammsg       bashdoor~
+Wearoff      !Bash Door!~
+End
+
+#SKILL
+Name         dual wield~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Dual Wield!~
+End
+
+#SKILL
+Name         elbow~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       elbow~
+Hitchar      Colpisci $N con una tremenda gomitata!~
+Dice         l/2 { 25~
+End
+
+#SKILL
+Name         enhanced damage~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Enhanced Damage!~
+End
+
+#SKILL
+Name         evasive style~
+Type         Skill
+Info         0
+Flags        0
+Rounds       4
+FunName      spell_null
+Dammsg       ~
+Wearoff      !evasive style!~
+Teachers     10340 3004~
+End
+
+#SKILL
+Name         feed~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+Rounds       10
+FunName      do_feed
+Dammsg       bite~
+Wearoff      !Feed!~
+End
+
+#SKILL
+Name         fifth attack~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Fifth Attack!~
+End
+
+#SKILL
+Name         fourth attack~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Fourth Attack!~
+End
+
+#SKILL
+Name         gouge~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+Rounds       10
+FunName      do_gouge
+Dammsg       gouge~
+Wearoff      !Gouge!~
+End
+
+#SKILL
+Name         grasp suspiria~
+Type         Skill
+Info         8591
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Saves        5
+Mana         15
+Rounds       12
+FunName      spell_smaug
+Dammsg       suspiric grasp~
+Hitchar      $N sembra soffocare mentre la sua vita scivola via nella tua morsa.~
+Hitvict      Una morsa invisibile ti soffoca mentre $n allontana dal tuo corpo la vita.~
+Hitroom      $n impone la sua mano su $N che sembra soffocare!~
+Misschar     Imponi la tua mano su $N che però riesce a sfuggire dalla morsa!~
+Missroom     $n ringhia di rabbia mentre $N sfugge al controllo della sua morsa!~
+Dice         (7d4*i)+20~
+End
+
+#SKILL
+Name         grip~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Grip!~
+End
+
+#SKILL
+Name         headbutt~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_smaug
+Dammsg       headbutt~
+Hitchar      Colpisci in pieno $N con una testata!~
+Hitvict      $n ti colpisce con una violenta testata!~
+Dice         l/2 { 35~
+End
+
+#SKILL
+Name         hide~
+Type         Skill
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_hide
+Dammsg       ~
+Wearoff      Le ombre smettono di nasconderti.~
+Hitvict      Sparisci tra le ombre.~
+Misschar     Cerchi delle ombre in cui nasconderti.~
+Affect       'l*23' 26 'hide' 16
+End
+
+#SKILL
+Name         hitall~
+Type         Skill
+Info         0
+Flags        65536
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_hitall
+Dammsg       hit~
+Teachers     25199~
+End
+
+#SKILL
+Name         jab~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       jab~
+Hitchar      Colpisci $N con un pugno al volto.~
+Hitvict      $n ti colpisce al volto con un pugno.~
+Dice         l/2 { 20~
+End
+
+#SKILL
+Name         kick~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      do_kick
+Dammsg       kick~
+End
+
+#SKILL
+Name         knee~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       knee~
+Hitchar      Colpisci $N con una ginocchiata.~
+Dice         l/2 { 25~
+End
+
+#SKILL
+Name         leap~
+Type         Skill
+Info         904
+Flags        6144
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_smaug
+Dammsg       leap~
+Hitchar      Colpisci $N con un calcio volante!~
+Dice         l/2 { 35~
+End
+
+#SKILL
+Name         lunge~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       lunge~
+Hitchar      Tenti un affondo con l'arma verso $N.~
+Dice         l/2 { 35~
+End
+
+#SKILL
+Name         meditate~
+Type         Skill
+Info         0
+Flags        530432
+Target       3
+MinPosition  POSITION_REST
+Rounds       25
+FunName      spell_smaug
+Dammsg       ~
+Hitvict      Ti rilassi e mediti richiamando nel corpo le energie del cosmo.~
+Missvict     Cerchi di meditare e recuperare energie, ma forse devi rilassarti di più.~
+Affect       '' 12 '22' -1
+End
+
+#SKILL
+Name         mistform~
+Type         Skill
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_REST
+Mana         40
+Rounds       6
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      Il tuo corpo torna solido.~
+Hitvict      Gli atomi del tuo corpo si distanziano, diventi translucente.~
+Hitroom      $N diventa più translucente mentre il suo corpo si espande rarefacendosi.~
+Affect       'l*5' 26 'mistform' 20
+End
+
+#SKILL
+Name         mistwalk~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Slot         290
+Mana         50
+Rounds       12
+FunName      do_mistwalk
+Dammsg       ~
+Wearoff      !Mist Walk!~
+End
+
+#SKILL
+Name         mount~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       10
+FunName      do_mount
+Dammsg       ~
+Wearoff      !Search!~
+End
+
+#SKILL
+Name         occulutus visum~
+Type         Skill
+Info         0
+Flags        32768
+Target       3
+MinPosition  POSITION_REST
+Mana         30
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Wearoff      La tua vista torna normale, un sottile bruciore ti attraversa gli occhi.~
+Hitvict      Un alone infuocato ti trapassa gli occhi, le tenebre ora ti parlano delle loro forme..~
+Hitroom      Un'aura di luce invade gli occhi di $N che ora brillano nel buio.~
+Affect       'l*14' 26 'occulutus visum' 5
+Affect       'l*14' 26 'occulutus visum' 3
+End
+
+#SKILL
+Name         parry~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_AGGRESSIVE
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Parry!~
+End
+
+#SKILL
+Name         peek~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Peek!~
+End
+
+#SKILL
+Name         pelt~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_SHOVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       pelt~
+Hitchar      Colpisci $N di taglio!~
+Hitvict      $n ti colpisce di taglio!~
+Dice         l/2 { 30~
+End
+
+#SKILL
+Name         pick lock~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_pick
+Dammsg       ~
+Wearoff      !Pick!~
+End
+
+#SKILL
+Name         poison weapon~
+Type         Skill
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_poison_weapon
+Dammsg       poisonous concoction~
+Wearoff      !Poison Weapon!~
+End
+
+#SKILL
+Name         pummel~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_smaug
+Dammsg       pummel~
+Hitchar      Colpisci con un pugno allo stomaco $N!~
+Hitvict      $n ti colpisce con un pugno allo stomaco!~
+Dice         l/1 { 40~
+End
+
+#SKILL
+Name         punch~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      do_punch
+Dammsg       punch~
+End
+
+#SKILL
+Name         punt~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_smaug
+Dammsg       punt~
+Hitchar      Colpisci con un preciso calcio frontale $N.~
+Dice         l/2 { 25~
+End
+
+#SKILL
+Name         rescue~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+Rounds       12
+FunName      do_rescue
+Dammsg       ~
+Wearoff      !Rescue!~
+End
+
+#SKILL
+Name         roundhouse~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       roundhouse~
+Hitchar      Colpisci $N con un calcio circolare!~
+Dice         l/2 { 30~
+End
+
+#SKILL
+Name         scan~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_scan
+Dammsg       ~
+Wearoff      !Scan!~
+End
+
+#SKILL
+Name         scribe~
+Type         Skill
+Info         0
+Flags        0
+Target       4
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_scribe
+Dammsg       ~
+End
+
+#SKILL
+Name         search~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       20
+FunName      do_search
+Dammsg       ~
+End
+
+#SKILL
+Name         second attack~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+FunName      spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         shoulder~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_smaug
+Dammsg       shoulder~
+Hitchar      Colpisci $N con una decisa spallata!~
+Dice         l/2 { 25~
+End
+
+#SKILL
+Name         shriek~
+Type         Skill
+Info         392
+Flags        16
+MinPosition  POSITION_FIGHT
+Mana         15
+Rounds       12
+FunName      spell_smaug
+Dammsg       shriek~
+Hitchar      Urli di dolore e d'angoscia come di mille anime in pena!~
+Hitroom      $n libera mille terribili e strazianti urla di dolore e angoscia di anime in pena!~
+Dice         l~
+End
+
+#SKILL
+Name         slice~
+Type         Skill
+Info         392
+Flags        0
+Target       1
+MinPosition  POSITION_STAND
+Rounds       12
+FunName      do_slice
+Dammsg       ~
+End
+
+#SKILL
+Name         sneak~
+Type         Skill
+Info         0
+Flags        0
+Target       3
+MinPosition  POSITION_STAND
+Rounds       1
+FunName      spell_smaug
+Dammsg       ~
+Hitvict      Inizi a muoverti silenziosamente.~
+Misschar     Cerchi di muoverti silenziosamente.~
+Affect       'l*23' 26 'sneak' 15
+End
+
+#SKILL
+Name         spinkick~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       12
+FunName      spell_smaug
+Dammsg       spinkick~
+Wearoff      !spinkick!~
+Hitchar      Compi un balzo e dopo una rapida rotazione colpisci $N con un calcio!~
+Misschar     $N schiva abilmente il tuo colpo.~
+Missvict     Schivi abilmente il calcio circolare di $n.~
+Dice         l/2 { 30~
+End
+
+#SKILL
+Name         spurn~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_smaug
+Dammsg       spurn~
+Hitchar      Respingi $N con un colpo al torace!~
+Dice         l/2 { 35~
+End
+
+#SKILL
+Name         normal style~
+Type         Skill
+Info         0
+Flags        0
+Rounds       4
+FunName      spell_null
+Dammsg       ~
+Teachers     10340 3004~
+End
+
+#SKILL
+Name         steal~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       24
+FunName      do_steal
+Dammsg       ~
+End
+
+#SKILL
+Name         sting~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_null
+Dammsg       sting~
+End
+
+#SKILL
+Name         strike~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      spell_smaug
+Dammsg       strike~
+Hitchar      Sferri un colpo a mano aperta sull'addome di $N.~
+Dice         l/2 { 20~
+End
+
+#SKILL
+Name         stun~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_AGGRESSIVE
+Rounds       8
+FunName      do_stun
+Dammsg       stun~
+Wearoff      Torni cosciente.~
+End
+
+#SKILL
+Name         swat~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_smaug
+Dammsg       swat~
+Hitchar      Tiri un colpo secco diretto al viso di $N.~
+Hitvict      $n ti colpisce al viso con un pugno secco.~
+Dice         l/2 { 15~
+End
+
+#SKILL
+Name         swipe~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_smaug
+Dammsg       swipe~
+Hitchar      Colpisci $N con forza.~
+Hitvict      $n ti colpisce con forza con un pugno.~
+Dice         l/2 { 20~
+End
+
+#SKILL
+Name         tail~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_FIGHT
+Slot         95
+Mana         95
+Rounds       8
+FunName      spell_null
+Dammsg       tail~
+Wearoff      !Tail!~
+End
+
+#SKILL
+Name         tend~
+Type         Skill
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_SIT
+Mana         60
+Rounds       12
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      Ti inginocchi e ti prendi cura delle ferite di $N.~
+Hitvict      Il dolore delle tue ferite si placa..~
+Components   V@65~
+Affect       '' 13 'l*2' -1
+End
+
+#SKILL
+Name         third attack~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_BERSERK
+FunName      spell_null
+Dammsg       ~
+End
+
+#SKILL
+Name         track~
+Type         Skill
+Info         0
+Flags        0
+MinPosition  POSITION_STAND
+Rounds       14
+FunName      do_track
+Dammsg       ~
+End
+
+#SKILL
+Name         trance~
+Type         Skill
+Info         0
+Flags        530432
+Target       3
+MinPosition  POSITION_REST
+Rounds       32
+FunName      spell_smaug
+Dammsg       ~
+Hitvict      Entri in uno stato di sospensione mentale ricevendo l'illuminazione dal cosmo.~
+Missvict     Qualcosa ti ha distratto mentre cercavi di entrare in trance.~
+Affect       '' 12 '50' -1
+End
+
+#SKILL
+Name         tumble~
+Type         Skill
+Info         0
+Flags        0
+Target       2
+MinPosition  POSITION_AGGRESSIVE
+FunName      spell_null
+Dammsg       ~
+Wearoff      !Tumble!~
+End
+
+#SKILL
+Name         uppercut~
+Type         Skill
+Info         8584
+Flags        6144
+Target       1
+MinPosition  POSITION_FIGHT
+Rounds       8
+FunName      spell_smaug
+Dammsg       uppercut~
+Hitchar      Colpisci $N con un montante.~
+Dice         l/2 { 30~
+End
+
+#SKILL
+Name         vault~
+Type         Skill
+Info         9096
+Flags        6144
+Target       1
+MinPosition  POSITION_BERSERK
+Rounds       8
+FunName      spell_smaug
+Dammsg       vault~
+Hitchar      Ti butti a valanga su $N!~
+Hitvict      $n si getta con ogni forza su di te!~
+Dice         l/2 { 40~
+End
+
+#SKILL
+Name         vomica pravus~
+Type         Skill
+Info         0
+Flags        0
+Target       1
+MinPosition  POSITION_REST
+Mana         15
+Rounds       6
+FunName      spell_smaug
+Dammsg       ~
+Hitchar      $N si contorce mentre la tua cantilena porta sul suo corpo la maledizione.~
+Hitvict      Il tuo corpo si contorce tra mille spasmi mentre la maledizione di $n ti possiede.~
+Hitroom      Il corpo di $N si contorce tra mille urla mentre $n infligge la sua maledizione.~
+Misschar     Non sembra accadere nulla..~
+Missvict     $n biascica un'ostile litania nei tuoi confronti..~
+Missroom     $n biascica un'ostile litania nei confronti di $N..~
+Affect       '12' 26 'curse' 10
+Affect       '12' 18 '-(l/8)' -1
+Affect       '12' 19 '-(l/8)' -1
+Affect       '12' 24 'l/18' -1
+Affect       '12' 31 '-1' -1
+End
+
+#END

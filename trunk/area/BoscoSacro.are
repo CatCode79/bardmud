@@ -1,0 +1,1168 @@
+#AREA
+Name         Il Bosco Sacro~
+Author       Alfa (Miciko)~
+Color        AT_GREEN verde~
+Economy      0 2452038
+LevelRange   5 20
+ResetMsg1    Sento una nenia lenta e monotona che viene sprigionata dai profumi di questo luogo.~
+Vnums        8900 8999
+End
+
+
+#MOBILES
+
+#8900
+gerofante uomo vecchio~
+il Gerofante~
+Un vecchio cammina lentamente in questo bosco, sembra stia cercando dell'agrifoglio.~
+Guardando da qualche metro di distanza, vedi solo che è vecchio ed indossa un mantello
+non più giovane di lui. Si volta verso di te ed i vostri sguardi si incrociano in un
+fugace istante, quanto basta per cogliere nei suoi occhi, blu come il cielo terso, una
+luce che racconta della grande esperienza dello Gerofante.
+~
+193 8328 1000 S
+20 0 -5 20d20+180 1d8+12
+50 60000
+8 8 0
+
+#8901
+gerofante uomo vecchio~
+il Gerofante~
+Un vecchio cammina lentamente in questo bosco cercando un po' d'edera.~
+Guardando da qualche metro di distanza, vedi solo che è vecchio ed indossa un mantello
+non più giovane di lui. Si volta verso di te ed i vostri sguardi si incrociano in un
+fugace istante, quanto basta per cogliere nei suoi occhi, blu come il cielo terso, una
+luce che racconta della grande esperienza dello Gerofante.
+~
+193 8328 1000 S
+20 0 -5 20d20+180 1d8+12
+50 60000
+8 8 0
+
+#8902
+vecchio druido~
+un anziano druido~
+Da dietro un albero sbuca un anziano druido, guardiano delle vite del Bosco Sacro.~
+Ha un'aria così eterea che risulta impossibile capire da quanti anni viva in questo
+luogo, inoltre il suo viso non è segnato da alcuna ruga, nonostante la lunga barba sia
+ormai bianca.
+~
+193 8192 1000 S
+13 7 0 13d13+130 1d4+7
+50 15000
+8 8 0
+
+#8903
+anziana druida~
+un'anziana druida~
+Una signora anziana si appoggia ad un bastone di legno mentre dà da mangiare ai coniglietti.~
+Come tutti gli adepti della religione druidica, anche lei è una creatura dall'età indefinita.
+Ti guarda e ti sorride benevola, porgendoti un mazzetto di erba medica.
+
+~
+193 8192 1000 S
+13 7 0 13d13+130 1d4+7
+50 15000
+8 8 1
+
+#8904
+femmina daino cervide~
+una femmina di daino~
+Un grazioso cervide sta brucando la fresca erbetta del prato, è una femmina di daino.~
+Il manto bruno, perfetto per nascondersi fra le ombre del bosco, ha una serie di macchioline
+bianche sulla schiena, accanto al codino. Solleva il capo sentendosi osservata, ricambia lo
+sguardo fissandoti incuriosita con i suoi grandi occhioni neri. Dopo pochi istanti, muove un
+poco il naso annusando l'aria e torna a mangiare i verdi steli del prato.
+~
+193 0 0 C
+5 15 5 5d5+55 1d4+3
+2 600
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 896299777 0 0
+0 0 0 0 0 0 0 0
+
+#8905
+daino~
+un daino~
+Un daino si gira di scatto appena ti sente arrivare.~
+Il daino non sembra molto felice di vederti qui, cozza la sua testa contro di te
+non ottenendo l'effetto desiderato..
+~
+193 0 0 S
+6 14 4 6d6+66 1d4+4
+2 800
+8 8 0
+
+#8906
+cervo~
+un cervo~
+Con il capo eretto fieramente, un cervo osserva e protegge i confini del suo territorio.~
+Ha una bella impalcatura ossea sul capo.. Di sicuro la userà contro di te se proverai a
+disturbare lui o il suo branco. Forse è meglio allontanarsi da qui.
+~
+225 0 0 S
+8 12 2 8d8+88 1d4+9
+2 2000
+8 8 0
+
+#8907
+coniglietto coniglio~
+un coniglietto~
+Un batuffolo di morbido pelo bianco saltella qua e là, spiluzzicando erba medica.~
+E' piccolo e pelosetto, ispira tenerezza al solo vederlo lì, davanti a te, ignaro della
+tua disposizione d'animo.. Certo che dopo un po', vien voglia di saltellare con lui!
+~
+193 0 0 S
+5 18 8 1d1+30 1d4+1
+2 100
+8 8 0
+
+#8908
+serpente~
+un innocuo serpentello~
+Una coda sguscia via nel sottobosco.. una coda? E' un serpente!.~
+Ti munisci di un bastone biforcuto per bloccare la testa di questo pericolosissimo
+serpente.. Poi con sommo rammarico scopri che si tratta di una biscia indifesa.
+~
+225 32768 0 S
+5 16 4 4d4+44 1d3+3
+2 500
+8 8 0
+
+#8909
+druido uomo~
+un druido~
+Un uomo è seduto su una roccia, meditando sul destino del mondo.~
+Sarebbe sicuramente più felice e concentrato se tu non lo fissassi in questo modo, però
+è troppo gentile per chiederti di andartene.
+~
+193 8200 1000 S
+10 10 0 10d10+100 1d4+6
+50 5000
+8 8 0
+
+#8910
+druida~
+una druida~
+Una druida scosta una ciocca di capelli dal viso e ti guarda.~
+Dall'espressione interrogativa della donna, intuisci che probabilmente le
+sembrerà strano vederti qui.
+~
+193 8200 1000 S
+10 10 0 10d10+100 1d4+6
+50 5000
+8 8 1
+
+#8911
+draconiano~
+un draconiano~
+Hai mai visto un draconiano? Eccone uno di fronte a te.~
+Ciò che sembrava dovesse appartenere solo alle leggende si erge dinnanzi
+a te, in tutta la sua maestosità. Il Draconiano è una creatura per metà umana
+e per metà deve il suo sangue all'antica stirpe dei dragoni.
+Riconosci nei suoi scintillanti occhi rossi, nella sottile coda, nella pelle
+coperta da scaglie i tratti caratteristici dei draghi. La lunga chioma
+corvina, il sorriso affabile e l'abbigliamento sono il simbolo del ramo
+umano da cui discende.
+Dai suoi modi non sembra aggressivo, forse è il caso di non approfondire però..
+~
+131137 168 -1 C
+21 0 -25 1d1+350 3d4+22
+0 0
+8 8 0
+13 13 13 13 13 13 0
+0 0 0 0 85
+106 0 0 0 131073 131072 0
+0 0 0 0 3075 4 6 2
+#8923
+Unicorno~
+Un Unicorno~
+La fioca luce di un'aura dorata avvolge il bianco manto di questo Unicorno~
+Un corno dorato si staglia maestoso dalla fronte di questo stupendo animale,
+coronato da due profondi occhi blu, lucenti come due opali esposti alla fioca
+luce di stelle invernali. Il suo manto è bianco come una morbida nube, avvolto
+costantemente da una calda aura dorata di raggi di sole, mentre la lunga coda
+par risplendere di luna nascente. I suoi movimenti sono pacati e tranquilli,
+non ha l'aria pericolosa.
+Una sella di cuoio impreziosita con dei ricami dorati è legata al suo dorso,
+con inciso un nome, marchiato a fuoco: "Sidkah".
+~
+262273 128 1 C
+1 0 -20 150d1+0 5d1+0
+0 0
+8 7 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+86 3 0 0 0 0 2
+5 3 1049609 2048 2097152 647 160 0
+#0
+
+
+#OBJECTS
+
+#8900
+guanti draconiano~
+guanti di draconiano~
+Vedi un paio di guanti realizzati con scaglie di drago.~
+~
+9 1027 129
+8 8 0 0
+4 1500 150
+A
+5 1
+A
+4 1
+A
+1 2
+A
+18 1
+A
+19 2
+
+#8901
+armadio~
+un armadio~
+Poggiato contro una parete della stanza vedi un armadio chiuso.~
+~
+15 0 0
+100 1 -1 0
+500 0 0
+E
+armadio~
+E' grosso ma decorato con graziosi ornamenti floreali.
+~
+
+#8902
+barattolo spezie~
+un barattolo di spezie~
+Questo barattolo contiene una strana polverina.~
+~
+15 0 1
+5 5 -1 0
+1 10 1
+
+#8903
+polvere nera~
+un pizzico di polverina nera~
+Un fortissimo odore si sprigiona da un mucchietto di polvere nera..~
+~
+19 0 1
+-2 0 0 0
+1 300 30
+E
+polvere~
+*        *         *
+      *      *       *
+****   E..E..ETCIU' !!!   ****
+      *      *       *
+    *        *         *
+~
+
+#8904
+nocciolo noccioli~
+alcuni piccoli noccioli~
+A qualcuno son caduti dei piccoli noccioli giallastri.~
+~
+19 0 16385
+1 0 0 0
+1 10 1
+E
+noccioli~
+Di forma ovale allungata, questi noccioli sembrano piuttosto duri.
+~
+
+#8905
+elmo draconiano~
+elmo di draconiano~
+Una K incisa sull'elmo rivela l'appartenenza dell'oggetto, Krandest, padre del Draconiano.~
+~
+9 525315 17
+9 9 0 0
+8 2500 250
+A
+4 2
+A
+13 15
+
+#8906
+ascia accetta~
+un'ascia di draconiano~
+Antiche fiamme di drago hanno forgiato la lama di quest'ascia.~
+~
+5 0 8193 0
+12 10 8 0
+46 0 0
+A
+2 1
+A
+4 1
+A
+5 1
+A
+19 2
+
+#8907
+bacchetta~
+una bacchetta~
+Un'aria magica si sprigiona da una strana bacchetta poggiata alla parete.~
+~
+9 1091 16385
+5 5 0 0
+5 2000 200
+A
+5 1
+A
+13 10
+A
+12 10
+E
+bacchetta~
+Lungo la bacchetta è inciso un nome: Berhanial, madre di Deghor. Poco sotto
+il nome vedi scolpita nel legno una piccola arpa.
+~
+
+#8910
+bastone legno~
+un bastone di legno~
+Vedi un bastone adagiato al suolo.~
+~
+5 1024 8193
+0 3 3 7
+5 50 5
+E
+bastone~
+Ricavato dal legno di quercia, questo bastone appare molto ben bilanciato, seppur pesante.
+~
+
+#8911
+abito marrone~
+un abito marrone~
+Un abito è stato piegato e ben riposto qui.~
+~
+9 1024 9
+6 0 0 0
+5 60 6
+E
+abito marrone~
+Nessun ornamento abbellisce questa veste tessuta in tela grezza, tuttavia
+il suo scopo è quello di resistere al tempo ed, in questo, è un oggetto di ottima fattura.
+~
+A
+12 10
+
+#8913
+erbe erbette~
+delle erbette blu~
+Sparpagliate accanto ai tuoi piedi, vedi alcune erbette blu.~
+~
+26 0 1
+15 -1 -1 3
+1 1 0
+
+#8914
+foglie foglioline~
+alcune foglioline purpuree~
+Alcune foglioline purpuree catturano la tua attenzione.~
+~
+26 0 1
+15 -1 -1 82
+1 1 0
+
+#8915
+bacche~
+alcune bacche nere~
+Vedi una manciata di bacche nere deposte per terra.~
+~
+26 0 1
+5 -1 -1 4
+1 1 0
+
+#8916
+rami rametti~
+alcuni rametti grigi~
+Vedi per terra un fascio di rametti grigi legati insieme.~
+~
+26 0 1
+5 -1 39 33
+1 1 0
+
+#8917
+radici~
+delle radici rossastre~
+In un angolo sono state raggruppate alcune radici.~
+~
+26 0 1
+15 -1 -1 20
+1 1 0
+
+#8918
+gemme~
+alcune gemme arancioni~
+Vedi alcune gemme d'albero riposte in una piccola ciotola.~
+~
+26 0 1
+5 -1 -1 16
+1 1 0
+
+#8919
+calle calla~
+delle insolite calle rosa~
+Rotola accanto ai tuoi piedi una calla rosa, spostando lo sguardo ne vedi altre.~
+~
+26 0 1
+5 -1 43 33
+1 1 0
+
+#8923
+Tavolo~
+Un tavolo di frassino~
+Una piccola tavola di legno è stata posta al centro della stanza
+~
+Il legno è vecchio e rovinato, ma sembra ancora in grado
+di reggere il peso d'un piatto e d'un boccale di birra fresca.
+~
+13 0 0 0
+0 0 0 0
+1 0 0
+
+#8924
+Cesta vimini~
+Una capiente cesta di vimini~
+Una capiente cesta di vimini trabocca di bottiglie vuote
+~
+A fissarla troppo ti vien voglia di prendere una bottiglia e riempirla di buon
+vino.. mmmh.. cederai alla tentazione?
+~
+15 0 1 0
+5 0 0 0
+1 0 0
+#0
+
+
+
+#ROOMS
+
+#8901
+Il Bosco Sacro~
+Filari di pioppi e querce accompagnano i tuoi passi in questo luogo tranquillo e
+rilassante. Se provi a chiudere gli occhi puoi sentire intorno a te un'atmosfera
+di grande accoglienza e sollievo, come se d'un tratto una mano amica avesse
+tolto dalle tue spalle tutti i fardelli che ti porti dietro.
+Ad est e sud alcuni sentieri si inoltrano verso il cuore del Bosco.
+~
+0 0 3
+D0
+Il sentiero svolta fra gli alberi, scomparendo dalla vista.
+~
+~
+0 -1 8920
+D1
+Il sentiero svolta fra gli alberi, nascondendosi alla vista.
+~
+~
+0 -1 8902
+D2
+Il sentiero svolta fra gli alberi, nascondendosi alla vista.
+~
+~
+0 -1 8904
+D3
+~
+~
+0 0 8923 0
+S
+
+#8902
+Il Bosco sacro~
+Posa lievemente la tua mano su questi tronchi, essi ti narreranno delle bellezze
+del Bosco. Un'aura di grande serenità avvolge questo luogo e persino te riesci
+ad avvertire il sacro abbraccio della Natura che ti dona pace e calma.
+Il Bosco si espande verso ovest, est e sud.
+~
+0 0 3
+D1
+Il sentiero si insinua fra gli alberi, dirigendosi verso una lontana radura.
+~
+~
+0 -1 8903
+D2
+Il sentiero continua nel bosco, verso una zona aperta.
+~
+~
+0 -1 8905
+D3
+Il sentiero svolta fra gli alberi, scomparendo dalla vista.
+~
+~
+0 -1 8901
+S
+
+#8903
+Una radura nel Bosco~
+Raggiungi una piccola radura, immersa in un circolo d'alberi dal tronco chiaro.
+In qualche modo questo posto appare molto differente dal resto del Bosco, come se
+si sentisse in maniera più incisiva la presenza di una Mente Superiore.
+Seminascosta dalle basse fronde di un albero, vedi una targhetta.
+~
+0 4 3
+D2
+Verso sud, il sentiero prosegue fra gli alti pioppi, perdendosi nel fitto del Bosco
+dopo un centinaio di metri.
+~
+~
+0 -1 8906
+D3
+Ad ovest la stradina costeggia una parte di foresta ricca di alberi d'alto fusto.
+~
+~
+0 -1 8902
+E
+targhetta~
+C'è una scritta incisa sopra:
+"La Mano Creatrice pose questa radura ove trovar sollievo, sette anni prima dell'avvento
+del Nuovo Evo".
+~
+S
+
+#8904
+Il Bosco Sacro~
+La brezza scuote le fronde degli alberi e crea giocondi mulinelli d'aria al suolo, roteando
+le foglie cadute ed innalzandole fino ad un paio di metri da terra.
+Osservi per qualche istante la scena, poi le foglie si disperdono nel vento e torni
+a pensare alla tua strada: da qui puoi scegliere una qualunque direzione. A parte
+il sentiero ad ovest, che riporta a Darkhaven, tutti gli altri continuano nel Bosco.
+~
+0 4 3
+D0
+Il sentiero svolta fra gli alberi, scomparendo dalla vista.
+~
+~
+0 -1 8901
+D1
+La stradina conduce verso una radura in lontananza.
+~
+~
+0 -1 8905
+D2
+Il sentiero riporta verso il cuore del Bosco.
+~
+~
+0 -1 8907
+D3
+Guardando oltre gli alberi, scorgi la strada per Darkhaven e più lontani verso ovest
+si intravedono le alte mura della città ed i camini fumanti.
+~
+~
+0 -1 3502
+S
+
+#8905
+La Sacra Radura~
+Sei al centro della Radura sacra, dove i cittadini di Darkhaven perpetuano i riti
+della primavera, dove i contadini rendono grazie per le abbondanti messi d'autunno
+e dove gli amanti celebrano il loro amore in estate.
+Il cerchio delle Stagioni, simboleggiato dalla rotondità della radura, avvolge ed
+accoglie chiunque vi si trovi dentro, scacciando la fatica, la malinconia ed il dolore,
+per lasciar spazio alla serenità ed alla gioia, rendendo al Mondo un individuo con
+l'animo rinfrancato e pronto a riprendere il suo sentiero.
+Verso est, nord, ovest si ritorna al Bosco sacro, mentre a sud un campo soleggiato prende
+il posto degli alberi e degli arbusti.
+~
+0 0 3
+D0
+A nord la stradina costeggia una parte di foresta ricca di alberi d'alto fusto.
+~
+~
+0 -1 8902
+D1
+l sentiero una parte di foresta ricca di alberi dal grosso tronco.
+~
+~
+0 -1 8906
+D2
+Verso sud si apre un enorme campo coltivato, che prosegue ancora discendendo verso
+un lago dai riflessi scintillanti del sole.
+~
+~
+0 -1 8908
+D3
+Ad ovest i rami di querce e pioppi donano ombra al sentiero.
+~
+~
+0 -1 8904
+S
+
+#8906
+Il Bosco Sacro~
+Procedi fra questi alberi lentamente, ad ogni passo la tristezza che annebbiava
+alcuni tuoi pensieri sembra venir meno e il tuo animo acquista una rinnovata
+forza e serenità. A sud intravedi una magione fra gli alberi, a nord ed ovest alcuni
+sentieri riportano verso il Bosco.
+~
+0 0 3
+D0
+Fra gli alti alberi, il sentiero continua fino a perdersi del tutto.
+~
+~
+0 -1 8903
+D2
+Verso sud, oltre gli alberi, vedi un campo verdeggiante, oltre ancora si scorge
+una cascina variopinta.
+~
+~
+0 -1 8909
+D3
+Fra gli alti alberi, il sentiero continua fino a perdersi del tutto.
+~
+~
+0 -1 8905
+E
+cascina~
+E' davvero inusuale vedere una casa nel bosco, realizzata in una sorta di marmo
+multicolore. Il casale consta di due parti principali e tre laterali, una di queste tre
+ospita sulla sommità un balcone. In ogni parete della casa si aprono dei grandi
+finestroni, lasciando entrare molta luce.
+~
+S
+
+#8907
+Il Bosco Sacro~
+In questa parte di bosco risuona una flebile eco di passi, forse sono i tuoi o
+forse è il ricordo delle migliaia di piedi che hanno sfiorato questo suolo sacro.
+I pesi dell'animo vengono in qualche modo alleviati dall'atmosfera che ti circonda,
+come se la Natura ti stesse guardando con occhio benevolo.
+Verso sudest vedi un ampio campo che declina verso un lago.
+~
+0 0 3
+D0
+Le antiche querce spostano di poco le loro radici per lasciar spazio al sentiero.
+~
+~
+0 -1 8904
+D1
+Verso est, oltre gli alberi, vedi un campo verdeggiante, oltre ancora si scorge
+una cascina variopinta.
+~
+~
+0 -1 8908
+E
+cascina~
+E' davvero inusuale vedere una casa nel bosco, realizzata in una sorta di marmo
+multicolore. Il casale consta di due parti principali e tre laterali, una di queste tre
+ospita sulla sommità un balcone. In ogni parete della casa si aprono dei grandi
+finestroni, lasciando entrare molta luce.
+~
+S
+
+#8908
+Un campo soleggiato~
+Una pioggia di sole illumina questo ampio campo, puoi procedere lentamente
+e sfiorare con le mani alcune spighe di grano che crescono sparse qua e là.
+L'aria è intrisa del profumo di mille primavere e concentrandosi un istante
+si riescono a sentire il frinire delle cicale, come nei caldi meriggi estivi.
+La tua attenzione d'un tratto viene richiamata da un vago scintillìo e
+da una fragranza conosciuta: verso sud vedi un lago dalle fresche
+acque lucenti. Proseguendo verso ovest e nord raggiungeresti il bosco, verso est invece
+si notano distintamente i muri variopinti della cascina..
+D'improvviso un pensiero.. perché allontanarsi da qui? si sta così bene in fondo..
+in quest'erbetta accogliente, stesi a guardar le nuvole che si rincorrono nel cielo..
+~
+0 8 2
+D0
+A nord il sentiero conduce verso il bosco.
+~
+~
+0 -1 8905
+D1
+Ad est vedi la magione del Draconiano, la multicolore cascina.
+~
+~
+0 -1 8919
+D2
+Verso un'alta roccia~
+~
+0 -1 10001
+D3
+Un sentierino conduce ad ovest verso il Bosco.
+~
+~
+0 -1 8907
+E
+cascina~
+E' davvero inusuale vedere una casa nel bosco, realizzata in una sorta di marmo
+multicolore. Il casale consta di due parti principali e tre laterali, una di queste tre
+ospita sulla sommità un balcone. In ogni parete della casa si aprono dei grandi
+finestroni, lasciando entrare molta luce.
+~
+S
+
+#8909
+Il campo di croquet~
+Stai calpestando un prato erboso mantenuto in perfetto stato, nel quale son seminati
+i paletti per il croquet. Un sentiero di pietre costeggia il campo, in direzione nord-sud.
+A nord vedi il Bosco, verso sud rimane la casa multicolore del Draconiano.
+Questo luogo mantiene un'aria allegra e frizzante come i pomeriggi d'estate..
+~
+0 4 2
+D0
+A nord vedi il limitare del Bosco Sacro.
+~
+~
+0 -1 8906
+D2
+A sud vedi la porta della cascina.
+~
+porta~
+3 -1 8910
+E
+cascina~
+E' davvero inusuale vedere una casa nel bosco, realizzata in una sorta di marmo
+multicolore. Il casale consta di due parti principali e tre laterali, una di queste tre
+ospita sulla sommità un balcone. In ogni parete della casa si aprono dei grandi
+finestroni, lasciando entrare molta luce.
+~
+S
+
+#8910
+L'atrio~
+Entri nell'atrio della cascina, a nord una doppia porta conduce fuori verso il
+campo di croquet, affiancata da due enormi finestroni. I muri sono decorati con
+pannelli in legno di mogano su cui sono appesi dei bizzarri dipinti.
+Una porta a sud conduce in un'altra stanza della casa.
+~
+0 12 0
+D0
+Attraverso le finestre vedi il prato adibito al croquet.
+~
+porta~
+3 -1 8909
+D2
+~
+porta~
+3 -1 8911
+E
+dipinto dipinti~
+Sono piuttosto insoliti, alcuni talmente belli da mozzare il fiato.. Principalmente
+rappresentano soggetti di fantasia: nuvole formate da persone vestite in maniera
+elegante oppure donne in lunghe vesti blu, o ancora dei pezzetti di legno che si
+fondono insieme a formare un manto nevoso..
+~
+S
+
+#8911
+Il corridoio~
+Questo è l'angolo nord-est del corridoio, decorato con semplicità da pannelli
+in legno di quercia e pelli d'animale, il colpo d'occhio però risulta molto
+gradevole e di buon gusto.
+Il corridoio prosegue verso sud, sulla parete orientale si apre una porta.
+~
+0 8 0
+D0
+~
+porta~
+3 -1 8910
+D1
+~
+porta~
+3 -1 8912
+D2
+~
+~
+0 -1 8913
+S
+
+#8912
+La stanza blu~
+Un'altra camera degli ospiti, stavolta di colore blu, è ammobiliata in tono con
+le pareti, producendo un bell'effetto visivo. Similmente alla stanza rossa,
+anche qui un enorme lettone occupa metà dello spazio ed un paio di poltroncine
+sono disposte nell'angolo caldo della camera invitando a fermarsi un po'.
+Allargando un poco le stecche delle veneziane, guardando verso est, vedi il
+limitare del Bosco Sacro.
+~
+0 520 0
+D3
+~
+porta~
+3 -1 8911
+S
+
+#8913
+Il corridoio~
+Giungi all'angolo sud-est del corridoio, su cui si affacciano alcune porte
+in direzione sud, est ed ovest. I pannelli di quercia che adornano le pareti sono
+ulteriormente abbelliti da alcune pelli d'animale.
+~
+0 8 0
+D0
+~
+~
+0 -1 8911
+D1
+~
+porta~
+3 -1 8914
+D2
+~
+porta~
+3 -1 8915
+D3
+~
+porta~
+3 -1 8916
+S
+
+#8914
+La stanza rossa~
+Le pareti della camera sono interamente dipinte di rosso ed abbellite da pannelli
+di mogano nero. E' una delle stanze degli ospiti più confortevole che tu abbia mai
+visto: un lettone ad acqua la fa da padrone, accanto ad esso vedi un morbidissimo
+divano in pelle, due poltroncine ed un tavolinetto da caffè.
+Scostando un poco le pesanti tende marroni si rivela il panorama esterno, campi verdeggianti,
+ed in lontananza un laghetto dalle acque cristalline.
+~
+0 520 0
+D3
+~
+porta~
+3 -1 8913
+S
+
+#8915
+La cucina~
+Contrariamente a quanto si pensi, il Draconiano non mangia carne umana e ne è prova
+la grande quantità di generi alimentari sistemata nelle dispense.
+Vedi ovunque lattine di pomodori, piselli, mais, trecce d'aglio, diversi barattoli
+di spezie colorano un gigantesco scaffale, nell'angolo più freddo della cucina
+si trova un enorme congelatore.
+Le proporzioni di questo ambiente sono davvero generose: grandi dispense, grandi scaffali,
+persino un forno che occupa un'intera parete. La pulizia della cucina poi conferma
+l'idea che il Draconiano sia un ottimo padrone di casa e anche una brava massaia.
+Due porte a nord ed ovest conducono fuori dalla cucina.
+~
+0 8 0
+D0
+~
+porta~
+3 -1 8913
+D3
+~
+porta~
+3 -1 8918
+S
+
+#8916
+La sala da ballo~
+In questa sala avvengono i fastosi ricevimenti del padrone di casa, dove
+numerosi ospiti vengono intrattenuti e si divertono a ballare.
+Purtroppo, ti par di capire che da molto tempo non si festeggia più, perché
+i mobili sono tutti ricoperti da teli di protezione ed ammassati con ordine
+in un angolo.
+Ad ovest c'è un piccolo corridoio che conduce alla serra, ad est e sud si va
+verso altre stanze della casa.
+~
+0 8 0
+D1
+~
+porta~
+3 -1 8913
+D2
+~
+porta~
+3 -1 8918
+D3
+~
+~
+0 -1 8917
+S
+
+#8917
+La serra~
+Il proprietario della serra ha ben studiato l'inclinazione della luce che filtra
+attraverso i vetri, sistemando le piante in maniera intelligente a seconda del bisogno
+di illuminazione di ognuna.
+Sebbene il verde rigoglioso doni un tocco esotico all'ambiente, non è così caldo come
+si potrebbe pensare, anzi la temperatura è proprio tiepida al punto giusto.
+Le pareti sono interamente costruite con vetro, tranne quella orientale in condivisione
+con la casa del Draconiano. Se vuoi riposarti puoi sederti su una delle poltroncine
+a disposizione, vicino al tavolino da caffè.
+A sud la porta conduce nuovamente alla terrazza.
+~
+0 520 0
+D1
+~
+~
+0 -1 8916
+D2
+~
+porta~
+3 -1 8919
+S
+
+#8918
+La sala da pranzo~
+Un tavolo di solido legno di quercia è circondato da almeno ventiquattro comode
+seggiole per gli ospiti. Appesi alle pareti vedi molti dipinti, probabilmente
+raffiguranti la dinastia del padrone di casa.
+A nord ed est, le porte conducono verso altre stanze del palazzo, mentre a sud una
+porta-finestra dà su un'ampia terrazza esterna.
+~
+0 8 0
+D0
+~
+porta~
+3 -1 8916
+D1
+~
+porta~
+3 -1 8915
+D3
+~
+porta-finestra~
+3 -1 8919
+E
+dipinto dipinti~
+Scorri con lo sguardo la saga di un'intera famiglia..
+Enormi dipinti raffiguranti draghi di tutte le ere, si alternano lungo la
+parete: dal capostipite, un drago argentato dall'aspetto fiero, discendono poi
+tutti i figli, nipoti, raffigurati in pose adatte all'occasione. Alcuni
+indossano un'armatura d'adamantio, altri potenti spade forgiate nel fuoco vivo
+dei draghi, altri invece in atteggiamento più posato da intellettuale.
+Noti tre cornici vuote, sotto le quali sono indicati altrettanti nomi:
+"Il cacciatore di Chimere", "Il Mistico", "L'ipnotizzatore".
+Colpisce in particolar modo, il dipinto di un drago dai riflessi azzurrini che
+emerge da un lago spalancando le sue enormi ali.. Non ti pare d'aver già visto
+quel laghetto..?
+~
+S
+
+#8919
+La terrazza~
+Il palazzo del Draconiano lascia posto a questa splendida ampia terrazza. Il tepore
+dei raggi solari è l'ideale per delle lunghe chiacchierate all'aria aperta; da una parte,
+infatti, vedi un tavolino accostato a due sdraio bianche, riparate sotto la cupola
+di un ombrellone.
+Spostandosi ad ovest si gode della vista del campo, che declina
+dolcemente in un lago poco distante. A nord si vede la serra, con i suoi finestroni
+trasparenti che permettono di vedere anche da qui i magnifici colori delle piante
+al suo interno.
+Una porta-finestra conduce nuovamente dentro la casa, ad est.
+~
+0 12 0
+D0
+~
+porta~
+3 -1 8917
+D1
+~
+porta doppia~
+3 -1 8918
+D3
+~
+~
+0 -1 8908
+S
+#8920
+Uno spiazzo nel bosco~
+Il canto dei grilli e degli animali del bosco echeggia tutto intorno a te,
+quasi a voler salutare il tuo improvviso arrivo. Il luogo è veramente
+selvaggio, nonostante quella capanna malridotta.
+Ti ritrovi in un piccolo piazzale in terra battuta, dove solo un silente carro
+abbandonato giace in un angolo, oramai avvolto da piante rampicanti ed altre
+di vario genere. Sullo spiazzo, si affaccia una piccola stalla di legno d'un
+color marrone scuro, e nonostante le pessime condizioni della casa, quella
+stalla sembra appena costruita, segno che il proprietario deve tenerci
+particolarmente.
+~
+0 0 3 0 0 0
+D0
+~
+~
+1 0 8921 0
+D1
+~
+~
+0 0 8901 0
+S
+
+#8921
+La stalla dell'Unicorno d'oro~
+Un piacevole odore di fiori appena colti ti carezza il volto non appena metti
+piede nella piccola stalla, invece del tipico odore di sterco e paglia. E' un
+odore curioso, forte ma dolce nel medesimo istante.. acre e piacevole..
+Le pareti di assi levigate ospitano diverse selle e redini, corredate da
+spazzole e ferri riposti in ordine su delle mensole alla tua sinistra, mentre
+di fronte un piccolo abbeveratoio in marmo rosato ospita qualche litro di
+fresca acqua di sorgente appena cambiata.
+Guardandoti attorno noti solo un recinto, alla tua destra, verso est.
+~
+0 0 0 0 0 0
+D1
+~
+~
+1 0 8922 0
+D2
+~
+~
+1 0 8920 0
+S
+#8922
+Il recinto dell'Unicorno d'oro~
+Una strana luce dorata avvolge tutta la stanza, nonostante vi sia solo una
+piccola finestrella che permette ai raggi del sole di penetrare all'interno.
+Ed un calore piacevole.. quasi fatato.. attravera il tuo corpo come un fulmine
+di calda tranquillità. Nel recinto si trova uno stupendo Unicorno che non
+appena ti vede, si volta a guardarti con uno sguardo pacato e mansueto, non
+sembra certo una minaccia.
+Ad una parete è stato affissa una scodella di legno dove sono state poste
+diverse inforcate di fiori di campo e selvatici.
+~
+0 3146240 0 0 0 0
+D3
+~
+~
+0 0 8921 0
+S
+#8923
+L'interno della capanna~
+Non appena metti piede all'interno di questa baracca, il forte odore di resina
+e muschio ti assale, ma non aggressivo, al contrario. E' un aroma selvatico e
+piacevole che ti carezza le narici, lasciando nel tuo animo uno strano senso
+di benessere.. di libertà. Nonostante l'aspetto della stanza sia vecchio e
+oramai cadente, non ti sembra un brutto posto per viverci, anche se centinaia
+di spifferi si fan strada attraverso alcune crepe nei muri di solida roccia.
+Al centro della stanza è stato riposto un piccolo tavolo di frassino, mentre
+nell'angolo orientale una piccola stufa arrugginita attende di rivevere un po'
+di legna secca.
+~
+0 0 0 0 0 0
+D2
+~
+~
+0 0 8920 0
+D1
+~
+~
+1 0 8901 0
+D5
+~
+~
+1 0 8924 0
+S
+#8924
+La cantina~
+Qui l'odore è più acre e forte, decisamente meno piacevole... L'aria è viziata
+ed uno sgradevole aroma di licheni e muffa impregna l'aria. Sembra quasi un
+odore che non sia impossibile disperdere, anche se poco a poco i tuoi polmoni
+riescono ad abituarsi all'aria della cantina, ed una volta abituati gli occhi
+alla fioca luce delle due lanterne ad olio, riesci a scorgere una grande botte
+di legno appostata in un angolo, mentre diverse bottiglie vuote giacciono in
+una piccola cesta di vimini. Sembrerebbe decisamente il luogo adatto per far
+stagionare del buon vino!
+~
+0 1536 0 0 0 5
+D4
+~
+~
+1 0 8923 0
+S
+
+
+#0
+
+
+#RESETS
+M 0 8900 1 8905
+E 1 8910 99 5
+E 1 8911 99 16
+G 1 8919 99
+G 1 8918 99
+M 0 8901 1 8901
+E 1 8910 99 5
+E 1 8911 99 16
+G 1 8913 99
+G 1 8915 99
+M 0 8902 1 8902
+E 1 8910 99 5
+G 1 8914 99
+G 1 8916 99
+M 0 8903 1 8904
+E 1 8910 99 5
+G 1 8919 99
+G 1 8917 99
+M 0 8904 2 8905
+M 0 8905 2 8906
+M 0 8906 1 8905
+M 0 8907 4 8903
+M 0 8907 4 8903
+M 0 8908 9 8906
+M 0 8909 1 8911
+G 1 8913 99
+M 0 8909 2 8918
+G 1 8916 99
+M 0 8910 1 8914
+G 1 8914 99
+M 0 8910 2 8917
+G 1 8918 99
+O 0 8901 2 8912
+O 0 8901 2 8914
+O 0 8902 2 8915
+P 1 8903 1 8902
+O 0 8902 2 8915
+P 1 8904 1 8902
+D 0 8914 3 1
+D 0 8913 1 1
+D 0 8912 3 1
+D 0 8911 1 1
+D 0 8911 0 1
+D 0 8910 2 1
+D 0 8910 0 1
+D 0 8909 2 1
+D 0 8913 2 1
+D 0 8915 0 1
+D 0 8913 3 1
+D 0 8916 1 1
+D 0 8918 0 1
+D 0 8916 2 1
+D 0 8918 1 1
+D 0 8915 3 1
+D 0 8918 3 1
+D 0 8919 1 1
+D 0 8917 2 1
+D 0 8919 0 1
+M 0 8911 1 8918
+E 1 8907 1 17
+E 1 8906 1 16
+E 1 8900 1 9
+E 1 8905 1 6
+O 0 8923 1 8923
+P 0 8924 1 8924
+D 0 8921 1 1
+O 0 8923 1 8923
+O 0 8924 1 8924
+M 0 8923 1 8922
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8900 spec_cast_cleric
+M  8901 spec_cast_cleric
+M  8902 spec_cast_cleric
+M  8903 spec_cast_cleric
+M  8908 spec_poison
+M  8909 spec_cast_cleric
+M  8910 spec_cast_cleric
+S
+
+
+#END

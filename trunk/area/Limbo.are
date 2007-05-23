@@ -1,0 +1,1398 @@
+#AREA
+Name         Limbo~
+Author       RoD (Jamirithiana)~
+Climate      2 2 2
+Color        AT_MAGENTA magenta~
+Economy      0 49466007
+LevelRange   1 60
+ResetFreq    60
+ResetMsg1    Un fioco pulsare di luci filtra sopra di me attraverso l'eterea atmosfera..~
+Version      1
+Flags        AREAFLAG_SECRET AREAFLAG_NOTELEPORT~
+Vnums        1 99
+End
+
+
+#MOBILES
+#1
+Thargle dragone frattale~
+Thargle il dragone frattale~
+Un dragone formato da miriadi di frattali sembra contemplare altre realtà e dimensioni..~
+E' la manifestazione pura della stessa geometria frattale.
+Ogni parte del corpo è simmetricamente composta dal proprio disegno formando un
+tutt'uno caotico e meraviglioso.. seppure agghiacciante..
+~
+3 4203176 1000 C
+50 20 -30 5d10+30550 4d10+200
+10000 1000
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 0 0 0 3420515 3420515 0
+0 0 0 0 3156992 0 2 3
+
+#2
+Enfhior demone blasfemo~
+un demone blasfemo~
+Un demone blasfemo inizia a camminarti accanto..~
+I suoi occhi magnetici non ti perdono di vista un istante e la sua risatina
+snervante riecheggia continuamente nell'aria..
+Ciò che ti appare subito chiaro è che non vorresti mai avere a che fare con
+questo tipo di manifestazione demoniaca.. E' indubbiamente molto forte e agile,
+ti segue con scioltezza anche se provi ad accelerare il passo..
+~
+3 40 -1000 S
+50 1 -300 5d10+31550 1d2+2
+10000 155000
+112 112 0
+> act_prog p è affamato~
+mpoload 20
+give fungo $n
+mpforce $n eat fungo
+mprestore $n 500
+~
+> act_prog p urta contro~
+mprestore $n 500
+~
+> act_prog p rabbrividisce e~
+cast 'cure poison' $n
+mprestore $n 500
+~
+> act_prog p indossa~
+mprestore $n 500
+~
+> act_prog p impugna~
+mprestore $n 500
+~
+> act_prog p è MORTO!!~
+  mptransfer $n 8
+~
+> act_prog p sta soffrendo terribilmente la mancanza di sangue!~
+mpforce $n drink sangue
+mprestore $n 500
+~
+> rand_prog 1~
+if isadmin($r)
+else
+if isclass($r) == CLASS_NECROMANCER
+  mpforce $r drink sangue
+  mprestore $r 100
+endif
+endif
+~
+> act_prog p è gravemente ferito e morira' presto se nessuno lo soccorre..~
+mprestore $n 1000
+~
+> act_prog p è incapacitato e morira' lentamente se nessuno l'aiuta..~
+mprestore $n 1000
+~
+> act_prog p ha appena aperto i suoi occhi al mondo..~
+if inroom($i) == 8
+or isadmin($n)
+else
+if ishelled($n) == 0
+  mpechoat $n &YIl mio tempo nell'Ade è terminato. Verrò rilasciato sui Piani Materiali.
+  mptransfer $n 21000
+  mpat $n mpforce $n look
+endif
+endif
+~
+> act_prog p scompare risucchiato da una colonna di Potere Divino..~
+mptransfer $n 8
+endif
+~
+|
+
+#3
+azzon~
+il supermob Azzon~
+Azzon è qui, sugli attenti. E' un tipo decisamente fiscale..~
+Sembra proprio adatto a svolgere ogni mansione.. Prova!
+~
+10493953 4259882 -1000 C
+56 1 -300 5d10+31550 1d2+2
+10000 155000
+112 112 0
+13 13 13 13 13 13 25
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 0 0 2108528 0 0 3
+> rand_prog 10~
+mpinvis 51
+if ismobinvis($i)
+else
+  mpinvis
+endif
+~
+|
+
+#4
+joshua mezzodemone~
+il mezzodemone Joshua~
+Un mezzodemone è qui, circondato da enormi ali infuocate..~
+E' un essere dalle fattezze umane ma dalla stazza enorme. Un ghigno d'ira è
+disegnato sul volto, le braccia incrociate spavaldamente sul petto mentre i
+suoi occhi terribili ti fissano.. come alimentati da fuochi eterni.
+~
+5 4203176 600 C
+50 0 -200 100d50+3500 4d10+14
+5000 0
+112 112 0
+25 20 20 18 17 13 25
+0 0 0 0 0
+94 0 0 0 131073 131073 0
+0 0 0 96 2100231 16 402653296 2
+> rand_prog 5~
+cast teleport
+mpechoaround L'aria intorno diventa improvvisamente gelida mentre un vortice di luce appare in lontananza.
+mpechoat Un vortice infuocato si rivela dal nulla travolgendo ogni cosa. Quando scompare, la spettrale figura di Joshua si materializza davanti a te.
+if level($r) == 2
+  mpadvance $r 3
+  say a $n $r Viaggiatore dei Piani! Tu sarai lo strumento della mia vendetta, ti darò il potere in cambio di ogni anima che porterai al mio cospetto.
+  mpechoaround $r $I fissa $r sibilando in una lingua sconosciuta, $r sembra vacillare!
+  cast bless $n
+  cast refresh $n
+  cast 'heal' $n
+  cast sanc $n
+endif
+~
+> fight_prog 15~
+mpechoaround S'ode il fragore di una battaglia vicina, sembra qualcosa di innaturale!
+mpecho $I chiude la mano destra a pugno davanti a sé, la riapre improvvisamente proiettando una immensa colonna di fuoco che investe tutto!
+mpecho La tremenda esplosione generata da $I sconvolge ogni cosa!
+mpdamage $n 500
+~
+> rand_prog 10~
+wear all
+drop all.palla
+drop all.fungo
+~
+> rand_prog 3~
+mpat 3 cast heal
+emote gira lentamente il capo verso di te.. Il suo sguardo è inquietante!
+~
+|
+
+#5
+cadavere animato nonmorto~
+un cadavere animato~
+Un cadavere animato si strugge nel triste destino della non-morte..~
+A questa creatura è stata negata la giusta morte.. Il suo creatore in cambio gli
+donò energia e potere.. Egli vaga perciò da sempre, nel precipizio tra vita e
+non-vita, così come la sua fisica decomposizione progredisce sotto lo sforzo dei
+gravosi compiti che è chiamato di volta in volta ad assolvere..
+~
+1 0 0 C
+1 0 0 10d0+2 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 1 1 0
+0 0 7 0 0 0 0 2
+
+#9
+scriba~
+lo scriba~
+Lo scriba è qui e ti guarda con insistenza.~
+Continua a fissarti: ti sta studiando.
+~
+1 100663464 0 C
+50 0 0 100d77+6000 0d0+0
+0 0
+112 112 2
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1 0 0 0 2097920 7
+> act_prog p ha appena aperto i suoi occhi al mondo~
+  mpechoat $n Qui ci sono 2 penne e 2 rotoli di carta. Usali con saggezza.
+  mpoload 36 1
+  mpoload 37 1
+  mpoload 36 1
+  mpoload 37 1
+  give nota $n
+  give nota $n
+  give penna $n
+  give penna $n
+endif
+~
+> speech_prog p voglio scrivere~
+mpechoaround $n Lo scriba si avvicina al muro e preme un grosso bottone rosso.
+mpechoaround $n Solo allora $n svanisce in un lampo di luce!
+mpechoat $n "Suggerimento: Se vuoi tornare qui digita say voglio scrivere."
+mpechoat $n "Suggerimento: Se vuoi tornare qui digita say voglio scrivere, nella stanza delle tavole."
+mpechoat $n "Suggerimento: Appari magicamente in una stanza nuova."
+mpforce $n get nota
+mpechoat $n "Suggerimento: Digita write nota per scrivere una nota. Usa una seconda nota se"
+mpechoat $n "Suggerimento: hai fatto un errore. Digita show nota per controllare ogni cosa."
+mpechoat $n "Suggerimento: Non potrai più leggere dopo aver postato! Attenzione!"
+mptransfer $n 9
+~
+|
+
+#10
+lupo~
+un lupo~
+Un grosso lupo ti si avvicina: è in cerca di una preda..~
+Mentre questa enorme bestia ti circonda, riesci a vedere le sue lunghe zanne e gli
+artigli possenti. Ha gli occhi piccoli e neri come carboni spenti e ti fissano con
+bramosia.. Il suo mantello reca le tracce di una recente battaglia con qualcosa..
+o qualcuno..
+~
+1 0 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 4 0 0 68336399 0 2
+0 0 0 0 0 0 3 0
+
+#11
+nebbia~
+nebbia~
+Una densa nebbia solletica lievemente i tuoi sensi..~
+E' vera nebbia questa che vedi? O è forse un trucco che invade i tuoi occhi mortali?
+Il denso vapore turbina velocemente accerchiandoti e poi si dipana prima che tu
+abbia il tempo di battere le palpebre..
+Ed improvvisamente ti senti come invaso da un ignoto ma meraviglioso potere..
+~
+1 2129920 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 3 0 0 68339083 0 2
+0 0 0 0 0 0 35651584 0
+
+#12
+pipistrello~
+un pipistrello~
+Un pipistrello nero si libra nell'aria mostrando le piccole zanne insanguinate..~
+Plana verso di te battendo le ali, lo sguardo puntato alla tua giugulare..
+Questa piccola creatura ha tutta l'intenzione di succhiarti fino all'ultima
+goccia di sangue..
+~
+1 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+23 3 0 0 1006659181 0 2
+0 0 0 0 0 0 3 0
+
+#13
+falco~
+un falco~
+Un grosso falco predatore alza gli occhi e ti fissa.~
+Il grosso falco si erige fiero sulla sua preda: un grosso pesce persico.
+Ti fissa con aria impassibile e sai che il più piccolo movimento potrebbe farlo
+scattare verso di te.
+Nemmeno il tempo di pensarlo che il falco spalanca il becco fiondandosi su di te.
+~
+1 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+96 3 0 0 68339803 0 2
+0 0 0 0 0 0 2 0
+
+#14
+gatto nero~
+un gatto nero~
+Un gatto nero ti ha appena attraversato la strada..~
+E' grazioso, ha il pelo nero e gli occhi gialli, cammina con eleganza e
+incrocia il tuo cammino, donandoti così molti anni di sorte avversa.
+La sua coda si muove lentamente, evocando quasi un ghigno per la tua futura sfortuna..
+~
+1 8 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 3 0 0 6645091 6645090 2
+0 0 0 0 0 0 3 0
+
+#15
+colomba~
+una colomba~
+Una delicata colomba canta una soave melodia dal suo nido.~
+Un melodico canto sale dal nido della colomba di pace. Il soffice piumaggio del
+capo contorna gli amorosi occhi grigi. Man mano che la melodia prosegue, un
+senso di pace e serenità ti si affaccia nel cuore..
+~
+1 524288 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+95 3 0 0 68339803 0 1
+0 0 0 0 0 0 2 0
+
+#16
+pesce~
+un pesce~
+Un pesce nuota velocemente soffiando grosse bolle d'aria sull'acqua.~
+Questa piccola creatura scivolosa nuota ad una velocità con la quale nessuna
+creatura vivente può competere, è praticamente impossibile catturarla.
+Dal pelo dell'acqua intravedi le pinne e le branchie e i piccoli denti aguzzi.
+Nuota agilmente lasciando sull'acqua una scia di piccole bolle d'aria..
+~
+1 -2147483648 0 C
+1 0 0 0d0+0 0d0+0
+0 0
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 3 0 0 68339515 0 1
+0 0 0 0 0 0 0 0
+
+#17
+avatar~
+l' avatar di %s~
+La possente figura dell'avatar di %s riempie il luogo.~
+L'avatar di %s appare decisamente in forma, pronto a fronteggiare qualsiasi evenienza.
+~
+16777219 0 0 C
+1 0 0 5d5+25 5d5+26
+0 0
+112 112 0
+25 25 25 25 25 25 25
+0 0 0 0 0
+88 3 0 0 1 1 0
+20 0 2047 0 1024 0 0 0
+> death_prog 100~
+mpecho Lo spirito dell'avatar ascende al cielo verso una forte luce,
+mpecho mentre la sua forma corporea precipita esanime sul terreno..
+~
+> rand_prog 5~
+mpecho Terminato il suo compito, l'avatar si dissolve con un sbuffo di fumo..
+mpgoto 4
+~
+> speech_prog congedati~
+bow
+emote scompare in un sbuffo di fumo cinereo..
+mpgoto 4
+~
+|
+
+#18
+ghernot dragone~
+Ghernot il dragone~
+Il buio oscura la tua vista.. E' la gola di un dragone, appare dalle fauci
+spalancate, l'attimo prima che il suo soffio esploda..~
+Il suo soffio sprigiona una nube energetica.. e il cervello sembra
+liquefarsi nella tua testa..
+~
+8388609 38371328 0 C
+55 0 0 1d1+22000 1d1+800
+0 0
+108 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+31 3 0 0 1 1 6
+0 0 0 0 3157091 0 65 0
+> fight_prog 50~
+cast 'gas breath'
+cast 'frost breath'
+cast 'acid breath'
+cast 'fire breath'
+cast 'lightning breath
+~
+|
+
+#70
+castello jeind anfitrione~
+Jeind~
+L'anfitrione del castello è qui, in piedi, e ti guarda fiero e solenne..~
+~
+83888195 188 0 C
+50 0 -300 1d1+30000 50d100+50
+0 0
+112 112 0
+25 25 25 25 25 25 25
+-30 -30 -30 -30 -30
+0 3 0 0 7 6 5
+60 60 0 0 2100224 0 0 3
+> all_greet_prog 100~
+if sex($n) == 1
+  say Salve signor $n, benvenuto al Castello!
+  wink
+  say Se desiderate cenare, non avete che da ordinare..
+endif
+if sex($n) == 2
+  say Salve e benvenuta, Signora $n, siete incantevole..
+  hand $n
+  say Le cucine del Castello sono in fermento.. se desiderate cenare..
+endif
+~
+> speech_prog p desidero cenare~
+if sex($n) == 1
+  say Bene. Prego signore, da questa parte.
+  mpopenpassage 72 73 7
+  mpechoat $n $I ti accompagna nella Sala da Pranzo.
+  mpechoaround $n $I accompagna $n alla Sala da Pranzo.
+  mpforce $n nw
+  mpclosepassage 72 7
+  mpat 73 say Ecco qui, uno dei migliori tavoli per due..
+  mpat 73 say Che la cena sia di vostro gradimento, signore..
+else
+if sex($n) == 2
+  smile
+  say Prego seguitemi, signora $n.
+  mpopenpassage 72 73 7
+  mpechoat $n $I ti accompagna nella Sala da Pranzo.
+  mpechoaround $n $I accompagna $n alla Sala da Pranzo.
+  mpforce $n nw
+  mpclosepassage 72 7
+  mpat 73 say Qui abbiamo uno splendido tavolo per due..
+  mpat 73 say Buon serata e buon appetito, signora..
+endif
+endif
+~
+|
+
+#71
+castello peryld cameriere~
+Peryld~
+Un cameriere del castello è qui, in piedi, pronto ai tuoi comandi.~
+~
+83888195 2097852 0 C
+50 0 -300 1d1+30000 50d100+50
+0 0
+112 112 0
+25 25 25 25 25 25 25
+-30 -30 -30 -30 -30
+0 3 0 0 131073 131072 5
+60 60 0 0 2100224 0 0 3
+> speech_prog waiter!~
+if ispg($n)
+  say Salve e benvenuto al Castello! Sono a vostra disposizione..
+  say Oggi la specialità è il filetto di carne, una delizia..
+  say Se vi aggrada questa portata, ve la servirò immediatamente..
+  smile
+endif
+~
+> speech_prog p Si, prenderò il filetto di carne..~
+say Molto bene!
+emote va verso le cucine e torna con le portate dopo qualche minuto.
+mpoload 70
+give filetto $n
+mpoload 71
+give bicchiere $n
+say Se dopo cena desiderate salire su in camera.. non avete che da fare un cenno..
+wink
+~
+> speech_prog p Uhm.. credo proprio che salirò in camera, si~
+if ispg($n)
+  ooo
+  say Bene bene.
+  mpopenpassage 73 74 4
+  mpforce $n u
+  mpclosepassage 73 4
+  mpat 74 say Buon riposo!
+endif
+~
+|
+
+#80
+guardiano vampiro essere diafano~
+un guardiano vampiro~
+Un diafano essere è qui, si para il viso dalla tua fonte di illuminazione.~
+L'eterea creatura ti è accanto e ti scruta con la sua espressione
+cattiva e serafica. La sua pelle sottile l'ha avvertito della tua presenza,
+prima ancora che potesse scorgerti con gli occhi. E' chiaro che è una creatura
+con dei poteri misteriosi e non un sottoposto qualsiasi..
+~
+35 40 -1000 C
+25 0 -4 1d1+385 4d5+15
+0 105000
+112 112 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+67 3 0 0 7499637 7499636 0
+0 0 1735 0 0 0 33558528 0
+
+#81
+thsypa lucertola lucertolone~
+Un enorme lucertolone~
+Un enorme lucertolone imbrigliato e sellato fissa il vuoto a capo chino.
+~
+Vedi un lucertoloide lungo due metri che si muove 
+sulle quattro zampe artigliate. La sua intera figura 
+é ricoperta da dure e ruvide scaglie nere con venature
+ dorate. Il muso oblungo del rettile e' caratterizzato da 
+una forte e robusta mascella irta di zanne. Gli occhi rosso
+sangue appaiono privi di iride e pupille , vacui e spenti come 
+privi di vita.
+Agita lentamente la coda nel suo lento incedere lasciandola
+oscillare in un rigido e contiuo moto, la lingua
+saetta veloce fuori dalla bocca saggiando istintivamente
+l'aria. Uno strano tatuaggio percorre il suo corpo oscurandone
+le scaglie mentre una strana sella in cuoio nero gli copre il 
+dorso.~
+262145 0 0 C
+1 0 0 8d1+0 0d0+0
+0 0
+12 12 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 0 0 0 0 0 0
+
+#0
+
+
+#OBJECTS
+
+#2
+moneta oro~
+una moneta d'oro~
+Una moneta d'oro luccica fiocamente.~
+~
+20 0 1
+1 0 0 0
+2 0 0
+
+#3
+monete oro~
+%d monete d'oro~
+Sei attratto dal luccichio di un mucchietto di monete d'oro.~
+~
+20 0 1
+0 0 0 0
+2 0 0
+
+#4
+dado~
+un dado da gioco~
+Poggiato al suolo scorgi un piccolo frammento d'osso a forma di cubo.~
+~
+13 0 1 0
+6 6 0 0
+1 0 0
+E
+dado osso~
+E' un piccolo dado cubico, ricavato interamente da un osso, forse di animale, 
+forse di altra creatura, chissà. Ogni faccia del dado riporta inciso un 
+punteggio che varia da uno a sei. I punti sono colorati di rosso vivo, meglio 
+non indagare sull'origine della tintura.. 
+~
+
+#10
+cadavere~
+il cadavere di %s~
+Il cadavere di %s è adagiato qui.~
+~
+23 0 1
+0 0 0 1
+100 0 0
+
+#11
+resti putrefatti corpo cadavere~
+i resti putrefatti di %s~
+I resti putrefatti di %s cospargono il terreno tutt'intorno..~
+~
+24 0 0
+0 0 0 1
+100 0 0
+
+#12
+testa~
+una testa decapitata di %s~
+Una testa decapitata di %s si trova qui. Gli occhi spenti fermi in un'espressione atterrita.~
+%s inghiotte $p con gusto.. Disgustoso!~
+61 0 1
+10 0 0 0
+5 0 0
+
+#13
+cuore~
+il cuore lacerato di %s~
+Il cuore lacerato di %s è qui, in terra, privo di battito vitale..~
+%s divora crudelmente $p!~
+61 0 1
+16 0 0 0
+2 0 0
+
+#14
+braccio~
+il braccio staccato di %s~
+Un braccio contorto e rigido giace qui, staccato dal corpo di %s.~
+%s mastica $p freneticamente.~
+61 0 1
+30 0 0 0
+5 0 0
+
+#15
+gamba~
+la gamba smembrata di %s~
+Ancora contratta in un ultimo spasmo, qui giace la gamba di %s.~
+%s rosicchia $p con gusto.~
+61 0 1
+40 0 0 0
+5 0 0
+
+#16
+intestini~
+gli intestini sbudellati di %s~
+In terra sono versati gli intestini sbudellati di %s, avvolti da uno sciame di vermi voraci..~
+~
+61 0 0
+5 0 0 1
+1 0 0
+
+#17
+sangue~
+del sangue versato~
+C'è una pozza di sangue versato, qui.~
+~
+27 0 0
+5 0 0 1
+1 0 0
+
+#18
+macchie sangue~
+alcune macchie di sangue~
+La terra è intrisa di sangue, tutt'intorno..~
+~
+28 0 0
+5 0 0 1
+1 0 0
+
+#19
+spoglie~
+le spoglie di %s~
+Le spoglie di %s sono sparse tutt'intorno..~
+~
+29 0 1
+5 0 0 1
+1 0 0
+
+#20
+fungo~
+un fungo~
+Un grosso fungo è qui..~
+%s sembra gradire $p.~
+19 0 1
+5 0 0 0
+1 10 1
+
+#21
+globo luce iridescente~
+un globo di luce iridescente~
+Schegge di luce iridescente formano l'interno di questo globo luminoso.~
+~
+1 65 1
+0 0 -1 0
+1 0 0
+
+#22
+sorgiva mistica~
+una sorgiva mistica~
+Una meravigliosa sorgiva mistica sprigiona zampilli d'acqua da un cerchio di pietre blu.~
+~
+25 64 0
+100000 100000 0 0
+10 10 1
+> use_prog 100~
+mpechoat $n Bevi a piccoli sorsi da uno zampillo d'acqua..
+mpechoar $n $n beve a piccoli sorsi da uno zampillo d'acqua..
+~
+|
+
+#23
+pelle~
+la pelle di %s~
+La pelle di %s è qui, gettata in terra, abbandonata.~
+~
+8 0 1
+0 0 0 0
+1 0 0
+
+#24
+fetta carne fresca~
+una fetta di carne cruda da %s~
+Una bella fetta di carne cruda da %s è in bella vista, qui.~
+~
+61 262144 1
+15 0 0 0
+2 0 0
+> use_prog 100~
+mpechoat $n Gusti la carne fresca masticando lentamente..
+mpechoaround $n $n gusta la carne fresca masticando lentamente..
+~
+|
+
+#25
+borsa compere~
+una borsa~
+Una borsa è stata abbandonata qui vicino.~
+~
+15 0 1
+50 0 0 0
+2 20 2
+
+#26
+sangue pozza pozzanghera sanguinolenta~
+una pozzanghera sanguinolenta~
+Brilla sotto la luce una scura pozza di sangue versato di recente..~
+~
+27 0 0
+0 0 0 0
+1 0 0
+
+#30
+fiamma fiamme fuoco focherello~
+un allegro focherello~
+Allegre fiamme tentano di innalzarsi sfidando gli elementi.~
+~
+34 64 0
+0 0 0 0
+10 10 1
+
+#31
+trappola~
+una trappola~
+Hai scovato una trappola!~
+~
+44 0 0
+0 0 0 0
+100 10 1
+
+#32
+portale vorticante~
+un portale vorticante~
+Un portale vorticante gira su sè stesso creando volte energetiche.. Quasi t'invita..
+Che sia una breccia verso l'ignoto?~
+~
+46 64 0
+0 0 0 0
+100 10 1
+
+#33
+nero polvere veleno~
+della polvere di veleno nero~
+In un piccolo contenitore posato in terra, c'è della polvere nera, veleno?~
+~
+13 0 16385
+0 0 0 0
+1 48000 4800
+
+#34
+rotolo carta~
+un rotolo di carta~
+Un rotolo di carta bianca emerge dalla polvere..~
+~
+2 0 16385
+0 -1 -1 -1
+2 10000 1000
+'NONE' 'NONE' 'NONE'
+
+#35
+fiaschetta vuota~
+una fiaschetta vuota~
+Una fiaschetta vuota è stata lasciata qui, ad accumulare polvere..~
+~
+10 0 16385
+1 -1 -1 -1
+1 15000 1500
+'NONE' 'NONE' 'NONE'
+
+#36
+carta pergamena foglio nota~
+un foglio di carta pergamena~
+Un foglio di carta pergamena è stato dimenticato qui..~
+~
+47 8192 16385
+0 0 0 0
+1 1500 150
+
+#37
+penna calamaio~
+una penna da calamaio~
+Una penna da calamaio è stata lasciata qui, il pennino è ancora
+intriso d'inchiostro..~
+~
+21 0 1
+15 15 0 0
+2 2000 200
+
+#38
+stivali viaggio~
+un paio di stivali da viaggio~
+Un paio di stivali da viaggio, vecchio e liso, è stato abbandonato qui..~
+~
+9 8391747 65
+11 11 0 0
+2 325400 32540
+A
+19 5
+A
+18 1
+A
+14 100
+A
+2 1
+
+#39
+chiave cancello~
+la chiave di un cancello~
+Tra la polvere del terreno brilla una grossa chiave..~
+~
+18 524288 1
+0 0 0 0
+1 0 0
+
+#41
+globo~
+un globo~
+C'è un piccolo globo posato sulla cima di un sottile piedistallo di cristallo chiaro..~
+~
+37 0 0
+0 0 0 0
+1 0 0
+E
+globo~
+Pulsando di vivida luce, dalla colonna cristallina, il globo sembra sospinto da
+invisibili forze leggere a propagare il suo moto rotatorio in eterno..
+~
+> push_prog 100~
+mpechoat $n Non appena tocchi il globo il circondario cambia totalmente..
+mpechoat $n Sei attorniato dai suoni e dai confini di.. Darkhaven!
+if ispkill($n)
+  mptransfer $n 3009
+else
+  mptransfer $n 21001
+  mpat 21001 mpechoaround $n $n si materializza al centro di una grossa Runa.
+endif
+mpat 99 pull globo
+~
+|
+
+#42
+globo~
+un globo palpitante~
+Un piccolo globo palpitante di luci è qui, per terra.
+Probabilmente è stato smarrito..~
+~
+4 0 16385
+25 1 1 -1
+1 1 0
+'heal'
+> use_prog 100~
+mpecho $n soffia dolcemente su di te..
+~
+|
+
+#43
+sacro simbolo fede~
+un simbolo di fede~
+Un sacro simbolo di fede giace qui, rilucendo tra la polvere..~
+~
+9 -2147483648 16385
+5 5 0 0
+5 0 0
+A
+4 2
+
+#44
+pezzo pezzi cervello cervelli~
+il cervello spappolato di %s~
+Pezzi sanguinolenti del cervello di %s giacciono in terra attirando mosche..~
+%s sbrana selvaggiamente $p!~
+19 0 1
+16 0 0 0
+2 0 0
+
+#45
+mano~
+la mano troncata di %s~
+La mano troncata di %s stringe ancora le dita in un ultimo spasmo di morte..~
+%s dilania $p ferocemente!~
+61 0 1
+12 0 0 0
+2 0 0
+
+#46
+piede~
+il piede mozzato di %s~
+Il piede mozzato di %s giace in una pozza di sangue coaugulato.~
+%s divora efferatamente $p!~
+61 0 1
+12 0 0 0
+2 0 0
+
+#47
+dito~
+il dito strappato of %s~
+Strappato dalla mano di %s, un dito giace in terra coperto di sangue..~
+%s rosicchia $p con soddisfazione!~
+61 0 1
+5 0 0 0
+1 0 0
+
+#48
+orecchio~
+l'orecchio reciso di %s~
+L'orecchio reciso di %s è qui, gettato in terra. Mai più udrà i suoni e le grida
+delle battaglie..~
+%s mordicchia soddisfatto $p!~
+61 0 1
+5 0 0 0
+1 0 0
+
+#49
+occhio bulbo oculare~
+il bulbo oculare di %s~
+L' occhio schizzato fuori dal teschio di %s giace ora in terra inerme..
+E sembra auguri la morte di ogni creatura vivente..~
+%s divora con impegno $p!~
+61 0 1
+5 0 0 0
+1 0 0
+
+#50
+lingua lunga~
+la lunga lingua di %s~
+Ancora contorta come pronta ad assagiarti, in terra giace la lunga lingua di %s..~
+%s mangia voracemente $p!~
+61 0 1
+14 0 0 0
+2 0 0
+
+#51
+occhio~
+l' occhio di %s~
+Alla tua mente s'affacciano crude visioni di morte non appena ti accorgi che
+l'occhio di %s ti sta fissando..~
+%s ingoia avidamente $p!~
+61 0 1
+10 0 0 0
+1 0 0
+
+#52
+tentacolo~
+il tentacolo di %s~
+Un limaccioso tentacolo di %s si dibatte spasmodicamente in terra, nello stremo
+sforzo dell'ultimo istante di vitalità..~
+%s divora $p con ingordigia!~
+61 0 1
+25 0 0 0
+4 0 0
+
+#53
+pinna~
+la pinna mutilata di %s~
+La pinna mutilata di %s giace qui, in evidente stato di decomposizione..
+Ed emana un odore terribile..~
+~
+13 0 1
+0 0 0 0
+2 0 0
+
+#54
+ala~
+l'ala sbrindellata di %s~
+L'ala sbrindellata di %s è stata lasciata qui in terra, a decomporsi lentamente..~
+~
+13 0 0
+0 0 0 0
+4 0 0
+
+#55
+coda~
+la coda recisa di %s~
+La coda di %s si agita in terra nell'ultimo guizzo di vitalità, sollevando un
+mucchio di polvere..~
+~
+13 0 1
+0 0 0 0
+5 0 0
+
+#56
+scaglia~
+una scaglia del corpo di %s~
+Una scaglia del corpo di %s è qui in terra, tra pezzi di carne decomposta e
+coauguli di sangue..~
+~
+13 0 1
+0 0 0 0
+3 0 0
+
+#57
+zanna~
+la zanna spezzata di %s~
+%s ha perso qui una zanna spezzata..~
+~
+13 0 1
+0 0 0 0
+5 0 0
+
+#58
+corno~
+il corno scheggiato di %s~
+Pezzi del corno scheggiato di %s sono in terra, tutt'intorno.~
+~
+13 0 1
+0 0 0 0
+6 0 0
+
+#59
+artiglio~
+l'artiglio frantumato di %s~
+L'artiglio frantumato di %s giace in terra, sporco di sangue..~
+~
+13 0 1
+0 0 0 0
+5 0 0
+
+#60
+fontana di sangue~
+una fontana che riversa sangue~
+Nell'angolo meno illuminato scorgi i vermigli zampilli di una fontana di sangue.~
+~
+27 0 0
+99999 99999 0 0
+1 0 0
+
+#63
+extradimensionale portale~
+un portale extradimensionale~
+Sicuramente è passato di qui un mago, nel tempo che fu.. E non è dato sapere quando..
+Chi altri poteva lasciare in questo luogo un portale del genere?~
+~
+15 8618240 1
+500 0 0 0
+4 1000 100
+
+#64
+sigillo~
+il sigillo di %s~
+Il sigillo of %s è stato abbandonato qui.~
+~
+1 0 1
+200 0 -1 0
+1 0 0
+E
+sigillo~
+Fluttuando nell'atmosfera, questa candela sospesa a mezz'aria, riempie la stanza
+della sua soffusa luce..
+~
+A
+13 20
+A
+12 20
+A
+14 20
+A
+17 -20
+> wear_prog 100~
+if favor($n) < 300
+  mpforce $n remove sigillo
+  mpechoat $n Non puoi brandire il sigillo, ahimè.. non hai conquistato il pieno favore del tuo Dio!
+endif
+~
+|
+
+#65
+simbolo croce draconiana~
+una croce draconiana~
+Un'elegante croce draconiana irradia un'intensa luce ancestrale..
+L'aura di calore e pietà che emana è quasi tattile..~
+~
+9 25218307 16385
+10 10 0 0
+4 0 0
+
+#70
+piccola porzione fetta carne filetto~
+una porzione di filetto di carne~
+Una delicata porzione di carne è adagiata su un piatto, qui. Ancora sfrigola e
+l'aroma che emana è delizioso..~
+~
+19 0 1
+0 0 0 0
+1 50 5
+> use_prog 100~
+mpechoat $n I bocconi di tenera carne si sciolgono nella tua bocca.. non c'è che dire, è deliziosa questa pietanza!
+mpechoaround $n $n degusta bocconi di tenera carne.. dev'essere proprio deliziosa quella pietanza!
+~
+|
+
+#71
+bicchiere vino~
+un bicchiere di vino~
+C'è un semplice bicchiere ricolmo di vino qui.~
+~
+17 0 16385
+6 6 2 0
+1 250 25
+
+#72
+bauletto~
+Un grazioso bauletto avvolto da lucida seta~
+Bianchissimi veli di seta avvolgono un piccolo baule celandone il contenuto~
+~
+15 -2147483648 1 0
+99999 0 -1 0
+1 0 0
+#73
+cintura cuoio~
+&OU&Wna &OL&Warga &OC&Wintura &Od&Wi &OC&Wuoio&w.~
+Per terra noti una larga cintura di cuoio.
+~
+Vedi una larga cintura in cuoio, abbraccia comodamente i fianchi e cocedi
+~
+9 -2139094968 2049 0
+500 500 0 0
+1 0 0
+A
+13 10000
+A
+17 200
+A
+5 100
+A
+85 100
+A
+1 100
+A
+19 100
+A
+18 100
+#74
+piuma~
+una piuma di %s~
+Una piuma di %s fluttua qui..~
+~
+13 0 1
+0 0 0 0
+1 0 0
+
+#81
+zampa~
+una zampa di %s~
+La zampa anteriore sinistra di %s è qui in terra..~
+~
+13 0 1
+0 0 0 0
+1 0 0
+
+#82
+mano~
+la mano troncata di %s~
+La mano troncata di %s giace qui.~
+~
+13 0 1
+0 0 0 0
+1 0 0
+
+#83
+zoccolo ~
+lo zoccolo spaccato di %s~
+Lo zoccolo spaccato di %s giace in terra..~
+~
+13 0 1
+0 0 0 0
+2 0 0
+
+#84
+becco~
+il becco fracassato di %s~
+Il becco fracassato di %s è qui in un angolo..~
+~
+13 0 1
+0 0 0 0
+1 0 0
+
+#85
+aculeo~
+un acuminato aculeo di %s~
+Un acuminato aculeo di %s è qui, conficcato nella polverosa pavimentazione..~
+~
+13 0 1
+0 0 0 0
+1 0 0
+
+#86
+anca pezzo~
+un pezzo dell'anca di %s~
+In terra è adagiato un pezzo della grossa anca di %s..~
+~
+19 0 1
+25 0 0 0
+4 0 0
+
+#87
+canino dente scheggiato zanna~
+il dente scheggiato di %s~
+Il dente scheggiato di %s è stato dimenticato qui..~
+~
+13 0 1
+0 0 0 0
+1 0 0
+
+#0
+
+
+#ROOMS
+
+#2
+Limbo~
+Galleggi nel vuoto senza forma, staccato da ogni sensazione fisica..
+Tutt'attorno i confini del reale si affievoliscono, spariscono i contorni
+lentamente, prima diventando ombre sottili e poi più nulla..
+~
+0 3154956 1
+D5
+~
+~
+0 -1 21194
+> rand_prog 50~
+mprestore $r 1
+~
+|
+S
+
+#3
+Deposito~
+Questa stanza è riservata al deposito dei giocatori mutati di forma.
+~
+0 3148294 1
+S
+
+#8
+Inferno~
+Sei stato scaraventato in quest'antro strano, prelevato da una mano possente e
+trasportato qui, così velocemente da coprire appena il tempo di un respiro..
+Ecco il luogo che determinerà il tuo Destino. Forse sarai restituito alla vita,
+com'era per te, prima.. o forse sarai sospinto oltre la vita, in un sentiero
+buio e tetro..
+E' giunto il tempo per te di supplicare il tuo Fato e attendere il giudizio per
+i crimini commessi in vita, per i quali pende sul tuo capo una pesante accusa.
+Pensa con calma e esponi le tue ragioni saggiamente, pondera le tue parole e sii
+rispettoso.. la tua testimonianza verrà scritta nei libelli degli Dei, e su di
+essa si determinerà il tuo futuro..
+~
+0 36840524 1
+> death_prog 100~
+if ispg($n)
+  mptransfer $n 8
+  mpforce $n drink sangue
+  mpforce $n drink sangue
+  mpforce $n drink sangue
+  mpforce $n drink sangue
+  mpforce $n drink sangue
+  mpforce $n drink acqua
+  mpforce $n drink acqua
+  mpforce $n drink acqua
+  mpforce $n drink acqua
+  mpforce $n drink acqua
+endif
+~
+|
+S
+
+#9
+Stanza di Lavoro~
+Questa stanza è un fermento di operosità: ogni creatura è affaccendata in varie
+mansioni, il via vai è continuo e il chiacchiericcio sommesso saluta lievemente
+il silenzio circostante..
+~
+0 3407876 1
+D5
+L'Accademia di Darkhaven
+~
+~
+0 -1 10300
+D10
+~
+VNUMS~
+526336 -1 10300
+S
+
+#98
+&wUna &rC&wripta nel &OSottosuolo&w~
+S&zcendi lungo una tortuosa scalinata per ritrovarti in &zuna sala quasi 
+completamente buia. L'aria e' stantia, quasi &zirrespirabile. 
+&zL'arredamento di questo luogo e' molto scarno: &zun grosso letto d'ebano e 
+alcuni armadi... null'altro. Su di &zuna parete noti un grande affresco, 
+che ritrae un guerriero &znell'atto di combattere... la cosa che ti lascia 
+quasi senza &zparole e' il fatto che sembra essere stato realizzato col 
+&rsangue... 
+&zTendendo l'orecchio ti sembra di sentire attorno a te 
+gemiti e grida soffocate di uomini in punto di morte... Poc'altro ti serve
+per dire che questa e' di certo la dimora di un &RV&rampiro.&w
+~
+0 3153932 0
+> act_prog p è entrato~
+if isadmin($n)
+  mpe Dovresti avere una nota nel tuo inventario..
+else
+  mpechoat $n Ti muovi lentamente verso il globo, per esaminarlo meglio..
+  mpforce $n examine globo
+  mpforce $n inv
+endif
+~
+|
+S
+
+#99
+Lo Spazio Indefinito~
+Ti risvegli da un sogno surreale e ti trovi in un posto sconosciuto..
+Lentamente ti riprendi dal torpore del sonno innaturale e i tuoi occhi
+riacquistano il fuoco dell'immagine: capisci ora che sei stato portato
+qui dagli Dei, per ricevere una comunicazione. Guardati attentamente,
+controlla il tuo equipaggiamento e le tue mani, cerca il segno lasciato
+dagli Dei..
+~
+0 3678220 0
+> act_prog p è entrato~
+if isadmin($n)
+  mpechoat Dovresti avere una nota nel tuo inventario..
+else
+  mpechoat $n Ti muovi lentamente verso il globo, per esaminarlo meglio..
+  mpforce $n examine globo
+  mpforce $n inventory
+endif
+~
+|
+S
+#0
+
+
+#RESETS
+
+
+O 0 41 1 99
+M 0 1 1 2
+O 0 22 1 2
+O 0 22 1 8
+O 0 60 1 8
+M 0 2 2 8
+O 0 60 1 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  1 spec_breath_gas
+S
+
+
+#END

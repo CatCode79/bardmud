@@ -1,0 +1,75 @@
+#CLAN
+Name           Mirmidoni~
+ShortDescr     Clan dei Mirmidoni~
+Description    Il Clan dei Mirmidoni è un gruppo di guerrieri scelti e selezionati in base
+alla loro capacità in combattimento in corpo a corpo.
+Il Clan rifà le sue origini al vecchio branco di appartenenza di Thorek,
+formato da soli minotauri capeggiato dal padre dello stesso Thorek, ucciso
+da alcuni Orchi a causa di un complotto fra i due luogotenenti e il resto
+della truppa scelta.
+Thorek ha voluto ampliare questo gruppo ammettendo al suo interno chiunque
+abbia buone conoscenze di guerra e di combattimento corpo a corpo.
+Il Clan e’ saldamente retto da una scala gerarchica che vede un essere
+mortale in qualità di generale. 
+L’esistenza del gruppo non ha uno scopo ben preciso; è un esercito non
+regolare che al caso può prestarsi al compito di eventuali lavori quali:
+‘Protezione’, ‘Missioni segrete e non ’.
+Lo scopo principale nonché la regola fondamentale per appartenere al clan è
+la lunga conservazione dello stesso gruppo.
+~
+Motto          Non ancora impostato~
+MsgReunion     Presto! Tutti in riunione di Clan!~
+MsgAlarm       Allarme! Il Clan è sotto attacco!!~
+MsgObjLost     Allarme! L'oggetto del Clan è stato rubato!~
+MsgObjAquired  Ci siamo impossessati di un oggetto di Clan!~
+Type           CLANTYPE_CLAN
+Flags          ~
+PKills         0
+PDeaths       0
+MKills         4030
+MDeaths        7
+IllegalPk      0
+Strikes        0
+RankLimit      5
+Rank 0
+    Soldato Regolare~
+    -1
+    CLASS_FIGHTER CLASS_WANDERING CLASS_PALADIN~
+    ~
+    -1000
+    1000
+Rank 1
+    Fanteria Scelta~
+    -1
+    CLASS_FIGHTER CLASS_WANDERING CLASS_PALADIN~
+    ~
+    -1000
+    1000
+Rank 2
+    Alfiere~
+    -1
+    CLASS_FIGHTER CLASS_WANDERING CLASS_PALADIN~
+    ~
+    -1000
+    1000
+Rank 3
+    Luogotenente~
+    -1
+    CLASS_FIGHTER CLASS_WANDERING CLASS_PALADIN~
+    ~
+    -1000
+    1000
+Rank 4
+    Generale~
+    1
+    CLASS_FIGHTER CLASS_WANDERING CLASS_PALADIN~
+    ~
+    -1000
+    1000
+Member         Thorek 4 Onirik 1126299181
+Member         Nayran 0 Thorek 1129313284
+Member         Ethril 0 Thorek 1129313284
+MemberLimit    10
+End
+
+#END

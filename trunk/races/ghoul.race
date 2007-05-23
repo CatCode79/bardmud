@@ -1,0 +1,32 @@
+#RACE
+RaceNumber     RACE_GHOUL
+NameMale       Ghoul~
+NameFema       Ghoul~
+Color          AT_RED red 3~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus       0     0     0     0     0     0
+PointLimit     0 0 0 0
+Affected       ~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_DEATH~
+*
+LangLearnable  ~
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+Height         175
+Weight         60,000
+TonalitySound  verso cupo~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

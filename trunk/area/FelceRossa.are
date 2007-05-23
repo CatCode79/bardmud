@@ -1,0 +1,733 @@
+#AREA
+Name         Residenza dei FelceRossa~
+Author       Diku (Miciko)~
+Color        AT_RED rosso~
+LevelRange   20 30
+ResetMsg1    Sento in lontananza il clangore e gli stridii della Catena.~
+Economy      0 1246000
+Vnums        7900 7919
+End
+
+
+#MOBILES
+
+#7900
+cavaliere paladino~
+il Gran Cavaliere dell'ordine dei Paladini~
+Un gran cavaliere, probabilmente un paladino, ti osserva benevolo.. Se hai bisogno puoi 
+contare sul suo aiuto..~
+Il Paladino si erge di fronte a te in tutta la sua possenza, indossa un'armatura
+d'argento ed un avvolgente mantello bianco bordato di blu.
+Nei suoi occhi riluce la fierezza della propria missione: aiutare e salvare gli
+innocenti e gli indifesi.
+~
+65 136 1000 C
+45 -5 -9 20d10+700 2d6+14
+2000 100000
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 1 1 4
+0 0 1775 0 0 0 1073742048 524291
+
+#0
+
+
+#OBJECTS
+
+#7900
+barilotto acqua~
+un barilotto~
+Un barilotto colmo d'acqua è stato lasciato in un cantuccio..~
+~
+17 0 1
+50 50 0 0
+65 60 6
+
+#7901
+bastone bastoncino~
+un piccolo bastone~
+Vedi un piccolo bastone poggiato per terra.~
+~
+1 0 16385
+0 0 120 0
+4 200 20
+E
+bastone bastoncino~
+Sembra un bastone qualunque, non molto degno d'attenzione.. tranne che per quelle
+strane letterine incise.
+~
+E
+lettera lettere~
+Leggi distintamente 'Prendimi'.
+~
+
+#7902
+spadone~
+un enorme spadone~
+Un enorme spadone dall'elsa lavorata finemente fa notare decisamente la sua ingombrante presenza.~
+~
+5 592 8193
+0 4 4 5
+19 1800 180
+E
+spadone elsa~
+E' una sorta di decorazione che rappresenza un Drago d'Argento.
+La sua bocca si spalanca laddove la lama comincia il suo lungo tragitto verso
+la punta.
+~
+A
+17 5
+A
+19 5
+
+#7903
+pettorale argentato~
+un pettorale argentato~
+Un pettorale d'argento riluccica nella penombra.~
+~
+9 3392 9
+8 0 0 0
+40 25000 2500
+E
+pettorale argento~
+Nel centro del pettorale vedi una rosa sbalzata a rilievo, il metallo pare essere
+della stessa consistenza dell'argento o del platino.
+~
+A
+1 3
+
+#7904
+gambali argento~
+un paio di gambali argentati~
+Sul pavimento se ne sta solo soletto un paio di gambali argentati.~
+~
+9 3392 33
+8 0 0 0
+20 12500 1250
+E
+gambali~
+Paiono realizzati in argento o un metallo simile, su un lato vedi incisa una
+piccola rosa.
+~
+A
+3 3
+
+#7905
+guanti argento~
+un paio di guanti d'argento~
+Due guanti argentati aspettano di poter chiedere la mano di qualcuno.~
+~
+9 3392 129
+8 0 0 0
+14 900 90
+E
+guanti~
+Decisamente in argento, questi guanti potranno servirti per recapitare
+dei cazzotti di lusso a qualche malcapitato.
+~
+A
+18 3
+A
+19 1
+
+#7906
+elmetto~
+un elmetto argentato~
+Un elmetto d'argento è stato abbandonato qui.~
+~
+9 3392 17
+9 0 0 0
+35 9000 900
+E
+elmetto~
+Un lungo pennacchio bianco sormonta questo elmetto, probabilmente
+forgiato in argento o platino.
+~
+A
+4 3
+
+#7907
+scudo~
+lo Scudo della Rosa~
+Lo Scudo della Rosa attende che qualcuno se lo porti via.~
+~
+9 3392 513
+10 0 0 0
+60 15000 1500
+E
+scudo~
+Sullo scudo è disegnata una rosa rossa in campo bianco e poco sotto si legge
+un'iscrizione : Pax Est Sanctuum.
+~
+A
+17 -10
+
+#7908
+stivali argentati~
+un paio di stivali argentati~
+Scorgi un paio stivali argentati.~
+~
+9 3392 65
+8 0 0 0
+40 2000 200
+E
+stivali argentati~
+Sono degli stivali d'argento, semplici nella linea e forse anche comodi da calzare.
+~
+A
+2 3
+
+#7909
+monete tesoro~
+un ingente tesoro~
+Non passa di certo inosservato questo tesoro, vero?~
+~
+20 0 1
+-100 0 0 0
+0 0 0
+E
+tesoro~
+Si direbbe proprio una bella montagna di monete! Una di esse pare incisa..
+~
+E
+incisione lettere parole~
+A stento leggi alcune parole: "Lasciami qui per favore"
+~
+
+#7910
+baule cesto~
+un baule di legno~
+In un angolo vedi un grazioso baule di legno.~
+~
+15 0 1
+100 15 7911 0
+400 100 10
+E
+baule cesto~
+Robuste assi di legno, tenute insieme da paraspigoli in ferro battuto, disegnano
+la linea semplice ma elegante del baule. Un piccolo lucchetto d'ottone fa la
+guardia alla serratura.
+~
+
+#7911
+chiave~
+una chiavina d'ottone~
+Una piccola chiave d'ottone è posata accanto al baule.~
+~
+18 0 1
+7910 0 0 0
+1 10 1
+E
+chiave~
+E' solo ottone modellato a forma di chiave, nessuna incisione aggiuntiva, né un segno di
+alcun tipo.
+~
+
+#7912
+maniche argento~
+delle maniche argentate~
+Due maniche argentate stanno qui, poggiate a terra.~
+~
+9 3392 257
+8 0 0 0
+40 12500 1250
+E
+maniche argentate~
+Sulle maniche c'è un piccolo rilievo a forma di rosa.
+~
+A
+5 3
+
+#7913
+bianco mantello~
+un mantello bianco~
+Un mantello bianco è piegato ben benino su una delle mattonelle del pavimento.~
+~
+9 3392 1025
+10 0 0 0
+20 10000 1000
+E
+mantello bianco~
+Questo mantello, di un bianco scintillante, non sembra tessuto con della comune
+stoffa anche le rifiniture sono ben curate.
+~
+A
+24 -5
+
+#7914
+tesoro monete~
+un ingente tesoro~
+Forse non sai che solo tu puoi vedere questo enorme tesoro.~
+~
+20 0 1
+25000 0 0 0
+0 25000 2500
+E
+tesoro~
+Monete.. Monete.. Tante belle monetine tintinnanti.
+~
+
+#0
+
+
+#ROOMS
+
+#7900
+Davanti alla Magione dei Felcerossa~
+Un posto di cui non stancarsi mai: un pavimento di soffici nubi accoglie i tuoi passi,
+la lieve brezza ti scompiglia i capelli giocosamente mentre i caldi raggi del sole
+ti coccolano con il loro tepore.
+Le nuvole attutiscono i già deboli rumori provenienti dalla sottostante Darkhaven.
+Dinnanzi a te si apre la grande Magione di Naris, dimora dei Felcerossa.
+~
+0 3146244 0
+D0
+Un imponente cancello introduce alla magnifica costruzione.
+~
+cancello porta~
+35 -1 7901
+D5
+La Magione di Naris è ancorata al suolo grazie a questa robusta catena.
+~
+~
+0 -1 7918
+S
+
+#7901
+Il lato meridionale dell'androne~
+L'ingresso della Magione è molto ampio, guardandoti intorno cerchi di
+capire quali siano le deboli luci che illuminano l'ambiente ma non trovi
+risposta al tuo quesito.
+Dalle pareti si emana un calore benevolo, pare una sorta di benvenuto per chi
+si addentra in questa casa; su uno dei muri è appeso un ritratto.
+Guardi a destra e a sinistra per orientarti: ad est vedi un corridoio
+che conduce fuori dall'atrio per terminare di fronte ad una massiccia porta
+in legno di quercia; verso ovest c'è una porta di uno strano colore indefinito.
+A nord si estende ancora il grande salone mentre a girandoti verso sud puoi vedere
+l'enorme portone d'ingresso forgiato in ferro battuto.
+Accanto a te uno scalone con gradini in legno conduce al piano superiore.
+~
+0 524 0
+D0
+Il corridoio prosegue dritto verso il portone di quercia; sui lati, nella zona
+sotto la scala, si aprono altre porte.
+~
+~
+0 -1 7904
+D1
+Intravedi il portone di quercia poco lontano, su di esso scorgi degli strani simboli,
+paiono rune scolpite nel legno.
+~
+quercia porta portone~
+35 -1 7910
+D2
+E' davvero un bel portone! Probabilmente sarebbe più adatto indicarlo come cancello, data
+la sua grandezza. Un cartello appeso alla maniglia del portone recita a chiare
+lettere "Uscita d'emergenza".
+~
+portone~
+35 -1 7900
+D3
+Questa sembra una porta vera e propria, non come il portone di quercia dalla
+parte opposta. E' dipinta di una tonalità particolare di giallo che fa risaltare
+alcune piccole lettere nere.
+~
+ovest giallo porta~
+35 -1 7902
+D4
+Lo scalone sale su verso la cima della torre e da quaggiù ti pare di vederne la fine
+sulla soglia di una stanza da letto.
+~
+~
+0 -1 7909
+E
+rune~
+Forse tu conosci un altro alfabeto runico perché non ti par proprio di
+comprendere il linguaggio di questi simboli..
+Ma è il tuo giorno fortunato! Qualcuno ha provveduto a tradurre la scritta
+in Lingua Comune: "Non aprire questa porta, se ti preme la vita. E così dovrebbe
+essere, dato che sei mortale"
+~
+E
+lettere~
+Semplici nella forma, chiare nel contenuto: "Biblioteca".
+~
+S
+
+#7902
+La Biblioteca~
+Pile  di  libri e  pergamene  sono riposte  con  molta cura  sugli  scaffali che
+occupano  praticamente tutte  le pareti  della biblioteca.  L'arredamento della
+stanza  è sobrio  ma variegato:  nell'angolo nord-ovest,  su un  piedistallo di
+marmo, è ospitata  una mappa sferica  dei Reami.  Poco  davanti,  due  poltrone  in
+pelle, dall'aria molto confortevole, sono sistemate accanto alle rispettive scrivanie,
+ricavate sempre dall'ottimo legno di quercia.
+Alzando lo sguardo troverai il lampadario di cristallo che provvede all'illuminazione
+dell'intero ambiente, ad occhio e croce si trova a circa dieci piedi dal soffitto.
+Ad est vedi la porta gialla d'ingresso mentre ad ovest una larga finestra richiama
+la tua attenzione verso l'esterno.
+~
+0 524 0
+D1
+Vedi la porta d'ingresso alla biblioteca.
+~
+porta est giallo~
+35 -1 7901
+D5
+Intravedi.. una botola forse?
+~
+botola~
+11 -1 7903
+E
+sfera globo mappa~
+Un sistema geniale ed insolito di rappresentare i Reami: la superficie
+sferica del globo ospita una fedele riproduzione di questo mondo. Puoi divertirti a
+cercare i nomi delle tante città disegnate e probabilmente non ti sfuggirà
+'DARKHAVEN', la città più grande di tutta la cartina.
+Chi ha redatto questa mappa non s'è dimenticato di aggiungere anche i particolari
+geografici delle varie regioni: montagne, fiumi, laghi e pianori.. non manca nulla!
+~
+E
+darkhaven città~
+Vedi segnata sulla cartina una zona confinante ad ovest con un piccolo bosco, ad est con le
+pianure, a nord con le montagne. A sud, da questa zona si diparte un sentiero che
+percorre la mappa fino ad un grande castello.
+Infine noti anche un fiume piuttosto largo che attraversa la città di Darkhaven.
+~
+E
+poltrone pelle~
+Si tratta di due poltrone perfettamente identiche e dall'aspetto molto
+confortevole. La pelle che le riveste sembra ormai lisa e datata, tuttavia questo
+particolare è solo un'ulteriore conferma che in molti si son fermati
+qui per riposare un po'.
+~
+E
+finestra vetri~
+Lunghe vetrate compongono le finestre della biblioteca, partendo da pavimento fin
+quasi a raggiungere il soffitto. Se ti avvicini e provi a guardare fuori magari
+potrai scoprire qualcosa di interessante dietro questi vetri.
+~
+E
+fuori dietro~
+Una fitta coltre di nuvole forma la base su cui poggia l'intero edificio, aguzzando
+la vista, attraverso una delle nubi più sottili si intravede la lontana Darkhaven
+e la sua frenetica attività.
+~
+E
+fiume~
+Segui sulla cartina il percorso del fiume dalla sorgente, un lago nell'interno,
+sino alla foce nel Grande Mare dell'ovest, passando sotto i ponti di Darkhaven.
+~
+S
+
+#7903
+La camera dei monili di Naris~
+La penombra di questa stanza è lievemente rischiarata dall'inspiegabile forma
+di luce emessa dalle pareti. Nel centro della camera sono disposti alcuni oggetti
+dai contorni davvero bizzarri e ciò che pare ancor più strana è la totale assenza
+di altro mobilio. L'unica uscita pare essere la porta ad ovest.
+~
+0 526 0
+S
+
+#7904
+Il lato nord dell'androne~
+Questa parte dell'atrio è interamente sotto la volta delle scale e perciò qui la luce
+sembra più soffusa che non vicino al portone d'entrata.
+Da nord giungono dei profumini invitanti.. sarà arrosto? Più a sud puoi vedere il gigantesco
+portone d'ingresso. Verso est e verso ovest ci sono due porte, una di metallo pesante
+l'altra di legno massiccio, a te la scelta.
+~
+0 524 0
+D0
+~
+~
+0 -1 7906
+D1
+Ti avvicini per esaminarla meglio ma un fetore insopportabile ti costringe ad
+indietreggiare di un passo. Un pensiero ti balena per la mente.. "Mostri?" e
+chissà perché s'affievolisce il desiderio di scoprire cosa si celi dietro questa porta.
+~
+acciaio metallo porta~
+35 -1 7913
+D2
+Vedi il salone d'ingresso e l'imponente entrata.
+~
+~
+0 -1 7901
+D3
+E' ricavata da legno di pioppo e finemente decorata con piccole incisioni raffiguranti
+elfi di bosco. Una scritta sul bordo superiore indica che sei davanti alla porta del salotto.
+~
+pioppo porta~
+35 -1 7905
+S
+
+#7905
+Il salotto di Naris~
+Una galleria di ritratti di Re e Regine adorna le pareti lignee del salotto. Uno in
+particolare attira il tuo sguardo: rappresenta un principe vestito con armatura da guerra.
+Poggiata contro uno dei muri vedi una vecchia poltroncina.
+L'unica uscita è la porta ad est.
+~
+0 524 0
+D1
+Sembra essere una porta pesante, interamente ricavata dal tronco del pioppo.
+~
+pioppo pesante porta~
+35 -1 7904
+E
+poltrona~
+Ci pensi due volte prima di sederti, la poltrona sembra davvero molto vecchia.
+Però è fornita di un morbido ed accogliente cuscino..
+~
+S
+
+#7906
+La cucina di Naris~
+Dai muri della cucina si spande ancora il profumo di vivande e ciò serve
+solo a ricordarti che hai fame! Da qualche parte, nelle tane nascoste, ti par
+di sentire un rumorino di rosicchiamento, come se i topi stessero banchettando
+con carne e pane e chissà cos'altro ancora.
+A nord vedi la dispensa, ad est c'è la ghiacciaia.
+L'uscita per tornare nell'atrio è a sud.
+~
+0 524 0
+D0
+Nonostante il buio, lo squittire persistente parla da sé: si tratta proprio di topi.
+~
+dispensa~
+35 -1 7907
+D1
+Ti volti a guardare la ghiacciaia.. forse c'è qualcosa di buono dentro.
+~
+ghiacciaia~
+35 -1 7908
+D2
+Da qui vedi il lato settentrionale dell'androne.
+~
+~
+0 -1 7904
+S
+
+#7907
+La dispensa~
+Cibo ovunque! Purtroppo sui sacchi pieni di farina ed altri cibi, scorrazzano felici
+ratti di proporzioni inverosimili, mordendo e mangiucchiando tutto quello che trovano.
+~
+0 524 0
+D2
+~
+porta dispensa uscita~
+35 -1 7906
+S
+
+#7908
+La ghiacciaia~
+Un'unica stanza adibita a ghiacciaia della Magione ed è piena di bottiglie di vino
+ed altre bevande.
+~
+0 524 0
+D3
+~
+porta uscita ghiacciaia frigorifero~
+35 -1 7906
+S
+
+#7909
+Su per le scale~
+Alzi ed abbassi il capo per vedere le scale in tutta la loro lunghezza eppure sembrano
+non avere un inizio né una fine. Sembra un percorrere i gradini senza meta, in entrambi i versi.
+Qualcosa ti dice che proseguendo verso l'alto prima o poi troverai la camera da letto dei
+Felcerossa.
+~
+0 524 0
+D4
+~
+~
+0 -1 7911
+D5
+~
+~
+0 -1 7901
+S
+
+#7910
+La stanza del Tesoro~
+E' un posto stranamente cupo, l'unica uscita è ad ovest attraverso la porta di quercia.
+~
+0 524 0
+D3
+Vedi una porta ricavata dal legno di quercia.
+~
+porta quercia~
+35 -1 7901
+S
+
+#7911
+La camera da letto dei Felcerossa~
+L'arredamento di questa stanza sembra ben studiato per delle serate romantiche.
+Lungo la parete orientale sta un ampio camino che, con il tranquillo
+crepitio del legno e l'odore della brace, dona un'atmosfera familiare alla camera.
+Dopo un'occhiata lievemente perplessa al resto della stanza ti rendi conto che per metà
+essa è occupata dal gigantesco letto, ben riordinato e adeguato per fredde notti
+invernali. Ai piedi del materasso, infatti, riposte sopra il copriletto stanno due
+larghe coperte di lana pesante.
+Se vuoi tornare di sotto ti basterà scendere la scala oppure puoi continuare ad esplorare
+i dintorni uscendo sul balcone dalla porta-finestra che è a sud.
+~
+0 524 0
+D2
+Il sole inonda la stanza con la sua calda luce.
+~
+porte~
+3 -1 7912
+D5
+~
+~
+0 -1 7909
+S
+
+#7912
+Il balcone~
+L'aria fresca accompagna i profumi che giungono a te dalle verdi vallate
+circostanti che si stendono a perdita d'occhio per miglia e miglia verso sud.
+Guardando in basso riesci a scorgere l'ingresso dell'edificio, a nord il
+finestrone riconduce alla stanza da letto.
+~
+0 516 0
+D0
+Vedi l'interno della camera da letto.
+~
+porta porte~
+35 -1 7911
+S
+
+#7913
+Il recinto del Mostro~
+Hai messo piede in quella che parrebbe la gabbia di un'enorme bestia carnivora.
+Considerando lo stato delle pareti piene di segni simili a graffi, puoi arguire
+la notevole aggressività dell'inquilino di questo posto.. E certo la cosa non ti rende
+felice.
+~
+0 8 0
+D3
+Sembra essere l'unica uscita.
+~
+porta gabbia recinto~
+35 -1 7904
+S
+
+#7914
+Salendo una grossa catena~
+Da qui si gode una bella vista di Darkhaven, l'unica pecca consta nella poca libertà
+di movimento: puoi solo salire o scendere.. A meno che tu non desideri avventurarti
+nell'aria, abbandonando l'appiglio sicuro della catena.
+~
+0 4 5
+D4
+La catena prosegue in alto, perdendosi fra le nuvole.
+~
+~
+0 -1 7916
+D5
+Sotto di te la catena è ancorata al suolo, poco distante da un grande incrocio di strade.
+~
+~
+0 -1 21291
+S
+
+#7916
+Lungo la grande Catena di Naris~
+Continui a salire con convinzione. Più che l'acciaio della catena, ti sostiene la
+consapevolezza che un solo passo falso porrebbe fine alla tua esistenza. Ancora non hai
+questo grande desiderio di morire, quindi tieni salda la presa e affronta la scalata
+con coraggio!
+~
+0 4 5
+D4
+Da qui c'è un'unica via da intraprendere, continuare a salire.
+~
+~
+0 -1 7918
+D5
+~
+~
+0 -1 7914
+S
+
+#7918
+La possente Catena di Naris~
+Hai quasi raggiunto la cima della enorma catena e lanciando un'occhiata veloce
+in basso a stento trattieni un moto di stupore.. Da qui si vede l'intera regione!
+Una luce meravigliosa accompagna le tue fatiche ma già intravedi un'apertura fra le nuvole
+che consente una miglior visuale degli appigli. Non lontano sopra le nubi si staglia
+la Magione di Naris, dimora dei Felcerossa, mentre guardando in basso la catena sembra
+svanire fra le nuvole.
+~
+0 4 5
+D4
+Vedi la cima della catena ed oltre questa la casa dei Felcerossa finalmente!
+~
+~
+0 -1 7900
+D5
+~
+~
+0 -1 7916
+S
+
+#0
+
+
+#RESETS
+D 0 7900 0 1
+D 0 7901 2 1
+D 0 7902 1 1
+D 0 7901 3 1
+D 0 7901 1 1
+D 0 7910 3 1
+D 0 7904 1 1
+D 0 7913 3 1
+D 0 7911 2 1
+D 0 7912 0 1
+D 0 7904 3 1
+D 0 7905 1 1
+D 0 7906 1 1
+D 0 7908 3 1
+D 0 7906 0 1
+D 0 7907 2 1
+M 0 7900 1 7900
+E 1 7902 99 16
+E 1 7903 99 5
+E 1 7904 99 7
+E 1 7905 99 9
+E 1 7906 99 6
+E 1 7907 99 11
+E 1 7908 99 8
+E 1 7912 99 10
+E 1 7913 99 12
+G 1 7911 99
+O 0 7900 10 7908
+O 0 7910 1 7910
+P 1 7914 1 7910
+P 1 7901 6 7910
+O 0 7909 10 7903
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  7900 spec_cast_cleric
+S
+
+
+#END

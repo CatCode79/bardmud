@@ -1,0 +1,33 @@
+#RACE
+RaceNumber     RACE_DEMON
+NameMale       Demone~
+NameFema       Demone~
+Color          AT_RED rosso inferno~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus         0     0     0     0     0     0
+PointLimit     5000 5000 5000 5000
+Affected       ~
+Resist         ~
+Suscept        ~
+* Conosce di base il comune e il dialetto del comune
+LangNatural    LANGUAGE_COMMON~
+LangLearnable  ~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        100
+Height         168
+Weight         63,000
+TonalitySound  voce~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

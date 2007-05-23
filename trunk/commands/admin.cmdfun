@@ -1,0 +1,1297 @@
+#CMDFUN
+FunName     do_aassign
+MiniHelp    Serve ad assegnare un'area su cui lavorare e modificare~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_adm_morph
+MiniHelp    Permette all'Admin di morphare in un determinato morph~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_adm_unmorph
+MiniHelp    Permette all'Admin di tornare allo stato originario pre-morph~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_admhost
+MiniHelp    Permette di settare l'ip da cui ci si connette così da evitare che dei
+                 lamer provino a connettersi con gli Admin~
+Type        CMDTYPE_EDITING
+Trust       TRUST_IMPLE
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_admtalk
+MiniHelp    E' il canale degli admin~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_advance
+MiniHelp    Permette di avanzare o diminuire un pg del livello voluto~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_aecho
+MiniHelp    Permette di inviare un echo nell'area della vittima~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ECHO
+End
+
+#CMDFUN
+FunName     do_aexit
+MiniHelp    Elenca tutte le uscite dell'area un cui vi trovate~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_afk2
+MiniHelp    Uguale al comando classico, ma questo permette di non perdere lo status
+                 di afk se si utilizzano altri comandi~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_allow
+MiniHelp    Toglie un ban ad una persona, sito, razza o classe~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_aset
+MiniHelp    Imposta le caratteristiche base di un'area~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_astat
+MiniHelp    Visualizza le caratteristiche principali di un'area~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_at
+MiniHelp    Esegue il comando alla locazione, mob o pg dato come se tu fossi lì~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_ban
+MiniHelp    Banna un pg, sito, razza o classe~
+Type        CMDTYPE_PUNITION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_blist
+MiniHelp    Elenca le proprie aree che si stanno costruendo~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_bodybag
+MiniHelp    Visualizza i cadaveri dei pg nel Mud e permette di recuperarli~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_showboards
+MiniHelp    Visualizza le caratteristiche di una board~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+*#CMDFUN
+*FunName     do_showleaks
+*MiniHelp    Visualizza tutti i memory leakage trovati~
+*Type        CMDTYPE_INFORMATION
+*Trust       TRUST_IMPLE
+*Position    POSITION_DEAD
+*End
+
+#CMDFUN
+FunName     do_check
+MiniHelp    Comando che controlla l'integrita delle entità (mob, oggetto, room)
+                 indicizzate del Mud~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_checkvnums
+MiniHelp    Controlla se un determinato range di vnum conflitta con un'area esistente~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_climate
+MiniHelp    Visualizza e permette di modificare le info meteo dell'area~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_cmdtable
+MiniHelp    Visualizza l'utilizzo e il lag dei comandi~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_copyover
+MiniHelp    Permette di rebottare il Mud mantenendo le connessioni dei pg~
+Type        CMDTYPE_SYSTEM
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Flags       CMDFLAG_TYPEALL~
+End
+
+#CMDFUN
+FunName     do_diagnose
+MiniHelp    Comando che permette di diagnosticare varie cose, ha una sintassi complessa
+                 e in due parole è difficile da presentare~
+Type        CMDTYPE_SYSTEM
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_doas
+MiniHelp    Permette di inviare un comando ad un pg inviando però all'admin il
+                 risultato. Molto potente e comodo, non ignoratelo~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_dream
+MiniHelp    Permette di inviare un sogno in particolare ad un pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_echo
+MiniHelp    Invia un echo ad una vittima~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ECHO
+End
+
+#CMDFUN
+FunName     do_economy
+MiniHelp    Visualizza il valore delle azioni e le banche nel Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_experience
+MiniHelp    Visualizza i punti di esperienza necessari per il passaggio di livello~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_fixchar
+MiniHelp    Corregge un pg, utile nel qual caso abbia affect che non dovrebbe avere
+                 o altri casini~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_fixed
+MiniHelp    Serve a inviare le correzioni che sono state effettuate nel Mud e/o codice
+                 cosicché tutti gli admin lo possano sapere~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_foldarea
+MiniHelp    Salva un'area scrivendo il relativo file *.are~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_for
+MiniHelp    Permette di far inviare a tutti i pg, mob o admin un determinato comando~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_force
+MiniHelp    Forza un pg o mob a fare una determinata azione~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_formpass
+MiniHelp    Visualizza la password criptata passando un argomento, utile nella modifica
+                 di password~
+Type        CMDTYPE_SYSTEM
+Trust       TRUST_IMPLE
+Position    POSITION_DEAD
+Log         LOG_NEVER
+End
+
+#CMDFUN
+FunName     do_freemove
+MiniHelp    Forza un pg a togliersi tutto il suo equipaggiamento, anche oggetti
+                 maledetti~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_fshow
+MiniHelp    Permette di visualizzare il contenuto di alcuni file online~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_gecho
+MiniHelp    Invia un echo in tutto il Mud~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ECHO
+End
+
+#CMDFUN
+FunName     do_gfighting
+MiniHelp    Elenca i combattimenti presenti nel Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_gwhere
+MiniHelp    E' un where globale sui mob o pg con possibilità di scelta del livello
+                 voluto~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_incognito
+MiniHelp    Permette di rendersi invisibili da un determinato livello in sù~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_info
+MiniHelp    Invia un messaggio di servizio off-gdr a tutti i giocatori nel Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_installarea
+MiniHelp    Installa online un'area che si sta costruendo nel Mud~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_instaroom
+MiniHelp    Installa i reset in una room di un'area che si sta costruendo~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_instazone
+MiniHelp    Installa i reset in un'area che si sta costruendo~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_ipcompare
+MiniHelp    Permette di comfrontare gli ip dei giocatori online~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_itemtype
+MiniHelp    Visualizza i value di un tipo d'oggetto nelle varie aree~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_khistory
+MiniHelp    Visualizza lo storico delle uccisioni del determinato pg~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+*#CMDFUN
+*FunName     do_landmarks
+*MiniHelp    Mostra tutte le stanze delle wild utilizzate come punti di riferimento~
+*Type        CMDTYPE_INFORMATION
+*Trust       TRUST_MASTER
+*Position    POSITION_DEAD
+*Flags       CMDFLAG_INTERACT~
+*End
+
+#CMDFUN
+FunName     do_last
+MiniHelp    Mostra quale giocatore di è connesso per ultimo~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_listdt
+MiniHelp    Elenca tutte le dt del Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_listobjective
+MiniHelp    Elenca tutti gli obiettivi dei pg del Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_loadarea
+MiniHelp    Carica un'area che si sta costruendo o che è stata rimossa~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_log
+MiniHelp    Permette di loggare un determinato pg e vedere l'invio dei suoi comandi~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_makerepair
+MiniHelp    Permette di creare un negozio di riparazioni~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_makeshop
+MiniHelp    Permette di creare un negozio~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_masters
+MiniHelp    Elenca tutti i Maestri delle varie discipline nel Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_mcreate
+MiniHelp    Permette di creare un mob, di un'area che si sta costruendo, partendo da un
+                 vnum conosciuto~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_mdelete
+MiniHelp    Distrugge un mob, di un'area che si sta costruendo~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_memory
+MiniHelp    Elenca il numero di entità caricate dal Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_mfind
+MiniHelp    Elenca tutti i mob indicizzati del Mud trovati con un argomento preciso~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_mgoto
+MiniHelp    Permette di andare nella determinata locazione, mob o pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_minvoke
+MiniHelp    Permette di creare un mob partendo dal suo modello indicizzato~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_morphstat
+MiniHelp    Visualizza le caratteristiche di un morph~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_mrestring
+MiniHelp    Permette di restringare un mob~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_mpstat
+MiniHelp    Visualizza le statistiche di un Mob Prog~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_msglog
+MiniHelp    Permette di visualizza determinati tipi di messaggio di log~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_NEVER
+End
+
+#CMDFUN
+FunName     do_mstat
+MiniHelp    Visualizza le caratteristiche di un Mob~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_mwhere
+MiniHelp    Comando where per i mob, cerca su area o su Mud se si passa un argomento~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_newbieset
+MiniHelp    Permette di vestire un pg con l'equipaggiamento da newbie~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_newzones
+MiniHelp    Visualizza le aree caricate che si stanno costruendo~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_nohelps
+MiniHelp    Elenca quali comandi, incantesimi, skill o aree non ci sono tra gli help~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_ocopy
+MiniHelp    Crea un oggetto indicizzato da un'altro oggetto indicizzato,
+                 solo se si sta costruendo un'area~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_ocreate
+MiniHelp    Crea un oggetto copiandolo da un modello di oggetto indicizzato~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_odelete
+MiniHelp    Distrugge un oggetto caricato nel Mud~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_ofind
+MiniHelp    Elenca tutti gli oggetti indicizzati del Mud passandogli un argomento
+                 preciso~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_ogoto
+MiniHelp    Permette di andare nella determinata locazione, mob o pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_oinvoke
+MiniHelp    Crea una copia di oggetto basandosi su un oggetto indicizzato~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_omedit
+MiniHelp    Permette di editare un mob~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_ooedit
+MiniHelp    Permette di editare un oggetto~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_opstat
+MiniHelp    Visualizza le caratteristiche di un Opj Prog~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_oredit
+MiniHelp    Permette di editare una stanza~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_ostat
+MiniHelp    Visualizza le caratteristiche di un oggetto~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_owhere
+MiniHelp    Elenca gli oggetti caricati nel Mud passandogli un argomento~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_peace
+MiniHelp    Ferma uno o più combattimenti nella stanza dell'Admin~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_punition
+MiniHelp    Comando con varie opzioni per gestire punizioni o restrizioni~
+Type        CMDTYPE_PUNITION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+Flags       CMDFLAG_WATCH~
+End
+
+#CMDFUN
+FunName     do_purge
+MiniHelp    Pulisce una stanza se usato senza argomento, togliendo mob e oggetti; se
+                 usato con argomento può distruggere un determinato mob, oggetto o pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_qpset
+MiniHelp    Permette di aggiungere o togliere punti di gloria ad un pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_rat
+MiniHelp    Permette di inviare un determinato comando in un range di stanze~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_recho
+MiniHelp    Invia un echo nella stanza della vittima~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ECHO
+End
+
+#CMDFUN
+FunName     do_rename
+MiniHelp    Permette di rinominare un pg, modifica anche il file save~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_orestring
+MiniHelp    Permette di restringare un oggetto~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_rdelete
+MiniHelp    Rimuove un modello e la relativa stanza dal Mud~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_redit
+MiniHelp    Permette di editare le caratteristiche di una stanza~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_regoto
+MiniHelp    Permette di tornare nell'ultima locazione inviata con il goto~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_repairset
+MiniHelp    Permette di editare le caratteristiche di un negozio repair~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_repairshops
+MiniHelp    Permette di editare le caratteristiche di un negozio~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_repairstat
+MiniHelp    Visualizza le caratteristiche di un negozio repair~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_reserve
+MiniHelp    Permette di aggiungere o togliere nomi riservati alla creazione del pg~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_reset
+MiniHelp    Permette di editare i reset di un'area che si sta costruendo~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_restore
+MiniHelp    Permette di ristorare in varie forme un pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_retran
+MiniHelp    Ritrasferisce il pg o mob da dove l'avete pescato~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_return
+MiniHelp    Ritorna nel corpo originario dopo aver utilizzato lo switch~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_rgoto
+MiniHelp    Permette di andare nella determinata locazione, mob o pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_rgrub
+MiniHelp    Serve a dare informazioni varie relative alle stanze~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_riders
+MiniHelp    Elenca tutte le cavalcature del Mud e i pg che ne cavalcano~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_rpstat
+MiniHelp    Visualizza le statistiche di un Room Prog~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_rreset
+MiniHelp    Permette di modificare i reset di una stanza~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_rseek
+MiniHelp    Visualizza tutte le ricorrenze reset di un determinato vnum~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_rstat
+MiniHelp    Visualizza le caratteristiche di una stanza~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_saveall
+MiniHelp    Salva tutte le aree e i pg~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_savearea
+MiniHelp    Salva le modifiche all'area che si sta costruendo~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_setboot
+MiniHelp    Permette di impostare l'ora di reboot~
+Type        CMDTYPE_SYSTEM
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_setlanguage
+MiniHelp    Permette di impostare la conoscenza di una lingua di un pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_setmeteo
+MiniHelp    Imposta le caratteristiche meteo globali del Mud~
+Type        CMDTYPE_EDITING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_setskill
+MiniHelp    Permette di impostare la conoscenza di una skill di un pg~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_shops
+MiniHelp    Visualizza tutti i negozi del Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_shopset
+MiniHelp    Permette di modificare le caratteristiche di un negozio~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_shopstat
+MiniHelp    Visualizza le caratteristiche di un negozio~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showclans
+MiniHelp    Visualizza le caratteristiche di un clan~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showclass
+MiniHelp    Visualizza le caratteristiche di una classe~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showcmd
+MiniHelp    Visualizza le caratteristiche di un comando~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showlanguage
+MiniHelp    Visualizza le caratteristiche delle lingue~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showlayers
+MiniHelp    Permette di tenere traccia degli oggetti unici layarabili~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showrace
+MiniHelp    Visualizza le caratteristiche di una razza~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showskill
+MiniHelp    Visualizza le caratteristiche di una skill~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showsocial
+MiniHelp    Visualizza le caratteristiche di un social~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_showweather
+MiniHelp    Visualizza le caratteristiche meteo dell'area~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_shutdown
+MiniHelp    Tira giù il Mud~
+Type        CMDTYPE_SYSTEM
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+Flags       CMDFLAG_TYPEALL~
+End
+
+#CMDFUN
+FunName     do_slay
+MiniHelp    Uccide all'istante un Mob o un Pg~
+Type        CMDTYPE_PUNITION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Flags       CMDFLAG_WATCH CMDFLAG_TYPEALL~
+End
+
+#CMDFUN
+FunName     do_slotlist
+MiniHelp    Elenca le informazioni riguardanti gli slot utilizzati dalle Skill e Spell
+                 e se ci sono dei conflitti tra di loro~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_snoop
+MiniHelp    Permette di visualizzare l'output della vittima~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+Flags       CMDFLAG_WATCH~
+End
+
+#CMDFUN
+FunName     do_soctable
+MiniHelp    Visualizza l'utilizzo e il lag dei comandi~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_switch
+MiniHelp    Permette di prendere il controllo di un Mob~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+Flags       CMDFLAG_WATCH~
+End
+
+#CMDFUN
+FunName     do_sysdata
+MiniHelp    Permette di modificare le opzioni generali del Mud~
+Type        CMDTYPE_EDITING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_timecmd
+MiniHelp    Cronometra in secondi la velocità di un comando~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_transfer
+MiniHelp    Trasferisce un Mob o Pg da te o in una stanza~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_trust
+MiniHelp    Modifica la fiducia di un Admin aumentandola o abbassandola~
+Type        CMDTYPE_INTERACTION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_unfoldarea
+MiniHelp    Comando pericoloso che permette di installare aree costruite ma non ancora
+                 nella lista di caricamento aree~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_update
+MiniHelp    Comando che gestisce vari tipi di update per velocizzare o "refreshare"
+                 alcuni cicli del Mud~
+Type        CMDTYPE_SYSTEM
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_users
+MiniHelp    Elenca gli utenti e le informazioni sulla loro connessione al Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_vassign
+MiniHelp    Assegna un range di Vnum con cui costruire da zero un'area~
+Type        CMDTYPE_BUILDING
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+Log         LOG_ALWAYS
+End
+
+#CMDFUN
+FunName     do_version
+MiniHelp    Visualizza la versione del codice attuale.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_vnums
+MiniHelp    Elenca i range delle aree prototipo e se sono caricate~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_vsearch
+MiniHelp    Elenca tutte le ricorrenze dell'oggetto con quel vnum~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_warn
+MiniHelp    Boho~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_BUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_watch
+MiniHelp    Permette di indicare un comando o pg da loggare su file per controllare poi
+                 con comodo~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOBUILDER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_whois
+MiniHelp    Visualizza varie informazioni del Pg sotto forma di dati numerici~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_where
+MiniHelp    Comando where dei pg, funziona come l'mwhere~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_wizhelp
+MiniHelp    Elenca i comandi da admin suddivisi per fiducia~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_zones
+MiniHelp    Visualizza le aree installate e caricate sul Mud~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_MASTER
+Position    POSITION_DEAD
+End
+
+
+#END

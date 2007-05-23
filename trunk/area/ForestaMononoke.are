@@ -1,0 +1,3094 @@
+#AREA
+Name         La Foresta dei Mononoke~
+Author       Miciko~
+Color        AT_GREEN verde foresta~
+LevelRange   35 45
+ResetMsg1    Qualcuno ti morde la collottola. Mra'! Mra'!~
+Vnums        9900 9990
+End
+
+
+#MOBILES
+#9900
+kodama spiritello spirito~
+un kodama~
+Una creatura dall'aspetto bizzarro ti sta fissando, è uno spirito del bosco
+~
+Sembra un piccolo omino tutto bianco semitrasparente. Ha una bella testa tonda
+con grandi occhioni neri spalancati e la bocca dischiusa in una "O" di stupore
+e divertimento. Inclina il capo per guardarti meglio, lo inclina sempre di più
+finché con uno scatto la sua testolina oscilla velocemente per tornare alla
+posizione di partenza.
+~
+18874371 32768 0 C
+15 0 7 233d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 5 0 0 1 0 0
+0 0 1024 2048 16 1 2097152 3
+> death_prog 100~
+emote si dissolve lentamente, sparendo dalla vista..
+~
+> act_prog p Sinistri scricchiolii s'odono dall'interno dell'albero..~
+close tronco
+lock tronco
+~
+|
+#9901
+maro lupa madre~
+la lupa madre~
+Una maestosa lupa si sta riposando dopo una lunga caccia.
+~
+E' un esemplare imponente di lupo femmina, dal manto bianco e lungo con due
+folte code. Il muso, fieramente eretto, è ancora sporco del sangue dell'ultima
+vittima e la lupa si sta concedendo un attimo per rilassarsi dopo la caccia.
+Interrompe la toeletta solo per vedere chi ha osato mettere piede nella sua
+tana.
+~
+16777219 32768 0 C
+40 0 -150 1624d1+0 0d0+0
+0 0
+6 5 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 513 0 0
+0 0 65536 16 1032 260 133 2
+> fight_prog 40~
+mpechoat $n $I con un morso trapassa la mia armatura ferendomi un braccio..
+mpdamage $n 7
+mpechoaround $n $I con un morso trapassa l'armatura di $n ferendol$x al braccio.
+~
+> death_prog 100~
+mpechoat $n Con un colpo micidiale stacco la testa della grande lupa!
+mpechoaround $n Con un colpo magistrale $n recide di netto il capo della grande lupa!
+mpoload 9908
+~
+|
+#9902
+lupo bianco~
+un giovane lupo bianco~
+Un giovane lupo sta riposando qui.
+~
+Lunghi denti affilati pronti a tranciare carne ed ossa delle prede.. Ecco la
+prima cosa che si nota in questo lupo. Ha un bellissimo manto bianco, lungo e
+folto; sebbene sia molto prestante si vede che è ancora un lupo di giovane
+età. E' sdraiato sulla roccia in solitaria quiete, strano comportamento per un
+animale che di norma gira in branco..
+~
+17039363 32768 0 C
+35 0 -118 622d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 0 0 0
+0 0 8 18 258 0 69 2
+> fight_prog 34~
+mpechoat $n $I affonda le zanne nella mia carne, facendomi sanguinare non poco..
+mpdamage $n 5
+~
+> death_prog 100~
+emote si abbandona sul terreno con un ultimo straziante guaito.
+~
+|
+#9903
+lupo~
+un lupo bianco~
+Un bell'esemplare di lupo bianco s'aggira qui intorno.
+~
+Sorprendentemente grosso per essere un lupo, è più alto di un uomo e le sue
+zanne non son certo lì solo per bella mostra..
+La folta pelliccia bianca del lupo forse non lo aiuta a mimetizzarsi nella
+foresta ma è certo un buon deterrente per chi lo veda da lontano.
+~
+17039363 32768 0 C
+35 0 -118 1037d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+69 3 0 0 0 0 0
+0 0 262144 20 257 0 193 2
+> fight_prog 34~
+mpechoat $n $I mi lacera l'armatura con una potente unghiata!
+mpdamage $n 6
+mpechoaround $n $I lacera l'armatura di $n con una potente artigliata..
+~
+> death_prog 100~
+emote esala l'ultimo respiro e s'accascia al suolo ormai privo di vita.
+~
+|
+#9904
+san mononoke ragazza fanciulla~
+San~
+Una fanciulla dallo sguardo fiero sta fissando l'orizzonte lontano.
+~
+La fanciulla incontra il tuo sguardo e ti osserva per un istante decidendo se
+rappresenti un pericolo o meno. Indossa una pelle di lupo bianco ed il suo
+viso è dipinto con simboli tribali.
+Grigi come il cielo nuvoloso i suoi occhi, sempre attenti eppur velati da una
+malinconia mista ad odio rivolto per lo più verso la lontana cittadella degli
+uomini. La ragazza sfiora con due dita il ciondolo che porta al collo, forse è
+il regalo di una persona importante..
+~
+1 -2147483648 0 C
+36 0 -125 1334d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 0 0 0
+0 0 0 80 2049 1048576 96 524290
+> death_prog 100~
+mpechoat $n $I barcolla sotto l'impeto dell'ultimo colpo e s'accascia sospirando un nome..
+mpechoaround $n $I barcolla e con un ultimo soffio di vita sussurra un nome..
+say ..shi..k..
+~
+> fight_prog 34~
+mpechoat $n $I lancia il suo urlo di battaglia e pianta il suo pugnale nelle mie carni!
+mpdamage $n 5
+mpechoaround $n $I colpisce $n con il suo pugnale ferendol$x gravemente.
+~
+|
+#9905
+cinghiale okoto~
+Okoto~
+Hai di fronte Okoto, il capo dei cinghiali.
+~
+E' un cinghiale di dimensioni mastodontiche, dal pelo corto e ispido,
+intervallato da grosse cicatrici che paiono raccontare una vita di battaglie.
+Sta dritto sulle zampe guardando un punto non meglio precisato del panorama
+circostante.. Poi t'accorgi che gli occhi di questo animale sono bianchi e che
+il cinghiale, ormai vecchio e stanco, è pure cieco.
+Potrebbe essere una buona preda..
+~
+17039361 1 0 C
+45 0 -181 2268d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 0 0 0
+0 0 0 81 514 2048 384 2
+> death_prog 100~
+mpechoat $n Per la violenza dell'ultimo colpo il cinghiale stramazza al suolo così pesantemente che i suoi occhi scappano dalle orbite
+mpoload 9909
+mpechoaround $n $I stramazza al suolo così violentemente che i suoi occhi fuoriescono dalle orbite.
+~
+|
+#9906
+gigo monaco~
+un monaco~
+Cosa ci fa un monaco nel cuore della foresta??
+~
+E' basso e tarchiato, indossa abiti poco consoni al suo status: una tunica
+blandamente legata in vita e un paio di sandali di legno che assomigliano
+molto a dei trampoli. Si presenta come un monaco errante innamorato della
+natura, ma il suo sguardo non è del tutto sincero e il suo rubicondo nasone la
+dice lunga sull'affidabilità delle parole di quest'uomo.
+~
+16777217 65536 0 C
+32 0 -100 1147d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 0 0 0
+0 0 16 1048576 0 65 96 2
+> fight_prog 30~
+mpechoat $n $I mi colpisce violentemente il capo!
+mpdamage $n 4
+mpechoaround $n $I colpisce con gran forza il capo di $n
+~
+> death_prog 100~
+emote crolla per terra, colpito mortalmente.
+~
+|
+#9907
+dio cervo~
+il dio cervo~
+Di fronte a te, il dio cervo, siede pacato sull'erba.
+~
+Un'aura di luce ocra avvolge questa mistica creatura dal corpo di cervo e il
+volto umano. Una grande impalcatura di corna ramificate le adorna il capo
+distinguendola da tutti gli altri cervidi della foresta.
+Il manto è chiaro, morbidamente lungo, con vaghe striature rossastre sulla
+testa, le zampe poggiano su una base plantare triungulata, a differenza del
+singolo zoccolo tipico di quelli della sua razza.
+Solleva il capo e ti fissa con aria benevola, accennando un vago sorriso.
+~
+553648131 8388796 0 C
+50 0 -212 2285d1+0 0d0+0
+0 0
+8 5 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 0 0 0
+0 0 0 1049088 2048 0 536936448 1050114
+> death_prog 100~
+mpechoat $n $I emette un flebile mugghito e s'accascia al suolo.. Ho ucciso un dio.
+mpechoaround $n $n ha appena ucciso un dio.. Non è un'impresa da poco.
+mpoload 9911
+~
+> fight_prog 80~
+mpechoat $n $I si solleva sulle zampe posteriori ed emette un lungo bramito..
+mpechoaround $n Tutt'intorno al dio cervo si solleva una nube di polvere dorata.. S'intravedono delle sagome.
+if CountMobVnumRoom(9919) <= 0
+mpmload 9919
+mpforce 9919 kill $n
+if CountMobVnumRoom(9920) <= 0
+mpmload 9920
+mpforce 9920 kill $n
+if CountMobVnumRoom(9918) <= 0
+mpmload 9918
+mpforce 9918 kill $n
+endif
+endif
+endif
+~
+|
+#9908
+dio cervo creatura~
+Colui che cammina nella notte~
+Una creatura dal corpo semitrasparente sta camminando lentamente..
+~
+Un'altissima creatura di luce ed ombra sovrasta te e tutto il bosco: secondo
+le leggende, questo essere è Colui che cammina nella notte, il dispensatore di
+vita, l'essenza della foresta stessa.
+Narrano i racconti che questa sia la forma assunta dal dio cervo durante la
+notte; il suo corpo diventa impalpabile, un involucro antropomorfo di mille
+piccole lucine con la testa di cervo. Mentre il dio s'aggira per i sentieri,
+un fresco vento si solleva smuovendo le chiome degli alberi e facendo
+oscillare tutti i piccoli kodama che salgono sui rami per assistere allo
+spettacolo..
+~
+1090519041 12615740 0 C
+50 0 -212 1323d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+84 0 0 0 0 0 0
+0 0 0 1049088 2048 0 1090519040 1050114
+> death_prog 100~
+emote cade pesantemente al suolo sollevando una forte ondata di vento e rami..
+mpdamage $n 8
+mpoload 9910
+~
+|
+#9909
+cacciatore cinghiale~
+un cacciatore~
+Uno strano cinghiale s'aggira da queste parti..
+~
+Come cinghiale è proprio strano, ha grossi occhi vacui ed inespressivi, le
+zampe talmente basse da sembrare inesistenti.. Ma! Ma non è affatto un
+cinghiale! E' un cacciatore travestito che sta seguendo le tracce della sua
+preda.. Chissà se sarà il caso di seguirlo..
+~
+16777217 65536 0 C
+30 0 -87 983d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 4 0 0 0 64 524288
+> fight_prog 52~
+mpechoat $n $I si scaglia contro di me cercando d'accecarmi!
+mpdamage $n 4
+mpechoaround $n $I salta contro $n cercando di accecarl$x!
+~
+> death_prog 100~
+emote si preme le mani contro il torace e crolla al suolo ormai senza vita.
+~
+|
+#9910
+cacciatore orso~
+un cacciatore mimetizzato~
+Un orso è acquattato poco distante da qui e sta spiando dei cinghiali..
+~
+Hai mai visto un orso puntare dei cinghiali..? Ecco questo qui lo sta facendo,
+anche se in effetti ha ben poco dell'orso. Nonostante la pelliccia non sia più
+giovane, la stazza dell'animale è davvero troppo sotto la media. D'un tratto,
+dalla pelle dell'orso sbuca una mano! Allora non è un orso! E' un cacciatore
+mimetizzato..
+~
+16777217 65536 0 C
+30 0 -87 1001d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 3 0 0 0 0 0
+0 0 4 0 0 0 128 2
+> fight_prog 34~
+mpechoat $n $I mi assale con dei grossi artigli legati alle mani
+mpdamage $n 5
+mpechoaround $n $I graffia il viso di $n con dei giganteschi artigli.
+~
+|
+#9911
+capo gorilla scimmione~
+il capo degli scimmioni~
+Un grosso gorilla dagli occhi rossi sta borbottando qualcosa..
+~
+Un grosso gorilla dal manto fulvo sta comunicando con altri scimmioni simili a
+lui. Dal modo in cui gesticola e dal prolungato silenzio degli altri gorilla
+si direbbe che questo sia il capo del piccolo branco di scimmie della foresta.
+~
+3 0 0 C
+32 0 -100 805d1+0 0d0+0
+0 0
+8 6 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+21 24 0 0 0 0 0
+0 0 512 16 0 4 80 2
+> fight_prog 80~
+mpechoat $n $I si picchia le zampe sul petto richiamando a sé i membri del branco..
+mpechoaround $n $I richiama a sé i membri del branco con dei forti versi gutturali..
+if CountMobVnumRoom(9922) <= 0
+mpmload 9922
+mpforce 9922 kill $n
+if CountMobVnumRoom(9923) <= 0
+mpmload 9923
+mpforce 9923 kill $n
+if CountMobVnumRoom(9924) <= 0
+mpmload 9924
+mpforce 9924 kill $n
+endif
+endif
+endif
+~
+> death_prog 100~
+mpechoat $n $I esala l'ultimo respiro e crolla al suolo esanime.
+mpechoaround $n $n con un potente colpo uccide il capo degli scimmioni.
+~
+|
+#9912
+topo topolino~
+un topolino~
+Un topolino sta rosicchiando una ghianda per terra.
+~
+E' una pallina di pelo grigio che corre fra le radici degli alberi in cerca di
+un riparo, probabilmente ti ha sentito arrivare e fugge a mettersi in salvo.
+~
+16777345 0 0 C
+15 0 7 231d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+54 6 0 0 0 0 0
+0 0 65536 0 0 0 1 2
+> fight_prog 30~
+mpechoat $n $I mi morde insistentemente il calcagno provocandomi un fastidiosissimo prurito!
+mpdamage $n 1
+mpechoaround $n $I fa quel che può..
+~
+> death_prog 100~
+emote muore, contento di non essere nello stomaco di un gatto..
+~
+|
+#9913
+procione orsetto~
+un procione~
+Un orsetto lavatore interrompe le sue faccende per guardarti.
+~
+L'orsetto ti guarda un po' incuriosito, ha un bel musetto scuro nel quale
+spiccano i grandi occhi chiari. Fra i denti stringe un pesce che ancora si
+dimena, ma il procione non si perde d'animo e gli dà il colpo di grazia
+aiutandosi con le zampette.
+~
+16777217 0 0 C
+20 0 -25 438d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 3 0 0 0 0 0
+0 0 0 0 0 0 1 2
+> fight_prog 40~
+mpechoat $n $I mi azzanna un polpaccio tenacemente!
+mpdamage $n 2
+mpechoaround $n $I azzanna il polpaccio di $n tenacemente.
+~
+> death_prog 100~
+emote con un gridolino acuto, stira le zampette.
+~
+|
+#9914
+pitta uccelletto uccellino~
+la pitta delle foreste~
+Un bizzarro uccellino becchetta qualche seme caduto a terra.
+~
+Il bel piumaggio azzurro della bestiola risalta sul verde brillante della
+foresta. La pitta svolazza di ramo in ramo cinguettando un allegro motivetto
+ed aguzzando la vista in cerca di qualche vermicello da riportare al nido.
+~
+16777345 524288 0 C
+15 0 7 302d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+78 3 0 0 0 0 0
+0 0 0 0 0 0 8 2
+> death_prog 100~
+emote perde il senso del volo e s'abbatte a terra, esanime.
+~
+|
+#9915
+pesce~
+il pesce triangolo~
+Un pesce dalle forme bizzarre nuota svelto nell'acqua.
+~
+Ha una forma davvero insolita, è lungo circa mezzo braccio umano, il corpo è
+appiattito e ha come testa una protuberanza triangolare dalla quale emergono
+due languidi occhi bluastri. Non si vede traccia di bocca.. Forse aspira il
+cibo dalle branchie?
+~
+16777219 -2147483648 0 C
+18 0 -12 270d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+81 0 0 0 0 0 0
+0 0 0 0 0 0 8 2
+> death_prog 100~
+emote soccombe sotto la furia dei colpi.. e muore.
+~
+|
+#9916
+stambecco Yakkuru~
+Yakkuru~
+Un bell'esemplare di stambecco bruca un po' d'erbetta vicino ad un albero.
+~
+Non è esattamente un animale da foresta e soprattutto non ha proprio l'aria di
+una bestia selvaggia, considerando poi che ha il muso imbrigliato, si direbbe
+che sia in questa foresta per puro caso. Ha un bel manto fulvo, il muso
+allungato e grandi occhi un poco spauriti che tradiscono comunque un animo
+docile e socievole.
+~
+17039361 0 0 C
+30 0 -87 749d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 6 0 0 0 0 0
+0 0 1 0 0 0 160 2
+> death_prog 100~
+mpechoat $n $I mi guarda con i suoi grandi occhi neri.. e muore.
+mpoload 9933
+~
+|
+#9917
+cinghiale~
+un grosso cinghiale~
+C'è un bel cinghialone che grugnisce felice..
+~
+Quando si dice a qualcuno "grosso porco!" forse non si ha ben cognizione del
+significato dei termini grosso e porco. La bestia che hai davanti è davvero un
+grosso porco, un cinghiale di dimensioni inaudite, con un naso così grande da
+poter fiutare tartufi fino al centro del mondo.
+~
+262145 0 0 C
+37 0 -131 1344d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 0 0 0
+0 0 8 64 0 0 192 2
+> death_prog 100~
+emote grugnisce in maniera terribile e crolla pesantemente al suolo.. E' morto.
+~
+|
+#9918
+cinghiale~
+un cinghiale pulcioso~
+Un cinghiale si strofina contro la corteccia degli alberi.
+~
+I cinghiali di queste parti devono cibarsi di bacche miracolose per essere
+così grossi.. Il bestione che grugnisce poco distante da te sarà alto almeno
+tre metri, cammina pigramente sul sentiero grattandosi, di quando in quando,
+contro la corteccia di uno sventurato albero, naturalmente sradicandolo.
+~
+262145 0 0 C
+37 0 -131 1356d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 0 0 0
+0 0 4 64 0 1048576 384 2
+> death_prog 100~
+emote cade a terra con un tonfo sordo, è morto.
+mpoload 9927
+~
+|
+#9919
+cinghiale~
+uno sporco cinghiale~
+Un cinghiale dal muso sporco di fango s'aggira qui intorno.
+~
+Il muso del cinghiale è decorato artigianalmente con fango ormai rappreso, nel
+complesso, però,  fa comparita sul grugno della bestia. Sembra che il
+cinghiale si sia decorato con i colori di guerra, pronto a dar battaglia.. Ma
+contro chi?
+~
+262145 0 0 C
+37 0 -131 778d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 0 0 0
+0 0 0 16 0 1048576 129 2
+> death_prog 100~
+mpechoat $n Con un ultimo feroce colpo stacco le zampe al cinghiale!
+emote si dibatte urlando per il dolore, ma la sua agonia è breve.
+mpoload 9954
+~
+|
+#9920
+cinghiale~
+un cinghiale cercatore~
+Un cinghiale cerca insistentemente qualcosa sul terreno.
+~
+Il cinghiale sta annusando convinto una piccola porzione di terreno; le froge
+del naso sono incollate al suolo e ad ogni respiro la potenza polmonare della
+bestia divelle piccole zolle di terra.
+~
+262145 0 0 C
+37 0 -131 1497d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+27 3 0 0 0 0 0
+0 0 0 16 0 1048576 65 2
+> death_prog 100~
+mpechoat $n Un ultimo potente colpo stacca di netto il naso del cinghiale!
+mpechoaround $n $n stacca con un potente colpo il naso del cinghiale!
+mpoload 9955
+~
+|
+#9921
+cacciatore porcello~
+un cacciatore camuffato~
+Uno strano porcello si muove lentamente sul terreno.
+~
+Un bel porcello grassoccio si aggira nei paraggi, strisciando al suolo come
+fanno normalmente quelli della sua specie quando seguono le tracce di qualche
+preda.. Tipico comportamento da suino, sì.
+~
+16777217 65536 0 C
+30 0 -87 884d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 6 0 0 0 0 0
+0 0 8 0 0 0 128 2
+> fight_prog 49~
+mpechoat $n $I con una finta mi sferra un potente calcio sulla tibia.. Ahia.
+mpdamage $n 5
+mpechoaround $n $I finge un attacco e poi sferra un calcione alla tibia di $n.. E non gli fa del bene..
+~
+> death_prog 100~
+emote espira l'ultimo fiato.. e muore.
+~
+|
+#9922
+scimmione gorilla~
+uno scimmione grigio~
+Uno scimmione è qui a grattarsi le ascelle.
+~
+Un grosso scimmione dal pelo scuro sta armeggiando con una pesante pietra,
+passandosela da una zampa all'altra come se si trattasse d'un fuscellino.
+L'ambiente poco illuminato non consente di cogliere i dettagli dell'animale ma
+dalla stazza già si intuisce che è meglio non infastidirlo troppo.
+~
+3 0 0 C
+30 0 -87 787d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+21 3 0 0 0 0 0
+0 0 0 2 0 0 128 1
+> fight_prog 43~
+mpechoat $n $I mi dà una pietrata in faccia, proprio sullo zigomo sinistro..
+mpdamage $n 2
+mpechoaround $n $I colpisce $n al viso con una pietra.
+~
+|
+#9923
+scimmione gorilla~
+uno scimmione~
+Uno scimmione si pulisce il pelo dalle zecche.
+~
+Lo scimmione interrompe le mansioni di pulizia per annusare l'aria nella tua
+direzione, stringendo qualcosa in una zampa. Nella penombra spiccano due
+lumicini insolitamente rossi e comprendi che si tratta degli occhi del
+mammifero.
+~
+3 0 0 C
+30 0 -87 959d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+21 3 0 0 0 0 0
+0 0 0 16 0 0 64 2
+> fight_prog 45~
+mpechoat $n $I mi dà una pietrata in faccia, proprio sul mento..
+mpdamage $n 2
+mpechoaround $n $I colpisce $n al viso con una pietra.
+~
+|
+#9924
+scimmione gorilla~
+lo scimmione ghiottone~
+Uno scimmione sta trangugiando alcune foglioline.
+~
+E' un bell'esemplare di scimmia di grossa taglia; la folta pelliccia è
+grigio-bluastra, colore non comune per questi animali. Al momento è
+indaffarato, sta mangiucchiando le larghe foglie di un albero nano.
+~
+3 0 0 C
+30 0 -87 863d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+21 3 0 0 0 0 0
+0 0 0 64 0 0 128 524288
+> fight_prog 44~
+mpechoat $n $I mi dà una pietrata in faccia, proprio sul naso.
+mpdamage $n 2
+mpechoaround $n $I colpisce $n al viso con una pietra.
+~
+|
+#9925
+libellula~
+la libellula selvatica~
+Una bella libellula vola a zig-zag fra le piante e gli altri animali.
+~
+Si libra nell'aria veloce come un dardo di balestra e quando ti passa accanto
+riesci ad udire il lievissimo ronzio delle ali grandi e così colorate da
+sembrare immerse in uno sfumato arcobaleno.
+~
+16777345 524288 0 C
+15 0 7 243d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 6 0 0 0 0 0
+0 0 32768 0 0 0 0 2
+> death_prog 100~
+mpechoat $n La libellula si accascia al suolo perdendo le belle ali colorate..
+mpoload 9926
+~
+|
+#9926
+libellula farfallilbellula animale animaletto~
+una farfallibellula~
+Un animaletto tutto colorato schizza via a gran velocità!
+~
+A ben guardare non si capisce bene se sia una libellula o una farfalla.. Ha il
+corpo allungato e sottile come quello delle libellule ma le ali non sono
+trasparenti, anzi sono in continuo mutamento cromatico, variando con
+l'inclinazione della luce che le colpisce.
+~
+16777345 524288 0 C
+15 0 7 330d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 6 0 0 0 0 0
+0 0 32768 0 0 0 0 2
+> death_prog 100~
+emote svolazza qua e là con moto disordinato.. Poi crolla definitivamente al suolo.
+~
+|
+#9927
+alga~
+un'alga di lago~
+Lunghi tentacoli provengono dal fondale del lago.. Ma è solo un'innocua alga.
+~
+Da qui si vedono solo delle lunghe protuberanze verdastre, viscide al tatto.
+Alcuni pesciolini si nascondono fra le braccia accoglienti di quest'alga,
+forse per sfuggire a qualche predatore peggiore.
+~
+16777219 -2147483648 0 C
+25 0 -56 562d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+61 5 0 0 0 0 0
+0 0 8192 0 1 0 256 2
+> death_prog 100~
+emote perde anche l'ultimo viscido ramo sotto la furia dei colpi..
+~
+|
+#9928
+albero~
+un albero da frutto~
+I PG NON VEDONO LA LONG DELL'ALBERO DA FRUTTO
+~
+Un bell'alberone torreggia a lato del sentiero, protendendo i rami carichi di
+frutti verso i pellegrini della foresta. Ha grandi foglie rossastre a quattro
+punte, morbide al tatto quasi fossero di velluto.
+~
+18874371 12582972 0 C
+30 0 -87 911d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+85 5 0 0 0 0 0
+0 0 0 0 0 0 0 2
+> act_prog p Il nodo riacquista una posizione naturale nel tronco dell'albero..~
+unlock tronco
+open tronco
+~
+|
+#9929
+zanzara~
+una zanzara~
+Un continuo ZzZzZZZzzz ti avverte della presenza di una zanzara.
+~
+E' uno degli animali che più mettono in crisi l'idea che la Natura ami le sue
+creature. E' piccola, con un corpo sgraziatello ed un lungo apparato buccale
+che le consente di suggere il sangue dalla preda di turno. Le ali sono due
+foglini trasparenti ed impalpabili, ma vibrano a frequenza tale da provocare
+un fastidioso bzzzzz e contrariamente a quanto creda il Gatto, sono proprio le
+ali che determinano il ronzìo e non il motore a scoppio inserito nelle terga
+della zanzara.
+~
+16777345 524288 0 C
+20 0 -25 463d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 3 0 0 0 0 0
+0 0 32768 0 0 0 8 2
+> death_prog 100~
+emote con un ultimo zzzzz termina la sua fastidiosa esistenza.
+~
+> fight_prog 45~
+mpechoat $n $I mi punge fastidiosamente!
+mpdamage $n 1
+mpechoaround $n $I punge $n insistentemente dissanguandol$x..
+~
+> rand_prog 21~
+emote si posa sul mio braccio cercando si succhiarmi un po' di sangue.
+~
+> rand_prog 20~
+emote mi ronza intorno alle orecchie in cerca di una sberla.
+~
+|
+#9930
+scarabeo sterco cacca~
+uno scarabeo~
+Una palletta di sterco rotola sul terreno incurante del resto del mondo.
+~
+Il capo della bestiola spicca sul resto del corpo, grazie anche alla presenza
+di piccole antenne utilizzate per sondare il terreno e scambiare
+informazioni con gli altri abitanti della foresta.
+Spinge con solerzia una palletta di sterco fresco, magari se lo segui potrai
+scoprire la sua tana.
+~
+16777345 0 0 C
+18 0 -12 439d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 0 0 0 0 0 0
+0 0 32768 0 0 0 0 2
+> death_prog 100~
+mpechoat $n $I apre le ali per fuggire ma la potenza del mio colpo lo distrugge!
+mpechoaround $n $n con un ultimo potente sforzo uccide $I, che impresa..
+~
+|
+#9931
+pudu cervo mamma~
+un pudu adulto~
+Un esemplare di cervo nano sta brucando un po' d'erbetta nei paraggi.
+~
+E' insolito trovare dei cervidi di siffatte dimensioni: sarà alto poco meno di
+un braccio d'uomo, ma sembra essere un esemplare adulto della sua razza. Il
+manto è castano scuro con due striature nere parallele alla spina dorsale, il
+musetto è poco allungato ed i grandi occhioni neri ti scrutano, ora
+spaventati, ora un poco più sicuri.
+Sul capo ha due piccoli cornini che strofina contro il tronco degli alberi,
+probabilmente per lasciare una traccia olfattiva del proprio passaggio.
+~
+262145 0 0 C
+28 0 -75 984d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 5 0 0 0 0 0
+0 0 0 0 0 0 64 2
+> death_prog 100~
+emote prima di accasciarsi al suolo cerca insistentemente il proprio cucciolo..
+~
+|
+#9932
+camaleonte creatura~
+un camaleonte~
+Un'aggraziata creatura si muove lentamente sul ramo di un albero.
+~
+Non è semplice scovare un camaleonte che si muova così lentamente e così ben
+nascosto dal verde della foresta, dietro qualche grossa foglia d'albero od
+ombra ben sfruttata.
+E' lungo quanto il palmo di una mano, la pelle è tutta rugosa e un poco
+bitorzoluta. Gli occhi della bestiola ruotano liberamente fornendo un'ampia
+panoramica dei dintorni. D'un tratto il camaleonte si ferma del tutto,
+spalanca la bocca e con un movimento fulmineo della lingua, secca una
+zanzara di passaggio.
+~
+16777217 4259872 0 C
+20 0 -25 523d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+79 6 0 0 0 0 0
+0 0 1114112 2097152 2048 2 12 2
+> death_prog 100~
+mpechoat $n La vischiosa lingua del camaleonte si srotola fuori dalla sua bocca.. E' morto.
+mpechoaround $n $I muore e la sua lunga lingua si srotola fuori dalla bocca
+~
+> entry_prog 100~
+if race($n) == Insetto
+kill $n
+endif
+~
+|
+#9933
+sputacchina bruco~
+una sputacchina~
+Una sputacchina saltella da uno stelo all'altro.
+~
+Ed ecco fra un balzo e l'altro si ferma sullo stelo di un fiore la
+sputacchina, animaletto simpatico simile ad un grillo. E' di color ambra
+dorato con il dorso punteggiato di macchioline scure.
+Poco sotto l'insetto scopri un agglomerato biancastro, simile a schiuma o
+saliva, sono le piccole ninfe di sputacchina, che appena nate si riparano dal
+mondo esterno costruendosi una casetta vischiosa..
+~
+16777345 0 0 C
+19 0 -18 257d1+0 0d0+0
+0 0
+8 8 1
+13 13 13 13 13 13 13
+0 0 0 0 0
+83 5 0 0 0 0 0
+0 0 0 0 0 0 0 2
+> death_prog 100~
+emote sputacchia per ogni dove, prima di accasciarsi al suolo e morire..
+~
+|
+#9934
+pudu cucciolo animale~
+un cucciolo di pudu~
+Un animalino piccinissimo è qui, vicino ad un altro poco più grande.
+~
+A chi ha il cuore tenero, questa creaturina ispira uno sconfinato amore. E' un
+cucciolo di pudu, il cervo nano della foresta: il suo manto ancora giovanile è
+bruno picchiettato di macchioline bianche che spariranno con il tempo.
+Si muove sulle zampine ancora in maniera incerta, annusa la fresca erbetta del
+sottobosco mangiucchiandone un po', poi distraendosi, come tutti i cuccioli,
+dietro alle meraviglie ed ai colori del mondo circostante.
+~
+17039489 0 0 C
+19 0 -18 374d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+76 6 0 0 0 0 0
+0 0 0 0 0 0 0 2
+> death_prog 100~
+emote mugghia disperato cercando di sfuggire i violenti colpi.. Ma è troppo tardi.
+~
+> rand_prog 20~
+follow mamma
+~
+|
+#9935
+kodama spiritello~
+un kodama~
+Un piccolo kodama ti fissa meravigliato.
+~
+Un piccolo spiritello della foresta, un kodama, è ciò che hai di fronte: il
+corpo antropomorfo è insolitamente opalescente, al limite della trasparenza.
+L'espressione del viso è congelata in eterno stupore alternato ad euforia
+gioviale impressa nel sorriso quasi ebete della creaturina.
+Le leggende dicono che la presenza di questi spiritelli è segno di buona
+salute della foresta.
+~
+2097153 0 0 C
+15 0 7 271d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 5 0 0 0 0 0
+0 0 0 0 0 0 2097152 2048
+> entry_prog 100~
+close tronco
+lock tronco~
+> act_prog p Il legno pare incrinarsi sotto il lento movimento di un grosso peso~
+unlock tronco
+open tronco
+~
+> death_prog 100~
+mpechoat $n Il piccolo kodama si accascia emettendo un fischio acutissimo.. Poi tutto tace.
+mpechoaround $N $I emette un grido acutissimo.. poi s'accascia e muore.
+~
+|
+#9936
+kodama spiritello~
+un kodama cicciottello~
+Uno spiritello panciuto ti sorride incuriosito.
+~
+Per essere uno spiritello della foresta se la passa proprio bene, il suo
+corpicino è bello tondo ed il viso conserva l'espressione perennemente
+gioviale di chi trova tutto divertente.
+~
+1 32768 0 C
+18 0 -12 284d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+88 5 0 0 0 0 0
+0 0 0 0 0 0 2097152 1024
+> death_prog 100~
+emote barcolla all'indietro spalancando i suoi grandi occhioni..
+mpechoat $n Ho appena ucciso una creatura sacra del bosco..
+mpechoaround $n $n ha appena ucciso una delle creature più innocenti della foresta..
+~
+|
+#9937
+lombrico~
+un lombrico~
+Un lungo lombrico sta cercando d'aprirsi un varco divorando un po' di terra.
+~
+Un anellide niente male, lungo circa due spanne, al momento è tutto
+indaffarato a costruirsi un cunicolo mordendo e ingurgitando montagne di
+terra. Poco distante vedi dei piccoli fori nel terreno, segno che ci sono
+altri lombrichi o che quello che stai guardando tu non ha avuto molta fortuna
+nei paraggi.
+~
+16777217 0 0 C
+20 0 -25 439d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+70 6 0 0 0 0 0
+0 0 0 0 0 0 1 2
+> death_prog 100~
+emote si muove in modo scoordinato allungandosi e contraendosi, fino a quando non si muove più.. E' morto.
+~
+|
+#9938
+gatto selvatico~
+un gatto selvatico~
+Un fruscio dietro un cespuglio attira la tua attenzione, è un gatto selvatico.
+~
+Il bel corpo sinuoso è decorato dall'intreccio di striature
+grigie, bianche e nere, donando al suo manto un effetto tigrato.
+Ti fissa da qualche passo di distanza, studiando le tue intenzioni.. Le
+orecchie tese, pronte a cogliere il minimo rumore, lo sguardo fisso, pupille
+dilatate e linguina di poco fuori dalla bocca, nella posa del felino che capta
+gli odori sconosciuti della foresta.
+Il musetto, nella zona delle vibrisse è in realtà una mascherina di pelo
+bianco da cui si partono le tigrature del capino che si distribuiscono poi su
+tutto il corpo.
+Le zampette, morbide e belle, poggiano leonine su una preda appena cacciata,
+custodendola gelosamente.
+~
+16777217 4227112 0 C
+27 0 -68 633d1+0 0d0+0
+0 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+29 6 0 0 0 0 0
+0 0 0 2 2048 0 7 2
+> fight_prog 35~
+mpechoat $n $I spalanca le pupille al massimo e mi graffia come se fosse impazzito!
+mpdamage $n 4
+mpechoaround $n $I sembra impazzito e sta graffiando $n come un forsennato..
+~
+> death_prog 100~
+mpechoat $n Un piccolo segno compare sulla fronte del micino.. sembra un numero, che sia quello delle vite..?
+mpechoaround $n $n fissa con aria incuriosita la fronte del gatto appena ucciso..
+~
+> entry_prog 100~
+if CountMobVnumRoom(9912) >= 1
+  kill $n
+endif
+~
+> greet_prog 100~
+if name($n)== Onirik
+  mpechoat $n $I struscia il capino contro di te, facendo le fusa.
+endif
+~
+|
+#0
+
+#OBJECTS
+#9900
+maschera demone~
+la maschera del Demone Rosso~
+Una maschera inquietante è poggiata al suolo.
+~
+~
+9 256 1048577 0
+0 0 0 0
+250 0 0
+E
+maschera~
+Il viso del Demone Rosso è disegnato su questa maschera, donandole un aspetto
+tutt'altro che pacifico. Strani simboli sono impressi sulle gote e sulla
+fronte, mentre due fessure orizzontali assicurano la visuale al portatore
+della maschera.
+~
+#9901
+pelle~
+una pelle di lupo~
+Una morbida pelle di lupo bianco è posata qui accanto.~
+~
+9 0 1025 0
+0 0 0 0
+5000 0 0
+E
+pelle~
+E' una bella pelliccia di lupo bianco, resistente ai colpi di taglio, calda
+nelle fredde notti, odorosa a sufficienza per mimetizzarsi fra gli animali del
+branco..
+~
+#9902
+tunichetta tunica~
+una tunichetta bianca e blu~
+Una semplice tunica di cotone è poggiata al suolo
+~
+~
+9 0 9 0
+0 0 0 0
+200 0 0
+E
+tunica tunichetta~
+Un copribusto bianco è stato cucito sopra la tunichetta blu smanicata, corta
+al ginocchio. Sembra un indumento molto comodo che lascia ampia libertà di
+movimento ed assicura comunque una certa protezione.
+~
+#9903
+orecchini dischetti~
+un paio di orecchini a disco~
+Due dischetti di metallo sono stati lasciati qui.
+~
+~
+8 0 65537 0
+0 12 0 0
+50 0 0
+E
+orecchini dischetti~
+Sono dei semplici dischetti di metallo incisi con simboli raffiguranti
+animali, fra i quali spiccano una testa di lupo ed un cervo.
+~
+#9904
+bracciali laccetti~
+laccetti di cuoio intrecciato~
+Due laccetti simili a bracciali sono posati a terra.
+~
+~
+65 0 257 0
+0 0 0 0
+20 0 0
+E
+bracciali laccetti~
+Cuoio intrecciato per questi laccetti chiusi con una semplice fibbia di
+metallo, più che un rinforzo sono una decorazione per le braccia.
+~
+#9905
+stivaletti stivali~
+morbidi stivaletti di pelliccia~
+In disparte qualcuno s'è dimenticato i propri stivali.
+~
+~
+9 0 65 0
+0 0 0 0
+400 0 0
+E
+stivali stivaletti~
+A vederli sembrano molto comodi e la morbida pelliccia di cui son fatti
+attutisce gli urti contro il terreno e garantisce una buona tenuta termica
+contro il rigore delle stagioni fredde.
+~
+#9906
+cristallo ciondolo~
+un cristallo multicolore~
+Uno strano luccichio attira il tuo sguardo.. E' un cristallo.
+~
+~
+8 0 5 0
+0 12 0 0
+20 0 0
+E
+ciondolo cristallo~
+E' un cristallo intagliato a forma di pietra aguzza. La punta del cristallo è
+tutt'altro che innocua, forse si tratta di un'arma insospettabile nascosta in
+un magnifico ciondolo.
+~
+#9907
+pugnale osso~
+un pugnale d'osso~
+Un pugnale d'osso è stato dimenticato qui
+~
+~
+5 0 8193 0
+12 0 0 11
+300 0 0
+E
+pugnale osso~
+E' un pugnale ricavato dall'osso di un grosso mammifero. Appuntito e ben
+bilanciato, sulla lama sono impressi alcuni simboli geometrici, perlopiù
+triangoli rossi.
+~
+#9908
+testa lupa~
+la testa della lupa madre~
+Una grossa testa di lupo sanguina per terra..
+~
+~
+9 67112960 17 0
+0 0 0 0
+15000 0 0
+E
+testa ~
+Stringi fra le mani la testa della lupa madre ancora sanguinante.. Alcune
+leggende narrano che la testa di un lupo morde anche dopo la morte.. Ci sarà
+da fidarsi?
+~
+#9909
+occhi~
+gli occhi del Signore dei Cinghiali~
+Vedi un paio di occhi dalle iridi bianche per terra..
+~
+~
+1 0 131073 0
+0 0 -1 0
+400 0 0
+E
+occhi~
+Sono grandi quanto il pugno di un gigante e le iridi sono completamente
+bianche.. Nell'albume oculare nuotano due palline nere, le pupille ormai
+spente.
+~
+A
+93 1
+#9910
+testa dio~
+la testa del dio cervo~
+La testa del dio cervo è qui, immobile..
+~
+~
+8 67108864 17 0
+0 12 0 0
+10000 0 0
+E
+testa dio~
+La testa del dio cervo non dovrebbe essere qui, ma attaccata al corpo del dio
+stesso che è lo spirito vitale della grande foresta..
+~
+#9911
+corna~
+le corna del dio cervo~
+Un grande impalcatura di corna è qui per terra..~
+~
+5 256 8193 0
+12 0 0 7
+5000 0 0
+E
+corna dio~
+Si tratta del folto intreccio di cornini d'osso che abbellisce il capo del dio
+cervo, spirito vitale della grande foresta.
+~
+#9912
+pelle~
+una grossa pelle di cinghiale~
+Una gigantesca pelle di cinghiale è posata qui.
+~
+~
+9 0 1025 0
+0 0 0 0
+5000 0 0
+E
+pelle cinghiale~
+E' una grossa pelle di cinghiale puzzolente, mettila a tuo rischio e pericolo..
+~
+#9913
+tunica~
+una corta tunica di pelle~
+Un'odorosa tunica di pelle è stata lasciata qui.
+~
+~
+65 0 9 0
+0 0 0 0
+300 0 0
+E
+tunica~
+Di sicuro non si passa inosservati con questa tunica qui. Forse solo tra i
+cinghiali. La tunica ha un odore di suino che s'avverte a miglia e miglia di
+distanza..
+~
+#9914
+cerbottana canna bambù~
+una lunga cerbottana~
+Una canna di bambù è posata a terra..
+~
+~
+56 0 8193 0
+0 0 0 0
+200 0 0
+E
+cerbottana canna bambù~
+Sembra un'innocente canna di bambù, del diametro di pochi centimetri, molto
+elastica e resistente.. Guardala bene, questa semplice canna può trasformarsi
+in una micidiale cerbottana.
+~
+#9915
+dardo~
+un dardo per cerbottana~
+Per terra vedi un oggetto appuntito simile ad uno spillo.
+~
+~
+5 0 16385 0
+12 0 0 15
+15 0 0
+E
+dardo~
+Attenzione a come maneggi questo dardo, la punta è impregnata di una sostanza
+viscosa poco rassicurante..
+~
+#9916
+pelle pelliccia~
+una folta pelliccia d'orso~
+Una pelliccia d'orso è posata qui a terra.
+~
+~
+9 0 1025 0
+0 0 0 0
+6000 0 0
+E
+pelle pelliccia~
+E' una folta pelliccia d'orso, lievemente rossiccia, con due legacci per
+assicurarla alle spalle di chi la indossa.
+~
+#9917
+artigli orso~
+affilati artigli d'orso~
+Vedi per terra degli artigli d'animale.. Sembrano di un orso.~
+~
+5 0 129 0
+12 0 0 3
+300 0 0
+E
+artigli~
+Sono lunghi e possenti artigli, con dei laccetti di cuoio per fissarli sulle
+mani e fare tanto male al nemico.
+~
+#9918
+tunica pelle~
+una tunica di pelle~
+Una lacera tunica è stata dimenticata qui per terra.~
+~
+65 0 9 0
+0 0 0 0
+250 0 0
+E
+tunica~
+Come indumento di fortuna va più che bene ma di certo non è un abito da
+indossare per le grandi occasioni.
+~
+#9919
+pelle~
+la pelle di un porcello~
+Una pelle dal profumo inconfondibile è qui per terra.~
+~
+9 0 1025 0
+0 0 0 0
+2000 0 0
+E
+pelle~
+E' proprio una simpatica cotenna di porcello, per giunta ancora infangata..
+Avvicinandola all'orecchio si può sentirla anche grugnire..
+~
+#9920
+pugnaletto pugnale~
+un corto pugnaletto~
+Un corto ed affilato pugnaletto è posato qui.~
+~
+5 0 8193 0
+12 0 0 0
+270 0 0
+E
+pugnale pugnaletto~
+L'impugnatura è rivestita di cuoio per tenere meglio la presa, la lama è corta
+ma micidiale..
+~
+#9921
+tunica~
+una larga tunica di lana~
+Qualcuno s'è dimenticato qui la tunica..~
+~
+65 0 9 0
+0 0 0 0
+400 0 0
+E
+tunica lana~
+E' un po' sporca di terra e ha diverse macchie verdi di foglia, forse è il
+vestito di un cacciatore, però la lana dell'abito sembra buona e soprattutto
+molto calda.
+~
+#9922
+bastone~
+un grosso bastone~
+Un grosso bastone nodoso è poggiato a terra.~
+~
+5 0 8193 0
+0 0 0 0
+700 0 0
+E
+bastone~
+E' un grosso ramo nodoso divenuto arma da combattimento, in mani abili può far
+molto male..
+~
+#9923
+pietra rossa rossastra~
+una pietra rossastra~
+Una grande pietra rossa è qui per terra.~
+~
+5 0 24577 0
+12 0 0 7
+500 0 0
+E
+pietra rossa~
+E' di forma ovale lievemente appuntita, con striature rossastre lungo tutta la
+superficie.
+~
+#9924
+pietra nera~
+una pietra nera~
+Un'inquietante pietra nera è qui da una parte.
+~
+~
+5 0 24577 0
+12 0 0 7
+500 0 0
+E
+pietra nera~
+Ha la superficie perfettamente liscia e intensamente nera, solo alcune tracce
+dorate interrompono la cupezza della pietra.
+~
+#9925
+pietra azzurra~
+una pietra azzurrognola~
+Una pietra dai riflessi azzurrini è qui per terra.~
+~
+5 0 24577 0
+12 0 0 7
+500 0 0
+E
+pietra azzurra~
+Delle belle venature azzurrine percorrono tutta la pietra e se esposte alla
+luce mostrano dei simpatici riflessi argentati.
+~
+#9926
+ali ~
+ali di libellula~
+Vedi delle piccole ali posate qui al suolo.
+~
+~
+8 0 524289 0
+0 12 0 0
+5 0 0
+E
+ali libellula~
+Sono fragilissime, trasparenti con venaturine multicolore. Si muovono con il
+più piccolo alito di vento incurvandosi sinuose..
+~
+#9927
+zanne~
+zanne di cinghiale~
+Vedi delle affilate zanne per terra..
+~
+~
+5 0 8193 0
+12 0 0 2
+300 0 0
+E
+zanne~
+Si tratta di affilate zanne di cinghiale, da usare come arma o anche come
+ciondolo per ingraziarsi la buona sorte, traendo forza dallo spirito
+dell'animale..
+~
+#9928
+grembiule~
+un vecchio grembiule~
+Un vecchio grembiule è posato per terra.
+~
+~
+65 0 9 0
+0 0 0 0
+600 0 0
+E
+grembiule~
+Si tratta di un grembiule di tela grezza, con un cordino in vita per
+chiuderlo. Di certo non è un granché come copertura.
+~
+A
+4 3
+#9929
+sandali~
+alti sandali di legno~
+Dei bizzarri sandali di legno son posati a terra.~
+~
+65 0 65 0
+0 0 0 0
+500 0 0
+E
+sandali legno~
+Serve un corso da equilibrista per muoversi su questi sandali..
+Sostanzialmente si tratta di una T di legno, la testa della T è la base del
+sandalo, il gambo della T rappresenta l'unico appoggio della calzatura. Più
+che scarpe sembrano dei trampoli per guadare i fiumi!
+~
+A
+10 30
+#9930
+copricapo coppoletta~
+un copricapo rosso~
+Una strana coppoletta è stata dimenticata qui.~
+~
+9 0 17 0
+0 0 0 0
+100 0 0
+E
+copricapo~
+E' una coppoletta di cotone grezzo, tinto di rosso. Calza alla perfezione su
+quasi tutte le teste perché è un tipo di tessuto molto elastico.
+~
+#9931
+palletta sterco~
+una palletta di sterco~
+Una palletta di sterco sta qui, in attesa di uno scarabeo che la porti a spasso.~
+~
+13 67108864 16385 0
+0 0 0 0
+10 0 0
+E
+palletta sterco~
+E' tutta tonda e aromatizzata al gusto di sterco.
+~
+#9932
+briglie paramenti~
+un paio di briglie rosse~
+Dei paramenti equini son poggiati al suolo.~
+~
+9 0 1048577 0
+0 0 0 0
+150 0 0
+E
+briglie~
+E' duro cuoio intrecciato, tinto di rosso e finemente decorato da piccole
+incisioni a fuoco. Una grande A dorata risalta nel mare rosso delle briglie
+~
+#9933
+corna~
+pesanti corna di stambecco~
+Qualcuno ha staccato le corna ad uno stambecco.. povera bestia.~
+~
+65 0 17 0
+0 0 0 0
+4000 0 0
+E
+corna~
+Un bel copricapo, non c'è che dire. Certo non fanno bella pubblicità alle tue
+eventuali relazioni amorose..
+~
+#9934
+vescica contenitore~
+una vescica di cinghiale~
+Qualche cacciatore ha perso il suo contenitore per l'acqua..~
+~
+17 0 16385 0
+1000 500 0 0
+70 0 0
+E
+vescica contenitore~
+Se riesci a vincere l'idea del precedente uso di questo oggetto, puoi usarlo
+come contenitore per liquidi.. è molto capiente!
+~
+#9935
+muta pelle~
+una muta di serpente~
+Vedi per terra una spessa muta di serpente..~
+~
+9 0 257 0
+0 0 0 0
+60 0 0
+E
+muta pelle~
+E' tutta squamosa e lunga quanto un braccio d'uomo, con qualche accorgimento
+potrebbe adattarsi anche al tuo braccio..
+~
+#9936
+sorgente sorgiva~
+una sorgiva~
+RIFERIMENTO NEL TESTO DELLA STANZA (SORGENTE SENZA LONG)~
+~
+25 0 0 0
+1000000 0 0 0
+100000 0 0
+E
+sorgiva sorgente~
+La sorgente è celata dietro un grosso gruppo di rocce ma da essa l'acqua
+zampilla fresca e pulita.
+~
+#9937
+albero~
+un albero di pikt~
+QUESTA LONG NON DOVREBBE ESSERE LETTA DAI PG~
+~
+15 0 0 0
+1500000 0 0 0
+500000 0 0
+E
+albero~
+E' generoso quest'albero con le creature della foresta, accogliendole fra i
+suoi rami e cibandole con i suoi frutti.
+~
+#9938
+frutto fruttino verde pikt~
+un pikt ovale~
+Un bel fruttino colorato è caduto per terra.
+~
+~
+19 0 16385 0
+500 12 0 0
+15 0 0
+E
+fruttino fruttop pikt verde~
+E' bello verde e polposo, forse anche commestibile? Il profumo è sicuramente
+invitante..
+~
+#9939
+frutto fruttino rosso pikt~
+un pikt rosso~
+Un bel fruttino rosso è qui per terra.~
+~
+19 0 16385 0
+500 12 0 0
+15 0 0
+E
+frutto fruttino pikt rosso~
+Ha un profumo dolce ed invitante, la buccia è punteggiata da piccole
+macchioline che però non paiono nocive.
+~
+#9940
+albero~
+un grosso albero di pironelle~
+QUESTA LONG NON DOVREBBE ESSERE LETTA DAI PG~
+~
+15 0 0 0
+15000000 0 0 12
+500000 0 0
+E
+albero~
+Dai rami dell'albero pendono frutti grossi e succosi, forse anche buoni..
+~
+#9941
+frutto fruttino rosa~
+una pironella~
+E' caduto per terra un fruttino, non sembra in cattive condizioni..
+~
+~
+19 0 16385 0
+500 12 0 0
+12 0 0
+E
+pironella frutto~
+Ha una bella scorza dura e spessa, il profumo è vagamente asprigno ma questa
+pironella sembra essere molto succosa.
+~
+#9942
+pironella frutto acerbo acerba~
+una pironella acerba~
+Un fruttino rosa è qui per terra.
+~
+~
+19 0 16385 0
+500 12 0 0
+15 0 0
+E
+pironella acerba frutto~
+E' un bel fruttino rosa, tondo, dalla buccia sottile e il profumo dolciastro,
+attaccata al picciolo vedi una piccola fogliolina verde.
+~
+#9943
+polla ferite~
+una polla d'acqua~
+Una polla d'acqua cristallina è qui per dissetare gli assetati.~
+~
+25 0 0 0
+3000000 0 0 0
+300000 0 0
+E
+polla~
+L'acqua è limpida e sembra proprio chiamare a sé tutti gli assetati del
+pianeta.. chissà magari ne varrà la pena.
+~
+> use_prog 100~
+mpechoat $n Mi disseto alle fresche acque della polla.
+mpechoaround $n $n si piega sulle ginocchia e beve dalla polla d'acqua.
+if isevil($n)
+cast 'paralysis' $n
+mpechoat $n Non riesco più a muovermi!!
+mpechoaround $n D'improvviso $n non riesce più a muoversi!
+endif
+~
+> use_prog 30~
+mpechoat $n Mi disseto alle fresche acque della polla.
+mpechoaround $n $n si piega sulle ginocchia e beve dalla polla d'acqua.
+cast 'refresh' $n
+mpechoaround $n Un improvviso alone di luce ocra avvolge $n.
+~
+> use_prog 35~
+mpechoat $n Mi disseto alle fresche acque della polla.
+mpechoaround $n $n si piega sulle ginocchia e beve dalla polla d'acqua.
+cast 'cure poison' $n
+mpechoaround $n Un improvviso alone di luce azzurrina avvolge $n.
+~
+> use_prog 40~
+mpechoat $n Mi disseto alle fresche acque della polla.
+mpechoaround $n $n si piega sulle ginocchia e beve dalla polla d'acqua.
+cast 'cure serious' $n
+mpechoaround $n Un improvviso alone di luce ocra avvolge $n.
+~
+|
+#9944
+trancio carne~
+un trancio di carne di cinghiale~
+A qualcuno è caduto un trancio di carne, sembra comunque in buono stato.~
+~
+19 0 1 0
+0 0 0 0
+700 0 0
+E
+trancio carne~
+Forse qualche cacciatore ha preparato il pezzo e nella fretta d'allontanarsi
+da qualche animale feroce, ha lasciato qui il bottino.. Oppure si tratta di
+un'esca?
+~
+#9945
+sacca~
+una capiente sacca~
+Una sacca capiente è stata lasciata qui.~
+~
+15 0 524289 0
+5000 0 0 12
+400 0 0
+E
+sacca~
+E' una sacca di pelle d'orso, molto comoda: quando è vuota occupa poco spazio
+ma può contenere molti oggetti.
+~
+#9946
+cerbottana canna~
+una cerbottana abbandonata~
+Una lunga canna di fiume è qui per terra..
+~
+~
+56 0 8193 0
+0 0 0 0
+100 0 0
+E
+cerbottana canna~
+E' una semplice canna di fiume, utilizzata dai cacciatori come cerbottana.
+~
+#9947
+dardo~
+un dardo per cerbottana~
+Per terra intravedi un dardo per cerbottane.~
+~
+5 67108864 262145 0
+0 0 0 15
+10 0 0
+E
+dardo~
+Un supportino di sughero per un acuminato ago dalla punta brunastra.. Forse
+non è il caso di pungersi con esso.
+~
+#9948
+pietrone masso~
+un grosso pietrone inciso~
+Un grosso masso ingombra il sentiero.
+~
+~
+66 0 0 0
+0 0 0 0
+150000 0 0
+E
+pietrone masso~
+.
+     ."'`  `'"-.
+    .'           `.
+   ; mMm           :
+  ;:dMMMk          `:
+  ::'""'        m.  :
+   :::         "MP ;
+    ::.           '
+    |:: m       .'
+     `:.     _.'
+     ."::`'"'-.
+    ;::'       :
+   /::,         \
+  :::;        : :
+  '::'        :.'
+   "'         :"
+    "     .   ;
+    :    ;   ;
+    '   :`| /
+    :_.` '"
+~
+#9949
+germoglio~
+un piccolo germoglio di pironella~
+Un tenero germoglio di pironella spunta dal terreno~
+~
+32 0 16385 0
+0 2 0 0
+20 0 0
+E
+germoglio~
+Due piccole foglioline verdi annunciano al mondo l'arrivo di una nuova pianta,
+una pironella.
+~
+#9950
+chiave~
+chiave albero~
+La chiave dell'albero è qui per terra.
+~
+~
+18 33554432 8193 0
+0 0 0 0
+70 0 0
+E
+chiave~
+Una piccola chiave di legno, senza segni particolari..
+~
+#9951
+sacchetto faretra sacchettino~
+un sacchettino per dardi~
+Un sacchetto con dei dardi è posato per terra
+~
+~
+58 0 18433 0
+300 0 0 0
+40 0 0
+E
+sacchettino sacchetto faretra~
+E' un sacchetto comodo da portare in tasca o legato in vita per prendere
+comodamente i dardi da cerbottana.
+~
+#9952
+catena~
+una lunga catenella di vimini~
+Da una parte vedi una catenella di vimini intrecciato.~
+~
+38 0 0 0
+0 0 0 0
+100 0 0
+E
+catena catenella~
+Non è certo l'oggetto che ci si aspetta di trovare in un albero qui.. Però,
+c'è, quindi magari serve anche a qualcosa?
+~
+> pull_prog 100~
+mpecho Il legno pare incrinarsi sotto il lento movimento di un grosso peso.
+~
+|
+#9953
+nodo~
+un nodo nel tronco~
+I PG NON VEDONO LA LONG DEL NODO~
+~
+36 0 0 0
+0 0 0 0
+3000 0 0
+E
+nodo~
+Si tratta di un grosso nodo scuro nel tronco dell'albero.. Ha una forma
+bizzarra, somiglia ad un 8 con il cappio superiore più piccolo rispetto a
+quello inferiore e dai lati sbucano due piccole protuberanze che rendono il
+tutto simile ad una creaturina.. Che sia davvero un semplice nodo?
+~
+> pull_prog 100~
+mpecho Il nodo riacquista una posizione naturale nel tronco dell'albero..
+~
+> push_prog 100~
+mpecho Sinistri scricchiolii s'odono dall'interno dell'albero..
+~
+|
+#9954
+zampe zoccoli~
+gli zoccoli di un grosso cinghiale~
+Dei grossi zoccoli di cinghiale son qui per terra.~
+~
+65 0 65 0
+0 0 0 0
+700 0 0
+E
+zoccoli zampe~
+Sono belli grossi e resistenti, se proprio stai cercando una calzatura diversa
+dal solito..
+~
+#9955
+naso cinghiale~
+lo sporco naso di un cinghiale~
+Quella cosa lì sembra in tutto e per tutto il naso di un cinghiale..~
+~
+13 262144 1048577 0
+0 0 0 0
+500 0 0
+E
+naso cinghiale~
+E' il naso di un grosso cinghiale.. Fa abbastanza schifo, è pieno di una
+sostanza gelatinosa non meglio definita e possibilmente non definibile.
+L'ignoranza talvolta è un bene.
+~
+A
+34 2
+A
+81 4
+A
+62 2
+#0
+
+#ROOMS
+#9900
+I gradini del ponte~
+down alla 32767 radura di pietre di ashitaka
+Ti ritrovi ad una delle estremità di un lungo ponte di corda, sospeso sul
+grande mare. Una vaga nebbiolina impedisce di scorgerne la fine, l'unico
+indizio concesso è uno straordinario profumo di fiori e piante trasportato dal
+vento. La struttura di corde non pare eccessivamente affidabile ma finché non
+tenti non saprai mai cosa si cela oltre il ponte..
+~
+0 0 9 0 0 0
+D3
+Se ti fidi puoi continuare lungo il ponte.
+~
+~
+0 0 9901 0
+D5
+Da qui si scende verso la radura di pietre.
+~
+~
+0 0 32767 0
+S
+#9901
+Il ponte dondola..~
+Un forte vento fa dondolare le corde ed il ponte con esse. Tutt'intorno, il
+mondo è avvolto da un'insolita luce diffusa, un bagliore sommesso che consente
+a malapena di vedere i propri piedi. Il vento si sta alzando ed il fragore
+delle onde parla chiaro.. Non è proprio il luogo ove attardarsi a contemplare
+la natura, anzi è il caso di cercare un riparo alla svelta.
+~
+0 4194304 9 70 9939 0
+D3
+Sarà il caso d'affrettare il passo ed andare via da qui.
+~
+~
+0 0 9902 0
+D1
+Il ponte non dà molte sicurezze, meglio tornare indietro.
+~
+~
+0 0 9900 0
+S
+#9902
+L'altra estremità del ponte~
+Il profumo dei fiori è molto intenso, un afrore dolce ti solletica i sensi e
+ti invoglia a proseguire verso il muro verde di alberi che preannuncia la
+vasta foresta retrostante. Puoi anche decidere di tornare sui tuoi passi,
+attraversando il ponte che conduce alla civiltà umana..
+~
+0 0 0 0 0 0
+D1
+Hai un animo temerario? Bene, allora torna indietro.
+~
+~
+0 0 9901 0
+D5
+Scendendo un poco raggiungerai il limitare della foresta.
+~
+~
+0 0 9903 0
+S
+#9903
+Il viale di alberi~
+La maestosità della foresta non tarda a farsi notare: un magnifico viale di
+acacie accoglie i tuoi passi. I bianchi grappoli di fiori accompagnano il
+candido verde delle foglioline, tranquillizzando per un istante anche l'animo
+più irrequieto. Il viale è dritto, senza inciampi sul selciato, segno di un
+accurato studio.. Forse è stato creato apposta per camminare ad occhi chiusi,
+beandosi delle fragranze gentili delle piante e del pacato scorrere dell'acqua
+fra le pietre di un ruscello non lontano.
+~
+0 0 2 0 0 0
+D4
+Puoi salire e tornare sul ponte.
+~
+~
+16777216 0 9902 0
+D0
+Verso nord s'apre una zona scura e brulla.
+~
+~
+0 0 9904 0
+D2
+Verso sud s'affaccia sul mare un grande prato costellato di fiori.
+~
+~
+0 0 9918 0
+D3
+Ad ovest t'intoltri nella foresta.
+~
+~
+0 0 9919 0
+E
+ruscello~
+Nonostante sia nascosto, il rumore dell'acqua ne tradisce la presenza.. Un
+topolino accorre per dissetarsi, appena ti vede però fugge via impaurito!
+~
+> rand_prog 14~
+mpecho Un dolce profumo di fiori si spande nell'aria..
+~
+|
+S
+#9904
+Il versante brullo~
+Giovani arbusti protendono i rami verso il cielo, il sottobosco è molto
+rigoglioso ed in alcuni punti il terreno è coperto da un sottile strato di
+cenere. Gli alberi sono radi e sembrano piantati da poco tempo.. Questo
+versante stride con il resto della grande foresta che pare invece destinata
+ad una florida esistenza.
+~
+0 0 4 0 0 0
+D2
+Da sud proviene un dolce profumo d'acacie.
+~
+~
+0 0 9903 0
+D3
+Il sentiero s'inerpica nella foresta.
+~
+~
+0 0 9905 0
+S
+#9905
+Un sentiero in salita~
+L'erbetta sul sentiero si dirada, intervallata sempre più da grosse pietre
+azzurrognole, segno che il terreno sta mutando conformazione. Salire diventa
+via via più faticoso lungo lo stradello e già da qui si intravede una
+gigantesca rupe sovrastata da un monolito dal profilo insolito: una testa di
+lupo con le fauci spalancate.
+~
+0 0 4 0 0 0
+D1
+Verso est scorgi una zona brulla..
+~
+~
+0 0 9904 0
+D0
+A nord vedi un grande sperone di roccia.
+~
+~
+0 0 9906 0
+D2
+Andando a  sud torni nel verdeggiar della foresta.
+~
+~
+0 0 9919 0
+D3
+Segui il sentiero fin dove ti condurrà..
+~
+~
+0 0 9920 0
+S
+#9906
+La salita sullo sperone di roccia~
+Il morbido sentiero di terreno battuto si trasforma in una lastra scivolosa di
+roccia dalla tonalità vagamente azzurrognola. Proseguendo lungo la salita
+giungi al limite dello sperone litico; nascosto ad ovest un sentierino conduce
+chissà dove..
+Sotto di te si stende maestosa la foresta e puoi ammirarla dall'alto, come se
+avessi difronte la cartina della zona. Verso est si intravede un grosso banco
+di nebbia, forse è quello che separa dal resto del continente. Verso sud,
+alcuni alberi sono scossi da bestioni poco raccomandabili; da quassù non si
+distinguono bene le forme, ma sembrano animali antropomorfi. Ancora più a sud,
+oltre la foresta, si solleva lo sbuffo tenace della fucina della cittadella.
+Al centro della foresta un sentiero discende verso il basso, seppur nascosto
+dalle fronde degli alberi, ti par d'intravvedere uno specchio d'acqua..
+~
+0 0 5 0 0 0
+D2
+Il sentiero continua a salire..
+~
+~
+0 0 9905 0
+D3
+Ad ovest rimani in piano, fino a sotto un'alta roccia.
+~
+~
+0 0 9907 0
+S
+#9907
+Sotto la rupe del lupo~
+Alcuni licheni affiorano timidamente, donando una sfumatura di verde al
+grigiore inalterato dello sperone roccioso su cui ti ritrovi. Ampia la
+visuale sulla smeraldina foresta, lo sguardo e l'udito spaziano senza alcun
+ritegno, temporeggiando su particolari accattivanti: il riflesso fugace e
+cristallino di un'increspatura ondosa lacustre, l'eco di un grugnito davvero
+poco rassicurante, un vago bagliore salvifico laggiù, lontano, nel cuore del
+bosco.
+~
+0 0 5 0 0 0
+D1
+Da qui scendi verso il basso
+~
+~
+0 0 9906 0
+D3
+La salita si fa via via più erta fino alla cima.
+~
+~
+0 0 9908 0
+D9
+Se non ti va più di salire puoi scendere giù nel bosco per questo sentiero.
+~
+~
+0 0 9909 0
+S
+#9908
+La rupe del lupo~
+Questo è forse il luogo prediletto di un grande animale, la cima dello
+sperone di roccia. Chissà se i cacciatori si soffermano qui a studiare
+dall'alto i sentieri e le piste delle loro prede, certo è che un forte odore
+ferino s'accompagna ai ben più leggiadri profumi del bosco e le sue piante.
+La grande e piatta rampa litica raggiunge qui il suo termine, culminando in
+uno spiazzo ovale lievemente schiacciato sulla punta, proprio sull'orlo di un
+simpatico precipizio. Poco distante da qui, scorgi un sentierino di ciottoli
+che conduce franosamente verso il basso..
+~
+0 0 5 0 0 0
+D1
+Verso est scendi fin sotto l'alta rupe del lupo.
+~
+~
+0 0 9907 0
+D2
+A sud il sentiero si perde in una miriade di arbusti.
+~
+~
+0 0 9909 0
+D5
+In basso pare esserci un anfratto nascosto..
+~
+~
+0 0 9937 0
+> rand_prog 15~
+mpecho Giunge da lontano un ululato.. Ma forse non è così lontano.
+~
+|
+S
+#9909
+Fitti arbusti~
+Un'impervia salita fra rovi e fitto sottobosco separa la rupe sovrastante dal
+resto della foresta, non è certo una via praticabile per arrivare lassù.. La
+luce filtra a stento attraverso l'intreccio di rami e foglie, creando dei
+suggestivi giochi d'ombre che acuiscono i sensi contro i pericoli e rendono
+invisibili e ancor più temibili i cacciatori.
+~
+0 0 3 0 0 0
+D1
+Ad est il sentiero prosegue nel bosco.
+~
+~
+0 0 9920 0
+D3
+Verso ovest il sentiero lascia spazio ad un insolito acciottolato.
+~
+~
+0 0 9910 0
+S
+#9910
+Lo stradello di pietre~
+La vegetazione s'ingentilisce concedendo un poco di spazio al transito di
+animali e creature d'altri natali. Un semplice ciottolato di pietre indica la
+strada attraverso la foresta; è un susseguirsi di curve appena accennate,
+altre più distinte, giri intorno a grossi macigni e rettilinei che si perdono
+nel fitto del bosco in mille direzioni. Se vuoi fermarti un istante per
+decidere la strada da prendere, puoi sederti all'ombra del grande albero che
+troneggia al lato del sentiero, un po' distante dal selciato.
+~
+0 0 3 0 0 0
+D1
+Ad est un'alta muraglia di arbusti impedisce di vedere bene il sentiero.
+~
+~
+0 0 9909 0
+D2
+A sud s'intravede una radura.
+~
+~
+0 0 9911 0
+S
+#9911
+La radura nel bosco~
+Eccoti in una bella radura quasi al centro della foresta, l'erbetta sembra
+essersi mantenuta fresca, nonostante le numerose tracce sul terreno che
+narrano di creature in cerca di prede, di prede in cerca di rifugio, di corse
+ed agguati.
+Giunge una luce particolare da est, una sinfonia di verdi tonalità che
+s'alternano, mosse da un sottile alito di vento. Verso nord un sentiero di
+pietre riconduce verso la foresta, sovrastata da una rupe dal profilo
+insolito.. Verso sud invece un tortuoso stradello sparisce fra le basse fratte
+del sottobosco.
+
+~
+0 0 3 0 0 0
+D0
+A nord prosegui verso un sentierino acciottolato
+~
+~
+0 0 9910 0
+D2
+Verso sud il sentiero si perde nel bosco.
+~
+~
+0 0 9912 0
+D1
+Ad est scorgi uno strano corridoio di vetegazione.
+~
+~
+0 0 9921 0
+S
+#9912
+Un sentiero tortuoso~
+Non è molto semplice seguire questo sentierino che si snoda fra gli alberi e
+le felci; talvota curva in direzioni opposte a quella di partenza, in ogni
+caso è interessante scoprire dove porterà.
+~
+0 0 3 0 0 0
+D0
+
+~
+~
+0 0 9911 0
+D1
+Ad est s'intravede la cima di un'altura.
+~
+~
+0 0 9913 0
+S
+#9913
+Un'altura~
+Da qui lo stradello s'inerpica verso sud fino a raggiungere quella che sembra
+una cava nella roccia, forse una tana di qualche animale.
+Ad ovest prosegui per un sentierino tortuoso di cui non si vede il senso
+logico.. Mentre verso est puoi addentrarti nel fitto della vegetazione,
+composta perlopiù da felci e grossi rampicanti attorcigliati agli alberi.
+~
+0 0 4 0 0 0
+D3
+Ad ovest si ridiscende verso il bosco.
+~
+~
+0 0 9912 0
+D2
+In questa direzione scorgi l'ingresso seminascosto di una tana.
+~
+~
+0 0 9914 0
+D1
+Ad est una miriade di rampicanti spiove giù dai rami degli alberi.
+~
+~
+0 0 9922 0
+S
+#9914
+L'ingresso della caverna~
+Complimenti agli inquilini per la puzza.. Il tanfo di questa tana diventa
+sempre più insopportabile man mano che procedi verso l'interno, le pareti
+s'incuneano in profondità ed a tratti sono graffittate da segni rudimentali,
+forse l'abbozzo di qualche creatura primitiva.
+~
+0 0 0 0 0 0
+D1
+La grotta prosegue verso est.
+~
+~
+0 0 9915 0
+S
+#9915
+L'antro principale~
+Questa dev'essere  la sala principale della tana, il soffitto è alto circa tre
+metri ed i segni sulle pareti, presenti nella precedente sala, si ripetono
+anche qui ma in forme più complesse.
+Sul pavimento, sporco di carcasse e pagliericcio, si vede un largo circolo di
+pietre al cui interno è stilizzata una figura umana fiancheggiata da un'alta
+torre sbuffante fumo nero.
+In un cantuccio una combriccola di scimmioni sta borbottando qualcosa di
+incomprensibile, stretta intorno a quello che sembra il capo carismatico del
+branco.
+~
+0 0 0 0 0 0
+D3
+Ad ovest c'è la prima sala della grotta.
+~
+~
+0 0 9914 0
+D1
+Verso est prosegui in una parte buia della caverna.
+~
+~
+0 0 9916 0
+D0
+Intravedi fitte piante rampicanti davanti alla grotta.
+~
+~
+0 0 9922 0
+E
+graffiti disegni pareti~
+Le pareti sono decorate con segni primitivi, simili a stilizzazioni di armi
+come frecce, cerbottane e lance. Fra tutti i disegni, uno nella parte alta
+della caverna, sembra essere realizzato con dovizia di particolari: raffigura
+un archibugio, un'arma da fuoco. Si tratta di un lungo cannone con manico e
+gigantesche fiamme che escono dalla sua bocca.. Gli animali devono aver subito
+qualche grosso trauma, ma come possono aver disegnato essi stessi questo
+piccolo capolavoro?
+~
+S
+#9916
+La grottina~
+Questa parte della caverna è la più riparata, lontana dalle uscite che
+conducono in foresta: alcuni graffiti abbelliscono le pareti della grotta, si
+tratta perlopiù di stilizzazioni rupestri, forme tonde, allungate, talvota
+simili a stecchi.
+L'aria è molto pesante e carica dell'odore di queste bestie misto al
+nauseabondo odore di putrefazione di piante e carcasse.
+~
+0 0 5 0 0 0
+D3
+Ad ovest c'è la sala grande della caverna.
+~
+~
+0 0 9915 0
+> rand_prog 15~
+mpecho Riecheggia nella caverna un profondo mugugnar gorillesco..
+~
+|
+S
+#9917
+Dentro la foresta~
+Avanzi nella foresta che ancora non s'è infittita tanto da impedire il passo;
+le numerose felci regalano alla zona un'allegra colorazione verde chiaro che
+riposa la vista.
+Un gruppetto di pietre bianchissime occupa una piccola porzione di sentiero, e
+guardando attentamente ti pare di scorgere fra le rocce un rivoletto d'acqua.
+Verso sud s'intravede una parete di roccia tutta bucherellata e semicoperta da
+vegetazione rampicante, ad ovest i rampicanti occupano gran parte del
+sentiero mentre verso est si aprono ampi spazi, quelli battuti dal vento di
+mare. Dirigendo i passi a nord t'inoltri nella foresta.
+~
+0 0 3 0 0 0
+D3
+In questa direzione si fan più fitte le liane..
+~
+~
+0 0 9922 0
+D1
+Da est giunge un buon profumo di ginestre.
+~
+~
+0 0 9918 0
+D0
+Ti inoltri nel bosco..
+~
+~
+0 0 9919 0
+E
+pietre rocce rivolo~
+In effetti a ben guardare si tratta proprio di una sorgiva nascosta, l'acqua
+fuoriesce zampillando, limpida e trasparente. Se hai sete.. accomodati!
+~
+S
+#9918
+Il versante delle ginestre~
+Gli alberi cedono il passo ad una vegetazione di cespugli, ginestre, mirto ed
+altre piante aromatiche. Il profumo è gradevole anche se mescolato di quando
+in quando, con un odore più acre proveniente dalla lontana fornace della
+cittadella: fiamme e fuoco alla continua ricerca di legno per alimentarsi...
+~
+0 0 4 0 0 0
+D0
+Un profumo d'acacie giunge da nord.
+~
+~
+0 0 9903 0
+D3
+Ad ovest prosegui addentrandoti nel bosco.
+~
+~
+0 0 9917 0
+S
+#9919
+Verso il cuore della foresta~
+La vegetazione s'infittisce, gli alberi d'alto fusto si fan più numerosi,
+gettando sul sentiero una perenne ombra con le proprie chiome. La foresta è
+viva, vivissima, piena di profumi e suoni alcuni riconoscibili altri del tutto
+sconosciuti. D'un tratto da dietro un cespuglio salta fuori un procione.. La
+bestiola ti viede e scappa in men che non si dica spaventata dalla tua
+presenza.
+~
+0 0 3 0 0 0
+D0
+Il sentiero s'inerpica su una grossa roccia.
+~
+~
+0 0 9905 0
+D2
+A sud t'inoltri nel bosco.
+~
+~
+0 0 9917 0
+D1
+Un bel viale d'alberi si distende verso est.
+~
+~
+0 0 9903 0
+S
+#9920
+Il sentiero prosegue~
+Lo stradello s'inoltra nel fitto bosco, proseguendo a nord verso un'altura
+rocciosa sagomata in maniera bizzarra, ad est riprende a salire conducendo
+chissà dove e ad ovest pare concludersi in una sterminata distesa di cespugli
+e rovi.
+~
+0 0 3 0 0 0
+D0
+A nord il sentiero s'arrampica lungo delle rocce.
+~
+~
+0 0 9907 0
+D1
+Ad est aumenta la pendenza del sentiero, dove condurrà?
+~
+~
+0 0 9905 0
+D3
+Verso ovest dei fitti arbusti rendono difficile il passaggio.
+~
+~
+0 0 9909 0
+S
+#9921
+Un corridoio naturale~
+Stai percorrendo un bizzarro corridoio naturale, i rami bassi degli alberi
+sono piegati in modo da creare una specie di tettoia al passaggio dei
+pellegrini in foresta. Ai lati del sentiero degli alti arbusti chiudono
+lateralmente quasi a creare delle verdi pareti impenetrabili.. Qui i rumori
+della foresta sono molto attutiti, s'odono vaghi cinguettii e scricchiolii del
+legno ma nulla più, è proprio il luogo adatto per godersi un po' di pace.
+~
+0 0 3 0 0 0
+D0
+A nord scorgi una fitta muraglia d'arbusti
+~
+~
+0 0 9909 0
+D1
+Verso est il sentiero pende, come a scendere verso il basso.
+~
+~
+0 0 9923 0
+D3
+Una bella radura s'apre nel bel mezzo della foresta, ad ovest.
+~
+~
+0 0 9911 0
+D2
+A sud scorgi un'altura davanti alla parete rocciosa.
+~
+~
+0 0 9913 0
+> rand_prog 10~
+mpecho ll vento s'insinua fra i rami, interrompendo per un istante il silenzio del luogo.
+~
+|
+S
+#9922
+Piante rampicanti~
+Una tenda naturale di rampicanti accompagna il tuo incedere, alcune liane
+solleticano un po' il collo, altre sono soltanto fastidiose, però sorge un
+dubbio sull'utilità di questa vegetazione proprio in questo punto della
+foresta. Che ci sia qualcosa da nascondere?
+Verso ovest torni indietro sulla piccola altura accanto alla parete rocciosa,
+verso est invece prosegui dritto per dritto nella foresta.
+~
+0 0 3 0 0 0
+D3
+Puoi vedere l'altura davanti alla parete rocciosa.
+~
+~
+0 0 9913 0
+D1
+Da qui torni nel bosco.
+~
+~
+0 0 9917 0
+S
+#9923
+La discesa al lago~
+Dalla direzione in cui il sentiero segue la china scendendo verso il basso,
+provengono degli strani luccichii e riflessi argentei, quasi si trattasse di
+una superficie acquosa. Ai lati del sentiero crescono alberi di varie altezze
+ma fra tutti uno in particolare colpisce per le dimensioni: dev'essere un
+albero millenario e nonostante tutto ha il vigore di un germoglio. Sul tronco
+rugoso dell'alberone spicca un nodo dalla forma davvero inconsueta, magari
+guardandolo da vicino..
+~
+0 0 4 0 0 0
+D3
+Un corridoio vegetale s'apre davanti a te.
+~
+~
+0 0 9921 0
+D5
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9924 0
+D10
+Un modo per passare questa barriera cortecciosa forse esiste..
+~
+tronco~
+8521775 9950 9940 0
+S
+#9924
+Sulle sponde del lago~
+Continuando a scendere lungo il sentiero raggiungerai le sponde del lago che
+custodisce il cuore della foresta e lo spirito vitale della stessa. Le piante
+accompagneranno gentili i tuoi passi, se anche il tuo animo non sarà volto
+alla distruzione, altrimenti fa' attenzione alla foresta..
+~
+0 0 3 0 0 0
+D4
+Tornando in alto prosegui verso la foresta.
+~
+~
+0 0 9923 0
+D6
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9925 0
+S
+#9925
+Costeggiando il lago~
+Il sentierino che fiancheggia il lago diventa più sabbioso vicino alle rive,
+qui i radi ciuffi d'erba cedono terreno a sterpeti e piccoli arbusti. Nelle
+acque calme e limpide del lago nuota un'infinità di pesciolini dai colori
+bizzarri e dalle forme impensabili..
+~
+0 0 3 0 0 0
+D1
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9926 0
+D9
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9924 0
+S
+#9926
+Una biforcazione~
+Lo stradello che costeggia il lago giunge ad un quadrivio, verso est ed ovest
+prosegui lungo le sponde del laghetto oppure puoi avventurarti verso sudest e
+sudovest dove sottilissimi e soffici corridoi d'erba si sostituiscono ad un
+più solido sentierino di terra battuta.
+~
+0 0 3 0 0 0
+D1
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9927 0
+D8
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9932 0
+D9
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9933 0
+D3
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9925 0
+S
+#9927
+Sulla sponda del lago~
+La riva del lago s'allunga verso sudest, dove il sentiero sembra bloccato da
+un'enorme roccia, e verso ovest, dove s'intravede una biforcazione. Allungando
+l'occhio si notano due sentierini d'erba che s'intrecciano sulla superficie
+del lago.. Forse sono anche percorribili, con un po' di prudenza.
+~
+0 0 3 0 0 0
+D8
+Un grosso masso occlude la visuale.
+~
+~
+0 0 9928 0
+D3
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9926 0
+S
+#9928
+Un grosso masso~
+Inesorabilmente fermo, questo gigantesco pietrone occupa metà del sentiero
+chiudendo la visuale ai viandanti, bisognerebbe salirci sopra per poter avere
+un'idea di dove andare, o forse armarsi di pazienza e girargli intorno. Sul
+pietrone sono incisi alcuni segni, guardandoli da lontano può risultare
+un'interessante visione d'insieme..
+~
+0 0 3 0 0 0
+D9
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9929 0
+D3
+Ad ovest ti puoi immergere nelle limpide acque del laghetto.
+~
+~
+0 0 9936 0
+D7
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9927 0
+S
+#9929
+Proseguendo il giro del lago~
+Il terreno sotto ai piedi diventa in questo punto molto più sabbioso che
+altrove; in riva la rena è così fine da risultare impalpabile al tatto. Poco
+distante dalla sponda del lago, in direzione della foresta, l'arenile cede il
+passo ad una striscia di ciottoli ben levigati e piatti.. Proprio i sassetti
+ideali da lanciare nel lago per disturbare i pesci e le altre creature.
+~
+0 0 3 0 0 0
+D3
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9930 0
+D6
+Un grosso masso occupa parte del sentiero.
+~
+~
+0 0 9928 0
+S
+#9930
+Una biforcazione~
+Una rosa di scelte per continuare la passeggiata: nella direzione est-ovest il
+sentiero s'allunga costeggiando le sponde del lago, vero nordest e nordovest,
+invece, si trasforma in sottili strisce d'erba perdendosi verso il centro del
+lago..
+~
+0 0 3 0 0 0
+D3
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9931 0
+D6
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9934 0
+D7
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9935 0
+D1
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9929 0
+S
+#9931
+Camminando sulle rive~
+Percorri le sponde del laghetto seguendo il profilo di quest'insolito specchio
+d'acqua: alcuni stretti sentierini partono separatamente ed attraversano il
+lago fino ad incrociarsi in quelli che sembrano piccoli praticelli. Al centro
+del lago è ben visibile un isolotto, non raggiungibile da qui, su cui è stesa
+una strana bestia, simile ad un cervide.. Che sia lo spirito della foresta?
+~
+0 0 3 0 0 0
+D7
+Le rive del lago si stendono in questa direzione.
+~
+~
+0 0 9924 0
+D1
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9930 0
+S
+#9932
+La prima polla d'acqua~
+Nascosti fra l'erba del piccolo prato dove ti trovi, vedi i segni lasciati da
+zampe di animaletti, topolini o bestie simili.
+Al centro della zona erbosa vedi una polla d'acqua, forse la mèta degli
+animali che son passati da qui; l'acqua della polla è limpidissima e sembra
+fatta apposta per essere bevuta..
+~
+0 0 3 0 0 0
+D7
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9926 0
+D2
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9934 0
+D3
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9933 0
+S
+#9933
+La quarta polla d'acqua~
+Ancora una polla nel cuore della foresta, di certo l'acqua da queste parti non
+manca, limpida e fresca invita proprio a fermarsi e sorseggiare.
+Gli alberi d'alto fusto proteggono con le loro chiome il pratino intorno alla
+polla, donando frescura e refrigerio allo stanco viandante che necessiti un
+po' di ristoro.
+~
+0 0 3 0 0 0
+D6
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9926 0
+D2
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9935 0
+D1
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9932 0
+S
+#9934
+La seconda polla d'acqua~
+Scorgi fra l'erba del soffice prato dei piccoli roditori che fuggono appena
+s'accorgono della tua presenza. Questo lembo di terra, benché sia molto
+ristretto, ospita una polla d'acqua dolce, rifugio per tutte le bestie della
+foresta che passano di qui per abbeverarsi e non è difficile intuire ciò data
+la fitta presenza di orme di varia natura sul terreno. Zampe più o meno
+piccole hanno calcato questo suolo per accostarsi e dissetarsi alla
+cristallina fonte. A fianco della polla s'erge un bell'albero da frutto,
+carico di ogni bene..
+~
+0 0 3 0 0 0
+D9
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9930 0
+D0
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9932 0
+D3
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9935 0
+S
+#9935
+La terza polla d'acqua~
+Il sottile sentiero d'erba conduce i tuoi passi fin qui, su di un piccolo
+pratino al cui centro è sistemata una polla d'acqua azzurrissima. Un gruppetto
+di farfalle si poggia lieve sulla superficie della sorgiva, forse si
+dissetano, forse si specchiano un istante prima di riprendere a volare per
+ogni dove. L'erba intorno alla polla è calpestata e si riconoscono chiaramente
+alcune impronte, una è di lupo, l'altra è di cinghiale.. L'unico inconveniente
+è che stando alle dimensioni delle orme si dovrebbe trattare di bestie
+gigantesche.
+~
+0 0 3 0 0 0
+D8
+Vedi una biforcazione nel sentiero.
+~
+~
+0 0 9930 0
+D0
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9933 0
+D1
+Vedi uno dei pratini con la polla al centro.
+~
+~
+0 0 9934 0
+E
+farfalle~
+Hanno delle bellissime ali bordate di violetto e decorate all'interno con
+cerchi concentrici di varie tonalità di rosso, dal più scuro al più chiaro
+procedendo verso il centro dell'ala.
+~
+S
+#9936
+In acqua davanti all'isolotto~
+Avanzi come meglio puoi nelle acque limpidissime di questo laghetto, poco
+sotto di te si distinguono chiaramente i grossi pietroni che costituiscono il
+fondale; un sottile tappetino di vegetazione li ricopre e su tutte le
+pianticelle marine spicca un'alga dai lunghi tentacoli smeraldini.
+I pesci nuotano pacifici nell'acqua compiendo circonvoluzioni intorno
+all'isoletta centrale che sembra sprigionare una soffusa luce mistica, forse è
+lì che risiede lo spirito della foresta..
+~
+0 0 6 0 0 0
+D1
+Ad est intravedi la grossa sagoma del pietrone.
+~
+~
+0 0 9928 0
+D3
+Puoi continuare a nuotare fino all'isolotto se vuoi..
+~
+~
+0 0 9941 0
+S
+#9937
+Fuori dalla tana~
+Un incavo nascosto sotto la grande roccia settentrionale, ecco dove ti trovi.
+Due stalattiti gigantesche pendono dal soffitto rendendo lievemente spettrale
+l'atmosfera, sembra d'esser nelle fauci dello spirito lupo della foresta. Un
+pungente odore di pagliericcio e animali proviene da qualche anfratto non
+troppo lontano da qui ed un piccolo indizio giunge da una roccia smossa in
+modo affatto naturale..
+~
+0 0 5 0 0 0
+D10
+Una strana roccia semisconnessa copre l'accesso ad un..grottino?
+~
+roccia~
+133128 0 9938 0
+D4
+Se risali vedrai tutta la foresta dall'alto.
+~
+~
+0 0 9908 0
+S
+#9938
+La tana di Maro~
+Un bel mucchio di frecce spezzate ed ossa umane avvisa il pellegrino avventato
+che questo luogo non riconosce la sacralità della vita delle persone.
+La padrona di casa ha impresso il proprio odore sulle pareti rocciose della
+grotta tanto che esso copre l'inconfondibile aroma di carne in putrefazione.
+Verso il fondo della tana noti un pagliericcio e.. sorpresa! una maschera di
+argilla a mo' di volto demoniaco, un piccolo pendaglio splendente ed un
+pugnale d'osso.. Ma chi alloggia in questa tana?
+~
+0 0 0 0 0 0
+D10
+Spingi la roccia, magari riesci ad uscire..
+~
+roccia~
+133128 0 9937 0
+E
+maschera~
+Si tratta di una maschera rossa, con due grandi buchi tondi per gli occhi,
+niente foro per la bocca o per il naso, e lunghe volute bianche a disegnar
+orditi di respiro ancestrale.
+~
+S
+#9939
+Nell'abisso mortaccino~
+Una raffica più forte delle altre punisce la tua pigrizia sbilanciandoti.. Le
+corde del ponte si rifiutano di sorreggerti ed inizi a precipitare verso il
+basso, incontro ad una morte bonariamente rapida.
+~
+0 2 12 0 0 0
+S
+#9940
+La grande madre dei kodama~
+Sei all'interno dell'albero più grande della foresta, nel quale è stato
+costruito un salone circolare dal diametro di due metri circa.
+Qua e là sbucano a tratti i visini dei piccoli kodama, incuriositi per la
+presenza di estranei.. Fanno avanti ed indietro passando attraverso la spessa
+corteccia dell'albero che loro chiamano "grande madre", scuotendo il capino e
+producendo il ritmico tickletickletickle che riempie i silenzi della foresta.
+~
+0 0 0 0 0 0
+D10
+Forse questa è l'uscita..
+~
+tronco~
+8522785 9950 9923 0
+> rand_prog 10~
+mpecho Un rumorino ritmato, simile ad un tickletickletickle, riempie la cavità del tronco..
+~
+|
+S
+#9941
+L'isola del cervo~
+Raggiungi a nuoto le sponde dell'isolotto posto al centro del laghetto. E'
+poco più di un fazzoletto di terra, un piccolo cumulo coperto di verde
+erbetta. Al centro dell'isolotto, un albero dal fusto dritto svetta verso il
+cielo protendendo i rami verso le stelle, mentre fra le fronde ospita una
+miriade di piccoli animaletti, insettini di varia natura e passerotti di
+passaggio. Sulla riva dell'isolotto è piantata una piccola talea, ha qualche
+fogliolina e nessun fiore.. Sarà simbolo di una richiesta divina?
+~
+0 0 4 0 0 0
+D1
+Verso est rimetti piede nelle acque del lago.
+~
+~
+0 0 9936 0
+> rand_prog 18~
+mpecho Da sud si solleva una brezza gentile..
+~
+|
+S
+#9942
+Sala riunioni T2~
+Un bel salone scavato nel tronco di uno degli alberi più grandi della foresta
+ospita la Sala riunioni del T2team.
+Soffusa da paralumi di pergamena fissati alle pareti legnose, una bella luce
+calda provvede all'illuminazione della sala. Dall'ingresso si scendono due
+gradini fino al cuore della stanza, un semicerchio di comodi e morbidi
+divanetti sistemati davanti ad un camino..
+La foresta allieta l'animo dei presenti con le musiche dei suoi figli..
+Tintinnii di mughetti, zampillare di sorgive nascoste, il sinuoso canto del
+vento che trasporta le piccole voci dei folletti..
+Un simbolo di fuoco sovrasta il camino, donando forza in mezzo a tanta
+serenità..
+~
+0 0 0 0 0 0
+E
+simbolo~
+                    *\/*\/* Se non sei dei nostri c'è un Motivo *\/*\/*
+
+
+'                                        ,   ,
+                                        $,  $,     ,
+                                        "ss.$ss. .s'
+                                ,     .ss$$$$$$$$$$s,
+                                $. s$$$$$$$$$$$$$$`$$Ss
+                                "$$$$$$$$$$$$$$$$$$o$$$       ,
+                               s$$$$$$$$$$$$$$$$$$$$$$$$s,  ,s
+                              s$$$$$$$$$"$$$$$$""""$$$$$$"$$$$$,
+                              s$$$$$$$$$$s""$$$$ssssss"$$$$$$$$"
+                             s$$$$$$$$$$'         `"""ss"$"$s""
+                             s$$$$$$$$$$,              `"""""$  .s$$s
+                             s$$$$$$$$$$$$s,...               `s$$'  `
+                         `ssss$$$$$$$$$$$$$$$$$$$$####s.     .$$"$.   , s
+                           `""""$$$$$$$$$$$$$$$$$$$$#####$$$$$$"     $.$'
+                                 "$$$$$$$$$$$$$$$$$$$$$####s""     .$$$|
+                                  "$$$$$$$$$$$$$$$$$$$$$$$$##s    .$$" $
+                                   $$""$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+                                  $$"  "$"$$$$$$$$$$$$$$$$$$$$S""""'
+                             ,   ,"     '  $$$$$$$$$$$$$$$$####s
+                             $.          .s$$$$$$$$$$$$$$$$$####"
+                 ,           "$s.   ..ssS$$$$$$$$$$$$$$$$$$$####"
+                 $           .$$$S$$$$$$$$$$$$$$$$$$$$$$$$#####"
+                 Ss     ..sS$$$$$$$$$$$$$$$$$$$$$$$$$$$######""
+                  "$$sS$$$$$$$$$$$$$$$$$$$$$$$$$$$########"
+           ,      s$$$$$$$$$$$$$$$$$$$$$$$$#########""'
+           $    s$$$$$$$$$$$$$$$$$$$$$#######""'      s'         ,
+           $$..$$$$$$$$$$$$$$$$$$######"'       ....,$$....    ,$
+            "$$$$$$$$$$$$$$$######"' ,     .sS$$$$$$$$$$$$$$$$s$$
+              $$$$$$$$$$$$#####"     $, .s$$$$$$$$$$$$$$$$$$$$$$$$s.
+   )          $$$$$$$$$$$#####'      `$$$$$$$$$###########$$$$$$$$$$$.
+  ((          $$$$$$$$$$$#####       $$$$$$$$###"       "####$$$$$$$$$$
+  ) \         $$$$$$$$$$$$####.     $$$$$$###"             "###$$$$$$$$$
+ (   )        $$$$$$$$$$$$$####.   $$$$$###"                ####$$$$$$$$$
+ )  ( (       $$"$$$$$$$$$$$#####.$$$$$###'                .###$$$$$$$$$$
+ (  )  )   _,$"   $$$$$$$$$$$$######.$$##'                .###$$$$$$$$$$
+ ) (  ( \.         "$$$$$$$$$$$$$#######,,,.          ..####$$$$$$$$$$$"
+(   )$ )  )        ,$$$$$$$$$$$$$$$$$$####################$$$$$$$$$$$"
+(   ($$  ( \     _sS"  `"$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$S$$,
+ )  )$$$s ) )  .      .   `$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"'  `$$
+  (   $$$Ss/  .$,    .$,,s$$$$$$##S$$$$$$$$$$$$$$$$$$$$$$$$S""        '
+    \)_$$$$$$$$$$$$$$$$$$$$$$$##"  $$        `$$.        `$$.
+        `"S$$$$$$$$$$$$$$$$$#"      $          `$          `$
+            `"""""""""""""'         '           '           '
+
+~
+> rand_prog 10~
+mpecho Il fuoco nel caminetto crepita allegramente.
+~
+|
+S
+#0
+
+#RESETS
+M 0 9901 1 9938  ; Mob: #9901 maro lupa madre => #9938 95tanadiMaro
+E 1 9950 1 17  ; -- Equip: #9950 chiave albero (tenuto               - tenuto)
+M 0 9902 1 9937  ; Mob: #9902 lupofiglio1 => #9937 94fuoritanalupi
+M 0 9923 1 9914  ; Mob: #9923 scimmione3 => #9914 71tvicinotana
+E 1 9923 1 16  ; -- Equip: #9923 una pietra rossastra (impugnato            - impugnato)
+M 0 9924 1 9916  ; Mob: #9924 scimmione4 => #9916 73vicinotana
+E 1 9925 1 16  ; -- Equip: #9925 una pietra azzurrognola (impugnato            - impugnato)
+M 0 9909 1 9929  ; Mob: #9909 cacciatore1 => #9929 86
+E 1 9951 1 13  ; -- Equip: #9951 un sacchettino per dardi (cinta                - indossato alla vita)
+E 1 9915 1 17  ; -- Equip: #9915 un dardo per cerbottana (tenuto               - tenuto)
+E 1 9914 1 16  ; -- Equip: #9914 una lunga cerbottana (impugnato            - impugnato)
+E 1 9913 1 5  ; -- Equip: #9913 una corta tunica di pelle (corpo                - indossato sul corpo)
+E 1 9912 1 12  ; -- Equip: #9912 una grossa pelle di cinghiale (intorno al corpo     - indossato intorno al corpo)
+M 0 9910 1 9909  ; Mob: #9910 cacciatore2 => #9909 66
+E 1 9918 1 5  ; -- Equip: #9918 una tunica di pelle (corpo                - indossato sul corpo)
+E 1 9917 1 9  ; -- Equip: #9917 affilati artigli d'orso (mani                 - indossato sulle mani)
+E 1 9916 1 12  ; -- Equip: #9916 una folta pelliccia d'orso (intorno al corpo     - indossato intorno al corpo)
+M 0 9921 1 9922  ; Mob: #9921 cacciatore3 => #9922 79
+E 1 9921 1 5  ; -- Equip: #9921 una larga tunica di lana (corpo                - indossato sul corpo)
+E 1 9920 1 16  ; -- Equip: #9920 un corto pugnaletto (impugnato            - impugnato)
+E 1 9919 1 12  ; -- Equip: #9919 la pelle di un porcello (intorno al corpo     - indossato intorno al corpo)
+M 0 9917 1 9911  ; Mob: #9917 cinghiale2 => #9911 68
+M 0 9918 1 9911  ; Mob: #9918 cinghiale3 => #9911 68
+M 0 9919 1 9912  ; Mob: #9919 cinghiale4 => #9912 69
+M 0 9905 1 9925  ; Mob: #9905 Okoto => #9925 82
+M 0 9906 1 9920  ; Mob: #9906 cinghialone => #9920 77
+E 1 9930 1 6  ; -- Equip: #9930 eqGigo copricapo rosso (testa                - indossato sulla testa)
+E 1 9929 1 8  ; -- Equip: #9929 eqGigo sandali (piedi                - indossato ai piedi)
+E 1 9928 1 5  ; -- Equip: #9928 eqGigo tunica (corpo                - indossato sul corpo)
+M 0 9907 1 9941  ; Mob: #9907 dio cervo => #9941 98isola del cervo
+M 0 9908 1 9941  ; Mob: #9908 diocervobynight => #9941 98isola del cervo
+M 0 9904 1 9935  ; Mob: #9904 San => #9935 92terza polla d'acqua
+E 1 9900 1 20  ; -- Equip: #9900 la maschera del Demone Rosso (occhi                - sugli occhi)
+E 1 9907 1 16  ; -- Equip: #9907 un pugnale d'osso (impugnato            - impugnato)
+E 1 9906 1 3  ; -- Equip: #9906 un cristallo multicolore (collo-1              - indossato al collo n° 1)
+E 1 9905 1 8  ; -- Equip: #9905 morbidi stivaletti di pelliccia (piedi                - indossato ai piedi)
+E 1 9904 1 10  ; -- Equip: #9904 laccetti di cuoio intrecciato (braccia              - indossato alle braccia)
+E 1 9903 1 19  ; -- Equip: #9903 un paio di orecchini a disco (orecchie             - alle orecchie)
+E 1 9902 1 5  ; -- Equip: #9902 una tunichetta bianca e blu (corpo                - indossato sul corpo)
+E 1 9901 1 12  ; -- Equip: #9901 una pelle di lupo (intorno al corpo     - indossato intorno al corpo)
+M 0 9925 1 9926  ; Mob: #9925 la libellula selvatica => #9926 83 una biforcazione (alta)
+M 0 9928 1 9923  ; Mob: #9928 albero da frutto che pigia bottone => #9923 80discesaallago
+E 1 9950 1 17  ; -- Equip: #9950 chiave albero (Hold)
+O 0 9953 1 9923  ; Object: #9953 nodo del tronco bottone => #9923 80discesaallago
+M 0 9900 1 9923  ; Mob: #9900 un kodama => #9923 80discesaallago
+E 1 9950 1 17  ; -- Equip: #9950 chiave albero (Hold)
+O 0 9943 1 9932  ; Object: #9943 objrand Polla d'acqua nel laghetto => #9932 89 prima polla d'acqua
+O 0 9948 1 9928  ; Object: #9948 objrand pietrone inciso => #9928 85 un grosso masso
+M 0 9916 1 9919  ; Mob: #9916 Yakkuru => #9919 76verso il cuore della foresta
+E 0 9932 1 23  ; -- Equip: #9932 un paio di briglie rosse (faccia               - indossato sulla faccia)
+M 0 9930 1 9917  ; Mob: #9930 uno scarabeo => #9917 74dentro la foresta
+E 1 9931 1 17  ; -- Equip: #9931 una palletta di sterco (tenuto               - tenuto)
+O 0 9943 1 9933  ; Object: #9943 una polla d'acqua => #9933 90quarta polla d'acqua
+O 0 9943 1 9934  ; Object: #9943 una polla d'acqua => #9934 91 seconda polla d'acqua
+O 0 9943 1 9935  ; Object: #9943 una polla d'acqua => #9935 92terza polla d'acqua
+M 0 9935 1 9940  ; Mob: #9935 un kodama => #9940 97madrekodama
+E 1 9950 1 17  ; -- Equip: #9950 chiave albero (tenuto               - tenuto)
+M 0 9936 1 9935  ; Mob: #9936 un kodama cicciottello => #9940 97madrekodama
+M 0 9935 1 9921  ; Mob: #9935 un kodama => #9921 78corridoionaturale
+M 0 9935 1 9910  ; Mob: #9935 un kodama => #9910 67 Lo stradello di pietre
+M 0 9903 1 9908  ; Mob: #9903 un lupo bianco => #9908 65rupedellupo
+M 0 9912 1 9930  ; Mob: #9912 un topolino => #9930 87 una biforcazione (bassa)
+M 0 9913 1 9932  ; Mob: #9913 un procione => #9932 89 prima polla d'acqua
+M 0 9914 1 9928  ; Mob: #9914 la pitta delle foreste => #9928 85 un grosso masso
+M 0 9915 1 9936  ; Mob: #9915 il pesce triangolo => #9936 93in acqua prima dell'isolotto
+M 0 9920 1 9906  ; Mob: #9920 un cinghiale cercatore => #9906 63salita su sperone di roccia
+M 0 9926 1 9931  ; Mob: #9926 una farfallibellula => #9931 88ancora sponda lago
+M 0 9927 1 9936  ; Mob: #9927 un'alga di lago => #9936 93in acqua prima dell'isolotto
+M 0 9929 1 9924  ; Mob: #9929 una zanzara => #9924 81sullespondedellago(inizio giro)
+M 0 9932 1 9934  ; Mob: #9932 un camaleonte => #9934 91 seconda polla d'acqua
+M 0 9933 1 9933  ; Mob: #9933 sputacchina => #9933 90quarta polla d'acqua
+M 0 9934 1 9903  ; Mob: #9934 un cucciolo di pudu => #9903 60viale alberi
+M 0 9931 1 9903  ; Mob: #9931 un pudu adulto => #9903 60viale alberi
+M 0 9937 1 9907  ; Mob: #9937 un lombrico => #9907 64 sotto la rupe del lupo
+O 0 9937 1 9934  ; Object: #9937 un albero di pikt => #9934 91 seconda polla d'acqua
+P 0 9939 2 9937  ; Put: #9939 un pikt rosso => #9937 un albero di pikt
+P 0 9938 5 9937  ; Put: #9938 un pikt ovale => #9937 un albero di pikt
+O 0 9915 1 9927  ; Object: #9915 un dardo per cerbottana => #9927 84 sulla sponda del lago
+O 0 9914 1 9929  ; Object: #9914 una lunga cerbottana => #9929 86proseguendo il giro del lago
+O 0 9934 1 9930  ; Object: #9934 una vescica di cinghiale => #9930 87 una biforcazione (bassa)
+O 0 9935 1 9921  ; Object: #9935 una muta di serpente => #9921 78corridoionaturale
+O 0 9936 1 9917  ; Object: #9936 una sorgiva => #9917 74dentro la foresta
+O 0 9940 1 9910  ; Object: #9940 un grosso albero di pironelle => #9910 67 Lo stradello di pietre
+P 0 9942 3 9940  ; Put: #9942 una pironella acerba => #9940 un grosso albero di pironelle
+P 0 9941 4 9940  ; Put: #9941 una pironella => #9940 un grosso albero di pironelle
+O 0 9944 2 9932  ; Object: #9944 un trancio di carne di cinghiale => #9932 89 prima polla d'acqua
+O 0 9944 3 9915  ; Object: #9944 un trancio di carne di cinghiale => #9915 72tanadiscimmioni
+M 0 9938 1 9904  ; Mob: #9938 un gatto selvatico => #9904 61versantebrullo
+O 0 9945 1 9900  ; Object: #9945 una capiente sacca => #9900 57mononokespecchio
+O 0 9946 1 9901  ; Object: #9946 una cerbottana abbandonata => #9901 58secondaponte
+O 0 9947 1 9902  ; Object: #9947 un dardo per cerbottana => #9902 59terzaponte
+O 0 9949 1 9904  ; Object: #9949 un piccolo germoglio di pironella => #9904 61versantebrullo
+O 0 9952 1 9940  ; Object: #9952 una lunga catenella di vimini => #9940 97madrekodama
+O 0 9907 1 9938  ; Object: #9907 un pugnale d'osso => #9938 95tanadiMaro
+M 0 9911 1 9915  ; Mob: #9911 il capo degli scimmioni => #9915 72tanadiscimmioni
+E 1 9922 1 17  ; -- Equip: #9922 un grosso bastone (tenuto               - tenuto)
+M 0 9922 1 9915  ; Mob: #9922 uno scimmione grigio => #9915 72tanadiscimmioni
+E 1 9924 1 17  ; -- Equip: #9924 una pietra nera (tenuto               - tenuto)
+S
+
+#SPECIALS
+S
+
+#END

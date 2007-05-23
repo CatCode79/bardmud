@@ -1,0 +1,1688 @@
+*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*                              >>> >>> COMANDI GIOCATORI <<< <<<
+*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+* >>> A
+
+#CMDFUN
+FunName     do_affected
+MiniHelp    Ti mostra tutti gli incantesimi a quale sei sottoposto.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_afk
+MiniHelp    Indica che una persona e &UL&wontana &U&wDalla &UT&wastiera.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_alias
+MiniHelp    Servono per impostare dei comandi rapidi.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_archetype
+MiniHelp    Serve per vedere la lista degli archetipi dispobili.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_areas
+MiniHelp    Mostra la lista delle aree caricate sul mud.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_apply
+MiniHelp    Serve per spalmare determinate unguenti sulla pelle.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non ho mani con cui afferrare, né braccia con le quali spostare.. sono uno spirito.~
+End
+
+#CMDFUN
+FunName     do_appraise
+MiniHelp    Serve per vedere quante monete costerà far riparare un 
+                 determinato oggetto.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Critica e giudizio appartengono ai vivi.. allo spirito é la tacita osservanza.~
+End
+
+
+* >>> B
+
+#CMDFUN
+FunName     do_bank
+MiniHelp    Serve per depositare e prelevare moenta, oppure per comprare o
+                 vendere titoli azionari.~
+Type		CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_biography
+MiniHelp    Serve per scrivere una breve biografia del proprio personaggio.~
+Type		CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_board
+MiniHelp    Posta mail nella bacheca presente nella stanza~
+Type        CMDTYPE_EDITING
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+End
+
+#CMDFUN
+FunName     do_bolt
+MiniHelp    Serve per sprangare porte e cancelli.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Datemi un corpo perché afferri.. stringa.. possa spostare.. allora potrò farlo.~
+End
+
+#CMDFUN
+FunName     do_brandish
+MiniHelp    Serve per brandire oggetti magici.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Potrei brandire se potessi impugnare.. ma la materia mi sfugge inesorabilmente.~
+End
+
+#CMDFUN
+FunName     do_bug
+MiniHelp    Serve per segnalare agli amministratori la presenza di un bug.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_bury
+MiniHelp    Serve per sotterrare un oggetto oppure un cadavere.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Anche la nuda terra é troppo gravosa per uno spirito senza corpo.~
+End
+
+#CMDFUN
+FunName     do_buy
+MiniHelp    Serve per comprare un determinato oggetto.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Comprare? Se avessi un corpo per poi possedere..~
+End
+
+
+* >>> C
+
+#CMDFUN
+FunName     do_calendar
+MiniHelp    Permette di vedere l'ora il giorno ed il mese del mud in cui vi 
+                 trovate.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+* La posizione deve essere sleep perchè viene controllata la posizione dello spell e non di questo comando
+#CMDFUN
+FunName     do_cast
+MiniHelp    Serve per pronunciare preghiere e magie.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit La mia voce si perde, non ha forma né suono che io possa controllare.. da spirito.~
+End
+
+#CMDFUN
+FunName     do_channels
+MiniHelp    Serve per vedere i tuoi canali correnti.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_character
+MiniHelp    Serve per descrivere il proprio carattere.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_chess
+MiniHelp    Serve per poter giocare a scacchi.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_close
+MiniHelp    Serve per chiudere porte, casse, zaini...~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Chiuso o aperto fa poca differenza per uno spirito..~
+End
+
+#CMDFUN
+FunName     do_colors
+MiniHelp    Serve per vedere la lista di colori disponibili.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_commands
+MiniHelp    Serve per avere la lista completa dei comandi.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_comment
+MiniHelp    Serve per segnalare agli amministratori le tue idee o opinioni.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_compare
+MiniHelp    Serve a mettere in confronto due diversi oggetti.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Ciò che é materia non ha senso per chi é ormai spirito, ho bisogno di un corpo.~
+End
+
+#CMDFUN
+FunName     do_config
+MiniHelp    Serve per vedere la lista delle configurazioni del tuo personaggio.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_consider
+MiniHelp    Serve per stimare se una creatura è al tuo livello.~
+Type        CMDTYPE_COMBAT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+* (RR) Futura skill
+#CMDFUN
+FunName     do_cook
+MiniHelp    Serve per cucinare determinati alimenti.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Ricordi terreni e materiali son troppo lontani da richiamare.. datemi un corpo, prima.~
+End
+
+#CMDFUN
+FunName     do_credits
+MiniHelp    Serve per visualizare i crediti relativi al Diku, il padre di 
+                 tutti i Mud.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+
+* >>> D
+
+#CMDFUN
+FunName     do_description
+MiniHelp    Serve per impostare la propria descrizione.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_defeats
+MiniHelp    Serve ad elencare ai membri del clan il numero delle proprie 
+                 sconfitte.~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+* E' never perchè non si vuole far vedere il campo di password
+#CMDFUN
+FunName     do_delete
+MiniHelp    Serve per cancellare il proprio pg.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Log         LOG_NEVER
+End
+
+#CMDFUN
+FunName     do_dig
+MiniHelp    Serve per scavare buche e fosse.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Anche la nuda terra é troppo gravosa per uno spirito senza corpo.~
+End
+
+#CMDFUN
+FunName     do_dismiss
+MiniHelp    Serve per concedare alleati che ci seguono.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_dismount
+MiniHelp    Serve per smontare da una qualsiasi cavalcatura.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_down
+MiniHelp    Serve per dirigersi vero il basso.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_drag
+MiniHelp    Serve per trascinare oggetti o corpi.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Affondo nella materia senza che questa mi avverta.. non riesco a farlo da Spirito.~
+End
+
+#CMDFUN
+FunName     do_drink
+MiniHelp    Serve per bere.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Bere ora? Non é di questo che ho sete ora.. se avessi un corpo, forse.~
+End
+
+#CMDFUN
+FunName     do_drop
+MiniHelp    Serve per posare un oggetto.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Gli oggetti eludono la mia presa, sono uno spirito, non ho influenza su loro.~
+End
+
+
+* >>> E
+
+#CMDFUN
+FunName     do_east
+MiniHelp    Serve per dirigersi verso est.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_eat
+MiniHelp    Serve per mangiare.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non é di cibo la mia fame, finché sono spirito.~
+End
+
+#CMDFUN
+FunName     do_emote
+MiniHelp    E' usato per esprimere emozioni o azioni.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_empty
+MiniHelp    Serve per svuotare un contenitore di liquido.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Neanche l'aria avverte la mia presenza.. ogni cosa mi sfugge inutilmente.~
+End
+
+#CMDFUN
+FunName     do_enter
+MiniHelp    Serve per entrare in portali o entrate come botole o altro.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_equipment
+MiniHelp    Serve per vedere il proprio equipaggiamento.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_examine
+MiniHelp    Serve per esaminare gli oggetti.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_exits
+MiniHelp    Mostra le uscite disponibili dalla stanza dove ti trovi.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+
+* >>> F
+
+#CMDFUN
+FunName     do_fill
+MiniHelp    Serve per riempire i contenitori di liquidi, borracce e simili.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Gli oggetti mi sfuggono.. ci passo attraverso senza muover nulla..~
+End
+
+#CMDFUN
+FunName     do_findmail
+MiniHelp    Serve a trovare una nota nella lista delle proprie lettere, 
+                 cercando la parola passata nel soggetto della lettera.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_findnote
+MiniHelp    Serve a trovare una nota nella lista delle proprie note, 
+                 cercando la parola passata nel soggetto della nota.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_fire
+MiniHelp    Serve per usare armi come archi o pugnali da lancio.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit La materia mi sfugge, non riesco ad afferrare nulla.. tutto è aria, anche io.~
+End
+
+#CMDFUN
+FunName     do_flee
+MiniHelp    Serve per scappare da un combattimento che ha preso una brutta 
+                 piega.~
+Type        CMDTYPE_COMBAT
+Trust       TRUST_PLAYER
+Position    POSITION_AGGRESSIVE
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_follow
+MiniHelp    Serve per seguire un determinato personaggio.~
+Type        CMDTYPE_GROUPING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_fprompt
+MiniHelp    Serve per impostare il prompt da combattimento.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+
+* >>> G
+
+#CMDFUN
+FunName     do_get
+MiniHelp    Serve per prendere un oggetto.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit La materia é dei vivi.. inafferrabile come l'aria ora che sono uno spirito.~
+End
+
+#CMDFUN
+FunName     do_give
+MiniHelp    Serve per dare un oggetto ad un pg.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non riesco a reggere nè a impugnare nulla di corporeo.. sono uno spirito.~
+End
+
+#CMDFUN
+FunName     do_group
+MiniHelp    Serve per vedere chi è all'interno del proprio gruppo.~
+Type        CMDTYPE_GROUPING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_gtell
+MiniHelp    Serve per parlare offgdr con i membri del proprio gruppo.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+
+* >>> H
+
+#CMDFUN
+FunName     do_help
+MiniHelp    Serve per trovare aiuti specifici su determinati argomenti basta 
+                 digitare: aiuto <argomento>.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_hold
+MiniHelp    Serve per impugnare oggetti.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Scivola via.. non ho un corpo con cui reggere gli oggetti.~
+End
+
+
+* >>> I
+
+#CMDFUN
+FunName     do_idea
+MiniHelp    Serve per proporre un'idea agli amministratori.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_identify
+MiniHelp    Serve per far identificare un oggetto.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_ignore
+MiniHelp    Serve per aggiungere o rimuoere persone da ignorare con il canale comunica/tell~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_induct
+MiniHelp    Fa entrare un pg in un clan~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Log         LOG_ALWAYS
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Devo essere in possesso del mio corpo materiale per poterlo fare.~
+End
+
+#CMDFUN
+FunName     do_inventory
+MiniHelp    Serve per vedere che oggetti si hanno in inventario.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+
+* >>> J
+
+#CMDFUN
+FunName     do_junk
+MiniHelp    Serve a rompere un oggetto presente nel proprio inventario.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non ho nessuna forza per rompere alcunché da spirito..~
+End
+
+
+* >>> K
+
+#CMDFUN
+FunName     do_kill
+MiniHelp    Serve per attaccare un mob.~
+Type        CMDTYPE_COMBAT
+Trust       TRUST_PLAYER
+Position    POSITION_FIGHT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Uccidere? Sarebbe come chiedere ad un vivo di ferire l'aria.. Sono uno spirito.~
+End
+
+
+* >>> L
+
+*#CMDFUN
+*FunName     do_land
+*MiniHelp    Serve per atterrare.~
+*Type        CMDTYPE_MOVEMENT
+*Trust       TRUST_PLAYER
+*Position    POSITION_STAND
+*Flags       CMDFLAG_INTERACT~
+*End
+
+#CMDFUN
+FunName     do_light
+MiniHelp    Serve per accendere pipe e fuochi.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non ho alcun potere sulla materia, le mie mani sfiorano ma attraversano ogni cosa..~
+End
+
+#CMDFUN
+FunName     do_locker
+MiniHelp    Permette di aprire e depositare, nei luoghi appositi, degli oggetti
+              dentro il proprio armadietto di sicurezza~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_look
+MiniHelp    Serve per guardare chi e cosa sta nella stanza.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_lock
+MiniHelp    Serve per chiudere a chiave le porte o i contenitori.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Amaro é lo sbeffeggiar della materia ai miei vani gesti.. sono uno spirito senza potere su di essa.~
+End
+
+#CMDFUN
+FunName     do_legend
+MiniHelp    Legenda dei simboli della mappa nella descrizione della stanza~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_list
+MiniHelp    Mostra gli oggetti che il venditore ti puo vendere.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit A che pro negoziar compere? Non sono di questo mondo, senza un corpo.~
+End
+
+#CMDFUN
+FunName     do_languages
+MiniHelp    Serve per vedere la lista di lingue che si hanno a disposizione.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit L'unica lingua che la mia bocca parli é quella degli spiriti, non ho altra voce.~
+End
+
+*#CMDFUN
+*FunName     do_landscape
+*MiniHelp    ~
+*Type        CMDTYPE_INFORMATION
+*Trust       TRUST_PLAYER
+*Position    POSITION_REST
+*Flags       CMDFLAG_INTERACT~
+*End
+
+#CMDFUN
+FunName     do_leave
+MiniHelp    Serve per uscire da particolari luoghi (è il contrario del comando 
+                 entra).~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+
+* >>> M
+
+#CMDFUN
+FunName     do_mail
+MiniHelp    Serve per spedire una lettera ad un giocatore.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Posso solo scrivere nella mia memoria.. sono puro spirito..~
+End
+
+* Magari in futuro farlo per avatar rpg speciali per effettuare dei restring
+*#CMDFUN
+*FunName     do_make
+*MiniHelp    Serve al capoclan per creare oggetti semplici.~
+*Type        CMDTYPE_OBJECT
+*Trust       TRUST_PLAYER
+*Position    POSITION_SIT
+*Log         LOG_ALWAYS
+*Flags       CMDFLAG_WATCH CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+*MsgNoSpirit Richiamare la materia da spirito é come far descrivere un colore da un cieco..~
+*End
+
+#CMDFUN
+FunName     do_mapper
+MiniHelp    Mappa la zona circostante, se si invia 7 si vedrà la mappa formattata come
+                 nella descrizione della stanza~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_NEOMASTER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_messages
+MiniHelp    Serve per impostare vari messaggi, come quelli di login e logout.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_money
+MiniHelp    Serve per vedere quante monte si hanno.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+* (RR) Futura skill
+#CMDFUN
+FunName     do_murder
+MiniHelp    Serve per attaccare un altro giocatore.~
+Type        CMDTYPE_COMBAT
+Trust       TRUST_PLAYER
+Position    POSITION_FIGHT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit I corpi e la materia mi sfuggono, sono uno spirito senza carne e sangue.~
+End
+
+#CMDFUN
+FunName     do_murmur
+MiniHelp    Serve per parlare a bassa voce.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_murmur_ref
+MiniHelp    Serve per parlare a bassa voce con qualcuno~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_murmur_group
+MiniHelp    Serve per parlare a bassa voce con il gruppo~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+
+* >>> N
+
+#CMDFUN
+FunName     do_news
+MiniHelp    Serve per vedere le novità apportate dagli amministratori.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_north
+MiniHelp    Serve per dirigersi verso nord.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_northeast
+MiniHelp    Serve per dirigersi verso nordest.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_northwest
+MiniHelp    Serve per dirigersi verso nordovest.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_note
+MiniHelp    Serve per scrivere una nota.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+
+* >>> O
+
+#CMDFUN
+FunName     do_objective
+Position    POSITION_DEAD
+MiniHelp    Serve ad indicare quello che il pg ha intenzione di fare.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+End
+
+#CMDFUN
+FunName     do_oneirism
+MiniHelp    Permette di vedere cos'è possibile modificare andando in delirio 
+                 onirico astrale.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Sono uno spirito senza casa.. non é di questo che ho brama, non é questo che ora cerco.~
+End
+
+#CMDFUN
+FunName     do_open
+MiniHelp    Serve per aprire porte, casse, zaini...~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit La materia mi sfugge, sono uno spirito, un alito di vento che la attraversa.~
+End
+
+#CMDFUN
+FunName     do_order
+MiniHelp    Serve per impartire ordini ad un cucciolo o un mob charmato.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_outcast
+MiniHelp    Serve al capoclan per allontanare membri indesiderati.~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Log         LOG_ALWAYS
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Devo essere in possesso del mio corpo materiale per poterlo fare.~
+End
+
+
+* >>> P
+
+#CMDFUN
+FunName     do_pause
+MiniHelp    Serve per impostare la lunghezza della pagina nello scorrere del testo.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+* E' LOG_NEVER perchè non si vuole far vedere il campo di password
+#CMDFUN
+FunName     do_password
+MiniHelp    Serve per modificare la password del proprio personaggio.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Log         LOG_NEVER
+End
+
+#CMDFUN
+FunName     do_practice
+MiniHelp    Serve per vedere la lista delle abilità che si possono praticare 
+                 al tuo livello.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_prompt
+MiniHelp    Serve per impostare il prompt o scegliere uno tra quelli pre-impostati.~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_protocols
+MiniHelp    Permette al giocatore di cambiare le opzione riguardanti i protocolli~
+Type        CMDTYPE_OPTION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_pull
+MiniHelp    Serve per tirare leve o cose simili.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Affondo nella materia senza che questa mi avverta.. non riesco a farlo da Spirito.~
+End
+
+#CMDFUN
+FunName     do_push
+MiniHelp    Serve per spingere (o premere) dei bottoni.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Che sia un muro o una montagna per uno spirito non fa differenza.. la materia sfugge come l'aria..~
+End
+
+#CMDFUN
+FunName     do_put
+MiniHelp    Serve per mettere un oggetto in un determinato contenitore.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Gli oggetti eludono la mia presa, sono uno spirito, non ho influenza su loro.~
+End
+
+
+* >>> Q
+
+#CMDFUN
+FunName     do_qtalk
+MiniHelp    Canale simile al think che serve per comunicare durante le quest 
+                 le proprie intenzioni.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_quaff
+MiniHelp    Serve per bere pozioni o simili.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_BERSERK
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Ogni cosa scivola attraverso me come se non esistessi.. e non esisto, qui. Sono uno Spirito.~
+End
+
+#CMDFUN
+FunName     do_quit
+MiniHelp    Serve per uscire da &RT&Yerra &RS&Yecunda.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_TYPEALL~
+End
+
+
+* >>> R
+
+#CMDFUN
+FunName     do_rank
+MiniHelp    Serve a cambiare di rango un membro del clan.~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Devo essere in possesso del mio corpo materiale per poterlo fare.~
+End
+
+#CMDFUN
+FunName     do_rap
+MiniHelp    Serve per bussare alle porte.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Oh sì, se avessi un corpo avrei anche una presenza di cui avvertire bussando.~
+End
+
+#CMDFUN
+FunName     do_read
+MiniHelp    Serve per leggere libri, lettere, note...~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_recall
+MiniHelp    Concede al pg di ritornare in capitale questo comando consuma 
+                 punti gloria.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Uno spirito non ha né casa né dimora senza un corpo in cui abitare.~
+End
+
+#CMDFUN
+FunName     do_recite
+MiniHelp    Serve per recitare le pergamene.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Da spirito la mia voce é senza forma e tono.. l'incantesimo non andrà mai.~
+End
+
+#CMDFUN
+FunName     do_remains
+MiniHelp    Questo comando se usato nel giusto luogo concede al giocatore di 
+                 riavere indietro il suo cadavere.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_remove
+MiniHelp    Serve per rimuovere un oggetto dal proprio equipaggiamento.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Così lontano é il mondo dei vivi.. pur essendo ai miei piedi non riesco a toccarlo.~
+End
+
+* (FF) Lo tengo per una futura implementazione di un sistema di affitto oggetti e appartamenti.
+*#CMDFUN
+*FunName     do_rent
+*MiniHelp    Serve per affittare degli appartamenti.~
+*Type        CMDTYPE_GAMING
+*Trust       TRUST_PLAYER
+*Position    POSITION_DEAD
+*Flags       CMDFLAG_INTERACT~
+*End
+
+#CMDFUN
+FunName     do_repair
+MiniHelp    Questo comando se usato nel giusto luogo concede al pg di 
+                 riparare gli oggetti danneggiati.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Se avessi una voce per chiedere, se avessi qualcosa da brandire, se potessi avere.. forse lo farei.~
+End
+
+#CMDFUN
+FunName     do_reply
+MiniHelp    Manda un messaggio all'ultimo giocatore che ti ha parlato con il 
+                 tell.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Log         LOG_NEVER
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_rest
+MiniHelp    Serve per riposare (mentre ci si riposa si recuperano più 
+                 velocemente vita, mana e movimento).~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_rules
+MiniHelp    Serve ad elencare l'aiuto sulle regole del mud.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_run
+MiniHelp    Serve per correre verso una determinate direzione.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+
+* >>> S
+
+#CMDFUN
+FunName     do_sacrifice
+MiniHelp    Serve per sacrificare alla propria divinità degli oggetti o un 
+                 corpo.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_save
+MiniHelp    Serve per salvare il proprio personaggio.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_say
+MiniHelp    Serve per parlare~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_say_ref
+MiniHelp    Serve per parlare a qualcuno~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_say_group
+MiniHelp    Serve per parlare al gruppo~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+* Attenzione a condizione, radice diversa da stato
+#CMDFUN
+FunName     do_score
+MiniHelp    Serve per vedere le proprie statistiche.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_sell
+MiniHelp    Serve a vendere un oggetto ad un negoziante.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Vendere.. comprare.. é lungi da me ogni materia e oggetto, cosa vendo che le mie mani possano afferrare?~
+End
+
+#CMDFUN
+FunName     do_shout
+MiniHelp    Serve per gridare.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Senza un corpo la mia voce si perde nel vuoto.. non riesco a modularla.~
+End
+
+#CMDFUN
+FunName     do_shout_ref
+MiniHelp    Serve per gridare a qualcuno~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Senza un corpo la mia voce si perde nel vuoto.. non riesco a modularla.~
+End
+
+#CMDFUN
+FunName     do_shout_group
+MiniHelp    Serve per gridare al gruppo~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Senza un corpo la mia voce si perde nel vuoto.. non riesco a modularla.~
+End
+
+* (RR) da aggiustare come abilità e da pensare bene
+#CMDFUN
+FunName     do_shove
+MiniHelp    Serve a spingere un determinato giocatore verso una direzione.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Urtare? Una frusta di petali di rosa avrebbe più forza d'impatto.. sono di puro spirito.~
+End
+
+#CMDFUN
+FunName     do_showranks
+MiniHelp    Visualizza al leader del Clan la lista dei ranghi.~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_sing
+MiniHelp    Serve per cantare.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_sit
+MiniHelp    Serve per far sedere il proprio personaggio.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_skills
+MiniHelp    Concede di vedere le abilità che si hanno e quelle che si 
+                 acquisiscono nei prossimi livelli.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_sky
+MiniHelp    Permette di visualizzare il cielo se si è all'aperto~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_sleep
+MiniHelp    Serve per dormire (mentre si dorme si recuperano più velocemente 
+                 vita, mana e movimento).~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Prender sonno da cosa? Sono uno spirito, non ho occhi né corpo a cui dar respiro.~
+End
+
+* (FF) Forse in futuro la farei skill... in attinenza con l'erborista o alchimista e le erbe
+#CMDFUN
+FunName     do_smoke
+MiniHelp    Serve per fumare le pipe.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non ho un corpo per avvertire gli stimoli del fumo o di ogni altro piacere corporeo..~
+End
+
+#CMDFUN
+FunName     do_socials
+MiniHelp    Serve per aver la lista completa dei sociali.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_south
+MiniHelp    Serve per dirigersi verso sud.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_southeast
+MiniHelp    Serve per dirigersi verso sudest.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_southwest
+MiniHelp    Serve per dirigersi verso sudovest.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_split
+MiniHelp    Serve per dividere un determinato numero di monete.~
+Type        CMDTYPE_GROUPING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Se avessi un corpo per possedere allora potrei anche dare.~
+End
+
+#CMDFUN
+FunName     do_stand
+MiniHelp    Serve per mettersi in piedi.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_style
+MiniHelp    Serve per cambiare stile di combattimento.~
+Type        CMDTYPE_COMBAT
+Trust       TRUST_PLAYER
+Position    POSITION_BERSERK
+*Flags       CMDFLAG_INTERACT~	(FF) da pensare se quando cambia il comando stile questo non bisogni inserirlo
+End
+
+#CMDFUN
+FunName     do_surname
+Position    POSITION_DEAD
+MiniHelp    Serve per impostare il proprio cognome.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+End
+
+
+* >>> T
+
+#CMDFUN
+FunName     do_tamp
+MiniHelp    Serve a comprimere l'erba nella pipa.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non ho mani con cui reggere e dita con cui dosare.. sono uno spirito.~
+End
+
+#CMDFUN
+FunName     do_tell
+MiniHelp    Serve per comunicare offgdr con un giocatore o un amministratore.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+Log         LOG_NEVER
+End
+
+#CMDFUN
+FunName     do_think
+MiniHelp    Serve per comunica in OFFGDR con tutti gli amministratori 
+                 presenti.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+Flags       CMDFLAG_POSSESS~
+End
+
+#CMDFUN
+FunName     do_title
+Position    POSITION_DEAD
+MiniHelp    Serve per impostare il proprio titolo.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+End
+
+#CMDFUN
+FunName     do_typo
+MiniHelp    Serve per segnalare agli amministratori un errore ortografico.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+
+* >>> U
+
+#CMDFUN
+FunName     do_unbolt
+MiniHelp    Serve per spalancare porte e cancelli sprangati.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Mi sfugge.. non riesco ad afferrare o spingere, sono spirito, nulla di più.~
+End
+
+#CMDFUN
+FunName     do_unlock
+MiniHelp    Serve per sbloccare a chiave porte, casse..~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit L'unica porta e l'unica serratura che esiste per uno spirito é quella dal mondo dei vivi.~
+End
+
+#CMDFUN
+FunName     do_up
+MiniHelp    Serve per dirigersi verso l'alto.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+
+* >>> V
+
+#CMDFUN
+FunName     do_value
+MiniHelp    Serve per vedere quante monete vale un determinato oggetto.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Solo il perduto soffio della vita e quello gelido della morte posso confrontare ora che sono spirito.~
+End
+
+#CMDFUN
+FunName     do_victories
+MiniHelp    Serve ad elencare ai membri del clan il numero delle proprie 
+                 vittorie.~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_visible
+MiniHelp    Serve per tornare visibile agli occhi degli altri pg.~
+Type        CMDTYPE_GAMING
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Non é la mia volontà a rendermi visibile o invisibile.. Non ho forza nelle menti altrui.~
+End
+
+
+* >>> W
+
+#CMDFUN
+FunName     do_wake
+MiniHelp    Permette di svegliarsi dal sonno oppure di svegliare un'altra persona.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_SLEEP
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Morire, dormire.. svegliarsi.. c'é forse qualche differenza ora che sono uno spirito?~
+End
+
+#CMDFUN
+FunName     do_wear
+MiniHelp    Serve per indossare pezzi di armatura o vestiti.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Vesti e armi dello spirito non possono essere corporee, la materia mi sfugge.~
+End
+
+#CMDFUN
+FunName     do_weather
+MiniHelp    Serve per vedere il tempo atmosferico.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+End
+
+#CMDFUN
+FunName     do_west
+MiniHelp    Serve per dirigersi verso ovest.~
+Type        CMDTYPE_MOVEMENT
+Trust       TRUST_PLAYER
+Position    POSITION_STAND
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_whisper
+MiniHelp    Serve per sussurare un messaggio~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_whisper_ref
+MiniHelp    Serve per sussurare un messaggio a qualcuno~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_whisper_group
+MiniHelp    Serve per sussurare un messaggio al gruppo~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_INTERACT~
+End
+
+#CMDFUN
+FunName     do_who
+MiniHelp    Serve per vedere i giocatori connessi.~
+Type        CMDTYPE_INFORMATION
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_whogroups
+MiniHelp    Serve per vedere i gruppi dei giocatori connessi.~
+Type        CMDTYPE_GROUPING
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_whoclan
+MiniHelp    Serve a visualizzare la lista di membri del proprio clan.~
+Type        CMDTYPE_CLAN
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+#CMDFUN
+FunName     do_wield
+MiniHelp    Serve per impugnare armi.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_SIT
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Ho ben poco da impugnare senza un corpo che possa afferrare.~
+End
+
+#CMDFUN
+FunName     do_wimpy
+MiniHelp    Concede di scappare dal combattimento ad una determinate 
+                 percentuale di vita.~
+Type        CMDTYPE_COMBAT
+Trust       TRUST_PLAYER
+Position    POSITION_DEAD
+End
+
+
+* >>> Y
+
+#CMDFUN
+FunName     do_yell
+MiniHelp    Serve per urlare.~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Senza un corpo la mia voce si perde nel vuoto.. non riesco a modularla.~
+End
+
+#CMDFUN
+FunName     do_yell_ref
+MiniHelp    Serve per urlare a qualcuno~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Senza un corpo la mia voce si perde nel vuoto.. non riesco a modularla.~
+End
+
+#CMDFUN
+FunName     do_yell_group
+MiniHelp    Serve per urlare al gruppo~
+Type        CMDTYPE_CHANNEL
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Senza un corpo la mia voce si perde nel vuoto.. non riesco a modularla.~
+End
+
+
+* >>> Z
+
+#CMDFUN
+FunName     do_zap
+MiniHelp    Serve per usare bacchette magiche o simili.~
+Type        CMDTYPE_OBJECT
+Trust       TRUST_PLAYER
+Position    POSITION_REST
+Flags       CMDFLAG_NOSPIRIT CMDFLAG_INTERACT~
+MsgNoSpirit Brandire, puntare, colpire.. uno spirito può solo osservare con occhi che non gli appartengono.~
+End
+
+
+#END

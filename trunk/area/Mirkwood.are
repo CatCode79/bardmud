@@ -1,0 +1,1651 @@
+#AREA
+Name         Mirkwood~
+Author       Yaegar (Jamirithiana)~
+Color        AT_DGREEN verde scuro~
+LevelRange   5 10
+ResetMsg1    Cinguettii leggiadri e frulli d'ali tagliano il cielo e il silenzio del bosco che mi attornia..~
+Vnums        8800 8869
+End
+
+
+#MOBILES
+
+#8800
+elfo esploratore~
+un esploratore elfico~
+Un esploratore elfico è palesemente indignato per la tua intrusione!~
+Gli Elfi Silvani sono brava gente ma secoli di violenze e pregiudizi da parte
+delle altre razze li hanno resi guardinghi e ostili nei confronti degli
+stranieri..
+Nativi di Mirkwood, essi sanno rendersi praticamente invisibili quando decidono
+di non essere visti..
+Ad ogni modo, se te la senti, puoi tentare una contesa!
+~
+99 66080 400 S
+5 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8801
+elfo guerriero~
+un guerriero elfico~
+Un guerriero elfico si ti scaglia contro brandendo la sua spada!~
+Gli Elfi Silvani sono brava gente ma secoli di violenze e pregiudizi da parte
+delle altre razze li hanno resi guardinghi e ostili nei confronti degli
+stranieri..
+Ad ogni modo, se te la senti, puoi tentare una contesa!
+~
+99 512 400 S
+7 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8802
+orco esploratore~
+un orco esploratore~
+Un orco esploratore grida e si lancia all'attacco!~
+Queste sporche creature sono state mandate in avanscoperta ad esplorare le
+difese di cui dispone Mirkwood. Finora gli assalti si sono risolti in sanguinosi
+fallimenti ma gli elfi cominciano a sentire il peso della continuita' degli
+attacchi dell'orda orchesca.
+~
+165 512 -400 S
+5 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8803
+orco guerriero~
+un orco guerriero~
+Un orco guerriero grida e si lancia all'attacco!~
+Queste bassi tirapiedi armati sono stati mandati in avanscoperta ad esplorare le
+difese di cui dispone Mirkwood. Finora gli assalti si sono risolti in sanguinosi
+fallimenti ma gli elfi cominciano a sentire il peso della continuita' degli
+attacchi dell'orda orchesca.
+~
+37 512 -400 S
+5 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8804
+guardia elfica~
+una guardia elfica~
+Il guardiano elfico ti si avvicina minaccioso, guardandoti dritto negli occhi.~
+La guardia elfica e' palesemente irritata dal tuo ingresso nella sala del suo
+Re.. Sicuramente sta pensando di cacciarti via in malo modo..
+~
+33 512 400 S
+8 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8805
+capo guardia~
+il capo delle guardie~
+Il capo delle guardie elfiche ti pianta gli occhi in viso e sguaina la spada!~
+Gli Elfi Silvani sono brava gente ma secoli di violenze e pregiudizi da parte
+delle altre razze li hanno resi guardinghi e ostili nei confronti degli
+stranieri..
+Ad ogni modo, se te la senti, puoi tentare una contesa!
+~
+99 512 400 S
+12 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8806
+galion maggiordomo~
+Galion il maggiordomo~
+Un maggiordomo elfico ti guarda in modo ostile.~
+Ti rendi subito conto della particolare affezione che Galion prova per il Vino
+Dorwinion e di quanto egli sia ebbro.. ma questo non vuol dire che non reagira'
+alla tua intrusione!
+~
+99 512 400 S
+10 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8807
+thranduil re~
+Thranduil, il Re degli Elfi Silvani~
+Thranduil, il Re degli Elfi Silvani, ti guarda negli occhi con severità.~
+Sebbene non sia immune dai pregiudizi che il popolo elfico nutre nei confronti
+degli stranieri, egli appare saggio (e forse piu' civilizzato?). Stai pur certo
+che non ti attacchera' se non sarai tu stesso a provocarlo.
+~
+67 640 500 S
+15 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8808
+giovane elfo~
+un giovane elfo~
+Un giovane elfo ti guarda con sospetto.~
+Sei quasi sicuro che questo ragazzo elfico non ti si scagliera' contro come le
+guardie vorrebbero.. ma cio' non significa che gradisca la tua presenza qui.
+~
+129 512 400 S
+6 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8809
+giovane elfa~
+una giovane elfa~
+Una giovane elfa ti guarda con sospetto.~
+Sei quasi sicuro che questa ragazza elfica non ti si scagliera' contro come le
+guardie vorrebbero.. ma cio' non significa che gradisca la tua presenza qui.
+~
+129 512 400 S
+6 0 0 0d0+0 0d0+0
+0 0
+100 100 1
+
+#8810
+elfo secondino~
+un secondino elfico~
+Un secondino elfico sonnecchia qua.~
+Questo maschio elfico sembra aver passato la vita tra i fumi dell'alcool..
+~
+71 131584 0 S
+9 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+
+#8811
+thorin~
+Thorin detto 'scudo di quercia'~
+Thorin Scudo di Quercia si inchina profondamente al tuo cospetto.~
+Questo nano discende da una nobile e antica casata.
+Lui e i suoi compagni furono catturati dagli Elfi Silvani mentre attraversavano
+la foresta alla ricerca delle terre abitate dall'enorme drago che stermino' i
+loro fratelli.
+~
+5 8192 500 S
+14 0 0 0d0+0 0d0+0
+0 0
+100 100 0
+#0
+
+
+#OBJECTS
+#8800
+laghetto~
+un laghetto~
+Un laghetto dalle acque terse e cristalline riempie lo scenario~
+~
+25 0 0 0
+0 0 0 0
+1 0 0
+E
+laghetto~
+Sei assetato? Puoi bere da qui!
+~
+
+#8801
+spada~
+una spada elfica~
+Una bella spada di fattura elfica e' adagiata al suolo.~
+~
+5 0 8193 0
+12 9 8 3
+50 2000 0
+A
+18 2
+
+#8802
+mantello~
+un mantello elfico~
+Un leggero mantello di foggia elfica e' stato lasciato qui.~
+~
+9 0 1
+0 0 0 0
+5 0 0
+A
+13 5
+A
+17 -2
+
+#8803
+stivali~
+un paio di stivali elfici~
+Un paio di stivali elfici di colore chiaro e' in terra.~
+~
+9 0 1
+0 0 0 0
+5 0 0
+A
+2 1
+A
+14 50
+
+#8804
+acqua fiaschetta~
+una fiaschetta~
+Vedi una fiaschetta. Agitandola dolcemente comprenderai se c'e' del liquido al
+suo interno.~
+~
+17 0 1
+10 10 0 0
+5 0 0
+
+#8805
+scudo~
+uno scudo chiodato~
+E' caduto in terra uno scudo orchesco cosparso di chiodi metallici.~
+~
+9 0 1
+0 0 0 0
+10 0 0
+
+#8806
+scimitarra~
+una scimitarra orchesca~
+E' stata lasciata in terra questa scimitarra di chiara fattura orchesca.~
+~
+5 0 8193 0
+12 5 9 3
+50 2000 0
+A
+1 1
+A
+19 1
+
+#8807
+elmo~
+un deforme elmo chiodato~
+E' stato lasciato in terra un deforme elmo chiodato.~
+~
+5 0 1
+2 1 3 2
+5 0 0
+A
+17 -5
+
+#8808
+fiasco vino~
+un fiasco di Vino Dorwinion~
+Un fiasco di vero Vino Dorwinion e' accantonato in un angolo.~
+~
+17 0 1
+4 2 2 0
+5 0 0
+
+#8809
+bariletto vino~
+un bariletto di Vino Dorwinion.~
+Un bariletto di vero Vino Dorwinion e' accantonato in un angolo.~
+~
+17 0 1
+10 10 2 0
+25 0 0
+
+#8810
+barile~
+un piccolo barile~
+Un piccolo barile e' stato lasciato qui. potrebbe essere una rudimentale
+imbarcazione..~
+~
+15 262144 0
+500 0 0 1
+25 0 0
+
+#8811
+spada~
+un'elegante spada elfica~
+Un'elegante spada elfica e' stata adagiata in terra.~
+~
+5 0 8193 0
+12 9 8 3
+50 2000 0
+A
+2 1
+A
+18 2
+A
+19 3
+
+#8812
+chiave~
+una chiave di ferro~
+Qualcuno ha perso una chiave di ferro. E' forse quella che apre la celletta?~
+~
+18 0 1
+0 0 0 0
+1 0 0
+
+#8813
+chiave~
+una chiave di ferro~
+Qualcuno ha perso una chiave di ferro. E' forse quella che apre la grotta?.~
+~
+18 0 1
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#8800
+L'Ingresso di Mirkwood~
+Sei appena entrato nella magica foresta elfica di Mirkwood, popolata dagli Elfi
+Silvani e dalle loro misteriose discendenze.
+Gli stranieri qui non sono visti di buon occhio, percio' sta' in guardia.. Si
+mormora che svariate etnie elfiche abitino questa foresta, ma che esse
+preferiscano nascondersi allo sguardo indagatore dello straniero celandosi
+abilmente nella complice macchia boscosa.
+~
+0 0 3
+D0
+~
+~
+0 -1 8801
+D2
+~
+~
+0 -1 8855
+S
+
+#8801
+Il Sentiero lungo Mirkwood~
+Avanzi di buon passo lungo lo stretto sentiero che s'inoltra nel fitto della
+foresta di Mirkwood. Giganteschi alberi secolari ti sovrastano da un lato
+all'altro mentre soavi cinguettii si diffondono dai rami. Tuttavia, malgrado la
+serenita' profusa dall'ambiente, non ti abbandona la sensazione di essere
+continuamente osservato.
+~
+0 0 3
+D0
+~
+~
+0 -1 8802
+D2
+~
+~
+0 -1 8800
+S
+
+#8802
+Il Sentiero lungo Mirkwood~
+Avanzi di buon passo lungo lo stretto sentiero che s'inoltra nel fitto della
+foresta di Mirkwood. Giganteschi alberi secolari ti sovrastano da un lato
+all'altro mentre soavi cinguettii si diffondono dai rami. Tuttavia, malgrado la
+serenita' profusa dall'ambiente, non ti abbandona la sensazione di essere
+continuamente osservato.
+~
+0 0 3
+D0
+~
+~
+0 -1 8803
+D2
+~
+~
+0 -1 8801
+S
+
+#8803
+Una Biforcazione~
+Hai appena raggiunto una biforcazione, che si ramifica ad est e ad ovest.
+Il grido improvviso di un animale selvaggio arriva da poco lontano e..
+involontariamente sobbalzi!
+~
+0 0 3
+D1
+~
+~
+0 -1 8804
+D2
+~
+~
+0 -1 8802
+D3
+~
+~
+0 -1 8820
+S
+
+#8804
+Un Largo Sentiero~
+Questo ramo del percorso si allarga dopo la breve distanza della biforcazione.
+Hai notato tracce di passi pesanti, chiara denuncia di passaggi estranei, data
+la risaputa leggerezza del passo elfico. In questa parte della foresta gli
+alberi appaiono piu' sottili, dando l'impressione di una recente ed accurata
+potatura.
+~
+0 0 3
+D1
+~
+~
+0 -1 8805
+D3
+~
+~
+0 -1 8803
+S
+
+#8805
+Un Altro Raccordo~
+Il sentiero si divide ancora in due diramazioni.
+A nord una solenne cittadella s'affaccia sovrastando le cime degli alberi mentre
+a sud la pista, coperta di erbacce, diviene manifestamente piu' stretta e lunga.
+~
+0 0 3
+D0
+~
+~
+0 -1 8806
+D2
+~
+~
+0 -1 8808
+D3
+~
+~
+0 -1 8804
+S
+
+#8806
+Una Curva nella Strada~
+La strada settentrionale in questo punto si piega verso est permettendo la vista
+di una fortezza elfica. Benche' sia distante piu' di un miglio, incombe ancora
+grande davanti al tuo sguardo.
+~
+0 0 3
+D1
+~
+~
+0 -1 8807
+D2
+~
+~
+0 -1 8805
+S
+
+#8807
+Pianura~
+La strada qui apre su un'area priva di alberi: una larga piana tratteggiata
+dalla barriera occasionale di una distante casa colonica.
+Un marcato percorso a conduce da est al cancello occidentale della lontana
+fortezza.
+~
+0 0 2
+D3
+~
+~
+0 -1 8806
+S
+
+#8808
+La Via Meridionale~
+Progredire speditamente lungo questo stretto e irto percorso e' impossibile, ti
+muovi faticosamente e ti trovi costretto a sostare di continuo.
+D'altra parte non c'e' altro modo per attraversare la viuzza.
+~
+0 0 3
+D0
+~
+~
+0 -1 8805
+D2
+~
+~
+0 -1 8809
+S
+
+#8809
+La Via Meridionale~
+Progredire speditamente lungo questo stretto e irto percorso e' impossibile, ti
+muovi faticosamente e ti trovi costretto a sostare di continuo.
+D'altra parte non c'e' altro modo per attraversare la viuzza.
+Da una piattaforma posta tra le fronde di un vicino albero vedi pendere una
+scaletta di corda.
+~
+0 0 3
+D0
+~
+~
+0 -1 8808
+D2
+~
+~
+0 -1 8811
+D4
+~
+~
+0 -1 8810
+S
+
+#8810
+Il Posto di Guardia~
+Sei finito nel Posto di Guardia degli Elfi Silvani.
+Da qui parte il costante e attento controllo per scongiurare l'ingresso di Orchi
+o Goblin. Gli elfi mal sopportano gli stranieri generalmente e a maggior ragione
+detestano intrusi nelle loro zone.
+Se c'e' qualcuno di guardia, non aspettarti una calorosa accoglienza..
+~
+0 0 3
+D5
+~
+~
+0 -1 8809
+S
+
+#8811
+La Via Meridionale~
+Progredire speditamente lungo questo stretto e irto percorso e' impossibile, ti
+muovi faticosamente e ti trovi costretto a sostare di continuo.
+D'altra parte non c'e' altro modo per attraversare la viuzza.
+A questo punto pero' e' possibile svoltare verso est.. sembra anzi che la via
+sia piu' praticabile la'..
+~
+0 0 3
+D0
+~
+~
+0 -1 8809
+D1
+~
+~
+0 -1 8813
+D2
+~
+~
+0 -1 8812
+S
+
+#8812
+Un Vicolo Cieco~
+COSA??? Dopo tutta questa fatica il sentiero termina in un VICOLO CIECO???
+Eh, sicuramente stai pensando di tornare indietro..
+~
+0 0 3
+D0
+~
+~
+0 -1 8811
+S
+
+#8813
+Il Sentiero Orientale~
+Questo sentiero e' decisamente meno stretto di quello che attraversavi prima.
+Il cammino attraverso la foresta e' ora molto piu' rapido e ti fermi
+occasionalmente, giusto per spezzare qualche ramo pendente o per aprire un varco
+tra i rampicanti.
+~
+0 0 3
+D1
+~
+~
+0 -1 8814
+D3
+~
+~
+0 -1 8811
+S
+
+#8814
+Il Sentiero Orientale~
+Questo sentiero e' decisamente meno stretto di quello che attraversavi prima.
+Il cammino attraverso la foresta e' ora molto piu' rapido e ti fermi
+occasionalmente, giusto per spezzare qualche ramo pendente o per aprire un varco
+tra i rampicanti.
+~
+0 0 3
+D1
+~
+~
+0 -1 8815
+D3
+~
+~
+0 -1 8813
+S
+
+#8815
+Una Curva nel Sentiero~
+In questo punto il sentiero piega a nord.
+~
+0 0 3
+D0
+~
+~
+0 -1 8816
+D3
+~
+~
+0 -1 8814
+S
+
+#8816
+Il Sentiero Settentrionale~
+Qui il sentiero appare abbastanza sgombro e privo di vegetazione, assumendo nel
+complesso un aspetto curato.
+Riesci a sentire canti lontani provenienti da nord.
+~
+0 0 3
+D0
+~
+~
+0 -1 8817
+D2
+~
+~
+0 -1 8815
+S
+
+#8817
+Il Sentiero Settentrionale~
+Qui il sentiero appare abbastanza sgombro e privo di vegetazione, assumendo nel
+complesso un aspetto curato.
+Riesci a sentire canti lontani provenienti da nord.
+Un altro sentiero svolta a est.
+~
+0 0 3
+D0
+~
+~
+0 -1 8819
+D1
+~
+~
+0 -1 8818
+D2
+~
+~
+0 -1 8816
+S
+
+#8818
+La Fine del Sentiero~
+Qui termina il sentiero, aprendosi in una piccola radura.
+Al centro un laghetto poco profondo, dalla superficie cristallina.
+Fermati a riposare.. ti sentirai a tuo agio, qui.
+~
+0 0 3
+D3
+~
+~
+0 -1 8817
+S
+
+#8819
+Nei Pressi di Bosco Sacro~
+Il canto e' chiaramente udibile da questo punto, e sai che arriva da un
+boschetto del versante orientale.
+Ogni cosa ricorda vagamente il rapporto tra i popoli e le bestie, di solito
+conflittuale, che pero' qui sembra alimentato da una pacifica coesistenza.
+~
+0 0 3
+D1
+~
+~
+0 -1 8904
+D2
+~
+~
+0 -1 8817
+S
+
+#8820
+Il Sentiero Occidentale~
+Il sentiero comincia a stringersi benche' sia ancora agevolmente precorribile.
+Ti sembra di vedere una scala di corda pendere dai rami di un'imponente quercia,
+nei pressi del lato orientale della strada.
+~
+0 0 3
+D1
+~
+~
+0 -1 8803
+D3
+~
+~
+0 -1 8822
+D4
+~
+~
+0 -1 8821
+S
+
+#8821
+Il Posto di Guardia~
+Sei finito nel Posto di Guardia degli Elfi Silvani.
+Da qui parte il costante e attento controllo per scongiurare l'ingresso di Orchi
+o Goblin. Gli elfi mal sopportano gli stranieri generalmente e a maggior ragione
+detestano intrusi nelle loro zone.
+Se c'e' qualcuno di guardia, non aspettarti una calorosa accoglienza..
+~
+0 0 3
+D5
+~
+~
+0 -1 8820
+S
+
+#8822
+Una Curva verso Nord~
+Qui il sentiero piega a nord costeggiando un corso d'acqua.
+~
+0 0 3
+D0
+~
+~
+0 -1 8823
+D1
+~
+~
+0 -1 8820
+S
+
+#8823
+Il Sentiero Settentrionale~
+Il sentiero qui si presenta sufficientemente uniforme e agevole, non come quelli
+appena percorsi.
+Davanti ai tuoi occhi appare un ampio corso d'acqua.
+~
+0 0 3
+D0
+~
+~
+0 -1 8824
+D2
+~
+~
+0 -1 8822
+S
+
+#8824
+Un Ruscello~
+Indubbiamente il ruscello che si presenta alla tua vista e' troppo ampio e
+profondo per essere attraversato a nuoto. Hai bisogno di un'imbarcazione o
+quanto meno di ricorrere ad un pizzico di magia.
+~
+0 0 6
+D0
+~
+~
+0 -1 8825
+D1
+~
+~
+0 -1 8866
+D2
+~
+~
+0 -1 8823
+S
+
+#8825
+Il Sentiero Settentrionale~
+Il sentiero qui si presenta sufficientemente uniforme e agevole, non come quelli
+appena percorsi.
+A sud c'e' un ampio corso d'acqua.
+Un ampio sentiero, costeggiato da parallele file di alberi, conduce verso est.
+~
+0 4 3
+D0
+~
+~
+0 -1 8826
+D1
+~
+~
+0 -1 8856
+D2
+~
+~
+0 -1 8824
+S
+
+#8826
+Un Raccordo~
+Sei giunto ad un'intersezione e puoi procedere verso nord oppure verso ovest.
+A te la scelta.
+Ad ogni modo, non ti abbandona la senzazione di essere osservato..
+~
+0 0 3
+D0
+~
+~
+0 -1 8830
+D2
+~
+~
+0 -1 8825
+D3
+~
+~
+0 -1 8827
+S
+
+#8827
+Il Sentiero Occidentale~
+Il percorso prosegue scosceso verso una collina dai fianchi delicatamente
+pendenti, alla base della quale si estende una bella vallata.
+~
+0 0 4
+D1
+~
+~
+0 -1 8826
+D5
+~
+~
+0 -1 8828
+S
+
+#8828
+La Collina~
+Il percorso prosegue scosceso verso una collina dai fianchi delicatamenti
+pendenti, alla base della quale si estende una bella vallata.
+~
+0 0 4
+D4
+~
+~
+0 -1 8827
+D5
+~
+~
+0 -1 8829
+S
+
+#8829
+La Base della Collina~
+Puoi proseguire verso est e attraversare quindi la bella vallata o tornare alla
+cima della collina prendendo la strada in salita.
+~
+0 0 4
+D0
+~
+~
+0 -1 7800
+D4
+~
+~
+0 -1 8828
+S
+
+#8830
+Il Sentiero Settentrionale~
+Il sentiero qui si presenta sufficientemente uniforme e agevole, non come quelli
+appena percorsi.
+Verso est si apre un ristretto sentiero.
+~
+0 0 3
+D0
+~
+~
+0 -1 8832
+D1
+~
+~
+0 -1 8831
+D2
+~
+~
+0 -1 8826
+S
+
+#8831
+Un Ristretto Sentiero~
+Stai percorrendo il ristretto sentiero che dal percorso settentrionale
+principale attraversa Mirkwood, puoi gia' intravedere la fine della stradina.
+~
+0 0 3
+D3
+~
+~
+0 -1 8830
+S
+
+#8832
+Il Sentiero Settentrionale~
+Il sentiero qui si presenta sufficientemente uniforme e agevole, non come quelli
+appena percorsi.
+~
+0 0 3
+D0
+~
+~
+0 -1 8833
+D2
+~
+~
+0 -1 8830
+S
+
+#8833
+Il Sentiero Settentrionale~
+Il sentiero qui si presenta sufficientemente uniforme e agevole, non come quelli
+appena percorsi.
+Un'ampia intersezione si apre verso nord.
+~
+0 0 3
+D0
+~
+~
+0 -1 8834
+D2
+~
+~
+0 -1 8832
+S
+
+#8834
+Un'Ampia intersezione~
+Eccoti giunto ad un'altra intersezione nella foresta.
+Il sentiero a est corre attraverso una fila ordinata di pioppi e pini
+dall'aspetto sano e gradevole, mentre il passaggio settentrionale appare
+costeggiato da diversi alberi secchi e morenti dei quali e' impossibile
+identificarne la specie.
+~
+0 0 3
+D0
+~
+~
+0 -1 8835
+D1
+~
+~
+0 -1 8841
+D2
+~
+~
+0 -1 8833
+S
+
+#8835
+Una Sezione in Rovina della Foresta~
+In quest'area il degrado si fa quasi palpabile, costringendoti a rabbrividire.
+La vegetazione rovinata e spenta s'attorciglia disordinatamente lungo il
+percorso e nemmeno un pezzo di cielo arriva a rischiarare l'ambiente.. ne' mai
+alcuna luce portera' vigore alle foglie secche e ai rami marci che oscurano la
+visuale.
+~
+0 0 3
+D0
+~
+~
+0 -1 8836
+D2
+~
+~
+0 -1 8834
+S
+
+#8836
+Una Sezione in Rovina della Foresta~
+In quest'area il degrado si fa quasi palpabile, costringendoti a rabbrividire.
+La vegetazione rovinata e spenta s'attorciglia disordinatamente lungo il
+percorso e nemmeno un pezzo di cielo arriva a rischiarare l'ambiente.. ne' mai
+alcuna luce portera' vigore alle foglie secche e ai rami marci che oscurano la
+visuale.
+~
+0 0 3
+D2
+~
+~
+0 -1 8835
+D3
+~
+~
+0 -1 8837
+S
+
+#8837
+Una Sezione in Rovina della Foresta~
+In quest'area il degrado si fa quasi palpabile, costringendoti a rabbrividire.
+La vegetazione rovinata e spenta s'attorciglia disordinatamente lungo il
+percorso e nemmeno un pezzo di cielo arriva a rischiarare l'ambiente.. ne' mai
+alcuna luce portera' vigore alle foglie secche e ai rami marci che oscurano la
+visuale. L'aria echeggia delle grida di qualche animale prossimo alla morte..
+~
+0 0 3
+D1
+~
+~
+0 -1 8836
+D3
+~
+~
+0 -1 8838
+S
+
+#8838
+Una Sezione in Rovina della Foresta~
+In quest'area il degrado si fa quasi palpabile, costringendoti a rabbrividire.
+La vegetazione rovinata e spenta s'attorciglia disordinatamente lungo il
+percorso e nemmeno un pezzo di cielo arriva a rischiarare l'ambiente.. ne' mai
+alcuna luce portera' vigore alle foglie secche e ai rami marci che oscurano la
+visuale.
+Una moltitudine di vermi striscia sul cadavere di un elfo impiccato, che
+ondeggia penzolando da un ramo sopraelevato. Il lezzo e' insopportabile.
+A nord puoi scorgere una parte indistinta della foresta.
+~
+0 0 3
+D0
+~
+~
+0 -1 6137
+D1
+~
+~
+0 -1 8837
+D3
+~
+~
+0 -1 8839
+S
+
+#8839
+Una Sezione in Rovina della Foresta~
+In quest'area il degrado si fa quasi palpabile, costringendoti a rabbrividire.
+La vegetazione rovinata e spenta s'attorciglia disordinatamente lungo il
+percorso e nemmeno un pezzo di cielo arriva a rischiarare l'ambiente.. ne' mai
+alcuna luce portera' vigore alle foglie secche e ai rami marci che oscurano la
+visuale.
+A questo punto il percorso intricato ed avvolgente svolta bruscamente verso un
+enorme squarcio nel fianco di una grigia scogliera.
+~
+0 0 3
+D1
+~
+~
+0 -1 8838
+D2
+~
+~
+0 -1 8840
+S
+
+#8840
+La Scogliera Grigia~
+Attendi perplesso all'imbocco dello squarcio nella scogliera..
+Ti stai chiedendo se sia il caso di proseguire verso la totale oscurita'..
+~
+0 0 4
+D0
+~
+~
+0 -1 8839
+S
+
+#8841
+Una Curva nel Sentiero~
+Sei giunto ad una curva nel sentiero, puoi svoltare a nord o a ovest.
+~
+0 0 3
+D0
+~
+~
+0 -1 8842
+D3
+~
+~
+0 -1 8834
+S
+
+#8842
+Una Curva nel Sentiero~
+Sei giunto ad una curva nel sentiero, puoi svoltare a sud o a est.
+~
+0 0 3
+D1
+~
+~
+0 -1 8843
+D2
+~
+~
+0 -1 8841
+S
+
+#8843
+Un Incrocio~
+Il percorso ancora una volta si divide, stavolta in una diramazione
+settentrionale e in una che scende a sud.
+Il lato a nord dispone di un'altra curva nella via, mentre il lato meridionale
+mostra una pista significativamente piu' stretta e ricoperta di erbacce.
+~
+0 0 3
+D0
+~
+~
+0 -1 8845
+D2
+~
+~
+0 -1 8844
+D3
+~
+~
+0 -1 8842
+S
+
+#8844
+Un Vicolo Cieco~
+Il passaggio s'arresta bruscamente in un vicolo cieco, ma scorgi una piccola
+scala di corda pendere dal ramo di una vicina quercia, sparendo e riapparendo
+dal suo intricato fogliame.
+~
+0 0 3
+D0
+~
+~
+0 -1 8843
+D4
+~
+~
+0 -1 8846
+S
+
+#8845
+Una Curva nel Sentiero~
+Qui il sentiero piega bruscamente a est, dirigendosi verso una sezione della
+foresta completamente differente da quella appena lasciata.
+Un secondo sentiero si snoda verso nord.
+~
+0 0 3
+D0
+~
+~
+0 -1 8868
+D1
+~
+~
+0 -1 8847
+D2
+~
+~
+0 -1 8843
+S
+
+#8846
+Il Posto di Guardia~
+Sei finito nel Posto di Guardia degli Elfi Silvani.
+Da qui parte il costante e attento controllo per scongiurare l'ingresso di Orchi
+o Goblin. Gli elfi mal sopportano gli stranieri generalmente e a maggior ragione
+detestano intrusi nelle loro zone.
+Se c'e' qualcuno di guardia, non aspettarti una calorosa accoglienza..
+~
+0 0 3
+D5
+~
+~
+0 -1 8844
+S
+
+#8847
+Un Incrocio a T~
+Sei uscito da Mirkwood seguendo uno scorcio di pista piuttosto polveroso.
+A questo punto puoi prendere la via a est che conduce ad alcuni poderi coltivati
+o quelle a sud e ad ovest che indubbiamente ritornano nella foresta.
+~
+0 0 2
+D1
+~
+~
+0 -1 8848
+D2
+~
+~
+0 -1 8849
+D3
+~
+~
+0 -1 8845
+S
+
+#8848
+I Campi Coltivati~
+Questo campo messo a coltura confina con una zona nitida e tersa, punteggiata da
+numerose casette coloniche.
+Una piccola torretta d'osservazione e' posta accanto ad un rigoglioso corso
+d'acqua.
+~
+0 0 2
+D3
+~
+~
+0 -1 8847
+S
+
+#8849
+Una Sezione Desolata della Foresta~
+Sei giunto in una parte della foresta alquanto devastata, dovunque vedi alberi
+morti e morenti e qualche cadavere riverso sul terreno.
+Da sud giungono urla raccapriccianti..
+~
+0 0 3
+D0
+~
+~
+0 -1 8847
+D1
+~
+~
+0 -1 8850
+S
+
+#8850
+Una Sezione Desolata della Foresta~
+Sei giunto in una parte della foresta alquanto devastata, dovunque vedi alberi
+morti e morenti e qualche cadavere riverso sul terreno.
+Da sud giungono urla raccapriccianti..
+~
+0 0 3
+D2
+~
+~
+0 -1 8851
+D3
+~
+~
+0 -1 8849
+S
+
+#8851
+Una Sezione Desolata della Foresta~
+Sei giunto in una parte della foresta alquanto devastata, dovunque vedi alberi
+morti e morenti e qualche cadavere riverso sul terreno.
+Da sud giungono urla raccapriccianti.. e inizia una parte oscura della foresta.
+~
+0 0 3
+D0
+~
+~
+0 -1 8850
+D2
+~
+~
+0 -1 3505
+S
+
+#8852
+Il Sentiero per la Montagna Puntafuoco~
+Il sentiero prosegue dopo la breccia e si allunga per le colline poste attorno
+ad un'immensa montagna.. anche se sei distante ancora, vedi emergere maestosa la
+Montagna Puntafuoco.
+~
+0 0 4
+D0
+~
+~
+0 -1 8853
+D1
+~
+~
+0 -1 8851
+S
+
+#8853
+La Prosecuzione del Sentiero~
+Continui a percorrere il sentiero.
+Ti sembra di avanzare lentamente data la distanza della vetta che intendi
+raggiungere.
+~
+0 0 4
+D0
+~
+~
+0 -1 8854
+D2
+~
+~
+0 -1 8852
+S
+
+#8854
+La Prosecuzione del Sentiero~
+Continui a percorrere il sentiero.
+Ti sembra di avanzare lentamente data la distanza della vetta che intendi
+raggiungere.
+~
+0 0 4
+D2
+~
+~
+0 -1 8853
+S
+
+#8855
+Approaching Mirkwood~
+The forest begins to surround you as you step into its depths. The path
+abruptly turns to the north and you continue.
+~
+0 0 3
+D0
+~
+~
+0 -1 8800
+D3
+~
+~
+0 -1 338
+S
+
+#8856
+Un Ampio Sentiero costeggiato da alberi~
+Il percorso prosegue per alcuni tratti raggiungendo un'enorme grotta, la cui
+entrata e' sbarrata da una porta massiccia e fimente intagliata, ardente di
+magia. Magnifiche querce sovrastano l'uno e l'altro lato e dovunque c'e' armonia
+e bellezza. Tuttavia, gli intrusi qui sono malvisti.. percio' stai all'erta.
+~
+0 0 3
+D1
+~
+~
+0 -1 8857
+D3
+~
+~
+0 -1 8825
+S
+
+#8857
+Un Ampio Sentiero costeggiato da alberi~
+Il percorso prosegue per alcuni tratti raggiungendo un'enorme grotta, la cui
+entrata e' sbarrata da una porta massiccia e fimente intagliata, ardente di
+magia. Magnifiche querce sovrastano l'uno e l'altro lato e dovunque c'e' armonia
+e bellezza. Tuttavia, gli intrusi qui sono malvisti.. percio' stai all'erta.
+L'entrata e' immediatamente adiacente.
+~
+0 128 3
+D1
+~
+~
+1 8813 8858
+D3
+~
+~
+0 -1 8856
+S
+
+#8858
+All'interno della Grotta~
+Sei nel Castello del Sire degli Elfi Silvani: Re Thranduil.
+Il corridoio nel quale ti sei appena immesso e' completamente deserto e silente.
+Sarebbe preferibile proseguire tenendo gli occhi bassi, la popolazione elfica e'
+notoriamente ostile verso i forestieri.
+L'atmosfera e' satura di incantamenti che assorbono ogni altra forma di magia.
+~
+0 8 0
+D0
+~
+~
+0 -1 8859
+D2
+~
+~
+0 -1 8864
+D3
+~
+~
+1 8813 8857
+S
+
+#8859
+All'interno della Grotta~
+Sei nel Castello del Sire degli Elfi Silvani: Re Thranduil.
+Il corridoio nel quale ti sei appena immesso e' completamente deserto e silente.
+Sarebbe preferibile proseguire tenendo gli occhi bassi, la popolazione elfica e'
+notoriamente ostile verso i forestieri.
+~
+0 8 0
+D1
+~
+~
+1 0 8860
+D2
+~
+~
+0 -1 8858
+S
+
+#8860
+La Stanza di Guardia~
+Ops! Sei finito nella stanza di guardia!
+Certo le guardie presenti non sono tanto contente di vederti..
+Hai l'impressione di udire soffocate richieste d'aiuto provenire da ogni dove..
+~
+0 8 0
+D0
+~
+~
+1 8812 8867
+D1
+~
+~
+1 0 8861
+D3
+~
+~
+1 0 8859
+S
+
+#8861
+Un Deposito~
+In questa stanza gli elfi stipano le loro vivande e il loro caro Vino Dorwinion.
+Una botola nel pavimento permette l'accesso al fiume. Gli elfi spingono i loro
+barili vuoti attraverso quell'apertura affinche' scendano fino al lago Town, per
+poi usarle come leggere e pratiche imbarcazioni di fortuna.
+~
+0 8 0
+D3
+~
+~
+1 0 8860
+D5
+~
+~
+1 0 8862
+S
+
+#8862
+Il Fiume~
+Stai attraversando un fiume che ti condurra' direttamente al lago Town.
+~
+0 4 7
+D2
+~
+~
+0 -1 8863
+D4
+~
+~
+1 0 8861
+S
+
+#8863
+Il Fiume~
+Stai attraversando un fiume che ti condurra' direttamente al lago Town.
+~
+0 4 7
+D0
+~
+~
+0 -1 8862
+D2
+~
+~
+0 -1 8866
+S
+
+#8864
+All'interno della Grotta~
+Sei nel Castello del Sire degli Elfi Silvani: Re Thranduil.
+Il corridoio nel quale ti sei appena immesso e' completamente deserto e silente.
+Sarebbe preferibile proseguire tenendo gli occhi bassi, la popolazione elfica e'
+notoriamente ostile verso i forestieri.
+~
+0 8 0
+D0
+~
+~
+0 0 8858
+D1
+~
+~
+1 0 8865
+S
+
+
+#8865
+La Stanza del Trono di Re Thrandul~
+Ci sei arrivato.. Sei giunto nella Stanza del Re Elfico.
+Lo vedi in tutta la sua imponente regalita', seduto su un trono di legno
+pregiato, ricco  intarsi sapientiemente eseguiti, posto alla fine dell'enorme
+sala.
+Guardandoti attorno ti rendi conto di essere completamente circondato da austere
+e impassibili guardie elfiche..
+~
+0 8 0
+D3
+~
+~
+1 0 8864
+S
+
+#8866
+Il Fiume~
+Stai attraversando un fiume che ti condurra' direttamente al lago Town.
+~
+0 4 7
+D0
+~
+~
+0 -1 8863
+D3
+~
+~
+0 -1 8824
+S
+
+#8867
+Una Cella~
+Questa cella, umida e angusta, e' l'unico conforto del suo piccolo abitante.
+~
+0 1 0
+D2
+~
+~
+1 0 8860
+S
+
+#8868
+Il Sentiero Settentrionale~
+Questo sentiero conduce a nord attraverso un'intricata sezione boscosa.
+~
+0 0 3
+D0
+~
+~
+0 -1 8869
+D2
+~
+~
+0 -1 8845
+S
+
+#8869
+Il Sentiero Settentrionale~
+Stai proseguendo lungo il sentiero settentrionale e avanzando l'ambiente si
+rischiara acquistando nitidezza con la luce.
+~
+0 0 3
+D2
+~
+~
+0 -1 8868
+S
+#0
+
+
+#RESETS
+M 1 8800 4 8810
+E 1 8801 0 16
+E 1 8802 0 12
+E 1 8803 0 8
+G 1 8804 0
+O 1 8800 0 8818
+M 1 8801 4 8821
+E 1 8801 0 16
+E 1 8802 0 12
+E 1 8803 0 8
+G 1 8804 0
+M 1 8802 3 8836
+E 1 8805 0 11
+E 1 8806 0 16
+E 1 8807 0 6
+M 1 8803 3 8839
+E 1 8805 0 11
+E 1 8806 0 16
+E 1 8807 0 6
+M 1 8800 4 8846
+E 1 8801 0 16
+E 1 8802 0 12
+E 1 8803 0 8
+G 1 8804 0
+M 1 8804 4 8857
+E 1 8801 0 16
+E 1 8802 0 12
+E 1 8803 0 8
+G 1 8804 0
+G 1 8813 0
+D 1 8857 1 2
+D 1 8858 3 2
+M 1 8808 2 8859
+D 1 8859 1 1
+M 1 8810 1 8860
+G 1 8812 0
+G 1 8808 0
+D 1 8860 3 1
+D 1 8860 0 2
+D 1 8860 1 1
+M 1 8805 1 8861
+G 1 8808 0
+M 1 8806 1 8861
+E 1 8801 0 16
+E 1 8802 0 12
+E 1 8803 0 8
+G 1 8804 0
+O 1 8809 0 8861
+O 1 8810 0 8861
+D 1 8861 3 1
+D 1 8861 5 1
+D 1 8862 4 1
+M 1 8809 2 8864
+D 1 8864 1 1
+M 1 8807 1 8865
+E 1 8811 0 16
+M 1 8804 4 8865
+E 1 8801 0 16
+E 1 8802 0 12
+E 1 8803 0 8
+G 1 8804 0
+D 1 8865 3 1
+M 1 8811 1 8867
+D 1 8867 2 2
+S
+
+
+#SHOPS
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  8802 spec_thief
+
+S
+
+
+#END

@@ -1,0 +1,34 @@
+#RACE
+RaceNumber     RACE_HALFLING
+NameMale       Halfling~
+NameFema       Halfling~
+Color          AT_PINK light pink 1~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -10  0   5    0   0   0    5   0   0    0   0   0    0   0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus         0     0     0     0     0     0
+PointLimit     -2 1 5 1
+Affected       AFFECT_DETECT_ALIGN AFFECT_SNEAK~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_HALFLING LANGUAGE_COMMON~
+*
+LangLearnable  ~
+AlignStart     0
+MinAlign      -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        102
+Height         140
+Weight         45,000
+TonalitySound  voce piccola~
+Tonality       75
+HungerMod      0
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END

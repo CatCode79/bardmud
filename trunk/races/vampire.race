@@ -1,0 +1,34 @@
+#RACE
+RaceNumber     RACE_VAMPIRE
+NameMale       Vampiro~
+NameFema       Vampiressa~
+Color          AT_RED crimson~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus        5   0   10   0   0   0    0   0   0    0   0   0   -10  0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus        -5     0     5     0     0     5
+PointLimit     1 2 2 1
+Affected       AFFECT_INFRARED~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_DEATH~
+*
+LangLearnable  ~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        100
+Height         165
+Weight         55,000
+HungerMod      0
+ThirstMod      0
+Tonality       75
+TonalitySound  voce cupa~
+SavingThrow    0 0 0 0 0
+End
+
+#END

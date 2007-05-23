@@ -1,0 +1,1379 @@
+
+* E' la lingua che tutte le razze intelligenti generalmente conoscono.
+#LANGUAGE
+Name        comune~
+LangNumber  LANGUAGE_COMMON
+Valid       True
+PreCnvList
+~
+Alphabet    abcdefghijklmnopqrstuvwxyz~
+CnvList
+~
+End
+
+
+* E' la lingua degli hobbit dai suoni allegri e vivaci.
+#LANGUAGE
+Name        halfling~
+LangNumber  LANGUAGE_HALFLING
+Valid       True
+PreCnvList
+'acqua'         'nin'
+'allegro'       'kali'
+'arruffare'     'luthran'
+'birra'         'him'
+'borsa'         'laban'
+'burro'         'zilib'
+'capanna'       'hloth'
+'capra'         'gamba'
+'casetta'       'hloth'
+'che'           'bas'
+'comune'        'soval'
+'confine'       'branda'
+'coniglietto'   'tapuc'
+'coniglio'      'tapuc'
+'contea'        'suza'
+'corno'         'ras'
+'cotone'        'hlothran'
+'felice'        'kali'
+'fine'          'neg'
+'gioco'         'galab'
+'gioioso'       'kali'
+'guardia'       'tudnas'
+'halfling'      'banakil'
+'hobbit'        'kuduk'
+'inebriante'    'bralda'
+'interlocutore' 'batta'
+'marcia'        'branda'
+'mela'          'razar'
+'metà'          'ban'
+'moneta'        'castar'
+'nano'          'narag'
+'oro'           'castar'
+'orribile'      'balc'
+'parlato'       'phare'
+'pelo'          'luthran'
+'peluria'       'luthran'
+'persone'       'nas'
+'protegge'      'tudnas'
+'protuberanza'  'bolg'
+'quarto'        'tharantin'
+'ricercare'     'phur'
+'rimanere'      'gad'
+'ronzare'       'raph'
+'saggio'        'zir'
+'semplice'      'banazir'
+'soffiare'      'put'
+'soffiatore'    'puta'
+'sorriso'       'tran'
+'spaccato'      'karnin'
+'straniero'     'raza'
+'uomini'        'nas'
+'valle'         'gul'
+'vecchio'       'zara'
+'veloce'        'bara'
+'villaggio'     'ran'
+
+~
+Alphabet    epcdalbhojcrnmigqfsbuvvxyz~
+CnvList
+~
+End
+
+
+* Il melodioso e delicato linguaggio elfico
+#LANGUAGE
+Name        elfico~
+LangNumber  LANGUAGE_ELVEN
+Valid       True
+PreCnvList
+'albero'      'alda'
+'amico'       'mellon'
+'appassito'   'quelle'
+'arco'        'luva'
+'aria'        'vilya'
+'autunno'     'yavie'
+'bocca'       'anto'
+'brezza'      'hwesta'
+'cancello'    'ando'
+'cielo'       'vilya'
+'concavità'   'unque'
+'cresciuto'   'loa'
+'cuore'       'ore'
+'dire'        'pedo'
+'dono'        'anna'
+'entrare'     'minno'
+'est'         'romen'
+'estate'      'laire'
+'fato'        'umbar'
+'fatto'       'echant'
+'fauci'       'anca'
+'ferro'       'anga'
+'foga'        'ure'
+'foschia'     'hisime'
+'furia'       'aha'
+'incontro'    'omentielvo'
+'inverno'     'hrive'
+'l'ora'       'lumenn'
+'lampada'     'calma'
+'libro'       'parma'
+'lingua'      'lambe'
+'loro'        'hain'
+'luce delle stelle' 'silme'
+'luce solare' 'are'
+'luna'        'isil'
+'metallo'     'tinco'
+'nome'        'esse'
+'nord'        'formen'
+'oro'         'malta'
+'ovest'       'numen'
+'pietra'      'ssar'
+'piuma'       'quesse'
+'ponte'       'yanta'
+'potere'      'vala'
+'primavera'   'thuile'
+'questi'      'thiw'
+'regione'     'arda'
+'rete'        'ungwe'
+'ridestato'   'coire'
+'secolo'      'haranye'
+'segni'       'hin'
+'settimana'   'enquie'
+'sogno'       'lorien'
+'spirito'     'thule'
+'splendente'  'sila'
+'splendente'  'sila'
+'stella'      'elen'
+'sud'         'hyarmen'
+'tesoro'      'harma'
+'tirato'      'teithant'
+'tormento'    'nwalme'
+'uncino'      'ampa'
+'ck'  'ss'
+'d'   'ng'
+'di'  'ane'
+'e'   'owe'
+'es'  'a'
+'g z' 's v'
+'j'   'sh'
+'ng'  'r'
+'p'   'st'
+'r'   'th'
+'sc'  'a'
+'sh'  'vr'
+'st'  'ma'
+'th'  'n'
+'xx'  'sth'
+'z'   'dh'
+~
+Alphabet    iqqdakvtujfwghepcrslybszoz~
+CnvList
+'qq' 'q'
+'rr' 'r'
+~
+End
+
+
+* Il nanico opposto del linguaggio elfico con suoni aspri e duri
+#LANGUAGE
+Name        nanesco~
+LangNumber  LANGUAGE_DWARVEN
+Valid       True
+PreCnvList
+'argento'       'kibil'
+'asce'          'baruk'
+'ascia'         'burk'
+'atrio'         'dum'
+'cesello'       'felak'
+'corno'         'inbar'
+'cunicolo'      'gunud'
+'filone'        'nala'
+'fortezza'      'gathol'
+'gesto'         'iglishmek'
+'grande'        'gabil'
+'i nani'        'khazad'
+'lago'          'zaram'
+'letto'         'nala'
+'linguaggio'    'aglab'
+'lungo'         'sigin'
+'mansione'      'dum'
+'nanesco'       'khazlyth'
+'nani'          'khazad'
+'nano'          'khazl'
+'nuvole'        'shathur'
+'orco'          'rukhs'
+'passo'         'nala'
+'pozza d'acqua' 'zaram'
+'rosso'         'baraz'
+'scavo'         'dum'
+'scherzoso'     'bizar'
+'signore'       'uzbad'
+'sottosuolo'    'gundu'
+'spaccare'      'felek'
+'spuntone'      'zigil'
+'su di te'      'ai-menu'
+'su'            'aya'
+'testa'         'bund'
+'testimonianze' 'mazarbul'
+'valle'         'bizar'
+'ar'  'az'
+'ath' 'ak'
+'ch'  'k'
+'dw'  'kh'
+'ee'  'au'
+'en'  'yth'
+'es'  'ad'
+'eth' 'ok'
+'ick' 'uzk'
+'ion' 'um'
+'ith' 'uk'
+'io'  'ka'
+'mio' 'kaz'
+'di'  'uv'
+'ome' 'um'
+'oo'  'uu'
+'ove' 'uzo'
+'rf'  'zl'
+'th'  'gn'
+'a'   'or'
+'tu'  'enu'
+'ul'  'uzl'
+'uth' 'uz'
+~
+Alphabet    ubkdukggagkrzrypkdztibmzgo~
+CnvList
+~
+End
+
+
+* Linguaggio degli Ogre, fatto essenzialmente di suoni aspri e gutturali
+#LANGUAGE
+Name        ogrese~
+LangNumber  LANGUAGE_OGRE
+Valid       True
+PreCnvList
+'ciao'     'grug'
+'comprare' 'tog'
+'con'      '(grunt)'
+'prendere' 'tog'
+'rubare'   'tog'
+'salve'    'grog'
+'uccidere' 'hak'
+'venire'   'rawg'
+'a'   'og'
+'ar'  'arg'
+'ath' 'ak'
+'ch'  'k'
+'di'  'uguf'
+'ee'  'au'
+'en'  'yth'
+'es'  'ad'
+'eth' 'ok'
+'ick' 'uk'
+'ion' 'um'
+'ith' 'uk'
+'me'  'ug'
+'mio' 'ug'
+'ome' 'um'
+'oo'  'uu'
+'ove' 'umm'
+'th'  'gn'
+'tu'  'guk'
+'ul'  'um'
+'uth' 'uz'
+~
+Alphabet    ufkdubrgugzpnmugkgztabtzom~
+CnvList
+~
+End
+
+
+* Trollese simile all'orchesco, è assimilabile ai grugniti di queste creature
+#LANGUAGE
+Name        trollese~
+LangNumber  LANGUAGE_TROLLISH
+Valid       True
+PreCnvList
+'ciao'     'grug'
+'comprare' 'tog'
+'con'      '(grunt)'
+'prendere' 'tog'
+'rubare'   'tog'
+'salve'    'grog'
+'uccidere' 'hak'
+'venire'   'rawg'
+'a'   'og'
+'ar'  'arg'
+'ath' 'ak'
+'ch'  'k'
+'di'  'uguf'
+'ee'  'au'
+'en'  'yth'
+'es'  'ad'
+'eth' 'ok'
+'ick' 'uk'
+'ion' 'um'
+'ith' 'uk'
+'me'  'ug'
+'mio' 'ug'
+'ome' 'um'
+'oo'  'uu'
+'ove' 'umm'
+'th'  'gn'
+'tu'  'guk'
+'ul'  'um'
+'uth' 'uz'
+~
+Alphabet    ufkdubrgugzpnmugkgztabtzom~
+CnvList
+~
+End
+
+
+* Linguaggio dei goblin versione "imbastardita" del linguaggio elfico
+#LANGUAGE
+Name        goblinese~
+LangNumber  LANGUAGE_GOBLIN
+Valid       True
+PreCnvList
+'ciao'     'gorg'
+'comprare' 'muk'
+'con'      'bat'
+'prendere' 'kham'
+'rubare'   'kzam'
+'salve'    'khalok'
+'uccidere' 'vak'
+'venire'   'kurta'
+'a'   'sek'
+'ar'  'arg'
+'ath' 'ohk'
+'ch'  'k'
+'ee'  'ou'
+'en'  'yth'
+'es'  'ac'
+'eth' 'om'
+'ick' 'uk'
+'ion' 'um'
+'ith' 'uuk'
+'me'  'mok'
+'mio' 'mal'
+'of'  'tuk'
+'ome' 'ask'
+'oo'  'uu'
+'ove' 'aah'
+'th'  'gn'
+'tu'  'snar'
+'ul'  'um'
+'uth' 'um'
+~
+Alphabet    oktpabkhugzpnmuxrgztebyzow~
+CnvList
+~
+End
+
+
+* Simile al linguaggio dei goblin... un po' più sporco
+#LANGUAGE
+Name        orchesco~
+LangNumber  LANGUAGE_ORCISH
+Valid       True
+PreCnvList
+'anello'       'nazg'
+'bastardo'     'sha'
+'borsa'        'cess'
+'ciao'         'gorg'
+'comandare'    'durbat'
+'comando'      'durb'
+'comprare'     'muk'
+'con'          'bat'
+'custodi dell'anello' 'nazgul'
+'e'            'agh'
+'folle'        'glob'
+'fuoco'        'ghash'
+'gente'        'hai'
+'grande'       'bubhosh'
+'in'           'ishi'
+'incatena'     'krimp'
+'incatenare'   'krimpat'
+'ira'          'gul'
+'loro'         'ul'
+'ness'         'um'
+'orco'         'uruk'
+'oscuro'       'burz'
+'pazzo'        'glob'
+'portare'      'thrak'
+'portare'      'thrakat'
+'pozza'        'ronk'
+'prendere'     'kham'
+'rubare'       'kzam'
+'salve'        'khalok'
+'schiavo'      'snaga'
+'stupido'      'shai'
+'sudiciume'    'dug'
+'torre'        'lug'
+'troll'        'olog'
+'trovare'      'gimb'
+'trovare'      'gimbat'
+'tutti'        'uk'
+'uccidere'     'vak'
+'uno'          'ash'
+'vecchio uomo' 'sharku'
+'venire'       'kurta'
+'a'   'sek'
+'ar'  'arg'
+'ath' 'ohk'
+'ch'  'k'
+'di'  'tuk'
+'ee'  'ou'
+'en'  'yth'
+'es'  'ac'
+'eth' 'om'
+'ick' 'uk'
+'ion' 'um'
+'ith' 'uuk'
+'me'  'mok'
+'mio' 'mal'
+'ome' 'ask'
+'oo'  'uu'
+'ove' 'aah'
+'th'  'gn'
+'tu'  'snar'
+'ul'  'um'
+'uth' 'um'
+~
+Alphabet    oktpabkhugzpnmuxrgztebyzow~
+CnvList
+~
+End
+
+
+* Linguaggio dei pixie
+#LANGUAGE
+Name        pixie~
+LangNumber  LANGUAGE_PIXIE
+Valid       True
+PreCnvList
+'abilità'     'ewyf'
+'anello'      'iioly fym'
+'arciere'     'jahlia'
+'area'        'jai'
+'arma'        'yi joei'
+'armatura'    'jamea'
+'assassino'   'jee nooc'
+'auguro'      'jousunee'
+'centauro'    'hii joa'
+'chierico'    'hiay'
+'condizioni'  'eje ii'
+'curare'      'lij aif'
+'draconico'   'sajheiji'
+'druido'      'saoy'
+'eer'         's'
+'elfo marino' 'eij ifi'
+'elfo'        'ifi'
+'equipaggiamento' 'iarth tuyomii'
+'est'         'ijex'
+'folla'       'med'
+'fuoco'       'dyai'
+'gargoyle'    'ujau eafi'
+'gith'        'uyxl'
+'giù'         'seyi'
+'gruppo'      'uae oo'
+'guerriero'   'jaayea'
+'immortale'   'ymeaf'
+'incantesimo' 'muyh eoif'
+'ladro'       'xlyid'
+'lar'         'sgz'
+'livello'     'fii'
+'ll'          'fr tpa'
+'lm'          'ml'
+'magico'      'muyh'
+'mago'        'mjui'
+'mezz'elfo'   'lii ifi'
+'mezz'orco'   'lii eah'
+'mezz'orco'   'lii euai'
+'mezz'uomo'   'lii jee'
+'mezzo troll' 'lii jaef'
+'mortale'     'meaf'
+'nano'        'syjad'
+'no'          'ie'
+'nord'        'ieal'
+'oro'         'uef'
+'ovest'       'yiex'
+'paladino'    'osi'
+'prendere'    'ggtz'
+'qu'          'arth tv'
+'ranger'      'aji uia'
+'santuario'   'ejih ojaa'
+'scudo'       'elis'
+'si'          'aie'
+'su'          'oo'
+'sud'         'eeol'
+'thepa'       'fyjasmi'
+'titano'      'ujyx'
+'tr'          'mmps'
+'ts'          'uths'
+'uccidere'    'nooc'
+'uhm'         'luf'
+'umano'       'lomji'
+~
+Alphabet    jdhsidulyywfmieopaexoqybac~
+CnvList
+'dfs'  'sstg d'
+'r'    'grud'
+'tyrl' 'x'
+~
+End
+
+
+* Emula la funzione say_spell() da magic.c
+#LANGUAGE
+Name        magico~
+LangNumber  LANGUAGE_MAGICAL
+Valid       FALSE
+PreCnvList
+'ar'    'abra'
+'au'    'kada'
+'bless' 'fido'
+'blind' 'nose'
+'bur'   'mosa'
+'cu'    'judi'
+'de'    'oculo'
+'en'    'unso'
+'light' 'dies'
+'lo'    'hi'
+'mor'   'zak'
+'move'  'sido'
+'ness'  'lacri'
+'ning'  'illa'
+'per'   'duda'
+'ra'    'gru'
+'re'    'candus'
+'son'   'sabru'
+'tect'  'infra'
+'tri'   'cula'
+'ven'   'nofo'
+~
+Alphabet    abqezyopuytrwiasdfghjzxnlk~
+CnvList
+~
+End
+
+
+* Gnomesco il veloce linguaggio degli gnomi.
+#LANGUAGE
+Name        gnomese~
+LangNumber  LANGUAGE_GNOME
+Valid       True
+PreCnvList
+'amico'    'dizrkad'
+'drow'     'zziim'
+'elfo oscuro' 'zziim'
+'est'      'yuuk'
+'gnomesco' 'dizrkadie'
+'gnomo'    'dizrkad'
+'nemico'   'zzi'
+'nord'     'cnar'
+'ovest'    'kllaf'
+'sud'      'dizr'
+'a '       'yh '
+'a'        'll'
+'come'     'uc'
+'da'       'lama'
+'di'       'che'
+'i '       'ku '
+'il'       'szyh'
+'lei'      'numyk'
+'lei'      'numyr'
+'loro'     'hizrim'
+'loro'     'numim'
+'lui'      'num'
+'lui'      'numr'
+'me'       'kur'
+'noi'      'kuim'
+'questo'   'num'
+'s'        'im'
+'tu'       'hizr'
+'un'       'yh'
+~
+Alphabet    lvkdafhcyikbnnupcrzdmuukiz~
+CnvList
+~
+End
+
+
+* Espressioni del popolo roditore, una serie di Eek in diverse forme.
+#LANGUAGE
+Name        roditore~
+LangNumber  LANGUAGE_RODENT
+Valid       True
+PreCnvList
+'anello'    'kekeoeek'
+'buono'     'ksquak'
+'cane'      'keauk'
+'cibo'      'eek eek eekuak'
+'compare'   'eeek'
+'criceto'   'kekeoeek'
+'dare'      'eeek'
+'formaggio' 'eeeeeeeeeaaaaak'
+'mio'       'eeek'
+'prendere'  'eeek'
+'roditore'  'kekeoeek'
+'rubare'    'eeek'
+'squittii'  'ke'
+'squittire' 'ke'
+'topo'      'kekeoeek'
+'gatto'     'akkazziriko'
+'felino'    'akkazziriko'
+'tuo'       'eeek'
+'umano'     'keauk'
+'vostri'    'eeek'
+'aq'        'ek'
+~
+Alphabet    akusekkaiukqquoseakkusskei~
+CnvList
+~
+End
+
+
+* La lingua dei demoni, assai ricca di consonanti
+#LANGUAGE
+Name        demoniaco~
+LangNumber  LANGUAGE_DEMON
+Valid       False
+PreCnvList
+'alleato'   'yrgydx'
+'amico'     'arygdx'
+'angelo'    'nrgvyhvl'
+'bandire'   'grcizg'
+'buono'     'vreg'
+'caos'      'ignexh'
+'credere'   'whslrh'
+'credo'     'whslrh'
+'debole'    'zeerwynw'
+'demone'    'wrgdrk'
+'devozione' 'kexkvxs'
+'favorito'  'vhrgerg'
+'immortale' 'ignsx'
+'imprigionare' 'garczx'
+'inferiore' 'vrgyhvel'
+'infernale' 'rgyhlrgnk'
+'invocare'  'wdkgxyz'
+'libertà'   'glyxwdk'
+'maestro'   'dnhsyhl'
+'mortale'   'vurgug'
+'morte'     'yyndryzz'
+'nemico'    'yhouk'
+'nemico'    'yhrgyhdx'
+'ordine'    'ghynx'
+'pazzo'     'gekg'
+'sangue'    'kcgy'
+'superiore' 'wrgdnrg'
+'vita'      'zslyrvsg'
+'e'         'yh'
+'n'         'rg'
+~
+Alphabet    ngiwygvgcadkdrekrlzsroywxz~
+CnvList
+~
+End
+
+
+* Il silenzioso bisbigliare degli insetti
+#LANGUAGE
+Name        insetto~
+LangNumber  LANGUAGE_INSECTOID
+Valid       True
+PreCnvList
+'amico'      'rbzzyi'
+'arma'       'hzzyzy'
+'cadere'     'hzhkizhy'
+'capo'       'czhhzhk'
+'combattere' 'zkzhzzyzy'
+'combattimento' 'zkzhzzyzy'
+'correre'    'bzy'
+'dio'        'hzi'
+'est'        'yzchzkc'
+'gambe'      'hzhk'
+'giù'        'izhy'
+'grande'     'czh'
+'magia'      'hziyzrzb'
+'magico'     'hziyzrzb'
+'molti'      'xzyi'
+'nemico'     'yzcrbzzyi'
+'non'        'yzc'
+'nord'       'yzbcb'
+'ovest'      'hzkc'
+'potere'     'yzrzb'
+'saltare'    'hzhkzy'
+'si'         'izk'
+'sud'        'yzcyzbcb'
+'usare'      'zkz'
+'veloce'     'bzyhzhk'
+'no'         'yz'
+'su'         'zy'
+'noi'        'zk'
+'a'          'z'
+~
+Alphabet    zckizrhbzbxhxyzyrbkczxhric~
+CnvList
+~
+End
+
+
+* Il linguaggio di comunicazione dei principali animali mammiferi
+#LANGUAGE
+Name        mammifero~
+LangNumber  LANGUAGE_MAMMAL
+Valid       True
+PreCnvList
+'amico'      'thrrgc'
+'arma'       'trrkrg'
+'cadere'     'rtss'
+'capo'       'ukthrrgc'
+'combattere' 'rlrtrrkrg'
+'combattimento' 'rlrtrrkrg'
+'correre'    'hrg'
+'dio'        'krc'
+'est'        'grctrlc'
+'gambe'      'srkl'
+'giù'        'grcrk'
+'grande'     'grk'
+'magia'      'krckrtrc'
+'magico'     'krckrtrc'
+'molti'      'hrgg'
+'nemico'     'grcthrrgc'
+'non'        'grc'
+'nord'       'grhcr'
+'ovest'      'trlc'
+'potere'     'krtrc'
+'saltare'    'irhk'
+'si'         'grcgr'
+'sud'        'grcgrhcr'
+'usare'      'rlr'
+'veloce'     'trlc'
+'no'         'gr'
+'su'         'rk'
+'noi'        'rl'
+'a'          'r'
+~
+Alphabet    rghcrtkrsilshgrkshlcrgtkgi~
+CnvList
+~
+End
+
+
+* Linguaggio draconico
+#LANGUAGE
+Name        draconiano~
+LangNumber  LANGUAGE_DRAGON
+Valid       True
+PreCnvList
+'aiuto'    'ssijfzhssrz'
+'amico'    'ssijfzh'
+'cibo'     'ssyzz'
+'dio'      'uursh'
+'draco'    'ssij'
+'elfo'     'ssijfzhrr'
+'est'      'ilh'
+'fare'     'ssrz'
+'ferire'   'ssijfzhssrzrr'
+'fu'       'jrrhrr'
+'furono'   'jrrhrrzh'
+'giovane'  'srzif'
+'giù'      'iirr'
+'il'       'zz'
+'lei'      'flsjj'
+'lei'      'lsjj'
+'loro'     'frrh'
+'loro'     'rrh'
+'lui'      'fls'
+'lì'       'frsrr'
+'magia'    'ssyzzuursh'
+'magico'   'ssyzzuursh'
+'mezzo'    'ifj'
+'morire'   'hhifj'
+'morto'    'jrrhrrhh'
+'nemico'   'ssijfzhrr'
+'nord'     'vvyl'
+'ora'      'jrrh'
+'ovest'    'ilhrr'
+'qui'      'frs'
+'scaglia'  'zji'
+'sei'      'hhzh'
+'serpente' 'ssijfzh'
+'sono'     'hhzh'
+'sud'      'vvylrr'
+'tu'       'fi'
+'uccidere' 'jrrhrrhhssrz'
+'vecchio'  'srzifrr'
+'è'      'hh'
+'su'     'ii'
+'me'     'fz'
+'noi'    'fzh'
+'un'     'zs'
+'come'   'sih'
+'questo' 'lsjj'
+'lui'    'ls'
+'noi'    'zh'
+'di'     'ji'
+'da'     'fu'
+'essere' 'hh'
+'no'     'rr'
+'fare'   'ssrz'
+'a '     'zs '
+'i '     'z '
+'s '     'yz '
+'a'      'lsz'
+'i'      'iz'
+'s'      'yjz'
+~
+Alphabet    izsjrulfijhlsjifzrshyvlsyz~
+CnvList
+~
+End
+
+
+* Linguaggio dei Githyanki.
+#LANGUAGE
+Name        gith~
+LangNumber  LANGUAGE_GITH
+Valid       True
+PreCnvList
+'acqua'        'adira'
+'amico'        'vairk'
+'angelo'       'hartiz'
+'aria'         'aruan'
+'assassino'    'githarizk'
+'astrale'      'atr'
+'bene'         'atirhto'
+'chierico'     'iathirina'
+'cibo'         'adira'
+'cielo'        'iatian'
+'combattere'   'fight'
+'combattimento' 'eart'
+'demone'       'aritha'
+'diavolo'      'arikan'
+'dio'          'iathi'
+'drago'        'varithavid'
+'filo'         'kariv'
+'formulare'    'bari'
+'freddo'       'zari'
+'fuoco'        'airth'
+'gith'         'gith'
+'githyanki'    'githyanki'
+'githzerai'    'githzerai'
+'impeto'       'yzar'
+'incantesimo'  'baruthis'
+'inferno'      'aribhan'
+'lupo mannaro' 'laiyrith'
+'magico'       'barus'
+'male'         'verhto'
+'mind flayer'  'earikar'
+'nemico'       'earik'
+'neutrale'     'dethohto'
+'outsiders'    'avzi'
+'piana'        'vat'
+'pirata'       'zarit'
+'pronunciare'  'bari'
+'regina lich'  'ti bia'
+'sacerdote'    'itharine'
+'sacerdotessa' 'itharip'
+'stregone'     'barithai'
+'terra'        'viipla'
+'uccidere'     'eath'
+'vampiro'      'parthiva'
+~
+Alphabet    zetipkwazhjzaoevliczupziyy~
+CnvList
+~
+End
+
+
+* L'ignoto linguaggio delle anime, molte apostrofi suono aereo.
+#LANGUAGE
+Name        linguamortis~
+LangNumber  LANGUAGE_DEATH
+Valid       False
+PreCnvList
+'amico'    'k`leath'
+'amico'    'ul`kitha'
+'amore'    'u`liktha'
+'anziano'  'sh`adill'
+'bambino'  'sh`oh`dela'
+'benevolo' 'sh`adelou'
+'dio'      'sh`ad'
+'divinita' 'sh`adelia'
+'donna'    'sh`idelan'
+'nemico'   'l`keath'
+'odio'     'u`ledthatush'
+'uomo'     'sh`idel'
+'a ' 'u`loth '
+'e ' 'o`sha '
+'i ' 'i`lith '
+'o ' 'e`lhu '
+'u ' 'a`leth '
+' a' ' e`shi'
+' e' ' o`shu'
+' i' ' a`she'
+' o' ' i`sho'
+' u' ' u`sha'
+'a'  'a`u'
+'e'  'e`o'
+'i'  'i`i'
+'o'  'o`e'
+'u'  'y`a'
+~
+Alphabet    ascedlkhhiscchliprreuuprcw~
+CnvList
+~
+End
+
+
+* L'antico linguaggio di creature millenarie come gli Ent
+#LANGUAGE
+Name        antico~
+LangNumber  LANGUAGE_ANCIENT
+Valid       True
+PreCnvList
+'aiuto'    'fyld'
+'amico'    'sfylg'
+'animale'  'pomyx'
+'antico'   'fylg'
+'bestia'   'pomyx'
+'cibo'     'pov'
+'creatura' 'pomyx'
+'drago'    'pomyx-mogy-osvoy-syf'
+'est'      'smoyf'
+'fare'     'mogy'
+'ferire'   'mogy-ofyld'
+'fummo'    'ogy'
+'giovane'  'voy'
+'giù'      'dos'
+'loro'     'xos'
+'lì'       'opp '
+'magia'    'myddl'
+'magico'   'myddl'
+'morente'  'dyp'
+'morto'    'osvoy'
+'nemico'   'osfylg'
+'nord'     'moyf'
+'ovest'    'osmoyf'
+'qui'      'ypo'
+'saggio'   'fylg'
+'sud'      'omoyf'
+'uccidere' 'mogy-osvoy'
+'vecchio'  'fylg'
+'vivo'     'svoy'
+'tu'     'osy'
+'dio'    'yyvf'
+'ora'    'doo'
+'fu'     'odoo'
+'il'     'yth'
+'lei'    'spo'
+'sono'   'gy'
+'lui'    'po'
+'questo' 'opo'
+'è'      'sho'
+'noi'    'syf'
+'sono'   'sy-sho'
+'su'     'odos'
+'un'     'yth'
+'come'   'ffo'
+'di'     'shoff'
+'da'     'mox'
+'ph'     'ff'
+'a '     'yth'
+'i '     'sy'
+'t'      'th'
+~
+Alphabet    ydkdyfxfygklmvopprsdyvvxys~
+CnvList
+~
+End
+
+
+* Il velenoso sibilare dei rettili
+#LANGUAGE
+Name        rettile~
+LangNumber  LANGUAGE_REPTILE
+Valid       True
+PreCnvList
+'amico'    'dargonie'
+'amore'    'ferasss'
+'anziano'  'gothirasss'
+'bambino'  'dargonae'
+'cane'     'gorassstu'
+'compagno' 'ferusss'
+'dio'      'darthsss'
+'divini'   'godarthsss'
+'divinita' 'gothratsss'
+'divinità' 'gothrutasss'
+'donna'    'girdonie'
+'morte'    'sssouwasss'
+'nemico'   'girdonae'
+'odio'     'suvasss'
+'santo'    'vorchasss'
+'uomo'     'dartusss'
+' s' ' sss'
+'s ' 'sss '
+'s'  'sss'
+~
+Alphabet    zscsvfshrssesnlssistaowxyu~
+CnvList
+~
+End
+
+
+* Linguaggio degli Gnoll
+#LANGUAGE
+Name        gnoll~
+LangNumber  LANGUAGE_GNOLLISH
+Valid       True
+PreCnvList
+'amore'    'durngi'
+'anello'   'ruccka'
+'anziano'  'viruna'
+'bambino'  'organya'
+'cane'     'cruck'
+'centauro' 'undricka'
+'compagno' 'darana'
+'divinità' 'yukina'
+'donna'    'daran'
+'elfo'     'orika'
+'morte'    'viruka'
+'morto'    'viru'
+'nemico'   'virun'
+'odio'     'pornog'
+'smorfia'  'croccka'
+'umano'    'cakana'
+'uomo'     'dirin'
+'a ' 'ae '
+'e ' 'ei '
+'i ' 'io '
+'o ' 'ou '
+'u ' 'ua '
+' a' ' ad'
+' e' ' ed'
+' i' ' id'
+' o' ' od'
+' u' ' ud'
+'a'  'e a'
+'e'  'i e'
+'i'  'o i'
+'o'  'u o'
+'u'  'a u'
+~
+Alphabet    lubwrearnwoirwgvcnoquytnvb~
+CnvList
+~
+End
+
+
+* Solo l'alfabeto, eccetto per i nomi dei clan
+#LANGUAGE
+Name        clan~
+LangNumber  LANGUAGE_CLAN
+Valid       False
+PreCnvList
+'cabala'  'cabaliq'
+'clan'    'cabaliq'
+'fazione' 'cabaliq'
+'gilda'   'cabaliq'
+'gruppo'  'cabaliq'
+'ordine'  'cabaliq'
+~
+Alphabet    zaxcvetgripknmlojqhsfuwwyy~
+CnvList
+~
+End
+
+
+* Linguaggio dei drow, ha preso da un set di default, quindi non è caratterizzato
+#LANGUAGE
+Name        drow~
+LangNumber  LANGUAGE_DROW
+Valid       True
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+* Linguaggio dei canidi, ha preso da un set di default, quindi non è caratterizzato
+#LANGUAGE
+Name        canino~
+LangNumber  LANGUAGE_CANINE
+Valid       True
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+* Linguaggio dei felini, ha preso da un set di default, quindi non è caratterizzato
+#LANGUAGE
+Name        felino~
+LangNumber  LANGUAGE_FELINE
+Valid       True
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+* Linguaggio dei volatili e arial, ha preso da un set di default, quindi non è caratterizzato
+#LANGUAGE
+Name        volatile~
+LangNumber  LANGUAGE_AVIS
+Valid       True
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+* Linguaggio dei pesci e elfi marini, ha preso da un set di default, quindi non è caratterizzato
+#LANGUAGE
+Name        marino~
+LangNumber  LANGUAGE_MARINE
+Valid       True
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+* Linguaggio dei vegetali, alberi e Ent
+#LANGUAGE
+Name        alberofoglia~
+LangNumber  LANGUAGE_TREELEAF
+Valid       True
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+* Linguaggio dei mostri, non apprendili dai pg, viene utilizzato per rendere le lingue di alcune razze mob sconosciute
+#LANGUAGE
+Name        una lingua mostruosa~
+LangNumber  LANGUAGE_MONSTER
+Valid       False
+PreCnvList
+~
+Alphabet    ekjrugtlohfqbxyvndwmaczsip~
+CnvList
+~
+End
+
+
+#END
+
+
+>>>>>										   <<<<<
+>>>>> QUESTE LINGUE SONO FUORI DAL CARICAMENTO <<<<<
+>>>>>										   <<<<<
+
+* L'impescrutabile lingua degli dei
+#LANGUAGE
+Name        divino~
+LangNumber  LANGUAGE_GOD
+Valid       False
+PreCnvList
+'amico'       'jaela'
+'amore'       'raeh'
+'bene'        'orea'
+'cibo'        'kuda'
+'degno'       'greaa'
+'demone'      'kaes'
+'disprezzare' 'skrit'
+'femmina'     'laera'
+'lentamente'  'suuk'
+'male'        'malor'
+'maschio'     'sukoor'
+'mio'         'raan'
+'mortale'     'suukan'
+'nemico'      'jaela'
+'neutrale'    'lival'
+'odio'        'skith'
+'potere'      'naem'
+'scorgere'    'jukkat'
+'seth'        'seth'
+'uccidere'    'suuth'
+'vostri'      'tiad'
+'zaffiro'     'zephyr'
+'tu'  'ti'
+'il'  'en'
+'dio' 'jae'
+'lei' 'laed'
+'me'  'ra'
+'lui' 'sukat'
+'a '  'vu '
+'i '  'ka '
+'a'   'ou'
+'e'   'ai'
+'i'   'ei'
+'o'   'eo'
+'u'   'io'
+~
+Alphabet    xknjxwruxbsflaxhqzvyxgmjie~
+CnvList
+~
+End
+
+
+* Variante del nanesco
+#LANGUAGE
+Name        dialetto~
+LangNumber  LANGUAGE_DIALECT
+Valid       True
+PreCnvList
+'acqua'      'otha'
+'angelo'     'uvart'
+'buono'      'uvart'
+'cadavere'   'irinir'
+'caverna'    'tutha'
+'cibo'       'baan'
+'combattere' 'irithan'
+'combattimento' 'irithan'
+'corpo'      'baanir'
+'demone'     'vatar'
+'diavolo'    'vaeait'
+'dio'        'uatia'
+'dolore'     'ethoani'
+'dormire'    'biliv'
+'drow'       'ilarn'
+'elfo scuro' 'ilarn'
+'est'        'yati'
+'formula'    'izarous'
+'formulare'  'izarous'
+'fuoco'      'etho'
+'giù'        'qati'
+'gnomo'      'arith'
+'luce'       'ethosa'
+'magia'      'izar'
+'magico'     'izar'
+'male'       'va'
+'martello'   'estariu'
+'mio'        'est'
+'morto'      'irik'
+'muovere'    'ard'
+'nani'       'raita'
+'nanico'     'raith'
+'nano'       'raith'
+'nord'       'mati'
+'ovest'      'yatr'
+'pattume'    'prith'
+'pietra focaia' 'tus'
+'pietra'     'tus'
+'prendere'   'estir'
+'quiete'     'tse'
+'riposare'   'yart'
+'roccia'     'tus'
+'stanco'     'gart'
+'sud'        'matr'
+'terra'      'tus'
+'uccidere'   'ilk'
+'tu'         'tari'
+'sedere'     'yavi'
+'me'         'utha'
+'noi'        'taru'
+'su'         'qatr'
+~
+Alphabet    itaeihblheyopaiwkaritspwof~
+CnvList
+~
+End
+
+
+* L'incantevole linguaggio delle creature che popolano il cielo
+#LANGUAGE
+Name        celestiale~
+LangNumber  LANGUAGE_CELESTIAL
+Valid       False
+PreCnvList
+'abilità'     'corr'
+'anello'      'lithorob'
+'arciere'     'echiv'
+'area'        'evie'
+'arma'        'pietul'
+'armatura'    'eburr'
+'assassino'   'coriv'
+'auguro'      'eajavirr'
+'centauro'    'cildearr'
+'chierico'    'crivoc'
+'condizioni'  'codedic'
+'curare'      'hoot'
+'draconico'   'teculoel'
+'druido'      'taot'
+'elfo marino' 'cirf'
+'elfo'        'irf'
+'equipaggiamento' 'irotbild'
+'est'         'oocid'
+'fuoco'       'phovi'
+'gargoyle'    'jejuori'
+'gith'        'jong'
+'giù''        'tupil'
+'gruppo'      'jout'
+'guerriero'   'pevourr'
+'halfling'    'herphiv'
+'hobbit'      'herphiv'
+'immortale'   'obyvder'
+'incantesimo' 'cotir'
+'ladro'       'angoiph'
+'livello'     'ribir'
+'magico'      'bejoc'
+'mago'        'bejociv'
+'mezz'elfo'   'herphirf'
+'mezz'orco'   'herphuc'
+'mezz'orco'   'herphuji'
+'mezzelfo'    'herphirf'
+'mezzo troll' 'herphdurr'
+'mortale'     'buder'
+'mostro'      'buv'
+'nano'        'topeph'
+'nord'        'lung'
+'oro'         'jurt'
+'ovest'       'picod'
+'paladino'    'teretol'
+'ranger'      'veljirr'
+'santuario'   'celdaevo'
+'scudo'       'cort'
+'sud'         'cuang'
+'titano'      'dodel'
+'thepa'       'rostbel'
+'uccidere'    'cor'
+'umano'       'habel'
+'si' 'oic'
+'no' 'lu'
+'su' 'at'
+'ee' 'ai'
+'oo' 'ul'
+'ie' 'o'
+'ea' 'oo'
+'th' 'ng'
+'qu' 'tr'
+'r ' 'rr'
+'k'  'ch'
+'f'  'ph'
+'s'  'c'
+~
+Alphabet    evctifjhojcrblutxvcdabpmos~
+CnvList
+~
+End
+
+
+#END

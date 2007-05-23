@@ -1,0 +1,2190 @@
+*-------------------------------
+* SOCIALI LETTERA  'A'
+
+#SOCIAL
+Italian     abbraccio abbracciare abbraccia~
+English     hug~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Va bene, ma chi?.~
+    OthersNoArg $n allarga le braccia, cercando qualcuno intorno cui stringerle.~
+    CharFound   Abbraccio teneramente $N.~
+    OthersFound $n stringe $N in un tenero abbraccio.~
+    VictFound   $n mi stringe in un tenero abbraccio.~
+    CharAuto    Faccio degli utili esercizi ginnici.~
+    OthersAuto  $n apre e chiude le braccia intorno a sé.. E' folle.~
+EndMessages
+End
+
+#SOCIAL
+Italian     accovacci accovaccio accovacciare~
+English     snuggle~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi accovaccio di scatto.~
+    OthersNoArg $n si accovaccia piegandosi sulle ginocchia.~
+    CharFound   Mi accovaccio su $N.~
+    OthersFound $n si accovaccia su $N.~
+    VictFound   $n si accovaccia su di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     accarezza carezza carezzo accarezzare~
+English     caress~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Accarezzo una bella porzione d'aria.~
+    OthersNoArg $n muove le mani con i palmi bene aperti.. Sta carezzando l'aria?~
+    CharFound   Accarezzo $N.~
+    CharFound   Accarezzo $N.~
+    OthersFound $n accarezza $N.~
+    VictFound   $n mi accarezza sul viso.~
+    CharAuto    Mi accarezzo il viso tranquillizzando la mia epidermide.~
+    OthersAuto  $n si accarezza il viso in cerca di qualche imperfezione.~
+EndMessages
+End
+
+#SOCIAL
+Italian     accusa accusare accuso~
+English     accuse~
+Intention   INTENT_NEUTRAL
+Expression  accusando ~
+Smiles      :^ :-^~
+Messages
+    CharNoArg   Chi potrei accusare?~
+    OthersNoArg $n accusa un nemico invisibile.~
+    CharFound   Guardo $N in maniera accusatoria.~
+    OthersFound $n guarda $N in modo accusatorio.~
+    VictFound   $n mi guarda in maniera accusatoria.~
+    CharAuto    Ammetto la mia colpevolezza puntandomi il dito contro.~
+    OthersAuto  $n ammette la propria colpevolezza puntandosi il dito contro.~
+EndMessages
+End
+
+#SOCIAL
+Italian     adoro adorare~
+English     adore~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Sei in adorazione, ma di chi??..o di cosa???~
+    OthersNoArg $n cerca qualcuno da adorare.~
+    CharFound   Adori $N.~
+    OthersFound $n adora $N.~
+    VictFound   $n mi guarda in completa adorazione.~
+    CharAuto    Mi adoro, che vanesi$x!!~
+    OthersAuto  $n si adora, che vanesi$x!!!~
+EndMessages
+End
+
+#SOCIAL
+Italian     pant ansimare ansare ansimo~
+English     pant~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Ansimo per la fatica.~
+    OthersNoArg $n ansima vistosamente riprendendo fiato.~
+    CharFound   Ansimo per la fatica guardando $N.~
+    OthersFound $n ansima vistosamente guardando $N.~
+    VictFound   $n ansima vistosamente guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     afflitto affranto addolorato dolore~
+English     afflict~
+Intention   INTENT_NEUTRAL
+Expression  afflitto ~
+Smiles      :< :-<~
+Messages
+    CharNoArg   Stringo gli occhi mentre il dolore mi segna il volto.~
+    OthersNoArg $n stringe gli occhi con il volto segnato dal dolore .~
+    CharFound   Stringo gli occhi guardando $N mentre il mio volto è segnato dal dolore.~
+    OthersFound $n stringe $N, con il volto straziato dal dolore.~
+    VictFound   $n mi guarda stringendo gli occhi mentre il suo volto è straziato dal dolore.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ammicca occhiolino~
+English     wink~
+Intention   INTENT_FRIENDLY
+Expression  ammiccando ~
+Smiles      ;) ;-) .) .-)~
+Messages
+    CharNoArg   Faccio l'occhiolino.~
+    OthersNoArg $n fa l'occhiolino.~
+    CharFound   Ammicco a $N.~
+    OthersFound $n ammicca fugacemente a $N.~
+    VictFound   $n mi ammicca.~
+EndMessages
+End
+
+#SOCIAL
+Italian     annuisci annuisco~
+English     nod~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Annuisco.~
+    OthersNoArg $n annuisce.~
+    CharFound   Annuisco a $N.~
+    OthersFound $n annuisce a $N.~
+    VictFound   $n mi annuisce.~
+    CharAuto    Mi annuisco.~
+    OthersAuto  $n si annuisce.~
+EndMessages
+End
+
+#SOCIAL
+Italian     clap applauso applaudo applaudire~
+English     clap~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Applaudo con convinzione.~
+    OthersNoArg $n applaude con convinzione.~
+    CharFound   Applaudo a $N, bene! Ci voleva! Brav$X!~
+    OthersFound $n applaude a $N, bene! Ci voleva! Brav$X!~
+    VictFound   $n mi applaude festosamente! Bene! Ci voleva! Brav$X!~
+    CharAuto    Mi applaudo orgogliosamente! Ma quanto sono brav$X!.~
+    OthersAuto  $n si applaude da sol$X.. ma che simpatic$X!~
+EndMessages
+End
+
+#SOCIAL
+Italian     approvo approvare~
+English     approve~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Approvo con decisione.~
+    OthersNoArg $n approva con decisione.~
+    CharFound   Approvo la proposta di $N.~
+    OthersFound $n approva la proposta di $N.~
+    VictFound   $n approva la mia proposta.~
+    CharAuto    Mi approvo pienamente.~
+    OthersAuto  $n approva le sue proposte.~
+EndMessages
+End
+
+#SOCIAL
+Italian     arghhh urlo urlare~
+English     arghhh~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   ARRRRRRRRRRGH!!!!!~
+    OthersNoArg $n urla ad alta voce: AAARRRGHHHH!!!!~
+    CharFound   Urlo rivolt$x a $N : ARRRRRRRRRRGH!!!!!~
+    OthersFound $n urla rivolt$x a $N : ARRRRRRRRRRGH!!!!!~
+    VictFound   $n mi urla in faccia: AAAAARRRGHHHH!!!~
+EndMessages
+End
+
+#SOCIAL
+Italian     arrossisco arrossire~
+English     blush~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Ho le guance in fiamme!~
+    OthersNoArg $n arrossisce.~
+    CharFound   La vergogna ti infiamma le guance mentre guardi $N.~
+    OthersFound $n guarda $N, arrossendo in volto per l'imbarazzo.~
+    VictFound   $n mi guarda, arrossendo in volto per l'imbarazzo.~
+EndMessages
+End
+
+#SOCIAL
+Italian     arruffa arruffare spettinare~
+English     ruffle~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Mi arruffo i capelli~
+    OthersNoArg $n si arruffa i capelli.~
+    CharFound   Arruffo i capelli a $N.~
+    OthersFound $n arruffa i capelli a $N.~
+    VictFound   $n mi arruffa giocosamente i capelli.~
+EndMessages
+End
+
+#SOCIAL
+Italian     assopire sonnecchiare~
+English     drowsy~
+Intention   INTENT_NEUTRAL
+Messages
+   CharNoArg   Sbadiglio assopendomi vagamente..~
+   OthersNoArg Gli occhi di $n sembrano diventare pesanti mentre si assopisce lentamente..~
+   CharFound   Poggio il capo sulla spalla di $N e m'assopisco.~
+   OthersFound $n poggia il capo sulla spalla di $N e s'assopisce.~
+   VictFound   $n poggia il capo sulla mia spalla e s'assopisce.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'B'
+
+#SOCIAL
+Italian     bacio baciare~
+English     kiss~
+Intention   INTENT_FRIENDLY
+Expression  baciando ~
+Smiles      :* :-*~
+Messages
+    CharNoArg   Baciamo l'aria?~
+    OthersNoArg $n manda baci a tutti i presenti.~
+    CharFound   Bacio $N.~
+    OthersFound $n bacia $N.~
+    VictFound   $n mi bacia.~
+    CharAuto    Mi bacio da sol$x, almeno io mi voglio bene!~
+    OthersAuto  $n si bacia, lasciamol$x sol$x con se stess$x.~
+EndMessages
+End
+
+#SOCIAL
+Italian     bacino~
+English     fondle~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Mi do un bacino.~
+    OthersNoArg $n si dà un bacino sul palmo della mano.~
+    CharFound   Do un tenero bacino a $N.~
+    OthersFound $n dà un tenero bacino a $N.~
+    VictFound   $n mi dà un tenero bacino.~
+EndMessages
+End
+
+#SOCIAL
+Italian     baffi furbetto~
+English     lick~
+Intention   INTENT_NEUTRAL
+Expression  leccandosi i baffi ~
+Smiles      :9 :-9~
+Messages
+    CharNoArg   Sorrido passando lentamente la lingua sopra le labbra.~
+    OthersNoArg $n sorride passandosi la lingua sopra le labbra.~
+    CharFound   Sorrido passandomi la lingua sopra le labbra guardando $N.~
+    OthersFound $n sorride passandosi la lingua sopra le labbra mentre guarda $N.~
+    VictFound   $n sorride passandosi la lingua sopra le labbra mentre mi guarda.~
+EndMessages
+End
+
+#SOCIAL
+Italian     barcollo barcollare~
+English     stag~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Barcollo a destra e a manca.~
+    OthersNoArg $n barcolla, sembra ubriac$x.~
+    CharFound   Barcollo cercando di sorreggerti a $N.~
+    OthersFound $n barcolla pericolosamente, appoggiandosi a $N un attimo prima di cadere.~
+    VictFound   $n sta barcollando vistosamente, mi si appoggia addosso.~
+EndMessages
+End
+
+#SOCIAL
+Italian     botta manata~
+English     bonk~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   C'è qualcuno da picchiare?~
+    OthersNoArg $n cerca qualcuno da picchiare.~
+    CharFound   Do una botta sulla testa di $N.~
+    OthersFound $n dà una botta sulla testa di $N, *TOCTOC*!!~
+    VictFound   $n mi dà una botta sulla testa, *AHHUCC*!!~
+    CharAuto    Mi do una botta in testa.~
+    OthersAuto  $n si dà una botta in testa.~
+EndMessages
+End
+
+#SOCIAL
+Italian     braccio parola permesso~
+English     arm~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Alzo un braccio come per dire.. Posso?.~
+    OthersNoArg $n alza un braccio.~
+    CharFound   Interrompo $N chiedendo la parola.~
+    OthersFound $n interrompe $N chiedendo la parola.~
+    VictFound   $n mi interrompe chiedendo la parola.~
+EndMessages
+End
+
+#SOCIAL
+Italian     brindo brindare brindisi~
+English     toast~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Brindo con tutti.~
+    OthersNoArg $n brinda con tutti.~
+    CharFound   Brindo con $N.~
+    OthersFound $n e $N brindano assieme.~
+    VictFound   $n brinda con me.~
+    CharAuto    Brindo alla mia salute.~
+    OthersAuto  $n brinda con tutti alla sua salute.~
+EndMessages
+End
+
+#SOCIAL
+Italian     broncio muso~
+English     sulk~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Metto il broncio..~
+    OthersNoArg $n mette il broncio.. ma pover$x..~
+    CharFound   Guardo $N per un istante, poi mi giro altrove e metto il broncio.~
+    OthersFound $n guarda $N per un attimo, poi si gira altrove e mette il broncio.~
+    VictFound   $n mi guarda per un attimo, poi si gira mettendo il broncio!~
+EndMessages
+End
+
+#SOCIAL
+Italian     brontola brontolo brontolare~
+English     rumble~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Brontolo infastidit$x.~
+    OthersNoArg $n brontola infastidit$x.~
+    CharFound   Brontolo infastidit$x verso $N.~
+    OthersFound $n brontola infastidit$x verso $N.~
+    VictFound   $n brontola infastidit$x verso di me.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'C'
+
+#SOCIAL
+Italian     canta canto~
+English     sing~
+Intention   INTENT_NEUTRAL
+Expression  cantando ~
+Smiles      :x :-x~
+Messages
+    CharNoArg   Canto.~
+    OthersNoArg $n canta melodiosamente.~
+    CharFound   Canto verso $N.~
+    OthersFound $n canta guardando $N negli occhi.~
+    VictFound   $n rivolge a me il suo sguardo mentre canta..~
+EndMessages
+End
+
+#SOCIAL
+Italian     chinare chino chinarsi~
+English     lean~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi chino per terra.~
+    OthersNoArg $n si china per terra.~
+    CharFound   Mi chino verso $N.~
+    OthersFound $n si china verso $N.~
+    VictFound   $n si china verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     coccolo coccola coccolare~
+English     cuddle~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Chi voglio coccolare..?~
+    OthersNoArg $n sta cercando qualcuno da coccolare.~
+    CharFound   Coccolo teneramente $N.~
+    OthersFound $n coccola teneramente $N.~
+    VictFound   $n mi coccola teneramente.~
+    CharAuto    $n si dedica qualche coccola.~
+    OthersAuto  $n si coccola per qualche minuto, che tener$x.~
+EndMessages
+End
+
+#SOCIAL
+Italian     compiaciuto soddisfatto~
+English     pleased~
+Intention   INTENT_FRIENDLY
+Expression  compiaciuto ~
+Smiles      :> :->~
+Messages
+    CharNoArg   Incrocio le braccia sul petto e sorrido con soddisfazione.~
+    OthersNoArg $n incrocia le braccia sul petto e sorride con soddisfazione.~
+    CharFound   Sorrido a $N con soddisfazione.~
+    OthersFound $n sorride a $N con soddisfazione.~
+    VictFound   $n mi sorride con soddisfazione.~
+EndMessages
+End
+
+#SOCIAL
+Italian     conforta confortare conforto~
+English     confort~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Mi conforto da sol$x~
+    OthersNoArg $n si conforta da sol$x.~
+    CharFound   Mi avvicino a $N e provo a confortarl$X.~
+    OthersFound $n si avvicina a $N e prova a confortarl$X.~
+    VictFound   $n mi si avvicina e cerca di confortarmi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     confuso smarrito confusione~
+English     confused~
+Intention   INTENT_NEUTRAL
+Expression  confuso ~
+Smiles      :\ :-\~
+Messages
+    CharNoArg   Batto lentamente le palpebre guardandomi attorno smarrit$x.~
+    OthersNoArg $n batte lentamente le palpebre guardandosi attorno smarrit$x.~
+    CharFound   Batto lentamente le palpebre guardando smarrit$x $N.~
+    OthersFound $n batte lentamente le palpebre guardando smarrit$x $N.~
+    VictFound   $n smarrit$x batte lentamente le palpebre guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     congratuli congratulare congratulo~
+English     congratule~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Mi congratulo con ..?~
+    OthersNoArg $n si congratula vivamente con l'aria.~
+    CharFound   Mi congratulo vivamente con $N!~
+    OthersFound $n si congratula vivamente con $N!~
+    VictFound   $n si congratula vivamente con me! Complimenti!~
+    CharAuto    Mi compiaccio di me stess$x.. oh sì.~
+    OthersAuto  $n si compiace di sé..~
+EndMessages
+End
+
+#SOCIAL
+Italian     cough tossire tosse tossisco~
+English     cough~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Tossisco discretamente..~
+    OthersNoArg $n tossisce discretamente..~
+    CharFound   Tossisco discretamente guardando $N.~
+    OthersFound $n tossisce discretamente guardando $N.~
+    VictFound   $n tossisce discretamente guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     crudele perfido~
+English     cruel~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Assumo in volto un'espressione malvagia e crudele, sogghignando.~
+    OthersNoArg $n assume in volto un'espressione malvagia e crudele, sogghignando.~
+    CharFound   Guardo $N in maniera crudele e spietata!~
+    OthersFound $n guarda $N in maniera crudele e spietata! Che senza cuore!~
+    VictFound   $n mi guarda in maniera crudele e spietata! Che senza cuore!~
+EndMessages
+End
+
+#SOCIAL
+Italian     cura curare gemere~
+English     cure~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Le ferite mi bruciano! Ho bisogno di cure!~
+    OthersNoArg $n urla dal dolore! Ha urgente bisogno di cure!~
+    CharFound   Guardo $N invocando il suo aiuto! Ho bisogno di cure!~
+    OthersFound $n guarda $N invocando il suo aiuto! Ha bisogno di cure!~
+    VictFound   $n mi guarda invocando il mio aiuto! Ha bisogno di cure!~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'D'
+
+#SOCIAL
+Italian     danza ballare ballo~
+English     dance~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Con chi potrei danzare?~
+    OthersNoArg $n sta cercando qualcuno con cui danzare..~
+    CharFound   Prendo $N strett$X a me in un dolce giro di danza.~
+    OthersFound $n prende $N strett$X a sé in un dolce giro di danza.~
+    VictFound   $n mi prende strett$X a sé in un dolce giro di danza.~
+    CharAuto    Mi esibisco in un favoloso balletto singolo.~
+    OthersAuto  ~
+EndMessages
+End
+
+#SOCIAL
+Italian     debole indebolito debolezza~
+English     weak~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi sento talmente debole da non reggermi in piedi.~
+    OthersNoArg $n si sente talmente debole da lasciarsi cadere a terra.~
+    CharFound   Mi sento talmente debole da cadere.. tra le braccia di $N.~
+    OthersFound $n si sente talmente debole da cadere.. tra le braccia di $N.~
+    VictFound   $n si sente talmente debole da cadere.. tra le mie braccia.~
+EndMessages
+End
+
+#SOCIAL
+Italian     deglutisci deglutire~
+English     swallow~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Deglutisco lentamente..~
+    OthersNoArg $n deglutisce lentamente..~
+    CharFound   Deglutisco lentamente guardando fisso $N.~
+    OthersFound $n deglutisce lentamente guardando fisso $N.~
+    VictFound   $n deglutisce lentamente guardandomi fisso~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'E'
+
+#SOCIAL
+Italian     ebete tonto~
+English     dull~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Assumo un'espressione alquanto ebete..~
+    OthersNoArg $n si guarda attorno in maniera ebete..~
+    CharFound   Guardo $N con aria da ebete..~
+    OthersFound $n guarda $N in modo ebete..~
+    VictFound   $n mi guarda con espressione particolarmente ebete..~
+EndMessages
+End
+
+#SOCIAL
+Italian     eccellente superbo~
+English     superb~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sghignazzo esclamando: 'Eccellente. Avanti così!'~
+    OthersNoArg $n sogghigna esclamando: 'Eccellente. Avanti così!'~
+    CharFound   Sghignazzo verso $N bisbigliando: 'Eccellente. Avanti così!'~
+    OthersFound $n sghignazza verso $N bisbigliando: 'Eccellente. Avanti così!'~
+    VictFound   $n sghignazza verso di me bisbigliandomi: 'Eccellente. Avanti così!'~
+EndMessages
+End
+
+#SOCIAL
+Italian     elsa presa spada~
+English     hilt~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Stringo la presa sulla mia arma, pront$x a combattere.~
+    OthersNoArg $n stringe la presa sulla sua arma, pront$x a combattere.~
+    CharFound   Stringo l'elsa della mia spada, fissando $N con aria di sfida.~
+    OthersFound $n stringe l'elsa della spada, fissando $N con aria di sfida.~
+    VictFound   $n stringe l'elsa della spada, fissandomi con aria di sfida.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'F'
+
+#SOCIAL
+Italian     felice gioia allegro~
+English     happy~
+Intention   INTENT_FRIENDLY
+Expression  felice ~
+Smiles      :)) :-))~
+Messages
+    CharNoArg   Sorrido con gioia.~
+    OthersNoArg $n sorride gioiosamente.~
+    CharFound   Sorrido a $N gioiosamente.~
+    OthersFound $n sorride gioiosamente a $N.~
+    VictFound   $n mi rivolge con gioia un sorriso.~
+EndMessages
+End
+
+#SOCIAL
+Italian     fischietta fischiettare fischietto~
+English     whistle~
+Intention   INTENT_NEUTRAL
+Expression  fischiettando ~
+Smiles      :+ :-+~
+Messages
+    CharNoArg   Fischietto innocentemente..~
+    OthersNoArg $n fischietta un allegro motivetto innocentemente..~
+    CharFound   Fischietto innocentemente guardando $N.~
+    OthersFound $n fischietta un allegro motivetto guardando $N innocentemente.~
+    VictFound   $n fischietta un allegro motivetto guardandomi innocentemente.~
+EndMessages
+End
+
+#SOCIAL
+Italian     fissa fissare fisso~
+English     stare~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Guardo fisso davanti a me, assort$x nei miei pensieri.~
+    OthersNoArg $n guarda fisso davanti a sé, assort$x nei suoi pensieri.~
+    CharFound   Guardo fisso $N, pers$x nei suoi occhi..~
+    OthersFound $n guarda fisso $N, pers$x nei suoi occhi..~
+    VictFound   $n mi guarda fisso, totalmente pers$x nei miei occhi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     fletti muscoli~
+English     stud~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi metto in posa mostrando i muscoli!~
+    OthersNoArg $n si mette in posa mostrando i muscoli.. eh?~
+    CharFound   Mi metto in posa mostrando i muscoli a $N!~
+    OthersFound $n si mette in posa e mostra i muscoli a $N!~
+    VictFound   $n si mette in posa e mi mostra i muscoli.. eh?~
+EndMessages
+End
+
+#SOCIAL
+Italian     french passione~
+English     french~
+Intention   INTENT_FRIENDLY
+Expression  baciando appassionatamente ~
+Smiles      :** :-**~
+Messages
+    CharNoArg   Mhh per chi è questo bacio?~
+    OthersNoArg $n ha uno strano sguardo da maniac$x..~
+    CharFound   Socchiudo gli occhi avvicinandomi a $N prendendo la sua bocca in un lungo e appassionato bacio.~
+    OthersFound $n socchiude gli occhi baciando $N appassionatamente.~
+    VictFound   $n socchiude gli occhi unendo le sue labbra alle mie in un lento e appassionato bacio..~
+EndMessages
+End
+
+#SOCIAL
+Italian     furbo furbizia~
+English     sly~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sorrido furbamente.~
+    OthersNoArg $n ha un sorriso furbetto sulle labbra..~
+    CharFound   Sorrido furbamente a $N..~
+    OthersFound $n sorride furbamente a $N.~
+    VictFound   $n mi sorride furbamente..~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'G'
+
+#SOCIAL
+Italian     gela glaciale gelo~
+English     chill~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Per chi è questo sguardo glaciale?~
+    OthersNoArg $n lancia occhiate glaciali ai presenti.~
+    CharFound   Ghiaccio $N con un'occhiataccia.~
+    OthersFound $n gela $N con un'occhiataccia.~
+    VictFound   $n mi gela con un'occhiataccia..~
+EndMessages
+End
+
+#SOCIAL
+Italian     inginocchio inginocchiarsi~
+English     kneel~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi chino sulle ginocchia.~
+    OthersNoArg $n s'inginocchia.~
+    CharFound   Mi chino su di un ginocchio dinanzi a $N.~
+    OthersFound $n si china su di un ginocchio dinanzi a $N.~
+    VictFound   $n si china in ginocchio dinanzi a me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     gomitata gomito~
+English     nudge~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Tiro una gomitata.. nel vuoto.~
+    OthersNoArg $n si gira colpendo con il gomito.. assolutamente nulla.~
+    CharFound   Do una gomitatina sul fianco a $N.~
+    OthersFound $n dà una gomitatina sul fianco a $N.~
+    VictFound   $n mi dà una gomitatina sul fianco.~
+EndMessages
+End
+
+#SOCIAL
+Italian     groan gemito~
+English     groan~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mormoro qualcosa rumorosamente.~
+    OthersNoArg $n mormora rumorosamente.~
+    CharFound   Mormoro qualcosa guardando $N.~
+    OthersFound $n mormora qualcosa guardando $N.~
+    VictFound   $n mormora qualcosa guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     grunt grugnito grugnisco sgrunt~
+English     grunt~
+Intention   INTENT_NEUTRAL
+Messages
+   CharNoArg   Grugnisco stizzit$x.~
+   OthersNoArg $n grugnisce stizzit$x.~
+   CharFound   Grugnisco verso $N, stizzit$x.~
+   OthersFound $n grugnisce stizzit$x verso $N.~
+   VictFound   $n grugnisce stizzit$x verso di mte!~
+EndMessages
+End
+
+#SOCIAL
+Italian     grumble borbotto borbottare~
+English     grumble~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Borbotto qualcosa.~
+    OthersNoArg $n borbotta qualcosa sommessamente~
+    CharFound   Borbotto qualcosa verso $N.~
+    OthersFound $n borbotta qualcosa verso $N.~
+    VictFound   $n mi borbotta qualcosa in faccia.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'H'
+
+#SOCIAL
+Italian     hic singhiozzo singhiozzare~
+English     hic~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Singhiozzo rumorosamente..~
+    OthersNoArg $n singhiozza rumorosamente..~
+    CharFound   Singhiozzo rumorosamente verso $N!~
+    OthersFound $n singhiozza rumorosamente verso $N!~
+    VictFound   $n singhiozza rumorosamente verso di me.. cos'avrà bevuto?~
+EndMessages
+End
+
+#SOCIAL
+Italian     hfive cinque~
+English     hfive~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Con chi quest'intesa favolosa?~
+    OthersNoArg $n salta cercando d'acchiappare qualche mosca.~
+    CharFound   Salto in aria e do un CINQUE a $N!!! Avanti così!!!~
+    OthersFound $n salta in aria e da un cinque a $N!~
+    VictFound   $n salta in aria e mi dà un CINQUE!!! Avanti così!!!~
+EndMessages
+End
+
+#SOCIAL
+Italian     hop balzello saltellare~
+English     hop~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Salto tutt'intorno come una rana.~
+    OthersNoArg $n salta tutt'intorno come una rana.~
+    CharFound   Salto tutt'intorno a $N felicissim$x!~
+    OthersFound $n salta felicissim$x tutt'intorno a $N!~
+    VictFound   $n mi salta tutt'intorno felicissim$x!~
+EndMessages
+End
+
+#SOCIAL
+Italian     hummm pensieroso~
+English     hummm~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Incrocio le mani sotto il mento pensieros$x.~
+    OthersNoArg $n incrocia le mani sotto il mento pensieros$x.~
+    CharFound   Guardo $N piuttosto pensieros$x.. hummm.~
+    OthersFound $n guarda $N piuttosto pensieros$x..~
+    VictFound   $n mi guarda piuttosto pensieros$X.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'I'
+
+#SOCIAL
+Italian     impreca insulto~
+English     imprecate~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Impreco ad alta voce agitandomi e urlando.~
+    OthersNoArg $n impreca urlando: @*&^%@*&!~
+    CharFound   Impreco urlando in faccia a $N: @*&^%@*&!~
+    OthersFound $n impreca urlando in faccia a $N: @*&^%@*&!~
+    VictFound   $n impreca urlandomi in faccia: @*&^%@*&!~
+EndMessages
+End
+
+#SOCIAL
+Italian     inchino~
+English     bow~
+Intention   INTENT_FRIENDLY
+Expression  inchinandosi ~
+Smiles      :J :-J :j :-j~
+Messages
+    CharNoArg   Mi inchino profondamente.~
+    OthersNoArg $n si produce in un profondo inchino.~
+    CharFound   Mi inchino profondamente verso $N.~
+    OthersFound $n si inchina verso $N.~
+    VictFound   $n si produce in un profondo inchino verso di me.~
+    CharAuto    Aaahh un po' di flessioni!~
+    OthersAuto  $n si piega in avanti.. che stia facendo ginnastica?~
+EndMessages
+End
+
+#SOCIAL
+Italian     indeciso indecisione~
+English     undecided~
+Intention   INTENT_NEUTRAL
+Expression  indeciso ~
+Smiles      :/ :-/~
+Messages
+    CharNoArg   Poso le mani sui fianchi tentennando leggermente con il capo~
+    OthersNoArg $n posa le mani sui fianchi tentennando leggermente con il capo~
+    CharFound   Poso le mani sui fianchi e tentenno leggermente guardando $N.~
+    OthersFound $n posa le mani sui fianchi e tentenna leggermente guardando $N.~
+    VictFound   $n posa le mani sui fianchi e tentenna leggermente guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     indica indicare indico~
+English     point~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Chi dovrei indicare?~
+    OthersNoArg $n indica un punto indefinito dell'orizzonte.~
+    CharFound   Indico con la mano $N.~
+    OthersFound $n indica con la mano $N.~
+    VictFound   $n indica ME con la mano.~
+    CharAuto    Indico me stess$x con la mano.~
+    OthersAuto  $n indica se stess$x con la mano.~
+EndMessages
+End
+
+#SOCIAL
+Italian     innocente angelo~
+English     innocent~
+Intention   INTENT_NEUTRAL
+Expression  innocentemente ~
+Smiles      0:) 0:-)~
+Messages
+    CharNoArg   Batto le palpebre fischiettando innocentemente.~
+    OthersNoArg $n batte le palpebre fischiettando innocentemente.~
+    CharFound   Batto le palpebre sorridendo innocentemente a $N.~
+    OthersFound $n batte le palpebre sorridendo innocentemente a $N.~
+    VictFound   $n batte le palpebre guardandomi innocentemente.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ironia ironico malizia~
+English     irony~
+Intention   INTENT_NEUTRAL
+Expression  ironicamente ~
+Smiles      :] :-]~
+Messages
+    CharNoArg   Sottolineo l'ironia con un sorrisetto malizioso.~
+    OthersNoArg $n sottolinea l'ironia con un sorrisetto malizioso.~
+    CharFound   Faccio notare a $N l'ironia con un sorrisetto malizioso.~
+    OthersFound $n rivolge a $N un sorrisetto ironico.~
+    VictFound   $n sottolinea l'ironia sorridendomi maliziosamente.~
+EndMessages
+End
+
+*-------------------------------
+* SOCIALI LETTERA  'L'
+
+#SOCIAL
+Italian     logorrea logorroico predica~
+English     preach~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Parlo per ore ed ore..~
+    OthersNoArg $n intavola un discorso di tre ore senza curarsi dei presenti..~
+    CharFound   Intrattengo $N con la mia piacevole conversazione.~
+    OthersFound $n ammorba $N con il suo milione di chiacchiere.~
+    VictFound   $n vuole parlare di nuovo con me dei mali del mondo.. AIUTOO!!~
+EndMessages
+End
+
+#SOCIAL
+Italian     lento lentezza bradipo~
+English     slow~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi muovo svelt$x come un bradipo~
+    OthersNoArg $n si muove alla velocità di una lumaca morta.~
+    CharFound   Mi aggrappo a $N chiedendogli di aspettarmi..~
+    OthersFound $n chiede a $N di rallentare il passo.~
+    VictFound   $n mi chiede di rallentare il passo.~
+EndMessages
+End
+
+#SOCIAL
+Italian     love amore innamorato~
+English     love~
+Intention   INTENT_FRIENDLY
+Expression  sognante ~
+Smiles      *_*~
+Messages
+    CharNoArg   Sogno ad occhi aperti il grande amore della mia vita..~
+    OthersNoArg $n sospira pensando al suo amore lontano.~
+    CharFound   Guardo $N con infinito amore..~
+    OthersFound $n guarda $N teneramente innamorat$x.~
+    VictFound   $n mi comunica il suo amore con lo sguardo.~
+EndMessages
+End
+
+*-------------------------------
+* SOCIALI LETTERA  'M'
+
+#SOCIAL
+Italian     maligno falsorriso~
+English     grin~
+Intention   INTENT_NEUTRAL
+Expression  malignamente ~
+Smiles      >:) >:-)~
+Messages
+    CharNoArg   Senza farmi notare troppo sorrido perfidamente.~
+    OthersNoArg $n senza destare troppa attenzione sorride malignamente.~
+    CharFound   Sorrido perfidamente a $N.~
+    OthersFound $n guarda $N in maniera perfida e inquietante.~
+    VictFound   $n mi guarda in maniera perfida e inquietante..~
+EndMessages
+End
+
+#SOCIAL
+Italian     bmano baciamano~
+English     hkiss~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   A chi questo romantico gesto?~
+    OthersNoArg $n si china in avanti e schiocca un bacio al nulla.~
+    CharFound   Poso un bacio sulla mano di $N.~
+    OthersFound $n posa un gentilmente un bacio sulla mano di $N.~
+    VictFound   $n posa gentilmente un bacio sulla mia mano.~
+EndMessages
+End
+
+#SOCIAL
+Italian     mano stretta~
+English     hand~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Stringo l'aria e me ne riempiamo le mani~
+    OthersNoArg $n stringe la mano ad una presenza invisibile..~
+    CharFound   Stringo la mano di $N.~
+    OthersFound $n stringe la mano a $N.~
+    VictFound   $n mi stringe la mano.~
+    CharAuto    Mi stringo le mani compiaciut$x.~
+    OthersAuto  $n si stringe le mani compiaciut$x.~
+EndMessages
+End
+
+#SOCIAL
+Italian     mastica mastico masticare~
+English     munch~
+Intention   INTENT_NEUTRAL
+Expression  masticando ~
+Smiles      :& :-&~
+Messages
+    CharNoArg   Mastico rumorosamente qualcosa tra i denti.~
+    OthersNoArg $n mastica rumorosamente qualcosa tra i denti.~
+    CharFound   Mordicchio con aria compiaciuta la mano di $N.~
+    OthersFound $n mordicchia con aria compiaciuta la mano di $N.~
+    VictFound   $n mi mordicchia la mano.~
+EndMessages
+End
+
+#SOCIAL
+Italian     matto pazzo insano~
+English     mad~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Uno sguardo totalmente INSANO mi pervade gli occhi!!!.~
+    OthersNoArg Uno sguardo totalmente INSANO pervade gli occhi di $n!!!~
+    CharFound   Guardo $N come per dire.. "Ma che, sei matt$X?"~
+    OthersFound $n guarda $N come per dire.. "Ma che, sei matt$X?"~
+    VictFound   $n mi guarda negli occhi come per dire.. "Ma che, sei matt$X?"~
+EndMessages
+End
+
+#SOCIAL
+Italian     medita medito meditare~
+English     meditate~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi metto comod$x meditando sulla situazione..~
+    OthersNoArg $n si mette comod$x e medita silenziosamente.~
+    CharFound   Guardi $N meditando silenziosamente sulla situazione.~
+    OthersFound $n guarda $N meditando silenziosamente sulla situazione.~
+    VictFound   $n mi guarda meditando silenziosamente sulla situazione.~
+EndMessages
+End
+
+
+#SOCIAL
+Italian     mestamente mesto~
+English     sadly~
+Intention   INTENT_NEUTRAL
+Expression  mesto ~
+Smiles      :[ :-[~
+Messages
+    CharNoArg   Mi avvilisco tenendo basse spalle mentre chino mestamente il capo.~
+    OthersNoArg $n abbassa le spalle sospirando mestamente.~
+    CharFound   Lascio cadere le spalle mentre chino mestamente il capo guardando $N.~
+    OthersFound $n china mestamente il capo guardando $N.~
+    VictFound   $n abbassa le spalle e chinando mestamente il capo mi guarda negli occhi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     mmm riflettere pensiero~
+English     mmm~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi fermo un attimo a riflettere dicendo tra me e me.. "mmm.."~
+    OthersNoArg $n si ferma a riflettere.. mormorando.. "mmm.."~
+    CharFound   Guardi $N mormorando un "mmm" a labbra chiuse.~
+    OthersFound $n guarda $N mormorando un "mmm" a labbra chiuse.~
+    VictFound   $n mi guarda mormorando un "mmm" a labbra chiuse.~
+EndMessages
+End
+
+#SOCIAL
+Italian     mormora mormoro mormorare~
+English     murmur~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mormoro qualcosa distrattamente..~
+    OthersNoArg $n mormora qualcosa distrattamente..~
+    CharFound   Mormoro distrattamente qualcosa all'indirizzo di $N.~
+    OthersFound $n mormora distrattamente qualcosa all'indirizzo di $N.~
+    VictFound   $n mormora distrattamente qualcosa verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     mordicchia mordicchio mordicchiare orecchio~
+English     nibble~
+Intention   INTENT_FRIENDLY
+Messages
+     CharNoArg   Mmmm ho voglia di mordicchiare qualcuno.~
+     OthersNoArg $n si guarda intorno cercando qualcuno da mordere~
+     CharFound   Mordicchio lentamente l'orecchio di $N.. mmm che buono.~
+     OthersFound $n mordicchia teneramente l'orecchio di $N.~
+     VictFound   $n mi mordicchia un orecchio.. mmm piacevole sensazione.~
+     CharAuto    Cerco di mordicchiarmi un orecchio.. sarò mica impazzit$x?~
+     OthersAuto  $n contrae il viso in incredibili smorfie.. ma cosa sta facendo?~
+EndMessages
+End
+
+#SOCIAL
+Italian     muhaha risatona~
+English     muhaha~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Rido diabolicamente! MUHAHAHAHAHAHA!.~
+    OthersNoArg $n ride diabolicamente! MUHAHAHAHAHAHA!..~
+    CharFound   Rido diabolicamente in faccia a $N! MUHAHAHAHAHAHA!..~
+    OthersFound $n ride diabolicamente in faccia a $N! MUHAHAHAHAHAHA!..~
+    VictFound   $n mi ride in faccia diabolicamente!!! MUHAHAHAHAHAHA!..~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'N'
+
+#SOCIAL
+Italian     naso sniff raffreddore~
+English     sniff~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Tiro su con il naso. *SNIFF*~
+    OthersNoArg $n tira su con il naso.~
+    CharFound   Tiro su con il naso guardando $N.~
+    OthersFound $n tira su con il naso guardando $N.~
+    VictFound   $n tira su con il naso guardandoti.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'O'
+
+#SOCIAL
+Italian     occhieggia occhieggio occhieggiare~
+English     ogle~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Occhieggio languidamente osservando la scena..~
+    OthersNoArg $n occhieggia languidamente guardando la scena.~
+    CharFound   Guardo languidamente $N..~
+    OthersFound $n guarda $N languidamente..~
+    VictFound   $n mi guarda languidamente..~
+EndMessages
+End
+
+#SOCIAL
+Italian     ops pasticcio pasticciare~
+English     ops~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi metto la mano sulla bocca e dico, "Oooops! Che ho combinato?"~
+    OthersNoArg $n si mette la mano sulla bocca e dice, "Oooops! Che ho combinato?"~
+    CharFound   Guardo $N allargando le braccia e dico, "Oops! Ma che fai!?"~
+    OthersFound $n guarda $N allargando le braccia e dice, "Oops! Ma che fai?!"~
+    VictFound   $n mi guarda allargando le braccia e dice, "Ooops! Ma che fai?!"~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'P'
+
+#SOCIAL
+Italian     pat pacca~
+English     pat~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   A chi posso dare questa pacca?~
+    OthersNoArg $n dà una pacca sulla spalla di una creatura invisibile.~
+    CharFound   Do a $N una pacca sulla spalla.~
+    OthersFound $n dà a $N una pacca sulla spalla.~
+    VictFound   $n mi dà una pacca sulla spalla.~
+    CharAuto    Mi do una pacca sulla spalla, ora sto meglio.~
+    OthersAuto  $n si dà una pacca sulla spalla, visibilmente soddisfatt$x.~
+EndMessages
+End
+
+#SOCIAL
+Italian     paura pallore pallido~
+English     fear~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   La paura mi si disegna sul volto.. sono pallid$x.~
+    OthersNoArg La paura disegna il volto di $n.. è pallid$x!~
+    CharFound   Guardo $N mentre la paura mi segna il volto.. comincio a sbiancare.~
+    OthersFound $n guarda $N mentre la paura segna il suo volto..~
+    VictFound   $n mi guarda mentre la paura segna il suo volto..~
+EndMessages
+End
+
+#SOCIAL
+Italian     perplesso perplessità~
+English     puzzled~
+Intention   INTENT_NEUTRAL
+Expression  perplesso ~
+Smiles      :| :-|~
+Messages
+    CharNoArg   Schiudo le labbra e stringo gli occhi in maniera perplessa..~
+    OthersNoArg $n schiude le labbra e stringe gli occhi perplessamente.~
+    CharFound   Guardo $N esprimendo ampiamente la mia perplessità..~
+    OthersFound $n comunica con uno sguardo eloquente la sua perplessità a $N.~
+    VictFound   $n mi comunica la sua perplessità con uno sguardo eloquente..~
+EndMessages
+End
+
+#SOCIAL
+Italian     pesta piedi pesto frignare~
+English     stomp~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Sbatto i piedi per terra protestando e mettendo il broncio!~
+    OthersNoArg $n sbatte i piedi per terra protestando e mettendo il broncio!~
+    CharFound   Pesto un piede a $N! Ahi!~
+    OthersFound $n pesta un piede a $N, Ahi!~
+    VictFound   $n mi pesta un piede, Ahi!~
+EndMessages
+End
+
+#SOCIAL
+Italian     piangi lacrime piango piangere~
+English     cry~
+Intention   INTENT_NEUTRAL
+Expression  piangendo ~
+Smiles      :@ :-@~
+Messages
+    CharNoArg   Mi brillano gli occhi mentre calde lacrime scivolano lungo il tuo viso.~
+    OthersNoArg $n versa calde lacrime di dolore dai suoi occhi lucidi.~
+    CharFound   Volgo a $N il mio sguardo mentre numerose lacrime mi solcano il volto.~
+    OthersFound $n guarda $N con il volto rigato da lacrime.~
+    VictFound   $n mi guarda mentre dai suoi occhi vedi nascere e scivolar via calde lacrime.~
+EndMessages
+End
+
+#SOCIAL
+Italian     piccolo imbarazzo~
+English     little~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Divento piccol$x piccol$x per la paura e l'imbarazzo..~
+    OthersNoArg $n diventa piccol$x piccol$x per la paura e l'imbarazzo..~
+    CharFound   Divento piccol$x piccol$x guardando $N. ~
+    OthersFound $n diventa piccol$x piccol$x guardando $N.~
+    VictFound   $n diventa piccol$x piccol$x guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     pizzico pizzicotto pizzicare~
+English     pinch~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Mi do un pizzico.. ma sono davvero svegli$x?!~
+    OthersNoArg $n si dà un pizzico per verificare di essere veramente svegli$x..~
+    CharFound   Pizzico scherzosamente $N. ~
+    OthersFound $n pizzica scherzosamente $N.~
+    VictFound   $n mi pizzica scherzosamente.. Ahi però!~
+EndMessages
+End
+
+#SOCIAL
+Italian     poesia poeta declamo~
+English     poetry~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Declami alcuni versi di un antico poema.~
+    OthersNoArg $n mormora alcuni versi di straordinaria bellezza.~
+    CharFound   Dedico a $N una poesia in omaggio alla sua persona. ~
+    OthersFound $n recita una poesia per $N.~
+    VictFound   $n mormora per me alcuni versi di una bellissima poesia.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ponderi ponderare pondero~
+English     ponder~
+Intention   INTENT_NEUTRAL
+Messages
+     CharNoArg   Mi siedo e pondero intensamente la questione.~
+     OthersNoArg $n si siede e pondera intensamente la questione.~
+     CharFound   Pondero la situazione guardando $N. ~
+     OthersFound $n pondera la situazione guardando $N.~
+     VictFound   $n pondera la situazione guardandomi attentamente.~
+EndMessages
+End
+
+#SOCIAL
+Italian     supplica supplicare supplico~
+English     implore~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Rivolgo una devota e silenziosa preghiera agli Dei.~
+    OthersNoArg $n socchiude gli occhi e rivolge una preghiera ai suoi Dei.~
+    CharFound   M'inginocchio ai piedi di $N pregandol$X!~
+    OthersFound $n s'inginocchia ai piedi di $N pregandol$X!~
+    VictFound   $n s'inginocchia ai miei piedi pregandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     pronto ok~
+English     ready~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Annuisco, sono pront$x!~
+    OthersNoArg $n annuisce, è pront$x!~
+    CharFound   Annuisco a $N, sono pront$x!~
+    OthersFound $n annuisce a $N, è pront$x!~
+    VictFound   $n mi annuisce, è pront$x!~
+EndMessages
+End
+
+#SOCIAL
+Italian     pugno colpire colpisco~
+English     pounch~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   A chi questo bel gesto di solidarietà?~
+    OthersNoArg $n stringe le mani a pugno in cerca di qualche brutto muso da picchiare.~
+    CharFound   Tiro un pugno in pancia a $N!~
+    OthersFound $n tira un pugno in pancia a $N!~
+    VictFound   $n mi tira un pugno in pancia! OUCH!~
+EndMessages
+End
+
+#SOCIAL
+Italian     puntini nocomment~
+English     point~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Apro la bocca e commento con un "........"~
+    OthersNoArg $n commenta con un "........"~
+    CharFound   Commento con un "........" le parole di $N.~
+    OthersFound $n commenta con un "........" le parole di $N.~
+    VictFound   $n commenta con un "........" le mie parole.~
+EndMessages
+End
+
+#SOCIAL
+Italian     purr fusa micio~
+English     purr~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Faccio le fusa.. E miagolo pure!~
+    OthersNoArg $n fa le fusa..~
+    CharFound   Mi strofino contro $N facendo le fusa.~
+    OthersFound $n si strofina contro $N facendo le fusa.~
+    VictFound   $n fa le fusa strofinandosi contro di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     puzzo puzza puzzare~
+English     stink~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Mi annuso e per poco non svengo dalla puzza!~
+    OthersNoArg $n si annusa e per poco non sviene dalla puzza!~
+    CharFound   Assalgo $N con la mia puzza!~
+    OthersFound $n assale $N con la sua puzza mefitica!~
+    VictFound   $n mi assale con la sua puzza mefitica!~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'R'
+
+#SOCIAL
+Italian     rabbia grr furore arrabbiato arrabbio~
+English     rage~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sono così nervos$x che le mie orecchie sembrano fumare!~
+    OthersNoArg $n è così nervos$x che le sue orecchie sembrano fumare!~
+    CharFound   Sono così in collera con $N che le mie orecchie sembrano fumare!~
+    OthersFound $n è così in collera con $N che le sue orecchie sembrano fumare!~
+    VictFound   $n è così in collera con me che le sue orecchie sembrano fumare!~
+EndMessages
+End
+
+#SOCIAL
+Italian     brrr brividi freddo rabbrividisco~
+English     brrr~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Rabbrividisco.. brrr!!!~
+    OthersNoArg $n rabbrividisce visibilmente.. brrr!!!~
+    CharFound   Rabbrividisco guardando $N.. brrr!!!~
+    OthersFound $n rabbrividisce guardando $N.. brrr!~
+    VictFound   $n rabbrividisce guardandomi.. brrr!!!~
+EndMessages
+End
+
+#SOCIAL
+Italian     richiama spalla attenzione~
+English     call~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Chi dovrei richiamare?~
+    OthersNoArg $n cerca di richiamare l'attenzione dei presenti.~
+    CharFound   Richiamo l'attenzione di $N sfiorando la sua spalla con le dita.~
+    OthersFound $n richiama l'attenzione di $N sfiorando la sua spalla con le dita.~
+    VictFound   $n mi richiama sfiorandomi la spalla con le dita.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ridacchia ridacchio ridacchiare~
+English     giggle~
+Intention   INTENT_FRIENDLY
+Messages
+     CharNoArg   Ridacchio allegramente.~
+     OthersNoArg $n ridacchia allegramente.~
+     CharFound   Ridacchio allegramente verso $N.~
+     OthersFound $n ridacchia allegramente verso $N.~
+     VictFound   $n ridacchia allegramente verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ridi rido~
+English     laugh~
+Intention   INTENT_FRIENDLY
+Expression  ridendo ~
+Smiles      :D :-D ^_^ :d :-d~
+Messages
+    CharNoArg   Rido di cuore!~
+    OthersNoArg $n scoppia a ridere!~
+    CharFound   Rido di cuore guardando $N.~
+    OthersFound $n ride di cuore guardando $N.~
+    VictFound   $n ride di cuore guardandomi!~
+EndMessages
+End
+
+#SOCIAL
+Italian     ridere~
+English     cackle~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Tira la testa indietro e scoppia a ridere!~
+    OthersNoArg $n tira la testa indietro e scoppia a ridere!~
+    CharFound   Tiro la testa indietro e scoppia a ridere guardando $N.~
+    OthersFound $n tira la testa indietro e ride di cuore guardando $N.~
+    VictFound   $n tira la testa indietro e scoppia a ridere guardandomi!.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ringrazia ringrazio ringraziare grazie~
+English     thank~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Esprimo la mia gratitudine~
+    OthersNoArg $n ringrazia sentitamente..~
+    CharFound   Ringrazio $N con un sorriso.~
+    OthersFound $n ringrazia sorridendo $N.~
+    VictFound   $n mi ringrazia sorridendo.~
+EndMessages
+End
+
+#SOCIAL
+Italian     riverenza~
+English     curtsey~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Faccio una riverenza verso i presenti.~
+    OthersNoArg $n rivolge una riverenza ai presenti.~
+    CharFound   Faccio una riverenza verso $N.~
+    OthersFound $n fa una riverenza verso $N.~
+    VictFound   $n fa una riverenza verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     roteaocchi~
+English     rolleyes~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Rotea gli occhi sconvolt$x.~
+    OthersNoArg $n rotea gli occhi sconvolt$x.~
+    CharFound   Roteo gli occhi verso $N, sconvolt$x.~
+    OthersFound $n rotea gli occhi verso $N, sconvolt$x.~
+    VictFound   $n rotea gli occhi verso di me, sconvolt$x.~
+EndMessages
+End
+
+#SOCIAL
+Italian     russa russare russo~
+English     zzz~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Zzzzzzzzzzzzzzzzz.~
+    OthersNoArg $n russa sonoramente..~
+    CharFound   Mi addormento mentre $N mi sta dicendo qualcosa.~
+    OthersFound $n si addormenta all'improvviso mentre $N ancora parla.~
+    VictFound   $n si addormenta mentre gli sto parlando!~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'S'
+
+#SOCIAL
+Italian     sarcasmo sarcastico~
+English     sarcasm~
+Intention   INTENT_NEUTRAL
+Expression  sarcasticamente ~
+Smiles      :$ :-$~
+Messages
+    CharNoArg   Sorrido sarcasticamente.~
+    OthersNoArg $n atteggia il visto ad un sorriso freddamente sarcastico.~
+    CharFound   Rivolgo a $N un freddo sorriso pieno di sarcasmo.~
+    OthersFound $n rivolge a $N un freddo sorriso pieno di sarcasmo.~
+    VictFound   $n mi rivolge un gelido sorriso pieno di sarcasmo.~
+EndMessages
+End
+
+#SOCIAL
+Italian     saltella evviva~
+English     jump~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Saltello per la felicità.~
+    OthersNoArg $n saltella per la felicità.~
+    CharFound   Saltello davanti a $N per la felicità.~
+    OthersFound $n saltella davanti a $N per la felicità.~
+    VictFound   $n mi saltella davanti per la felicità.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sbraita sbraito sbraitare~
+English     bawl~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Comincio a sbraitare con rabbia..~
+    OthersNoArg $n comincia a sbraitare..~
+    CharFound   Comincio a sbraitare verso $N.~
+    OthersFound $n comincia a sbraitare verso $N.~
+    VictFound   $n comincia a sbraitare verso di mte.~
+EndMessages
+End
+
+#SOCIAL
+Italian     scherza scherzo scherzetto~
+English     joke~
+Intention   INTENT_NEUTRAL
+Expression  scherzando ~
+Smiles      :P :-P :p :-p~
+Messages
+    CharNoArg   Cerco una vittima per i miei scherzetti..~
+    OthersNoArg $n guarda i presenti con fare poco raccomandabile..~
+    CharFound   Comincio a prendermi gioco di $N scherzosamente.~
+    OthersFound $n comincia a prendersi gioco di $N.~
+    VictFound   $n si prende scherzosamente gioco di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sconvolto~
+English     disraught~
+Intention   INTENT_NEUTRAL
+Expression  sconvolto ~
+Smiles      :O :-O :0 :-0~
+Messages
+    CharNoArg   Spalanco gli occhi rimanendo a bocca aperta, completamente sconvolt$x.~
+    OthersNoArg $n spalanca gli occhi rimanendo a bocca aperta, completamente sconvolt$x..~
+    CharFound   Spalanco gli occhi guardando $N completamente sconvolt$x.~
+    OthersFound $n spalanca gli occhi guardando $N completamente sconvolt$x..~
+    VictFound   $n spalanca gli occhi guardandomi, completamente sconvolt$x.~
+EndMessages
+End
+
+#SOCIAL
+Italian     slap schiaffo schiaffeggiare~
+English     slap~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Chi posso schiaffeggiare?~
+    OthersNoArg $n tira uno schiaffo a vuoto.~
+    CharFound   Schiaffeggio violentemente $N!~
+    OthersFound $n tira un ceffone a $N!~
+    VictFound   $n mi tira un ceffone proprio in faccia! AHI!~
+    CharAuto    Mi schiaffeggio per essere stat$x così idiota.~
+    OthersAuto  $n si dà uno schiaffo per punirsi di qualche colpa.~
+EndMessages
+End
+
+#SOCIAL
+Italian     shhh silenzio zitto~
+English     shhh~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Aggrotto le ciglia e chiedo silenzio, "Shhhhhh"~
+    OthersNoArg $n aggrotta le ciglia e chiede un po' di silenzio con un : "Shhhhhh".~
+    CharFound   Guardo $N aggrottando le sopracciglia chiedendo un po' di silenzio.. Shhhh!~
+    OthersFound $n aggrotta le ciglia e chiede un po' di silenzio a $N.. Shhh!~
+    VictFound   $n mi chiede un po' di silenzio.. shhhhh!~
+    CharAuto    Mi ammutolisco all'istante.~
+    OthersAuto  $n si chiude in religioso silenzio.~
+EndMessages
+End
+
+
+#SOCIAL
+Italian     spingi spingo spingere~
+English     poke~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Chi vorrei spingere?~
+    OthersNoArg $n si muove un po' inquiet$x.~
+    CharFound   Spingo lievemente $N cercando di destare la sua attenzione.~
+    OthersFound $n spinge lievemente $N.~
+    VictFound   $n mi spinge lievemente richiamando la mia attenzione.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sghignazzo sghignazzare~
+English     ghghgh~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sghignazzo in disparte..~
+    OthersNoArg $n sghignazza in disparte..~
+    CharFound   Sghignazzo guardando $N..~
+    OthersFound $n sghignazza guardando $N..~
+    VictFound   $n sghignazza guardandomi..~
+EndMessages
+End
+
+#SOCIAL
+Italian     fsss sibilo sibilare serpe~
+English     fsss~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Mostro i denti sibilando aspramente qualcosa.~
+    OthersNoArg $n mostra i denti sibilando aspramente qualcosa.~
+    CharFound   Mostro i denti a $N sbilando aspramente qualcosa.~
+    OthersFound $n mostra i denti a $N sibilando aspramente qualcosa.~
+    VictFound   $n mi mostra i denti sibilando aspramente qualcosa.~
+EndMessages
+End
+
+#SOCIAL
+Italian     smorfia disgusto disgustato~
+English     grimace~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Contorco il viso in una smorfia di disgusto.~
+    OthersNoArg $n contorce il viso in una smorfia di disgusto.~
+    CharFound   Contorco il viso in una smorfia di disgusto guardando $N.~
+    OthersFound $n contorce il viso in una smorfia di disgusto guardando $N.~
+    VictFound   $n contorce il viso in una smorfia di disgusto guardandomi.~
+EndMessages
+End
+
+
+#SOCIAL
+Italian     saluta saluto salutare~
+English     wave~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Saluto allegramente.~
+    OthersNoArg $n saluta allegramente~
+    CharFound   Saluto allegramente $N.~
+    OthersFound $n saluta allegramente $N.~
+    VictFound   $n mi saluta allegramente.~
+EndMessages
+End
+
+#SOCIAL
+Italian     snap schioccare~
+English     snap~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Schioccho le dita!~
+    OthersNoArg $n schiocca le dita!~
+    CharFound   Schioccho le dita verso $N!~
+    OthersFound $n schiocca le dita verso $N!~
+    VictFound   $n schiocca le dita verso di me!~
+EndMessages
+End
+
+#SOCIAL
+Italian     snob altezzoso~
+English     snob~
+Intention   INTENT_NEUTRAL
+Expression  altezzosamente ~
+Smiles      :" :-"~
+Messages
+    CharNoArg   Arriccio il naso voltando il capo molto altezzosamente.~
+    OthersNoArg $n arriccia il naso voltando il capo altezzosamente.~
+    CharFound   Rivolgendo una rapida occhiata a $N arriccio il naso e mi volti altrove altezzosamente.~
+    OthersFound $n rivolgendo una rapida occhiata a $N arriccia il naso per poi voltarsi altezzosamente.~
+    VictFound   $n mi rivolge una rapida occhiata prima di arricciare educatamente il naso e voltarsi altezzosamente.~
+EndMessages
+End
+
+#SOCIAL
+Italian     snort sbuffa sbuffo~
+English     snort sbuffa sbuffo~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sbuffo nervosamente.. Snort.~
+    OthersNoArg $n sbuffa nervosamente..~
+    CharFound   Sbuffo nervosamente all'indirizzo di $N.~
+    OthersFound $n sbuffa nervosamente all'indirizzo di $N.~
+    VictFound   $n sbuffa nervosamente nei miei confronti~
+EndMessages
+End
+
+#SOCIAL
+Italian     sofferente malato~
+English     sick~
+Intention   INTENT_NEUTRAL
+Expression  infelice ~
+Smiles      :(( :-((~
+Messages
+    CharNoArg   Stringo gli occhi mentre il dolore mi segna il volto.~
+    OthersNoArg $n chiude gli occhi mentre il suo volto viene adombrato dal dolore.~
+    CharFound   Guardo $N con occhi pieni di dolore.~
+    OthersFound $n guarda $N con gli occhi pieni di dolore.~
+    VictFound   $n mi guarda, gli occhi pieni di dolore .~
+EndMessages
+End
+
+#SOCIAL
+Italian     malefico~
+English     ihihihi~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sogghigno maleficamente.~
+    OthersNoArg $n sogghigna maleficamente.~
+    CharFound   Sogghigno maleficamente verso $N.~
+    OthersFound $n sogghigna maleficamente verso $N.~
+    VictFound   $n soghigna maleficamente guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     solletico solleticare~
+English     tickle~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Chi voglio solleticare?~
+    OthersNoArg $n agita le dita nervosamente, forse vuole solleticare qualcuno.~
+    CharFound   Faccio il solletico a $N.~
+    OthersFound $n fa il solletico a $N.~
+    VictFound   $n mi fa il solletico - hee hee hee.~
+    CharAuto    AHAHAHAHAHAHAHAH!!~
+    OthersAuto  $n si solletica ridendo a crepapelle.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sopracciglio~
+English     eyebrow~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sollevo un sopracciglio perpless$x.~
+    OthersNoArg $n solleva un sopracciglio perpless$x.~
+    CharFound   Sollevo un sopracciglio verso $N.~
+    OthersFound $n solleva un sopracciglio guardando $N.~
+    VictFound   $n solleva un sopracciglio guardandomi~
+EndMessages
+End
+
+#SOCIAL
+Italian     sorpreso sorpresa~
+English     amazed~
+Intention   INTENT_NEUTRAL
+Expression  sorpreso ~
+Smiles      :o :-o~
+Messages
+    CharNoArg   Spalanco gli occhi dalla sorpresa!~
+    OthersNoArg $n spalanca gli occhi dalla sorpresa!~
+    CharFound   Spalanco gli occhi guardando $N.~
+    OthersFound $n spalanca gli occhi guardando $N.~
+    VictFound   $n spalanca gli occhi guardandomi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sorridi sorrido~
+English     smile~
+Intention   INTENT_FRIENDLY
+Expression  sorridendo ~
+Smiles      :) :-) =) =-)~
+Messages
+    CharNoArg   Distendo le labbra in un sorriso.~
+    OthersNoArg $n sorride lievemente.~
+    CharFound   $M volgo un sorriso.~
+    OthersFound $n volge a $N un sorriso.~
+    VictFound   $n mi guarda sorridendo.~
+    CharAuto    Socchiudo gli occhi dando al mio Ego il buongiorno con un sorriso interiore..~
+    OthersAuto  $n batte lentamente le palpebre abbozzando un sorriso compiaciuto.~
+EndMessages
+End
+
+#SOCIAL
+Italian     scusa scuso scusarsi~
+English     sorry~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Chiedo perdono per l'accaduto.~
+    OthersNoArg $n chiede perdono per l'avvenuto.~
+    CharFound   $M chiedo perdono a $N per l'accaduto.~
+    OthersFound $n chiede il perdono a $N.~
+    VictFound   $n mi chiede perdono per il suo comportamento.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sorrisone~
+English     bigsmile~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Sfodero un sorriso abbagliante!~
+    OthersNoArg $n sfodera un sorriso abbagliante!~
+    CharFound   Sfodero a $N un sorriso abbagliante!~
+    OthersFound $n sfodera un sorriso abbagliante a $N! ~
+    VictFound   $n mi sfodera un abbagliante sorriso!.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sigh sospira sospiro~
+English     sigh sospira~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Sospiro.. Ahimè.~
+    OthersNoArg $n sospira.. Ahimè.~
+    CharFound   Sospiro guardando $N..~
+    OthersFound $n sospira guardando $N.~
+    VictFound   $n sospira guardandomi..~
+EndMessages
+End
+
+#SOCIAL
+Italian     spallucce ignoro ignorare infischio~
+English     shrug~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Alzo le spalle..~
+    OthersNoArg $n alza le spalle..~
+    CharFound   Alzo le spalle in risposta a $N.~
+    OthersFound $n alza le spalle in risposta a $N.~
+    VictFound   $n alza le spalle in mia risposta $N.~
+EndMessages
+End
+
+#SOCIAL
+Italian     sputa sputo sputare~
+English     spit~
+Intention   INTENT_AGGRESSIVE
+Expression  sputando ~
+Smiles      :# :-#~
+Messages
+    CharNoArg   Chino sprezzantemente il capo e sputo in terra con rabbia.~
+    OthersNoArg $n china il capo e sputa sprezzantemente in terra.~
+    CharFound   Sputo sprezzantemente in terra vicino a $N.~
+    OthersFound $n sputa sprezzantemente in terra vicino a $N.~
+    VictFound   $n sputa sprezzantemente in terra vicino a me!~
+    CharAuto    Con un moto di disprezzo sputo in terra.. E mi becco un piede!~
+    OthersAuto  $n si sputa su un piede senza accorgersene!~
+EndMessages
+End
+
+#SOCIAL
+Italian     stanco stanchezza~
+English     tired~
+Intention   INTENT_NEUTRAL
+Expression  stanco ~
+Smiles      :v :-v~
+Messages
+    CharNoArg   Distendo stancamente le braccia mentre sbadiglio..~
+    OthersNoArg $n distende le braccia sbadigliando stancamente..~
+    CharFound   Distendo le braccia sbadigliando in faccia a $N.~
+    OthersFound $n distende le braccia sbadigliando in faccia a $N.~
+    VictFound   $n distende le braccia sbadigliando in faccia a me!~
+EndMessages
+End
+
+#SOCIAL
+Italian     stiracchia stiracchio allungo~
+English     stretch~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Allungo gambe e braccia stiracchiandomi pigramente.. va meglio, car$x?~
+    OthersNoArg $n allunga gambe e braccia stiracchiandosi pigramente..~
+    CharFound   Mi stiracchio appoggiandomi a $N.~
+    OthersFound $n si stiracchia appoggiandosi a $N.~
+    VictFound   $n si stiracchia appoggiandosi a me!~
+EndMessages
+End
+
+#SOCIAL
+Italian     stordito sbalordito~
+English     stunned~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi sento un po' stordit$x.~
+    OthersNoArg $n sembra un po' stordit$x..~
+    CharFound   Sono letteralmente stordit$x dalle parole di $N.~
+    OthersFound $n sembra letteralmente stordit$x dalle parole di $N.~
+    VictFound   $n sembra letteralmente stordit$x dalle mie parole.~
+EndMessages
+End
+
+#SOCIAL
+Italian     stringi stringo stringere~
+English     sweep~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Chi potrei stringere?~
+    OthersNoArg $n cammina a braccia aperte in cerca di qualcuno da stringere.~
+    CharFound   Stringo $N  al petto con ogni forza.~
+    OthersFound $n stringe $N a sé.~
+    VictFound   $n mi stringe al petto con ogni forza.~
+    CharAuto    Mi abbraccio forte forte forte.. Che bello che sono nat$x.~
+    OthersAuto  $ si abbraccia forte dondolandosi anche un po'.~
+EndMessages
+End
+
+#SOCIAL
+Italian     strofina strofino strofinare nocche scalpo~
+English     rub~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   A chi potrei 'fare lo scalpo'?~
+    OthersNoArg $n osserva con fare poco rassicurante le teste dei presenti..~
+    CharFound   Strofino con forza le nocche sulla testa di $N! AHI!~
+    OthersFound $n strofina con forza le nocche sulla testa di $N! AHI!~
+    VictFound   $n strofina con forza le nocche sulla mia testa! ARGH!~
+    CharAuto    Strofino con forza le nocche sulla mia testa..è piacevole?~
+    OthersAuto  $n strofina con forza le nocche sulla sua testa.. è piacevole?~
+EndMessages
+End
+
+#SOCIAL
+Italian     strozza strozzo strozzare~
+English     throttle~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Umh.. chi posso strozzare?~
+    OthersNoArg $n s'aggira con sguardo poco rassicurante..~
+    CharFound   Strozzo $N finché non diventa blu in volto!~
+    OthersFound $n strozza $N finché non diventa blu in volto!~
+    VictFound   $n mi strozza finché non mi manca il respiro! Aiut..!~
+    CharAuto    Mi.. strozzo con le mie stesse mani.. Ottimo direi!~
+    OthersAuto  $n cerca di strozzarsi con le sue stesse mani.~
+EndMessages
+End
+
+#SOCIAL
+Italian     svieni svengo svenire~
+English     swoon~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Svengo.. ahi, il pavimento è duro..~
+    OthersNoArg $n sviene improvvisamente..~
+    CharFound   Svengo improvvisamente guardando $N!~
+    OthersFound $n sviene improvvisamente guardando $N.~
+    VictFound   $n sviene improvvisamente.. tra le mie braccia..~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'T'
+
+#SOCIAL
+Italian     taptap impaziente impazienza~
+English     taptap~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Incrocio le braccia tamburellando impaziente.~
+    OthersNoArg $n incrocia le braccia e tamburella impaziente.~
+    CharFound   Incrocio le braccia e tamburello impaziente guardando $N.. allora?~
+    OthersFound $n incrocia le braccia e tamburella impaziente guardando $N.. allora?~
+    VictFound   $n incrocia le braccia  e tamburella impaziente guardandomi.. allora?~
+EndMessages
+End
+
+#SOCIAL
+Italian     tartaruga~
+English     turtle~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Rannicchio la testa schiacciando il collo nelle spalle.~
+    OthersNoArg $n rannicchia la testa schiacciando il collo nelle spalle.~
+    CharFound   Rannicchio la testa schiacciando il collo nelle spalle guardando di sottecchi $N.~
+    OthersFound $n rannicchia la testa schiacciando il collo nelle spalle guardando di sottecchi $N.~
+    VictFound   $n rannicchia la testa schiacciando il collo nelle spalle guardandomi di sottecchi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     tempie massaggio~
+English     temple~
+Intention   INTENT_FRIENDLY
+Messages
+    CharNoArg   Mi massaggio le tempie.. ahh.. meglio ora..~
+    OthersNoArg $n si massaggia lentamente le tempie.~
+    CharFound   Massaggio lentamente le tempie a $N.. devo farmi perdonare qualcosa eh?~
+    OthersFound $n massaggia lentamente le tempie a $N.. ne vorresti anche tu?~
+    VictFound   $n mi massaggia lentamente le tempie.. mmm.. che sollievo..~
+EndMessages
+End
+
+#SOCIAL
+Italian     testa no negare nego~
+English     shake~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Scuoto la testa.~
+    OthersNoArg $n scuote la testa.~
+    CharFound   Scuoto la testa verso $N.~
+    OthersFound $n scuote la testa in direzione di $N.~
+    VictFound   $n scuote la testa verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     blblbl linguaccia versaccio~
+English     blblbl~
+Intention   INTENT_AGGRESSIVE
+Messages
+    CharNoArg   Dispettosamente faccio una linguaccia.~
+    OthersNoArg $n fa una linguaccia.~
+    CharFound   Faccio una linguaccia a $N.~
+    OthersFound $n fa una linguaccia a $N.~
+    VictFound   $n mi fa una linguaccia!~
+EndMessages
+End
+
+#SOCIAL
+Italian     torvo cupo~
+English     grim~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi guardo attorno in maniera torva.~
+    OthersNoArg $n si guarda attorno in maniera torva..~
+    CharFound   Guardi $N torv$x in volto.~
+    OthersFound $n guarda $N torv$x in volto.~
+    VictFound   $n mi guarda, torv$x in volto.~
+EndMessages
+End
+
+#SOCIAL
+Italian     tossicchia tossicchio tossicchiare~
+English     sneeze~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Tossicchio discretamente.~
+    OthersNoArg $n tossicchia discretamente.~
+    CharFound   Tossicchio discretamente guardando sottecchi $N.~
+    OthersFound $n tossicchia discretamente guardando $N.~
+    VictFound   $n tossicchia discretamente guardandomi sottecchi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     trema tremo tremare~
+English     shiver~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Tremo come una foglia.~
+    OthersNoArg $n trema come una foglia.~
+    CharFound   Tremo come una foglia.~
+    OthersFound $n trema come una foglia.~
+    VictFound   $n trema come una foglia.~
+    CharAuto    Mi guardo e tremo come una foglia.~
+    OthersAuto  $n si guarda e trema, si fa paura!!~
+EndMessages
+End
+
+#SOCIAL
+Italian     triste tetro malinconia malinconico~
+English     dreary~
+Intention   INTENT_NEUTRAL
+Expression  tristemente ~
+Smiles      :( :-(~
+Messages
+    CharNoArg   Socchiudo gli occhi malcelando la mia tristezza con un lieve sospiro.~
+    OthersNoArg $n china mestamente il capo con un lievissimo sospiro.~
+    CharFound   Guardo $N con occhi tristi.~
+    OthersFound $n guarda $N con la tristezza in volto.~
+    VictFound   $n mi guarda sospirando con tristezza.~
+EndMessages
+End
+
+#SOCIAL
+Italian     tronfio pavone pavoneggiarsi~
+English     strut~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Tiro in fuori il petto ed avanzo tronfiamente!~
+    OthersNoArg $n tira in fuori il petto ed avanza tronfiamente!.~
+    CharFound   Tiro in fuori il petto ed avanzi tronfiamente verso $N!~
+    OthersFound $n tira in fuori il petto ed avanza tronfiamente verso $N!.~
+    VictFound   $n tira in fuori il petto ed avanza tronfiamente verso di me!~
+EndMessages
+End
+
+#SOCIAL
+Italian     tsk supponente tze~
+English     tsk~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Faccio una faccia supponente dicendo a denti stretti: Tsk tsk tsk..~
+    OthersNoArg $n fa una faccia supponente dicendo a denti stretti: Tsk tsk tsk.~
+    CharFound   Guardo $N supponente dicendo: Tsk tsk tsk..~
+    OthersFound $n guarda  $N con aria supponente dicendo: Tsk tsk tsk..~
+    VictFound   $n mi guarda supponente dicendo: Tsk tsk tsk..~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'U'
+
+#SOCIAL
+Italian     ufff sbuffare noia annoiato~
+English     growl~
+Intention   INTENT_NEUTRAL
+Expression  sbuffando ~
+Smiles      := :-=~
+Messages
+    CharNoArg   Sbuffo.. che noia!~
+    OthersNoArg $n sbuffa brontolando..~
+    CharFound   Sbuffo verso $N.~
+    OthersFound $n sbuffa verso $N.~
+    VictFound   $n sbuffa verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     ugh deglutire inghiottire~
+English     ugh~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Deglutisco socchiudendo gli occhi.. esclamando: Ugh!"~
+    OthersNoArg $n deglutisce socchiudendo gli occhi.. esclamando: Ugh!"~
+    CharFound   Deglutisco lievemente sorpres$x verso $N.~
+    OthersFound $n deglutisce lievemente sorpres$x verso $N.~
+    VictFound   $n deglutisce lievemente sorpres$x verso di me.~
+EndMessages
+End
+
+#SOCIAL
+Italian     umilio umiliare~
+English     abase~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Mi umilio strisciando per terra!~
+    OthersNoArg $n si umilia strisciando per terra!~
+    CharFound   Mi umilo strisciando ai piedi di $N!~
+    OthersFound $n si umilia strisciando ai piedi di $N.~
+    VictFound   $n si umilia strisciando ai miei piedi.~
+EndMessages
+End
+
+#SOCIAL
+Italian     unghie mangiucchiare~
+English     nail~
+Intention   INTENT_NEUTRAL
+Messages
+    CharNoArg   Comincio a mangiarmi nervosamente le unghie.~
+    OthersNoArg $n comincia a mangiarsi nervosamente le unghie.~
+    CharFound   Mi mangio nervosamente le unghie fissando $N.~
+    OthersFound $n si mangia nervosamente le unghie fissando $N.~
+    VictFound   $n si mangia nervosamente le unghie fissandomi.~
+EndMessages
+End
+
+
+*-------------------------------
+* SOCIALI LETTERA  'Y'
+
+#SOCIAL
+Italian     yawn sbadiglio sbadigliare~
+English     yawn~
+Intention   INTENT_NEUTRAL
+Expression  sbadigliando ~
+Smiles      :V :-V :v :-v~
+Messages
+    CharNoArg   Apro lentamente la bocca in un lungo sbadiglio annoiato..~
+    OthersNoArg $n sbadiglia lentamente mostrando la sua noia..~
+    CharFound   Sbadiglio lentamente verso $N.~
+    OthersFound $n sbadiglia lentamente verso $N.~
+    VictFound   $n sbadiglia lentamente verso di me..~
+EndMessages
+End
+
+
+#END

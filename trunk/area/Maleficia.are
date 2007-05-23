@@ -1,0 +1,2304 @@
+#AREA
+Name         Maleficia~
+Author       Copper (Jamirithiana)~
+Color        AT_CYAN ciano~
+LevelRange   5 15
+ResetMsg1    Sento fischiare il vento tra le foglie di questo luogo sinistro..~
+Economy      0 35006290
+Vnums        3500 3599
+End
+
+
+#MOBILES
+#3500
+zingara creatura piccola~
+una zingara~
+Un tintinnio leggero rivela la presenza di una piccola creatura..~
+Si muove lentamente ma tutto di lei racconta che è capace della più agile
+sveltezza quando è il momento.. Non fissare i suoi occhi a lungo..
+~
+69 98824 -570 C
+8 10 1 8d10+80 2d6+1
+800 3575
+8 8 1
+12 13 13 18 13 13 18
+0 0 0 0 0
+0 2 0 0 1 1 1
+0 0 263725 0 0 0 1024 1
+#3501
+figura ammantata sinistra~
+una sinistra figura~
+Lentamente si materializza accanto a te una sinistra figura..~
+Completamente avvolta nel suo scuro mantello puoi solo vederle gli occhi infiammati..~
+97 0 -500 C
+8 15 6 5d7+55 1d10+4
+100 800
+8 8 0
+15 13 13 15 15 13 13
+0 0 0 0 0
+88 3 0 0 1 1 0
+0 0 1775 0 0 0 0 0
+#3502
+incappucciato individuo~
+un individuo incappucciato~
+Un individuo incappucciato ti sta fissando.~
+Impossibile definire la razza alla quale appartiene questo misterioso individuo, poichè i suoi
+tratti sono nascosti dal cappuccio.
+~
+131 65536 500 C
+8 17 6 1d12+47 1d8+0
+0 800
+5 5 0
+15 13 13 15 15 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1735 0 0 0 64 524290
+#3503
+uomo cameriere~
+un cameriere~
+Un uomo alto e robusto sta preparando una bibita.~
+E' alto e robusto ma dall'aspetto socievole. Abilissimo a mescere i liquidi e
+a preparare delle bevande gustose.
+~
+67 0 400 C
+10 8 1 1d12+200 2d8+1
+1500 7000
+8 8 0
+20 15 15 20 20 13 13
+0 0 0 0 0
+0 3 0 0 1 1 1
+0 0 1775 0 0 0 192 524291
+> greet_prog 100~
+say a $n Avete mai provato una specialità simile?
+~
+> speech_prog mai no~
+say a $n Dite sul serio?
+shake
+say a $n Allora occorre rimediare.. Immediatamente.
+~
+> speech_prog certo si sicuro ah ah~
+say a $n Si? Quindi posso servirvela!
+wink $n
+~
+|
+#3504
+individuo elfo malinconico bardo~
+un bardo elfico~
+Un individuo dall'aspetto malinconico è seduto ad un tavolo..~
+Osservandolo attentamente riconosci le fattezze elfiche nei suoi tratti. Non
+sembra molto portato alla socievolezza..
+~
+75 8 600 C
+8 13 3 2d6+92 2d6+3
+10 3750
+6 6 0
+12 18 18 10 10 10 10
+0 0 0 0 0
+1 2 0 0 1 1 1
+0 0 1775 256 0 1048576 80 524288
+> greet_prog 57~
+if ismob($n)
+else
+  emote alza gli occhi al cielo.. Ora li pianta dritti nei tuoi.
+  grumble
+  say a $n E cos'avete da guardare, ora?
+  emote si accascia sul tavolo posando il capo tra le braccia incrociate..
+  snore
+endif
+~
+|
+#3505
+figura massiccia adepto male~
+un adepto del male~
+La massiccia figura di un adepto del male ti sta guardando.~
+Istruito alla lotta fin dalla tenera età, lo capisci perchè.. Ops! Attacca a vista..
+~
+97 33448 -1000 C
+16 12 4 5d7+190 5d7+4
+10 4000
+8 8 0
+18 10 10 16 18 8 10
+-5 0 0 -3 0
+0 3 0 0 1 1 1
+0 0 165 8192 256 1048577 96 524291
+> greet_prog 100~
+if ispg ($n)
+  say a $n Tu non sei stato invitato in questo posto, $n!
+  growl $n
+endif
+~
+|
+#3506
+feroce assassino individuo~
+un feroce assassino~
+Un feroce assassino ti fissa.. Ha la schiuma alla bocca..~
+E' uno dei protettori del luogo.. Ed è inferocito.. Scappa..
+~
+97 520 -1000 C
+10 15 3 2d6+130 2d6+2
+2000 2000
+8 8 0
+18 13 13 13 20 8 13
+0 0 0 0 0
+0 3 0 0 1 1 0
+0 0 1775 0 0 0 128 524289
+> all_greet_prog 100~
+if ispg($n)
+  emote ringhia
+  yell Creature di Maleficia unitevi.. Che l'arcano resti a noi!
+endif
+~
+|
+#3507
+sacerdote male sagoma~
+il sacerdote del male~
+S'erige dal decaduto trono.. Una grossa sagoma nera..~
+L'ombra l'avvolge ma è lui a comandarla.. Gira gli occhi di brace direttamente
+nei tuoi.. Sei davanti al sacerdote del male..
+~
+35 684 -1000 C
+15 10 1 6d4+170 4d7+4
+3500 8000
+8 8 0
+20 18 16 16 20 10 16
+0 0 0 0 0
+88 3 0 0 68356123 1 1
+0 0 13 0 0 0 96 524291
+> greet_prog 100~
+say a $n Benvenuto, $n..
+grin
+say a $n Hai mai pensato al momento della tua morte?
+~
+|
+#3508
+locandiere proprietario uomo~
+il locandiere~
+Seduto ad una larga scrivania c'è un uomo che scrive qualcosa su un vecchio libro.~
+E' il locandiere, te ne accorgi osservando con più attenzione i suoi abiti.
+Alza appena la testa i suoi grandi occhi ti sorridono amabilmente.. E' un
+perfetto uomo d'affari.
+~
+7 0 0 C
+10 0 0 1d1+88 2d6+2
+50 0
+8 8 0
+13 13 13 13 13 13 13
+0 0 0 0 0
+0 2 0 0 1 1 0
+0 0 141 0 0 1048576 0 2
+
+#0
+
+
+#OBJECTS
+#3500
+bianca mezzaluna osso orecchino~
+una mezzaluna d'osso~
+Spicca nella polvere il bianco di un oggetto d'osso..~
+E' un orecchino d'osso a forma di mezzaluna; molto ben tagliato ed elegante.
+~
+9 524356 65537
+4 6 0 0
+1 10 1
+A
+2 1
+#3501
+birra verde bicchiere~
+un bicchiere di birra~
+Scorgi un largo bicchiere di birra, qui.~
+E' una birra fresca..
+~
+17 0 16385
+10 10 4 0
+1 10 1
+#3502
+registro~
+il registro della locanda~
+Un vecchio registro è stato lasciato qui, aperto..~
+Le vecchie pagine scricchiolano non appena le tocchi..~
+12 0 16385
+0 0 0 0
+3 35 3
+A
+3 2
+A
+12 10
+#3503
+chiave nera~
+una strana chiave nera~
+Una vecchia chiave nera attira la tua attenzione.~
+Lo smalto nero che la ricopre non consente di specificare di che metallo sia
+composta.
+~
+18 524292 16385
+0 0 0 0
+2 0 0
+E
+chiave~
+E' molto vecchia e ricoperta di arcani graffiti sbiaditi..
+~
+E
+graffiti~
+Non riesci a decifrare gli strani simboli.
+~
+#3504
+enorme alambicco~
+un enorme alambicco~
+Al centro della stanza c'è un enorme alambicco di vetro..~
+Ribolle di continuo, al suo interno, una strana sostanza verdastra..
+Qualcosa galleggia in superficie..~
+15 4097 0
+190 0 0 0
+90 0 0
+E
+qualcosa~
+Sembra una chiave, ma il liquido si muove troppo velocemente per poterlo dire con certezza.~
+E
+enorme alambicco~
+Vari tubi di vetro sono ad esso collegati e terminano in ampolle capienti.~
+#3505
+chiave osso bianca~
+una bianca chiave d'osso~
+Contrasta con lo scuro suolo questa piccola chiave bianca..~
+E' completamente fatta d'osso ed è sottile.
+~
+18 524294 16385
+0 0 0 0
+2 0 0
+#3506
+cappa nero panno~
+una cappa di panno nero~
+Noti, appallottolato in terra, un lungo panno nero..~
+Dispiegandolo con cura ti rendi conto che si tratta di una cappa di panno nero.
+~
+9 70 1025
+10 4 0 0
+3 3000 300
+A
+3 -2
+A
+1 2
+A
+18 3
+A
+19 1
+> wear_prog 100~
+mpforce $n Ahahahahahaha
+~
+|
+#3507
+visiera nera scura~
+una visiera scura~
+Noti in terra una visiera scura.. proietta strane ombre tutt'intorno..~
+E' molto lucida.
+~
+9 524294 131073
+10 3 0 0
+2 5700 570
+A
+19 1
+A
+18 1
+A
+1 -2
+A
+31 -2
+A
+25 -2
+A
+3 -2
+A
+13 10
+#3508
+scettro perversione malevolo~
+lo scettro della perversione~
+Il suolo rifulge dei bagliori di uno scettro malevolo..~
+Lo scettro mostra intagli strani e misteriosi ed emana luci intermittenti..
+~
+9 524311 16385
+8 10 0 0
+6 190000 19000
+A
+12 30
+A
+13 10
+A
+19 2
+#3509
+cavigliere dorate paio~
+un paio di cavigliere dorate~
+Un paio di cavigliere dorate è stato dimenticato qui da qualcuno..~
+Graziosi monili per caviglie.. Tutto qua.~
+9 262144 65
+8 6 0 0
+6 10 1
+A
+2 2
+A
+13 10
+#3510
+parabraccia paio neri guardia~
+un paio di parabraccia neri~
+Un paio di parabraccia di metallo nero è stato lasciato qui da qualcuno..~
+Sono i tipici parabraccia delle sentinelle..
+~
+9 524308 257
+8 8 0 0
+4 6000 600
+A
+19 1
+A
+18 1
+#3511
+insegna~
+un'insegna~
+Una vecchia insegna è stata intagliata nel legno di un albero:
+
+                   **************************
+                   ***                    ***
+                   ***  M A L E F I C I A ***
+                   ***                    ***
+                   **************************
+~
+E' vecchissima di secoli..
+~
+12 0 0
+0 0 0 0
+1 0 0
+
+#3512
+statua arpy arpia ~
+la statua di Arpy~
+Il buio ti mostra gli occhi lucenti di una bella statua raffigurante un'arpia..
+Si, ti sta guardando..~
+~
+66 4161 0
+0 0 0 0
+1 0 0
+E
+statua arpia Arpy~
+E' Arpy, la leggendaria arpia dal corpo di donna e dalle grandi ali nere. L'intaglio della
+veste le scopre appena una caviglia.. Con solenne garbo ma magnifica forza, Arpy schiaccia
+sotto il piede una grossa palla grigia: una luna morta.~
+E
+luna grigia morta palla~
+E' il simbolo della mancata emulazione. La luna morta nel pallore bigio del trapasso ad opera
+della magnificenza della forza.~
+
+#3513
+collana denti mucchietto strano~
+una collana di denti~
+Uno strano mucchietto di denti giace tra le ossa..~
+~
+13 262144 5
+0 0 0 0
+1 0 0
+E
+denti~
+No.. Nessuno di essi è di origine animale..~
+A
+0 0
+
+#3514
+chiave veldrin~
+una rozza chiave di ferro~
+Noti una rozza chiave di ferro arruginita..~
+E' mezzo divorata dalla ruggine..chissa' se funziona ancora.
+~
+18 524294 16385
+0 0 0 0
+2 0 0
+#3550
+object oggetto finale recente~
+un nuovo oggetto creato di recente~
+Qualche Dio ha abbandonato qui un nuovo oggetto dopo averlo creato.~
+~
+13 1073741824 0
+0 0 0 0
+1 0 0
+#0
+
+
+#ROOMS
+#3500
+Le pianure~
+Sei nel bel mezzo delle pianure.. La vastità del luogo quasi smorza il
+respiro e il vento ulula indisturbato frustando la vegetazione. Non sei il
+primo ad attraversare queste lande.. Qualcuno è già stato qui ed ha percorso
+questi sentieri lasciandosi dietro un'invisibile ma certa traccia.. La strada
+da seguire non è delle più agevoli e forse non conduce in nessun luogo degno
+di essere visitato..
+~
+0 0 2
+D0
+Verso le montagne del Regno dei Nani~
+~
+0 0 4000
+D2
+Un viottolo.~
+~
+0 0 3501
+D6
+Oltre le pianure
+~
+~
+0 0 6500
+S
+
+#3501
+Un viottolo~
+Prosegui per questo piacevole viottolo. L'ombra degli alti alberi disposti ad
+entrambi i lati rende una gradevole frescura alla tua passeggiata. La strada
+continua a snodarsi a sud, ammantata da un sereno senso di quiete.
+~
+0 0 2
+D0
+Le verdi distese pianeggianti.~
+~
+0 0 3500
+D2
+~
+~
+0 0 3502
+D6
+Oltre il sentiero
+~
+~
+0 0 12001
+S
+#3502
+L'incrocio sulla cima del colle~
+Eccoti giunto sulla cima del colle: qui varie strade s'incrociano diramandosi.
+Non molto lontano, a ponente, si estende nella sua meravigliosa immensità la
+cittadina di Darkhaven mentre da est giunge l'odoroso saluto delle chiome dei
+pioppi e delle querce del boschetto sacro; un sentiero brullo si stira a sud
+seguendo la rotta del Regno dei nani mentre a nord una viuzza orlata da file
+di alberi porta alle immense e sconfinate pianure aperte. Un piccolo viottolo
+a nord-est conduce alla base di una collina e in lontananza scorgi la bocca
+di una piccola caverna.
+~
+0 0 4
+D0
+Un viottolo.~
+~
+0 0 3501
+D1
+Le querce e i pioppi del bosco sacro..~
+~
+0 -1 8904
+D2
+~
+~
+0 0 3591
+D3
+La periferia di Darkhaven.~
+~
+0 0 3503
+> speech_prog p Maleficia~
+if ispg($n)
+  mpechoat $n &RQuesto è un luogo di creature perverse..
+  mpechoat $n &RE' un reame occulto e non sopravviverai..
+endif
+~
+|
+S
+#3503
+La periferia di Darkhaven~
+La periferia della città di Darkhaven: la prima città di questa terra:
+le sue mura tutt'intorno.. Ad ovest uno dei cancelli protettivi della città
+e dietro di esso il clamore urbano, le piazze, i mercati, la vita.. Ad est
+invece, la silente quiete della foresta..
+~
+0 4 1
+D1
+Parecchie strade s'incrociano sulla cima del colle.
+~
+~
+0 0 3502
+D3
+Il grande cancello orientale di Darkhaven.
+~
+~
+0 0 21112
+D8
+Una viuzza s'inserisce nel profondo della foresta.
+~
+~
+0 -1 3586
+S
+#3504
+Un lungo ponte di sardonice~
+E' comprensibile la riluttanza che affligge la tua mente al pensiero di percorrere quest'antico,
+lungo ponte di splendida sardonice scura.. La foresta nera ti osserva: è viva e pensosa e senti
+i suoi mille occhi addosso anche in questo momento.. Le dicerie locali narrano di segreti mai
+svelati custoditi nel cuore del circolo del maleficio.. Nessuno, tra coloro di cui sia abbia
+notizia certa siano partiti un tempo alla ricerca di essi ha mai fatto ritorno..
+~
+0 0 1
+D0
+Le possenti merlature della città di Darkhaven.~
+~
+0 -1 21075
+D2
+Comincia la foresta nera..~
+~
+0 0 3505
+D5
+Una guglia è visibile da qui.. Ma non certo raggiungibile da qui..~
+~
+33554432 -1 3590
+E
+cartello~
+Un cartello di legno recita:
+
+       ******************************************************
+     **             CHE IL CIELO TI SORRIDA:                 **
+     *                                                        *
+     ** VIZIOSE CREATURE POPOLANO IL SUD DA TEMPO IMMEMORE.. **
+      *                                                     *
+     **             PROCEDI A TUO RISCHIO.                   **
+       ******************************************************
+~
+> rand_prog 3~
+mpecho Fischia sinistramente il vento tra i cardini dell'antico ponte..
+~
+> speech_prog p Cerco la via per Maleficia..~
+if ispg($n)
+  mpechoat $n &RQuesto è un luogo di creature perverse..
+  mpechoat $n &RE' un reame occulto e non sopravviverai..
+endif
+~
+|
+S
+#3505
+L'entrata della foresta nera~
+Di nuovo, voltando lo sguardo, la cattedrale di Darkhaven sembra richiamarti a sè
+esortandoti a tornare indietro.. con enni silenziosi come dipinti sulle sue austere
+mura.. Come se fosse raccolta in preghiera per te proprio ora.. Guardando a sud avverti
+un forte senso di disagio, disperazione e a tratti malinconici lamenti scuotono l'aria
+tacendo subito dopo.. La gente in città racconta storie orrende di questi misteriosi
+luoghi oscuri.. E non c'è mai stato qualcuno che sia tornato per smentirle..
+Che cosa conti di fare? Avanzi o torni indietro?
+~
+0 0 3
+D0
+La cattredale di Darkhaven sembra richiamarti indietro..
+~
+~
+0 0 3504
+D2
+E le tenebre s'addensano..
+~
+~
+0 0 3507
+D3
+Una costruzione.
+~
+~
+0 0 3570
+S
+#3506
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 -1 3550
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3509
+S
+#3507
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+L'entrata della foresta nera.
+~
+~
+0 0 3505
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3510
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3508
+S
+#3508
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3507
+D2
+Nient'altro che l'oscurità profonda della foresta nera..~
+~
+0 0 3511
+S
+#3509
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3506
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3512
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3514
+S
+#3510
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3507
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3514
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3516
+S
+#3511
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3508
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3515
+S
+#3512
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3513
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3509
+S
+#3513
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3512
+D1
+Una strada buia.
+~
+~
+0 -1 3584
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3514
+S
+#3514
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3509
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3513
+D2
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3517
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3510
+S
+#3515
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3511
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3516
+D2
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3518
+S
+#3516
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3510
+D1
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3517
+D2
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3519
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3515
+S
+#3517
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3514
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3516
+S
+#3518
+Il cuore del maleficium~
+Ora capisci che le orribili storie sulla foresta nera non erano esagerazioni nè leggende..
+Gli alberi sembrano stirarsi ed allungare i rami come scarnificazioni di arti, pronti a
+richiudere rapidi unghioli e soffocare ogni vita tra le ossute protuberanze.. Un brivido..
+Il terreno appare più livellato in questa parte della foresta.. E molto più umido e scuro..
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3515
+D2
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3522
+S
+#3519
+Il cuore del maleficium~
+Ora capisci che le orribili storie sulla foresta nera non erano esagerazioni nè leggende..
+Gli alberi sembrano stirarsi ed allungare i rami come scarnificazioni di arti, pronti a
+richiudere rapidi unghioli e soffocare ogni vita tra le ossute protuberanze.. Un brivido..
+Il terreno appare più livellato in questa parte della foresta.. E molto più umido e scuro..
+~
+0 1 3
+D0
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 0 3516
+D1
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3520
+D2
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3521
+S
+#3520
+Il cuore del maleficium~
+Ora capisci che le orribili storie sulla foresta nera non erano esagerazioni nè leggende..
+Gli alberi sembrano stirarsi ed allungare i rami come scarnificazioni di arti, pronti a
+richiudere rapidi unghioli e soffocare ogni vita tra le ossute protuberanze.. Un brivido..
+Il terreno appare più livellato in questa parte della foresta.. E molto più umido e scuro..
+~
+0 1 3
+D2
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3523
+D3
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3519
+S
+#3521
+Il cuore del maleficium~
+Ora capisci che le orribili storie sulla foresta nera non erano esagerazioni nè leggende..
+Gli alberi sembrano stirarsi ed allungare i rami come scarnificazioni di arti, pronti a
+richiudere rapidi unghioli e soffocare ogni vita tra le ossute protuberanze.. Un brivido..
+Il terreno appare più livellato in questa parte della foresta.. E molto più umido e scuro..
+~
+0 1 3
+D0
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3519
+D1
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3523
+D2
+Altisonanti cori giungono da questa parte..
+~
+~
+0 0 33900 0
+D3
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3522
+S
+#3522
+Il cuore del maleficium~
+Ora capisci che le orribili storie sulla foresta nera non erano esagerazioni nè leggende..
+Gli alberi sembrano stirarsi ed allungare i rami come scarnificazioni di arti, pronti a
+richiudere rapidi unghioli e soffocare ogni vita tra le ossute protuberanze.. Un brivido..
+Il terreno appare più livellato in questa parte della foresta.. E molto più umido e scuro..
+~
+0 1 3
+D0
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3518
+D1
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3521
+S
+#3523
+Il cuore del maleficium~
+Ora capisci che le orribili storie sulla foresta nera non erano esagerazioni nè leggende..
+Gli alberi sembrano stirarsi ed allungare i rami come scarnificazioni di arti, pronti a
+richiudere rapidi unghioli e soffocare ogni vita tra le ossute protuberanze.. Un brivido..
+Il terreno appare più livellato in questa parte della foresta.. E molto più umido e scuro..
+~
+0 1 3
+D0
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3520
+D1
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 -1 3551
+D3
+L'oscurità s'infittisce lentamente.. turbinando in una massa di vapore denso..
+~
+~
+0 0 3521
+S
+#3524
+Le viscere del monte Presagio~
+Il ventre del monte Presagio.. Più scuro e solitario della gola del mondo, l'interno del
+monte presenta lunghe file di torce ad ardere su ogni parete, come se indicassero la via.
+La luce che emanano è fioca ma il loro insieme consente di visualizzare almeno dov'è che
+stai muovendo i tuoi passi.. Che hai deciso di fare? Prosegui?
+~
+0 9 0
+D0
+Avvolto nelle tenebre..
+~
+~
+0 -1 3525
+D1
+Un passaggio avvolto nell'ombra..
+~
+~
+0 -1 3533
+D4
+Strani odori provengono da questa parte..
+~
+grate~
+15 3505 3531
+S
+#3525
+Le viscere del monte Presagio~
+Il ventre del monte Presagio.. Più scuro e solitario della gola del mondo, l'interno del
+monte presenta lunghe file di torce ad ardere su ogni parete, come se indicassero la via.
+La luce che emanano è fioca ma il loro insieme consente di visualizzare almeno dov'è che
+stai muovendo i tuoi passi.. Che hai deciso di fare? Prosegui?
+~
+0 9 0
+D0
+Avvolto nelle tenebre..
+~
+~
+0 -1 3526
+D2
+Avvolto nelle tenebre..
+~
+~
+0 -1 3524
+D3
+Un passaggio avvolto nell'ombra..
+~
+~
+0 -1 3535
+S
+#3526
+Le viscere del monte Presagio~
+Il ventre del monte Presagio.. Più scuro e solitario della gola del mondo, l'interno del
+monte presenta lunghe file di torce ad ardere su ogni parete, come se indicassero la via.
+La luce che emanano è fioca ma il loro insieme consente di visualizzare almeno dov'è che
+stai muovendo i tuoi passi.. Che hai deciso di fare? Prosegui?
+~
+0 9 0
+D0
+Avvolto nelle tenebre..
+~
+~
+0 -1 3527
+D1
+Un passaggio avvolto nell'ombra..
+~
+~
+0 -1 3537
+D2
+Avvolto nelle tenebre..
+~
+~
+0 -1 3525
+S
+#3527
+Le viscere del monte Presagio~
+Il ventre del monte Presagio.. Più scuro e solitario della gola del mondo, l'interno del
+monte presenta lunghe file di torce ad ardere su ogni parete, come se indicassero la via.
+La luce che emanano è fioca ma il loro insieme consente di visualizzare almeno dov'è che
+stai muovendo i tuoi passi.. Che hai deciso di fare? Prosegui?
+~
+0 9 0
+D0
+Avvolto nelle tenebre..
+~
+~
+0 -1 3528
+D2
+Avvolto nelle tenebre..
+~
+~
+0 -1 3526
+D3
+Un passaggio avvolto nell'ombra..
+~
+~
+0 -1 3539
+S
+#3528
+Le viscere del monte Presagio~
+Il ventre del monte Presagio.. Più scuro e solitario della gola del mondo, l'interno del
+monte presenta lunghe file di torce ad ardere su ogni parete, come se indicassero la via.
+La luce che emanano è fioca ma il loro insieme consente di visualizzare almeno dov'è che
+stai muovendo i tuoi passi.. Che hai deciso di fare? Prosegui?
+~
+0 9 0
+D0
+Avvolto nelle tenebre..
+~
+~
+0 -1 3529
+D1
+Un passaggio avvolto nell'ombra..
+~
+~
+0 -1 3541
+D2
+Avvolto nelle tenebre..
+~
+~
+0 -1 3527
+S
+#3529
+Le viscere del monte Presagio~
+Il ventre del monte Presagio.. Più scuro e solitario della gola del mondo, l'interno del
+monte presenta lunghe file di torce ad ardere su ogni parete, come se indicassero la via.
+La luce che emanano è fioca ma il loro insieme consente di visualizzare almeno dov'è che
+stai muovendo i tuoi passi.. Che hai deciso di fare? Prosegui?
+~
+0 9 0
+D0
+Magari è un'allucinazione visiva ma sembra un fioco barlume quello che da là proviene..
+~
+~
+0 -1 3532
+D2
+Avvolto nelle tenebre..
+~
+~
+0 -1 3528
+D3
+Un passaggio avvolto nell'ombra..
+~
+~
+0 -1 3543
+S
+#3530
+Una lunga caverna rocciosa~
+By now, the water has been totally drained from the tunnel. The chants have
+become frighteningly close. Also of notice in this portion of the tunnel is
+a repugnant stench. That is not to say that the rest of the tunnel didn't
+stink, only that the smell is a bit different and the severity is much worse
+here than there.
+~
+0 265 0
+D0
+The dark tunnel continues...
+~
+~
+0 -1 3556
+D2
+A strange odor emanates from this direction...
+~
+~
+0 -1 3531
+S
+#3531
+Tra strani detriti~
+Orribile.. Ad un più attento esame, e non ci vuole parecchio, ti rendi conto che non sono calcinacci
+nè masserizie ad occupare questo posto.. Sono pezzi d'ossa: una montagna di ossa! Ma chi può aver mai
+gioia nel conservare una così immensa atrocità igienica?
+~
+0 265 0
+D0
+Di qui si torna alla buia galleria..
+~
+~
+0 -1 3530
+D5
+E' l'oscurità che regna sovrana.
+~
+grata~
+2097167 3505 3524
+S
+#3532
+Le viscere del monte Presagio~
+Il percorso sotterraneo che ti ha guidato fin qui si arresta bruscamente in questo punto.
+Le torce brillano ancora ai lati delle pareti e ondeggiano proiettando la luce in modo più
+intenso.. Tanto da mostrarti tracce di sangue sui fianche delle pareti.. Avvicinandoti ad
+osservarle scopri un curioso graffito..
+~
+0 8 0
+D0
+Abituando lo sguardo al buio quella che intravedi somiglia alla sagoma di un'antica scala
+di pietra dura..
+~
+graffito~
+139 -1 3545
+D2
+Si torna nell'oscurità..
+~
+~
+0 -1 3529
+E
+graffito~
+Raffigura un'antica scala in pietra al cui fondo si apre una distesa di ossa ammucchiate
+malamente le une sulle altre..
+~
+S
+#3533
+Un umido passaggio~
+L'aria è pesante e le pareti della galleria, in questa parte delle viscere del monte Presagio,
+gocciolano di una strana sostanza vischiosa.. La luce delle torce non consente di stabilirne
+con precisione il colore ma di sicuro non reca in sè la trasparenza nitida dell'acqua..
+~
+0 9 0
+D0
+Una nicchia nel muro..
+~
+~
+0 -1 3534
+D3
+Prosegue il passaggio sotterraneo..
+~
+~
+0 -1 3524
+S
+#3534
+Un'angusta rientranza~
+L'oscurità troneggia da cima a fondo in questa stretta rientranza nella roccia fredda..
+La luce è fioca ma tutto sommato questa nicchia naturale è un nascondiglio..
+Guarda la fioca luce tremula come dipinge sui fianchi delle mura lingue di ombre lente
+e mutevoli..
+~
+0 9 0
+D2
+Riprende il corso del passaggio sotterraneo..
+~
+~
+0 -1 3533
+S
+#3535
+Un umido passaggio~
+L'aria è pesante e le pareti della galleria, in questa parte delle viscere del monte Presagio,
+gocciolano di una strana sostanza vischiosa.. La luce delle torce non consente di stabilirne
+con precisione il colore ma di sicuro non reca in sè la trasparenza nitida dell'acqua..
+~
+0 9 0
+D0
+Una nicchia nel muro..
+~
+~
+0 -1 3536
+D1
+Prosegue il corso del passaggio sotterraneo..
+~
+~
+0 -1 3525
+S
+#3536
+Un'angusta rientranza~
+L'oscurità troneggia da cima a fondo in questa stretta rientranza nella roccia fredda..
+La luce è fioca ma tutto sommato questa nicchia naturale è un nascondiglio..
+Guarda la fioca luce tremula come dipinge sui fianchi delle mura lingue di ombre lente
+e mutevoli..
+~
+0 9 0
+D2
+Riprende il corso del passaggio sotterraneo..
+~
+~
+0 -1 3535
+S
+#3537
+Un umido passaggio~
+L'aria è pesante e le pareti della galleria, in questa parte delle viscere del monte Presagio,
+gocciolano di una strana sostanza vischiosa.. La luce delle torce non consente di stabilirne
+con precisione il colore ma di sicuro non reca in sè la trasparenza nitida dell'acqua..
+~
+0 9 0
+D0
+Una nicchia nel muro..
+~
+~
+0 -1 3538
+D3
+Prosegue il corso del passaggio sotterraneo..~
+~
+0 -1 3526
+S
+#3538
+Un'angusta rientranza~
+L'oscurità troneggia da cima a fondo in questa stretta rientranza nella roccia fredda..
+La luce è fioca ma tutto sommato questa nicchia naturale è un nascondiglio..
+Guarda la fioca luce tremula come dipinge sui fianchi delle mura lingue di ombre lente
+e mutevoli..
+~
+0 9 0
+D2
+Riprende il corso del passaggio sotterraneo..
+~
+~
+0 -1 3537
+S
+#3539
+Un umido passaggio~
+L'aria è pesante e le pareti della galleria, in questa parte delle viscere del monte Presagio,
+gocciolano di una strana sostanza vischiosa.. La luce delle torce non consente di stabilirne
+con precisione il colore ma di sicuro non reca in sè la trasparenza nitida dell'acqua..
+~
+0 9 0
+D0
+Una nicchia nel muro..
+~
+~
+0 -1 3540
+D1
+Prosegue il corso del passaggio sotterraneo..
+~
+~
+0 -1 3527
+S
+#3540
+Un'angusta rientranza~
+L'oscurità troneggia da cima a fondo in questa stretta rientranza nella roccia fredda..
+La luce è fioca ma tutto sommato questa nicchia naturale è un nascondiglio..
+Guarda la fioca luce tremula come dipinge sui fianchi delle mura lingue di ombre lente
+e mutevoli..
+~
+0 9 0
+D2
+Riprende il corso del passaggio sotterraneo..~
+~
+0 -1 3539
+S
+#3541
+Un umido passaggio~
+L'aria è pesante e le pareti della galleria, in questa parte delle viscere del monte Presagio,
+gocciolano di una strana sostanza vischiosa.. La luce delle torce non consente di stabilirne
+con precisione il colore ma di sicuro non reca in sè la trasparenza nitida dell'acqua..
+~
+0 9 0
+D0
+Una nicchia nel muro..
+~
+~
+0 -1 3542
+D3
+Prosegue il corso del passaggio sotterraneo..
+~
+~
+0 -1 3528
+S
+#3542
+Un'angusta rientranza~
+Darkness envelopes the room from the bottom to the top. The dim spec of light
+that peeks in from the main tunnel of the underground casts strange, twisted
+shapes upon the distorted walls of the umbrageous alcove.
+~
+0 9 0
+D2
+Tornerai nell'ombroso passaggio..
+~
+~
+0 -1 3541
+S
+#3543
+Un umido passaggio~
+L'aria è pesante e le pareti della galleria, in questa parte delle viscere del monte Presagio,
+gocciolano di una strana sostanza vischiosa.. La luce delle torce non consente di stabilirne
+con precisione il colore ma di sicuro non reca in sè la trasparenza nitida dell'acqua..
+~
+0 9 0
+D0
+Una nicchia nel muro..~
+~
+0 -1 3544
+D1
+Prosegue il corso del passaggio sotterraneo..
+~
+~
+0 -1 3529
+S
+#3544
+Un'angusta rientranza~
+Darkness envelopes the room from the bottom to the top. The dim spec of light
+that peeks in from the main tunnel of the underground casts strange, twisted
+shapes upon the distorted walls of the umbrageous alcove.
+~
+0 9 0
+D2
+Tornerai nell'ombroso passaggio..
+~
+~
+0 -1 3543
+S
+#3545
+Un'antica scala di pietra~
+E' lunga e pendente questa scala di pietra e non è possibile comprendere dove conduca..
+L'unica è discenderla.. Tieni la mano sull'arma e tendi l'udito ad ogni gradino..
+L'unica certezza è che essa scivola nel più profondo sottosuolo del monte e forse
+non ci saranno nemmeno tenui fiammelle ardenti ad illuminarti il passo.. Prima di
+proseguire guarda: sulla parete meridionale c'è un curioso disegno.
+~
+0 9 0
+D2
+Si torna nelle tenebre..
+~
+disegno~
+11 -1 3532
+D5
+La discesa verso l'ignoto..
+~
+~
+128 -1 3546
+E
+disegno~
+Scene di osceni sacrifici di innocenti da parte di esseri velati..
+~
+S
+#3546
+Un'antica scala di pietra~
+A momenti trattieni il respiro mentre prosegui la tua discesa lungo questa scala di pietra.
+Ne hai percorso una buona parte.. Puoi voltarti e risalire rapidamente, verso il noto oppure
+proseguire discendendo verso l'ignota gola che hai davanti..
+~
+0 9 0
+D4
+In cima alla scala.~
+~
+128 -1 3545
+D5
+La discesa verso l'ignoto..
+~
+~
+128 -1 3547
+S
+#3547
+Un'antica scala di pietra~
+Il silenzio è avvolgente e quasi soffoca.. Il fondo della scala è a pochi passi da te, ora..
+L'ombra ammanta con il suo spessore oscuro e non ti consente di percepire visivamente quanto
+ti aspetta là, ma una cosa è certa: sei ancora in tempo per voltarti e risalire rapidamente..
+~
+0 9 0
+D4
+La scalinata vista dal basso.
+~
+~
+128 -1 3546
+D5
+Il fondo della scala..
+~
+~
+0 -1 3548
+S
+#3548
+Il fondo della scala di pietra~
+Eccoti giunto.. La scalinata di pietra ti è quasi familiare adesso, tanto che l'hai percorsa
+adagio ed attentamente. L'ambiente che ti accoglie ai piedi della scala è immerso nel buio e
+non puoi proprio indovinarne i confini.. Spingendo le mani davanti a te e ruotando adagio su
+te stesso trovi il nord privo di mura.. Ed è quella l'unica direzione da prendere. Sempre che
+tu non voglia tornare sui tuoi passi..
+~
+0 13 0
+D0
+Procedi a tentoni.. ma la strada è questa. L'unica.
+~
+~
+0 -1 3549
+D4
+La scala di pietra vista dal basso..
+~
+~
+0 -1 3547
+S
+#3549
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D2
+Il fondo dell'antica scala di pietra.
+~
+~
+0 -1 3548
+D6
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3557
+D7
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3558
+S
+#3550
+All'interno della foresta nera~
+Anche il vento che filtra violento tra le cime degli alberi porta con sè un'oscura pesantezza..
+Scricchiolii sinistri si impadroniscono del silenzio e le foglie in terra a tratti s'alzano in un
+mulinello rapido.. cascando al suolo poco dopo e distendendosi di nuovo come un invitante tappeto.
+Dovunque giri lo sguardo la foresta ti attende.. Più scura e fitta che mai.
+~
+0 1 3
+D3
+Nient'altro che l'oscurità profonda della foresta nera..
+~
+~
+0 -1 3506
+S
+#3551
+Davanti al monte Presagio~
+La foresta alle spalle, l'immensità spettrale del famoso monte Presagio davanti..
+Un avvoltoio ne circonda di voli rapidi la cima aguzza e il tuo sguardo ne segue
+i confini obliqui fino ad osservarne la base rocciosa.. Quante storie hai sentito
+su questa montagna..
+~
+0 1 1
+D2
+Attirano come incantamenti, i misteri del monte Presagio..
+~
+boulder~
+7 3503 3552
+D3
+E se hai timore.. E' comprensibile..~
+~
+0 -1 3523
+S
+#3552
+Una lunga caverna rocciosa~
+E' piuttosto strano, ma la temperatura della montagna è piuttosto tiepida anche se umida ed
+a tratti opprimente. Proseguendo a tratti il tunnel pare restringersi, cosicchè ne senti le
+pareti addosso, quasi stridono contro le tue braccia, altre volte s'allarga lasciandoti più
+spazio..
+~
+0 265 0
+D0
+La solenne sagoma del monte Presagio.
+~
+boulder~
+7 3503 3551
+D2
+L'oscura galleria prosegue..
+~
+~
+0 -1 3553
+S
+#3553
+Una lunga caverna rocciosa~
+La caverna prosegue verso il sud e non termina là, te ne accorgi dall'eco del tuo respiro
+riportato indietro dalla nera gola. Le mura della galleria in certi tratti sono bagnate e
+strisciandoci contro rabbrividisci di gocce gelide sulle braccia, e il piede spesso schizza
+acqua pestando numerose pozzanghere.
+~
+0 265 0
+D0
+L'oscura galleria prosegue..
+~
+~
+0 -1 3552
+D2
+L'oscura galleria prosegue..
+~
+~
+0 -1 3555
+S
+#3554
+La distilleria~
+Ma che posto è mai questo? Sembra un laboratorio.. Forse una distilleria: l'ambiente è
+asciutto e ventilato ed è stipato in ogni luogo da ampolle e barattoli di vetro..
+Odori vari si mescolano saturando l'aria probabilmente a causa dei refoli di vapore
+sulfureo che di tanto in tanto che le scure pareti sprigionano come spessa condensa..
+~
+0 9 0
+D4
+Il ritrovo della locanda.~
+trapdoor~
+11 -1 3576
+S
+#3555
+Una lunga caverna rocciosa~
+Le pozzanghere si sono unite, diventando così una sola larga pozza d'acqua gelida e scura.
+Da sud proviene il suono di una cantilena sommessa e il tuo stesso respiro ingrossato la
+copre a tratti..
+~
+0 265 0
+D0
+L'oscura galleria prosegue..
+~
+~
+0 -1 3553
+D2
+L'oscura galleria prosegue..
+~
+~
+0 -1 3556
+S
+#3556
+Una lunga caverna rocciosa~
+Le mura di questa parte della galleria presentano feritoie larghe e spesse e l'acqua le
+investe prosciugando la grossa pozza lasciandone sul pavimento un livello piuttosto basso.
+I suoni dei canti misteriosi e sommessi che ancora provengono da sud man mano si rafforzano
+ad ogni passo..
+~
+0 265 0
+D0
+L'oscura galleria prosegue..
+~
+~
+0 -1 3555
+D2
+L'oscura galleria prosegue..
+~
+~
+0 -1 3530
+S
+#3557
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D0
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3559
+D9
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3549
+S
+#3558
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D0
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3560
+D8
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3549
+S
+#3559
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D2
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3557
+D7
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3561
+S
+#3560
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D2
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3558
+D6
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3562
+S
+#3561
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D7
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3563
+D8
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3559
+S
+#3562
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D6
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3563
+D9
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3560
+S
+#3563
+Il circolo del maleficium~
+Frusta il tuo viso una strana brezza ghiacciata.. Nessuna logica spiega il suo persistere
+eppure c'è e trascina nel suo manto aereo il disagio e l'angoscia.. Tocchi lentamente le
+pareti, a palmo aperto, e incontri nello scorrere dei muri, gli involucri di torce spente
+e fredde: dovrai proseguire nell'oscurità..
+~
+0 9 0
+D0
+Un tenue bagliore giunge da questa direzione..
+~
+~
+0 -1 3564
+D8
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3561
+D9
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3562
+S
+#3564
+Una strana galleria~
+Lo stretto budello s'abbassa in questo punto, divenendo una galleria concava ma più luminosa.
+Le sue mura sono chiare e una luce pulsa da sotto il rivestimento duro che le compone.
+Ti avvicini, tocchi e rabbrividisci indietreggiando: quest'orribile luogo è tappezzato
+totalmente da pezzi di teschio! E chissà quale maligno sortilegio preme tra l'osso e il
+roccioso monte che riveste.. Quella luce intermittente poi.. dà l'illusione che i muri
+si stringano venendoti addosso..
+~
+0 269 0
+D0
+Prosegue l'immonda galleria..
+~
+~
+0 -1 3565
+D2
+Procedi a tentoni.. ma una delle vie è questa.
+~
+~
+0 -1 3563
+S
+#3565
+Una strana galleria~
+Lo stretto budello s'abbassa in questo punto, divenendo una galleria concava ma più luminosa.
+Le sue mura sono chiare e una luce pulsa da sotto il rivestimento duro che le compone.
+Ti avvicini, tocchi e rabbrividisci indietreggiando: quest'orribile luogo è tappezzato
+totalmente da pezzi di teschio! E chissà quale maligno sortilegio preme tra l'osso e il
+roccioso monte che riveste.. Quella luce intermittente poi.. dà l'illusione che i muri
+si stringano venendoti addosso..
+~
+0 265 0
+D0
+Prosegue l'immonda galleria..
+~
+~
+0 -1 3566
+D2
+L'oscura galleria prosegue..
+~
+~
+0 -1 3564
+S
+#3566
+Una strana galleria~
+Lo stretto budello s'abbassa in questo punto, divenendo una galleria concava ma più luminosa.
+Le sue mura sono chiare e una luce pulsa da sotto il rivestimento duro che le compone.
+Ti avvicini, tocchi e rabbrividisci indietreggiando: quest'orribile luogo è tappezzato
+totalmente da pezzi di teschio! E chissà quale maligno sortilegio preme tra l'osso e il
+roccioso monte che riveste.. Quella luce intermittente poi.. dà l'illusione che i muri
+si stringano venendoti addosso..
+~
+0 265 0
+D0
+Di nuovo le tenebre..
+~
+~
+0 -1 3567
+D2
+Prosegue l'immonda galleria..
+~
+~
+0 -1 3565
+S
+#3567
+Il fosso dei sacrifici~
+Strano luogo questo.. Il pavimento lievemente concavo contiene una quantità indescrivibile
+di ossa e resti di esseri viventi.. E' faticoso passarci attraverso, le ossa ti sfiorano e
+spostandosi scricchiolano sinistramente toccandosi le une con le altre.. Ma è necessario
+avanzare se vuoi raggiungere quella strana stanza che ti si presenta alla vista.
+~
+0 9 0
+D2
+Una tenue luce intermittente proviene da quella strana galleria..
+~
+~
+0 -1 3566
+D5
+L'oscurità più fitta..
+~
+~
+0 -1 3568
+S
+#3568
+La stanza del sabba~
+Un'immneso salone illuminato da vivide torce poste tutt'intorno. Il pavimento sgombro: solo una grande
+panca di marmo bianco posta al centro e bracieri ai quattro lati.. Un grosso trono in fondo all'ultima
+parete e un senso d'oppressive malvagità che invade anche l'aria di questo macabro luogo di perdizione..
+~
+0 3153993 0
+D4
+La spettrale quiete della conca dei sacrifici.
+~
+~
+0 -1 3567
+S
+#3570
+Nei pressi di una costruzione~
+L'oscurità che ammanta la foresta in questo tratto è minata appena dal chiarore della
+torretta che hai davanti: è una locanda. La costruzione è in pietra levigata ed ha due
+piani, presenta alte finestre dalle ante di legno verniciato di smalto lucido.
+Dall'interno suoni di chiacchierii distesi e qualche risatan contrastano con il rigido
+silenzio del luogo.. Una grossa insegna di legno è affissa sulla porta.
+~
+0 4 1
+D1
+L'entrata della foresta nera.
+~
+~
+0 0 3505
+D3
+Entra, no?
+~
+~
+0 -1 3574
+E
+insegna legno~
+***
+                               LOCANDA
+                            LUCE DI STREGA
+                          ******************
+~
+S
+#3571
+Sala agrifoglio~
+Chiamata così per via del meraviglioso affresco che ne orna il largo soffitto: un delicato
+intreccio di agrifogli, questa stanza dal pavimento di pietra cotta presenta un bel letto
+in legno e ferro, un armadietto accanto e un piccolo scrittoio appoggiato alla parete
+opposta. L'atmosfera calda e piacevole dell'ambiente è arricchita dal delicato calore che
+proviene da un bel braciere in ottone posto proprio accanto al letto.
+~
+0 8 0
+D1
+Il corridoio.
+~
+~
+0 -1 3579
+S
+#3572
+Sala reale~
+E' una stanza molto lussuosa e riproduce esattamente l'alcova di una dimora principesca.
+Tendaggi leggeri in seta e filigrana d'oro coprono le ampie finestre, un camino scolpito
+magistralmente è stato ricavato da una rientranza naturale di una delle pareti, un grosso
+letto di legno scuro e platino è rischiarato appena dalla docile fiamma di una candela
+argentata, posta sul lungo mobile d'ebano che occupa la totalità del muro che lo ospita.
+Un bel tappeto circolare, dai toni caldi, copre il pavimento lasciando alla vista solo
+gli angoli, ed è marmo pallido.
+~
+0 8 0
+D2
+Il corridoio.
+~
+~
+0 -1 3579
+S
+#3573
+Sala ricovero~
+Questa piccola stanza comune è destinata agli avventori che hanno bisogno di ospitalità
+a buon mercato, infatti il mobilio è ridotto all'essenziale: tavoli quadrati in legno
+grezzo al centro della stanza e qualche branda di ferro sistemata lungo le pareti..
+~
+0 8 0
+D0
+Il corridoio.
+~
+~
+0 -1 3579
+S
+#3574
+Luce di strega~
+Sei entrato nella locanda immettendoti in uno spazioso salone d'ingresso: le pareti
+rivestite da lunghi drappi sono da essi quasi completamente coperte, fiaccole dalla
+misteriosa fiamma argentata s'affacciano oscillando dai quattro spigoli delle mura.
+Al centro una bella scrivania d'ebano e subito accanto una scala di legno conduce
+probabilmente alle camere del piano superiore.. Voci festose invadono il salone in
+modo ovattato ma ben udibile: provengono dalle altre camere della locanda.
+~
+0 12 0
+D0
+Il ritrovo della locanda
+~
+~
+0 0 3576
+D1
+Per di qua si esce..
+~
+~
+0 -1 3570
+D3
+Una stanza.
+~
+~
+0 0 3577
+D4
+Una scalinata di legno conduce al piano superiore..
+~
+~
+0 -1 3579
+S
+#3575
+Tra rovi intricati~
+Qui s'interrompe la buia strada che a lungo hai percorso lasciando alla tua vista solo un
+immenso cespuglio di intricati rovi acuminati.. Forse un giorno era un florido roseto, ora
+è una gabbia vegetale rinsecchita e scarna, irta di punte e intrisa di sangue.. E faresti
+bene ad allontanarti..
+~
+0 1 3
+D3
+Una stradina nel bosco.
+~
+~
+0 0 3581
+E
+cespuglio~
+Irto, aggrovigliato, gronda sangue..~
+S
+#3576
+Il ritrovo ~
+Il pavimento non presenta tappeti ma è tirato a lucido e il marmo nero venato d'avorio
+che lo compone è in ottimo stato. Tutt'intorno tavolini d'ebano e seggiole e un bancone
+con bicchieri e bottiglie occupa una delle pareti laterali.
+~
+0 8 0
+D2
+La sala d'ingresso della locanda.~
+~
+0 0 3574
+D5
+Strani rumori.. Qualcosa che ribolle..~
+trapdoor~
+2097163 -1 3554
+S
+#3577
+Una stanza angolare~
+Entri in questa stanza dalla forma irregolare ma dal mobilio comodo e ricercato
+Ci sono divanetti in canapa e tavoli di vetro satinato, un grosso camino e tappeti
+distesi sul pavimento. Anche l'atmosfera è pacata e silenziosa e la larga finestra
+che impegna una delle pareti ha un pesante tendaggio in velluto scuro..
+Forse è il posto ideale per le riunioni riservate o per i giochi di carte e dadi..
+~
+0 8 0
+D1
+La sala principale della locanda.~
+~
+0 0 3574
+S
+#3578
+Un ballatoio di pietra~
+E' un grazioso ballatoio in pietra che s'affaccia sul retro della locanda. L'aria è frizzante ed opaca, la
+vista abbraccia gli intrecci delle cime degli alberi e pezzi di cielo.. Un grosso vaso di terracotta è posto
+in terra accanto alla ringhiera di pietra ed una targa è affissa sulla parete occidentale della terrazza.
+~
+0 9 0
+D5
+Un corridoio.~
+~
+0 -1 3579
+E
+targa~
+Una bella targa in pietra recita la seguente iscrizione:
+
+Che il vento e la pace di questo panorama rischiari od oscuri i cuori di chi
+ad esso volge il guardo.. Buona permanenza alla Luce della strega.
+
+                                     ~
+E
+vaso~
+Ad un'attenta osservazione del terriccio contenuto nel vaso scorgi il germe tenero di uno
+stelo d'erba azzurra.. Una piantina in crescita..
+~
+S
+#3579
+Un corridoio~
+Sei appena giunto al piano superiore della locanda e il corridoio che ti si offre come
+prosieguo è ben tenuto e illuminato da torce profumate. Tre porte indicano la presenza
+di altrettante camere. Proseguirai conscio del silenzio dei tuoi passi: il pavimento
+del corridoio è completamente rivestito da un pesante tappeto di lana.
+~
+0 8 0
+D0
+Una stanza dalla porta riccamente decorata. Sulla targhetta in oro c'è scritto: Sala Reale.
+~
+~
+0 -1 3572
+D2
+Una stanza dalla porta di legno.
+~
+~
+0 -1 3573
+D3
+Una stanza dalla porta dipinta. Sulla targa c'è scritto: Sala Agrifoglio.~
+~
+0 -1 3571
+D4
+Sembra un ballatoio..~
+~
+0 -1 3578
+D5
+Per di qua cendi le scale.
+~
+~
+0 -1 3574
+S
+#3581
+Lungo una strada buia~
+Un intricato cespuglio si presenta in lontananza ad est.. Il vento affievolisce il suo
+soffio disteso trasmutandolo in un sinistro uggiolare..
+~
+0 1 3
+D1
+Rovi..
+~
+~
+0 0 3575
+D3
+La strada buia prosegue..~
+~
+0 -1 3582
+S
+#3582
+Lungo una strada buia~
+Il settentrione reca l'oscurità più fitta e gli alberi s'infittiscono unendo le loro
+cime folte ingoiando il cielo e con esso ogni luce.. E il vento sbuffa più forte..
+~
+0 1 3
+D1
+La strada buia prosegue..
+~
+~
+0 0 3581
+D2
+La strada buia prosegue..~
+~
+0 -1 3583
+S
+#3583
+Lungo una strada buia~
+Il settentrione reca l'oscurità più fitta e gli alberi s'infittiscono unendo le loro
+cime folte ingoiando il cielo e con esso ogni luce.. E il vento sbuffa più forte..
+~
+0 1 3
+D0
+La strada buia prosegue..~
+~
+0 -1 3582
+D3
+La strada buia prosegue..
+~
+~
+0 -1 3584
+S
+#3584
+Lungo una strada buia~
+Questa strada sembra essere stata costruita di recente, ma forse è solo un'impressione..
+La foresta incombe.. La senti, nera ed opprimente ma al contempo invitante..
+~
+0 1 3
+D1
+La strada buia prosegue..
+~
+~
+0 0 3583
+D3
+L'oscurità rivela la nera foresta..
+~
+~
+0 -1 3513
+S
+#3586
+Sul margine della foresta nera~
+Sei qui, sul margine della nera foresta, seguendo una strada limitrofa.. A nord-ovest la
+via s'allarga in una grande strada e capisci che è molto trafficata dalle numerose tracce
+presenti sul terreno: infatti quella è la periferia della città di Darkhaven. A sud-ovest,
+invece, la via prosegue inalterata.
+~
+0 0 2
+D7
+La periferia di Darkhaven.
+~
+~
+0 -1 3503
+D9
+La stradina prosegue..
+~
+~
+0 -1 3587
+S
+#3587
+Lungo una strada silenziosa~
+Prosegui lungo questa silente stradina attraverso la foresta.. Il suono della vicina
+civiltà echeggia lentamente.. La foresta muta lentamente, man mano che si spinge a sud..
+~
+0 0 2
+D1
+~
+~
+0 -1 2300
+D2
+La silente stradina prosegue..
+~
+~
+0 -1 3588
+D6
+La stradina costeggia il margine della nera foresta..
+~
+~
+0 -1 3586
+S
+#3588
+Una strada silenziosa~
+Prosegui lungo questa silente stradina attraverso la foresta.. Il suono della vicina
+civiltà echeggia lentamente da nord, in avvicinamento.. La foresta muta lentamente, man
+mano che si spinge a sud..
+~
+0 0 2
+D0
+Continua la strada silente..
+~
+~
+0 -1 3587
+D8
+La strada qui prende una piegata..
+~
+~
+0 -1 1501
+S
+#3590
+Sotto il ponte di sardonice~
+Una griglia aprendosi ti ha calato qui, sotto la superficie del ponte. Qualche rampicante
+abbraccia la pietra nera venata di bianco attorcigliandosi più e più volte su sè stesso..
+L'eco lontana del vento è attutita dalla volta del ponte.. A nord alcune strade, avvolte
+da oscura nebbia, s'incrociano..
+~
+0 0 4
+D0
+Un oscuro incrocio di strade.~
+~
+0 -1 7031
+D4
+La superficie del ponte.~
+~
+67584 -1 3504
+S
+#3591
+All'interno di una capanna diroccata~
+Sei entrato in una delle strana e cadente capanna accanto al pendio. 
+Tutto quello che vedi e' cio' che rimane di quello che doveva essere un'abitazione.
+Sono rimaste ancora qui addirittura delle suppellettili, la gente che e'
+andata via da qui doveva andare molto di fretta.Noti sul pavimento una strana
+botola chiusa...
+~
+0 0 2
+D0
+Un viottolo.~
+~
+0 0 3502
+D5
+E' l'oscurità che regna sovrana.
+~
+botola~
+0 3514 3592
+S
+#3592
+Un nascondiglio~
+Sei nel ripostiglio dell'abitazione. E' un luogo alquanto umido e
+putrescente e non vedi l'ora di tornare sopra.
+~
+0 0 2
+D4
+Un timido raggio di luce, forse..
+~
+botola~
+15 3514 3591
+S
+#0
+
+
+#RESETS
+O 0 3511 1 3504
+M 0 3501 8 3506
+M 0 3501 8 3509
+M 0 3501 8 3512
+M 0 3501 8 3512
+M 0 3501 8 3513
+M 0 3500 2 3521
+E 1 3509 2 8
+M 0 3500 2 3521
+E 1 3509 2 8
+M 0 3501 8 3522
+D 0 3524 4 2
+M 0 3506 4 3530
+E 1 3510 4 10
+O 0 3513 1 3531
+D 0 3531 5 2
+D 0 3532 0 1
+D 0 3545 2 1
+M 0 3501 8 3551
+M 0 3501 8 3551
+M 0 3506 4 3551
+G 1 3505 1
+E 1 3510 4 10
+D 0 3551 2 2
+M 0 3506 4 3552
+E 1 3510 4 10
+D 0 3552 0 2
+O 0 3504 1 3554
+P 1 3503 1 3504
+D 0 3554 4 1
+M 0 3506 4 3555
+E 1 3510 4 10
+M 0 3505 2 3559
+E 1 3507 2 20
+E 1 3506 2 12
+M 0 3505 2 3560
+E 1 3507 2 20
+E 1 3506 2 12
+M 0 3507 1 3568
+E 1 3508 1 17
+M 0 3508 1 3574
+E 1 3502 1 17
+M 0 3502 1 3575
+E 1 3500 1 19
+M 0 3503 1 3576
+G 1 3501 3503
+D 0 3576 5 1
+M 0 3504 1 3577
+O 0 3512 1 3586
+S
+
+
+#SHOPS
+ 3503   17  0  0  0  0   130  90         7 21    ; un cameriere
+0
+
+
+#REPAIRS
+0
+
+
+#SPECIALS
+M  3500 spec_thief
+S
+
+
+#END

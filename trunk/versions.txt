@@ -1,0 +1,13 @@
+11/07/2006:
+- Release iniziale 0.6u
+
+------------------------------------------------------------------------------------------
+
+02/08/2006:
+- Conversione globale files da Dos a Unix, per gli a capo differenti.
+- Corretto l'opzione NOCRYPT che si trova nel Makefile e che non era funzionante, ora
+    dovrebbe andare, non cambiatela quando avete già ufficialmente aperto, decidete prima
+    il tipo di salvataggio della password, perchè il formato non è convertibile.
+- Altre piccole correzioni.
+
+------------------------------------------------------------------------------------------

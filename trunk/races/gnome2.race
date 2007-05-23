@@ -1,0 +1,35 @@
+#RACE
+RaceNumber     RACE_GNOME_2
+NameMale       Gnomo_2~
+NameFema       Gnoma_2~
+Color          AT_DGREEN dark olive green~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AttrPlus       -10  0  -5   10   0   0    0   0   0    0   0   0    5   0   0
+*              Sight Heari Smell Taste Touch Sixth
+SensPlus         0     0     0     0     0     0
+PointLimit     -2 1 6 1
+Affected       ~
+Resist         ~
+Suscept        ~
+*
+LangNatural    LANGUAGE_COMMON LANGUAGE_GNOME~
+*
+LangLearnable  ~
+AlignStart     0
+MinAlign       -1000
+MaxAlign       1000
+ACPlus         0
+Attacks        0
+Defenses       0
+ExpMult        120
+Height         135
+Weight         45,000
+TonalitySound  voce piccola~
+Tonality       75
+HungerMod      1
+ThirstMod      0
+SavingThrow    0 0 0 0 0
+End
+
+#END
+

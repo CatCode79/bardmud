@@ -1,0 +1,12 @@
+#CLASS
+ClassNumber    CLASS_BAKER
+NameMale       Panettiere~
+NameFemale     Panettiere~
+Color          AT_GREY bianco farina~
+PointsName     Vita Movimento Mana Anima~
+*              Str Res Con  Int Coc Wil  Agi Ref Spe  Spi Mig Abs  Emp Bea Lea
+AvarageAttr     0   0   0    0   0   0    0   0   0    0   0   0    0   0   0
+*AvarageSkill
+End
+
+#END
